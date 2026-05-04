@@ -1035,6 +1035,7 @@ function toggleEchoPause() {
     echoState.timers.forEach(t => clearTimeout(t));
     echoState.timers = [];
     if (echoState.animId) { cancelAnimationFrame(echoState.animId); echoState.animId = null; }
+    echoState.cycleId++; // kill all running callbacks
     btn.textContent = '▶ 繼續';
     setEchoPhase('pause', '⏸', '已暫停');
   } else {
