@@ -472,6 +472,12 @@ const videos = [
   }
 ];
 const LANGS = { nl:'🇳🇱 荷蘭文', ja:'🇯🇵 日文', en:'🇬🇧 英文', de:'🇩🇪 德文', fr:'🇫🇷 法文', es:'🇪🇸 西文', ko:'🇰🇷 韓文' };
+const CH_SHORT = {
+  'Ad Appel Taaltrainingen - Leer Nederlands met ons': 'Ad Appel',
+  '@LearnDutch! #NT2 met Frederika': 'Frederika',
+  'NT2 Academy': 'NT2 Academy',
+  'Dutch Today': 'Dutch Today',
+};
 let filter = 'all';
 
 function esc(t) { return t ? t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : ''; }
@@ -501,21 +507,24 @@ function renderStats() {
 }
 
 function renderPills() {
-  const langs = [...new Set(videos.map(v=>v.lang))].sort();
+  const channels = [...new Set(videos.map(v=>v.channel))].sort();
   document.getElementById('pills').innerHTML =
     `<div class="pill ${filter==='all'?'active':''}" onclick="setF('all')">全部</div>` +
-    langs.map(l => `<div class="pill ${filter===l?'active':''}" onclick="setF('${l}')">${LANGS[l]||l}</div>`).join('');
+    channels.map(ch => {
+      const short = CH_SHORT[ch] || ch.substring(0,12);
+      return `<div class="pill ${filter===ch?'active':''}" onclick="setF('${ch.replace(/'/g,"\\'")}')">${short}</div>`;
+    }).join('');
 }
 
 function setF(f) {
   filter = f;
   renderPills();
   renderCards();
-  document.getElementById('filter-label').textContent = f === 'all' ? '全部' : (LANGS[f] || f);
+  document.getElementById('filter-label').textContent = f === 'all' ? '全部' : (CH_SHORT[f] || f);
 }
 
 function renderCards() {
-  const list = filter === 'all' ? videos : videos.filter(v => v.lang === filter);
+  const list = filter === 'all' ? videos : videos.filter(v => v.channel === filter);
   document.getElementById('cards').innerHTML = list.map(v => {
     const p = getPrac(v.id);
     const pct = v.segments ? Math.round(p/v.segments*100) : 0;
