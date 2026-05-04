@@ -649,6 +649,7 @@
   </div>
   <div class="echo-sentence" id="echo-sentence"></div>
   <div class="echo-controls">
+    <button class="echo-ctrl" onclick="echoPrev()">⏮ 上一句</button>
     <button class="echo-ctrl" onclick="echoReplay()">🔄 重聽</button>
     <button class="echo-ctrl primary" id="echo-main-btn" onclick="echoNext()">▶ 開始</button>
     <button class="echo-ctrl" id="echo-pause-btn" onclick="toggleEchoPause()">⏸ 暫停</button>
@@ -1027,6 +1028,13 @@ function toggleEchoPause() {
     btn.textContent = '⏸ 暫停';
     echoRunCycle(echoState.lineIdx);
   }
+}
+
+function echoPrev() {
+  echoClearAll();
+  echoState.lineIdx = Math.max(0, echoState.lineIdx - 1);
+  updateEchoUI();
+  echoRunCycle(echoState.lineIdx);
 }
 
 function echoNext() { echoPaused = false; document.getElementById('echo-pause-btn').textContent = '⏸ 暫停'; echoClearAll(); echoRunCycle(echoState.lineIdx); }
