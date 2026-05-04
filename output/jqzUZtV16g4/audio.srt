@@ -1,0 +1,203 @@
+1
+00:00:02,120 --> 00:00:07,060
+Dit is een voorbeeld examen Spreekvaardigheid A2.
+
+2
+00:00:08,240 --> 00:00:12,000
+Het examen is gemaakt door Ad Apple Taaltrainingen.
+
+3
+00:00:13,400 --> 00:00:15,600
+Het examen heeft 12 vragen.
+
+4
+00:00:17,060 --> 00:00:19,480
+U geeft antwoord op alle vragen.
+
+5
+00:00:21,060 --> 00:00:27,220
+Uhoortenzietnaelkevraageenvoorbeeldvaneengoedantwoord
+
+6
+00:00:28,900 --> 00:00:29,420
+Succes!
+
+7
+00:00:35,180 --> 00:00:38,020
+Ik ga drie keer per jaar op vakantie.
+
+8
+00:00:39,340 --> 00:00:40,980
+Hoe vaak gaat u op vakantie?
+
+9
+00:00:41,900 --> 00:00:43,180
+En waar gaat u dan naartoe?
+
+10
+00:01:01,960 --> 00:01:05,380
+Ik ga één keer per jaar op vakantie.
+
+11
+00:01:06,440 --> 00:01:07,840
+Ik ga naar Thailand.
+
+12
+00:01:12,800 --> 00:01:17,740
+Ik spreek vier talen en mijn moedertaal is Nederlands.
+
+13
+00:01:19,400 --> 00:01:23,860
+Wat is uw moedertaal en welke talen spreekt u?
+
+14
+00:01:41,880 --> 00:01:44,480
+MijnmoedertaalisEngels
+
+15
+00:01:45,340 --> 00:01:48,460
+IkspreekEngelseneenkleinbeetjeNederlands
+
+16
+00:01:52,580 --> 00:01:57,240
+Ik heb twee zussen en veel neven en nichten.
+
+17
+00:01:58,540 --> 00:02:00,680
+Wat kunt u vertellen over uw familie?
+
+18
+00:02:19,760 --> 00:02:25,420
+Ik heb twee broers en geen zussen. Mijn familie is groot.
+
+19
+00:02:26,240 --> 00:02:30,340
+Ik heb veel ooms en tantes en neven en nichten.
+
+20
+00:02:34,980 --> 00:02:39,000
+Mijn dag begint altijd om zes uur in de ochtend.
+
+21
+00:02:40,380 --> 00:02:44,320
+Hoe laat begint uw dag en wat doet u dan het eerst?
+
+22
+00:03:03,520 --> 00:03:08,700
+Ik sta op om acht uur. Ik drink dan eerst koffie.
+
+23
+00:03:13,600 --> 00:03:17,020
+Ik woon in een rijtjeshuis in Heemstede.
+
+24
+00:03:18,980 --> 00:03:23,240
+Waar woont u en wat voor contact heeft u met uw buren?
+
+25
+00:03:42,220 --> 00:03:47,080
+Ik woon in Amsterdam en ik heb weinig contact met de buren.
+
+26
+00:03:51,460 --> 00:03:55,440
+Ik doe allerlei dingen om gezond te blijven.
+
+27
+00:03:56,960 --> 00:04:00,380
+Wat doet u allemaal om gezond te blijven?
+
+28
+00:04:18,840 --> 00:04:21,340
+Ikdoeveelaansport
+
+29
+00:04:22,520 --> 00:04:26,780
+Ikeetnietzoveelenikdrinkgeenalcohol
+
+30
+00:04:31,180 --> 00:04:35,060
+Ikdoemijnboodschappenbijnaaltijdmetdefiets
+
+31
+00:04:36,020 --> 00:04:37,480
+Hoedoetuuwboodschappen
+
+32
+00:04:52,020 --> 00:04:58,340
+Ikdoemijnboodschappenmetdeauto
+
+33
+00:05:02,940 --> 00:05:05,300
+Ikhoudvanautorijden
+
+34
+00:05:06,540 --> 00:05:14,560
+HoudtuookvanautorijdenVertelookwaaromuwelofnietvanautorijdenhoudt
+
+35
+00:05:32,980 --> 00:05:38,500
+Ik houd niet van autorijden, want er zijn altijd files op de weg.
+
+36
+00:05:43,080 --> 00:05:46,820
+Ikluisterelkedagnaarhetnieuwsopderadio
+
+37
+00:05:48,340 --> 00:05:54,240
+Hoevaakluistertunaarderadioenwathoortuhetliefstopderadio
+
+38
+00:06:13,320 --> 00:06:16,300
+Ikluisterelkedagnaarderadio
+
+39
+00:06:17,480 --> 00:06:19,980
+Ikluisterhetliefstnaarmuziek
+
+40
+00:06:25,100 --> 00:06:28,280
+Ikgagraagnaareenfeestjeinhetweekend
+
+41
+00:06:29,780 --> 00:06:36,580
+Watdoetuhetliefstinhetweekendenvertelookwaaromudatleukvindt
+
+42
+00:06:54,240 --> 00:06:59,960
+Ik ga het liefst naar een discotheek, want ik houd van dansen.
+
+43
+00:07:04,840 --> 00:07:07,840
+Ikontvanggraagvriendenopbezoek
+
+44
+00:07:09,080 --> 00:07:13,780
+Ontvangtugraagvriendenenwatdoetudanmetuwvrienden
+
+45
+00:07:32,800 --> 00:07:38,580
+Soms komen vrienden op bezoek. Dan gaan we samen lekker eten.
+
+46
+00:07:43,040 --> 00:07:46,000
+Ikvinddewintereenheerlijkseizoen
+
+47
+00:07:47,280 --> 00:07:52,380
+Welkseizoenvindtuhetprettigstenvertelookwaarom
+
+48
+00:08:10,680 --> 00:08:16,080
+Ik vind de zomer goed. In de zomer is het lekker warm.
+
+49
+00:08:19,820 --> 00:08:24,240
+DitwaseenvoorbeeldexamenSpreekvaardigheidA2
+
+50
+00:08:26,120 --> 00:08:27,660
+Succesbijhetechteexamen
+
+51
+00:08:37,780 --> 00:08:37,980
+TV Gelderland 2021

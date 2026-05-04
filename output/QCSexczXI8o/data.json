@@ -1,0 +1,414 @@
+{
+  "video_id": "QCSexczXI8o",
+  "video_info": {
+    "title": "Spreekvaardigheid A2 - Oefenexamen 15 - januari 2021",
+    "channel": "Ad Appel Taaltrainingen - Leer Nederlands met ons",
+    "duration": 490
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Dit is een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是一個口語能力 A2 範例考試。",
+        "start": 2.78,
+        "end": 8.0
+      },
+      {
+        "text": "Het examen is gebaseerd op examenvragen van DUO.",
+        "translation": "這個考試是基於 DUO 的考試題目。",
+        "start": 9.56,
+        "end": 13.32
+      },
+      {
+        "text": "Het examen heeft 12 vragen.",
+        "translation": "考試有 12 題問題。",
+        "start": 15.32,
+        "end": 17.6
+      },
+      {
+        "text": "U geeft antwoord op alle vragen.",
+        "translation": "您需回答所有問題。",
+        "start": 19.16,
+        "end": 21.48
+      },
+      {
+        "text": "U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.",
+        "translation": "每題之後您會聽到並看到一個好的回答範例。",
+        "start": 23.48,
+        "end": 28.5
+      },
+      {
+        "text": "Succes!",
+        "translation": "祝您成功！",
+        "start": 31.06,
+        "end": 31.88
+      },
+      {
+        "text": "Ik woon in het centrum van een grote stad.",
+        "translation": "我住在一個大城市的市中心。",
+        "start": 36.34,
+        "end": 39.36
+      },
+      {
+        "text": "Waar woont u? Vertel ook hoe u dat vindt.",
+        "translation": "您住在哪裡？也請說說您怎麼看待那裡。",
+        "start": 41.2,
+        "end": 46.2
+      },
+      {
+        "text": "Ik woon in Amsterdam.",
+        "translation": "我住在阿姆斯特丹。",
+        "start": 64.48,
+        "end": 66.56
+      },
+      {
+        "text": "Amsterdam is de mooiste stad van Nederland.",
+        "translation": "阿姆斯特丹是荷蘭最美的城市。",
+        "start": 68.0,
+        "end": 71.16
+      },
+      {
+        "text": "Met wie eet u meestal samen?",
+        "translation": "您通常和誰一起吃飯？",
+        "start": 76.66,
+        "end": 78.98
+      },
+      {
+        "text": "Zeg ook waar u het liefst eet.",
+        "translation": "也請說說您最喜歡在哪裡吃。",
+        "start": 80.72,
+        "end": 82.98
+      },
+      {
+        "text": "Ik eet meestal met mijn partner. Ik eet het liefst thuis.",
+        "translation": "我通常和伴侶一起吃飯。我最喜歡在家吃。",
+        "start": 101.14,
+        "end": 106.0
+      },
+      {
+        "text": "Waar hebt u Nederlandse les?",
+        "translation": "您在哪裡上荷蘭語課？",
+        "start": 111.18,
+        "end": 113.42
+      },
+      {
+        "text": "Zeg ook hoe lang u al les hebt.",
+        "translation": "也請說說您上了多久的課。",
+        "start": 113.42,
+        "end": 127.12
+      },
+      {
+        "text": "Ik heb Nederlandse les bij ADAPO.",
+        "translation": "我在 ADAPO 上荷蘭語課。",
+        "start": 135.84,
+        "end": 139.12
+      },
+      {
+        "text": "Ik heb vier maanden les.",
+        "translation": "我上了四個月的課。",
+        "start": 140.32,
+        "end": 142.16
+      },
+      {
+        "text": "Ik heb een nieuwe trui gekocht.",
+        "translation": "我買了一件新毛衣。",
+        "start": 146.76,
+        "end": 149.4
+      },
+      {
+        "text": "Wat hebt u kort geleden gekocht?",
+        "translation": "您最近買了什麼？",
+        "start": 150.76,
+        "end": 152.98
+      },
+      {
+        "text": "Ik heb gisteren een paraplu gekocht bij de HEMA.",
+        "translation": "我昨天在 HEMA 買了一把雨傘。",
+        "start": 170.46,
+        "end": 174.96
+      },
+      {
+        "text": "Wat vindt u beter in uw eigen land dan in Nederland?",
+        "translation": "您覺得自己國家的什麼比荷蘭好？",
+        "start": 179.26,
+        "end": 184.58
+      },
+      {
+        "text": "Vertel ook waarom.",
+        "translation": "也請說明理由。",
+        "start": 186.04,
+        "end": 187.24
+      },
+      {
+        "text": "Ik vind het klimaat in mijn eigen land beter",
+        "translation": "我覺得自己國家的氣候比較好，",
+        "start": 205.96,
+        "end": 209.5
+      },
+      {
+        "text": "want ik hou van zon en warmte.",
+        "translation": "因為我喜歡陽光和溫暖。",
+        "start": 210.84,
+        "end": 213.64
+      },
+      {
+        "text": "Welke stad zou u graag willen zien? Zeg ook wat u daar wilt doen.",
+        "translation": "您想去看哪個城市？也請說說您想在那裡做什麼。",
+        "start": 219.06,
+        "end": 223.88
+      },
+      {
+        "text": "Ik wil graag naar Parijs. Ik wil daar de Eiffeltoren zien.",
+        "translation": "我想去巴黎。我想去看艾菲爾鐵塔。",
+        "start": 242.28,
+        "end": 247.62
+      },
+      {
+        "text": "Ik heb op school leren lezen. Wat hebt u op school geleerd?",
+        "translation": "我在學校學會了閱讀。您在學校學了什麼？",
+        "start": 253.72,
+        "end": 259.7
+      },
+      {
+        "text": "Zeg ook wat u het leukst vond om te leren.",
+        "translation": "也請說說您最喜歡學什麼。",
+        "start": 261.22,
+        "end": 264.48
+      },
+      {
+        "text": "Ik heb op school leren lezen.",
+        "translation": "我在學校學會了閱讀。",
+        "start": 282.88,
+        "end": 285.9
+      },
+      {
+        "text": "Ik vond schrijven het leukst om te leren.",
+        "translation": "我最喜歡學寫字。",
+        "start": 286.86,
+        "end": 289.98
+      },
+      {
+        "text": "Ik moet soms 's nachts werken. Wanneer werkt u het liefst?",
+        "translation": "我有時候必須夜間工作。您什麼時候最喜歡工作？",
+        "start": 295.24,
+        "end": 301.08
+      },
+      {
+        "text": "Vertel ook waarom.",
+        "translation": "也請說明理由。",
+        "start": 302.64,
+        "end": 303.7
+      },
+      {
+        "text": "Ik werk het liefst in de ochtend, want dan ben ik fit.",
+        "translation": "我最喜歡早上工作，因為那時我精神很好。",
+        "start": 322.76,
+        "end": 327.04
+      },
+      {
+        "text": "Hoe vaak leest u de krant?",
+        "translation": "您多久看一次報紙？",
+        "start": 332.86,
+        "end": 335.36
+      },
+      {
+        "text": "Vertel ook wat u van de krant vindt.",
+        "translation": "也請說說您對報紙的看法。",
+        "start": 336.44,
+        "end": 339.04
+      },
+      {
+        "text": "Ik lees de krant nooit, want ik vind de krant saai.",
+        "translation": "我從不看報紙，因為我覺得報紙很無聊。",
+        "start": 357.64,
+        "end": 363.4
+      },
+      {
+        "text": "Wat kunt u goed? Vertel ook van wie u dat geleerd hebt.",
+        "translation": "您什麼事情做得很好？也請說說您從誰學來的。",
+        "start": 367.98,
+        "end": 373.34
+      },
+      {
+        "text": "Ik kan goed praten. Ik heb leren praten van mijn moeder.",
+        "translation": "我講話很流利。我是從媽媽那裡學會說話的。",
+        "start": 391.64,
+        "end": 397.54
+      },
+      {
+        "text": "Wat voor eten maakt u het liefst?",
+        "translation": "您最喜歡做什麼料理？",
+        "start": 403.08,
+        "end": 406.1
+      },
+      {
+        "text": "Vertel ook wat u daarvoor nodig hebt.",
+        "translation": "也請說說您做那道菜需要什麼材料。",
+        "start": 406.4,
+        "end": 409.38
+      },
+      {
+        "text": "Ik maak het liefst rijst met kip.",
+        "translation": "我最喜歡做雞肉飯。",
+        "start": 427.94,
+        "end": 430.92
+      },
+      {
+        "text": "Ik heb rijst, kip en twee pannen nodig.",
+        "translation": "我需要米、雞肉和兩個鍋子。",
+        "start": 432.26,
+        "end": 435.72
+      },
+      {
+        "text": "Waarmee speelde u vroeger het liefst? Vertel ook waar.",
+        "translation": "您小時候最喜歡玩什麼？也請說說在哪裡玩。",
+        "start": 441.24,
+        "end": 445.96
+      },
+      {
+        "text": "Ik speelde vroeger het liefst met mijn vrienden op straat.",
+        "translation": "我小時候最喜歡和朋友在街上玩。",
+        "start": 465.92,
+        "end": 470.04
+      },
+      {
+        "text": "Dit was een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是一個口語能力 A2 範例考試。",
+        "start": 474.14,
+        "end": 478.28
+      },
+      {
+        "text": "Succes bij het echte examen!",
+        "translation": "祝您正式考試順利！",
+        "start": 479.82,
+        "end": 481.78
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the format of the example exam?",
+        "question_native": "這個範例考試的形式是什麼？",
+        "options": [
+          "Written exam",
+          "Speaking exam",
+          "Multiple choice exam"
+        ],
+        "answer": "Speaking exam"
+      },
+      {
+        "question": "How many questions does the exam contain?",
+        "question_native": "這個考試包含多少題？",
+        "options": [
+          "10 questions",
+          "12 questions",
+          "15 questions"
+        ],
+        "answer": "12 questions"
+      },
+      {
+        "question": "What should you do after each question?",
+        "question_native": "回答每題後您會看到什麼？",
+        "options": [
+          "A correct answer example",
+          "A new question",
+          "A score report"
+        ],
+        "answer": "A correct answer example"
+      },
+      {
+        "question": "Where does the person in the example live?",
+        "question_native": "範例中的人住在哪裡？",
+        "options": [
+          "Amsterdam",
+          "Paris",
+          "A small village"
+        ],
+        "answer": "Amsterdam"
+      },
+      {
+        "question": "What is the favorite place to eat for the person in the example?",
+        "question_native": "範例中最喜歡在哪裡吃飯？",
+        "options": [
+          "At home",
+          "At a restaurant",
+          "At work"
+        ],
+        "answer": "At home"
+      },
+      {
+        "question": "What reason is given for preferring to work in the morning?",
+        "question_native": "為什麼範例中喜歡早上工作？",
+        "options": [
+          "Because it's quiet",
+          "Because they feel fit",
+          "Because it's colder"
+        ],
+        "answer": "Because they feel fit"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "voorbeeldexamen",
+        "meaning": "範例考試"
+      },
+      {
+        "word": "spreekvaardigheid",
+        "meaning": "口語能力"
+      },
+      {
+        "word": "examen",
+        "meaning": "考試"
+      },
+      {
+        "word": "vragen",
+        "meaning": "問題"
+      },
+      {
+        "word": "antwoord",
+        "meaning": "回答"
+      },
+      {
+        "word": "partner",
+        "meaning": "伴侶"
+      },
+      {
+        "word": "les",
+        "meaning": "課程"
+      },
+      {
+        "word": "klimaat",
+        "meaning": "氣候"
+      },
+      {
+        "word": "Eiffeltoren",
+        "meaning": "艾菲爾鐵塔"
+      },
+      {
+        "word": "schrijven",
+        "meaning": "寫字"
+      },
+      {
+        "word": "krant",
+        "meaning": "報紙"
+      },
+      {
+        "word": "praten",
+        "meaning": "說話"
+      },
+      {
+        "word": "rijst",
+        "meaning": "米飯"
+      },
+      {
+        "word": "kip",
+        "meaning": "雞肉"
+      },
+      {
+        "word": "spelen",
+        "meaning": "玩耍"
+      }
+    ]
+  }
+}

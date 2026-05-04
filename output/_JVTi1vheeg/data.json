@@ -1,0 +1,452 @@
+{
+  "video_id": "_JVTi1vheeg",
+  "video_info": {
+    "title": "Spreekvaardigheid A2 - Oefenexamen 4 - 2025",
+    "channel": "Ad Appel Taaltrainingen - Leer Nederlands met ons",
+    "duration": 529
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Dit is een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是一場口語能力A2級的範例測驗。",
+        "start": 2.78,
+        "end": 7.96
+      },
+      {
+        "text": "Het examen is gebaseerd op examenvragen van DUO.",
+        "translation": "這個考試是基於DUO的考題。",
+        "start": 9.56,
+        "end": 13.32
+      },
+      {
+        "text": "Het examen heeft 12 vragen.",
+        "translation": "考試有12個問題。",
+        "start": 15.32,
+        "end": 17.6
+      },
+      {
+        "text": "U geeft antwoord op alle vragen.",
+        "translation": "您需回答所有問題。",
+        "start": 19.14,
+        "end": 21.48
+      },
+      {
+        "text": "U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.",
+        "translation": "您在每個問題後，都會聽到和看到一個好的答案範例。",
+        "start": 23.48,
+        "end": 28.5
+      },
+      {
+        "text": "Succes! Reist u vaak met de bus?",
+        "translation": "祝您成功！您常搭公車旅行嗎？",
+        "start": 30.8,
+        "end": 36.32
+      },
+      {
+        "text": "Vertel ook waarom.",
+        "translation": "請說明原因。",
+        "start": 37.68,
+        "end": 39.12
+      },
+      {
+        "text": "Ja, dat is snel!",
+        "translation": "是的，那很快！",
+        "start": 56.68,
+        "end": 59.76
+      },
+      {
+        "text": "Wat vindt u een leuk programma op tv?",
+        "translation": "您覺得電視上有什麼有趣的節目？",
+        "start": 65.12,
+        "end": 67.6
+      },
+      {
+        "text": "Vertel ook welk programma u niet leuk vindt.",
+        "translation": "請說明您不喜歡哪個節目。",
+        "start": 68.54,
+        "end": 71.6
+      },
+      {
+        "text": "Een film is leuk. Voetbal is niet leuk.",
+        "translation": "電影很有趣。足球不有趣。",
+        "start": 89.7,
+        "end": 94.02
+      },
+      {
+        "text": "Welk fruit eet u graag?",
+        "translation": "您喜歡吃什麼水果？",
+        "start": 98.96,
+        "end": 101.5
+      },
+      {
+        "text": "Vertel ook hoe vaak u fruit eet.",
+        "translation": "請說明您多久吃一次水果。",
+        "start": 102.82,
+        "end": 105.6
+      },
+      {
+        "text": "Appel. Ik eet elke dag een appel.",
+        "translation": "蘋果。我每天都吃一顆蘋果。",
+        "start": 124.38,
+        "end": 127.68
+      },
+      {
+        "text": "In Nederland regent het vaak. Wat vindt u daarvan?",
+        "translation": "在荷蘭經常下雨。您覺得怎麼樣？",
+        "start": 132.48,
+        "end": 137.42
+      },
+      {
+        "text": "Vertel ook hoe het weer is in uw eigen land.",
+        "translation": "請說說您自己國家的天氣如何。",
+        "start": 139.44,
+        "end": 142.32
+      },
+      {
+        "text": "Het weer in Nederland is lekker.",
+        "translation": "荷蘭的天氣很舒服。",
+        "start": 160.78,
+        "end": 163.96
+      },
+      {
+        "text": "Het weer in mijn eigen land is ook lekker.",
+        "translation": "我自己國家的天氣也很舒服。",
+        "start": 165.36,
+        "end": 167.76
+      },
+      {
+        "text": "Hoe vaak gebruikt u uw telefoon?",
+        "translation": "您多久使用一次手機？",
+        "start": 171.88,
+        "end": 174.26
+      },
+      {
+        "text": "Vertel ook waarvoor u uw telefoon gebruikt.",
+        "translation": "請說明您用手機做什麼。",
+        "start": 175.34,
+        "end": 179.14
+      },
+      {
+        "text": "Ik bel elke dag met mijn moeder.",
+        "translation": "我每天都和媽媽通電話。",
+        "start": 198.26,
+        "end": 201.88
+      },
+      {
+        "text": "Ik was vandaag te laat op mijn werk.",
+        "translation": "我今天上班遲到了。",
+        "start": 206.8,
+        "end": 209.8
+      },
+      {
+        "text": "Waarom bent u wel eens te laat?",
+        "translation": "您為什麼偶爾會遲到？",
+        "start": 211.84,
+        "end": 213.74
+      },
+      {
+        "text": "Zeg ook wat u dan doet.",
+        "translation": "請說明您那時候做什麼。",
+        "start": 214.78,
+        "end": 227.44
+      },
+      {
+        "text": "Ik sta soms in de file. Dan bel ik mijn baas.",
+        "translation": "我有時候塞車。這時候我會打電話給老闆。",
+        "start": 236.54,
+        "end": 241.18
+      },
+      {
+        "text": "Kijk naar het plaatje. Het is vandaag 5 december.",
+        "translation": "看圖片。今天是12月5日。",
+        "start": 247.0,
+        "end": 252.66
+      },
+      {
+        "text": "Wat doen veel Nederlanders op deze dag?",
+        "translation": "很多荷蘭人在這天會做什麼？",
+        "start": 254.26,
+        "end": 256.9
+      },
+      {
+        "text": "En wat doet u op 5 december?",
+        "translation": "那您12月5日會做什麼？",
+        "start": 258.46,
+        "end": 261.16
+      },
+      {
+        "text": "Zij geven elkaar een cadeau. Ik doe niet mee met Sinterklaas.",
+        "translation": "他們互送禮物。我不參加聖尼古拉斯節。",
+        "start": 279.02,
+        "end": 284.74
+      },
+      {
+        "text": "Kijk naar het plaatje.",
+        "translation": "看圖片。",
+        "start": 291.76,
+        "end": 292.94
+      },
+      {
+        "text": "Het is vandaag 27 april. Koningsdag.",
+        "translation": "今天是4月27日，國王節。",
+        "start": 296.24,
+        "end": 300.46
+      },
+      {
+        "text": "Wat doen veel Nederlanders op deze dag?",
+        "translation": "很多荷蘭人在這天會做什麼？",
+        "start": 301.54,
+        "end": 304.5
+      },
+      {
+        "text": "En wat doet u op Koningsdag?",
+        "translation": "那您國王節會做什麼？",
+        "start": 305.88,
+        "end": 308.04
+      },
+      {
+        "text": "Veel Nederlanders dragen dan oranje kleding.",
+        "translation": "很多荷蘭人會穿橘色衣服。",
+        "start": 325.22,
+        "end": 329.76
+      },
+      {
+        "text": "Ik draag op die dag ook oranje kleding.",
+        "translation": "我那天也會穿橘色衣服。",
+        "start": 330.76,
+        "end": 334.62
+      },
+      {
+        "text": "Kijk naar de plaatjes. Waar woont u liever?",
+        "translation": "看圖片。您比較想住在哪裡？",
+        "start": 341.2,
+        "end": 345.82
+      },
+      {
+        "text": "In een stad of in een dorp? Vertel ook waarom.",
+        "translation": "在城市還是鄉村？請說明原因。",
+        "start": 346.64,
+        "end": 352.1
+      },
+      {
+        "text": "Ik woon liever in de stad.",
+        "translation": "我比較想住在城市。",
+        "start": 369.72,
+        "end": 371.86
+      },
+      {
+        "text": "In de stad zijn winkels en restaurants.",
+        "translation": "城市裡有商店和餐廳。",
+        "start": 373.14,
+        "end": 375.94
+      },
+      {
+        "text": "Kijk naar de plaatjes. In welk huis woont u liever?",
+        "translation": "看圖片。您比較想住在哪一棟房子？",
+        "start": 382.66,
+        "end": 388.62
+      },
+      {
+        "text": "Vertel ook waarom.",
+        "translation": "請說明原因。",
+        "start": 388.62,
+        "end": 391.48
+      },
+      {
+        "text": "Ik woon liever in een flat.",
+        "translation": "我比較想住在公寓。",
+        "start": 408.66,
+        "end": 411.84
+      },
+      {
+        "text": "Ik wil geen tuin.",
+        "translation": "我不要有花園。",
+        "start": 412.84,
+        "end": 414.8
+      },
+      {
+        "text": "Candy gaat graag op vakantie. Kijk naar de plaatjes.",
+        "translation": "Candy 喜歡去度假。看圖片。",
+        "start": 421.14,
+        "end": 426.1
+      },
+      {
+        "text": "Vertel wat zij doet. Gebruik alle plaatjes.",
+        "translation": "請說說她做什麼。請使用所有圖片。",
+        "start": 429.3,
+        "end": 432.54
+      },
+      {
+        "text": "Zij gaat naar een grote stad. Zij gaat shoppen.",
+        "translation": "她去大城市。她去購物。",
+        "start": 450.6,
+        "end": 455.76
+      },
+      {
+        "text": "En zij gaat koffie drinken op een terras.",
+        "translation": "而且她去露天咖啡座喝咖啡。",
+        "start": 456.68,
+        "end": 460.38
+      },
+      {
+        "text": "Theo en Thea zijn op vakantie in Nederland.",
+        "translation": "Theo和Thea在荷蘭度假。",
+        "start": 469.3,
+        "end": 473.06
+      },
+      {
+        "text": "Kijk naar de plaatjes.",
+        "translation": "看圖片。",
+        "start": 474.56,
+        "end": 475.62
+      },
+      {
+        "text": "Wat doen zij tijdens de vakantie? Gebruik alle plaatjes.",
+        "translation": "他們度假時做些什麼？請使用所有圖片。",
+        "start": 479.9,
+        "end": 484.86
+      },
+      {
+        "text": "Zij fietsen. Zij wandelen.",
+        "translation": "他們在騎腳踏車。他們在散步。",
+        "start": 502.56,
+        "end": 505.76
+      },
+      {
+        "text": "En zij zitten bij het water.",
+        "translation": "他們坐在水邊。",
+        "start": 506.92,
+        "end": 508.96
+      },
+      {
+        "text": "Dit was een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是一個口語能力 A2 級的模擬考試。",
+        "start": 511.94,
+        "end": 517.34
+      },
+      {
+        "text": "Succes bij het echte examen!",
+        "translation": "祝你正式考試順利！",
+        "start": 518.38,
+        "end": 520.32
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the main purpose of this video?",
+        "question_native": "這個影片的主要目的為何？",
+        "options": [
+          "To teach Dutch grammar",
+          "To practice Dutch speaking skills for A2 level",
+          "To show tourist attractions in the Netherlands"
+        ],
+        "answer": "To practice Dutch speaking skills for A2 level"
+      },
+      {
+        "question": "What special day is celebrated on December 5th in the video?",
+        "question_native": "影片中12月5日慶祝什麼特殊節日？",
+        "options": [
+          "New Year's Eve",
+          "Sinterklaas (聖尼古拉斯節)",
+          "King's Day"
+        ],
+        "answer": "Sinterklaas (聖尼古拉斯節)"
+      },
+      {
+        "question": "What do many Dutch people wear on King's Day?",
+        "question_native": "許多荷蘭人在國王節穿什麼顏色的衣服？",
+        "options": [
+          "Blue",
+          "Green",
+          "Orange"
+        ],
+        "answer": "Orange"
+      },
+      {
+        "question": "In the video, what does Candy do on vacation?",
+        "question_native": "影片中Candy度假時做什麼活動？",
+        "options": [
+          "Goes hiking in nature",
+          "Goes shopping and drinks coffee at a terrace",
+          "Visits museums"
+        ],
+        "answer": "Goes shopping and drinks coffee at a terrace"
+      },
+      {
+        "question": "Which item is mentioned as eaten daily by the speaker?",
+        "question_native": "說話者每天吃什麼水果？",
+        "options": [
+          "Orange",
+          "Banana",
+          "Apple"
+        ],
+        "answer": "Apple"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "voorbeeldexamen",
+        "meaning": "範例測驗"
+      },
+      {
+        "word": "spreekvaardigheid",
+        "meaning": "口語能力"
+      },
+      {
+        "word": "examen",
+        "meaning": "考試"
+      },
+      {
+        "word": "antwoord",
+        "meaning": "答案"
+      },
+      {
+        "word": "snel",
+        "meaning": "快"
+      },
+      {
+        "word": "programma",
+        "meaning": "節目"
+      },
+      {
+        "word": "fruit",
+        "meaning": "水果"
+      },
+      {
+        "word": "regent",
+        "meaning": "下雨"
+      },
+      {
+        "word": "telefoon",
+        "meaning": "手機"
+      },
+      {
+        "word": "cadeau",
+        "meaning": "禮物"
+      },
+      {
+        "word": "Koningsdag",
+        "meaning": "國王節"
+      },
+      {
+        "word": "winkel",
+        "meaning": "商店"
+      },
+      {
+        "word": "restaurant",
+        "meaning": "餐廳"
+      },
+      {
+        "word": "flat",
+        "meaning": "公寓"
+      },
+      {
+        "word": "vakantie",
+        "meaning": "假期、度假"
+      }
+    ]
+  }
+}

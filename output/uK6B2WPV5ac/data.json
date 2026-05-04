@@ -1,0 +1,470 @@
+{
+  "video_id": "uK6B2WPV5ac",
+  "video_info": {
+    "title": "Spreekvaardigheid A2 - Oefenexamen 6 - 2025",
+    "channel": "Ad Appel Taaltrainingen - Leer Nederlands met ons",
+    "duration": 547
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Dit is een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是一個範例考試：口說能力 A2。",
+        "start": 2.78,
+        "end": 8.0
+      },
+      {
+        "text": "Het examen is gebaseerd op examenvragen van DUO.",
+        "translation": "考試是基於 DUO 的考題。",
+        "start": 9.56,
+        "end": 13.32
+      },
+      {
+        "text": "Het examen heeft 12 vragen.",
+        "translation": "考試有12個問題。",
+        "start": 15.32,
+        "end": 17.6
+      },
+      {
+        "text": "U geeft antwoord op alle vragen.",
+        "translation": "您要回答所有問題。",
+        "start": 19.14,
+        "end": 21.48
+      },
+      {
+        "text": "U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.",
+        "translation": "每題後，您會聽到並看到一個好的回答範例。",
+        "start": 23.48,
+        "end": 28.5
+      },
+      {
+        "text": "Succes!",
+        "translation": "祝您成功！",
+        "start": 31.04,
+        "end": 31.88
+      },
+      {
+        "text": "Ik woon in het centrum van een grote stad.",
+        "translation": "我住在一個大城市的市中心。",
+        "start": 36.34,
+        "end": 39.36
+      },
+      {
+        "text": "Waar woont u? Vertel ook hoe u dat vindt.",
+        "translation": "您住哪裡？也說說您怎麼看。",
+        "start": 41.2,
+        "end": 46.22
+      },
+      {
+        "text": "Ik woon in Amsterdam.",
+        "translation": "我住在阿姆斯特丹。",
+        "start": 64.56,
+        "end": 66.56
+      },
+      {
+        "text": "Amsterdam is de mooiste stad van Nederland.",
+        "translation": "阿姆斯特丹是荷蘭最美的城市。",
+        "start": 68.0,
+        "end": 71.16
+      },
+      {
+        "text": "Met wie eet u meestal samen?",
+        "translation": "您通常與誰一起吃飯？",
+        "start": 76.92,
+        "end": 78.98
+      },
+      {
+        "text": "Zeg ook waar u het liefst eet.",
+        "translation": "也說說您最喜歡在哪裡吃。",
+        "start": 80.72,
+        "end": 82.98
+      },
+      {
+        "text": "Ik eet meestal met mijn partner. Ik eet het liefst thuis.",
+        "translation": "我通常和我的伴侶一起吃飯。我最喜歡在家吃。",
+        "start": 101.14,
+        "end": 106.0
+      },
+      {
+        "text": "Waar hebt u Nederlandse les?",
+        "translation": "您在哪裡上荷蘭語課？",
+        "start": 111.2,
+        "end": 113.42
+      },
+      {
+        "text": "Zeg ook hoe lang alles hebt.",
+        "translation": "也說說您上課多久了。",
+        "start": 113.42,
+        "end": 127.12
+      },
+      {
+        "text": "Ik heb Nederlandse les bij ADAPO.",
+        "translation": "我在 ADAPO 上荷蘭語課。",
+        "start": 135.82,
+        "end": 139.12
+      },
+      {
+        "text": "Ik heb vier maanden les.",
+        "translation": "我上了四個月的課。",
+        "start": 140.3,
+        "end": 142.16
+      },
+      {
+        "text": "Ik heb een nieuwe trui gekocht.",
+        "translation": "我買了一件新毛衣。",
+        "start": 146.8,
+        "end": 149.4
+      },
+      {
+        "text": "Wat hebt u kort geleden gekocht?",
+        "translation": "您最近買了什麼？",
+        "start": 150.76,
+        "end": 152.96
+      },
+      {
+        "text": "Ik heb gisteren een paraplu gekocht bij de HEMA.",
+        "translation": "我昨天在 HEMA 買了一把雨傘。",
+        "start": 170.46,
+        "end": 174.98
+      },
+      {
+        "text": "Wat vindt u beter in uw eigen land dan in Nederland?",
+        "translation": "您覺得自己國家的什麼方面比荷蘭好？",
+        "start": 179.26,
+        "end": 184.56
+      },
+      {
+        "text": "Vertel ook waarom.",
+        "translation": "也說說為什麼。",
+        "start": 185.9,
+        "end": 187.24
+      },
+      {
+        "text": "Ik vind het klimaat in mijn eigen land beter.",
+        "translation": "我覺得我自己的國家的氣候比較好。",
+        "start": 205.96,
+        "end": 209.5
+      },
+      {
+        "text": "Want ik hou van zon en warmte.",
+        "translation": "因為我喜歡陽光和溫暖。",
+        "start": 210.84,
+        "end": 213.66
+      },
+      {
+        "text": "Welke stad zou u graag willen zien? Zeg ook wat u daar wilt doen.",
+        "translation": "您想去看哪一個城市？也說說您想在那裡做什麼。",
+        "start": 219.06,
+        "end": 223.88
+      },
+      {
+        "text": "Ik wil graag naar Parijs. Ik wil daar de Eiffeltoren zien.",
+        "translation": "我想去巴黎。我想在那裡看艾菲爾鐵塔。",
+        "start": 242.14,
+        "end": 247.62
+      },
+      {
+        "text": "Kijk naar het plaatje.",
+        "translation": "請看圖片。",
+        "start": 254.32,
+        "end": 256.48
+      },
+      {
+        "text": "Wie houdt van sport?",
+        "translation": "誰喜歡運動？",
+        "start": 258.54,
+        "end": 260.8
+      },
+      {
+        "text": "Welke sport doet zij hier en hoe vaak doet zij dat volgens u?",
+        "translation": "她在做什麼運動？您覺得她多久做一次？",
+        "start": 262.52,
+        "end": 268.56
+      },
+      {
+        "text": "Zij zwemt. Zij zwemt volgens mij één keer per week.",
+        "translation": "她游泳。我覺得她大約一週游一次。",
+        "start": 286.48,
+        "end": 292.12
+      },
+      {
+        "text": "Kijk naar het plaatje.",
+        "translation": "請看圖片。",
+        "start": 298.82,
+        "end": 299.98
+      },
+      {
+        "text": "Dafne is een sportieve vrouw. Van welke sport houdt zij?",
+        "translation": "Dafne 是一位運動型的女人。她喜歡什麼運動？",
+        "start": 303.86,
+        "end": 309.4
+      },
+      {
+        "text": "Doet zij haar sport liever alleen of samen met anderen?",
+        "translation": "她喜歡單獨運動還是和別人一起？",
+        "start": 310.54,
+        "end": 315.42
+      },
+      {
+        "text": "Dafne loopt hard. Zij doet dat liever alleen.",
+        "translation": "Dafne 喜歡跑步。她較喜歡單獨跑步。",
+        "start": 333.46,
+        "end": 338.5
+      },
+      {
+        "text": "Kijk naar de plaatjes.",
+        "translation": "請看圖片。",
+        "start": 344.18,
+        "end": 346.5
+      },
+      {
+        "text": "Welk schilderij vindt u mooier?",
+        "translation": "您覺得哪幅畫比較漂亮？",
+        "start": 349.22,
+        "end": 351.26
+      },
+      {
+        "text": "Waar kunt u schilderijen bekijken?",
+        "translation": "您在哪裡可以看畫作？",
+        "start": 353.86,
+        "end": 355.82
+      },
+      {
+        "text": "Ik vind het schilderij met de bloemen mooi.",
+        "translation": "我覺得有花的那幅畫很美。",
+        "start": 373.52,
+        "end": 376.82
+      },
+      {
+        "text": "Ik kan schilderijen in het museum bekijken.",
+        "translation": "我可以在博物館裡看畫作。",
+        "start": 377.78,
+        "end": 380.96
+      },
+      {
+        "text": "Kijk naar de plaatjes.",
+        "translation": "請看圖片。",
+        "start": 387.52,
+        "end": 388.82
+      },
+      {
+        "text": "U ziet twee dingen die Nederlanders eten.",
+        "translation": "您看到兩樣荷蘭人會吃的東西。",
+        "start": 391.38,
+        "end": 395.14
+      },
+      {
+        "text": "Drop en appeltaart.",
+        "translation": "甘草糖和蘋果派。",
+        "start": 396.4,
+        "end": 398.18
+      },
+      {
+        "text": "Wat vindt u minder lekker? En wanneer eten Nederlanders volgens u appeltaart?",
+        "translation": "您覺得哪個比較不喜歡？您覺得荷蘭人什麼時候會吃蘋果派？",
+        "start": 399.98,
+        "end": 405.82
+      },
+      {
+        "text": "Ik vind drop niet zo lekker.",
+        "translation": "我不太喜歡甘草糖。",
+        "start": 424.18,
+        "end": 427.0
+      },
+      {
+        "text": "Nederlanders eten appeltaart bij een feestje.",
+        "translation": "荷蘭人在派對上會吃蘋果派。",
+        "start": 428.48,
+        "end": 431.78
+      },
+      {
+        "text": "U ziet hier een bouwvakker. Hij bouwt een huis. Kijk naar de plaatjes.",
+        "translation": "您看到這裡有一位建築工人。他在蓋一棟房子。請看圖片。",
+        "start": 437.72,
+        "end": 445.04
+      },
+      {
+        "text": "Vertel wat een bouwvakker moet doen tijdens zijn werk.",
+        "translation": "說說建築工人在工作時必須做些什麼。",
+        "start": 448.82,
+        "end": 453.04
+      },
+      {
+        "text": "Gebruik alle plaatjes.",
+        "translation": "請使用所有的圖片說明。",
+        "start": 455.18,
+        "end": 456.18
+      },
+      {
+        "text": "Een bouwvakker draagt stenen.",
+        "translation": "建築工人會搬磚頭。",
+        "start": 473.72,
+        "end": 476.68
+      },
+      {
+        "text": "Hij maakt een muur. Hij maakt ook een dak.",
+        "translation": "他在蓋牆。他也在做屋頂。",
+        "start": 478.06,
+        "end": 481.58
+      },
+      {
+        "text": "Priscilla maakt haar huis schoon. Kijk naar de plaatjes.",
+        "translation": "Priscilla 在打掃她的房子。看看圖片。",
+        "start": 487.54,
+        "end": 493.02
+      },
+      {
+        "text": "Vertel wat zij doet. Gebruik alle plaatjes.",
+        "translation": "說說她在做什麼。使用所有圖片。",
+        "start": 496.2,
+        "end": 499.48
+      },
+      {
+        "text": "Zij maakt de vloer schoon. Zij maakt de wc schoon.",
+        "translation": "她在清理地板。她在清理廁所。",
+        "start": 517.04,
+        "end": 523.14
+      },
+      {
+        "text": "Zij maakt ook de ramen.",
+        "translation": "她也在擦窗戶。",
+        "start": 524.92,
+        "end": 526.58
+      },
+      {
+        "text": "Dit was een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是一個口語能力 A2 的模擬考試範例。",
+        "start": 530.44,
+        "end": 534.64
+      },
+      {
+        "text": "Succes bij het echte.",
+        "translation": "祝真正的考試順利。",
+        "start": 536.18,
+        "end": 537.58
+      },
+      {
+        "text": "TV GELDERLAND 2021.",
+        "translation": "TV GELDERLAND 2021。",
+        "start": 546.36,
+        "end": 546.6
+      }
+    ],
+    "questions": [
+      {
+        "question": "Hoeveel vragen heeft het examen?",
+        "question_native": "考試有多少題？",
+        "options": [
+          "12",
+          "10",
+          "15"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "Wat hoort en ziet u na elke vraag?",
+        "question_native": "每題後，您會聽到並看到什麼？",
+        "options": [
+          "Een voorbeeld van een goed antwoord",
+          "Niets",
+          "Een moeilijke vraag"
+        ],
+        "answer": "Een voorbeeld van een goed antwoord"
+      },
+      {
+        "question": "Waar woont de spreker?",
+        "question_native": "說話者住在哪裡？",
+        "options": [
+          "In het centrum van een grote stad",
+          "Op het platteland",
+          "In een dorp"
+        ],
+        "answer": "In het centrum van een grote stad"
+      },
+      {
+        "question": "Wat vindt de spreker van het klimaat in zijn eigen land?",
+        "question_native": "說話者如何看待自己國家的氣候？",
+        "options": [
+          "Beter dan in Nederland",
+          "Slechter dan in Nederland",
+          "Hetzelfde als in Nederland"
+        ],
+        "answer": "Beter dan in Nederland"
+      },
+      {
+        "question": "Welke sport doet Dafne het liefst?",
+        "question_native": "Dafne最喜歡什麼運動？",
+        "options": [
+          "Hardlopen",
+          "Zwemmen",
+          "Fietsen"
+        ],
+        "answer": "Hardlopen"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "examen",
+        "meaning": "考試"
+      },
+      {
+        "word": "vraag",
+        "meaning": "問題"
+      },
+      {
+        "word": "voorbeeld",
+        "meaning": "範例"
+      },
+      {
+        "word": "antwoord",
+        "meaning": "答案"
+      },
+      {
+        "word": "wonen",
+        "meaning": "居住"
+      },
+      {
+        "word": "partner",
+        "meaning": "伴侶"
+      },
+      {
+        "word": "les",
+        "meaning": "課程"
+      },
+      {
+        "word": "kort geleden",
+        "meaning": "最近"
+      },
+      {
+        "word": "klimaat",
+        "meaning": "氣候"
+      },
+      {
+        "word": "stad",
+        "meaning": "城市"
+      },
+      {
+        "word": "sport",
+        "meaning": "運動"
+      },
+      {
+        "word": "schilderij",
+        "meaning": "畫作"
+      },
+      {
+        "word": "museum",
+        "meaning": "博物館"
+      },
+      {
+        "word": "eten",
+        "meaning": "吃"
+      },
+      {
+        "word": "bouwvakker",
+        "meaning": "建築工人"
+      }
+    ]
+  }
+}

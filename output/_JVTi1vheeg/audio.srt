@@ -1,0 +1,271 @@
+1
+00:00:02,780 --> 00:00:07,960
+Dit is een voorbeeldexamen Spreekvaardigheid A2.
+
+2
+00:00:09,560 --> 00:00:13,320
+Het examen is gebaseerd op examenvragen van DUO.
+
+3
+00:00:15,320 --> 00:00:17,600
+Het examen heeft 12 vragen.
+
+4
+00:00:19,140 --> 00:00:21,480
+U geeft antwoord op alle vragen.
+
+5
+00:00:23,480 --> 00:00:28,500
+U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.
+
+6
+00:00:30,800 --> 00:00:31,880
+Succes!
+
+7
+00:00:35,160 --> 00:00:36,320
+Reist u vaak met de bus?
+
+8
+00:00:37,680 --> 00:00:39,120
+Vertel ook waarom.
+
+9
+00:00:56,680 --> 00:00:59,760
+Ja, dat is snel!
+
+10
+00:01:05,120 --> 00:01:07,600
+Wat vindt u een leuk programma op tv?
+
+11
+00:01:08,540 --> 00:01:11,600
+Vertel ook welk programma u niet leuk vindt.
+
+12
+00:01:29,700 --> 00:01:31,600
+Een film is leuk.
+
+13
+00:01:32,720 --> 00:01:34,020
+Voetbal is niet leuk.
+
+14
+00:01:38,960 --> 00:01:41,500
+Welk fruit eet u graag?
+
+15
+00:01:42,820 --> 00:01:45,600
+Vertel ook hoe vaak u fruit eet.
+
+16
+00:02:04,380 --> 00:02:07,680
+Appel. Ik eet elke dag een appel.
+
+17
+00:02:12,480 --> 00:02:17,420
+In Nederland regent het vaak. Wat vindt u daarvan?
+
+18
+00:02:19,440 --> 00:02:22,320
+Vertel ook hoe het weer is in uw eigen land.
+
+19
+00:02:40,780 --> 00:02:43,960
+Het weer in Nederland is lekker.
+
+20
+00:02:45,360 --> 00:02:47,760
+Het weer in mijn eigen land is ook lekker.
+
+21
+00:02:51,880 --> 00:02:54,260
+Hoe vaak gebruikt u uw telefoon?
+
+22
+00:02:55,340 --> 00:02:59,140
+Vertel ook waarvoor u uw telefoon gebruikt.
+
+23
+00:03:18,260 --> 00:03:21,880
+Ik bel elke dag met mijn moeder.
+
+24
+00:03:26,800 --> 00:03:29,800
+Ik was vandaag te laat op mijn werk.
+
+25
+00:03:31,840 --> 00:03:33,740
+Waarom bent u wel eens te laat?
+
+26
+00:03:34,780 --> 00:03:47,440
+Zegookwatudandoet
+
+27
+00:03:56,540 --> 00:03:58,620
+Ik sta soms in de file.
+
+28
+00:03:59,820 --> 00:04:01,180
+Dan bel ik mijn baas.
+
+29
+00:04:07,000 --> 00:04:09,100
+Kijk naar het plaatje.
+
+30
+00:04:10,920 --> 00:04:12,660
+Het is vandaag 5 december.
+
+31
+00:04:14,260 --> 00:04:16,900
+Wat doen veel Nederlanders op deze dag?
+
+32
+00:04:18,460 --> 00:04:21,160
+En wat doet u op 5 december?
+
+33
+00:04:39,020 --> 00:04:41,660
+Zij geven elkaar een cadeau.
+
+34
+00:04:43,060 --> 00:04:44,740
+Ik doe niet mee met Sinterklaas.
+
+35
+00:04:51,760 --> 00:04:52,940
+Kijk naar het plaatje.
+
+36
+00:04:56,240 --> 00:04:58,980
+Het is vandaag 27 april.
+
+37
+00:04:59,840 --> 00:05:00,460
+Koningsdag.
+
+38
+00:05:01,540 --> 00:05:04,500
+Wat doen veel Nederlanders op deze dag?
+
+39
+00:05:05,880 --> 00:05:08,040
+En wat doet u op Koningsdag?
+
+40
+00:05:25,220 --> 00:05:29,760
+Veel Nederlanders dragen dan oranje kleding.
+
+41
+00:05:30,760 --> 00:05:34,620
+Ik draag op die dag ook oranje kleding.
+
+42
+00:05:41,200 --> 00:05:42,320
+Kijk naar de plaatjes.
+
+43
+00:05:45,100 --> 00:05:45,820
+Waar woont u liever?
+
+44
+00:05:46,640 --> 00:05:48,800
+In een stad of in een dorp?
+
+45
+00:05:50,760 --> 00:05:52,100
+Vertel ook waarom.
+
+46
+00:06:09,720 --> 00:06:11,860
+Ik woon liever in de stad.
+
+47
+00:06:13,140 --> 00:06:15,940
+In de stad zijn winkels en restaurants.
+
+48
+00:06:22,660 --> 00:06:23,860
+Kijk naar de plaatjes.
+
+49
+00:06:26,800 --> 00:06:28,620
+In welk huis woont u liever?
+
+50
+00:06:28,620 --> 00:06:31,480
+Vertel ook waarom.
+
+51
+00:06:48,660 --> 00:06:51,840
+Ik woon liever in een flat.
+
+52
+00:06:52,840 --> 00:06:54,800
+Ik wil geen tuin.
+
+53
+00:07:01,140 --> 00:07:03,200
+Candy gaat graag op vakantie.
+
+54
+00:07:04,940 --> 00:07:06,100
+Kijk naar de plaatjes.
+
+55
+00:07:09,300 --> 00:07:10,040
+Vertel wat zij doet.
+
+56
+00:07:11,040 --> 00:07:12,540
+Gebruik alle plaatjes.
+
+57
+00:07:30,600 --> 00:07:33,360
+Zij gaat naar een grote stad.
+
+58
+00:07:34,780 --> 00:07:35,760
+Zij gaat shoppen.
+
+59
+00:07:36,680 --> 00:07:40,380
+En zij gaat koffie drinken op een terras.
+
+60
+00:07:49,300 --> 00:07:53,060
+Theo en Thea zijn op vakantie in Nederland.
+
+61
+00:07:54,560 --> 00:07:55,620
+Kijk naar de plaatjes.
+
+62
+00:07:59,900 --> 00:08:01,940
+Wat doen zij tijdens de vakantie?
+
+63
+00:08:01,940 --> 00:08:04,860
+Gebruik alle plaatjes.
+
+64
+00:08:22,560 --> 00:08:24,140
+Zij fietsen.
+
+65
+00:08:25,280 --> 00:08:25,760
+Zij wandelen.
+
+66
+00:08:26,920 --> 00:08:28,960
+En zij zitten bij het water.
+
+67
+00:08:31,940 --> 00:08:37,340
+Dit was een voorbeeld examen Spreekvaardigheid A2.
+
+68
+00:08:38,380 --> 00:08:40,320
+Succes bij het echte examen!

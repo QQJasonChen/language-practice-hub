@@ -1,0 +1,295 @@
+1
+00:00:02,780 --> 00:00:08,000
+Dit is een voorbeeldexamen Spreekvaardigheid A2.
+
+2
+00:00:09,560 --> 00:00:13,320
+Het examen is gebaseerd op examenvragen van DUO.
+
+3
+00:00:15,320 --> 00:00:17,600
+Het examen heeft 12 vragen.
+
+4
+00:00:19,140 --> 00:00:21,480
+U geeft antwoord op alle vragen.
+
+5
+00:00:23,480 --> 00:00:28,500
+U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.
+
+6
+00:00:30,840 --> 00:00:31,880
+Succes!
+
+7
+00:00:35,900 --> 00:00:39,220
+Veel Nederlanders eten om zes uur avonds.
+
+8
+00:00:40,560 --> 00:00:41,560
+Wat vindt u daarvan?
+
+9
+00:00:43,180 --> 00:00:46,760
+Zeg ook hoe laat u zelf meestal eet.
+
+10
+00:01:05,440 --> 00:01:08,960
+Ik vind dat een goede tijd om te eten.
+
+11
+00:01:10,140 --> 00:01:12,100
+Ik eet ook om zes uur.
+
+12
+00:01:17,200 --> 00:01:19,620
+Naar welke muziek luistert u graag?
+
+13
+00:01:20,860 --> 00:01:23,980
+Vertel ook hoe vaak u daarnaar luistert.
+
+14
+00:01:41,680 --> 00:01:45,500
+Ik luister elke dag naar popmuziek.
+
+15
+00:01:49,300 --> 00:01:51,880
+Ik houd niet van katten.
+
+16
+00:01:52,880 --> 00:01:55,420
+Welk dier vindt u niet leuk?
+
+17
+00:01:56,360 --> 00:01:58,200
+En vertel ook waarom.
+
+18
+00:02:16,400 --> 00:02:18,700
+Ik vind katten niet leuk.
+
+19
+00:02:18,700 --> 00:02:20,600
+Katten zijn vies.
+
+20
+00:02:25,700 --> 00:02:28,140
+Ik heb geen rijbewijs.
+
+21
+00:02:28,780 --> 00:02:30,340
+Hebt u een rijbewijs?
+
+22
+00:02:31,460 --> 00:02:33,340
+Vertel ook hoe u dat vindt.
+
+23
+00:02:51,700 --> 00:02:54,800
+Ja, ik heb wel een rijbewijs.
+
+24
+00:02:55,720 --> 00:02:56,700
+Ik vind dat fijn.
+
+25
+00:03:01,300 --> 00:03:03,440
+Wat gaat u morgen doen?
+
+26
+00:03:04,240 --> 00:03:07,620
+Vertel ook hoe laat u dat gaat doen.
+
+27
+00:03:25,480 --> 00:03:29,760
+Ik ga morgen om negen uur naar school.
+
+28
+00:03:34,440 --> 00:03:37,900
+Wat is de mooiste plaats waar u geweest bent?
+
+29
+00:03:39,500 --> 00:03:41,420
+Vertel ook waarom u daar was.
+
+30
+00:03:59,860 --> 00:04:02,340
+Amsterdam is de mooiste stad.
+
+31
+00:04:03,560 --> 00:04:05,240
+Ik was daar in een museum.
+
+32
+00:04:11,060 --> 00:04:12,880
+Kijk naar het plaatje.
+
+33
+00:04:15,480 --> 00:04:17,820
+Marleen droomt over een nieuw huis.
+
+34
+00:04:18,960 --> 00:04:23,580
+Over wat voor soort huis droomt zij volgens u?
+
+35
+00:04:24,460 --> 00:04:27,340
+En is zo'n huis duur of goedkoop?
+
+36
+00:04:44,920 --> 00:04:47,480
+Zij droomt over een villa.
+
+37
+00:04:49,060 --> 00:04:50,420
+Een villa is duur.
+
+38
+00:04:56,160 --> 00:04:57,320
+Kijk naar haar huis.
+
+43
+00:04:57,320 --> 00:04:58,140
+Kijk naar het plaatje.
+
+44
+00:05:01,680 --> 00:05:03,420
+Vanessa heeft een huis gevonden.
+
+45
+00:05:05,220 --> 00:05:07,040
+Hoeveel kamers heeft haar huis?
+
+46
+00:05:08,340 --> 00:05:10,580
+En hoeveel kamers heeft uw huis?
+
+47
+00:05:28,120 --> 00:05:32,140
+Het huis van Vanessa heeft zes kamers.
+
+48
+00:05:33,820 --> 00:05:35,800
+Mijn huis heeft vijf kamers.
+
+49
+00:05:41,940 --> 00:05:43,120
+Kijk naar de plaatjes.
+
+50
+00:05:46,200 --> 00:05:48,240
+Welk beroep past beter bij u?
+
+51
+00:05:49,760 --> 00:05:51,200
+Vertel ook waarom.
+
+52
+00:06:09,760 --> 00:06:11,740
+Leraar past beter bij mij.
+
+53
+00:06:12,740 --> 00:06:15,020
+Ik vind het leuk op school.
+
+54
+00:06:19,840 --> 00:06:21,560
+Kijk naar de plaatjes.
+
+55
+00:06:23,180 --> 00:06:25,160
+U ziet hier twee mensen.
+
+56
+00:06:25,840 --> 00:06:27,300
+De een doet administratief werk.
+
+60
+00:06:28,300 --> 00:06:30,700
+De ander werkt in de zorg.
+
+61
+00:06:32,440 --> 00:06:34,340
+Welk beroep past beter bij u?
+
+62
+00:06:35,960 --> 00:06:40,820
+Vertel ook of u veel of weinig geld kunt verdienen met dit beroep.
+
+63
+00:06:58,540 --> 00:07:01,480
+Ik werk liever in de zorg.
+
+64
+00:07:02,860 --> 00:07:05,620
+Ik kan niet veel geld verdienen in de zorg.
+
+65
+00:07:12,240 --> 00:07:14,600
+Thomas heeft lunchtijd.
+
+66
+00:07:16,000 --> 00:07:17,240
+Kijk naar de plaatjes.
+
+67
+00:07:21,440 --> 00:07:24,040
+Vertel wat hij doet tijdens de lunch.
+
+68
+00:07:25,040 --> 00:07:27,220
+Gebruik alle plaatjes.
+
+69
+00:07:44,780 --> 00:07:47,240
+Hij eet een broodje.
+
+70
+00:07:48,960 --> 00:07:49,880
+Hij drinkt koffie.
+
+71
+00:07:50,880 --> 00:07:53,560
+En hij kijkt naar zijn computer.
+
+72
+00:08:00,720 --> 00:08:03,520
+Maria is met haar dochter in de winkel.
+
+73
+00:08:05,200 --> 00:08:06,760
+Kijk naar de plaatjes.
+
+74
+00:08:10,640 --> 00:08:12,280
+Vertel wat Maria koopt.
+
+75
+00:08:13,620 --> 00:08:15,040
+Gebruik alle plaatjes.
+
+76
+00:08:33,520 --> 00:08:34,600
+Kijk naar de plaatjes.
+
+77
+00:08:34,600 --> 00:08:35,880
+Zij koopt fruit.
+
+78
+00:08:37,400 --> 00:08:39,220
+Zij koopt groenten.
+
+79
+00:08:40,620 --> 00:08:43,160
+En zij koopt een pak koekjes.
+
+80
+00:08:46,520 --> 00:08:51,640
+Dit was een voorbeeld examen Spreekvaardigheid A2.
+
+81
+00:08:53,220 --> 00:08:55,160
+Succes bij het echte examen!

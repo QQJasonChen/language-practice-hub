@@ -1,0 +1,183 @@
+1
+00:00:02,780 --> 00:00:07,960
+Dit is een voorbeeldexamen Spreekvaardigheid A2.
+
+2
+00:00:09,560 --> 00:00:13,320
+Het examen is gebaseerd op examenvragen van DUO.
+
+3
+00:00:15,320 --> 00:00:17,600
+Het examen heeft 12 vragen.
+
+4
+00:00:19,140 --> 00:00:21,480
+U geeft antwoord op alle vragen.
+
+5
+00:00:23,480 --> 00:00:28,500
+U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.
+
+6
+00:00:30,800 --> 00:00:31,880
+Succes!
+
+7
+00:00:35,160 --> 00:00:36,320
+Reist u vaak met de bus?
+
+8
+00:00:37,680 --> 00:00:39,120
+Vertel ook waarom.
+
+9
+00:00:55,960 --> 00:00:59,760
+Ja, dat is snel!
+
+10
+00:01:04,720 --> 00:01:07,620
+Wat vindt u een leuk programma op tv?
+
+11
+00:01:09,180 --> 00:01:12,040
+Vertel ook welk programma u niet leuk vindt.
+
+12
+00:01:29,760 --> 00:01:34,100
+Een film is leuk. Voetbal is niet leuk.
+
+13
+00:01:39,440 --> 00:01:41,480
+Welk fruit eet u graag?
+
+14
+00:01:42,740 --> 00:01:45,620
+Vertel ook hoe vaak u fruit eet.
+
+15
+00:02:04,640 --> 00:02:07,760
+Appel. Ik eet elke dag een appel.
+
+16
+00:02:12,440 --> 00:02:17,380
+In Nederland regent het vaak. Wat vindt u daarvan?
+
+17
+00:02:19,220 --> 00:02:22,320
+Vertel ook hoe het weer is in uw eigen land.
+
+18
+00:02:40,960 --> 00:02:43,940
+HetweerinNederlandislekker
+
+19
+00:02:45,340 --> 00:02:47,760
+Hetweerinmijneigenlandisooklekker
+
+20
+00:02:51,280 --> 00:02:54,260
+Hoe vaak gebruikt u uw telefoon?
+
+21
+00:02:54,260 --> 00:02:59,900
+Vertel ook waarvoor u uw telefoon gebruikt.
+
+22
+00:03:17,860 --> 00:03:21,880
+Ik bel elke dag met mijn moeder.
+
+23
+00:03:26,860 --> 00:03:29,800
+Ik was vandaag te laat op mijn werk.
+
+24
+00:03:31,840 --> 00:03:33,740
+Waarom bent u wel eens te laat?
+
+25
+00:03:35,460 --> 00:03:36,980
+Zeg ook wat u dan doet.
+
+26
+00:03:56,520 --> 00:04:01,340
+Ik sta soms in de file. Dan bel ik mijn baas.
+
+27
+00:04:06,480 --> 00:04:10,800
+Wat leest u graag? Zeg ook hoe vaak u leest.
+
+28
+00:04:29,400 --> 00:04:33,480
+Ik lees elke dag een boek.
+
+29
+00:04:38,980 --> 00:04:42,260
+Ik krijg het liefst bloemen als ik jarig ben.
+
+30
+00:04:44,000 --> 00:04:48,440
+Wat krijgt u het liefst cadeau? Vertel ook waarom.
+
+31
+00:05:08,340 --> 00:05:13,040
+Ik krijg ook het liefst bloemen. Bloemen zijn mooi.
+
+32
+00:05:18,620 --> 00:05:21,620
+Watvooretenmaaktuhetliefst
+
+33
+00:05:22,820 --> 00:05:25,000
+Vertelookhoeudatmaakt
+
+34
+00:05:44,300 --> 00:05:49,720
+Ik maak het liefst soep. Ik maak de soep in een pan.
+
+35
+00:05:54,880 --> 00:06:00,800
+IkwilgraaglerenschilderenWatwiltugraagleren
+
+36
+00:06:02,420 --> 00:06:04,540
+Zegookwaarudatkuntleren
+
+37
+00:06:23,580 --> 00:06:26,240
+IkwilNederlandsleren
+
+38
+00:06:27,380 --> 00:06:30,040
+DatkanbijAdAppeltaaltrainingen
+
+39
+00:06:35,480 --> 00:06:39,120
+Watdoetuhetliefstalshetmooiweeris
+
+40
+00:06:41,120 --> 00:06:42,800
+Zegookwaarudatdoet
+
+41
+00:07:02,540 --> 00:07:06,420
+Ik fiets dan het liefst in het park.
+
+42
+00:07:12,120 --> 00:07:13,720
+Watvoorwerkdoetunu
+
+43
+00:07:15,520 --> 00:07:18,180
+Vertelookwatvoorwerkuvroegerdeed
+
+44
+00:07:36,340 --> 00:07:42,000
+Ik ben nu schoonmaker. Vroeger was ik dokter.
+
+45
+00:07:45,240 --> 00:07:50,400
+DitwaseenvoorbeeldexamenSpreekvaardigheidA2
+
+46
+00:07:51,980 --> 00:07:53,920
+Succesbijhetechteexamen

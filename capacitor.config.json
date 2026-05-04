@@ -1,0 +1,12 @@
+{
+  "appId": "com.qqchen.echolab",
+  "appName": "EchoLab",
+  "webDir": "www",
+  "server": {
+    "allowNavigation": ["*"]
+  },
+  "ios": {
+    "allowsLinkPreview": false,
+    "contentInset": "always"
+  }
+}

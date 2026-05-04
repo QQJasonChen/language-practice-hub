@@ -1,0 +1,279 @@
+1
+00:00:02,120 --> 00:00:07,060
+Dit is een voorbeeld examen Spreekvaardigheid A2.
+
+2
+00:00:08,240 --> 00:00:12,000
+Het examen is gemaakt door Ad Apple Taaltrainingen.
+
+3
+00:00:13,400 --> 00:00:15,600
+Het examen heeft 12 vragen.
+
+4
+00:00:17,060 --> 00:00:19,480
+U geeft antwoord op alle vragen.
+
+5
+00:00:21,060 --> 00:00:27,220
+Uhoortenzietnaelkevraageenvoorbeeldvaneengoedantwoord
+
+6
+00:00:28,680 --> 00:00:29,400
+Succes!
+
+7
+00:00:34,040 --> 00:00:36,740
+Ik vind het leuk om een cadeautje te krijgen.
+
+8
+00:00:38,780 --> 00:00:41,240
+Vindt u het leuk om cadeautjes te krijgen?
+
+9
+00:00:42,840 --> 00:00:46,860
+Vertel ook wat u het leukst vindt om te krijgen.
+
+10
+00:01:06,340 --> 00:01:10,020
+Ik vind het ook leuk om cadeautjes te krijgen.
+
+11
+00:01:11,120 --> 00:01:12,700
+Ik vind bloemen leuk.
+
+12
+00:01:17,620 --> 00:01:19,700
+Ik woon in Rotterdam.
+
+13
+00:01:21,180 --> 00:01:26,040
+In welke stad woont u nu en sinds wanneer woont u daar?
+
+14
+00:01:44,680 --> 00:01:47,060
+Ik woon in Almere.
+
+15
+00:01:47,840 --> 00:01:50,440
+Ik woon daar sinds 2013.
+
+16
+00:01:55,980 --> 00:01:58,360
+Mijn hobby is boeken lezen.
+
+17
+00:01:59,880 --> 00:02:02,420
+Wat doet u het liefst in uw vrije tijd?
+
+18
+00:02:21,340 --> 00:02:24,120
+Ik kijk graag naar een goede film.
+
+19
+00:02:29,160 --> 00:02:31,900
+Ik vind Chinees een heel moeilijke taal.
+
+20
+00:02:33,340 --> 00:02:35,560
+Vindt u Nederlands een moeilijke taal?
+
+21
+00:02:36,740 --> 00:02:39,440
+En hoe lang leert u al Nederlands?
+
+22
+00:02:57,360 --> 00:03:00,260
+Ik vind Nederlands heel moeilijk.
+
+23
+00:03:01,460 --> 00:03:03,880
+Ik leer al drie jaar Nederlands.
+
+24
+00:03:09,060 --> 00:03:11,480
+Mijn kinderen gaan naar de basisschool.
+
+25
+00:03:12,860 --> 00:03:15,800
+Wat weet u van de Nederlandse basisschool?
+
+26
+00:03:34,240 --> 00:03:39,060
+De basisschool is voor kinderen van 4 tot 12 jaar.
+
+27
+00:03:41,460 --> 00:03:43,880
+Kinderen gaan naar school zonder uniform.
+
+28
+00:03:45,640 --> 00:03:48,880
+Jongens en meisjes zitten samen in één klas.
+
+29
+00:03:54,220 --> 00:03:56,040
+Ik ben leraar Nederlands.
+
+30
+00:03:56,960 --> 00:04:00,420
+Wat is uw beroep en hoe lang bent u dat al?
+
+31
+00:04:18,340 --> 00:04:23,020
+Ik ben schoonmaker. Ik ben al drie jaar schoonmaker.
+
+32
+00:04:28,240 --> 00:04:30,020
+Kijk naar het plaatje.
+
+33
+00:04:33,140 --> 00:04:37,160
+Paula heeft een computer. Wat is het probleem?
+
+34
+00:04:38,460 --> 00:04:40,160
+Wat kan zij het beste doen?
+
+35
+00:04:57,960 --> 00:05:01,560
+De koffie valt op het toetsenbord.
+
+36
+00:05:02,240 --> 00:05:04,520
+Zij moet een nieuw toetsenbord kopen.
+
+37
+00:05:10,860 --> 00:05:12,000
+Kijk naar het plaatje.
+
+38
+00:05:14,680 --> 00:05:17,000
+Vincent krijgt veel e-mails.
+
+39
+00:05:18,500 --> 00:05:21,640
+Wat gaat hij volgens u doen met deze e-mails?
+
+40
+00:05:23,180 --> 00:05:25,420
+Wat doet u zelf met uw e-mails?
+
+41
+00:05:43,640 --> 00:05:46,220
+Vincent leest zijn e-mails.
+
+42
+00:05:48,500 --> 00:05:50,460
+Ik gooi mijn e-mails weg.
+
+43
+00:05:57,740 --> 00:05:58,660
+Kijk naar de plaatjes.
+
+44
+00:06:01,940 --> 00:06:04,200
+Wat doet u liever in de vakantie?
+
+45
+00:06:06,040 --> 00:06:09,080
+Vertel ook wanneer u op vakantie gaat.
+
+46
+00:06:26,700 --> 00:06:27,540
+Kijk naar de plaatjes.
+
+47
+00:06:27,540 --> 00:06:30,720
+Ik wil veel slapen in de vakantie.
+
+48
+00:06:31,620 --> 00:06:33,660
+Ik ga het liefst in de zomer.
+
+49
+00:06:39,260 --> 00:06:41,620
+Kijk naar de plaatjes.
+
+50
+00:06:45,560 --> 00:06:47,920
+Hoe gaat u het liefst op vakantie?
+
+51
+00:06:49,420 --> 00:06:53,280
+Vertel ook hoe vaak u met het vliegtuig reist.
+
+52
+00:07:11,280 --> 00:07:13,740
+Ik ga liever met de trein.
+
+53
+00:07:15,320 --> 00:07:17,740
+Ik reis nooit met het vliegtuig.
+
+54
+00:07:24,260 --> 00:07:26,600
+Tamara gaat naar een restaurant.
+
+55
+00:07:27,700 --> 00:07:28,860
+Kijk naar de plaatjes.
+
+56
+00:07:31,380 --> 00:07:33,640
+Wat doet zij in het restaurant?
+
+57
+00:07:34,640 --> 00:07:36,960
+En met wie is zij daar?
+
+58
+00:07:38,840 --> 00:07:40,180
+Gebruik alle plaatjes.
+
+59
+00:07:57,600 --> 00:08:00,100
+Zij eet iets lekkers.
+
+60
+00:08:00,100 --> 00:08:02,780
+Zij drinkt rode wijn.
+
+61
+00:08:04,500 --> 00:08:05,940
+Zij is met haar broer.
+
+62
+00:08:12,100 --> 00:08:16,940
+Vladimir loopt door de stad en hij ziet drie artiesten.
+
+63
+00:08:18,180 --> 00:08:19,260
+Kijk naar de plaatjes.
+
+64
+00:08:23,840 --> 00:08:26,080
+Wat ziet hij als hij door de stad loopt?
+
+65
+00:08:27,080 --> 00:08:29,040
+Gebruik alle plaatjes.
+
+66
+00:08:46,640 --> 00:08:49,500
+Hij ziet iemand die muziek maakt.
+
+67
+00:08:51,020 --> 00:08:52,860
+Hij ziet iemand die danst.
+
+68
+00:08:54,360 --> 00:08:57,860
+En hij ziet iemand die schildert.
+
+69
+00:09:02,360 --> 00:09:06,080
+Dit was een voorbeeldexamen Spreekvaardigheid A2.
+
+70
+00:09:07,920 --> 00:09:09,460
+Succes bij het echte examen!

@@ -1,0 +1,271 @@
+1
+00:00:02,120 --> 00:00:07,060
+Dit is een voorbeeld examen Spreekvaardigheid A2.
+
+2
+00:00:08,240 --> 00:00:12,000
+Het examen is gemaakt door Ad Apple Taaltrainingen.
+
+3
+00:00:13,400 --> 00:00:15,600
+Het examen heeft 12 vragen.
+
+4
+00:00:17,060 --> 00:00:19,480
+U geeft antwoord op alle vragen.
+
+5
+00:00:21,060 --> 00:00:27,220
+Uhoortenzietnaelkevraageenvoorbeeldvaneengoedantwoord
+
+6
+00:00:29,840 --> 00:00:30,620
+Succes!
+
+7
+00:00:35,180 --> 00:00:37,740
+Ik heb mijn huis modern ingericht.
+
+8
+00:00:39,640 --> 00:00:41,760
+Hoe heeft u uw huis ingericht?
+
+9
+00:00:43,180 --> 00:00:46,020
+Vertel ook waarom u dat zo heeft gedaan.
+
+10
+00:01:04,160 --> 00:01:05,200
+Hoe heeft u uw huis ingericht?
+
+11
+00:01:05,300 --> 00:01:08,840
+Ik heb mijn huis klassiek ingericht.
+
+12
+00:01:09,340 --> 00:01:10,720
+Ik houd van klassiek.
+
+13
+00:01:14,320 --> 00:01:16,580
+Wat wil u later in Singapore gaan wonen?
+
+14
+00:01:16,580 --> 00:01:20,240
+Ik wil later in Singapore gaan wonen.
+
+15
+00:01:20,780 --> 00:01:22,600
+Dat is mijn ideale stad.
+
+16
+00:01:23,600 --> 00:01:29,420
+Dat is uw ideale plaats en vertel ook waarom.
+
+17
+00:01:48,600 --> 00:01:51,200
+Mijn ideale plaats is Amsterdam.
+
+18
+00:01:51,200 --> 00:01:55,540
+Ik hou van Nederland en van Amsterdam.
+
+19
+00:01:59,980 --> 00:02:02,400
+Ik ben weleens boos.
+
+20
+00:02:03,940 --> 00:02:05,480
+Bent u ook weleens boos?
+
+21
+00:02:07,080 --> 00:02:09,660
+In welke situaties bent u boos?
+
+22
+00:02:29,640 --> 00:02:32,240
+Ja, ik ben weleens boos.
+
+23
+00:02:33,300 --> 00:02:35,740
+Ik ben boos als ik veel moet betalen.
+
+24
+00:02:41,340 --> 00:02:46,980
+Ik eet elke dag muesli en fruit bij mijn ontbijt.
+
+25
+00:02:47,940 --> 00:02:49,100
+En ik drink ook thee.
+
+26
+00:02:50,760 --> 00:02:51,180
+Wat neemt u dan mee?
+
+27
+00:02:51,180 --> 00:02:54,060
+Neemt u bij uw ontbijt?
+
+28
+00:03:13,340 --> 00:03:16,600
+Ik eet dan rijst met groenten.
+
+29
+00:03:21,980 --> 00:03:25,700
+Amsterdam is de hoofdstad van Nederland.
+
+30
+00:03:27,420 --> 00:03:31,080
+In Amsterdam zijn grachten en veel oude huizen.
+
+31
+00:03:32,880 --> 00:03:35,540
+Er zijn ook veel musea in Amsterdam.
+
+32
+00:03:37,620 --> 00:03:42,360
+Wat kunt u vertellen over de hoofdstad van uw eigen land?
+
+33
+00:04:03,180 --> 00:04:06,540
+De hoofdstad van mijn land is Mexico.
+
+34
+00:04:07,820 --> 00:04:09,060
+Daar wonen veel mensen.
+
+35
+00:04:10,280 --> 00:04:13,000
+Het is niet zo schoon in Mexicostad.
+
+36
+00:04:19,420 --> 00:04:21,160
+Sommige mensen hebben een heel mooi huis.
+
+38
+00:04:22,680 --> 00:04:26,780
+Waar zou u een vakantiehuis willen hebben?
+
+39
+00:04:27,720 --> 00:04:30,580
+En vertel ook waarom juist daar.
+
+40
+00:04:47,080 --> 00:04:48,260
+Waar wil u een vakantiehuis in Nederland willen hebben?
+
+41
+00:04:50,180 --> 00:04:53,680
+Ik wil een vakantiehuis hebben op Bali.
+
+42
+00:04:55,100 --> 00:04:57,720
+Op Bali is het altijd mooi weer.
+
+43
+00:05:04,600 --> 00:05:08,860
+Veel Nederlanders hebben één of meer huisdieren.
+
+44
+00:05:10,340 --> 00:05:11,580
+Heeft u ook huisdieren?
+
+45
+00:05:12,800 --> 00:05:16,800
+Vertel ook waarom u wel of geen huisdieren heeft.
+
+46
+00:05:36,780 --> 00:05:41,620
+Ik heb geen huisdieren. Ik vind huisdieren vies.
+
+47
+00:05:46,940 --> 00:05:49,060
+Alsikopvakantiega
+
+48
+00:05:49,920 --> 00:05:56,980
+slaapikhetliefstineenluxevijfsterrenhotelergensineenwarmlandaandezee
+
+49
+00:05:59,160 --> 00:06:01,840
+Waarheen gaat u het liefst op vakantie?
+
+50
+00:06:02,680 --> 00:06:06,060
+En vertel ook waarom u dat leuk vindt.
+
+51
+00:06:25,140 --> 00:06:28,620
+Ik ga graag op vakantie naar Italië.
+
+52
+00:06:30,040 --> 00:06:35,180
+In Italië wonen leuke mensen en het klimaat is prima.
+
+53
+00:06:41,340 --> 00:06:44,720
+Gaat u wel eens op reis naar een mooie stad?
+
+54
+00:06:46,620 --> 00:06:51,100
+Welke stad vindt u het mooist en hoe gaat u naar die stad?
+
+55
+00:07:10,720 --> 00:07:16,620
+Ik vind Parijs een mooie stad. Ik ga naar Parijs met de trein.
+
+56
+00:07:21,920 --> 00:07:26,240
+Ik vier mijn verjaardag het liefst met vrienden en familie.
+
+57
+00:07:27,240 --> 00:07:29,900
+Wat doet u op uw verjaardag?
+
+58
+00:07:49,300 --> 00:07:52,340
+Ikgeefeengrootfeestopmijnverjaardag
+
+59
+00:07:53,720 --> 00:07:58,140
+Etendrinkenendansenmetveelvriendendatisleuk
+
+60
+00:08:03,640 --> 00:08:06,840
+Ikgebruikmijntelefoonheelvaak
+
+61
+00:08:08,340 --> 00:08:10,560
+Waarvoorgebruiktuuwtelefoon
+
+62
+00:08:30,120 --> 00:08:36,080
+Ik gebruik mijn telefoon om te bellen met mijn partner en met mijn familie.
+
+63
+00:08:41,780 --> 00:08:46,660
+InNederlandregenthetheelvaakWatvindtudaarvan
+
+64
+00:08:48,080 --> 00:08:51,940
+Enhoevaakregenthetinhetlandwaarugeborenbent
+
+65
+00:09:10,780 --> 00:09:14,720
+IkvindregeninNederlandgeenprobleem
+
+66
+00:09:16,400 --> 00:09:18,400
+Inmijnlandregenthetnooit
+
+67
+00:09:22,880 --> 00:09:26,620
+DitwaseenvoorbeeldexamenSpreekvaardigheidA2
+
+68
+00:09:28,480 --> 00:09:30,020
+Succesbijhetechteexamen
+
+69
+00:09:40,140 --> 00:09:40,340
+TV Gelderland 2021

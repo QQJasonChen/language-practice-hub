@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Echo Dutch">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>Echo Dutch — 荷蘭文口說練習</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+  :root {
+    --bg: #050510; --surface: rgba(255,255,255,0.04); --surface2: rgba(255,255,255,0.07);
+    --glass: rgba(20,20,40,0.7); --glass-border: rgba(255,255,255,0.08);
+    --accent: #ff3b5c; --accent2: #7c5cfc; --accent3: #00d4aa;
+    --text: #f2f2f7; --text2: #a0a0b8; --text3: #606078;
+    --green: #34d399; --orange: #fb923c; --blue: #60a5fa;
+    --r: 20px; --r-sm: 12px;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--bg); color: var(--text);
+    min-height: 100vh; overflow-x: hidden;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* ── Ambient background ── */
+  .ambient {
+    position: fixed; top: -30%; left: -20%; width: 140%; height: 80%;
+    background: radial-gradient(ellipse at 30% 50%, rgba(124,92,252,0.12) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 30%, rgba(255,59,92,0.08) 0%, transparent 50%);
+    pointer-events: none; z-index: 0;
+    animation: ambientFloat 20s ease-in-out infinite alternate;
+  }
+  @keyframes ambientFloat {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(20px, -10px) scale(1.05); }
+  }
+
+  .app { position: relative; z-index: 1; max-width: 480px; margin: 0 auto; }
+
+  /* ── Header ── */
+  .header {
+    padding: 16px 24px 0;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .greeting { font-size: 13px; color: var(--text2); }
+  .greeting strong { color: var(--text); font-weight: 700; }
+  .header-actions { display: flex; gap: 8px; }
+  .header-btn {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: var(--surface); border: 1px solid var(--glass-border);
+    color: var(--text2); font-size: 16px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    transition: all 0.2s;
+  }
+  .header-btn:active { transform: scale(0.9); }
+
+  /* ── Hero Card ── */
+  .hero-card {
+    margin: 20px 20px 0; padding: 28px 24px;
+    background: linear-gradient(135deg, rgba(124,92,252,0.25), rgba(255,59,92,0.15));
+    border-radius: var(--r); border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(40px); -webkit-backdrop-filter: blur(40px);
+    position: relative; overflow: hidden;
+  }
+  .hero-card::after {
+    content: ''; position: absolute; top: -50%; right: -30%; width: 200px; height: 200px;
+    background: radial-gradient(circle, rgba(255,59,92,0.2) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .hero-card .icon-row { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; position: relative; z-index: 1; }
+  .hero-card .app-icon {
+    width: 48px; height: 48px; border-radius: 14px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    display: flex; align-items: center; justify-content: center; font-size: 22px;
+    box-shadow: 0 4px 20px rgba(124,92,252,0.4);
+  }
+  .hero-card .app-name { font-size: 22px; font-weight: 800; letter-spacing: -0.5px; }
+  .hero-card .app-tag { font-size: 12px; color: var(--text2); margin-top: 1px; }
+
+  .hero-stats { display: flex; gap: 0; position: relative; z-index: 1; }
+  .hero-stat {
+    flex: 1; text-align: center; padding: 12px 0;
+    border-right: 1px solid rgba(255,255,255,0.08);
+  }
+  .hero-stat:last-child { border: none; }
+  .hero-stat .hs-num { font-size: 24px; font-weight: 800; }
+  .hero-stat .hs-num.green { color: var(--green); }
+  .hero-stat .hs-num.accent { color: var(--accent); }
+  .hero-stat .hs-num.blue { color: var(--blue); }
+  .hero-stat .hs-num.orange { color: var(--orange); }
+  .hero-stat .hs-label { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: 1.5px; margin-top: 4px; font-weight: 600; }
+
+  /* ── Streak / Motivation ── */
+  .motivation {
+    margin: 16px 20px 0; padding: 14px 18px;
+    background: var(--surface); border-radius: var(--r-sm);
+    border: 1px solid var(--glass-border);
+    display: flex; align-items: center; gap: 12px;
+    font-size: 13px; color: var(--text2);
+  }
+  .motivation .flame { font-size: 24px; }
+  .motivation strong { color: var(--text); }
+
+  /* ── Section ── */
+  .section { padding: 24px 20px 0; }
+  .section-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 14px; }
+  .section-title { font-size: 19px; font-weight: 800; letter-spacing: -0.3px; }
+  .section-sub { font-size: 12px; color: var(--text3); font-weight: 500; cursor: pointer; }
+
+  /* ── Language Pills ── */
+  .pills { display: flex; gap: 8px; margin-bottom: 16px; overflow-x: auto; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
+  .pills::-webkit-scrollbar { display: none; }
+  .pill {
+    flex-shrink: 0; padding: 8px 16px; border-radius: 100px;
+    background: var(--surface); border: 1px solid var(--glass-border);
+    color: var(--text2); font-size: 13px; font-weight: 600; cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  }
+  .pill:active { transform: scale(0.92); }
+  .pill.active {
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: #fff; border-color: transparent;
+    box-shadow: 0 4px 16px rgba(255,59,92,0.3);
+  }
+
+  /* ── Video Cards ── */
+  .cards { display: flex; flex-direction: column; gap: 12px; padding-bottom: 40px; }
+  .card {
+    background: var(--surface); border-radius: var(--r);
+    border: 1px solid var(--glass-border);
+    padding: 18px 18px 14px; cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    position: relative; overflow: hidden;
+  }
+  .card:active { transform: scale(0.97); }
+  .card:hover { border-color: rgba(255,255,255,0.15); }
+
+  /* Language accent stripe */
+  .card .stripe {
+    position: absolute; top: 0; left: 0; width: 4px; height: 100%;
+    border-radius: var(--r) 0 0 var(--r);
+  }
+  .stripe-nl { background: linear-gradient(180deg, #ff3b5c, #ff6b81); }
+  .stripe-ja { background: linear-gradient(180deg, #60a5fa, #93c5fd); }
+  .stripe-en { background: linear-gradient(180deg, #34d399, #6ee7b7); }
+  .stripe-de { background: linear-gradient(180deg, #fb923c, #fdba74); }
+  .stripe-fr { background: linear-gradient(180deg, #7c5cfc, #a78bfa); }
+
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; padding-left: 8px; }
+  .card .c-title { font-size: 15px; font-weight: 700; line-height: 1.4; flex: 1; margin-right: 10px; letter-spacing: -0.2px; }
+  .card .c-badge {
+    flex-shrink: 0; padding: 4px 10px; border-radius: 8px;
+    font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .badge-nl { background: rgba(255,59,92,0.12); color: #ff6b81; }
+  .badge-ja { background: rgba(96,165,250,0.12); color: #93c5fd; }
+  .badge-en { background: rgba(52,211,153,0.12); color: #6ee7b7; }
+  .badge-de { background: rgba(251,146,60,0.12); color: #fdba74; }
+  .badge-fr { background: rgba(124,92,252,0.12); color: #a78bfa; }
+
+  .card .c-info { display: flex; gap: 14px; font-size: 12px; color: var(--text3); padding-left: 8px; margin-bottom: 12px; font-weight: 500; }
+
+  .card .c-progress { height: 3px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow: hidden; margin-left: 8px; }
+  .card .c-progress-fill { height: 100%; border-radius: 2px; background: var(--green); transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1); }
+
+  .card .c-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; padding-left: 8px; }
+  .card .c-pct { font-size: 11px; font-weight: 700; color: var(--green); }
+  .card .c-arrow { color: var(--text3); font-size: 16px; transition: transform 0.2s; }
+  .card:hover .c-arrow { transform: translateX(3px); }
+
+  /* ── Desktop layout ── */
+  @media (min-width: 769px) {
+    body { display: flex; }
+    .app { min-width: 420px; height: 100vh; overflow-y: auto; border-right: 1px solid var(--glass-border); }
+    .desktop-panel { flex: 1; height: 100vh; }
+    .desktop-panel iframe { width: 100%; height: 100%; border: none; }
+    .desktop-empty { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--text3); gap: 8px; }
+    .desktop-empty .de-icon { font-size: 48px; margin-bottom: 8px; opacity: 0.5; }
+  }
+  @media (max-width: 768px) { .desktop-panel { display: none; } }
+
+  /* ── Animations ── */
+  @keyframes slideUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
+  .hero-card { animation: slideUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.1s backwards; }
+  .motivation { animation: slideUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.2s backwards; }
+  .card { animation: slideUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+  .card:nth-child(1) { animation-delay: 0.25s; }
+  .card:nth-child(2) { animation-delay: 0.3s; }
+  .card:nth-child(3) { animation-delay: 0.35s; }
+  .card:nth-child(4) { animation-delay: 0.4s; }
+  .card:nth-child(5) { animation-delay: 0.45s; }
+</style>
+</head>
+<body>
+
+<div class="ambient"></div>
+
+<div class="app">
+  <div class="header">
+    <div class="greeting" id="greeting">早安 ☀️</div>
+    <div class="header-actions">
+      <button class="header-btn" onclick="location.reload()">↻</button>
+    </div>
+  </div>
+
+  <div class="hero-card">
+    <div class="icon-row">
+      <div class="app-icon">🎧</div>
+      <div>
+        <div class="app-name">Echo Dutch</div>
+        <div class="app-tag">荷蘭文口說考試練習神器</div>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="hs-num accent" id="h-videos">0</div><div class="hs-label">影片</div></div>
+      <div class="hero-stat"><div class="hs-num blue" id="h-langs">0</div><div class="hs-label">語言</div></div>
+      <div class="hero-stat"><div class="hs-num green" id="h-sentences">0</div><div class="hs-label">句子</div></div>
+      <div class="hero-stat"><div class="hs-num orange" id="h-practiced">0</div><div class="hs-label">已練</div></div>
+    </div>
+  </div>
+
+  <div class="motivation" id="motivation">
+    <span class="flame">🔥</span>
+    <span>開始你的第一次練習，<strong>建立學習連續紀錄</strong></span>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <span class="section-title">我的練習</span>
+      <span class="section-sub" id="filter-label">全部</span>
+    </div>
+
+    <div class="pills" id="pills"></div>
+    <div class="cards" id="cards"></div>
+  </div>
+</div>
+
+<div class="desktop-panel" id="desktop-panel">
+  <div class="desktop-empty">
+    <div class="de-icon">🎧</div>
+    <div style="font-size:15px;font-weight:600;color:var(--text2)">選一支影片開始練習</div>
+    <div style="font-size:12px">從左側選擇影片</div>
+  </div>
+</div>
+
+<script>
+const videos = VIDEOS_JSON_PLACEHOLDER;
+const LANGS = { nl:'🇳🇱 荷蘭文', ja:'🇯🇵 日文', en:'🇬🇧 英文', de:'🇩🇪 德文', fr:'🇫🇷 法文', es:'🇪🇸 西文', ko:'🇰🇷 韓文' };
+let filter = 'all';
+
+function esc(t) { return t ? t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : ''; }
+function getPrac(id) { try { return (JSON.parse(localStorage.getItem(`lph_${id}`)||'{}').practiced||[]).length; } catch(e) { return 0; } }
+
+// Greeting based on time
+function setGreeting() {
+  const h = new Date().getHours();
+  const g = h < 12 ? '早安 ☀️' : h < 18 ? '午安 🌤' : '晚安 🌙';
+  document.getElementById('greeting').innerHTML = `${g} <strong>準備好練習了嗎？</strong>`;
+}
+
+function renderStats() {
+  const total = videos.reduce((s,v) => s+v.segments, 0);
+  const prac = videos.reduce((s,v) => s+getPrac(v.id), 0);
+  document.getElementById('h-videos').textContent = videos.length;
+  document.getElementById('h-langs').textContent = new Set(videos.map(v=>v.lang)).size;
+  document.getElementById('h-sentences').textContent = total.toLocaleString();
+  document.getElementById('h-practiced').textContent = prac.toLocaleString();
+
+  // Motivation
+  const mot = document.getElementById('motivation');
+  if (prac > 0) {
+    const pct = Math.round(prac/total*100);
+    mot.innerHTML = `<span class="flame">🔥</span><span>已完成 <strong>${prac} 句</strong>（${pct}%），繼續保持！</span>`;
+  }
+}
+
+function renderPills() {
+  const langs = [...new Set(videos.map(v=>v.lang))].sort();
+  document.getElementById('pills').innerHTML =
+    `<div class="pill ${filter==='all'?'active':''}" onclick="setF('all')">全部</div>` +
+    langs.map(l => `<div class="pill ${filter===l?'active':''}" onclick="setF('${l}')">${LANGS[l]||l}</div>`).join('');
+}
+
+function setF(f) {
+  filter = f;
+  renderPills();
+  renderCards();
+  document.getElementById('filter-label').textContent = f === 'all' ? '全部' : (LANGS[f] || f);
+}
+
+function renderCards() {
+  const list = filter === 'all' ? videos : videos.filter(v => v.lang === filter);
+  document.getElementById('cards').innerHTML = list.map(v => {
+    const p = getPrac(v.id);
+    const pct = v.segments ? Math.round(p/v.segments*100) : 0;
+    const dur = v.duration ? `${Math.floor(v.duration/60)} 分` : '';
+    return `<div class="card" onclick="go('${v.id}')">
+      <div class="stripe stripe-${v.lang}"></div>
+      <div class="card-top">
+        <div class="c-title">${esc(v.title)}</div>
+        <span class="c-badge badge-${v.lang}">${v.lang}</span>
+      </div>
+      <div class="c-info">
+        <span>💬 ${v.segments} 句</span>
+        ${dur ? `<span>⏱ ${dur}</span>` : ''}
+      </div>
+      <div class="c-progress"><div class="c-progress-fill" style="width:${pct}%"></div></div>
+      <div class="c-footer">
+        <span class="c-pct">${pct > 0 ? pct+'% 完成' : '尚未開始'}</span>
+        <span class="c-arrow">→</span>
+      </div>
+    </div>`;
+  }).join('') || '<div style="text-align:center;color:var(--text3);padding:60px 0">沒有符合的影片</div>';
+}
+
+function go(id) {
+  localStorage.setItem('hub_last_video', id);
+  if (window.innerWidth >= 769) {
+    document.getElementById('desktop-panel').innerHTML = `<iframe src="output/${id}/index.html"></iframe>`;
+    document.querySelectorAll('.card').forEach(c => c.style.borderColor = 'var(--glass-border)');
+    if (event && event.currentTarget) event.currentTarget.style.borderColor = 'var(--accent)';
+    return;
+  }
+  window.location.href = `output/${id}/index.html`;
+}
+
+setGreeting();
+renderStats();
+renderPills();
+renderCards();
+</script>
+</body>
+</html>

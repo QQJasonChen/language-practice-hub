@@ -1,0 +1,428 @@
+{
+  "video_id": "jqzUZtV16g4",
+  "video_info": {
+    "title": "Spreekvaardigheid A2 - Oefenexamen 10 - januari 2021",
+    "channel": "Ad Appel Taaltrainingen - Leer Nederlands met ons",
+    "duration": 518
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Dit is een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是一份口語能力 A2 的範例考試。",
+        "start": 2.12,
+        "end": 7.06
+      },
+      {
+        "text": "Het examen is gemaakt door Ad Apple Taaltrainingen.",
+        "translation": "這份考試是由 Ad Apple 語言訓練機構製作的。",
+        "start": 8.24,
+        "end": 12.0
+      },
+      {
+        "text": "Het examen heeft 12 vragen.",
+        "translation": "考試有 12 題問題。",
+        "start": 13.4,
+        "end": 15.6
+      },
+      {
+        "text": "U geeft antwoord op alle vragen.",
+        "translation": "您需要回答所有問題。",
+        "start": 17.06,
+        "end": 19.48
+      },
+      {
+        "text": "U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.",
+        "translation": "在每個問題後，您會聽到並看到一個好答案的範例。",
+        "start": 21.06,
+        "end": 27.22
+      },
+      {
+        "text": "Succes!",
+        "translation": "祝您成功！",
+        "start": 28.9,
+        "end": 29.42
+      },
+      {
+        "text": "Ik ga drie keer per jaar op vakantie. Hoe vaak gaat u op vakantie?",
+        "translation": "我一年去三次度假。您多久去一次度假？",
+        "start": 35.18,
+        "end": 40.98
+      },
+      {
+        "text": "En waar gaat u dan naartoe?",
+        "translation": "那您通常去哪裡？",
+        "start": 41.9,
+        "end": 43.18
+      },
+      {
+        "text": "Ik ga één keer per jaar op vakantie.",
+        "translation": "我一年去一次度假。",
+        "start": 61.96,
+        "end": 65.38
+      },
+      {
+        "text": "Ik ga naar Thailand.",
+        "translation": "我去泰國。",
+        "start": 66.44,
+        "end": 67.84
+      },
+      {
+        "text": "Ik spreek vier talen en mijn moedertaal is Nederlands.",
+        "translation": "我會說四種語言，我的母語是荷蘭語。",
+        "start": 72.8,
+        "end": 77.74
+      },
+      {
+        "text": "Wat is uw moedertaal en welke talen spreekt u?",
+        "translation": "您的母語是什麼？您會說哪些語言？",
+        "start": 79.4,
+        "end": 83.86
+      },
+      {
+        "text": "Mijn moedertaal is Engels.",
+        "translation": "我的母語是英語。",
+        "start": 101.88,
+        "end": 104.48
+      },
+      {
+        "text": "Ik spreek Engels en een klein beetje Nederlands.",
+        "translation": "我說英語和一點點荷蘭語。",
+        "start": 105.34,
+        "end": 108.46
+      },
+      {
+        "text": "Ik heb twee zussen en veel neven en nichten.",
+        "translation": "我有兩個妹妹，還有很多表兄弟姊妹。",
+        "start": 112.58,
+        "end": 117.24
+      },
+      {
+        "text": "Wat kunt u vertellen over uw familie?",
+        "translation": "您能談談您的家庭嗎？",
+        "start": 118.54,
+        "end": 120.68
+      },
+      {
+        "text": "Ik heb twee broers en geen zussen. Mijn familie is groot.",
+        "translation": "我有兩個兄弟，沒有妹妹。我的家族很大。",
+        "start": 139.76,
+        "end": 145.42
+      },
+      {
+        "text": "Ik heb veel ooms en tantes en neven en nichten.",
+        "translation": "我有很多叔叔阿姨以及表兄弟姊妹。",
+        "start": 146.24,
+        "end": 150.34
+      },
+      {
+        "text": "Mijn dag begint altijd om zes uur in de ochtend.",
+        "translation": "我的一天總是從早上六點開始。",
+        "start": 154.98,
+        "end": 159.0
+      },
+      {
+        "text": "Hoe laat begint uw dag en wat doet u dan het eerst?",
+        "translation": "您幾點開始一天，然後首先做什麼？",
+        "start": 160.38,
+        "end": 164.32
+      },
+      {
+        "text": "Ik sta op om acht uur. Ik drink dan eerst koffie.",
+        "translation": "我八點起床。然後我先喝咖啡。",
+        "start": 183.52,
+        "end": 188.7
+      },
+      {
+        "text": "Ik woon in een rijtjeshuis in Heemstede.",
+        "translation": "我住在 Heemstede 的一間連棟房子裡。",
+        "start": 193.6,
+        "end": 197.02
+      },
+      {
+        "text": "Waar woont u en wat voor contact heeft u met uw buren?",
+        "translation": "您住在哪裡？您和鄰居有什麼樣的聯繫？",
+        "start": 198.98,
+        "end": 203.24
+      },
+      {
+        "text": "Ik woon in Amsterdam en ik heb weinig contact met de buren.",
+        "translation": "我住在阿姆斯特丹，和鄰居的聯繫很少。",
+        "start": 222.22,
+        "end": 227.08
+      },
+      {
+        "text": "Ik doe allerlei dingen om gezond te blijven.",
+        "translation": "我做各種事情來保持健康。",
+        "start": 231.46,
+        "end": 235.44
+      },
+      {
+        "text": "Wat doet u allemaal om gezond te blijven?",
+        "translation": "您都做什麼來保持健康？",
+        "start": 236.96,
+        "end": 240.38
+      },
+      {
+        "text": "Ik doe veel aan sport.",
+        "translation": "我做很多運動。",
+        "start": 258.84,
+        "end": 261.34
+      },
+      {
+        "text": "Ik eet niet zo veel en ik drink geen alcohol.",
+        "translation": "我不太吃很多，也不喝酒。",
+        "start": 262.52,
+        "end": 266.78
+      },
+      {
+        "text": "Ik doe mijn boodschappen bijna altijd met de fiets.",
+        "translation": "我幾乎總是騎自行車買東西。",
+        "start": 271.18,
+        "end": 275.06
+      },
+      {
+        "text": "Hoe doet u uw boodschappen?",
+        "translation": "您如何購物？",
+        "start": 276.02,
+        "end": 277.48
+      },
+      {
+        "text": "Ik doe mijn boodschappen met de auto.",
+        "translation": "我開車買東西。",
+        "start": 292.02,
+        "end": 298.34
+      },
+      {
+        "text": "Ik houd van autorijden.",
+        "translation": "我喜歡開車。",
+        "start": 302.94,
+        "end": 305.3
+      },
+      {
+        "text": "Houdt u ook van autorijden? Vertel ook waarom u wel of niet van autorijden houdt.",
+        "translation": "您也喜歡開車嗎？請說說您為什麼喜歡或不喜歡開車。",
+        "start": 306.54,
+        "end": 314.56
+      },
+      {
+        "text": "Ik houd niet van autorijden, want er zijn altijd files op de weg.",
+        "translation": "我不喜歡開車，因為路上經常塞車。",
+        "start": 332.98,
+        "end": 338.5
+      },
+      {
+        "text": "Ik luister elke dag naar het nieuws op de radio.",
+        "translation": "我每天聽收音機的新聞。",
+        "start": 343.08,
+        "end": 346.82
+      },
+      {
+        "text": "Hoe vaak luistert u naar de radio en wat hoort u het liefst op de radio?",
+        "translation": "您多久聽一次收音機？您最喜歡在收音機聽什麼？",
+        "start": 348.34,
+        "end": 354.24
+      },
+      {
+        "text": "Ik luister elke dag naar de radio.",
+        "translation": "我每天聽收音機。",
+        "start": 373.32,
+        "end": 376.3
+      },
+      {
+        "text": "Ik luister het liefst naar muziek.",
+        "translation": "我最喜歡聽音樂。",
+        "start": 377.48,
+        "end": 379.98
+      },
+      {
+        "text": "Ik ga graag naar een feestje in het weekend.",
+        "translation": "我周末喜歡去派對。",
+        "start": 385.1,
+        "end": 388.28
+      },
+      {
+        "text": "Wat doet u het liefst in het weekend en vertel ook waarom u dat leuk vindt.",
+        "translation": "您周末最喜歡做什麼？也請說為什麼喜歡。",
+        "start": 389.78,
+        "end": 396.58
+      },
+      {
+        "text": "Ik ga het liefst naar een discotheek, want ik houd van dansen.",
+        "translation": "我最喜歡去夜店，因為我喜歡跳舞。",
+        "start": 414.24,
+        "end": 419.96
+      },
+      {
+        "text": "Ik ontvang graag vrienden op bezoek.",
+        "translation": "我喜歡邀請朋友來家裡。",
+        "start": 424.84,
+        "end": 427.84
+      },
+      {
+        "text": "Ontvangt u graag vrienden en wat doet u dan met uw vrienden?",
+        "translation": "您喜歡邀請朋友嗎？和朋友在一起您會做什麼？",
+        "start": 429.08,
+        "end": 433.78
+      },
+      {
+        "text": "Soms komen vrienden op bezoek. Dan gaan we samen lekker eten.",
+        "translation": "有時朋友來家裡。我們會一起好好吃飯。",
+        "start": 452.8,
+        "end": 458.58
+      },
+      {
+        "text": "Ik vind de winter een heerlijke seizoen.",
+        "translation": "我覺得冬天是一個很棒的季節。",
+        "start": 463.04,
+        "end": 466.0
+      },
+      {
+        "text": "Welk seizoen vindt u het prettigst en vertel ook waarom?",
+        "translation": "您最喜歡哪個季節？請說說原因。",
+        "start": 467.28,
+        "end": 472.38
+      },
+      {
+        "text": "Ik vind de zomer goed. In de zomer is het lekker warm.",
+        "translation": "我覺得夏天很好。夏天很暖和。",
+        "start": 490.68,
+        "end": 496.08
+      },
+      {
+        "text": "Dit was een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是一份口語能力 A2 的範例考試。",
+        "start": 499.82,
+        "end": 504.24
+      },
+      {
+        "text": "Succes bij het echte examen.",
+        "translation": "祝您正式考試順利。",
+        "start": 506.12,
+        "end": 507.66
+      },
+      {
+        "text": "TV Gelderland 2021.",
+        "translation": "TV Gelderland 2021。",
+        "start": 517.78,
+        "end": 517.98
+      }
+    ],
+    "questions": [
+      {
+        "question": "How many questions does the exam have?",
+        "question_native": "Hoeveel vragen heeft het examen?",
+        "options": [
+          "10",
+          "12",
+          "15"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "What languages does the speaker mention speaking?",
+        "question_native": "Welke talen worden genoemd die de spreker spreekt?",
+        "options": [
+          "Nederlands en Frans",
+          "Engels en Nederlands",
+          "Engels, Nederlands en andere talen"
+        ],
+        "answer": "Engels, Nederlands en andere talen"
+      },
+      {
+        "question": "What is the main reason given for not liking driving?",
+        "question_native": "Wat is de belangrijkste reden om niet van autorijden te houden?",
+        "options": [
+          "Files op de weg",
+          "Autorijden is te duur",
+          "Geen rijbewijs"
+        ],
+        "answer": "Files op de weg"
+      },
+      {
+        "question": "What does the speaker usually do first after waking up?",
+        "question_native": "Wat doet de spreker meestal als eerste na het opstaan?",
+        "options": [
+          "Ontbijten",
+          "Koffie drinken",
+          "Douchen"
+        ],
+        "answer": "Koffie drinken"
+      },
+      {
+        "question": "Which season is described as enjoyable by one of the speakers?",
+        "question_native": "Welk seizoen wordt door een van de sprekers als prettig beschreven?",
+        "options": [
+          "Winter",
+          "Lente",
+          "Herfst"
+        ],
+        "answer": "Winter"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "voorbeeldexamen",
+        "meaning": "範例考試"
+      },
+      {
+        "word": "spreekvaardigheid",
+        "meaning": "口語能力"
+      },
+      {
+        "word": "moedertaal",
+        "meaning": "母語"
+      },
+      {
+        "word": "neven en nichten",
+        "meaning": "表兄弟姊妹"
+      },
+      {
+        "word": "rijtjeshuis",
+        "meaning": "連棟房屋"
+      },
+      {
+        "word": "buren",
+        "meaning": "鄰居"
+      },
+      {
+        "word": "gezond blijven",
+        "meaning": "保持健康"
+      },
+      {
+        "word": "boodschappen doen",
+        "meaning": "買東西／採購"
+      },
+      {
+        "word": "autorijden",
+        "meaning": "開車"
+      },
+      {
+        "word": "files",
+        "meaning": "塞車"
+      },
+      {
+        "word": "radio",
+        "meaning": "收音機"
+      },
+      {
+        "word": "feestje",
+        "meaning": "派對／聚會"
+      },
+      {
+        "word": "discotheek",
+        "meaning": "夜店"
+      },
+      {
+        "word": "seizoen",
+        "meaning": "季節"
+      },
+      {
+        "word": "vakantie",
+        "meaning": "度假"
+      }
+    ]
+  }
+}

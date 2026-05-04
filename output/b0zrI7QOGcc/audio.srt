@@ -1,0 +1,235 @@
+1
+00:00:02,120 --> 00:00:07,060
+Dit is een voorbeeld examen Spreekvaardigheid A2.
+
+2
+00:00:08,240 --> 00:00:12,000
+Het examen is gemaakt door Ad Apple Taaltrainingen.
+
+3
+00:00:13,400 --> 00:00:15,600
+Het examen heeft 12 vragen.
+
+4
+00:00:17,060 --> 00:00:19,480
+U geeft antwoord op alle vragen.
+
+5
+00:00:21,060 --> 00:00:27,220
+Uhoortenzietnaelkevraageenvoorbeeldvaneengoedantwoord
+
+6
+00:00:31,900 --> 00:00:32,860
+Succes!
+
+7
+00:00:35,940 --> 00:00:39,280
+Veel Nederlanders hebben één of meer huisdieren.
+
+8
+00:00:40,720 --> 00:00:42,000
+Heeft u ook huisdieren?
+
+9
+00:00:43,240 --> 00:00:47,220
+Vertel ook waarom u wel of geen huisdieren heeft.
+
+10
+00:01:07,140 --> 00:01:12,020
+Ik heb geen huisdieren. Ik vind huisdieren vies.
+
+11
+00:01:17,340 --> 00:01:19,460
+Alsikopvakantiega
+
+12
+00:01:20,320 --> 00:01:27,380
+slaapikhetliefstineenluxevijfsterrenhotelergensineenwarmlandaandezee
+
+13
+00:01:29,560 --> 00:01:32,260
+Waarheen gaat u het liefst op vakantie?
+
+14
+00:01:33,120 --> 00:01:36,460
+En vertel ook waarom u dat leuk vindt.
+
+15
+00:01:55,540 --> 00:01:59,020
+Ik ga graag op vakantie naar Italië.
+
+16
+00:02:00,420 --> 00:02:05,600
+In Italië wonen leuke mensen en het klimaat is prima.
+
+17
+00:02:11,740 --> 00:02:15,120
+Gaat u wel eens op reis naar een mooie stad?
+
+18
+00:02:17,020 --> 00:02:21,500
+Welke stad vindt u het mooist en hoe gaat u naar die stad?
+
+19
+00:02:41,140 --> 00:02:47,020
+Ik vind Parijs een mooie stad. Ik ga naar Parijs met de trein.
+
+20
+00:02:52,340 --> 00:02:56,640
+Ik vier mijn verjaardag het liefst met vrienden en familie.
+
+21
+00:02:58,020 --> 00:03:00,280
+Wat doet u op uw verjaardag?
+
+22
+00:03:19,720 --> 00:03:22,740
+Ik geef een groot feest op mijn verjaardag.
+
+23
+00:03:23,740 --> 00:03:28,620
+Eten, drinken en dansen met veel vrienden, dat is leuk.
+
+24
+00:03:34,060 --> 00:03:37,260
+Ik gebruik mijn telefoon heel vaak.
+
+25
+00:03:38,720 --> 00:03:41,420
+Waarvoor gebruikt u uw telefoon?
+
+26
+00:04:00,540 --> 00:04:06,760
+Ikgebruikmijntelefoonomtebellenmetmijnpartnerenmetmijnfamilie
+
+27
+00:04:12,100 --> 00:04:17,040
+In Nederland regent het heel vaak. Wat vindt u daarvan?
+
+28
+00:04:18,040 --> 00:04:22,040
+En hoe vaak regent het in het land waar u geboren bent?
+
+29
+00:04:41,260 --> 00:04:45,060
+Ik vind regen in Nederland geen probleem.
+
+30
+00:04:46,060 --> 00:04:49,260
+In mijn land regent het nooit.
+
+31
+00:04:59,000 --> 00:05:04,420
+Lea eet in een restaurant. Wat eet zij volgens u?
+
+32
+00:05:06,140 --> 00:05:10,240
+Vertel ook hoe duur haar maaltijd volgens u is.
+
+33
+00:05:27,860 --> 00:05:31,960
+Zijeetpastametkaas
+
+34
+00:05:33,520 --> 00:05:36,240
+Haarmaaltijdkost10euro
+
+35
+00:05:42,360 --> 00:05:44,240
+Kijk naar het plaatje.
+
+36
+00:05:48,300 --> 00:05:53,940
+Karin is op de markt. Met wie is zij op de markt?
+
+37
+00:05:55,240 --> 00:05:58,840
+Vertel ook wat zij volgens u gaat kopen.
+
+38
+00:06:16,820 --> 00:06:22,060
+Zij is met haar dochter. Zij koopt fruit.
+
+39
+00:06:28,980 --> 00:06:30,040
+Kijk naar de plaatjes.
+
+40
+00:06:32,820 --> 00:06:37,580
+Gebruikt u liever een laptop of een grote computer?
+
+41
+00:06:40,060 --> 00:06:41,260
+Vertel ook waarom.
+
+42
+00:06:59,300 --> 00:07:04,580
+Ik gebruik liever een grote computer. Dat is beter voor mijn ogen.
+
+43
+00:07:10,660 --> 00:07:12,700
+Kijk naar het plaatje.
+
+44
+00:07:15,240 --> 00:07:20,360
+Wat doet u op sociale media, zoals Facebook of Instagram?
+
+45
+00:07:21,900 --> 00:07:23,580
+En wat vindt u van Facebook?
+
+46
+00:07:41,120 --> 00:07:44,200
+IkkijkveelopFacebook
+
+47
+00:07:45,580 --> 00:07:48,200
+Ikvindhetleukomvriendentehebben
+
+48
+00:07:54,260 --> 00:07:58,880
+Eduardo is in de sportschool. Kijk naar de plaatjes.
+
+49
+00:08:01,640 --> 00:08:04,700
+Watdoethijindesportschool
+
+50
+00:08:06,380 --> 00:08:07,680
+Gebruikalleplaatjes
+
+51
+00:08:24,880 --> 00:08:26,820
+Hijloopt
+
+52
+00:08:28,460 --> 00:08:31,620
+HijfietstHijneemteendouche
+
+53
+00:08:37,980 --> 00:08:43,780
+Ingrid kijkt naar een sportwedstrijd. Kijk naar de plaatjes.
+
+54
+00:08:48,480 --> 00:08:53,540
+Naar welke sport kijkt zij en waar kijkt zij naar de wedstrijd?
+
+55
+00:08:54,540 --> 00:09:00,540
+Zeg ook wat zij doet bij de wedstrijd. Gebruik alle plaatjes.
+
+56
+00:09:17,960 --> 00:09:22,200
+Zijkijktthuisnaareenvoetbalwedstrijd
+
+57
+00:09:23,760 --> 00:09:27,840
+Zijdrinktbierenzijdraagtoranjekleding
+
+58
+00:09:31,340 --> 00:09:36,060
+DitwaseenvoorbeeldexamenSpreekvaardigheidA2
+
+59
+00:09:37,960 --> 00:09:39,460
+Succesbijhetechteexamen

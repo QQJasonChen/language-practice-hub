@@ -1,0 +1,506 @@
+{
+  "video_id": "H-ZYqDGAfwM",
+  "video_info": {
+    "title": "Spreekvaardigheid A2 - Oefenexamen 11 - januari 2021",
+    "channel": "Ad Appel Taaltrainingen - Leer Nederlands met ons",
+    "duration": 580
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Dit is een voorbeeld examen Spreekvaardigheid A2.",
+        "translation": "這是一個A2口說能力模擬考試。",
+        "start": 2.12,
+        "end": 7.06
+      },
+      {
+        "text": "Het examen is gemaakt door Ad Apple Taaltrainingen.",
+        "translation": "這個考試是由Ad Apple語言訓練製作的。",
+        "start": 8.24,
+        "end": 12.0
+      },
+      {
+        "text": "Het examen heeft 12 vragen.",
+        "translation": "考試有12個問題。",
+        "start": 13.4,
+        "end": 15.6
+      },
+      {
+        "text": "U geeft antwoord op alle vragen.",
+        "translation": "您需要回答所有問題。",
+        "start": 17.06,
+        "end": 19.48
+      },
+      {
+        "text": "U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.",
+        "translation": "您在每個問題後會聽到和看到一個良好答案的範例。",
+        "start": 21.06,
+        "end": 27.22
+      },
+      {
+        "text": "Succes!",
+        "translation": "祝你好運！",
+        "start": 29.84,
+        "end": 30.62
+      },
+      {
+        "text": "Ik heb mijn huis modern ingericht.",
+        "translation": "我把我的家裝潢得很現代。",
+        "start": 35.18,
+        "end": 37.74
+      },
+      {
+        "text": "Hoe heeft u uw huis ingericht?",
+        "translation": "您是怎麼裝潢您的家的？",
+        "start": 39.64,
+        "end": 41.76
+      },
+      {
+        "text": "Vertel ook waarom u dat zo heeft gedaan.",
+        "translation": "也請說明您為什麼這麼做。",
+        "start": 43.18,
+        "end": 46.02
+      },
+      {
+        "text": "Hoe heeft u uw huis ingericht? Ik heb mijn huis klassiek ingericht.",
+        "translation": "您是怎麼裝潢您的家的？我把家裝潢得很經典。",
+        "start": 64.16,
+        "end": 68.84
+      },
+      {
+        "text": "Ik houd van klassiek.",
+        "translation": "我喜歡經典風格。",
+        "start": 69.34,
+        "end": 70.72
+      },
+      {
+        "text": "Wat wilt u later in Singapore gaan wonen? Ik wil later in Singapore gaan wonen.",
+        "translation": "您未來想住在新加坡嗎？我未來想住在新加坡。",
+        "start": 74.32,
+        "end": 80.24
+      },
+      {
+        "text": "Dat is mijn ideale stad.",
+        "translation": "那是我理想的城市。",
+        "start": 80.78,
+        "end": 82.6
+      },
+      {
+        "text": "Dat is uw ideale plaats en vertel ook waarom.",
+        "translation": "那是您的理想地點，也請說明原因。",
+        "start": 83.6,
+        "end": 89.42
+      },
+      {
+        "text": "Mijn ideale plaats is Amsterdam.",
+        "translation": "我理想的地方是阿姆斯特丹。",
+        "start": 108.6,
+        "end": 111.2
+      },
+      {
+        "text": "Ik hou van Nederland en van Amsterdam.",
+        "translation": "我喜歡荷蘭和阿姆斯特丹。",
+        "start": 111.2,
+        "end": 115.54
+      },
+      {
+        "text": "Ik ben weleens boos. Bent u ook weleens boos?",
+        "translation": "我有時會生氣。您也會生氣嗎？",
+        "start": 119.98,
+        "end": 125.48
+      },
+      {
+        "text": "In welke situaties bent u boos?",
+        "translation": "您在什麼情況下會生氣？",
+        "start": 127.08,
+        "end": 129.66
+      },
+      {
+        "text": "Ja, ik ben weleens boos.",
+        "translation": "是的，我有時會生氣。",
+        "start": 149.64,
+        "end": 152.24
+      },
+      {
+        "text": "Ik ben boos als ik veel moet betalen.",
+        "translation": "當我必須支付很多錢時我會生氣。",
+        "start": 153.3,
+        "end": 155.74
+      },
+      {
+        "text": "Ik eet elke dag muesli en fruit bij mijn ontbijt.",
+        "translation": "我每天早餐吃麥片和水果。",
+        "start": 161.34,
+        "end": 166.98
+      },
+      {
+        "text": "En ik drink ook thee. Wat neemt u dan mee?",
+        "translation": "我也喝茶。您早餐會帶些什麼？",
+        "start": 167.94,
+        "end": 171.18
+      },
+      {
+        "text": "Neemt u iets bij uw ontbijt?",
+        "translation": "您早餐會吃什麼？",
+        "start": 171.18,
+        "end": 174.06
+      },
+      {
+        "text": "Ik eet dan rijst met groenten.",
+        "translation": "我會吃米飯和蔬菜。",
+        "start": 193.34,
+        "end": 196.6
+      },
+      {
+        "text": "Amsterdam is de hoofdstad van Nederland.",
+        "translation": "阿姆斯特丹是荷蘭的首都。",
+        "start": 201.98,
+        "end": 205.7
+      },
+      {
+        "text": "In Amsterdam zijn grachten en veel oude huizen.",
+        "translation": "阿姆斯特丹有運河和許多老建築。",
+        "start": 207.42,
+        "end": 211.08
+      },
+      {
+        "text": "Er zijn ook veel musea in Amsterdam.",
+        "translation": "阿姆斯特丹也有很多博物館。",
+        "start": 212.88,
+        "end": 215.54
+      },
+      {
+        "text": "Wat kunt u vertellen over de hoofdstad van uw eigen land?",
+        "translation": "您可以說說您國家首都的情況嗎？",
+        "start": 217.62,
+        "end": 222.36
+      },
+      {
+        "text": "De hoofdstad van mijn land is Mexico.",
+        "translation": "我國的首都是墨西哥城。",
+        "start": 243.18,
+        "end": 246.54
+      },
+      {
+        "text": "Daar wonen veel mensen. Het is niet zo schoon in Mexicostad.",
+        "translation": "那裡住很多人。墨西哥城不太乾淨。",
+        "start": 247.82,
+        "end": 253.0
+      },
+      {
+        "text": "Sommige mensen hebben een heel mooi huis.",
+        "translation": "有些人住很漂亮的房子。",
+        "start": 259.42,
+        "end": 261.16
+      },
+      {
+        "text": "Waar zou u een vakantiehuis willen hebben?",
+        "translation": "您想在哪裡擁有一個度假屋？",
+        "start": 262.68,
+        "end": 266.78
+      },
+      {
+        "text": "En vertel ook waarom juist daar.",
+        "translation": "也請說明為何會想要在那裡。",
+        "start": 267.72,
+        "end": 270.58
+      },
+      {
+        "text": "Waar wilt u een vakantiehuis in Nederland hebben?",
+        "translation": "您想在荷蘭的什麼地方擁有度假屋？",
+        "start": 287.08,
+        "end": 288.26
+      },
+      {
+        "text": "Ik wil een vakantiehuis hebben op Bali.",
+        "translation": "我想在峇里島有一間度假屋。",
+        "start": 290.18,
+        "end": 293.68
+      },
+      {
+        "text": "Op Bali is het altijd mooi weer.",
+        "translation": "峇里島天氣總是很好。",
+        "start": 295.1,
+        "end": 297.72
+      },
+      {
+        "text": "Veel Nederlanders hebben één of meer huisdieren.",
+        "translation": "很多荷蘭人有一隻或多隻寵物。",
+        "start": 304.6,
+        "end": 308.86
+      },
+      {
+        "text": "Heeft u ook huisdieren?",
+        "translation": "您也有寵物嗎？",
+        "start": 310.34,
+        "end": 311.58
+      },
+      {
+        "text": "Vertel ook waarom u wel of geen huisdieren heeft.",
+        "translation": "也請說明您為什麼有或沒有寵物。",
+        "start": 312.8,
+        "end": 316.8
+      },
+      {
+        "text": "Ik heb geen huisdieren. Ik vind huisdieren vies.",
+        "translation": "我沒有寵物。我覺得寵物很髒。",
+        "start": 336.78,
+        "end": 341.62
+      },
+      {
+        "text": "Als ik op vakantie ga",
+        "translation": "當我去度假時",
+        "start": 346.94,
+        "end": 349.06
+      },
+      {
+        "text": "slaap ik het liefst in een luxe vijfsterrenhotel ergens in een warm land aan de zee.",
+        "translation": "我最喜歡住在海邊溫暖國家的豪華五星級飯店。",
+        "start": 349.92,
+        "end": 356.98
+      },
+      {
+        "text": "Waarheen gaat u het liefst op vakantie?",
+        "translation": "您最喜歡去哪裡度假？",
+        "start": 359.16,
+        "end": 361.84
+      },
+      {
+        "text": "En vertel ook waarom u dat leuk vindt.",
+        "translation": "也請說明您為什麼喜歡那裡。",
+        "start": 362.68,
+        "end": 366.06
+      },
+      {
+        "text": "Ik ga graag op vakantie naar Italië.",
+        "translation": "我喜歡去義大利度假。",
+        "start": 385.14,
+        "end": 388.62
+      },
+      {
+        "text": "In Italië wonen leuke mensen en het klimaat is prima.",
+        "translation": "義大利人很友善，氣候也很好。",
+        "start": 390.04,
+        "end": 395.18
+      },
+      {
+        "text": "Gaat u wel eens op reis naar een mooie stad?",
+        "translation": "您有沒有去過漂亮的城市旅遊？",
+        "start": 401.34,
+        "end": 404.72
+      },
+      {
+        "text": "Welke stad vindt u het mooist en hoe gaat u naar die stad?",
+        "translation": "您覺得哪個城市最美？您怎麼去那裡？",
+        "start": 406.62,
+        "end": 411.1
+      },
+      {
+        "text": "Ik vind Parijs een mooie stad. Ik ga naar Parijs met de trein.",
+        "translation": "我覺得巴黎是一個美麗的城市。我坐火車去巴黎。",
+        "start": 430.72,
+        "end": 436.62
+      },
+      {
+        "text": "Ik vier mijn verjaardag het liefst met vrienden en familie.",
+        "translation": "我最喜歡和朋友及家人一起慶祝生日。",
+        "start": 441.92,
+        "end": 446.24
+      },
+      {
+        "text": "Wat doet u op uw verjaardag?",
+        "translation": "您在您的生日那天做什麼？",
+        "start": 447.24,
+        "end": 449.9
+      },
+      {
+        "text": "Ik geef een groot feest op mijn verjaardag.",
+        "translation": "我在我的生日那天舉辦一個盛大的派對。",
+        "start": 469.3,
+        "end": 472.34
+      },
+      {
+        "text": "Eten, drinken en dansen met veel vrienden, dat is leuk.",
+        "translation": "和很多朋友一起吃喝跳舞，這很有趣。",
+        "start": 473.72,
+        "end": 478.14
+      },
+      {
+        "text": "Ik gebruik mijn telefoon heel vaak.",
+        "translation": "我經常使用我的手機。",
+        "start": 483.64,
+        "end": 486.84
+      },
+      {
+        "text": "Waarvoor gebruikt u uw telefoon?",
+        "translation": "您用手機做什麼？",
+        "start": 488.34,
+        "end": 490.56
+      },
+      {
+        "text": "Ik gebruik mijn telefoon om te bellen met mijn partner en met mijn familie.",
+        "translation": "我用手機和我的伴侶及家人通話。",
+        "start": 510.12,
+        "end": 516.08
+      },
+      {
+        "text": "In Nederland regent het heel vaak. Wat vindt u daarvan?",
+        "translation": "在荷蘭經常下雨，您覺得怎麼樣？",
+        "start": 521.78,
+        "end": 526.66
+      },
+      {
+        "text": "En hoe vaak regent het in het land waar u geboren bent?",
+        "translation": "那麼，您出生的國家多久下雨一次？",
+        "start": 528.08,
+        "end": 531.94
+      },
+      {
+        "text": "Ik vind regen in Nederland geen probleem.",
+        "translation": "我覺得荷蘭的雨沒什麼問題。",
+        "start": 550.78,
+        "end": 554.72
+      },
+      {
+        "text": "In mijn land regent het nooit.",
+        "translation": "我國從不下雨。",
+        "start": 556.4,
+        "end": 558.4
+      },
+      {
+        "text": "Dit was een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是一個口說能力A2級別的模擬考試範例。",
+        "start": 562.88,
+        "end": 566.62
+      },
+      {
+        "text": "Succes bij het echte examen.",
+        "translation": "祝您正式考試順利。",
+        "start": 568.48,
+        "end": 570.02
+      },
+      {
+        "text": "TV Gelderland 2021",
+        "translation": "TV Gelderland 2021",
+        "start": 580.14,
+        "end": 580.34
+      }
+    ],
+    "questions": [
+      {
+        "question": "Hoeveel vragen heeft het examen?",
+        "question_native": "考試有多少個問題？",
+        "options": [
+          "10",
+          "12",
+          "15"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "Wat hoort en ziet u na elke vraag?",
+        "question_native": "每個問題後您會聽到和看到什麼？",
+        "options": [
+          "Een voorbeeld van een goed antwoord",
+          "De volgende vraag",
+          "Een pauze"
+        ],
+        "answer": "Een voorbeeld van een goed antwoord"
+      },
+      {
+        "question": "Waar wilt de spreker een vakantiehuis hebben?",
+        "question_native": "講者想在哪裡擁有度假屋？",
+        "options": [
+          "Amsterdam",
+          "Bali",
+          "Singapore"
+        ],
+        "answer": "Bali"
+      },
+      {
+        "question": "Wat eet de spreker elke dag bij het ontbijt?",
+        "question_native": "講者每天早餐吃什麼？",
+        "options": [
+          "Brood en kaas",
+          "Muesli en fruit",
+          "Rijst en groenten"
+        ],
+        "answer": "Muesli en fruit"
+      },
+      {
+        "question": "Hoe viert de spreker het liefst zijn verjaardag?",
+        "question_native": "講者最喜歡怎麼慶祝生日？",
+        "options": [
+          "Alleen thuis",
+          "Met vrienden en familie",
+          "Op vakantie"
+        ],
+        "answer": "Met vrienden en familie"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "examen",
+        "meaning": "考試"
+      },
+      {
+        "word": "vraag",
+        "meaning": "問題"
+      },
+      {
+        "word": "antwoord",
+        "meaning": "答案"
+      },
+      {
+        "word": "huis",
+        "meaning": "房子"
+      },
+      {
+        "word": "inrichten",
+        "meaning": "裝潢、佈置"
+      },
+      {
+        "word": "ideale plaats",
+        "meaning": "理想地點"
+      },
+      {
+        "word": "boos",
+        "meaning": "生氣的"
+      },
+      {
+        "word": "ontbijt",
+        "meaning": "早餐"
+      },
+      {
+        "word": "hoofdstad",
+        "meaning": "首都"
+      },
+      {
+        "word": "vakantiehuis",
+        "meaning": "度假屋"
+      },
+      {
+        "word": "huisdier",
+        "meaning": "寵物"
+      },
+      {
+        "word": "luxe",
+        "meaning": "豪華"
+      },
+      {
+        "word": "vijfsterrenhotel",
+        "meaning": "五星級飯店"
+      },
+      {
+        "word": "verjaardag",
+        "meaning": "生日"
+      },
+      {
+        "word": "familie",
+        "meaning": "家人"
+      }
+    ]
+  }
+}

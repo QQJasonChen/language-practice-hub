@@ -1,0 +1,512 @@
+{
+  "video_id": "LpmHcxO1GIE",
+  "video_info": {
+    "title": "Spreekvaardigheid A2 - Oefenexamen 3 - 2025",
+    "channel": "Ad Appel Taaltrainingen - Leer Nederlands met ons",
+    "duration": 560
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Dit is een voorbeeld examen Spreekvaardigheid A2.",
+        "translation": "這是一個口語能力 A2 級別的範例考試。",
+        "start": 2.12,
+        "end": 7.06
+      },
+      {
+        "text": "Het examen is gemaakt door Ad Apple Taaltrainingen.",
+        "translation": "這個考試是由 Ad Apple 語言訓練製作。",
+        "start": 8.24,
+        "end": 12.0
+      },
+      {
+        "text": "Het examen heeft 12 vragen.",
+        "translation": "這個考試有 12 題問題。",
+        "start": 13.4,
+        "end": 15.6
+      },
+      {
+        "text": "U geeft antwoord op alle vragen.",
+        "translation": "您需要回答所有問題。",
+        "start": 17.06,
+        "end": 19.48
+      },
+      {
+        "text": "U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.",
+        "translation": "您會在每個問題後聽到和看到一個正確答案的範例。",
+        "start": 21.06,
+        "end": 27.22
+      },
+      {
+        "text": "Succes!",
+        "translation": "祝你好運！",
+        "start": 28.68,
+        "end": 29.4
+      },
+      {
+        "text": "Ik vind het leuk om een cadeautje te krijgen.",
+        "translation": "我喜歡收到小禮物。",
+        "start": 34.04,
+        "end": 36.74
+      },
+      {
+        "text": "Vindt u het leuk om cadeautjes te krijgen?",
+        "translation": "您喜歡收到禮物嗎？",
+        "start": 38.78,
+        "end": 41.24
+      },
+      {
+        "text": "Vertel ook wat u het leukst vindt om te krijgen.",
+        "translation": "也請說說您最喜歡收到什麼。",
+        "start": 42.84,
+        "end": 46.86
+      },
+      {
+        "text": "Ik vind het ook leuk om cadeautjes te krijgen.",
+        "translation": "我也很喜歡收到禮物。",
+        "start": 66.34,
+        "end": 70.02
+      },
+      {
+        "text": "Ik vind bloemen leuk.",
+        "translation": "我喜歡花。",
+        "start": 71.12,
+        "end": 72.7
+      },
+      {
+        "text": "Ik woon in Rotterdam.",
+        "translation": "我住在鹿特丹。",
+        "start": 77.62,
+        "end": 79.7
+      },
+      {
+        "text": "In welke stad woont u nu en sinds wanneer woont u daar?",
+        "translation": "您現在住在哪個城市？您從什麼時候開始住在那裡？",
+        "start": 81.18,
+        "end": 86.04
+      },
+      {
+        "text": "Ik woon in Almere. Ik woon daar sinds 2013.",
+        "translation": "我住在阿爾梅勒。我從2013年開始住在那裡。",
+        "start": 104.68,
+        "end": 110.44
+      },
+      {
+        "text": "Mijn hobby is boeken lezen.",
+        "translation": "我的興趣是看書。",
+        "start": 115.98,
+        "end": 118.36
+      },
+      {
+        "text": "Wat doet u het liefst in uw vrije tijd?",
+        "translation": "您最喜歡在空閒時間做什麼？",
+        "start": 119.88,
+        "end": 122.42
+      },
+      {
+        "text": "Ik kijk graag naar een goede film.",
+        "translation": "我喜歡看一部好電影。",
+        "start": 141.34,
+        "end": 144.12
+      },
+      {
+        "text": "Ik vind Chinees een heel moeilijke taal.",
+        "translation": "我覺得中文是一門很難的語言。",
+        "start": 149.16,
+        "end": 151.9
+      },
+      {
+        "text": "Vindt u Nederlands een moeilijke taal?",
+        "translation": "您覺得荷蘭語難嗎？",
+        "start": 153.34,
+        "end": 155.56
+      },
+      {
+        "text": "En hoe lang leert u al Nederlands?",
+        "translation": "您學荷蘭語多久了？",
+        "start": 156.74,
+        "end": 159.44
+      },
+      {
+        "text": "Ik vind Nederlands heel moeilijk.",
+        "translation": "我覺得荷蘭語很難。",
+        "start": 177.36,
+        "end": 180.26
+      },
+      {
+        "text": "Ik leer al drie jaar Nederlands.",
+        "translation": "我已經學了三年荷蘭語。",
+        "start": 181.46,
+        "end": 183.88
+      },
+      {
+        "text": "Mijn kinderen gaan naar de basisschool.",
+        "translation": "我的孩子們上小學。",
+        "start": 189.06,
+        "end": 191.48
+      },
+      {
+        "text": "Wat weet u van de Nederlandse basisschool?",
+        "translation": "您知道荷蘭的小學是怎麼樣的嗎？",
+        "start": 192.86,
+        "end": 195.8
+      },
+      {
+        "text": "De basisschool is voor kinderen van 4 tot 12 jaar.",
+        "translation": "小學是給4到12歲的孩子。",
+        "start": 214.24,
+        "end": 219.06
+      },
+      {
+        "text": "Kinderen gaan naar school zonder uniform.",
+        "translation": "孩子們上學不穿制服。",
+        "start": 221.46,
+        "end": 223.88
+      },
+      {
+        "text": "Jongens en meisjes zitten samen in één klas.",
+        "translation": "男孩和女孩同班上課。",
+        "start": 225.64,
+        "end": 228.88
+      },
+      {
+        "text": "Ik ben leraar Nederlands.",
+        "translation": "我是荷蘭語老師。",
+        "start": 234.22,
+        "end": 236.04
+      },
+      {
+        "text": "Wat is uw beroep en hoe lang bent u dat al?",
+        "translation": "您的職業是什麼？您做這份工作多久了？",
+        "start": 236.96,
+        "end": 240.42
+      },
+      {
+        "text": "Ik ben schoonmaker. Ik ben al drie jaar schoonmaker.",
+        "translation": "我是清潔工。我做清潔工作已經三年了。",
+        "start": 258.34,
+        "end": 263.02
+      },
+      {
+        "text": "Kijk naar het plaatje.",
+        "translation": "請看圖片。",
+        "start": 268.24,
+        "end": 270.02
+      },
+      {
+        "text": "Paula heeft een computer. Wat is het probleem?",
+        "translation": "Paula 有一台電腦。問題是什麼？",
+        "start": 273.14,
+        "end": 277.16
+      },
+      {
+        "text": "Wat kan zij het beste doen?",
+        "translation": "她最好的做法是什麼？",
+        "start": 278.46,
+        "end": 280.16
+      },
+      {
+        "text": "De koffie valt op het toetsenbord.",
+        "translation": "咖啡倒在鍵盤上了。",
+        "start": 297.96,
+        "end": 301.56
+      },
+      {
+        "text": "Zij moet een nieuw toetsenbord kopen.",
+        "translation": "她應該買一個新的鍵盤。",
+        "start": 302.24,
+        "end": 304.52
+      },
+      {
+        "text": "Kijk naar het plaatje.",
+        "translation": "請看圖片。",
+        "start": 310.86,
+        "end": 312.0
+      },
+      {
+        "text": "Vincent krijgt veel e-mails.",
+        "translation": "Vincent 收到很多電子郵件。",
+        "start": 314.68,
+        "end": 317.0
+      },
+      {
+        "text": "Wat gaat hij volgens u doen met deze e-mails?",
+        "translation": "您認為他會怎麼處理這些郵件？",
+        "start": 318.5,
+        "end": 321.64
+      },
+      {
+        "text": "Wat doet u zelf met uw e-mails?",
+        "translation": "您自己怎麼處理您的電子郵件？",
+        "start": 323.18,
+        "end": 325.42
+      },
+      {
+        "text": "Vincent leest zijn e-mails.",
+        "translation": "Vincent 會讀他的電子郵件。",
+        "start": 343.64,
+        "end": 346.22
+      },
+      {
+        "text": "Ik gooi mijn e-mails weg.",
+        "translation": "我會把電子郵件刪掉。",
+        "start": 348.5,
+        "end": 350.46
+      },
+      {
+        "text": "Kijk naar de plaatjes.",
+        "translation": "請看圖片。",
+        "start": 357.74,
+        "end": 358.66
+      },
+      {
+        "text": "Wat doet u liever in de vakantie?",
+        "translation": "您在假期比較想做什麼？",
+        "start": 361.94,
+        "end": 364.2
+      },
+      {
+        "text": "Vertel ook wanneer u op vakantie gaat.",
+        "translation": "也請說您什麼時候去旅遊。",
+        "start": 366.04,
+        "end": 369.08
+      },
+      {
+        "text": "Kijk naar de plaatjes. Ik wil veel slapen in de vakantie.",
+        "translation": "請看圖片。我想在假期多睡覺。",
+        "start": 386.7,
+        "end": 390.72
+      },
+      {
+        "text": "Ik ga het liefst in de zomer.",
+        "translation": "我最喜歡夏天去旅遊。",
+        "start": 391.62,
+        "end": 393.66
+      },
+      {
+        "text": "Kijk naar de plaatjes.",
+        "translation": "請看圖片。",
+        "start": 399.26,
+        "end": 401.62
+      },
+      {
+        "text": "Hoe gaat u het liefst op vakantie?",
+        "translation": "您最喜歡怎麼去旅遊？",
+        "start": 405.56,
+        "end": 407.92
+      },
+      {
+        "text": "Vertel ook hoe vaak u met het vliegtuig reist.",
+        "translation": "也請說您多久搭飛機旅行一次。",
+        "start": 409.42,
+        "end": 413.28
+      },
+      {
+        "text": "Ik ga liever met de trein.",
+        "translation": "我比較喜歡搭火車去。",
+        "start": 431.28,
+        "end": 433.74
+      },
+      {
+        "text": "Ik reis nooit met het vliegtuig.",
+        "translation": "我從不搭飛機旅行。",
+        "start": 435.32,
+        "end": 437.74
+      },
+      {
+        "text": "Tamara gaat naar een restaurant. Kijk naar de plaatjes.",
+        "translation": "Tamara 去餐廳。請看圖片。",
+        "start": 444.26,
+        "end": 448.86
+      },
+      {
+        "text": "Wat doet zij in het restaurant? En met wie is zij daar?",
+        "translation": "她在餐廳做什麼？她和誰在那裡？",
+        "start": 451.38,
+        "end": 456.96
+      },
+      {
+        "text": "Gebruik alle plaatjes.",
+        "translation": "使用所有圖片。",
+        "start": 458.84,
+        "end": 460.18
+      },
+      {
+        "text": "Zij eet iets lekkers. Zij drinkt rode wijn.",
+        "translation": "她吃一些美味的東西。她喝紅酒。",
+        "start": 477.6,
+        "end": 482.78
+      },
+      {
+        "text": "Zij is met haar broer.",
+        "translation": "她和她的哥哥一起。",
+        "start": 484.5,
+        "end": 485.94
+      },
+      {
+        "text": "Vladimir loopt door de stad en hij ziet drie artiesten.",
+        "translation": "Vladimir 走在城市裡，他看到三位藝人。",
+        "start": 492.1,
+        "end": 496.94
+      },
+      {
+        "text": "Kijk naar de plaatjes.",
+        "translation": "看圖片。",
+        "start": 498.18,
+        "end": 499.26
+      },
+      {
+        "text": "Wat ziet hij als hij door de stad loopt? Gebruik alle plaatjes.",
+        "translation": "他走在城市裡時看到什麼？使用所有圖片。",
+        "start": 503.84,
+        "end": 509.04
+      },
+      {
+        "text": "Hij ziet iemand die muziek maakt.",
+        "translation": "他看到有人在演奏音樂。",
+        "start": 526.64,
+        "end": 529.5
+      },
+      {
+        "text": "Hij ziet iemand die danst.",
+        "translation": "他看到有人在跳舞。",
+        "start": 531.02,
+        "end": 532.86
+      },
+      {
+        "text": "En hij ziet iemand die schildert.",
+        "translation": "他還看到有人在畫畫。",
+        "start": 534.36,
+        "end": 537.86
+      },
+      {
+        "text": "Dit was een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是口語能力 A2 模擬考試範例。",
+        "start": 542.36,
+        "end": 546.08
+      },
+      {
+        "text": "Succes bij het echte examen!",
+        "translation": "祝你真正的考試順利！",
+        "start": 547.92,
+        "end": 549.46
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat is het doel van het examen?",
+        "question_native": "這個考試的目的為何？",
+        "options": [
+          "Spreekvaardigheid A2 testen",
+          "Schrijfvaardigheid verbeteren",
+          "Luistervaardigheid oefenen"
+        ],
+        "answer": "Spreekvaardigheid A2 testen"
+      },
+      {
+        "question": "Hoeveel vragen bevat het examen?",
+        "question_native": "這個考試共有幾題？",
+        "options": [
+          "10 vragen",
+          "12 vragen",
+          "15 vragen"
+        ],
+        "answer": "12 vragen"
+      },
+      {
+        "question": "Wat moet u doen na elke vraag?",
+        "question_native": "每題問題後您需要做什麼？",
+        "options": [
+          "Naar een goed antwoord luisteren en kijken",
+          "Een pauze nemen",
+          "Meer vragen overslaan"
+        ],
+        "answer": "Naar een goed antwoord luisteren en kijken"
+      },
+      {
+        "question": "Welke taal vinden sommige mensen moeilijk?",
+        "question_native": "有人覺得哪種語言很難？",
+        "options": [
+          "Chinees",
+          "Nederlands",
+          "Engels"
+        ],
+        "answer": "Chinees"
+      },
+      {
+        "question": "Wat doen kinderen in Nederlandse basisschool met kleding?",
+        "question_native": "荷蘭小學的孩子穿什麼衣服？",
+        "options": [
+          "Draagt een uniform",
+          "Draagt vrij kleding",
+          "Draagt sportkleding"
+        ],
+        "answer": "Draagt vrij kleding"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "examen",
+        "meaning": "考試"
+      },
+      {
+        "word": "vraag",
+        "meaning": "問題"
+      },
+      {
+        "word": "antwoord",
+        "meaning": "答案"
+      },
+      {
+        "word": "cadeautje",
+        "meaning": "小禮物"
+      },
+      {
+        "word": "hobby",
+        "meaning": "興趣"
+      },
+      {
+        "word": "taal",
+        "meaning": "語言"
+      },
+      {
+        "word": "leuk",
+        "meaning": "喜歡的、有趣的"
+      },
+      {
+        "word": "basisschool",
+        "meaning": "小學"
+      },
+      {
+        "word": "toetsenbord",
+        "meaning": "鍵盤"
+      },
+      {
+        "word": "e-mail",
+        "meaning": "電子郵件"
+      },
+      {
+        "word": "vakantie",
+        "meaning": "假期，休假"
+      },
+      {
+        "word": "tegenwoordige tijd",
+        "meaning": "現在時"
+      },
+      {
+        "word": "schoonmaker",
+        "meaning": "清潔工"
+      },
+      {
+        "word": "stad",
+        "meaning": "城市"
+      },
+      {
+        "word": "reis",
+        "meaning": "旅行"
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+1
+00:00:02,780 --> 00:00:08,000
+Dit is een voorbeeldexamen Spreekvaardigheid A2.
+
+2
+00:00:09,560 --> 00:00:13,320
+Het examen is gebaseerd op examenvragen van DUO.
+
+3
+00:00:15,320 --> 00:00:17,600
+Het examen heeft 12 vragen.
+
+4
+00:00:19,160 --> 00:00:21,480
+U geeft antwoord op alle vragen.
+
+5
+00:00:23,480 --> 00:00:28,500
+U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.
+
+6
+00:00:31,060 --> 00:00:31,880
+Succes!
+
+7
+00:00:36,340 --> 00:00:39,360
+Ik woon in het centrum van een grote stad.
+
+8
+00:00:41,200 --> 00:00:42,100
+Waar woont u?
+
+9
+00:00:43,480 --> 00:00:46,200
+Vertel ook hoe u dat vindt.
+
+10
+00:01:04,480 --> 00:01:06,560
+IkwooninAmsterdam
+
+11
+00:01:08,000 --> 00:01:11,160
+AmsterdamisdemooistestadvanNederland
+
+12
+00:01:16,660 --> 00:01:18,980
+Met wie eet u meestal samen?
+
+13
+00:01:20,720 --> 00:01:22,980
+Zeg ook waar u het liefst eet.
+
+14
+00:01:41,140 --> 00:01:46,000
+Ik eet meestal met mijn partner. Ik eet het liefst thuis.
+
+15
+00:01:51,180 --> 00:01:53,420
+Waar hebt u Nederlandse les?
+
+16
+00:01:53,420 --> 00:02:07,120
+Zegookhoelangualleshebt
+
+17
+00:02:15,840 --> 00:02:19,120
+IkhebNederlandselesbijADAPO
+
+18
+00:02:20,320 --> 00:02:22,160
+Ikhebviermaandenles
+
+19
+00:02:26,760 --> 00:02:29,400
+Ik heb een nieuwe trui gekocht.
+
+20
+00:02:30,760 --> 00:02:32,980
+Wat hebt u kort geleden gekocht?
+
+21
+00:02:50,460 --> 00:02:54,960
+Ik heb gisteren een paraplu gekocht bij de HEMA.
+
+22
+00:02:59,260 --> 00:03:04,580
+WatvindtubeterinuweigenlanddaninNederland
+
+23
+00:03:06,040 --> 00:03:07,240
+Vertelookwaarom
+
+24
+00:03:25,960 --> 00:03:29,500
+Ikvindhetklimaatinmijneigenlandbeter
+
+25
+00:03:30,840 --> 00:03:33,640
+wantikhouvanzonenwarmte
+
+26
+00:03:39,060 --> 00:03:43,880
+Welke stad zou u graag willen zien? Zeg ook wat u daar wilt doen.
+
+27
+00:04:02,280 --> 00:04:07,620
+Ik wil graag naar Parijs. Ik wil daar de Eiffeltoren zien.
+
+28
+00:04:13,720 --> 00:04:16,200
+Ik heb op school leren lezen.
+
+29
+00:04:17,200 --> 00:04:19,700
+Wathebtuopschoolgeleerd
+
+30
+00:04:21,220 --> 00:04:24,480
+Zegookwatuhetleukstvondomteleren
+
+31
+00:04:42,880 --> 00:04:45,900
+Ikhebookopschoollerenlezen
+
+32
+00:04:46,860 --> 00:04:49,980
+Ikvondschrijvenhetleukstomteleren
+
+33
+00:04:55,240 --> 00:05:01,080
+IkmoetsomssnachtswerkenWanneerwerktuhetliefst
+
+34
+00:05:02,640 --> 00:05:03,700
+Vertelookwaarom
+
+35
+00:05:22,760 --> 00:05:27,040
+Ik werk het liefst in de ochtend, want dan ben ik fit.
+
+36
+00:05:32,860 --> 00:05:35,360
+Hoevaakleestudekrant
+
+37
+00:05:36,440 --> 00:05:39,040
+Vertelookwatuvandekrant
+
+38
+00:05:57,640 --> 00:06:03,400
+Ik lees de krant nooit, want ik vind de krant saai.
+
+39
+00:06:07,980 --> 00:06:13,340
+Wat kunt u goed? Vertel ook van wie u dat geleerd hebt.
+
+40
+00:06:31,640 --> 00:06:37,540
+Ik kan goed praten. Ik heb leren praten van mijn moeder.
+
+41
+00:06:43,080 --> 00:06:46,100
+Watvooretenmaaktuhetliefst
+
+42
+00:06:46,400 --> 00:06:49,380
+Vertelookwatudaarvoornodighebt
+
+43
+00:07:07,940 --> 00:07:10,920
+Ikmaakhetliefstrijstmetkip
+
+44
+00:07:12,260 --> 00:07:15,720
+Ikhebrijstkipentweepannennodig
+
+45
+00:07:21,240 --> 00:07:25,960
+Waarmee speelde u vroeger het liefst? Vertel ook waar.
+
+46
+00:07:45,920 --> 00:07:50,040
+Ik speelde vroeger het liefst met mijn vrienden op straat.
+
+47
+00:07:54,140 --> 00:07:58,280
+DitwaseenvoorbeeldexamenSpreekvaardigheidA2
+
+48
+00:07:59,820 --> 00:08:01,780
+Succesbijhetechteexamen

@@ -1,0 +1,203 @@
+1
+00:00:02,780 --> 00:00:08,000
+Dit is een voorbeeldexamen Spreekvaardigheid A2.
+
+2
+00:00:09,560 --> 00:00:13,320
+Het examen is gebaseerd op examenvragen van DUO.
+
+3
+00:00:15,320 --> 00:00:17,600
+Het examen heeft 12 vragen.
+
+4
+00:00:19,140 --> 00:00:21,480
+U geeft antwoord op alle vragen.
+
+5
+00:00:23,480 --> 00:00:28,500
+U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.
+
+6
+00:00:30,240 --> 00:00:31,160
+Succes!
+
+7
+00:00:36,180 --> 00:00:38,580
+Wat vindt u de leukste dag van de week?
+
+8
+00:00:39,500 --> 00:00:41,360
+Vertel ook waarom.
+
+9
+00:01:00,400 --> 00:01:05,360
+Maandag is de leukste dag. Dan ga ik naar mijn werk.
+
+10
+00:01:10,780 --> 00:01:12,860
+Met wie woont u in huis?
+
+11
+00:01:14,300 --> 00:01:17,320
+Vertel ook hoe lang u daar al woont.
+
+12
+00:01:36,340 --> 00:01:39,020
+Ikwooninhuismetmijnpartner
+
+13
+00:01:40,060 --> 00:01:42,740
+Ikwoonéénjaarmetheminhuis
+
+14
+00:01:47,840 --> 00:01:51,220
+Wat doet u het liefst in uw vrije tijd?
+
+15
+00:01:52,460 --> 00:01:54,780
+Vertel ook hoe vaak u dat doet.
+
+16
+00:02:13,960 --> 00:02:19,660
+In mijn vrije tijd slaap ik het liefst. Ik doe dat elke dag.
+
+17
+00:02:25,120 --> 00:02:27,940
+Wat vindt u een leuk programma op tv?
+
+18
+00:02:29,120 --> 00:02:31,220
+Vertel ook waar dat over gaat.
+
+19
+00:02:49,760 --> 00:02:55,400
+Ik vind Voice of Holland een leuk programma over wie het beste kan zingen.
+
+20
+00:03:00,520 --> 00:03:02,380
+Wat vindt u van uw buren?
+
+21
+00:03:03,760 --> 00:03:06,260
+Vertel ook hoe lang u ze al kent.
+
+22
+00:03:24,840 --> 00:03:30,560
+Ik vind mijn buren vriendelijk. Ik ken ze al twee jaar.
+
+23
+00:03:35,480 --> 00:03:37,480
+Waar ging u vroeger naar school?
+
+24
+00:03:38,960 --> 00:03:40,960
+Vertel ook iets over die school.
+
+25
+00:04:00,520 --> 00:04:03,580
+Ikgingvroegerinmijnlandnaarschool
+
+26
+00:04:05,240 --> 00:04:08,020
+Mijnschoolwaskleinmaarfijn
+
+27
+00:04:12,180 --> 00:04:16,020
+Welke sport vindt u leuk om naar te kijken?
+
+28
+00:04:17,520 --> 00:04:19,160
+Vertel ook waarom.
+
+29
+00:04:38,020 --> 00:04:41,560
+Ikvindvoetballeukomnaartekijken
+
+30
+00:04:42,720 --> 00:04:45,180
+wantvoetbaliseenmooiesport
+
+31
+00:04:50,320 --> 00:04:55,540
+Nederland ligt aan zee. Hoe vaak gaat u naar zee?
+
+32
+00:04:57,040 --> 00:04:59,300
+Vertel ook wat u daar dan doet.
+
+33
+00:05:18,280 --> 00:05:23,000
+Ik ga naar de zee. Ik lig graag op het strand.
+
+34
+00:05:28,960 --> 00:05:34,260
+Naar welk land wilt u graag een keer gaan? Vertel ook waarom.
+
+35
+00:05:52,520 --> 00:05:56,080
+Ikwilnaarmijneigenlandgaan
+
+36
+00:05:56,800 --> 00:05:58,680
+wantikmismijnland
+
+37
+00:06:04,100 --> 00:06:06,620
+Watvoorhuishebtunu
+
+38
+00:06:08,340 --> 00:06:11,460
+Vertelookwatvoorhuisuvroegerhad
+
+39
+00:06:30,160 --> 00:06:33,420
+Ikhebeenrijtjeshuisineenstad
+
+40
+00:06:35,260 --> 00:06:38,220
+Vroegerhadikeengroothuismeteentuin
+
+41
+00:06:43,800 --> 00:06:47,780
+Nederlanders hebben vaak haast. Wat vindt u daarvan?
+
+42
+00:06:49,300 --> 00:06:52,200
+Vertel ook wanneer u haast hebt.
+
+43
+00:07:11,260 --> 00:07:13,040
+Nederlanderswerkenhard
+
+44
+00:07:14,500 --> 00:07:17,440
+Ikhebhaastalsikveelwildoen
+
+45
+00:07:21,460 --> 00:07:27,900
+UmoetwerkenmaarubentziekWatdoetudan
+
+46
+00:07:29,400 --> 00:07:30,700
+Vertelookwaarom
+
+47
+00:07:50,640 --> 00:07:57,140
+IkbelmijnwerkgeverIkzegdatikziekbenDatmoet
+
+48
+00:07:58,460 --> 00:07:59,520
+Datisnormaal
+
+49
+00:08:03,500 --> 00:08:07,660
+DitwaseenvoorbeeldexamenSpreekvaardigheidA2
+
+50
+00:08:09,260 --> 00:08:11,220
+Succesbijhetechteexamen
+
+51
+00:08:18,280 --> 00:08:19,680
+TV GELDERLAND 2021.

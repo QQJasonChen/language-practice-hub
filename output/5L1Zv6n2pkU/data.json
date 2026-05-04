@@ -1,0 +1,402 @@
+{
+  "video_id": "5L1Zv6n2pkU",
+  "video_info": {
+    "title": "Spreekvaardigheid A2 - Oefenexamen 13 - januari 2021",
+    "channel": "Ad Appel Taaltrainingen - Leer Nederlands met ons",
+    "duration": 483
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Dit is een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是一個口說能力 A2 範例考試。",
+        "start": 2.78,
+        "end": 7.96
+      },
+      {
+        "text": "Het examen is gebaseerd op examenvragen van DUO.",
+        "translation": "這個考試是基於 DUO 的考題。",
+        "start": 9.56,
+        "end": 13.32
+      },
+      {
+        "text": "Het examen heeft 12 vragen.",
+        "translation": "考試有 12 題問題。",
+        "start": 15.32,
+        "end": 17.6
+      },
+      {
+        "text": "U geeft antwoord op alle vragen.",
+        "translation": "您需要回答所有問題。",
+        "start": 19.14,
+        "end": 21.48
+      },
+      {
+        "text": "U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.",
+        "translation": "在每個問題後，您會聽到並看到一個良好答案的範例。",
+        "start": 23.48,
+        "end": 28.5
+      },
+      {
+        "text": "Succes! Reist u vaak met de bus?",
+        "translation": "加油！您經常搭公車旅行嗎？",
+        "start": 30.8,
+        "end": 36.32
+      },
+      {
+        "text": "Vertel ook waarom.",
+        "translation": "也請說明為什麼。",
+        "start": 37.68,
+        "end": 39.12
+      },
+      {
+        "text": "Ja, dat is snel!",
+        "translation": "是的，那很快！",
+        "start": 55.96,
+        "end": 59.76
+      },
+      {
+        "text": "Wat vindt u een leuk programma op tv?",
+        "translation": "您認為電視上什麼節目有趣？",
+        "start": 64.72,
+        "end": 67.62
+      },
+      {
+        "text": "Vertel ook welk programma u niet leuk vindt.",
+        "translation": "也請說明您不喜歡哪個節目。",
+        "start": 69.18,
+        "end": 72.04
+      },
+      {
+        "text": "Een film is leuk. Voetbal is niet leuk.",
+        "translation": "電影很有趣。足球不有趣。",
+        "start": 89.76,
+        "end": 94.1
+      },
+      {
+        "text": "Welk fruit eet u graag?",
+        "translation": "您喜歡吃什麼水果？",
+        "start": 99.44,
+        "end": 101.48
+      },
+      {
+        "text": "Vertel ook hoe vaak u fruit eet.",
+        "translation": "也請說明您多久吃一次水果。",
+        "start": 102.74,
+        "end": 105.62
+      },
+      {
+        "text": "Appel. Ik eet elke dag een appel.",
+        "translation": "蘋果。我每天吃一顆蘋果。",
+        "start": 124.64,
+        "end": 127.76
+      },
+      {
+        "text": "In Nederland regent het vaak. Wat vindt u daarvan?",
+        "translation": "荷蘭經常下雨。您怎麼看？",
+        "start": 132.44,
+        "end": 137.38
+      },
+      {
+        "text": "Vertel ook hoe het weer is in uw eigen land.",
+        "translation": "也請說明您自己國家的天氣如何。",
+        "start": 139.22,
+        "end": 142.32
+      },
+      {
+        "text": "Het weer in Nederland is lekker.",
+        "translation": "荷蘭的天氣很好。",
+        "start": 160.96,
+        "end": 163.94
+      },
+      {
+        "text": "Het weer in mijn eigen land is ook lekker.",
+        "translation": "我自己的國家的天氣也很好。",
+        "start": 165.34,
+        "end": 167.76
+      },
+      {
+        "text": "Hoe vaak gebruikt u uw telefoon?",
+        "translation": "您多久使用一次手機？",
+        "start": 171.28,
+        "end": 174.26
+      },
+      {
+        "text": "Vertel ook waarvoor u uw telefoon gebruikt.",
+        "translation": "也請說明您手機用來做什麼。",
+        "start": 174.26,
+        "end": 179.9
+      },
+      {
+        "text": "Ik bel elke dag met mijn moeder.",
+        "translation": "我每天都和媽媽通電話。",
+        "start": 197.86,
+        "end": 201.88
+      },
+      {
+        "text": "Ik was vandaag te laat op mijn werk.",
+        "translation": "我今天上班遲到了。",
+        "start": 206.86,
+        "end": 209.8
+      },
+      {
+        "text": "Waarom bent u wel eens te laat? Zeg ook wat u dan doet.",
+        "translation": "您為什麼會有時遲到？也請說明那時您做什麼。",
+        "start": 211.84,
+        "end": 216.98
+      },
+      {
+        "text": "Ik sta soms in de file. Dan bel ik mijn baas.",
+        "translation": "我有時候塞車。那時我會打電話給我的老闆。",
+        "start": 236.52,
+        "end": 241.34
+      },
+      {
+        "text": "Wat leest u graag? Zeg ook hoe vaak u leest.",
+        "translation": "您喜歡讀什麼？也請說明您多久讀一次書。",
+        "start": 246.48,
+        "end": 250.8
+      },
+      {
+        "text": "Ik lees elke dag een boek.",
+        "translation": "我每天都看書。",
+        "start": 269.4,
+        "end": 273.48
+      },
+      {
+        "text": "Ik krijg het liefst bloemen als ik jarig ben.",
+        "translation": "我生日時最喜歡收到花。",
+        "start": 278.98,
+        "end": 282.26
+      },
+      {
+        "text": "Wat krijgt u het liefst cadeau? Vertel ook waarom.",
+        "translation": "您最喜歡收到什麼禮物？也請說明為什麼。",
+        "start": 284.0,
+        "end": 288.44
+      },
+      {
+        "text": "Ik krijg ook het liefst bloemen. Bloemen zijn mooi.",
+        "translation": "我也最喜歡收到花。花很漂亮。",
+        "start": 308.34,
+        "end": 313.04
+      },
+      {
+        "text": "Wat voor eten maakt u het liefst?",
+        "translation": "您最喜歡做什麼菜？",
+        "start": 318.62,
+        "end": 321.62
+      },
+      {
+        "text": "Vertel ook hoe u dat maakt.",
+        "translation": "也請說明您怎麼做那道菜。",
+        "start": 322.82,
+        "end": 325.0
+      },
+      {
+        "text": "Ik maak het liefst soep. Ik maak de soep in een pan.",
+        "translation": "我最喜歡做湯。我用鍋子煮湯。",
+        "start": 344.3,
+        "end": 349.72
+      },
+      {
+        "text": "Ik wil graag leren schilderen. Wat wilt u graag leren?",
+        "translation": "我想學畫畫。您想學什麼？",
+        "start": 354.88,
+        "end": 360.8
+      },
+      {
+        "text": "Zeg ook waar u dat kunt leren.",
+        "translation": "也請說明您在哪裡可以學習。",
+        "start": 362.42,
+        "end": 364.54
+      },
+      {
+        "text": "Ik wil Nederlands leren.",
+        "translation": "我想學荷蘭語。",
+        "start": 383.58,
+        "end": 386.24
+      },
+      {
+        "text": "Dat kan bij Ad Appeltaaltrainingen.",
+        "translation": "這可以在 Ad Appeltaaltrainingen 學習。",
+        "start": 387.38,
+        "end": 390.04
+      },
+      {
+        "text": "Wat doet u het liefst als het mooi weer is?",
+        "translation": "天氣好時您最喜歡做什麼？",
+        "start": 395.48,
+        "end": 399.12
+      },
+      {
+        "text": "Zeg ook waar u dat doet.",
+        "translation": "也請說明您在哪裡做這件事。",
+        "start": 401.12,
+        "end": 402.8
+      },
+      {
+        "text": "Ik fiets dan het liefst in het park.",
+        "translation": "我最喜歡在公園騎自行車。",
+        "start": 422.54,
+        "end": 426.42
+      },
+      {
+        "text": "Wat voor werk doet u nu?",
+        "translation": "您現在做什麼工作？",
+        "start": 432.12,
+        "end": 433.72
+      },
+      {
+        "text": "Vertel ook wat voor werk u vroeger deed.",
+        "translation": "也請說明您以前做什麼工作。",
+        "start": 435.52,
+        "end": 438.18
+      },
+      {
+        "text": "Ik ben nu schoonmaker. Vroeger was ik dokter.",
+        "translation": "我現在是清潔工。以前我是醫生。",
+        "start": 456.34,
+        "end": 462.0
+      },
+      {
+        "text": "Dit was een voorbeeldexamen Spreekvaardigheid A2.",
+        "translation": "這是一個口說能力 A2 範例考試。",
+        "start": 465.24,
+        "end": 470.4
+      },
+      {
+        "text": "Succes bij het echte examen.",
+        "translation": "祝您正式考試順利。",
+        "start": 471.98,
+        "end": 473.92
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat is het doel van dit examen?",
+        "question_native": "這個考試的目的是什麼？",
+        "options": [
+          "Om Nederlands te leren",
+          "Om spreekvaardigheid te toetsen",
+          "Om schrijven te oefenen"
+        ],
+        "answer": "Om spreekvaardigheid te toetsen"
+      },
+      {
+        "question": "Hoeveel vragen zitten er in het examen?",
+        "question_native": "考試有多少個問題？",
+        "options": [
+          "10 vragen",
+          "12 vragen",
+          "15 vragen"
+        ],
+        "answer": "12 vragen"
+      },
+      {
+        "question": "Wat hoort u na elke vraag?",
+        "question_native": "每個問題後您會聽到什麼？",
+        "options": [
+          "Een voorbeeld van een goed antwoord",
+          "De juiste antwoordkeuze",
+          "De volgende vraag"
+        ],
+        "answer": "Een voorbeeld van een goed antwoord"
+      },
+      {
+        "question": "Wat voor werk doet de persoon nu volgens de tekst?",
+        "question_native": "根據文章，這個人現在做什麼工作？",
+        "options": [
+          "Dokter",
+          "Schoonmaker",
+          "Leraar"
+        ],
+        "answer": "Schoonmaker"
+      },
+      {
+        "question": "Bij welke organisatie kan je Nederlands leren volgens de tekst?",
+        "question_native": "根據文章，你可以在哪裡學荷蘭語？",
+        "options": [
+          "DUO",
+          "Ad Appeltaaltrainingen",
+          "De universiteit"
+        ],
+        "answer": "Ad Appeltaaltrainingen"
+      },
+      {
+        "question": "Wat doet de persoon als hij in de file staat?",
+        "question_native": "當這個人遇到塞車時，他會做什麼？",
+        "options": [
+          "Neemt een andere route",
+          "Belt zijn baas",
+          "Stapt uit de auto"
+        ],
+        "answer": "Belt zijn baas"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "voorbeeldexamen",
+        "meaning": "範例考試"
+      },
+      {
+        "word": "spreekvaardigheid",
+        "meaning": "口說能力"
+      },
+      {
+        "word": "examen",
+        "meaning": "考試"
+      },
+      {
+        "word": "vraag",
+        "meaning": "問題"
+      },
+      {
+        "word": "antwoord",
+        "meaning": "答案"
+      },
+      {
+        "word": "snel",
+        "meaning": "快速"
+      },
+      {
+        "word": "programma",
+        "meaning": "節目"
+      },
+      {
+        "word": "fruit",
+        "meaning": "水果"
+      },
+      {
+        "word": "weer",
+        "meaning": "天氣"
+      },
+      {
+        "word": "telefoon",
+        "meaning": "電話"
+      },
+      {
+        "word": "cadeau",
+        "meaning": "禮物"
+      },
+      {
+        "word": "leren",
+        "meaning": "學習"
+      },
+      {
+        "word": "werk",
+        "meaning": "工作"
+      },
+      {
+        "word": "fietsen",
+        "meaning": "騎自行車"
+      },
+      {
+        "word": "soep",
+        "meaning": "湯"
+      }
+    ]
+  }
+}

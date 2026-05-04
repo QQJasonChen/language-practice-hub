@@ -1,0 +1,2149 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Spreekvaardigheid A2 - Oefenexamen 12 - januari 2021 — 荷蘭文練習</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  :root, [data-theme="dark"] {
+    --bg: #050510; --card: rgba(255,255,255,0.04); --card-solid: #14142a;
+    --glass-border: rgba(255,255,255,0.08);
+    --accent: #ff3b5c; --accent2: #7c5cfc;
+    --text: #f2f2f7; --muted: #a0a0b8; --dim: #606078;
+    --green: #34d399; --orange: #fb923c; --blue: #60a5fa;
+    --r: 16px;
+  }
+  [data-theme="light"] {
+    --bg: #f8f8fc; --card: rgba(0,0,0,0.03); --card-solid: #fff;
+    --glass-border: rgba(0,0,0,0.08);
+    --accent: #e63550; --accent2: #6c4de6;
+    --text: #1a1a2e; --muted: #666680; --dim: #999;
+    --green: #0d9668; --orange: #d97706; --blue: #2563eb;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text);
+    min-height: 100vh; padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom);
+  }
+  .container { max-width: 680px; margin: 0 auto; padding: 0 16px 24px; }
+
+  /* Header - compact */
+  header { display: flex; align-items: center; gap: 10px; padding: 8px 0 6px; }
+  header h1 { font-size: 13px; font-weight: 600; flex: 1; line-height: 1.3; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  /* Mini player row */
+  .mini-player-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .mini-player-row .progress-container { height: 32px; border-radius: 8px; }
+  .mini-player-row .play-btn { min-width: 40px; padding: 8px; font-size: 14px; }
+
+  /* Player actions */
+  .player-actions { display: flex; gap: 4px; align-items: center; }
+  .pa-btn {
+    background: none; border: 1px solid var(--glass-border); color: var(--dim);
+    padding: 4px 10px; border-radius: 8px; cursor: pointer; font-size: 11px; font-weight: 600;
+    transition: all 0.2s;
+  }
+  .pa-btn:active { transform: scale(0.92); color: var(--text); }
+
+  /* Extra controls (collapsible) */
+  .extra-controls { padding: 8px 0 4px; }
+  .extra-controls .controls { gap: 4px; margin-bottom: 0; }
+  .extra-controls .ctrl-btn { padding: 5px 10px; font-size: 11px; }
+
+  /* Progress in header */
+  .progress-summary { display: flex; gap: 8px; align-items: center; font-size: 11px; color: var(--muted); margin-top: 4px; }
+  .progress-summary .bar { flex: 1; height: 3px; background: var(--glass-border); border-radius: 2px; overflow: hidden; max-width: 120px; }
+  .progress-summary .bar-fill { height: 100%; background: var(--green); border-radius: 2px; transition: width 0.3s; }
+
+  /* Player */
+  .player-box {
+    background: var(--card); border: 1px solid var(--glass-border);
+    border-radius: var(--r); padding: 16px; margin-bottom: 12px;
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  }
+  .progress-container { position: relative; height: 40px; background: rgba(255,255,255,0.04); border-radius: 10px; margin-bottom: 12px; cursor: pointer; overflow: hidden; }
+  [data-theme="light"] .progress-container { background: rgba(0,0,0,0.04); }
+  .progress-bar { height: 100%; background: linear-gradient(90deg, var(--accent2), var(--accent)); width: 0%; border-radius: 10px; transition: width 0.1s linear; }
+  .ab-marker { position: absolute; top: 0; width: 2px; height: 100%; z-index: 2; }
+  .ab-marker.a-marker { background: var(--green); }
+  .ab-marker.b-marker { background: var(--orange); }
+  .ab-region { position: absolute; top: 0; height: 100%; background: rgba(52,211,153,0.12); z-index: 1; }
+  .segment-marker { position: absolute; top: 0; width: 1px; height: 100%; background: rgba(255,255,255,0.08); z-index: 1; pointer-events: none; }
+  .time-display { position: absolute; bottom: 6px; right: 10px; font-size: 11px; color: var(--muted); z-index: 3; font-weight: 500; font-variant-numeric: tabular-nums; }
+
+  .controls { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+  .ctrl-btn {
+    background: var(--card); border: 1px solid var(--glass-border); color: var(--text);
+    padding: 8px 14px; border-radius: 10px; cursor: pointer; font-size: 13px; font-weight: 600;
+    transition: all 0.2s; backdrop-filter: blur(10px);
+  }
+  .ctrl-btn:active { transform: scale(0.95); }
+  .ctrl-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .ctrl-btn.play-btn {
+    background: var(--green); color: #000; font-weight: 800; min-width: 52px;
+    border: none; box-shadow: 0 2px 12px rgba(52,211,153,0.3);
+  }
+  .ctrl-btn.play-btn:active { transform: scale(0.92); }
+  .speed-control { display: flex; align-items: center; gap: 3px; margin-left: auto; }
+  .speed-btn {
+    background: var(--card); border: 1px solid var(--glass-border); color: var(--muted);
+    padding: 6px 10px; border-radius: 8px; cursor: pointer; font-size: 12px; font-weight: 600;
+    transition: all 0.2s;
+  }
+  .speed-btn:active { transform: scale(0.92); }
+  .speed-btn.active { background: var(--accent2); border-color: var(--accent2); color: #fff; }
+
+  .ab-info { display: flex; gap: 12px; font-size: 12px; color: var(--dim); font-weight: 500; }
+  .ab-info span { display: flex; align-items: center; gap: 4px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .dot.green { background: var(--green); }
+  .dot.orange { background: var(--orange); }
+  .sentence-nav { display: flex; gap: 4px; align-items: center; margin-left: auto; }
+  .nav-btn {
+    background: var(--card); border: 1px solid var(--glass-border); color: var(--text);
+    width: 34px; height: 34px; border-radius: 50%; cursor: pointer; font-size: 14px;
+    display: flex; align-items: center; justify-content: center; transition: all 0.2s;
+  }
+  .nav-btn:active { transform: scale(0.9); }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 0; margin-bottom: 12px; background: var(--card); border-radius: 12px; padding: 3px; border: 1px solid var(--glass-border); }
+  .tab {
+    flex: 1; background: none; border: none; color: var(--dim); padding: 8px 8px;
+    cursor: pointer; font-size: 12px; font-weight: 600; border-radius: 10px;
+    transition: all 0.25s;
+  }
+  .tab.active { background: var(--accent); color: #fff; box-shadow: 0 2px 8px rgba(255,59,92,0.3); }
+
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Mode bar */
+  .mode-bar { display: flex; gap: 6px; margin-bottom: 10px; overflow-x: auto; }
+  .mode-bar::-webkit-scrollbar { display: none; }
+  .mode-btn {
+    flex-shrink: 0; background: var(--card); border: 1px solid var(--glass-border);
+    color: var(--muted); padding: 6px 14px; border-radius: 100px; cursor: pointer;
+    font-size: 12px; font-weight: 600; transition: all 0.2s;
+  }
+  .mode-btn:active { transform: scale(0.95); }
+  .mode-btn.active { background: var(--accent2); border-color: var(--accent2); color: #fff; }
+  .mode-btn.echo-btn { background: rgba(52,211,153,0.1); border-color: rgba(52,211,153,0.3); color: var(--green); }
+  .mode-btn.echo-btn:active { background: var(--green); color: #000; }
+
+  /* Dialogue */
+  .dialogue-box {
+    background: var(--card); border: 1px solid var(--glass-border);
+    border-radius: var(--r); padding: 8px; max-height: 60vh; overflow-y: auto; scroll-behavior: smooth;
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  }
+  .dialogue-box::-webkit-scrollbar { width: 3px; }
+  .dialogue-box::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
+  .dialogue-line {
+    padding: 10px 12px; border-radius: 12px; margin-bottom: 2px; cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+    line-height: 1.65; font-size: 14px; display: flex; align-items: flex-start; gap: 6px;
+  }
+  .dialogue-line:active { transform: scale(0.98); }
+  .dialogue-line:hover { background: rgba(255,255,255,0.04); }
+  [data-theme="light"] .dialogue-line:hover { background: rgba(0,0,0,0.03); }
+  .dialogue-line.highlight {
+    background: rgba(255,59,92,0.08); border-left: 3px solid var(--accent);
+    padding-left: 9px;
+  }
+  .line-text { flex: 1; }
+  .line-zh { font-size: 12px; color: var(--dim); margin-top: 3px; display: none; line-height: 1.5; }
+  .show-zh .line-zh { display: block; }
+
+  .explain-btn, .bookmark-btn, .line-repeat-btn, .rec-btn {
+    background: none; border: none; color: var(--dim); font-size: 14px;
+    padding: 2px; cursor: pointer; opacity: 0; transition: opacity 0.2s; flex-shrink: 0;
+  }
+  .dialogue-line:hover .explain-btn,
+  .dialogue-line:hover .bookmark-btn,
+  .dialogue-line:hover .line-repeat-btn,
+  .dialogue-line:hover .rec-btn { opacity: 0.5; }
+  .explain-btn:hover, .bookmark-btn:hover, .line-repeat-btn:hover, .rec-btn:hover { opacity: 1 !important; }
+  .bookmark-btn.bookmarked { opacity: 1 !important; color: var(--orange); }
+  .rec-btn.recording { opacity: 1 !important; color: var(--accent); animation: recPulse 0.8s ease-in-out infinite; }
+  @keyframes recPulse { 0%,100%{ transform:scale(1); } 50%{ transform:scale(1.2); } }
+
+  /* Recording result */
+  .rec-result {
+    margin-top: 6px; padding: 8px 12px; border-radius: 10px;
+    background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border);
+    font-size: 12px; animation: slideUp 0.3s ease;
+  }
+  .rec-result .rec-score { font-size: 18px; font-weight: 800; margin-bottom: 4px; }
+  .rec-result .rec-score.good { color: var(--green); }
+  .rec-result .rec-score.ok { color: var(--orange); }
+  .rec-result .rec-score.bad { color: var(--accent); }
+  .rec-result .rec-you { color: var(--muted); margin-bottom: 4px; }
+  .rec-result .rec-diff { line-height: 1.8; }
+  .rec-result .rec-diff .match { color: var(--green); }
+  .rec-result .rec-diff .miss { color: var(--accent); text-decoration: line-through; }
+  .rec-result .rec-diff .extra { color: var(--orange); font-style: italic; }
+  .rec-playback { display: flex; gap: 6px; margin-top: 6px; }
+  .rec-play-btn { background: var(--card); border: 1px solid var(--glass-border); color: var(--text); padding: 4px 10px; border-radius: 6px; font-size: 11px; cursor: pointer; }
+  .rec-play-btn:active { transform: scale(0.95); }
+
+  /* Dictation mode */
+  .dictation-mode .line-text { filter: blur(6px); transition: filter 0.3s; user-select: none; }
+  .dictation-mode .line-zh { display: none !important; }
+  .dictation-mode .dialogue-line:hover .line-text,
+  .dictation-mode .dialogue-line.revealed .line-text { filter: none; }
+
+  /* Quiz */
+  .quiz-box { background: var(--card); border: 1px solid var(--glass-border); border-radius: var(--r); padding: 16px; }
+  .question { margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--glass-border); }
+  .question:last-child { border-bottom: none; }
+  .question h4 { margin-bottom: 4px; font-size: 14px; font-weight: 700; }
+  .question .q-native { color: var(--muted); font-size: 12px; margin-bottom: 10px; }
+  .option {
+    display: block; width: 100%; text-align: left;
+    background: var(--card); border: 1.5px solid var(--glass-border); color: var(--text);
+    padding: 12px 14px; border-radius: 12px; margin-bottom: 6px; cursor: pointer;
+    font-size: 14px; transition: all 0.2s;
+  }
+  .option:active { transform: scale(0.98); }
+  .option.correct { border-color: var(--green); background: rgba(52,211,153,0.1); }
+  .option.wrong { border-color: var(--accent); background: rgba(255,59,92,0.1); }
+  .option.disabled { pointer-events: none; opacity: 0.6; }
+  .score-bar { margin-top: 16px; padding: 14px; background: var(--card); border: 1px solid var(--glass-border); border-radius: 12px; text-align: center; font-size: 14px; font-weight: 700; display: none; }
+
+  /* Vocab */
+  .vocab-box { background: var(--card); border: 1px solid var(--glass-border); border-radius: var(--r); padding: 12px 16px; }
+  .vocab-item { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--glass-border); font-size: 14px; }
+  .vocab-item:last-child { border-bottom: none; }
+  .vocab-word { font-weight: 700; color: var(--green); }
+  .vocab-meaning { color: var(--muted); font-size: 13px; }
+
+  /* Echo overlay */
+  .echo-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(5,5,16,0.96); z-index: 200;
+    flex-direction: column; align-items: center; justify-content: center; gap: 20px; padding: 24px;
+    backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px);
+  }
+  .echo-overlay.active { display: flex; }
+  .echo-phase { font-size: 1.3em; font-weight: 700; text-align: center; min-height: 2em; }
+  .echo-phase .emoji { font-size: 2.2em; display: block; margin-bottom: 10px; }
+  .echo-phase .label { color: var(--green); font-size: 0.65em; text-transform: uppercase; letter-spacing: 3px; font-weight: 800; }
+  .echo-sentence {
+    font-size: 15px; text-align: center; max-width: 500px; line-height: 1.8;
+    padding: 20px 24px; background: rgba(255,255,255,0.04); border-radius: var(--r);
+    border: 1px solid var(--glass-border); min-height: 80px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .echo-sentence .nl { color: var(--text); font-weight: 500; }
+  .echo-sentence .zh { color: var(--dim); font-size: 13px; margin-top: 8px; }
+  .echo-progress-ring { width: 120px; height: 120px; position: relative; }
+  .echo-progress-ring svg { transform: rotate(-90deg); }
+  .echo-progress-ring circle { fill: none; stroke-width: 3; }
+  .echo-ring-bg { stroke: rgba(255,255,255,0.06); }
+  .echo-ring-fg { stroke: var(--green); stroke-linecap: round; transition: stroke-dashoffset 0.1s linear; }
+  .echo-ring-label { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-size: 2em; font-weight: 800; }
+  .echo-controls { display: flex; gap: 10px; margin-top: 12px; }
+  .echo-ctrl {
+    background: rgba(255,255,255,0.06); border: 1px solid var(--glass-border); color: var(--text);
+    padding: 10px 20px; border-radius: 12px; cursor: pointer; font-size: 14px; font-weight: 600;
+    transition: all 0.2s;
+  }
+  .echo-ctrl:active { transform: scale(0.95); }
+  .echo-ctrl.primary { background: var(--green); color: #000; font-weight: 800; border: none; box-shadow: 0 4px 16px rgba(52,211,153,0.3); }
+  .echo-settings { display: flex; gap: 14px; align-items: center; color: var(--dim); font-size: 12px; margin-top: 10px; font-weight: 500; }
+  .echo-settings label { display: flex; align-items: center; gap: 6px; }
+  .echo-settings input[type=range] { width: 50px; accent-color: var(--green); }
+  .echo-counter { color: var(--dim); font-size: 12px; font-weight: 600; }
+
+  /* AI Explain panel — bottom sheet */
+  .explain-backdrop {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5); z-index: 149;
+  }
+  .explain-backdrop.open { display: block; }
+  .explain-panel {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: var(--card-solid, #14142a); border-top: none;
+    border-radius: 20px 20px 0 0;
+    padding: 12px 20px 20px; padding-bottom: max(20px, env(safe-area-inset-bottom));
+    z-index: 150; max-height: 55vh; overflow-y: auto;
+    box-shadow: 0 -8px 40px rgba(0,0,0,0.6);
+    transform: translateY(100%); transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .explain-panel.open { transform: translateY(0); }
+  .explain-handle { width: 36px; height: 4px; background: rgba(255,255,255,0.2); border-radius: 2px; margin: 0 auto 12px; }
+  [data-theme="light"] .explain-handle { background: rgba(0,0,0,0.15); }
+  [data-theme="light"] .explain-panel { background: #fff; box-shadow: 0 -4px 20px rgba(0,0,0,0.15); }
+  .explain-close { position: absolute; top: 8px; right: 12px; background: none; border: none; color: var(--muted); font-size: 1.2em; cursor: pointer; }
+  .explain-original { font-size: 1.05em; font-weight: 600; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #333; }
+  [data-theme="light"] .explain-original { border-bottom-color: #ddd; }
+  .explain-loading { color: var(--muted); font-size: 0.9em; }
+  .explain-content { font-size: 0.9em; line-height: 1.8; }
+  .explain-content h4 { color: var(--accent); font-size: 0.85em; margin-top: 10px; margin-bottom: 4px; }
+  .explain-content .word-item { display: inline-block; background: rgba(78,204,163,0.1); border: 1px solid rgba(78,204,163,0.3); padding: 2px 8px; border-radius: 4px; margin: 2px; font-size: 0.85em; }
+  .explain-content .pron-tip { background: rgba(245,166,35,0.1); border-left: 3px solid var(--orange); padding: 6px 10px; border-radius: 0 6px 6px 0; margin: 6px 0; font-size: 0.85em; }
+  .explain-content .grammar-note { background: rgba(91,155,213,0.1); border-left: 3px solid var(--blue, #5b9bd5); padding: 6px 10px; border-radius: 0 6px 6px 0; margin: 6px 0; font-size: 0.85em; }
+  .explain-btn { background: none; border: 1px solid #444; color: var(--muted); font-size: 0.7em; padding: 2px 6px; border-radius: 4px; cursor: pointer; opacity: 0; transition: opacity 0.2s; flex-shrink: 0; }
+  .dialogue-line:hover .explain-btn { opacity: 0.6; }
+  .explain-btn:hover { opacity: 1 !important; border-color: var(--blue, #5b9bd5); color: var(--blue, #5b9bd5); }
+
+  /* API key modal */
+  .apikey-modal { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); z-index: 200; align-items: center; justify-content: center; }
+  .apikey-modal.open { display: flex; }
+  .apikey-box { background: var(--card); border-radius: 12px; padding: 24px; max-width: 400px; width: 90%; }
+  .apikey-box h3 { margin-bottom: 8px; font-size: 1em; }
+  .apikey-box p { color: var(--muted); font-size: 0.85em; margin-bottom: 12px; }
+  .apikey-box input { width: 100%; padding: 10px; border: 1px solid #444; border-radius: 6px; background: #111; color: var(--text); font-size: 0.9em; margin-bottom: 10px; }
+  [data-theme="light"] .apikey-box input { background: #f0eeea; border-color: #ccc; }
+  .apikey-box .btn-row { display: flex; gap: 8px; justify-content: flex-end; }
+  .apikey-box button { padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 0.9em; border: 1px solid #444; background: none; color: var(--text); }
+  .apikey-box button.primary { background: var(--green); color: #000; border: none; font-weight: 700; }
+
+  /* Difficulty badge */
+  .diff-badge { font-size: 0.6em; padding: 1px 5px; border-radius: 3px; font-weight: 700; margin-left: 4px; vertical-align: middle; }
+  .diff-easy { background: rgba(78,204,163,0.2); color: var(--green); }
+  .diff-medium { background: rgba(245,166,35,0.2); color: var(--orange); }
+  .diff-hard { background: rgba(233,69,96,0.2); color: var(--accent); }
+
+  /* Review card */
+  .review-card { background: var(--card); border: 1.5px solid #333; border-radius: 10px; padding: 16px; margin-bottom: 10px; cursor: pointer; transition: all 0.2s; }
+  .review-card:hover { border-color: var(--accent); }
+  .review-card .rc-text { font-size: 1em; margin-bottom: 6px; }
+  .review-card .rc-meta { font-size: 0.75em; color: var(--muted); display: flex; gap: 8px; }
+  .review-card .rc-btns { display: flex; gap: 6px; margin-top: 8px; }
+  .review-card .rc-btn { padding: 4px 12px; border-radius: 6px; border: 1px solid #444; background: none; color: var(--text); cursor: pointer; font-size: 0.8em; }
+  .review-card .rc-btn:hover { border-color: var(--accent); }
+  .review-card .rc-btn.easy { border-color: var(--green); color: var(--green); }
+  .review-card .rc-btn.hard { border-color: var(--accent); color: var(--accent); }
+
+  /* Light theme overrides */
+  [data-theme="light"] .dialogue-line:hover { background: #e8e6e0; }
+  [data-theme="light"] .dialogue-line.highlight { background: rgba(214,58,80,0.1); }
+  [data-theme="light"] .option { background: #f0eeea; border-color: #ddd; }
+  [data-theme="light"] .progress-container { background: #ddd; }
+  [data-theme="light"] .speed-btn { background: #eee; border-color: #ccc; color: #666; }
+  [data-theme="light"] .speed-btn.active { background: var(--accent2); color: #fff; }
+  [data-theme="light"] .mode-btn { background: #eee; border-color: #ccc; color: #666; }
+  [data-theme="light"] .mode-btn.active { background: var(--accent2); color: #fff; }
+  [data-theme="light"] .echo-overlay { background: rgba(255,255,255,0.95); }
+  [data-theme="light"] .echo-sentence { background: #f0eeea; border-color: #ddd; }
+  [data-theme="light"] .echo-ctrl { background: #f0eeea; border-color: #ccc; }
+  [data-theme="light"] .conn { background: #e8e6e0; border-color: #ccc; }
+  [data-theme="light"] .question { border-bottom-color: #ddd; }
+  [data-theme="light"] .vocab-item { border-bottom-color: #ddd; }
+
+  /* Bookmark */
+  .bookmark-btn { background: none; border: none; color: #555; font-size: 0.8em; cursor: pointer; opacity: 0; transition: opacity 0.2s; flex-shrink: 0; padding: 2px 4px; }
+  .dialogue-line:hover .bookmark-btn { opacity: 0.6; }
+  .bookmark-btn:hover { opacity: 1 !important; }
+  .bookmark-btn.bookmarked { opacity: 1 !important; color: var(--orange); }
+
+  /* Back button */
+  .back-btn { position: fixed; top: 10px; left: 10px; background: var(--card); border: 1px solid #333; color: var(--text); padding: 6px 14px; border-radius: 8px; font-size: 0.85em; z-index: 50; text-decoration: none; transition: all 0.2s; }
+  .back-btn:hover { border-color: var(--accent); }
+  [data-theme="light"] .back-btn { background: #fff; border-color: #ccc; }
+
+  /* Theme toggle */
+  .theme-toggle { position: fixed; top: 10px; right: 10px; background: var(--card); border: 1px solid #333; color: var(--text); width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 1.1em; z-index: 50; display: flex; align-items: center; justify-content: center; transition: all 0.3s; }
+  .theme-toggle:hover { border-color: var(--accent); }
+  [data-theme="light"] .theme-toggle { background: #fff; border-color: #ccc; }
+
+  /* Progress bar in header */
+  .progress-summary { display: flex; gap: 8px; align-items: center; margin-top: 6px; font-size: 0.75em; color: var(--muted); }
+  .progress-summary .bar { flex: 1; height: 4px; background: #333; border-radius: 2px; overflow: hidden; max-width: 200px; }
+  [data-theme="light"] .progress-summary .bar { background: #ddd; }
+  .progress-summary .bar-fill { height: 100%; background: var(--green); border-radius: 2px; transition: width 0.3s; }
+
+  /* Bookmarks tab */
+  .bookmark-list { padding: 8px 0; }
+  .bookmark-item { padding: 6px 12px; cursor: pointer; font-size: 0.85em; border-radius: 6px; transition: background 0.2s; display: flex; gap: 8px; align-items: center; }
+  .bookmark-item:hover { background: rgba(255,255,255,0.05); }
+  [data-theme="light"] .bookmark-item:hover { background: rgba(0,0,0,0.05); }
+  .bookmark-item .bk-time { color: var(--muted); font-size: 0.8em; white-space: nowrap; }
+  .bookmark-item .bk-text { flex: 1; }
+  .bookmark-item .bk-remove { color: #555; cursor: pointer; font-size: 0.7em; opacity: 0; }
+  .bookmark-item:hover .bk-remove { opacity: 1; }
+
+  /* Spreken exam trainer */
+  .spreken-overlay {
+    display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+    background:var(--bg); z-index:185; flex-direction:column;
+    padding: env(safe-area-inset-top) 20px env(safe-area-inset-bottom);
+    overflow-y:auto;
+  }
+  .spreken-overlay.active { display:flex; }
+  .spreken-header { display:flex; justify-content:space-between; align-items:center; padding:12px 0; }
+  .spreken-header .sq-num { font-size:14px; font-weight:700; color:var(--blue); }
+  .spreken-close { background:none; border:1px solid var(--glass-border); color:var(--text); padding:6px 14px; border-radius:8px; font-size:13px; cursor:pointer; }
+  .spreken-body { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:20px; text-align:center; padding:10px; }
+  .spreken-question { font-size:17px; font-weight:600; line-height:1.8; max-width:500px; padding:20px 24px; background:var(--card); border:1px solid var(--glass-border); border-radius:16px; }
+  .spreken-question .q-zh { color:var(--dim); font-size:13px; margin-top:8px; }
+  .spreken-timer-ring { width:100px; height:100px; position:relative; }
+  .spreken-timer-ring svg { transform:rotate(-90deg); }
+  .spreken-timer-ring circle { fill:none; stroke-width:4; }
+  .spreken-timer-bg { stroke:rgba(255,255,255,0.06); }
+  .spreken-timer-fg { stroke:var(--blue); stroke-linecap:round; transition:stroke-dashoffset 0.2s; }
+  .spreken-timer-label { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:24px; font-weight:800; }
+  .spreken-rec-indicator { color:var(--accent); font-size:13px; font-weight:600; }
+  .spreken-answer { width:100%; max-width:500px; padding:16px; background:var(--card); border:1px solid var(--glass-border); border-radius:12px; text-align:left; font-size:14px; line-height:1.7; }
+  .spreken-answer h4 { color:var(--green); margin-bottom:6px; font-size:13px; }
+  .spreken-btns { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
+  .spreken-btn { background:var(--card); border:1px solid var(--glass-border); color:var(--text); padding:10px 18px; border-radius:10px; font-size:14px; font-weight:600; cursor:pointer; }
+  .spreken-btn:active { transform:scale(0.95); }
+  .spreken-btn.primary { background:var(--blue); color:#fff; border:none; }
+  .spreken-phase { font-size:14px; color:var(--muted); font-weight:600; }
+
+  /* Screen wake lock indicator */
+  .wake-lock-btn { position: fixed; top: 10px; right: 52px; background: var(--card); border: 1px solid var(--glass-border); color: var(--dim); width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 14px; z-index: 50; display: flex; align-items: center; justify-content: center; }
+  .wake-lock-btn.active { color: var(--green); border-color: var(--green); }
+
+  /* Smooth page transitions */
+  .container { animation: fadeIn 0.3s ease; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+  /* Exam simulation mode */
+  .exam-overlay {
+    display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+    background:var(--bg); z-index:180; flex-direction:column;
+    padding: env(safe-area-inset-top) 20px env(safe-area-inset-bottom);
+  }
+  .exam-overlay.active { display:flex; }
+  .exam-header { display:flex; justify-content:space-between; align-items:center; padding:16px 0; }
+  .exam-header .timer { font-size:24px; font-weight:800; font-variant-numeric:tabular-nums; color:var(--accent); }
+  .exam-header .eq-count { font-size:13px; color:var(--muted); font-weight:600; }
+  .exam-close { background:none; border:1px solid var(--glass-border); color:var(--text); padding:6px 14px; border-radius:8px; font-size:13px; cursor:pointer; }
+  .exam-question {
+    flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; gap:24px; padding:20px;
+  }
+  .exam-sentence { font-size:18px; font-weight:600; line-height:1.8; max-width:500px;
+    padding:24px; background:var(--card); border:1px solid var(--glass-border);
+    border-radius:16px; }
+  .exam-instruction { font-size:13px; color:var(--muted); }
+  .exam-rec-btn {
+    width:80px; height:80px; border-radius:50%; border:none; font-size:28px;
+    cursor:pointer; transition:all 0.2s;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color:#fff; box-shadow:0 4px 20px rgba(255,59,92,0.4);
+  }
+  .exam-rec-btn:active { transform:scale(0.9); }
+  .exam-rec-btn.recording { background:var(--accent); animation:recPulse 0.8s infinite; }
+  .exam-actions { display:flex; gap:10px; }
+  .exam-action { background:var(--card); border:1px solid var(--glass-border); color:var(--text);
+    padding:10px 20px; border-radius:10px; font-size:14px; font-weight:600; cursor:pointer; }
+  .exam-action:active { transform:scale(0.95); }
+  .exam-action.primary { background:var(--green); color:#000; border:none; }
+  .exam-result { text-align:center; padding:20px; }
+  .exam-result .big { font-size:48px; font-weight:900; margin-bottom:8px; }
+  .exam-result .big.good { color:var(--green); }
+  .exam-result .big.ok { color:var(--orange); }
+  .exam-result .big.bad { color:var(--accent); }
+  .exam-result-list { text-align:left; max-height:40vh; overflow-y:auto; margin-top:16px; }
+  .exam-result-item { padding:10px 12px; border-radius:10px; margin-bottom:6px; background:var(--card); border:1px solid var(--glass-border); font-size:13px; }
+  .exam-result-item .eri-score { font-weight:700; margin-right:8px; }
+
+  /* Daily challenge */
+  .daily-overlay {
+    display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+    background:var(--bg); z-index:175; flex-direction:column;
+    padding: env(safe-area-inset-top) 20px env(safe-area-inset-bottom);
+  }
+  .daily-overlay.active { display:flex; }
+  .daily-header { text-align:center; padding:20px 0; }
+  .daily-header .flame { font-size:48px; margin-bottom:8px; }
+  .daily-header h2 { font-size:20px; font-weight:800; margin-bottom:4px; }
+  .daily-header .streak { color:var(--orange); font-size:14px; font-weight:700; }
+  .daily-progress { display:flex; gap:6px; justify-content:center; margin:12px 0; }
+  .daily-dot { width:12px; height:12px; border-radius:50%; background:var(--glass-border); transition:all 0.3s; }
+  .daily-dot.done { background:var(--green); }
+  .daily-dot.current { background:var(--accent); box-shadow:0 0 8px var(--accent); }
+  .daily-card {
+    flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap:20px; padding:20px; text-align:center;
+  }
+  .daily-sentence { font-size:17px; font-weight:600; line-height:1.8; max-width:480px;
+    padding:20px 24px; background:var(--card); border:1px solid var(--glass-border);
+    border-radius:16px; }
+  .daily-translation { font-size:13px; color:var(--dim); margin-top:6px; }
+  .daily-btns { display:flex; gap:10px; flex-wrap:wrap; justify-content:center; }
+  .daily-btn { background:var(--card); border:1px solid var(--glass-border); color:var(--text);
+    padding:10px 18px; border-radius:10px; font-size:14px; font-weight:600; cursor:pointer; }
+  .daily-btn:active { transform:scale(0.95); }
+  .daily-btn.primary { background:var(--green); color:#000; border:none; }
+  .daily-complete { text-align:center; padding:40px; }
+  .daily-complete .big-emoji { font-size:64px; margin-bottom:16px; }
+  .daily-complete h2 { font-size:22px; font-weight:800; margin-bottom:8px; }
+
+  /* Touch-friendly: bigger tap targets on mobile */
+  @media (max-width: 600px) {
+    .controls { gap: 6px; }
+    .ctrl-btn { padding: 8px 12px; font-size: 0.85em; }
+    .speed-control { margin-left: 0; width: 100%; justify-content: center; margin-top: 4px; }
+    .echo-controls { flex-wrap: wrap; justify-content: center; }
+    .dialogue-line { padding: 12px; }
+    .rec-btn, .explain-btn, .bookmark-btn, .line-repeat-btn { font-size: 18px; padding: 4px; opacity: 0.4 !important; }
+    .rec-btn.recording { opacity: 1 !important; }
+    .bookmark-btn.bookmarked { opacity: 1 !important; }
+    .tab { padding: 10px 6px; }
+    .mode-pills .mpill, .mode-bar .mode-btn { padding: 8px 16px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+<button class="wake-lock-btn" id="wake-btn" onclick="toggleWakeLock()" title="螢幕常亮">☀️</button>
+<button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+<div class="container">
+  <!-- Compact top bar -->
+  <header>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;font-size:13px;font-weight:600">← 返回</a>
+    <h1>Spreekvaardigheid A2 - Oefenexamen 12 - januari 2021</h1>
+  </header>
+
+  <!-- Mini player -->
+  <div class="player-box">
+    <div class="mini-player-row">
+      <button class="ctrl-btn play-btn" id="play-btn" onclick="togglePlay()">▶</button>
+      <div class="progress-container" id="progress-container" style="flex:1">
+        <div class="progress-bar" id="progress-bar"></div>
+        <div class="ab-marker a-marker" id="a-marker" style="display:none"></div>
+        <div class="ab-marker b-marker" id="b-marker" style="display:none"></div>
+        <div class="ab-region" id="ab-region" style="display:none"></div>
+        <div class="time-display" id="time-display">0:00 / 0:00</div>
+      </div>
+      <div class="speed-control">
+        <button class="speed-btn" onclick="setSpeed(0.8)">🐢</button>
+        <button class="speed-btn active" onclick="setSpeed(1.0)">1x</button>
+        <button class="speed-btn" onclick="setSpeed(1.2)">🐇</button>
+      </div>
+    </div>
+    <!-- Collapsible controls -->
+    <div class="extra-controls" id="extra-controls" style="display:none">
+      <div class="controls">
+        <button class="ctrl-btn" id="set-a-btn" onclick="setA()">A</button>
+        <button class="ctrl-btn" id="set-b-btn" onclick="setB()">B</button>
+        <button class="ctrl-btn" id="loop-btn" onclick="toggleLoop()">🔁</button>
+        <button class="ctrl-btn" onclick="clearAB()">✕</button>
+        <button class="ctrl-btn" onclick="skipBack()">-3s</button>
+        <span style="font-size:11px;color:var(--dim);margin-left:4px">A:<span id="a-time">—</span> B:<span id="b-time">—</span> 🔁<span id="loop-count">0</span></span>
+      </div>
+    </div>
+    <div class="player-actions">
+      <button class="pa-btn" onclick="toggleExtraControls()">⚙ AB Loop</button>
+      <button class="pa-btn" onclick="prevSentence()">⏮</button>
+      <button class="pa-btn" onclick="nextSentence()">⏭</button>
+      <span id="progress-text" style="font-size:10px;color:var(--dim);margin-left:auto;font-weight:600">0/0</span>
+    </div>
+  </div>
+  <div class="progress-summary" id="progress-summary" style="display:none">
+    <div class="bar"><div class="bar-fill" id="progress-fill" style="width:0%"></div></div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('dialogue')">📖 對話</button>
+    <button class="tab" onclick="switchTab('bookmarks')">🔖 書籤 <span id="bookmark-count"></span></button>
+    <button class="tab" onclick="switchTab('review')">🔄 複習</button>
+    <button class="tab" onclick="switchTab('quiz')">📝 測驗</button>
+    <button class="tab" onclick="switchTab('vocab')">📚 詞彙</button>
+  </div>
+
+  <div class="tab-content" id="tab-review">
+    <div class="quiz-box" id="review-box">
+      <p style="color:var(--muted);text-align:center;padding:20px">載入複習清單...</p>
+    </div>
+  </div>
+  <div class="tab-content" id="tab-bookmarks">
+    <div class="quiz-box" id="bookmark-box">
+      <p style="color:var(--muted);text-align:center;padding:20px">還沒有書籤，點對話旁的 🔖 加入</p>
+    </div>
+  </div>
+  <div class="tab-content active" id="tab-dialogue">
+    <div class="mode-bar">
+      <button class="mode-btn" id="zh-toggle" onclick="toggleZh()">繁體中文翻譯</button>
+      <button class="mode-btn" id="dictation-toggle" onclick="toggleDictation()">👂 聽寫模式</button>
+      <button class="mode-btn echo-btn" onclick="openEcho()">🔄 迴音法 Echo</button>
+      <button class="mode-btn" onclick="openExamMode()" style="background:rgba(255,59,92,0.1);border-color:rgba(255,59,92,0.3);color:var(--accent)">🎯 考試模擬</button>
+      <button class="mode-btn" onclick="openSprekenMode()" style="background:rgba(96,165,250,0.1);border-color:rgba(96,165,250,0.3);color:var(--blue)">🗣️ 口說練習</button>
+      <button class="mode-btn" onclick="openDailyChallenge()" style="background:rgba(251,146,60,0.1);border-color:rgba(251,146,60,0.3);color:var(--orange)">🔥 每日挑戰</button>
+    </div>
+    <div class="dialogue-box" id="dialogue-box"></div>
+  </div>
+  <div class="tab-content" id="tab-quiz">
+    <div class="quiz-box" id="quiz-box"></div>
+    <div class="score-bar" id="score-bar"></div>
+  </div>
+  <div class="tab-content" id="tab-vocab">
+    <div class="vocab-box" id="vocab-box"></div>
+  </div>
+</div>
+
+<audio id="audio" preload="auto" src="audio.mp3"></audio>
+
+<!-- AI Explain Panel -->
+<div class="explain-backdrop" id="explain-backdrop" onclick="closeExplain()"></div>
+<div class="explain-panel" id="explain-panel">
+  <div class="explain-handle"></div>
+  <button class="explain-close" onclick="closeExplain()">✕</button>
+  <div class="explain-original" id="explain-original"></div>
+  <div class="explain-content" id="explain-content">
+    <div class="explain-loading">🤖 AI 解析中...</div>
+  </div>
+</div>
+
+<!-- API Key Modal -->
+<div class="apikey-modal" id="apikey-modal">
+  <div class="apikey-box">
+    <h3>🔑 設定 AI API Key</h3>
+    <p>輸入 OpenAI API Key 即可使用句子解析功能。Key 只存在你的瀏覽器中，不會上傳。</p>
+    <input type="password" id="apikey-input" placeholder="sk-...">
+    <div class="btn-row">
+      <button onclick="closeApiKeyModal()">取消</button>
+      <button class="primary" onclick="saveApiKey()">儲存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Spreken Exam Trainer Overlay -->
+<div class="spreken-overlay" id="spreken-overlay">
+  <div class="spreken-header">
+    <span class="sq-num" id="spreken-num">🗣️ 口說練習</span>
+    <button class="spreken-close" onclick="closeSpreken()">✕ 結束</button>
+  </div>
+  <div class="spreken-body" id="spreken-body"></div>
+</div>
+
+<!-- Exam Simulation Overlay -->
+<div class="exam-overlay" id="exam-overlay">
+  <div class="exam-header">
+    <span class="eq-count" id="exam-count">1 / 5</span>
+    <span class="timer" id="exam-timer">0:00</span>
+    <button class="exam-close" onclick="closeExam()">✕ 結束</button>
+  </div>
+  <div class="exam-question" id="exam-content"></div>
+</div>
+
+<!-- Daily Challenge Overlay -->
+<div class="daily-overlay" id="daily-overlay">
+  <div class="daily-header">
+    <div class="flame" id="daily-flame">🔥</div>
+    <h2>每日挑戰</h2>
+    <div class="streak" id="daily-streak"></div>
+    <div class="daily-progress" id="daily-progress"></div>
+  </div>
+  <div class="daily-card" id="daily-content"></div>
+</div>
+
+<!-- Echo Overlay -->
+<div class="echo-overlay" id="echo-overlay">
+  <div class="echo-counter" id="echo-counter"></div>
+  <div class="echo-phase" id="echo-phase"><span class="emoji">🎧</span><div>準備開始</div><div class="label">ECHO METHOD</div></div>
+  <div class="echo-progress-ring">
+    <svg width="120" height="120" viewBox="0 0 120 120">
+      <circle class="echo-ring-bg" cx="60" cy="60" r="54"/>
+      <circle class="echo-ring-fg" id="echo-ring-fg" cx="60" cy="60" r="54" stroke-dasharray="339.3" stroke-dashoffset="0"/>
+    </svg>
+    <div class="echo-ring-label" id="echo-ring-label">▶</div>
+  </div>
+  <div class="echo-sentence" id="echo-sentence"></div>
+  <div class="echo-controls">
+    <button class="echo-ctrl" onclick="echoReplay()">🔄 重聽</button>
+    <button class="echo-ctrl primary" id="echo-main-btn" onclick="echoNext()">▶ 開始</button>
+    <button class="echo-ctrl" id="echo-pause-btn" onclick="toggleEchoPause()">⏸ 暫停</button>
+    <button class="echo-ctrl" id="echo-loop-btn" onclick="toggleEchoLoop()" style="border-color:var(--orange);color:var(--orange)">♾️ 重複</button>
+    <button class="echo-ctrl" onclick="echoSkip()">⏭ 下一句</button>
+    <button class="echo-ctrl" onclick="closeEcho()">✕ 結束</button>
+  </div>
+  <div class="echo-settings">
+    <label>迴音 <input type="range" id="echo-pause" min="2" max="10" step="0.5" value="6"> <span id="echo-pause-label">6s</span></label>
+    <label>覆誦 <input type="range" id="echo-repeat" min="2" max="10" step="0.5" value="6"> <span id="echo-repeat-label">6s</span></label>
+    <label><input type="checkbox" id="echo-auto" checked> 自動下一句</label>
+  </div>
+</div>
+
+<script>
+// ── Data (injected by generator) ──
+const segments = [{"text": "Dit is een voorbeeld examen Spreekvaardigheid A2.", "translation": "這是一個A2口語能力範例考試。", "start": 2.14, "end": 7.06}, {"text": "Het examen is gemaakt door Ad Apple Taaltrainingen.", "translation": "這個考試是由Ad Apple語言訓練製作的。", "start": 8.24, "end": 12.0}, {"text": "Het examen heeft 12 vragen.", "translation": "考試有12個問題。", "start": 13.4, "end": 15.6}, {"text": "U geeft antwoord op alle vragen.", "translation": "您要回答所有問題。", "start": 17.06, "end": 19.48}, {"text": "U hoort en ziet na elke vraag een voorbeeld van een goed antwoord.", "translation": "您會在每個問題後聽到並看到一個好答案的範例。", "start": 21.06, "end": 27.22}, {"text": "Succes!", "translation": "祝你好運！", "start": 28.7, "end": 29.42}, {"text": "Ik vind het leuk om een cadeautje te krijgen.", "translation": "我喜歡收到禮物。", "start": 34.06, "end": 36.74}, {"text": "Vindt u het leuk om cadeautjes te krijgen?", "translation": "您喜歡收到禮物嗎？", "start": 38.76, "end": 41.24}, {"text": "Vertel ook wat u het leukst vindt om te krijgen.", "translation": "也請說說您最喜歡收到什麼。", "start": 42.84, "end": 46.88}, {"text": "Ik vind het ook leuk om cadeautjes te krijgen.", "translation": "我也喜歡收到禮物。", "start": 66.28, "end": 70.02}, {"text": "Ik vind bloemen leuk.", "translation": "我喜歡花。", "start": 71.12, "end": 72.94}, {"text": "Ik woon in Rotterdam.", "translation": "我住在鹿特丹。", "start": 77.56, "end": 79.7}, {"text": "In welke stad woont u nu en sinds wanneer woont u daar?", "translation": "您現在住在哪個城市？您從什麼時候開始住在那裡？", "start": 81.18, "end": 86.06}, {"text": "Ik woon in Almere. Ik woon daar sinds 2013.", "translation": "我住在阿爾梅勒。我從2013年開始住那裡。", "start": 104.68, "end": 110.44}, {"text": "Mijn hobby is boeken lezen.", "translation": "我的愛好是讀書。", "start": 115.98, "end": 118.34}, {"text": "Wat doet u het liefst in uw vrije tijd?", "translation": "您最喜歡在空閒時間做什麼？", "start": 119.88, "end": 122.42}, {"text": "Ik kijk graag naar een goede film.", "translation": "我喜歡看好電影。", "start": 141.32, "end": 144.38}, {"text": "Ik vind Chinees een heel moeilijke taal.", "translation": "我覺得中文是一門很難的語言。", "start": 149.16, "end": 151.9}, {"text": "Vindt u Nederlands een moeilijke taal?", "translation": "您覺得荷蘭語難嗎？", "start": 153.36, "end": 155.56}, {"text": "En hoe lang leert u al Nederlands?", "translation": "您學荷蘭語多久了？", "start": 156.74, "end": 159.44}, {"text": "Ik vind Nederlands heel moeilijk.", "translation": "我覺得荷蘭語很難。", "start": 177.36, "end": 180.26}, {"text": "Ik leer al drie jaar Nederlands.", "translation": "我已經學了三年荷蘭語。", "start": 181.46, "end": 183.88}, {"text": "Mijn kinderen gaan naar de basisschool.", "translation": "我的孩子們正在上小學。", "start": 189.06, "end": 191.48}, {"text": "Wat weet u van de Nederlandse basisschool?", "translation": "您知道荷蘭的小學是怎麼樣的嗎？", "start": 192.86, "end": 195.78}, {"text": "De basisschool is voor kinderen van 4 tot 12 jaar.", "translation": "小學是給4到12歲的孩子上學。", "start": 214.2, "end": 219.1}, {"text": "Kinderen gaan naar school zonder uniform.", "translation": "孩子們上學時不穿制服。", "start": 221.46, "end": 223.88}, {"text": "Jongens en meisjes zitten samen in één klas.", "translation": "男孩和女孩在同一個班級。", "start": 225.64, "end": 228.88}, {"text": "Ik ben leraar Nederlands.", "translation": "我是荷蘭語老師。", "start": 234.22, "end": 236.04}, {"text": "Wat is uw beroep en hoe lang bent u dat al?", "translation": "您的職業是什麼？您當了多久？", "start": 236.96, "end": 240.44}, {"text": "Ik ben schoonmaker. Ik ben al drie jaar schoonmaker.", "translation": "我是清潔工。我當了三年清潔工了。", "start": 258.34, "end": 263.0}, {"text": "Ik hou van mooie kleren en ik geef veel geld uit aan kleding.", "translation": "我喜歡漂亮的衣服，也花很多錢買衣服。", "start": 268.24, "end": 273.92}, {"text": "Waar geeft u het meeste geld aan uit?", "translation": "您花最多錢買什麼？", "start": 275.94, "end": 278.6}, {"text": "Ik geef veel geld uit aan de supermarkt.", "translation": "我花很多錢在超市。", "start": 297.88, "end": 301.38}, {"text": "Ik geef veel geld uit aan eten kopen in de supermarkt.", "translation": "我花很多錢在超市買食物。", "start": 301.38, "end": 306.9}, {"text": "Ik hou van het strand. Andere mensen houden van bergen of bossen.", "translation": "我喜歡海灘。其他人喜歡山或森林。", "start": 312.42, "end": 317.92}, {"text": "Weer andere mensen houden van het leven in de grote stad.", "translation": "還有些人喜歡住在大城市裡。", "start": 319.1, "end": 322.94}, {"text": "Wat vindt u het leukst en vertel ook waarom.", "translation": "您最喜歡什麼？也請說說為什麼。", "start": 323.94, "end": 327.94}, {"text": "Ik vind de grote stad leuk. In de stad zijn bioscopen, musea, veel monumenten.", "translation": "我喜歡大城市。城市裡有電影院、博物館、很多古蹟。", "start": 346.17, "end": 351.33}, {"text": "Een grote stad is nooit saai.", "translation": "大城市永遠不會無聊。", "start": 352.25, "end": 354.49}, {"text": "In welk land zou u het liefst willen wonen en vertel ook waarom.", "translation": "您最想住在哪個國家？也請說說為什麼。", "start": 355.49, "end": 358.63}, {"text": "Ik woon het liefst in Indonesië.", "translation": "我最想住在印尼。", "start": 362.47, "end": 368.13}, {"text": "Daar is het lekker warm en daar is veel lekker eten.", "translation": "那裡天氣很暖和，還有很多好吃的。", "start": 386.09, "end": 388.99}, {"text": "Ik koop wel eens tweedehands spullen.", "translation": "我有時會買二手物品。", "start": 389.99, "end": 393.49}, {"text": "Doe u dat ook wel eens? En wat koopt u dan?", "translation": "您也會買嗎？那您買什麼？", "start": 398.55, "end": 401.71}, {"text": "Ja, ik koop wel eens tweedehands meubels.", "translation": "是的，我有時會買二手家具。", "start": 403.05, "end": 406.67}, {"text": "Ik kook graag. Ik vind het leuk om speciale gerechten te maken.", "translation": "我喜歡做飯。我喜歡做特別的菜餚。", "start": 424.43, "end": 428.99}, {"text": "Kookt u ook graag? En wat maakt u dan voor eten?", "translation": "您也喜歡做飯嗎？那您通常做什麼菜？", "start": 433.89, "end": 439.91}, {"text": "Ik kook ook graag. Ik maak dan spaghetti.", "translation": "我也喜歡做飯。我通常做義大利麵。", "start": 441.33, "end": 445.67}, {"text": "Ik ga elke ochtend vijf kilometer rennen.", "translation": "我每天早上跑五公里。", "start": 464.09, "end": 468.11}, {"text": "Ikgaelkeochtendvijfkilometerrennen", "translation": "", "start": 472.97, "end": 477.43}, {"text": "Wat vindt u van mensen die elke dag sporten? En doet u zelf ook aan sport?", "translation": "您覺得每天運動的人怎麼樣？您自己也有運動嗎？", "start": 478.51, "end": 484.23}, {"text": "Ja, ik sport ook graag. Ik zwem drie keer per week.", "translation": "是的，我也喜歡運動。我一週游泳三次。", "start": 502.57, "end": 507.75}, {"text": "Dit was een voorbeeldexamen Spreekvaardigheid A2.", "translation": "這是一個口說能力 A2 等級的範例考試。", "start": 512.31, "end": 516.99}, {"text": "Succes bij het echte examen.", "translation": "祝您正式考試順利。", "start": 518.91, "end": 520.43}];
+const questions = [{"question": "Hoeveel vragen heeft het examen?", "question_native": "這個考試有多少個問題？", "options": ["10", "12", "15"], "answer": "12"}, {"question": "Wat moet u doen na elke vraag in het examen?", "question_native": "考試中，每個問題後您會看到或聽到什麼？", "options": ["Geen antwoord", "Een voorbeeld van een goed antwoord", "Uw eigen antwoord herhalen"], "answer": "Een voorbeeld van een goed antwoord"}, {"question": "Waar gaat de tekst het meest over?", "question_native": "這段文字最主要在講什麼？", "options": ["Eten en drinken", "Een spreekvaardigheidsexamen en persoonlijke informatie", "Vakantieplannen"], "answer": "Een spreekvaardigheidsexamen en persoonlijke informatie"}, {"question": "Wat vindt de spreker leuk om te doen in vrije tijd?", "question_native": "說話者喜歡在空閒時間做什麼？", "options": ["Boeken lezen", "Naar een goede film kijken", "Shoppen voor kleding"], "answer": "Naar een goede film kijken"}, {"question": "Waar woont de spreker in Nederland?", "question_native": "說話者住在哪個荷蘭城市？", "options": ["Rotterdam", "Almere", "Amsterdam"], "answer": "Rotterdam"}, {"question": "Wat koopt de spreker soms tweedehands?", "question_native": "說話者有時會買什麼二手物品？", "options": ["Kleren", "Meubels", "Boeken"], "answer": "Meubels"}];
+const vocabulary = [{"word": "examen", "meaning": "考試"}, {"word": "vraag", "meaning": "問題"}, {"word": "antwoord", "meaning": "答案"}, {"word": "cadeautje", "meaning": "小禮物"}, {"word": "hobby", "meaning": "興趣"}, {"word": "vrije tijd", "meaning": "空閒時間"}, {"word": "taal", "meaning": "語言"}, {"word": "basisschool", "meaning": "小學"}, {"word": "beroep", "meaning": "職業"}, {"word": "schoonmaker", "meaning": "清潔工"}, {"word": "strand", "meaning": "海灘"}, {"word": "stad", "meaning": "城市"}, {"word": "tweedehands", "meaning": "二手的"}, {"word": "koken", "meaning": "做飯"}, {"word": "rennen", "meaning": "跑步"}];
+const audio = document.getElementById('audio');
+
+// ── State ──
+let pointA = null, pointB = null, loopEnabled = false, loopCount = 0;
+let syncEnabled = true, showZh = false, dictationMode = false;
+let activeLineIndex = null;
+
+// ── Init ──
+function init() {
+  renderDialogue();
+  renderQuiz();
+  renderVocab();
+  audio.playbackRate = 1.0;
+}
+
+// ── Dialogue ──
+// ── Persistence ──
+const VIDEO_ID = location.pathname.split('/').filter(Boolean).pop() || 'default';
+const STORE_KEY = `lph_${VIDEO_ID}`;
+function loadStore() { try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); } catch(e) { return {}; } }
+function saveStore(d) { localStorage.setItem(STORE_KEY, JSON.stringify(d)); }
+let store = loadStore(); // { practiced: [idx,...], bookmarks: [idx,...], theme: 'dark' }
+if (!store.practiced) store.practiced = [];
+if (!store.bookmarks) store.bookmarks = [];
+
+function renderDialogue() {
+  const box = document.getElementById('dialogue-box');
+  box.innerHTML = segments.map((s, i) => {
+    const zh = s.translation || '';
+    const isBookmarked = store.bookmarks.includes(i);
+    return `<div class="dialogue-line" data-idx="${i}" onclick="jumpToLine(${i})">
+      <span class="line-text">${escapeHtml(s.text)}${zh ? `<div class="line-zh">${escapeHtml(zh)}</div>` : ''}</span>
+      <button class="rec-btn" id="rec-${i}" onclick="event.stopPropagation();toggleRec(${i})" title="錄音比對">🎙️</button>
+      <button class="explain-btn" onclick="event.stopPropagation();explainLine(${i})" title="AI 解析">💡</button>
+      <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" onclick="event.stopPropagation();toggleBookmark(${i})" title="書籤">🔖</button>
+      <button class="line-repeat-btn" onclick="event.stopPropagation();loopLine(${i})" title="單句Loop / Shift+點兩句=多句Loop">🔁</button>
+    </div>`;
+  }).join('');
+  applyModes();
+  renderSegmentMarkers();
+  updateProgress();
+}
+
+function escapeHtml(t) { return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function applyModes() {
+  const box = document.getElementById('dialogue-box');
+  box.classList.toggle('show-zh', showZh);
+  box.classList.toggle('dictation-mode', dictationMode);
+}
+function toggleZh() { showZh = !showZh; document.getElementById('zh-toggle').classList.toggle('active', showZh); applyModes(); }
+function toggleDictation() {
+  dictationMode = !dictationMode;
+  document.getElementById('dictation-toggle').classList.toggle('active', dictationMode);
+  document.querySelectorAll('.dialogue-line.revealed').forEach(l => l.classList.remove('revealed'));
+  applyModes();
+}
+
+function jumpToLine(idx) {
+  setActiveDialogueLine(idx);
+  if (dictationMode) { const lines = document.querySelectorAll('.dialogue-line'); if(lines[idx]) lines[idx].classList.add('revealed'); }
+  const s = segments[idx];
+  if (s && isFinite(audio.duration)) {
+    audio.pause();
+    audio.currentTime = s.start;
+    // Wait for seek to complete before playing (iOS fix)
+    const onSeeked = () => {
+      audio.removeEventListener('seeked', onSeeked);
+      audio.play().then(() => setPlayButton(true)).catch(() => {});
+      updateProgressUI();
+    };
+    audio.addEventListener('seeked', onSeeked);
+    // Fallback if seeked doesn't fire
+    setTimeout(() => {
+      audio.removeEventListener('seeked', onSeeked);
+      if (audio.paused) audio.play().then(() => setPlayButton(true)).catch(() => {});
+    }, 300);
+  }
+}
+
+let loopRangeStart = null; // for multi-line loop selection
+
+function loopLine(idx) {
+  const s = segments[idx]; if (!s) return;
+
+  // Multi-line loop: first click sets start, second click sets end
+  if (loopRangeStart !== null && loopRangeStart !== idx) {
+    const from = Math.min(loopRangeStart, idx);
+    const to = Math.max(loopRangeStart, idx);
+    pointA = segments[from].start;
+    pointB = segments[to].end;
+    loopEnabled = true; loopCount = 0;
+    document.getElementById('loop-btn').classList.add('active');
+    document.getElementById('set-a-btn').classList.add('active');
+    document.getElementById('set-b-btn').classList.add('active');
+    syncABLabels();
+    audio.currentTime = pointA;
+    updateProgressUI();
+    audio.play().then(() => setPlayButton(true)).catch(() => {});
+    // Highlight range
+    const lines = document.querySelectorAll('.dialogue-line');
+    lines.forEach((l, i) => l.classList.toggle('highlight', i >= from && i <= to));
+    loopRangeStart = null;
+    return;
+  }
+
+  // Single click: if no range active, start range OR single loop
+  // Hold shift for range mode
+  if (window._shiftHeld) {
+    loopRangeStart = idx;
+    // Visual feedback
+    const lines = document.querySelectorAll('.dialogue-line');
+    lines[idx].style.boxShadow = 'inset 3px 0 0 var(--green), inset -3px 0 0 var(--green)';
+    return;
+  }
+
+  // Toggle: if already looping this line, cancel and show feedback
+  if (loopEnabled && Math.abs(pointA - s.start) < 0.5 && Math.abs(pointB - s.end) < 0.5) {
+    clearAB();
+    // Flash the button to show it's cancelled
+    const btn = document.querySelectorAll('.line-repeat-btn')[idx];
+    if (btn) { btn.style.color = 'var(--green)'; setTimeout(() => btn.style.color = '', 500); }
+    return;
+  }
+
+  // Default: single line loop
+  pointA = s.start; pointB = s.end;
+  loopEnabled = true; loopCount = 0;
+  document.getElementById('loop-btn').classList.add('active');
+  document.getElementById('set-a-btn').classList.add('active');
+  document.getElementById('set-b-btn').classList.add('active');
+  syncABLabels();
+  audio.currentTime = s.start;
+  updateProgressUI();
+  audio.play().then(() => setPlayButton(true)).catch(() => {});
+  setActiveDialogueLine(idx);
+}
+
+function prevSentence() { jumpToLine(Math.max(0, (activeLineIndex || 0) - 1)); }
+function nextSentence() { jumpToLine(Math.min(segments.length - 1, (activeLineIndex || 0) + 1)); }
+
+function setActiveDialogueLine(idx) {
+  document.querySelectorAll('.dialogue-line').forEach(l => l.classList.remove('highlight'));
+  const line = document.querySelectorAll('.dialogue-line')[idx];
+  if (!line) return;
+  line.classList.add('highlight');
+  activeLineIndex = idx;
+  const box = document.getElementById('dialogue-box');
+  const boxRect = box.getBoundingClientRect();
+  const lineRect = line.getBoundingClientRect();
+  if (lineRect.top < boxRect.top || lineRect.bottom > boxRect.bottom) line.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function renderSegmentMarkers() {
+  document.querySelectorAll('.segment-marker').forEach(m => m.remove());
+  if (!segments.length || !isFinite(audio.duration)) return;
+  const container = document.getElementById('progress-container');
+  segments.slice(1).forEach(s => {
+    const marker = document.createElement('div');
+    marker.className = 'segment-marker';
+    marker.style.left = `${(s.start / audio.duration) * 100}%`;
+    container.appendChild(marker);
+  });
+}
+
+// ── Quiz ──
+function renderQuiz() {
+  const box = document.getElementById('quiz-box');
+  if (!questions.length) { box.innerHTML = '<p style="color:var(--muted);text-align:center;padding:20px">此影片暫無測驗題</p>'; return; }
+  window._quizState = { total: questions.length, answered: 0, correct: 0 };
+  box.innerHTML = questions.map((q, qi) => {
+    const opts = (q.options || []).map((opt, oi) => {
+      const letter = String.fromCharCode(65 + oi);
+      return `<button class="option" data-q="${qi}" data-correct="${opt === q.answer}" onclick="checkAnswer(this,${qi})">${letter}. ${opt}</button>`;
+    }).join('');
+    const native = q.question_native ? `<div class="q-native">${q.question_native}</div>` : '';
+    return `<div class="question" id="q-${qi}"><h4>❓ ${q.question}</h4>${native}${opts}</div>`;
+  }).join('');
+}
+function checkAnswer(btn, qi) {
+  const q = document.getElementById(`q-${qi}`);
+  q.querySelectorAll('.option').forEach(o => { o.classList.add('disabled'); if(o.dataset.correct==='true') o.classList.add('correct'); });
+  if (btn.dataset.correct !== 'true') btn.classList.add('wrong');
+  const st = window._quizState; st.answered++; if(btn.dataset.correct==='true') st.correct++;
+  if (st.answered === st.total) {
+    const pct = Math.round(st.correct / st.total * 100);
+    const bar = document.getElementById('score-bar');
+    bar.textContent = `🏆 ${st.correct}/${st.total} (${pct}%)`; bar.style.display = 'block';
+    bar.style.color = pct >= 70 ? 'var(--green)' : 'var(--orange)';
+  }
+}
+
+// ── Vocab ──
+function renderVocab() {
+  const box = document.getElementById('vocab-box');
+  if (!vocabulary.length) { box.innerHTML = '<p style="color:var(--muted);text-align:center;padding:20px">此影片暫無詞彙表</p>'; return; }
+  box.innerHTML = vocabulary.map(v => `<div class="vocab-item"><span class="vocab-word">${escapeHtml(v.word)}</span><span class="vocab-meaning">${escapeHtml(v.meaning)}</span></div>`).join('');
+}
+
+// ── Tabs ──
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  document.querySelector(`.tab[onclick*="${tab}"]`).classList.add('active');
+  document.getElementById(`tab-${tab}`).classList.add('active');
+}
+
+// ── Audio Controls ──
+function togglePlay() { if(audio.paused) audio.play().then(()=>setPlayButton(true)).catch(()=>setPlayButton(false)); else { audio.pause(); setPlayButton(false); } }
+function setPlayButton(p) { document.getElementById('play-btn').textContent = p ? '⏸' : '▶'; }
+function setA() { pointA = audio.currentTime; document.getElementById('a-time').textContent = fmt(pointA); updateMarkers(); document.getElementById('set-a-btn').classList.add('active'); }
+function setB() { pointB = audio.currentTime; document.getElementById('b-time').textContent = fmt(pointB); updateMarkers(); document.getElementById('set-b-btn').classList.add('active'); if(pointA!==null&&!loopEnabled) toggleLoop(); }
+function toggleLoop() { loopEnabled = !loopEnabled; document.getElementById('loop-btn').classList.toggle('active', loopEnabled); }
+function clearAB() { pointA=null; pointB=null; loopEnabled=false; loopCount=0; document.getElementById('a-time').textContent='—'; document.getElementById('b-time').textContent='—'; document.getElementById('loop-count').textContent='0'; ['a-marker','b-marker','ab-region'].forEach(id => document.getElementById(id).style.display='none'); ['set-a-btn','set-b-btn','loop-btn'].forEach(id => document.getElementById(id).classList.remove('active')); }
+function skipBack() { audio.currentTime = Math.max(0, audio.currentTime - 3); }
+function toggleExtraControls() {
+  const el = document.getElementById('extra-controls');
+  el.style.display = el.style.display === 'none' ? 'block' : 'none';
+}
+
+function setSpeed(v) {
+  audio.playbackRate = v;
+  document.querySelectorAll('.speed-btn').forEach(b => b.classList.remove('active'));
+  const btns = document.querySelectorAll('.speed-btn');
+  if (v <= 0.8) btns[0].classList.add('active');
+  else if (v >= 1.2) btns[2].classList.add('active');
+  else btns[1].classList.add('active');
+}
+function syncABLabels() { document.getElementById('a-time').textContent = pointA!==null?fmt(pointA):'—'; document.getElementById('b-time').textContent = pointB!==null?fmt(pointB):'—'; updateMarkers(); }
+
+function updateMarkers() {
+  const dur = audio.duration || 1;
+  if(pointA!==null) { const m=document.getElementById('a-marker'); m.style.left=`${(pointA/dur)*100}%`; m.style.display='block'; }
+  if(pointB!==null) { const m=document.getElementById('b-marker'); m.style.left=`${(pointB/dur)*100}%`; m.style.display='block'; }
+  if(pointA!==null&&pointB!==null) { const a=Math.min(pointA,pointB), b=Math.max(pointA,pointB), r=document.getElementById('ab-region'); r.style.left=`${(a/dur)*100}%`; r.style.width=`${((b-a)/dur)*100}%`; r.style.display='block'; }
+}
+
+function updateProgressUI() {
+  if (!isFinite(audio.duration)) return;
+  const pct = (audio.currentTime / audio.duration) * 100;
+  document.getElementById('progress-bar').style.width = `${pct}%`;
+  document.getElementById('time-display').textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration)}`;
+  // Sync active line
+  if (syncEnabled && segments.length) {
+    const t = audio.currentTime;
+    const idx = segments.findIndex((s, i) => t >= s.start && (t < s.end || i === segments.length - 1));
+    if (idx !== -1 && idx !== activeLineIndex) setActiveDialogueLine(idx);
+  }
+}
+
+// ── Events ──
+document.getElementById('progress-container').addEventListener('click', function(e) {
+  if (!isFinite(audio.duration)) return;
+  const pct = (e.clientX - this.getBoundingClientRect().left) / this.offsetWidth;
+  audio.currentTime = pct * audio.duration;
+  updateProgressUI();
+});
+
+audio.addEventListener('timeupdate', function() {
+  updateProgressUI();
+  if (loopEnabled && pointA !== null && pointB !== null) {
+    const a = Math.min(pointA, pointB), b = Math.max(pointA, pointB);
+    if (audio.currentTime >= b) { audio.currentTime = a; loopCount++; document.getElementById('loop-count').textContent = loopCount; }
+  }
+});
+audio.addEventListener('ended', () => setPlayButton(false));
+audio.addEventListener('loadedmetadata', () => { renderSegmentMarkers(); updateProgressUI(); });
+
+// ── Echo Method (flicker-free engine) ──
+let echoState = { active: false, lineIdx: 0, phase: 'idle', timers: [], animId: null, cycleId: 0 };
+
+function echoClearAll() {
+  echoState.timers.forEach(t => clearTimeout(t));
+  echoState.timers = [];
+  if (echoState.animId) { cancelAnimationFrame(echoState.animId); echoState.animId = null; }
+  audio.pause();
+  audio.volume = 1;
+}
+
+function openEcho() {
+  if (!segments.length) return;
+  echoClearAll();
+  echoState.active = true;
+  echoState.lineIdx = activeLineIndex || 0;
+  echoState.phase = 'idle';
+  document.getElementById('echo-overlay').classList.add('active');
+  setPlayButton(false);
+  updateEchoUI();
+  document.getElementById('echo-pause').oninput = function() { document.getElementById('echo-pause-label').textContent = this.value+'s'; };
+  document.getElementById('echo-repeat').oninput = function() { document.getElementById('echo-repeat-label').textContent = this.value+'s'; };
+}
+
+function closeEcho() {
+  echoClearAll();
+  echoState.active = false;
+  echoState.phase = 'idle';
+  document.getElementById('echo-overlay').classList.remove('active');
+}
+
+function updateEchoUI() {
+  const s = segments[echoState.lineIdx];
+  document.getElementById('echo-counter').textContent = `第 ${echoState.lineIdx + 1} / ${segments.length} 句`;
+  document.getElementById('echo-sentence').innerHTML = s
+    ? `<div><div class="nl">${escapeHtml(s.text)}</div>${s.translation ? `<div class="zh">${escapeHtml(s.translation)}</div>` : ''}</div>`
+    : '';
+}
+
+function setEchoPhase(phase, emoji, text) {
+  echoState.phase = phase;
+  document.getElementById('echo-phase').innerHTML = `<span class="emoji">${emoji}</span><div>${text}</div><div class="label">${phase.toUpperCase()}</div>`;
+}
+
+function setEchoRing(p, l) {
+  document.getElementById('echo-ring-fg').style.strokeDashoffset = 339.3 * (1 - p);
+  document.getElementById('echo-ring-label').textContent = l;
+}
+
+// Smooth ring animation using requestAnimationFrame
+function animateRing(startTime, duration, label, cycleId, onDone) {
+  function step() {
+    if (!echoState.active || ecleState_cycleId !== cycleId) return;
+    const elapsed = Date.now() - startTime;
+    const progress = Math.min(1, elapsed / duration);
+    setEchoRing(progress, label);
+    if (progress < 1) {
+      echoState.animId = requestAnimationFrame(step);
+    } else if (onDone) {
+      onDone();
+    }
+  }
+  // Use a closure variable to track the cycle
+  const ecleState_cycleId = cycleId;
+  echoState.animId = requestAnimationFrame(step);
+}
+
+let echoLoopMode = false;
+function toggleEchoLoop() {
+  echoLoopMode = !echoLoopMode;
+  const btn = document.getElementById('echo-loop-btn');
+  if (btn) {
+    btn.style.background = echoLoopMode ? 'var(--orange)' : 'none';
+    btn.style.color = echoLoopMode ? '#000' : 'var(--orange)';
+  }
+}
+
+let echoPaused = false;
+function toggleEchoPause() {
+  echoPaused = !echoPaused;
+  const btn = document.getElementById('echo-pause-btn');
+  if (echoPaused) {
+    audio.pause();
+    echoState.timers.forEach(t => clearTimeout(t));
+    echoState.timers = [];
+    if (echoState.animId) { cancelAnimationFrame(echoState.animId); echoState.animId = null; }
+    btn.textContent = '▶ 繼續';
+    setEchoPhase('pause', '⏸', '已暫停');
+  } else {
+    btn.textContent = '⏸ 暫停';
+    echoRunCycle(echoState.lineIdx);
+  }
+}
+
+function echoNext() { echoPaused = false; document.getElementById('echo-pause-btn').textContent = '⏸ 暫停'; echoClearAll(); echoRunCycle(echoState.lineIdx); }
+function echoReplay() { echoClearAll(); echoRunCycle(echoState.lineIdx); }
+function echoSkip() {
+  echoClearAll();
+  echoState.lineIdx = Math.min(segments.length - 1, echoState.lineIdx + 1);
+  updateEchoUI();
+  echoRunCycle(echoState.lineIdx);
+}
+
+function echoRunCycle(idx) {
+  if (!echoState.active) return;
+  echoClearAll();
+
+  const cycleId = ++echoState.cycleId;  // unique ID to cancel stale callbacks
+  echoState.lineIdx = idx;
+  updateEchoUI();
+  setActiveDialogueLine(idx);
+
+  const s = segments[idx];
+  if (!s) return;
+
+  const pauseDur = parseFloat(document.getElementById('echo-pause').value) * 1000;
+  const repeatDur = parseFloat(document.getElementById('echo-repeat').value) * 1000;
+  const listenDur = (s.end - s.start) * 1000 / audio.playbackRate;
+
+  // ── Phase 1: LISTEN ──
+  setEchoPhase('listen', '🎧', '仔細聽這句話');
+  setEchoRing(0, '🎧');
+  audio.volume = 1;
+  audio.currentTime = s.start;
+  audio.play().catch(() => {});
+
+  const t0 = Date.now();
+  animateRing(t0, listenDur, '🎧', cycleId, null);
+
+  // Wait for audio to actually reach s.end (not setTimeout which can be inaccurate)
+  function waitForEnd(callback) {
+    function check() {
+      if (cycleId !== echoState.cycleId) return;
+      if (audio.currentTime >= s.end - 0.05 || audio.paused) { callback(); return; }
+      requestAnimationFrame(check);
+    }
+    // Also set a safety timeout (listenDur + 1s buffer)
+    const safetyTimer = setTimeout(() => { if (cycleId === echoState.cycleId) callback(); }, listenDur + 1000);
+    echoState.timers.push(safetyTimer);
+    check();
+  }
+
+  waitForEnd(() => {
+    if (cycleId !== echoState.cycleId) return;
+    if (echoState.animId) { cancelAnimationFrame(echoState.animId); echoState.animId = null; }
+    audio.pause();
+    setEchoRing(1, '🎧');
+
+    // ── Phase 2: ECHO ──
+    setEchoPhase('echo', '🧠', '在腦中迴想剛才的聲音...');
+    setEchoRing(0, '🧠');
+
+    const t1 = Date.now();
+    animateRing(t1, pauseDur, '🧠', cycleId, null);
+
+    const timer2 = setTimeout(() => {
+      if (cycleId !== echoState.cycleId) return;
+      if (echoState.animId) { cancelAnimationFrame(echoState.animId); echoState.animId = null; }
+
+      // ── Phase 3: REPEAT (no audio replay — speak from memory!) ──
+      setEchoPhase('repeat', '🗣️', '大聲跟著說！');
+      setEchoRing(0, '🗣️');
+      // Recording during repeat phase — only if mic already granted
+      if (recState.stream) { startRec(idx).catch(() => {}); }
+
+      const t2 = Date.now();
+      animateRing(t2, repeatDur, '🗣️', cycleId, null);
+
+      const timer3 = setTimeout(() => {
+        if (cycleId !== echoState.cycleId) return;
+        if (echoState.animId) { cancelAnimationFrame(echoState.animId); echoState.animId = null; }
+        audio.pause();
+        audio.volume = 1;
+        // Stop recording
+        if (recState.recording) stopRec();
+
+        // ── Done or auto-next or loop ──
+        if (echoLoopMode) {
+          setEchoPhase('listen', '🔄', '再來一次...');
+          setEchoRing(1, '🔄');
+          const timer4 = setTimeout(() => {
+            if (cycleId !== echoState.cycleId) return;
+            echoRunCycle(idx); // same sentence again
+          }, 800);
+          echoState.timers.push(timer4);
+        } else if (document.getElementById('echo-auto').checked && idx < segments.length - 1) {
+          setEchoPhase('listen', '✅', '很好！下一句...');
+          setEchoRing(1, '✅');
+          const timer4 = setTimeout(() => {
+            if (cycleId !== echoState.cycleId) return;
+            echoRunCycle(idx + 1);
+          }, 1000);
+          echoState.timers.push(timer4);
+        } else if (idx >= segments.length - 1) {
+          setEchoPhase('done', '🎉', '全部完成！太棒了！');
+          setEchoRing(1, '🎉');
+        } else {
+          setEchoPhase('pause', '⏸', '準備好按「下一句」');
+          setEchoRing(1, '⏸');
+        }
+      }, repeatDur);
+      echoState.timers.push(timer3);
+    }, pauseDur);
+    echoState.timers.push(timer2);
+  });
+}
+
+// ── Keyboard ──
+// Track shift key for multi-line loop
+window._shiftHeld = false;
+document.addEventListener('keydown', function(e) { if(e.key==='Shift') window._shiftHeld = true; });
+document.addEventListener('keyup', function(e) { if(e.key==='Shift') window._shiftHeld = false; });
+
+document.addEventListener('keydown', function(e) {
+  if(e.target.tagName==='INPUT') return;
+  switch(e.code) {
+    case 'Space': e.preventDefault(); togglePlay(); break;
+    case 'KeyA': setA(); break; case 'KeyB': setB(); break;
+    case 'KeyL': toggleLoop(); break; case 'KeyC': clearAB(); break;
+    case 'ArrowLeft': e.shiftKey ? prevSentence() : (audio.currentTime = Math.max(0, audio.currentTime-3)); break;
+    case 'ArrowRight': e.shiftKey ? nextSentence() : (audio.currentTime = Math.min(audio.duration, audio.currentTime+3)); break;
+    case 'KeyZ': toggleZh(); break; case 'KeyD': toggleDictation(); break;
+    case 'KeyE': openEcho(); break; case 'Escape': closeEcho(); break;
+  }
+});
+
+function fmt(s) { if(!s||isNaN(s)) return '0:00'; return `${Math.floor(s/60)}:${Math.floor(s%60).toString().padStart(2,'0')}`; }
+
+// ── Bookmarks ──
+function toggleBookmark(idx) {
+  const i = store.bookmarks.indexOf(idx);
+  if (i >= 0) store.bookmarks.splice(i, 1);
+  else store.bookmarks.push(idx);
+  store.bookmarks.sort((a, b) => a - b);
+  saveStore(store);
+  // Update button state
+  const btns = document.querySelectorAll('.bookmark-btn');
+  if (btns[idx]) btns[idx].classList.toggle('bookmarked', store.bookmarks.includes(idx));
+  updateBookmarkCount();
+  renderBookmarks();
+}
+
+function updateBookmarkCount() {
+  const el = document.getElementById('bookmark-count');
+  el.textContent = store.bookmarks.length ? `(${store.bookmarks.length})` : '';
+}
+
+function renderBookmarks() {
+  const box = document.getElementById('bookmark-box');
+  if (!store.bookmarks.length) {
+    box.innerHTML = '<p style="color:var(--muted);text-align:center;padding:20px">還沒有書籤，點對話旁的 🔖 加入</p>';
+    return;
+  }
+  box.innerHTML = '<div class="bookmark-list">' + store.bookmarks.map(idx => {
+    const s = segments[idx];
+    if (!s) return '';
+    return `<div class="bookmark-item" onclick="jumpToLine(${idx})">
+      <span class="bk-time">${fmt(s.start)}</span>
+      <span class="bk-text">${escapeHtml(s.text.substring(0, 60))}${s.text.length > 60 ? '...' : ''}</span>
+      <span class="bk-remove" onclick="event.stopPropagation();toggleBookmark(${idx})">✕</span>
+    </div>`;
+  }).join('') + '</div>';
+}
+
+// ── Progress Tracking ──
+function markPracticed(idx) {
+  if (!store.practiced.includes(idx)) {
+    store.practiced.push(idx);
+    saveStore(store);
+    updateProgress();
+  }
+}
+
+function updateProgress() {
+  const total = segments.length;
+  const done = store.practiced.length;
+  const pct = total ? Math.round(done / total * 100) : 0;
+  document.getElementById('progress-text').textContent = `${done} / ${total} 句已練`;
+  document.getElementById('progress-fill').style.width = `${pct}%`;
+}
+
+// ── Theme ──
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme') || 'dark';
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  document.getElementById('theme-toggle').textContent = next === 'dark' ? '🌙' : '☀️';
+  localStorage.setItem('lph_theme', next);
+}
+
+function loadTheme() {
+  const saved = localStorage.getItem('lph_theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', saved);
+  document.getElementById('theme-toggle').textContent = saved === 'dark' ? '🌙' : '☀️';
+}
+
+// Track practiced lines when jumping/echoing
+const _origJumpToLine = jumpToLine;
+jumpToLine = function(idx) { markPracticed(idx); _origJumpToLine(idx); };
+
+// ── Spaced Repetition ──
+// store.srs = { idx: { interval: days, nextReview: timestamp, ease: 1-3 } }
+if (!store.srs) store.srs = {};
+
+function rateSentence(idx, rating) {
+  // rating: 'easy' (3), 'ok' (2), 'hard' (1)
+  const ease = rating === 'easy' ? 3 : rating === 'ok' ? 2 : 1;
+  const prev = store.srs[idx] || { interval: 0, ease: 2 };
+  let newInterval;
+  if (ease === 1) newInterval = 1; // hard: review tomorrow
+  else if (ease === 2) newInterval = Math.max(1, Math.round(prev.interval * 1.5) || 1); // ok: 1.5x
+  else newInterval = Math.max(2, Math.round(prev.interval * 2.5) || 2); // easy: 2.5x
+
+  store.srs[idx] = {
+    interval: newInterval,
+    nextReview: Date.now() + newInterval * 86400000,
+    ease: ease,
+    lastReview: Date.now(),
+  };
+  saveStore(store);
+  renderReview();
+}
+
+function getDueForReview() {
+  const now = Date.now();
+  const due = [];
+  // Practiced but not yet in SRS → due now
+  store.practiced.forEach(idx => {
+    if (!store.srs[idx]) due.push({ idx, reason: 'new' });
+  });
+  // In SRS and due
+  Object.entries(store.srs).forEach(([idx, data]) => {
+    if (data.nextReview <= now) due.push({ idx: parseInt(idx), reason: 'due' });
+  });
+  // Bookmarked always available
+  store.bookmarks.forEach(idx => {
+    if (!due.find(d => d.idx === idx)) due.push({ idx, reason: 'bookmarked' });
+  });
+  return due.slice(0, 20); // Max 20
+}
+
+function renderReview() {
+  const box = document.getElementById('review-box');
+  const due = getDueForReview();
+  if (!due.length) {
+    box.innerHTML = '<div style="text-align:center;padding:30px;color:var(--muted)"><div style="font-size:2em;margin-bottom:8px">🎉</div>沒有待複習的句子！<br><span style="font-size:0.85em">先練習一些句子，它們會自動進入複習排程</span></div>';
+    return;
+  }
+  box.innerHTML = due.map(d => {
+    const s = segments[d.idx];
+    if (!s) return '';
+    const srsData = store.srs[d.idx];
+    const interval = srsData ? `${srsData.interval}天後複習` : '首次複習';
+    const label = d.reason === 'bookmarked' ? '🔖' : d.reason === 'new' ? '🆕' : '🔄';
+    return `<div class="review-card" onclick="jumpToLine(${d.idx})">
+      <div class="rc-text">${escapeHtml(s.text)}</div>
+      <div class="rc-meta">
+        <span>${label} ${interval}</span>
+        <span>${fmt(s.start)}</span>
+      </div>
+      <div class="rc-btns">
+        <button class="rc-btn hard" onclick="event.stopPropagation();rateSentence(${d.idx},'hard')">😵 困難</button>
+        <button class="rc-btn" onclick="event.stopPropagation();rateSentence(${d.idx},'ok')">🙂 還行</button>
+        <button class="rc-btn easy" onclick="event.stopPropagation();rateSentence(${d.idx},'easy')">😎 簡單</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── Difficulty estimation ──
+function estimateDifficulty(text) {
+  if (!text) return 'medium';
+  const wordCount = text.split(/\s+/).length;
+  const avgWordLen = text.replace(/\s+/g, '').length / wordCount;
+  if (wordCount <= 4 && avgWordLen <= 5) return 'easy';
+  if (wordCount >= 12 || avgWordLen >= 8) return 'hard';
+  return 'medium';
+}
+
+// ── Recording & Pronunciation Scoring ──
+let recState = { recording: false, mediaRec: null, chunks: [], lineIdx: null, stream: null };
+
+async function toggleRec(idx) {
+  if (recState.recording && recState.lineIdx === idx) {
+    stopRec();
+    return;
+  }
+  if (recState.recording) stopRec();
+  startRec(idx);
+}
+
+async function startRec(idx) {
+  try {
+    // Check if getUserMedia is available
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      alert('此裝置不支援錄音功能');
+      return;
+    }
+
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } });
+    recState.stream = stream;
+    recState.chunks = [];
+    recState.lineIdx = idx;
+
+    // Find supported mime type for this device
+    let mimeType = '';
+    const types = ['audio/webm;codecs=opus', 'audio/webm', 'audio/mp4', 'audio/aac', 'audio/wav'];
+    for (const t of types) {
+      if (typeof MediaRecorder !== 'undefined' && MediaRecorder.isTypeSupported(t)) { mimeType = t; break; }
+    }
+
+    const mediaRec = mimeType ? new MediaRecorder(stream, { mimeType }) : new MediaRecorder(stream);
+    recState.mediaRec = mediaRec;
+
+    mediaRec.ondataavailable = (e) => { if (e.data.size > 0) recState.chunks.push(e.data); };
+    mediaRec.onstop = () => processRecording(idx);
+
+    mediaRec.start(100); // collect data every 100ms for better compatibility
+    recState.recording = true;
+
+    // Visual feedback
+    const btn = document.getElementById(`rec-${idx}`);
+    if (btn) btn.classList.add('recording');
+
+    // Auto-stop after segment duration + 3s buffer
+    const s = segments[idx];
+    const maxDur = s ? (s.end - s.start) * 1000 + 3000 : 8000;
+    setTimeout(() => { if (recState.recording && recState.lineIdx === idx) stopRec(); }, maxDur);
+
+    // Play the sentence first, then user repeats
+    audio.pause();
+
+  } catch (err) {
+    alert('無法存取麥克風。請允許麥克風權限。');
+  }
+}
+
+function stopRec() {
+  if (recState.mediaRec && recState.recording) {
+    recState.mediaRec.stop();
+    recState.recording = false;
+    if (recState.stream) {
+      recState.stream.getTracks().forEach(t => t.stop());
+      recState.stream = null;
+    }
+    const btn = document.getElementById(`rec-${recState.lineIdx}`);
+    if (btn) btn.classList.remove('recording');
+  }
+}
+
+async function processRecording(idx) {
+  const s = segments[idx];
+  if (!s) return;
+
+  const blob = new Blob(recState.chunks, { type: 'audio/webm' });
+  const recUrl = URL.createObjectURL(blob);
+
+  // Show "analyzing..." under the line
+  const line = document.querySelectorAll('.dialogue-line')[idx];
+  let resultDiv = line.querySelector('.rec-result');
+  if (!resultDiv) {
+    resultDiv = document.createElement('div');
+    resultDiv.className = 'rec-result';
+    line.querySelector('.line-text').appendChild(resultDiv);
+  }
+  resultDiv.innerHTML = '<div style="color:var(--muted)">🎙️ 分析中...</div>';
+
+  // Send to Whisper for transcription
+  const apiKey = getApiKey();
+  if (!apiKey) {
+    resultDiv.innerHTML = `
+      <div class="rec-playback">
+        <button class="rec-play-btn" onclick="new Audio('${recUrl}').play()">▶ 播放你的錄音</button>
+      </div>
+      <div style="color:var(--dim);margin-top:4px">設定 API Key 即可獲得發音評分</div>`;
+    return;
+  }
+
+  try {
+    // Convert webm to form data
+    const formData = new FormData();
+    const ext = blob.type.includes('mp4') ? 'mp4' : blob.type.includes('webm') ? 'webm' : 'wav';
+    formData.append('file', blob, `recording.${ext}`);
+    formData.append('model', 'whisper-1');
+    formData.append('response_format', 'text');
+
+    // Use XMLHttpRequest for iOS compatibility
+    const userText = await new Promise((resolve, reject) => {
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', 'https://api.openai.com/v1/audio/transcriptions');
+      xhr.setRequestHeader('Authorization', `Bearer ${apiKey}`);
+      xhr.onload = () => resolve(xhr.responseText.trim());
+      xhr.onerror = () => reject(new Error(`Whisper API error (${xhr.status})`));
+      xhr.send(formData);
+    });
+    const originalText = s.text.trim();
+
+    // Compare and score
+    const { score, diffHtml } = compareTexts(originalText, userText);
+    const scoreClass = score >= 80 ? 'good' : score >= 50 ? 'ok' : 'bad';
+    const emoji = score >= 80 ? '🎉' : score >= 50 ? '👍' : '💪';
+
+    resultDiv.innerHTML = `
+      <div class="rec-score ${scoreClass}">${emoji} ${score}%</div>
+      <div class="rec-you">你說的：${escapeHtml(userText)}</div>
+      <div class="rec-diff">${diffHtml}</div>
+      <div class="rec-playback">
+        <button class="rec-play-btn" onclick="new Audio('${recUrl}').play()">▶ 你的版本</button>
+        <button class="rec-play-btn" onclick="jumpToLine(${idx})">▶ 原版</button>
+        <button class="rec-play-btn" onclick="toggleRec(${idx})">🎙️ 再試一次</button>
+      </div>`;
+
+    // Save score to store
+    if (!store.recScores) store.recScores = {};
+    store.recScores[idx] = { score, userText, date: Date.now() };
+    saveStore(store);
+
+  } catch (err) {
+    resultDiv.innerHTML = `
+      <div style="color:var(--accent)">❌ ${err.message}</div>
+      <div class="rec-playback">
+        <button class="rec-play-btn" onclick="new Audio('${recUrl}').play()">▶ 播放你的錄音</button>
+      </div>`;
+  }
+}
+
+function compareTexts(original, spoken) {
+  // Normalize: lowercase, remove punctuation
+  const norm = (t) => t.toLowerCase().replace(/[.,!?;:'"()（）。？！、，\-]/g, '').replace(/\s+/g, ' ').trim();
+  const origWords = norm(original).split(' ');
+  const userWords = norm(spoken).split(' ');
+
+  // Simple word-level comparison using LCS
+  const lcs = [];
+  const m = origWords.length, n = userWords.length;
+  const dp = Array.from({length: m+1}, () => Array(n+1).fill(0));
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      if (origWords[i-1] === userWords[j-1]) dp[i][j] = dp[i-1][j-1] + 1;
+      else dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
+    }
+  }
+
+  // Backtrack to find matches
+  const matched = new Set();
+  let i = m, j = n;
+  while (i > 0 && j > 0) {
+    if (origWords[i-1] === userWords[j-1]) { matched.add(i-1); i--; j--; }
+    else if (dp[i-1][j] > dp[i][j-1]) i--;
+    else j--;
+  }
+
+  const score = m > 0 ? Math.round(matched.size / m * 100) : 0;
+
+  // Build diff HTML
+  const diffHtml = origWords.map((w, idx) =>
+    matched.has(idx)
+      ? `<span class="match">${escapeHtml(w)}</span>`
+      : `<span class="miss">${escapeHtml(w)}</span>`
+  ).join(' ');
+
+  return { score, diffHtml };
+}
+
+// ── AI Explain ──
+// Persistent cache in localStorage
+const EXPLAIN_STORE_KEY = `lph_explain_${VIDEO_ID}`;
+let explainCache = {};
+try { explainCache = JSON.parse(localStorage.getItem(EXPLAIN_STORE_KEY) || '{}'); } catch(e) {}
+function saveExplainCache() { try { localStorage.setItem(EXPLAIN_STORE_KEY, JSON.stringify(explainCache)); } catch(e) {} }
+
+function getApiKey() { return localStorage.getItem('lph_openai_key') || ''; }
+function closeApiKeyModal() { document.getElementById('apikey-modal').classList.remove('open'); }
+function saveApiKey() {
+  const key = document.getElementById('apikey-input').value.trim();
+  if (key) { localStorage.setItem('lph_openai_key', key); closeApiKeyModal(); }
+}
+
+function explainLine(idx) {
+  const key = getApiKey();
+  if (!key) {
+    document.getElementById('apikey-modal').classList.add('open');
+    document.getElementById('apikey-input').focus();
+    // Store pending idx
+    window._pendingExplainIdx = idx;
+    return;
+  }
+  doExplain(idx, key);
+}
+
+function saveApiKeyAndExplain() {
+  saveApiKey();
+  if (window._pendingExplainIdx !== undefined) {
+    doExplain(window._pendingExplainIdx, getApiKey());
+    window._pendingExplainIdx = undefined;
+  }
+}
+
+// Override saveApiKey to also trigger pending explain
+const _origSaveApiKey = saveApiKey;
+saveApiKey = function() {
+  _origSaveApiKey();
+  if (window._pendingExplainIdx !== undefined) {
+    const key = getApiKey();
+    if (key) { doExplain(window._pendingExplainIdx, key); window._pendingExplainIdx = undefined; }
+  }
+};
+
+function doExplain(idx, apiKey) {
+  const s = segments[idx]; if (!s) return;
+  document.getElementById('explain-backdrop').classList.add('open');
+  document.getElementById('explain-panel').classList.add('open');
+  document.getElementById('explain-original').textContent = s.text;
+
+  // Check cache
+  if (explainCache[idx]) {
+    document.getElementById('explain-content').innerHTML = explainCache[idx];
+    return;
+  }
+
+  document.getElementById('explain-content').innerHTML = '<div class="explain-loading">🤖 AI 解析中...</div>';
+
+  // Also play the sentence
+  jumpToLine(idx);
+
+  const langName = document.title.split('—')[1]?.trim().replace('練習','') || '';
+  const prompt = `你是語言教師。請用繁體中文解析這句${langName}：
+
+「${s.text}」
+
+請提供（用 HTML 格式，不要 markdown）：
+1. <h4>📝 逐字翻譯</h4> — 每個詞的意思，用 <span class="word-item">詞 = 意思</span> 格式
+2. <h4>📖 整句意思</h4> — 自然的繁體中文翻譯 + 情境說明
+3. <h4>🗣️ 發音重點</h4> — 用 <div class="pron-tip">...</div> 標出難念的音、重音位置、連音
+4. <h4>📐 文法解析</h4> — 用 <div class="grammar-note">...</div> 說明句型結構、時態、特殊用法
+
+保持簡潔，每點 1-2 句就好。直接回 HTML，不要包 \`\`\`。`;
+
+  // Use XMLHttpRequest for better iOS WKWebView compatibility
+  const xhr = new XMLHttpRequest();
+  xhr.open('POST', 'https://api.openai.com/v1/chat/completions');
+  xhr.setRequestHeader('Authorization', `Bearer ${apiKey}`);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.onload = function() {
+    try {
+      const data = JSON.parse(xhr.responseText);
+      if (data.error) {
+        document.getElementById('explain-content').innerHTML = `<div style="color:var(--accent)">❌ ${data.error.message}</div>`;
+        return;
+      }
+      let html = data.choices?.[0]?.message?.content || '無回應';
+      html = html.replace(/```html?\n?/g, '').replace(/```/g, '');
+      explainCache[idx] = html;
+      saveExplainCache();
+      document.getElementById('explain-content').innerHTML = html;
+    } catch(e) {
+      document.getElementById('explain-content').innerHTML = `<div style="color:var(--accent)">❌ 解析錯誤: ${e.message}<br><small>${xhr.responseText?.substring(0,100)}</small></div>`;
+    }
+  };
+  xhr.onerror = function() {
+    document.getElementById('explain-content').innerHTML = `<div style="color:var(--accent)">❌ 網路錯誤（status: ${xhr.status}）</div>`;
+  };
+  xhr.send(JSON.stringify({
+    model: 'gpt-4.1-nano',
+    messages: [{ role: 'user', content: prompt }],
+    max_tokens: 800,
+  }));
+}
+
+function closeExplain() {
+  document.getElementById('explain-panel').classList.remove('open');
+  document.getElementById('explain-backdrop').classList.remove('open');
+}
+
+// ── Exam Simulation Mode ──
+let examState = { active: false, questions: [], current: 0, recordings: [], startTime: 0, timerInterval: null };
+
+function openExamMode() {
+  // Pick 5 random sentences
+  const indices = [];
+  const pool = segments.map((s, i) => i).filter(i => segments[i].text.length > 20);
+  for (let i = 0; i < Math.min(5, pool.length); i++) {
+    const idx = pool.splice(Math.floor(Math.random() * pool.length), 1)[0];
+    indices.push(idx);
+  }
+
+  examState = { active: true, questions: indices, current: 0, recordings: [], startTime: Date.now(), timerInterval: null };
+  document.getElementById('exam-overlay').classList.add('active');
+
+  // Start timer
+  examState.timerInterval = setInterval(() => {
+    const elapsed = Math.floor((Date.now() - examState.startTime) / 1000);
+    document.getElementById('exam-timer').textContent = `${Math.floor(elapsed/60)}:${(elapsed%60).toString().padStart(2,'0')}`;
+  }, 1000);
+
+  showExamQuestion();
+}
+
+function closeExam() {
+  examState.active = false;
+  if (examState.timerInterval) clearInterval(examState.timerInterval);
+  if (recState.recording) stopRec();
+  audio.pause();
+  document.getElementById('exam-overlay').classList.remove('active');
+}
+
+function showExamQuestion() {
+  const idx = examState.questions[examState.current];
+  const s = segments[idx];
+  const total = examState.questions.length;
+  document.getElementById('exam-count').textContent = `${examState.current + 1} / ${total}`;
+
+  // Play the sentence once (no replay in exam mode!)
+  audio.currentTime = s.start;
+  audio.volume = 1;
+  audio.playbackRate = 1.0;
+  audio.play().catch(() => {});
+
+  // Auto-pause after sentence ends
+  const checkEnd = () => {
+    if (audio.currentTime >= s.end) { audio.pause(); return; }
+    if (examState.active) requestAnimationFrame(checkEnd);
+  };
+  checkEnd();
+
+  document.getElementById('exam-content').innerHTML = `
+    <div class="exam-instruction">🎧 聽一次，然後錄下你的回答</div>
+    <div class="exam-sentence" style="filter:blur(4px);cursor:pointer" onclick="this.style.filter='none'" id="exam-text">${escapeHtml(s.text)}</div>
+    <div style="font-size:12px;color:var(--dim)">點擊上方可揭曉原文</div>
+    <button class="exam-rec-btn" id="exam-rec-btn" onclick="examRecord(${idx})">🎙️</button>
+    <div class="exam-instruction" id="exam-rec-status">點擊麥克風開始錄音</div>
+    <div class="exam-actions" id="exam-actions" style="display:none">
+      <button class="exam-action" onclick="examReplay()">🔊 再聽一次</button>
+      <button class="exam-action primary" onclick="examNext()">下一題 →</button>
+    </div>
+  `;
+}
+
+let examRecUrl = null;
+function examRecord(idx) {
+  const btn = document.getElementById('exam-rec-btn');
+  if (recState.recording) {
+    stopRec();
+    btn.classList.remove('recording');
+    btn.textContent = '🎙️';
+    document.getElementById('exam-rec-status').textContent = '✅ 錄音完成！';
+    document.getElementById('exam-actions').style.display = 'flex';
+
+    // Store recording
+    setTimeout(() => {
+      const blob = new Blob(recState.chunks, { type: 'audio/webm' });
+      examRecUrl = URL.createObjectURL(blob);
+      examState.recordings.push({ idx, url: examRecUrl, blob });
+    }, 300);
+  } else {
+    startRec(idx);
+    btn.classList.add('recording');
+    btn.textContent = '⏹';
+    document.getElementById('exam-rec-status').textContent = '🔴 錄音中... 再點一次停止';
+  }
+}
+
+function examReplay() {
+  if (examRecUrl) new Audio(examRecUrl).play();
+}
+
+function examNext() {
+  examState.current++;
+  if (examState.current >= examState.questions.length) {
+    showExamResults();
+  } else {
+    showExamQuestion();
+  }
+}
+
+async function showExamResults() {
+  if (examState.timerInterval) clearInterval(examState.timerInterval);
+  const elapsed = Math.floor((Date.now() - examState.startTime) / 1000);
+  const total = examState.questions.length;
+
+  // Score each recording with Whisper
+  let totalScore = 0;
+  let results = [];
+  const apiKey = getApiKey();
+
+  document.getElementById('exam-content').innerHTML = '<div class="exam-instruction">📊 正在評分...</div>';
+
+  for (const rec of examState.recordings) {
+    const s = segments[rec.idx];
+    let score = 0;
+    let userText = '（未錄音）';
+
+    if (apiKey && rec.blob) {
+      try {
+        const formData = new FormData();
+        const ext2 = rec.blob.type.includes('mp4') ? 'mp4' : rec.blob.type.includes('webm') ? 'webm' : 'wav';
+        formData.append('file', rec.blob, `recording.${ext2}`);
+        formData.append('model', 'whisper-1');
+        formData.append('response_format', 'text');
+        const resp = await fetch('https://api.openai.com/v1/audio/transcriptions', {
+          method: 'POST', headers: { 'Authorization': `Bearer ${apiKey}` }, body: formData
+        });
+        userText = (await resp.text()).trim();
+        const result = compareTexts(s.text, userText);
+        score = result.score;
+      } catch(e) { score = 0; }
+    }
+    totalScore += score;
+    results.push({ original: s.text, userText, score, url: rec.url });
+  }
+
+  const avg = total > 0 ? Math.round(totalScore / total) : 0;
+  const cls = avg >= 80 ? 'good' : avg >= 50 ? 'ok' : 'bad';
+  const emoji = avg >= 80 ? '🎉' : avg >= 50 ? '👍' : '💪';
+
+  document.getElementById('exam-content').innerHTML = `
+    <div class="exam-result">
+      <div class="big ${cls}">${emoji} ${avg}%</div>
+      <div style="color:var(--muted);margin-bottom:4px">${total} 題 · ${Math.floor(elapsed/60)}分${elapsed%60}秒</div>
+      <div class="exam-result-list">
+        ${results.map((r, i) => `<div class="exam-result-item">
+          <span class="eri-score" style="color:${r.score>=80?'var(--green)':r.score>=50?'var(--orange)':'var(--accent)'}">${r.score}%</span>
+          ${escapeHtml(r.original.substring(0, 40))}...
+          <br><span style="color:var(--dim);font-size:11px">你：${escapeHtml(r.userText.substring(0, 50))}</span>
+          ${r.url ? `<br><button class="rec-play-btn" onclick="new Audio('${r.url}').play()" style="margin-top:4px">▶ 播放</button>` : ''}
+        </div>`).join('')}
+      </div>
+      <div class="exam-actions" style="margin-top:16px;justify-content:center">
+        <button class="exam-action" onclick="closeExam()">返回</button>
+        <button class="exam-action primary" onclick="closeExam();openExamMode()">再考一次</button>
+      </div>
+    </div>`;
+}
+
+// ── Daily Challenge ──
+const DAILY_KEY = `lph_daily_${VIDEO_ID}`;
+function getDailyState() {
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    const s = JSON.parse(localStorage.getItem(DAILY_KEY) || '{}');
+    if (s.date !== today) return { date: today, sentences: [], completed: 0, streak: s.streak || 0, lastDate: s.date };
+    return s;
+  } catch(e) { return { date: today, sentences: [], completed: 0, streak: 0 }; }
+}
+function saveDailyState(s) { localStorage.setItem(DAILY_KEY, JSON.stringify(s)); }
+
+function openDailyChallenge() {
+  let state = getDailyState();
+  const today = new Date().toISOString().split('T')[0];
+  const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+
+  // Calculate streak
+  if (state.lastDate === yesterday && state.date === today && state.completed === 0) {
+    // Continuing streak from yesterday
+  } else if (state.date !== today) {
+    if (state.lastDate === yesterday) { /* streak continues */ }
+    else { state.streak = 0; }
+  }
+
+  // Pick 5 sentences for today (seeded by date for consistency)
+  if (!state.sentences.length) {
+    const seed = today.split('-').join('');
+    let rng = parseInt(seed) % 10000;
+    const pool = segments.map((s, i) => i).filter(i => segments[i].text.length > 15);
+    const picked = [];
+    for (let i = 0; i < Math.min(5, pool.length); i++) {
+      rng = (rng * 1103515245 + 12345) & 0x7fffffff;
+      const idx = pool.splice(rng % pool.length, 1)[0];
+      picked.push(idx);
+    }
+    state.sentences = picked;
+    state.completed = 0;
+    state.date = today;
+    saveDailyState(state);
+  }
+
+  document.getElementById('daily-overlay').classList.add('active');
+  document.getElementById('daily-streak').textContent = state.streak > 0 ? `🔥 連續 ${state.streak} 天` : '開始你的連續紀錄！';
+
+  if (state.completed >= state.sentences.length) {
+    showDailyComplete(state);
+  } else {
+    showDailyQuestion(state);
+  }
+}
+
+function showDailyQuestion(state) {
+  // Progress dots
+  document.getElementById('daily-progress').innerHTML = state.sentences.map((_, i) =>
+    `<div class="daily-dot ${i < state.completed ? 'done' : i === state.completed ? 'current' : ''}"></div>`
+  ).join('');
+
+  const idx = state.sentences[state.completed];
+  const s = segments[idx];
+
+  // Play sentence
+  audio.currentTime = s.start;
+  audio.volume = 1;
+  audio.playbackRate = 1.0;
+  audio.play().catch(() => {});
+  const checkEnd = () => { if (audio.currentTime >= s.end) { audio.pause(); return; } if (document.getElementById('daily-overlay').classList.contains('active')) requestAnimationFrame(checkEnd); };
+  checkEnd();
+
+  document.getElementById('daily-content').innerHTML = `
+    <div class="daily-sentence">
+      ${escapeHtml(s.text)}
+      ${s.translation ? `<div class="daily-translation">${escapeHtml(s.translation)}</div>` : ''}
+    </div>
+    <div style="font-size:13px;color:var(--muted)">聽完後，大聲跟著說</div>
+    <div class="daily-btns">
+      <button class="daily-btn" onclick="dailyReplay(${idx})">🔊 再聽</button>
+      <button class="daily-btn" onclick="dailyRec(${idx})">🎙️ 錄音</button>
+      <button class="daily-btn primary" onclick="dailyNext()">✅ 完成</button>
+    </div>
+    <div id="daily-rec-result"></div>
+  `;
+}
+
+function dailyReplay(idx) {
+  const s = segments[idx];
+  audio.currentTime = s.start;
+  audio.play().catch(() => {});
+  const checkEnd = () => { if (audio.currentTime >= s.end) { audio.pause(); return; } requestAnimationFrame(checkEnd); };
+  checkEnd();
+}
+
+function dailyRec(idx) {
+  toggleRec(idx);
+}
+
+function dailyNext() {
+  let state = getDailyState();
+  state.completed++;
+  if (state.completed >= state.sentences.length) {
+    state.streak = (state.streak || 0) + 1;
+  }
+  saveDailyState(state);
+
+  if (state.completed >= state.sentences.length) {
+    showDailyComplete(state);
+  } else {
+    showDailyQuestion(state);
+  }
+}
+
+function showDailyComplete(state) {
+  document.getElementById('daily-progress').innerHTML = state.sentences.map(() =>
+    '<div class="daily-dot done"></div>'
+  ).join('');
+
+  document.getElementById('daily-content').innerHTML = `
+    <div class="daily-complete">
+      <div class="big-emoji">🎉</div>
+      <h2>今日挑戰完成！</h2>
+      <div style="color:var(--orange);font-size:18px;font-weight:800;margin-bottom:16px">🔥 ${state.streak} 天連續</div>
+      <div style="color:var(--muted);font-size:13px;margin-bottom:24px">明天回來繼續保持紀錄</div>
+      <button class="daily-btn primary" onclick="closeDailyChallenge()">完成 ✨</button>
+    </div>
+  `;
+}
+
+function closeDailyChallenge() {
+  audio.pause();
+  document.getElementById('daily-overlay').classList.remove('active');
+}
+
+// ── Spreken Exam Trainer ──
+let sprekenState = { active: false, questions: [], current: 0, timer: null, recUrl: null };
+
+function openSprekenMode() {
+  // Find question segments (contain '?') and pair with next answer segments
+  const questions = [];
+  for (let i = 0; i < segments.length; i++) {
+    const s = segments[i];
+    const text = s.text;
+    // Detect question patterns
+    if (text.includes('?') && !text.includes('voorbeeld') && s.end - s.start > 1.5) {
+      // Find the context (previous segment might have "Kijk naar" or setup)
+      let context = '';
+      if (i > 0 && (segments[i-1].text.includes('Kijk naar') || segments[i-1].text.includes('plaatje') || segments[i-1].text.length < 40)) {
+        context = segments[i-1].text;
+      }
+      // Find the answer (next non-question segment after a gap)
+      let answer = '';
+      let answerIdx = i + 1;
+      while (answerIdx < segments.length && answerIdx <= i + 3) {
+        const gap = segments[answerIdx].start - s.end;
+        if (gap > 10 && !segments[answerIdx].text.includes('?')) {
+          // This is likely the answer after the pause
+          answer = segments[answerIdx].text;
+          if (answerIdx + 1 < segments.length && segments[answerIdx + 1].start - segments[answerIdx].end < 3) {
+            answer += ' ' + segments[answerIdx + 1].text;
+          }
+          break;
+        }
+        answerIdx++;
+      }
+      questions.push({
+        idx: i,
+        question: text,
+        questionZh: s.translation || '',
+        context: context,
+        answer: answer,
+        answerStart: answerIdx < segments.length ? segments[answerIdx].start : null,
+        answerEnd: answerIdx + 1 < segments.length ? segments[answerIdx + 1].end : (answerIdx < segments.length ? segments[answerIdx].end : null),
+        start: s.start,
+        end: s.end,
+        hasImage: context.includes('plaatje') || context.includes('Kijk'),
+      });
+    }
+  }
+
+  if (!questions.length) {
+    alert('這個影片沒有偵測到口說考試題目');
+    return;
+  }
+
+  sprekenState = { active: true, questions, current: 0, timer: null, recUrl: null };
+  document.getElementById('spreken-overlay').classList.add('active');
+  showSprekenQuestion();
+}
+
+function closeSpreken() {
+  sprekenState.active = false;
+  if (sprekenState.timer) clearInterval(sprekenState.timer);
+  if (recState.recording) stopRec();
+  audio.pause();
+  document.getElementById('spreken-overlay').classList.remove('active');
+}
+
+function showSprekenQuestion() {
+  const q = sprekenState.questions[sprekenState.current];
+  const total = sprekenState.questions.length;
+  document.getElementById('spreken-num').textContent = `🗣️ 題 ${sprekenState.current + 1} / ${total}`;
+
+  const body = document.getElementById('spreken-body');
+  body.innerHTML = `
+    <div class="spreken-phase">🎧 聽題目</div>
+    <div class="spreken-question">
+      ${q.context ? `<div style="color:var(--dim);font-size:13px;margin-bottom:8px">${escapeHtml(q.context)}</div>` : ''}
+      ${escapeHtml(q.question)}
+      <div class="q-zh">${escapeHtml(q.questionZh)}</div>
+      ${q.hasImage ? '<div style="color:var(--orange);font-size:12px;margin-top:6px">📷 此題有圖片（請參考原始影片）</div>' : ''}
+    </div>
+    <div class="spreken-btns">
+      <button class="spreken-btn" onclick="sprekenPlayQuestion()">🔊 再聽一次</button>
+      <button class="spreken-btn primary" onclick="sprekenStartAnswer()">🎙️ 開始回答（30秒）</button>
+    </div>
+  `;
+
+  // Play the question
+  audio.currentTime = q.start;
+  audio.volume = 1;
+  audio.playbackRate = 1.0;
+  audio.play().catch(() => {});
+  const checkEnd = () => { if (audio.currentTime >= q.end) { audio.pause(); return; } if (sprekenState.active) requestAnimationFrame(checkEnd); };
+  checkEnd();
+}
+
+function sprekenPlayQuestion() {
+  const q = sprekenState.questions[sprekenState.current];
+  audio.currentTime = q.start;
+  audio.play().catch(() => {});
+  const checkEnd = () => { if (audio.currentTime >= q.end) { audio.pause(); return; } requestAnimationFrame(checkEnd); };
+  checkEnd();
+}
+
+function sprekenStartAnswer() {
+  const q = sprekenState.questions[sprekenState.current];
+  const body = document.getElementById('spreken-body');
+  let timeLeft = 30;
+
+  body.innerHTML = `
+    <div class="spreken-phase">🎙️ 請回答</div>
+    <div class="spreken-question" style="border-color:var(--blue)">
+      ${escapeHtml(q.question)}
+    </div>
+    <div class="spreken-timer-ring">
+      <svg width="100" height="100" viewBox="0 0 100 100">
+        <circle class="spreken-timer-bg" cx="50" cy="50" r="44" />
+        <circle class="spreken-timer-fg" id="spreken-ring" cx="50" cy="50" r="44" stroke-dasharray="276.5" stroke-dashoffset="0" />
+      </svg>
+      <div class="spreken-timer-label" id="spreken-countdown">30</div>
+    </div>
+    <div class="spreken-rec-indicator">🔴 錄音中...</div>
+    <button class="spreken-btn" onclick="sprekenStopAnswer()">⏹ 結束回答</button>
+  `;
+
+  // Start recording
+  startRec(q.idx).catch(() => {});
+
+  // Start countdown
+  sprekenState.timer = setInterval(() => {
+    timeLeft--;
+    document.getElementById('spreken-countdown').textContent = timeLeft;
+    document.getElementById('spreken-ring').style.strokeDashoffset = 276.5 * (1 - timeLeft / 30);
+    if (timeLeft <= 0) {
+      sprekenStopAnswer();
+    }
+  }, 1000);
+}
+
+function sprekenStopAnswer() {
+  if (sprekenState.timer) { clearInterval(sprekenState.timer); sprekenState.timer = null; }
+  if (recState.recording) stopRec();
+
+  // Save recording URL
+  setTimeout(() => {
+    if (recState.chunks.length) {
+      const blob = new Blob(recState.chunks, { type: recState.mediaRec?.mimeType || 'audio/webm' });
+      sprekenState.recUrl = URL.createObjectURL(blob);
+    }
+    showSprekenResult();
+  }, 500);
+}
+
+function showSprekenResult() {
+  const q = sprekenState.questions[sprekenState.current];
+  const total = sprekenState.questions.length;
+  const body = document.getElementById('spreken-body');
+
+  body.innerHTML = `
+    <div class="spreken-phase">📝 對照答案</div>
+    <div class="spreken-question">
+      ${escapeHtml(q.question)}
+    </div>
+    ${q.answer ? `<div class="spreken-answer">
+      <h4>✅ 範例答案</h4>
+      ${escapeHtml(q.answer)}
+    </div>` : ''}
+    <div class="spreken-btns">
+      ${sprekenState.recUrl ? `<button class="spreken-btn" onclick="new Audio('${sprekenState.recUrl}').play()">▶ 你的回答</button>` : ''}
+      ${q.answerStart ? `<button class="spreken-btn" onclick="sprekenPlayAnswer()">▶ 聽範例</button>` : ''}
+      <button class="spreken-btn" onclick="showSprekenQuestion()">🔄 重做此題</button>
+      ${sprekenState.current < total - 1
+        ? `<button class="spreken-btn primary" onclick="sprekenNext()">下一題 →</button>`
+        : `<button class="spreken-btn primary" onclick="closeSpreken()">✅ 完成！</button>`
+      }
+    </div>
+  `;
+}
+
+function sprekenPlayAnswer() {
+  const q = sprekenState.questions[sprekenState.current];
+  if (q.answerStart) {
+    audio.currentTime = q.answerStart;
+    audio.play().catch(() => {});
+    if (q.answerEnd) {
+      const checkEnd = () => { if (audio.currentTime >= q.answerEnd) { audio.pause(); return; } requestAnimationFrame(checkEnd); };
+      checkEnd();
+    }
+  }
+}
+
+function sprekenNext() {
+  sprekenState.current++;
+  sprekenState.recUrl = null;
+  showSprekenQuestion();
+}
+
+// ── Wake Lock (keep screen on during practice) ──
+let wakeLock = null;
+async function toggleWakeLock() {
+  if (wakeLock) {
+    wakeLock.release(); wakeLock = null;
+    document.getElementById('wake-btn')?.classList.remove('active');
+  } else {
+    try {
+      wakeLock = await navigator.wakeLock.request('screen');
+      document.getElementById('wake-btn')?.classList.add('active');
+      wakeLock.addEventListener('release', () => { wakeLock = null; document.getElementById('wake-btn')?.classList.remove('active'); });
+    } catch(e) {}
+  }
+}
+// Auto wake lock when playing
+audio.addEventListener('play', async () => {
+  if (!wakeLock) try { wakeLock = await navigator.wakeLock.request('screen'); document.getElementById('wake-btn')?.classList.add('active'); } catch(e) {}
+});
+audio.addEventListener('pause', () => {
+  if (wakeLock && !document.getElementById('wake-btn')?.classList.contains('manual')) { wakeLock.release(); wakeLock = null; document.getElementById('wake-btn')?.classList.remove('active'); }
+});
+
+// ── Swipe gestures for prev/next sentence ──
+let touchStartX = 0, touchStartY = 0;
+document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; touchStartY = e.touches[0].clientY; }, { passive: true });
+document.addEventListener('touchend', (e) => {
+  const dx = e.changedTouches[0].clientX - touchStartX;
+  const dy = e.changedTouches[0].clientY - touchStartY;
+  if (Math.abs(dx) > 80 && Math.abs(dx) > Math.abs(dy) * 2) {
+    if (dx < 0) nextSentence();
+    else prevSentence();
+  }
+}, { passive: true });
+
+// ── Auto-scroll to current sentence on first play ──
+let firstPlay = true;
+audio.addEventListener('play', () => {
+  if (firstPlay && activeLineIndex !== null) {
+    const line = document.querySelectorAll('.dialogue-line')[activeLineIndex];
+    if (line) line.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    firstPlay = false;
+  }
+});
+
+loadTheme();
+init();
+updateBookmarkCount();
+renderBookmarks();
+renderReview();
+</script>
+</body>
+</html>

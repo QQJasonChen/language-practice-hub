@@ -1,0 +1,2149 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>EXAMEN A2 luisteren 2026 inburgering! PART 1 - met ANTWOORDEN! #nederlandsleren — 荷蘭文練習</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  :root, [data-theme="dark"] {
+    --bg: #050510; --card: rgba(255,255,255,0.04); --card-solid: #14142a;
+    --glass-border: rgba(255,255,255,0.08);
+    --accent: #ff3b5c; --accent2: #7c5cfc;
+    --text: #f2f2f7; --muted: #a0a0b8; --dim: #606078;
+    --green: #34d399; --orange: #fb923c; --blue: #60a5fa;
+    --r: 16px;
+  }
+  [data-theme="light"] {
+    --bg: #f8f8fc; --card: rgba(0,0,0,0.03); --card-solid: #fff;
+    --glass-border: rgba(0,0,0,0.08);
+    --accent: #e63550; --accent2: #6c4de6;
+    --text: #1a1a2e; --muted: #666680; --dim: #999;
+    --green: #0d9668; --orange: #d97706; --blue: #2563eb;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text);
+    min-height: 100vh; padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom);
+  }
+  .container { max-width: 680px; margin: 0 auto; padding: 0 16px 24px; }
+
+  /* Header - compact */
+  header { display: flex; align-items: center; gap: 10px; padding: 8px 0 6px; }
+  header h1 { font-size: 13px; font-weight: 600; flex: 1; line-height: 1.3; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  /* Mini player row */
+  .mini-player-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .mini-player-row .progress-container { height: 32px; border-radius: 8px; }
+  .mini-player-row .play-btn { min-width: 40px; padding: 8px; font-size: 14px; }
+
+  /* Player actions */
+  .player-actions { display: flex; gap: 4px; align-items: center; }
+  .pa-btn {
+    background: none; border: 1px solid var(--glass-border); color: var(--dim);
+    padding: 4px 10px; border-radius: 8px; cursor: pointer; font-size: 11px; font-weight: 600;
+    transition: all 0.2s;
+  }
+  .pa-btn:active { transform: scale(0.92); color: var(--text); }
+
+  /* Extra controls (collapsible) */
+  .extra-controls { padding: 8px 0 4px; }
+  .extra-controls .controls { gap: 4px; margin-bottom: 0; }
+  .extra-controls .ctrl-btn { padding: 5px 10px; font-size: 11px; }
+
+  /* Progress in header */
+  .progress-summary { display: flex; gap: 8px; align-items: center; font-size: 11px; color: var(--muted); margin-top: 4px; }
+  .progress-summary .bar { flex: 1; height: 3px; background: var(--glass-border); border-radius: 2px; overflow: hidden; max-width: 120px; }
+  .progress-summary .bar-fill { height: 100%; background: var(--green); border-radius: 2px; transition: width 0.3s; }
+
+  /* Player */
+  .player-box {
+    background: var(--card); border: 1px solid var(--glass-border);
+    border-radius: var(--r); padding: 16px; margin-bottom: 12px;
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  }
+  .progress-container { position: relative; height: 40px; background: rgba(255,255,255,0.04); border-radius: 10px; margin-bottom: 12px; cursor: pointer; overflow: hidden; }
+  [data-theme="light"] .progress-container { background: rgba(0,0,0,0.04); }
+  .progress-bar { height: 100%; background: linear-gradient(90deg, var(--accent2), var(--accent)); width: 0%; border-radius: 10px; transition: width 0.1s linear; }
+  .ab-marker { position: absolute; top: 0; width: 2px; height: 100%; z-index: 2; }
+  .ab-marker.a-marker { background: var(--green); }
+  .ab-marker.b-marker { background: var(--orange); }
+  .ab-region { position: absolute; top: 0; height: 100%; background: rgba(52,211,153,0.12); z-index: 1; }
+  .segment-marker { position: absolute; top: 0; width: 1px; height: 100%; background: rgba(255,255,255,0.08); z-index: 1; pointer-events: none; }
+  .time-display { position: absolute; bottom: 6px; right: 10px; font-size: 11px; color: var(--muted); z-index: 3; font-weight: 500; font-variant-numeric: tabular-nums; }
+
+  .controls { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+  .ctrl-btn {
+    background: var(--card); border: 1px solid var(--glass-border); color: var(--text);
+    padding: 8px 14px; border-radius: 10px; cursor: pointer; font-size: 13px; font-weight: 600;
+    transition: all 0.2s; backdrop-filter: blur(10px);
+  }
+  .ctrl-btn:active { transform: scale(0.95); }
+  .ctrl-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .ctrl-btn.play-btn {
+    background: var(--green); color: #000; font-weight: 800; min-width: 52px;
+    border: none; box-shadow: 0 2px 12px rgba(52,211,153,0.3);
+  }
+  .ctrl-btn.play-btn:active { transform: scale(0.92); }
+  .speed-control { display: flex; align-items: center; gap: 3px; margin-left: auto; }
+  .speed-btn {
+    background: var(--card); border: 1px solid var(--glass-border); color: var(--muted);
+    padding: 6px 10px; border-radius: 8px; cursor: pointer; font-size: 12px; font-weight: 600;
+    transition: all 0.2s;
+  }
+  .speed-btn:active { transform: scale(0.92); }
+  .speed-btn.active { background: var(--accent2); border-color: var(--accent2); color: #fff; }
+
+  .ab-info { display: flex; gap: 12px; font-size: 12px; color: var(--dim); font-weight: 500; }
+  .ab-info span { display: flex; align-items: center; gap: 4px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .dot.green { background: var(--green); }
+  .dot.orange { background: var(--orange); }
+  .sentence-nav { display: flex; gap: 4px; align-items: center; margin-left: auto; }
+  .nav-btn {
+    background: var(--card); border: 1px solid var(--glass-border); color: var(--text);
+    width: 34px; height: 34px; border-radius: 50%; cursor: pointer; font-size: 14px;
+    display: flex; align-items: center; justify-content: center; transition: all 0.2s;
+  }
+  .nav-btn:active { transform: scale(0.9); }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 0; margin-bottom: 12px; background: var(--card); border-radius: 12px; padding: 3px; border: 1px solid var(--glass-border); }
+  .tab {
+    flex: 1; background: none; border: none; color: var(--dim); padding: 8px 8px;
+    cursor: pointer; font-size: 12px; font-weight: 600; border-radius: 10px;
+    transition: all 0.25s;
+  }
+  .tab.active { background: var(--accent); color: #fff; box-shadow: 0 2px 8px rgba(255,59,92,0.3); }
+
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Mode bar */
+  .mode-bar { display: flex; gap: 6px; margin-bottom: 10px; overflow-x: auto; }
+  .mode-bar::-webkit-scrollbar { display: none; }
+  .mode-btn {
+    flex-shrink: 0; background: var(--card); border: 1px solid var(--glass-border);
+    color: var(--muted); padding: 6px 14px; border-radius: 100px; cursor: pointer;
+    font-size: 12px; font-weight: 600; transition: all 0.2s;
+  }
+  .mode-btn:active { transform: scale(0.95); }
+  .mode-btn.active { background: var(--accent2); border-color: var(--accent2); color: #fff; }
+  .mode-btn.echo-btn { background: rgba(52,211,153,0.1); border-color: rgba(52,211,153,0.3); color: var(--green); }
+  .mode-btn.echo-btn:active { background: var(--green); color: #000; }
+
+  /* Dialogue */
+  .dialogue-box {
+    background: var(--card); border: 1px solid var(--glass-border);
+    border-radius: var(--r); padding: 8px; max-height: 60vh; overflow-y: auto; scroll-behavior: smooth;
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  }
+  .dialogue-box::-webkit-scrollbar { width: 3px; }
+  .dialogue-box::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
+  .dialogue-line {
+    padding: 10px 12px; border-radius: 12px; margin-bottom: 2px; cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+    line-height: 1.65; font-size: 14px; display: flex; align-items: flex-start; gap: 6px;
+  }
+  .dialogue-line:active { transform: scale(0.98); }
+  .dialogue-line:hover { background: rgba(255,255,255,0.04); }
+  [data-theme="light"] .dialogue-line:hover { background: rgba(0,0,0,0.03); }
+  .dialogue-line.highlight {
+    background: rgba(255,59,92,0.08); border-left: 3px solid var(--accent);
+    padding-left: 9px;
+  }
+  .line-text { flex: 1; }
+  .line-zh { font-size: 12px; color: var(--dim); margin-top: 3px; display: none; line-height: 1.5; }
+  .show-zh .line-zh { display: block; }
+
+  .explain-btn, .bookmark-btn, .line-repeat-btn, .rec-btn {
+    background: none; border: none; color: var(--dim); font-size: 14px;
+    padding: 2px; cursor: pointer; opacity: 0; transition: opacity 0.2s; flex-shrink: 0;
+  }
+  .dialogue-line:hover .explain-btn,
+  .dialogue-line:hover .bookmark-btn,
+  .dialogue-line:hover .line-repeat-btn,
+  .dialogue-line:hover .rec-btn { opacity: 0.5; }
+  .explain-btn:hover, .bookmark-btn:hover, .line-repeat-btn:hover, .rec-btn:hover { opacity: 1 !important; }
+  .bookmark-btn.bookmarked { opacity: 1 !important; color: var(--orange); }
+  .rec-btn.recording { opacity: 1 !important; color: var(--accent); animation: recPulse 0.8s ease-in-out infinite; }
+  @keyframes recPulse { 0%,100%{ transform:scale(1); } 50%{ transform:scale(1.2); } }
+
+  /* Recording result */
+  .rec-result {
+    margin-top: 6px; padding: 8px 12px; border-radius: 10px;
+    background: rgba(255,255,255,0.03); border: 1px solid var(--glass-border);
+    font-size: 12px; animation: slideUp 0.3s ease;
+  }
+  .rec-result .rec-score { font-size: 18px; font-weight: 800; margin-bottom: 4px; }
+  .rec-result .rec-score.good { color: var(--green); }
+  .rec-result .rec-score.ok { color: var(--orange); }
+  .rec-result .rec-score.bad { color: var(--accent); }
+  .rec-result .rec-you { color: var(--muted); margin-bottom: 4px; }
+  .rec-result .rec-diff { line-height: 1.8; }
+  .rec-result .rec-diff .match { color: var(--green); }
+  .rec-result .rec-diff .miss { color: var(--accent); text-decoration: line-through; }
+  .rec-result .rec-diff .extra { color: var(--orange); font-style: italic; }
+  .rec-playback { display: flex; gap: 6px; margin-top: 6px; }
+  .rec-play-btn { background: var(--card); border: 1px solid var(--glass-border); color: var(--text); padding: 4px 10px; border-radius: 6px; font-size: 11px; cursor: pointer; }
+  .rec-play-btn:active { transform: scale(0.95); }
+
+  /* Dictation mode */
+  .dictation-mode .line-text { filter: blur(6px); transition: filter 0.3s; user-select: none; }
+  .dictation-mode .line-zh { display: none !important; }
+  .dictation-mode .dialogue-line:hover .line-text,
+  .dictation-mode .dialogue-line.revealed .line-text { filter: none; }
+
+  /* Quiz */
+  .quiz-box { background: var(--card); border: 1px solid var(--glass-border); border-radius: var(--r); padding: 16px; }
+  .question { margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--glass-border); }
+  .question:last-child { border-bottom: none; }
+  .question h4 { margin-bottom: 4px; font-size: 14px; font-weight: 700; }
+  .question .q-native { color: var(--muted); font-size: 12px; margin-bottom: 10px; }
+  .option {
+    display: block; width: 100%; text-align: left;
+    background: var(--card); border: 1.5px solid var(--glass-border); color: var(--text);
+    padding: 12px 14px; border-radius: 12px; margin-bottom: 6px; cursor: pointer;
+    font-size: 14px; transition: all 0.2s;
+  }
+  .option:active { transform: scale(0.98); }
+  .option.correct { border-color: var(--green); background: rgba(52,211,153,0.1); }
+  .option.wrong { border-color: var(--accent); background: rgba(255,59,92,0.1); }
+  .option.disabled { pointer-events: none; opacity: 0.6; }
+  .score-bar { margin-top: 16px; padding: 14px; background: var(--card); border: 1px solid var(--glass-border); border-radius: 12px; text-align: center; font-size: 14px; font-weight: 700; display: none; }
+
+  /* Vocab */
+  .vocab-box { background: var(--card); border: 1px solid var(--glass-border); border-radius: var(--r); padding: 12px 16px; }
+  .vocab-item { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--glass-border); font-size: 14px; }
+  .vocab-item:last-child { border-bottom: none; }
+  .vocab-word { font-weight: 700; color: var(--green); }
+  .vocab-meaning { color: var(--muted); font-size: 13px; }
+
+  /* Echo overlay */
+  .echo-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(5,5,16,0.96); z-index: 200;
+    flex-direction: column; align-items: center; justify-content: center; gap: 20px; padding: 24px;
+    backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px);
+  }
+  .echo-overlay.active { display: flex; }
+  .echo-phase { font-size: 1.3em; font-weight: 700; text-align: center; min-height: 2em; }
+  .echo-phase .emoji { font-size: 2.2em; display: block; margin-bottom: 10px; }
+  .echo-phase .label { color: var(--green); font-size: 0.65em; text-transform: uppercase; letter-spacing: 3px; font-weight: 800; }
+  .echo-sentence {
+    font-size: 15px; text-align: center; max-width: 500px; line-height: 1.8;
+    padding: 20px 24px; background: rgba(255,255,255,0.04); border-radius: var(--r);
+    border: 1px solid var(--glass-border); min-height: 80px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .echo-sentence .nl { color: var(--text); font-weight: 500; }
+  .echo-sentence .zh { color: var(--dim); font-size: 13px; margin-top: 8px; }
+  .echo-progress-ring { width: 120px; height: 120px; position: relative; }
+  .echo-progress-ring svg { transform: rotate(-90deg); }
+  .echo-progress-ring circle { fill: none; stroke-width: 3; }
+  .echo-ring-bg { stroke: rgba(255,255,255,0.06); }
+  .echo-ring-fg { stroke: var(--green); stroke-linecap: round; transition: stroke-dashoffset 0.1s linear; }
+  .echo-ring-label { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-size: 2em; font-weight: 800; }
+  .echo-controls { display: flex; gap: 10px; margin-top: 12px; }
+  .echo-ctrl {
+    background: rgba(255,255,255,0.06); border: 1px solid var(--glass-border); color: var(--text);
+    padding: 10px 20px; border-radius: 12px; cursor: pointer; font-size: 14px; font-weight: 600;
+    transition: all 0.2s;
+  }
+  .echo-ctrl:active { transform: scale(0.95); }
+  .echo-ctrl.primary { background: var(--green); color: #000; font-weight: 800; border: none; box-shadow: 0 4px 16px rgba(52,211,153,0.3); }
+  .echo-settings { display: flex; gap: 14px; align-items: center; color: var(--dim); font-size: 12px; margin-top: 10px; font-weight: 500; }
+  .echo-settings label { display: flex; align-items: center; gap: 6px; }
+  .echo-settings input[type=range] { width: 50px; accent-color: var(--green); }
+  .echo-counter { color: var(--dim); font-size: 12px; font-weight: 600; }
+
+  /* AI Explain panel — bottom sheet */
+  .explain-backdrop {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5); z-index: 149;
+  }
+  .explain-backdrop.open { display: block; }
+  .explain-panel {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: var(--card-solid, #14142a); border-top: none;
+    border-radius: 20px 20px 0 0;
+    padding: 12px 20px 20px; padding-bottom: max(20px, env(safe-area-inset-bottom));
+    z-index: 150; max-height: 55vh; overflow-y: auto;
+    box-shadow: 0 -8px 40px rgba(0,0,0,0.6);
+    transform: translateY(100%); transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .explain-panel.open { transform: translateY(0); }
+  .explain-handle { width: 36px; height: 4px; background: rgba(255,255,255,0.2); border-radius: 2px; margin: 0 auto 12px; }
+  [data-theme="light"] .explain-handle { background: rgba(0,0,0,0.15); }
+  [data-theme="light"] .explain-panel { background: #fff; box-shadow: 0 -4px 20px rgba(0,0,0,0.15); }
+  .explain-close { position: absolute; top: 8px; right: 12px; background: none; border: none; color: var(--muted); font-size: 1.2em; cursor: pointer; }
+  .explain-original { font-size: 1.05em; font-weight: 600; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #333; }
+  [data-theme="light"] .explain-original { border-bottom-color: #ddd; }
+  .explain-loading { color: var(--muted); font-size: 0.9em; }
+  .explain-content { font-size: 0.9em; line-height: 1.8; }
+  .explain-content h4 { color: var(--accent); font-size: 0.85em; margin-top: 10px; margin-bottom: 4px; }
+  .explain-content .word-item { display: inline-block; background: rgba(78,204,163,0.1); border: 1px solid rgba(78,204,163,0.3); padding: 2px 8px; border-radius: 4px; margin: 2px; font-size: 0.85em; }
+  .explain-content .pron-tip { background: rgba(245,166,35,0.1); border-left: 3px solid var(--orange); padding: 6px 10px; border-radius: 0 6px 6px 0; margin: 6px 0; font-size: 0.85em; }
+  .explain-content .grammar-note { background: rgba(91,155,213,0.1); border-left: 3px solid var(--blue, #5b9bd5); padding: 6px 10px; border-radius: 0 6px 6px 0; margin: 6px 0; font-size: 0.85em; }
+  .explain-btn { background: none; border: 1px solid #444; color: var(--muted); font-size: 0.7em; padding: 2px 6px; border-radius: 4px; cursor: pointer; opacity: 0; transition: opacity 0.2s; flex-shrink: 0; }
+  .dialogue-line:hover .explain-btn { opacity: 0.6; }
+  .explain-btn:hover { opacity: 1 !important; border-color: var(--blue, #5b9bd5); color: var(--blue, #5b9bd5); }
+
+  /* API key modal */
+  .apikey-modal { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.8); z-index: 200; align-items: center; justify-content: center; }
+  .apikey-modal.open { display: flex; }
+  .apikey-box { background: var(--card); border-radius: 12px; padding: 24px; max-width: 400px; width: 90%; }
+  .apikey-box h3 { margin-bottom: 8px; font-size: 1em; }
+  .apikey-box p { color: var(--muted); font-size: 0.85em; margin-bottom: 12px; }
+  .apikey-box input { width: 100%; padding: 10px; border: 1px solid #444; border-radius: 6px; background: #111; color: var(--text); font-size: 0.9em; margin-bottom: 10px; }
+  [data-theme="light"] .apikey-box input { background: #f0eeea; border-color: #ccc; }
+  .apikey-box .btn-row { display: flex; gap: 8px; justify-content: flex-end; }
+  .apikey-box button { padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 0.9em; border: 1px solid #444; background: none; color: var(--text); }
+  .apikey-box button.primary { background: var(--green); color: #000; border: none; font-weight: 700; }
+
+  /* Difficulty badge */
+  .diff-badge { font-size: 0.6em; padding: 1px 5px; border-radius: 3px; font-weight: 700; margin-left: 4px; vertical-align: middle; }
+  .diff-easy { background: rgba(78,204,163,0.2); color: var(--green); }
+  .diff-medium { background: rgba(245,166,35,0.2); color: var(--orange); }
+  .diff-hard { background: rgba(233,69,96,0.2); color: var(--accent); }
+
+  /* Review card */
+  .review-card { background: var(--card); border: 1.5px solid #333; border-radius: 10px; padding: 16px; margin-bottom: 10px; cursor: pointer; transition: all 0.2s; }
+  .review-card:hover { border-color: var(--accent); }
+  .review-card .rc-text { font-size: 1em; margin-bottom: 6px; }
+  .review-card .rc-meta { font-size: 0.75em; color: var(--muted); display: flex; gap: 8px; }
+  .review-card .rc-btns { display: flex; gap: 6px; margin-top: 8px; }
+  .review-card .rc-btn { padding: 4px 12px; border-radius: 6px; border: 1px solid #444; background: none; color: var(--text); cursor: pointer; font-size: 0.8em; }
+  .review-card .rc-btn:hover { border-color: var(--accent); }
+  .review-card .rc-btn.easy { border-color: var(--green); color: var(--green); }
+  .review-card .rc-btn.hard { border-color: var(--accent); color: var(--accent); }
+
+  /* Light theme overrides */
+  [data-theme="light"] .dialogue-line:hover { background: #e8e6e0; }
+  [data-theme="light"] .dialogue-line.highlight { background: rgba(214,58,80,0.1); }
+  [data-theme="light"] .option { background: #f0eeea; border-color: #ddd; }
+  [data-theme="light"] .progress-container { background: #ddd; }
+  [data-theme="light"] .speed-btn { background: #eee; border-color: #ccc; color: #666; }
+  [data-theme="light"] .speed-btn.active { background: var(--accent2); color: #fff; }
+  [data-theme="light"] .mode-btn { background: #eee; border-color: #ccc; color: #666; }
+  [data-theme="light"] .mode-btn.active { background: var(--accent2); color: #fff; }
+  [data-theme="light"] .echo-overlay { background: rgba(255,255,255,0.95); }
+  [data-theme="light"] .echo-sentence { background: #f0eeea; border-color: #ddd; }
+  [data-theme="light"] .echo-ctrl { background: #f0eeea; border-color: #ccc; }
+  [data-theme="light"] .conn { background: #e8e6e0; border-color: #ccc; }
+  [data-theme="light"] .question { border-bottom-color: #ddd; }
+  [data-theme="light"] .vocab-item { border-bottom-color: #ddd; }
+
+  /* Bookmark */
+  .bookmark-btn { background: none; border: none; color: #555; font-size: 0.8em; cursor: pointer; opacity: 0; transition: opacity 0.2s; flex-shrink: 0; padding: 2px 4px; }
+  .dialogue-line:hover .bookmark-btn { opacity: 0.6; }
+  .bookmark-btn:hover { opacity: 1 !important; }
+  .bookmark-btn.bookmarked { opacity: 1 !important; color: var(--orange); }
+
+  /* Back button */
+  .back-btn { position: fixed; top: 10px; left: 10px; background: var(--card); border: 1px solid #333; color: var(--text); padding: 6px 14px; border-radius: 8px; font-size: 0.85em; z-index: 50; text-decoration: none; transition: all 0.2s; }
+  .back-btn:hover { border-color: var(--accent); }
+  [data-theme="light"] .back-btn { background: #fff; border-color: #ccc; }
+
+  /* Theme toggle */
+  .theme-toggle { position: fixed; top: 10px; right: 10px; background: var(--card); border: 1px solid #333; color: var(--text); width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 1.1em; z-index: 50; display: flex; align-items: center; justify-content: center; transition: all 0.3s; }
+  .theme-toggle:hover { border-color: var(--accent); }
+  [data-theme="light"] .theme-toggle { background: #fff; border-color: #ccc; }
+
+  /* Progress bar in header */
+  .progress-summary { display: flex; gap: 8px; align-items: center; margin-top: 6px; font-size: 0.75em; color: var(--muted); }
+  .progress-summary .bar { flex: 1; height: 4px; background: #333; border-radius: 2px; overflow: hidden; max-width: 200px; }
+  [data-theme="light"] .progress-summary .bar { background: #ddd; }
+  .progress-summary .bar-fill { height: 100%; background: var(--green); border-radius: 2px; transition: width 0.3s; }
+
+  /* Bookmarks tab */
+  .bookmark-list { padding: 8px 0; }
+  .bookmark-item { padding: 6px 12px; cursor: pointer; font-size: 0.85em; border-radius: 6px; transition: background 0.2s; display: flex; gap: 8px; align-items: center; }
+  .bookmark-item:hover { background: rgba(255,255,255,0.05); }
+  [data-theme="light"] .bookmark-item:hover { background: rgba(0,0,0,0.05); }
+  .bookmark-item .bk-time { color: var(--muted); font-size: 0.8em; white-space: nowrap; }
+  .bookmark-item .bk-text { flex: 1; }
+  .bookmark-item .bk-remove { color: #555; cursor: pointer; font-size: 0.7em; opacity: 0; }
+  .bookmark-item:hover .bk-remove { opacity: 1; }
+
+  /* Spreken exam trainer */
+  .spreken-overlay {
+    display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+    background:var(--bg); z-index:185; flex-direction:column;
+    padding: env(safe-area-inset-top) 20px env(safe-area-inset-bottom);
+    overflow-y:auto;
+  }
+  .spreken-overlay.active { display:flex; }
+  .spreken-header { display:flex; justify-content:space-between; align-items:center; padding:12px 0; }
+  .spreken-header .sq-num { font-size:14px; font-weight:700; color:var(--blue); }
+  .spreken-close { background:none; border:1px solid var(--glass-border); color:var(--text); padding:6px 14px; border-radius:8px; font-size:13px; cursor:pointer; }
+  .spreken-body { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:20px; text-align:center; padding:10px; }
+  .spreken-question { font-size:17px; font-weight:600; line-height:1.8; max-width:500px; padding:20px 24px; background:var(--card); border:1px solid var(--glass-border); border-radius:16px; }
+  .spreken-question .q-zh { color:var(--dim); font-size:13px; margin-top:8px; }
+  .spreken-timer-ring { width:100px; height:100px; position:relative; }
+  .spreken-timer-ring svg { transform:rotate(-90deg); }
+  .spreken-timer-ring circle { fill:none; stroke-width:4; }
+  .spreken-timer-bg { stroke:rgba(255,255,255,0.06); }
+  .spreken-timer-fg { stroke:var(--blue); stroke-linecap:round; transition:stroke-dashoffset 0.2s; }
+  .spreken-timer-label { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:24px; font-weight:800; }
+  .spreken-rec-indicator { color:var(--accent); font-size:13px; font-weight:600; }
+  .spreken-answer { width:100%; max-width:500px; padding:16px; background:var(--card); border:1px solid var(--glass-border); border-radius:12px; text-align:left; font-size:14px; line-height:1.7; }
+  .spreken-answer h4 { color:var(--green); margin-bottom:6px; font-size:13px; }
+  .spreken-btns { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; }
+  .spreken-btn { background:var(--card); border:1px solid var(--glass-border); color:var(--text); padding:10px 18px; border-radius:10px; font-size:14px; font-weight:600; cursor:pointer; }
+  .spreken-btn:active { transform:scale(0.95); }
+  .spreken-btn.primary { background:var(--blue); color:#fff; border:none; }
+  .spreken-phase { font-size:14px; color:var(--muted); font-weight:600; }
+
+  /* Screen wake lock indicator */
+  .wake-lock-btn { position: fixed; top: 10px; right: 52px; background: var(--card); border: 1px solid var(--glass-border); color: var(--dim); width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 14px; z-index: 50; display: flex; align-items: center; justify-content: center; }
+  .wake-lock-btn.active { color: var(--green); border-color: var(--green); }
+
+  /* Smooth page transitions */
+  .container { animation: fadeIn 0.3s ease; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+  /* Exam simulation mode */
+  .exam-overlay {
+    display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+    background:var(--bg); z-index:180; flex-direction:column;
+    padding: env(safe-area-inset-top) 20px env(safe-area-inset-bottom);
+  }
+  .exam-overlay.active { display:flex; }
+  .exam-header { display:flex; justify-content:space-between; align-items:center; padding:16px 0; }
+  .exam-header .timer { font-size:24px; font-weight:800; font-variant-numeric:tabular-nums; color:var(--accent); }
+  .exam-header .eq-count { font-size:13px; color:var(--muted); font-weight:600; }
+  .exam-close { background:none; border:1px solid var(--glass-border); color:var(--text); padding:6px 14px; border-radius:8px; font-size:13px; cursor:pointer; }
+  .exam-question {
+    flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; gap:24px; padding:20px;
+  }
+  .exam-sentence { font-size:18px; font-weight:600; line-height:1.8; max-width:500px;
+    padding:24px; background:var(--card); border:1px solid var(--glass-border);
+    border-radius:16px; }
+  .exam-instruction { font-size:13px; color:var(--muted); }
+  .exam-rec-btn {
+    width:80px; height:80px; border-radius:50%; border:none; font-size:28px;
+    cursor:pointer; transition:all 0.2s;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color:#fff; box-shadow:0 4px 20px rgba(255,59,92,0.4);
+  }
+  .exam-rec-btn:active { transform:scale(0.9); }
+  .exam-rec-btn.recording { background:var(--accent); animation:recPulse 0.8s infinite; }
+  .exam-actions { display:flex; gap:10px; }
+  .exam-action { background:var(--card); border:1px solid var(--glass-border); color:var(--text);
+    padding:10px 20px; border-radius:10px; font-size:14px; font-weight:600; cursor:pointer; }
+  .exam-action:active { transform:scale(0.95); }
+  .exam-action.primary { background:var(--green); color:#000; border:none; }
+  .exam-result { text-align:center; padding:20px; }
+  .exam-result .big { font-size:48px; font-weight:900; margin-bottom:8px; }
+  .exam-result .big.good { color:var(--green); }
+  .exam-result .big.ok { color:var(--orange); }
+  .exam-result .big.bad { color:var(--accent); }
+  .exam-result-list { text-align:left; max-height:40vh; overflow-y:auto; margin-top:16px; }
+  .exam-result-item { padding:10px 12px; border-radius:10px; margin-bottom:6px; background:var(--card); border:1px solid var(--glass-border); font-size:13px; }
+  .exam-result-item .eri-score { font-weight:700; margin-right:8px; }
+
+  /* Daily challenge */
+  .daily-overlay {
+    display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+    background:var(--bg); z-index:175; flex-direction:column;
+    padding: env(safe-area-inset-top) 20px env(safe-area-inset-bottom);
+  }
+  .daily-overlay.active { display:flex; }
+  .daily-header { text-align:center; padding:20px 0; }
+  .daily-header .flame { font-size:48px; margin-bottom:8px; }
+  .daily-header h2 { font-size:20px; font-weight:800; margin-bottom:4px; }
+  .daily-header .streak { color:var(--orange); font-size:14px; font-weight:700; }
+  .daily-progress { display:flex; gap:6px; justify-content:center; margin:12px 0; }
+  .daily-dot { width:12px; height:12px; border-radius:50%; background:var(--glass-border); transition:all 0.3s; }
+  .daily-dot.done { background:var(--green); }
+  .daily-dot.current { background:var(--accent); box-shadow:0 0 8px var(--accent); }
+  .daily-card {
+    flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap:20px; padding:20px; text-align:center;
+  }
+  .daily-sentence { font-size:17px; font-weight:600; line-height:1.8; max-width:480px;
+    padding:20px 24px; background:var(--card); border:1px solid var(--glass-border);
+    border-radius:16px; }
+  .daily-translation { font-size:13px; color:var(--dim); margin-top:6px; }
+  .daily-btns { display:flex; gap:10px; flex-wrap:wrap; justify-content:center; }
+  .daily-btn { background:var(--card); border:1px solid var(--glass-border); color:var(--text);
+    padding:10px 18px; border-radius:10px; font-size:14px; font-weight:600; cursor:pointer; }
+  .daily-btn:active { transform:scale(0.95); }
+  .daily-btn.primary { background:var(--green); color:#000; border:none; }
+  .daily-complete { text-align:center; padding:40px; }
+  .daily-complete .big-emoji { font-size:64px; margin-bottom:16px; }
+  .daily-complete h2 { font-size:22px; font-weight:800; margin-bottom:8px; }
+
+  /* Touch-friendly: bigger tap targets on mobile */
+  @media (max-width: 600px) {
+    .controls { gap: 6px; }
+    .ctrl-btn { padding: 8px 12px; font-size: 0.85em; }
+    .speed-control { margin-left: 0; width: 100%; justify-content: center; margin-top: 4px; }
+    .echo-controls { flex-wrap: wrap; justify-content: center; }
+    .dialogue-line { padding: 12px; }
+    .rec-btn, .explain-btn, .bookmark-btn, .line-repeat-btn { font-size: 18px; padding: 4px; opacity: 0.4 !important; }
+    .rec-btn.recording { opacity: 1 !important; }
+    .bookmark-btn.bookmarked { opacity: 1 !important; }
+    .tab { padding: 10px 6px; }
+    .mode-pills .mpill, .mode-bar .mode-btn { padding: 8px 16px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+<button class="wake-lock-btn" id="wake-btn" onclick="toggleWakeLock()" title="螢幕常亮">☀️</button>
+<button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+<div class="container">
+  <!-- Compact top bar -->
+  <header>
+    <a href="../../index.html" style="color:var(--muted);text-decoration:none;font-size:13px;font-weight:600">← 返回</a>
+    <h1>EXAMEN A2 luisteren 2026 inburgering! PART 1 - met ANTWOORDEN! #nederlandsleren</h1>
+  </header>
+
+  <!-- Mini player -->
+  <div class="player-box">
+    <div class="mini-player-row">
+      <button class="ctrl-btn play-btn" id="play-btn" onclick="togglePlay()">▶</button>
+      <div class="progress-container" id="progress-container" style="flex:1">
+        <div class="progress-bar" id="progress-bar"></div>
+        <div class="ab-marker a-marker" id="a-marker" style="display:none"></div>
+        <div class="ab-marker b-marker" id="b-marker" style="display:none"></div>
+        <div class="ab-region" id="ab-region" style="display:none"></div>
+        <div class="time-display" id="time-display">0:00 / 0:00</div>
+      </div>
+      <div class="speed-control">
+        <button class="speed-btn" onclick="setSpeed(0.8)">🐢</button>
+        <button class="speed-btn active" onclick="setSpeed(1.0)">1x</button>
+        <button class="speed-btn" onclick="setSpeed(1.2)">🐇</button>
+      </div>
+    </div>
+    <!-- Collapsible controls -->
+    <div class="extra-controls" id="extra-controls" style="display:none">
+      <div class="controls">
+        <button class="ctrl-btn" id="set-a-btn" onclick="setA()">A</button>
+        <button class="ctrl-btn" id="set-b-btn" onclick="setB()">B</button>
+        <button class="ctrl-btn" id="loop-btn" onclick="toggleLoop()">🔁</button>
+        <button class="ctrl-btn" onclick="clearAB()">✕</button>
+        <button class="ctrl-btn" onclick="skipBack()">-3s</button>
+        <span style="font-size:11px;color:var(--dim);margin-left:4px">A:<span id="a-time">—</span> B:<span id="b-time">—</span> 🔁<span id="loop-count">0</span></span>
+      </div>
+    </div>
+    <div class="player-actions">
+      <button class="pa-btn" onclick="toggleExtraControls()">⚙ AB Loop</button>
+      <button class="pa-btn" onclick="prevSentence()">⏮</button>
+      <button class="pa-btn" onclick="nextSentence()">⏭</button>
+      <span id="progress-text" style="font-size:10px;color:var(--dim);margin-left:auto;font-weight:600">0/0</span>
+    </div>
+  </div>
+  <div class="progress-summary" id="progress-summary" style="display:none">
+    <div class="bar"><div class="bar-fill" id="progress-fill" style="width:0%"></div></div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('dialogue')">📖 對話</button>
+    <button class="tab" onclick="switchTab('bookmarks')">🔖 書籤 <span id="bookmark-count"></span></button>
+    <button class="tab" onclick="switchTab('review')">🔄 複習</button>
+    <button class="tab" onclick="switchTab('quiz')">📝 測驗</button>
+    <button class="tab" onclick="switchTab('vocab')">📚 詞彙</button>
+  </div>
+
+  <div class="tab-content" id="tab-review">
+    <div class="quiz-box" id="review-box">
+      <p style="color:var(--muted);text-align:center;padding:20px">載入複習清單...</p>
+    </div>
+  </div>
+  <div class="tab-content" id="tab-bookmarks">
+    <div class="quiz-box" id="bookmark-box">
+      <p style="color:var(--muted);text-align:center;padding:20px">還沒有書籤，點對話旁的 🔖 加入</p>
+    </div>
+  </div>
+  <div class="tab-content active" id="tab-dialogue">
+    <div class="mode-bar">
+      <button class="mode-btn" id="zh-toggle" onclick="toggleZh()">繁體中文翻譯</button>
+      <button class="mode-btn" id="dictation-toggle" onclick="toggleDictation()">👂 聽寫模式</button>
+      <button class="mode-btn echo-btn" onclick="openEcho()">🔄 迴音法 Echo</button>
+      <button class="mode-btn" onclick="openExamMode()" style="background:rgba(255,59,92,0.1);border-color:rgba(255,59,92,0.3);color:var(--accent)">🎯 考試模擬</button>
+      <button class="mode-btn" onclick="openSprekenMode()" style="background:rgba(96,165,250,0.1);border-color:rgba(96,165,250,0.3);color:var(--blue)">🗣️ 口說練習</button>
+      <button class="mode-btn" onclick="openDailyChallenge()" style="background:rgba(251,146,60,0.1);border-color:rgba(251,146,60,0.3);color:var(--orange)">🔥 每日挑戰</button>
+    </div>
+    <div class="dialogue-box" id="dialogue-box"></div>
+  </div>
+  <div class="tab-content" id="tab-quiz">
+    <div class="quiz-box" id="quiz-box"></div>
+    <div class="score-bar" id="score-bar"></div>
+  </div>
+  <div class="tab-content" id="tab-vocab">
+    <div class="vocab-box" id="vocab-box"></div>
+  </div>
+</div>
+
+<audio id="audio" preload="auto" src="audio.mp3"></audio>
+
+<!-- AI Explain Panel -->
+<div class="explain-backdrop" id="explain-backdrop" onclick="closeExplain()"></div>
+<div class="explain-panel" id="explain-panel">
+  <div class="explain-handle"></div>
+  <button class="explain-close" onclick="closeExplain()">✕</button>
+  <div class="explain-original" id="explain-original"></div>
+  <div class="explain-content" id="explain-content">
+    <div class="explain-loading">🤖 AI 解析中...</div>
+  </div>
+</div>
+
+<!-- API Key Modal -->
+<div class="apikey-modal" id="apikey-modal">
+  <div class="apikey-box">
+    <h3>🔑 設定 AI API Key</h3>
+    <p>輸入 OpenAI API Key 即可使用句子解析功能。Key 只存在你的瀏覽器中，不會上傳。</p>
+    <input type="password" id="apikey-input" placeholder="sk-...">
+    <div class="btn-row">
+      <button onclick="closeApiKeyModal()">取消</button>
+      <button class="primary" onclick="saveApiKey()">儲存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Spreken Exam Trainer Overlay -->
+<div class="spreken-overlay" id="spreken-overlay">
+  <div class="spreken-header">
+    <span class="sq-num" id="spreken-num">🗣️ 口說練習</span>
+    <button class="spreken-close" onclick="closeSpreken()">✕ 結束</button>
+  </div>
+  <div class="spreken-body" id="spreken-body"></div>
+</div>
+
+<!-- Exam Simulation Overlay -->
+<div class="exam-overlay" id="exam-overlay">
+  <div class="exam-header">
+    <span class="eq-count" id="exam-count">1 / 5</span>
+    <span class="timer" id="exam-timer">0:00</span>
+    <button class="exam-close" onclick="closeExam()">✕ 結束</button>
+  </div>
+  <div class="exam-question" id="exam-content"></div>
+</div>
+
+<!-- Daily Challenge Overlay -->
+<div class="daily-overlay" id="daily-overlay">
+  <div class="daily-header">
+    <div class="flame" id="daily-flame">🔥</div>
+    <h2>每日挑戰</h2>
+    <div class="streak" id="daily-streak"></div>
+    <div class="daily-progress" id="daily-progress"></div>
+  </div>
+  <div class="daily-card" id="daily-content"></div>
+</div>
+
+<!-- Echo Overlay -->
+<div class="echo-overlay" id="echo-overlay">
+  <div class="echo-counter" id="echo-counter"></div>
+  <div class="echo-phase" id="echo-phase"><span class="emoji">🎧</span><div>準備開始</div><div class="label">ECHO METHOD</div></div>
+  <div class="echo-progress-ring">
+    <svg width="120" height="120" viewBox="0 0 120 120">
+      <circle class="echo-ring-bg" cx="60" cy="60" r="54"/>
+      <circle class="echo-ring-fg" id="echo-ring-fg" cx="60" cy="60" r="54" stroke-dasharray="339.3" stroke-dashoffset="0"/>
+    </svg>
+    <div class="echo-ring-label" id="echo-ring-label">▶</div>
+  </div>
+  <div class="echo-sentence" id="echo-sentence"></div>
+  <div class="echo-controls">
+    <button class="echo-ctrl" onclick="echoReplay()">🔄 重聽</button>
+    <button class="echo-ctrl primary" id="echo-main-btn" onclick="echoNext()">▶ 開始</button>
+    <button class="echo-ctrl" id="echo-pause-btn" onclick="toggleEchoPause()">⏸ 暫停</button>
+    <button class="echo-ctrl" id="echo-loop-btn" onclick="toggleEchoLoop()" style="border-color:var(--orange);color:var(--orange)">♾️ 重複</button>
+    <button class="echo-ctrl" onclick="echoSkip()">⏭ 下一句</button>
+    <button class="echo-ctrl" onclick="closeEcho()">✕ 結束</button>
+  </div>
+  <div class="echo-settings">
+    <label>迴音 <input type="range" id="echo-pause" min="2" max="10" step="0.5" value="6"> <span id="echo-pause-label">6s</span></label>
+    <label>覆誦 <input type="range" id="echo-repeat" min="2" max="10" step="0.5" value="6"> <span id="echo-repeat-label">6s</span></label>
+    <label><input type="checkbox" id="echo-auto" checked> 自動下一句</label>
+  </div>
+</div>
+
+<script>
+// ── Data (injected by generator) ──
+const segments = [{"text": "Steven komt Yari tegen op straat. Ze praten met elkaar.", "translation": "史蒂文在街上遇到亞里。他們互相交談。", "start": 6.08, "end": 11.66}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "先讀問題，然後觀看影片。", "start": 13.72, "end": 17.44}, {"text": "Hey Steven, hoe gaat het? Heel goed.", "translation": "嗨，史蒂文，你好嗎？很好。", "start": 30.0, "end": 33.78}, {"text": "Vertel, iets te vieren? Daniëlle is zwanger. We krijgen een kindje.", "translation": "說說，有什麼值得慶祝的嗎？丹妮耶爾懷孕了。我們要有個小孩了。", "start": 34.38, "end": 38.48}, {"text": "Wat leuk! Gefeliciteerd, joh! Hoe lang is Daniëlle al zwanger?", "translation": "太好了！恭喜你！丹妮耶爾已經懷孕多久了？", "start": 38.82, "end": 42.84}, {"text": "Drie maanden. Leuk, jullie eerste kindje. Dat moeten we vieren.", "translation": "三個月了。太棒了，這是你們的第一個孩子。我們一定要慶祝。", "start": 43.16, "end": 47.2}, {"text": "Ja, daarom wilde ik je uitnodigen om komende zaterdag bij ons te komen eten.", "translation": "是啊，所以我想邀請你這週六來我們家吃飯。", "start": 47.9, "end": 52.74}, {"text": "Een paar vriendinnen van Daniëlle komen ook. En ik nodig Paul ook uit.", "translation": "丹妮耶爾的幾個朋友也會來。我也會邀請保羅。", "start": 53.38, "end": 57.24}, {"text": "Ja, leuk en hartstikke gezellig.", "translation": "是啊，很棒，非常愉快。", "start": 57.24, "end": 59.56}, {"text": "Zeg, kan jij helpen klussen de aankomende tijd? Er moeten een aantal muren geschilderd worden.", "translation": "嘿，你能幫忙做些修繕工作嗎？接下來有幾堵牆需要油漆。", "start": 60.98, "end": 66.82}, {"text": "En er moet ook een nieuwe vloer komen. Tuurlijk, geen probleem.", "translation": "還需要換新地板。當然，沒問題。", "start": 67.3, "end": 70.7}, {"text": "Top, dan zie ik je zaterdag. Tot dan!", "translation": "太好了，那週六見。到時見！", "start": 71.46, "end": 73.78}, {"text": "Hoe lang is Daniëlle zwanger? Twee maanden.", "translation": "丹妮耶爾懷孕多久了？兩個月。", "start": 77.46, "end": 81.0}, {"text": "Drie maanden. Vier maanden.", "translation": "三個月。四個月。", "start": 81.88, "end": 84.22}, {"text": "Steven komt Yari tegen op straat. Ze praten met elkaar.", "translation": "史蒂文在街上遇到亞里。他們互相交談。", "start": 89.64, "end": 95.16}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "先讀問題，然後觀看影片。", "start": 97.2, "end": 101.26}, {"text": "Hey Yari! Hey Steven, hoe gaat het?", "translation": "嗨，亞里！嗨，史蒂文，你好嗎？", "start": 112.94, "end": 116.16}, {"text": "Heel goed. Vertel, iets te vieren? Daniëlle is zwanger. We krijgen een kindje.", "translation": "很好。說說，有什麼值得慶祝的嗎？丹妮耶爾懷孕了。我們要有個小孩了。", "start": 116.16, "end": 121.98}, {"text": "Wat leuk! Gefeliciteerd, joh! Hoe lang is Daniëlle al zwanger?", "translation": "太好了！恭喜你！丹妮耶爾已經懷孕多久了？", "start": 122.32, "end": 126.32}, {"text": "Drie maanden. Leuk, jullie eerste kindje. Dat moeten we vieren.", "translation": "三個月了。太棒了，這是你們的第一個孩子。我們一定要慶祝。", "start": 126.64, "end": 130.7}, {"text": "Ja, daarom wilde ik je uitnodigen om komende zaterdag bij ons te komen eten.", "translation": "是啊，所以我想邀請你這週六來我們家吃飯。", "start": 131.1, "end": 136.24}, {"text": "Een paar vriendinnen van Daniëlle komen ook. En ik nodig Paul ook uit.", "translation": "丹妮耶爾的幾個朋友也會來。我也會邀請保羅。", "start": 136.88, "end": 140.74}, {"text": "Ja, leuk en hartstikke gezellig.", "translation": "是啊，很棒，非常愉快。", "start": 141.08, "end": 142.98}, {"text": "Zeg, kan jij helpen klussen de aankomende tijd?", "translation": "嘿，你能幫忙做些修繕工作嗎？", "start": 143.82, "end": 147.44}, {"text": "Er moeten een aantal muren geschilderd worden. En er moet ook een nieuwe vloer komen.", "translation": "接下來有幾堵牆需要油漆。還需要換新地板。", "start": 148.26, "end": 152.5}, {"text": "Tuurlijk, geen probleem. Top, dan zie ik je zaterdag.", "translation": "當然，沒問題。太好了，那週六見。", "start": 152.94, "end": 156.38}, {"text": "Tot dan!", "translation": "到時見！", "start": 156.9, "end": 157.26}, {"text": "Wanneer komt Yari eten bij Steven en Daniëlle?", "translation": "亞里何時會到史蒂文和丹妮耶爾家吃飯？", "start": 161.12, "end": 164.44}, {"text": "Woensdag. Zaterdag. Zondag.", "translation": "星期三。星期六。星期天。", "start": 165.54, "end": 168.64}, {"text": "Steven komt Yari tegen op straat. Ze praten met elkaar.", "translation": "史蒂文在街上遇到亞里。他們互相交談。", "start": 173.02, "end": 177.98}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "先讀問題，然後觀看影片。", "start": 180.4, "end": 184.18}, {"text": "Hé Yari! Hé Steven, hoe gaat het?", "translation": "嗨，亞里！嗨，史蒂文，你好嗎？", "start": 196.26, "end": 199.38}, {"text": "Heel goed. Vertel, iets te vieren? Daniëlle is zwanger. We krijgen een kindje.", "translation": "很好。說說，有什麼值得慶祝的嗎？丹妮耶爾懷孕了。我們要有個小孩了。", "start": 199.62, "end": 205.2}, {"text": "Wat leuk! Gefeliciteerd, joh! Hoe lang is Daniëlle al zwanger?", "translation": "太好了！恭喜你！丹妮耶爾已經懷孕多久了？", "start": 205.56, "end": 209.56}, {"text": "Drie maanden. Leuk, jullie eerste kindje. Dat moeten we vieren.", "translation": "三個月了。太棒了，這是你們的第一個孩子。我們一定要慶祝。", "start": 209.88, "end": 213.92}, {"text": "Ja, daarom wilde ik je uitnodigen om komende zaterdag bij ons te komen eten.", "translation": "是啊，所以我想邀請你這週六來我們家吃飯。", "start": 214.34, "end": 219.46}, {"text": "Een paar vriendinnen van Daniëlle komen ook. En ik nodig Paul ook uit.", "translation": "丹妮耶爾的幾個朋友也會來。我也會邀請保羅。", "start": 220.12, "end": 223.96}, {"text": "Ja, leuk en hartstikke gezellig.", "translation": "是啊，很棒，非常愉快。", "start": 224.3, "end": 226.22}, {"text": "Zeg, kan jij helpen klussen de aankomende tijd?", "translation": "嘿，你能幫忙做些修繕工作嗎？", "start": 227.52, "end": 230.62}, {"text": "Er moeten een aantal muren geschilderd worden. En er moet ook een nieuwe vloer komen.", "translation": "接下來有幾堵牆需要油漆。還需要換新地板。", "start": 230.62, "end": 235.72}, {"text": "Tuurlijk, geen probleem. Top, dan zie ik je zaterdag.", "translation": "當然，沒問題。太好了，那週六見。", "start": 236.16, "end": 239.62}, {"text": "Tot dan! Wat vraagt Steven aan Yari?", "translation": "到時見！史蒂文問亞里什麼？", "start": 240.12, "end": 245.9}, {"text": "Of hij wil komen klussen. Of hij een kinderbedje wil maken.", "translation": "他是否願意來幫忙修繕。", "start": 247.18, "end": 251.78}, {"text": "Of hij wil helpen bij het koken.", "translation": "他是否想做嬰兒床。", "start": 252.72, "end": 254.6}, {"text": "Hassan kijkt naar filmpjes op internet.", "translation": "他是否願意幫忙做飯。", "start": 260.26, "end": 263.2}, {"text": "Hij ziet een filmpje van een bedrijf. Lees eerst de vraag.", "translation": "哈桑在網上看影片。", "start": 264.76, "end": 270.38}, {"text": "Kijk daarna naar de video.", "translation": "他看到一家公司製作的影片。先讀問題。", "start": 270.9, "end": 272.26}, {"text": "Zoek jij werk? Wil je met leuke collega's werken?", "translation": "然後觀看影片。", "start": 289.34, "end": 293.34}, {"text": "Vind je lekkere en gezonde snacks ook belangrijk? Dan pas jij precies bij ons bedrijf.", "translation": "你在找工作嗎？想和有趣的同事一起工作嗎？", "start": 294.26, "end": 299.94}, {"text": "Wij verkopen allerlei soorten noten.", "translation": "你也重視美味且健康的小點心嗎？那你正適合我們公司。", "start": 300.56, "end": 302.96}, {"text": "Die noten komen uit veel verschillende landen over de hele wereld.", "translation": "這些堅果來自世界各地的許多不同國家。", "start": 303.56, "end": 307.36}, {"text": "Zuid-Amerika. Azië. Afrika.", "translation": "南美洲。亞洲。非洲。", "start": 308.7, "end": 311.8}, {"text": "Het zijn echte wereldnotjes. In Nederland verwerken en verpakken we de notjes in de fabriek.", "translation": "這些是真正的世界堅果。我們在荷蘭的工廠加工並包裝這些堅果。", "start": 312.36, "end": 317.96}, {"text": "Daarna gaan ze naar verschillende supermarkten. We zoeken twee mensen voor in het magazijn.", "translation": "之後它們會送到不同的超市。我們正在尋找兩個人在倉庫工作。", "start": 319.12, "end": 324.68}, {"text": "Drie chauffeurs. En vijf mensen die in de fabriek willen werken.", "translation": "三位司機，還有五個想在工廠工作的人。", "start": 326.42, "end": 331.16}, {"text": "Wil jij bij ons komen werken? Bel dan naar kantoor.", "translation": "你想來我們這裡工作嗎？那就打電話到辦公室。", "start": 332.16, "end": 335.2}, {"text": "Bel 018-365-4481.", "translation": "電話號碼是 018-365-4481。", "start": 336.22, "end": 340.66}, {"text": "Waarom noemt de man Zuid-Amerika, Azië en Afrika?", "translation": "為什麼那個男士會提到南美洲、亞洲和非洲？", "start": 347.32, "end": 352.12}, {"text": "Daar staan de fabrieken van het bedrijf. Daar worden de snacks van het bedrijf verkocht.", "translation": "那裡有公司的工廠。那裡賣著公司的零食。", "start": 353.22, "end": 358.86}, {"text": "Daar groeien de notjes die het bedrijf gebruikt.", "translation": "那裡種植著公司使用的堅果。", "start": 359.6, "end": 362.22}, {"text": "Hassan kijkt naar filmpjes op internet.", "translation": "哈桑在網路上看影片。", "start": 372.16, "end": 375.1}, {"text": "Hij ziet een filmpje van een bedrijf. Lees eerst de vraag.", "translation": "他看到一段公司的影片。請先讀問題。", "start": 376.62, "end": 381.52}, {"text": "Kijk daarna naar de video.", "translation": "然後觀看影片。", "start": 382.82, "end": 384.14}, {"text": "Zoek jij werk? Wil je met leuke collega's werken?", "translation": "你在找工作嗎？想跟很棒的同事一起工作嗎？", "start": 401.26, "end": 405.22}, {"text": "Vind je lekkere en gezonde snacks ook belangrijk? Dan pas jij precies bij ons bedrijf.", "translation": "你覺得美味又健康的零食也很重要嗎？那你就是我們公司的理想人選。", "start": 406.14, "end": 411.8}, {"text": "Wij verkopen allerlei soorten noten.", "translation": "我們販售各種種類的堅果。", "start": 412.46, "end": 414.32}, {"text": "Die noten komen uit veel verschillende landen over de hele wereld.", "translation": "這些堅果來自世界各地的許多不同國家。", "start": 415.44, "end": 419.22}, {"text": "Zuid-Amerika, Azië, Afrika.", "translation": "南美洲、亞洲、非洲。", "start": 420.16, "end": 423.7}, {"text": "Het zijn echte wereldnotjes. In Nederland verwerken en verpakken we de notjes in de fabriek.", "translation": "這些是真正的世界堅果。我們在荷蘭的工廠加工並包裝這些堅果。", "start": 424.28, "end": 429.66}, {"text": "Daarna gaan ze naar verschillende supermarkten.", "translation": "之後它們會送到不同的超市。", "start": 430.98, "end": 432.92}, {"text": "We zoeken twee mensen voor in het magazijn.", "translation": "我們正在尋找兩個人在倉庫工作。", "start": 433.6, "end": 437.54}, {"text": "Drie chauffeurs. En vijf mensen die in de fabriek willen werken.", "translation": "三位司機，還有五個想在工廠工作的人。", "start": 438.3, "end": 443.04}, {"text": "Wil jij bij ons komen werken? Bel dan naar kantoor.", "translation": "你想來我們這裡工作嗎？那就打電話到辦公室。", "start": 443.94, "end": 447.04}, {"text": "Bel 018-365-4481.", "translation": "電話號碼是 018-365-4481。", "start": 447.04, "end": 452.04}, {"text": "Julio volgt een cursus Nederlands.", "translation": "胡里奧正在上荷蘭語課程。", "start": 472.18, "end": 476.26}, {"text": "Hij hoort een omroepbericht.", "translation": "他聽到廣播通知。", "start": 476.26, "end": 480.3}, {"text": "Lees eerst de vraag. Luister daarna naar de tekst.", "translation": "請先讀問題，再聽以下內容。", "start": 482.2, "end": 486.38}, {"text": "Informatie over nieuwe cursussen. Volgende week starten de nieuwe cursussen.", "translation": "關於新課程的資訊。新課程將於下週開始。", "start": 499.34, "end": 505.1}, {"text": "De cursus Nederlands 3 zit bijna vol.", "translation": "荷蘭語3課程快滿了。", "start": 505.1, "end": 509.08}, {"text": "Er zijn nog twee plaatsen.", "translation": "還剩下兩個名額。", "start": 510.38, "end": 512.12}, {"text": "Komt u om 1 uur naar lokaal 15 als u deze cursus wilt volgen.", "translation": "如果你想上這個課程，請在1點到15教室報到。", "start": 513.66, "end": 517.86}, {"text": "Voor Nederlands 2 maken we een nieuwe groep. Daar zijn nog voldoende plaatsen.", "translation": "我們正在為荷蘭語2組新班，還有足夠名額。", "start": 519.84, "end": 525.48}, {"text": "U kunt zich hiervoor inschrijven om half 2 in lokaal 5.", "translation": "你可以在1點半到5教室報名。", "start": 525.92, "end": 530.4}, {"text": "Einde bericht.", "translation": "訊息結束。", "start": 531.38, "end": 531.92}, {"text": "Julio wil de cursus Nederlands 3 volgen.", "translation": "胡里奧想上荷蘭語3課程。", "start": 533.48, "end": 538.18}, {"text": "Hoeveel plaatsen zijn er nog?", "translation": "還剩多少名額？", "start": 539.64, "end": 541.62}, {"text": "1, 2, 3, geen.", "translation": "1、2、3、沒有了。", "start": 542.72, "end": 546.3}, {"text": "De cursus is vol.", "translation": "課程已經額滿了。", "start": 547.22, "end": 548.52}, {"text": "Julio volgt een cursus Nederlands.", "translation": "胡里奧正在上荷蘭語課程。", "start": 553.66, "end": 556.94}, {"text": "Hij hoort een omroepbericht.", "translation": "他聽到廣播通知。", "start": 557.9, "end": 560.94}, {"text": "Lees eerst de vraag.", "translation": "請先讀問題。", "start": 560.94, "end": 564.04}, {"text": "Luister daarna naar de tekst.", "translation": "然後聽以下內容。", "start": 565.3, "end": 567.06}, {"text": "Informatie over nieuwe cursussen. Volgende week starten de nieuwe cursussen.", "translation": "關於新課程的資訊。新課程將於下週開始。", "start": 579.8, "end": 585.78}, {"text": "De cursus Nederlands 3 zit bijna vol.", "translation": "荷蘭語3課程快滿了。", "start": 586.82, "end": 589.7}, {"text": "Er zijn nog twee plaatsen.", "translation": "還剩下兩個名額。", "start": 589.7, "end": 592.86}, {"text": "Komt u om 1 uur naar lokaal 15 als u deze cursus wilt volgen.", "translation": "如果你想上這個課程，請在1點到15教室報到。", "start": 594.3, "end": 598.48}, {"text": "Voor Nederlands 2 maken we een nieuwe groep. Daar zijn nog voldoende plaatsen.", "translation": "我們正在為荷蘭語2組新班，還有足夠名額。", "start": 600.56, "end": 605.92}, {"text": "U kunt zich hiervoor inschrijven om half 2 in lokaal 5.", "translation": "你可以在1點半到5教室報名。", "start": 606.56, "end": 611.08}, {"text": "Einde bericht.", "translation": "訊息結束。", "start": 612.02, "end": 612.6}, {"text": "Waar kan hij zich aanmelden? In lokaal 1.", "translation": "他可以在哪裡報名？在1教室。", "start": 619.7, "end": 624.38}, {"text": "In lokaal 2. In lokaal 5.", "translation": "在2號教室。在5號教室。", "start": 625.5, "end": 629.58}, {"text": "In lokaal 15.", "translation": "在15號教室。", "start": 630.44, "end": 632.12}, {"text": "Amina is in het buurthuis.", "translation": "Amina 在社區中心。", "start": 640.48, "end": 643.46}, {"text": "De buren van Amina praten met elkaar.", "translation": "Amina的鄰居們正在交談。", "start": 644.62, "end": 649.36}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "請先閱讀問題，再觀看影片。", "start": 650.82, "end": 655.4}, {"text": "Het is wel onhandig dat onze straat is afgesloten.", "translation": "我們的街道封閉了，這真的很不方便。", "start": 666.94, "end": 670.72}, {"text": "Het is wel goed dat ze de weg weer helemaal mooi maken.", "translation": "但他們把路徑修得很漂亮，這很好。", "start": 671.3, "end": 675.66}, {"text": "Er zaten zoveel gaten in. Maar er komt nog steeds geen nieuwe verlichting.", "translation": "路上有許多坑洞，但仍然沒有新照明。", "start": 676.42, "end": 681.72}, {"text": "En ook, ze maken niet eens nieuwe parkeerplaatsen. Ik vind het maar niks, al dat gedoe.", "translation": "而且，他們甚至不新建停車位。我覺得那些麻煩事很煩人。", "start": 682.34, "end": 687.7}, {"text": "Gelukkig is het maar tijdelijk. Volgende week gaat de straat weer open.", "translation": "幸好這只是暫時的。下週街道會重新開放。", "start": 688.48, "end": 691.74}, {"text": "Nee joh, die straat blijft dicht tot eind volgende maand.", "translation": "不啦，那條街道會一直封閉到下個月底。", "start": 692.2, "end": 695.34}, {"text": "Maar dat duurt nog 6 weken. Dat is wel lang zeg.", "translation": "那還要六週，真的很久。", "start": 696.52, "end": 701.62}, {"text": "Waarom is de straat van Amina afgesloten?", "translation": "為什麼Amina的街道封閉了？", "start": 704.14, "end": 708.22}, {"text": "Om de verlichting te maken. Om de weg te repareren.", "translation": "為了修理照明，為了修路。", "start": 709.16, "end": 714.08}, {"text": "Om parkeerplaatsen te maken.", "translation": "為了建造停車位。", "start": 715.12, "end": 717.52}, {"text": "Amina is in het buurthuis.", "translation": "Amina 在社區中心。", "start": 724.94, "end": 728.6}, {"text": "De buren van Amina praten met elkaar.", "translation": "Amina的鄰居們正在交談。", "start": 730.62, "end": 734.2}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "請先閱讀問題，再觀看影片。", "start": 735.98, "end": 740.46}, {"text": "Maar het is wel onhandig dat onze straat is afgesloten.", "translation": "但我們的街道封閉了，這真的很不方便。", "start": 752.82, "end": 755.96}, {"text": "Ja dat wel. Maar ja, het is wel goed dat ze de weg weer helemaal mooi maken.", "translation": "是啊，但他們把路徑修得很漂亮，這很好。", "start": 756.56, "end": 760.82}, {"text": "Er zaten zoveel gaten in. Maar er komt nog steeds geen nieuwe verlichting.", "translation": "路上有許多坑洞，但仍然沒有新照明。", "start": 761.54, "end": 766.88}, {"text": "En ook, ze maken niet eens nieuwe parkeerplaatsen. Ik vind het maar niks, al dat gedoe.", "translation": "而且，他們甚至不新建停車位。我覺得那些麻煩事很煩人。", "start": 767.5, "end": 772.82}, {"text": "Gelukkig is het maar tijdelijk. Volgende week gaat de straat weer open.", "translation": "幸好這只是暫時的。下週街道會重新開放。", "start": 773.64, "end": 776.92}, {"text": "Nee joh, die straat blijft dicht tot eind volgende maand.", "translation": "不啦，那條街道會一直封閉到下個月底。", "start": 777.3, "end": 780.48}, {"text": "Maar dat duurt nog 6 weken. Dat is wel lang zeg.", "translation": "那還要六週，真的很久。", "start": 781.3, "end": 786.76}, {"text": "Wanneer gaat de straat van Amina weer open?", "translation": "Amina的街道什麼時候會重新開放？", "start": 789.5, "end": 793.24}, {"text": "Volgende week. Over een maand.", "translation": "下週。一個月後。", "start": 794.22, "end": 797.64}, {"text": "Over zes weken.", "translation": "六週後。", "start": 798.68, "end": 800.32}, {"text": "VARA kijkt naar het nieuws.", "translation": "VARA正在收看新聞。", "start": 809.38, "end": 812.46}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "請先閱讀問題，再觀看影片。", "start": 813.66, "end": 818.18}, {"text": "In het ziekenhuis in Amsterdam-Zuid is een waterleiding kapot gegaan.", "translation": "阿姆斯特丹南區的醫院發生水管爆裂。", "start": 818.92, "end": 823.0}, {"text": "Het ziekenhuis heeft daar veel last van.", "translation": "醫院因此受到嚴重影響。", "start": 823.92, "end": 826.08}, {"text": "De begane grond van het ziekenhuis is helemaal overstroomd.", "translation": "醫院的一樓完全淹水。", "start": 826.98, "end": 830.34}, {"text": "Alles staat onder water. Gelukkig lagen daar geen patiënten.", "translation": "一切都浸泡在水中，幸好那裡沒有人住院。", "start": 831.22, "end": 834.86}, {"text": "Alle patiënten op de eerste verdieping zijn wel naar een andere plek gebracht.", "translation": "所有一樓的病人已被送往其他地方。", "start": 835.94, "end": 840.76}, {"text": "Zij slapen nu op de tweede verdieping.", "translation": "他們現在睡在二樓。", "start": 842.24, "end": 844.1}, {"text": "Volgens het ziekenhuis zijn de patiënten niet in gevaar geweest.", "translation": "據醫院說，病人並未有危險。", "start": 845.26, "end": 848.52}, {"text": "De waterleiding is waarschijnlijk pas donderdag gemaakt.", "translation": "水管很可能要到星期四才修好。", "start": 849.48, "end": 852.56}, {"text": "Dat is later dan de gemeente zei. Vanmorgen zei de gemeente dat het maar tot dinsdag zou duren.", "translation": "這比市政府說的還晚，市政府今早說最多到星期二。", "start": 853.48, "end": 858.9}, {"text": "Vanaf vrijdag is het hele ziekenhuis weer open.", "translation": "從星期五開始，整個醫院會重新開放。", "start": 860.3, "end": 862.74}, {"text": "Ook het verkeer heeft last van het water. Er rijden voorlopig geen bussen naar het ziekenhuis.", "translation": "交通也被淹水影響，暫時沒有公車會開往醫院。", "start": 863.86, "end": 869.38}, {"text": "Dat komt doordat ook de weg onder water staat. Kom dus ook niet met de tram.", "translation": "因為路面也積水，請不要搭電車過來。", "start": 870.24, "end": 874.86}, {"text": "U kunt het beste vanaf treinstation Zuid naar het ziekenhuis lopen.", "translation": "您最好從南站走路到醫院。", "start": 875.68, "end": 879.08}, {"text": "Welke patiënten zijn naar een andere plaats gebracht?", "translation": "哪些病人被帶到其他地方？", "start": 880.18, "end": 885.0}, {"text": "Alleen de patiënten van de begane grond.", "translation": "只有一樓的病人。", "start": 886.24, "end": 889.7}, {"text": "Alleen de patiënten van de eerste verdieping.", "translation": "只有二樓的病人。", "start": 889.7, "end": 894.72}, {"text": "Alleen de patiënten van de tweede verdieping.", "translation": "只有三樓的病人。", "start": 895.96, "end": 899.86}, {"text": "Alle patiënten van het ziekenhuis.", "translation": "醫院所有病人。", "start": 900.86, "end": 903.9}, {"text": "Farah kijkt naar het nieuws.", "translation": "Farah正在收看新聞。", "start": 911.3, "end": 914.64}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "請先閱讀問題，再觀看影片。", "start": 916.1, "end": 920.58}, {"text": "In het ziekenhuis in Amsterdam-Zuid is een waterleiding kapot gegaan.", "translation": "阿姆斯特丹南區的醫院裡有一條水管壞了。", "start": 921.54, "end": 925.42}, {"text": "Het ziekenhuis heeft daar veel last van.", "translation": "醫院因此受到很大困擾。", "start": 926.3, "end": 928.38}, {"text": "De begane grond van het ziekenhuis is helemaal overstroomd.", "translation": "醫院的底層被完全淹水了。", "start": 929.34, "end": 932.4}, {"text": "Alles staat onder water. Gelukkig lagen daar geen patiënten.", "translation": "全部淹水了，幸好那裡沒有病人。", "start": 933.58, "end": 937.42}, {"text": "Alle patiënten op de eerste verdieping zijn wel naar een andere plek gebracht.", "translation": "一樓的所有病人都被轉移到其他地方了。", "start": 938.98, "end": 943.1}, {"text": "Zij slapen nu op de tweede verdieping.", "translation": "他們現在睡在二樓。", "start": 944.58, "end": 946.46}, {"text": "Volgens het ziekenhuis zijn de patiënten niet in gevaar geweest.", "translation": "根據醫院表示，病人沒有處於危險之中。", "start": 947.08, "end": 950.9}, {"text": "De waterleiding is waarschijnlijk pas donderdag gemaakt.", "translation": "水管可能要到星期四才會修好。", "start": 951.9, "end": 954.92}, {"text": "Dat is later dan de gemeente zei. Vanmorgen zei de gemeente dat het maar tot dinsdag zou duren.", "translation": "這比市政府說的時間晚。今天早上市政府說水管修理只會持續到星期二。", "start": 955.84, "end": 961.26}, {"text": "Vanaf vrijdag is het hele ziekenhuis weer open.", "translation": "從星期五開始整個醫院將重新開放。", "start": 962.7, "end": 965.14}, {"text": "Ook het verkeer heeft last van het water. Er rijden voorlopig geen bussen naar het ziekenhuis.", "translation": "交通也因為淹水而受影響。目前沒有公車開往醫院。", "start": 966.88, "end": 971.74}, {"text": "Dat komt doordat ook de weg onder water staat. Kom dus ook niet met de tram.", "translation": "因為道路也淹水了，所以也不要搭電車過來。", "start": 972.58, "end": 977.24}, {"text": "U kunt het beste vanaf treinstation Zuid naar het ziekenhuis lopen.", "translation": "您最好從南火車站走路到醫院。", "start": 978.14, "end": 981.5}, {"text": "Wanneer gaan alle afdelingen van het ziekenhuis weer open?", "translation": "醫院所有科別什麼時候會重新開放？", "start": 982.64, "end": 988.06}, {"text": "Dinsdag, donderdag, vrijdag.", "translation": "星期二、星期四、星期五。", "start": 989.04, "end": 992.06}, {"text": "Farah kijkt naar het nieuws. Lees eerst de vraag.", "translation": "Farah 正在看新聞。請先讀問題。", "start": 999.1, "end": 1004.7}, {"text": "Kijk daarna naar de video.", "translation": "然後看影片。", "start": 1005.64, "end": 1007.58}, {"text": "In het ziekenhuis in Amsterdam-Zuid is een waterleiding kapot gegaan.", "translation": "阿姆斯特丹南區的醫院裡有一條水管壞了。", "start": 1008.52, "end": 1012.64}, {"text": "Het ziekenhuis heeft daar veel last van.", "translation": "醫院因此受到很大困擾。", "start": 1013.32, "end": 1015.26}, {"text": "De begane grond van het ziekenhuis is helemaal overstroomd.", "translation": "醫院的底層被完全淹水了。", "start": 1016.36, "end": 1019.78}, {"text": "Alles staat onder water. Gelukkig lagen er geen patiënten.", "translation": "全部淹水了，幸好沒有病人在那裡。", "start": 1020.62, "end": 1024.44}, {"text": "Alle patiënten op de eerste verdieping zijn wel naar een andere plek gebracht.", "translation": "一樓的所有病人都被轉移到其他地方了。", "start": 1025.98, "end": 1030.1}, {"text": "Zij slapen nu op de tweede verdieping.", "translation": "他們現在睡在二樓。", "start": 1031.12, "end": 1033.5}, {"text": "Volgens het ziekenhuis zijn de patiënten niet in gevaar geweest.", "translation": "根據醫院表示，病人沒有處於危險之中。", "start": 1034.64, "end": 1037.9}, {"text": "De waterleiding is waarschijnlijk pas donderdag gemaakt.", "translation": "水管可能要到星期四才會修好。", "start": 1038.86, "end": 1041.94}, {"text": "Dat is later dan de gemeente zei. Vanmorgen zei de gemeente dat het maar tot dinsdag zou duren.", "translation": "這比市政府說的時間晚。今天早上市政府說水管修理只會持續到星期二。", "start": 1042.84, "end": 1048.28}, {"text": "Vanaf vrijdag is het hele ziekenhuis weer open.", "translation": "從星期五開始整個醫院將重新開放。", "start": 1049.72, "end": 1052.16}, {"text": "Ook het verkeer heeft last van het water. Er rijden voorlopig geen bussen naar het ziekenhuis.", "translation": "交通也因為淹水而受影響。目前沒有公車開往醫院。", "start": 1053.86, "end": 1058.76}, {"text": "Dat komt doordat ook de weg onder water staat.", "translation": "因為道路也淹水了。", "start": 1058.76, "end": 1062.14}, {"text": "Kom dus ook niet met de tram. U kunt het beste vanaf treinstation Zuid naar het ziekenhuis lopen.", "translation": "所以也不要搭電車過來。您最好從南火車站走路到醫院。", "start": 1063.06, "end": 1068.46}, {"text": "Savina is op treinstation Zuid.", "translation": "Savina 在南火車站。", "start": 1069.46, "end": 1072.76}, {"text": "Hoe kan ze het beste naar het ziekenhuis gaan?", "translation": "她怎麼走去醫院最好？", "start": 1074.5, "end": 1078.18}, {"text": "Met de tram. Met de bus.", "translation": "搭電車，搭公車。", "start": 1078.92, "end": 1082.2}, {"text": "Lopend.", "translation": "走路。", "start": 1083.1, "end": 1083.44}, {"text": "Hamza werkt bij een groothandel.", "translation": "Hamza 在一家批發公司工作。", "start": 1091.0, "end": 1094.68}, {"text": "Een klant heeft een bestelling ingesproken op de voicemail.", "translation": "一位客戶在語音信箱留言訂貨。", "start": 1096.46, "end": 1100.28}, {"text": "Lees eerst de vraag. Luister daarna naar de tekst.", "translation": "請先讀問題，再聽文稿。", "start": 1102.3, "end": 1107.3}, {"text": "Gerrits van Snackbar de Hoek. Ik wil even wat bestellen.", "translation": "Snackbar de Hoek 的 Gerrits。我想點餐。", "start": 1119.44, "end": 1122.46}, {"text": "Ik wil graag zes dozen patat. Niet van die dikke, die moet ik zelf dan nog snijden.", "translation": "我想要六箱薯條。不要那種粗薯條，我還得自己再切。", "start": 1122.98, "end": 1127.48}, {"text": "Maar van die Franse zeg maar, die dunne. Een honderd frikandellen en tweehonderd kroketten.", "translation": "我要那種法式的，也就是細的。還有一百根炸肉丸和兩百個可樂餅。", "start": 1127.92, "end": 1133.22}, {"text": "En even kijken, ook dertig flessen mayonaise en twintig ketchup.", "translation": "還有，看看，三十瓶美乃滋和二十瓶番茄醬。", "start": 1133.62, "end": 1138.58}, {"text": "En graag tien dozen cola blikjes. Maar dan niet van die zwarte, maar die grijze Cola Light.", "translation": "還要十箱可樂罐裝。但不是黑色的，是灰色的可樂輕怡版。", "start": 1139.24, "end": 1144.18}, {"text": "En ja, bestelling gewoon naar de snackbar sturen.", "translation": "訂單請直接送到小吃店。", "start": 1144.74, "end": 1147.58}, {"text": "Maar de rekening wel naar mijn postadres sturen graag.", "translation": "但帳單請寄到我的郵寄地址。", "start": 1147.58, "end": 1151.64}, {"text": "Niet zoals de vorige keer naar mijn huisadres. Want dat is veranderd.", "translation": "不要像上次寄我家裡，因為地址已經改了。", "start": 1151.82, "end": 1155.7}, {"text": "Dat was het. Bedankt.", "translation": "就這樣。謝謝。", "start": 1155.76, "end": 1157.96}, {"text": "Welke patat bestelt meneer Gerritsen?", "translation": "Gerritsen 先生點了哪種薯條？", "start": 1160.22, "end": 1163.46}, {"text": "Patat die hij zelf nog moet snijden. Dikke patat.", "translation": "那種他自己還得切的。粗薯條。", "start": 1164.38, "end": 1168.36}, {"text": "Franse patat.", "translation": "法式薯條。", "start": 1169.5, "end": 1170.44}, {"text": "Hamza werkt bij een groothandel.", "translation": "Hamza 在一家批發公司工作。", "start": 1176.06, "end": 1179.7}, {"text": "Een klant heeft een bestelling ingesproken op de voicemail.", "translation": "有一位顧客在語音信箱留言訂單。", "start": 1181.5, "end": 1185.3}, {"text": "Lees eerst de vraag. Luister daarna naar de tekst.", "translation": "先讀問題，然後聽文本。", "start": 1187.28, "end": 1192.32}, {"text": "Gerrits hier van snackbar De Hoek. Ik wil even wat bestellen. Ik wil graag zes dozen patat.", "translation": "我是Gerrits，來自小吃店『De Hoek』。我想點一些東西。我想要六盒炸薯條。", "start": 1204.52, "end": 1210.12}, {"text": "Niet van die dikke, die moet ik zelf dan nog snijden. Maar van die Franse, zeg maar, die dunne.", "translation": "不是那種粗的，我還得自己切。但那種法式的，就是細的。", "start": 1210.62, "end": 1214.42}, {"text": "Honderd frikandellen en tweehonderd kroketten.", "translation": "一百個炸肉捲和兩百個可樂餅。", "start": 1214.98, "end": 1218.22}, {"text": "En even kijken, ook dertig flessen mayonaise en twintig ketchup.", "translation": "再看看，還要三十瓶美乃滋和二十瓶番茄醬。", "start": 1218.22, "end": 1223.98}, {"text": "En graag tien dozen cola blikjes. Maar dan niet van die zwarte, maar die grijze cola light.", "translation": "還要十盒可樂罐裝。但不要黑色那種，要灰色的可口可樂輕怡。", "start": 1224.26, "end": 1229.22}, {"text": "En ja, bestelling gewoon naar de snackbar sturen.", "translation": "請把訂單直接送到小吃店。", "start": 1229.76, "end": 1232.6}, {"text": "Maar de rekening wel naar mijn postadres sturen graag.", "translation": "但請把帳單寄到我的郵寄地址。", "start": 1233.16, "end": 1236.64}, {"text": "Niet zoals de vorige keer naar mijn huisadres, want dat is veranderd.", "translation": "不要像上次那樣寄到我家，因為那地址已經變了。", "start": 1236.78, "end": 1240.32}, {"text": "Dat was het. Bedankt.", "translation": "就這樣，謝謝。", "start": 1240.78, "end": 1242.72}, {"text": "Welke cola bestelt meneer Gerritsen?", "translation": "Gerritsen先生訂的是哪種可樂？", "start": 1244.34, "end": 1248.22}, {"text": "Zes dozen grijze blikjes.", "translation": "六盒灰色罐裝。", "start": 1249.5, "end": 1251.72}, {"text": "Zes dozen zwarte blikjes.", "translation": "六盒黑色罐裝。", "start": 1253.12, "end": 1255.72}, {"text": "Tien dozen grijze blikjes.", "translation": "十盒灰色罐裝。", "start": 1257.32, "end": 1260.4}, {"text": "Tien dozen zwarte blikjes.", "translation": "十盒黑色罐裝。", "start": 1261.42, "end": 1263.72}, {"text": "Hamza werkt bij een groothandel.", "translation": "Hamza在一家批發商工作。", "start": 1270.92, "end": 1274.58}, {"text": "Een klant heeft een bestelling ingesproken op de voicemail.", "translation": "有一位顧客在語音信箱留言訂單。", "start": 1276.36, "end": 1280.18}, {"text": "Lees eerst de vraag. Luister daarna naar de tekst.", "translation": "先讀問題，然後聽文本。", "start": 1282.16, "end": 1287.2}, {"text": "Ja, Gerrits hier van Snackbar De Hoek.", "translation": "是的，我是來自小吃店『De Hoek』的Gerrits。", "start": 1298.58, "end": 1300.94}, {"text": "Ik wil even wat bestellen. Ik wil graag zes dozen patat.", "translation": "我想點一些東西。我想要六盒炸薯條。", "start": 1301.48, "end": 1305.02}, {"text": "Niet van die dikke, die moet ik zelf dan nog snijden. Maar van die Franse, zeg maar, die dunne.", "translation": "不是那種粗的，我還得自己切。但那種法式的，就是細的。", "start": 1305.5, "end": 1309.32}, {"text": "Honderd frikandellen en tweehonderd kroketten.", "translation": "一百個炸肉捲和兩百個可樂餅。", "start": 1309.84, "end": 1313.1}, {"text": "En even kijken, ook dertig flessen mayonaise.", "translation": "再看看，還要三十瓶美乃滋。", "start": 1313.38, "end": 1316.96}, {"text": "En dan een klein beetje ketchup. En twintig ketchup. En graag tien dozen cola blikjes.", "translation": "還要一點點番茄醬。和二十瓶番茄醬。還有十盒可樂罐裝。", "start": 1317.16, "end": 1321.04}, {"text": "Maar dan niet van die zwarte, maar die grijze cola light. En ja, bestelling gewoon naar de Snackbar sturen.", "translation": "但不要黑色那種，要灰色的可口可樂輕怡。然後，訂單請直接送到小吃店。", "start": 1321.54, "end": 1327.48}, {"text": "Maar de rekening wel naar mijn postadres sturen graag.", "translation": "但請把帳單寄到我的郵寄地址。", "start": 1328.08, "end": 1331.54}, {"text": "Niet zoals de vorige keer naar mijn huisadres, want dat is veranderd.", "translation": "不要像上次那樣寄到我家，因為那地址已經變了。", "start": 1331.7, "end": 1335.6}, {"text": "Dat was het. Bedankt.", "translation": "就這樣，謝謝。", "start": 1335.68, "end": 1337.64}, {"text": "Waar moet Hamza de rekening naartoe sturen?", "translation": "Hamza要把帳單寄去哪裡？", "start": 1340.18, "end": 1343.6}, {"text": "Naar het huisadres. Naar de Snackbar.", "translation": "寄到家裡地址。寄到小吃店。", "start": 1343.6, "end": 1348.6}, {"text": "Naar het postadres.", "translation": "寄到郵寄地址。", "start": 1349.5, "end": 1351.36}, {"text": "Melvin doet een cursus Engels.", "translation": "Melvin正在上英文課。", "start": 1357.4, "end": 1360.4}, {"text": "Zijn medecursist Enrico praat met de docent.", "translation": "他的同學Enrico正在和老師交談。", "start": 1361.96, "end": 1366.38}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "先讀問題，然後看影片。", "start": 1368.18, "end": 1372.46}, {"text": "Hier Enrico, je schrijfopdracht. Oké, dankjewel.", "translation": "這是Enrico，你的寫作作業。好了，謝謝。", "start": 1373.86, "end": 1378.78}, {"text": "Ja, je hebt bijna geen fouten gemaakt met de volgorde van de woorden.", "translation": "是的，你的單字順序幾乎沒錯。", "start": 1379.64, "end": 1383.92}, {"text": "Heel goed. Soms maak je nog een foutje met de werkwoorden.", "translation": "很好。有時你還是會動詞用錯。", "start": 1384.38, "end": 1388.46}, {"text": "Maar die hoef je ook nog niet allemaal te kennen.", "translation": "但這些你還不用全部都認識。", "start": 1389.08, "end": 1391.04}, {"text": "Alleen, ja, niet alle woorden zijn goed geschreven.", "translation": "只是，有些字寫錯了。", "start": 1392.92, "end": 1396.46}, {"text": "Kijk, er zitten nog best veel spelfouten in.", "translation": "看，還有不少拼字錯誤。", "start": 1398.0, "end": 1400.72}, {"text": "Ja, ik zie het.", "translation": "是啊，我看到了。", "start": 1401.9, "end": 1404.66}, {"text": "Ik kon ook niet alle woorden vinden in mijn woordenboek. Oké.", "translation": "我書裡也找不到所有字。好吧。", "start": 1406.2, "end": 1412.24}, {"text": "Misschien kan iemand je brief nog eens doorlezen als hij af is.", "translation": "或許有人可以在你完成後幫你再讀一遍信。", "start": 1412.74, "end": 1418.18}, {"text": "Heb je dat aan iemand gevraagd? Nee.", "translation": "你有問過別人嗎？沒有。", "start": 1418.84, "end": 1422.44}, {"text": "Oké, nou", "translation": "好，那你下次", "start": 1422.44, "end": 1424.76}, {"text": "Je kunt de volgende keer je brief aan een medecursist geven.", "translation": "可以把信給同學看。", "start": 1425.16, "end": 1430.56}, {"text": "Aan Melvin bijvoorbeeld, of iemand anders. Die kan er dan nog fouten uithalen.", "translation": "例如給Melvin或其他人，他們可能會幫你找錯誤。", "start": 1432.18, "end": 1437.8}, {"text": "Oké. Ja, en voor Melvin is dat ook een goede extra oefening.", "translation": "好。對Melvin來說，也是很好的額外練習。", "start": 1439.48, "end": 1444.66}, {"text": "Ja, dat is een goed idee.", "translation": "是啊，這是個好主意。", "start": 1445.34, "end": 1447.1}, {"text": "Goed, oké, dan zie ik jullie de volgende les hier.", "translation": "好的，好，那我下堂課在這裡見你們。", "start": 1448.32, "end": 1451.44}, {"text": "Oké, tot donderdag. Tot donderdag.", "translation": "好的，星期四見。星期四見。", "start": 1451.44, "end": 1455.02}, {"text": "Tot ziens.", "translation": "再見。", "start": 1455.36, "end": 1455.7}, {"text": "Waarmee heeft Enrico de meeste fouten gemaakt in zijn brief?", "translation": "Enrico 在他的信裡犯了最多什麼錯誤？", "start": 1458.08, "end": 1463.74}, {"text": "Met de volgorde van de woorden.", "translation": "詞序錯誤。", "start": 1464.62, "end": 1467.82}, {"text": "Met de spelling. Met de werkwoorden.", "translation": "拼寫錯誤。動詞錯誤。", "start": 1468.9, "end": 1472.66}, {"text": "Melvin doet een cursus Engels.", "translation": "Melvin 正在上英文課程。", "start": 1478.62, "end": 1482.36}, {"text": "Zijn medecursist Enrico praat met de docent.", "translation": "他的同學 Enrico 與老師交談。", "start": 1483.94, "end": 1488.34}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "先讀問題，再看影片。", "start": 1490.16, "end": 1494.52}, {"text": "Hier, Enrico, je schrijfopdracht. Oké, dankjewel.", "translation": "這是你的寫作作業，Enrico。好的，謝謝。", "start": 1496.24, "end": 1500.7}, {"text": "Ja, je hebt bijna geen fouten gemaakt met de volgorde van de woorden.", "translation": "是的，你幾乎沒有在詞序上犯錯。", "start": 1500.7, "end": 1505.88}, {"text": "Heel goed.", "translation": "非常好。", "start": 1506.36, "end": 1506.82}, {"text": "Soms maak je nog een foutje met de werkwoorden, maar die hoef je ook nog niet allemaal te kennen.", "translation": "有時你動詞還會犯小錯，但這些還不需要全部掌握。", "start": 1508.1, "end": 1513.0}, {"text": "Alleen, ja, niet alle woorden zijn goed geschreven.", "translation": "只是，有些單詞拼錯了。", "start": 1514.98, "end": 1519.06}, {"text": "Kijk, er zitten nog best veel spelfouten in.", "translation": "看，有不少拼寫錯誤。", "start": 1519.96, "end": 1522.72}, {"text": "Ja, ik zie het.", "translation": "是，我看到了。", "start": 1524.18, "end": 1526.22}, {"text": "Ik kon ook niet alle woorden vinden in mijn woordenboek. Oké.", "translation": "我字典裡也找不到所有單詞。好的。", "start": 1527.62, "end": 1534.2}, {"text": "Misschien kan iemand je brief nog eens doorlezen als hij af is.", "translation": "也許有人可以在你完成後幫你再讀一次信。", "start": 1534.48, "end": 1540.18}, {"text": "Heb je dat aan iemand gevraagd? Nee. Oké.", "translation": "你有請求過別人嗎？沒有。好的。", "start": 1540.78, "end": 1545.78}, {"text": "Nou, je kunt de volgende keer je brief aan een medecursist geven.", "translation": "那你下次可以把信給同學看。", "start": 1546.34, "end": 1552.52}, {"text": "Aan Melvin bijvoorbeeld, of iemand anders.", "translation": "例如給 Melvin 或其他人。", "start": 1553.56, "end": 1556.92}, {"text": "Die kan er dan nog fouten uithalen. Oké.", "translation": "他們可以幫你找錯。好的。", "start": 1557.98, "end": 1561.98}, {"text": "Ja, en voor Melvin is dat ook een goede extra oefening.", "translation": "對 Melvin 來說這也是個很好的額外練習。", "start": 1562.5, "end": 1566.58}, {"text": "Ja, dat is een goed idee.", "translation": "是啊，這是個好主意。", "start": 1567.32, "end": 1569.06}, {"text": "Goed, oké, dan zie ik jullie de volgende les weer.", "translation": "好，好的，那下次課見。", "start": 1570.02, "end": 1573.42}, {"text": "Oké, tot donderdag. Tot donderdag. Tot ziens.", "translation": "好的，星期四見。星期四見。再見。", "start": 1574.44, "end": 1577.62}, {"text": "Welk advies over brievenschrijven geeft de docent aan Enrico?", "translation": "老師給 Enrico 寫信方面的建議是？", "start": 1579.76, "end": 1586.44}, {"text": "Laat je brief controleren door iemand anders.", "translation": "讓別人幫你檢查信件。", "start": 1587.5, "end": 1591.58}, {"text": "Gebruik een woordenboek tijdens het schrijven.", "translation": "寫信時使用字典。", "start": 1592.66, "end": 1595.8}, {"text": "Lees je brief nog een keer door als je klaar bent.", "translation": "寫完信後再讀一次。", "start": 1596.96, "end": 1601.28}, {"text": "Sonja luistert naar een voicemailbericht van haar vriendin Zineb.", "translation": "Sonja 正在聽她朋友 Zineb 的語音信箱留言。", "start": 1608.56, "end": 1614.1}, {"text": "Lees eerst de vraag. Luister daarna naar de tekst.", "translation": "先讀問題，再聽錄音。", "start": 1615.32, "end": 1618.84}, {"text": "Welkom bij Voicemail van Teleworks.", "translation": "歡迎來到 Teleworks 的語音信箱。", "start": 1629.56, "end": 1632.8}, {"text": "U heeft één nieuw bericht. Hoi, met Zineb.", "translation": "您有一則新訊息。嗨，我是 Zineb。", "start": 1633.56, "end": 1639.12}, {"text": "Ik bel even over vanavond.", "translation": "我打電話是關於今晚的事。", "start": 1640.64, "end": 1642.76}, {"text": "We hadden afgesproken om naar die pizzeria te gaan, maar hij is gesloten.", "translation": "我們約好要去那家披薩店，但它關門了。", "start": 1643.58, "end": 1649.56}, {"text": "Er is een bedrijfsfeest.", "translation": "那裡有一個公司派對。", "start": 1650.62, "end": 1652.06}, {"text": "Morgenavond is het restaurant wel open. Kun jij dan toevallig ook?", "translation": "餐廳明晚會開，你剛好也能去嗎？", "start": 1654.34, "end": 1659.72}, {"text": "Om zeven uur? Ik zal wel reserveren.", "translation": "七點鐘？我會去訂位。", "start": 1660.8, "end": 1665.02}, {"text": "Oh ja, ik ga morgenavond ook nog met mijn broer Moerad naar de film.", "translation": "哦對，明晚我還要和我兄弟 Moerad 去看電影。", "start": 1666.46, "end": 1672.44}, {"text": "Vind je het leuk om na het eten met ons mee te gaan naar de film?", "translation": "吃完飯後你想跟我們一起去看電影嗎？", "start": 1673.74, "end": 1676.58}, {"text": "Ik zal je thuis komen ophalen.", "translation": "我會去你家接你。", "start": 1678.38, "end": 1681.8}, {"text": "Dan zien we mijn broer later bij de bioscoop.", "translation": "然後我們在電影院會見我兄弟。", "start": 1682.94, "end": 1685.56}, {"text": "Dus, wil je mij even terugbellen? Dank je. Dag!", "translation": "所以，能回電給我嗎？謝謝。掰掰！", "start": 1688.0, "end": 1693.92}, {"text": "Waar wil Zineb eten?", "translation": "Zineb 想在哪裡用餐？", "start": 1695.34, "end": 1698.98}, {"text": "Bij Sonja thuis.", "translation": "在 Sonja 家。", "start": 1699.9, "end": 1703.06}, {"text": "In de bioscoop.", "translation": "在電影院。", "start": 1709.24, "end": 1714.22}, {"text": "In een restaurant.", "translation": "在餐廳。", "start": 1715.48, "end": 1718.94}, {"text": "Sonja luistert naar een voicemailbericht van haar vriendin Zineb.", "translation": "Sonja 正在聽她朋友 Zineb 的語音信箱留言。", "start": 1729.58, "end": 1732.98}, {"text": "Lees eerst de vraag. Luister daarna naar de tekst.", "translation": "先讀問題，再聽錄音。", "start": 1733.82, "end": 1739.26}, {"text": "Ik bel even over vanavond.", "translation": "我打電話是關於今晚的事情。", "start": 1740.7, "end": 1742.96}, {"text": "We hadden afgesproken om naar die pizzeria te gaan.", "translation": "我們原本約好要去那家披薩店。", "start": 1743.68, "end": 1747.06}, {"text": "Maar hij is gesloten. Er is een bedrijfsfeest.", "translation": "但它關門了。有一個公司聚會。", "start": 1747.06, "end": 1752.4}, {"text": "Morgenavond is het restaurant wel open. Kun jij dan toevallig ook?", "translation": "明天晚上餐廳會開。你碰巧也能去嗎？", "start": 1754.56, "end": 1759.88}, {"text": "Om zeven uur? Ik zal wel reserveren.", "translation": "七點嗎？我會去訂位。", "start": 1760.94, "end": 1765.16}, {"text": "Oh ja, ik ga morgenavond ook nog met mijn broer Moerad naar de film.", "translation": "喔對，我明天晚上還會和我哥哥 Moerad 一起去看電影。", "start": 1766.58, "end": 1772.58}, {"text": "Vind je het leuk om na het eten met ons mee te gaan naar de film?", "translation": "你喜歡晚餐後跟我們一起去看電影嗎？", "start": 1773.28, "end": 1776.78}, {"text": "Ik zal je thuis komen ophalen.", "translation": "我會來你家接你。", "start": 1778.52, "end": 1781.96}, {"text": "Dan zien we mijn broer later bij de bioscoop.", "translation": "然後我們在電影院再見到我哥哥。", "start": 1783.16, "end": 1785.72}, {"text": "Dus, wil je mij even terugbellen? Dank je.", "translation": "所以，你能打電話回我嗎？謝謝你。", "start": 1788.12, "end": 1792.56}, {"text": "Dag. Hoe laat wil Zineb afspreken?", "translation": "你好。Zineb 想幾點見面？", "start": 1793.62, "end": 1797.76}, {"text": "Vanavond om zes uur. Vanavond om zeven uur.", "translation": "今晚六點。今晚七點。", "start": 1798.94, "end": 1803.44}, {"text": "Morgenavond om zes uur. Morgenavond om zeven uur.", "translation": "明天晚上六點。明天晚上七點。", "start": 1804.32, "end": 1809.26}, {"text": "Sonja luistert naar een voicemailbericht van haar vriendin Zineb.", "translation": "Sonja 正在聽她朋友 Zineb 的語音信箱。", "start": 1816.24, "end": 1821.14}, {"text": "Lees eerst de vraag. Luister daarna naar de tekst.", "translation": "先讀問題，然後再聽文字內容。", "start": 1822.4, "end": 1825.86}, {"text": "Welkom bij Voicemail van Teleworks.", "translation": "歡迎來到 Teleworks 的語音信箱。", "start": 1836.72, "end": 1839.9}, {"text": "U heeft een nieuw bericht. Hoi, met Zineb.", "translation": "您有一則新訊息。嗨，我是 Zineb。", "start": 1840.76, "end": 1846.18}, {"text": "Ik bel even over vanavond.", "translation": "我打電話是關於今晚的事情。", "start": 1847.68, "end": 1849.86}, {"text": "We hadden afgesproken om naar die pizzeria te gaan, maar hij is gesloten.", "translation": "我們原本約好要去那家披薩店，但它關門了。", "start": 1850.64, "end": 1856.64}, {"text": "Er is een bedrijfsfeest.", "translation": "有一個公司聚會。", "start": 1856.64, "end": 1859.2}, {"text": "Morgenavond is het restaurant wel open. Kun jij dan toevallig ook?", "translation": "明天晚上餐廳會開。你碰巧也能去嗎？", "start": 1861.64, "end": 1866.78}, {"text": "Om zeven uur?", "translation": "七點嗎？", "start": 1867.9, "end": 1869.08}, {"text": "Ik zal wel reserveren. Oh ja.", "translation": "我會去訂位。喔對。", "start": 1870.14, "end": 1874.08}, {"text": "Ik ga morgenavond ook nog met mijn broer Moerad naar de film.", "translation": "我明天晚上還會和我哥哥 Moerad 一起去看電影。", "start": 1874.76, "end": 1879.52}, {"text": "Vind je het leuk om na het eten met ons mee te gaan naar de film?", "translation": "你喜歡晚餐後跟我們一起去看電影嗎？", "start": 1880.82, "end": 1883.64}, {"text": "Ik zal je thuis komen ophalen.", "translation": "我會來你家接你。", "start": 1884.9, "end": 1888.88}, {"text": "Dan zien we mijn broer later bij de bioscoop.", "translation": "然後我們在電影院再見到我哥哥。", "start": 1890.14, "end": 1892.64}, {"text": "Dus wil je mij even terugbellen?", "translation": "所以，你能打電話回我嗎？", "start": 1894.04, "end": 1897.16}, {"text": "Dank je. Dag. Wie is Moerad?", "translation": "謝謝你。再見。Moerad 是誰？", "start": 1899.1, "end": 1903.86}, {"text": "Een broer van Zineb. Een collega van Zineb.", "translation": "Zineb 的一個哥哥。Zineb 的一個同事。", "start": 1904.7, "end": 1908.8}, {"text": "Een vriend van Zineb.", "translation": "Zineb 的一個朋友。", "start": 1909.58, "end": 1911.2}, {"text": "Wat doet Moerad?", "translation": "Moerad 做什麼工作？", "start": 1913.64, "end": 1915.86}, {"text": "Paula zit op een cursus verhalenschrijven.", "translation": "Paula 參加了一個故事寫作課程。", "start": 1919.74, "end": 1923.18}, {"text": "Ze luistert naar haar docent. Lees eerst de vraag.", "translation": "她正在聽老師講課。先讀問題。", "start": 1924.76, "end": 1929.42}, {"text": "Kijk daarna naar de video.", "translation": "然後看影片。", "start": 1930.72, "end": 1932.12}, {"text": "Hallo allemaal.", "translation": "大家好。", "start": 1944.24, "end": 1945.84}, {"text": "Vandaag bespreek ik de laatste opdracht met jullie.", "translation": "今天我和你們討論最後一個作業。", "start": 1947.48, "end": 1951.08}, {"text": "Jullie korte verhaal dat jullie als huiswerkopdracht hadden gemaakt.", "translation": "你們曾做過的短篇故事作為家庭作業。", "start": 1952.3, "end": 1955.74}, {"text": "We gaan straks samen jullie verhalen lezen.", "translation": "我們接著會一起讀你們的故事。", "start": 1956.42, "end": 1959.04}, {"text": "Maar eerst bespreek ik het natuurproject waar we morgen mee gaan starten.", "translation": "但先討論我們明天要開始的自然專案。", "start": 1959.38, "end": 1964.5}, {"text": "Voor dit project gaan jullie een aantal verhalen schrijven over de natuur.", "translation": "在這個專案中，你們將寫幾個關於大自然的故事。", "start": 1965.16, "end": 1970.4}, {"text": "We gaan morgen dan ook echt de natuur in.", "translation": "明天我們也會真的進入大自然去。", "start": 1970.4, "end": 1974.36}, {"text": "Aan het einde van de les spreken we af wie morgen wat meeneemt.", "translation": "課程結束時我們會約定明天誰帶什麼東西。", "start": 1976.3, "end": 1981.32}, {"text": "Ik bedoel een woordenboek of zo.", "translation": "我指的是字典等等。", "start": 1981.52, "end": 1984.28}, {"text": "Maar iedereen moet zijn eigen schrijfblok meenemen.", "translation": "但每個人都必須帶自己的筆記本。", "start": 1986.16, "end": 1989.88}, {"text": "Let op. We spreken morgen om tien uur in het park af.", "translation": "注意，我們約明天十點在公園見。", "start": 1990.96, "end": 1996.48}, {"text": "Dus niet op school. Via het park lopen we dan naar de stadsboerderij.", "translation": "所以不在學校。透過公園我們會去城市農場。", "start": 1996.86, "end": 2002.64}, {"text": "Dit project is een goede oefening voor het examen.", "translation": "這個專案對考試是很好的練習。", "start": 2004.4, "end": 2007.6}, {"text": "Maar daarover later meer. Goed.", "translation": "但這部分稍後會說。好。", "start": 2008.34, "end": 2011.92}, {"text": "Dan ga ik nu over naar het lezen van jullie korte verhalen.", "translation": "那我現在開始讀你們的短篇故事。", "start": 2013.14, "end": 2017.68}, {"text": "Verhalen schrijven.", "translation": "寫故事。", "start": 2028.84, "end": 2030.22}, {"text": "Paula zit op een cursus verhalen schrijven.", "translation": "Paula正在上寫故事的課。", "start": 2036.8, "end": 2040.18}, {"text": "Ze luistert naar haar docent. Lees eerst de vraag.", "translation": "她正在聽她的老師。先讀問題。", "start": 2041.76, "end": 2046.44}, {"text": "Kijk daarna naar de video.", "translation": "接著看影片。", "start": 2047.74, "end": 2049.1}, {"text": "Hallo allemaal.", "translation": "大家好。", "start": 2061.28, "end": 2062.92}, {"text": "Vandaag bespreek ik de laatste opdracht met jullie.", "translation": "今天我和你們討論最後的作業。", "start": 2064.48, "end": 2068.1}, {"text": "Jullie korte verhaal dat jullie als huiswerkopdracht hadden gemaakt.", "translation": "你們作為家庭作業所寫的短篇故事。", "start": 2069.32, "end": 2072.76}, {"text": "We gaan straks samen jullie verhalen lezen.", "translation": "我們稍後將一起閱讀你們的故事。", "start": 2073.44, "end": 2076.06}, {"text": "Maar eerst bespreek ik het natuurproject waar we morgen mee gaan starten.", "translation": "但先討論我們明天要開始的自然專案。", "start": 2076.4, "end": 2081.74}, {"text": "Voor dit project gaan jullie een aantal verhalen schrijven over de natuur.", "translation": "這個專案你們要寫幾個有關自然的故事。", "start": 2082.18, "end": 2087.42}, {"text": "We gaan morgen dan ook echt de natuur in.", "translation": "我們明天真的要走進大自然。", "start": 2087.42, "end": 2091.38}, {"text": "Aan het einde van de les spreken we af wie morgen wat meeneemt.", "translation": "課程結束時，我們約定明天誰帶什麼東西。", "start": 2093.32, "end": 2098.34}, {"text": "Ik bedoel een woordenboek of zo.", "translation": "我指的是像字典之類的東西。", "start": 2098.54, "end": 2101.24}, {"text": "Maar iedereen moet zijn eigen schrijfblok meenemen.", "translation": "但每個人都必須帶自己的筆記本。", "start": 2103.16, "end": 2106.9}, {"text": "Let op. We spreken morgen om tien uur in het park af.", "translation": "注意，我們明天十點在公園集合。", "start": 2107.98, "end": 2113.5}, {"text": "Dus niet op school. Via het park lopen we dan naar de stadsboerderij.", "translation": "所以不是在學校。穿過公園我們再去市民農場。", "start": 2113.88, "end": 2119.66}, {"text": "Dit project is een goede oefening voor het examen.", "translation": "此專案是考試的好練習。", "start": 2121.42, "end": 2124.58}, {"text": "Maar daarover later meer. Goed.", "translation": "不過這部分稍後再說。好。", "start": 2125.36, "end": 2128.94}, {"text": "Dan ga ik nu over naar het lezen van jullie korte verhalen.", "translation": "現在我開始閱讀你們的短篇故事。", "start": 2130.1, "end": 2134.7}, {"text": "De kinderen van Mila en Carla zitten op de basisschool.", "translation": "Mila和Carla的孩子們正在唸小學。", "start": 2150.74, "end": 2157.08}, {"text": "Mila en Carla praten met de leraar van hun kinderen.", "translation": "Mila和Carla在和他們孩子的老師談話。", "start": 2158.72, "end": 2163.64}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "先讀問題。再看影片。", "start": 2165.4, "end": 2169.72}, {"text": "Hallo. Welkom. Ja.", "translation": "你好。歡迎。是的。", "start": 2171.9, "end": 2175.38}, {"text": "Jullie gaan helpen bij het Koningsdagontbijt op vrijdag 27 april.", "translation": "你們將在4月27日星期五的國王節早餐會幫忙。", "start": 2175.94, "end": 2181.68}, {"text": "Het begint om half negen. Dan ontbijten we dus met de hele klas op school.", "translation": "活動從八點半開始。那時我們會和全班同學一起在學校吃早餐。", "start": 2183.16, "end": 2188.8}, {"text": "Daarna, om half tien, gaan we naar buiten naar het sportveld.", "translation": "之後，九點半，我們會到戶外運動場。", "start": 2190.82, "end": 2197.96}, {"text": "Daarbij helpen al andere ouders.", "translation": "其他家長也會幫忙。", "start": 2198.82, "end": 2200.62}, {"text": "Oké. Dus de kinderen komen om half negen.", "translation": "好的，所以孩子們八點半來。", "start": 2201.42, "end": 2204.96}, {"text": "Hoe laat moeten we alles klaarzetten? Nou, dat duurt wel een half uur, denk ik.", "translation": "我們幾點該把所有東西準備好？唔，我想大概要花半小時。", "start": 2206.54, "end": 2212.04}, {"text": "Ja, dan zijn wij er om acht uur. Goed.", "translation": "那我們八點準時到。好。", "start": 2212.6, "end": 2215.98}, {"text": "O, trouwens. Moeten wij ook boodschappen doen voor het ontbijt? Even kijken.", "translation": "哦，對了。我們也要幫忙買早餐食材嗎？稍等。", "start": 2217.14, "end": 2223.2}, {"text": "Nee, nee hoor. Dat doet de moeder van Giovanni. Die heeft een grote auto.", "translation": "不用，那是Giovanni媽媽的事。她有一輛大車。", "start": 2224.18, "end": 2229.44}, {"text": "Mooi.", "translation": "很好。", "start": 2230.3, "end": 2230.98}, {"text": "En na het ontbijt, wat gaan de kinderen dan doen?", "translation": "吃完早餐後，孩子們會做什麼？", "start": 2232.98, "end": 2236.44}, {"text": "Eerst gaan we dansen op een heel leuk lied.", "translation": "首先我們會跳一首很棒的舞曲。", "start": 2238.1, "end": 2240.76}, {"text": "En daarna doen we allerlei spellen.", "translation": "然後我們會玩各種遊戲。", "start": 2241.82, "end": 2244.28}, {"text": "En aan het eind van de dag is er een wedstrijd. Dan gaan de kinderen hun fiets versieren.", "translation": "一天結束會有比賽。孩子們會裝飾他們的腳踏車。", "start": 2245.56, "end": 2251.32}, {"text": "En de mooiste fiets wint een prijs. Het wordt vast een leuke dag.", "translation": "最漂亮的腳踏車會得到獎品。這一定是個很棒的一天。", "start": 2251.82, "end": 2256.1}, {"text": "Wat moeten Mila en Carla op 27 april doen?", "translation": "Mila和Carla在4月27日需要做什麼？", "start": 2257.36, "end": 2263.88}, {"text": "Helpen met boodschappen doen. Helpen bij het ontbijt.", "translation": "幫忙買東西。幫忙準備早餐。", "start": 2264.94, "end": 2269.9}, {"text": "Helpen bij de sportdag.", "translation": "幫忙體育活動。", "start": 2270.9, "end": 2272.82}, {"text": "De kinderen van Mila en Carla zitten op de basisschool.", "translation": "Mila和Carla的孩子們正在唸小學。", "start": 2278.82, "end": 2285.24}, {"text": "Mila en Carla praten met de leraar van hun kinderen.", "translation": "Mila和Carla在和他們孩子的老師談話。", "start": 2286.24, "end": 2291.88}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "先讀問題。再看影片。", "start": 2293.58, "end": 2297.98}, {"text": "Hallo. Welkom. Ja.", "translation": "你好。歡迎。是的。", "start": 2300.16, "end": 2303.7}, {"text": "Jullie gaan helpen bij het Koningsdagontbijt op vrijdag 27 april.", "translation": "你們將在4月27日星期五的國王節早餐會幫忙。", "start": 2304.74, "end": 2309.86}, {"text": "Het begint om half negen.", "translation": "活動從八點半開始。", "start": 2310.64, "end": 2312.86}, {"text": "Dan ontbijten we dus met de hele klas op school.", "translation": "那時我們會和全班同學一起在學校吃早餐。", "start": 2313.68, "end": 2317.02}, {"text": "Daarna, om half tien, gaan we naar buiten.", "translation": "之後，九點半，我們會到戶外。", "start": 2320.32, "end": 2324.66}, {"text": "Naar het sportveld. Daarbij helpen al andere ouders.", "translation": "運動場。其他家長也會幫忙。", "start": 2325.26, "end": 2328.88}, {"text": "Oké. Dus de kinderen komen om half negen.", "translation": "好的。所以孩子們九點半來。", "start": 2329.48, "end": 2333.18}, {"text": "Hoe laat moeten we alles klaarzetten? Nou, dat duurt wel een half uur, denk ik.", "translation": "我們幾點要準備好一切？嗯，我想大概要花半小時。", "start": 2334.78, "end": 2340.32}, {"text": "Ja, dan zijn wij er om acht uur. Goed.", "translation": "是的，那我們八點會到了。好。", "start": 2340.84, "end": 2344.2}, {"text": "O, trouwens. Moeten wij ook boodschappen doen voor het ontbijt?", "translation": "喔，對了。我們也要買早餐的東西嗎？", "start": 2344.72, "end": 2349.5}, {"text": "Even kijken. Nee. Nee hoor.", "translation": "看看。不要，不要啦。", "start": 2350.46, "end": 2353.74}, {"text": "Dat doet de moeder van Giovanni. Die heeft een grote auto.", "translation": "那是Giovanni的媽媽會做。她有一台大車。", "start": 2354.38, "end": 2357.72}, {"text": "Mooi. En na het ontbijt, wat gaan de kinderen dan doen?", "translation": "很好。早餐後，孩子們會做什麼？", "start": 2358.88, "end": 2364.64}, {"text": "Eerst gaan we dansen op een heel leuk lied.", "translation": "我們會先跳一首很有趣的歌。", "start": 2365.72, "end": 2368.98}, {"text": "En daarna doen we allerlei spellen.", "translation": "接著會玩各種遊戲。", "start": 2370.06, "end": 2372.96}, {"text": "En aan het eind van de dag is er een wedstrijd. Dan gaan de kinderen hun fiets versieren.", "translation": "一天結束時會有比賽。孩子們會裝飾他們的腳踏車。", "start": 2373.86, "end": 2379.56}, {"text": "En de mooiste fiets wint een prijs. Het wordt vast een leuke dag.", "translation": "最漂亮的腳踏車會得獎。肯定會是愉快的一天。", "start": 2380.02, "end": 2384.34}, {"text": "Hoe laat moeten Mila en Carla op 27 april op school zijn?", "translation": "Mila和Carla在4月27日幾點要到學校？", "start": 2385.34, "end": 2393.02}, {"text": "Om acht uur. Om half negen.", "translation": "八點。八點半。", "start": 2394.0, "end": 2397.54}, {"text": "Om half tien.", "translation": "九點半。", "start": 2398.38, "end": 2399.84}, {"text": "De kinderen van Mila en Carla zitten op de basisschool.", "translation": "Mila和Carla的孩子在小學念書。", "start": 2406.84, "end": 2413.26}, {"text": "Mila en Carla praten met de leraar van hun kinderen.", "translation": "Mila和Carla在跟他們孩子的老師談話。", "start": 2414.26, "end": 2419.9}, {"text": "Lees eerst de vraag. Kijk daarna naar de video.", "translation": "先讀問題。然後看影片。", "start": 2421.6, "end": 2425.98}, {"text": "Hallo. Welkom. Ja,", "translation": "你好。歡迎。是的，", "start": 2428.16, "end": 2431.68}, {"text": "Jullie gaan helpen bij het Koningsdagontbijt op vrijdag 27 april.", "translation": "你們會在4月27日星期五幫忙國王節早餐。", "start": 2432.72, "end": 2437.88}, {"text": "Het begint om half negen. Dan ontbijten we dus met de hele klas op school.", "translation": "早餐九點半開始。我們會全班在學校吃早餐。", "start": 2439.28, "end": 2445.04}, {"text": "Daarna, om half tien, gaan we naar buiten, naar het sportveld.", "translation": "接著九點半，我們會到外面去體育場。", "start": 2449.28, "end": 2454.18}, {"text": "Daarbij helpen al andere ouders.", "translation": "其他家長也會一起幫忙。", "start": 2455.1, "end": 2456.88}, {"text": "Oké. Dus de kinderen komen om half negen.", "translation": "好的。所以孩子們九點半來。", "start": 2457.66, "end": 2461.18}, {"text": "Hoe laat moeten we alles klaarzetten?", "translation": "我們幾點要準備好一切？", "start": 2462.74, "end": 2464.36}, {"text": "Nou, dat duurt wel een half uur, denk ik.", "translation": "嗯，我想大概要花半小時。", "start": 2465.54, "end": 2468.76}, {"text": "Ja, dan zijn wij er om acht uur. Goed.", "translation": "是的，那我們八點會到了。好。", "start": 2468.76, "end": 2472.22}, {"text": "Oh, trouwens. Moeten wij ook boodschappen doen voor het ontbijt?", "translation": "喔，對了。我們也要買早餐的東西嗎？", "start": 2473.12, "end": 2477.48}, {"text": "Even kijken. Nee. Nee hoor.", "translation": "看看。不要，不要啦。", "start": 2478.36, "end": 2481.74}, {"text": "Dat doet de moeder van Giovanni. Die heeft een grote auto.", "translation": "那是Giovanni的媽媽會做。她有一台大車。", "start": 2482.36, "end": 2485.72}, {"text": "Mooi. En na het ontbijt, wat gaan de kinderen dan doen?", "translation": "很好。早餐後，孩子們會做什麼？", "start": 2486.86, "end": 2492.66}, {"text": "Eerst gaan we dansen op een heel leuk lied.", "translation": "我們會先跳一首很有趣的歌。", "start": 2493.72, "end": 2496.98}, {"text": "En daarna doen we allerlei spellen.", "translation": "接著會玩各種遊戲。", "start": 2496.98, "end": 2500.54}, {"text": "En aan het eind van de dag is er een wedstrijd. Dan gaan de kinderen hun fiets versieren.", "translation": "一天結束時會有比賽。孩子們會裝飾他們的腳踏車。", "start": 2502.26, "end": 2507.56}, {"text": "En de mooiste fiets wint een prijs. Het wordt vast een leuke dag.", "translation": "最漂亮的腳踏車會得獎。肯定會是愉快的一天。", "start": 2507.98, "end": 2512.36}, {"text": "Waarmee eindigt de Koningsdag? Met een dans.", "translation": "國王節以什麼結束？以舞蹈。", "start": 2514.78, "end": 2519.68}, {"text": "Met een lied. Met een wedstrijd.", "translation": "以歌曲。以比賽。", "start": 2520.72, "end": 2524.48}, {"text": "Met een spel.", "translation": "以遊戲。", "start": 2524.48, "end": 2526.58}];
+const questions = [{"question": "Wanneer nodigt Steven Yari uit om te komen eten?", "question_native": "史蒂文什麼時候邀請亞里來吃飯？", "options": ["Woensdag", "Zaterdag", "Zondag"], "answer": "Zaterdag"}, {"question": "Wat is het nieuws dat Daniëlle vertelt?", "question_native": "丹妮耶爾告訴什麼消息？", "options": ["Ze gaat verhuizen", "Ze is zwanger", "Ze gaat trouwen"], "answer": "Ze is zwanger"}, {"question": "Waarom vraagt Steven Yari om te helpen klussen?", "question_native": "史蒂文為什麼請亞里幫忙做修繕？", "options": ["Er moeten muren geschilderd worden", "Er moet een nieuwe vloer gelegd worden", "Beide bovenstaande"], "answer": "Beide bovenstaande"}, {"question": "Wat vraagt Steven aan Yari over klussen?", "question_native": "史蒂文問亞里關於什麼修繕問題？", "options": ["Of hij wil komen klussen", "Of hij een kinderbedje wil maken", "Of hij wil helpen bij het koken"], "answer": "Of hij wil komen klussen"}, {"question": "Wat voor bedrijf laat Hassan zien in zijn filmpje?", "question_native": "哈桑影片中顯示的是什麼樣的公司？", "options": ["Een notenbedrijf", "Een bouwbedrijf", "Een restaurant"], "answer": "Een notenbedrijf"}];
+const vocabulary = [{"word": "zwanger", "meaning": "懷孕的"}, {"word": "kindje", "meaning": "小孩"}, {"word": "uitnodigen", "meaning": "邀請"}, {"word": "klussen", "meaning": "修繕工作"}, {"word": "muur", "meaning": "牆壁"}, {"word": "schilderen", "meaning": "油漆"}, {"word": "vloer", "meaning": "地板"}, {"word": "vriendin", "meaning": "女性朋友"}, {"word": "hartstikke", "meaning": "非常"}, {"word": "probleem", "meaning": "問題"}, {"word": "video", "meaning": "影片"}, {"word": "vraag", "meaning": "問題"}, {"word": "bedrijf", "meaning": "公司"}, {"word": "noten", "meaning": "堅果"}, {"word": "snacks", "meaning": "點心"}];
+const audio = document.getElementById('audio');
+
+// ── State ──
+let pointA = null, pointB = null, loopEnabled = false, loopCount = 0;
+let syncEnabled = true, showZh = false, dictationMode = false;
+let activeLineIndex = null;
+
+// ── Init ──
+function init() {
+  renderDialogue();
+  renderQuiz();
+  renderVocab();
+  audio.playbackRate = 1.0;
+}
+
+// ── Dialogue ──
+// ── Persistence ──
+const VIDEO_ID = location.pathname.split('/').filter(Boolean).pop() || 'default';
+const STORE_KEY = `lph_${VIDEO_ID}`;
+function loadStore() { try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); } catch(e) { return {}; } }
+function saveStore(d) { localStorage.setItem(STORE_KEY, JSON.stringify(d)); }
+let store = loadStore(); // { practiced: [idx,...], bookmarks: [idx,...], theme: 'dark' }
+if (!store.practiced) store.practiced = [];
+if (!store.bookmarks) store.bookmarks = [];
+
+function renderDialogue() {
+  const box = document.getElementById('dialogue-box');
+  box.innerHTML = segments.map((s, i) => {
+    const zh = s.translation || '';
+    const isBookmarked = store.bookmarks.includes(i);
+    return `<div class="dialogue-line" data-idx="${i}" onclick="jumpToLine(${i})">
+      <span class="line-text">${escapeHtml(s.text)}${zh ? `<div class="line-zh">${escapeHtml(zh)}</div>` : ''}</span>
+      <button class="rec-btn" id="rec-${i}" onclick="event.stopPropagation();toggleRec(${i})" title="錄音比對">🎙️</button>
+      <button class="explain-btn" onclick="event.stopPropagation();explainLine(${i})" title="AI 解析">💡</button>
+      <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" onclick="event.stopPropagation();toggleBookmark(${i})" title="書籤">🔖</button>
+      <button class="line-repeat-btn" onclick="event.stopPropagation();loopLine(${i})" title="單句Loop / Shift+點兩句=多句Loop">🔁</button>
+    </div>`;
+  }).join('');
+  applyModes();
+  renderSegmentMarkers();
+  updateProgress();
+}
+
+function escapeHtml(t) { return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function applyModes() {
+  const box = document.getElementById('dialogue-box');
+  box.classList.toggle('show-zh', showZh);
+  box.classList.toggle('dictation-mode', dictationMode);
+}
+function toggleZh() { showZh = !showZh; document.getElementById('zh-toggle').classList.toggle('active', showZh); applyModes(); }
+function toggleDictation() {
+  dictationMode = !dictationMode;
+  document.getElementById('dictation-toggle').classList.toggle('active', dictationMode);
+  document.querySelectorAll('.dialogue-line.revealed').forEach(l => l.classList.remove('revealed'));
+  applyModes();
+}
+
+function jumpToLine(idx) {
+  setActiveDialogueLine(idx);
+  if (dictationMode) { const lines = document.querySelectorAll('.dialogue-line'); if(lines[idx]) lines[idx].classList.add('revealed'); }
+  const s = segments[idx];
+  if (s && isFinite(audio.duration)) {
+    audio.pause();
+    audio.currentTime = s.start;
+    // Wait for seek to complete before playing (iOS fix)
+    const onSeeked = () => {
+      audio.removeEventListener('seeked', onSeeked);
+      audio.play().then(() => setPlayButton(true)).catch(() => {});
+      updateProgressUI();
+    };
+    audio.addEventListener('seeked', onSeeked);
+    // Fallback if seeked doesn't fire
+    setTimeout(() => {
+      audio.removeEventListener('seeked', onSeeked);
+      if (audio.paused) audio.play().then(() => setPlayButton(true)).catch(() => {});
+    }, 300);
+  }
+}
+
+let loopRangeStart = null; // for multi-line loop selection
+
+function loopLine(idx) {
+  const s = segments[idx]; if (!s) return;
+
+  // Multi-line loop: first click sets start, second click sets end
+  if (loopRangeStart !== null && loopRangeStart !== idx) {
+    const from = Math.min(loopRangeStart, idx);
+    const to = Math.max(loopRangeStart, idx);
+    pointA = segments[from].start;
+    pointB = segments[to].end;
+    loopEnabled = true; loopCount = 0;
+    document.getElementById('loop-btn').classList.add('active');
+    document.getElementById('set-a-btn').classList.add('active');
+    document.getElementById('set-b-btn').classList.add('active');
+    syncABLabels();
+    audio.currentTime = pointA;
+    updateProgressUI();
+    audio.play().then(() => setPlayButton(true)).catch(() => {});
+    // Highlight range
+    const lines = document.querySelectorAll('.dialogue-line');
+    lines.forEach((l, i) => l.classList.toggle('highlight', i >= from && i <= to));
+    loopRangeStart = null;
+    return;
+  }
+
+  // Single click: if no range active, start range OR single loop
+  // Hold shift for range mode
+  if (window._shiftHeld) {
+    loopRangeStart = idx;
+    // Visual feedback
+    const lines = document.querySelectorAll('.dialogue-line');
+    lines[idx].style.boxShadow = 'inset 3px 0 0 var(--green), inset -3px 0 0 var(--green)';
+    return;
+  }
+
+  // Toggle: if already looping this line, cancel and show feedback
+  if (loopEnabled && Math.abs(pointA - s.start) < 0.5 && Math.abs(pointB - s.end) < 0.5) {
+    clearAB();
+    // Flash the button to show it's cancelled
+    const btn = document.querySelectorAll('.line-repeat-btn')[idx];
+    if (btn) { btn.style.color = 'var(--green)'; setTimeout(() => btn.style.color = '', 500); }
+    return;
+  }
+
+  // Default: single line loop
+  pointA = s.start; pointB = s.end;
+  loopEnabled = true; loopCount = 0;
+  document.getElementById('loop-btn').classList.add('active');
+  document.getElementById('set-a-btn').classList.add('active');
+  document.getElementById('set-b-btn').classList.add('active');
+  syncABLabels();
+  audio.currentTime = s.start;
+  updateProgressUI();
+  audio.play().then(() => setPlayButton(true)).catch(() => {});
+  setActiveDialogueLine(idx);
+}
+
+function prevSentence() { jumpToLine(Math.max(0, (activeLineIndex || 0) - 1)); }
+function nextSentence() { jumpToLine(Math.min(segments.length - 1, (activeLineIndex || 0) + 1)); }
+
+function setActiveDialogueLine(idx) {
+  document.querySelectorAll('.dialogue-line').forEach(l => l.classList.remove('highlight'));
+  const line = document.querySelectorAll('.dialogue-line')[idx];
+  if (!line) return;
+  line.classList.add('highlight');
+  activeLineIndex = idx;
+  const box = document.getElementById('dialogue-box');
+  const boxRect = box.getBoundingClientRect();
+  const lineRect = line.getBoundingClientRect();
+  if (lineRect.top < boxRect.top || lineRect.bottom > boxRect.bottom) line.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function renderSegmentMarkers() {
+  document.querySelectorAll('.segment-marker').forEach(m => m.remove());
+  if (!segments.length || !isFinite(audio.duration)) return;
+  const container = document.getElementById('progress-container');
+  segments.slice(1).forEach(s => {
+    const marker = document.createElement('div');
+    marker.className = 'segment-marker';
+    marker.style.left = `${(s.start / audio.duration) * 100}%`;
+    container.appendChild(marker);
+  });
+}
+
+// ── Quiz ──
+function renderQuiz() {
+  const box = document.getElementById('quiz-box');
+  if (!questions.length) { box.innerHTML = '<p style="color:var(--muted);text-align:center;padding:20px">此影片暫無測驗題</p>'; return; }
+  window._quizState = { total: questions.length, answered: 0, correct: 0 };
+  box.innerHTML = questions.map((q, qi) => {
+    const opts = (q.options || []).map((opt, oi) => {
+      const letter = String.fromCharCode(65 + oi);
+      return `<button class="option" data-q="${qi}" data-correct="${opt === q.answer}" onclick="checkAnswer(this,${qi})">${letter}. ${opt}</button>`;
+    }).join('');
+    const native = q.question_native ? `<div class="q-native">${q.question_native}</div>` : '';
+    return `<div class="question" id="q-${qi}"><h4>❓ ${q.question}</h4>${native}${opts}</div>`;
+  }).join('');
+}
+function checkAnswer(btn, qi) {
+  const q = document.getElementById(`q-${qi}`);
+  q.querySelectorAll('.option').forEach(o => { o.classList.add('disabled'); if(o.dataset.correct==='true') o.classList.add('correct'); });
+  if (btn.dataset.correct !== 'true') btn.classList.add('wrong');
+  const st = window._quizState; st.answered++; if(btn.dataset.correct==='true') st.correct++;
+  if (st.answered === st.total) {
+    const pct = Math.round(st.correct / st.total * 100);
+    const bar = document.getElementById('score-bar');
+    bar.textContent = `🏆 ${st.correct}/${st.total} (${pct}%)`; bar.style.display = 'block';
+    bar.style.color = pct >= 70 ? 'var(--green)' : 'var(--orange)';
+  }
+}
+
+// ── Vocab ──
+function renderVocab() {
+  const box = document.getElementById('vocab-box');
+  if (!vocabulary.length) { box.innerHTML = '<p style="color:var(--muted);text-align:center;padding:20px">此影片暫無詞彙表</p>'; return; }
+  box.innerHTML = vocabulary.map(v => `<div class="vocab-item"><span class="vocab-word">${escapeHtml(v.word)}</span><span class="vocab-meaning">${escapeHtml(v.meaning)}</span></div>`).join('');
+}
+
+// ── Tabs ──
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  document.querySelector(`.tab[onclick*="${tab}"]`).classList.add('active');
+  document.getElementById(`tab-${tab}`).classList.add('active');
+}
+
+// ── Audio Controls ──
+function togglePlay() { if(audio.paused) audio.play().then(()=>setPlayButton(true)).catch(()=>setPlayButton(false)); else { audio.pause(); setPlayButton(false); } }
+function setPlayButton(p) { document.getElementById('play-btn').textContent = p ? '⏸' : '▶'; }
+function setA() { pointA = audio.currentTime; document.getElementById('a-time').textContent = fmt(pointA); updateMarkers(); document.getElementById('set-a-btn').classList.add('active'); }
+function setB() { pointB = audio.currentTime; document.getElementById('b-time').textContent = fmt(pointB); updateMarkers(); document.getElementById('set-b-btn').classList.add('active'); if(pointA!==null&&!loopEnabled) toggleLoop(); }
+function toggleLoop() { loopEnabled = !loopEnabled; document.getElementById('loop-btn').classList.toggle('active', loopEnabled); }
+function clearAB() { pointA=null; pointB=null; loopEnabled=false; loopCount=0; document.getElementById('a-time').textContent='—'; document.getElementById('b-time').textContent='—'; document.getElementById('loop-count').textContent='0'; ['a-marker','b-marker','ab-region'].forEach(id => document.getElementById(id).style.display='none'); ['set-a-btn','set-b-btn','loop-btn'].forEach(id => document.getElementById(id).classList.remove('active')); }
+function skipBack() { audio.currentTime = Math.max(0, audio.currentTime - 3); }
+function toggleExtraControls() {
+  const el = document.getElementById('extra-controls');
+  el.style.display = el.style.display === 'none' ? 'block' : 'none';
+}
+
+function setSpeed(v) {
+  audio.playbackRate = v;
+  document.querySelectorAll('.speed-btn').forEach(b => b.classList.remove('active'));
+  const btns = document.querySelectorAll('.speed-btn');
+  if (v <= 0.8) btns[0].classList.add('active');
+  else if (v >= 1.2) btns[2].classList.add('active');
+  else btns[1].classList.add('active');
+}
+function syncABLabels() { document.getElementById('a-time').textContent = pointA!==null?fmt(pointA):'—'; document.getElementById('b-time').textContent = pointB!==null?fmt(pointB):'—'; updateMarkers(); }
+
+function updateMarkers() {
+  const dur = audio.duration || 1;
+  if(pointA!==null) { const m=document.getElementById('a-marker'); m.style.left=`${(pointA/dur)*100}%`; m.style.display='block'; }
+  if(pointB!==null) { const m=document.getElementById('b-marker'); m.style.left=`${(pointB/dur)*100}%`; m.style.display='block'; }
+  if(pointA!==null&&pointB!==null) { const a=Math.min(pointA,pointB), b=Math.max(pointA,pointB), r=document.getElementById('ab-region'); r.style.left=`${(a/dur)*100}%`; r.style.width=`${((b-a)/dur)*100}%`; r.style.display='block'; }
+}
+
+function updateProgressUI() {
+  if (!isFinite(audio.duration)) return;
+  const pct = (audio.currentTime / audio.duration) * 100;
+  document.getElementById('progress-bar').style.width = `${pct}%`;
+  document.getElementById('time-display').textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration)}`;
+  // Sync active line
+  if (syncEnabled && segments.length) {
+    const t = audio.currentTime;
+    const idx = segments.findIndex((s, i) => t >= s.start && (t < s.end || i === segments.length - 1));
+    if (idx !== -1 && idx !== activeLineIndex) setActiveDialogueLine(idx);
+  }
+}
+
+// ── Events ──
+document.getElementById('progress-container').addEventListener('click', function(e) {
+  if (!isFinite(audio.duration)) return;
+  const pct = (e.clientX - this.getBoundingClientRect().left) / this.offsetWidth;
+  audio.currentTime = pct * audio.duration;
+  updateProgressUI();
+});
+
+audio.addEventListener('timeupdate', function() {
+  updateProgressUI();
+  if (loopEnabled && pointA !== null && pointB !== null) {
+    const a = Math.min(pointA, pointB), b = Math.max(pointA, pointB);
+    if (audio.currentTime >= b) { audio.currentTime = a; loopCount++; document.getElementById('loop-count').textContent = loopCount; }
+  }
+});
+audio.addEventListener('ended', () => setPlayButton(false));
+audio.addEventListener('loadedmetadata', () => { renderSegmentMarkers(); updateProgressUI(); });
+
+// ── Echo Method (flicker-free engine) ──
+let echoState = { active: false, lineIdx: 0, phase: 'idle', timers: [], animId: null, cycleId: 0 };
+
+function echoClearAll() {
+  echoState.timers.forEach(t => clearTimeout(t));
+  echoState.timers = [];
+  if (echoState.animId) { cancelAnimationFrame(echoState.animId); echoState.animId = null; }
+  audio.pause();
+  audio.volume = 1;
+}
+
+function openEcho() {
+  if (!segments.length) return;
+  echoClearAll();
+  echoState.active = true;
+  echoState.lineIdx = activeLineIndex || 0;
+  echoState.phase = 'idle';
+  document.getElementById('echo-overlay').classList.add('active');
+  setPlayButton(false);
+  updateEchoUI();
+  document.getElementById('echo-pause').oninput = function() { document.getElementById('echo-pause-label').textContent = this.value+'s'; };
+  document.getElementById('echo-repeat').oninput = function() { document.getElementById('echo-repeat-label').textContent = this.value+'s'; };
+}
+
+function closeEcho() {
+  echoClearAll();
+  echoState.active = false;
+  echoState.phase = 'idle';
+  document.getElementById('echo-overlay').classList.remove('active');
+}
+
+function updateEchoUI() {
+  const s = segments[echoState.lineIdx];
+  document.getElementById('echo-counter').textContent = `第 ${echoState.lineIdx + 1} / ${segments.length} 句`;
+  document.getElementById('echo-sentence').innerHTML = s
+    ? `<div><div class="nl">${escapeHtml(s.text)}</div>${s.translation ? `<div class="zh">${escapeHtml(s.translation)}</div>` : ''}</div>`
+    : '';
+}
+
+function setEchoPhase(phase, emoji, text) {
+  echoState.phase = phase;
+  document.getElementById('echo-phase').innerHTML = `<span class="emoji">${emoji}</span><div>${text}</div><div class="label">${phase.toUpperCase()}</div>`;
+}
+
+function setEchoRing(p, l) {
+  document.getElementById('echo-ring-fg').style.strokeDashoffset = 339.3 * (1 - p);
+  document.getElementById('echo-ring-label').textContent = l;
+}
+
+// Smooth ring animation using requestAnimationFrame
+function animateRing(startTime, duration, label, cycleId, onDone) {
+  function step() {
+    if (!echoState.active || ecleState_cycleId !== cycleId) return;
+    const elapsed = Date.now() - startTime;
+    const progress = Math.min(1, elapsed / duration);
+    setEchoRing(progress, label);
+    if (progress < 1) {
+      echoState.animId = requestAnimationFrame(step);
+    } else if (onDone) {
+      onDone();
+    }
+  }
+  // Use a closure variable to track the cycle
+  const ecleState_cycleId = cycleId;
+  echoState.animId = requestAnimationFrame(step);
+}
+
+let echoLoopMode = false;
+function toggleEchoLoop() {
+  echoLoopMode = !echoLoopMode;
+  const btn = document.getElementById('echo-loop-btn');
+  if (btn) {
+    btn.style.background = echoLoopMode ? 'var(--orange)' : 'none';
+    btn.style.color = echoLoopMode ? '#000' : 'var(--orange)';
+  }
+}
+
+let echoPaused = false;
+function toggleEchoPause() {
+  echoPaused = !echoPaused;
+  const btn = document.getElementById('echo-pause-btn');
+  if (echoPaused) {
+    audio.pause();
+    echoState.timers.forEach(t => clearTimeout(t));
+    echoState.timers = [];
+    if (echoState.animId) { cancelAnimationFrame(echoState.animId); echoState.animId = null; }
+    btn.textContent = '▶ 繼續';
+    setEchoPhase('pause', '⏸', '已暫停');
+  } else {
+    btn.textContent = '⏸ 暫停';
+    echoRunCycle(echoState.lineIdx);
+  }
+}
+
+function echoNext() { echoPaused = false; document.getElementById('echo-pause-btn').textContent = '⏸ 暫停'; echoClearAll(); echoRunCycle(echoState.lineIdx); }
+function echoReplay() { echoClearAll(); echoRunCycle(echoState.lineIdx); }
+function echoSkip() {
+  echoClearAll();
+  echoState.lineIdx = Math.min(segments.length - 1, echoState.lineIdx + 1);
+  updateEchoUI();
+  echoRunCycle(echoState.lineIdx);
+}
+
+function echoRunCycle(idx) {
+  if (!echoState.active) return;
+  echoClearAll();
+
+  const cycleId = ++echoState.cycleId;  // unique ID to cancel stale callbacks
+  echoState.lineIdx = idx;
+  updateEchoUI();
+  setActiveDialogueLine(idx);
+
+  const s = segments[idx];
+  if (!s) return;
+
+  const pauseDur = parseFloat(document.getElementById('echo-pause').value) * 1000;
+  const repeatDur = parseFloat(document.getElementById('echo-repeat').value) * 1000;
+  const listenDur = (s.end - s.start) * 1000 / audio.playbackRate;
+
+  // ── Phase 1: LISTEN ──
+  setEchoPhase('listen', '🎧', '仔細聽這句話');
+  setEchoRing(0, '🎧');
+  audio.volume = 1;
+  audio.currentTime = s.start;
+  audio.play().catch(() => {});
+
+  const t0 = Date.now();
+  animateRing(t0, listenDur, '🎧', cycleId, null);
+
+  // Wait for audio to actually reach s.end (not setTimeout which can be inaccurate)
+  function waitForEnd(callback) {
+    function check() {
+      if (cycleId !== echoState.cycleId) return;
+      if (audio.currentTime >= s.end - 0.05 || audio.paused) { callback(); return; }
+      requestAnimationFrame(check);
+    }
+    // Also set a safety timeout (listenDur + 1s buffer)
+    const safetyTimer = setTimeout(() => { if (cycleId === echoState.cycleId) callback(); }, listenDur + 1000);
+    echoState.timers.push(safetyTimer);
+    check();
+  }
+
+  waitForEnd(() => {
+    if (cycleId !== echoState.cycleId) return;
+    if (echoState.animId) { cancelAnimationFrame(echoState.animId); echoState.animId = null; }
+    audio.pause();
+    setEchoRing(1, '🎧');
+
+    // ── Phase 2: ECHO ──
+    setEchoPhase('echo', '🧠', '在腦中迴想剛才的聲音...');
+    setEchoRing(0, '🧠');
+
+    const t1 = Date.now();
+    animateRing(t1, pauseDur, '🧠', cycleId, null);
+
+    const timer2 = setTimeout(() => {
+      if (cycleId !== echoState.cycleId) return;
+      if (echoState.animId) { cancelAnimationFrame(echoState.animId); echoState.animId = null; }
+
+      // ── Phase 3: REPEAT (no audio replay — speak from memory!) ──
+      setEchoPhase('repeat', '🗣️', '大聲跟著說！');
+      setEchoRing(0, '🗣️');
+      // Recording during repeat phase — only if mic already granted
+      if (recState.stream) { startRec(idx).catch(() => {}); }
+
+      const t2 = Date.now();
+      animateRing(t2, repeatDur, '🗣️', cycleId, null);
+
+      const timer3 = setTimeout(() => {
+        if (cycleId !== echoState.cycleId) return;
+        if (echoState.animId) { cancelAnimationFrame(echoState.animId); echoState.animId = null; }
+        audio.pause();
+        audio.volume = 1;
+        // Stop recording
+        if (recState.recording) stopRec();
+
+        // ── Done or auto-next or loop ──
+        if (echoLoopMode) {
+          setEchoPhase('listen', '🔄', '再來一次...');
+          setEchoRing(1, '🔄');
+          const timer4 = setTimeout(() => {
+            if (cycleId !== echoState.cycleId) return;
+            echoRunCycle(idx); // same sentence again
+          }, 800);
+          echoState.timers.push(timer4);
+        } else if (document.getElementById('echo-auto').checked && idx < segments.length - 1) {
+          setEchoPhase('listen', '✅', '很好！下一句...');
+          setEchoRing(1, '✅');
+          const timer4 = setTimeout(() => {
+            if (cycleId !== echoState.cycleId) return;
+            echoRunCycle(idx + 1);
+          }, 1000);
+          echoState.timers.push(timer4);
+        } else if (idx >= segments.length - 1) {
+          setEchoPhase('done', '🎉', '全部完成！太棒了！');
+          setEchoRing(1, '🎉');
+        } else {
+          setEchoPhase('pause', '⏸', '準備好按「下一句」');
+          setEchoRing(1, '⏸');
+        }
+      }, repeatDur);
+      echoState.timers.push(timer3);
+    }, pauseDur);
+    echoState.timers.push(timer2);
+  });
+}
+
+// ── Keyboard ──
+// Track shift key for multi-line loop
+window._shiftHeld = false;
+document.addEventListener('keydown', function(e) { if(e.key==='Shift') window._shiftHeld = true; });
+document.addEventListener('keyup', function(e) { if(e.key==='Shift') window._shiftHeld = false; });
+
+document.addEventListener('keydown', function(e) {
+  if(e.target.tagName==='INPUT') return;
+  switch(e.code) {
+    case 'Space': e.preventDefault(); togglePlay(); break;
+    case 'KeyA': setA(); break; case 'KeyB': setB(); break;
+    case 'KeyL': toggleLoop(); break; case 'KeyC': clearAB(); break;
+    case 'ArrowLeft': e.shiftKey ? prevSentence() : (audio.currentTime = Math.max(0, audio.currentTime-3)); break;
+    case 'ArrowRight': e.shiftKey ? nextSentence() : (audio.currentTime = Math.min(audio.duration, audio.currentTime+3)); break;
+    case 'KeyZ': toggleZh(); break; case 'KeyD': toggleDictation(); break;
+    case 'KeyE': openEcho(); break; case 'Escape': closeEcho(); break;
+  }
+});
+
+function fmt(s) { if(!s||isNaN(s)) return '0:00'; return `${Math.floor(s/60)}:${Math.floor(s%60).toString().padStart(2,'0')}`; }
+
+// ── Bookmarks ──
+function toggleBookmark(idx) {
+  const i = store.bookmarks.indexOf(idx);
+  if (i >= 0) store.bookmarks.splice(i, 1);
+  else store.bookmarks.push(idx);
+  store.bookmarks.sort((a, b) => a - b);
+  saveStore(store);
+  // Update button state
+  const btns = document.querySelectorAll('.bookmark-btn');
+  if (btns[idx]) btns[idx].classList.toggle('bookmarked', store.bookmarks.includes(idx));
+  updateBookmarkCount();
+  renderBookmarks();
+}
+
+function updateBookmarkCount() {
+  const el = document.getElementById('bookmark-count');
+  el.textContent = store.bookmarks.length ? `(${store.bookmarks.length})` : '';
+}
+
+function renderBookmarks() {
+  const box = document.getElementById('bookmark-box');
+  if (!store.bookmarks.length) {
+    box.innerHTML = '<p style="color:var(--muted);text-align:center;padding:20px">還沒有書籤，點對話旁的 🔖 加入</p>';
+    return;
+  }
+  box.innerHTML = '<div class="bookmark-list">' + store.bookmarks.map(idx => {
+    const s = segments[idx];
+    if (!s) return '';
+    return `<div class="bookmark-item" onclick="jumpToLine(${idx})">
+      <span class="bk-time">${fmt(s.start)}</span>
+      <span class="bk-text">${escapeHtml(s.text.substring(0, 60))}${s.text.length > 60 ? '...' : ''}</span>
+      <span class="bk-remove" onclick="event.stopPropagation();toggleBookmark(${idx})">✕</span>
+    </div>`;
+  }).join('') + '</div>';
+}
+
+// ── Progress Tracking ──
+function markPracticed(idx) {
+  if (!store.practiced.includes(idx)) {
+    store.practiced.push(idx);
+    saveStore(store);
+    updateProgress();
+  }
+}
+
+function updateProgress() {
+  const total = segments.length;
+  const done = store.practiced.length;
+  const pct = total ? Math.round(done / total * 100) : 0;
+  document.getElementById('progress-text').textContent = `${done} / ${total} 句已練`;
+  document.getElementById('progress-fill').style.width = `${pct}%`;
+}
+
+// ── Theme ──
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme') || 'dark';
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  document.getElementById('theme-toggle').textContent = next === 'dark' ? '🌙' : '☀️';
+  localStorage.setItem('lph_theme', next);
+}
+
+function loadTheme() {
+  const saved = localStorage.getItem('lph_theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', saved);
+  document.getElementById('theme-toggle').textContent = saved === 'dark' ? '🌙' : '☀️';
+}
+
+// Track practiced lines when jumping/echoing
+const _origJumpToLine = jumpToLine;
+jumpToLine = function(idx) { markPracticed(idx); _origJumpToLine(idx); };
+
+// ── Spaced Repetition ──
+// store.srs = { idx: { interval: days, nextReview: timestamp, ease: 1-3 } }
+if (!store.srs) store.srs = {};
+
+function rateSentence(idx, rating) {
+  // rating: 'easy' (3), 'ok' (2), 'hard' (1)
+  const ease = rating === 'easy' ? 3 : rating === 'ok' ? 2 : 1;
+  const prev = store.srs[idx] || { interval: 0, ease: 2 };
+  let newInterval;
+  if (ease === 1) newInterval = 1; // hard: review tomorrow
+  else if (ease === 2) newInterval = Math.max(1, Math.round(prev.interval * 1.5) || 1); // ok: 1.5x
+  else newInterval = Math.max(2, Math.round(prev.interval * 2.5) || 2); // easy: 2.5x
+
+  store.srs[idx] = {
+    interval: newInterval,
+    nextReview: Date.now() + newInterval * 86400000,
+    ease: ease,
+    lastReview: Date.now(),
+  };
+  saveStore(store);
+  renderReview();
+}
+
+function getDueForReview() {
+  const now = Date.now();
+  const due = [];
+  // Practiced but not yet in SRS → due now
+  store.practiced.forEach(idx => {
+    if (!store.srs[idx]) due.push({ idx, reason: 'new' });
+  });
+  // In SRS and due
+  Object.entries(store.srs).forEach(([idx, data]) => {
+    if (data.nextReview <= now) due.push({ idx: parseInt(idx), reason: 'due' });
+  });
+  // Bookmarked always available
+  store.bookmarks.forEach(idx => {
+    if (!due.find(d => d.idx === idx)) due.push({ idx, reason: 'bookmarked' });
+  });
+  return due.slice(0, 20); // Max 20
+}
+
+function renderReview() {
+  const box = document.getElementById('review-box');
+  const due = getDueForReview();
+  if (!due.length) {
+    box.innerHTML = '<div style="text-align:center;padding:30px;color:var(--muted)"><div style="font-size:2em;margin-bottom:8px">🎉</div>沒有待複習的句子！<br><span style="font-size:0.85em">先練習一些句子，它們會自動進入複習排程</span></div>';
+    return;
+  }
+  box.innerHTML = due.map(d => {
+    const s = segments[d.idx];
+    if (!s) return '';
+    const srsData = store.srs[d.idx];
+    const interval = srsData ? `${srsData.interval}天後複習` : '首次複習';
+    const label = d.reason === 'bookmarked' ? '🔖' : d.reason === 'new' ? '🆕' : '🔄';
+    return `<div class="review-card" onclick="jumpToLine(${d.idx})">
+      <div class="rc-text">${escapeHtml(s.text)}</div>
+      <div class="rc-meta">
+        <span>${label} ${interval}</span>
+        <span>${fmt(s.start)}</span>
+      </div>
+      <div class="rc-btns">
+        <button class="rc-btn hard" onclick="event.stopPropagation();rateSentence(${d.idx},'hard')">😵 困難</button>
+        <button class="rc-btn" onclick="event.stopPropagation();rateSentence(${d.idx},'ok')">🙂 還行</button>
+        <button class="rc-btn easy" onclick="event.stopPropagation();rateSentence(${d.idx},'easy')">😎 簡單</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── Difficulty estimation ──
+function estimateDifficulty(text) {
+  if (!text) return 'medium';
+  const wordCount = text.split(/\s+/).length;
+  const avgWordLen = text.replace(/\s+/g, '').length / wordCount;
+  if (wordCount <= 4 && avgWordLen <= 5) return 'easy';
+  if (wordCount >= 12 || avgWordLen >= 8) return 'hard';
+  return 'medium';
+}
+
+// ── Recording & Pronunciation Scoring ──
+let recState = { recording: false, mediaRec: null, chunks: [], lineIdx: null, stream: null };
+
+async function toggleRec(idx) {
+  if (recState.recording && recState.lineIdx === idx) {
+    stopRec();
+    return;
+  }
+  if (recState.recording) stopRec();
+  startRec(idx);
+}
+
+async function startRec(idx) {
+  try {
+    // Check if getUserMedia is available
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      alert('此裝置不支援錄音功能');
+      return;
+    }
+
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } });
+    recState.stream = stream;
+    recState.chunks = [];
+    recState.lineIdx = idx;
+
+    // Find supported mime type for this device
+    let mimeType = '';
+    const types = ['audio/webm;codecs=opus', 'audio/webm', 'audio/mp4', 'audio/aac', 'audio/wav'];
+    for (const t of types) {
+      if (typeof MediaRecorder !== 'undefined' && MediaRecorder.isTypeSupported(t)) { mimeType = t; break; }
+    }
+
+    const mediaRec = mimeType ? new MediaRecorder(stream, { mimeType }) : new MediaRecorder(stream);
+    recState.mediaRec = mediaRec;
+
+    mediaRec.ondataavailable = (e) => { if (e.data.size > 0) recState.chunks.push(e.data); };
+    mediaRec.onstop = () => processRecording(idx);
+
+    mediaRec.start(100); // collect data every 100ms for better compatibility
+    recState.recording = true;
+
+    // Visual feedback
+    const btn = document.getElementById(`rec-${idx}`);
+    if (btn) btn.classList.add('recording');
+
+    // Auto-stop after segment duration + 3s buffer
+    const s = segments[idx];
+    const maxDur = s ? (s.end - s.start) * 1000 + 3000 : 8000;
+    setTimeout(() => { if (recState.recording && recState.lineIdx === idx) stopRec(); }, maxDur);
+
+    // Play the sentence first, then user repeats
+    audio.pause();
+
+  } catch (err) {
+    alert('無法存取麥克風。請允許麥克風權限。');
+  }
+}
+
+function stopRec() {
+  if (recState.mediaRec && recState.recording) {
+    recState.mediaRec.stop();
+    recState.recording = false;
+    if (recState.stream) {
+      recState.stream.getTracks().forEach(t => t.stop());
+      recState.stream = null;
+    }
+    const btn = document.getElementById(`rec-${recState.lineIdx}`);
+    if (btn) btn.classList.remove('recording');
+  }
+}
+
+async function processRecording(idx) {
+  const s = segments[idx];
+  if (!s) return;
+
+  const blob = new Blob(recState.chunks, { type: 'audio/webm' });
+  const recUrl = URL.createObjectURL(blob);
+
+  // Show "analyzing..." under the line
+  const line = document.querySelectorAll('.dialogue-line')[idx];
+  let resultDiv = line.querySelector('.rec-result');
+  if (!resultDiv) {
+    resultDiv = document.createElement('div');
+    resultDiv.className = 'rec-result';
+    line.querySelector('.line-text').appendChild(resultDiv);
+  }
+  resultDiv.innerHTML = '<div style="color:var(--muted)">🎙️ 分析中...</div>';
+
+  // Send to Whisper for transcription
+  const apiKey = getApiKey();
+  if (!apiKey) {
+    resultDiv.innerHTML = `
+      <div class="rec-playback">
+        <button class="rec-play-btn" onclick="new Audio('${recUrl}').play()">▶ 播放你的錄音</button>
+      </div>
+      <div style="color:var(--dim);margin-top:4px">設定 API Key 即可獲得發音評分</div>`;
+    return;
+  }
+
+  try {
+    // Convert webm to form data
+    const formData = new FormData();
+    const ext = blob.type.includes('mp4') ? 'mp4' : blob.type.includes('webm') ? 'webm' : 'wav';
+    formData.append('file', blob, `recording.${ext}`);
+    formData.append('model', 'whisper-1');
+    formData.append('response_format', 'text');
+
+    // Use XMLHttpRequest for iOS compatibility
+    const userText = await new Promise((resolve, reject) => {
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', 'https://api.openai.com/v1/audio/transcriptions');
+      xhr.setRequestHeader('Authorization', `Bearer ${apiKey}`);
+      xhr.onload = () => resolve(xhr.responseText.trim());
+      xhr.onerror = () => reject(new Error(`Whisper API error (${xhr.status})`));
+      xhr.send(formData);
+    });
+    const originalText = s.text.trim();
+
+    // Compare and score
+    const { score, diffHtml } = compareTexts(originalText, userText);
+    const scoreClass = score >= 80 ? 'good' : score >= 50 ? 'ok' : 'bad';
+    const emoji = score >= 80 ? '🎉' : score >= 50 ? '👍' : '💪';
+
+    resultDiv.innerHTML = `
+      <div class="rec-score ${scoreClass}">${emoji} ${score}%</div>
+      <div class="rec-you">你說的：${escapeHtml(userText)}</div>
+      <div class="rec-diff">${diffHtml}</div>
+      <div class="rec-playback">
+        <button class="rec-play-btn" onclick="new Audio('${recUrl}').play()">▶ 你的版本</button>
+        <button class="rec-play-btn" onclick="jumpToLine(${idx})">▶ 原版</button>
+        <button class="rec-play-btn" onclick="toggleRec(${idx})">🎙️ 再試一次</button>
+      </div>`;
+
+    // Save score to store
+    if (!store.recScores) store.recScores = {};
+    store.recScores[idx] = { score, userText, date: Date.now() };
+    saveStore(store);
+
+  } catch (err) {
+    resultDiv.innerHTML = `
+      <div style="color:var(--accent)">❌ ${err.message}</div>
+      <div class="rec-playback">
+        <button class="rec-play-btn" onclick="new Audio('${recUrl}').play()">▶ 播放你的錄音</button>
+      </div>`;
+  }
+}
+
+function compareTexts(original, spoken) {
+  // Normalize: lowercase, remove punctuation
+  const norm = (t) => t.toLowerCase().replace(/[.,!?;:'"()（）。？！、，\-]/g, '').replace(/\s+/g, ' ').trim();
+  const origWords = norm(original).split(' ');
+  const userWords = norm(spoken).split(' ');
+
+  // Simple word-level comparison using LCS
+  const lcs = [];
+  const m = origWords.length, n = userWords.length;
+  const dp = Array.from({length: m+1}, () => Array(n+1).fill(0));
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      if (origWords[i-1] === userWords[j-1]) dp[i][j] = dp[i-1][j-1] + 1;
+      else dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
+    }
+  }
+
+  // Backtrack to find matches
+  const matched = new Set();
+  let i = m, j = n;
+  while (i > 0 && j > 0) {
+    if (origWords[i-1] === userWords[j-1]) { matched.add(i-1); i--; j--; }
+    else if (dp[i-1][j] > dp[i][j-1]) i--;
+    else j--;
+  }
+
+  const score = m > 0 ? Math.round(matched.size / m * 100) : 0;
+
+  // Build diff HTML
+  const diffHtml = origWords.map((w, idx) =>
+    matched.has(idx)
+      ? `<span class="match">${escapeHtml(w)}</span>`
+      : `<span class="miss">${escapeHtml(w)}</span>`
+  ).join(' ');
+
+  return { score, diffHtml };
+}
+
+// ── AI Explain ──
+// Persistent cache in localStorage
+const EXPLAIN_STORE_KEY = `lph_explain_${VIDEO_ID}`;
+let explainCache = {};
+try { explainCache = JSON.parse(localStorage.getItem(EXPLAIN_STORE_KEY) || '{}'); } catch(e) {}
+function saveExplainCache() { try { localStorage.setItem(EXPLAIN_STORE_KEY, JSON.stringify(explainCache)); } catch(e) {} }
+
+function getApiKey() { return localStorage.getItem('lph_openai_key') || ''; }
+function closeApiKeyModal() { document.getElementById('apikey-modal').classList.remove('open'); }
+function saveApiKey() {
+  const key = document.getElementById('apikey-input').value.trim();
+  if (key) { localStorage.setItem('lph_openai_key', key); closeApiKeyModal(); }
+}
+
+function explainLine(idx) {
+  const key = getApiKey();
+  if (!key) {
+    document.getElementById('apikey-modal').classList.add('open');
+    document.getElementById('apikey-input').focus();
+    // Store pending idx
+    window._pendingExplainIdx = idx;
+    return;
+  }
+  doExplain(idx, key);
+}
+
+function saveApiKeyAndExplain() {
+  saveApiKey();
+  if (window._pendingExplainIdx !== undefined) {
+    doExplain(window._pendingExplainIdx, getApiKey());
+    window._pendingExplainIdx = undefined;
+  }
+}
+
+// Override saveApiKey to also trigger pending explain
+const _origSaveApiKey = saveApiKey;
+saveApiKey = function() {
+  _origSaveApiKey();
+  if (window._pendingExplainIdx !== undefined) {
+    const key = getApiKey();
+    if (key) { doExplain(window._pendingExplainIdx, key); window._pendingExplainIdx = undefined; }
+  }
+};
+
+function doExplain(idx, apiKey) {
+  const s = segments[idx]; if (!s) return;
+  document.getElementById('explain-backdrop').classList.add('open');
+  document.getElementById('explain-panel').classList.add('open');
+  document.getElementById('explain-original').textContent = s.text;
+
+  // Check cache
+  if (explainCache[idx]) {
+    document.getElementById('explain-content').innerHTML = explainCache[idx];
+    return;
+  }
+
+  document.getElementById('explain-content').innerHTML = '<div class="explain-loading">🤖 AI 解析中...</div>';
+
+  // Also play the sentence
+  jumpToLine(idx);
+
+  const langName = document.title.split('—')[1]?.trim().replace('練習','') || '';
+  const prompt = `你是語言教師。請用繁體中文解析這句${langName}：
+
+「${s.text}」
+
+請提供（用 HTML 格式，不要 markdown）：
+1. <h4>📝 逐字翻譯</h4> — 每個詞的意思，用 <span class="word-item">詞 = 意思</span> 格式
+2. <h4>📖 整句意思</h4> — 自然的繁體中文翻譯 + 情境說明
+3. <h4>🗣️ 發音重點</h4> — 用 <div class="pron-tip">...</div> 標出難念的音、重音位置、連音
+4. <h4>📐 文法解析</h4> — 用 <div class="grammar-note">...</div> 說明句型結構、時態、特殊用法
+
+保持簡潔，每點 1-2 句就好。直接回 HTML，不要包 \`\`\`。`;
+
+  // Use XMLHttpRequest for better iOS WKWebView compatibility
+  const xhr = new XMLHttpRequest();
+  xhr.open('POST', 'https://api.openai.com/v1/chat/completions');
+  xhr.setRequestHeader('Authorization', `Bearer ${apiKey}`);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+  xhr.onload = function() {
+    try {
+      const data = JSON.parse(xhr.responseText);
+      if (data.error) {
+        document.getElementById('explain-content').innerHTML = `<div style="color:var(--accent)">❌ ${data.error.message}</div>`;
+        return;
+      }
+      let html = data.choices?.[0]?.message?.content || '無回應';
+      html = html.replace(/```html?\n?/g, '').replace(/```/g, '');
+      explainCache[idx] = html;
+      saveExplainCache();
+      document.getElementById('explain-content').innerHTML = html;
+    } catch(e) {
+      document.getElementById('explain-content').innerHTML = `<div style="color:var(--accent)">❌ 解析錯誤: ${e.message}<br><small>${xhr.responseText?.substring(0,100)}</small></div>`;
+    }
+  };
+  xhr.onerror = function() {
+    document.getElementById('explain-content').innerHTML = `<div style="color:var(--accent)">❌ 網路錯誤（status: ${xhr.status}）</div>`;
+  };
+  xhr.send(JSON.stringify({
+    model: 'gpt-4.1-nano',
+    messages: [{ role: 'user', content: prompt }],
+    max_tokens: 800,
+  }));
+}
+
+function closeExplain() {
+  document.getElementById('explain-panel').classList.remove('open');
+  document.getElementById('explain-backdrop').classList.remove('open');
+}
+
+// ── Exam Simulation Mode ──
+let examState = { active: false, questions: [], current: 0, recordings: [], startTime: 0, timerInterval: null };
+
+function openExamMode() {
+  // Pick 5 random sentences
+  const indices = [];
+  const pool = segments.map((s, i) => i).filter(i => segments[i].text.length > 20);
+  for (let i = 0; i < Math.min(5, pool.length); i++) {
+    const idx = pool.splice(Math.floor(Math.random() * pool.length), 1)[0];
+    indices.push(idx);
+  }
+
+  examState = { active: true, questions: indices, current: 0, recordings: [], startTime: Date.now(), timerInterval: null };
+  document.getElementById('exam-overlay').classList.add('active');
+
+  // Start timer
+  examState.timerInterval = setInterval(() => {
+    const elapsed = Math.floor((Date.now() - examState.startTime) / 1000);
+    document.getElementById('exam-timer').textContent = `${Math.floor(elapsed/60)}:${(elapsed%60).toString().padStart(2,'0')}`;
+  }, 1000);
+
+  showExamQuestion();
+}
+
+function closeExam() {
+  examState.active = false;
+  if (examState.timerInterval) clearInterval(examState.timerInterval);
+  if (recState.recording) stopRec();
+  audio.pause();
+  document.getElementById('exam-overlay').classList.remove('active');
+}
+
+function showExamQuestion() {
+  const idx = examState.questions[examState.current];
+  const s = segments[idx];
+  const total = examState.questions.length;
+  document.getElementById('exam-count').textContent = `${examState.current + 1} / ${total}`;
+
+  // Play the sentence once (no replay in exam mode!)
+  audio.currentTime = s.start;
+  audio.volume = 1;
+  audio.playbackRate = 1.0;
+  audio.play().catch(() => {});
+
+  // Auto-pause after sentence ends
+  const checkEnd = () => {
+    if (audio.currentTime >= s.end) { audio.pause(); return; }
+    if (examState.active) requestAnimationFrame(checkEnd);
+  };
+  checkEnd();
+
+  document.getElementById('exam-content').innerHTML = `
+    <div class="exam-instruction">🎧 聽一次，然後錄下你的回答</div>
+    <div class="exam-sentence" style="filter:blur(4px);cursor:pointer" onclick="this.style.filter='none'" id="exam-text">${escapeHtml(s.text)}</div>
+    <div style="font-size:12px;color:var(--dim)">點擊上方可揭曉原文</div>
+    <button class="exam-rec-btn" id="exam-rec-btn" onclick="examRecord(${idx})">🎙️</button>
+    <div class="exam-instruction" id="exam-rec-status">點擊麥克風開始錄音</div>
+    <div class="exam-actions" id="exam-actions" style="display:none">
+      <button class="exam-action" onclick="examReplay()">🔊 再聽一次</button>
+      <button class="exam-action primary" onclick="examNext()">下一題 →</button>
+    </div>
+  `;
+}
+
+let examRecUrl = null;
+function examRecord(idx) {
+  const btn = document.getElementById('exam-rec-btn');
+  if (recState.recording) {
+    stopRec();
+    btn.classList.remove('recording');
+    btn.textContent = '🎙️';
+    document.getElementById('exam-rec-status').textContent = '✅ 錄音完成！';
+    document.getElementById('exam-actions').style.display = 'flex';
+
+    // Store recording
+    setTimeout(() => {
+      const blob = new Blob(recState.chunks, { type: 'audio/webm' });
+      examRecUrl = URL.createObjectURL(blob);
+      examState.recordings.push({ idx, url: examRecUrl, blob });
+    }, 300);
+  } else {
+    startRec(idx);
+    btn.classList.add('recording');
+    btn.textContent = '⏹';
+    document.getElementById('exam-rec-status').textContent = '🔴 錄音中... 再點一次停止';
+  }
+}
+
+function examReplay() {
+  if (examRecUrl) new Audio(examRecUrl).play();
+}
+
+function examNext() {
+  examState.current++;
+  if (examState.current >= examState.questions.length) {
+    showExamResults();
+  } else {
+    showExamQuestion();
+  }
+}
+
+async function showExamResults() {
+  if (examState.timerInterval) clearInterval(examState.timerInterval);
+  const elapsed = Math.floor((Date.now() - examState.startTime) / 1000);
+  const total = examState.questions.length;
+
+  // Score each recording with Whisper
+  let totalScore = 0;
+  let results = [];
+  const apiKey = getApiKey();
+
+  document.getElementById('exam-content').innerHTML = '<div class="exam-instruction">📊 正在評分...</div>';
+
+  for (const rec of examState.recordings) {
+    const s = segments[rec.idx];
+    let score = 0;
+    let userText = '（未錄音）';
+
+    if (apiKey && rec.blob) {
+      try {
+        const formData = new FormData();
+        const ext2 = rec.blob.type.includes('mp4') ? 'mp4' : rec.blob.type.includes('webm') ? 'webm' : 'wav';
+        formData.append('file', rec.blob, `recording.${ext2}`);
+        formData.append('model', 'whisper-1');
+        formData.append('response_format', 'text');
+        const resp = await fetch('https://api.openai.com/v1/audio/transcriptions', {
+          method: 'POST', headers: { 'Authorization': `Bearer ${apiKey}` }, body: formData
+        });
+        userText = (await resp.text()).trim();
+        const result = compareTexts(s.text, userText);
+        score = result.score;
+      } catch(e) { score = 0; }
+    }
+    totalScore += score;
+    results.push({ original: s.text, userText, score, url: rec.url });
+  }
+
+  const avg = total > 0 ? Math.round(totalScore / total) : 0;
+  const cls = avg >= 80 ? 'good' : avg >= 50 ? 'ok' : 'bad';
+  const emoji = avg >= 80 ? '🎉' : avg >= 50 ? '👍' : '💪';
+
+  document.getElementById('exam-content').innerHTML = `
+    <div class="exam-result">
+      <div class="big ${cls}">${emoji} ${avg}%</div>
+      <div style="color:var(--muted);margin-bottom:4px">${total} 題 · ${Math.floor(elapsed/60)}分${elapsed%60}秒</div>
+      <div class="exam-result-list">
+        ${results.map((r, i) => `<div class="exam-result-item">
+          <span class="eri-score" style="color:${r.score>=80?'var(--green)':r.score>=50?'var(--orange)':'var(--accent)'}">${r.score}%</span>
+          ${escapeHtml(r.original.substring(0, 40))}...
+          <br><span style="color:var(--dim);font-size:11px">你：${escapeHtml(r.userText.substring(0, 50))}</span>
+          ${r.url ? `<br><button class="rec-play-btn" onclick="new Audio('${r.url}').play()" style="margin-top:4px">▶ 播放</button>` : ''}
+        </div>`).join('')}
+      </div>
+      <div class="exam-actions" style="margin-top:16px;justify-content:center">
+        <button class="exam-action" onclick="closeExam()">返回</button>
+        <button class="exam-action primary" onclick="closeExam();openExamMode()">再考一次</button>
+      </div>
+    </div>`;
+}
+
+// ── Daily Challenge ──
+const DAILY_KEY = `lph_daily_${VIDEO_ID}`;
+function getDailyState() {
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    const s = JSON.parse(localStorage.getItem(DAILY_KEY) || '{}');
+    if (s.date !== today) return { date: today, sentences: [], completed: 0, streak: s.streak || 0, lastDate: s.date };
+    return s;
+  } catch(e) { return { date: today, sentences: [], completed: 0, streak: 0 }; }
+}
+function saveDailyState(s) { localStorage.setItem(DAILY_KEY, JSON.stringify(s)); }
+
+function openDailyChallenge() {
+  let state = getDailyState();
+  const today = new Date().toISOString().split('T')[0];
+  const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+
+  // Calculate streak
+  if (state.lastDate === yesterday && state.date === today && state.completed === 0) {
+    // Continuing streak from yesterday
+  } else if (state.date !== today) {
+    if (state.lastDate === yesterday) { /* streak continues */ }
+    else { state.streak = 0; }
+  }
+
+  // Pick 5 sentences for today (seeded by date for consistency)
+  if (!state.sentences.length) {
+    const seed = today.split('-').join('');
+    let rng = parseInt(seed) % 10000;
+    const pool = segments.map((s, i) => i).filter(i => segments[i].text.length > 15);
+    const picked = [];
+    for (let i = 0; i < Math.min(5, pool.length); i++) {
+      rng = (rng * 1103515245 + 12345) & 0x7fffffff;
+      const idx = pool.splice(rng % pool.length, 1)[0];
+      picked.push(idx);
+    }
+    state.sentences = picked;
+    state.completed = 0;
+    state.date = today;
+    saveDailyState(state);
+  }
+
+  document.getElementById('daily-overlay').classList.add('active');
+  document.getElementById('daily-streak').textContent = state.streak > 0 ? `🔥 連續 ${state.streak} 天` : '開始你的連續紀錄！';
+
+  if (state.completed >= state.sentences.length) {
+    showDailyComplete(state);
+  } else {
+    showDailyQuestion(state);
+  }
+}
+
+function showDailyQuestion(state) {
+  // Progress dots
+  document.getElementById('daily-progress').innerHTML = state.sentences.map((_, i) =>
+    `<div class="daily-dot ${i < state.completed ? 'done' : i === state.completed ? 'current' : ''}"></div>`
+  ).join('');
+
+  const idx = state.sentences[state.completed];
+  const s = segments[idx];
+
+  // Play sentence
+  audio.currentTime = s.start;
+  audio.volume = 1;
+  audio.playbackRate = 1.0;
+  audio.play().catch(() => {});
+  const checkEnd = () => { if (audio.currentTime >= s.end) { audio.pause(); return; } if (document.getElementById('daily-overlay').classList.contains('active')) requestAnimationFrame(checkEnd); };
+  checkEnd();
+
+  document.getElementById('daily-content').innerHTML = `
+    <div class="daily-sentence">
+      ${escapeHtml(s.text)}
+      ${s.translation ? `<div class="daily-translation">${escapeHtml(s.translation)}</div>` : ''}
+    </div>
+    <div style="font-size:13px;color:var(--muted)">聽完後，大聲跟著說</div>
+    <div class="daily-btns">
+      <button class="daily-btn" onclick="dailyReplay(${idx})">🔊 再聽</button>
+      <button class="daily-btn" onclick="dailyRec(${idx})">🎙️ 錄音</button>
+      <button class="daily-btn primary" onclick="dailyNext()">✅ 完成</button>
+    </div>
+    <div id="daily-rec-result"></div>
+  `;
+}
+
+function dailyReplay(idx) {
+  const s = segments[idx];
+  audio.currentTime = s.start;
+  audio.play().catch(() => {});
+  const checkEnd = () => { if (audio.currentTime >= s.end) { audio.pause(); return; } requestAnimationFrame(checkEnd); };
+  checkEnd();
+}
+
+function dailyRec(idx) {
+  toggleRec(idx);
+}
+
+function dailyNext() {
+  let state = getDailyState();
+  state.completed++;
+  if (state.completed >= state.sentences.length) {
+    state.streak = (state.streak || 0) + 1;
+  }
+  saveDailyState(state);
+
+  if (state.completed >= state.sentences.length) {
+    showDailyComplete(state);
+  } else {
+    showDailyQuestion(state);
+  }
+}
+
+function showDailyComplete(state) {
+  document.getElementById('daily-progress').innerHTML = state.sentences.map(() =>
+    '<div class="daily-dot done"></div>'
+  ).join('');
+
+  document.getElementById('daily-content').innerHTML = `
+    <div class="daily-complete">
+      <div class="big-emoji">🎉</div>
+      <h2>今日挑戰完成！</h2>
+      <div style="color:var(--orange);font-size:18px;font-weight:800;margin-bottom:16px">🔥 ${state.streak} 天連續</div>
+      <div style="color:var(--muted);font-size:13px;margin-bottom:24px">明天回來繼續保持紀錄</div>
+      <button class="daily-btn primary" onclick="closeDailyChallenge()">完成 ✨</button>
+    </div>
+  `;
+}
+
+function closeDailyChallenge() {
+  audio.pause();
+  document.getElementById('daily-overlay').classList.remove('active');
+}
+
+// ── Spreken Exam Trainer ──
+let sprekenState = { active: false, questions: [], current: 0, timer: null, recUrl: null };
+
+function openSprekenMode() {
+  // Find question segments (contain '?') and pair with next answer segments
+  const questions = [];
+  for (let i = 0; i < segments.length; i++) {
+    const s = segments[i];
+    const text = s.text;
+    // Detect question patterns
+    if (text.includes('?') && !text.includes('voorbeeld') && s.end - s.start > 1.5) {
+      // Find the context (previous segment might have "Kijk naar" or setup)
+      let context = '';
+      if (i > 0 && (segments[i-1].text.includes('Kijk naar') || segments[i-1].text.includes('plaatje') || segments[i-1].text.length < 40)) {
+        context = segments[i-1].text;
+      }
+      // Find the answer (next non-question segment after a gap)
+      let answer = '';
+      let answerIdx = i + 1;
+      while (answerIdx < segments.length && answerIdx <= i + 3) {
+        const gap = segments[answerIdx].start - s.end;
+        if (gap > 10 && !segments[answerIdx].text.includes('?')) {
+          // This is likely the answer after the pause
+          answer = segments[answerIdx].text;
+          if (answerIdx + 1 < segments.length && segments[answerIdx + 1].start - segments[answerIdx].end < 3) {
+            answer += ' ' + segments[answerIdx + 1].text;
+          }
+          break;
+        }
+        answerIdx++;
+      }
+      questions.push({
+        idx: i,
+        question: text,
+        questionZh: s.translation || '',
+        context: context,
+        answer: answer,
+        answerStart: answerIdx < segments.length ? segments[answerIdx].start : null,
+        answerEnd: answerIdx + 1 < segments.length ? segments[answerIdx + 1].end : (answerIdx < segments.length ? segments[answerIdx].end : null),
+        start: s.start,
+        end: s.end,
+        hasImage: context.includes('plaatje') || context.includes('Kijk'),
+      });
+    }
+  }
+
+  if (!questions.length) {
+    alert('這個影片沒有偵測到口說考試題目');
+    return;
+  }
+
+  sprekenState = { active: true, questions, current: 0, timer: null, recUrl: null };
+  document.getElementById('spreken-overlay').classList.add('active');
+  showSprekenQuestion();
+}
+
+function closeSpreken() {
+  sprekenState.active = false;
+  if (sprekenState.timer) clearInterval(sprekenState.timer);
+  if (recState.recording) stopRec();
+  audio.pause();
+  document.getElementById('spreken-overlay').classList.remove('active');
+}
+
+function showSprekenQuestion() {
+  const q = sprekenState.questions[sprekenState.current];
+  const total = sprekenState.questions.length;
+  document.getElementById('spreken-num').textContent = `🗣️ 題 ${sprekenState.current + 1} / ${total}`;
+
+  const body = document.getElementById('spreken-body');
+  body.innerHTML = `
+    <div class="spreken-phase">🎧 聽題目</div>
+    <div class="spreken-question">
+      ${q.context ? `<div style="color:var(--dim);font-size:13px;margin-bottom:8px">${escapeHtml(q.context)}</div>` : ''}
+      ${escapeHtml(q.question)}
+      <div class="q-zh">${escapeHtml(q.questionZh)}</div>
+      ${q.hasImage ? '<div style="color:var(--orange);font-size:12px;margin-top:6px">📷 此題有圖片（請參考原始影片）</div>' : ''}
+    </div>
+    <div class="spreken-btns">
+      <button class="spreken-btn" onclick="sprekenPlayQuestion()">🔊 再聽一次</button>
+      <button class="spreken-btn primary" onclick="sprekenStartAnswer()">🎙️ 開始回答（30秒）</button>
+    </div>
+  `;
+
+  // Play the question
+  audio.currentTime = q.start;
+  audio.volume = 1;
+  audio.playbackRate = 1.0;
+  audio.play().catch(() => {});
+  const checkEnd = () => { if (audio.currentTime >= q.end) { audio.pause(); return; } if (sprekenState.active) requestAnimationFrame(checkEnd); };
+  checkEnd();
+}
+
+function sprekenPlayQuestion() {
+  const q = sprekenState.questions[sprekenState.current];
+  audio.currentTime = q.start;
+  audio.play().catch(() => {});
+  const checkEnd = () => { if (audio.currentTime >= q.end) { audio.pause(); return; } requestAnimationFrame(checkEnd); };
+  checkEnd();
+}
+
+function sprekenStartAnswer() {
+  const q = sprekenState.questions[sprekenState.current];
+  const body = document.getElementById('spreken-body');
+  let timeLeft = 30;
+
+  body.innerHTML = `
+    <div class="spreken-phase">🎙️ 請回答</div>
+    <div class="spreken-question" style="border-color:var(--blue)">
+      ${escapeHtml(q.question)}
+    </div>
+    <div class="spreken-timer-ring">
+      <svg width="100" height="100" viewBox="0 0 100 100">
+        <circle class="spreken-timer-bg" cx="50" cy="50" r="44" />
+        <circle class="spreken-timer-fg" id="spreken-ring" cx="50" cy="50" r="44" stroke-dasharray="276.5" stroke-dashoffset="0" />
+      </svg>
+      <div class="spreken-timer-label" id="spreken-countdown">30</div>
+    </div>
+    <div class="spreken-rec-indicator">🔴 錄音中...</div>
+    <button class="spreken-btn" onclick="sprekenStopAnswer()">⏹ 結束回答</button>
+  `;
+
+  // Start recording
+  startRec(q.idx).catch(() => {});
+
+  // Start countdown
+  sprekenState.timer = setInterval(() => {
+    timeLeft--;
+    document.getElementById('spreken-countdown').textContent = timeLeft;
+    document.getElementById('spreken-ring').style.strokeDashoffset = 276.5 * (1 - timeLeft / 30);
+    if (timeLeft <= 0) {
+      sprekenStopAnswer();
+    }
+  }, 1000);
+}
+
+function sprekenStopAnswer() {
+  if (sprekenState.timer) { clearInterval(sprekenState.timer); sprekenState.timer = null; }
+  if (recState.recording) stopRec();
+
+  // Save recording URL
+  setTimeout(() => {
+    if (recState.chunks.length) {
+      const blob = new Blob(recState.chunks, { type: recState.mediaRec?.mimeType || 'audio/webm' });
+      sprekenState.recUrl = URL.createObjectURL(blob);
+    }
+    showSprekenResult();
+  }, 500);
+}
+
+function showSprekenResult() {
+  const q = sprekenState.questions[sprekenState.current];
+  const total = sprekenState.questions.length;
+  const body = document.getElementById('spreken-body');
+
+  body.innerHTML = `
+    <div class="spreken-phase">📝 對照答案</div>
+    <div class="spreken-question">
+      ${escapeHtml(q.question)}
+    </div>
+    ${q.answer ? `<div class="spreken-answer">
+      <h4>✅ 範例答案</h4>
+      ${escapeHtml(q.answer)}
+    </div>` : ''}
+    <div class="spreken-btns">
+      ${sprekenState.recUrl ? `<button class="spreken-btn" onclick="new Audio('${sprekenState.recUrl}').play()">▶ 你的回答</button>` : ''}
+      ${q.answerStart ? `<button class="spreken-btn" onclick="sprekenPlayAnswer()">▶ 聽範例</button>` : ''}
+      <button class="spreken-btn" onclick="showSprekenQuestion()">🔄 重做此題</button>
+      ${sprekenState.current < total - 1
+        ? `<button class="spreken-btn primary" onclick="sprekenNext()">下一題 →</button>`
+        : `<button class="spreken-btn primary" onclick="closeSpreken()">✅ 完成！</button>`
+      }
+    </div>
+  `;
+}
+
+function sprekenPlayAnswer() {
+  const q = sprekenState.questions[sprekenState.current];
+  if (q.answerStart) {
+    audio.currentTime = q.answerStart;
+    audio.play().catch(() => {});
+    if (q.answerEnd) {
+      const checkEnd = () => { if (audio.currentTime >= q.answerEnd) { audio.pause(); return; } requestAnimationFrame(checkEnd); };
+      checkEnd();
+    }
+  }
+}
+
+function sprekenNext() {
+  sprekenState.current++;
+  sprekenState.recUrl = null;
+  showSprekenQuestion();
+}
+
+// ── Wake Lock (keep screen on during practice) ──
+let wakeLock = null;
+async function toggleWakeLock() {
+  if (wakeLock) {
+    wakeLock.release(); wakeLock = null;
+    document.getElementById('wake-btn')?.classList.remove('active');
+  } else {
+    try {
+      wakeLock = await navigator.wakeLock.request('screen');
+      document.getElementById('wake-btn')?.classList.add('active');
+      wakeLock.addEventListener('release', () => { wakeLock = null; document.getElementById('wake-btn')?.classList.remove('active'); });
+    } catch(e) {}
+  }
+}
+// Auto wake lock when playing
+audio.addEventListener('play', async () => {
+  if (!wakeLock) try { wakeLock = await navigator.wakeLock.request('screen'); document.getElementById('wake-btn')?.classList.add('active'); } catch(e) {}
+});
+audio.addEventListener('pause', () => {
+  if (wakeLock && !document.getElementById('wake-btn')?.classList.contains('manual')) { wakeLock.release(); wakeLock = null; document.getElementById('wake-btn')?.classList.remove('active'); }
+});
+
+// ── Swipe gestures for prev/next sentence ──
+let touchStartX = 0, touchStartY = 0;
+document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; touchStartY = e.touches[0].clientY; }, { passive: true });
+document.addEventListener('touchend', (e) => {
+  const dx = e.changedTouches[0].clientX - touchStartX;
+  const dy = e.changedTouches[0].clientY - touchStartY;
+  if (Math.abs(dx) > 80 && Math.abs(dx) > Math.abs(dy) * 2) {
+    if (dx < 0) nextSentence();
+    else prevSentence();
+  }
+}, { passive: true });
+
+// ── Auto-scroll to current sentence on first play ──
+let firstPlay = true;
+audio.addEventListener('play', () => {
+  if (firstPlay && activeLineIndex !== null) {
+    const line = document.querySelectorAll('.dialogue-line')[activeLineIndex];
+    if (line) line.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    firstPlay = false;
+  }
+});
+
+loadTheme();
+init();
+updateBookmarkCount();
+renderBookmarks();
+renderReview();
+</script>
+</body>
+</html>

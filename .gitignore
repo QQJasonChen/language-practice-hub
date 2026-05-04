@@ -1,0 +1,5 @@
+audio_original.mp3
+audio_compressed.mp3
+*.whisper.json
+__pycache__/
+www/

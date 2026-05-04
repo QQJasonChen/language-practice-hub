@@ -1,0 +1,211 @@
+1
+00:00:02,120 --> 00:00:07,060
+Dit is een voorbeeld examen Spreekvaardigheid A2.
+
+2
+00:00:08,240 --> 00:00:12,000
+Het examen is gemaakt door Ad Apple Taaltrainingen.
+
+3
+00:00:13,400 --> 00:00:15,600
+Het examen heeft 12 vragen.
+
+4
+00:00:17,060 --> 00:00:19,480
+U geeft antwoord op alle vragen.
+
+5
+00:00:21,060 --> 00:00:27,220
+Uhoortenzietnaelkevraageenvoorbeeldvaneengoedantwoord
+
+6
+00:00:28,280 --> 00:00:29,120
+Succes!
+
+7
+00:00:34,440 --> 00:00:39,380
+Ik hou van mooie kleren en ik geef veel geld uit aan kleding.
+
+8
+00:00:41,380 --> 00:00:44,040
+Waar geeft u het meeste geld aan uit?
+
+9
+00:01:03,300 --> 00:01:06,840
+Ik geef veel geld uit aan de supermarkt.
+
+10
+00:01:07,900 --> 00:01:12,340
+Ik geef veel geld uit aan eten kopen in de supermarkt.
+
+11
+00:01:17,180 --> 00:01:19,100
+Ikhouvanhetstrand
+
+12
+00:01:20,220 --> 00:01:23,540
+Anderemensenhoudenvanbergenofbossen
+
+13
+00:01:23,540 --> 00:01:28,360
+Weer andere mensen houden van het leven in de grote stad.
+
+14
+00:01:30,080 --> 00:01:33,680
+Wat vindt u het leukst en vertel ook waarom.
+
+15
+00:01:51,700 --> 00:01:56,820
+IkvinddegrotestadleukIndestadzijnbioscopen
+
+16
+00:01:57,720 --> 00:01:59,980
+museaveelmonumenten
+
+17
+00:02:00,980 --> 00:02:03,680
+Een grote stad is nooit saai.
+
+18
+00:02:07,920 --> 00:02:13,560
+In welk land zou u het liefst willen wonen en vertel ook waarom.
+
+19
+00:02:31,540 --> 00:02:34,420
+IkwoonhetliefstinIndonesië
+
+20
+00:02:35,420 --> 00:02:38,980
+Daarishetlekkerwarmendaarisveellekker
+
+21
+00:02:43,980 --> 00:02:47,160
+Ikkoopweleenstweedehandsspullen
+
+22
+00:02:48,480 --> 00:02:52,100
+DoetudatookweleensEnwatkooptudan
+
+23
+00:03:09,880 --> 00:03:14,440
+Ja, ik koop wel eens tweedehands meubels.
+
+24
+00:03:19,280 --> 00:03:21,020
+Ikkookgraag
+
+25
+00:03:22,380 --> 00:03:31,100
+IkvindhetleukomspecialegerechtentemakenKooktuookgraagEnwatmaaktudanvooreten
+
+26
+00:03:49,760 --> 00:03:53,840
+Ik kook ook graag. Ik maak dan spaghetti.
+
+27
+00:03:58,380 --> 00:04:02,880
+Ikgaelkeochtendvijfkilometerrennen
+
+28
+00:04:03,940 --> 00:04:09,660
+WatvindtuvanmensendieelkedagsportenEndoetuzelfookaansport
+
+29
+00:04:28,160 --> 00:04:33,060
+Ja, ik sport ook graag. Ik zwem drie keer per week.
+
+30
+00:04:40,540 --> 00:04:42,240
+Kijknaarhetplaatje
+
+31
+00:04:45,040 --> 00:04:51,920
+DitisMarioWatiszijnberoepWatheefthijinzijnrechterhand
+
+32
+00:05:09,700 --> 00:05:15,240
+Hij is slager en hij heeft een mes in zijn hand.
+
+33
+00:05:20,960 --> 00:05:22,700
+Kijknaarhetplaatje
+
+34
+00:05:26,160 --> 00:05:36,160
+ThomasisverkoperWatverkoopthijWerkthijineengrotestadofineenkleindorpjeWatdenktu
+
+35
+00:05:53,740 --> 00:05:55,880
+Hijverkooptkleding
+
+36
+00:05:57,660 --> 00:06:01,240
+Ikdenkdathijineengrotestadwerkt
+
+37
+00:06:07,100 --> 00:06:09,380
+Kijknaardeplaatjes
+
+38
+00:06:12,280 --> 00:06:26,460
+HoedoetudeboodschappenIndegewonesupermarktofonlineVertelookinwelkewinkelofopwelkewebsiteudeboodschappendoet
+
+39
+00:06:44,700 --> 00:06:47,780
+Ikdoedeboodschappenonline
+
+40
+00:06:49,280 --> 00:06:51,440
+IkdoedeboodschappenbijAlbertHeijn
+
+41
+00:06:57,500 --> 00:06:59,820
+Kijknaardeplaatjes
+
+42
+00:07:03,980 --> 00:07:11,760
+UziethiertweedrankjesWatkiestuomtedrinkenenhoevaakdrinktudat
+
+43
+00:07:29,820 --> 00:07:34,800
+Ik drink liever koffie. Ik drink elke dag koffie.
+
+44
+00:07:41,140 --> 00:07:46,320
+AdriaanispolitieagentKijknaardeplaatjes
+
+45
+00:07:49,980 --> 00:07:53,880
+VertelwathijmoetdoenGebruikalleplaatjes
+
+46
+00:08:11,780 --> 00:08:18,500
+Hijcontroleertdesnelheidvanauto'sHijgeefteenboete
+
+47
+00:08:20,620 --> 00:08:22,060
+Hijwerktopkantoor
+
+48
+00:08:28,440 --> 00:08:33,560
+TessstaatindefileKijknaardeplaatjes
+
+49
+00:08:37,380 --> 00:08:41,200
+VertelwatzijdoetGebruikalleplaatjes
+
+50
+00:08:59,460 --> 00:09:04,260
+ZijdrinkttheeZijkijktindespiegel
+
+51
+00:09:05,960 --> 00:09:07,880
+Zijkijktophaartelefoon
+
+52
+00:09:11,580 --> 00:09:16,320
+DitwaseenvoorbeeldexamenSpreekvaardigheidA2
+
+53
+00:09:18,200 --> 00:09:19,700
+Succesbijhetechteexamen
