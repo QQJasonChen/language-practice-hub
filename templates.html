@@ -72,7 +72,7 @@
 <body>
 <div class="hdr"><a href="index.html">← 返回</a><h1>📝 口說練習</h1></div>
 <div class="tabs">
-  <button class="tab active" onclick="sw('tmpl')">🧩 模板 40</button>
+  <button class="tab active" onclick="sw('tmpl')">🧩 模板 93</button>
   <button class="tab" onclick="sw('quest')">❓ 考題 124</button>
   <button class="tab" onclick="sw('flash')">🔤 翻牌 488</button>
 </div>
@@ -87,10 +87,29 @@ function sw(m){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('
 function esc(t){return t?t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'):''}
 
 // ── 模板 Tab: 每張卡 = 1考題 + 1模板 + 1範例 ──
+let tmplF = 'all';
 function renderTmpl(){
   const cards = DATA.cards || [];
+  cards.forEach(c => {
+    if (c._cat) return;
+    const q = (c.question + ' ' + (c.template||'')).toLowerCase();
+    if (/vakantie|reis/.test(q)) c._cat = '假期旅行';
+    else if (/taal|moedertaal|spreek/.test(q)) c._cat = '語言';
+    else if (/familie|broer|zus|kind/.test(q)) c._cat = '家庭';
+    else if (/ochtend|dag begint|opstaat|dagrit/.test(q)) c._cat = '日常作息';
+    else if (/woon|buur|huis|stad|straat|hoofdstad/.test(q)) c._cat = '居住';
+    else if (/gezond|sport|eet|drink|pauze|fruit/.test(q)) c._cat = '健康飲食';
+    else if (/werk|baan|moet.*doen|collega|cursus/.test(q)) c._cat = '工作學習';
+    else if (/liever|het liefst|vind.*leuk|kies/.test(q)) c._cat = '偏好選擇';
+    else if (/boos|blij|bang|verjaardag|feest/.test(q)) c._cat = '情緒生活';
+    else if (/koop|winkel|geld|boodschap/.test(q)) c._cat = '購物';
+    else if (/auto|fiets|bus|trein|reis/.test(q)) c._cat = '交通';
+    else c._cat = '其他';
+  });
+  const cats = {}; cards.forEach(c => { cats[c._cat] = (cats[c._cat]||0)+1; });
+  const filtered = tmplF === 'all' ? cards : cards.filter(c => c._cat === tmplF);
   document.getElementById('p-tmpl').innerHTML =
-    `<div style="color:var(--muted);font-size:12px;margin-bottom:12px">每張卡片 = 1 個考題 + 專屬模板 + 範例回答</div>` +
+    `<div class="pills"><div class="pill ${tmplF==='all'?'on':''}" onclick="tmplF='all';renderTmpl()">全部 ${cards.length}</div>${Object.entries(cats).sort((a,b)=>b[1]-a[1]).map(([c,n])=>`<div class="pill ${tmplF===c?'on':''}" onclick="tmplF='${c}';renderTmpl()">${c} ${n}</div>`).join('')}</div>` +
     cards.map((c, i) => {
       const tmplHtml = esc(c.template).replace(/\[([^\]]+)\]/g, '<em>[$1]</em>');
       return `<div class="card">
