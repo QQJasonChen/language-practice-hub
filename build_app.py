@@ -10,12 +10,11 @@ def main():
     output_dir = 'output'
     videos = []
 
-    # Custom sort: pin specific videos first
-    PIN_FIRST = ['_iC1Pooi2UA']  # Luisteren exam first
-    all_ids = sorted(os.listdir(output_dir))
-    all_ids = [v for v in PIN_FIRST if v in all_ids] + [v for v in all_ids if v not in PIN_FIRST]
+    # Collect all videos first, then sort
+    all_ids = [v for v in os.listdir(output_dir) if v not in ['Dt_UbEyYqUo', 'eBVlVfAMtWc']]
 
-    for video_id in [v for v in all_ids if v not in ['Dt_UbEyYqUo', 'eBVlVfAMtWc']]:
+    # We'll sort after collecting data
+    for video_id in all_ids:
         data_path = os.path.join(output_dir, video_id, 'data.json')
         if not os.path.isfile(data_path):
             continue
@@ -35,6 +34,25 @@ def main():
             'native': data.get('native', 'zh-TW'),
             'segments': len(ai.get('segments', [])),
         })
+
+    # Sort: Luisteren first, then by exam number
+    import re
+    def sort_key(v):
+        t = v['title']
+        # Luisteren always first
+        if 'luisteren' in t.lower(): return (0, 0, t)
+        # Tips second
+        if 'TIPS' in t or 'tips' in t: return (1, 0, t)
+        # Extract exam number
+        m = re.search(r'[Oo]efenexamen\s*(\d+)', t)
+        num = int(m.group(1)) if m else 99
+        # Group by channel
+        ch = v.get('channel', '')
+        if 'Ad Appel' in ch: return (2, num, t)
+        if 'Frederika' in ch or 'LearnDutch' in ch: return (3, num, t)
+        return (4, num, t)
+
+    videos.sort(key=sort_key)
 
     print(f"Found {len(videos)} videos:")
     for v in videos:
