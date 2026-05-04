@@ -729,22 +729,15 @@ function jumpToLine(idx) {
   setActiveDialogueLine(idx);
   if (dictationMode) { const lines = document.querySelectorAll('.dialogue-line'); if(lines[idx]) lines[idx].classList.add('revealed'); }
   const s = segments[idx];
-  if (s && isFinite(audio.duration)) {
-    audio.pause();
-    audio.currentTime = s.start;
-    // Wait for seek to complete before playing (iOS fix)
-    const onSeeked = () => {
-      audio.removeEventListener('seeked', onSeeked);
-      audio.play().then(() => setPlayButton(true)).catch(() => {});
-      updateProgressUI();
-    };
-    audio.addEventListener('seeked', onSeeked);
-    // Fallback if seeked doesn't fire
-    setTimeout(() => {
-      audio.removeEventListener('seeked', onSeeked);
-      if (audio.paused) audio.play().then(() => setPlayButton(true)).catch(() => {});
-    }, 300);
-  }
+  if (!s) return;
+
+  // iOS: audio might not have duration yet, but we can still seek and play
+  audio.currentTime = s.start;
+  audio.play().then(() => setPlayButton(true)).catch(() => {
+    // iOS first-play might fail — try again on next user tap
+    setPlayButton(false);
+  });
+  updateProgressUI();
 }
 
 let loopRangeStart = null; // for multi-line loop selection
@@ -934,6 +927,13 @@ audio.addEventListener('timeupdate', function() {
 });
 audio.addEventListener('ended', () => setPlayButton(false));
 audio.addEventListener('loadedmetadata', () => { renderSegmentMarkers(); updateProgressUI(); });
+
+// iOS fix: rAF-based sync (timeupdate fires too infrequently on iOS)
+function iosSyncLoop() {
+  if (!audio.paused) updateProgressUI();
+  requestAnimationFrame(iosSyncLoop);
+}
+iosSyncLoop();
 
 // ── Echo Method (flicker-free engine) ──
 let echoState = { active: false, lineIdx: 0, phase: 'idle', timers: [], animId: null, cycleId: 0 };
