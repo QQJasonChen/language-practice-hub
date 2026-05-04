@@ -343,12 +343,6 @@ function renderCards() {
 
 function go(id) {
   localStorage.setItem('hub_last_video', id);
-  if (window.innerWidth >= 769) {
-    document.getElementById('desktop-panel').innerHTML = `<iframe src="output/${id}/index.html"></iframe>`;
-    document.querySelectorAll('.card').forEach(c => c.style.borderColor = 'var(--glass-border)');
-    if (event && event.currentTarget) event.currentTarget.style.borderColor = 'var(--accent)';
-    return;
-  }
   window.location.href = `output/${id}/index.html`;
 }
 
