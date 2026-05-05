@@ -667,8 +667,8 @@
   <div class="echo-actions">
     <button class="echo-action" onclick="echoBookmark()">🔖 書籤</button>
     <button class="echo-action" onclick="echoExplain()">💡 解析</button>
-    <button class="echo-action" onclick="echoRec()">🎙️ 錄音</button>
-    <button class="echo-action" onclick="closeEcho()">✕ 結束</button>
+    <button class="echo-action" id="echo-rec-btn" onclick="echoRecToggle()">🎙️ 錄音</button>
+    <button class="echo-action" onclick="closeEcho()" style="background:var(--accent);color:#fff;border-color:var(--accent);font-weight:700">✕ 結束</button>
   </div>
   <div class="echo-settings">
     <label>迴音 <input type="range" id="echo-pause" min="2" max="10" step="0.5" value="6"> <span id="echo-pause-label">6s</span></label>
@@ -1050,8 +1050,25 @@ function echoBookmark() {
 function echoExplain() {
   explainLine(echoState.lineIdx);
 }
-function echoRec() {
-  toggleRec(echoState.lineIdx);
+function echoRecToggle() {
+  const btn = document.getElementById('echo-rec-btn');
+  if (recState.recording) {
+    stopRec();
+    btn.textContent = '🎙️ 錄音';
+    btn.style.color = '';
+    btn.style.borderColor = '';
+  } else {
+    // Pause echo first
+    if (!echoPaused) toggleEchoPause();
+    audio.pause();
+    startRec(echoState.lineIdx).then(() => {
+      btn.textContent = '⏹ 停止';
+      btn.style.color = 'var(--accent)';
+      btn.style.borderColor = 'var(--accent)';
+    }).catch(() => {
+      alert('無法存取麥克風');
+    });
+  }
 }
 
 function echoPrev() {
