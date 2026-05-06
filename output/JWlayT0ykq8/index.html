@@ -350,13 +350,10 @@
   .back-btn:hover { border-color: var(--accent); }
   [data-theme="light"] .back-btn { background: #fff; border-color: #ccc; }
 
-  /* Shortcuts button */
-  .shortcuts-btn { position: fixed; top: 10px; right: 10px; background: var(--card); border: 1px solid var(--glass-border); color: var(--dim); width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 14px; z-index: 50; display: flex; align-items: center; justify-content: center; }
-  .shortcuts-btn:hover { border-color: var(--accent); color: var(--text); }
-  .shortcuts-panel { display:none; position:fixed; top:50px; right:10px; background:var(--card-solid,#14142a); border:1px solid var(--glass-border); border-radius:12px; padding:14px 18px; z-index:51; font-size:12px; line-height:2; min-width:200px; box-shadow:0 8px 30px rgba(0,0,0,0.5); }
-  .shortcuts-panel.open { display:block; }
-  .shortcuts-panel kbd { background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.15); padding:1px 6px; border-radius:4px; font-family:monospace; font-size:11px; }
-  .shortcuts-panel .sh-close { position:absolute; top:6px; right:10px; background:none; border:none; color:var(--dim); cursor:pointer; font-size:14px; }
+  /* Theme toggle */
+  .theme-toggle { position: fixed; top: 10px; right: 10px; background: var(--card); border: 1px solid #333; color: var(--text); width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 1.1em; z-index: 50; display: flex; align-items: center; justify-content: center; transition: all 0.3s; }
+  .theme-toggle:hover { border-color: var(--accent); }
+  [data-theme="light"] .theme-toggle { background: #fff; border-color: #ccc; }
 
   /* Progress bar in header */
   .progress-summary { display: flex; gap: 8px; align-items: center; margin-top: 6px; font-size: 0.75em; color: var(--muted); }
@@ -501,17 +498,7 @@
 </head>
 <body>
 <button class="wake-lock-btn" id="wake-btn" onclick="toggleWakeLock()" title="螢幕常亮">☀️</button>
-<button class="shortcuts-btn" onclick="document.getElementById('shortcuts-panel').classList.toggle('open')" title="快捷鍵">⌨️</button>
-<div class="shortcuts-panel" id="shortcuts-panel">
-  <button class="sh-close" onclick="this.parentElement.classList.remove('open')">✕</button>
-  <div><kbd>Space</kbd> 播放/暫停</div>
-  <div><kbd>←</kbd> <kbd>→</kbd> ±3 秒</div>
-  <div><kbd>Shift</kbd>+<kbd>←</kbd> <kbd>→</kbd> 上/下句</div>
-  <div><kbd>A</kbd> 設A點 · <kbd>B</kbd> 設B點</div>
-  <div><kbd>L</kbd> Loop · <kbd>C</kbd> 清除</div>
-  <div><kbd>Z</kbd> 翻譯 · <kbd>D</kbd> 聽寫</div>
-  <div><kbd>E</kbd> Echo · <kbd>Esc</kbd> 關閉</div>
-</div>
+<button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">🌙</button>
 
 <div class="container">
   <!-- Compact top bar -->
@@ -772,7 +759,7 @@ let loopRangeStart = null; // for multi-line loop selection
 function loopLine(idx) {
   const s = segments[idx]; if (!s) return;
 
-  // If range start is set, this click sets the end → multi-line loop
+  // Multi-line loop: first click sets start, second click sets end
   if (loopRangeStart !== null && loopRangeStart !== idx) {
     const from = Math.min(loopRangeStart, idx);
     const to = Math.max(loopRangeStart, idx);
@@ -780,6 +767,8 @@ function loopLine(idx) {
     pointB = segments[to].end;
     loopEnabled = true; loopCount = 0;
     document.getElementById('loop-btn').classList.add('active');
+    document.getElementById('set-a-btn').classList.add('active');
+    document.getElementById('set-b-btn').classList.add('active');
     syncABLabels();
     audio.currentTime = pointA;
     updateProgressUI();
@@ -787,64 +776,43 @@ function loopLine(idx) {
     // Highlight range
     const lines = document.querySelectorAll('.dialogue-line');
     lines.forEach((l, i) => l.classList.toggle('highlight', i >= from && i <= to));
-    const btns = document.querySelectorAll('.line-repeat-btn');
-    btns.forEach((b, i) => {
-      if (i >= from && i <= to) { b.style.color = 'var(--accent)'; b.style.opacity = '1'; }
-      else { b.style.color = ''; b.style.opacity = ''; }
-    });
     loopRangeStart = null;
     return;
   }
 
-  // If already looping and clicking within the loop range → cancel
-  if (loopEnabled && pointA !== null && pointB !== null) {
-    const loopA = Math.min(pointA, pointB), loopB = Math.max(pointA, pointB);
-    if (s.start >= loopA - 0.5 && s.end <= loopB + 0.5) {
-      // Clicked inside loop range → cancel
-      clearAB();
-      document.querySelectorAll('.line-repeat-btn').forEach(el => { el.style.color = ''; el.style.opacity = ''; });
-      document.querySelectorAll('.dialogue-line').forEach(l => l.classList.remove('highlight'));
-      loopRangeStart = null;
-      return;
-    }
-    // Clicked outside loop range → extend to this sentence
-    const from = segments.findIndex(seg => Math.abs(seg.start - loopA) < 0.5);
-    const to = idx;
-    const realFrom = Math.min(from >= 0 ? from : idx, to);
-    const realTo = Math.max(from >= 0 ? from : idx, to);
-    pointA = segments[realFrom].start;
-    pointB = segments[realTo].end;
-    syncABLabels();
-    audio.currentTime = pointA;
-    audio.play().then(() => setPlayButton(true)).catch(() => {});
+  // Single click: if no range active, start range OR single loop
+  // Hold shift for range mode
+  if (window._shiftHeld) {
+    loopRangeStart = idx;
+    // Visual feedback
     const lines = document.querySelectorAll('.dialogue-line');
-    lines.forEach((l, i) => l.classList.toggle('highlight', i >= realFrom && i <= realTo));
-    const btns = document.querySelectorAll('.line-repeat-btn');
-    btns.forEach((btn, i) => {
-      if (i >= realFrom && i <= realTo) { btn.style.color = 'var(--accent)'; btn.style.opacity = '1'; }
-      else { btn.style.color = ''; btn.style.opacity = ''; }
-    });
+    lines[idx].style.boxShadow = 'inset 3px 0 0 var(--green), inset -3px 0 0 var(--green)';
     return;
   }
 
-  // First tap: single line loop + set as range start for potential multi-select
+  // Toggle: if already looping this line, cancel and show feedback
+  if (loopEnabled && Math.abs(pointA - s.start) < 0.5 && Math.abs(pointB - s.end) < 0.5) {
+    clearAB();
+    // Reset all loop button styles
+    document.querySelectorAll('.line-repeat-btn').forEach(b => { b.style.color = ''; b.style.opacity = ''; });
+    return;
+  }
+
+  // Default: single line loop
   pointA = s.start; pointB = s.end;
   loopEnabled = true; loopCount = 0;
   document.getElementById('loop-btn').classList.add('active');
+  document.getElementById('set-a-btn').classList.add('active');
+  document.getElementById('set-b-btn').classList.add('active');
   syncABLabels();
   audio.currentTime = s.start;
   updateProgressUI();
   audio.play().then(() => setPlayButton(true)).catch(() => {});
   setActiveDialogueLine(idx);
-
-  // Visual feedback
+  // Visual feedback on the 🔁 button
   const btns = document.querySelectorAll('.line-repeat-btn');
   btns.forEach(b => { b.style.color = ''; b.style.opacity = ''; });
   if (btns[idx]) { btns[idx].style.color = 'var(--accent)'; btns[idx].style.opacity = '1'; }
-
-  // Set as range start — if user taps another 🔁 within 5s, it becomes multi-line
-  loopRangeStart = idx;
-  setTimeout(() => { if (loopRangeStart === idx) loopRangeStart = null; }, 5000);
 }
 
 function prevSentence() { jumpToLine(Math.max(0, (activeLineIndex || 0) - 1)); }
