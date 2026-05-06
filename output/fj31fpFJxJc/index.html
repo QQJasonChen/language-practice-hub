@@ -798,17 +798,17 @@ function loopLine(idx) {
 
   // If already looping and clicking within the loop range → cancel
   if (loopEnabled && pointA !== null && pointB !== null) {
-    const a = Math.min(pointA, pointB), b = Math.max(pointA, pointB);
-    if (s.start >= a - 0.5 && s.end <= b + 0.5) {
+    const loopA = Math.min(pointA, pointB), loopB = Math.max(pointA, pointB);
+    if (s.start >= loopA - 0.5 && s.end <= loopB + 0.5) {
       // Clicked inside loop range → cancel
       clearAB();
-      document.querySelectorAll('.line-repeat-btn').forEach(b => { b.style.color = ''; b.style.opacity = ''; });
+      document.querySelectorAll('.line-repeat-btn').forEach(el => { el.style.color = ''; el.style.opacity = ''; });
       document.querySelectorAll('.dialogue-line').forEach(l => l.classList.remove('highlight'));
       loopRangeStart = null;
       return;
     }
     // Clicked outside loop range → extend to this sentence
-    const from = segments.findIndex(seg => Math.abs(seg.start - a) < 0.5);
+    const from = segments.findIndex(seg => Math.abs(seg.start - loopA) < 0.5);
     const to = idx;
     const realFrom = Math.min(from >= 0 ? from : idx, to);
     const realTo = Math.max(from >= 0 ? from : idx, to);
