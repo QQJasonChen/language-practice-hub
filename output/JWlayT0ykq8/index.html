@@ -856,11 +856,9 @@ jumpToLine = function(idx) {
         lines[idx].scrollIntoView({behavior:'smooth', block:'center'});
       }
     } else {
-      // Second click — set loop range + clear preview styles
+      // Second click — highlight entire range
       var from = Math.min(multiLoopFirst, idx);
       var to = Math.max(multiLoopFirst, idx);
-      var allLines = document.querySelectorAll('.dialogue-line');
-      allLines.forEach(function(l) { l.style.background = ''; l.style.borderLeft = ''; });
       pointA = segments[from].start;
       pointB = segments[to].end;
       loopEnabled = true;
@@ -869,11 +867,16 @@ jumpToLine = function(idx) {
       syncABLabels();
       audio.currentTime = pointA;
       audio.play().then(function() { setPlayButton(true); }).catch(function() {});
-      // Highlight range
-      var lines2 = document.querySelectorAll('.dialogue-line');
-      lines2.forEach(function(l, i) {
-        l.classList.toggle('highlight', i >= from && i <= to);
-        l.style.borderRight = '';
+      // Highlight ALL lines in range with green
+      var allLines = document.querySelectorAll('.dialogue-line');
+      allLines.forEach(function(l, i) {
+        if (i >= from && i <= to) {
+          l.style.background = 'rgba(52,211,153,0.12)';
+          l.style.borderLeft = '4px solid var(--green)';
+        } else {
+          l.style.background = '';
+          l.style.borderLeft = '';
+        }
       });
       // Exit multi-loop mode
       multiLoopMode = false;
