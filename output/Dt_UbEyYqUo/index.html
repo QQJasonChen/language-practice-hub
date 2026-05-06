@@ -759,7 +759,7 @@ let loopRangeStart = null; // for multi-line loop selection
 function loopLine(idx) {
   const s = segments[idx]; if (!s) return;
 
-  // Multi-line loop: first click sets start, second click sets end
+  // If range start is set, this click sets the end → multi-line loop
   if (loopRangeStart !== null && loopRangeStart !== idx) {
     const from = Math.min(loopRangeStart, idx);
     const to = Math.max(loopRangeStart, idx);
@@ -767,8 +767,6 @@ function loopLine(idx) {
     pointB = segments[to].end;
     loopEnabled = true; loopCount = 0;
     document.getElementById('loop-btn').classList.add('active');
-    document.getElementById('set-a-btn').classList.add('active');
-    document.getElementById('set-b-btn').classList.add('active');
     syncABLabels();
     audio.currentTime = pointA;
     updateProgressUI();
@@ -776,43 +774,42 @@ function loopLine(idx) {
     // Highlight range
     const lines = document.querySelectorAll('.dialogue-line');
     lines.forEach((l, i) => l.classList.toggle('highlight', i >= from && i <= to));
+    const btns = document.querySelectorAll('.line-repeat-btn');
+    btns.forEach((b, i) => {
+      if (i >= from && i <= to) { b.style.color = 'var(--accent)'; b.style.opacity = '1'; }
+      else { b.style.color = ''; b.style.opacity = ''; }
+    });
     loopRangeStart = null;
     return;
   }
 
-  // Single click: if no range active, start range OR single loop
-  // Hold shift for range mode
-  if (window._shiftHeld) {
-    loopRangeStart = idx;
-    // Visual feedback
-    const lines = document.querySelectorAll('.dialogue-line');
-    lines[idx].style.boxShadow = 'inset 3px 0 0 var(--green), inset -3px 0 0 var(--green)';
-    return;
-  }
-
-  // Toggle: if already looping this line, cancel and show feedback
-  if (loopEnabled && Math.abs(pointA - s.start) < 0.5 && Math.abs(pointB - s.end) < 0.5) {
+  // Toggle: if already looping, cancel
+  if (loopEnabled) {
     clearAB();
-    // Reset all loop button styles
     document.querySelectorAll('.line-repeat-btn').forEach(b => { b.style.color = ''; b.style.opacity = ''; });
+    document.querySelectorAll('.dialogue-line').forEach(l => l.classList.remove('highlight'));
+    loopRangeStart = null;
     return;
   }
 
-  // Default: single line loop
+  // First tap: single line loop + set as range start for potential multi-select
   pointA = s.start; pointB = s.end;
   loopEnabled = true; loopCount = 0;
   document.getElementById('loop-btn').classList.add('active');
-  document.getElementById('set-a-btn').classList.add('active');
-  document.getElementById('set-b-btn').classList.add('active');
   syncABLabels();
   audio.currentTime = s.start;
   updateProgressUI();
   audio.play().then(() => setPlayButton(true)).catch(() => {});
   setActiveDialogueLine(idx);
-  // Visual feedback on the 🔁 button
+
+  // Visual feedback
   const btns = document.querySelectorAll('.line-repeat-btn');
   btns.forEach(b => { b.style.color = ''; b.style.opacity = ''; });
   if (btns[idx]) { btns[idx].style.color = 'var(--accent)'; btns[idx].style.opacity = '1'; }
+
+  // Set as range start — if user taps another 🔁 within 5s, it becomes multi-line
+  loopRangeStart = idx;
+  setTimeout(() => { if (loopRangeStart === idx) loopRangeStart = null; }, 5000);
 }
 
 function prevSentence() { jumpToLine(Math.max(0, (activeLineIndex || 0) - 1)); }
