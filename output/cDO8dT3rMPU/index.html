@@ -942,12 +942,23 @@ audio.addEventListener('timeupdate', function() {
 audio.addEventListener('ended', () => setPlayButton(false));
 audio.addEventListener('loadedmetadata', () => { renderSegmentMarkers(); updateProgressUI(); });
 
-// iOS fix: rAF-based sync (timeupdate fires too infrequently on iOS)
-function iosSyncLoop() {
-  if (!audio.paused) updateProgressUI();
-  requestAnimationFrame(iosSyncLoop);
+// rAF-based sync for smooth scrolling + reliable loop
+function syncLoop() {
+  if (!audio.paused) {
+    updateProgressUI();
+    // AB Loop check (more reliable than timeupdate)
+    if (loopEnabled && pointA !== null && pointB !== null) {
+      const a = Math.min(pointA, pointB), b = Math.max(pointA, pointB);
+      if (audio.currentTime >= b) {
+        audio.currentTime = a;
+        loopCount++;
+        document.getElementById('loop-count').textContent = loopCount;
+      }
+    }
+  }
+  requestAnimationFrame(syncLoop);
 }
-iosSyncLoop();
+syncLoop();
 
 // ── Echo Method (flicker-free engine) ──
 let echoState = { active: false, lineIdx: 0, phase: 'idle', timers: [], animId: null, cycleId: 0 };
