@@ -537,6 +537,7 @@
     </div>
     <div class="player-actions">
       <button class="pa-btn" onclick="toggleExtraControls()">⚙ AB Loop</button>
+      <button class="pa-btn" id="multi-loop-btn" onclick="toggleMultiLoop()" style="display:inline">📌 多句</button>
       <button class="pa-btn" onclick="prevSentence()">⏮</button>
       <button class="pa-btn" onclick="nextSentence()">⏭</button>
       <span id="progress-text" style="font-size:10px;color:var(--dim);margin-left:auto;font-weight:600">0/0</span>
@@ -814,6 +815,71 @@ function loopLine(idx) {
   btns.forEach(b => { b.style.color = ''; b.style.opacity = ''; });
   if (btns[idx]) { btns[idx].style.color = 'var(--accent)'; btns[idx].style.opacity = '1'; }
 }
+
+// ── Multi-line Loop (separate from single 🔁) ──
+let multiLoopMode = false;
+let multiLoopFirst = null;
+
+function toggleMultiLoop() {
+  const btn = document.getElementById('multi-loop-btn');
+  if (multiLoopMode) {
+    // Cancel multi-loop select mode
+    multiLoopMode = false;
+    multiLoopFirst = null;
+    btn.style.background = '';
+    btn.style.color = '';
+    btn.textContent = '📌 多句';
+    document.querySelectorAll('.dialogue-line').forEach(function(l) { l.style.borderRight = ''; });
+    return;
+  }
+  // Enter select mode
+  multiLoopMode = true;
+  btn.style.background = 'var(--green)';
+  btn.style.color = '#000';
+  btn.textContent = '📌 選第1句...';
+}
+
+// Hook into line clicks for multi-loop
+var _origJumpToLine2 = jumpToLine;
+jumpToLine = function(idx) {
+  if (multiLoopMode) {
+    var btn = document.getElementById('multi-loop-btn');
+    if (multiLoopFirst === null) {
+      // First click
+      multiLoopFirst = idx;
+      btn.textContent = '📌 選第2句...';
+      var lines = document.querySelectorAll('.dialogue-line');
+      lines.forEach(function(l) { l.style.borderRight = ''; });
+      if (lines[idx]) lines[idx].style.borderRight = '3px solid var(--green)';
+    } else {
+      // Second click — set loop range
+      var from = Math.min(multiLoopFirst, idx);
+      var to = Math.max(multiLoopFirst, idx);
+      pointA = segments[from].start;
+      pointB = segments[to].end;
+      loopEnabled = true;
+      loopCount = 0;
+      document.getElementById('loop-btn').classList.add('active');
+      syncABLabels();
+      audio.currentTime = pointA;
+      audio.play().then(function() { setPlayButton(true); }).catch(function() {});
+      // Highlight range
+      var lines2 = document.querySelectorAll('.dialogue-line');
+      lines2.forEach(function(l, i) {
+        l.classList.toggle('highlight', i >= from && i <= to);
+        l.style.borderRight = '';
+      });
+      // Exit multi-loop mode
+      multiLoopMode = false;
+      multiLoopFirst = null;
+      btn.style.background = '';
+      btn.style.color = '';
+      btn.textContent = '📌 多句';
+    }
+    return;
+  }
+  _origJumpToLine2(idx);
+};
 
 function prevSentence() { jumpToLine(Math.max(0, (activeLineIndex || 0) - 1)); }
 function nextSentence() { jumpToLine(Math.min(segments.length - 1, (activeLineIndex || 0) + 1)); }
