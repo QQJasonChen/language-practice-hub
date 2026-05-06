@@ -793,9 +793,8 @@ function loopLine(idx) {
   // Toggle: if already looping this line, cancel and show feedback
   if (loopEnabled && Math.abs(pointA - s.start) < 0.5 && Math.abs(pointB - s.end) < 0.5) {
     clearAB();
-    // Flash the button to show it's cancelled
-    const btn = document.querySelectorAll('.line-repeat-btn')[idx];
-    if (btn) { btn.style.color = 'var(--green)'; setTimeout(() => btn.style.color = '', 500); }
+    // Reset all loop button styles
+    document.querySelectorAll('.line-repeat-btn').forEach(b => { b.style.color = ''; b.style.opacity = ''; });
     return;
   }
 
@@ -810,6 +809,10 @@ function loopLine(idx) {
   updateProgressUI();
   audio.play().then(() => setPlayButton(true)).catch(() => {});
   setActiveDialogueLine(idx);
+  // Visual feedback on the 🔁 button
+  const btns = document.querySelectorAll('.line-repeat-btn');
+  btns.forEach(b => { b.style.color = ''; b.style.opacity = ''; });
+  if (btns[idx]) { btns[idx].style.color = 'var(--accent)'; btns[idx].style.opacity = '1'; }
 }
 
 function prevSentence() { jumpToLine(Math.max(0, (activeLineIndex || 0) - 1)); }
