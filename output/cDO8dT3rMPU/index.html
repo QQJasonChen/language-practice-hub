@@ -845,16 +845,22 @@ jumpToLine = function(idx) {
   if (multiLoopMode) {
     var btn = document.getElementById('multi-loop-btn');
     if (multiLoopFirst === null) {
-      // First click
+      // First click — highlight it clearly
       multiLoopFirst = idx;
       btn.textContent = '📌 選第2句...';
       var lines = document.querySelectorAll('.dialogue-line');
-      lines.forEach(function(l) { l.style.borderRight = ''; });
-      if (lines[idx]) lines[idx].style.borderRight = '3px solid var(--green)';
+      lines.forEach(function(l) { l.style.background = ''; l.style.borderLeft = ''; });
+      if (lines[idx]) {
+        lines[idx].style.background = 'rgba(52,211,153,0.15)';
+        lines[idx].style.borderLeft = '4px solid var(--green)';
+        lines[idx].scrollIntoView({behavior:'smooth', block:'center'});
+      }
     } else {
-      // Second click — set loop range
+      // Second click — set loop range + clear preview styles
       var from = Math.min(multiLoopFirst, idx);
       var to = Math.max(multiLoopFirst, idx);
+      var allLines = document.querySelectorAll('.dialogue-line');
+      allLines.forEach(function(l) { l.style.background = ''; l.style.borderLeft = ''; });
       pointA = segments[from].start;
       pointB = segments[to].end;
       loopEnabled = true;
