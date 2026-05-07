@@ -553,8 +553,14 @@
     <button class="tab" onclick="switchTab('review')">🔄 複習</button>
     <button class="tab" onclick="switchTab('quiz')">📝 測驗</button>
     <button class="tab" onclick="switchTab('vocab')">📚 詞彙</button>
+    <button class="tab" onclick="switchTab('looked')">🔍 已查 <span id="looked-count"></span></button>
   </div>
 
+  <div class="tab-content" id="tab-looked">
+    <div class="quiz-box" id="looked-box">
+      <p style="color:var(--muted);text-align:center;padding:20px">還沒有查過的句子</p>
+    </div>
+  </div>
   <div class="tab-content" id="tab-review">
     <div class="quiz-box" id="review-box">
       <p style="color:var(--muted);text-align:center;padding:20px">載入複習清單...</p>
@@ -1727,6 +1733,7 @@ function doExplain(idx, apiKey) {
       html = html.replace(/```html?\n?/g, '').replace(/```/g, '');
       explainCache[idx] = html;
       saveExplainCache();
+      document.getElementById('looked-count').textContent = '(' + Object.keys(explainCache).length + ')';
       document.getElementById('explain-content').innerHTML = html;
     } catch(e) {
       document.getElementById('explain-content').innerHTML = `<div style="color:var(--accent)">❌ 解析錯誤: ${e.message}<br><small>${xhr.responseText?.substring(0,100)}</small></div>`;
@@ -2276,6 +2283,32 @@ audio.addEventListener('play', () => {
     firstPlay = false;
   }
 });
+
+// ── Looked-up sentences ──
+function renderLooked() {
+  const box = document.getElementById('looked-box');
+  const keys = Object.keys(explainCache).map(Number).sort((a,b) => a - b);
+  document.getElementById('looked-count').textContent = keys.length ? `(${keys.length})` : '';
+  if (!keys.length) {
+    box.innerHTML = '<p style="color:var(--muted);text-align:center;padding:20px">還沒有查過的句子。點對話旁的 💡 查詢。</p>';
+    return;
+  }
+  box.innerHTML = keys.map(function(idx) {
+    var s = segments[idx];
+    if (!s) return '';
+    var cached = explainCache[idx];
+    return '<div style="background:var(--card);border:1px solid var(--glass-border);border-radius:12px;padding:14px;margin-bottom:8px;cursor:pointer" onclick="this.querySelector(\'.looked-detail\').style.display=this.querySelector(\'.looked-detail\').style.display===\'none\'?\'block\':\'none\'">' +
+      '<div style="font-size:14px;font-weight:600;line-height:1.6">' + escapeHtml(s.text) + '</div>' +
+      (s.translation ? '<div style="font-size:12px;color:var(--dim);margin-top:2px">' + escapeHtml(s.translation) + '</div>' : '') +
+      '<div style="font-size:11px;color:var(--muted);margin-top:4px">點擊展開解析</div>' +
+      '<div class="looked-detail" style="display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--glass-border);font-size:13px;line-height:1.8">' + cached + '</div>' +
+      '</div>';
+  }).join('');
+}
+
+// Override switchTab to also render looked
+var _origSwitchTab = switchTab;
+switchTab = function(tab) { _origSwitchTab(tab); if (tab === 'looked') renderLooked(); };
 
 loadTheme();
 init();
