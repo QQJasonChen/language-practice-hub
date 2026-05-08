@@ -498,6 +498,7 @@
 </head>
 <body>
 <button class="wake-lock-btn" id="wake-btn" onclick="toggleWakeLock()" title="螢幕常亮">☀️</button>
+<button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()">🌙</button>
 
 <div class="container">
   <!-- Compact top bar -->
@@ -1058,9 +1059,7 @@ function openEcho() {
   if (!segments.length) return;
   echoClearAll();
   echoState.active = true;
-  // Resume from last Echo position if available
-  var savedEchoIdx = store.echoProgress || 0;
-  echoState.lineIdx = activeLineIndex || savedEchoIdx;
+  echoState.lineIdx = activeLineIndex || 0;
   echoState.phase = 'idle';
   document.getElementById('echo-overlay').classList.add('active');
   setPlayButton(false);
@@ -1082,9 +1081,6 @@ function updateEchoUI() {
   document.getElementById('echo-sentence').innerHTML = s
     ? `<div><div class="nl">${escapeHtml(s.text)}</div>${s.translation ? `<div class="zh">${escapeHtml(s.translation)}</div>` : ''}</div>`
     : '';
-  // Save Echo progress
-  store.echoProgress = echoState.lineIdx;
-  saveStore(store);
 }
 
 function setEchoPhase(phase, emoji, text) {
