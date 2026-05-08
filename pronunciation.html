@@ -1,368 +1,179 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>荷蘭文發音完整講義 | A2 融入考試</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<title>Echo Dutch — 發音 Echo 練習</title>
 <style>
-  :root { --navy: #14213d; --orange: #ff8200; --blue: #4191dc; --bg: #f8f9fa; --card: #fff; --text: #333; --muted: #666; }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
-  .container { max-width: 900px; margin: 0 auto; padding: 16px; }
-  header { background: var(--navy); color: #fff; padding: 32px 24px; text-align: center; border-radius: 12px; margin-bottom: 24px; }
-  header h1 { font-size: 28px; margin-bottom: 8px; }
-  header p { color: #aab; font-size: 14px; }
-  .toc { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
-  .toc h2 { font-size: 18px; margin-bottom: 12px; color: var(--navy); }
-  .toc a { display: inline-block; margin: 4px 6px; padding: 6px 14px; background: #eef3f8; border-radius: 20px; text-decoration: none; color: var(--navy); font-size: 14px; transition: all 0.2s; }
-  .toc a:hover { background: var(--orange); color: #fff; }
-  section { background: var(--card); border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
-  section h2 { color: var(--navy); font-size: 22px; margin-bottom: 4px; padding-bottom: 8px; border-bottom: 3px solid var(--orange); }
-  section h2 .emoji { font-size: 24px; }
-  .section-desc { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
-  .sound-group { margin-bottom: 20px; }
-  .sound-group h3 { font-size: 17px; color: var(--navy); margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
-  .sound-label { display: inline-block; background: var(--orange); color: #fff; padding: 2px 10px; border-radius: 12px; font-size: 14px; font-weight: bold; }
-  .pronunciation-hint { background: #fff8f0; border-left: 4px solid var(--orange); padding: 8px 14px; margin-bottom: 12px; font-size: 14px; border-radius: 0 8px 8px 0; }
-  .word-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px; }
-  .word-card { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: #f8f9fb; border-radius: 8px; transition: all 0.2s; border: 1px solid #eee; }
-  .word-card:hover { background: #eef3f8; border-color: var(--blue); transform: translateY(-1px); }
-  .word-nl { font-size: 18px; font-weight: 700; color: var(--navy); }
-  .word-cn { font-size: 13px; color: var(--muted); }
-  .word-card a { text-decoration: none; color: inherit; display: flex; align-items: center; gap: 10px; width: 100%; }
-  .play-btn { flex-shrink: 0; width: 32px; height: 32px; background: #ff0000; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
-  .play-btn svg { width: 14px; height: 14px; fill: #fff; margin-left: 2px; }
-  .tip-box { background: #e8f4fd; border-radius: 8px; padding: 14px 18px; margin: 16px 0; font-size: 14px; }
-  .tip-box strong { color: var(--navy); }
-  .compare-table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14px; }
-  .compare-table th { background: var(--navy); color: #fff; padding: 8px 12px; text-align: left; }
-  .compare-table td { padding: 8px 12px; border-bottom: 1px solid #eee; }
-  .compare-table tr:hover { background: #f5f8fc; }
-  .badge-kort { background: #e3f2fd; color: #1565c0; padding: 2px 8px; border-radius: 10px; font-size: 12px; }
-  .badge-lang { background: #fce4ec; color: #c62828; padding: 2px 8px; border-radius: 10px; font-size: 12px; }
-  .badge-twee { background: #e8f5e9; color: #2e7d32; padding: 2px 8px; border-radius: 10px; font-size: 12px; }
-  footer { text-align: center; padding: 24px; color: var(--muted); font-size: 13px; }
-  @media (max-width: 600px) { .word-grid { grid-template-columns: 1fr; } header h1 { font-size: 22px; } }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+  :root{--bg:#050510;--card:rgba(255,255,255,0.04);--gb:rgba(255,255,255,0.08);--accent:#ff3b5c;--a2:#7c5cfc;--text:#f2f2f7;--muted:#a0a0b8;--dim:#606078;--green:#34d399;--orange:#fb923c;--blue:#60a5fa}
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;padding:env(safe-area-inset-top) 16px env(safe-area-inset-bottom)}
+  .hdr{display:flex;align-items:center;gap:10px;padding:12px 0}
+  .hdr a{color:var(--muted);text-decoration:none;font-size:13px;font-weight:600}
+  .hdr h1{font-size:16px;font-weight:800;flex:1}
+  .tabs{display:flex;gap:0;margin:8px 0;background:var(--card);border-radius:12px;padding:3px;border:1px solid var(--gb)}
+  .tab{flex:1;background:none;border:none;color:var(--dim);padding:10px 6px;cursor:pointer;font-size:12px;font-weight:600;border-radius:10px}
+  .tab.active{background:var(--accent);color:#fff}
+  .pills{display:flex;gap:6px;margin:8px 0 12px;overflow-x:auto;padding-bottom:4px}
+  .pills::-webkit-scrollbar{display:none}
+  .pill{flex-shrink:0;padding:6px 12px;border-radius:100px;background:var(--card);border:1px solid var(--gb);color:var(--muted);font-size:11px;font-weight:600;cursor:pointer}
+  .pill:active{transform:scale(0.95)}
+  .pill.on{background:var(--a2);color:#fff;border-color:var(--a2)}
+  .pane{display:none;max-height:calc(100vh - 150px);overflow-y:auto;padding-bottom:20px}
+  .pane.active{display:block}
+  .pane::-webkit-scrollbar{width:3px}
+  .pane::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:4px}
+  .cat-label{color:var(--accent);font-size:13px;font-weight:700;padding:14px 0 6px}
+  .hint{background:rgba(251,146,60,0.08);border-left:3px solid var(--orange);padding:8px 12px;border-radius:0 10px 10px 0;font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.6}
+  .word-card{background:var(--card);border:1px solid var(--gb);border-radius:12px;padding:14px;margin-bottom:8px;display:flex;align-items:center;gap:12px;transition:all 0.15s}
+  .word-card:active{transform:scale(0.98)}
+  .word-card.playing{border-color:var(--green);background:rgba(52,211,153,0.06)}
+  .word-nl{font-size:20px;font-weight:800;flex:1}
+  .word-zh{font-size:12px;color:var(--dim)}
+  .word-type{font-size:10px;padding:2px 8px;border-radius:8px;font-weight:700}
+  .type-kort{background:rgba(96,165,250,0.15);color:var(--blue)}
+  .type-lang{background:rgba(255,59,92,0.15);color:var(--accent)}
+  .type-twee{background:rgba(52,211,153,0.15);color:var(--green)}
+  .wb{background:none;border:1px solid var(--gb);color:var(--muted);width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center}
+  .wb:active{transform:scale(0.9)}
+  /* Minimal pair card */
+  .pair-card{background:var(--card);border:1px solid var(--gb);border-radius:12px;padding:16px;margin-bottom:10px}
+  .pair-title{font-size:14px;font-weight:700;margin-bottom:8px;color:var(--orange)}
+  .pair-row{display:flex;gap:10px;margin-bottom:6px}
+  .pair-word{flex:1;text-align:center;padding:12px;background:rgba(255,255,255,0.03);border:1px solid var(--gb);border-radius:10px;cursor:pointer;transition:all 0.2s}
+  .pair-word:active{transform:scale(0.95)}
+  .pair-word .pw-nl{font-size:22px;font-weight:800}
+  .pair-word .pw-zh{font-size:11px;color:var(--dim);margin-top:2px}
+  .pair-word .pw-hint{font-size:10px;color:var(--muted);margin-top:4px}
+  .pair-word.playing{border-color:var(--green);background:rgba(52,211,153,0.08)}
+  /* Echo mini */
+  .echo-mini{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-top:1px solid var(--gb);padding:16px 20px;padding-bottom:max(16px,env(safe-area-inset-bottom));z-index:100;text-align:center}
+  .echo-mini.active{display:block}
+  .echo-mini .em-word{font-size:28px;font-weight:800;margin-bottom:4px}
+  .echo-mini .em-zh{font-size:13px;color:var(--dim);margin-bottom:10px}
+  .echo-mini .em-phase{font-size:14px;color:var(--green);font-weight:600;margin-bottom:10px}
+  .echo-mini .em-btns{display:flex;gap:8px;justify-content:center}
+  .echo-mini .em-btn{background:var(--card);border:1px solid var(--gb);color:var(--text);padding:8px 16px;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer}
+  .echo-mini .em-btn:active{transform:scale(0.95)}
+  .echo-mini .em-btn.primary{background:var(--green);color:#000;border:none}
 </style>
 </head>
 <body>
-<div class="container">
-
-<header>
-  <h1>荷蘭文發音完整講義</h1>
-  <p>A2 融入考試 | 每個字都有 YouTube 發音連結 | 基於 PlaneetKiddo 教學頻道</p>
-  <p style="margin-top:8px;color:var(--orange)">點擊任何單字，直接跳到 YouTube 聽發音</p>
-</header>
-
-<div class="toc">
-  <h2>目錄</h2>
-  <a href="#kort-lang">短母音 vs 長母音</a>
-  <a href="#tweetekenklank">雙字母音（Tweetekenklanken）</a>
-  <a href="#sz">S vs Z</a>
-  <a href="#fv">F vs V</a>
-  <a href="#sch">SCH vs SCHR</a>
-  <a href="#rules">發音規則速查</a>
-  <a href="#playphrase">PlayPhrase 練習</a>
+<div class="hdr"><a href="index.html">← 返回</a><h1>🔤 發音 Echo 練習</h1></div>
+<div class="tabs">
+  <button class="tab active" onclick="sw('words')">🔊 單字練習</button>
+  <button class="tab" onclick="sw('pairs')">👂 聽音辨別</button>
 </div>
-
-<!-- ===== 1. 短母音 vs 長母音 ===== -->
-<section id="kort-lang">
-  <h2><span class="emoji">🔤</span> 短母音 vs 長母音（Korte & Lange Klanken）</h2>
-  <p class="section-desc">影片來源：<a href="https://www.youtube.com/watch?v=CVrAk5GNns4" target="_blank">PlaneetKiddo - Korte en Lange Klank Leren</a></p>
-
-  <div class="tip-box">
-    <strong>核心規則：</strong>一個母音字母 = 短音（a, e, i, o, u）；兩個母音字母 = 長音（aa, ee, ie, oo, uu）。<br>
-    短音像「被壓扁」，長音像「被拉長」。
-  </div>
-
-  <!-- A -->
-  <div class="sound-group">
-    <h3><span class="sound-label">A / AA</span> 短 a vs 長 aa</h3>
-    <div class="pronunciation-hint">
-      短 a：嘴巴張大，像中文的「阿」但更短促（類似英文 cat 的 a）<br>
-      長 aa：嘴巴張大拉長，像中文「啊～」（類似英文 father 的 a）
-    </div>
-    <table class="compare-table">
-      <tr><th>類型</th><th>單字</th><th>中文</th><th>聽發音</th></tr>
-      <tr><td><span class="badge-kort">短 a</span></td><td><strong>bal</strong></td><td>球</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=62s" target="_blank">▶ 1:02</a></td></tr>
-      <tr><td><span class="badge-kort">短 a</span></td><td><strong>tak</strong></td><td>樹枝</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=69s" target="_blank">▶ 1:09</a></td></tr>
-      <tr><td><span class="badge-kort">短 a</span></td><td><strong>jas</strong></td><td>外套</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=76s" target="_blank">▶ 1:16</a></td></tr>
-      <tr><td><span class="badge-lang">長 aa</span></td><td><strong>haan</strong></td><td>公雞</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=88s" target="_blank">▶ 1:28</a></td></tr>
-      <tr><td><span class="badge-lang">長 aa</span></td><td><strong>raam</strong></td><td>窗戶</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=97s" target="_blank">▶ 1:37</a></td></tr>
-      <tr><td><span class="badge-lang">長 aa</span></td><td><strong>kaas</strong></td><td>起司</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=104s" target="_blank">▶ 1:44</a></td></tr>
-    </table>
-  </div>
-
-  <!-- E -->
-  <div class="sound-group">
-    <h3><span class="sound-label">E / EE</span> 短 e vs 長 ee</h3>
-    <div class="pronunciation-hint">
-      短 e：嘴巴半開，像中文「耶」但更短（類似英文 pet 的 e）<br>
-      長 ee：嘴巴拉長微笑，像中文「欸～」（類似英文 day 的 a）
-    </div>
-    <table class="compare-table">
-      <tr><th>類型</th><th>單字</th><th>中文</th><th>聽發音</th></tr>
-      <tr><td><span class="badge-kort">短 e</span></td><td><strong>pet</strong></td><td>帽子</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=150s" target="_blank">▶ 2:30</a></td></tr>
-      <tr><td><span class="badge-kort">短 e</span></td><td><strong>zes</strong></td><td>六</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=158s" target="_blank">▶ 2:38</a></td></tr>
-      <tr><td><span class="badge-kort">短 e</span></td><td><strong>hek</strong></td><td>柵欄</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=165s" target="_blank">▶ 2:45</a></td></tr>
-      <tr><td><span class="badge-lang">長 ee</span></td><td><strong>been</strong></td><td>腿</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=177s" target="_blank">▶ 2:57</a></td></tr>
-      <tr><td><span class="badge-lang">長 ee</span></td><td><strong>zee</strong></td><td>海</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=187s" target="_blank">▶ 3:07</a></td></tr>
-      <tr><td><span class="badge-lang">長 ee</span></td><td><strong>slee</strong></td><td>雪橇</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=195s" target="_blank">▶ 3:15</a></td></tr>
-    </table>
-  </div>
-
-  <!-- I -->
-  <div class="sound-group">
-    <h3><span class="sound-label">I / IE</span> 短 i vs 長 ie</h3>
-    <div class="pronunciation-hint">
-      短 i：嘴巴微開，像中文「一」但更短促（類似英文 bit 的 i）<br>
-      長 ie：嘴巴拉長微笑，像中文「衣～」（類似英文 see 的 ee）
-    </div>
-    <table class="compare-table">
-      <tr><th>類型</th><th>單字</th><th>中文</th><th>聽發音</th></tr>
-      <tr><td><span class="badge-kort">短 i</span></td><td><strong>blik</strong></td><td>罐頭</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=243s" target="_blank">▶ 4:03</a></td></tr>
-      <tr><td><span class="badge-kort">短 i</span></td><td><strong>spin</strong></td><td>蜘蛛</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=253s" target="_blank">▶ 4:13</a></td></tr>
-      <tr><td><span class="badge-kort">短 i</span></td><td><strong>kist</strong></td><td>箱子</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=258s" target="_blank">▶ 4:18</a></td></tr>
-      <tr><td><span class="badge-lang">長 ie</span></td><td><strong>riem</strong></td><td>皮帶</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=273s" target="_blank">▶ 4:33</a></td></tr>
-      <tr><td><span class="badge-lang">長 ie</span></td><td><strong>brief</strong></td><td>信</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=280s" target="_blank">▶ 4:40</a></td></tr>
-      <tr><td><span class="badge-lang">長 ie</span></td><td><strong>tien</strong></td><td>十</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=287s" target="_blank">▶ 4:47</a></td></tr>
-    </table>
-  </div>
-
-  <!-- O -->
-  <div class="sound-group">
-    <h3><span class="sound-label">O / OO</span> 短 o vs 長 oo</h3>
-    <div class="pronunciation-hint">
-      短 o：嘴巴圓，像中文「喔」但更短（類似英文 hot 的 o）<br>
-      長 oo：嘴巴圓且拉長，像中文「歐～」（類似英文 boat 的 o）
-    </div>
-    <table class="compare-table">
-      <tr><th>類型</th><th>單字</th><th>中文</th><th>聽發音</th></tr>
-      <tr><td><span class="badge-kort">短 o</span></td><td><strong>sok</strong></td><td>襪子</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=333s" target="_blank">▶ 5:33</a></td></tr>
-      <tr><td><span class="badge-kort">短 o</span></td><td><strong>pot</strong></td><td>鍋</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=343s" target="_blank">▶ 5:43</a></td></tr>
-      <tr><td><span class="badge-kort">短 o</span></td><td><strong>zon</strong></td><td>太陽</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=349s" target="_blank">▶ 5:49</a></td></tr>
-      <tr><td><span class="badge-lang">長 oo</span></td><td><strong>doos</strong></td><td>箱子</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=363s" target="_blank">▶ 6:03</a></td></tr>
-      <tr><td><span class="badge-lang">長 oo</span></td><td><strong>oog</strong></td><td>眼睛</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=370s" target="_blank">▶ 6:10</a></td></tr>
-      <tr><td><span class="badge-lang">長 oo</span></td><td><strong>boom</strong></td><td>樹</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=377s" target="_blank">▶ 6:17</a></td></tr>
-    </table>
-  </div>
-
-  <!-- U -->
-  <div class="sound-group">
-    <h3><span class="sound-label">U / UU</span> 短 u vs 長 uu</h3>
-    <div class="pronunciation-hint">
-      短 u：嘴巴微圓，像中文「ㄜ」但圓嘴（荷蘭文獨特音，中英文都沒有！）<br>
-      長 uu：嘴巴嘟起，像中文「魚」的韻母（類似法文 u 或德文 ü）
-    </div>
-    <table class="compare-table">
-      <tr><th>類型</th><th>單字</th><th>中文</th><th>聽發音</th></tr>
-      <tr><td><span class="badge-kort">短 u</span></td><td><strong>mus</strong></td><td>麻雀</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=422s" target="_blank">▶ 7:02</a></td></tr>
-      <tr><td><span class="badge-kort">短 u</span></td><td><strong>hut</strong></td><td>小屋</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=433s" target="_blank">▶ 7:13</a></td></tr>
-      <tr><td><span class="badge-kort">短 u</span></td><td><strong>bus</strong></td><td>公車</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=438s" target="_blank">▶ 7:18</a></td></tr>
-      <tr><td><span class="badge-lang">長 uu</span></td><td><strong>uur</strong></td><td>小時</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=452s" target="_blank">▶ 7:32</a></td></tr>
-      <tr><td><span class="badge-lang">長 uu</span></td><td><strong>muur</strong></td><td>牆壁</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=460s" target="_blank">▶ 7:40</a></td></tr>
-      <tr><td><span class="badge-lang">長 uu</span></td><td><strong>stuur</strong></td><td>方向盤</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4&t=466s" target="_blank">▶ 7:46</a></td></tr>
-    </table>
-  </div>
-</section>
-
-<!-- ===== 2. 雙字母音 ===== -->
-<section id="tweetekenklank">
-  <h2><span class="emoji">🔗</span> 雙字母音（Tweetekenklanken）</h2>
-  <p class="section-desc">影片來源：<a href="https://www.youtube.com/watch?v=L5kAolIdHFk" target="_blank">PlaneetKiddo - Tweetekenklanken Quiz</a></p>
-
-  <div class="tip-box">
-    <strong>什麼是雙字母音？</strong>兩個母音字母放在一起，發出一個全新的聲音（不是各自發音）。<br>
-    這是台灣人最容易搞混的部分！
-  </div>
-
-  <table class="compare-table">
-    <tr><th>拼法</th><th>發音提示</th><th>範例</th><th>中文</th><th>聽發音</th></tr>
-    <tr><td><span class="badge-twee">oe</span></td><td>像中文「嗚」（= 英文 oo）</td><td><strong>koe</strong></td><td>牛</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=60s" target="_blank">▶ 1:00</a></td></tr>
-    <tr><td><span class="badge-twee">oe</span></td><td></td><td><strong>boek</strong></td><td>書</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=347s" target="_blank">▶ 5:47</a></td></tr>
-    <tr><td><span class="badge-twee">oe</span></td><td></td><td><strong>bloem</strong></td><td>花</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=715s" target="_blank">▶ 11:55</a></td></tr>
-    <tr><td><span class="badge-twee">eu</span></td><td>嘴嘟起說「ㄜ」（荷蘭文獨特音！）</td><td><strong>neus</strong></td><td>鼻子</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=82s" target="_blank">▶ 1:22</a></td></tr>
-    <tr><td><span class="badge-twee">eu</span></td><td></td><td><strong>reus</strong></td><td>巨人</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=481s" target="_blank">▶ 8:01</a></td></tr>
-    <tr><td><span class="badge-twee">eu</span></td><td></td><td><strong>beuk</strong></td><td>山毛櫸</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=735s" target="_blank">▶ 12:15</a></td></tr>
-    <tr><td><span class="badge-twee">ei</span></td><td>像中文「矮」（短版）</td><td><strong>geit</strong></td><td>山羊</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=113s" target="_blank">▶ 1:53</a></td></tr>
-    <tr><td><span class="badge-twee">ei</span></td><td></td><td><strong>kei</strong></td><td>鵝卵石</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=429s" target="_blank">▶ 7:09</a></td></tr>
-    <tr><td><span class="badge-twee">ei</span></td><td></td><td><strong>meid</strong></td><td>女孩</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=502s" target="_blank">▶ 8:22</a></td></tr>
-    <tr><td><span class="badge-twee">ij</span></td><td>跟 ei 一樣！（長版）</td><td><strong>ijs</strong></td><td>冰淇淋</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=135s" target="_blank">▶ 2:15</a></td></tr>
-    <tr><td><span class="badge-twee">ij</span></td><td></td><td><strong>rijk</strong></td><td>有錢的</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=367s" target="_blank">▶ 6:07</a></td></tr>
-    <tr><td><span class="badge-twee">ij</span></td><td></td><td><strong>dijk</strong></td><td>堤防</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=582s" target="_blank">▶ 9:42</a></td></tr>
-    <tr><td><span class="badge-twee">ou</span></td><td>像中文「澳」（= au）</td><td><strong>koud</strong></td><td>冷的</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=157s" target="_blank">▶ 2:37</a></td></tr>
-    <tr><td><span class="badge-twee">ou</span></td><td></td><td><strong>goud</strong></td><td>黃金</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=283s" target="_blank">▶ 4:43</a></td></tr>
-    <tr><td><span class="badge-twee">ou</span></td><td></td><td><strong>hout</strong></td><td>木頭</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=654s" target="_blank">▶ 10:54</a></td></tr>
-    <tr><td><span class="badge-twee">au</span></td><td>跟 ou 一樣！</td><td><strong>saus</strong></td><td>醬料</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=181s" target="_blank">▶ 3:01</a></td></tr>
-    <tr><td><span class="badge-twee">au</span></td><td></td><td><strong>auto</strong></td><td>汽車</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=344s" target="_blank">▶ 5:44</a></td></tr>
-    <tr><td><span class="badge-twee">au</span></td><td></td><td><strong>blauw</strong></td><td>藍色</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=522s" target="_blank">▶ 8:42</a></td></tr>
-    <tr><td><span class="badge-twee">ui</span></td><td>先說「啊」再滑到「ㄩ」（荷蘭文最難的音！）</td><td><strong>muis</strong></td><td>老鼠</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=199s" target="_blank">▶ 3:19</a></td></tr>
-    <tr><td><span class="badge-twee">ui</span></td><td></td><td><strong>huis</strong></td><td>房子</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=409s" target="_blank">▶ 6:49</a></td></tr>
-    <tr><td><span class="badge-twee">ui</span></td><td></td><td><strong>trui</strong></td><td>毛衣</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=461s" target="_blank">▶ 7:41</a></td></tr>
-    <tr><td><span class="badge-twee">ui</span></td><td></td><td><strong>duim</strong></td><td>拇指</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=695s" target="_blank">▶ 11:35</a></td></tr>
-    <tr><td><span class="badge-twee">ie</span></td><td>像中文「衣」拉長（= 長 i）</td><td><strong>knie</strong></td><td>膝蓋</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=227s" target="_blank">▶ 3:47</a></td></tr>
-    <tr><td><span class="badge-twee">ie</span></td><td></td><td><strong>brief</strong></td><td>信</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=388s" target="_blank">▶ 6:28</a></td></tr>
-    <tr><td><span class="badge-twee">ie</span></td><td></td><td><strong>riem</strong></td><td>皮帶</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=542s" target="_blank">▶ 9:02</a></td></tr>
-    <tr><td><span class="badge-twee">ie</span></td><td></td><td><strong>fiets</strong></td><td>腳踏車</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk&t=634s" target="_blank">▶ 10:34</a></td></tr>
-  </table>
-
-  <div class="tip-box">
-    <strong>容易搞混的組合：</strong><br>
-    ei = ij （發音完全一樣！只是拼法不同）<br>
-    ou = au （發音完全一樣！只是拼法不同）<br>
-    <strong>口訣：</strong>「ei/ij 像矮，ou/au 像澳，ui 最難像嘔」
-  </div>
-</section>
-
-<!-- ===== 3. S vs Z ===== -->
-<section id="sz">
-  <h2><span class="emoji">🐍</span> S vs Z（有聲 vs 無聲）</h2>
-  <p class="section-desc">影片來源：<a href="https://www.youtube.com/watch?v=uBF-CqwZOYw" target="_blank">PlaneetKiddo - s- en z- Klanken</a></p>
-
-  <div class="tip-box">
-    <strong>區分方法：</strong>把手放在喉嚨上！<br>
-    <strong>S</strong>：聲帶不震動（像蛇 sssss）<br>
-    <strong>Z</strong>：聲帶震動（像蜜蜂 zzzzz）<br>
-    用手摸喉嚨就能感覺到差異！
-  </div>
-
-  <table class="compare-table">
-    <tr><th>字母</th><th>單字</th><th>中文</th><th>聽發音</th></tr>
-    <tr><td><strong>S</strong> 無聲</td><td><strong>sok</strong></td><td>襪子</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw&t=65s" target="_blank">▶ 1:05</a></td></tr>
-    <tr><td><strong>S</strong> 無聲</td><td><strong>strik</strong></td><td>蝴蝶結</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw&t=77s" target="_blank">▶ 1:17</a></td></tr>
-    <tr><td><strong>S</strong> 無聲</td><td><strong>snor</strong></td><td>鬍子</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw&t=86s" target="_blank">▶ 1:26</a></td></tr>
-    <tr><td><strong>Z</strong> 有聲</td><td><strong>ziek</strong></td><td>生病的</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw&t=116s" target="_blank">▶ 1:56</a></td></tr>
-    <tr><td><strong>Z</strong> 有聲</td><td><strong>zout</strong></td><td>鹽</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw&t=126s" target="_blank">▶ 2:06</a></td></tr>
-    <tr><td><strong>Z</strong> 有聲</td><td><strong>zon</strong></td><td>太陽</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw&t=137s" target="_blank">▶ 2:17</a></td></tr>
-    <tr><td colspan="4" style="text-align:center;padding-top:8px"><strong>混合練習（Quiz）</strong></td></tr>
-    <tr><td><strong>S</strong></td><td><strong>stem</strong></td><td>聲音</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw&t=168s" target="_blank">▶ 2:48</a></td></tr>
-    <tr><td><strong>Z</strong></td><td><strong>zwaan</strong></td><td>天鵝</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw&t=193s" target="_blank">▶ 3:13</a></td></tr>
-    <tr><td><strong>S</strong></td><td><strong>slot</strong></td><td>鎖</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw&t=219s" target="_blank">▶ 3:39</a></td></tr>
-    <tr><td><strong>S</strong></td><td><strong>spoor</strong></td><td>軌道</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw&t=244s" target="_blank">▶ 4:04</a></td></tr>
-    <tr><td><strong>Z</strong></td><td><strong>zand</strong></td><td>沙子</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw&t=269s" target="_blank">▶ 4:29</a></td></tr>
-  </table>
-</section>
-
-<!-- ===== 4. F vs V ===== -->
-<section id="fv">
-  <h2><span class="emoji">🦊</span> F vs V（有聲 vs 無聲）</h2>
-  <p class="section-desc">影片來源：<a href="https://www.youtube.com/watch?v=AEa25_rHPOw" target="_blank">PlaneetKiddo - f- en v- Klanken</a></p>
-
-  <div class="tip-box">
-    <strong>區分方法：</strong>跟 S/Z 一樣，用手摸喉嚨！<br>
-    <strong>F</strong>：聲帶不震動（用上牙咬下唇，吹氣 ffff）<br>
-    <strong>V</strong>：聲帶震動（同樣位置，但加上震動 vvvv）<br>
-    差異非常微小！荷蘭人自己都說 "bijna niet waar te nemen"（幾乎聽不出來）
-  </div>
-
-  <table class="compare-table">
-    <tr><th>字母</th><th>單字</th><th>中文</th><th>聽發音</th></tr>
-    <tr><td><strong>F</strong> 無聲</td><td><strong>fiets</strong></td><td>腳踏車</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw&t=64s" target="_blank">▶ 1:04</a></td></tr>
-    <tr><td><strong>F</strong> 無聲</td><td><strong>foto</strong></td><td>照片</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw&t=74s" target="_blank">▶ 1:14</a></td></tr>
-    <tr><td><strong>F</strong> 無聲</td><td><strong>fles</strong></td><td>瓶子</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw&t=83s" target="_blank">▶ 1:23</a></td></tr>
-    <tr><td><strong>V</strong> 有聲</td><td><strong>vang</strong></td><td>接住</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw&t=115s" target="_blank">▶ 1:55</a></td></tr>
-    <tr><td><strong>V</strong> 有聲</td><td><strong>vol</strong></td><td>滿的</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw&t=126s" target="_blank">▶ 2:06</a></td></tr>
-    <tr><td><strong>V</strong> 有聲</td><td><strong>vaas</strong></td><td>花瓶</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw&t=136s" target="_blank">▶ 2:16</a></td></tr>
-    <tr><td colspan="4" style="text-align:center;padding-top:8px"><strong>混合練習（Quiz）</strong></td></tr>
-    <tr><td><strong>F</strong></td><td><strong>fluit</strong></td><td>笛子</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw&t=168s" target="_blank">▶ 2:48</a></td></tr>
-    <tr><td><strong>V</strong></td><td><strong>veer</strong></td><td>羽毛</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw&t=194s" target="_blank">▶ 3:14</a></td></tr>
-    <tr><td><strong>V</strong></td><td><strong>vlag</strong></td><td>旗子</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw&t=218s" target="_blank">▶ 3:38</a></td></tr>
-    <tr><td><strong>F</strong></td><td><strong>film</strong></td><td>電影</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw&t=243s" target="_blank">▶ 4:03</a></td></tr>
-    <tr><td><strong>V</strong></td><td><strong>valk</strong></td><td>獵鷹</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw&t=269s" target="_blank">▶ 4:29</a></td></tr>
-  </table>
-</section>
-
-<!-- ===== 5. SCH vs SCHR ===== -->
-<section id="sch">
-  <h2><span class="emoji">🚢</span> SCH vs SCHR</h2>
-  <p class="section-desc">影片來源：<a href="https://www.youtube.com/watch?v=iOYPsvFQaWI" target="_blank">PlaneetKiddo - sch- en schr- Klanken</a></p>
-
-  <div class="tip-box">
-    <strong>SCH</strong> = S + CH（CH 發 G 的音，像喉嚨摩擦）→ 「sG」<br>
-    <strong>SCHR</strong> = S + CH + R（多一個 R，但 CH 幾乎聽不到）→ 「sR」<br>
-    <strong>訣竅：</strong>SCHR 裡的 CH 很弱，幾乎只聽到 S 和 R！
-  </div>
-
-  <table class="compare-table">
-    <tr><th>拼法</th><th>單字</th><th>中文</th><th>聽發音</th></tr>
-    <tr><td><strong>SCH</strong></td><td><strong>schoen</strong></td><td>鞋子</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI&t=75s" target="_blank">▶ 1:15</a></td></tr>
-    <tr><td><strong>SCH</strong></td><td><strong>schat</strong></td><td>寶貝/寶藏</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI&t=92s" target="_blank">▶ 1:32</a></td></tr>
-    <tr><td><strong>SCH</strong></td><td><strong>schaar</strong></td><td>剪刀</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI&t=102s" target="_blank">▶ 1:42</a></td></tr>
-    <tr><td><strong>SCHR</strong></td><td><strong>schrijf</strong></td><td>寫</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI&t=114s" target="_blank">▶ 1:54</a></td></tr>
-    <tr><td><strong>SCHR</strong></td><td><strong>schrik</strong></td><td>嚇一跳</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI&t=130s" target="_blank">▶ 2:10</a></td></tr>
-    <tr><td><strong>SCH</strong></td><td><strong>schrop</strong></td><td>刷洗</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI&t=140s" target="_blank">▶ 2:20</a></td></tr>
-    <tr><td colspan="4" style="text-align:center;padding-top:8px"><strong>混合練習（Quiz）</strong></td></tr>
-    <tr><td><strong>SCHR</strong></td><td><strong>schroef</strong></td><td>螺絲</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI&t=169s" target="_blank">▶ 2:49</a></td></tr>
-    <tr><td><strong>SCH</strong></td><td><strong>scherm</strong></td><td>螢幕</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI&t=194s" target="_blank">▶ 3:14</a></td></tr>
-    <tr><td><strong>SCH</strong></td><td><strong>schaap</strong></td><td>綿羊</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI&t=219s" target="_blank">▶ 3:39</a></td></tr>
-    <tr><td><strong>SCHR</strong></td><td><strong>schreeuw</strong></td><td>尖叫</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI&t=244s" target="_blank">▶ 4:04</a></td></tr>
-    <tr><td><strong>SCH</strong></td><td><strong>school</strong></td><td>學校</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI&t=270s" target="_blank">▶ 4:30</a></td></tr>
-  </table>
-</section>
-
-<!-- ===== 6. 發音規則速查 ===== -->
-<section id="rules">
-  <h2><span class="emoji">📐</span> 發音規則速查表</h2>
-
-  <div class="tip-box">
-    <strong>看到荷蘭文不會唸？照這個順序檢查：</strong>
-  </div>
-
-  <table class="compare-table">
-    <tr><th>規則</th><th>說明</th><th>範例</th></tr>
-    <tr><td><strong>1. 先找雙字母音</strong></td><td>oe, eu, ei, ij, ou, au, ui, ie → 發一個音</td><td>h<strong>ui</strong>s, b<strong>oe</strong>k</td></tr>
-    <tr><td><strong>2. 判斷母音長短</strong></td><td>開音節（母+子+母）= 長音<br>閉音節（母+子+子）= 短音</td><td>m<strong>a</strong>-ken（長）<br>m<strong>a</strong>n（短）</td></tr>
-    <tr><td><strong>3. 雙母音 = 長音</strong></td><td>aa, ee, oo, uu 一定是長音</td><td>k<strong>aa</strong>s, b<strong>oo</strong>m</td></tr>
-    <tr><td><strong>4. G / CH</strong></td><td>喉嚨摩擦音（像清喉嚨）</td><td><strong>g</strong>oed, la<strong>ch</strong>en</td></tr>
-    <tr><td><strong>5. R</strong></td><td>舌頭捲或喉嚨震（各地不同，都可以）</td><td><strong>r</strong>ood, doo<strong>r</strong></td></tr>
-    <tr><td><strong>6. 字尾 -en</strong></td><td>幾乎不發 n，變成「uh」</td><td>lop<strong>en</strong> → 「loh-puh」</td></tr>
-    <tr><td><strong>7. 字尾 d</strong></td><td>發 t 的音！</td><td>goe<strong>d</strong> → 「goot」</td></tr>
-    <tr><td><strong>8. 字尾 b</strong></td><td>發 p 的音！</td><td>he<strong>b</strong> → 「hep」</td></tr>
-    <tr><td><strong>9. W</strong></td><td>不是英文 W！嘴唇輕碰下牙，像弱 V</td><td><strong>w</strong>ater, <strong>w</strong>aar</td></tr>
-    <tr><td><strong>10. SCH 在字尾</strong></td><td>字尾的 -isch 發「-ies」</td><td>fantast<strong>isch</strong> → 「-ies」</td></tr>
-  </table>
-
-  <div class="tip-box">
-    <strong>開音節 vs 閉音節（最重要的規則！）：</strong><br><br>
-    <strong>閉音節</strong>（CVC）：母音被子音「關住」→ 短音<br>
-    man, pet, vis, bot, bus<br><br>
-    <strong>開音節</strong>（CV-CV）：母音在音節末尾「開放」→ 長音<br>
-    ma-ken, le-zen, vi-ze, bo-ten, bu-ren<br><br>
-    <strong>所以同一個字母，在不同位置可以是短音或長音！</strong>
-  </div>
-</section>
-
-<!-- ===== 7. PlayPhrase ===== -->
-<section id="playphrase">
-  <h2><span class="emoji">🔊</span> 線上發音練習工具</h2>
-
-  <div class="tip-box">
-    <strong>你的 PlayPhrase 工具：</strong><br>
-    <a href="https://dutch-playphrase-production.up.railway.app/" target="_blank" style="font-size:18px;color:var(--blue)">dutch-playphrase-production.up.railway.app</a><br><br>
-    打入任何荷蘭文單字或句子，聽真人發音 + 錄音比對！
-  </div>
-
-  <h3 style="margin-top:16px">PlaneetKiddo 完整影片清單（發音相關）</h3>
-  <table class="compare-table">
-    <tr><th>主題</th><th>影片連結</th></tr>
-    <tr><td>短母音 & 長母音 教學</td><td><a href="https://www.youtube.com/watch?v=CVrAk5GNns4" target="_blank">Korte en Lange Klank Leren</a></td></tr>
-    <tr><td>短母音 & 長母音 Masterclass + Quiz</td><td><a href="https://www.youtube.com/watch?v=R0KBVIW8MnA" target="_blank">Masterclass + Quiz</a></td></tr>
-    <tr><td>短母音 & 長母音 Quiz</td><td><a href="https://www.youtube.com/watch?v=7pPe_qwD-Ac" target="_blank">Korte en Lange Klanken Quiz</a></td></tr>
-    <tr><td>雙字母音 Quiz</td><td><a href="https://www.youtube.com/watch?v=L5kAolIdHFk" target="_blank">Tweetekenklanken Quiz</a></td></tr>
-    <tr><td>雙字母音 Mega Quiz</td><td><a href="https://www.youtube.com/watch?v=PnGB9FLwAZ4" target="_blank">Mega Quiz</a></td></tr>
-    <tr><td>S vs Z</td><td><a href="https://www.youtube.com/watch?v=uBF-CqwZOYw" target="_blank">s- en z- Klanken</a></td></tr>
-    <tr><td>F vs V</td><td><a href="https://www.youtube.com/watch?v=AEa25_rHPOw" target="_blank">f- en v- Klanken</a></td></tr>
-    <tr><td>SCH vs SCHR</td><td><a href="https://www.youtube.com/watch?v=iOYPsvFQaWI" target="_blank">sch- en schr- Klanken</a></td></tr>
-    <tr><td>99 個基礎單字</td><td><a href="https://www.youtube.com/watch?v=XiAPiCgMMBc" target="_blank">99 Eerste Woordjes</a></td></tr>
-  </table>
-</section>
-
-<footer>
-  <p>製作：QQ Chen | 槓桿生活 | 2026</p>
-  <p>發音來源：<a href="https://www.youtube.com/@PlaneetKiddo" target="_blank">PlaneetKiddo</a> YouTube 頻道</p>
-  <p style="margin-top:8px;color:var(--orange)">距離考試倒數中！每天練 30 分鐘，你可以的！</p>
-</footer>
-
+<div class="pane active" id="p-words">
+  <div class="pills" id="pills"></div>
+  <div id="word-list"></div>
 </div>
+<div class="pane" id="p-pairs" id="pair-list"></div>
+<div class="echo-mini" id="echo-mini">
+  <div class="em-phase" id="em-phase">🎧 聽</div>
+  <div class="em-word" id="em-word"></div>
+  <div class="em-zh" id="em-zh"></div>
+  <div class="em-btns">
+    <button class="em-btn" onclick="echoReplay()">🔄 重聽</button>
+    <button class="em-btn primary" onclick="echoNextWord()">⏭ 下一個</button>
+    <button class="em-btn" onclick="closeEchoMini()">✕</button>
+  </div>
+</div>
+<script>
+var WORDS = [{"nl": "bal", "zh": "球", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=62s"}, {"nl": "tak", "zh": "樹枝", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=69s"}, {"nl": "jas", "zh": "外套", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=76s"}, {"nl": "haan", "zh": "公雞", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=88s"}, {"nl": "raam", "zh": "窗戶", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=97s"}, {"nl": "kaas", "zh": "起司", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=104s"}, {"nl": "pet", "zh": "帽子", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=150s"}, {"nl": "zes", "zh": "六", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=158s"}, {"nl": "hek", "zh": "柵欄", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=165s"}, {"nl": "been", "zh": "腿", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=177s"}, {"nl": "zee", "zh": "海", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=187s"}, {"nl": "slee", "zh": "雪橇", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=195s"}, {"nl": "blik", "zh": "罐頭", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=243s"}, {"nl": "spin", "zh": "蜘蛛", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=253s"}, {"nl": "kist", "zh": "箱子", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=258s"}, {"nl": "riem", "zh": "皮帶", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=273s"}, {"nl": "brief", "zh": "信", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=280s"}, {"nl": "tien", "zh": "十", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=287s"}, {"nl": "sok", "zh": "襪子", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=333s"}, {"nl": "pot", "zh": "鍋", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=343s"}, {"nl": "zon", "zh": "太陽", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=349s"}, {"nl": "doos", "zh": "箱子", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=363s"}, {"nl": "oog", "zh": "眼睛", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=370s"}, {"nl": "boom", "zh": "樹", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=377s"}, {"nl": "mus", "zh": "麻雀", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=422s"}, {"nl": "hut", "zh": "小屋", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=433s"}, {"nl": "bus", "zh": "公車", "cat": "短音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=438s"}, {"nl": "uur", "zh": "小時", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=452s"}, {"nl": "muur", "zh": "牆壁", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=460s"}, {"nl": "stuur", "zh": "方向盤", "cat": "長音", "yt": "https://www.youtube.com/watch?v=CVrAk5GNns4&t=466s"}, {"nl": "koe", "zh": "牛", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=60s"}, {"nl": "boek", "zh": "書", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=347s"}, {"nl": "bloem", "zh": "花", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=715s"}, {"nl": "neus", "zh": "鼻子", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=82s"}, {"nl": "reus", "zh": "巨人", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=481s"}, {"nl": "beuk", "zh": "山毛櫸", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=735s"}, {"nl": "geit", "zh": "山羊", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=113s"}, {"nl": "kei", "zh": "鵝卵石", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=429s"}, {"nl": "meid", "zh": "女孩", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=502s"}, {"nl": "ijs", "zh": "冰淇淋", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=135s"}, {"nl": "rijk", "zh": "有錢的", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=367s"}, {"nl": "dijk", "zh": "堤防", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=582s"}, {"nl": "koud", "zh": "冷的", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=157s"}, {"nl": "goud", "zh": "黃金", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=283s"}, {"nl": "hout", "zh": "木頭", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=654s"}, {"nl": "saus", "zh": "醬料", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=181s"}, {"nl": "auto", "zh": "汽車", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=344s"}, {"nl": "blauw", "zh": "藍色", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=522s"}, {"nl": "muis", "zh": "老鼠", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=199s"}, {"nl": "huis", "zh": "房子", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=409s"}, {"nl": "trui", "zh": "毛衣", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=461s"}, {"nl": "duim", "zh": "拇指", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=695s"}, {"nl": "knie", "zh": "膝蓋", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=227s"}, {"nl": "brief", "zh": "信", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=388s"}, {"nl": "riem", "zh": "皮帶", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=542s"}, {"nl": "fiets", "zh": "腳踏車", "cat": "雙字母音", "yt": "https://www.youtube.com/watch?v=L5kAolIdHFk&t=634s"}];
+
+// Minimal pairs for distinction practice
+var PAIRS = [
+  {title:"eu vs oe", hint:"eu=嘴圓+前｜oe=嘴圓+後", a:{nl:"leuk",zh:"好玩",sound:"嘴唇圓，舌頭前"},b:{nl:"loek",zh:"（名字）",sound:"嘴唇圓，舌頭後"}},
+  {title:"uu vs oe", hint:"uu=嘴小圓+前｜oe=嘴大圓+後", a:{nl:"vuur",zh:"火",sound:"像法文 u"},b:{nl:"voer",zh:"飼料",sound:"像中文「烏」"}},
+  {title:"a vs aa", hint:"短a=快速張嘴｜長aa=拉長", a:{nl:"bal",zh:"球",sound:"短促"},b:{nl:"baal",zh:"包裹",sound:"拉長"}},
+  {title:"e vs ee", hint:"短e=半開快速｜長ee=微笑拉長", a:{nl:"pet",zh:"帽子",sound:"像 pet"},b:{nl:"peet",zh:"教父",sound:"像 pay"}},
+  {title:"i vs ie", hint:"短i=快速｜長ie=拉長微笑", a:{nl:"pit",zh:"核",sound:"快速"},b:{nl:"piet",zh:"（名字）",sound:"拉長"}},
+  {title:"o vs oo", hint:"短o=圓嘴快速｜長oo=拉長", a:{nl:"bot",zh:"骨頭",sound:"短促圓嘴"},b:{nl:"boot",zh:"船",sound:"拉長"}},
+  {title:"u vs uu", hint:"短u=快速｜長uu=嘴小圓拉長", a:{nl:"bus",zh:"公車",sound:"快速"},b:{nl:"buus",zh:"（拉長）",sound:"拉長"}},
+  {title:"s vs z", hint:"s=無聲｜z=有聲（喉嚨振動）", a:{nl:"sein",zh:"信號",sound:"無聲：嘶"},b:{nl:"zijn",zh:"是/他的",sound:"有聲：滋"}},
+  {title:"f vs v", hint:"f=無聲｜v=有聲（喉嚨振動）", a:{nl:"fee",zh:"仙女",sound:"無聲：呋"},b:{nl:"vee",zh:"牲畜",sound:"有聲：v"}},
+  {title:"sch vs s", hint:"sch=s+ch（有氣音）", a:{nl:"school",zh:"學校",sound:"s+喉嚨氣音"},b:{nl:"stoel",zh:"椅子",sound:"純s"}},
+];
+
+var filter = 'all';
+var echoIdx = -1;
+var echoTimer = null;
+
+function sw(m){document.querySelectorAll('.tab').forEach(function(t){t.classList.remove('active')});document.querySelector('.tab[onclick*="'+m+'"]').classList.add('active');document.querySelectorAll('.pane').forEach(function(c){c.classList.remove('active')});document.getElementById('p-'+m).classList.add('active');if(m==='pairs')renderPairs()}
+
+function renderWords(){
+  var cats={};WORDS.forEach(function(w){if(!cats[w.cat])cats[w.cat]=0;cats[w.cat]++});
+  document.getElementById('pills').innerHTML='<div class="pill '+(filter==='all'?'on':'')+'" onclick="filter=\'all\';renderWords()">全部 '+WORDS.length+'</div>'+Object.entries(cats).map(function(e){return'<div class="pill '+(filter===e[0]?'on':'')+'" onclick="filter=\''+e[0]+'\';renderWords()">'+e[0]+' '+e[1]+'</div>'}).join('');
+  var fl=filter==='all'?WORDS:WORDS.filter(function(w){return w.cat===filter});
+  var cc='',h='';
+  var hints={'短音':'短音像「被壓扁」，快速發出','長音':'長音像「被拉長」，嘴型維持','雙字母音':'兩個字母組合成一個新的音'};
+  fl.forEach(function(w){
+    if(w.cat!==cc){cc=w.cat;h+='<div class="cat-label">'+cc+'</div>';if(hints[cc])h+='<div class="hint">'+hints[cc]+'</div>'}
+    var gi=WORDS.indexOf(w);
+    var tc=w.cat==='短音'?'type-kort':w.cat==='長音'?'type-lang':'type-twee';
+    h+='<div class="word-card" id="wc-'+gi+'" onclick="playWord('+gi+')"><div><div class="word-nl">'+w.nl+'</div><div class="word-zh">'+w.zh+'</div></div><span class="word-type '+tc+'">'+w.cat+'</span><div style="display:flex;gap:6px"><button class="wb" onclick="event.stopPropagation();playWord('+gi+')">🔊</button><button class="wb" onclick="event.stopPropagation();startEcho('+gi+')">🔄</button></div></div>'
+  });
+  document.getElementById('word-list').innerHTML=h
+}
+
+function playWord(idx){
+  var w=WORDS[idx];var a=new Audio('audio/pronunciation/'+w.nl+'.mp3');a.playbackRate=0.85;a.play();
+  document.querySelectorAll('.word-card').forEach(function(c){c.classList.remove('playing')});
+  var card=document.getElementById('wc-'+idx);if(card)card.classList.add('playing');
+  a.onended=function(){if(card)card.classList.remove('playing')}
+}
+
+function startEcho(idx){echoIdx=idx;document.getElementById('echo-mini').classList.add('active');runEchoCycle()}
+function runEchoCycle(){
+  var w=WORDS[echoIdx];if(!w)return;
+  document.getElementById('em-word').textContent=w.nl;
+  document.getElementById('em-zh').textContent=w.zh;
+  document.getElementById('em-phase').textContent='🎧 聽...';
+  var a=new Audio('audio/pronunciation/'+w.nl+'.mp3');a.playbackRate=0.85;a.play();
+  a.onended=function(){
+    document.getElementById('em-phase').textContent='🧠 在腦中迴想...';
+    echoTimer=setTimeout(function(){
+      document.getElementById('em-phase').textContent='🗣️ 大聲說：'+w.nl;
+      echoTimer=setTimeout(function(){document.getElementById('em-phase').textContent='✅ '+w.nl},4000)
+    },3000)
+  }
+}
+function echoReplay(){if(echoTimer)clearTimeout(echoTimer);runEchoCycle()}
+function echoNextWord(){
+  if(echoTimer)clearTimeout(echoTimer);
+  var fl=filter==='all'?WORDS:WORDS.filter(function(w){return w.cat===filter});
+  var cp=fl.indexOf(WORDS[echoIdx]);var np=(cp+1)%fl.length;
+  echoIdx=WORDS.indexOf(fl[np]);runEchoCycle()
+}
+function closeEchoMini(){if(echoTimer)clearTimeout(echoTimer);document.getElementById('echo-mini').classList.remove('active')}
+
+// Minimal pairs
+function renderPairs(){
+  var h='<div style="color:var(--muted);font-size:12px;margin:8px 0 12px">聽兩個相似的音，練習區分差異</div>';
+  PAIRS.forEach(function(p,i){
+    h+='<div class="pair-card"><div class="pair-title">'+p.title+'</div><div class="hint">'+p.hint+'</div><div class="pair-row"><div class="pair-word" id="pa-'+i+'" onclick="playPair('+i+',\'a\')"><div class="pw-nl">'+p.a.nl+'</div><div class="pw-zh">'+p.a.zh+'</div><div class="pw-hint">'+p.a.sound+'</div></div><div class="pair-word" id="pb-'+i+'" onclick="playPair('+i+',\'b\')"><div class="pw-nl">'+p.b.nl+'</div><div class="pw-zh">'+p.b.zh+'</div><div class="pw-hint">'+p.b.sound+'</div></div></div></div>'
+  });
+  document.getElementById('p-pairs').innerHTML=h
+}
+
+function playPair(i,side){
+  var p=PAIRS[i];var w=side==='a'?p.a:p.b;
+  // Use OpenAI TTS via SpeechSynthesis as fallback
+  var u=new SpeechSynthesisUtterance(w.nl);u.lang='nl-NL';u.rate=0.7;speechSynthesis.speak(u);
+  // Try audio file first
+  var a=new Audio('audio/pronunciation/'+w.nl+'.mp3');
+  a.playbackRate=0.8;
+  a.play().catch(function(){});
+  // Visual
+  document.getElementById('pa-'+i).classList.remove('playing');
+  document.getElementById('pb-'+i).classList.remove('playing');
+  document.getElementById('p'+side+'-'+i).classList.add('playing');
+  setTimeout(function(){document.getElementById('p'+side+'-'+i).classList.remove('playing')},2000)
+}
+
+renderWords();
+</script>
 </body>
 </html>
