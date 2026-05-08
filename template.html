@@ -1059,7 +1059,9 @@ function openEcho() {
   if (!segments.length) return;
   echoClearAll();
   echoState.active = true;
-  echoState.lineIdx = activeLineIndex || 0;
+  // Resume from last Echo position if available
+  var savedEchoIdx = store.echoProgress || 0;
+  echoState.lineIdx = activeLineIndex || savedEchoIdx;
   echoState.phase = 'idle';
   document.getElementById('echo-overlay').classList.add('active');
   setPlayButton(false);
@@ -1081,6 +1083,9 @@ function updateEchoUI() {
   document.getElementById('echo-sentence').innerHTML = s
     ? `<div><div class="nl">${escapeHtml(s.text)}</div>${s.translation ? `<div class="zh">${escapeHtml(s.translation)}</div>` : ''}</div>`
     : '';
+  // Save Echo progress
+  store.echoProgress = echoState.lineIdx;
+  saveStore(store);
 }
 
 function setEchoPhase(phase, emoji, text) {

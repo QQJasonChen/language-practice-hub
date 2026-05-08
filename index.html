@@ -225,6 +225,7 @@
       <div class="hero-stat"><div class="hs-num blue" id="h-langs">0</div><div class="hs-label">語言</div></div>
       <div class="hero-stat"><div class="hs-num green" id="h-sentences">0</div><div class="hs-label">句子</div></div>
       <div class="hero-stat"><div class="hs-num orange" id="h-practiced">0</div><div class="hs-label">已練</div></div>
+      <div class="hero-stat"><div class="hs-num" style="color:#a78bfa" id="h-looked">0</div><div class="hs-label">已查</div></div>
     </div>
   </div>
 
@@ -507,6 +508,14 @@ function renderStats() {
   document.getElementById('h-langs').textContent = new Set(videos.map(v=>v.lang)).size;
   document.getElementById('h-sentences').textContent = total.toLocaleString();
   document.getElementById('h-practiced').textContent = prac.toLocaleString();
+  // Count total looked-up sentences across all videos
+  var totalLooked = 0;
+  videos.forEach(function(v) {
+    try { var cache = JSON.parse(localStorage.getItem('lph_explain_' + v.id) || '{}'); totalLooked += Object.keys(cache).length; } catch(e) {}
+  });
+  if (totalLooked > 0 && document.getElementById('h-looked')) {
+    document.getElementById('h-looked').textContent = totalLooked;
+  }
 
   // Motivation
   const mot = document.getElementById('motivation');
