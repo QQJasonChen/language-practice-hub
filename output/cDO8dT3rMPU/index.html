@@ -449,6 +449,44 @@
   .exam-result-item { padding:10px 12px; border-radius:10px; margin-bottom:6px; background:var(--card); border:1px solid var(--glass-border); font-size:13px; }
   .exam-result-item .eri-score { font-weight:700; margin-right:8px; }
 
+  /* Connected-speech trap notebook */
+  .trap-btn { background:none; border:none; cursor:pointer; font-size:15px; opacity:0; transition:opacity .15s; }
+  .dialogue-line:hover .trap-btn { opacity:0.5; }
+  .trap-btn.trapped { opacity:1 !important; filter:drop-shadow(0 0 4px var(--orange)); }
+  .trap-overlay {
+    display:none; position:fixed; top:0; left:0; right:0; bottom:0;
+    background:var(--bg); z-index:185; flex-direction:column;
+    padding: env(safe-area-inset-top) 20px env(safe-area-inset-bottom);
+  }
+  .trap-overlay.active { display:flex; }
+  .trap-header { display:flex; justify-content:space-between; align-items:center; gap:10px; padding:16px 0; }
+  .trap-header h2 { font-size:17px; font-weight:800; flex:1; }
+  .trap-header .th-due { font-size:13px; color:var(--orange); font-weight:700; }
+  .trap-close { background:none; border:1px solid var(--glass-border); color:var(--text); padding:6px 14px; border-radius:8px; font-size:13px; cursor:pointer; }
+  .trap-body { flex:1; overflow-y:auto; padding-bottom:20px; }
+  .trap-empty { text-align:center; padding:40px 20px; color:var(--muted); line-height:1.7; }
+  .trap-empty .big { font-size:2.4em; margin-bottom:10px; }
+  .trap-list-item { display:flex; align-items:center; gap:10px; padding:12px; background:var(--card); border:1px solid var(--glass-border); border-radius:12px; margin-bottom:8px; }
+  .tli-text { flex:1; font-size:14px; line-height:1.5; }
+  .tli-meta { font-size:11px; color:var(--muted); margin-top:3px; }
+  .tli-x { background:none; border:none; color:var(--muted); cursor:pointer; font-size:14px; flex-shrink:0; }
+  .trap-start { width:100%; padding:16px; border:none; border-radius:14px; background:linear-gradient(135deg,var(--orange),var(--accent)); color:#fff; font-size:16px; font-weight:800; cursor:pointer; margin:6px 0 18px; }
+  .trap-start:active { transform:scale(0.98); }
+  .trap-start:disabled { opacity:0.45; cursor:default; filter:grayscale(0.5); }
+  .trap-drill { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:22px; padding:20px 0; }
+  .td-prompt { font-size:13px; color:var(--muted); letter-spacing:0.5px; }
+  .td-replay { width:90px; height:90px; border-radius:50%; border:none; font-size:34px; cursor:pointer; color:#fff; background:linear-gradient(135deg,var(--orange),var(--accent)); box-shadow:0 4px 24px rgba(251,146,60,0.4); }
+  .td-replay:active { transform:scale(0.92); }
+  .td-loopbadge { font-size:12px; color:var(--orange); font-weight:700; min-height:1em; }
+  .td-answer { font-size:18px; font-weight:600; line-height:1.7; max-width:520px; padding:20px; background:var(--card); border:1px solid var(--glass-border); border-radius:16px; transition:filter .25s; }
+  .td-answer.hidden { filter:blur(10px); user-select:none; }
+  .td-answer .zh { display:block; font-size:13px; color:var(--muted); margin-top:8px; font-weight:400; }
+  .td-actions { display:flex; gap:10px; flex-wrap:wrap; justify-content:center; }
+  .td-btn, .td-reveal { padding:12px 22px; border-radius:12px; font-size:15px; font-weight:700; cursor:pointer; border:1px solid var(--glass-border); background:var(--card); color:var(--text); }
+  .td-btn:active, .td-reveal:active { transform:scale(0.95); }
+  .td-btn.again { border-color:var(--accent); color:var(--accent); }
+  .td-btn.got { background:var(--green); color:#000; border:none; }
+
   /* Daily challenge */
   .daily-overlay {
     display:none; position:fixed; top:0; left:0; right:0; bottom:0;
@@ -579,6 +617,7 @@
       <button class="mode-btn" onclick="openExamMode()" style="background:rgba(255,59,92,0.1);border-color:rgba(255,59,92,0.3);color:var(--accent)">🎯 考試模擬</button>
       <button class="mode-btn" onclick="openSprekenMode()" style="background:rgba(96,165,250,0.1);border-color:rgba(96,165,250,0.3);color:var(--blue)">🗣️ 口說練習</button>
       <button class="mode-btn" onclick="openDailyChallenge()" style="background:rgba(251,146,60,0.1);border-color:rgba(251,146,60,0.3);color:var(--orange)">🔥 每日挑戰</button>
+      <button class="mode-btn" id="trap-mode-btn" onclick="openTrapbook()" style="background:rgba(251,146,60,0.12);border-color:rgba(251,146,60,0.35);color:var(--orange)">🪤 連音陷阱本 <span id="trap-badge"></span></button>
     </div>
     <div class="dialogue-box" id="dialogue-box"></div>
   </div>
@@ -634,6 +673,16 @@
     <button class="exam-close" onclick="closeExam()">✕ 結束</button>
   </div>
   <div class="exam-question" id="exam-content"></div>
+</div>
+
+<!-- Connected-speech Trap Notebook Overlay -->
+<div class="trap-overlay" id="trap-overlay">
+  <div class="trap-header">
+    <h2>🪤 連音陷阱本</h2>
+    <span class="th-due" id="trap-header-due"></span>
+    <button class="trap-close" onclick="closeTrapbook()">✕ 結束</button>
+  </div>
+  <div class="trap-body" id="trap-body"></div>
 </div>
 
 <!-- Daily Challenge Overlay -->
@@ -701,6 +750,7 @@ function init() {
   renderDialogue();
   renderQuiz();
   renderVocab();
+  updateTrapBadge();
   audio.playbackRate = 1.0;
 }
 
@@ -713,17 +763,20 @@ function saveStore(d) { localStorage.setItem(STORE_KEY, JSON.stringify(d)); }
 let store = loadStore(); // { practiced: [idx,...], bookmarks: [idx,...], theme: 'dark' }
 if (!store.practiced) store.practiced = [];
 if (!store.bookmarks) store.bookmarks = [];
+if (!store.traps) store.traps = [];   // 連音陷阱本：聽錯的句子 idx
 
 function renderDialogue() {
   const box = document.getElementById('dialogue-box');
   box.innerHTML = segments.map((s, i) => {
     const zh = s.translation || '';
     const isBookmarked = store.bookmarks.includes(i);
+    const isTrapped = store.traps.includes(i);
     return `<div class="dialogue-line" data-idx="${i}" onclick="jumpToLine(${i})">
       <span class="line-text">${escapeHtml(s.text)}${zh ? `<div class="line-zh">${escapeHtml(zh)}</div>` : ''}</span>
       <button class="rec-btn" id="rec-${i}" onclick="event.stopPropagation();toggleRec(${i})" title="錄音比對">🎙️</button>
       <button class="explain-btn" onclick="event.stopPropagation();explainLine(${i})" title="AI 解析">💡</button>
       <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" onclick="event.stopPropagation();toggleBookmark(${i})" title="書籤">🔖</button>
+      <button class="trap-btn ${isTrapped ? 'trapped' : ''}" onclick="event.stopPropagation();toggleTrap(${i})" title="聽錯了 → 加入連音陷阱本">🪤</button>
       <button class="line-repeat-btn" onclick="event.stopPropagation();loopLine(${i})" title="單句Loop / Shift+點兩句=多句Loop">🔁</button>
     </div>`;
   }).join('');
@@ -1446,6 +1499,169 @@ function renderReview() {
       </div>
     </div>`;
   }).join('');
+}
+
+// ── Connected-speech Trap Notebook ──
+// trap = a sentence you misheard. Drill = blind listen (text hidden) +
+// single-segment loop, then self-grade. Re-uses store.srs scheduling
+// (same formula as rateSentence) so traps also surface in Review.
+let trapState = { drilling:false, queue:[], pos:0, loop:null };
+
+function toggleTrap(idx) {
+  const i = store.traps.indexOf(idx);
+  if (i >= 0) {
+    store.traps.splice(i, 1);
+  } else {
+    store.traps.push(idx);
+    store.traps.sort((a,b)=>a-b);
+    // a fresh trap is due for re-test immediately
+    store.srs[idx] = { interval:0, nextReview:Date.now(), ease:1, lastReview:0 };
+  }
+  saveStore(store);
+  const btns = document.querySelectorAll('.trap-btn');
+  if (btns[idx]) btns[idx].classList.toggle('trapped', store.traps.includes(idx));
+  updateTrapBadge();
+  const ov = document.getElementById('trap-overlay');
+  if (ov && ov.classList.contains('active') && !trapState.drilling) renderTrapbook();
+}
+
+function updateTrapBadge() {
+  const b = document.getElementById('trap-badge');
+  if (b) b.textContent = store.traps.length ? `(${store.traps.length})` : '';
+}
+
+function trapDue() {
+  const now = Date.now();
+  return store.traps.filter(idx => {
+    const d = store.srs[idx];
+    return !d || d.nextReview <= now;
+  });
+}
+
+// same intervals as rateSentence(), but decoupled from the Review DOM
+function trapSchedule(idx, rating) {
+  const ease = rating === 'easy' ? 3 : rating === 'ok' ? 2 : 1;
+  const prev = store.srs[idx] || { interval:0, ease:2 };
+  let ni;
+  if (ease === 1) ni = 1;
+  else if (ease === 2) ni = Math.max(1, Math.round(prev.interval*1.5) || 1);
+  else ni = Math.max(2, Math.round(prev.interval*2.5) || 2);
+  store.srs[idx] = { interval:ni, nextReview:Date.now()+ni*86400000, ease, lastReview:Date.now() };
+  saveStore(store);
+}
+
+function openTrapbook() {
+  document.getElementById('trap-overlay').classList.add('active');
+  trapState.drilling = false;
+  renderTrapbook();
+}
+function closeTrapbook() {
+  stopTrapLoop();
+  trapState.drilling = false;
+  audio.pause();
+  document.getElementById('trap-overlay').classList.remove('active');
+  renderDialogue();   // restore trap-button states in the list
+}
+
+function renderTrapbook() {
+  stopTrapLoop();
+  const body = document.getElementById('trap-body');
+  const hdr = document.getElementById('trap-header-due');
+  if (!store.traps.length) {
+    if (hdr) hdr.textContent = '';
+    body.innerHTML = `<div class="trap-empty"><div class="big">🪤</div>
+      還沒有陷阱句。<br><span style="font-size:.9em">聽的時候，凡是「聽錯 / 沒聽出來」的句子，
+      點它右邊的 🪤，<br>它就會進這本，之後盲聽重練（隔幾天自動再考你）。</span></div>`;
+    return;
+  }
+  const due = trapDue();
+  if (hdr) hdr.textContent = due.length ? `${due.length} 句待練` : '今日已清';
+  body.innerHTML = `
+    <button class="trap-start" onclick="startTrapDrill()" ${due.length?'':'disabled'}>
+      ${due.length ? `▶︎ 開始盲聽訓練（${due.length} 句到期）` : '✓ 今天都複習完了，明天再來'}
+    </button>` +
+    store.traps.map(idx => {
+      const s = segments[idx]; if(!s) return '';
+      const d = store.srs[idx]; const now = Date.now();
+      const status = (!d || d.nextReview<=now)
+        ? '<span style="color:var(--orange)">● 待練</span>'
+        : `${Math.max(1,Math.round((d.nextReview-now)/86400000))} 天後再考`;
+      return `<div class="trap-list-item">
+        <div class="tli-text">${escapeHtml(s.text)}
+          <div class="tli-meta">${fmt(s.start)} · ${status}</div></div>
+        <button class="tli-x" onclick="toggleTrap(${idx})" title="移出陷阱本">✕</button>
+      </div>`;
+    }).join('');
+}
+
+function startTrapDrill() {
+  trapState.queue = trapDue();
+  if (!trapState.queue.length) return;
+  trapState.drilling = true;
+  trapState.pos = 0;
+  showTrapCard();
+}
+
+function showTrapCard() {
+  stopTrapLoop();
+  const body = document.getElementById('trap-body');
+  if (trapState.pos >= trapState.queue.length) {
+    trapState.drilling = false;
+    audio.pause();
+    body.innerHTML = `<div class="trap-empty"><div class="big">🎉</div>
+      這輪 ${trapState.queue.length} 句練完了！耳朵有比較開了嗎？<br>
+      <button class="trap-start" style="max-width:240px;margin-top:18px" onclick="renderTrapbook()">回陷阱本</button></div>`;
+    return;
+  }
+  const idx = trapState.queue[trapState.pos];
+  const s = segments[idx];
+  body.innerHTML = `<div class="trap-drill">
+    <div class="td-prompt">第 ${trapState.pos+1} / ${trapState.queue.length} 句 · 只用耳朵，先別看字</div>
+    <button class="td-replay" onclick="trapReplay()" title="重播">▶︎</button>
+    <div class="td-loopbadge" id="td-loopbadge">循環播放中…</div>
+    <div class="td-answer hidden" id="td-answer">
+      ${escapeHtml(s.text)}<span class="zh">${escapeHtml(s.translation||'')}</span>
+    </div>
+    <div class="td-actions" id="td-actions">
+      <button class="td-reveal" onclick="trapReveal()">看答案</button>
+    </div>
+  </div>`;
+  trapPlayLoop(idx);
+}
+
+function trapPlayLoop(idx) {
+  const s = segments[idx];
+  stopTrapLoop();
+  audio.currentTime = s.start;
+  audio.play().catch(()=>{});
+  let loops = 0;
+  trapState.loop = setInterval(() => {
+    if (audio.currentTime >= s.end) {
+      loops++;
+      const lb = document.getElementById('td-loopbadge');
+      if (lb) lb.textContent = `循環播放中… ×${loops}`;
+      audio.currentTime = s.start;
+      audio.play().catch(()=>{});
+    }
+  }, 120);
+}
+function stopTrapLoop() { if (trapState.loop) { clearInterval(trapState.loop); trapState.loop = null; } }
+function trapReplay() { if (trapState.queue.length) trapPlayLoop(trapState.queue[trapState.pos]); }
+
+function trapReveal() {
+  const a = document.getElementById('td-answer');
+  if (a) a.classList.remove('hidden');
+  const act = document.getElementById('td-actions');
+  if (act) act.innerHTML = `
+    <button class="td-btn again" onclick="trapGrade('hard')">😵 還是聽錯</button>
+    <button class="td-btn got" onclick="trapGrade('easy')">✅ 聽懂了</button>`;
+}
+
+function trapGrade(rating) {
+  const idx = trapState.queue[trapState.pos];
+  trapSchedule(idx, rating);   // hard → 明天再考；easy → 間隔拉長
+  trapState.pos++;
+  showTrapCard();
 }
 
 // ── Difficulty estimation ──

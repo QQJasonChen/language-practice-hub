@@ -12,2972 +12,2432 @@
       {
         "text": "Eren is met zijn vriend Mark bij de gemeente.",
         "translation": "Eren和他的朋友Mark在市政府。",
-        "start": 6.52,
-        "end": 14.64
+        "start": 6.72,
+        "end": 10.22
       },
       {
         "text": "Lees eerst de vraag, kijk daarna naar de video.",
         "translation": "請先閱讀問題，然後觀看影片。",
-        "start": 14.64,
-        "end": 17.04
+        "start": 12.04,
+        "end": 15.62
       },
       {
-        "text": "Kan ik u helpen? Ik heb gisteren een zoon gekregen.",
+        "text": "Kan ik u helpen? Ik heb een zoon gekregen, gisteren.",
         "translation": "我可以幫您嗎？我昨天生了一個兒子。",
-        "start": 25.72,
-        "end": 33.32
+        "start": 26.34,
+        "end": 31.32
       },
       {
         "text": "Gefeliciteerd! U wilt dus aangifte doen van de geboorte.",
-        "translation": "恭喜！您想要辦理出生登記。",
-        "start": 33.32,
-        "end": 36.2
+        "translation": "恭喜您！您想要申報出生。",
+        "start": 31.74,
+        "end": 35.14
       },
       {
-        "text": "Mag ik uw legitimatiebewijs zien?",
-        "translation": "我可以看一下您的身份證明嗎？",
-        "start": 36.2,
-        "end": 40.92
+        "text": "Mag ik uw legitimatiebewijs? Nee, vergeten.",
+        "translation": "我可以看一下您的身分證件嗎？不，忘記帶了。",
+        "start": 36.28,
+        "end": 39.82
       },
       {
-        "text": "Nee, vergeten. Ach, dat kan gebeuren.",
-        "translation": "不見了。唉，這種事難免會發生。",
-        "start": 40.92,
-        "end": 44.88
+        "text": "Ach, kan gebeuren.",
+        "translation": "沒關係，會發生的。",
+        "start": 39.82,
+        "end": 41.72
       },
       {
         "text": "U kunt tot twee dagen na de geboorte aangifte doen, dus het mag morgen ook nog.",
-        "translation": "您可以在嬰兒出生後兩天內辦理登記，所以明天也可以。",
-        "start": 44.88,
-        "end": 50.04
+        "translation": "您可以在出生後兩天內申報，所以明天也可以。",
+        "start": 43.3,
+        "end": 48.08
       },
       {
-        "text": "Want vanmiddag zijn we gesloten.",
-        "translation": "因為我們今天下午關門。",
-        "start": 50.04,
-        "end": 53.76
+        "text": "Want vanmiddag zijn we gesloten. Bent u getrouwd?",
+        "translation": "因為今天下午我們休息。您結婚了嗎？",
+        "start": 48.66,
+        "end": 51.82
       },
       {
-        "text": "Bent u getrouwd? Ja, dan moet u ook het trouwboekje meenemen.",
-        "translation": "您已婚嗎？是，您明天也必須帶結婚證書。",
-        "start": 53.76,
-        "end": 56.48
-      },
-      {
-        "text": "Morgen zijn we tot 12 uur open.",
-        "translation": "我們明天營業到12點。",
-        "start": 56.48,
-        "end": 60.24
+        "text": "Ja. Dan moet u ook het trouwboekje meenemen. Morgen zijn we tot twaalf uur open.",
+        "translation": "是的。那您也必須帶結婚冊。明天我們開門到十二點。",
+        "start": 52.6,
+        "end": 57.9
       },
       {
         "text": "U kunt op internet een afspraak maken, dan hoeft u niet zo lang te wachten.",
-        "translation": "您可以在網路上預約，這樣就不必等待太久。",
-        "start": 60.24,
-        "end": 65.2
+        "translation": "您可以在網路上預約，這樣就不必等太久。",
+        "start": 58.52,
+        "end": 62.92
       },
       {
-        "text": "Kan dat niet meteen hier aan de balie? Helaas alleen online.",
-        "translation": "不能馬上在櫃台辦理嗎？很抱歉只能線上預約。",
-        "start": 65.2,
-        "end": 68.24
+        "text": "Kan dat niet meteen hier aan de balie? Helaas, alleen online.",
+        "translation": "不能當場在櫃檯辦理嗎？抱歉，只能線上辦理。",
+        "start": 63.6,
+        "end": 68.14
       },
       {
-        "text": "Oké.",
-        "translation": "好的。",
-        "start": 68.24,
-        "end": 71.2
+        "text": "Oké, bedankt. Waarom is Mark bij de gemeente?",
+        "translation": "好的，謝謝。為什麼Mark會在市政府？",
+        "start": 70.38,
+        "end": 74.62
       },
       {
-        "text": "Bedankt.",
-        "translation": "謝謝。",
-        "start": 71.2,
-        "end": 75.08
-      },
-      {
-        "text": "Waarom is Mark bij de gemeente? Hij wil een geboorte aangeven.",
-        "translation": "為什麼Mark來市政府？他想辦理出生登記。",
-        "start": 75.08,
-        "end": 80.72
+        "text": "Hij wil een geboorte aangeven.",
+        "translation": "他想要申報新生兒出生。",
+        "start": 75.96,
+        "end": 78.02
       },
       {
         "text": "Hij is zijn legitimatiebewijs kwijt.",
-        "translation": "他的身份證明不見了。",
-        "start": 80.72,
-        "end": 83.96
+        "translation": "他弄丟了自己的身分證。",
+        "start": 79.36,
+        "end": 82.32
       },
       {
         "text": "Hij gaat binnenkort trouwen.",
-        "translation": "他即將結婚。",
-        "start": 83.96,
-        "end": 87.76
+        "translation": "他很快就要結婚了。",
+        "start": 83.5,
+        "end": 85.84
       },
       {
         "text": "Eren is met zijn vriend Mark bij de gemeente.",
         "translation": "Eren和他的朋友Mark在市政府。",
-        "start": 91.04,
-        "end": 99.04
+        "start": 91.58,
+        "end": 94.64
       },
       {
         "text": "Lees eerst de vraag, kijk daarna naar de video.",
         "translation": "請先閱讀問題，然後觀看影片。",
-        "start": 99.04,
-        "end": 101.48
+        "start": 95.66,
+        "end": 100.34
       },
       {
-        "text": "Kan ik u helpen? Ik heb gisteren een zoon gekregen.",
+        "text": "Kan ik u helpen? Ik heb een zoon gekregen. Gisteren.",
         "translation": "我可以幫您嗎？我昨天生了一個兒子。",
-        "start": 110.08,
-        "end": 117.72
+        "start": 110.76,
+        "end": 115.76
       },
       {
         "text": "Gefeliciteerd! U wilt dus aangifte doen van de geboorte.",
-        "translation": "恭喜！您想要辦理出生登記。",
-        "start": 117.72,
-        "end": 120.4
+        "translation": "恭喜您！您想要申報出生。",
+        "start": 116.16,
+        "end": 119.58
       },
       {
-        "text": "Mag ik uw legitimatiebewijs zien?",
-        "translation": "我可以看一下您的身份證明嗎？",
-        "start": 120.4,
-        "end": 124.36
+        "text": "Mag ik uw legitimatiebewijs? Nee, vergeten.",
+        "translation": "我可以看一下您的身分證件嗎？不，忘記帶了。",
+        "start": 120.72,
+        "end": 124.56
       },
       {
-        "text": "Nee, vergeten. Ach, dat kan gebeuren.",
-        "translation": "不見了。唉，這種事難免會發生。",
-        "start": 124.36,
-        "end": 129.32
+        "text": "Ach, kan gebeuren.",
+        "translation": "沒關係，會發生的。",
+        "start": 124.8,
+        "end": 126.1
       },
       {
-        "text": "U kunt tot twee dagen na de geboorte aangifte doen, dus het mag morgen ook nog.",
-        "translation": "您可以在嬰兒出生後兩天內辦理登記，所以明天也可以。",
-        "start": 129.32,
-        "end": 134.88
+        "text": "U kunt tot twee dagen na de geboorte aangifte doen. Dus het mag morgen ook nog.",
+        "translation": "您可以在出生後兩天內申報，所以明天也可以。",
+        "start": 127.7,
+        "end": 132.48
       },
       {
-        "text": "Want vanmiddag zijn we gesloten.",
-        "translation": "因為我們今天下午關門。",
-        "start": 134.88,
-        "end": 138.16
+        "text": "Want vanmiddag zijn we gesloten. Bent u getrouwd?",
+        "translation": "因為今天下午我們休息。您結婚了嗎？",
+        "start": 133.04,
+        "end": 136.76
       },
       {
-        "text": "Bent u getrouwd? Ja, dan moet u ook het trouwboekje meenemen.",
-        "translation": "您已婚嗎？是，您明天也必須帶結婚證書。",
-        "start": 138.16,
-        "end": 143.96
-      },
-      {
-        "text": "Morgen zijn we tot 12 uur open.",
-        "translation": "我們明天營業到12點。",
-        "start": 143.96,
-        "end": 149.0
+        "text": "Ja. Dan moet u ook het trouwboekje meenemen. Morgen zijn we tot twaalf uur open.",
+        "translation": "是的。那您也必須帶結婚冊。明天我們開門到十二點。",
+        "start": 137.02,
+        "end": 142.32
       },
       {
         "text": "U kunt op internet een afspraak maken, dan hoeft u niet zo lang te wachten.",
-        "translation": "您可以在網路上預約，這樣就不必等待太久。",
-        "start": 149.0,
-        "end": 152.76
+        "translation": "您可以在網路上預約，這樣就不必等太久。",
+        "start": 142.94,
+        "end": 147.36
       },
       {
-        "text": "Kan dat niet meteen hier aan de balie? Helaas alleen online.",
-        "translation": "不能馬上在櫃台辦理嗎？很抱歉只能線上預約。",
-        "start": 152.76,
-        "end": 155.6
+        "text": "Kan dat niet meteen hier aan de balie? Helaas, alleen online.",
+        "translation": "不能當場在櫃檯辦理嗎？抱歉，只能線上辦理。",
+        "start": 148.04,
+        "end": 152.66
       },
       {
-        "text": "Oké.",
-        "translation": "好的。",
-        "start": 155.6,
-        "end": 159.32
+        "text": "Oké, bedankt.",
+        "translation": "好的，謝謝。",
+        "start": 153.9,
+        "end": 155.94
       },
       {
-        "text": "Bedankt.",
-        "translation": "謝謝。",
-        "start": 159.32,
-        "end": 164.8
+        "text": "Wanneer kan Mark terugkomen bij de gemeente?",
+        "translation": "Mark什麼時候可以再回來市政府？",
+        "start": 156.74,
+        "end": 159.92
       },
       {
-        "text": "Wanneer kan Mark terugkomen bij de gemeente? Vanmiddag, morgenochtend of over drie dagen?",
-        "translation": "Mark什麼時候可以回到市政府？今天下午、明天早上，還是三天後？",
-        "start": 164.8,
-        "end": 168.32
+        "text": "Vanmiddag. Morgenochtend. Over drie dagen.",
+        "translation": "今天下午。明天早上。三天後。",
+        "start": 161.94,
+        "end": 166.78
       },
       {
         "text": "Eren is met zijn vriend Mark bij de gemeente.",
         "translation": "Eren和他的朋友Mark在市政府。",
-        "start": 170.4,
-        "end": 176.08
+        "start": 171.82,
+        "end": 175.64
       },
       {
-        "text": "Lees eerst de vraag, kijk daarna ga naar de video.",
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
         "translation": "請先閱讀問題，然後觀看影片。",
-        "start": 176.08,
-        "end": 179.84
+        "start": 176.66,
+        "end": 181.32
       },
       {
-        "text": "Kan ik u helpen? Ik heb gisteren een zoon gekregen.",
+        "text": "Kan ik u helpen? Ik heb een zoon gekregen. Gisteren.",
         "translation": "我可以幫您嗎？我昨天生了一個兒子。",
-        "start": 179.84,
-        "end": 182.56
+        "start": 191.76,
+        "end": 196.76
       },
       {
         "text": "Gefeliciteerd! U wilt dus aangifte doen van de geboorte.",
-        "translation": "恭喜！您想要辦理出生登記。",
-        "start": 191.04,
-        "end": 198.72
+        "translation": "恭喜您！您想要申報出生。",
+        "start": 196.94,
+        "end": 200.56
       },
       {
-        "text": "Mag ik uw legitimatiebewijs zien?",
-        "translation": "我可以看一下您的身份證明嗎？",
-        "start": 198.72,
-        "end": 201.56
+        "text": "Mag ik uw legitimatiebewijs? Nee, vergeten.",
+        "translation": "我可以看一下您的身分證件嗎？不，忘記帶了。",
+        "start": 201.7,
+        "end": 205.56
       },
       {
-        "text": "Nee, vergeten. Ach, dat kan gebeuren.",
-        "translation": "不見了。唉，這種事難免會發生。",
-        "start": 201.56,
-        "end": 206.36
+        "text": "Ach, kan gebeuren.",
+        "translation": "沒關係，會發生的。",
+        "start": 205.84,
+        "end": 207.1
       },
       {
-        "text": "U kunt tot twee dagen na de geboorte aangifte doen, dus het mag morgen ook nog.",
-        "translation": "您可以在嬰兒出生後兩天內辦理登記，所以明天也可以。",
-        "start": 206.36,
-        "end": 210.76
+        "text": "U kunt tot twee dagen na de geboorte aangifte doen. Dus het mag morgen ook nog.",
+        "translation": "您可以在出生後兩天內申報，所以明天也可以。",
+        "start": 208.72,
+        "end": 213.46
       },
       {
-        "text": "Want vanmiddag zijn we gesloten.",
-        "translation": "因為我們今天下午關門。",
-        "start": 210.76,
-        "end": 213.84
+        "text": "Want vanmiddag zijn we gesloten. Bent u getrouwd?",
+        "translation": "因為今天下午我們休息。您結婚了嗎？",
+        "start": 214.04,
+        "end": 217.74
       },
       {
-        "text": "Bent u getrouwd? Ja, dan moet u ook het trouwboekje meenemen.",
-        "translation": "您已婚嗎？是，您明天也必須帶結婚證書。",
-        "start": 213.84,
-        "end": 217.16
-      },
-      {
-        "text": "Morgen zijn we tot 12 uur open.",
-        "translation": "我們明天營業到12點。",
-        "start": 217.16,
-        "end": 222.28
+        "text": "Ja. Dan moet u ook het trouwboekje meenemen. Morgen zijn we tot twaalf uur open.",
+        "translation": "是的。那您也必須帶結婚冊。明天我們開門到十二點。",
+        "start": 218.0,
+        "end": 223.3
       },
       {
         "text": "U kunt op internet een afspraak maken, dan hoeft u niet zo lang te wachten.",
-        "translation": "您可以在網路上預約，這樣就不必等待太久。",
-        "start": 222.28,
-        "end": 227.68
+        "translation": "您可以在網路上預約，這樣就不必等太久。",
+        "start": 223.9,
+        "end": 228.32
       },
       {
-        "text": "Kan dat niet meteen hier aan de balie? Helaas alleen online.",
-        "translation": "不能馬上在櫃台辦理嗎？很抱歉只能線上預約。",
-        "start": 227.68,
-        "end": 230.08
+        "text": "Kan dat niet meteen hier aan de balie? Helaas. Alleen online.",
+        "translation": "不能當場在櫃檯辦理嗎？抱歉，只能線上辦理。",
+        "start": 229.0,
+        "end": 233.64
       },
       {
-        "text": "Oké.",
-        "translation": "好的。",
-        "start": 230.08,
-        "end": 233.76
+        "text": "Oké. Bedankt.",
+        "translation": "好的，謝謝。",
+        "start": 234.9,
+        "end": 236.78
       },
       {
-        "text": "Bedankt.",
-        "translation": "謝謝。",
-        "start": 233.76,
-        "end": 237.52
+        "text": "Jassier wil werken via uitzendbureau Kracht.",
+        "translation": "Jassier想透過人力仲介公司Kracht工作。",
+        "start": 266.62,
+        "end": 270.28
       },
       {
-        "text": "De volgende keer niet zo lang wachten.",
-        "translation": "下次不要等那麼久。",
-        "start": 237.52,
-        "end": 241.4
+        "text": "Hij heeft zich al ingeschreven.",
+        "translation": "他已經註冊了。",
+        "start": 271.58,
+        "end": 273.16
       },
       {
-        "text": "Wat kan hij dan het beste doen? Een afspraak maken aan de balie.",
-        "translation": "那他最好怎麼做？到櫃台預約。",
-        "start": 241.4,
-        "end": 245.72
+        "text": "Hij bekijkt een filmpje op internet van het uitzendbureau.",
+        "translation": "他在網路上觀看人力仲介公司的影片。",
+        "start": 274.38,
+        "end": 277.78
       },
       {
-        "text": "wachten Wat kan hij dan het beste doen",
-        "translation": "",
-        "start": 245.72,
-        "end": 250.0
-      },
-      {
-        "text": "een afspraak maken aan de balie een",
-        "translation": "",
-        "start": 250.0,
-        "end": 254.84
-      },
-      {
-        "text": "Afspraak maken via internet voor 12 uur.",
-        "translation": "透過網路預約在12點前的時間。",
-        "start": 254.84,
-        "end": 258.52
-      },
-      {
-        "text": "Naar de gemeente gaan na 12 uur, naar de gemeente.",
-        "translation": "在12點後前往市政府，前往市政府。",
-        "start": 258.52,
-        "end": 261.04
-      },
-      {
-        "text": "Gaan: Jassir wil werken via uitzendbureau.",
-        "translation": "去：Jassir 想透過派遣公司工作。",
-        "start": 265.76,
-        "end": 273.04
-      },
-      {
-        "text": "Kracht: hij heeft zich al ingeschreven. Hij bekijkt een filmpje op",
-        "translation": "Kracht：他已經註冊了。他正在觀看一段",
-        "start": 273.04,
-        "end": 277.88
-      },
-      {
-        "text": "internet van het",
-        "translation": "派遣公司在網路上的",
-        "start": 277.88,
-        "end": 281.64
-      },
-      {
-        "text": "uitzendbureau. Lees eerst de vraag, kijk daarna naar de",
-        "translation": "影片。請先閱讀問題，然後觀看",
-        "start": 281.64,
-        "end": 284.64
-      },
-      {
-        "text": "video. Welkom bij uitzendbureau Kracht.",
-        "translation": "影片。歡迎來到派遣公司Kracht。",
-        "start": 295.56,
-        "end": 302.68
-      },
-      {
-        "text": "U heeft zich bij ons ingeschreven via",
-        "translation": "您已透過網路在我們這裡完成註冊，",
-        "start": 302.68,
-        "end": 306.08
-      },
-      {
-        "text": "internet en u heeft binnenkort een kennismakingsgesprek. U krijgt daarvoor",
-        "translation": "並且您即將有一個認識會談。您會收到",
-        "start": 306.08,
-        "end": 311.36
-      },
-      {
-        "text": "een uitnodiging per e-mail met de datum en de",
-        "translation": "一封包含日期和時間的電子郵件邀請。",
-        "start": 311.36,
-        "end": 313.88
-      },
-      {
-        "text": "tijd. Mensen kunnen bij ons werken in de",
-        "translation": "人們可以在我們這裡工作，領域包括",
-        "start": 315.0,
-        "end": 323.44
-      },
-      {
-        "text": "schoonmaak, de beveiliging en in de productie. Voor de schoonmaak en",
-        "translation": "清潔、安全以及生產。對於清潔和",
-        "start": 323.44,
-        "end": 328.4
-      },
-      {
-        "text": "productie moet u Nederlands spreken op A2-niveau.",
-        "translation": "生產工作，您必須具備 A2 級的荷蘭語能力。",
-        "start": 328.4,
-        "end": 334.2
-      },
-      {
-        "text": "Voor de beveiliging op B1",
-        "translation": "對於安全工作須達到 B1",
-        "start": 334.2,
-        "end": 337.2
-      },
-      {
-        "text": "niveau. Ook is het fijn als u ervaring",
-        "translation": "級水平。擁有相關工作經驗會更好，",
-        "start": 337.2,
-        "end": 341.4
-      },
-      {
-        "text": "heeft met het werk, maar dat hoeft niet. U kunt bij ons ook een avondopleiding",
-        "translation": "但並非必要。您也可以在我們這裡參加晚間課程，",
-        "start": 341.4,
-        "end": 345.68
-      },
-      {
-        "text": "volgen tot",
-        "translation": "成為",
-        "start": 345.68,
-        "end": 349.56
-      },
-      {
-        "text": "leidinggevende. Deze opleiding duurt 4",
-        "translation": "一名領導者。此課程為期4個",
-        "start": 349.56,
-        "end": 352.36
-      },
-      {
-        "text": "maanden. U leert bijvoorbeeld een",
-        "translation": "月。例如，您將學習如何",
-        "start": 352.36,
-        "end": 356.96
-      },
-      {
-        "text": "werkplanning maken of werkroosters",
-        "translation": "制定工作計畫或管理工作排班。",
-        "start": 356.96,
-        "end": 360.04
-      },
-      {
-        "text": "bijhouden. Tijdens uw opleiding loopt u ook stage. U oefent dan wat u heeft",
-        "translation": "在您的課程中，您也會進行實習，實習時將練習您所學的內容。",
-        "start": 360.04,
-        "end": 365.16
-      },
-      {
-        "text": "geleerd. Deze stage duurt 2",
-        "translation": "實習持續2個",
-        "start": 365.52,
-        "end": 373.64
-      },
-      {
-        "text": "maanden, dus de opleiding duurt in totaal 4",
-        "translation": "月，因此整個課程總計4個",
-        "start": 373.64,
-        "end": 378.4
-      },
-      {
-        "text": "maanden. Na de opleiding kunt u aan het werk als",
-        "translation": "月。課程結束後，您可以作為",
-        "start": 378.4,
-        "end": 382.8
-      },
-      {
-        "text": "leidinggevende. Heeft u interesse in deze",
-        "translation": "領導者開始工作。您對此",
-        "start": 382.8,
-        "end": 386.28
-      },
-      {
-        "text": "opleiding? Geeft u dat dan aan bij uw kennismakingsgesprek. Tot ziens bij het gesprek.",
-        "translation": "課程有興趣嗎？請在您的認識會談中告知我們。會談時見。",
-        "start": 386.28,
-        "end": 391.2
-      },
-      {
-        "text": "Hoe krijgt Jassir de uitnodiging met de",
-        "translation": "Jassir 如何收到包含",
-        "start": 392.28,
-        "end": 397.12
-      },
-      {
-        "text": "datum en tijd voor het",
-        "translation": "日期和時間的邀請？是透過這段影片、電子郵件，還是",
-        "start": 397.12,
-        "end": 402.16
-      },
-      {
-        "text": "gesprek? Via dit filmpje, via een e-mail, via een",
-        "translation": "信件？Jassir 想透過",
-        "start": 402.16,
-        "end": 404.84
-      },
-      {
-        "text": "brief? Jassir wil werken via",
-        "translation": "派遣公司Kracht工作。他已經",
-        "start": 408.08,
-        "end": 412.72
-      },
-      {
-        "text": "uitzendbureau Kracht. Hij heeft zich al",
-        "translation": "註冊了。他正在觀看一段",
-        "start": 412.72,
-        "end": 418.2
-      },
-      {
-        "text": "ingeschreven. Hij bekijkt een filmpje op",
-        "translation": "派遣公司網路上的",
-        "start": 418.2,
-        "end": 420.32
-      },
-      {
-        "text": "internet van het",
-        "translation": "影片。請先閱讀問題，然後觀看",
-        "start": 420.32,
-        "end": 424.6
-      },
-      {
-        "text": "cureau. Lees eerst de vraag, kijk daarna naar de",
-        "translation": "影片。歡迎來到派遣公司Kracht。您",
-        "start": 424.6,
-        "end": 427.04
-      },
-      {
-        "text": "video. Welkom bij uitzendbureau Kracht. U",
-        "translation": "已透過網路在我們這裡完成註冊，您即將有一個",
-        "start": 437.92,
-        "end": 445.04
-      },
-      {
-        "text": "heeft zich bij ons ingeschreven via internet en u heeft binnenkort een",
-        "translation": "認識會談。",
-        "start": 445.04,
-        "end": 449.8
-      },
-      {
-        "text": "kennismakingsgesprek.",
-        "translation": "您會收到一封包含日期和",
-        "start": 449.8,
-        "end": 451.88
-      },
-      {
-        "text": "U krijgt daarvoor een uitnodiging per e-mail met de datum en de",
-        "translation": "時間的電子郵件邀請。人們可以在我們這裡從事",
-        "start": 451.88,
-        "end": 456.28
-      },
-      {
-        "text": "tijd. Mensen kunnen bij ons werken in de",
-        "translation": "清潔、安全及生產工作。對於清潔和",
-        "start": 457.32,
-        "end": 465.8
-      },
-      {
-        "text": "schoonmaak, de beveiliging en in de productie. Voor de schoonmaak en",
-        "translation": "生產工作，您必須具備",
-        "start": 465.8,
-        "end": 470.76
-      },
-      {
-        "text": "productie moet u Nederlands spreken op",
-        "translation": "A2級的荷蘭語能力。對於安全工作須達到B1",
-        "start": 470.76,
-        "end": 476.6
-      },
-      {
-        "text": "A2-niveau. Voor de beveiliging op B1",
-        "translation": "級水平。擁有相",
-        "start": 476.6,
-        "end": 480.24
-      },
-      {
-        "text": "niveau. Ook is het fijn als u ervar-heter hebt, maar dat hoe",
-        "translation": "關經驗會比較好，但這不是",
-        "start": 480.24,
-        "end": 485.24
-      },
-      {
-        "text": "niet. U kunt bij ons ook een",
-        "translation": "必要的。您也可以在我們這裡參加",
-        "start": 485.24,
-        "end": 488.08
-      },
-      {
-        "text": "avondopleiding volgen tot",
-        "translation": "晚間課程，",
-        "start": 488.08,
-        "end": 491.92
-      },
-      {
-        "text": "leidinggevende. Deze opleiding duurt 4",
-        "translation": "成為領導者。此課程為期4",
-        "start": 491.92,
-        "end": 494.72
-      },
-      {
-        "text": "maanden. U leert bijvoorbeeld een",
-        "translation": "個月。例如，您將學習如何",
-        "start": 494.72,
-        "end": 499.08
-      },
-      {
-        "text": "werkplanning maken of werkroosters",
-        "translation": "制定工作計畫或管理工作排班。",
-        "start": 499.08,
-        "end": 502.32
-      },
-      {
-        "text": "bijhouden. Tijdens uw opleiding loopt u",
-        "translation": "在您的課程中，您也會",
-        "start": 502.32,
-        "end": 505.56
-      },
-      {
-        "text": "ook stage. U oefent dan wat u heeft geleerd.",
-        "translation": "進行實習，您練習自己學過的東西。",
-        "start": 505.56,
-        "end": 508.56
-      },
-      {
-        "text": "Stage duurt 2 maanden, dus de opleiding duurt in totaal 4 maanden.",
-        "translation": "實習期為2個月，所以整個培訓共4個月。",
-        "start": 509.56,
-        "end": 516.0
-      },
-      {
-        "text": "Na de opleiding kunt u aan het werk als leidinggevende.",
-        "translation": "培訓結束後，您可以擔任主管的工作。",
-        "start": 516.0,
-        "end": 520.8
-      },
-      {
-        "text": "Heeft u interesse in deze opleiding? Geeft u dat dan aan bij uw kennismakingsgesprek. Tot ziens bij het gesprek.",
-        "translation": "若您對此培訓有興趣，請於您的認識會面時告知我們。會面時見。",
-        "start": 520.8,
-        "end": 525.12
-      },
-      {
-        "text": "Wat is nodig om schoonmaakwerk te kunnen doen? Opleiding als schoonmaker, ervaring met schoonmaakwerk, Nederlands spreken op A2-niveau.",
-        "translation": "進行清潔工作需要什麼？需要接受清潔工的培訓，有清潔工作經驗，且具備A2級的荷蘭語能力。",
-        "start": 525.12,
-        "end": 528.64
-      },
-      {
-        "text": "Jassir wil werken via uitzendbureau Kracht.",
-        "translation": "Jassir想透過勞務派遣公司Kracht工作。",
-        "start": 528.64,
-        "end": 532.6
-      },
-      {
-        "text": "Hij heeft zich al ingeschreven. Hij bekijkt een filmpje op internet van het uitzendbureau.",
-        "translation": "他已經報名，他正在網路上觀看該勞務派遣公司的影片。",
-        "start": 534.0,
-        "end": 538.44
-      },
-      {
-        "text": "Lees eerst de vraag, kijk daarna naar de video.",
-        "translation": "先閱讀問題，再觀看影片。",
-        "start": 538.44,
-        "end": 543.52
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "請先閱讀問題，然後觀看影片。",
+        "start": 279.34,
+        "end": 283.06
       },
       {
         "text": "Welkom bij uitzendbureau Kracht.",
-        "translation": "歡迎來到勞務派遣公司Kracht。",
-        "start": 543.52,
-        "end": 548.64
+        "translation": "歡迎來到人力仲介公司Kracht。",
+        "start": 296.2,
+        "end": 299.5
       },
       {
-        "text": "U heeft zich bij ons ingeschreven via internet en u heeft binnenkort een kennismakingsgesprek.",
-        "translation": "您已透過網路向我們報名，且很快將參加認識會面。",
-        "start": 552.08,
-        "end": 559.4
+        "text": "U heeft zich bij ons ingeschreven via internet. En u heeft binnenkort een kennismakingsgesprek.",
+        "translation": "您已經透過網路在我們這裡報名，並且您即將有一個面談。",
+        "start": 300.64,
+        "end": 306.04
       },
       {
         "text": "U krijgt daarvoor een uitnodiging per e-mail met de datum en de tijd.",
-        "translation": "您將收到包含日期和時間的電子郵件邀請函。",
-        "start": 559.4,
-        "end": 564.32
+        "translation": "您將會收到一封電子郵件邀請，內含日期和時間。",
+        "start": 307.76,
+        "end": 312.3
       },
       {
-        "text": "Mensen kunnen bij ons werken in de schoonmaak, de beveiliging en in de productie.",
-        "translation": "有些人可以在我們這裡從事清潔、安全警衛及生產工作。",
-        "start": 564.32,
-        "end": 568.0
+        "text": "Mensen kunnen bij ons werken in de schoonmaak, de beveiliging en de productie.",
+        "translation": "人們可以在我們這裡從事清潔、安全和生產工作。",
+        "start": 315.76,
+        "end": 319.54
       },
       {
-        "text": "Voor de schoonmaak en productie moet u Nederlands spreken op A2-niveau.",
-        "translation": "從事清潔和生產的職務，您需要有A2級的荷蘭語能力。",
-        "start": 568.0,
-        "end": 571.36
+        "text": "debeveiligingenindeproductie",
+        "translation": "",
+        "start": 320.62,
+        "end": 323.3
       },
       {
-        "text": "Voor de beveiliging op B1-niveau.",
-        "translation": "警衛工作則要求B1級的荷蘭語能力。",
-        "start": 582.88,
-        "end": 588.72
+        "text": "Voor de schoonmaak en productie moet u Nederlands spreken op A2 niveau.",
+        "translation": "清潔與生產工作需具備荷蘭語A2程度。",
+        "start": 324.82,
+        "end": 329.74
+      },
+      {
+        "text": "Voor de beveiliging op B1 niveau.",
+        "translation": "保全工作需具備B1程度。",
+        "start": 331.06,
+        "end": 333.68
       },
       {
         "text": "Ook is het fijn als u ervaring heeft met het werk, maar dat hoeft niet.",
-        "translation": "如果您有工作經驗會更好，但這不是必要條件。",
-        "start": 588.72,
-        "end": 592.68
+        "translation": "如果您有相關經驗會更好，但不是必要條件。",
+        "start": 335.56,
+        "end": 339.58
       },
       {
         "text": "U kunt bij ons ook een avondopleiding volgen tot leidinggevende.",
-        "translation": "您也可以在我們這裡參加晚間主管培訓課程。",
-        "start": 592.68,
-        "end": 597.72
+        "translation": "您也可以在我們這裡參加晚間領導職培訓。",
+        "start": 340.5,
+        "end": 345.62
       },
       {
-        "text": "Deze opleiding duurt 4 maanden.",
-        "translation": "該培訓課程為期4個月。",
-        "start": 597.72,
-        "end": 601.24
+        "text": "Deze opleiding duurt vier maanden.",
+        "translation": "這個培訓課程為期四個月。",
+        "start": 347.08,
+        "end": 349.5
       },
       {
         "text": "U leert bijvoorbeeld een werkplanning maken of werkroosters bijhouden.",
-        "translation": "例如您將學習如何製作工作計畫或管理工作排班表。",
-        "start": 602.32,
-        "end": 609.76
+        "translation": "例如您會學習如何製作工作計劃表或管理工作班表。",
+        "start": 350.94,
+        "end": 356.04
       },
       {
         "text": "Tijdens uw opleiding loopt u ook stage. U oefent dan wat u heeft geleerd.",
-        "translation": "培訓期間您也會實習，練習您所學的內容。",
-        "start": 609.76,
-        "end": 614.76
+        "translation": "培訓期間您也會實習，練習所學的內容。",
+        "start": 358.34,
+        "end": 363.58
       },
       {
-        "text": "Deze stage duurt 2 maanden, dus de opleiding duurt in totaal 4 maanden.",
-        "translation": "實習期為2個月，因此整個培訓課程總共4個月。",
-        "start": 614.76,
-        "end": 620.44
+        "text": "Deze stage duurt twee maanden.",
+        "translation": "實習為期兩個月。",
+        "start": 366.94,
+        "end": 369.04
+      },
+      {
+        "text": "Dus de opleiding duurt in totaal vier maanden.",
+        "translation": "所以整個培訓共計四個月。",
+        "start": 370.14,
+        "end": 375.12
       },
       {
         "text": "Na de opleiding kunt u aan het werk als leidinggevende.",
-        "translation": "培訓結束後，您可以擔任主管的工作。",
-        "start": 620.44,
-        "end": 623.6
+        "translation": "完成培訓後，您可以成為一名領導者開始工作。",
+        "start": 376.92,
+        "end": 379.98
       },
       {
-        "text": "Heeft u interesse in deze opleiding? Geeft u dat dan aan bij uw kennismakingsgesprek.",
-        "translation": "若您對該培訓有興趣，請於認識會面時通知我們。",
-        "start": 623.6,
-        "end": 629.36
+        "text": "Heeft u interesse in deze opleiding, geeft u dat dan aan bij uw kennismakingsgesprek.",
+        "translation": "如果您對這個培訓有興趣，請在面談時告訴我們。",
+        "start": 381.86,
+        "end": 386.04
       },
       {
         "text": "Tot ziens bij het gesprek.",
-        "translation": "會面時見。",
-        "start": 629.36,
-        "end": 632.04
+        "translation": "面談時見。",
+        "start": 387.66,
+        "end": 388.64
       },
       {
-        "text": "Hoelang duurt de opleiding tot leidinggevende? 2 maanden, 4 maanden, een half jaar?",
-        "translation": "主管培訓課程要多久？2個月、4個月，還是半年？",
-        "start": 632.04,
-        "end": 635.4
+        "text": "Via een e-mail. Via een brief.",
+        "translation": "透過電子郵件。透過信件。",
+        "start": 400.04,
+        "end": 403.94
+      },
+      {
+        "text": "Lees eerst de vraag.",
+        "translation": "先讀問題。",
+        "start": 419.42,
+        "end": 422.78
+      },
+      {
+        "text": "Kijk daarna naar de video.",
+        "translation": "接著觀看影片。",
+        "start": 424.1,
+        "end": 425.52
+      },
+      {
+        "text": "Kijk daarna naar de video. Welkom bij Uitzendbureau Kracht.",
+        "translation": "接著觀看影片。歡迎來到人力派遣公司Kracht。",
+        "start": 438.42,
+        "end": 441.38
+      },
+      {
+        "text": "U heeft zich bij ons ingeschreven via internet.",
+        "translation": "您已通過網路向我們報名。",
+        "start": 442.96,
+        "end": 445.66
+      },
+      {
+        "text": "En u heeft binnenkort een kennismakingsgesprek.",
+        "translation": "您即將有一場初次面談。",
+        "start": 446.44,
+        "end": 448.98
+      },
+      {
+        "text": "U krijgt daarvoor een uitnodiging per e-mail met de datum en de tijd.",
+        "translation": "您將會透過電子郵件收到面談的日期與時間邀請。",
+        "start": 450.12,
+        "end": 454.68
+      },
+      {
+        "text": "Mensen kunnen bij ons werken in de schoonmaak.",
+        "translation": "有人可以在我們這裡從事清潔工作。",
+        "start": 458.08,
+        "end": 461.92
+      },
+      {
+        "text": "De beveiliging en de productie.",
+        "translation": "保全和生產工作。",
+        "start": 463.02,
+        "end": 466.22
+      },
+      {
+        "text": "Voor de schoonmaak en productie moet u Nederlands spreken op A2 niveau.",
+        "translation": "清潔與生產工作需具備荷蘭語A2程度。",
+        "start": 467.22,
+        "end": 472.1
+      },
+      {
+        "text": "Voor de beveiliging op B1 niveau.",
+        "translation": "保全工作需具備B1程度。",
+        "start": 473.46,
+        "end": 476.08
+      },
+      {
+        "text": "Ook is het fijn als u ervaring heeft met het werk, maar dat hoeft niet.",
+        "translation": "如果您有相關經驗會更好，但不是必要條件。",
+        "start": 477.94,
+        "end": 481.98
+      },
+      {
+        "text": "U kunt bij ons ook een avondopleiding volgen tot leidinggevende.",
+        "translation": "您也可以在我們這裡參加晚間領導職培訓。",
+        "start": 482.98,
+        "end": 488.02
+      },
+      {
+        "text": "Deze opleiding duurt 4 maanden.",
+        "translation": "這個培訓課程為期4個月。",
+        "start": 489.48,
+        "end": 491.9
+      },
+      {
+        "text": "U leert bijvoorbeeld een werkplanning maken of werkroosters bijhouden.",
+        "translation": "例如您會學習如何製作工作計劃表或管理工作班表。",
+        "start": 493.34,
+        "end": 498.46
+      },
+      {
+        "text": "Tijdens uw opleiding loopt u ook stage. U oefent dan wat u heeft geleerd.",
+        "translation": "培訓期間您也會實習，練習所學的內容。",
+        "start": 500.74,
+        "end": 505.98
+      },
+      {
+        "text": "Deze stage duurt 2 maanden.",
+        "translation": "實習為期2個月。",
+        "start": 509.34,
+        "end": 511.44
+      },
+      {
+        "text": "Dus de opleiding duurt in totaal 4 maanden.",
+        "translation": "所以整個培訓共計4個月。",
+        "start": 512.52,
+        "end": 517.54
+      },
+      {
+        "text": "Na de opleiding kunt u aan het werk als leidinggevende.",
+        "translation": "完成培訓後，您可以成為一名領導者開始工作。",
+        "start": 519.3,
+        "end": 522.4
+      },
+      {
+        "text": "Heeft u interesse in deze opleiding, geeft u dat dan aan bij uw kennismakingsgesprek.",
+        "translation": "如果您對這個培訓有興趣，請在面談時告訴我們。",
+        "start": 524.26,
+        "end": 528.78
+      },
+      {
+        "text": "Tot ziens bij het gesprek.",
+        "translation": "面談時見。",
+        "start": 530.04,
+        "end": 531.02
+      },
+      {
+        "text": "Ervaring met schoonmaakwerk. Nederlands spreken op A2 niveau.",
+        "translation": "有清潔工作的經驗。荷蘭語需達A2程度。",
+        "start": 541.98,
+        "end": 547.6
+      },
+      {
+        "text": "Yassir wil werken via uitzendbureau Kracht.",
+        "translation": "Yassir想透過派遣公司Kracht工作。",
+        "start": 553.44,
+        "end": 556.64
+      },
+      {
+        "text": "Hij heeft zich al ingeschreven.",
+        "translation": "他已經報名了。",
+        "start": 557.86,
+        "end": 559.7
+      },
+      {
+        "text": "Hij bekijkt een filmpje op internet van het uitzendbureau.",
+        "translation": "他在網路上觀看了派遣公司的影片。",
+        "start": 560.7,
+        "end": 564.14
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，接著觀看影片。",
+        "start": 565.72,
+        "end": 569.46
+      },
+      {
+        "text": "Kijk daarna naar de video. Welkom bij uitzendbureau Kracht.",
+        "translation": "接著觀看影片。歡迎來到派遣公司Kracht。",
+        "start": 582.42,
+        "end": 585.34
+      },
+      {
+        "text": "U heeft zich bij ons ingeschreven via internet. En u heeft binnenkort een kennismakingsgesprek.",
+        "translation": "您已通過網路向我們報名，且即將有一次初次面談。",
+        "start": 587.0,
+        "end": 592.94
+      },
+      {
+        "text": "U krijgt daarvoor een uitnodiging per e-mail met de datum en de tijd.",
+        "translation": "您將會透過電子郵件收到面談的日期與時間邀請。",
+        "start": 594.1,
+        "end": 598.64
+      },
+      {
+        "text": "Mensen kunnen bij ons werken in de schoonmaak.",
+        "translation": "有人可以在我們這裡從事清潔工作。",
+        "start": 606.98,
+        "end": 610.16
+      },
+      {
+        "text": "De beveiliging en de productie.",
+        "translation": "保全和生產工作。",
+        "start": 611.18,
+        "end": 616.1
+      },
+      {
+        "text": "Voor de schoonmaak en productie moet u Nederlands spreken op A2 niveau.",
+        "translation": "清潔與生產工作需具備荷蘭語A2程度。",
+        "start": 617.42,
+        "end": 620.04
+      },
+      {
+        "text": "Voor de beveiliging op B1 niveau.",
+        "translation": "保全工作需具備B1程度。",
+        "start": 621.94,
+        "end": 625.96
+      },
+      {
+        "text": "Ook is het fijn als u ervaring heeft met het werk, maar dat hoeft niet.",
+        "translation": "如果您有相關經驗會更好，但不是必要條件。",
+        "start": 626.96,
+        "end": 631.98
+      },
+      {
+        "text": "U kunt bij ons ook een avondopleiding volgen tot leidinggevende.",
+        "translation": "您也可以在我們這裡參加晚間領導職培訓。",
+        "start": 633.44,
+        "end": 635.86
+      },
+      {
+        "text": "Deze opleiding duurt 4 maanden.",
+        "translation": "這個培訓課程為期4個月。",
+        "start": 637.3,
+        "end": 642.4
+      },
+      {
+        "text": "U leert bijvoorbeeld een werkplanning maken of werkroosters bijhouden.",
+        "translation": "例如您會學習如何製作工作計劃表或管理工作班表。",
+        "start": 644.7,
+        "end": 649.94
+      },
+      {
+        "text": "Tijdens uw opleiding loopt u ook stage. U oefent dan wat u heeft geleerd.",
+        "translation": "培訓期間您也會實習，練習所學的內容。",
+        "start": 653.3,
+        "end": 655.4
+      },
+      {
+        "text": "Dus de opleiding duurt in totaal 4 maanden.",
+        "translation": "所以這個課程總共持續4個月。",
+        "start": 656.5,
+        "end": 661.48
+      },
+      {
+        "text": "Na de opleiding kunt u aan het werk als leidinggevende.",
+        "translation": "課程結束後，您可以擔任管理職。",
+        "start": 663.28,
+        "end": 666.3
+      },
+      {
+        "text": "Heeft u interesse in deze opleiding, geeft u dat dan aan bij uw kennismakingsgesprek.",
+        "translation": "您對這個課程有興趣的話，請在您的初次面談時告知我們。",
+        "start": 668.22,
+        "end": 671.96
+      },
+      {
+        "text": "Tot ziens bij het gesprek.",
+        "translation": "面談時再見。",
+        "start": 674.0,
+        "end": 675.0
       },
       {
         "text": "Roman heeft een bericht op zijn voicemail van Erik.",
-        "translation": "Roman的語音信箱有Erik的留言。",
-        "start": 635.4,
-        "end": 638.72
+        "translation": "Roman 收到了 Erik 留在語音信箱的訊息。",
+        "start": 691.34,
+        "end": 696.22
       },
       {
-        "text": "Lees eerst de vraag, luister daarna naar de tekst.",
-        "translation": "先閱讀問題，再聆聽文字內容。",
-        "start": 638.72,
-        "end": 643.0
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "先讀問題，再聽錄音內容。",
+        "start": 698.12,
+        "end": 704.12
       },
       {
-        "text": "Hey Roman, ja eh had een bericht gestuurd waar het gemeentehuis precies eh was.",
-        "translation": "嘿Roman，我有傳訊息問市政府大樓確切的位置。",
-        "start": 643.0,
-        "end": 646.24
+        "text": "Hey, Roman. Ik had een bericht gestuurd waar het gemeentehuis precies was.",
+        "translation": "嗨，Roman。我之前有傳訊息告訴你市公所確切的位置。",
+        "start": 715.74,
+        "end": 721.42
       },
       {
-        "text": "Nou, je bent er niet, dus ja ik spreek het wel even in.",
-        "translation": "嗯，你不在那裡，所以我就留言給你了。",
-        "start": 646.24,
-        "end": 651.44
+        "text": "Nou, je bent er niet, dus ik spreek het wel even in.",
+        "translation": "嗯，你不在，所以我就錄音留言了。",
+        "start": 721.62,
+        "end": 724.96
       },
       {
-        "text": "Oké, vanaf jouw huis moet je eerst linksaf en dan bij de groene brug.",
-        "translation": "好，從你家開始，先向左轉，然後到綠色橋時，",
-        "start": 651.6,
-        "end": 660.2
+        "text": "Oké, vanaf jouw huis eerst moet je linksaf.",
+        "translation": "好的，從你家開始，先左轉。",
+        "start": 725.74,
+        "end": 728.88
       },
       {
-        "text": "Ga je naar rechts, dan een stukje rechtdoor en bij de supermarkt ga je rechtsaf.",
-        "translation": "如果你向右轉，走一小段直路，再在超市處右轉。",
-        "start": 660.2,
-        "end": 664.76
+        "text": "En dan bij de groene brug ga je naar rechts. Dan een stukje rechtdoor en dan naar rechts.",
+        "translation": "然後到了綠色的橋時右轉。往前稍微走一段再右轉。",
+        "start": 729.76,
+        "end": 734.1
       },
       {
-        "text": "Je weet wel hè, dan zie je aan de rechterkant een groot gebouw.",
-        "translation": "你知道吧，那裡在右手邊會看到一棟大建築物。",
-        "start": 664.76,
-        "end": 669.16
+        "text": "En bij de supermarkt ga je rechtsaf. Je weet wel, hè?",
+        "translation": "在超市那裡右轉。你知道吧？",
+        "start": 734.1,
+        "end": 738.18
       },
       {
-        "text": "Dat is het nog niet en daarachter staat een blauw gebouw. Dat is hem wel.",
-        "translation": "那還不是，那棟藍色建築物在後面，才是你要找的。",
-        "start": 669.16,
-        "end": 672.6
+        "text": "Dan zie je aan de rechterkant een groot gebouw. Dat is het nog niet.",
+        "translation": "然後你會在右手邊看到一棟大樓。那還不是目的地。",
+        "start": 738.78,
+        "end": 742.34
       },
       {
-        "text": "En eh, daar is links een parkeerplaats voor bezoekers, maar ehm.",
-        "translation": "而且那裡左邊有個訪客停車場，但嗯，",
-        "start": 672.6,
-        "end": 676.52
+        "text": "En daarachter staat een blauw gebouw. Dat is hem wel.",
+        "translation": "後面有一棟藍色建築。那才是。",
+        "start": 742.92,
+        "end": 746.12
       },
       {
-        "text": "Je kunt ook rechts de parkeergarage inrijden.",
-        "translation": "你也可以從右邊進入停車場。",
-        "start": 677.76,
-        "end": 686.0
+        "text": "En daar is links een parkeerplaats voor bezoekers.",
+        "translation": "那裡左邊有訪客停車場。",
+        "start": 747.1,
+        "end": 750.7
       },
       {
-        "text": "Of aan de overkant van de weg parkeren, maar die parkeerplaats voor bezoekers is wel het handigste denk ik.",
-        "translation": "或是在馬路對面停車，但我想訪客停車場比較方便。",
-        "start": 686.0,
-        "end": 689.36
+        "text": "Maar je kunt ook rechts de parkeergarage inrijden.",
+        "translation": "不過你也可以從右邊開進停車場。",
+        "start": 751.24,
+        "end": 754.96
       },
       {
-        "text": "Roman is onderweg naar het.",
-        "translation": "Roman正在前往目的地的途中。",
-        "start": 691.92,
-        "end": 696.68
+        "text": "Of aan de overkant van de weg parkeren.",
+        "translation": "或者你可以停在馬路對面。",
+        "start": 755.94,
+        "end": 757.7
       },
       {
-        "text": "voicemail van",
-        "translation": "",
-        "start": 696.68,
-        "end": 700.48
+        "text": "Maar die parkeerplaats voor bezoekers is wel het handigste, denk ik.",
+        "translation": "但我覺得訪客停車場會比較方便。",
+        "start": 758.18,
+        "end": 762.0
       },
       {
-        "text": "Erik Lees eerst de vraag luister daarna naar de",
-        "translation": "",
-        "start": 700.48,
-        "end": 705.6
+        "text": "Roman is onderweg naar het gemeentehuis.",
+        "translation": "Roman 正在前往市公所的路上。",
+        "start": 764.64,
+        "end": 768.74
       },
       {
-        "text": "tekst Hey roman ja eh had een bericht",
-        "translation": "",
-        "start": 714.68,
-        "end": 720.28
+        "text": "Wat moet hij doen bij de groene brug?",
+        "translation": "他在綠色的橋那裡應該怎麼做？",
+        "start": 770.62,
+        "end": 772.88
       },
       {
-        "text": "gestuurd waar het gemeentehuis precies",
-        "translation": "",
-        "start": 720.28,
-        "end": 723.92
+        "text": "Hij moet linksaf. Hij moet rechtsaf.",
+        "translation": "他應該左轉。他應該右轉。",
+        "start": 774.12,
+        "end": 778.28
       },
       {
-        "text": "eh was nou je bent er niet dus ja ik",
-        "translation": "",
-        "start": 723.92,
-        "end": 726.84
+        "text": "Hij moet rechtdoor. Hij moet parkeren.",
+        "translation": "他應該直行。他應該停車。",
+        "start": 779.06,
+        "end": 782.9
       },
       {
-        "text": "spreek het wel even in Oké vanaf jouw",
-        "translation": "",
-        "start": 726.84,
-        "end": 730.16
+        "text": "Roman heeft een bericht op zijn voicemail van Erik.",
+        "translation": "Roman 收到了 Erik 留在語音信箱的訊息。",
+        "start": 788.64,
+        "end": 793.26
       },
       {
-        "text": "huis eerst moet je linksaf en dan bij de",
-        "translation": "",
-        "start": 730.16,
-        "end": 733.36
+        "text": "Lees eerst de vraag.",
+        "translation": "先讀問題。",
+        "start": 794.62,
+        "end": 796.88
       },
       {
-        "text": "groene brug Ga je naar rechts dan een stukje rechtdoor en bij de supermarkt ga",
-        "translation": "",
-        "start": 733.36,
-        "end": 739.36
+        "text": "Luister daarna naar de tekst.",
+        "translation": "再聽錄音內容。",
+        "start": 799.16,
+        "end": 801.28
       },
       {
-        "text": "je rechts af Je weet wel hè dan zie je aan de rechterkant een groot gebouw dat",
-        "translation": "",
-        "start": 739.36,
-        "end": 744.2
+        "text": "Hey Roman, ja. Had een bericht gestuurd waar het gemeentehuis precies was.",
+        "translation": "嘿 Roman，是的。我有傳訊息說市公所在哪裡。",
+        "start": 812.62,
+        "end": 818.5
       },
       {
-        "text": "is het nog niet en daarachter staat een",
-        "translation": "",
-        "start": 744.2,
-        "end": 748.12
+        "text": "Nou, je bent er niet, dus... Ja, ik spreek het wel even in.",
+        "translation": "嗯，你不在，所以...我就錄了留言。",
+        "start": 818.7,
+        "end": 821.96
       },
       {
-        "text": "blauw gebouw dat is hem wel En eh daar is links een parkeerplaats voor",
-        "translation": "",
-        "start": 748.12,
-        "end": 753.2
+        "text": "Oké, vanaf jouw huis. Eerst moet je linksaf.",
+        "translation": "好的，從你家開始。先左轉。",
+        "start": 823.1,
+        "end": 825.98
       },
       {
-        "text": "bezoekers maar ehm Je kunt ook rechts de",
-        "translation": "",
-        "start": 753.2,
-        "end": 756.28
+        "text": "En dan bij de groene brug ga je naar rechts.",
+        "translation": "然後到了綠色的橋時右轉。",
+        "start": 826.88,
+        "end": 829.52
       },
       {
-        "text": "parkeergarage inrijden Of aan de overkant van de weg parkeren maar die",
-        "translation": "",
-        "start": 756.28,
-        "end": 760.92
+        "text": "Dan een stukje rechtdoor. En bij de supermarkt ga je rechtsaf.",
+        "translation": "往前走一段，在超市那裡右轉。",
+        "start": 830.3,
+        "end": 834.16
       },
       {
-        "text": "parkeerplaats voor bezoekers die is wel het handigste denk",
-        "translation": "",
-        "start": 760.92,
-        "end": 763.76
+        "text": "Je weet wel, hè? Dan zie je aan de rechterkant een groot gebouw. Dat is het nog niet.",
+        "translation": "你知道吧？然後你會在右手邊看到一棟大樓。那還不是目的地。",
+        "start": 834.72,
+        "end": 839.44
       },
       {
-        "text": "ik roman is onderweg naar het",
-        "translation": "",
-        "start": 764.16,
-        "end": 771.84
+        "text": "En daarachter staat een blauw gebouw. Dat is hem wel.",
+        "translation": "後面有一棟藍色建築。那才是。",
+        "start": 840.02,
+        "end": 843.22
       },
       {
-        "text": "Gemeentehuis, wat moet hij doen bij de?",
-        "translation": "市政府，他在那裡應該做什麼？",
-        "start": 771.84,
-        "end": 777.6
+        "text": "En daar is links een parkeerplaats voor bezoekers.",
+        "translation": "那裡左邊有訪客停車場。",
+        "start": 844.18,
+        "end": 847.82
       },
       {
-        "text": "Groene brug: hij moet linksaf, hij moet",
-        "translation": "綠色橋樑：他應該往左轉，他應該",
-        "start": 777.6,
-        "end": 780.04
+        "text": "Maar je kunt ook rechts de parkeergarage inrijden.",
+        "translation": "但你也可以從右邊開進停車場。",
+        "start": 847.82,
+        "end": 852.08
       },
       {
-        "text": "rechtsaf, hij moet rechtdoor, hij moet",
-        "translation": "往右轉，他應該直走，他應該",
-        "start": 780.04,
-        "end": 784.12
+        "text": "Of aan de overkant van de weg parkeren. Maar die parkeerplaats voor bezoekers, die is wel het handigste, denk ik.",
+        "translation": "或者你可以停在馬路對面。不過我覺得訪客停車場會比較方便。",
+        "start": 853.28,
+        "end": 859.22
       },
       {
-        "text": "parkeren. Roman heeft een bericht op zijn",
-        "translation": "停車。Roman 收到了一則語音信箱訊息，",
-        "start": 787.76,
-        "end": 793.68
+        "text": "Hij moet parkeren.",
+        "translation": "他應該停車。",
+        "start": 877.82,
+        "end": 879.92
       },
       {
-        "text": "voicemail van",
-        "translation": "是來自",
-        "start": 793.68,
-        "end": 797.56
+        "text": "Roman heeft een bericht op zijn voicemail van Erik.",
+        "translation": "Roman 收到了 Erik 留在語音信箱的訊息。",
+        "start": 886.34,
+        "end": 890.5
       },
       {
-        "text": "Erik. Lees eerst de vraag, luister daarna naar de tekst.",
-        "translation": "Erik。請先閱讀問題，然後聆聽文本。",
-        "start": 797.56,
-        "end": 803.68
+        "text": "Lees eerst de vraag.",
+        "translation": "先讀問題。",
+        "start": 892.42,
+        "end": 893.88
       },
       {
-        "text": "Hey Roman, ja eh had een bericht gestuurd",
-        "translation": "嘿 Roman，是的，我曾發送過一則訊息，",
-        "start": 812.72,
-        "end": 818.84
+        "text": "Luister daarna naar de tekst.",
+        "translation": "再聽錄音內容。",
+        "start": 896.04,
+        "end": 898.44
       },
       {
-        "text": "waar het gemeentehuis precies eh was, nou",
-        "translation": "關於市政府的確切位置，嗯，",
-        "start": 818.84,
-        "end": 821.56
+        "text": "Hé, Roman. Ja, ik had een bericht gestuurd waar het gemeentehuis precies was.",
+        "translation": "嗨，Roman。是的，我有傳訊息說市公所在哪裡。",
+        "start": 909.98,
+        "end": 914.82
       },
       {
-        "text": "je bent er niet, dus ja ik spreek het wel",
-        "translation": "你不在那裡，所以我會留訊息給你，",
-        "start": 821.56,
-        "end": 825.12
+        "text": "Nou, je bent er niet, dus... Ja, ik spreek het wel even in.",
+        "translation": "嗯，你不在，所以...我就錄了留言。",
+        "start": 915.88,
+        "end": 919.22
       },
       {
-        "text": "even in. Oké, vanaf jouw huis eerst moet",
-        "translation": "好的，從你家開始，首先你要",
-        "start": 825.12,
-        "end": 828.08
+        "text": "Oké, vanaf jouw huis. Eerst moet je linksaf.",
+        "translation": "好的，從你家開始。先左轉。",
+        "start": 920.04,
+        "end": 923.18
       },
       {
-        "text": "je linksaf en dan bij de groene brug ga",
-        "translation": "往左轉，然後在綠色橋樑處你要",
-        "start": 828.08,
-        "end": 831.52
+        "text": "En dan bij de groene brug ga je naar rechts.",
+        "translation": "然後到了綠色的橋時右轉。",
+        "start": 924.02,
+        "end": 926.74
       },
       {
-        "text": "je naar rechts, dan een stukje rechtdoor",
-        "translation": "往右轉，接著直走一小段，",
-        "start": 831.52,
-        "end": 834.64
+        "text": "Dan een stukje rechtdoor. En bij de supermarkt ga je rechtsaf.",
+        "translation": "往前走一段，在超市那裡右轉。",
+        "start": 927.44,
+        "end": 930.82
       },
       {
-        "text": "en bij de supermarkt ga je rechts af. Je weet wel hè, dan zie je aan de",
-        "translation": "在超市那裡你要右轉，你知道吧，然後你會看到右邊有一棟大樓，",
-        "start": 834.64,
-        "end": 839.28
+        "text": "Je weet wel, hè? Dan zie je aan de rechterkant een groot gebouw. Dat is het nog niet.",
+        "translation": "你知道吧？然後你會在右手邊看到一棟大樓。那還不是目的地。",
+        "start": 931.9,
+        "end": 936.62
       },
       {
-        "text": "rechterkant een groot gebouw, dat is het",
-        "translation": "那不是，",
-        "start": 839.28,
-        "end": 841.76
+        "text": "En daarachter staat een blauw gebouw. Dat is hem wel.",
+        "translation": "後面有一棟藍色建築。那才是。",
+        "start": 936.62,
+        "end": 940.8
       },
       {
-        "text": "niet. En daarachter staat een blauw",
-        "translation": "後面有一棟藍色大樓，那就是了，",
-        "start": 841.76,
-        "end": 845.64
+        "text": "En daar is links een parkeerplaats voor bezoekers.",
+        "translation": "那裡左邊有訪客停車場。",
+        "start": 941.26,
+        "end": 945.0
       },
       {
-        "text": "gebouw, dat is hem wel. En eh daar is links een parkeerplaats voor bezoekers,",
-        "translation": "那邊左邊有訪客停車場，",
-        "start": 845.64,
-        "end": 850.28
+        "text": "Maar je kunt ook rechts de parkeergarage inrijden.",
+        "translation": "但你也可以從右邊開進停車場。",
+        "start": 945.62,
+        "end": 949.28
       },
       {
-        "text": "maar ehm je kunt ook rechts de",
-        "translation": "但是嗯，你也可以往右轉進入",
-        "start": 850.28,
-        "end": 853.44
+        "text": "Of aan de overkant van de weg parkeren.",
+        "translation": "或者你可以停在馬路對面。",
+        "start": 950.3,
+        "end": 952.0
       },
       {
-        "text": "parkeergarage inrijden. Of aan de overkant van de weg parkeren, maar die",
-        "translation": "停車場或是停在馬路對面，但那個",
-        "start": 853.44,
-        "end": 858.04
+        "text": "Maar die parkeerplaats voor bezoekers, die is wel het handigste, denk ik.",
+        "translation": "不過我覺得訪客停車場會比較方便。",
+        "start": 952.54,
+        "end": 956.32
       },
       {
-        "text": "parkeerplaats voor bezoekers die is wel",
-        "translation": "訪客停車場是最方便的，",
-        "start": 858.04,
-        "end": 860.24
+        "text": "Roman is onderweg naar het gemeentehuis.",
+        "translation": "Roman 正在前往市公所的路上。",
+        "start": 959.26,
+        "end": 963.24
       },
       {
-        "text": "het handigste, denk",
-        "translation": "我想。",
-        "start": 860.24,
-        "end": 866.32
+        "text": "Waar kan hij het beste parkeren?",
+        "translation": "他最好在哪裡停車？",
+        "start": 964.24,
+        "end": 967.06
       },
       {
-        "text": "ik. Roman is onderweg naar het",
-        "translation": "Roman 正在前往",
-        "start": 866.32,
-        "end": 869.88
+        "text": "In de parkeergarage. Op de parkeerplaats voor bezoekers.",
+        "translation": "在停車場。在訪客停車區。",
+        "start": 968.86,
+        "end": 973.9
       },
       {
-        "text": "gemeentehuis. Wat moet hij doen bij de",
-        "translation": "市政府的路上。他在超市那邊應該怎麼做？",
-        "start": 869.88,
-        "end": 874.52
+        "text": "Aan de overkant van de weg.",
+        "translation": "在馬路對面。",
+        "start": 975.0,
+        "end": 977.26
       },
       {
-        "text": "supermarkt? Hij moet linksaf, hij moet rechtsaf, hij moet rechtdoor. Hij moet",
-        "translation": "他應該往左轉，他應該往右轉，他應該直走。他應該",
-        "start": 874.52,
-        "end": 881.08
+        "text": "Nabil heeft een nieuwe baan. Zijn baas vertelt iets.",
+        "translation": "納比爾找到一份新工作。他的老闆說了一些話。",
+        "start": 983.98,
+        "end": 989.06
       },
       {
-        "text": "parkeren. Roman heeft een bericht op zijn",
-        "translation": "停車。Roman 收到了一則語音信箱訊息，",
-        "start": 884.84,
-        "end": 891.0
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，再看影片。",
+        "start": 989.92,
+        "end": 994.72
       },
       {
-        "text": "voicemail van",
-        "translation": "是來自",
-        "start": 891.0,
-        "end": 894.76
+        "text": "Oké, Nabil. Wat handige informatie voor als je materiaal wilt bestellen.",
+        "translation": "好，納比爾。如果你想訂購材料，有一些實用資訊。",
+        "start": 1005.06,
+        "end": 1009.66
       },
       {
-        "text": "Erik. Lees eerst de vraag, luister daarna naar de tekst.",
-        "translation": "Erik。請先閱讀問題，然後聆聽文本。",
-        "start": 894.76,
-        "end": 900.92
+        "text": "Zoals pennen. De afdeling Inkoop doet de bestelling.",
+        "translation": "像是筆。採購部門會負責訂購。",
+        "start": 1010.26,
+        "end": 1013.84
       },
       {
-        "text": "Hey Roman, ja eh had een bericht gestuurd",
-        "translation": "嘿 Roman，是的，我曾發送過一則訊息，",
-        "start": 909.64,
-        "end": 916.08
+        "text": "Inkoop zit op de tweede verdieping, kamer 2.3.",
+        "translation": "採購部門在二樓，2.3號房間。",
+        "start": 1014.84,
+        "end": 1019.12
       },
       {
-        "text": "waar het gemeentehuis precies eh was, nou",
-        "translation": "關於市政府的確切位置，嗯，",
-        "start": 916.08,
-        "end": 918.76
+        "text": "Naast verkoop in 2.2. Je kijkt zo naar binnen vanuit de kantine.",
+        "translation": "在2.2的銷售旁邊。你從餐廳可以直接看到裡面。",
+        "start": 1019.52,
+        "end": 1023.56
       },
       {
-        "text": "je bent er niet, dus ja ik spreek het wel",
-        "translation": "你不在那裡，所以我會留訊息給你，",
-        "start": 918.76,
-        "end": 922.28
+        "text": "Als je iets wilt bestellen, vul je dit formulier in. Dat lever je dan in bij Inkoop.",
+        "translation": "如果你想訂購東西，填寫這份表格。然後交給採購部門。",
+        "start": 1024.32,
+        "end": 1029.62
       },
       {
-        "text": "even in. Oké, vanaf jouw huis eerst moet",
-        "translation": "好的，從你家開始，首先你要",
-        "start": 922.28,
-        "end": 925.32
+        "text": "Als de bestelling binnen is, hoor je dat van Inkoop.",
+        "translation": "訂單進來後，你會從採購部門那裡聽到消息。",
+        "start": 1030.64,
+        "end": 1033.58
       },
       {
-        "text": "je linksaf en dan bij de groene brug ga",
-        "translation": "往左轉，然後在綠色橋樑處你要",
-        "start": 925.32,
-        "end": 929.0
+        "text": "Meestal bellen ze even. Of ze sturen een mailtje.",
+        "translation": "通常他們會打電話確認，或者寄電子郵件。",
+        "start": 1034.26,
+        "end": 1037.64
       },
       {
-        "text": "je naar rechts, dan een stukje rechtdoor en bij de supermarkt ga je rechts af. Je",
-        "translation": "往右轉，接著直走一小段，在超市那邊你要右轉，你知道吧，然後你會看到右邊有一棟大樓，",
-        "start": 929.0,
-        "end": 933.84
+        "text": "En als het een klein pakket is, leggen ze dat meteen in je postvak.",
+        "translation": "如果是小包裹，他們會直接放到你的郵件箱裡。",
+        "start": 1038.52,
+        "end": 1041.54
       },
       {
-        "text": "weet wel hè, dan zie je aan de rechterkant een groot gebouw, dat is het",
-        "translation": "那還不是，",
-        "start": 933.84,
-        "end": 938.92
+        "text": "Waar zit de afdeling Inkoop?",
+        "translation": "採購部門在哪裡？",
+        "start": 1043.84,
+        "end": 1046.4
       },
       {
-        "text": "nog niet. En daarachter staat een blauw",
-        "translation": "後面有一棟藍色大樓，那就是了，",
-        "start": 938.92,
-        "end": 942.8
+        "text": "In kamer 2.2",
+        "translation": "在2.2號房間。",
+        "start": 1047.44,
+        "end": 1050.02
       },
       {
-        "text": "gebouw, dat is een wel. En eh daar is links een parkeerplaats voor bezoekers,",
-        "translation": "那邊左邊有訪客停車場，",
-        "start": 942.8,
-        "end": 947.48
+        "text": "In kamer 2.3 naast de kantine.",
+        "translation": "在2.3號房間，餐廳旁邊。",
+        "start": 1051.42,
+        "end": 1055.98
       },
       {
-        "text": "maar ehm je kunt ook rechts de",
-        "translation": "但是嗯，你也可以往右轉進入",
-        "start": 947.48,
-        "end": 950.6
+        "text": "Nabil heeft een nieuwe baan. Zijn baas vertelt iets.",
+        "translation": "納比爾找到一份新工作。他的老闆說了一些話。",
+        "start": 1062.42,
+        "end": 1067.48
       },
       {
-        "text": "parkeergarage inrijden. Of aan de overkant van de weg parkeren, maar die",
-        "translation": "停車場，或是停在馬路對面，但那個",
-        "start": 950.6,
-        "end": 955.2
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，再看影片。",
+        "start": 1069.1,
+        "end": 1072.64
       },
       {
-        "text": "parkeerplaats voor bezoekers die is wel het handigste, denk ik.",
-        "translation": "訪客停車場是最方便的，我想。",
-        "start": 955.2,
-        "end": 959.04
+        "text": "En dan kan je het bestellen.",
+        "translation": "然後你就可以訂購了。",
+        "start": 1078.26,
+        "end": 1082.46
       },
       {
-        "text": "Roman is onderweg naar het",
-        "translation": "Roman 正在前往",
-        "start": 959.24,
-        "end": 967.32
+        "text": "Oké, Nabil. Wat handige informatie voor als je materiaal wilt bestellen.",
+        "translation": "好，納比爾。如果你想訂購材料，有一些實用資訊。",
+        "start": 1083.6,
+        "end": 1088.1
       },
       {
-        "text": "gemeentehuis. Waar kan hij het beste parkeren? In de",
-        "translation": "市政府的路上。他在哪裡停車最方便？是停在",
-        "start": 967.32,
-        "end": 973.12
+        "text": "Zoals pennen. De afdeling Inkoop doet de bestelling.",
+        "translation": "像是筆。採購部門會負責訂購。",
+        "start": 1088.72,
+        "end": 1092.26
       },
       {
-        "text": "parkeergarage, op de parkeerplaats voor bezoekers, aan de overkant van de",
-        "translation": "停車場，在訪客停車位，還是停在馬路對面？",
-        "start": 973.12,
-        "end": 978.8
+        "text": "Inkoop zit op de tweede verdieping, kamer 2.3.",
+        "translation": "採購部門在二樓，2.3號房間。",
+        "start": 1093.52,
+        "end": 1097.08
       },
       {
-        "text": "weg. Nabil heeft een nieuwe baan, zijn",
-        "translation": "Nabil 有一份新工作，他的",
-        "start": 982.36,
-        "end": 990.28
+        "text": "Naast verkoop in 2.2. Je kijkt zo naar binnen vanuit de kantine.",
+        "translation": "在2.2的銷售旁邊。你從餐廳可以直接看到裡面。",
+        "start": 1097.94,
+        "end": 1101.96
       },
       {
-        "text": "baas vertelt iets. Lees eerst de vraag, kijk daarna naar de",
-        "translation": "老闆在說些事情。請先閱讀問題，然後看",
-        "start": 990.28,
-        "end": 995.72
+        "text": "Als je iets wilt bestellen, vul je dit formulier in.",
+        "translation": "如果你想訂購東西，填寫這份表格。",
+        "start": 1101.96,
+        "end": 1105.38
       },
       {
-        "text": "video. Oké Nabil, wat handige informatie",
-        "translation": "影片。好的，Nabil，一些訂購資料時",
-        "start": 1004.0,
-        "end": 1009.92
+        "text": "Dat lever je dan in bij Inkoop. Als de bestelling binnen is, hoor je dat van Inkoop.",
+        "translation": "然後交給採購部門。訂單進來後，你會聽到採購部門的通知。",
+        "start": 1106.4,
+        "end": 1111.98
       },
       {
-        "text": "voor als je materiaal wilt bestellen,",
-        "translation": "的實用資訊，",
-        "start": 1009.92,
-        "end": 1013.44
+        "text": "Meestal bellen ze even. Of ze sturen een mailtje.",
+        "translation": "通常他們會打電話確認，或者寄電子郵件。",
+        "start": 1112.68,
+        "end": 1116.06
       },
       {
-        "text": "zoals pennen. De afdeling inkoop doet de bestellingen. Inkoop zit op de tweede",
-        "translation": "像是筆。採購部負責下訂單。採購部位於二樓，",
-        "start": 1013.44,
-        "end": 1019.24
+        "text": "En als het een klein pakket is, leggen ze dat meteen in je postvak.",
+        "translation": "如果是小包裹，他們會直接放到你的郵件箱裡。",
+        "start": 1116.9,
+        "end": 1120.0
       },
       {
-        "text": "verdieping, kamer 2.3,",
-        "translation": "2.3號房間，",
-        "start": 1019.24,
-        "end": 1022.48
-      },
-      {
-        "text": "naast verkoop in 2.2. Je kijkt zo naar binnen vanuit de kantine. Als je iets wil",
-        "translation": "在銷售部的2.2隔壁，從餐廳可以直接看到裡面。如果你想",
-        "start": 1022.48,
-        "end": 1027.92
-      },
-      {
-        "text": "bestellen, vul je dit formulier in, dat lever je dan in bij inkoop. Als de",
-        "translation": "訂購什麼，請填寫這份表格，然後交給採購部。當",
-        "start": 1027.92,
-        "end": 1032.96
-      },
-      {
-        "text": "bestelling binnen is, hoor je dat van",
-        "translation": "訂單到貨時，你會收到通知。",
-        "start": 1032.96,
-        "end": 1036.72
-      },
-      {
-        "text": "Inkoop. Meestal bellen ze even of ze sturen een mailtje, en als het een klein",
-        "translation": "採購部。通常他們會先打電話或寄一封電子郵件，如果包裹很小，",
-        "start": 1036.72,
-        "end": 1042.68
-      },
-      {
-        "text": "pakket is, leggen ze dat meteen in je",
-        "translation": "他們會直接把它放進你的",
-        "start": 1042.68,
-        "end": 1046.04
-      },
-      {
-        "text": "postvak. Waar zit de afdeling",
-        "translation": "信箱。採購部在哪裡？",
-        "start": 1046.04,
-        "end": 1053.52
-      },
-      {
-        "text": "inkoop? In kamer 2. Pun 2, in kamer 2.3 naast de",
-        "translation": "採購部在2號房間。2.3號房間，餐廳旁邊的2號樓層。",
-        "start": 1053.52,
-        "end": 1057.36
-      },
-      {
-        "text": "kantine. Nabil heeft een nieuwe baan. Zijn",
-        "translation": "餐廳旁邊。Nabil有份新工作，他的",
-        "start": 1060.44,
-        "end": 1067.68
-      },
-      {
-        "text": "baas vertelt",
-        "translation": "老闆說了",
-        "start": 1067.68,
-        "end": 1071.72
-      },
-      {
-        "text": "iets. Lees eerst de vraag, kijk daarna naar de video.",
-        "translation": "一些事情。請先看問題，再看影片。",
-        "start": 1071.72,
-        "end": 1075.16
-      },
-      {
-        "text": "Oké Nabil, wat handige informatie voor",
-        "translation": "好，Nabil，這是一些實用資訊，",
-        "start": 1083.52,
-        "end": 1089.12
-      },
-      {
-        "text": "als je materiaal wilt bestellen, zoals pennen. De afdeling inkoop doet de",
-        "translation": "當你想訂購文具（像是筆），採購部會負責",
-        "start": 1089.12,
-        "end": 1094.8
-      },
-      {
-        "text": "bestellingen. Inkoop zit op de tweede",
-        "translation": "訂購事宜。採購部在二樓，",
-        "start": 1094.8,
-        "end": 1099.16
-      },
-      {
-        "text": "verdieping, kamer 2.3, naast verkoop in 2.2. Je kijkt zo naar binnen vanuit de",
-        "translation": "2.3號房間，從餐廳往裡看旁邊是2.2號銷售部門。",
-        "start": 1099.16,
-        "end": 1104.44
-      },
-      {
-        "text": "kantine. Als je iets wil bestellen, vul je dit formulier in. Dat lever je dan in bij",
-        "translation": "如果你想要訂購東西，請填寫這張表格，然後交給",
-        "start": 1104.44,
-        "end": 1109.0
-      },
-      {
-        "text": "inkoop.",
-        "translation": "採購部。",
-        "start": 1109.0,
-        "end": 1111.12
-      },
-      {
-        "text": "Als de bestelling binnen is, hoor je dat",
-        "translation": "當訂單到貨時，你會收到",
-        "start": 1111.12,
-        "end": 1115.16
-      },
-      {
-        "text": "van inkoop. Meestal bellen ze even of ze sturen een mailtje, en als het een klein",
-        "translation": "採購部的通知。通常，他們會打電話或寄電子郵件，如果包裹很小，",
-        "start": 1115.16,
-        "end": 1120.44
-      },
-      {
-        "text": "pakket is, leggen ze dat meteen in je postvak.",
-        "translation": "他們會直接放進你的信箱。",
-        "start": 1120.44,
-        "end": 1126.36
-      },
-      {
-        "text": "Nabil wil iets bestellen, wat moet hij",
-        "translation": "Nabil想訂購東西，他應該",
-        "start": 1126.36,
-        "end": 1129.84
-      },
-      {
-        "text": "doen? Een formulier inleveren bij de",
-        "translation": "怎麼做？提交一份表格給",
-        "start": 1129.84,
-        "end": 1131.76
-      },
-      {
-        "text": "afdeling",
-        "translation": "採購部。",
-        "start": 1131.76,
+        "text": "Even langslopen bij de afdeling Inkoop.",
+        "translation": "去採購部門繞一圈看看。",
+        "start": 1131.96,
         "end": 1135.92
       },
       {
-        "text": "inkoop.",
-        "translation": "可以直接去採購部看看，或者打電話給採購部詢問訂單狀況，再把訂單",
-        "start": 1135.92,
-        "end": 1140.52
+        "text": "De afdeling Inkoop bellen met de bestelling.",
+        "translation": "打電話給採購部門訂購。",
+        "start": 1137.1,
+        "end": 1140.5
       },
       {
-        "text": "Even langslopen bij de afdeling",
-        "translation": "寄電子郵件給採購部。Julia正在接受",
-        "start": 1140.52,
-        "end": 1146.52
+        "text": "De bestelling naar de afdeling Inkoop mailen.",
+        "translation": "用電子郵件將訂單寄給採購部門。",
+        "start": 1141.8,
+        "end": 1145.42
       },
       {
-        "text": "inkoop. De afdeling inkoop bellen met de bestelling, de bestelling naar de afdeling inkoop",
-        "translation": "廚師培訓，她的同學Mira和",
-        "start": 1151.48,
-        "end": 1159.4
+        "text": "Julia doet een koksopleiding.",
+        "translation": "茱莉亞在學廚藝。",
+        "start": 1152.64,
+        "end": 1155.48
       },
       {
-        "text": "mailen. Julia doet een",
-        "translation": "Chris在討論",
-        "start": 1159.4,
-        "end": 1162.72
+        "text": "Haar medekursisten Mira en Chris praten over de examens.",
+        "translation": "她的同學Mira和Chris談論考試。",
+        "start": 1156.48,
+        "end": 1162.56
       },
       {
-        "text": "koksopleiding. Haar medecursisten Mira en",
-        "translation": "考試。請先看問題，再看影片。",
-        "start": 1162.72,
-        "end": 1167.48
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，再看影片。",
+        "start": 1164.16,
+        "end": 1168.44
       },
       {
-        "text": "Chris praten over de",
-        "translation": "那段時間會很忙吧，有那些",
-        "start": 1167.48,
-        "end": 1170.72
+        "text": "Tjee. Wat een drukke tijd, hè, met al die examens.",
+        "translation": "哇，真是忙碌的時期，考試好多。",
+        "start": 1179.66,
+        "end": 1183.94
       },
       {
-        "text": "examens. Lees eerst de vraag, kijk daarna naar de video.",
-        "translation": "考試，一共五個。嗯，下一",
-        "start": 1180.76,
-        "end": 1188.32
+        "text": "Vijf in totaal.",
+        "translation": "總共五場考試。",
+        "start": 1184.7,
+        "end": 1186.12
       },
       {
-        "text": "Het wordt een drukke tijd, hè, met al die",
-        "translation": "周我們就有三場考試，",
-        "start": 1188.32,
-        "end": 1191.72
+        "text": "Ja, volgende week hebben we alleen al drie examens.",
+        "translation": "是啊，下週我們有三場考試。",
+        "start": 1187.04,
+        "end": 1191.18
       },
       {
-        "text": "examens, vijf in totaal. Hm ja, volgende",
-        "translation": "接下來那一周有兩場。我真的不知道",
-        "start": 1191.72,
-        "end": 1195.04
+        "text": "En de week daarna twee. Ik weet echt niet hoe ik dat allemaal moet leren.",
+        "translation": "隔週還有兩場。我真的不知道要怎麼念完這些。",
+        "start": 1191.9,
+        "end": 1196.18
       },
       {
-        "text": "week hebben we alleen al drie examens en",
-        "translation": "要怎麼學完所有東西。你知道嗎，先做好詳細的計劃，",
-        "start": 1195.04,
-        "end": 1198.72
+        "text": "Nou, weet je, zorg dat je eerst een goed plan hebt. Dat helpt voor mij altijd heel goed.",
+        "translation": "嗯，你知道嗎，先做好計劃。這對我來說總是很有幫助。",
+        "start": 1197.12,
+        "end": 1199.92
       },
       {
-        "text": "de week daarna twee. Ik weet echt niet hoe",
-        "translation": "這對我一直很有幫助，",
-        "start": 1198.72,
-        "end": 1202.56
+        "text": "Ja, dat is misschien wel handig, ja.",
+        "translation": "是的，這或許很實用。",
+        "start": 1203.51,
+        "end": 1206.09
       },
       {
-        "text": "ik dat allemaal moet leren. Nou weet je, zorg dat je eerst een goede planning",
-        "translation": "真的很好。喔，這或許很實用。是的，如果我可以給你一個建議，",
-        "start": 1202.56,
-        "end": 1205.68
+        "text": "En als ik je dan nog een tip mag geven, dan ga gewoon leren in de bus en in de trein.",
+        "translation": "如果我可以給你一個建議，那就是在公車和火車上學習。",
+        "start": 1206.65,
+        "end": 1211.29
       },
       {
-        "text": "maakt, dat helpt voor mij altijd heel",
-        "translation": "就是在公車和火車上學習。我是說，那段時間你",
-        "start": 1205.68,
-        "end": 1210.4
+        "text": "Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.",
+        "translation": "我意思是，這時候你反正都在等車，可以做更多事。",
+        "start": 1212.09,
+        "end": 1215.99
       },
       {
-        "text": "goed. Oh ja, dat is misschien wel handig. Ja, en als ik je dan nog een tip mag",
-        "translation": "都是在等待，",
-        "start": 1210.4,
-        "end": 1214.6
+        "text": "Vooral als je zo vaak vertraging hebt. Dat is de goeie, zeg, dat ga ik doen.",
+        "translation": "尤其你經常遇到延誤。這點真的很好，我會試試看。",
+        "start": 1216.75,
+        "end": 1222.33
       },
       {
-        "text": "geven: dan ga gewoon leren in de bus en in de trein. Ik bedoel, die tijd ben je",
-        "translation": "你可以利用這些時間做更多額外的學習，特別是當你經常遇到",
-        "start": 1214.6,
-        "end": 1218.88
+        "text": "Vijf",
+        "translation": "五",
+        "start": 1230.69,
+        "end": 1231.93
       },
       {
-        "text": "toch aan het wachten. Dan kan je heel veel extra doen, vooral als je zo vaak",
-        "translation": "延誤的時候。",
-        "start": 1218.88,
-        "end": 1222.88
+        "text": "Julia doet een koksopleiding.",
+        "translation": "茱莉亞在學廚藝。",
+        "start": 1236.53,
+        "end": 1240.03
       },
       {
-        "text": "vertraging",
-        "translation": "這是個好方法，我會這麼做。",
-        "start": 1222.88,
-        "end": 1226.92
+        "text": "Haar medekursisten Mira en Chris praten over de examens.",
+        "translation": "她的同學Mira和Chris談論考試。",
+        "start": 1241.93,
+        "end": 1247.65
       },
       {
-        "text": "hebt. Dat is de goede, zeg, dat ga ik",
-        "translation": "Julia下週有幾場考試？2場、3場、",
-        "start": 1226.92,
-        "end": 1232.64
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，再看影片。",
+        "start": 1248.67,
+        "end": 1265.21
       },
       {
-        "text": "doen. Hoeveel examens heeft Julia volgende week? 2, 3,",
-        "translation": "5場。Julia正在接受",
-        "start": 1236.0,
-        "end": 1243.92
+        "text": "Tjee, wat een drukke tijd, hè, met al die examens. Vijf in totaal.",
+        "translation": "哇，真是忙碌的時期，考試好多，總共五場。",
+        "start": 1266.83,
+        "end": 1270.79
       },
       {
-        "text": "5. Julia doet een",
-        "translation": "廚師培訓，她的同學Mira和",
-        "start": 1243.92,
-        "end": 1247.24
+        "text": "Ja, volgende week hebben we alleen al drie examens.",
+        "translation": "是啊，下週我們有三場考試。",
+        "start": 1271.63,
+        "end": 1275.73
       },
       {
-        "text": "koksopleiding. Haar medecursisten Mira en",
-        "translation": "Chris在討論",
-        "start": 1247.24,
-        "end": 1251.96
+        "text": "En de week daarna twee. Ik weet echt niet hoe ik dat allemaal moet leren.",
+        "translation": "隔週還有兩場。我真的不知道要怎麼念完這些。",
+        "start": 1276.41,
+        "end": 1280.73
       },
       {
-        "text": "Chris praten over de",
-        "translation": "考試。請先看問題，再看影片。",
-        "start": 1251.96,
-        "end": 1255.36
+        "text": "Nou, weet je, zorg dat je eerst een goede planning maakt.",
+        "translation": "嗯，你知道嗎，先做好良好的規劃。",
+        "start": 1281.65,
+        "end": 1285.11
       },
       {
-        "text": "examens. Lees eerst de vraag, kijk daarna naar de video.",
-        "translation": "那段時間會很忙吧，有那些",
-        "start": 1265.6,
-        "end": 1272.84
+        "text": "Dat helpt mij altijd heel goed. Ja, dat is misschien wel handig.",
+        "translation": "這對我總是很有幫助。是的，這或許很方便。",
+        "start": 1285.91,
+        "end": 1289.97
       },
       {
-        "text": "Het wordt een drukke tijd, hè, met al die",
-        "translation": "考試，一共五個。嗯，下一",
-        "start": 1272.84,
-        "end": 1276.28
+        "text": "En als ik je dan nog een tip mag geven: ga gewoon leren in de bus en in de trein.",
+        "translation": "如果我還能給你一個建議：就在公車和火車上學習。",
+        "start": 1289.97,
+        "end": 1295.91
       },
       {
-        "text": "examens, vijf in totaal. Hmm ja, volgende",
-        "translation": "周我們就有三場考試，",
-        "start": 1276.28,
-        "end": 1279.4
+        "text": "Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.",
+        "translation": "我的意思是，那段時間你本來就是在等待，你可以做很多額外的事情。",
+        "start": 1296.75,
+        "end": 1300.07
       },
       {
-        "text": "week hebben we alleen al drie examens en",
-        "translation": "接下來那一周有兩場。我真的不知道要怎麼學完所有東西。你知道嗎，",
-        "start": 1279.4,
-        "end": 1284.76
-      },
-      {
-        "text": "de week daarna twee. Ik weet echt niet hoe ik dat allemaal moet leren. Nou weet",
-        "translation": "先做好詳細的計劃，這對我一直很有幫助，",
-        "start": 1284.76,
-        "end": 1290.24
-      },
-      {
-        "text": "je, zorg dat je eerst een goede planning maakt, dat helpt voor mij altijd heel",
-        "translation": "真的很好。喔，這或許很實用。是的，如果我可以給你一個建議，",
-        "start": 1290.24,
-        "end": 1295.0
-      },
-      {
-        "text": "goed. Oh ja, dat is misschien wel handig. Ja, en als ik je dan nog een tip mag",
-        "translation": "就是在公車和火車上學習。我是說，那段時間你",
-        "start": 1295.0,
-        "end": 1299.12
-      },
-      {
-        "text": "geven: dan ga gewoon leren in de bus en in de trein. Ik bedoel, die tijd ben je",
-        "translation": "都是在等待，",
-        "start": 1299.12,
-        "end": 1303.6
-      },
-      {
-        "text": "toch aan het wachten. Dan kan je heel veel extra doen, vooral als je zo vaak",
-        "translation": "你可以利用這些時間做更多額外的學習，特別是當你經常遇到",
-        "start": 1303.6,
-        "end": 1307.52
-      },
-      {
-        "text": "Heb je dat? Dat is de goede, zeg. Dat ga ik doen.",
-        "translation": "你有了嗎？那是好的，我就去做。",
-        "start": 1307.52,
-        "end": 1312.08
+        "text": "Vooral als je zo vaak vertraging hebt. Dat is de goeie, zeg. Dat ga ik doen.",
+        "translation": "尤其是當你經常遇到延誤。這真是不錯的主意，我就這麼做。",
+        "start": 1301.31,
+        "end": 1306.91
       },
       {
         "text": "Julia luistert naar het gesprek.",
-        "translation": "茱莉亞正在聽對話。",
-        "start": 1312.08,
-        "end": 1316.6
+        "translation": "茱莉亞在聽這段對話。",
+        "start": 1309.37,
+        "end": 1311.87
       },
       {
         "text": "Welke tip geeft Chris als eerste aan Mira?",
-        "translation": "克里斯給米拉的第一個建議是什麼？",
-        "start": 1316.6,
-        "end": 1318.64
+        "translation": "克里斯最先給米拉什麼建議？",
+        "start": 1313.49,
+        "end": 1317.75
       },
       {
-        "text": "Ga extra veel leren. Leer in de bus en in de trein. Maak een",
-        "translation": "多多學習。在巴士和火車上學習。做一個",
-        "start": 1318.64,
-        "end": 1324.2
+        "text": "Julia, ga extra veel leren.",
+        "translation": "茱莉亞，多花點時間學習。",
+        "start": 1317.75,
+        "end": 1321.29
       },
       {
-        "text": "planning. Julia doet een",
-        "translation": "計畫。茱莉亞正在參加一個",
-        "start": 1324.2,
-        "end": 1328.92
+        "text": "Leer in de bus en in de trein.",
+        "translation": "在公車和火車上學習。",
+        "start": 1322.41,
+        "end": 1325.71
       },
       {
-        "text": "koksopleiding. Haar medecursisten Mira en",
-        "translation": "廚師培訓課程。她的同學米拉和",
-        "start": 1332.2,
-        "end": 1340.16
+        "text": "Maak een planning.",
+        "translation": "做一個學習計劃。",
+        "start": 1326.19,
+        "end": 1327.53
       },
       {
-        "text": "Chris praten over de",
-        "translation": "克里斯在討論",
-        "start": 1340.16,
-        "end": 1343.48
+        "text": "Julia doet een koksopleiding.",
+        "translation": "茱莉亞正在學廚師。",
+        "start": 1333.33,
+        "end": 1336.23
       },
       {
-        "text": "examens. Lees eerst de vraag, kijk daarna naar de",
-        "translation": "考試。先讀題目，再看",
-        "start": 1343.48,
-        "end": 1348.12
+        "text": "Haar medekursisten Mira en Chris praten over de examens.",
+        "translation": "她的同學米拉和克里斯正在談論考試。",
+        "start": 1338.11,
+        "end": 1343.29
       },
       {
-        "text": "video.",
-        "translation": "影片。",
-        "start": 1348.12,
-        "end": 1350.8
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 1344.19,
+        "end": 1349.25
       },
       {
-        "text": "Het wordt een drukke tijd hè, met al die",
-        "translation": "這段時間會很忙啊，有這麼多",
-        "start": 1359.56,
-        "end": 1364.04
+        "text": "Tjee, wat een drukke tijd hè, met al die examens.",
+        "translation": "哇，考試季真忙碌啊。",
+        "start": 1360.67,
+        "end": 1364.71
       },
       {
-        "text": "examens, vijf in totaal. Hm ja, volgende",
-        "translation": "考試，總共五場。嗯，是的，下",
-        "start": 1364.04,
-        "end": 1369.04
+        "text": "Vijf in totaal.",
+        "translation": "總共有五場。",
+        "start": 1365.83,
+        "end": 1366.97
       },
       {
-        "text": "week hebben we alleen al drie examens en",
-        "translation": "週我們就有三場考試，",
-        "start": 1369.04,
-        "end": 1372.64
+        "text": "Ja, volgende week hebben we alleen al drie examens.",
+        "translation": "是的，下週我們光是就有三場考試。",
+        "start": 1367.57,
+        "end": 1371.91
       },
       {
-        "text": "de week daarna twee. Ik weet echt niet",
-        "translation": "接著下一週兩場。我真的不知道",
-        "start": 1372.64,
-        "end": 1375.64
+        "text": "En de week daarna twee. Ik weet echt niet hoe ik dat allemaal moet leren.",
+        "translation": "再下一週還有兩場。我真的不知道該怎麼全部學完。",
+        "start": 1371.91,
+        "end": 1376.93
       },
       {
-        "text": "hoe ik dat allemaal moet leren. Nou weet je, zorg dat je eerst een goede planning",
-        "translation": "要怎麼全部準備。嗯，你知道嗎，先做一個好的計畫，",
-        "start": 1375.64,
-        "end": 1379.4
+        "text": "Nou, weet je, zorg dat je eerst een goede planning maakt.",
+        "translation": "嗯，你知道，先做好一個好的計劃。",
+        "start": 1377.85,
+        "end": 1381.31
       },
       {
-        "text": "maakt. Dat helpt voor mij altijd heel",
-        "translation": "這對我來說一直很有幫助。",
-        "start": 1379.4,
-        "end": 1383.32
+        "text": "Dat helpt mij altijd heel goed. Ja, dat is misschien wel handig, ja.",
+        "translation": "這對我總是很有幫助。是的，這可能真的很方便。",
+        "start": 1382.13,
+        "end": 1386.79
       },
       {
-        "text": "goed. Oh ja, dat is misschien wel handig. Ja, en als ik je dan nog een tip mag",
-        "translation": "喔，是啊，那或許很有用。對，如果我可以再給你一個建議的話，",
-        "start": 1383.32,
-        "end": 1386.48
+        "text": "En als ik je dan nog een tip mag geven: ga gewoon leren in de bus en in de trein.",
+        "translation": "如果我還能給你一個建議：就在公車和火車上學習。",
+        "start": 1387.15,
+        "end": 1392.05
       },
       {
-        "text": "geven, dan ga gewoon leren in de bus en in de trein. Ik bedoel, die tijd ben je",
-        "translation": "那就在巴士和火車上好好學習。我是說，那段時間你",
-        "start": 1386.48,
-        "end": 1391.16
+        "text": "Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.",
+        "translation": "我的意思是，那段時間你本來就是在等待，你可以做很多額外的事情。",
+        "start": 1392.73,
+        "end": 1396.27
       },
       {
-        "text": "toch aan het wachten. Dan kan je heel veel extra doen, vooral als je zo vaak",
-        "translation": "都是在等待的。這樣你可以做很多額外的事情，尤其你常",
-        "start": 1391.16,
-        "end": 1395.36
+        "text": "Vooral als je zo vaak vertraging hebt. Dat is een goeie, zeg. Dat ga ik doen.",
+        "translation": "尤其是當你經常遇到延誤。這真是不錯的主意，我就這麼做。",
+        "start": 1397.49,
+        "end": 1403.19
       },
       {
-        "text": "vertraging",
-        "translation": "常遇到延誤。",
-        "start": 1395.36,
-        "end": 1399.6
+        "text": "Julia luistert naar het gesprek.",
+        "translation": "茱莉亞在聽這段對話。",
+        "start": 1404.77,
+        "end": 1407.99
       },
       {
-        "text": "hebt. Dat is de goede, zeg. Dat ga ik",
-        "translation": "有延誤時，那是好事，我就照做。",
-        "start": 1399.6,
-        "end": 1403.64
+        "text": "Wat zegt Chris over vertraging?",
+        "translation": "克里斯對延誤說了什麼？",
+        "start": 1409.59,
+        "end": 1412.31
       },
       {
-        "text": "doen. Julia luistert naar het gesprek.",
-        "translation": "我會這麼做。茱莉亞正在聽對話。",
-        "start": 1403.64,
-        "end": 1409.24
+        "text": "Dan heb je extra tijd om te leren.",
+        "translation": "這樣你會有額外的時間學習。",
+        "start": 1413.17,
+        "end": 1416.21
       },
       {
-        "text": "Wat zegt Chris over vertraging? Dan heb",
-        "translation": "克里斯怎麼說延誤？那時",
-        "start": 1409.24,
-        "end": 1413.52
+        "text": "Dan heb je minder tijd om te leren.",
+        "translation": "這樣你會有較少時間學習。",
+        "start": 1416.93,
+        "end": 1419.97
       },
       {
-        "text": "je extra tijd om te leren. Dan heb je",
-        "translation": "你有額外時間學習。那時",
-        "start": 1413.52,
-        "end": 1417.84
+        "text": "Dat je vaker vertraging hebt met de bus.",
+        "translation": "你公車經常會延誤。",
+        "start": 1420.65,
+        "end": 1423.89
       },
       {
-        "text": "minder tijd om te leren. Dat je vaker",
-        "translation": "你就比較少時間學習。說你經常",
-        "start": 1417.84,
-        "end": 1421.76
+        "text": "Dat je vaker vertraging hebt met de trein.",
+        "translation": "你火車經常會延誤。",
+        "start": 1423.89,
+        "end": 1428.89
       },
       {
-        "text": "vertraging hebt met de bus. Dat je vaker vertraging hebt met de",
-        "translation": "在巴士上延誤。說你經常在",
-        "start": 1421.76,
-        "end": 1426.08
+        "text": "Mario luistert naar de radio. Hij hoort een bericht over files.",
+        "translation": "馬里奧在聽廣播，他聽到一則關於塞車的消息。",
+        "start": 1436.21,
+        "end": 1442.21
       },
       {
-        "text": "trein. Mario luistert naar de",
-        "translation": "火車上延誤。馬里奧在聽",
-        "start": 1426.08,
-        "end": 1429.84
+        "text": "Lees eerst de vraag, luister daarna naar de tekst.",
+        "translation": "先讀問題，然後聽內容。",
+        "start": 1443.45,
+        "end": 1446.91
       },
       {
-        "text": "radio. Hij hoort een bericht over files. Lees eerst de vraag, luister daarna naar de",
-        "translation": "廣播。他聽到一則關於交通堵塞的消息。先讀題目，再聽",
-        "start": 1435.64,
-        "end": 1443.24
+        "text": "En dan nu de files.",
+        "translation": "現在來看塞車情況。",
+        "start": 1460.43,
+        "end": 1462.85
       },
       {
-        "text": "tekst.",
-        "translation": "內容。",
-        "start": 1443.24,
-        "end": 1448.4
+        "text": "Op de snelweg A2 tussen Amsterdam en Utrecht staat vijf kilometer file.",
+        "translation": "在阿姆斯特丹和烏特勒支之間的A2高速公路上有五公里長的塞車。",
+        "start": 1464.63,
+        "end": 1469.11
       },
       {
-        "text": "Verkeersinformatie, en dan nu de",
-        "translation": "交通資訊，現在是",
-        "start": 1456.48,
-        "end": 1459.48
+        "text": "De oorzaak is een ongeluk met drie auto's.",
+        "translation": "原因是一場涉及三輛車的事故。",
+        "start": 1470.55,
+        "end": 1473.63
       },
       {
-        "text": "files op de snelweg A2 tussen Amsterdam",
-        "translation": "阿姆斯特丹和烏特勒支之間A2高速公路的堵車情況，",
-        "start": 1460.28,
-        "end": 1466.8
+        "text": "Bij Rotterdam op de snelweg A4 naar Delft staat een kapotte vrachtwagen.",
+        "translation": "在鹿特丹附近通往代爾夫特的A4高速公路上有一輛壞掉的貨車。",
+        "start": 1475.43,
+        "end": 1480.05
       },
       {
-        "text": "en Utrecht, staat",
-        "translation": "發生了堵塞。",
-        "start": 1466.8,
-        "end": 1469.4
-      },
-      {
-        "text": "file. De oorzaak is een ongeluk met drie",
-        "translation": "原因是一場在鹿特丹三輛車的事故。在通往代爾夫特的A4高速公路上，有一輛壞掉的",
-        "start": 1469.4,
-        "end": 1474.04
-      },
-      {
-        "text": "auto's bij Rotterdam. Op de snelweg A4 naar Delft staat een kapotte",
-        "translation": "貨車。因此現在有一段4公里的堵車。",
-        "start": 1474.04,
-        "end": 1477.36
-      },
-      {
-        "text": "vrachtwagen. Daarom staat er nu een file van 4",
-        "translation": "半小時後車流將重新",
-        "start": 1477.36,
-        "end": 1482.68
-      },
-      {
-        "text": "km. Over een half uur zal het verkeer weer kunnen",
-        "translation": "開始順暢。最後一段堵車在A50靠近",
-        "start": 1482.68,
-        "end": 1486.68
-      },
-      {
-        "text": "doorrijden. De laatste file staat op de A50 bij",
-        "translation": "阿珀爾多倫，那裡有一輛滿載雞蛋的貨車翻覆了，",
-        "start": 1486.68,
-        "end": 1491.24
-      },
-      {
-        "text": "Apeldoorn. Daar is een vrachtwagen met eieren omgevallen.",
-        "translation": "貨車和雞蛋散落在",
-        "start": 1491.24,
-        "end": 1495.48
-      },
-      {
-        "text": "De vrachtwagen en de eieren liggen op de",
-        "translation": "路上。道路正在",
-        "start": 1495.48,
-        "end": 1500.96
-      },
-      {
-        "text": "weg. De weg wordt nu",
-        "translation": "清理中。有10公里的堵車。最後還有一則給搭火車",
-        "start": 1500.96,
-        "end": 1503.48
-      },
-      {
-        "text": "schoongemaakt. Er staat een file van 10 km. Tenslotte nog een bericht voor mensen",
-        "translation": "旅客的消息，",
-        "start": 1503.48,
-        "end": 1507.84
-      },
-      {
-        "text": "die met de trein",
-        "translation": "阿納姆和烏特勒支間的火車",
-        "start": 1507.84,
-        "end": 1512.56
-      },
-      {
-        "text": "reizen tussen de stations Arnhem en",
-        "translation": "停駛。您可以搭乘NS巴士。交通堵塞訊息到此為止。",
-        "start": 1512.56,
-        "end": 1515.4
-      },
-      {
-        "text": "Utrecht. Rijden geen treinen. U kunt met de NS-bussen reizen. Tot zover de",
-        "translation": "阿姆斯特丹和烏特勒支之間A2高速公路的堵車長度是？4公里、5公里、還是6",
-        "start": 1515.4,
-        "end": 1518.92
-      },
-      {
-        "text": "files.",
-        "translation": "公里？馬里奧正在聽廣播。他",
-        "start": 1518.92,
-        "end": 1524.88
-      },
-      {
-        "text": "Hoe lang is de file op de snelweg",
-        "translation": "聽到一則關於",
-        "start": 1525.0,
-        "end": 1535.96
-      },
-      {
-        "text": "A2 tussen Amsterdam en Utrecht? 4 km, 5 km, 6",
-        "translation": "交通堵塞的消息。先讀題目，再聽內容。",
-        "start": 1535.96,
-        "end": 1538.72
-      },
-      {
-        "text": "km? Mario luistert naar de radio. Hij",
-        "translation": "交通資訊，現在是",
-        "start": 1542.12,
-        "end": 1548.56
-      },
-      {
-        "text": "hoort een bericht over",
-        "translation": "",
-        "start": 1548.56,
-        "end": 1552.52
-      },
-      {
-        "text": "files. Lees eerst de vraag, luister daarna naar de tekst.",
-        "translation": "",
-        "start": 1552.52,
-        "end": 1556.0
-      },
-      {
-        "text": "Verkeersinformatie, en dan nu de",
-        "translation": "",
-        "start": 1566.92,
-        "end": 1573.36
-      },
-      {
-        "text": "Files op de snelweg A2 tussen Amsterdam en Utrecht staan 5 km.",
-        "translation": "阿姆斯特丹和烏得勒支之間的A2高速公路上有5公里的塞車。",
-        "start": 1573.36,
-        "end": 1576.04
-      },
-      {
-        "text": "File, de oorzaak is een ongeluk met drie auto's.",
-        "translation": "塞車的原因是一場涉及三輛車的事故。",
-        "start": 1576.04,
-        "end": 1580.36
-      },
-      {
-        "text": "Bij Rotterdam, op de snelweg A4 naar Delft, staat een kapotte vrachtwagen.",
-        "translation": "在鹿特丹，通往代爾夫特的A4高速公路上有一輛壞掉的貨車。",
-        "start": 1580.36,
-        "end": 1584.04
-      },
-      {
-        "text": "Daarom staat er nu een file van 4 km.",
-        "translation": "因此現在有4公里的塞車。",
-        "start": 1584.04,
-        "end": 1589.4
+        "text": "Daarom staat er nu een file van vier kilometer.",
+        "translation": "所以現在造成四公里的塞車。",
+        "start": 1481.45,
+        "end": 1483.87
       },
       {
         "text": "Over een half uur zal het verkeer weer kunnen doorrijden.",
-        "translation": "半小時後交通將能恢復通行。",
-        "start": 1589.4,
-        "end": 1593.36
+        "translation": "半小時後交通應該可以恢復通行。",
+        "start": 1484.89,
+        "end": 1487.89
       },
       {
         "text": "De laatste file staat op de A50 bij Apeldoorn.",
-        "translation": "最後一個塞車地點在阿珀爾多倫的A50高速公路上。",
-        "start": 1593.36,
-        "end": 1597.88
+        "translation": "最後一個塞車在阿佩爾多爾恩附近的A50高速公路。",
+        "start": 1490.11,
+        "end": 1493.01
       },
       {
         "text": "Daar is een vrachtwagen met eieren omgevallen.",
-        "translation": "那裡有一輛裝滿雞蛋的貨車翻覆了。",
-        "start": 1597.88,
-        "end": 1602.2
+        "translation": "那裡有一輛裝有雞蛋的貨車翻覆了。",
+        "start": 1494.59,
+        "end": 1496.81
       },
       {
-        "text": "De vrachtwagen en de eieren liggen op de weg.",
-        "translation": "貨車和雞蛋散落在路上。",
-        "start": 1602.2,
-        "end": 1607.64
+        "text": "De vrachtwagen en de eieren liggen op de weg. De weg wordt nu schoongemaakt.",
+        "translation": "貨車和雞蛋散落在路上，現在正在清理。",
+        "start": 1498.47,
+        "end": 1503.69
       },
       {
-        "text": "De weg wordt nu schoongemaakt.",
-        "translation": "道路目前正在清理中。",
-        "start": 1607.64,
-        "end": 1611.48
+        "text": "Er staat een file van tien kilometer.",
+        "translation": "塞車長度有十公里。",
+        "start": 1504.99,
+        "end": 1507.07
       },
       {
-        "text": "Er staat een file van 10 km.",
-        "translation": "現場有10公里的塞車。",
-        "start": 1611.48,
-        "end": 1614.6
+        "text": "Ten slotte nog een bericht voor mensen die met de trein reizen.",
+        "translation": "最後給搭火車的人一則消息。",
+        "start": 1509.15,
+        "end": 1512.11
       },
       {
-        "text": "Tenslotte nog een bericht voor mensen die met de trein reizen tussen de stations Arnhem en Utrecht.",
-        "translation": "最後有一則針對搭火車在阿納姆和烏得勒支站間旅客的消息。",
-        "start": 1614.6,
-        "end": 1619.36
+        "text": "Tussen de stations Arnhem en Utrecht rijden geen treinen.",
+        "translation": "在阿納姆和烏特勒支之間的車站間沒有火車行駛。",
+        "start": 1513.19,
+        "end": 1517.77
       },
       {
-        "text": "Rijden geen treinen.",
-        "translation": "該路段沒有列車行駛。",
-        "start": 1619.36,
-        "end": 1624.04
+        "text": "U kunt met de NS-bussen reizen. Tot zover de files.",
+        "translation": "您可以搭乘NS巴士。塞車資訊到此為止。",
+        "start": 1518.77,
+        "end": 1523.39
       },
       {
-        "text": "U kunt met de NS-bussen reizen.",
-        "translation": "您可以搭乘NS巴士出行。",
-        "start": 1624.04,
-        "end": 1627.56
+        "text": "Mario luistert naar de radio. Hij hoort een bericht over files.",
+        "translation": "馬里奧在聽廣播，他聽到一則關於塞車的消息。",
+        "start": 1543.01,
+        "end": 1548.83
       },
       {
-        "text": "Tot zover de files.",
-        "translation": "塞車消息就到此為止。",
-        "start": 1627.56,
-        "end": 1631.52
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "先讀問題，然後聽內容。",
+        "start": 1550.07,
+        "end": 1553.93
       },
       {
-        "text": "Waarom staat er een file op de snelweg A4 bij Rotterdam?",
-        "translation": "為什麼鹿特丹的A4高速公路有塞車？",
-        "start": 1631.68,
-        "end": 1638.32
+        "text": "En dan nu de files.",
+        "translation": "現在來看塞車情況。",
+        "start": 1566.85,
+        "end": 1569.53
       },
       {
-        "text": "Er wordt aan de weg gewerkt.",
-        "translation": "路上正在施工。",
-        "start": 1638.32,
-        "end": 1641.36
+        "text": "Op de snelweg A2 tussen Amsterdam en Utrecht staat vijf kilometer file.",
+        "translation": "在阿姆斯特丹和烏特勒支之間的A2高速公路上有五公里長的塞車。",
+        "start": 1570.69,
+        "end": 1575.75
       },
       {
-        "text": "Er is een ongeluk gebeurd met drie auto's.",
-        "translation": "發生了一起涉及三輛車的事故。",
-        "start": 1641.36,
-        "end": 1644.36
+        "text": "De oorzaak is een ongeluk met drie auto's.",
+        "translation": "原因是一場涉及三輛車的事故。",
+        "start": 1577.21,
+        "end": 1580.13
       },
       {
-        "text": "Er staat een kapotte vrachtwagen.",
-        "translation": "有一輛壞掉的貨車停在路上。",
-        "start": 1644.36,
-        "end": 1647.36
+        "text": "Bij Rotterdam op de snelweg A4 naar Delft staat een kapotte vrachtwagen.",
+        "translation": "在鹿特丹附近通往代爾夫特的A4高速公路上有一輛壞掉的貨車。",
+        "start": 1582.09,
+        "end": 1587.21
       },
       {
-        "text": "Mario luistert naar de radio.",
-        "translation": "馬里奧正在聽收音機。",
-        "start": 1650.2,
-        "end": 1655.56
-      },
-      {
-        "text": "Hij hoort een bericht over files.",
-        "translation": "他聽到有關塞車的消息。",
-        "start": 1655.56,
-        "end": 1659.52
-      },
-      {
-        "text": "Lees eerst de vraag, luister daarna naar de tekst en de informatie.",
-        "translation": "請先閱讀問題，然後聆聽文本和資訊。",
-        "start": 1659.52,
-        "end": 1662.0
-      },
-      {
-        "text": "En dan nu de files op de snelweg A2 tussen Amsterdam en Utrecht staan 5 km.",
-        "translation": "現在，阿姆斯特丹和烏得勒支之間的A2高速公路上有5公里的塞車。",
-        "start": 1670.8,
-        "end": 1677.12
-      },
-      {
-        "text": "File, de oorzaak is een ongeluk met drie auto's.",
-        "translation": "塞車的原因是一場涉及三輛車的事故。",
-        "start": 1677.12,
-        "end": 1680.36
-      },
-      {
-        "text": "Bij Rotterdam, op de snelweg A4 naar Delft, staat een kapotte vrachtwagen.",
-        "translation": "在鹿特丹，通往代爾夫特的A4高速公路上有一輛壞掉的貨車。",
-        "start": 1680.36,
-        "end": 1683.04
-      },
-      {
-        "text": "Daarom staat er nu een file van 4 km.",
-        "translation": "因此現在有4公里的塞車。",
-        "start": 1683.04,
-        "end": 1687.64
+        "text": "Daarom staat er nu een file van vier kilometer.",
+        "translation": "所以現在造成四公里的塞車。",
+        "start": 1588.11,
+        "end": 1590.57
       },
       {
         "text": "Over een half uur zal het verkeer weer kunnen doorrijden.",
-        "translation": "半小時後交通將能恢復通行。",
-        "start": 1687.64,
-        "end": 1691.0
+        "translation": "半小時後交通應該可以恢復通行。",
+        "start": 1591.97,
+        "end": 1594.53
       },
       {
         "text": "De laatste file staat op de A50 bij Apeldoorn.",
-        "translation": "最後一個塞車地點在阿珀爾多倫的A50高速公路上。",
-        "start": 1691.0,
-        "end": 1696.36
+        "translation": "最後一個交通壅塞在A50高速公路，靠近阿珀爾多恩。",
+        "start": 1596.19,
+        "end": 1599.69
       },
       {
         "text": "Daar is een vrachtwagen met eieren omgevallen.",
-        "translation": "那裡有一輛裝滿雞蛋的貨車翻覆了。",
-        "start": 1696.36,
-        "end": 1700.32
+        "translation": "那裡一輛載滿雞蛋的貨車翻覆了。",
+        "start": 1601.29,
+        "end": 1603.47
       },
       {
-        "text": "De vrachtwagen en de eieren liggen op de weg.",
-        "translation": "貨車和雞蛋散落在路上。",
-        "start": 1700.32,
-        "end": 1704.88
+        "text": "De vrachtwagen en de eieren liggen op de weg. De weg wordt nu schoongemaakt.",
+        "translation": "貨車和雞蛋散落在路上。路面正在清理中。",
+        "start": 1605.15,
+        "end": 1610.35
       },
       {
-        "text": "De weg wordt nu schoongemaakt.",
-        "translation": "道路目前正在清理中。",
-        "start": 1704.88,
-        "end": 1709.24
+        "text": "Er staat een file van tien kilometer.",
+        "translation": "目前有十公里的交通壅塞。",
+        "start": 1611.67,
+        "end": 1613.73
       },
       {
-        "text": "Er staat een file van 10 km.",
-        "translation": "現場有10公里的塞車。",
-        "start": 1709.24,
-        "end": 1714.44
+        "text": "Ten slotte nog een bericht voor mensen die met de trein reizen.",
+        "translation": "最後還有一則給搭火車旅客的消息。",
+        "start": 1615.83,
+        "end": 1618.81
       },
       {
-        "text": "Tenslotte nog een bericht voor mensen die met de trein reizen tussen de stations Arnhem en Utrecht.",
-        "translation": "最後有一則針對搭火車在阿納姆和烏得勒支站間旅客的消息。",
-        "start": 1714.44,
-        "end": 1718.52
+        "text": "Tussen de stations Arnhem en Utrecht rijden geen treinen.",
+        "translation": "阿恩漢姆和烏特勒支車站之間沒有火車行駛。",
+        "start": 1620.69,
+        "end": 1623.97
       },
       {
-        "text": "Rijden geen treinen.",
-        "translation": "該路段沒有列車行駛。",
-        "start": 1718.52,
-        "end": 1721.56
+        "text": "U kunt met de NS-bussen reizen. Tot zover de files.",
+        "translation": "您可以搭乘NS巴士。以上就是最新的交通壅塞消息。",
+        "start": 1624.97,
+        "end": 1630.03
       },
       {
-        "text": "U kunt met de NS-bussen reizen.",
-        "translation": "您可以搭乘NS巴士出行。",
-        "start": 1721.56,
-        "end": 1726.32
+        "text": "Mario luistert naar de radio. Hij hoort een bericht over files.",
+        "translation": "馬里奧正在聽收音機。他聽到一則關於交通壅塞的消息。",
+        "start": 1649.95,
+        "end": 1655.83
       },
       {
-        "text": "Tot zover de files.",
-        "translation": "塞車消息就到此為止。",
-        "start": 1726.32,
-        "end": 1731.12
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "請先讀問題，然後聽聽課文。",
+        "start": 1657.11,
+        "end": 1660.95
+      },
+      {
+        "text": "En dan nu de files.",
+        "translation": "現在來看看交通壅塞情況。",
+        "start": 1674.47,
+        "end": 1676.53
+      },
+      {
+        "text": "Op de snelweg A2 tussen Amsterdam en Utrecht staat vijf kilometer file.",
+        "translation": "A2高速公路，阿姆斯特丹和烏特勒支之間，有五公里的交通壅塞。",
+        "start": 1677.69,
+        "end": 1682.75
+      },
+      {
+        "text": "De oorzaak is een ongeluk met drie auto's.",
+        "translation": "原因是三輛車的事故。",
+        "start": 1684.21,
+        "end": 1687.15
+      },
+      {
+        "text": "Bij Rotterdam op de snelweg A4 naar Delft staat een kapotte vrachtwagen.",
+        "translation": "在鹿特丹，往代爾夫特方向的A4高速公路，有一輛故障貨車。",
+        "start": 1689.09,
+        "end": 1694.21
+      },
+      {
+        "text": "Daarom staat er nu een file van vier kilometer.",
+        "translation": "因此現在有四公里的交通壅塞。",
+        "start": 1695.11,
+        "end": 1697.55
+      },
+      {
+        "text": "Over een half uur zal het verkeer weer kunnen doorrijden.",
+        "translation": "半小時後交通將可恢復通行。",
+        "start": 1698.97,
+        "end": 1701.53
+      },
+      {
+        "text": "De laatste file staat op de A50 bij Apeldoorn.",
+        "translation": "最後一個交通壅塞在A50高速公路，靠近阿珀爾多恩。",
+        "start": 1703.19,
+        "end": 1706.69
+      },
+      {
+        "text": "Daar is een vrachtwagen met eieren omgevallen.",
+        "translation": "那裡一輛載滿雞蛋的貨車翻覆了。",
+        "start": 1708.29,
+        "end": 1710.47
+      },
+      {
+        "text": "De vrachtwagen en de eieren liggen op de weg. De weg wordt nu schoongemaakt.",
+        "translation": "貨車和雞蛋散落在路上。路面正在清理中。",
+        "start": 1712.15,
+        "end": 1717.37
+      },
+      {
+        "text": "Er staat een file van tien kilometer.",
+        "translation": "目前有十公里的交通壅塞。",
+        "start": 1718.67,
+        "end": 1720.73
+      },
+      {
+        "text": "Ten slotte nog een bericht voor mensen die met de trein reizen.",
+        "translation": "最後還有一則給搭火車旅客的消息。",
+        "start": 1722.85,
+        "end": 1725.81
+      },
+      {
+        "text": "Tussen de stations Arnhem en Utrecht rijden geen treinen.",
+        "translation": "阿恩漢姆和烏特勒支車站之間沒有火車行駛。",
+        "start": 1727.69,
+        "end": 1730.97
+      },
+      {
+        "text": "U kunt met de NS-bussen reizen. Tot zover de files.",
+        "translation": "您可以搭乘NS巴士。以上就是最新的交通壅塞消息。",
+        "start": 1731.97,
+        "end": 1737.07
       },
       {
         "text": "Mario wil met de trein van Arnhem naar Utrecht.",
-        "translation": "馬里奧想要搭火車從阿納姆去烏得勒支。",
-        "start": 1731.12,
-        "end": 1734.6
+        "translation": "馬里奧想搭火車從阿恩漢姆到烏特勒支。",
+        "start": 1739.49,
+        "end": 1743.65
       },
       {
-        "text": "Wat kan hij het beste doen?",
-        "translation": "他最好怎麼做？",
-        "start": 1734.6,
-        "end": 1739.52
+        "text": "Wat kan hij het beste doen? Met een taxi reizen.",
+        "translation": "他最好怎麼做？搭計程車出行。",
+        "start": 1745.05,
+        "end": 1748.15
       },
       {
-        "text": "Met een taxi reizen?",
-        "translation": "搭計程車？",
-        "start": 1739.72,
-        "end": 1746.8
+        "text": "Via Apeldoorn reizen. Met de NS-bus reizen.",
+        "translation": "經由阿珀爾多恩搭乘NS巴士旅行。",
+        "start": 1749.07,
+        "end": 1752.51
       },
       {
-        "text": "Via Apeldoorn reizen?",
-        "translation": "經阿珀爾多倫轉乘？",
-        "start": 1746.8,
-        "end": 1750.8
+        "text": "Naar de video.",
+        "translation": "看影片。",
+        "start": 1767.07,
+        "end": 1768.43
       },
       {
-        "text": "Reizen met de NS-bus?",
-        "translation": "搭NS巴士？",
-        "start": 1750.8,
-        "end": 1754.0
+        "text": "Ondertitels ingediend door de Amara.org gemeenschap.",
+        "translation": "字幕由Amara.org社群提供。",
+        "start": 1798.33,
+        "end": 1798.47
       },
       {
-        "text": "Sofia heeft een nieuwe baan.",
-        "translation": "索菲亞有一份新工作。",
-        "start": 1758.32,
-        "end": 1765.12
+        "text": "Gaat. Als hij dan tijd heeft, dan toets je een 1. Als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden.",
+        "translation": "走吧。如果他有空，按1。如果有人打來是採購部的，您可以直接轉接。",
+        "start": 1806.0,
+        "end": 1810.86
       },
       {
-        "text": "Lees eerst de vraag, kijk daarna naar de tekst.",
-        "translation": "請先閱讀問題，再查看文本。",
-        "start": 1765.12,
-        "end": 1770.04
+        "text": "Je toets dan de 4.",
+        "translation": "接著按4鍵。",
+        "start": 1811.48,
+        "end": 1816.48
       },
       {
-        "text": "Nou eh, je eerste dag.",
-        "translation": "嗯，這是你的第一天。",
-        "start": 1778.52,
-        "end": 1786.0
+        "text": "Als Evelien pauze heeft, dan moet je ook voor haar de telefoon opnemen en zo.",
+        "translation": "如果Evelien正在休息，你也要幫她接電話等等。",
+        "start": 1816.48,
+        "end": 1821.76
       },
       {
-        "text": "Een belangrijke regel is dat de telefoon altijd voorgaat.",
-        "translation": "一項重要規則是電話永遠優先。",
-        "start": 1786.0,
-        "end": 1788.36
+        "text": "Dan schrijf je de naam op van de beller en dan",
+        "translation": "然後記下來電者的名字，接著",
+        "start": 1821.76,
+        "end": 1825.52
       },
       {
-        "text": "Dus ook al ben je nog zo druk, maakt niet uit.",
-        "translation": "所以即使你再忙也沒關係。",
-        "start": 1788.36,
-        "end": 1792.08
+        "text": "zeg je dat Evelien terugbelt. Vergeet ook niet het telefoonnummer.",
+        "translation": "告訴對方Evelien會回電。別忘了電話號碼。",
+        "start": 1825.52,
+        "end": 1830.46
       },
       {
-        "text": "Je neemt hem altijd op als iemand de directeur wil spreken.",
-        "translation": "如果有人要找主管，你一定要接電話。",
-        "start": 1792.08,
-        "end": 1797.12
+        "text": "Iemand belt voor de directeur.",
+        "translation": "有人打給董事長。",
+        "start": 1832.0,
+        "end": 1837.2
       },
       {
-        "text": "Dan verbind je niet meteen door.",
-        "translation": "接起來後不要馬上轉接。",
-        "start": 1797.12,
-        "end": 1801.28
+        "text": "Wat moet Sophia als eerst doen? Een",
+        "translation": "Sophia首先要做什麼？按",
+        "start": 1837.74,
+        "end": 1843.16
       },
       {
-        "text": "Je kijkt dan eerst in zijn agenda.",
-        "translation": "你得先查主管的行事曆。",
-        "start": 1801.28,
-        "end": 1806.76
+        "text": "toetsen? Een 4 toetsen? In zijn agenda kijken?",
+        "translation": "按1鍵？按4鍵？查看他的行程表？",
+        "start": 1843.76,
+        "end": 1846.0
       },
       {
-        "text": "Ook vraag je waar het over gaat.",
-        "translation": "然後問清楚對方的事情內容。",
-        "start": 1806.76,
-        "end": 1809.2
+        "text": "Naar Evelien doorverbinden.",
+        "translation": "轉接給Evelien。",
+        "start": 1852.16,
+        "end": 1855.28
       },
       {
-        "text": "Als hij dan tijd heeft, dan toets je een één.",
-        "translation": "如果主管有時間，你再按「1」鈕。",
-        "start": 1809.2,
-        "end": 1813.8
+        "text": "Sophia heeft een nieuwe baan.",
+        "translation": "Sophia有了一份新工作。",
+        "start": 1856.98,
+        "end": 1861.58
       },
       {
-        "text": "Toetst dan de vier. Als Eveline pauze heeft, dan moet je ook voor haar de telefoon doen, eh, opnemen enzo. Dan schrijf je de naam op van de BG en dan zeg je dat Eveline terugbelt.",
-        "translation": "按下四號。如果 Eveline 休息時，你也得幫她接電話，嗯，接聽之類的。然後你寫下聯絡人的名字，接著告訴對方 Eveline 會回電。",
-        "start": 1813.8,
-        "end": 1819.24
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 1871.92,
+        "end": 1874.0
       },
       {
-        "text": "Telefoon doen, eh, opnemen enzo. Dan schrijf je de naam op van de BG en dan zeg je dat Eveline terugbelt. Vergeet ook niet het...",
-        "translation": "接電話，嗯，接聽之類的。然後你寫下聯絡人的名字，接著告訴對方 Eveline 會回電。別忘了電話號碼...",
-        "start": 1819.24,
-        "end": 1824.2
+        "text": "Nou, je eerste dag.",
+        "translation": "嗯，你的第一天。",
+        "start": 1874.94,
+        "end": 1879.78
       },
       {
-        "text": "Telefoonnummer. Iemand belt voor de directeur. Wat moet Sofia als eerste doen?",
-        "translation": "有人打電話給主任。Sofia 首先應該做什麼？",
-        "start": 1824.2,
-        "end": 1826.24
+        "text": "Een belangrijke regel is dat de telefoon altijd voorgaat. Dus",
+        "translation": "一條重要規則是電話永遠優先。所以",
+        "start": 1879.78,
+        "end": 1885.38
       },
       {
-        "text": "Een É toetsen, een vier toetsen, in zijn agenda kijken naar Eveline.",
-        "translation": "按 É 鍵，再按四鍵，查看他行事曆裡有沒有 Eveline 的時間。",
-        "start": 1826.24,
-        "end": 1830.6
+        "text": "ook al ben je nog zo druk, maakt niet uit. Je neemt hem altijd op. Als iemand de",
+        "translation": "即使你很忙也沒關係。你一定要接電話。如果有人要找董事長，",
+        "start": 1885.38,
+        "end": 1890.54
       },
       {
-        "text": "Doorverbinden. Sofia heeft een nieuwe baan.",
-        "translation": "轉接電話。Sofia 有新工作了。",
-        "start": 1830.6,
-        "end": 1836.36
+        "text": "directeur wil spreken, dan verbind je niet meteen door. Je kijkt dan eerst in",
+        "translation": "你不會直接幫忙轉接。你會先查看他的行程表，也會詢問事情內容。如果他有空，按",
+        "start": 1890.54,
+        "end": 1896.1
       },
       {
-        "text": "Lees eerst de vraag, kijk daarna naar de video.",
-        "translation": "先讀問題，然後再看影片。",
-        "start": 1836.36,
-        "end": 1841.8
+        "text": "zijn agenda. Ook vraag je waar het over gaat. Als hij dan tijd heeft, dan toetsen",
+        "translation": "1。如果有人打來是採購部門的，可以直接轉接。",
+        "start": 1896.1,
+        "end": 1901.16
       },
       {
-        "text": "Nou eh, je eerste dag, een belangrijke regel is dat de telefoon altijd voorgaat.",
-        "translation": "嗯，你的第一天，一條重要規則是電話永遠優先處理。",
-        "start": 1841.8,
-        "end": 1846.76
+        "text": "je een 1. Als er iemand belt voor de afdeling inkoop, die kun je dan meteen",
+        "translation": "按4鍵。",
+        "start": 1901.16,
+        "end": 1904.12
       },
       {
-        "text": "Dus ook al ben je nog zo druk, maakt niet uit. Je neemt hem altijd op als iemand de directeur wil spreken.",
-        "translation": "所以即使你再忙都沒關係，只要有人想找主任，你都要接電話。",
-        "start": 1851.56,
-        "end": 1859.32
+        "text": "doorverbinden. Je toets dan de 4.",
+        "translation": "如果Evelien在休息，你也要幫她接電話等事情。",
+        "start": 1905.02,
+        "end": 1909.06
       },
       {
-        "text": "Dan verbind je niet meteen door, je kijkt dan eerst in zijn agenda.",
-        "translation": "不要馬上幫他轉接，要先查看他的行事曆。",
-        "start": 1859.32,
-        "end": 1863.08
+        "text": "Als Evelien pauze heeft, dan moet je ook voor haar de telefoon opnemen en zo.",
+        "translation": "然後記下來電者名字，",
+        "start": 1909.06,
+        "end": 1914.62
       },
       {
-        "text": "Ook vraag je waar het over gaat. Als hij dan tijd heeft, dan toets je een één.",
-        "translation": "也要問電話內容。如果他有時間，就按 1。",
-        "start": 1870.72,
-        "end": 1877.56
+        "text": "Dan schrijf je de naam op van de beller en",
+        "translation": "告訴對方Evelien會回電。別忘了電話號碼。有人打給採購部。",
+        "start": 1914.62,
+        "end": 1921.92
       },
       {
-        "text": "Als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden.",
-        "translation": "有人打給採購部的電話，你可以直接幫忙轉接。",
-        "start": 1877.56,
-        "end": 1880.6
+        "text": "zeg je dat Evelien terugbelt. Vergeet ook niet het telefoonnummer. Iemand belt",
+        "translation": "Sophia要做什麼？按1鍵？按4鍵？查看",
+        "start": 1921.92,
+        "end": 1924.38
       },
       {
-        "text": "Je toetst dan de vier. Als Eveline pauze heeft, dan moet je ook voor haar de telefoon doen, eh, opnemen enzo.",
-        "translation": "你按下四鍵。如果 Eveline 休息中，你也要幫她接電話，嗯，接聽之類的。",
-        "start": 1880.6,
-        "end": 1886.6
+        "text": "voor de afdeling inkoop.",
+        "translation": "行程表。詢問事情內容。",
+        "start": 1926.12,
+        "end": 1933.32
       },
       {
-        "text": "Dan schrijf je de naam op van de BG en dan zeg je dat Eveline terugbelt. Vergeet ook niet het telefoonnummer.",
-        "translation": "然後你寫下聯絡人的名字，接著告訴對方 Eveline 會回電。別忘了電話號碼。",
-        "start": 1886.6,
-        "end": 1889.48
-      },
-      {
-        "text": "Iemand belt voor de afdeling inkoop. Wat moet Sofia doen?",
-        "translation": "有人打給採購部。Sofia 應該怎麼做？",
-        "start": 1889.48,
-        "end": 1892.76
-      },
-      {
-        "text": "Een É toetsen, een vier toetsen, in de agenda kijken, vragen waar het over gaat.",
-        "translation": "按 É 鍵，再按四鍵，再查看行事曆，問電話內容。",
-        "start": 1892.76,
-        "end": 1897.96
-      },
-      {
-        "text": "Sofia heeft een nieuwe baan. Lees eerst de vraag, kijk daarna naar de video.",
-        "translation": "Sofia 有新工作。先讀問題，再看影片。",
-        "start": 1897.96,
-        "end": 1903.2
-      },
-      {
-        "text": "Nou eh, je eerste dag, een belangrijke regel is dat de telefoon altijd voorgaat.",
-        "translation": "嗯，你的第一天，一條重要規則是電話永遠優先處理。",
-        "start": 1903.2,
-        "end": 1906.96
-      },
-      {
-        "text": "Dus ook al ben je nog zo druk, maakt niet uit. Je neemt hem altijd op als iemand de directeur wil spreken.",
-        "translation": "所以即使再忙都沒關係，只要有人想找主任，你都要接電話。",
-        "start": 1906.96,
-        "end": 1912.48
-      },
-      {
-        "text": "Dan verbind je niet meteen door, je kijkt dan eerst in zijn agenda.",
-        "translation": "不要馬上轉接，要先查看行事曆。",
-        "start": 1912.48,
-        "end": 1917.56
-      },
-      {
-        "text": "Ook vraag je waar het over gaat. Als hij dan tijd heeft, dan toets je een één.",
-        "translation": "也要問電話內容。如果有時間，就按 1。",
-        "start": 1917.56,
-        "end": 1922.48
-      },
-      {
-        "text": "Als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden.",
-        "translation": "有人打給採購部的電話，你可以直接幫忙轉接。",
-        "start": 1922.48,
-        "end": 1924.88
-      },
-      {
-        "text": "Je toetst dan de vier. Als Eveline pauze heeft, dan moet je ook voor haar de telefoon doen, eh, opnemen enzo.",
-        "translation": "你按下四鍵。如果 Eveline 休息時，你也要幫她接電話，嗯，接聽之類的。",
-        "start": 1924.88,
-        "end": 1930.4
-      },
-      {
-        "text": "Dan schrijf je de naam op van de BG en dan zeg je dat Eveline terugbelt. Vergeet ook niet het telefoonnummer.",
-        "translation": "然後你寫下聯絡人的名字，接著告訴對方 Eveline 會回電。別忘了電話號碼。",
-        "start": 1930.4,
-        "end": 1935.24
-      },
-      {
-        "text": "Eveline heeft pauze en Sofia neemt haar telefoon op. Wat moet ze doen?",
-        "translation": "Eveline 正在休息，Sofia 接她的電話。她應該怎麼做？",
-        "start": 1935.24,
-        "end": 1939.36
-      },
-      {
-        "text": "De naam en het nummer opschrijven, doorgeven wanneer Eveline terug is.",
-        "translation": "寫下名字和電話號碼，並在 Eveline 回來時告知。",
-        "start": 1942.36,
-        "end": 1951.36
-      },
-      {
-        "text": "Doorverbinden met de directeur, vragen waar het over gaat.",
-        "translation": "轉接給主任，並詢問電話內容。",
-        "start": 1951.36,
-        "end": 1953.88
-      },
-      {
-        "text": "Nika volgt een cursus Nederlands.",
-        "translation": "Nika 正在上荷蘭語課程。",
-        "start": 1961.4,
-        "end": 1968.44
-      },
-      {
-        "text": "Een medecursist heeft een bericht ingesproken op haar voicemail.",
-        "translation": "同學錄了一則語音訊息到她的語音信箱。",
-        "start": 1968.44,
-        "end": 1971.44
-      },
-      {
-        "text": "Nika luistert naar het bericht.",
-        "translation": "Nika 正在聽這則訊息。",
-        "start": 1971.44,
-        "end": 1977.28
-      },
-      {
-        "text": "Lees eerst de vraag, luister daarna naar de tekst.",
-        "translation": "先讀問題，再聽文本。",
-        "start": 1977.28,
-        "end": 1980.32
-      },
-      {
-        "text": "Ha Nika, met Marcus. Ik eh, ik bel even over onze groepsopdracht.",
-        "translation": "嗨 Nika，我是 Marcus。我嗯，我打電話是關於我們的團體作業。",
-        "start": 1980.32,
-        "end": 1983.6
-      },
-      {
-        "text": "Die moeten we dus volgende week, eh, maandag...",
-        "translation": "我們下週一必須完成...",
-        "start": 1983.6,
-        "end": 1988.8
-      },
-      {
-        "text": "heeft dan toets je een één als er iemand belt voor de afdeling inkoop die kun je",
+        "text": "Wat moet Sophia doen? Een 1 toetsen? Een 4 toetsen? In",
         "translation": "",
-        "start": 1988.8,
-        "end": 1994.08
+        "start": 1933.32,
+        "end": 1937.82
       },
       {
-        "text": "dan meteen doorverbinden je toetst dan",
-        "translation": "",
-        "start": 1994.08,
-        "end": 1997.84
+        "text": "Sophia heeft een nieuwe baan.",
+        "translation": "Sophia 有一份新工作。",
+        "start": 1942.82,
+        "end": 1946.28
       },
       {
-        "text": "de vier als Eveline pauze heeft dan moet je ook voor haar de",
-        "translation": "",
-        "start": 1997.84,
-        "end": 2003.32
-      },
-      {
-        "text": "telefoon doen eh opnemen enzo Dan schrijf je de naam op van de bg en dan",
-        "translation": "",
-        "start": 2003.32,
-        "end": 2008.4
-      },
-      {
-        "text": "zeg je dat Eveline terugbelt vergeet ook niet het",
-        "translation": "",
-        "start": 2008.4,
-        "end": 2014.24
-      },
-      {
-        "text": "telefoonnummer Eveline heeft pauze en",
-        "translation": "",
-        "start": 2014.24,
-        "end": 2017.36
-      },
-      {
-        "text": "Sofia neemt haar telefoon",
-        "translation": "",
-        "start": 2017.36,
-        "end": 2020.44
-      },
-      {
-        "text": "op wat moet ze",
-        "translation": "",
-        "start": 2020.44,
-        "end": 2023.88
-      },
-      {
-        "text": "doen de naam en het nummer",
-        "translation": "",
-        "start": 2023.88,
-        "end": 2028.08
-      },
-      {
-        "text": "opschrijven doorgeven wanneer Eveline",
-        "translation": "",
-        "start": 2028.08,
-        "end": 2029.88
-      },
-      {
-        "text": "terug is",
-        "translation": "",
-        "start": 2029.88,
-        "end": 2034.4
-      },
-      {
-        "text": "doorverbinden met de directeur vragen waar het over gaat",
-        "translation": "",
-        "start": 2034.4,
-        "end": 2038.44
-      },
-      {
-        "text": "Nika volgt een cursus Nederlands een",
-        "translation": "",
-        "start": 2042.2,
-        "end": 2047.44
-      },
-      {
-        "text": "medecursist heeft een bericht",
-        "translation": "",
-        "start": 2047.44,
-        "end": 2051.68
-      },
-      {
-        "text": "ingesproken op haar vmail niika luistert",
-        "translation": "",
-        "start": 2051.68,
-        "end": 2055.36
-      },
-      {
-        "text": "naar het bericht Lees eerst de vraag luister daarna naar de",
-        "translation": "",
-        "start": 2055.36,
-        "end": 2058.84
-      },
-      {
-        "text": "tekst ha niik met Marcus ik eh ik bel",
-        "translation": "",
-        "start": 2066.72,
-        "end": 2072.88
-      },
-      {
-        "text": "even over onze groepsopdracht die moeten we dus volgende week eh maandag",
-        "translation": "",
-        "start": 2072.88,
-        "end": 2077.8
-      },
-      {
-        "text": "Inleveren. Ik heb vraag één dinsdag al gemaakt.",
-        "translation": "交件。我星期二已經完成了第一題。",
-        "start": 2077.8,
-        "end": 2080.2
-      },
-      {
-        "text": "En jij zou dan de derde vraag nog thuis doen.",
-        "translation": "你應該還會在家做第三題。",
-        "start": 2080.2,
-        "end": 2084.04
-      },
-      {
-        "text": "Oh, en eh, de vierde toch? Dan vraag twee, die zouden we samen doen.",
-        "translation": "哦，第四題對吧？那第二題我們一起做。",
-        "start": 2084.04,
-        "end": 2089.2
-      },
-      {
-        "text": "Zullen we vrijdag of zaterdag afspreken?",
-        "translation": "我們要約星期五還是星期六見面？",
-        "start": 2089.2,
-        "end": 2093.68
-      },
-      {
-        "text": "Ja, het liefst zaterdag. De school is dan dicht, maar eh, het kan ook wel bij mij thuis.",
-        "translation": "最好是星期六。學校那天關門，但也可以來我家。",
-        "start": 2093.68,
-        "end": 2095.4
-      },
-      {
-        "text": "Dan kunnen we daarna nog even naar de stad.",
-        "translation": "那我們之後還可以去市區一下。",
-        "start": 2095.4,
-        "end": 2099.76
-      },
-      {
-        "text": "Oké, ik eh... ja, ik hoor het wel. Bel je even terug?",
-        "translation": "好，我嗯…我會再跟你說，再打給你。",
-        "start": 2099.76,
-        "end": 2102.68
-      },
-      {
-        "text": "Welke vraag moeten Nika en Marcus samen maken? Vraag 1, vraag 2, vraag 3, vraag 4.",
-        "translation": "尼卡和馬庫斯應該一起做哪一題？題目一、題目二、題目三、題目四。",
-        "start": 2102.68,
-        "end": 2108.44
-      },
-      {
-        "text": "Nika volgt een cursus Nederlands.",
-        "translation": "尼卡正在上荷蘭語課程。",
-        "start": 2108.44,
-        "end": 2111.96
-      },
-      {
-        "text": "Een medecursist heeft een bericht ingesproken op haar voicemail.",
-        "translation": "一位課程同學在她的語音信箱留言。",
-        "start": 2115.24,
-        "end": 2122.0
-      },
-      {
-        "text": "Nika luistert naar het bericht.",
-        "translation": "尼卡正在聽那則訊息。",
-        "start": 2122.0,
-        "end": 2126.12
-      },
-      {
-        "text": "Lees eerst de vraag, luister daarna naar de tekst.",
-        "translation": "先讀問題，再聽內容。",
-        "start": 2126.12,
-        "end": 2129.8
-      },
-      {
-        "text": "Haik met Marcus. Ik eh... ik bel even over onze groepsopdracht. Die moeten we dus volgende week, eh, maandag inleveren.",
-        "translation": "嗨，這裡是馬庫斯。我嗯…打電話是想說我們的團體作業，下週一要交。",
-        "start": 2129.8,
-        "end": 2133.24
-      },
-      {
-        "text": "Ik heb vraag één dinsdag al gemaakt en jij zou dan de derde vraag nog thuis doen.",
-        "translation": "我星期二已經完成了第一題，你還要在家做第三題。",
-        "start": 2139.92,
-        "end": 2145.48
-      },
-      {
-        "text": "Oh, en eh, de vierde toch? Dan vraag drie, die zouden we samen doen.",
-        "translation": "哦，第四題對吧？那我們一起做第三題。",
-        "start": 2145.48,
-        "end": 2150.72
-      },
-      {
-        "text": "Zullen we vrijdag of zaterdag afspreken?",
-        "translation": "我們要約星期五還是星期六見面？",
-        "start": 2150.72,
-        "end": 2155.92
-      },
-      {
-        "text": "Ja, het liefst zaterdag. De school is dan dicht maar eh, het kan ook wel bij mij thuis.",
-        "translation": "最好是星期六。學校那天關門，但也可以來我家。",
-        "start": 2155.92,
-        "end": 2159.8
-      },
-      {
-        "text": "Dan kunnen we daarna nog even naar de stad.",
-        "translation": "那我們之後還可以去市區一下。",
-        "start": 2159.8,
-        "end": 2164.4
-      },
-      {
-        "text": "Oké, ik eh... ja, ik hoor het wel, bel je even terug.",
-        "translation": "好，我嗯…我會再跟你說，再打給你。",
-        "start": 2164.4,
-        "end": 2169.0
-      },
-      {
-        "text": "Op welke dag wil Marcus afspreken? Op maandag, op dinsdag, op vrijdag, of op zaterdag?",
-        "translation": "馬庫斯想約哪一天？星期一、星期二、星期五還是星期六？",
-        "start": 2169.0,
-        "end": 2171.24
-      },
-      {
-        "text": "Zaa kijkt naar het journaal op televisie.",
-        "translation": "Zaa正在看電視新聞。",
-        "start": 2171.24,
-        "end": 2175.2
-      },
-      {
-        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
         "translation": "先讀問題，再看影片。",
-        "start": 2175.2,
-        "end": 2178.88
+        "start": 1947.82,
+        "end": 1952.44
+      },
+      {
+        "text": "Nou, je eerste dag.",
+        "translation": "嗯，妳的第一天。",
+        "start": 1962.84,
+        "end": 1964.84
+      },
+      {
+        "text": "Een belangrijke regel is dat de telefoon altijd voorgaat. Dus",
+        "translation": "一個重要的規則是電話永遠優先。所以",
+        "start": 1965.74,
+        "end": 1970.62
+      },
+      {
+        "text": "ook al ben je nog zo druk, maakt niet uit. Je neemt hem altijd op. Als iemand de",
+        "translation": "即使你再忙也沒關係，你總是要接電話。如果有人想和",
+        "start": 1970.62,
+        "end": 1976.2
+      },
+      {
+        "text": "directeur wil spreken, dan verbind je niet meteen door. Je kijkt dan eerst in zijn",
+        "translation": "主管通話，你不能馬上轉接，你要先看他的",
+        "start": 1976.2,
+        "end": 1981.56
+      },
+      {
+        "text": "agenda. Ook vraag je waar het over gaat. Als hij dan tijd heeft, dan toets je een 1.",
+        "translation": "行事曆。你也會問是關於什麼。如果他有時間，就按1。",
+        "start": 1981.56,
+        "end": 1987.52
+      },
+      {
+        "text": "Als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden. Je",
+        "translation": "如果有人打電話到採購部，你可以馬上轉接。你",
+        "start": 1988.42,
+        "end": 1993.38
+      },
+      {
+        "text": "toetst dan de 4.",
+        "translation": "按4。",
+        "start": 1993.38,
+        "end": 1994.96
+      },
+      {
+        "text": "Als Evelien pauze heeft, dan moet je ook voor haar de telefoon opnemen",
+        "translation": "如果 Evelien 在休息，你也要幫她接電話。",
+        "start": 1995.72,
+        "end": 2001.84
+      },
+      {
+        "text": "en zo. Dan schrijf je de naam op van de beller en dan zeg je dat Evelien terugbelt.",
+        "translation": "然後寫下來電者的姓名，並告訴對方 Evelien 會回電。",
+        "start": 2001.84,
+        "end": 2007.42
+      },
+      {
+        "text": "Vergeet ook niet het telefoonnummer.",
+        "translation": "也不要忘了電話號碼。",
+        "start": 2007.42,
+        "end": 2009.62
+      },
+      {
+        "text": "Evelien heeft pauze en Sophia neemt haar",
+        "translation": "Evelien 在休息，Sophia 代接她的電話。",
+        "start": 2011.84,
+        "end": 2016.12
+      },
+      {
+        "text": "telefoon op. Wat moet je doen?",
+        "translation": "你該做什麼？",
+        "start": 2016.12,
+        "end": 2019.78
+      },
+      {
+        "text": "De naam en het nummer opschrijven. Doorgeven wanneer",
+        "translation": "記下名字和電話號碼。告知何時 Evelien 回來。",
+        "start": 2021.62,
+        "end": 2026.9
+      },
+      {
+        "text": "Evelien terug is. Doorverbinden met de directeur.",
+        "translation": "Evelien 回來時轉接給主管。",
+        "start": 2027.46,
+        "end": 2032.64
+      },
+      {
+        "text": "Vragen waar het over gaat.",
+        "translation": "詢問是什麼事情。",
+        "start": 2033.56,
+        "end": 2035.94
+      },
+      {
+        "text": "Nika volgde een cursus Nederlands.",
+        "translation": "Nika 參加了一門荷蘭語課程。",
+        "start": 2041.96,
+        "end": 2045.06
+      },
+      {
+        "text": "Een medecursist heeft een bericht ingesproken op haar voicemail.",
+        "translation": "一位同學在她的語音信箱留下了訊息。",
+        "start": 2045.84,
+        "end": 2049.42
+      },
+      {
+        "text": "Nika luistert naar het bericht. Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "Nika 正在聽那則訊息。先讀問題，再聽文字。",
+        "start": 2050.64,
+        "end": 2057.32
+      },
+      {
+        "text": "Ha Nika met Marcus.",
+        "translation": "嗨，我是 Nika，Marcus 打來的。",
+        "start": 2067.5,
+        "end": 2069.14
+      },
+      {
+        "text": "Ik bel even over onze groepsopdracht. Die moeten we dus volgende",
+        "translation": "我想問一下我們的團體報告，那個報告",
+        "start": 2069.66,
+        "end": 2073.54
+      },
+      {
+        "text": "week maandag inleveren.",
+        "translation": "要在下星期一交。",
+        "start": 2074.14,
+        "end": 2075.96
+      },
+      {
+        "text": "Ik heb vraag 1 dinsdag al gemaakt, en jij zou dan de derde vraag nog thuis",
+        "translation": "我星期二已經做完問題一，你會在家做第三題。",
+        "start": 2076.48,
+        "end": 2080.86
+      },
+      {
+        "text": "doen. Oh, en de vierde toch?",
+        "translation": "喔，那第四題也是吧？",
+        "start": 2080.86,
+        "end": 2083.68
+      },
+      {
+        "text": "Dan vraag 2, die zouden we samen doen. Zullen we vrijdag of",
+        "translation": "那就是問題二，我們要一起做。星期五或",
+        "start": 2084.34,
+        "end": 2088.04
+      },
+      {
+        "text": "zaterdag afspreken? Ja, het liefst zaterdag. De school is dan dicht, maar het kan ook wel bij",
+        "translation": "星期六見面怎麼樣？ 最好是星期六。那時學校關門，但也可以在",
+        "start": 2088.04,
+        "end": 2093.56
+      },
+      {
+        "text": "mij thuis. Dank. Kunnen we daarna nog even naar de stad? Oké. Ik hoor het wel. Bel je eventjes terug?",
+        "translation": "我家。謝謝，我們之後還可以去市區逛逛嗎？ 好的，到時候我會聯絡你。你先打電話回來。",
+        "start": 2093.56,
+        "end": 2100.4
+      },
+      {
+        "text": "Welke vraag moeten Nika en Marcus samen maken?",
+        "translation": "Nika 和 Marcus 需要一起做哪幾題？",
+        "start": 2100.98,
+        "end": 2104.32
+      },
+      {
+        "text": "Vraag 1, vraag 2, vraag 3, vraag 4.",
+        "translation": "問題一、問題二、問題三、問題四。",
+        "start": 2105.22,
+        "end": 2110.56
+      },
+      {
+        "text": "Nika volgde een cursus Nederlands.",
+        "translation": "Nika 參加了一門荷蘭語課程。",
+        "start": 2116.58,
+        "end": 2119.42
+      },
+      {
+        "text": "Een medecursist heeft een bericht ingesproken op haar",
+        "translation": "一位同學在她的語音信箱留下了訊息。Nika 正在聽那則訊息。",
+        "start": 2120.18,
+        "end": 2123.24
+      },
+      {
+        "text": "voicemail. Nika luistert naar het bericht.",
+        "translation": "先讀問題，再聽文字。",
+        "start": 2123.24,
+        "end": 2127.12
+      },
+      {
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "嗨，我是 Nika，Marcus 打來的。我想問一下我們的團體報告，那個報告",
+        "start": 2128.28,
+        "end": 2131.74
+      },
+      {
+        "text": "Ha Nika met Marcus. Ik bel even over onze groepsopdracht. Die moeten we dus volgende",
+        "translation": "要在下星期一交。",
+        "start": 2141.7,
+        "end": 2147.92
+      },
+      {
+        "text": "week maandag inleveren.",
+        "translation": "我星期二已經做完問題一，你會在家做第三題。",
+        "start": 2147.92,
+        "end": 2150.38
+      },
+      {
+        "text": "Ik heb vraag 1 dinsdag al gemaakt, en jij zou dan de derde vraag nog",
+        "translation": "喔，那第四題也是吧？那就是問題二，我們要一起做。",
+        "start": 2150.96,
+        "end": 2154.98
+      },
+      {
+        "text": "thuis doen. Oh, en de vierde toch? Dan vraag 2, die zouden we samen doen.",
+        "translation": "星期五或",
+        "start": 2154.98,
+        "end": 2160.8
+      },
+      {
+        "text": "Zullen we vrijdag of",
+        "translation": "星期六見面怎麼樣？ 最好是星期六。那時學校關門，但也可以在",
+        "start": 2161.42,
+        "end": 2162.48
+      },
+      {
+        "text": "zaterdag afspreken? Ja, het liefst zaterdag. De school is dan dicht, maar het kan ook wel bij mij",
+        "translation": "我家。謝謝，我們之後還可以去市區逛逛嗎？ 好的，到時候我會聯絡你。你先打電話回來。",
+        "start": 2162.48,
+        "end": 2168.14
+      },
+      {
+        "text": "thuis. Dank. Kunnen we daarna nog even naar de stad? Oké. Ik hoor het wel. Bel je eventjes terug?",
+        "translation": "Marcus 想約哪一天？",
+        "start": 2168.14,
+        "end": 2174.74
+      },
+      {
+        "text": "Welke dag wil Marcus afspreken?",
+        "translation": "星期一、星期二、星期五還是星期六？",
+        "start": 2175.26,
+        "end": 2178.06
+      },
+      {
+        "text": "Op maandag, op dinsdag, op vrijdag, op zaterdag.",
+        "translation": "Zaira 在看電視新聞。",
+        "start": 2178.8,
+        "end": 2184.26
+      },
+      {
+        "text": "Zaira kijkt naar het journaal op televisie.",
+        "translation": "先讀問題，再看影片。",
+        "start": 2190.06,
+        "end": 2193.8
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "昨天是史基浦機場一年中最忙碌的一天。",
+        "start": 2195.38,
+        "end": 2198.86
       },
       {
         "text": "Gisteren was het de drukste dag van het jaar op Schiphol Airport.",
-        "translation": "昨天是史基浦機場一年中最忙碌的一天。",
-        "start": 2178.88,
-        "end": 2183.4
+        "translation": "有1300班航班。",
+        "start": 2210.48,
+        "end": 2214.34
+      },
+      {
+        "text": "Er waren 1300 vluchten. Er",
+        "translation": "史基浦有超過17萬名乘客，去年夏天最忙的那天則是18萬人。",
+        "start": 2215.46,
+        "end": 2217.9
+      },
+      {
+        "text": "waren ruim 170.000 passagiers op Schiphol tegenover 180.000 op de drukste dag vorige zomer.",
+        "translation": "史基浦增加了額外人力。因此辦理報到的隊伍",
+        "start": 2217.9,
+        "end": 2225.3
+      },
+      {
+        "text": "Schiphol heeft extra personeel ingezet. Daarom waren de rijen voor het inchecken",
+        "translation": "比平常更長。護照檢查的隊伍也沒有比較長。",
+        "start": 2226.74,
+        "end": 2231.86
+      },
+      {
+        "text": "langer dan normaal. Ook de rij bij de paspoortcontrole was niet langer.",
+        "translation": "",
+        "start": 2232.0,
+        "end": 2236.66
+      },
+      {
+        "text": "Alleen op de parkeerplaats was het lastig om een plek te vinden.",
+        "translation": "只有在停車場很難找到位子。",
+        "start": 2237.84,
+        "end": 2240.72
+      },
+      {
+        "text": "Alle reizigers kregen gisteren wel gratis ijs van de ijsfabrikant.",
+        "translation": "所有旅客昨天都免費獲得了冰淇淋，來自冰淇淋廠商。",
+        "start": 2242.68,
+        "end": 2246.68
+      },
+      {
+        "text": "Ola bestond 20 jaar en trakteerde een hele fijne traktatie op zo'n warme dag. Wat was dat?",
+        "translation": "Ola成立20年，並在這麼炎熱的一天請大家享用美味的點心。那是什麼？",
+        "start": 2246.68,
+        "end": 2255.48
+      },
+      {
+        "text": "Erbij, bijzonder aan deze dag op Schiphol.",
+        "translation": "這一天在史基浦機場特別的事件。",
+        "start": 2255.48,
+        "end": 2258.28
+      },
+      {
+        "text": "Het was de drukste dag van deze zomer. Het was de drukste",
+        "translation": "這是這個夏天最忙碌的一天。這是最忙碌的",
+        "start": 2259.44,
+        "end": 2264.48
+      },
+      {
+        "text": "dag van het hele jaar.",
+        "translation": "全年最忙碌的一天。",
+        "start": 2264.48,
+        "end": 2266.62
+      },
+      {
+        "text": "Het was de drukste dag van de afgelopen twee jaar. Het was de drukste dag ooit.",
+        "translation": "這是過去兩年來最忙碌的一天。這是有史以來最忙碌的一天。",
+        "start": 2267.56,
+        "end": 2274.28
+      },
+      {
+        "text": "Zairak kijkt naar het journaal op televisie.",
+        "translation": "Zairak在電視上看新聞報導。",
+        "start": 2279.78,
+        "end": 2284.08
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，再觀看影片。",
+        "start": 2285.62,
+        "end": 2289.26
+      },
+      {
+        "text": "Gisteren was het de drukste dag van het jaar op Schiphol Airport.",
+        "translation": "昨天是史基浦機場今年最忙碌的一天。",
+        "start": 2300.68,
+        "end": 2304.56
       },
       {
         "text": "Er waren 1300 vluchten.",
-        "translation": "那天有1300班飛機起降。",
-        "start": 2183.4,
-        "end": 2186.4
+        "translation": "有1300班次航班。",
+        "start": 2305.7,
+        "end": 2308.14
       },
       {
-        "text": "Er waren ruim 17.000 passagiers op Schiphol tegenover 180.000 op de drukste dag vorige zomer.",
-        "translation": "機場有超過17,000名旅客，相較去年夏天最忙碌的一天有180,000人。",
-        "start": 2189.96,
-        "end": 2197.36
+        "text": "Er waren ruim 170.000 passagiers op Schiphol tegenover 180.000 op de drukste dag vorige",
+        "translation": "史基浦機場約有17萬名旅客，比去年夏天最忙碌的一天的18萬人少。",
+        "start": 2308.14,
+        "end": 2315.18
       },
       {
-        "text": "Schiphol heeft extra personeel ingezet.",
-        "translation": "史基浦增派了額外人手。",
-        "start": 2197.36,
-        "end": 2200.44
+        "text": "zomer. Schiphol heeft extra personeel ingezet.",
+        "translation": "史基浦機場增派了額外人手。",
+        "start": 2315.18,
+        "end": 2318.96
       },
       {
         "text": "Daarom waren de rijen voor het inchecken niet langer dan normaal.",
-        "translation": "因此報到隊伍並沒有比平常更長。",
-        "start": 2209.36,
-        "end": 2215.28
+        "translation": "因此，報到櫃台的排隊隊伍並沒有比平常長。",
+        "start": 2320.3,
+        "end": 2322.96
       },
       {
-        "text": "Ook de rij bij de paspoortcontrole was niet langer.",
-        "translation": "護照檢查隊伍也沒有變長。",
-        "start": 2215.28,
-        "end": 2219.36
+        "text": "Ook de rij bij de paspoortcontrole was niet langer. Alleen op de parkeerplaats was het",
+        "translation": "護照檢查隊伍也沒有比較長。只有在停車場，",
+        "start": 2324.12,
+        "end": 2329.58
       },
       {
-        "text": "Alleen op de parkeerplaats was het lastig om een plek te vinden.",
-        "translation": "只有停車場比較難找停車位。",
-        "start": 2219.36,
-        "end": 2222.56
+        "text": "lastig om een plek te vinden.",
+        "translation": "很難找到停車位。",
+        "start": 2329.58,
+        "end": 2330.92
       },
       {
-        "text": "Alle reizigers kregen gisteren wel gratis ijs.",
-        "translation": "所有旅客昨天都免費領到冰淇淋。",
-        "start": 2222.56,
-        "end": 2226.32
+        "text": "Alle reizigers kregen gisteren wel gratis ijs van de ijsfabrikant.",
+        "translation": "所有旅客昨天都免費獲得了冰淇淋，來自冰淇淋廠商。",
+        "start": 2332.92,
+        "end": 2336.92
       },
       {
-        "text": "Ijsfabrikant Ola bestond 20 jaar en trakteerde een hele fijne traktatie op zo'n warme dag.",
-        "translation": "冰淇淋製造商Ola慶祝成立20週年，並在這麼熱的天氣請大家吃美味冰品。",
-        "start": 2226.32,
-        "end": 2229.6
+        "text": "Ola bestond twintig jaar en trakteerde",
+        "translation": "Ola成立二十年，並請大家吃",
+        "start": 2336.92,
+        "end": 2339.42
       },
       {
-        "text": "Wat was er bijzonder aan deze dag op Schiphol?",
-        "translation": "這天在史基浦有什麼特別？",
-        "start": 2229.6,
-        "end": 2234.56
+        "text": "een hele fijne traktatie op zo'n warme dag.",
+        "translation": "這麼炎熱的一天美味點心。",
+        "start": 2340.44,
+        "end": 2343.3
       },
       {
-        "text": "Het was de drukste dag van deze zomer.",
-        "translation": "那是這個夏天最忙碌的一天。",
-        "start": 2234.56,
-        "end": 2239.28
+        "text": "Waar hadden reizigers het meest last van de drukte?",
+        "translation": "旅客最覺得擁擠不便的是哪裡？",
+        "start": 2345.2,
+        "end": 2349.32
       },
       {
-        "text": "Het was de drukste dag van het hele jaar.",
-        "translation": "那是全年最忙碌的一天。",
-        "start": 2239.28,
-        "end": 2243.96
+        "text": "In de rij voor het",
+        "translation": "在報到櫃台的排隊隊伍中，",
+        "start": 2350.1,
+        "end": 2351.64
       },
       {
-        "text": "Het was de drukste dag van de afgelopen twee jaar.",
-        "translation": "那是過去兩年來最忙碌的一天。",
-        "start": 2243.96,
-        "end": 2247.52
+        "text": "inchecken bij de paspoortcontrole op de parkeerplaats.",
+        "translation": "還有在停車場的護照檢查。",
+        "start": 2351.64,
+        "end": 2356.6
       },
       {
-        "text": "Het was de drukste dag ooit.",
-        "translation": "那是有史以來最忙碌的一天。",
-        "start": 2247.52,
-        "end": 2251.08
-      },
-      {
-        "text": "Zaa kijkt naar het journaal op televisie.",
-        "translation": "Zaa正在看電視新聞。",
-        "start": 2251.08,
-        "end": 2253.6
+        "text": "Zairak kijkt naar het journaal op televisie.",
+        "translation": "Zairak在電視上看新聞報導。",
+        "start": 2363.44,
+        "end": 2367.42
       },
       {
         "text": "Lees eerst de vraag, kijk daarna naar de video.",
-        "translation": "先讀問題，再看影片。",
-        "start": 2253.6,
-        "end": 2257.96
+        "translation": "先讀問題，再觀看影片。",
+        "start": 2368.82,
+        "end": 2372.68
       },
       {
         "text": "Gisteren was het de drukste dag van het jaar op Schiphol Airport.",
-        "translation": "昨天是史基浦機場一年中最忙碌的一天。",
-        "start": 2257.96,
-        "end": 2261.72
+        "translation": "昨天是史基浦機場今年最忙碌的一天。",
+        "start": 2383.86,
+        "end": 2387.78
       },
       {
-        "text": "Er waren 1300 vluchten.",
-        "translation": "那天有1300班飛機起降。",
-        "start": 2261.72,
-        "end": 2265.56
+        "text": "Er waren dertienhonderd vluchten.",
+        "translation": "有1300班航班。",
+        "start": 2388.9,
+        "end": 2390.46
       },
       {
-        "text": "Er waren ruim 17.000 passagiers op Schiphol tegenover 180.000 op de drukste dag vorige zomer.",
-        "translation": "機場有超過17,000名旅客，相較去年夏天最忙碌的一天有180,000人。",
-        "start": 2265.56,
-        "end": 2269.4
+        "text": "Er waren ruim 170.000 passagiers op Schiphol tegenover 180.000 op de drukste",
+        "translation": "史基浦機場約有17萬名旅客，比去年夏天最忙碌的一天多18萬人。",
+        "start": 2391.34,
+        "end": 2397.66
       },
       {
-        "text": "hele jaar het was de drukste dag van de",
-        "translation": "",
-        "start": 2269.4,
-        "end": 2273.24
+        "text": "dag vorige zomer. Schiphol heeft extra personeel ingezet. Daarom waren de rijen voor het inchecken niet langer dan normaal.",
+        "translation": "史基浦機場增派了額外人手。因此，報到排隊並沒有比平常長。",
+        "start": 2397.66,
+        "end": 2398.72
       },
       {
-        "text": "afgelopen twee jaar het was de drukste Dag Ooit",
-        "translation": "",
-        "start": 2273.24,
-        "end": 2276.6
+        "text": "Ook de rij bij de paspoortcontrole was niet langer. Alleen op de parkeerplaats was het",
+        "translation": "護照檢查排隊也沒比較長。只有停車場，",
+        "start": 2407.14,
+        "end": 2412.55
       },
       {
-        "text": "zaa kijkt naar het journaal op",
-        "translation": "",
-        "start": 2280.24,
-        "end": 2287.6
+        "text": "lastig om een plek te vinden.",
+        "translation": "很難找到停車位。",
+        "start": 2412.55,
+        "end": 2413.89
       },
       {
-        "text": "televisie Lees eerst de vraag kijk daarna naar de",
-        "translation": "",
-        "start": 2287.6,
-        "end": 2290.68
+        "text": "Alle reizigers kregen gisteren wel gratis ijs van de ijsfabrikant.",
+        "translation": "所有旅客昨天都免費收到冰淇淋，來自冰淇淋廠商。",
+        "start": 2415.82,
+        "end": 2419.89
       },
       {
-        "text": "video Gisteren was het de drukste dag",
-        "translation": "",
-        "start": 2299.64,
-        "end": 2305.56
+        "text": "Ola bestond 20 jaar en trakteerde",
+        "translation": "Ola成立20年，並請大家吃",
+        "start": 2419.89,
+        "end": 2422.34
       },
       {
-        "text": "van het jaar op Schiphol Airport er",
-        "translation": "",
-        "start": 2305.56,
-        "end": 2309.64
+        "text": "een hele fijne traktatie op zo'n warme dag.",
+        "translation": "這麼炎熱的一天美味點心。",
+        "start": 2423.38,
+        "end": 2426.2
       },
       {
-        "text": "waren 1300 vluchten er waren ruim",
-        "translation": "",
-        "start": 2309.64,
-        "end": 2312.8
+        "text": "Waarom kregen reizigers op Schiphol gratis ijs? Omdat ze zo lang moesten wachten. Omdat",
+        "translation": "為什麼旅客在史基浦免費獲得冰淇淋？因為他們等很久。因為",
+        "start": 2427.61,
+        "end": 2436.49
       },
       {
-        "text": "17.000 passagiers op Schiphol tegenover",
-        "translation": "",
-        "start": 2312.8,
-        "end": 2316.56
+        "text": "Ola 20 jaar bestond. Omdat het zo'n warme dag was.",
+        "translation": "Ola成立20年。因為那天很熱。",
+        "start": 2436.49,
+        "end": 2442.18
       },
       {
-        "text": "180.000 op de drukste dag vorige zomer",
-        "translation": "",
-        "start": 2316.56,
-        "end": 2319.84
-      },
-      {
-        "text": "Schiphol heeft extra personeel ingezet, daarom waren de rijen voor het inchecken niet langer dan normaal.",
-        "translation": "史基浦機場增派了額外的人手，因此報到櫃檯的排隊隊伍並沒有比平常更長。",
-        "start": 2319.84,
-        "end": 2324.8
-      },
-      {
-        "text": "Ook de rij bij de paspoortcontrole was niet langer.",
-        "translation": "護照檢查隊伍也沒有比較長。",
-        "start": 2324.8,
-        "end": 2329.52
-      },
-      {
-        "text": "Alleen op de parkeerplaats was het lastig om een plek te vinden.",
-        "translation": "只有在停車場很難找到停車位。",
-        "start": 2329.52,
-        "end": 2334.24
-      },
-      {
-        "text": "Alle reizigers kregen gisteren wel gratis ijs.",
-        "translation": "所有旅客昨天都免費得到冰淇淋。",
-        "start": 2334.24,
-        "end": 2338.16
-      },
-      {
-        "text": "Ijsfabrikant Ola stond 20 jaar en trakteerde een hele fijne traktatie op zo'n warme dag.",
-        "translation": "冰淇淋製造商Ola慶祝成立20週年，在這麼炎熱的天氣送上了美味的款待。",
-        "start": 2338.16,
-        "end": 2341.36
-      },
-      {
-        "text": "Waar hadden reizigers het meeste last van de drukte?",
-        "translation": "旅客最受擁擠影響的是在哪裡？",
-        "start": 2341.36,
-        "end": 2345.8
-      },
-      {
-        "text": "In de rij voor het inchecken, bij de paspoortcontrole en op de parkeerplaats.",
-        "translation": "在報到排隊、護照檢查排隊和停車場。",
-        "start": 2345.8,
-        "end": 2349.64
-      },
-      {
-        "text": "Zaa kijkt naar het journaal op televisie.",
-        "translation": "扎正在電視上看新聞。",
-        "start": 2349.64,
-        "end": 2353.4
-      },
-      {
-        "text": "Lees eerst de vraag, kijk daarna naar de video.",
-        "translation": "先閱讀問題，然後觀看影片。",
-        "start": 2353.4,
-        "end": 2358.04
-      },
-      {
-        "text": "Gisteren was het de drukste dag van het jaar op Schiphol Airport.",
-        "translation": "昨天是史基浦機場年度最忙碌的一天。",
-        "start": 2361.92,
-        "end": 2368.44
-      },
-      {
-        "text": "Er waren 1300 vluchten.",
-        "translation": "那天共有1300個航班。",
-        "start": 2368.44,
-        "end": 2373.88
-      },
-      {
-        "text": "Er waren ruim 17.000 passagiers op Schiphol tegenover 180.000 op de drukste dag vorige zomer.",
-        "translation": "史基浦機場有超過17,000名旅客，相較去年夏天最忙碌的一天有180,000人次。",
-        "start": 2382.84,
-        "end": 2388.68
-      },
-      {
-        "text": "Schiphol heeft extra personeel ingezet, daarom waren de rijen voor het inchecken niet langer dan normaal.",
-        "translation": "史基浦機場增派了額外的人手，因此報到櫃檯的排隊隊伍並沒有比平常更長。",
-        "start": 2388.68,
-        "end": 2392.8
-      },
-      {
-        "text": "Ook de rij bij de paspoortcontrole was niet langer.",
-        "translation": "護照檢查隊伍也沒有比較長。",
-        "start": 2392.8,
-        "end": 2395.88
-      },
-      {
-        "text": "Alleen op de parkeerplaats was het lastig om een plek te vinden.",
-        "translation": "只有在停車場很難找到停車位。",
-        "start": 2395.88,
-        "end": 2399.72
-      },
-      {
-        "text": "Alle reizigers kregen gisteren wel gratis ijs.",
-        "translation": "所有旅客昨天都免費得到冰淇淋。",
-        "start": 2399.72,
-        "end": 2403.04
-      },
-      {
-        "text": "Ijsfabrikant Ola bestond 20 jaar en trakteerde een hele fijne traktatie op zo'n warme dag.",
-        "translation": "冰淇淋製造商Ola慶祝成立20週年，在這麼炎熱的天氣送上了美味的款待。",
-        "start": 2403.04,
-        "end": 2407.96
-      },
-      {
-        "text": "Waarom kregen de reizigers op Schiphol gratis ijs?",
-        "translation": "為什麼史基浦機場的旅客會得到免費冰淇淋？",
-        "start": 2407.96,
-        "end": 2412.56
-      },
-      {
-        "text": "Omdat ze zo lang moesten wachten?",
-        "translation": "因為他們必須等很久嗎？",
-        "start": 2412.56,
-        "end": 2417.36
-      },
-      {
-        "text": "Omdat Ola 20 jaar bestond?",
-        "translation": "因為Ola成立20週年嗎？",
-        "start": 2417.36,
-        "end": 2420.84
-      },
-      {
-        "text": "Omdat het zo'n warme dag was?",
-        "translation": "因為天氣很熱嗎？",
-        "start": 2420.84,
-        "end": 2425.36
-      },
-      {
-        "text": "Ja.",
-        "translation": "是的。",
-        "start": 2425.36,
-        "end": 2431.04
-      },
-      {
-        "text": "Waarom kregen de reizigers op Schiphol",
-        "translation": "",
-        "start": 2431.04,
-        "end": 2434.96
-      },
-      {
-        "text": "gratis ijs omdat ze zo lang moesten",
-        "translation": "",
-        "start": 2434.96,
-        "end": 2440.2
-      },
-      {
-        "text": "wachten omdat Ola 20 jaar bestond omdat het zo'n warme dag was",
-        "translation": "",
-        "start": 2440.2,
-        "end": 2444.96
-      },
-      {
-        "text": "ja",
-        "translation": "",
-        "start": 2457.52,
-        "end": 2460.52
+        "text": "Ondertitels ingediend door de Amara.org gemeenschap.",
+        "translation": "字幕由Amara.org社群提交。",
+        "start": 2466.53,
+        "end": 2466.86
       }
     ],
     "questions": [
       {
-        "question": "Wat wil de persoon doen bij de gemeente?",
-        "question_native": "此人在市政府想辦理什麼？",
+        "question": "Waar wil Mark aangifte doen van de geboorte?",
+        "question_native": "Mark想在哪裡申報新生兒出生？",
         "options": [
-          "Een geboorte aangeven",
-          "Huwelijksregistratie",
-          "Paspoort aanvragen"
+          "Bij de gemeente",
+          "Bij het ziekenhuis",
+          "Bij de politie"
         ],
-        "answer": "Een geboorte aangeven"
+        "answer": "Bij de gemeente"
       },
       {
-        "question": "Hoe lang na de geboorte kan men aangifte doen?",
-        "question_native": "出生後多久可以辦理登記？",
+        "question": "Hoe lang na de geboorte mag je aangifte doen?",
+        "question_native": "出生後多久內可以申報？",
         "options": [
-          "Binnen één dag",
-          "Binnen twee dagen",
-          "Binnen een week"
+          "Tot twee dagen",
+          "Direct na een week",
+          "Binnen een maand"
         ],
-        "answer": "Binnen twee dagen"
+        "answer": "Tot twee dagen"
       },
       {
-        "question": "Wat moet iemand meenemen als hij getrouwd is?",
-        "question_native": "如果已婚，需帶什麼文件？",
+        "question": "Wat moet je meenemen als je getrouwd bent?",
+        "question_native": "如果已婚，需要帶什麼東西？",
         "options": [
-          "Trouwboekje",
-          "Verblijfsvergunning",
-          "Rijbewijs"
+          "Het trouwboekje",
+          "De geboorteakte",
+          "Het rijbewijs"
         ],
-        "answer": "Trouwboekje"
+        "answer": "Het trouwboekje"
       },
       {
-        "question": "Kan men direct bij de balie aangifte doen zonder afspraak?",
-        "question_native": "沒有預約能直接在櫃台辦理嗎？",
+        "question": "Hoe kan je een afspraak maken bij de gemeente?",
+        "question_native": "怎麼在市政府預約？",
         "options": [
-          "Ja, altijd",
-          "Nee, alleen online",
-          "Afhankelijk van de gemeente"
+          "Via internet",
+          "Aan de balie",
+          "Telefonisch"
         ],
-        "answer": "Nee, alleen online"
+        "answer": "Via internet"
       },
       {
-        "question": "Wanneer is de gemeente gesloten?",
-        "question_native": "市政府什麼時候關門？",
+        "question": "Wat doet Jassier via uitzendbureau Kracht?",
+        "question_native": "Jassier透過Kracht人力仲介做什麼？",
         "options": [
-          "Vanmiddag",
-          "Morgenochtend",
-          "Weekend"
+          "Werken",
+          "Studeren",
+          "Reizen"
         ],
-        "answer": "Vanmiddag"
+        "answer": "Werken"
       }
     ],
     "vocabulary": [
       {
-        "word": "Aangifte doen",
-        "meaning": "辦理登記，申報"
+        "word": "aangifte",
+        "meaning": "申報，報告 (bijv. geboorte aangifte = 出生申報)"
       },
       {
-        "word": "Geboren",
+        "word": "gemeente",
+        "meaning": "市政府，自治市"
+      },
+      {
+        "word": "legitimatiebewijs",
+        "meaning": "身分證件"
+      },
+      {
+        "word": "geboorte",
         "meaning": "出生"
       },
       {
-        "word": "Gemeente",
-        "meaning": "市政府"
+        "word": "getrouwd",
+        "meaning": "已婚"
       },
       {
-        "word": "Legitimatiebewijs",
-        "meaning": "身份證明文件"
+        "word": "trouwboekje",
+        "meaning": "結婚冊"
       },
       {
-        "word": "Trouwboekje",
-        "meaning": "結婚證書"
+        "word": "afspraak",
+        "meaning": "預約，約定"
       },
       {
-        "word": "Afspraak maken",
-        "meaning": "預約"
+        "word": "balie",
+        "meaning": "櫃檯"
       },
       {
-        "word": "Gesloten",
-        "meaning": "關閉"
-      },
-      {
-        "word": "Vriend",
-        "meaning": "朋友"
-      },
-      {
-        "word": "Vergeten",
+        "word": "vergeten",
         "meaning": "忘記"
       },
       {
-        "word": "Zoon",
-        "meaning": "兒子"
+        "word": "uitzendbureau",
+        "meaning": "人力仲介公司"
       },
       {
-        "word": "Wachten",
-        "meaning": "等待"
+        "word": "kennismakingsgesprek",
+        "meaning": "面談，初次見面會談"
       },
       {
-        "word": "Huwelijk",
-        "meaning": "婚姻，結婚"
+        "word": "schoonmaak",
+        "meaning": "清潔工作"
       },
       {
-        "word": "Kan ik u helpen?",
-        "meaning": "我可以幫您嗎？"
+        "word": "beveiliging",
+        "meaning": "保全，安全"
       },
       {
-        "word": "Internet",
-        "meaning": "網路"
+        "word": "productie",
+        "meaning": "生產"
       },
       {
-        "word": "Balie",
-        "meaning": "櫃台"
+        "word": "inschrijven",
+        "meaning": "登記，註冊"
       }
     ]
   }

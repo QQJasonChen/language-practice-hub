@@ -82,15 +82,47 @@ def get_video_info(url):
 
 
 def download_audio(url, output_path):
-    """Download audio from YouTube as mp3."""
+    """Download audio from YouTube and normalize to a standard audio.mp3.
+
+    yt-dlp with `-o audio.mp3 --audio-format m4a` actually writes
+    `audio.mp3.m4a`. The final `audio.mp3` that the player and Whisper
+    both expect was historically only produced inside transcribe_whisper's
+    API-fallback branch — so any video that had auto-subs (Whisper skipped)
+    ended up with NO audio.mp3 and a broken player. Normalize here instead,
+    so every path yields a consistent 16kHz mono mp3 (hub-standard,
+    Whisper-ready — transcribe_whisper then skips re-compression — and
+    small enough for Git LFS).
+    """
+    output_path = str(output_path)
+    tmp_tmpl = output_path + '.dl.%(ext)s'
     result = run([
         'yt-dlp', '--cookies-from-browser', 'chrome',
         '-x', '--audio-format', 'm4a',
         '--audio-quality', '3',
-        '-o', str(output_path),
+        '-o', tmp_tmpl,
         url
     ])
-    return result.returncode == 0
+    if result.returncode != 0:
+        return False
+
+    dl = next(iter(Path(output_path).parent.glob(Path(output_path).name + '.dl.*')), None)
+    if dl is None:
+        print("  ✗ Download produced no file")
+        return False
+
+    norm = run([
+        'ffmpeg', '-y', '-i', str(dl),
+        '-ac', '1', '-ab', '64k', '-ar', '16000',
+        output_path
+    ])
+    try:
+        dl.unlink()
+    except OSError:
+        pass
+    ok = norm.returncode == 0 and os.path.exists(output_path)
+    if ok:
+        print("  ✓ Normalized → audio.mp3 (16kHz mono)")
+    return ok
 
 
 def download_subtitles(url, lang, output_dir):
@@ -163,8 +195,22 @@ def transcribe_whisper(audio_path, lang, model='large'):
             print(f"  ⚠ Compression failed, using original")
 
     file_size = os.path.getsize(audio_path)
-    if file_size > 25 * 1024 * 1024:
-        print(f"  ⚠ Still {file_size//(1024*1024)}MB > 25MB, splitting...")
+    dur_probe = subprocess.run(
+        ['ffprobe', '-v', 'quiet', '-show_entries', 'format=duration',
+         '-of', 'default=noprint_wrappers=1:nokey=1', str(audio_path)],
+        capture_output=True, text=True).stdout.strip()
+    try:
+        duration_s = float(dur_probe)
+    except ValueError:
+        duration_s = 0.0
+    # The Whisper API returns HTTP 500 (empty body) on long audio when
+    # verbose_json + word timestamps are requested, even well under the
+    # 25MB byte limit (the word-level JSON response is enormous). A 19MB
+    # 41-min file 500s reliably. So chunk by DURATION, not just file size.
+    if file_size > 24 * 1024 * 1024 or duration_s > 720:
+        why = (f"{file_size//(1024*1024)}MB"
+               if file_size > 24 * 1024 * 1024 else f"{int(duration_s//60)}min audio")
+        print(f"  ⚠ {why} → chunking for Whisper API stability...")
         return transcribe_whisper_chunked(audio_path, lang, api_key)
 
     # Try verbose_json first for precise segment timestamps
@@ -230,11 +276,14 @@ def transcribe_whisper(audio_path, lang, model='large'):
 def transcribe_whisper_chunked(audio_path, lang, api_key):
     """Split large audio and transcribe in chunks."""
     chunk_dir = tempfile.mkdtemp()
-    # Split into 10-minute chunks
+    # Split into 10-minute chunks. RE-ENCODE (not -c copy): stream-copy
+    # snaps cuts to frame boundaries, so per-chunk ffprobe durations don't
+    # sum exactly to the whole and the accumulated `offset` drifts the
+    # timeline. Re-encoding makes every chunk sample-exact → zero drift.
     run([
         'ffmpeg', '-i', str(audio_path),
         '-f', 'segment', '-segment_time', '600',
-        '-c', 'copy',
+        '-ac', '1', '-ar', '16000', '-ab', '64k',
         os.path.join(chunk_dir, 'chunk_%03d.mp3')
     ])
 
