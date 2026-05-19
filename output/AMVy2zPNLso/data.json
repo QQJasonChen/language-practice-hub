@@ -304,12 +304,6 @@
         "end": 319.54
       },
       {
-        "text": "debeveiligingenindeproductie",
-        "translation": "",
-        "start": 320.62,
-        "end": 323.3
-      },
-      {
         "text": "Voor de schoonmaak en productie moet u Nederlands spreken op A2 niveau.",
         "translation": "清潔與生產工作需具備荷蘭語A2程度。",
         "start": 324.82,
@@ -400,8 +394,8 @@
         "end": 425.52
       },
       {
-        "text": "Kijk daarna naar de video. Welkom bij Uitzendbureau Kracht.",
-        "translation": "接著觀看影片。歡迎來到人力派遣公司Kracht。",
+        "text": "Welkom bij Uitzendbureau Kracht",
+        "translation": "歡迎來到人力派遣公司Kracht",
         "start": 438.42,
         "end": 441.38
       },
@@ -538,8 +532,8 @@
         "end": 569.46
       },
       {
-        "text": "Kijk daarna naar de video. Welkom bij uitzendbureau Kracht.",
-        "translation": "接著觀看影片。歡迎來到派遣公司Kracht。",
+        "text": "Welkom bij uitzendbureau Kracht",
+        "translation": "歡迎來到派遣公司Kracht。",
         "start": 582.42,
         "end": 585.34
       },
@@ -2003,7 +1997,7 @@
       },
       {
         "text": "voicemail. Nika luistert naar het bericht.",
-        "translation": "先讀問題，再聽文字。",
+        "translation": "再聽文字。",
         "start": 2123.24,
         "end": 2127.12
       },
@@ -2069,7 +2063,7 @@
       },
       {
         "text": "Zaira kijkt naar het journaal op televisie.",
-        "translation": "先讀問題，再看影片。",
+        "translation": "再看影片。",
         "start": 2190.06,
         "end": 2193.8
       },

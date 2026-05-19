@@ -3,7 +3,6 @@
   "appName": "EchoLab",
   "webDir": "www",
   "server": {
-    "url": "https://qqjasonchen.github.io/language-practice-hub/",
     "allowNavigation": ["*"]
   },
   "ios": {
