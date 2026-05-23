@@ -1,13 +1,29 @@
 <!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EXAMEN A2 luisteren 2026 inburgering! PART 2 - met ANTWOORDEN! #nederlandsleren</title><style>
-:root { --blue:#1e3a8a; --blue2:#3b82f6; --amber:#f59e0b; --ink:#1f2937; }
+:root { --blue:#1e3a8a; --blue2:#3b82f6; --amber:#f59e0b; --ink:#1f2937;
+  --green:#16a34a; --red:#dc2626; --cyan:#0891b2; }
 * { box-sizing: border-box; }
 body { margin:0; padding:0 0 96px; font:15px/1.65 -apple-system,"PingFang TC","Hiragino Sans",sans-serif;
   color:var(--ink); background:#f1f5f9; }
 .wrap { max-width:760px; margin:0 auto; padding:0 14px; }
-header { background:var(--blue); color:#fff; padding:18px 14px; }
+header { background:var(--blue); color:#fff; padding:14px 14px 0; position:sticky; top:0; z-index:30;
+  box-shadow:0 1px 8px rgba(0,0,0,.12); }
 header .wrap { padding:0 14px; }
-header h1 { margin:0 0 4px; font-size:19px; line-height:1.35; }
-header .meta { font-size:12px; color:#bfdbfe; }
+header h1 { margin:0 0 4px; font-size:17px; line-height:1.32; }
+header .meta { font-size:11.5px; color:#bfdbfe; }
+.tabs { display:flex; gap:2px; margin-top:10px; overflow-x:auto; }
+.tabs button { background:transparent; color:#cbd5e1; border:none; padding:9px 12px;
+  font-size:13px; font-weight:700; cursor:pointer; border-bottom:3px solid transparent;
+  white-space:nowrap; }
+.tabs button.on { color:#fff; border-bottom-color:var(--amber); }
+.tabs button .bg { background:var(--red); color:#fff; border-radius:9px; padding:1px 6px;
+  font-size:10px; margin-left:4px; font-weight:800; }
+.status { background:#0f172a; color:#cbd5e1; padding:7px 14px; font-size:12px;
+  display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+.status .item { display:inline-flex; gap:5px; align-items:center; }
+.status .item b { color:#fff; font-weight:800; font-size:13px; }
+.status .item.score b { color:var(--amber); }
+.status .reset { margin-left:auto; background:#334155; color:#94a3b8; border:none;
+  border-radius:6px; padding:4px 10px; font-size:11px; cursor:pointer; }
 .howto { background:#fff; border-left:4px solid var(--blue); border-radius:8px;
   padding:11px 14px; margin:14px 0; font-size:13px; color:#374151; }
 .howto b { color:var(--blue); }
@@ -25,7 +41,6 @@ header .meta { font-size:12px; color:#bfdbfe; }
 .sec { padding:12px 15px; }
 .sec h3 { font-size:12.5px; font-weight:800; color:#b45309; margin:4px 0 7px;
   letter-spacing:.4px; }
-/* vocab + patterns */
 .vocab { width:100%; border-collapse:collapse; font-size:13px; }
 .vocab td { padding:5px 8px; border:1px solid #f0e6d2; }
 .vocab td.nl { font-weight:700; width:46%; }
@@ -34,7 +49,6 @@ header .meta { font-size:12px; color:#bfdbfe; }
 .pat { font-size:13px; margin:5px 0; padding-bottom:5px; border-bottom:1px dotted #e5e7eb; }
 .pat .pnl { font-weight:700; color:#0f766e; }
 .pat .pnote { color:#9ca3af; font-size:11.5px; display:block; }
-/* dialogue */
 .dlg-h { font-size:13.5px; font-weight:800; color:var(--blue); margin:14px 15px 4px; }
 .dlg-h span { font-size:11px; color:#9ca3af; font-weight:500; }
 .line { display:flex; gap:9px; padding:7px 15px; border-bottom:1px solid #f3f4f6;
@@ -57,18 +71,29 @@ header .meta { font-size:12px; color:#bfdbfe; }
 .q-h .qt { flex:1; font-size:14px; font-weight:800; color:#92400e; }
 .q-h .recon { font-size:9.5px; color:#b45309; border:1px solid #fcd34d; border-radius:8px;
   padding:1px 6px; white-space:nowrap; }
+.q-h .qbadge { font-size:9.5px; padding:1px 7px; border-radius:9px; font-weight:800;
+  white-space:nowrap; }
+.q-h .qbadge.ok { background:var(--green); color:#fff; }
+.q-h .qbadge.ng { background:var(--red); color:#fff; }
+.q-h .qbadge.srs { background:var(--cyan); color:#fff; }
 .q-body { padding:10px 12px; }
 .q-zh { font-size:12.5px; color:#6b7280; margin-bottom:8px; }
 .opt { padding:7px 9px; margin:4px 0; border:1px solid #e5e7eb; border-radius:7px;
-  font-size:13.5px; cursor:pointer; }
+  font-size:13.5px; cursor:pointer; transition:all .12s; }
+.opt:hover { background:#f8fafc; }
 .opt .ol { font-weight:800; color:#6b7280; margin-right:5px; }
 .opt .ozh { color:#9ca3af; font-size:12px; }
 .opt.picked { border-color:var(--blue2); background:#eff6ff; }
-.q.revealed .opt.correct { border-color:#22c55e; background:#dcfce7; }
+.q.revealed .opt { cursor:default; }
+.q.revealed .opt:hover { background:transparent; }
+.q.revealed .opt.correct { border-color:var(--green); background:#dcfce7; }
 .q.revealed .opt.correct .ol { color:#15803d; }
-.q.revealed .opt.wrongpick { border-color:#ef4444; background:#fef2f2; }
+.q.revealed .opt.wrongpick { border-color:var(--red); background:#fef2f2; }
+.q.revealed .opt.wrongpick .ol { color:#b91c1c; }
 .reveal-btn { width:100%; padding:9px; margin-top:6px; border:none; border-radius:8px;
   background:var(--blue); color:#fff; font-size:13.5px; font-weight:700; cursor:pointer; }
+.reveal-btn:disabled { background:#cbd5e1; cursor:not-allowed; }
+.reveal-btn.danger { background:var(--red); }
 .answer { display:none; margin-top:10px; }
 .q.revealed .answer { display:block; }
 .q.revealed .reveal-btn { display:none; }
@@ -76,7 +101,6 @@ header .meta { font-size:12px; color:#bfdbfe; }
 .src .sh { font-size:11px; font-weight:800; color:#0369a1; margin-bottom:5px; }
 .src .sl { display:flex; gap:8px; padding:3px 0; cursor:pointer; }
 .src .sl:hover { background:#e0f2fe; border-radius:5px; }
-.src .sl.playing { background:#fde68a; border-radius:5px; }
 .src .sl .slnl { font-weight:600; color:#0c4a6e; font-size:13px; }
 .src .sl .slzh { color:#64748b; font-size:11.5px; }
 .explain { font-size:13px; margin-top:9px; }
@@ -86,6 +110,45 @@ header .meta { font-size:12px; color:#bfdbfe; }
 .trap .lbl { font-weight:800; color:#c2410c; }
 .note { background:#fef9c3; border-left:3px solid #ca8a04; padding:9px 12px; margin:12px 15px;
   border-radius:6px; font-size:12.5px; color:#713f12; }
+/* exam mode */
+.exam-intro, .exam-result { padding:24px 18px; background:#fff; border-radius:14px;
+  margin:18px 14px; box-shadow:0 1px 3px rgba(0,0,0,.07); }
+.exam-intro h2, .exam-result h2 { color:var(--blue); margin:0 0 12px; font-size:18px; }
+.exam-intro ul { padding-left:20px; color:#4b5563; font-size:13px; line-height:1.9; }
+.exam-intro .start { margin-top:14px; width:100%; padding:14px; border:none;
+  border-radius:10px; background:var(--blue); color:#fff; font-size:15px; font-weight:800;
+  cursor:pointer; }
+.exam-active .timer { background:var(--ink); color:#fff; padding:10px 14px;
+  text-align:center; font:700 22px ui-monospace,Menlo,monospace; }
+.exam-active .timer.warn { background:var(--red); }
+.exam-active .progress { background:#e5e7eb; height:4px; }
+.exam-active .progress > div { background:var(--amber); height:100%; transition:width .2s; }
+.result-score { font-size:42px; font-weight:900; text-align:center; color:var(--amber); }
+.result-score small { display:block; font-size:14px; color:#94a3b8; font-weight:500;
+  margin-top:4px; }
+.result-row { display:flex; gap:12px; align-items:center; margin:8px 0;
+  padding:8px 10px; background:#f8fafc; border-radius:7px; font-size:13px; }
+.result-row .qn { font-weight:800; color:var(--blue); min-width:40px; }
+.result-row .qt { flex:1; }
+.result-row .qok { color:var(--green); font-weight:800; }
+.result-row .qng { color:var(--red); font-weight:800; }
+/* mistakes / stats */
+.empty { text-align:center; padding:40px 20px; color:#9ca3af; font-size:14px; }
+.empty .em { font-size:32px; display:block; margin-bottom:8px; }
+.stat-card { background:#fff; padding:16px; border-radius:12px; margin:14px;
+  box-shadow:0 1px 3px rgba(0,0,0,.06); }
+.stat-card h3 { margin:0 0 10px; font-size:14px; color:var(--blue); }
+.chart { width:100%; height:140px; }
+.stat-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+.stat-grid .cell { text-align:center; padding:10px; background:#f8fafc; border-radius:8px; }
+.stat-grid .cell b { display:block; font-size:24px; color:var(--blue); font-weight:800; }
+.stat-grid .cell span { font-size:11px; color:#6b7280; }
+.srs-row { display:flex; gap:10px; align-items:center; padding:9px 12px; background:#fff;
+  border-radius:8px; margin:6px 14px; font-size:13px; cursor:pointer; }
+.srs-row:hover { background:#fef3c7; }
+.srs-row .due { font-size:11px; color:var(--cyan); font-weight:800; }
+.srs-row .due.overdue { color:var(--red); }
+.srs-row .qt { flex:1; }
 /* player */
 .player { position:fixed; bottom:0; left:0; right:0; background:#0f172a; color:#fff;
   padding:9px 12px; box-shadow:0 -2px 12px rgba(0,0,0,.25); z-index:50; }
@@ -96,244 +159,270 @@ header .meta { font-size:12px; color:#bfdbfe; }
   position:relative; }
 .player .bar .fill { position:absolute; left:0; top:0; bottom:0; background:var(--amber);
   border-radius:3px; width:0; }
-.player .tnow { font:700 12px ui-monospace,Menlo,monospace; min-width:80px; text-align:right; }
+.player .tnow { font:700 12px ui-monospace,Menlo,monospace; min-width:78px; text-align:right; }
 .player .spd { display:flex; gap:3px; }
 .player .spd button { background:#334155; color:#cbd5e1; border:none; border-radius:5px;
   font-size:11px; padding:4px 6px; cursor:pointer; }
 .player .spd button.on { background:var(--amber); color:#0f172a; font-weight:700; }
-</style></head><body><header><div class="wrap">
+[hidden] { display:none !important; }
+</style></head><body data-vid="AMVy2zPNLso" data-total="19"><header><div class="wrap">
       <h1>EXAMEN A2 luisteren 2026 inburgering! PART 2 - met ANTWOORDEN! #nederlandsleren</h1>
       <div class="meta">🎧 A2 Luisteren · Inburgering ·
-        9 場景 · 19 題 · 點時間戳即播原音</div>
-    </div></header><div class="wrap"><div class="howto"><b>怎麼用</b>：① 點任何<b>藍色時間戳</b>，音檔就跳到那一秒播放。② 對話會跟著高亮。③ 每題先自己選答案，再按「看解答」——解答裡的 <b>📍 出處</b>每一句也能點來聽。④ 下方播放器可調 0.7/0.85 倍慢速跟讀。</div><div class="howto">本片有幾題的題目字幕是「畫面顯示、沒有念出聲」（考試指令是 Lees eerst de vraag — 先「讀」題目），自動轉錄抓不到。這些題目已根據選項與原文忠實重建，並標註「題幹重建」。其餘結構與 PART 1 相同。</div><div class="scene"><div class="scene-bar"><span class="sn">場景 1</span><span class="st">到市政府辦出生登記</span><span class="sk">對話</span></div><div class="scene-ctx">Eren 陪朋友 Mark 到市政府。Mark 昨天生了兒子，要辦出生登記。<br><span class="nl">Eren en Mark bij de gemeente</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">aangifte doen van de geboorte</td><td class="zh">辦理出生登記</td></tr><tr><td class="nl">het legitimatiebewijs</td><td class="zh">身分證件</td></tr><tr><td class="nl">het trouwboekje</td><td class="zh">結婚證書（小冊）</td></tr><tr><td class="nl">een afspraak maken</td><td class="zh">預約</td></tr><tr><td class="nl">aan de balie</td><td class="zh">在櫃台</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">U kunt tot ... na ... aangifte doen</span> — 您最晚可在……之後……內辦登記<span class="pnote">tot ... na ... = 期限。</span></div><div class="pat"><span class="pnl">Dan moet u ook ... meenemen</span> — 那您還要帶……來<span class="pnote">meenemen 為可分動詞，mee 丟句尾。</span></div></div><div class="dlg-h">📺 對話原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="26"><button class="ts" data-t="26">0:26</button><div class="lb"><div class="lnl">Kan ik u helpen? Ik heb een zoon gekregen, gisteren.</div><div class="lzh">我可以幫您嗎？我昨天生了一個兒子。</div></div></div><div class="line" data-t="31"><button class="ts" data-t="31">0:31</button><div class="lb"><div class="lnl">Gefeliciteerd! U wilt dus aangifte doen van de geboorte.</div><div class="lzh">恭喜您！您想要申報出生。</div></div></div><div class="line" data-t="36"><button class="ts" data-t="36">0:36</button><div class="lb"><div class="lnl">Mag ik uw legitimatiebewijs? Nee, vergeten.</div><div class="lzh">我可以看一下您的身分證件嗎？不，忘記帶了。</div></div></div><div class="line" data-t="39"><button class="ts" data-t="39">0:39</button><div class="lb"><div class="lnl">Ach, kan gebeuren.</div><div class="lzh">沒關係，會發生的。</div></div></div><div class="line" data-t="43"><button class="ts" data-t="43">0:43</button><div class="lb"><div class="lnl">U kunt tot twee dagen na de geboorte aangifte doen, dus het mag morgen ook nog.</div><div class="lzh">您可以在出生後兩天內申報，所以明天也可以。</div></div></div><div class="line" data-t="48"><button class="ts" data-t="48">0:48</button><div class="lb"><div class="lnl">Want vanmiddag zijn we gesloten. Bent u getrouwd?</div><div class="lzh">因為今天下午我們休息。您結婚了嗎？</div></div></div><div class="line" data-t="52"><button class="ts" data-t="52">0:52</button><div class="lb"><div class="lnl">Ja. Dan moet u ook het trouwboekje meenemen. Morgen zijn we tot twaalf uur open.</div><div class="lzh">是的。那您也必須帶結婚冊。明天我們開門到十二點。</div></div></div><div class="line" data-t="58"><button class="ts" data-t="58">0:58</button><div class="lb"><div class="lnl">U kunt op internet een afspraak maken, dan hoeft u niet zo lang te wachten.</div><div class="lzh">您可以在網路上預約，這樣就不必等太久。</div></div></div><div class="line" data-t="63"><button class="ts" data-t="63">1:03</button><div class="lb"><div class="lnl">Kan dat niet meteen hier aan de balie? Helaas, alleen online.</div><div class="lzh">不能當場在櫃檯辦理嗎？抱歉，只能線上辦理。</div></div></div><div class="q" data-ans="0">
+        9 場景 · 19 題</div>
+    </div>
+    <div class="wrap"><div class="tabs">
+      <button class="on" data-mode="study">📖 學習</button>
+      <button data-mode="exam">⏱️ 考場模式</button>
+      <button data-mode="review" id="tab-review">🎯 錯題複習</button>
+      <button data-mode="stats">📊 我的紀錄</button>
+    </div></div>
+    <div class="status">
+      <span class="item score">已答 <b id="s-answered">0</b>/<b id="s-total">19</b></span>
+      <span class="item">對 <b id="s-correct">0</b></span>
+      <span class="item">正確率 <b id="s-pct">0%</b></span>
+      <button class="reset" id="reset-btn">清除進度</button>
+    </div></header><section data-mode-content="study"><div class="wrap"><div class="howto"><b>📖 學習模式</b>：① 每題先選答案再按「對答案」——答對／答錯都會記下來、自動排進 SRS 複習。② 點任何<b>藍色時間戳</b>聽原音。③ 想模擬真考場壓力，切到「⏱️ 考場模式」。④ 隔幾天回來，「🎯 錯題複習」會把該複習的題目推給你。</div><div class="howto">本片有幾題的題目字幕是「畫面顯示、沒有念出聲」（考試指令是 Lees eerst de vraag — 先「讀」題目），自動轉錄抓不到。這些題目已根據選項與原文忠實重建，並標註「題幹重建」。其餘結構與 PART 1 相同。</div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 1</span><span class="st">到市政府辦出生登記</span><span class="sk">對話</span></div><div class="scene-ctx">Eren 陪朋友 Mark 到市政府。Mark 昨天生了兒子，要辦出生登記。<br><span class="nl">Eren en Mark bij de gemeente</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">aangifte doen van de geboorte</td><td class="zh">辦理出生登記</td></tr><tr><td class="nl">het legitimatiebewijs</td><td class="zh">身分證件</td></tr><tr><td class="nl">het trouwboekje</td><td class="zh">結婚證書（小冊）</td></tr><tr><td class="nl">een afspraak maken</td><td class="zh">預約</td></tr><tr><td class="nl">aan de balie</td><td class="zh">在櫃台</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">U kunt tot ... na ... aangifte doen</span> — 您最晚可在……之後……內辦登記<span class="pnote">tot ... na ... = 期限。</span></div><div class="pat"><span class="pnl">Dan moet u ook ... meenemen</span> — 那您還要帶……來<span class="pnote">meenemen 為可分動詞，mee 丟句尾。</span></div></div><div class="dlg-h">📺 對話原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="26"><button class="ts" data-t="26">0:26</button><div class="lb"><div class="lnl">Kan ik u helpen? Ik heb een zoon gekregen, gisteren.</div><div class="lzh">我可以幫您嗎？我昨天生了一個兒子。</div></div></div><div class="line" data-t="31"><button class="ts" data-t="31">0:31</button><div class="lb"><div class="lnl">Gefeliciteerd! U wilt dus aangifte doen van de geboorte.</div><div class="lzh">恭喜您！您想要申報出生。</div></div></div><div class="line" data-t="36"><button class="ts" data-t="36">0:36</button><div class="lb"><div class="lnl">Mag ik uw legitimatiebewijs? Nee, vergeten.</div><div class="lzh">我可以看一下您的身分證件嗎？不，忘記帶了。</div></div></div><div class="line" data-t="39"><button class="ts" data-t="39">0:39</button><div class="lb"><div class="lnl">Ach, kan gebeuren.</div><div class="lzh">沒關係，會發生的。</div></div></div><div class="line" data-t="43"><button class="ts" data-t="43">0:43</button><div class="lb"><div class="lnl">U kunt tot twee dagen na de geboorte aangifte doen, dus het mag morgen ook nog.</div><div class="lzh">您可以在出生後兩天內申報，所以明天也可以。</div></div></div><div class="line" data-t="48"><button class="ts" data-t="48">0:48</button><div class="lb"><div class="lnl">Want vanmiddag zijn we gesloten. Bent u getrouwd?</div><div class="lzh">因為今天下午我們休息。您結婚了嗎？</div></div></div><div class="line" data-t="52"><button class="ts" data-t="52">0:52</button><div class="lb"><div class="lnl">Ja. Dan moet u ook het trouwboekje meenemen. Morgen zijn we tot twaalf uur open.</div><div class="lzh">是的。那您也必須帶結婚冊。明天我們開門到十二點。</div></div></div><div class="line" data-t="58"><button class="ts" data-t="58">0:58</button><div class="lb"><div class="lnl">U kunt op internet een afspraak maken, dan hoeft u niet zo lang te wachten.</div><div class="lzh">您可以在網路上預約，這樣就不必等太久。</div></div></div><div class="line" data-t="63"><button class="ts" data-t="63">1:03</button><div class="lb"><div class="lnl">Kan dat niet meteen hier aan de balie? Helaas, alleen online.</div><div class="lzh">不能當場在櫃檯辦理嗎？抱歉，只能線上辦理。</div></div></div><div class="q" data-qid="1" data-ans="0">
               <div class="q-h"><span class="qn">考題 1</span>
                 <span class="qt">Waarom is Mark bij de gemeente?</span></div>
               <div class="q-body">
                 <div class="q-zh">Mark 為什麼來市政府？</div>
                 <div class="opt"><span class="ol">A.</span>Hij wil een geboorte aangeven <span class="ozh">他要辦出生登記</span></div><div class="opt"><span class="ol">B.</span>Hij is zijn legitimatiebewijs kwijt <span class="ozh">他弄丟了身分證件</span></div><div class="opt"><span class="ol">C.</span>Hij gaat binnenkort trouwen <span class="ozh">他快要結婚了</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="26"><button class="ts" data-t="26">0:26</button><div><div class="slnl">Ik heb een zoon gekregen, gisteren.</div><div class="slzh">我昨天生了一個兒子。</div></div></div><div class="sl" data-t="31"><button class="ts" data-t="31">0:31</button><div><div class="slnl">U wilt dus aangifte doen van de geboorte.</div><div class="slzh">所以您是要辦出生登記。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>Mark 一開口說「昨天生了兒子」，櫃台人員確認「您要辦出生登記」——這就是他來的目的。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>證件是「忘了帶（vergeten）」不是弄丟；結婚是櫃台問「是否已婚」，他已婚——兩者都只是辦事過程的細節。</div>
                 </div>
-              </div></div><div class="q" data-ans="1">
+              </div></div><div class="q" data-qid="2" data-ans="1">
               <div class="q-h"><span class="qn">考題 2</span>
                 <span class="qt">Wanneer kan Mark terugkomen bij de gemeente?</span></div>
               <div class="q-body">
                 <div class="q-zh">Mark 什麼時候可以再回來市政府辦？</div>
                 <div class="opt"><span class="ol">A.</span>Vanmiddag <span class="ozh">今天下午</span></div><div class="opt"><span class="ol">B.</span>Morgenochtend <span class="ozh">明天早上</span></div><div class="opt"><span class="ol">C.</span>Over drie dagen <span class="ozh">三天後</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="43"><button class="ts" data-t="43">0:43</button><div><div class="slnl">het mag morgen ook nog. Want vanmiddag zijn we gesloten.</div><div class="slzh">明天辦也還可以。因為今天下午我們不營業。</div></div></div><div class="sl" data-t="52"><button class="ts" data-t="52">0:52</button><div><div class="slnl">Morgen zijn we tot twaalf uur open.</div><div class="slzh">明天我們開到十二點。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>今天下午關門，但明天「開到十二點」——所以明天早上回來辦。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>vanmiddag（今天下午）被明說「gesloten（關門）」；登記期限是出生後兩天內，不是三天。</div>
                 </div>
-              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 2</span><span class="st">人力派遣公司的影片</span><span class="sk">廣告影片</span></div><div class="scene-ctx">Yassir 想透過派遣公司 Kracht 找工作，已經報名了。他在看公司的介紹影片。<br><span class="nl">Yassir bekijkt een filmpje van uitzendbureau Kracht</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">het uitzendbureau</td><td class="zh">人力派遣公司</td></tr><tr><td class="nl">het kennismakingsgesprek</td><td class="zh">初次面談（認識彼此）</td></tr><tr><td class="nl">de schoonmaak / de beveiliging / de productie</td><td class="zh">清潔／保全／生產</td></tr><tr><td class="nl">de avondopleiding tot leidinggevende</td><td class="zh">晉升主管的夜間培訓</td></tr><tr><td class="nl">stage lopen</td><td class="zh">實習</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">U krijgt daarvoor een uitnodiging per ...</span> — 為此您會透過……收到邀請<span class="pnote">per e-mail / per brief = 透過某管道。</span></div><div class="pat"><span class="pnl">het is fijn als ..., maar dat hoeft niet</span> — 如果……很好，但不是必須<span class="pnote">hoeft niet = 不需要、非必要——常是陷阱關鍵。</span></div></div><div class="dlg-h">📺 廣告影片原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="296"><button class="ts" data-t="296">4:56</button><div class="lb"><div class="lnl">Welkom bij uitzendbureau Kracht.</div><div class="lzh">歡迎來到人力仲介公司Kracht。</div></div></div><div class="line" data-t="300"><button class="ts" data-t="300">5:00</button><div class="lb"><div class="lnl">U heeft zich bij ons ingeschreven via internet. En u heeft binnenkort een kennismakingsgesprek.</div><div class="lzh">您已經透過網路在我們這裡報名，並且您即將有一個面談。</div></div></div><div class="line" data-t="307"><button class="ts" data-t="307">5:07</button><div class="lb"><div class="lnl">U krijgt daarvoor een uitnodiging per e-mail met de datum en de tijd.</div><div class="lzh">您將會收到一封電子郵件邀請，內含日期和時間。</div></div></div><div class="line" data-t="315"><button class="ts" data-t="315">5:15</button><div class="lb"><div class="lnl">Mensen kunnen bij ons werken in de schoonmaak, de beveiliging en de productie.</div><div class="lzh">人們可以在我們這裡從事清潔、安全和生產工作。</div></div></div><div class="line" data-t="324"><button class="ts" data-t="324">5:24</button><div class="lb"><div class="lnl">Voor de schoonmaak en productie moet u Nederlands spreken op A2 niveau.</div><div class="lzh">清潔與生產工作需具備荷蘭語A2程度。</div></div></div><div class="line" data-t="331"><button class="ts" data-t="331">5:31</button><div class="lb"><div class="lnl">Voor de beveiliging op B1 niveau.</div><div class="lzh">保全工作需具備B1程度。</div></div></div><div class="line" data-t="335"><button class="ts" data-t="335">5:35</button><div class="lb"><div class="lnl">Ook is het fijn als u ervaring heeft met het werk, maar dat hoeft niet.</div><div class="lzh">如果您有相關經驗會更好，但不是必要條件。</div></div></div><div class="line" data-t="340"><button class="ts" data-t="340">5:40</button><div class="lb"><div class="lnl">U kunt bij ons ook een avondopleiding volgen tot leidinggevende.</div><div class="lzh">您也可以在我們這裡參加晚間領導職培訓。</div></div></div><div class="line" data-t="347"><button class="ts" data-t="347">5:47</button><div class="lb"><div class="lnl">Deze opleiding duurt vier maanden.</div><div class="lzh">這個培訓課程為期四個月。</div></div></div><div class="line" data-t="350"><button class="ts" data-t="350">5:50</button><div class="lb"><div class="lnl">U leert bijvoorbeeld een werkplanning maken of werkroosters bijhouden.</div><div class="lzh">例如您會學習如何製作工作計劃表或管理工作班表。</div></div></div><div class="line" data-t="358"><button class="ts" data-t="358">5:58</button><div class="lb"><div class="lnl">Tijdens uw opleiding loopt u ook stage. U oefent dan wat u heeft geleerd.</div><div class="lzh">培訓期間您也會實習，練習所學的內容。</div></div></div><div class="line" data-t="366"><button class="ts" data-t="366">6:06</button><div class="lb"><div class="lnl">Deze stage duurt twee maanden.</div><div class="lzh">實習為期兩個月。</div></div></div><div class="line" data-t="370"><button class="ts" data-t="370">6:10</button><div class="lb"><div class="lnl">Dus de opleiding duurt in totaal vier maanden.</div><div class="lzh">所以整個培訓共計四個月。</div></div></div><div class="line" data-t="376"><button class="ts" data-t="376">6:16</button><div class="lb"><div class="lnl">Na de opleiding kunt u aan het werk als leidinggevende.</div><div class="lzh">完成培訓後，您可以成為一名領導者開始工作。</div></div></div><div class="line" data-t="381"><button class="ts" data-t="381">6:21</button><div class="lb"><div class="lnl">Heeft u interesse in deze opleiding, geeft u dat dan aan bij uw kennismakingsgesprek.</div><div class="lzh">如果您對這個培訓有興趣，請在面談時告訴我們。</div></div></div><div class="line" data-t="387"><button class="ts" data-t="387">6:27</button><div class="lb"><div class="lnl">Tot ziens bij het gesprek.</div><div class="lzh">面談時見。</div></div></div><div class="q" data-ans="0">
+              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 2</span><span class="st">人力派遣公司的影片</span><span class="sk">廣告影片</span></div><div class="scene-ctx">Yassir 想透過派遣公司 Kracht 找工作，已經報名了。他在看公司的介紹影片。<br><span class="nl">Yassir bekijkt een filmpje van uitzendbureau Kracht</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">het uitzendbureau</td><td class="zh">人力派遣公司</td></tr><tr><td class="nl">het kennismakingsgesprek</td><td class="zh">初次面談（認識彼此）</td></tr><tr><td class="nl">de schoonmaak / de beveiliging / de productie</td><td class="zh">清潔／保全／生產</td></tr><tr><td class="nl">de avondopleiding tot leidinggevende</td><td class="zh">晉升主管的夜間培訓</td></tr><tr><td class="nl">stage lopen</td><td class="zh">實習</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">U krijgt daarvoor een uitnodiging per ...</span> — 為此您會透過……收到邀請<span class="pnote">per e-mail / per brief = 透過某管道。</span></div><div class="pat"><span class="pnl">het is fijn als ..., maar dat hoeft niet</span> — 如果……很好，但不是必須<span class="pnote">hoeft niet = 不需要、非必要——常是陷阱關鍵。</span></div></div><div class="dlg-h">📺 廣告影片原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="296"><button class="ts" data-t="296">4:56</button><div class="lb"><div class="lnl">Welkom bij uitzendbureau Kracht.</div><div class="lzh">歡迎來到人力仲介公司Kracht。</div></div></div><div class="line" data-t="300"><button class="ts" data-t="300">5:00</button><div class="lb"><div class="lnl">U heeft zich bij ons ingeschreven via internet. En u heeft binnenkort een kennismakingsgesprek.</div><div class="lzh">您已經透過網路在我們這裡報名，並且您即將有一個面談。</div></div></div><div class="line" data-t="307"><button class="ts" data-t="307">5:07</button><div class="lb"><div class="lnl">U krijgt daarvoor een uitnodiging per e-mail met de datum en de tijd.</div><div class="lzh">您將會收到一封電子郵件邀請，內含日期和時間。</div></div></div><div class="line" data-t="315"><button class="ts" data-t="315">5:15</button><div class="lb"><div class="lnl">Mensen kunnen bij ons werken in de schoonmaak, de beveiliging en de productie.</div><div class="lzh">人們可以在我們這裡從事清潔、安全和生產工作。</div></div></div><div class="line" data-t="324"><button class="ts" data-t="324">5:24</button><div class="lb"><div class="lnl">Voor de schoonmaak en productie moet u Nederlands spreken op A2 niveau.</div><div class="lzh">清潔與生產工作需具備荷蘭語A2程度。</div></div></div><div class="line" data-t="331"><button class="ts" data-t="331">5:31</button><div class="lb"><div class="lnl">Voor de beveiliging op B1 niveau.</div><div class="lzh">保全工作需具備B1程度。</div></div></div><div class="line" data-t="335"><button class="ts" data-t="335">5:35</button><div class="lb"><div class="lnl">Ook is het fijn als u ervaring heeft met het werk, maar dat hoeft niet.</div><div class="lzh">如果您有相關經驗會更好，但不是必要條件。</div></div></div><div class="line" data-t="340"><button class="ts" data-t="340">5:40</button><div class="lb"><div class="lnl">U kunt bij ons ook een avondopleiding volgen tot leidinggevende.</div><div class="lzh">您也可以在我們這裡參加晚間領導職培訓。</div></div></div><div class="line" data-t="347"><button class="ts" data-t="347">5:47</button><div class="lb"><div class="lnl">Deze opleiding duurt vier maanden.</div><div class="lzh">這個培訓課程為期四個月。</div></div></div><div class="line" data-t="350"><button class="ts" data-t="350">5:50</button><div class="lb"><div class="lnl">U leert bijvoorbeeld een werkplanning maken of werkroosters bijhouden.</div><div class="lzh">例如您會學習如何製作工作計劃表或管理工作班表。</div></div></div><div class="line" data-t="358"><button class="ts" data-t="358">5:58</button><div class="lb"><div class="lnl">Tijdens uw opleiding loopt u ook stage. U oefent dan wat u heeft geleerd.</div><div class="lzh">培訓期間您也會實習，練習所學的內容。</div></div></div><div class="line" data-t="366"><button class="ts" data-t="366">6:06</button><div class="lb"><div class="lnl">Deze stage duurt twee maanden.</div><div class="lzh">實習為期兩個月。</div></div></div><div class="line" data-t="370"><button class="ts" data-t="370">6:10</button><div class="lb"><div class="lnl">Dus de opleiding duurt in totaal vier maanden.</div><div class="lzh">所以整個培訓共計四個月。</div></div></div><div class="line" data-t="376"><button class="ts" data-t="376">6:16</button><div class="lb"><div class="lnl">Na de opleiding kunt u aan het werk als leidinggevende.</div><div class="lzh">完成培訓後，您可以成為一名領導者開始工作。</div></div></div><div class="line" data-t="381"><button class="ts" data-t="381">6:21</button><div class="lb"><div class="lnl">Heeft u interesse in deze opleiding, geeft u dat dan aan bij uw kennismakingsgesprek.</div><div class="lzh">如果您對這個培訓有興趣，請在面談時告訴我們。</div></div></div><div class="line" data-t="387"><button class="ts" data-t="387">6:27</button><div class="lb"><div class="lnl">Tot ziens bij het gesprek.</div><div class="lzh">面談時見。</div></div></div><div class="q" data-qid="3" data-ans="0">
               <div class="q-h"><span class="qn">考題 3</span>
                 <span class="qt">Hoe krijgt Yassir de datum en tijd van het gesprek?</span><span class="recon">題幹重建</span></div>
               <div class="q-body">
                 <div class="q-zh">Yassir 會怎麼收到面談的日期與時間？</div>
                 <div class="opt"><span class="ol">A.</span>Via een e-mail <span class="ozh">透過電子郵件</span></div><div class="opt"><span class="ol">B.</span>Via een brief <span class="ozh">透過信件</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="300"><button class="ts" data-t="300">5:00</button><div><div class="slnl">En u heeft binnenkort een kennismakingsgesprek.</div><div class="slzh">您近期會有一場初次面談。</div></div></div><div class="sl" data-t="307"><button class="ts" data-t="307">5:07</button><div><div class="slnl">U krijgt daarvoor een uitnodiging per e-mail met de datum en de tijd.</div><div class="slzh">為此您會收到一封電子郵件邀請，上面有日期和時間。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>影片說「per e-mail ... met de datum en de tijd」——日期時間透過 e-mail 通知。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>brief（信件）只是干擾選項，原文只出現 e-mail。</div>
                 </div>
-              </div></div><div class="q" data-ans="1">
+              </div></div><div class="q" data-qid="4" data-ans="1">
               <div class="q-h"><span class="qn">考題 4</span>
                 <span class="qt">Wat heeft Yassir nodig om in de schoonmaak te werken?</span><span class="recon">題幹重建</span></div>
               <div class="q-body">
                 <div class="q-zh">Yassir 要做清潔工作需要具備什麼？</div>
                 <div class="opt"><span class="ol">A.</span>Ervaring met schoonmaakwerk <span class="ozh">清潔工作的經驗</span></div><div class="opt"><span class="ol">B.</span>Nederlands spreken op A2 niveau <span class="ozh">荷蘭語達 A2 程度</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="324"><button class="ts" data-t="324">5:24</button><div><div class="slnl">Voor de schoonmaak en productie moet u Nederlands spreken op A2 niveau.</div><div class="slzh">清潔和生產的工作，您必須會說 A2 程度的荷蘭語。</div></div></div><div class="sl" data-t="335"><button class="ts" data-t="335">5:35</button><div><div class="slnl">Ook is het fijn als u ervaring heeft met het werk, maar dat hoeft niet.</div><div class="slzh">有相關工作經驗也不錯，但這不是必須的。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>清潔工作「moet（必須）A2 荷語」；經驗則是「fijn ... maar dat hoeft niet（有也好，但非必要）」。必須的是 A2。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>「ervaring」聽起來很像條件，但緊接著的 hoeft niet 把它否定成「非必要」。</div>
                 </div>
-              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 3</span><span class="st">電話語音報路</span><span class="sk">語音留言</span></div><div class="scene-ctx">Roman 要去市政廳。朋友 Erik 在他的語音信箱留言，告訴他怎麼走、在哪停車。<br><span class="nl">Roman luistert naar een voicemail van Erik</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">linksaf / rechtsaf / rechtdoor</td><td class="zh">左轉／右轉／直走</td></tr><tr><td class="nl">de brug</td><td class="zh">橋</td></tr><tr><td class="nl">de parkeerplaats voor bezoekers</td><td class="zh">訪客停車場</td></tr><tr><td class="nl">de parkeergarage</td><td class="zh">室內停車場</td></tr><tr><td class="nl">aan de overkant van de weg</td><td class="zh">在馬路對面</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Bij ... ga je naar rechts</span> — 到了……你往右<span class="pnote">報路：bij + 地標 + 方向。</span></div><div class="pat"><span class="pnl">... is het handigste</span> — ……最方便<span class="pnote">最高級 + denk ik（我覺得）= 給建議。</span></div></div><div class="dlg-h">📺 語音留言原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="715"><button class="ts" data-t="715">11:55</button><div class="lb"><div class="lnl">Hey, Roman. Ik had een bericht gestuurd waar het gemeentehuis precies was.</div><div class="lzh">嗨，Roman。我之前有傳訊息告訴你市公所確切的位置。</div></div></div><div class="line" data-t="721"><button class="ts" data-t="721">12:01</button><div class="lb"><div class="lnl">Nou, je bent er niet, dus ik spreek het wel even in.</div><div class="lzh">嗯，你不在，所以我就錄音留言了。</div></div></div><div class="line" data-t="725"><button class="ts" data-t="725">12:05</button><div class="lb"><div class="lnl">Oké, vanaf jouw huis eerst moet je linksaf.</div><div class="lzh">好的，從你家開始，先左轉。</div></div></div><div class="line" data-t="729"><button class="ts" data-t="729">12:09</button><div class="lb"><div class="lnl">En dan bij de groene brug ga je naar rechts. Dan een stukje rechtdoor en dan naar rechts.</div><div class="lzh">然後到了綠色的橋時右轉。往前稍微走一段再右轉。</div></div></div><div class="line" data-t="734"><button class="ts" data-t="734">12:14</button><div class="lb"><div class="lnl">En bij de supermarkt ga je rechtsaf. Je weet wel, hè?</div><div class="lzh">在超市那裡右轉。你知道吧？</div></div></div><div class="line" data-t="738"><button class="ts" data-t="738">12:18</button><div class="lb"><div class="lnl">Dan zie je aan de rechterkant een groot gebouw. Dat is het nog niet.</div><div class="lzh">然後你會在右手邊看到一棟大樓。那還不是目的地。</div></div></div><div class="line" data-t="742"><button class="ts" data-t="742">12:22</button><div class="lb"><div class="lnl">En daarachter staat een blauw gebouw. Dat is hem wel.</div><div class="lzh">後面有一棟藍色建築。那才是。</div></div></div><div class="line" data-t="747"><button class="ts" data-t="747">12:27</button><div class="lb"><div class="lnl">En daar is links een parkeerplaats voor bezoekers.</div><div class="lzh">那裡左邊有訪客停車場。</div></div></div><div class="line" data-t="751"><button class="ts" data-t="751">12:31</button><div class="lb"><div class="lnl">Maar je kunt ook rechts de parkeergarage inrijden.</div><div class="lzh">不過你也可以從右邊開進停車場。</div></div></div><div class="line" data-t="755"><button class="ts" data-t="755">12:35</button><div class="lb"><div class="lnl">Of aan de overkant van de weg parkeren.</div><div class="lzh">或者你可以停在馬路對面。</div></div></div><div class="line" data-t="758"><button class="ts" data-t="758">12:38</button><div class="lb"><div class="lnl">Maar die parkeerplaats voor bezoekers is wel het handigste, denk ik.</div><div class="lzh">但我覺得訪客停車場會比較方便。</div></div></div><div class="q" data-ans="1">
+              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 3</span><span class="st">電話語音報路</span><span class="sk">語音留言</span></div><div class="scene-ctx">Roman 要去市政廳。朋友 Erik 在他的語音信箱留言，告訴他怎麼走、在哪停車。<br><span class="nl">Roman luistert naar een voicemail van Erik</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">linksaf / rechtsaf / rechtdoor</td><td class="zh">左轉／右轉／直走</td></tr><tr><td class="nl">de brug</td><td class="zh">橋</td></tr><tr><td class="nl">de parkeerplaats voor bezoekers</td><td class="zh">訪客停車場</td></tr><tr><td class="nl">de parkeergarage</td><td class="zh">室內停車場</td></tr><tr><td class="nl">aan de overkant van de weg</td><td class="zh">在馬路對面</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Bij ... ga je naar rechts</span> — 到了……你往右<span class="pnote">報路：bij + 地標 + 方向。</span></div><div class="pat"><span class="pnl">... is het handigste</span> — ……最方便<span class="pnote">最高級 + denk ik（我覺得）= 給建議。</span></div></div><div class="dlg-h">📺 語音留言原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="715"><button class="ts" data-t="715">11:55</button><div class="lb"><div class="lnl">Hey, Roman. Ik had een bericht gestuurd waar het gemeentehuis precies was.</div><div class="lzh">嗨，Roman。我之前有傳訊息告訴你市公所確切的位置。</div></div></div><div class="line" data-t="721"><button class="ts" data-t="721">12:01</button><div class="lb"><div class="lnl">Nou, je bent er niet, dus ik spreek het wel even in.</div><div class="lzh">嗯，你不在，所以我就錄音留言了。</div></div></div><div class="line" data-t="725"><button class="ts" data-t="725">12:05</button><div class="lb"><div class="lnl">Oké, vanaf jouw huis eerst moet je linksaf.</div><div class="lzh">好的，從你家開始，先左轉。</div></div></div><div class="line" data-t="729"><button class="ts" data-t="729">12:09</button><div class="lb"><div class="lnl">En dan bij de groene brug ga je naar rechts. Dan een stukje rechtdoor en dan naar rechts.</div><div class="lzh">然後到了綠色的橋時右轉。往前稍微走一段再右轉。</div></div></div><div class="line" data-t="734"><button class="ts" data-t="734">12:14</button><div class="lb"><div class="lnl">En bij de supermarkt ga je rechtsaf. Je weet wel, hè?</div><div class="lzh">在超市那裡右轉。你知道吧？</div></div></div><div class="line" data-t="738"><button class="ts" data-t="738">12:18</button><div class="lb"><div class="lnl">Dan zie je aan de rechterkant een groot gebouw. Dat is het nog niet.</div><div class="lzh">然後你會在右手邊看到一棟大樓。那還不是目的地。</div></div></div><div class="line" data-t="742"><button class="ts" data-t="742">12:22</button><div class="lb"><div class="lnl">En daarachter staat een blauw gebouw. Dat is hem wel.</div><div class="lzh">後面有一棟藍色建築。那才是。</div></div></div><div class="line" data-t="747"><button class="ts" data-t="747">12:27</button><div class="lb"><div class="lnl">En daar is links een parkeerplaats voor bezoekers.</div><div class="lzh">那裡左邊有訪客停車場。</div></div></div><div class="line" data-t="751"><button class="ts" data-t="751">12:31</button><div class="lb"><div class="lnl">Maar je kunt ook rechts de parkeergarage inrijden.</div><div class="lzh">不過你也可以從右邊開進停車場。</div></div></div><div class="line" data-t="755"><button class="ts" data-t="755">12:35</button><div class="lb"><div class="lnl">Of aan de overkant van de weg parkeren.</div><div class="lzh">或者你可以停在馬路對面。</div></div></div><div class="line" data-t="758"><button class="ts" data-t="758">12:38</button><div class="lb"><div class="lnl">Maar die parkeerplaats voor bezoekers is wel het handigste, denk ik.</div><div class="lzh">但我覺得訪客停車場會比較方便。</div></div></div><div class="q" data-qid="5" data-ans="1">
               <div class="q-h"><span class="qn">考題 5</span>
                 <span class="qt">Wat moet hij doen bij de groene brug?</span></div>
               <div class="q-body">
                 <div class="q-zh">到了綠色的橋，他要怎麼走？</div>
                 <div class="opt"><span class="ol">A.</span>Hij moet linksaf <span class="ozh">左轉</span></div><div class="opt"><span class="ol">B.</span>Hij moet rechtsaf <span class="ozh">右轉</span></div><div class="opt"><span class="ol">C.</span>Hij moet rechtdoor <span class="ozh">直走</span></div><div class="opt"><span class="ol">D.</span>Hij moet parkeren <span class="ozh">停車</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="729"><button class="ts" data-t="729">12:09</button><div><div class="slnl">En dan bij de groene brug ga je naar rechts.</div><div class="slzh">然後到綠色的橋，你往右。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>「bij de groene brug ga je naar rechts」——綠橋處往右（rechtsaf）。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>linksaf 是「從家裡出發」的第一步；rechtdoor 是綠橋「之後」的動作。報路題要鎖定問的是哪個地標。</div>
                 </div>
-              </div></div><div class="q" data-ans="1">
+              </div></div><div class="q" data-qid="6" data-ans="1">
               <div class="q-h"><span class="qn">考題 6</span>
                 <span class="qt">Waar kan hij het beste parkeren?</span></div>
               <div class="q-body">
                 <div class="q-zh">他最好停在哪裡？</div>
                 <div class="opt"><span class="ol">A.</span>In de parkeergarage <span class="ozh">室內停車場</span></div><div class="opt"><span class="ol">B.</span>Op de parkeerplaats voor bezoekers <span class="ozh">訪客停車場</span></div><div class="opt"><span class="ol">C.</span>Aan de overkant van de weg <span class="ozh">馬路對面</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="758"><button class="ts" data-t="758">12:38</button><div><div class="slnl">Maar die parkeerplaats voor bezoekers is wel het handigste, denk ik.</div><div class="slzh">不過我覺得訪客停車場最方便。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>三個地方都能停，但 Erik 說「parkeerplaats voor bezoekers ... het handigste（最方便）」。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>室內停車場、馬路對面 都是「也可以（ook）」的選項。題目問「最好」，要聽 het handigste。</div>
                 </div>
-              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 4</span><span class="st">新工作：怎麼訂用品</span><span class="sk">對話</span></div><div class="scene-ctx">Nabil 有了新工作。老闆告訴他需要訂用品（例如筆）時該怎麼做。<br><span class="nl">De baas van Nabil legt uit hoe je materiaal bestelt</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">materiaal bestellen</td><td class="zh">訂購用品／物料</td></tr><tr><td class="nl">de afdeling Inkoop</td><td class="zh">採購部門</td></tr><tr><td class="nl">het formulier invullen</td><td class="zh">填表格</td></tr><tr><td class="nl">inleveren</td><td class="zh">繳交、送交</td></tr><tr><td class="nl">het postvak</td><td class="zh">信件格、信箱格</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Als je iets wilt bestellen, vul je ... in</span> — 如果你想訂東西，就填……<span class="pnote">als 子句在前，主句動詞緊接其後。</span></div><div class="pat"><span class="pnl">Inkoop zit op de tweede verdieping</span> — 採購部在三樓<span class="pnote">zitten 口語可表「位於」。</span></div></div><div class="dlg-h">📺 對話原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="1005"><button class="ts" data-t="1005">16:45</button><div class="lb"><div class="lnl">Oké, Nabil. Wat handige informatie voor als je materiaal wilt bestellen.</div><div class="lzh">好，納比爾。如果你想訂購材料，有一些實用資訊。</div></div></div><div class="line" data-t="1010"><button class="ts" data-t="1010">16:50</button><div class="lb"><div class="lnl">Zoals pennen. De afdeling Inkoop doet de bestelling.</div><div class="lzh">像是筆。採購部門會負責訂購。</div></div></div><div class="line" data-t="1014"><button class="ts" data-t="1014">16:54</button><div class="lb"><div class="lnl">Inkoop zit op de tweede verdieping, kamer 2.3.</div><div class="lzh">採購部門在二樓，2.3號房間。</div></div></div><div class="line" data-t="1019"><button class="ts" data-t="1019">16:59</button><div class="lb"><div class="lnl">Naast verkoop in 2.2. Je kijkt zo naar binnen vanuit de kantine.</div><div class="lzh">在2.2的銷售旁邊。你從餐廳可以直接看到裡面。</div></div></div><div class="line" data-t="1024"><button class="ts" data-t="1024">17:04</button><div class="lb"><div class="lnl">Als je iets wilt bestellen, vul je dit formulier in. Dat lever je dan in bij Inkoop.</div><div class="lzh">如果你想訂購東西，填寫這份表格。然後交給採購部門。</div></div></div><div class="line" data-t="1030"><button class="ts" data-t="1030">17:10</button><div class="lb"><div class="lnl">Als de bestelling binnen is, hoor je dat van Inkoop.</div><div class="lzh">訂單進來後，你會從採購部門那裡聽到消息。</div></div></div><div class="line" data-t="1034"><button class="ts" data-t="1034">17:14</button><div class="lb"><div class="lnl">Meestal bellen ze even. Of ze sturen een mailtje.</div><div class="lzh">通常他們會打電話確認，或者寄電子郵件。</div></div></div><div class="line" data-t="1038"><button class="ts" data-t="1038">17:18</button><div class="lb"><div class="lnl">En als het een klein pakket is, leggen ze dat meteen in je postvak.</div><div class="lzh">如果是小包裹，他們會直接放到你的郵件箱裡。</div></div></div><div class="q" data-ans="1">
+              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 4</span><span class="st">新工作：怎麼訂用品</span><span class="sk">對話</span></div><div class="scene-ctx">Nabil 有了新工作。老闆告訴他需要訂用品（例如筆）時該怎麼做。<br><span class="nl">De baas van Nabil legt uit hoe je materiaal bestelt</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">materiaal bestellen</td><td class="zh">訂購用品／物料</td></tr><tr><td class="nl">de afdeling Inkoop</td><td class="zh">採購部門</td></tr><tr><td class="nl">het formulier invullen</td><td class="zh">填表格</td></tr><tr><td class="nl">inleveren</td><td class="zh">繳交、送交</td></tr><tr><td class="nl">het postvak</td><td class="zh">信件格、信箱格</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Als je iets wilt bestellen, vul je ... in</span> — 如果你想訂東西，就填……<span class="pnote">als 子句在前，主句動詞緊接其後。</span></div><div class="pat"><span class="pnl">Inkoop zit op de tweede verdieping</span> — 採購部在三樓<span class="pnote">zitten 口語可表「位於」。</span></div></div><div class="dlg-h">📺 對話原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="1005"><button class="ts" data-t="1005">16:45</button><div class="lb"><div class="lnl">Oké, Nabil. Wat handige informatie voor als je materiaal wilt bestellen.</div><div class="lzh">好，納比爾。如果你想訂購材料，有一些實用資訊。</div></div></div><div class="line" data-t="1010"><button class="ts" data-t="1010">16:50</button><div class="lb"><div class="lnl">Zoals pennen. De afdeling Inkoop doet de bestelling.</div><div class="lzh">像是筆。採購部門會負責訂購。</div></div></div><div class="line" data-t="1014"><button class="ts" data-t="1014">16:54</button><div class="lb"><div class="lnl">Inkoop zit op de tweede verdieping, kamer 2.3.</div><div class="lzh">採購部門在二樓，2.3號房間。</div></div></div><div class="line" data-t="1019"><button class="ts" data-t="1019">16:59</button><div class="lb"><div class="lnl">Naast verkoop in 2.2. Je kijkt zo naar binnen vanuit de kantine.</div><div class="lzh">在2.2的銷售旁邊。你從餐廳可以直接看到裡面。</div></div></div><div class="line" data-t="1024"><button class="ts" data-t="1024">17:04</button><div class="lb"><div class="lnl">Als je iets wilt bestellen, vul je dit formulier in. Dat lever je dan in bij Inkoop.</div><div class="lzh">如果你想訂購東西，填寫這份表格。然後交給採購部門。</div></div></div><div class="line" data-t="1030"><button class="ts" data-t="1030">17:10</button><div class="lb"><div class="lnl">Als de bestelling binnen is, hoor je dat van Inkoop.</div><div class="lzh">訂單進來後，你會從採購部門那裡聽到消息。</div></div></div><div class="line" data-t="1034"><button class="ts" data-t="1034">17:14</button><div class="lb"><div class="lnl">Meestal bellen ze even. Of ze sturen een mailtje.</div><div class="lzh">通常他們會打電話確認，或者寄電子郵件。</div></div></div><div class="line" data-t="1038"><button class="ts" data-t="1038">17:18</button><div class="lb"><div class="lnl">En als het een klein pakket is, leggen ze dat meteen in je postvak.</div><div class="lzh">如果是小包裹，他們會直接放到你的郵件箱裡。</div></div></div><div class="q" data-qid="7" data-ans="1">
               <div class="q-h"><span class="qn">考題 7</span>
                 <span class="qt">Waar zit de afdeling Inkoop?</span></div>
               <div class="q-body">
                 <div class="q-zh">採購部（Inkoop）在哪裡？</div>
                 <div class="opt"><span class="ol">A.</span>In kamer 2.2 <span class="ozh">2.2 室</span></div><div class="opt"><span class="ol">B.</span>In kamer 2.3 naast de kantine <span class="ozh">2.3 室，員工餐廳旁</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="1014"><button class="ts" data-t="1014">16:54</button><div><div class="slnl">Inkoop zit op de tweede verdieping, kamer 2.3.</div><div class="slzh">採購部在三樓，2.3 室。</div></div></div><div class="sl" data-t="1019"><button class="ts" data-t="1019">16:59</button><div><div class="slnl">Je kijkt zo naar binnen vanuit de kantine.</div><div class="slzh">你從員工餐廳就能看進去。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>採購部在 kamer 2.3，從員工餐廳就看得到。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>2.2 室是 Verkoop（銷售部），就在採購部隔壁——兩個房號很接近，要聽清楚。</div>
                 </div>
-              </div></div><div class="q" data-ans="0">
+              </div></div><div class="q" data-qid="8" data-ans="0">
               <div class="q-h"><span class="qn">考題 8</span>
                 <span class="qt">Hoe moet Nabil iets bestellen?</span><span class="recon">題幹重建</span></div>
               <div class="q-body">
                 <div class="q-zh">Nabil 要訂東西時該怎麼做？</div>
                 <div class="opt"><span class="ol">A.</span>Even langslopen bij de afdeling Inkoop <span class="ozh">親自走一趟採購部</span></div><div class="opt"><span class="ol">B.</span>De afdeling Inkoop bellen met de bestelling <span class="ozh">打電話給採購部下訂</span></div><div class="opt"><span class="ol">C.</span>De bestelling naar de afdeling Inkoop mailen <span class="ozh">把訂單 email 給採購部</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="1024"><button class="ts" data-t="1024">17:04</button><div><div class="slnl">Als je iets wilt bestellen, vul je dit formulier in.</div><div class="slzh">如果你想訂東西，就填這張表格。</div></div></div><div class="sl" data-t="1024"><button class="ts" data-t="1024">17:04</button><div><div class="slnl">Dat lever je dan in bij Inkoop.</div><div class="slzh">然後把表格送去採購部。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>下訂流程是：填表格 →「inleveren bij Inkoop」親自送去採購部。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>打電話、寄 email 是「採購部通知你貨到了」的方式（bellen / mailtje），不是你下訂的方式——方向相反。</div>
                 </div>
-              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 5</span><span class="st">同學聊怎麼準備考試</span><span class="sk">對話</span></div><div class="scene-ctx">Julia 在上廚師課程。她的同學 Mira 和 Chris 在聊接下來一堆考試怎麼準備。<br><span class="nl">Mira en Chris praten over de examens</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">een drukke tijd</td><td class="zh">忙碌的時期</td></tr><tr><td class="nl">een planning maken</td><td class="zh">做規劃／排計畫</td></tr><tr><td class="nl">een tip geven</td><td class="zh">給建議、給訣竅</td></tr><tr><td class="nl">de vertraging</td><td class="zh">誤點、延誤</td></tr><tr><td class="nl">extra</td><td class="zh">額外的</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Zorg dat je eerst ...</span> — 你要先確保／先把……做好<span class="pnote">zorg dat = 給建議的祈使句。</span></div><div class="pat"><span class="pnl">Als ik je nog een tip mag geven, ...</span> — 容我再給你一個建議……<span class="pnote">帶出「第二個」建議——順序題的關鍵。</span></div></div><div class="dlg-h">📺 對話原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="1266"><button class="ts" data-t="1266">21:06</button><div class="lb"><div class="lnl">Tjee, wat een drukke tijd, hè, met al die examens. Vijf in totaal.</div><div class="lzh">哇，真是忙碌的時期，考試好多，總共五場。</div></div></div><div class="line" data-t="1271"><button class="ts" data-t="1271">21:11</button><div class="lb"><div class="lnl">Ja, volgende week hebben we alleen al drie examens.</div><div class="lzh">是啊，下週我們有三場考試。</div></div></div><div class="line" data-t="1276"><button class="ts" data-t="1276">21:16</button><div class="lb"><div class="lnl">En de week daarna twee. Ik weet echt niet hoe ik dat allemaal moet leren.</div><div class="lzh">隔週還有兩場。我真的不知道要怎麼念完這些。</div></div></div><div class="line" data-t="1281"><button class="ts" data-t="1281">21:21</button><div class="lb"><div class="lnl">Nou, weet je, zorg dat je eerst een goede planning maakt.</div><div class="lzh">嗯，你知道嗎，先做好良好的規劃。</div></div></div><div class="line" data-t="1285"><button class="ts" data-t="1285">21:25</button><div class="lb"><div class="lnl">Dat helpt mij altijd heel goed. Ja, dat is misschien wel handig.</div><div class="lzh">這對我總是很有幫助。是的，這或許很方便。</div></div></div><div class="line" data-t="1289"><button class="ts" data-t="1289">21:29</button><div class="lb"><div class="lnl">En als ik je dan nog een tip mag geven: ga gewoon leren in de bus en in de trein.</div><div class="lzh">如果我還能給你一個建議：就在公車和火車上學習。</div></div></div><div class="line" data-t="1296"><button class="ts" data-t="1296">21:36</button><div class="lb"><div class="lnl">Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.</div><div class="lzh">我的意思是，那段時間你本來就是在等待，你可以做很多額外的事情。</div></div></div><div class="line" data-t="1301"><button class="ts" data-t="1301">21:41</button><div class="lb"><div class="lnl">Vooral als je zo vaak vertraging hebt. Dat is de goeie, zeg. Dat ga ik doen.</div><div class="lzh">尤其是當你經常遇到延誤。這真是不錯的主意，我就這麼做。</div></div></div><div class="q" data-ans="2">
+              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 5</span><span class="st">同學聊怎麼準備考試</span><span class="sk">對話</span></div><div class="scene-ctx">Julia 在上廚師課程。她的同學 Mira 和 Chris 在聊接下來一堆考試怎麼準備。<br><span class="nl">Mira en Chris praten over de examens</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">een drukke tijd</td><td class="zh">忙碌的時期</td></tr><tr><td class="nl">een planning maken</td><td class="zh">做規劃／排計畫</td></tr><tr><td class="nl">een tip geven</td><td class="zh">給建議、給訣竅</td></tr><tr><td class="nl">de vertraging</td><td class="zh">誤點、延誤</td></tr><tr><td class="nl">extra</td><td class="zh">額外的</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Zorg dat je eerst ...</span> — 你要先確保／先把……做好<span class="pnote">zorg dat = 給建議的祈使句。</span></div><div class="pat"><span class="pnl">Als ik je nog een tip mag geven, ...</span> — 容我再給你一個建議……<span class="pnote">帶出「第二個」建議——順序題的關鍵。</span></div></div><div class="dlg-h">📺 對話原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="1266"><button class="ts" data-t="1266">21:06</button><div class="lb"><div class="lnl">Tjee, wat een drukke tijd, hè, met al die examens. Vijf in totaal.</div><div class="lzh">哇，真是忙碌的時期，考試好多，總共五場。</div></div></div><div class="line" data-t="1271"><button class="ts" data-t="1271">21:11</button><div class="lb"><div class="lnl">Ja, volgende week hebben we alleen al drie examens.</div><div class="lzh">是啊，下週我們有三場考試。</div></div></div><div class="line" data-t="1276"><button class="ts" data-t="1276">21:16</button><div class="lb"><div class="lnl">En de week daarna twee. Ik weet echt niet hoe ik dat allemaal moet leren.</div><div class="lzh">隔週還有兩場。我真的不知道要怎麼念完這些。</div></div></div><div class="line" data-t="1281"><button class="ts" data-t="1281">21:21</button><div class="lb"><div class="lnl">Nou, weet je, zorg dat je eerst een goede planning maakt.</div><div class="lzh">嗯，你知道嗎，先做好良好的規劃。</div></div></div><div class="line" data-t="1285"><button class="ts" data-t="1285">21:25</button><div class="lb"><div class="lnl">Dat helpt mij altijd heel goed. Ja, dat is misschien wel handig.</div><div class="lzh">這對我總是很有幫助。是的，這或許很方便。</div></div></div><div class="line" data-t="1289"><button class="ts" data-t="1289">21:29</button><div class="lb"><div class="lnl">En als ik je dan nog een tip mag geven: ga gewoon leren in de bus en in de trein.</div><div class="lzh">如果我還能給你一個建議：就在公車和火車上學習。</div></div></div><div class="line" data-t="1296"><button class="ts" data-t="1296">21:36</button><div class="lb"><div class="lnl">Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.</div><div class="lzh">我的意思是，那段時間你本來就是在等待，你可以做很多額外的事情。</div></div></div><div class="line" data-t="1301"><button class="ts" data-t="1301">21:41</button><div class="lb"><div class="lnl">Vooral als je zo vaak vertraging hebt. Dat is de goeie, zeg. Dat ga ik doen.</div><div class="lzh">尤其是當你經常遇到延誤。這真是不錯的主意，我就這麼做。</div></div></div><div class="q" data-qid="9" data-ans="2">
               <div class="q-h"><span class="qn">考題 9</span>
                 <span class="qt">Welke tip geeft Chris als eerste aan Mira?</span></div>
               <div class="q-body">
                 <div class="q-zh">Chris 給 Mira 的「第一個」建議是什麼？</div>
                 <div class="opt"><span class="ol">A.</span>Ga extra veel leren <span class="ozh">多花時間讀書</span></div><div class="opt"><span class="ol">B.</span>Leer in de bus en in de trein <span class="ozh">在公車和火車上讀書</span></div><div class="opt"><span class="ol">C.</span>Maak een planning <span class="ozh">做一份規劃</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="1281"><button class="ts" data-t="1281">21:21</button><div><div class="slnl">Nou, weet je, zorg dat je eerst een goede planning maakt.</div><div class="slzh">你知道嗎，先做好一份規劃。</div></div></div><div class="sl" data-t="1289"><button class="ts" data-t="1289">21:29</button><div><div class="slnl">En als ik je dan nog een tip mag geven: ga leren in de bus en in de trein.</div><div class="slzh">容我再給你一個建議：在公車和火車上讀書。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>Chris 第一個說的是「先做好 planning」。第二個建議用「nog een tip」帶出來——所以那是第二個。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>在公車／火車上讀書 是第二個建議。題目問「als eerste（第一個）」，要聽順序詞 eerst / nog een。</div>
                 </div>
-              </div></div><div class="q" data-ans="0">
+              </div></div><div class="q" data-qid="10" data-ans="0">
               <div class="q-h"><span class="qn">考題 10</span>
                 <span class="qt">Wat zegt Chris over vertraging?</span></div>
               <div class="q-body">
                 <div class="q-zh">關於誤點，Chris 怎麼說？</div>
                 <div class="opt"><span class="ol">A.</span>Dan heb je extra tijd om te leren <span class="ozh">那你就有額外時間讀書</span></div><div class="opt"><span class="ol">B.</span>Dan heb je minder tijd om te leren <span class="ozh">那你讀書時間就變少</span></div><div class="opt"><span class="ol">C.</span>Dat je vaker vertraging hebt met de bus <span class="ozh">搭公車比較常誤點</span></div><div class="opt"><span class="ol">D.</span>Dat je vaker vertraging hebt met de trein <span class="ozh">搭火車比較常誤點</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="1296"><button class="ts" data-t="1296">21:36</button><div><div class="slnl">die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.</div><div class="slzh">反正那段時間你也在等。那你就能多做很多事。</div></div></div><div class="sl" data-t="1301"><button class="ts" data-t="1301">21:41</button><div><div class="slnl">Vooral als je zo vaak vertraging hebt.</div><div class="slzh">尤其當你那麼常遇到誤點的時候。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>Chris 把誤點講成「好事」：等車的時間拿來讀書，就有額外時間（extra tijd）。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>minder tijd（時間變少）正好相反；公車／火車哪個常誤點不是重點，他講的是「怎麼利用」誤點。</div>
                 </div>
-              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 6</span><span class="st">廣播路況報導</span><span class="sk">廣播</span></div><div class="scene-ctx">Mario 聽廣播，裡面在報高速公路的塞車（file）路況，最後還有一則火車的消息。<br><span class="nl">Mario hoort een bericht over files op de radio</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">de file</td><td class="zh">塞車、車陣</td></tr><tr><td class="nl">de snelweg</td><td class="zh">高速公路</td></tr><tr><td class="nl">het ongeluk</td><td class="zh">車禍、意外</td></tr><tr><td class="nl">de vrachtwagen</td><td class="zh">貨車、卡車</td></tr><tr><td class="nl">doorrijden</td><td class="zh">繼續行駛</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Er staat een file van ... kilometer</span> — 有……公里長的車陣<span class="pnote">staan 用於塞車「停在那裡」。</span></div><div class="pat"><span class="pnl">U kunt met de ... reizen</span> — 您可以搭……<span class="pnote">reizen = 搭乘交通工具旅行。</span></div></div><div class="dlg-h">📺 廣播原文 <span>— 考試播放後作答</span></div><div class="line" data-t="1460"><button class="ts" data-t="1460">24:20</button><div class="lb"><div class="lnl">En dan nu de files.</div><div class="lzh">現在來看塞車情況。</div></div></div><div class="line" data-t="1464"><button class="ts" data-t="1464">24:24</button><div class="lb"><div class="lnl">Op de snelweg A2 tussen Amsterdam en Utrecht staat vijf kilometer file.</div><div class="lzh">在阿姆斯特丹和烏特勒支之間的A2高速公路上有五公里長的塞車。</div></div></div><div class="line" data-t="1470"><button class="ts" data-t="1470">24:30</button><div class="lb"><div class="lnl">De oorzaak is een ongeluk met drie auto's.</div><div class="lzh">原因是一場涉及三輛車的事故。</div></div></div><div class="line" data-t="1475"><button class="ts" data-t="1475">24:35</button><div class="lb"><div class="lnl">Bij Rotterdam op de snelweg A4 naar Delft staat een kapotte vrachtwagen.</div><div class="lzh">在鹿特丹附近通往代爾夫特的A4高速公路上有一輛壞掉的貨車。</div></div></div><div class="line" data-t="1481"><button class="ts" data-t="1481">24:41</button><div class="lb"><div class="lnl">Daarom staat er nu een file van vier kilometer.</div><div class="lzh">所以現在造成四公里的塞車。</div></div></div><div class="line" data-t="1484"><button class="ts" data-t="1484">24:44</button><div class="lb"><div class="lnl">Over een half uur zal het verkeer weer kunnen doorrijden.</div><div class="lzh">半小時後交通應該可以恢復通行。</div></div></div><div class="line" data-t="1490"><button class="ts" data-t="1490">24:50</button><div class="lb"><div class="lnl">De laatste file staat op de A50 bij Apeldoorn.</div><div class="lzh">最後一個塞車在阿佩爾多爾恩附近的A50高速公路。</div></div></div><div class="line" data-t="1494"><button class="ts" data-t="1494">24:54</button><div class="lb"><div class="lnl">Daar is een vrachtwagen met eieren omgevallen.</div><div class="lzh">那裡有一輛裝有雞蛋的貨車翻覆了。</div></div></div><div class="line" data-t="1498"><button class="ts" data-t="1498">24:58</button><div class="lb"><div class="lnl">De vrachtwagen en de eieren liggen op de weg. De weg wordt nu schoongemaakt.</div><div class="lzh">貨車和雞蛋散落在路上，現在正在清理。</div></div></div><div class="line" data-t="1504"><button class="ts" data-t="1504">25:04</button><div class="lb"><div class="lnl">Er staat een file van tien kilometer.</div><div class="lzh">塞車長度有十公里。</div></div></div><div class="line" data-t="1509"><button class="ts" data-t="1509">25:09</button><div class="lb"><div class="lnl">Ten slotte nog een bericht voor mensen die met de trein reizen.</div><div class="lzh">最後給搭火車的人一則消息。</div></div></div><div class="line" data-t="1513"><button class="ts" data-t="1513">25:13</button><div class="lb"><div class="lnl">Tussen de stations Arnhem en Utrecht rijden geen treinen.</div><div class="lzh">在阿納姆和烏特勒支之間的車站間沒有火車行駛。</div></div></div><div class="line" data-t="1518"><button class="ts" data-t="1518">25:18</button><div class="lb"><div class="lnl">U kunt met de NS-bussen reizen. Tot zover de files.</div><div class="lzh">您可以搭乘NS巴士。塞車資訊到此為止。</div></div></div><div class="q" data-ans="2">
+              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 6</span><span class="st">廣播路況報導</span><span class="sk">廣播</span></div><div class="scene-ctx">Mario 聽廣播，裡面在報高速公路的塞車（file）路況，最後還有一則火車的消息。<br><span class="nl">Mario hoort een bericht over files op de radio</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">de file</td><td class="zh">塞車、車陣</td></tr><tr><td class="nl">de snelweg</td><td class="zh">高速公路</td></tr><tr><td class="nl">het ongeluk</td><td class="zh">車禍、意外</td></tr><tr><td class="nl">de vrachtwagen</td><td class="zh">貨車、卡車</td></tr><tr><td class="nl">doorrijden</td><td class="zh">繼續行駛</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Er staat een file van ... kilometer</span> — 有……公里長的車陣<span class="pnote">staan 用於塞車「停在那裡」。</span></div><div class="pat"><span class="pnl">U kunt met de ... reizen</span> — 您可以搭……<span class="pnote">reizen = 搭乘交通工具旅行。</span></div></div><div class="dlg-h">📺 廣播原文 <span>— 考試播放後作答</span></div><div class="line" data-t="1460"><button class="ts" data-t="1460">24:20</button><div class="lb"><div class="lnl">En dan nu de files.</div><div class="lzh">現在來看塞車情況。</div></div></div><div class="line" data-t="1464"><button class="ts" data-t="1464">24:24</button><div class="lb"><div class="lnl">Op de snelweg A2 tussen Amsterdam en Utrecht staat vijf kilometer file.</div><div class="lzh">在阿姆斯特丹和烏特勒支之間的A2高速公路上有五公里長的塞車。</div></div></div><div class="line" data-t="1470"><button class="ts" data-t="1470">24:30</button><div class="lb"><div class="lnl">De oorzaak is een ongeluk met drie auto's.</div><div class="lzh">原因是一場涉及三輛車的事故。</div></div></div><div class="line" data-t="1475"><button class="ts" data-t="1475">24:35</button><div class="lb"><div class="lnl">Bij Rotterdam op de snelweg A4 naar Delft staat een kapotte vrachtwagen.</div><div class="lzh">在鹿特丹附近通往代爾夫特的A4高速公路上有一輛壞掉的貨車。</div></div></div><div class="line" data-t="1481"><button class="ts" data-t="1481">24:41</button><div class="lb"><div class="lnl">Daarom staat er nu een file van vier kilometer.</div><div class="lzh">所以現在造成四公里的塞車。</div></div></div><div class="line" data-t="1484"><button class="ts" data-t="1484">24:44</button><div class="lb"><div class="lnl">Over een half uur zal het verkeer weer kunnen doorrijden.</div><div class="lzh">半小時後交通應該可以恢復通行。</div></div></div><div class="line" data-t="1490"><button class="ts" data-t="1490">24:50</button><div class="lb"><div class="lnl">De laatste file staat op de A50 bij Apeldoorn.</div><div class="lzh">最後一個塞車在阿佩爾多爾恩附近的A50高速公路。</div></div></div><div class="line" data-t="1494"><button class="ts" data-t="1494">24:54</button><div class="lb"><div class="lnl">Daar is een vrachtwagen met eieren omgevallen.</div><div class="lzh">那裡有一輛裝有雞蛋的貨車翻覆了。</div></div></div><div class="line" data-t="1498"><button class="ts" data-t="1498">24:58</button><div class="lb"><div class="lnl">De vrachtwagen en de eieren liggen op de weg. De weg wordt nu schoongemaakt.</div><div class="lzh">貨車和雞蛋散落在路上，現在正在清理。</div></div></div><div class="line" data-t="1504"><button class="ts" data-t="1504">25:04</button><div class="lb"><div class="lnl">Er staat een file van tien kilometer.</div><div class="lzh">塞車長度有十公里。</div></div></div><div class="line" data-t="1509"><button class="ts" data-t="1509">25:09</button><div class="lb"><div class="lnl">Ten slotte nog een bericht voor mensen die met de trein reizen.</div><div class="lzh">最後給搭火車的人一則消息。</div></div></div><div class="line" data-t="1513"><button class="ts" data-t="1513">25:13</button><div class="lb"><div class="lnl">Tussen de stations Arnhem en Utrecht rijden geen treinen.</div><div class="lzh">在阿納姆和烏特勒支之間的車站間沒有火車行駛。</div></div></div><div class="line" data-t="1518"><button class="ts" data-t="1518">25:18</button><div class="lb"><div class="lnl">U kunt met de NS-bussen reizen. Tot zover de files.</div><div class="lzh">您可以搭乘NS巴士。塞車資訊到此為止。</div></div></div><div class="q" data-qid="11" data-ans="2">
               <div class="q-h"><span class="qn">考題 11</span>
                 <span class="qt">Mario wil met de trein van Arnhem naar Utrecht. Wat kan hij het beste doen?</span></div>
               <div class="q-body">
                 <div class="q-zh">Mario 想搭火車從 Arnhem 到 Utrecht，他最好怎麼辦？</div>
                 <div class="opt"><span class="ol">A.</span>Met een taxi reizen <span class="ozh">搭計程車</span></div><div class="opt"><span class="ol">B.</span>Via Apeldoorn reizen <span class="ozh">繞道 Apeldoorn</span></div><div class="opt"><span class="ol">C.</span>Met de NS-bus reizen <span class="ozh">搭國鐵接駁巴士</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="1620"><button class="ts" data-t="1620">27:00</button><div><div class="slnl">Tussen de stations Arnhem en Utrecht rijden geen treinen.</div><div class="slzh">Arnhem 和 Utrecht 兩站之間沒有火車。</div></div></div><div class="sl" data-t="1624"><button class="ts" data-t="1624">27:04</button><div><div class="slnl">U kunt met de NS-bussen reizen.</div><div class="slzh">您可以改搭國鐵（NS）接駁巴士。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>這兩站之間沒火車，廣播建議改搭「NS-bussen（國鐵接駁巴士）」。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>計程車、Apeldoorn 都沒被提到，是干擾。Apeldoorn 只是另一段塞車的地名。</div>
                 </div>
-              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 7</span><span class="st">新工作：接電話的規矩</span><span class="sk">對話</span></div><div class="scene-ctx">Sophia 第一天上新工作。老闆教她接電話的規矩：找總監、找採購部、同事午休時各該怎麼處理。<br><span class="nl">De baas legt Sophia de telefoonregels uit</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">voorgaan</td><td class="zh">優先、最重要</td></tr><tr><td class="nl">de telefoon opnemen</td><td class="zh">接電話</td></tr><tr><td class="nl">doorverbinden</td><td class="zh">（電話）轉接</td></tr><tr><td class="nl">in de agenda kijken</td><td class="zh">查行事曆</td></tr><tr><td class="nl">de beller</td><td class="zh">來電者</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Als iemand ... wil spreken, dan ...</span> — 如果有人想找……，就……<span class="pnote">一連串「als ..., dan ...」規則句。</span></div><div class="pat"><span class="pnl">Vergeet ook niet ...</span> — 也別忘了……<span class="pnote">vergeet niet = 提醒、別忘記。</span></div></div><div class="dlg-h">📺 對話原文 <span>— 考試中此段重播 3 次，這裡只列一次</span></div><div class="line" data-t="1962"><button class="ts" data-t="1962">32:42</button><div class="lb"><div class="lnl">Nou, je eerste dag.</div><div class="lzh">嗯，妳的第一天。</div></div></div><div class="line" data-t="1965"><button class="ts" data-t="1965">32:45</button><div class="lb"><div class="lnl">Een belangrijke regel is dat de telefoon altijd voorgaat. Dus</div><div class="lzh">一個重要的規則是電話永遠優先。所以</div></div></div><div class="line" data-t="1970"><button class="ts" data-t="1970">32:50</button><div class="lb"><div class="lnl">ook al ben je nog zo druk, maakt niet uit. Je neemt hem altijd op. Als iemand de</div><div class="lzh">即使你再忙也沒關係，你總是要接電話。如果有人想和</div></div></div><div class="line" data-t="1976"><button class="ts" data-t="1976">32:56</button><div class="lb"><div class="lnl">directeur wil spreken, dan verbind je niet meteen door. Je kijkt dan eerst in zijn</div><div class="lzh">主管通話，你不能馬上轉接，你要先看他的</div></div></div><div class="line" data-t="1981"><button class="ts" data-t="1981">33:01</button><div class="lb"><div class="lnl">agenda. Ook vraag je waar het over gaat. Als hij dan tijd heeft, dan toets je een 1.</div><div class="lzh">行事曆。你也會問是關於什麼。如果他有時間，就按1。</div></div></div><div class="line" data-t="1988"><button class="ts" data-t="1988">33:08</button><div class="lb"><div class="lnl">Als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden. Je</div><div class="lzh">如果有人打電話到採購部，你可以馬上轉接。你</div></div></div><div class="line" data-t="1993"><button class="ts" data-t="1993">33:13</button><div class="lb"><div class="lnl">toetst dan de 4.</div><div class="lzh">按4。</div></div></div><div class="line" data-t="1995"><button class="ts" data-t="1995">33:15</button><div class="lb"><div class="lnl">Als Evelien pauze heeft, dan moet je ook voor haar de telefoon opnemen</div><div class="lzh">如果 Evelien 在休息，你也要幫她接電話。</div></div></div><div class="line" data-t="2001"><button class="ts" data-t="2001">33:21</button><div class="lb"><div class="lnl">en zo. Dan schrijf je de naam op van de beller en dan zeg je dat Evelien terugbelt.</div><div class="lzh">然後寫下來電者的姓名，並告訴對方 Evelien 會回電。</div></div></div><div class="line" data-t="2007"><button class="ts" data-t="2007">33:27</button><div class="lb"><div class="lnl">Vergeet ook niet het telefoonnummer.</div><div class="lzh">也不要忘了電話號碼。</div></div></div><div class="q" data-ans="2">
+              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 7</span><span class="st">新工作：接電話的規矩</span><span class="sk">對話</span></div><div class="scene-ctx">Sophia 第一天上新工作。老闆教她接電話的規矩：找總監、找採購部、同事午休時各該怎麼處理。<br><span class="nl">De baas legt Sophia de telefoonregels uit</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">voorgaan</td><td class="zh">優先、最重要</td></tr><tr><td class="nl">de telefoon opnemen</td><td class="zh">接電話</td></tr><tr><td class="nl">doorverbinden</td><td class="zh">（電話）轉接</td></tr><tr><td class="nl">in de agenda kijken</td><td class="zh">查行事曆</td></tr><tr><td class="nl">de beller</td><td class="zh">來電者</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Als iemand ... wil spreken, dan ...</span> — 如果有人想找……，就……<span class="pnote">一連串「als ..., dan ...」規則句。</span></div><div class="pat"><span class="pnl">Vergeet ook niet ...</span> — 也別忘了……<span class="pnote">vergeet niet = 提醒、別忘記。</span></div></div><div class="dlg-h">📺 對話原文 <span>— 考試中此段重播 3 次，這裡只列一次</span></div><div class="line" data-t="1962"><button class="ts" data-t="1962">32:42</button><div class="lb"><div class="lnl">Nou, je eerste dag.</div><div class="lzh">嗯，妳的第一天。</div></div></div><div class="line" data-t="1965"><button class="ts" data-t="1965">32:45</button><div class="lb"><div class="lnl">Een belangrijke regel is dat de telefoon altijd voorgaat. Dus</div><div class="lzh">一個重要的規則是電話永遠優先。所以</div></div></div><div class="line" data-t="1970"><button class="ts" data-t="1970">32:50</button><div class="lb"><div class="lnl">ook al ben je nog zo druk, maakt niet uit. Je neemt hem altijd op. Als iemand de</div><div class="lzh">即使你再忙也沒關係，你總是要接電話。如果有人想和</div></div></div><div class="line" data-t="1976"><button class="ts" data-t="1976">32:56</button><div class="lb"><div class="lnl">directeur wil spreken, dan verbind je niet meteen door. Je kijkt dan eerst in zijn</div><div class="lzh">主管通話，你不能馬上轉接，你要先看他的</div></div></div><div class="line" data-t="1981"><button class="ts" data-t="1981">33:01</button><div class="lb"><div class="lnl">agenda. Ook vraag je waar het over gaat. Als hij dan tijd heeft, dan toets je een 1.</div><div class="lzh">行事曆。你也會問是關於什麼。如果他有時間，就按1。</div></div></div><div class="line" data-t="1988"><button class="ts" data-t="1988">33:08</button><div class="lb"><div class="lnl">Als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden. Je</div><div class="lzh">如果有人打電話到採購部，你可以馬上轉接。你</div></div></div><div class="line" data-t="1993"><button class="ts" data-t="1993">33:13</button><div class="lb"><div class="lnl">toetst dan de 4.</div><div class="lzh">按4。</div></div></div><div class="line" data-t="1995"><button class="ts" data-t="1995">33:15</button><div class="lb"><div class="lnl">Als Evelien pauze heeft, dan moet je ook voor haar de telefoon opnemen</div><div class="lzh">如果 Evelien 在休息，你也要幫她接電話。</div></div></div><div class="line" data-t="2001"><button class="ts" data-t="2001">33:21</button><div class="lb"><div class="lnl">en zo. Dan schrijf je de naam op van de beller en dan zeg je dat Evelien terugbelt.</div><div class="lzh">然後寫下來電者的姓名，並告訴對方 Evelien 會回電。</div></div></div><div class="line" data-t="2007"><button class="ts" data-t="2007">33:27</button><div class="lb"><div class="lnl">Vergeet ook niet het telefoonnummer.</div><div class="lzh">也不要忘了電話號碼。</div></div></div><div class="q" data-qid="12" data-ans="2">
               <div class="q-h"><span class="qn">考題 12</span>
                 <span class="qt">Iemand belt voor de directeur. Wat moet Sophia als eerste doen?</span><span class="recon">題幹重建</span></div>
               <div class="q-body">
                 <div class="q-zh">有人打電話找總監，Sophia 要「先」做什麼？</div>
                 <div class="opt"><span class="ol">A.</span>Een 1 toetsen <span class="ozh">按 1</span></div><div class="opt"><span class="ol">B.</span>Een 4 toetsen <span class="ozh">按 4</span></div><div class="opt"><span class="ol">C.</span>In zijn agenda kijken <span class="ozh">查他的行事曆</span></div><div class="opt"><span class="ol">D.</span>Naar Evelien doorverbinden <span class="ozh">轉接給 Evelien</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="1981"><button class="ts" data-t="1981">33:01</button><div><div class="slnl">Als iemand de directeur wil spreken, dan verbind je niet meteen door.</div><div class="slzh">如果有人想找總監，你不要馬上轉接。</div></div></div><div class="sl" data-t="1981"><button class="ts" data-t="1981">33:01</button><div><div class="slnl">Je kijkt dan eerst in zijn agenda.</div><div class="slzh">你要先查他的行事曆。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>規矩是「不要馬上轉接，先查行事曆（eerst in zijn agenda kijken）」。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>按 1 是「查完行事曆、確認他有空之後」才做的下一步——順序不能顛倒。</div>
                 </div>
-              </div></div><div class="q" data-ans="1">
+              </div></div><div class="q" data-qid="13" data-ans="1">
               <div class="q-h"><span class="qn">考題 13</span>
                 <span class="qt">Iemand belt voor de afdeling Inkoop. Wat moet Sophia doen?</span><span class="recon">題幹重建</span></div>
               <div class="q-body">
                 <div class="q-zh">有人打電話找採購部，Sophia 要做什麼？</div>
                 <div class="opt"><span class="ol">A.</span>Een 1 toetsen <span class="ozh">按 1</span></div><div class="opt"><span class="ol">B.</span>Een 4 toetsen <span class="ozh">按 4</span></div><div class="opt"><span class="ol">C.</span>In de agenda kijken <span class="ozh">查行事曆</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="1986"><button class="ts" data-t="1986">33:06</button><div><div class="slnl">Als er iemand belt voor de afdeling inkoop, die kun je meteen doorverbinden.</div><div class="slzh">如果有人打來找採購部，你可以直接轉接。</div></div></div><div class="sl" data-t="1993"><button class="ts" data-t="1993">33:13</button><div><div class="slnl">Je toetst dan de 4.</div><div class="slzh">那就按 4。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>找採購部可以「直接轉接」，按 4。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>按 1 是找總監時的動作；查行事曆也是針對總監。採購部 → 按 4。</div>
                 </div>
-              </div></div><div class="q" data-ans="0">
+              </div></div><div class="q" data-qid="14" data-ans="0">
               <div class="q-h"><span class="qn">考題 14</span>
                 <span class="qt">Evelien heeft pauze en Sophia neemt haar telefoon op. Wat moet je doen?</span></div>
               <div class="q-body">
                 <div class="q-zh">Evelien 在午休，Sophia 替她接電話，這時要做什麼？</div>
                 <div class="opt"><span class="ol">A.</span>De naam en het nummer opschrijven <span class="ozh">寫下姓名和電話號碼</span></div><div class="opt"><span class="ol">B.</span>Doorgeven wanneer Evelien terug is <span class="ozh">轉告 Evelien 何時回來</span></div><div class="opt"><span class="ol">C.</span>Doorverbinden met de directeur <span class="ozh">轉接給總監</span></div><div class="opt"><span class="ol">D.</span>Vragen waar het over gaat <span class="ozh">詢問是什麼事</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="2001"><button class="ts" data-t="2001">33:21</button><div><div class="slnl">Dan schrijf je de naam op van de beller en zeg je dat Evelien terugbelt.</div><div class="slzh">那你就寫下來電者的姓名，並說 Evelien 會回電。</div></div></div><div class="sl" data-t="2007"><button class="ts" data-t="2007">33:27</button><div><div class="slnl">Vergeet ook niet het telefoonnummer.</div><div class="slzh">也別忘了電話號碼。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>替同事接電話：寫下「姓名 + 電話號碼」，告訴對方 Evelien 會回電。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>「詢問是什麼事」是找總監時的規矩；轉接總監也是別件事。要對準「Evelien 午休」這個情境。</div>
                 </div>
-              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 8</span><span class="st">同學的語音留言（分組作業）</span><span class="sk">語音留言</span></div><div class="scene-ctx">Nika 在上荷蘭語課。同學 Marcus 在她的語音信箱留言，討論小組作業的分工和碰面時間。<br><span class="nl">Marcus spreekt een bericht in over de groepsopdracht</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">de groepsopdracht</td><td class="zh">小組作業</td></tr><tr><td class="nl">inleveren</td><td class="zh">繳交</td></tr><tr><td class="nl">samen doen</td><td class="zh">一起做</td></tr><tr><td class="nl">afspreken</td><td class="zh">約（時間／碰面）</td></tr><tr><td class="nl">het liefst</td><td class="zh">最好是、最希望</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Die moeten we ... inleveren</span> — 那個我們得在……交<span class="pnote">moeten + 句尾動詞。</span></div><div class="pat"><span class="pnl">Zullen we ... of ... afspreken?</span> — 我們約……還是……？<span class="pnote">提議二選一。</span></div></div><div class="dlg-h">📺 語音留言原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="2067"><button class="ts" data-t="2067">34:27</button><div class="lb"><div class="lnl">Ha Nika met Marcus.</div><div class="lzh">嗨，我是 Nika，Marcus 打來的。</div></div></div><div class="line" data-t="2069"><button class="ts" data-t="2069">34:29</button><div class="lb"><div class="lnl">Ik bel even over onze groepsopdracht. Die moeten we dus volgende</div><div class="lzh">我想問一下我們的團體報告，那個報告</div></div></div><div class="line" data-t="2074"><button class="ts" data-t="2074">34:34</button><div class="lb"><div class="lnl">week maandag inleveren.</div><div class="lzh">要在下星期一交。</div></div></div><div class="line" data-t="2076"><button class="ts" data-t="2076">34:36</button><div class="lb"><div class="lnl">Ik heb vraag 1 dinsdag al gemaakt, en jij zou dan de derde vraag nog thuis</div><div class="lzh">我星期二已經做完問題一，你會在家做第三題。</div></div></div><div class="line" data-t="2080"><button class="ts" data-t="2080">34:40</button><div class="lb"><div class="lnl">doen. Oh, en de vierde toch?</div><div class="lzh">喔，那第四題也是吧？</div></div></div><div class="line" data-t="2084"><button class="ts" data-t="2084">34:44</button><div class="lb"><div class="lnl">Dan vraag 2, die zouden we samen doen. Zullen we vrijdag of</div><div class="lzh">那就是問題二，我們要一起做。星期五或</div></div></div><div class="line" data-t="2088"><button class="ts" data-t="2088">34:48</button><div class="lb"><div class="lnl">zaterdag afspreken? Ja, het liefst zaterdag. De school is dan dicht, maar het kan ook wel bij</div><div class="lzh">星期六見面怎麼樣？ 最好是星期六。那時學校關門，但也可以在</div></div></div><div class="line" data-t="2093"><button class="ts" data-t="2093">34:53</button><div class="lb"><div class="lnl">mij thuis. Dank. Kunnen we daarna nog even naar de stad? Oké. Ik hoor het wel. Bel je eventjes terug?</div><div class="lzh">我家。謝謝，我們之後還可以去市區逛逛嗎？ 好的，到時候我會聯絡你。你先打電話回來。</div></div></div><div class="q" data-ans="1">
+              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 8</span><span class="st">同學的語音留言（分組作業）</span><span class="sk">語音留言</span></div><div class="scene-ctx">Nika 在上荷蘭語課。同學 Marcus 在她的語音信箱留言，討論小組作業的分工和碰面時間。<br><span class="nl">Marcus spreekt een bericht in over de groepsopdracht</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">de groepsopdracht</td><td class="zh">小組作業</td></tr><tr><td class="nl">inleveren</td><td class="zh">繳交</td></tr><tr><td class="nl">samen doen</td><td class="zh">一起做</td></tr><tr><td class="nl">afspreken</td><td class="zh">約（時間／碰面）</td></tr><tr><td class="nl">het liefst</td><td class="zh">最好是、最希望</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Die moeten we ... inleveren</span> — 那個我們得在……交<span class="pnote">moeten + 句尾動詞。</span></div><div class="pat"><span class="pnl">Zullen we ... of ... afspreken?</span> — 我們約……還是……？<span class="pnote">提議二選一。</span></div></div><div class="dlg-h">📺 語音留言原文 <span>— 考試中此段重播 2 次，這裡只列一次</span></div><div class="line" data-t="2067"><button class="ts" data-t="2067">34:27</button><div class="lb"><div class="lnl">Ha Nika met Marcus.</div><div class="lzh">嗨，我是 Nika，Marcus 打來的。</div></div></div><div class="line" data-t="2069"><button class="ts" data-t="2069">34:29</button><div class="lb"><div class="lnl">Ik bel even over onze groepsopdracht. Die moeten we dus volgende</div><div class="lzh">我想問一下我們的團體報告，那個報告</div></div></div><div class="line" data-t="2074"><button class="ts" data-t="2074">34:34</button><div class="lb"><div class="lnl">week maandag inleveren.</div><div class="lzh">要在下星期一交。</div></div></div><div class="line" data-t="2076"><button class="ts" data-t="2076">34:36</button><div class="lb"><div class="lnl">Ik heb vraag 1 dinsdag al gemaakt, en jij zou dan de derde vraag nog thuis</div><div class="lzh">我星期二已經做完問題一，你會在家做第三題。</div></div></div><div class="line" data-t="2080"><button class="ts" data-t="2080">34:40</button><div class="lb"><div class="lnl">doen. Oh, en de vierde toch?</div><div class="lzh">喔，那第四題也是吧？</div></div></div><div class="line" data-t="2084"><button class="ts" data-t="2084">34:44</button><div class="lb"><div class="lnl">Dan vraag 2, die zouden we samen doen. Zullen we vrijdag of</div><div class="lzh">那就是問題二，我們要一起做。星期五或</div></div></div><div class="line" data-t="2088"><button class="ts" data-t="2088">34:48</button><div class="lb"><div class="lnl">zaterdag afspreken? Ja, het liefst zaterdag. De school is dan dicht, maar het kan ook wel bij</div><div class="lzh">星期六見面怎麼樣？ 最好是星期六。那時學校關門，但也可以在</div></div></div><div class="line" data-t="2093"><button class="ts" data-t="2093">34:53</button><div class="lb"><div class="lnl">mij thuis. Dank. Kunnen we daarna nog even naar de stad? Oké. Ik hoor het wel. Bel je eventjes terug?</div><div class="lzh">我家。謝謝，我們之後還可以去市區逛逛嗎？ 好的，到時候我會聯絡你。你先打電話回來。</div></div></div><div class="q" data-qid="15" data-ans="1">
               <div class="q-h"><span class="qn">考題 15</span>
                 <span class="qt">Welke vraag moeten Nika en Marcus samen maken?</span></div>
               <div class="q-body">
                 <div class="q-zh">哪一題是 Nika 和 Marcus 要一起做的？</div>
                 <div class="opt"><span class="ol">A.</span>Vraag 1 <span class="ozh">第 1 題</span></div><div class="opt"><span class="ol">B.</span>Vraag 2 <span class="ozh">第 2 題</span></div><div class="opt"><span class="ol">C.</span>Vraag 3 <span class="ozh">第 3 題</span></div><div class="opt"><span class="ol">D.</span>Vraag 4 <span class="ozh">第 4 題</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="2084"><button class="ts" data-t="2084">34:44</button><div><div class="slnl">Dan vraag 2, die zouden we samen doen.</div><div class="slzh">那第 2 題，我們本來說要一起做。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>Marcus 說「vraag 2 ... samen doen」——第 2 題一起做。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>第 1 題 Marcus 已經做了；第 3、4 題是 Nika 在家做。四題都被點到名，要聽「samen」對到哪一題。</div>
                 </div>
-              </div></div><div class="q" data-ans="3">
+              </div></div><div class="q" data-qid="16" data-ans="3">
               <div class="q-h"><span class="qn">考題 16</span>
                 <span class="qt">Welke dag wil Marcus afspreken?</span></div>
               <div class="q-body">
                 <div class="q-zh">Marcus 想約哪一天碰面？</div>
                 <div class="opt"><span class="ol">A.</span>Op maandag <span class="ozh">星期一</span></div><div class="opt"><span class="ol">B.</span>Op dinsdag <span class="ozh">星期二</span></div><div class="opt"><span class="ol">C.</span>Op vrijdag <span class="ozh">星期五</span></div><div class="opt"><span class="ol">D.</span>Op zaterdag <span class="ozh">星期六</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="2084"><button class="ts" data-t="2084">34:44</button><div><div class="slnl">Zullen we vrijdag of zaterdag afspreken?</div><div class="slzh">我們約星期五還是星期六？</div></div></div><div class="sl" data-t="2088"><button class="ts" data-t="2088">34:48</button><div><div class="slnl">Ja, het liefst zaterdag.</div><div class="slzh">嗯，最好是星期六。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>Marcus 提議週五或週六，並說「het liefst zaterdag（最好是週六）」。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>星期一是作業繳交死線；星期二是 Marcus 做第 1 題的日子。週五是被提到、但不是首選。</div>
                 </div>
-              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 9</span><span class="st">機場新聞（史基浦最忙的一天）</span><span class="sk">新聞</span></div><div class="scene-ctx">Zaira 在看電視新聞：昨天是史基浦機場今年最忙的一天。<br><span class="nl">Zaira kijkt naar het journaal over Schiphol</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">de drukste dag</td><td class="zh">最忙碌的一天</td></tr><tr><td class="nl">de passagier / de reiziger</td><td class="zh">旅客</td></tr><tr><td class="nl">inchecken</td><td class="zh">辦理報到</td></tr><tr><td class="nl">de paspoortcontrole</td><td class="zh">護照查驗</td></tr><tr><td class="nl">trakteren</td><td class="zh">請客、招待</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">... was niet langer dan normaal</span> — ……並沒有比平常久<span class="pnote">niet langer dan = 沒有比……更久——否定陷阱句。</span></div><div class="pat"><span class="pnl">Alleen ... was het lastig</span> — 只有在……比較麻煩<span class="pnote">alleen 把唯一的例外標出來。</span></div></div><div class="dlg-h">📺 新聞原文 <span>— 考試中此段重播 3 次，這裡只列一次</span></div><div class="line" data-t="2300"><button class="ts" data-t="2300">38:20</button><div class="lb"><div class="lnl">Gisteren was het de drukste dag van het jaar op Schiphol Airport.</div><div class="lzh">昨天是史基浦機場今年最忙碌的一天。</div></div></div><div class="line" data-t="2305"><button class="ts" data-t="2305">38:25</button><div class="lb"><div class="lnl">Er waren 1300 vluchten.</div><div class="lzh">有1300班次航班。</div></div></div><div class="line" data-t="2308"><button class="ts" data-t="2308">38:28</button><div class="lb"><div class="lnl">Er waren ruim 170.000 passagiers op Schiphol tegenover 180.000 op de drukste dag vorige</div><div class="lzh">史基浦機場約有17萬名旅客，比去年夏天最忙碌的一天的18萬人少。</div></div></div><div class="line" data-t="2315"><button class="ts" data-t="2315">38:35</button><div class="lb"><div class="lnl">zomer. Schiphol heeft extra personeel ingezet.</div><div class="lzh">史基浦機場增派了額外人手。</div></div></div><div class="line" data-t="2320"><button class="ts" data-t="2320">38:40</button><div class="lb"><div class="lnl">Daarom waren de rijen voor het inchecken niet langer dan normaal.</div><div class="lzh">因此，報到櫃台的排隊隊伍並沒有比平常長。</div></div></div><div class="line" data-t="2324"><button class="ts" data-t="2324">38:44</button><div class="lb"><div class="lnl">Ook de rij bij de paspoortcontrole was niet langer. Alleen op de parkeerplaats was het</div><div class="lzh">護照檢查隊伍也沒有比較長。只有在停車場，</div></div></div><div class="line" data-t="2329"><button class="ts" data-t="2329">38:49</button><div class="lb"><div class="lnl">lastig om een plek te vinden.</div><div class="lzh">很難找到停車位。</div></div></div><div class="line" data-t="2332"><button class="ts" data-t="2332">38:52</button><div class="lb"><div class="lnl">Alle reizigers kregen gisteren wel gratis ijs van de ijsfabrikant.</div><div class="lzh">所有旅客昨天都免費獲得了冰淇淋，來自冰淇淋廠商。</div></div></div><div class="line" data-t="2336"><button class="ts" data-t="2336">38:56</button><div class="lb"><div class="lnl">Ola bestond twintig jaar en trakteerde</div><div class="lzh">Ola成立二十年，並請大家吃</div></div></div><div class="line" data-t="2340"><button class="ts" data-t="2340">39:00</button><div class="lb"><div class="lnl">een hele fijne traktatie op zo'n warme dag.</div><div class="lzh">這麼炎熱的一天美味點心。</div></div></div><div class="q" data-ans="1">
+              </div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 9</span><span class="st">機場新聞（史基浦最忙的一天）</span><span class="sk">新聞</span></div><div class="scene-ctx">Zaira 在看電視新聞：昨天是史基浦機場今年最忙的一天。<br><span class="nl">Zaira kijkt naar het journaal over Schiphol</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">de drukste dag</td><td class="zh">最忙碌的一天</td></tr><tr><td class="nl">de passagier / de reiziger</td><td class="zh">旅客</td></tr><tr><td class="nl">inchecken</td><td class="zh">辦理報到</td></tr><tr><td class="nl">de paspoortcontrole</td><td class="zh">護照查驗</td></tr><tr><td class="nl">trakteren</td><td class="zh">請客、招待</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">... was niet langer dan normaal</span> — ……並沒有比平常久<span class="pnote">niet langer dan = 沒有比……更久——否定陷阱句。</span></div><div class="pat"><span class="pnl">Alleen ... was het lastig</span> — 只有在……比較麻煩<span class="pnote">alleen 把唯一的例外標出來。</span></div></div><div class="dlg-h">📺 新聞原文 <span>— 考試中此段重播 3 次，這裡只列一次</span></div><div class="line" data-t="2300"><button class="ts" data-t="2300">38:20</button><div class="lb"><div class="lnl">Gisteren was het de drukste dag van het jaar op Schiphol Airport.</div><div class="lzh">昨天是史基浦機場今年最忙碌的一天。</div></div></div><div class="line" data-t="2305"><button class="ts" data-t="2305">38:25</button><div class="lb"><div class="lnl">Er waren 1300 vluchten.</div><div class="lzh">有1300班次航班。</div></div></div><div class="line" data-t="2308"><button class="ts" data-t="2308">38:28</button><div class="lb"><div class="lnl">Er waren ruim 170.000 passagiers op Schiphol tegenover 180.000 op de drukste dag vorige</div><div class="lzh">史基浦機場約有17萬名旅客，比去年夏天最忙碌的一天的18萬人少。</div></div></div><div class="line" data-t="2315"><button class="ts" data-t="2315">38:35</button><div class="lb"><div class="lnl">zomer. Schiphol heeft extra personeel ingezet.</div><div class="lzh">史基浦機場增派了額外人手。</div></div></div><div class="line" data-t="2320"><button class="ts" data-t="2320">38:40</button><div class="lb"><div class="lnl">Daarom waren de rijen voor het inchecken niet langer dan normaal.</div><div class="lzh">因此，報到櫃台的排隊隊伍並沒有比平常長。</div></div></div><div class="line" data-t="2324"><button class="ts" data-t="2324">38:44</button><div class="lb"><div class="lnl">Ook de rij bij de paspoortcontrole was niet langer. Alleen op de parkeerplaats was het</div><div class="lzh">護照檢查隊伍也沒有比較長。只有在停車場，</div></div></div><div class="line" data-t="2329"><button class="ts" data-t="2329">38:49</button><div class="lb"><div class="lnl">lastig om een plek te vinden.</div><div class="lzh">很難找到停車位。</div></div></div><div class="line" data-t="2332"><button class="ts" data-t="2332">38:52</button><div class="lb"><div class="lnl">Alle reizigers kregen gisteren wel gratis ijs van de ijsfabrikant.</div><div class="lzh">所有旅客昨天都免費獲得了冰淇淋，來自冰淇淋廠商。</div></div></div><div class="line" data-t="2336"><button class="ts" data-t="2336">38:56</button><div class="lb"><div class="lnl">Ola bestond twintig jaar en trakteerde</div><div class="lzh">Ola成立二十年，並請大家吃</div></div></div><div class="line" data-t="2340"><button class="ts" data-t="2340">39:00</button><div class="lb"><div class="lnl">een hele fijne traktatie op zo'n warme dag.</div><div class="lzh">這麼炎熱的一天美味點心。</div></div></div><div class="q" data-qid="17" data-ans="1">
               <div class="q-h"><span class="qn">考題 17</span>
                 <span class="qt">Wat was bijzonder aan deze dag op Schiphol?</span><span class="recon">題幹重建</span></div>
               <div class="q-body">
                 <div class="q-zh">史基浦這一天有什麼特別之處？</div>
                 <div class="opt"><span class="ol">A.</span>Het was de drukste dag van deze zomer <span class="ozh">是今年夏天最忙的一天</span></div><div class="opt"><span class="ol">B.</span>Het was de drukste dag van het hele jaar <span class="ozh">是今年一整年最忙的一天</span></div><div class="opt"><span class="ol">C.</span>Het was de drukste dag van de afgelopen twee jaar <span class="ozh">是近兩年最忙的一天</span></div><div class="opt"><span class="ol">D.</span>Het was de drukste dag ooit <span class="ozh">是史上最忙的一天</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="2210"><button class="ts" data-t="2210">36:50</button><div><div class="slnl">Gisteren was het de drukste dag van het jaar op Schiphol Airport.</div><div class="slzh">昨天是史基浦機場今年最忙的一天。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>新聞開頭就說「de drukste dag van het jaar（今年最忙的一天）」。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>去年夏天那天有 180,000 人，比昨天的 170,000 多——所以不是「史上」或「近兩年」最忙。數字是用來排除選項的。</div>
                 </div>
-              </div></div><div class="q" data-ans="2">
+              </div></div><div class="q" data-qid="18" data-ans="2">
               <div class="q-h"><span class="qn">考題 18</span>
                 <span class="qt">Waar hadden reizigers het meest last van de drukte?</span></div>
               <div class="q-body">
                 <div class="q-zh">旅客在哪裡最受人潮所苦？</div>
                 <div class="opt"><span class="ol">A.</span>In de rij voor het inchecken <span class="ozh">報到的排隊隊伍</span></div><div class="opt"><span class="ol">B.</span>Bij de paspoortcontrole <span class="ozh">護照查驗處</span></div><div class="opt"><span class="ol">C.</span>Op de parkeerplaats <span class="ozh">停車場</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="2320"><button class="ts" data-t="2320">38:40</button><div><div class="slnl">Daarom waren de rijen voor het inchecken niet langer dan normaal.</div><div class="slzh">所以報到的隊伍並沒有比平常長。</div></div></div><div class="sl" data-t="2324"><button class="ts" data-t="2324">38:44</button><div><div class="slnl">Ook de rij bij de paspoortcontrole was niet langer. Alleen op de parkeerplaats was het lastig om een plek te vinden.</div><div class="slzh">護照查驗的隊伍也沒比較長。只有在停車場很難找到車位。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>報到、護照查驗都「niet langer（沒比較長）」，唯獨「Alleen op de parkeerplaats（只有停車場）」很麻煩。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>報到和護照查驗都被 niet 否定掉了。聽到地點別急著選，要聽那句是肯定還是否定。</div>
                 </div>
-              </div></div><div class="q" data-ans="1">
+              </div></div><div class="q" data-qid="19" data-ans="1">
               <div class="q-h"><span class="qn">考題 19</span>
                 <span class="qt">Waarom kregen reizigers op Schiphol gratis ijs?</span><span class="recon">題幹重建</span></div>
               <div class="q-body">
                 <div class="q-zh">史基浦的旅客為什麼拿到免費冰淇淋？</div>
                 <div class="opt"><span class="ol">A.</span>Omdat ze zo lang moesten wachten <span class="ozh">因為他們等了很久</span></div><div class="opt"><span class="ol">B.</span>Omdat Ola 20 jaar bestond <span class="ozh">因為 Ola 品牌成立滿 20 年</span></div><div class="opt"><span class="ol">C.</span>Omdat het zo’n warme dag was <span class="ozh">因為那天很熱</span></div>
-                <button class="reveal-btn">看解答 ✓</button>
+                <button class="reveal-btn">對答案 ✓</button>
                 <div class="answer">
                   <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="2415"><button class="ts" data-t="2415">40:15</button><div><div class="slnl">Alle reizigers kregen gisteren wel gratis ijs van de ijsfabrikant.</div><div class="slzh">昨天所有旅客都拿到了冰淇淋廠商送的免費冰淇淋。</div></div></div><div class="sl" data-t="2419"><button class="ts" data-t="2419">40:19</button><div><div class="slnl">Ola bestond 20 jaar en trakteerde.</div><div class="slzh">Ola 品牌成立滿 20 年，所以請大家吃。</div></div></div></div>
                   <div class="explain"><span class="lbl">💡 反推：</span>發冰淇淋的原因是「Ola bestond 20 jaar（Ola 成立滿 20 年）」而請客。</div>
                   <div class="trap"><span class="lbl">⚠️ 陷阱：</span>「天氣熱」是情境（op zo’n warme dag），不是原因；等很久是停車場的事，跟冰淇淋無關。</div>
                 </div>
-              </div></div></div></div><div class="player"><div class="row">
+              </div></div></div></section><section data-mode-content="exam" hidden>
+      <div class="exam-intro" id="exam-intro">
+        <h2>⏱️ 考場模式</h2>
+        <ul>
+          <li>共 <b>19 題</b>、每題 <b>25 秒</b>、不能回頭</li>
+          <li>不顯示答案／出處／反推——做完才公布</li>
+          <li>結果會存進「我的紀錄」變成歷史曲線</li>
+          <li>題目錯了會自動進「錯題複習」SRS 排程</li>
+        </ul>
+        <button class="start" id="start-exam">開始考試</button>
+      </div>
+      <div class="exam-active" id="exam-active" hidden></div>
+      <div class="exam-result" id="exam-result" hidden></div>
+    </section><section data-mode-content="review" hidden><div id="review-list"></div></section><section data-mode-content="stats" hidden><div id="stats-body"></div></section><div class="player"><div class="row">
       <button class="pp" id="pp">▶</button>
       <div class="bar" id="bar"><div class="fill" id="fill"></div></div>
       <div class="tnow" id="tnow">0:00 / 0:00</div>
@@ -344,31 +433,128 @@ header .meta { font-size:12px; color:#bfdbfe; }
       </div>
     </div></div>
     <audio id="aud" src="audio.mp3" preload="metadata"></audio><script>
+const VID = document.body.dataset.vid;
+const KEY = 'examapp:' + VID;
+const TOTAL_Q = +document.body.dataset.total;
+const EXAM_SEC = 25;  // seconds per question in exam mode
+
+const today = () => new Date().toISOString().slice(0,10);
+const addDays = (d, n) => {
+  const dt = new Date(d + 'T00:00:00Z'); dt.setUTCDate(dt.getUTCDate() + n);
+  return dt.toISOString().slice(0,10);
+};
+const cmp = (a, b) => a < b ? -1 : a > b ? 1 : 0;
+
+// ── State ──
+function load() {
+  try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+  catch (e) { return {}; }
+}
+function save(st) { localStorage.setItem(KEY, JSON.stringify(st)); }
+function S() {
+  const s = load();
+  s.q = s.q || {};           // q[id] = {last_pick, last_correct, attempts: [{date, pick, correct}], srs: {due, interval, reps}}
+  s.attempts = s.attempts || []; // mock attempts [{id, started, mode, completed_at, answers, score, total}]
+  return s;
+}
+
+// ── SRS (Anki-lite) ──
+function scheduleSRS(qstate, correct) {
+  qstate.srs = qstate.srs || {due: today(), interval: 0, reps: 0};
+  if (!correct) {
+    qstate.srs.interval = 1; qstate.srs.reps = 0;
+    qstate.srs.due = addDays(today(), 1);
+  } else {
+    qstate.srs.reps += 1;
+    const intervals = [1, 3, 7, 14, 30];
+    qstate.srs.interval = intervals[Math.min(qstate.srs.reps, intervals.length - 1)];
+    qstate.srs.due = addDays(today(), qstate.srs.interval);
+    if (qstate.srs.reps >= 4) qstate.srs.graduated = true;
+  }
+}
+
+// ── Record answer ──
+function recordAnswer(qid, pick, correct) {
+  const st = S();
+  const q = st.q[qid] = st.q[qid] || {attempts: []};
+  q.last_pick = pick; q.last_correct = correct;
+  q.attempts.push({date: today(), pick, correct});
+  scheduleSRS(q, correct);
+  save(st);
+  updateStatus();
+  updateBadges();
+}
+
+// ── Status bar ──
+function updateStatus() {
+  const st = S();
+  let answered = 0, correct = 0;
+  Object.values(st.q).forEach(q => {
+    if (q.attempts && q.attempts.length) {
+      answered++;
+      if (q.last_correct) correct++;
+    }
+  });
+  document.getElementById('s-answered').textContent = answered;
+  document.getElementById('s-total').textContent = TOTAL_Q;
+  document.getElementById('s-correct').textContent = correct;
+  const pct = answered ? Math.round(correct / answered * 100) : 0;
+  document.getElementById('s-pct').textContent = pct + '%';
+  // Review queue: due today/overdue + all currently-wrong (most recent attempt)
+  const due = Object.entries(st.q).filter(([k,q]) =>
+    (q.srs && !q.srs.graduated && q.srs.due <= today()) ||
+    q.last_correct === false).length;
+  const tab = document.getElementById('tab-review');
+  const badge = tab.querySelector('.bg');
+  if (due > 0) {
+    if (!badge) { const b = document.createElement('span'); b.className = 'bg';
+      b.textContent = due; tab.appendChild(b); }
+    else badge.textContent = due;
+  } else if (badge) badge.remove();
+}
+
+// ── Per-question result badges ──
+function updateBadges() {
+  const st = S();
+  document.querySelectorAll('.q').forEach(q => {
+    const id = q.dataset.qid;
+    const qs = st.q[id]; if (!qs) return;
+    let bdg = q.querySelector('.qbadge');
+    if (!bdg) {
+      bdg = document.createElement('span'); bdg.className = 'qbadge';
+      q.querySelector('.q-h').insertBefore(bdg, q.querySelector('.qt').nextSibling);
+    }
+    if (qs.srs && !qs.srs.graduated && qs.srs.due <= today()) {
+      bdg.className = 'qbadge srs'; bdg.textContent = '待複習';
+    } else if (qs.last_correct) { bdg.className = 'qbadge ok'; bdg.textContent = '✓ 已答對'; }
+    else if (qs.last_correct === false) { bdg.className = 'qbadge ng'; bdg.textContent = '✗ 上次錯'; }
+  });
+}
+
+// ── Audio (same as v1) ──
 const A = document.getElementById('aud');
-const pp = document.getElementById('pp');
-const fill = document.getElementById('fill');
-const tnow = document.getElementById('tnow');
-const bar = document.getElementById('bar');
+const pp = document.getElementById('pp'), fill = document.getElementById('fill');
+const tnow = document.getElementById('tnow'), bar = document.getElementById('bar');
 const fmt = s => (isNaN(s)?'0:00':Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0'));
 function play(sec){ if(sec>=0){ A.currentTime=sec; } A.play(); }
-document.querySelectorAll('[data-t]').forEach(el=>{
-  el.addEventListener('click',e=>{ e.stopPropagation(); play(parseFloat(el.dataset.t)); });
-});
+function bindTS() {
+  document.querySelectorAll('[data-t]:not(.bound)').forEach(el => {
+    el.classList.add('bound');
+    el.addEventListener('click', e => { e.stopPropagation(); play(parseFloat(el.dataset.t)); });
+  });
+}
 pp.onclick = ()=> A.paused ? A.play() : A.pause();
 A.onplay = ()=> pp.textContent='⏸';
 A.onpause= ()=> pp.textContent='▶';
 A.ontimeupdate = ()=>{
   fill.style.width = (A.currentTime/A.duration*100||0)+'%';
   tnow.textContent = fmt(A.currentTime)+' / '+fmt(A.duration);
-  // highlight current dialogue line
   let cur=null;
   document.querySelectorAll('.line[data-t]').forEach(l=>{
     if(parseFloat(l.dataset.t)<=A.currentTime) cur=l;
   });
   document.querySelectorAll('.line.playing').forEach(l=>{ if(l!==cur) l.classList.remove('playing'); });
-  if(cur && !cur.classList.contains('playing')){
-    cur.classList.add('playing');
-  }
+  if(cur && !cur.classList.contains('playing')) cur.classList.add('playing');
 };
 bar.onclick = e=>{ const r=bar.getBoundingClientRect();
   A.currentTime=(e.clientX-r.left)/r.width*A.duration; };
@@ -377,23 +563,274 @@ document.querySelectorAll('.spd button').forEach(b=>{
     document.querySelectorAll('.spd button').forEach(x=>x.classList.remove('on'));
     b.classList.add('on'); };
 });
-// question interactions
-document.querySelectorAll('.q').forEach(q=>{
-  const ans=parseInt(q.dataset.ans);
-  q.querySelectorAll('.opt').forEach((o,i)=>{
-    o.onclick=()=>{
-      q.querySelectorAll('.opt').forEach(x=>x.classList.remove('picked'));
-      o.classList.add('picked'); q.dataset.pick=i;
+
+// ── Question interactions (study mode) ──
+function bindQuestions(root) {
+  (root || document).querySelectorAll('.q').forEach(q => {
+    const ans = parseInt(q.dataset.ans);
+    const qid = q.dataset.qid;
+    q.querySelectorAll('.opt').forEach((o,i)=>{
+      o.onclick=()=>{
+        if (q.classList.contains('revealed')) return;
+        q.querySelectorAll('.opt').forEach(x=>x.classList.remove('picked'));
+        o.classList.add('picked'); q.dataset.pick=i;
+      };
+    });
+    const rb=q.querySelector('.reveal-btn');
+    if (rb) rb.onclick=()=>{
+      const pick = q.dataset.pick === undefined ? -1 : parseInt(q.dataset.pick);
+      if (pick < 0) { alert('請先選一個答案'); return; }
+      q.classList.add('revealed');
+      q.querySelectorAll('.opt').forEach((o,i)=>{
+        if(i===ans) o.classList.add('correct');
+        else if(i===pick) o.classList.add('wrongpick');
+      });
+      recordAnswer(qid, pick, pick === ans);
     };
   });
-  const rb=q.querySelector('.reveal-btn');
-  if(rb) rb.onclick=()=>{
-    q.classList.add('revealed');
-    const pick=q.dataset.pick;
-    q.querySelectorAll('.opt').forEach((o,i)=>{
-      if(i===ans) o.classList.add('correct');
-      else if(pick!==undefined && i===parseInt(pick)) o.classList.add('wrongpick');
-    });
+}
+
+// ── Tab switching ──
+document.querySelectorAll('.tabs button').forEach(b => {
+  b.onclick = () => {
+    document.querySelectorAll('.tabs button').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    const m = b.dataset.mode;
+    document.querySelectorAll('[data-mode-content]').forEach(s =>
+      s.hidden = s.dataset.modeContent !== m);
+    if (m === 'review') renderReview();
+    if (m === 'stats') renderStats();
+    if (m === 'exam') resetExam();
+    window.scrollTo({top: 0, behavior: 'smooth'});
   };
 });
+
+// ── Review mode (SRS) ──
+function renderReview() {
+  const st = S();
+  const root = document.getElementById('review-list'); root.innerHTML = '';
+  const due = Object.entries(st.q)
+    .filter(([k,q]) =>
+      (q.srs && !q.srs.graduated && q.srs.due <= today()) ||
+      q.last_correct === false)
+    .sort((a,b) => {
+      // overdue first, then due today, then upcoming-wrong
+      const ad = a[1].srs ? a[1].srs.due : '9999';
+      const bd = b[1].srs ? b[1].srs.due : '9999';
+      return cmp(ad, bd);
+    });
+  if (!due.length) {
+    root.innerHTML = '<div class="empty"><span class="em">✨</span>沒有待複習的題目！'
+      + '<br><span style="font-size:12px">答錯的題目會自動進這裡，'
+      + 'SRS 會在 1/3/7/14/30 天安排複習</span></div>';
+    return;
+  }
+  due.forEach(([qid, qs]) => {
+    const src = document.querySelector(`.q[data-qid="${qid}"]`);
+    if (!src) return;
+    const clone = src.cloneNode(true);
+    clone.classList.remove('revealed');
+    clone.querySelectorAll('.opt').forEach(o =>
+      o.classList.remove('picked','correct','wrongpick'));
+    delete clone.dataset.pick;
+    const dueDate = qs.srs ? qs.srs.due : today();
+    const overdue = dueDate < today();
+    const dueToday = dueDate === today();
+    const head = document.createElement('div');
+    const color = overdue ? '#dc2626' : dueToday ? '#0891b2' : '#94a3b8';
+    head.style.cssText = `font-size:11px;color:${color};font-weight:800;margin:14px 15px 4px;letter-spacing:.4px`;
+    head.textContent = overdue ?
+      `⚠️ 過期 ${Math.floor((Date.now() - new Date(dueDate).getTime())/86400000)} 天` :
+      dueToday ? `📅 今天到期` : `🔁 上次答錯（${dueDate} 該複習）`;
+    root.appendChild(head);
+    root.appendChild(clone);
+  });
+  bindQuestions(root);
+  bindTS();
+  updateBadges();
+}
+
+// ── Stats mode (history + per-question) ──
+function renderStats() {
+  const st = S();
+  const root = document.getElementById('stats-body'); root.innerHTML = '';
+  // top stats
+  let answered = 0, correct = 0, totalAttempts = 0;
+  Object.values(st.q).forEach(q => {
+    if (q.attempts) {
+      answered++; totalAttempts += q.attempts.length;
+      if (q.last_correct) correct++;
+    }
+  });
+  const pct = answered ? Math.round(correct/answered*100) : 0;
+  root.innerHTML += `<div class="stat-card"><h3>📊 整體</h3>
+    <div class="stat-grid">
+      <div class="cell"><b>${answered}/${TOTAL_Q}</b><span>已答題數</span></div>
+      <div class="cell"><b>${pct}%</b><span>當前正確率</span></div>
+      <div class="cell"><b>${totalAttempts}</b><span>累計嘗試</span></div>
+    </div></div>`;
+  // history chart
+  const mocks = (st.attempts || []).slice(-10);
+  if (mocks.length) {
+    const W = 320, H = 100, P = 14;
+    const xs = mocks.map((_,i) => P + i*((W-2*P)/Math.max(1,mocks.length-1)));
+    const ys = mocks.map(m => H-P - (m.score/m.total)*(H-2*P));
+    const pts = xs.map((x,i)=>`${x.toFixed(1)},${ys[i].toFixed(1)}`).join(' ');
+    const dots = xs.map((x,i) =>
+      `<circle cx="${x.toFixed(1)}" cy="${ys[i].toFixed(1)}" r="4" fill="#1e3a8a"/>`
+      + `<text x="${x.toFixed(1)}" y="${(ys[i]-8).toFixed(1)}" font-size="9" `
+      + `text-anchor="middle" fill="#1e3a8a">${mocks[i].score}/${mocks[i].total}</text>`
+    ).join('');
+    root.innerHTML += `<div class="stat-card"><h3>📈 模考歷史（最近 ${mocks.length} 次）</h3>
+      <svg class="chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet">
+        <line x1="${P}" y1="${H-P}" x2="${W-P}" y2="${H-P}" stroke="#cbd5e1"/>
+        <polyline points="${pts}" fill="none" stroke="#f59e0b" stroke-width="2"/>
+        ${dots}
+      </svg></div>`;
+  } else {
+    root.innerHTML += `<div class="stat-card"><h3>📈 模考歷史</h3>
+      <div style="color:#9ca3af;font-size:12.5px">完成一次「考場模式」後，這裡會出現分數曲線</div></div>`;
+  }
+  // per-q
+  const rows = Array.from(document.querySelectorAll('.q')).map(q => {
+    const qid = q.dataset.qid;
+    const qs = st.q[qid];
+    const att = qs && qs.attempts ? qs.attempts.length : 0;
+    const ok = qs && qs.attempts ? qs.attempts.filter(a=>a.correct).length : 0;
+    const pct = att ? Math.round(ok/att*100) : -1;
+    return {qid, title: q.querySelector('.qt').textContent, att, ok, pct,
+            last: qs && qs.last_correct};
+  });
+  const tried = rows.filter(r => r.att > 0);
+  if (tried.length) {
+    root.innerHTML += '<div class="stat-card"><h3>📝 逐題表現</h3>' +
+      tried.map(r => `<div class="result-row">
+        <span class="qn">Q${r.qid}</span>
+        <span class="qt">${r.title.length>30?r.title.slice(0,30)+'…':r.title}</span>
+        <span class="${r.last?'qok':'qng'}">${r.att}次 · ${r.pct}%</span>
+      </div>`).join('') + '</div>';
+  }
+}
+
+// ── Exam mode ──
+let examState = null;
+function resetExam() {
+  document.getElementById('exam-intro').hidden = false;
+  document.getElementById('exam-active').hidden = true;
+  document.getElementById('exam-result').hidden = true;
+}
+document.getElementById('start-exam').onclick = () => {
+  const qs = Array.from(document.querySelectorAll('[data-mode-content="study"] .q')).map(q => ({
+    qid: q.dataset.qid, ans: parseInt(q.dataset.ans),
+    html: q.outerHTML, title: q.querySelector('.qt').textContent,
+  }));
+  examState = {qs, idx: 0, answers: {}, started: new Date().toISOString()};
+  document.getElementById('exam-intro').hidden = true;
+  document.getElementById('exam-active').hidden = false;
+  showExamQ();
+};
+function showExamQ() {
+  const root = document.getElementById('exam-active');
+  if (examState.idx >= examState.qs.length) return endExam();
+  const q = examState.qs[examState.idx];
+  root.innerHTML = `
+    <div class="timer" id="ex-timer">${EXAM_SEC}</div>
+    <div class="progress"><div style="width:${(examState.idx/examState.qs.length*100)}%"></div></div>
+    <div style="padding:14px 14px 0;color:#6b7280;font-size:12px">${examState.idx+1} / ${examState.qs.length}</div>
+    <div class="ex-qwrap" style="padding:0">${q.html}</div>`;
+  const card = root.querySelector('.q');
+  card.classList.remove('revealed');
+  card.querySelector('.reveal-btn').textContent = '下一題 →';
+  card.querySelector('.reveal-btn').classList.add('danger');
+  card.querySelector('.reveal-btn').onclick = () => advanceExam();
+  card.querySelectorAll('.answer').forEach(a => a.remove());
+  card.querySelectorAll('.qbadge').forEach(b => b.remove());
+  card.querySelectorAll('.opt').forEach((o,i)=>{
+    o.onclick = () => {
+      card.querySelectorAll('.opt').forEach(x=>x.classList.remove('picked'));
+      o.classList.add('picked'); card.dataset.pick = i;
+    };
+  });
+  // timer
+  let left = EXAM_SEC;
+  const t = root.querySelector('#ex-timer');
+  const iv = setInterval(() => {
+    left--; t.textContent = left;
+    if (left <= 5) t.classList.add('warn');
+    if (left <= 0) { clearInterval(iv); advanceExam(); }
+  }, 1000);
+  examState.iv = iv;
+}
+function advanceExam() {
+  clearInterval(examState.iv);
+  const card = document.querySelector('#exam-active .q');
+  const pick = card.dataset.pick === undefined ? -1 : parseInt(card.dataset.pick);
+  const q = examState.qs[examState.idx];
+  examState.answers[q.qid] = {pick, correct: pick === q.ans};
+  examState.idx++;
+  showExamQ();
+}
+function endExam() {
+  document.getElementById('exam-active').hidden = true;
+  document.getElementById('exam-result').hidden = false;
+  const score = Object.values(examState.answers).filter(a => a.correct).length;
+  const total = examState.qs.length;
+  // save attempt
+  const st = S();
+  st.attempts.push({id: 'a' + Date.now(), started: examState.started,
+    completed_at: new Date().toISOString(), mode: 'exam',
+    answers: examState.answers, score, total});
+  // also update per-q (counts as a regular attempt)
+  Object.entries(examState.answers).forEach(([qid, a]) => {
+    const qs = st.q[qid] = st.q[qid] || {attempts: []};
+    qs.last_pick = a.pick; qs.last_correct = a.correct;
+    qs.attempts.push({date: today(), pick: a.pick, correct: a.correct, mode: 'exam'});
+    scheduleSRS(qs, a.correct);
+  });
+  save(st);
+  // render result
+  const pct = Math.round(score/total*100);
+  const root = document.getElementById('exam-result');
+  const rows = examState.qs.map(q => {
+    const a = examState.answers[q.qid] || {pick: -1, correct: false};
+    const lbl = a.pick < 0 ? '未答' : 'ABCDEFG'[a.pick];
+    return `<div class="result-row"><span class="qn">Q${q.qid}</span>
+      <span class="qt">${q.title}</span>
+      <span class="${a.correct?'qok':'qng'}">${a.correct?'✓':'✗'} ${lbl}</span></div>`;
+  }).join('');
+  root.innerHTML = `
+    <h2>🎯 考場結果</h2>
+    <div class="result-score">${score} / ${total}<small>${pct}% · ${pct>=70?'通過':pct>=50?'再加油':'多練幾次'}</small></div>
+    <div style="margin:16px 0">${rows}</div>
+    <button class="start" onclick="resetExam()">再考一次</button>`;
+  updateStatus(); updateBadges();
+}
+
+// ── Reset ──
+document.getElementById('reset-btn').onclick = () => {
+  if (!confirm('清除所有進度（答題紀錄、錯題池、模考歷史）？')) return;
+  localStorage.removeItem(KEY);
+  location.reload();
+};
+
+// ── Init ──
+bindQuestions();
+bindTS();
+updateStatus();
+updateBadges();
+// restore last_pick/last_correct visual state for already-answered Qs
+(function(){
+  const st = S();
+  Object.entries(st.q).forEach(([qid, qs]) => {
+    if (qs.last_pick === undefined) return;
+    const q = document.querySelector(`.q[data-qid="${qid}"]`);
+    if (!q) return;
+    const ans = parseInt(q.dataset.ans);
+    q.classList.add('revealed');
+    q.querySelectorAll('.opt').forEach((o,i)=>{
+      if(i===ans) o.classList.add('correct');
+      else if(i===qs.last_pick) o.classList.add('wrongpick');
+    });
+  });
+})();
 </script></body></html>
