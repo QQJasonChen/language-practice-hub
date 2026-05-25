@@ -543,7 +543,18 @@
   <header>
     <a href="../../index.html" style="color:var(--muted);text-decoration:none;font-size:13px;font-weight:600">← 返回</a>
     <h1>Spreekvaardigheid A2 - Oefenexamen 7 - 2025</h1>
+    <a href="exam.html" id="exam-link" style="display:none;padding:6px 12px;background:#9f1239;color:#fff;border-radius:6px;font-size:13px;text-decoration:none;font-weight:600;white-space:nowrap">📝 模擬考冊 →</a>
   </header>
+  <script>
+    // Show "go to exam.html" button only for videos that have one (mocks 1/2/3...)
+    (function(){
+      const HAS_EXAM = ['_iC1Pooi2UA','AMVy2zPNLso','mock3_a2_2026'];
+      const path = window.location.pathname;
+      if (HAS_EXAM.some(id => path.includes('/' + id + '/'))) {
+        document.getElementById('exam-link').style.display = 'inline-block';
+      }
+    })();
+  </script>
 
   <!-- Mini player -->
   <div class="player-box">

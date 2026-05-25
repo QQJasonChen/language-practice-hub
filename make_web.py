@@ -611,6 +611,10 @@ def build(exam: dict) -> str:
       <h1>{esc(exam.get('title',''))}</h1>
       <div class="meta">🎧 {esc(exam.get('exam_type',''))} ·
         {len(exam['scenarios'])} 場景 · {total_q} 題</div>
+      <div style="margin-top:8px"><a href="index.html"
+        style="display:inline-block;padding:6px 12px;background:#0f766e;color:#fff;
+               border-radius:6px;font-size:13px;text-decoration:none;font-weight:600">
+        🔊 切換到「逐句跟讀／Echo」模式 →</a></div>
     </div>
     <div class="wrap"><div class="tabs">
       <button class="on" data-mode="study">📖 學習</button>
