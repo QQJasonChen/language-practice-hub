@@ -48,7 +48,7 @@ MOCK3 = {
         # ── S1 街上拉客健身房（0-20）─────────────────────────────────
         {
             'title_zh': '街頭推銷健身房', 'title_nl': 'Een man praat met haar op straat',
-            'kind': '對話', 'dialogue': (0, 20),
+            'kind': '對話', 'dialogue': (0, 21),
             'context_zh': '街上一個男的攔住一個女的，介紹下週要在街上新開的健身房 Superfit。',
             'vocab': [
                 {'nl': 'de folder', 'zh': '宣傳單'},
@@ -94,7 +94,7 @@ MOCK3 = {
         {
             'title_zh': '郵局徵人：找 Lars 來上班',
             'title_nl': 'Aron is postbode. Hij luistert naar zijn collega\'s Menno en Johan',
-            'kind': '對話', 'dialogue': (21, 36),
+            'kind': '對話', 'dialogue': (22, 37),
             'context_zh': '郵差 Aron 旁邊聽到同事 Menno 和 Johan 在聊郵局缺人。Johan 推薦自己的姪子 Lars。',
             'vocab': [
                 {'nl': 'de postbode', 'zh': '郵差'},
@@ -149,7 +149,7 @@ MOCK3 = {
         {
             'title_zh': '西文課作業可以晚交嗎？',
             'title_nl': 'Yolanda volgt een cursus Spaans, samen met Mariska. Mariska praat met de docent',
-            'kind': '對話', 'dialogue': (37, 50),
+            'kind': '對話', 'dialogue': (38, 51),
             'context_zh': 'Yolanda 跟 Mariska 一起上西文課。Mariska 找老師 Olaf 商量：原定週一交的作業，能不能延後？',
             'vocab': [
                 {'nl': 'de opdracht inleveren', 'zh': '繳交作業'},
@@ -198,7 +198,7 @@ MOCK3 = {
         {
             'title_zh': 'George 留言：明天怎麼一起去活動',
             'title_nl': 'Chanti gaat morgen naar een bijeenkomst. George heeft haar voicemail ingesproken',
-            'kind': '語音留言', 'dialogue': (51, 66),
+            'kind': '語音留言', 'dialogue': (52, 69),
             'context_zh': 'Chanti 明天要去 Amsterdam 開公司活動。同事 George 在她的語音信箱留言安排同行細節。',
             'vocab': [
                 {'nl': 'de bijeenkomst', 'zh': '聚會、活動'},
@@ -257,7 +257,7 @@ MOCK3 = {
         {
             'title_zh': 'Johnny 在服飾店試褲子',
             'title_nl': 'Johnny is in een kledingzaak. Hij wil een broek passen',
-            'kind': '對話', 'dialogue': (67, 97),
+            'kind': '對話', 'dialogue': (70, 90),
             'context_zh': 'Johnny 在服飾店想試褲子。先問試衣間在哪，試完發現太大，要換尺寸。',
             'vocab': [
                 {'nl': 'de pashokjes / paskamers', 'zh': '試衣間'},
@@ -301,7 +301,7 @@ MOCK3 = {
         {
             'title_zh': 'Steve 留言：今天上課內容＋作業',
             'title_nl': 'Ellen volgt een opleiding tot bakker. Een medestudent heeft haar voicemail ingesproken',
-            'kind': '語音留言', 'dialogue': (98, 129),
+            'kind': '語音留言', 'dialogue': (91, 110),
             'context_zh': 'Ellen 在學做麵包，今天沒去上課。同學 Steve 在她的語音信箱留言：上課做了什麼、各科作業是什麼、要帶什麼來。',
             'vocab': [
                 {'nl': 'de opleiding tot bakker', 'zh': '麵包師的培訓'},
@@ -347,7 +347,7 @@ MOCK3 = {
         {
             'title_zh': 'Sabine 弄丟提款卡到銀行辦新卡',
             'title_nl': 'Fabio is met zijn vriendin Sabine bij de bank',
-            'kind': '對話', 'dialogue': (130, 149),
+            'kind': '對話', 'dialogue': (111, 126),
             'context_zh': 'Sabine 弄丟了提款卡，跟男友 Fabio 一起到銀行櫃台辦新的。',
             'vocab': [
                 {'nl': 'de pinpas', 'zh': '提款卡／金融卡'},
@@ -407,7 +407,7 @@ MOCK3 = {
         {
             'title_zh': '電視訪問實習生 Bram',
             'title_nl': 'Jose kijkt naar een interview op tv (TV-programma De Praktijk: stagiair Bram)',
-            'kind': '電視訪問', 'dialogue': (150, 174),
+            'kind': '電視訪問', 'dialogue': (127, 145),
             'context_zh': 'Jose 在看電視節目《De Praktijk》。今天訪問實習生 Bram（園藝助理），也問了他的主管 Wim 的意見。',
             'vocab': [
                 {'nl': 'stage lopen / de stagiair', 'zh': '實習／實習生'},
@@ -466,7 +466,7 @@ MOCK3 = {
         {
             'title_zh': 'Jamal 老闆遲到、交代新人安排',
             'title_nl': 'Jamal werkt in een boekenwinkel. De baas heeft zijn voicemail ingesproken',
-            'kind': '語音留言', 'dialogue': (175, 197),
+            'kind': '語音留言', 'dialogue': (146, 161),
             'context_zh': 'Jamal 在書店上班。老闆原本九點要到，現在會晚到（11:30）。他在 Jamal 的語音留下交代：新同事 Myrthe 今天第一天，要先做什麼安排。',
             'vocab': [
                 {'nl': 'de boekenwinkel', 'zh': '書店'},
@@ -515,7 +515,7 @@ MOCK3 = {
         {
             'title_zh': '新聞：Barendrecht 新電影院開幕',
             'title_nl': 'Silvana kijkt naar het nieuws op televisie',
-            'kind': '電視新聞', 'dialogue': (198, 219),
+            'kind': '電視新聞', 'dialogue': (162, 176),
             'context_zh': 'Silvana 看新聞：Barendrecht 昨天開了一家特別的電影院 Bioscoop Gloob，總共 9 廳，有兒童專用廳，開幕期間票價優惠。',
             'vocab': [
                 {'nl': 'de bioscoop', 'zh': '電影院'},
