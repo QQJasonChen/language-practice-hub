@@ -1,0 +1,1334 @@
+{
+  "video_id": "mock3_a2_2026",
+  "video_info": {
+    "title": "荷蘭文 A2 luisteren 模擬考三（QQ 自製真實做題版）",
+    "channel": "自製模擬考",
+    "duration": 657
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.0,
+        "text": "Dag mevrouw. Zou ik u misschien een folder mogen meegeven?",
+        "translation": "你好，女士。我可以給你一份傳單嗎？"
+      },
+      {
+        "start": 3.0,
+        "end": 4.0,
+        "text": "Waar gaat dit over?",
+        "translation": "這是關於什麼的？"
+      },
+      {
+        "start": 4.0,
+        "end": 8.0,
+        "text": "Volgende week opent hier in de straat een nieuwe sportschool.",
+        "translation": "下週這條街上會開一家新的健身房。"
+      },
+      {
+        "start": 8.0,
+        "end": 11.0,
+        "text": "Superfit heet die. Houdt u van sporten?",
+        "translation": "叫做Superfit。你喜歡運動嗎？"
+      },
+      {
+        "start": 11.0,
+        "end": 13.0,
+        "text": "Ja, wel.",
+        "translation": "嗯，喜歡。"
+      },
+      {
+        "start": 13.0,
+        "end": 15.0,
+        "text": "Dan is superfit misschien wel iets voor u.",
+        "translation": "那Superfit可能適合你。"
+      },
+      {
+        "start": 15.0,
+        "end": 17.0,
+        "text": "Kijk maar.",
+        "translation": "你看看。"
+      },
+      {
+        "start": 17.0,
+        "end": 19.0,
+        "text": "De eerste twee maanden sport u gratis.",
+        "translation": "前兩個月你可以免費運動。"
+      },
+      {
+        "start": 19.0,
+        "end": 22.0,
+        "text": "En daarna betaalt u maar 12,50 euro per maand.",
+        "translation": "然後每個月只要12.50歐元。"
+      },
+      {
+        "start": 22.0,
+        "end": 24.0,
+        "text": "Oh, dat is niet duur.",
+        "translation": "哦，這不貴。"
+      },
+      {
+        "start": 24.0,
+        "end": 26.0,
+        "text": "Nee, en u betaalt ook geen sport.",
+        "translation": "對，而且你也不用付運動費。"
+      },
+      {
+        "start": 26.0,
+        "end": 28.0,
+        "text": "Nou, dat klinkt heel goed.",
+        "translation": "哇，聽起來很好。"
+      },
+      {
+        "start": 28.0,
+        "end": 31.0,
+        "text": "Alleen helaas woon ik hier niet in de buurt.",
+        "translation": "可惜我不住在這附近。"
+      },
+      {
+        "start": 31.0,
+        "end": 33.0,
+        "text": "Oh, wat jammer.",
+        "translation": "哦，真可惜。"
+      },
+      {
+        "start": 33.0,
+        "end": 36.0,
+        "text": "Zou u de folder misschien aan iemand kunnen meegeven?",
+        "translation": "你能把傳單給別人嗎？"
+      },
+      {
+        "start": 36.0,
+        "end": 39.0,
+        "text": "Ja, mijn zus woont hier wel in de buurt.",
+        "translation": "可以，我的姐姐住在這附近。"
+      },
+      {
+        "start": 39.0,
+        "end": 41.0,
+        "text": "Dus misschien wil zij bij jullie komen sporten.",
+        "translation": "所以她可能會想來你們那裡運動。"
+      },
+      {
+        "start": 41.0,
+        "end": 43.0,
+        "text": "Oh, nou. Heel fijn. Dank u wel.",
+        "translation": "哦，那太好了。謝謝你。"
+      },
+      {
+        "start": 43.0,
+        "end": 44.0,
+        "text": "Fijne dag.",
+        "translation": "祝你有個愉快的一天。"
+      },
+      {
+        "start": 44.0,
+        "end": 45.0,
+        "text": "Hetzelfde. Dag.",
+        "translation": "你也是。再見。"
+      },
+      {
+        "start": 45.0,
+        "end": 46.0,
+        "text": "Dag.",
+        "translation": "再見。"
+      },
+      {
+        "start": 57.0,
+        "end": 60.0,
+        "text": "Aaron is postbode.",
+        "translation": "亞倫是郵差。"
+      },
+      {
+        "start": 67.0,
+        "end": 69.0,
+        "text": "Hé, Johan.",
+        "translation": "嘿，約翰。"
+      },
+      {
+        "start": 69.0,
+        "end": 72.0,
+        "text": "Ken jij nog iemand die hier wil komen werken?",
+        "translation": "你還認識想來這裡工作的人嗎？"
+      },
+      {
+        "start": 72.0,
+        "end": 74.0,
+        "text": "Wat voor iemand?",
+        "translation": "什麼樣的人？"
+      },
+      {
+        "start": 74.0,
+        "end": 77.0,
+        "text": "Nou ja, oud of jong. Maakt niet uit.",
+        "translation": "嗯，老的或年輕的都可以，沒關係。"
+      },
+      {
+        "start": 77.0,
+        "end": 80.0,
+        "text": "En hij hoeft ook geen ervaring te hebben.",
+        "translation": "而且他也不需要有經驗。"
+      },
+      {
+        "start": 80.0,
+        "end": 82.0,
+        "text": "Iemand die vroeg op kan staan.",
+        "translation": "需要能早起的人。"
+      },
+      {
+        "start": 82.0,
+        "end": 84.0,
+        "text": "Nou, mijn neef Lars misschien.",
+        "translation": "嗯，我的表弟拉斯也許可以。"
+      },
+      {
+        "start": 84.0,
+        "end": 86.0,
+        "text": "Hoe vroeg moet hij dan beginnen?",
+        "translation": "那他要幾點開始？"
+      },
+      {
+        "start": 86.0,
+        "end": 89.0,
+        "text": "Nou ja, ik begin altijd al om vijf uur.",
+        "translation": "嗯，我總是五點就開始了。"
+      },
+      {
+        "start": 89.0,
+        "end": 91.0,
+        "text": "Maar dat hoeft Lars nog niet, hoor.",
+        "translation": "不過拉斯還不需要這樣，喔。"
+      },
+      {
+        "start": 91.0,
+        "end": 93.0,
+        "text": "Hij moet dan om zes uur.",
+        "translation": "他六點要開始。"
+      },
+      {
+        "start": 93.0,
+        "end": 97.0,
+        "text": "En dan is hij rond twaalf uur klaar.",
+        "translation": "然後他大約十二點就結束了。"
+      },
+      {
+        "start": 97.0,
+        "end": 100.0,
+        "text": "Of heel soms om één uur.",
+        "translation": "或者有時候是一點。"
+      },
+      {
+        "start": 100.0,
+        "end": 102.0,
+        "text": "Ik zal hem eens vragen.",
+        "translation": "我去問問他。"
+      },
+      {
+        "start": 102.0,
+        "end": 105.0,
+        "text": "Laat hem maar even bellen naar Esther.",
+        "translation": "讓他打電話給艾絲特吧。"
+      },
+      {
+        "start": 114.0,
+        "end": 116.0,
+        "text": "Olaf, mag ik iets vragen?",
+        "translation": "奧拉夫，我可以問你一件事嗎？"
+      },
+      {
+        "start": 116.0,
+        "end": 118.0,
+        "text": "Natuurlijk.",
+        "translation": "當然可以。"
+      },
+      {
+        "start": 118.0,
+        "end": 123.0,
+        "text": "Volgende les, maandag, moeten we die opdracht inleveren.",
+        "translation": "下次課，星期一，我們要交那個作業。"
+      },
+      {
+        "start": 123.0,
+        "end": 126.0,
+        "text": "Maar ik ga dit weekend weg, dus dat lukt me niet.",
+        "translation": "不過我這個週末要出門，所以沒辦法。"
+      },
+      {
+        "start": 126.0,
+        "end": 129.0,
+        "text": "Mag ik de opdracht ook vrijdag inleveren?",
+        "translation": "我可以星期五交作業嗎？"
+      },
+      {
+        "start": 129.0,
+        "end": 132.0,
+        "text": "Dat is wel wat laat.",
+        "translation": "這樣有點晚。"
+      },
+      {
+        "start": 132.0,
+        "end": 134.0,
+        "text": "Woensdag anders?",
+        "translation": "那星期三怎麼樣？"
+      },
+      {
+        "start": 134.0,
+        "end": 136.0,
+        "text": "Ja, dat lukt ook wel.",
+        "translation": "嗯，這樣也可以。"
+      },
+      {
+        "start": 136.0,
+        "end": 138.0,
+        "text": "Oké, mooi.",
+        "translation": "好的，太好了。"
+      },
+      {
+        "start": 138.0,
+        "end": 141.0,
+        "text": "Wil je de opdracht dan mailen?",
+        "translation": "你可以把作業寄給我嗎？"
+      },
+      {
+        "start": 141.0,
+        "end": 143.0,
+        "text": "Op woensdag werk ik thuis.",
+        "translation": "我星期三在家工作。"
+      },
+      {
+        "start": 143.0,
+        "end": 147.0,
+        "text": "Ik kan hem dus niet op school uit mijn postvakje halen.",
+        "translation": "所以我不能在學校從我的郵箱裡拿到。"
+      },
+      {
+        "start": 147.0,
+        "end": 150.0,
+        "text": "En met de post naar mijn huis sturen duurt wel lang.",
+        "translation": "而且寄到我家也要花很久。"
+      },
+      {
+        "start": 150.0,
+        "end": 152.0,
+        "text": "Oké.",
+        "translation": "好的。"
+      },
+      {
+        "start": 167.0,
+        "end": 170.0,
+        "text": "Hoi Shanti, met George.",
+        "translation": "嗨，香蒂，我是喬治。"
+      },
+      {
+        "start": 171.0,
+        "end": 174.0,
+        "text": "Morgen is toch die bijeenkomst in Amsterdam?",
+        "translation": "明天不是在阿姆斯特丹有那個會議嗎？"
+      },
+      {
+        "start": 174.0,
+        "end": 177.0,
+        "text": "Ik zou je nog bellen over het samenreizen.",
+        "translation": "我還想跟你講一起搭車的事。"
+      },
+      {
+        "start": 177.0,
+        "end": 181.0,
+        "text": "Mijn kaart voor het openbaar vervoer heb ik niet meer.",
+        "translation": "我已經沒有公共交通的票了。"
+      },
+      {
+        "start": 181.0,
+        "end": 184.0,
+        "text": "En zonder kaart kan ik niet met de trein reizen.",
+        "translation": "沒有票我就不能搭火車。"
+      },
+      {
+        "start": 184.0,
+        "end": 187.0,
+        "text": "Maar we kunnen wel met de auto van het werk.",
+        "translation": "不過我們可以用公司的車。"
+      },
+      {
+        "start": 187.0,
+        "end": 190.0,
+        "text": "De bijeenkomst begint om acht uur.",
+        "translation": "會議八點開始。"
+      },
+      {
+        "start": 190.0,
+        "end": 196.0,
+        "text": "Ik haal je om half zes bij jou thuis op.",
+        "translation": "我會在你家六點半接你。"
+      },
+      {
+        "start": 196.0,
+        "end": 202.0,
+        "text": "Dat is misschien wel vroeg, maar dan hebben we genoeg tijd om de auto te parkeren.",
+        "translation": "這樣可能有點早，但我們有足夠的時間停車。"
+      },
+      {
+        "start": 202.0,
+        "end": 205.0,
+        "text": "Het kan soms zo druk zijn.",
+        "translation": "有時候真的會很忙。"
+      },
+      {
+        "start": 205.0,
+        "end": 209.0,
+        "text": "Ehm, dat was het geloof ik.",
+        "translation": "嗯，我想就這樣吧。"
+      },
+      {
+        "start": 209.0,
+        "end": 215.0,
+        "text": "Oh ja, wil je nog even een berichtje sturen met je straat- en huisnummer?",
+        "translation": "喔對了，你能再發個訊息告訴我你的街道和門牌號碼嗎？"
+      },
+      {
+        "start": 215.0,
+        "end": 218.0,
+        "text": "Ik weet het niet meer zo precies.",
+        "translation": "我不太記得了。"
+      },
+      {
+        "start": 218.0,
+        "end": 220.0,
+        "text": "Ik lees het wel.",
+        "translation": "我會看一下的。"
+      },
+      {
+        "start": 220.0,
+        "end": 222.0,
+        "text": "Dag!",
+        "translation": "再見！"
+      },
+      {
+        "start": 227.0,
+        "end": 230.0,
+        "text": "Lees eerst de vraag.",
+        "translation": "先讀一下問題。"
+      },
+      {
+        "start": 232.0,
+        "end": 233.0,
+        "text": "Mevrouw?",
+        "translation": "女士？"
+      },
+      {
+        "start": 233.0,
+        "end": 234.0,
+        "text": "Ja?",
+        "translation": "是的？"
+      },
+      {
+        "start": 234.0,
+        "end": 235.0,
+        "text": "Mag ik iets vragen?",
+        "translation": "我可以問一下嗎？"
+      },
+      {
+        "start": 235.0,
+        "end": 236.0,
+        "text": "Natuurlijk.",
+        "translation": "當然可以。"
+      },
+      {
+        "start": 236.0,
+        "end": 238.0,
+        "text": "Waar zijn de...",
+        "translation": "...在哪裡？"
+      },
+      {
+        "start": 243.0,
+        "end": 244.0,
+        "text": "Mevrouw?",
+        "translation": "女士？"
+      },
+      {
+        "start": 244.0,
+        "end": 245.0,
+        "text": "Ja?",
+        "translation": "是的？"
+      },
+      {
+        "start": 245.0,
+        "end": 246.0,
+        "text": "Mag ik iets vragen?",
+        "translation": "我可以問一下嗎？"
+      },
+      {
+        "start": 246.0,
+        "end": 247.0,
+        "text": "Natuurlijk.",
+        "translation": "當然可以。"
+      },
+      {
+        "start": 247.0,
+        "end": 249.0,
+        "text": "Waar zijn de paskamers?",
+        "translation": "試衣間在哪裡？"
+      },
+      {
+        "start": 249.0,
+        "end": 251.0,
+        "text": "De paskamers zijn daar.",
+        "translation": "試衣間在那邊。"
+      },
+      {
+        "start": 251.0,
+        "end": 252.0,
+        "text": "Tegenover de kassa.",
+        "translation": "在收銀台對面。"
+      },
+      {
+        "start": 252.0,
+        "end": 253.0,
+        "text": "Oh ja.",
+        "translation": "喔對。"
+      },
+      {
+        "start": 253.0,
+        "end": 254.0,
+        "text": "Dank u.",
+        "translation": "謝謝你。"
+      },
+      {
+        "start": 254.0,
+        "end": 257.0,
+        "text": "Oh, en als de broek niet past, dan roept u mij maar.",
+        "translation": "喔，如果褲子不合適，請叫我。"
+      },
+      {
+        "start": 257.0,
+        "end": 259.0,
+        "text": "Dan pak ik een andere maat voor u.",
+        "translation": "我會幫你拿其他尺寸。"
+      },
+      {
+        "start": 259.0,
+        "end": 260.0,
+        "text": "Is goed.",
+        "translation": "好的。"
+      },
+      {
+        "start": 267.0,
+        "end": 268.0,
+        "text": "En?",
+        "translation": "那呢？"
+      },
+      {
+        "start": 269.0,
+        "end": 270.0,
+        "text": "Lukt het?",
+        "translation": "成功了嗎？"
+      },
+      {
+        "start": 270.0,
+        "end": 271.0,
+        "text": "Ja.",
+        "translation": "是的。"
+      },
+      {
+        "start": 272.0,
+        "end": 274.0,
+        "text": "Maar ehm...",
+        "translation": "但是嗯..."
+      },
+      {
+        "start": 274.0,
+        "end": 276.0,
+        "text": "Hij zit niet zo lekker.",
+        "translation": "穿起來不太舒服。"
+      },
+      {
+        "start": 279.0,
+        "end": 282.0,
+        "text": "Nee, hij is gewoon te groot.",
+        "translation": "不，這件就是太大了。"
+      },
+      {
+        "start": 282.0,
+        "end": 284.0,
+        "text": "Welke maat is dit?",
+        "translation": "這是什麼尺寸？"
+      },
+      {
+        "start": 285.0,
+        "end": 287.0,
+        "text": "Maat 52.",
+        "translation": "尺寸52。"
+      },
+      {
+        "start": 287.0,
+        "end": 291.0,
+        "text": "Ik zal een kleinere maat broek voor u pakken.",
+        "translation": "我會幫你拿一條小一點的褲子。"
+      },
+      {
+        "start": 291.0,
+        "end": 294.0,
+        "text": "Maat 50 zou goed moeten zijn.",
+        "translation": "尺寸50應該剛好。"
+      },
+      {
+        "start": 294.0,
+        "end": 297.0,
+        "text": "Oh, en die broek kunt u zo aan mij geven.",
+        "translation": "哦，那條褲子你可以給我。"
+      },
+      {
+        "start": 297.0,
+        "end": 299.0,
+        "text": "Dan leg ik hem wel terug.",
+        "translation": "那我就把它放回去。"
+      },
+      {
+        "start": 299.0,
+        "end": 300.0,
+        "text": "Oké.",
+        "translation": "好的。"
+      },
+      {
+        "start": 300.0,
+        "end": 301.0,
+        "text": "Oké?",
+        "translation": "好嗎？"
+      },
+      {
+        "start": 301.0,
+        "end": 304.0,
+        "text": "Welkom bij voicemail van Teleworks.",
+        "translation": "歡迎來到Teleworks的語音信箱。"
+      },
+      {
+        "start": 304.0,
+        "end": 307.0,
+        "text": "U heeft één nieuw bericht.",
+        "translation": "你有一則新訊息。"
+      },
+      {
+        "start": 307.0,
+        "end": 310.0,
+        "text": "Hoi Ellen, Steve hier.",
+        "translation": "嗨，艾倫，我是史蒂夫。"
+      },
+      {
+        "start": 310.0,
+        "end": 313.0,
+        "text": "Jammer dat je er vandaag niet was.",
+        "translation": "今天你沒來真可惜。"
+      },
+      {
+        "start": 313.0,
+        "end": 316.0,
+        "text": "Hopelijk ben je snel weer beter.",
+        "translation": "希望你快點好起來。"
+      },
+      {
+        "start": 316.0,
+        "end": 319.0,
+        "text": "Je hebt een interessante les gemist.",
+        "translation": "你錯過了一堂有趣的課。"
+      },
+      {
+        "start": 319.0,
+        "end": 322.0,
+        "text": "We hebben geleerd hoe we verschillende soorten brood...",
+        "translation": "我們學了怎麼使用不同種類的麵包..."
+      },
+      {
+        "start": 322.0,
+        "end": 324.0,
+        "text": "voor de kassa gebruiken.",
+        "translation": "在收銀台那邊。"
+      },
+      {
+        "start": 324.0,
+        "end": 326.0,
+        "text": "En we hebben ook geleerd...",
+        "translation": "還有我們也學了..."
+      },
+      {
+        "start": 326.0,
+        "end": 329.0,
+        "text": "hoe we verschillende soorten brood...",
+        "translation": "怎麼做不同種類的麵包..."
+      },
+      {
+        "start": 329.0,
+        "end": 332.0,
+        "text": "voor de feestdagen kunnen maken.",
+        "translation": "為了節慶可以使用。"
+      },
+      {
+        "start": 332.0,
+        "end": 336.0,
+        "text": "We hebben een kerstbrood en een suikerbrood leren maken.",
+        "translation": "我們學會了做聖誕麵包和糖麵包。"
+      },
+      {
+        "start": 336.0,
+        "end": 338.0,
+        "text": "Echt leuk!",
+        "translation": "真的很好玩！"
+      },
+      {
+        "start": 338.0,
+        "end": 339.0,
+        "text": "Maar eh...",
+        "translation": "不過，嗯..."
+      },
+      {
+        "start": 339.0,
+        "end": 342.0,
+        "text": "Ik bel om het huiswerk door te geven.",
+        "translation": "我打電話來是要告訴你作業的事。"
+      },
+      {
+        "start": 342.0,
+        "end": 343.0,
+        "text": "Ehm...",
+        "translation": "嗯..."
+      },
+      {
+        "start": 343.0,
+        "end": 345.0,
+        "text": "Voor de toets rekenen...",
+        "translation": "對於數學考試..."
+      },
+      {
+        "start": 345.0,
+        "end": 348.0,
+        "text": "moeten we hoofdstuk 6 leren.",
+        "translation": "我們要學第六章。"
+      },
+      {
+        "start": 348.0,
+        "end": 351.0,
+        "text": "En we moeten oefening 1 en 2...",
+        "translation": "還有我們要做第七章的練習1和2..."
+      },
+      {
+        "start": 351.0,
+        "end": 355.0,
+        "text": "van hoofdstuk 7 maken voor Nederlands.",
+        "translation": "針對荷蘭語。"
+      },
+      {
+        "start": 355.0,
+        "end": 357.0,
+        "text": "Voor maatschappijleer...",
+        "translation": "對於社會學..."
+      },
+      {
+        "start": 357.0,
+        "end": 360.0,
+        "text": "moeten we een tekst uit de krant kiezen.",
+        "translation": "我們要選一篇報紙上的文章。"
+      },
+      {
+        "start": 360.0,
+        "end": 363.0,
+        "text": "Dat wordt het onderwerp van de presentatie...",
+        "translation": "那就是簡報的主題..."
+      },
+      {
+        "start": 363.0,
+        "end": 365.0,
+        "text": "die we moeten maken.",
+        "translation": "我們得做的。"
+      },
+      {
+        "start": 365.0,
+        "end": 366.0,
+        "text": "Nou.",
+        "translation": "嗯。"
+      },
+      {
+        "start": 366.0,
+        "end": 367.0,
+        "text": "Beterschap.",
+        "translation": "祝你早日康復。"
+      },
+      {
+        "start": 367.0,
+        "end": 369.0,
+        "text": "En we bellen nog wel.",
+        "translation": "我們會再打電話的。"
+      },
+      {
+        "start": 369.0,
+        "end": 371.0,
+        "text": "Oh, oh, oh ja!",
+        "translation": "哦，哦，哦，對了！"
+      },
+      {
+        "start": 371.0,
+        "end": 373.0,
+        "text": "Die tekst uit de krant...",
+        "translation": "那篇報紙上的文字..."
+      },
+      {
+        "start": 373.0,
+        "end": 376.0,
+        "text": "moet je meenemen naar school.",
+        "translation": "你要帶去學校。"
+      },
+      {
+        "start": 376.0,
+        "end": 378.0,
+        "text": "Niet vergeten, hè?",
+        "translation": "別忘了喔？"
+      },
+      {
+        "start": 378.0,
+        "end": 380.0,
+        "text": "Doeg!",
+        "translation": "掰掰！"
+      },
+      {
+        "start": 382.0,
+        "end": 383.0,
+        "text": "Goedemiddag.",
+        "translation": "下午好。"
+      },
+      {
+        "start": 383.0,
+        "end": 385.0,
+        "text": "Hallo.",
+        "translation": "哈囉。"
+      },
+      {
+        "start": 386.0,
+        "end": 388.0,
+        "text": "Ik heb een probleem.",
+        "translation": "我有個問題。"
+      },
+      {
+        "start": 388.0,
+        "end": 390.0,
+        "text": "Ik heb geen pinpas meer.",
+        "translation": "我沒有提款卡了。"
+      },
+      {
+        "start": 390.0,
+        "end": 392.0,
+        "text": "Wat is er met uw pinpas gebeurd?",
+        "translation": "您的提款卡發生什麼事了？"
+      },
+      {
+        "start": 392.0,
+        "end": 395.0,
+        "text": "Is hij gestolen of niet meer geldig?",
+        "translation": "是被偷了還是過期了？"
+      },
+      {
+        "start": 395.0,
+        "end": 397.0,
+        "text": "Nee, ik ben hem kwijt.",
+        "translation": "不是，我把它弄丟了。"
+      },
+      {
+        "start": 397.0,
+        "end": 399.0,
+        "text": "Oh, wanneer is dat gebeurd?",
+        "translation": "哦，什麼時候發生的？"
+      },
+      {
+        "start": 399.0,
+        "end": 401.0,
+        "text": "Gisteren ging ik boodschappen doen...",
+        "translation": "昨天我去買東西..."
+      },
+      {
+        "start": 401.0,
+        "end": 403.0,
+        "text": "maar toen was hij weg.",
+        "translation": "可是那時候它就不見了。"
+      },
+      {
+        "start": 403.0,
+        "end": 407.0,
+        "text": "Ik denk dus de dag voor gisteren.",
+        "translation": "我想應該是前天。"
+      },
+      {
+        "start": 407.0,
+        "end": 410.0,
+        "text": "Maar ik kon pas vandaag hierheen komen.",
+        "translation": "不過我今天才有辦法來這裡。"
+      },
+      {
+        "start": 410.0,
+        "end": 411.0,
+        "text": "Oké.",
+        "translation": "好的。"
+      },
+      {
+        "start": 411.0,
+        "end": 414.0,
+        "text": "Heeft u uw pinpas al geblokkeerd?",
+        "translation": "您已經把提款卡封鎖了嗎？"
+      },
+      {
+        "start": 414.0,
+        "end": 416.0,
+        "text": "Dan krijgt u per post een nieuwe.",
+        "translation": "那您會收到一張新的卡片寄來。"
+      },
+      {
+        "start": 416.0,
+        "end": 417.0,
+        "text": "Ja, heb ik gedaan.",
+        "translation": "是的，我已經做了。"
+      },
+      {
+        "start": 417.0,
+        "end": 418.0,
+        "text": "Goed.",
+        "translation": "好的。"
+      },
+      {
+        "start": 418.0,
+        "end": 420.0,
+        "text": "Dan is alles geregeld.",
+        "translation": "那一切都處理好了。"
+      },
+      {
+        "start": 420.0,
+        "end": 422.0,
+        "text": "U kunt weer geld opnemen...",
+        "translation": "您可以再次提取現金..."
+      },
+      {
+        "start": 422.0,
+        "end": 424.0,
+        "text": "als u uw nieuwe pas heeft.",
+        "translation": "當您拿到新的卡片時。"
+      },
+      {
+        "start": 434.0,
+        "end": 437.0,
+        "text": "Goedemorgen en welkom bij tv-programma De Praktijk.",
+        "translation": "早安，歡迎收看電視節目《實務》。"
+      },
+      {
+        "start": 437.0,
+        "end": 439.0,
+        "text": "Vandaag kijken wij mee met Bram.",
+        "translation": "今天我們要跟著布拉姆一起看看。"
+      },
+      {
+        "start": 439.0,
+        "end": 442.0,
+        "text": "Hij loopt stage als medewerker Groen.",
+        "translation": "他在綠化部門實習。"
+      },
+      {
+        "start": 442.0,
+        "end": 444.0,
+        "text": "Bram, wat ga je vandaag doen?",
+        "translation": "布拉姆，今天你要做什麼？"
+      },
+      {
+        "start": 444.0,
+        "end": 446.0,
+        "text": "Vandaag gaan we een boom weghalen.",
+        "translation": "今天我們要把一棵樹移走。"
+      },
+      {
+        "start": 446.0,
+        "end": 449.0,
+        "text": "En wat doe jij nog meer tijdens je stage?",
+        "translation": "那你在實習期間還做些什麼呢？"
+      },
+      {
+        "start": 449.0,
+        "end": 452.0,
+        "text": "Soms moeten we het gras maaien of bloemen neerzetten.",
+        "translation": "有時候我們需要修剪草坪或擺放花朵。"
+      },
+      {
+        "start": 452.0,
+        "end": 454.0,
+        "text": "Maar vandaag dus niet.",
+        "translation": "不過今天就不是這樣。"
+      },
+      {
+        "start": 454.0,
+        "end": 457.0,
+        "text": "En wat vind je nou het allerleukste om te doen tijdens je stage?",
+        "translation": "那你覺得在實習期間最有趣的事情是什麼？"
+      },
+      {
+        "start": 457.0,
+        "end": 460.0,
+        "text": "Het buitenwerken vind ik heel fijn.",
+        "translation": "我覺得在戶外工作很棒。"
+      },
+      {
+        "start": 460.0,
+        "end": 462.0,
+        "text": "En het samenwerken met collega's ook.",
+        "translation": "跟同事一起合作也很好。"
+      },
+      {
+        "start": 462.0,
+        "end": 465.0,
+        "text": "Maar het leukste vind ik het werken in een team.",
+        "translation": "不過我覺得最有趣的是團隊合作。"
+      },
+      {
+        "start": 465.0,
+        "end": 468.0,
+        "text": "En Wim Egge is jouw baas, toch?",
+        "translation": "威姆·埃格是你的老闆，對吧？"
+      },
+      {
+        "start": 468.0,
+        "end": 469.0,
+        "text": "Ja, dat klopt.",
+        "translation": "是的，沒錯。"
+      },
+      {
+        "start": 469.0,
+        "end": 470.0,
+        "text": "Wim.",
+        "translation": "威姆。"
+      },
+      {
+        "start": 473.0,
+        "end": 476.0,
+        "text": "Wim, hoe vind je dat Bram het doet?",
+        "translation": "威姆，你覺得布拉姆表現怎麼樣？"
+      },
+      {
+        "start": 476.0,
+        "end": 477.0,
+        "text": "Heel goed.",
+        "translation": "非常好。"
+      },
+      {
+        "start": 477.0,
+        "end": 479.0,
+        "text": "Hij werkt goed in een team.",
+        "translation": "他在團隊裡表現得很好。"
+      },
+      {
+        "start": 479.0,
+        "end": 481.0,
+        "text": "En hij doet zijn werk heel goed.",
+        "translation": "而且他的工作做得很棒。"
+      },
+      {
+        "start": 481.0,
+        "end": 483.0,
+        "text": "Alleen nog tijd op zijn werk komen...",
+        "translation": "只是還是有點難準時到工作..."
+      },
+      {
+        "start": 483.0,
+        "end": 485.0,
+        "text": "dat vind je nog wel een beetje moeilijk, hè?",
+        "translation": "這對你來說還是有點困難，是吧？"
+      },
+      {
+        "start": 485.0,
+        "end": 486.0,
+        "text": "Ja, dat klopt.",
+        "translation": "是的，沒錯。"
+      },
+      {
+        "start": 486.0,
+        "end": 488.0,
+        "text": "Ik moet vroeger opstaan.",
+        "translation": "我需要早點起床。"
+      },
+      {
+        "start": 489.0,
+        "end": 492.0,
+        "text": "Nou, heel veel succes jullie samen nog.",
+        "translation": "那麼，祝你們一起加油。"
+      },
+      {
+        "start": 492.0,
+        "end": 494.0,
+        "text": "En dank je wel voor dit interview.",
+        "translation": "謝謝你接受這次訪問。"
+      },
+      {
+        "start": 502.0,
+        "end": 504.0,
+        "text": "Goedemorgen, Jamal.",
+        "translation": "早安，賈馬爾。"
+      },
+      {
+        "start": 504.0,
+        "end": 508.0,
+        "text": "Ik zou vandaag om negen uur in de winkel zijn.",
+        "translation": "我今天應該九點到店裡。"
+      },
+      {
+        "start": 508.0,
+        "end": 511.0,
+        "text": "Maar het wordt later. Half twaalf.",
+        "translation": "不過會晚一點，半到十二點。"
+      },
+      {
+        "start": 511.0,
+        "end": 514.0,
+        "text": "Dus wil je wat doorgeven?",
+        "translation": "所以你想要傳達什麼嗎？"
+      },
+      {
+        "start": 514.0,
+        "end": 517.0,
+        "text": "Nou, vandaag komt Meerte voor het eerst.",
+        "translation": "今天梅爾特第一次來。"
+      },
+      {
+        "start": 517.0,
+        "end": 520.0,
+        "text": "Dus help haar allemaal een beetje mee.",
+        "translation": "所以大家幫幫她一下。"
+      },
+      {
+        "start": 520.0,
+        "end": 523.0,
+        "text": "Ze komt om tien uur.",
+        "translation": "她十點會來。"
+      },
+      {
+        "start": 523.0,
+        "end": 525.0,
+        "text": "Laat jij Meerte zien waar...",
+        "translation": "你能帶Meerte去看看哪裡..."
+      },
+      {
+        "start": 525.0,
+        "end": 528.0,
+        "text": "Dan kan René Meerte meteen laten zien hoe dat...",
+        "translation": "然後René可以馬上教Meerte怎麼..."
+      },
+      {
+        "start": 529.0,
+        "end": 532.0,
+        "text": "Goedemorgen, Jamal.",
+        "translation": "早安，Jamal。"
+      },
+      {
+        "start": 532.0,
+        "end": 536.0,
+        "text": "Ik zou vandaag om negen uur in de winkel zijn.",
+        "translation": "我今天九點會在店裡。"
+      },
+      {
+        "start": 536.0,
+        "end": 539.0,
+        "text": "Maar het wordt later. Half twaalf.",
+        "translation": "不過會晚一點，半十二。"
+      },
+      {
+        "start": 539.0,
+        "end": 542.0,
+        "text": "Dus wil je wat doorgeven?",
+        "translation": "所以你想傳達什麼嗎？"
+      },
+      {
+        "start": 542.0,
+        "end": 545.0,
+        "text": "Nou, vandaag komt Meerte voor het eerst.",
+        "translation": "嗯，今天Meerte第一次來。"
+      },
+      {
+        "start": 545.0,
+        "end": 548.0,
+        "text": "Dus help haar allemaal een beetje mee.",
+        "translation": "所以大家幫幫她一下。"
+      },
+      {
+        "start": 548.0,
+        "end": 551.0,
+        "text": "Ze komt om tien uur.",
+        "translation": "她十點會來。"
+      },
+      {
+        "start": 551.0,
+        "end": 554.0,
+        "text": "Laat jij Meerte zien waar alles staat en zo?",
+        "translation": "你能帶Meerte去看看所有東西嗎？"
+      },
+      {
+        "start": 554.0,
+        "end": 557.0,
+        "text": "En vraag dan aan Emma of ze wil uitleggen...",
+        "translation": "然後問Emma她能不能解釋一下..."
+      },
+      {
+        "start": 557.0,
+        "end": 559.0,
+        "text": "hoe de kassa werkt.",
+        "translation": "收銀機怎麼用。"
+      },
+      {
+        "start": 559.0,
+        "end": 562.0,
+        "text": "En René sluit vandaag af.",
+        "translation": "然後René今天會負責結束。"
+      },
+      {
+        "start": 562.0,
+        "end": 564.0,
+        "text": "Om zes uur.",
+        "translation": "六點。"
+      },
+      {
+        "start": 564.0,
+        "end": 568.0,
+        "text": "Dus dan kan René Meerte meteen laten zien hoe dat moet.",
+        "translation": "所以René可以馬上教Meerte怎麼做。"
+      },
+      {
+        "start": 568.0,
+        "end": 571.0,
+        "text": "Afsluiten. Bedankt alvast. En tot straks.",
+        "translation": "結束。先謝謝你們。待會見。"
+      },
+      {
+        "start": 572.0,
+        "end": 574.0,
+        "text": "Goedenavond.",
+        "translation": "晚安。"
+      },
+      {
+        "start": 574.0,
+        "end": 577.0,
+        "text": "En hartelijk welkom bij Regionieuws.",
+        "translation": "歡迎來到區域新聞。"
+      },
+      {
+        "start": 577.0,
+        "end": 580.0,
+        "text": "Eerst nieuws uit Barendrecht.",
+        "translation": "首先是來自Barendrecht的消息。"
+      },
+      {
+        "start": 580.0,
+        "end": 584.0,
+        "text": "Daar is gisteren een bijzondere bioscoop geopend.",
+        "translation": "那裡昨天開了一家特別的電影院。"
+      },
+      {
+        "start": 584.0,
+        "end": 587.0,
+        "text": "Bioscoop Gloop heeft in totaal negen zalen.",
+        "translation": "Gloop電影院總共有九個放映廳。"
+      },
+      {
+        "start": 587.0,
+        "end": 590.0,
+        "text": "De bioscoop is een bijzondere zaal.",
+        "translation": "這家電影院有一個特別的放映廳。"
+      },
+      {
+        "start": 590.0,
+        "end": 593.0,
+        "text": "De bioscoop is een bijzondere zaal.",
+        "translation": "這家電影院有一個特別的放映廳。"
+      },
+      {
+        "start": 593.0,
+        "end": 596.0,
+        "text": "De bioscoop is een bijzondere zaal.",
+        "translation": "這家電影院有一個特別的放映廳。"
+      },
+      {
+        "start": 596.0,
+        "end": 599.0,
+        "text": "De bioscoop is een bijzondere zaal.",
+        "translation": "這家電影院有一個特別的放映廳。"
+      },
+      {
+        "start": 599.0,
+        "end": 602.0,
+        "text": "De bioscoop heeft in totaal negen zalen.",
+        "translation": "這家電影院總共有九個放映廳。"
+      },
+      {
+        "start": 602.0,
+        "end": 605.0,
+        "text": "De bioscoop heeft zes gewone zalen,",
+        "translation": "這家電影院有六個普通放映廳，"
+      },
+      {
+        "start": 605.0,
+        "end": 608.0,
+        "text": "twee 3D-zalen en een aparte kinderzaal.",
+        "translation": "兩個3D放映廳和一個專門的兒童放映廳。"
+      },
+      {
+        "start": 608.0,
+        "end": 612.0,
+        "text": "Gloop is de eerste bioscoop in Nederland met zo'n zaal.",
+        "translation": "Gloop是荷蘭第一間有這種影廳的電影院。"
+      },
+      {
+        "start": 612.0,
+        "end": 616.0,
+        "text": "De zaal is speciaal gemaakt voor kinderen en hun ouders.",
+        "translation": "這個影廳是特別為小朋友和他們的父母設計的。"
+      },
+      {
+        "start": 616.0,
+        "end": 620.0,
+        "text": "Dat kun je zien aan de vrolijke kleuren en de speciale stoelen.",
+        "translation": "你可以從快樂的顏色和特別的座椅看出來。"
+      },
+      {
+        "start": 620.0,
+        "end": 624.0,
+        "text": "En natuurlijk aan de films die in de zaal draaien.",
+        "translation": "當然還有在影廳放映的電影。"
+      },
+      {
+        "start": 624.0,
+        "end": 628.0,
+        "text": "Bioscoop Gloop heeft tijdelijk een speciale openingsactie.",
+        "translation": "Gloop電影院目前有一個特別的開幕活動。"
+      },
+      {
+        "start": 628.0,
+        "end": 634.0,
+        "text": "In het weekend betalen kinderen nu 4 euro voor een kaartje en volwassenen 6 euro.",
+        "translation": "在週末，小朋友的票價現在只要4歐元，成人則是6歐元。"
+      },
+      {
+        "start": 634.0,
+        "end": 637.0,
+        "text": "Door de weeks zijn de kaartjes nu ook goedkoper.",
+        "translation": "平日的票價現在也變便宜了。"
+      },
+      {
+        "start": 637.0,
+        "end": 645.0,
+        "text": "Van maandag tot en met donderdag zijn kaartjes voor kinderen maar 3 euro en voor volwassenen 5 euro.",
+        "translation": "從星期一到星期四，小朋友的票只要3歐元，成人則是5歐元。"
+      },
+      {
+        "start": 645.0,
+        "end": 649.0,
+        "text": "De openingsactie duurt tot zondag 6 maart.",
+        "translation": "開幕活動持續到3月6日星期日。"
+      },
+      {
+        "start": 649.0,
+        "end": 652.0,
+        "text": "En nu nieuws uit Maasdam.",
+        "translation": "現在來看看來自Maasdam的消息。"
+      }
+    ]
+  }
+}

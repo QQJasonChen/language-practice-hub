@@ -4,3 +4,5 @@ audio_compressed.mp3
 __pycache__/
 www/
 .gstack/
+output/*/frames/
+output/*/sheets/

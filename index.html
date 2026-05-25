@@ -267,6 +267,15 @@
 <script>
 const videos = [
   {
+    "id": "mock3_a2_2026",
+    "title": "🆕 QQ 自製 A2 luisteren 模擬考三（10 場景 / 25 題）",
+    "channel": "自製模擬考",
+    "duration": 660,
+    "lang": "nl",
+    "native": "zh-TW",
+    "segments": 220
+  },
+  {
     "id": "_iC1Pooi2UA",
     "title": "EXAMEN A2 luisteren 2026 inburgering! PART 1 - met ANTWOORDEN! #nederlandsleren",
     "channel": "NT2 Academy",
@@ -569,9 +578,13 @@ function renderCards() {
   }).join('') || '<div style="text-align:center;color:var(--text3);padding:60px 0">沒有符合的影片</div>';
 }
 
+// videos that have the new 場景制 exam app (vs the original SRS / 連音陷阱本 page)
+const HAS_EXAM = new Set(['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026']);
+
 function go(id) {
   localStorage.setItem('hub_last_video', id);
-  window.location.href = `output/${id}/index.html`;
+  const page = HAS_EXAM.has(id) ? 'exam.html' : 'index.html';
+  window.location.href = `output/${id}/${page}`;
 }
 
 setGreeting();

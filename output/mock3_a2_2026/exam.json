@@ -1,0 +1,2582 @@
+{
+  "video_id": "mock3_a2_2026",
+  "title": "荷蘭文 A2 luisteren 模擬考三（QQ 自製真實做題版）",
+  "channel": "自製模擬考",
+  "duration": 657,
+  "exam_type": "A2 Luisteren · Inburgering（QQ 自製模擬考三）",
+  "intro": "這份是 QQ 自己錄製的真實做題過程模擬考三（共 10 個場景、25 題）。結構與 PART 1+2 相同——每個場景的對話只列一次，後面接所有考題，每題標出答案藏在原文哪一句。題目選項依照 OptimumAssessment 介面照抄。",
+  "n_questions": 25,
+  "scenarios": [
+    {
+      "n": 1,
+      "title_zh": "街頭推銷健身房",
+      "title_nl": "Een man praat met haar op straat",
+      "kind": "對話",
+      "context_zh": "街上一個男的攔住一個女的，介紹下週要在街上新開的健身房 Superfit。",
+      "start": "0:00",
+      "no_questions": false,
+      "dialogue": [
+        {
+          "t": "0:00",
+          "nl": "Dag mevrouw. Zou ik u misschien een folder mogen meegeven?",
+          "zh": "你好，女士。我可以給你一份傳單嗎？"
+        },
+        {
+          "t": "0:03",
+          "nl": "Waar gaat dit over?",
+          "zh": "這是關於什麼的？"
+        },
+        {
+          "t": "0:04",
+          "nl": "Volgende week opent hier in de straat een nieuwe sportschool.",
+          "zh": "下週這條街上會開一家新的健身房。"
+        },
+        {
+          "t": "0:08",
+          "nl": "Superfit heet die. Houdt u van sporten?",
+          "zh": "叫做Superfit。你喜歡運動嗎？"
+        },
+        {
+          "t": "0:11",
+          "nl": "Ja, wel.",
+          "zh": "嗯，喜歡。"
+        },
+        {
+          "t": "0:13",
+          "nl": "Dan is superfit misschien wel iets voor u.",
+          "zh": "那Superfit可能適合你。"
+        },
+        {
+          "t": "0:15",
+          "nl": "Kijk maar.",
+          "zh": "你看看。"
+        },
+        {
+          "t": "0:17",
+          "nl": "De eerste twee maanden sport u gratis.",
+          "zh": "前兩個月你可以免費運動。"
+        },
+        {
+          "t": "0:19",
+          "nl": "En daarna betaalt u maar 12,50 euro per maand.",
+          "zh": "然後每個月只要12.50歐元。"
+        },
+        {
+          "t": "0:22",
+          "nl": "Oh, dat is niet duur.",
+          "zh": "哦，這不貴。"
+        },
+        {
+          "t": "0:24",
+          "nl": "Nee, en u betaalt ook geen sport.",
+          "zh": "對，而且你也不用付運動費。"
+        },
+        {
+          "t": "0:26",
+          "nl": "Nou, dat klinkt heel goed.",
+          "zh": "哇，聽起來很好。"
+        },
+        {
+          "t": "0:28",
+          "nl": "Alleen helaas woon ik hier niet in de buurt.",
+          "zh": "可惜我不住在這附近。"
+        },
+        {
+          "t": "0:31",
+          "nl": "Oh, wat jammer.",
+          "zh": "哦，真可惜。"
+        },
+        {
+          "t": "0:33",
+          "nl": "Zou u de folder misschien aan iemand kunnen meegeven?",
+          "zh": "你能把傳單給別人嗎？"
+        },
+        {
+          "t": "0:36",
+          "nl": "Ja, mijn zus woont hier wel in de buurt.",
+          "zh": "可以，我的姐姐住在這附近。"
+        },
+        {
+          "t": "0:39",
+          "nl": "Dus misschien wil zij bij jullie komen sporten.",
+          "zh": "所以她可能會想來你們那裡運動。"
+        },
+        {
+          "t": "0:41",
+          "nl": "Oh, nou. Heel fijn. Dank u wel.",
+          "zh": "哦，那太好了。謝謝你。"
+        },
+        {
+          "t": "0:43",
+          "nl": "Fijne dag.",
+          "zh": "祝你有個愉快的一天。"
+        },
+        {
+          "t": "0:44",
+          "nl": "Hetzelfde. Dag.",
+          "zh": "你也是。再見。"
+        },
+        {
+          "t": "0:45",
+          "nl": "Dag.",
+          "zh": "再見。"
+        }
+      ],
+      "vocab": [
+        {
+          "nl": "de folder",
+          "zh": "宣傳單"
+        },
+        {
+          "nl": "de sportschool",
+          "zh": "健身房"
+        },
+        {
+          "nl": "gratis",
+          "zh": "免費的"
+        },
+        {
+          "nl": "in de buurt",
+          "zh": "在附近"
+        },
+        {
+          "nl": "meegeven",
+          "zh": "請對方帶走（給某人帶）"
+        }
+      ],
+      "patterns": [
+        {
+          "nl": "De eerste ... maand(en) ... gratis",
+          "zh": "頭幾個月……免費",
+          "note": "eerste + tijd 是常見的促銷句型。"
+        },
+        {
+          "nl": "Helaas woon ik hier niet in de buurt",
+          "zh": "可惜我不住附近",
+          "note": "helaas 表「遺憾」，後面常接拒絕理由。"
+        }
+      ],
+      "questions": [
+        {
+          "n": 1,
+          "t": "0:24",
+          "reconstructed": false,
+          "q_nl": "Wat vertelt de man over de sportschool?",
+          "q_zh": "那個男的告訴她關於健身房什麼？",
+          "options": [
+            {
+              "nl": "Hoeveel het kost om daar te sporten",
+              "zh": "在那邊運動要多少錢"
+            },
+            {
+              "nl": "Welke sporten je er kunt doen",
+              "zh": "可以做哪些運動"
+            },
+            {
+              "nl": "Wat de openingstijden zijn",
+              "zh": "開放時間"
+            }
+          ],
+          "answer": 0,
+          "source": [
+            {
+              "t": "0:17",
+              "nl": "De eerste twee maanden sport u gratis.",
+              "zh": "頭兩個月免費運動。"
+            },
+            {
+              "t": "0:19",
+              "nl": "En daarna betaalt u maar 12,50 euro per maand.",
+              "zh": "之後一個月只要 12.50 歐元。"
+            }
+          ],
+          "explain": "男的給的資訊都繞著「錢」——前兩個月免費、之後 12.50 歐／月、不收入會費。",
+          "trap": "運動種類、開放時間 都沒提到，是干擾。聽到「gratis」「betaalt」這些字就知道是價錢。"
+        },
+        {
+          "n": 2,
+          "t": "0:28",
+          "reconstructed": false,
+          "q_nl": "Waarom wil de vrouw niet naar de sportschool gaan?",
+          "q_zh": "為什麼女的不想去這間健身房？",
+          "options": [
+            {
+              "nl": "Ze houdt niet van sporten",
+              "zh": "她不喜歡運動"
+            },
+            {
+              "nl": "Ze woont niet in de buurt",
+              "zh": "她不住附近"
+            },
+            {
+              "nl": "Ze vindt de sportschool te duur",
+              "zh": "她覺得健身房太貴"
+            }
+          ],
+          "answer": 1,
+          "source": [
+            {
+              "t": "0:11",
+              "nl": "Houdt u van sporten? Ja, wel.",
+              "zh": "您喜歡運動嗎？喜歡的。"
+            },
+            {
+              "t": "0:28",
+              "nl": "Alleen helaas woon ik hier niet in de buurt.",
+              "zh": "只是可惜我不住在附近。"
+            }
+          ],
+          "explain": "她明確說「helaas woon ik hier niet in de buurt」——可惜不住附近。",
+          "trap": "她說「ja, wel（喜歡）」運動；價錢她說「dat is niet duur（不貴）」。兩個被否定的干擾項。"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title_zh": "郵局徵人：找 Lars 來上班",
+      "title_nl": "Aron is postbode. Hij luistert naar zijn collega's Menno en Johan",
+      "kind": "對話",
+      "context_zh": "郵差 Aron 旁邊聽到同事 Menno 和 Johan 在聊郵局缺人。Johan 推薦自己的姪子 Lars。",
+      "start": "0:57",
+      "no_questions": false,
+      "dialogue": [
+        {
+          "t": "0:57",
+          "nl": "Aaron is postbode.",
+          "zh": "亞倫是郵差。"
+        },
+        {
+          "t": "1:07",
+          "nl": "Hé, Johan.",
+          "zh": "嘿，約翰。"
+        },
+        {
+          "t": "1:09",
+          "nl": "Ken jij nog iemand die hier wil komen werken?",
+          "zh": "你還認識想來這裡工作的人嗎？"
+        },
+        {
+          "t": "1:12",
+          "nl": "Wat voor iemand?",
+          "zh": "什麼樣的人？"
+        },
+        {
+          "t": "1:14",
+          "nl": "Nou ja, oud of jong. Maakt niet uit.",
+          "zh": "嗯，老的或年輕的都可以，沒關係。"
+        },
+        {
+          "t": "1:17",
+          "nl": "En hij hoeft ook geen ervaring te hebben.",
+          "zh": "而且他也不需要有經驗。"
+        },
+        {
+          "t": "1:20",
+          "nl": "Iemand die vroeg op kan staan.",
+          "zh": "需要能早起的人。"
+        },
+        {
+          "t": "1:22",
+          "nl": "Nou, mijn neef Lars misschien.",
+          "zh": "嗯，我的表弟拉斯也許可以。"
+        },
+        {
+          "t": "1:24",
+          "nl": "Hoe vroeg moet hij dan beginnen?",
+          "zh": "那他要幾點開始？"
+        },
+        {
+          "t": "1:26",
+          "nl": "Nou ja, ik begin altijd al om vijf uur.",
+          "zh": "嗯，我總是五點就開始了。"
+        },
+        {
+          "t": "1:29",
+          "nl": "Maar dat hoeft Lars nog niet, hoor.",
+          "zh": "不過拉斯還不需要這樣，喔。"
+        },
+        {
+          "t": "1:31",
+          "nl": "Hij moet dan om zes uur.",
+          "zh": "他六點要開始。"
+        },
+        {
+          "t": "1:33",
+          "nl": "En dan is hij rond twaalf uur klaar.",
+          "zh": "然後他大約十二點就結束了。"
+        },
+        {
+          "t": "1:37",
+          "nl": "Of heel soms om één uur.",
+          "zh": "或者有時候是一點。"
+        },
+        {
+          "t": "1:40",
+          "nl": "Ik zal hem eens vragen.",
+          "zh": "我去問問他。"
+        },
+        {
+          "t": "1:42",
+          "nl": "Laat hem maar even bellen naar Esther.",
+          "zh": "讓他打電話給艾絲特吧。"
+        }
+      ],
+      "vocab": [
+        {
+          "nl": "de postbode",
+          "zh": "郵差"
+        },
+        {
+          "nl": "de ervaring",
+          "zh": "經驗"
+        },
+        {
+          "nl": "vroeg opstaan",
+          "zh": "早起"
+        },
+        {
+          "nl": "de neef",
+          "zh": "姪子／外甥"
+        },
+        {
+          "nl": "contact opnemen met",
+          "zh": "與……聯絡"
+        }
+      ],
+      "patterns": [
+        {
+          "nl": "Maakt niet uit",
+          "zh": "無所謂、沒關係",
+          "note": "對前面提出的條件表「不挑」。"
+        },
+        {
+          "nl": "Hij hoeft ook geen ... te hebben",
+          "zh": "他也不必有……",
+          "note": "hoeven niet = 不必。「不需要某條件」的口語句型。"
+        }
+      ],
+      "questions": [
+        {
+          "n": 3,
+          "t": "1:14",
+          "reconstructed": false,
+          "q_nl": "Wat voor iemand zoekt het postbedrijf?",
+          "q_zh": "郵局在找什麼樣的人？",
+          "options": [
+            {
+              "nl": "Een jong iemand",
+              "zh": "年輕的人"
+            },
+            {
+              "nl": "Een ouder iemand",
+              "zh": "年紀大一點的人"
+            },
+            {
+              "nl": "Iemand die vroeg op kan staan",
+              "zh": "能早起的人"
+            },
+            {
+              "nl": "Iemand met ervaring",
+              "zh": "有經驗的人"
+            }
+          ],
+          "answer": 2,
+          "source": [
+            {
+              "t": "1:14",
+              "nl": "Nou ja, oud of jong. Maakt niet uit.",
+              "zh": "老的少的都行，沒差。"
+            },
+            {
+              "t": "1:17",
+              "nl": "En hij hoeft ook geen ervaring te hebben.",
+              "zh": "也不必有經驗。"
+            },
+            {
+              "t": "1:20",
+              "nl": "Iemand die vroeg op kan staan.",
+              "zh": "要能早起的人。"
+            }
+          ],
+          "explain": "老少、經驗都「不必要」（maakt niet uit / hoeft niet）——唯一硬條件是「能早起」。",
+          "trap": "年輕、年長、有經驗 三項都被一句話 maakt niet uit / hoeft niet 否定掉。要聽肯定句才是答案。"
+        },
+        {
+          "n": 4,
+          "t": "1:26",
+          "reconstructed": false,
+          "q_nl": "Lars wil graag postbode worden. Hoe laat moet hij dan beginnen?",
+          "q_zh": "Lars 想當郵差，他幾點要開始上班？",
+          "options": [
+            {
+              "nl": "Om vijf uur",
+              "zh": "五點"
+            },
+            {
+              "nl": "Om zes uur",
+              "zh": "六點"
+            },
+            {
+              "nl": "Om twaalf uur",
+              "zh": "十二點"
+            },
+            {
+              "nl": "Om één uur",
+              "zh": "一點"
+            }
+          ],
+          "answer": 1,
+          "source": [
+            {
+              "t": "1:26",
+              "nl": "Nou ja, ik begin altijd al om vijf uur.",
+              "zh": "我自己都是五點開始。"
+            },
+            {
+              "t": "1:29",
+              "nl": "Maar dat hoeft Lars nog niet, hoor.",
+              "zh": "但 Lars 不必這麼早。"
+            },
+            {
+              "t": "1:31",
+              "nl": "Hij moet dan om zes uur.",
+              "zh": "他六點開始就行。"
+            }
+          ],
+          "explain": "Johan 自己五點上班，但 Lars「不必這麼早」——「Hij moet dan om zes uur」六點即可。",
+          "trap": "五點是 Johan 的時間（被「dat hoeft Lars nog niet」明確排除）；十二點／一點是「下班」時間，不是上班。"
+        },
+        {
+          "n": 5,
+          "t": "1:42",
+          "reconstructed": false,
+          "q_nl": "Met wie moet Lars contact opnemen?",
+          "q_zh": "Lars 要跟誰聯絡？",
+          "options": [
+            {
+              "nl": "Met Esther",
+              "zh": "跟 Esther"
+            },
+            {
+              "nl": "Met Aron",
+              "zh": "跟 Aron"
+            },
+            {
+              "nl": "Met Menno",
+              "zh": "跟 Menno"
+            },
+            {
+              "nl": "Met Johan",
+              "zh": "跟 Johan"
+            }
+          ],
+          "answer": 0,
+          "source": [
+            {
+              "t": "1:42",
+              "nl": "Laat hem maar even bellen naar Esther.",
+              "zh": "叫他打電話給 Esther 就好。"
+            }
+          ],
+          "explain": "「Laat hem maar even bellen naar Esther」——打給 Esther。",
+          "trap": "Aron 是場景的主角、Menno + Johan 是現場聊天的兩個同事——三個名字都剛聽到，要鎖定「打電話的對象」。"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title_zh": "西文課作業可以晚交嗎？",
+      "title_nl": "Yolanda volgt een cursus Spaans, samen met Mariska. Mariska praat met de docent",
+      "kind": "對話",
+      "context_zh": "Yolanda 跟 Mariska 一起上西文課。Mariska 找老師 Olaf 商量：原定週一交的作業，能不能延後？",
+      "start": "1:54",
+      "no_questions": false,
+      "dialogue": [
+        {
+          "t": "1:54",
+          "nl": "Olaf, mag ik iets vragen?",
+          "zh": "奧拉夫，我可以問你一件事嗎？"
+        },
+        {
+          "t": "1:56",
+          "nl": "Natuurlijk.",
+          "zh": "當然可以。"
+        },
+        {
+          "t": "1:58",
+          "nl": "Volgende les, maandag, moeten we die opdracht inleveren.",
+          "zh": "下次課，星期一，我們要交那個作業。"
+        },
+        {
+          "t": "2:03",
+          "nl": "Maar ik ga dit weekend weg, dus dat lukt me niet.",
+          "zh": "不過我這個週末要出門，所以沒辦法。"
+        },
+        {
+          "t": "2:06",
+          "nl": "Mag ik de opdracht ook vrijdag inleveren?",
+          "zh": "我可以星期五交作業嗎？"
+        },
+        {
+          "t": "2:09",
+          "nl": "Dat is wel wat laat.",
+          "zh": "這樣有點晚。"
+        },
+        {
+          "t": "2:12",
+          "nl": "Woensdag anders?",
+          "zh": "那星期三怎麼樣？"
+        },
+        {
+          "t": "2:14",
+          "nl": "Ja, dat lukt ook wel.",
+          "zh": "嗯，這樣也可以。"
+        },
+        {
+          "t": "2:16",
+          "nl": "Oké, mooi.",
+          "zh": "好的，太好了。"
+        },
+        {
+          "t": "2:18",
+          "nl": "Wil je de opdracht dan mailen?",
+          "zh": "你可以把作業寄給我嗎？"
+        },
+        {
+          "t": "2:21",
+          "nl": "Op woensdag werk ik thuis.",
+          "zh": "我星期三在家工作。"
+        },
+        {
+          "t": "2:23",
+          "nl": "Ik kan hem dus niet op school uit mijn postvakje halen.",
+          "zh": "所以我不能在學校從我的郵箱裡拿到。"
+        },
+        {
+          "t": "2:27",
+          "nl": "En met de post naar mijn huis sturen duurt wel lang.",
+          "zh": "而且寄到我家也要花很久。"
+        },
+        {
+          "t": "2:30",
+          "nl": "Oké.",
+          "zh": "好的。"
+        }
+      ],
+      "vocab": [
+        {
+          "nl": "de opdracht inleveren",
+          "zh": "繳交作業"
+        },
+        {
+          "nl": "thuis werken",
+          "zh": "在家工作"
+        },
+        {
+          "nl": "het postvakje",
+          "zh": "（學校的）信件格"
+        },
+        {
+          "nl": "opsturen",
+          "zh": "寄出"
+        },
+        {
+          "nl": "mailen",
+          "zh": "寄電子郵件"
+        }
+      ],
+      "patterns": [
+        {
+          "nl": "Dat is wel wat laat",
+          "zh": "那有點太晚",
+          "note": "wel wat = 有點，禮貌性質疑。"
+        },
+        {
+          "nl": "... duurt wel lang",
+          "zh": "……要花蠻久的",
+          "note": "duren = 持續、花（時間），常用於評估時程。"
+        }
+      ],
+      "questions": [
+        {
+          "n": 6,
+          "t": "2:14",
+          "reconstructed": false,
+          "q_nl": "Wanneer gaat Mariska de opdracht inleveren?",
+          "q_zh": "Mariska 什麼時候要交作業？",
+          "options": [
+            {
+              "nl": "Dit weekend",
+              "zh": "這個週末"
+            },
+            {
+              "nl": "Maandag",
+              "zh": "星期一"
+            },
+            {
+              "nl": "Woensdag",
+              "zh": "星期三"
+            },
+            {
+              "nl": "Vrijdag",
+              "zh": "星期五"
+            }
+          ],
+          "answer": 2,
+          "source": [
+            {
+              "t": "2:06",
+              "nl": "Mag ik de opdracht ook vrijdag inleveren?",
+              "zh": "我可以星期五再交嗎？"
+            },
+            {
+              "t": "2:09",
+              "nl": "Dat is wel wat laat. Woensdag anders?",
+              "zh": "那有點太晚，要不要星期三？"
+            },
+            {
+              "t": "2:14",
+              "nl": "Ja, dat lukt ook wel.",
+              "zh": "好，星期三也可以。"
+            }
+          ],
+          "explain": "Mariska 提星期五 → 老師覺得太晚提星期三 → Mariska 同意：星期三。",
+          "trap": "原本死線是 maandag；她自己提的是 vrijdag；最後談下來是 woensdag。三個都被講出來，要聽「最後同意」的。"
+        },
+        {
+          "n": 7,
+          "t": "2:23",
+          "reconstructed": false,
+          "q_nl": "Hoe moet Mariska de opdracht inleveren?",
+          "q_zh": "Mariska 要怎麼交作業？",
+          "options": [
+            {
+              "nl": "Persoonlijk aan Olaf geven",
+              "zh": "親自交給 Olaf"
+            },
+            {
+              "nl": "Per e-mail naar Olaf versturen",
+              "zh": "用 email 寄給 Olaf"
+            },
+            {
+              "nl": "Per post naar Olaf opsturen",
+              "zh": "用郵寄寄給 Olaf"
+            }
+          ],
+          "answer": 1,
+          "source": [
+            {
+              "t": "2:18",
+              "nl": "Wil je de opdracht dan mailen?",
+              "zh": "那你用 email 寄吧？"
+            },
+            {
+              "t": "2:21",
+              "nl": "Op woensdag werk ik thuis. Ik kan hem dus niet op school uit mijn postvakje halen.",
+              "zh": "我星期三在家工作，沒辦法到學校信箱拿。"
+            },
+            {
+              "t": "2:27",
+              "nl": "En met de post naar mijn huis sturen duurt wel lang.",
+              "zh": "寄到我家又太慢。"
+            }
+          ],
+          "explain": "老師主動提「mailen」——他星期三在家、無法到學校拿；郵寄太慢——所以用 e-mail。",
+          "trap": "親手交（postvakje）和郵寄（post）都被老師自己排除掉——「duurt wel lang」「kan ... niet halen」。"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title_zh": "George 留言：明天怎麼一起去活動",
+      "title_nl": "Chanti gaat morgen naar een bijeenkomst. George heeft haar voicemail ingesproken",
+      "kind": "語音留言",
+      "context_zh": "Chanti 明天要去 Amsterdam 開公司活動。同事 George 在她的語音信箱留言安排同行細節。",
+      "start": "2:47",
+      "no_questions": false,
+      "dialogue": [
+        {
+          "t": "2:47",
+          "nl": "Hoi Shanti, met George.",
+          "zh": "嗨，香蒂，我是喬治。"
+        },
+        {
+          "t": "2:51",
+          "nl": "Morgen is toch die bijeenkomst in Amsterdam?",
+          "zh": "明天不是在阿姆斯特丹有那個會議嗎？"
+        },
+        {
+          "t": "2:54",
+          "nl": "Ik zou je nog bellen over het samenreizen.",
+          "zh": "我還想跟你講一起搭車的事。"
+        },
+        {
+          "t": "2:57",
+          "nl": "Mijn kaart voor het openbaar vervoer heb ik niet meer.",
+          "zh": "我已經沒有公共交通的票了。"
+        },
+        {
+          "t": "3:01",
+          "nl": "En zonder kaart kan ik niet met de trein reizen.",
+          "zh": "沒有票我就不能搭火車。"
+        },
+        {
+          "t": "3:04",
+          "nl": "Maar we kunnen wel met de auto van het werk.",
+          "zh": "不過我們可以用公司的車。"
+        },
+        {
+          "t": "3:07",
+          "nl": "De bijeenkomst begint om acht uur.",
+          "zh": "會議八點開始。"
+        },
+        {
+          "t": "3:10",
+          "nl": "Ik haal je om half zes bij jou thuis op.",
+          "zh": "我會在你家六點半接你。"
+        },
+        {
+          "t": "3:16",
+          "nl": "Dat is misschien wel vroeg, maar dan hebben we genoeg tijd om de auto te parkeren.",
+          "zh": "這樣可能有點早，但我們有足夠的時間停車。"
+        },
+        {
+          "t": "3:22",
+          "nl": "Het kan soms zo druk zijn.",
+          "zh": "有時候真的會很忙。"
+        },
+        {
+          "t": "3:25",
+          "nl": "Ehm, dat was het geloof ik.",
+          "zh": "嗯，我想就這樣吧。"
+        },
+        {
+          "t": "3:29",
+          "nl": "Oh ja, wil je nog even een berichtje sturen met je straat- en huisnummer?",
+          "zh": "喔對了，你能再發個訊息告訴我你的街道和門牌號碼嗎？"
+        },
+        {
+          "t": "3:35",
+          "nl": "Ik weet het niet meer zo precies.",
+          "zh": "我不太記得了。"
+        },
+        {
+          "t": "3:38",
+          "nl": "Ik lees het wel.",
+          "zh": "我會看一下的。"
+        },
+        {
+          "t": "3:40",
+          "nl": "Dag!",
+          "zh": "再見！"
+        },
+        {
+          "t": "3:47",
+          "nl": "Lees eerst de vraag.",
+          "zh": "先讀一下問題。"
+        }
+      ],
+      "vocab": [
+        {
+          "nl": "de bijeenkomst",
+          "zh": "聚會、活動"
+        },
+        {
+          "nl": "het openbaar vervoer",
+          "zh": "大眾運輸"
+        },
+        {
+          "nl": "de OV-kaart",
+          "zh": "大眾運輸卡"
+        },
+        {
+          "nl": "parkeren",
+          "zh": "停車"
+        },
+        {
+          "nl": "het berichtje",
+          "zh": "小訊息"
+        }
+      ],
+      "patterns": [
+        {
+          "nl": "Zonder ... kan ik niet ...",
+          "zh": "沒有……我就不能……",
+          "note": "zonder + 名詞，表「缺少某物的結果」。"
+        },
+        {
+          "nl": "Ik haal je om ... bij jou thuis op",
+          "zh": "我幾點到你家接你",
+          "note": "可分動詞 ophalen，op 丟句尾。"
+        }
+      ],
+      "questions": [
+        {
+          "n": 8,
+          "t": "2:54",
+          "reconstructed": false,
+          "q_nl": "Hoe gaan George en Chanti naar de bijeenkomst?",
+          "q_zh": "George 和 Chanti 怎麼去這個活動？",
+          "options": [
+            {
+              "nl": "Met de trein",
+              "zh": "搭火車"
+            },
+            {
+              "nl": "Met de bus",
+              "zh": "搭公車"
+            },
+            {
+              "nl": "Met de auto",
+              "zh": "開車"
+            }
+          ],
+          "answer": 2,
+          "source": [
+            {
+              "t": "3:01",
+              "nl": "Mijn kaart voor het openbaar vervoer heb ik niet meer.",
+              "zh": "我的大眾運輸卡沒了。"
+            },
+            {
+              "t": "3:04",
+              "nl": "En zonder kaart kan ik niet met de trein reizen.",
+              "zh": "沒有卡我就不能搭火車。"
+            },
+            {
+              "t": "3:07",
+              "nl": "Maar we kunnen wel met de auto van het werk.",
+              "zh": "不過我們可以開公司的車。"
+            }
+          ],
+          "explain": "火車要 OV 卡，他沒了 → 改開「auto van het werk（公司的車）」。",
+          "trap": "火車是被講出來但被否定的選項（zonder kaart kan ik niet）；公車根本沒提到。⚠️ 這題我（QQ）原本選了火車——錯！要聽完「maar」後面的轉折。"
+        },
+        {
+          "n": 9,
+          "t": "3:14",
+          "reconstructed": false,
+          "q_nl": "Hoe laat wil George morgenochtend bij Chanti zijn?",
+          "q_zh": "George 明天早上幾點要到 Chanti 家？",
+          "options": [
+            {
+              "nl": "Om half zes",
+              "zh": "五點半"
+            },
+            {
+              "nl": "Om zes uur",
+              "zh": "六點"
+            },
+            {
+              "nl": "Om half acht",
+              "zh": "七點半"
+            },
+            {
+              "nl": "Om acht uur",
+              "zh": "八點"
+            }
+          ],
+          "answer": 0,
+          "source": [
+            {
+              "t": "3:10",
+              "nl": "Ik haal je om half zes bij jou thuis op.",
+              "zh": "我五點半到你家接你。"
+            },
+            {
+              "t": "3:16",
+              "nl": "Dat is misschien wel vroeg, maar dan hebben we genoeg tijd om de auto te parkeren.",
+              "zh": "可能是早了點，但這樣就有夠時間停車。"
+            }
+          ],
+          "explain": "「Ik haal je om half zes ... op」——五點半。half zes = 5:30，不是 6:30！",
+          "trap": "八點是「bijeenkomst begint om acht uur（活動八點開始）」——是活動時間，不是接人時間。half zes 別翻成 6:30。"
+        },
+        {
+          "n": 10,
+          "t": "3:32",
+          "reconstructed": false,
+          "q_nl": "Chanti moet een berichtje sturen. Wat moet zij in het berichtje zetten?",
+          "q_zh": "Chanti 要傳訊息。她要在訊息裡寫什麼？",
+          "options": [
+            {
+              "nl": "Hoe laat zij wil vertrekken",
+              "zh": "她想幾點出發"
+            },
+            {
+              "nl": "Op welk adres Chanti woont",
+              "zh": "Chanti 住的地址"
+            },
+            {
+              "nl": "Wat de kosten van de bijeenkomst zijn",
+              "zh": "活動的費用"
+            }
+          ],
+          "answer": 1,
+          "source": [
+            {
+              "t": "3:29",
+              "nl": "wil je nog even een berichtje sturen met je straat- en huisnummer?",
+              "zh": "你可以再傳個訊息告訴我你的街名和門牌號碼嗎？"
+            },
+            {
+              "t": "3:35",
+              "nl": "Ik weet het niet meer zo precies.",
+              "zh": "我記不太清楚了。"
+            }
+          ],
+          "explain": "George 要 Chanti 把「straat- en huisnummer（街名 + 門牌號碼）」傳給他——就是地址。",
+          "trap": "出發時間是 George 自己已經決定了（half zes）；費用根本沒提到。"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title_zh": "Johnny 在服飾店試褲子",
+      "title_nl": "Johnny is in een kledingzaak. Hij wil een broek passen",
+      "kind": "對話",
+      "context_zh": "Johnny 在服飾店想試褲子。先問試衣間在哪，試完發現太大，要換尺寸。",
+      "start": "3:52",
+      "no_questions": false,
+      "dialogue": [
+        {
+          "t": "3:52",
+          "nl": "Mevrouw?",
+          "zh": "女士？"
+        },
+        {
+          "t": "3:53",
+          "nl": "Ja?",
+          "zh": "是的？"
+        },
+        {
+          "t": "3:54",
+          "nl": "Mag ik iets vragen?",
+          "zh": "我可以問一下嗎？"
+        },
+        {
+          "t": "3:55",
+          "nl": "Natuurlijk.",
+          "zh": "當然可以。"
+        },
+        {
+          "t": "3:56",
+          "nl": "Waar zijn de...",
+          "zh": "...在哪裡？"
+        },
+        {
+          "t": "4:03",
+          "nl": "Mevrouw?",
+          "zh": "女士？"
+        },
+        {
+          "t": "4:04",
+          "nl": "Ja?",
+          "zh": "是的？"
+        },
+        {
+          "t": "4:05",
+          "nl": "Mag ik iets vragen?",
+          "zh": "我可以問一下嗎？"
+        },
+        {
+          "t": "4:06",
+          "nl": "Natuurlijk.",
+          "zh": "當然可以。"
+        },
+        {
+          "t": "4:07",
+          "nl": "Waar zijn de paskamers?",
+          "zh": "試衣間在哪裡？"
+        },
+        {
+          "t": "4:09",
+          "nl": "De paskamers zijn daar.",
+          "zh": "試衣間在那邊。"
+        },
+        {
+          "t": "4:11",
+          "nl": "Tegenover de kassa.",
+          "zh": "在收銀台對面。"
+        },
+        {
+          "t": "4:12",
+          "nl": "Oh ja.",
+          "zh": "喔對。"
+        },
+        {
+          "t": "4:13",
+          "nl": "Dank u.",
+          "zh": "謝謝你。"
+        },
+        {
+          "t": "4:14",
+          "nl": "Oh, en als de broek niet past, dan roept u mij maar.",
+          "zh": "喔，如果褲子不合適，請叫我。"
+        },
+        {
+          "t": "4:17",
+          "nl": "Dan pak ik een andere maat voor u.",
+          "zh": "我會幫你拿其他尺寸。"
+        },
+        {
+          "t": "4:19",
+          "nl": "Is goed.",
+          "zh": "好的。"
+        },
+        {
+          "t": "4:27",
+          "nl": "En?",
+          "zh": "那呢？"
+        },
+        {
+          "t": "4:29",
+          "nl": "Lukt het?",
+          "zh": "成功了嗎？"
+        },
+        {
+          "t": "4:30",
+          "nl": "Ja.",
+          "zh": "是的。"
+        },
+        {
+          "t": "4:32",
+          "nl": "Maar ehm...",
+          "zh": "但是嗯..."
+        },
+        {
+          "t": "4:34",
+          "nl": "Hij zit niet zo lekker.",
+          "zh": "穿起來不太舒服。"
+        },
+        {
+          "t": "4:39",
+          "nl": "Nee, hij is gewoon te groot.",
+          "zh": "不，這件就是太大了。"
+        },
+        {
+          "t": "4:42",
+          "nl": "Welke maat is dit?",
+          "zh": "這是什麼尺寸？"
+        },
+        {
+          "t": "4:45",
+          "nl": "Maat 52.",
+          "zh": "尺寸52。"
+        },
+        {
+          "t": "4:47",
+          "nl": "Ik zal een kleinere maat broek voor u pakken.",
+          "zh": "我會幫你拿一條小一點的褲子。"
+        },
+        {
+          "t": "4:51",
+          "nl": "Maat 50 zou goed moeten zijn.",
+          "zh": "尺寸50應該剛好。"
+        },
+        {
+          "t": "4:54",
+          "nl": "Oh, en die broek kunt u zo aan mij geven.",
+          "zh": "哦，那條褲子你可以給我。"
+        },
+        {
+          "t": "4:57",
+          "nl": "Dan leg ik hem wel terug.",
+          "zh": "那我就把它放回去。"
+        },
+        {
+          "t": "4:59",
+          "nl": "Oké.",
+          "zh": "好的。"
+        },
+        {
+          "t": "5:00",
+          "nl": "Oké?",
+          "zh": "好嗎？"
+        }
+      ],
+      "vocab": [
+        {
+          "nl": "de pashokjes / paskamers",
+          "zh": "試衣間"
+        },
+        {
+          "nl": "tegenover de kassa",
+          "zh": "在收銀台對面"
+        },
+        {
+          "nl": "passen",
+          "zh": "試穿"
+        },
+        {
+          "nl": "de maat",
+          "zh": "尺寸／號數"
+        },
+        {
+          "nl": "te groot / te klein",
+          "zh": "太大／太小"
+        }
+      ],
+      "patterns": [
+        {
+          "nl": "Waar zijn de ...?",
+          "zh": "……在哪裡？",
+          "note": "問位置的固定句型。"
+        },
+        {
+          "nl": "Ik zal een ... maat voor u pakken",
+          "zh": "我幫您拿一個（其他）尺寸",
+          "note": "pakken = 拿，店員常用語。"
+        }
+      ],
+      "questions": [
+        {
+          "n": 11,
+          "t": "4:07",
+          "reconstructed": false,
+          "q_nl": "Waar zijn de pashokjes?",
+          "q_zh": "試衣間在哪裡？",
+          "options": [
+            {
+              "nl": "Tegenover de kassa",
+              "zh": "收銀台對面"
+            },
+            {
+              "nl": "Achterin de winkel",
+              "zh": "店的後面"
+            },
+            {
+              "nl": "Naast de trap",
+              "zh": "樓梯旁邊"
+            }
+          ],
+          "answer": 0,
+          "source": [
+            {
+              "t": "4:07",
+              "nl": "De paskamers zijn daar. Tegenover de kassa.",
+              "zh": "試衣間在那邊，收銀台對面。"
+            }
+          ],
+          "explain": "店員直接說「Tegenover de kassa（在收銀台對面）」。",
+          "trap": "另外兩個位置原文完全沒提，是純干擾。試衣間在荷文有兩種說法：pashokjes / paskamers，題目用前者、店員用後者，都指同一個。"
+        },
+        {
+          "n": 12,
+          "t": "4:51",
+          "reconstructed": true,
+          "q_nl": "Welke maat is goed voor Johnny?",
+          "q_zh": "哪個尺寸適合 Johnny？",
+          "options": [
+            {
+              "nl": "Maat 50",
+              "zh": "50 號"
+            },
+            {
+              "nl": "Maat 52",
+              "zh": "52 號"
+            },
+            {
+              "nl": "Maat 54",
+              "zh": "54 號"
+            }
+          ],
+          "answer": 0,
+          "source": [
+            {
+              "t": "4:42",
+              "nl": "Welke maat is dit? Maat 52.",
+              "zh": "這是幾號？52 號。"
+            },
+            {
+              "t": "4:45",
+              "nl": "Hij is gewoon te groot.",
+              "zh": "太大了。"
+            },
+            {
+              "t": "4:47",
+              "nl": "Ik zal een kleinere maat broek voor u pakken. Maat 50 zou goed moeten zijn.",
+              "zh": "我幫您拿一個小一點的，50 號應該剛好。"
+            }
+          ],
+          "explain": "52 號試了「te groot（太大）」，店員提議「Maat 50 zou goed moeten zijn」——50 號剛好。",
+          "trap": "52 是 Johnny 一開始試的（不合）；54 號根本沒提到，是純干擾。"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title_zh": "Steve 留言：今天上課內容＋作業",
+      "title_nl": "Ellen volgt een opleiding tot bakker. Een medestudent heeft haar voicemail ingesproken",
+      "kind": "語音留言",
+      "context_zh": "Ellen 在學做麵包，今天沒去上課。同學 Steve 在她的語音信箱留言：上課做了什麼、各科作業是什麼、要帶什麼來。",
+      "start": "5:01",
+      "no_questions": false,
+      "dialogue": [
+        {
+          "t": "5:01",
+          "nl": "Welkom bij voicemail van Teleworks.",
+          "zh": "歡迎來到Teleworks的語音信箱。"
+        },
+        {
+          "t": "5:04",
+          "nl": "U heeft één nieuw bericht.",
+          "zh": "你有一則新訊息。"
+        },
+        {
+          "t": "5:07",
+          "nl": "Hoi Ellen, Steve hier.",
+          "zh": "嗨，艾倫，我是史蒂夫。"
+        },
+        {
+          "t": "5:10",
+          "nl": "Jammer dat je er vandaag niet was.",
+          "zh": "今天你沒來真可惜。"
+        },
+        {
+          "t": "5:13",
+          "nl": "Hopelijk ben je snel weer beter.",
+          "zh": "希望你快點好起來。"
+        },
+        {
+          "t": "5:16",
+          "nl": "Je hebt een interessante les gemist.",
+          "zh": "你錯過了一堂有趣的課。"
+        },
+        {
+          "t": "5:19",
+          "nl": "We hebben geleerd hoe we verschillende soorten brood...",
+          "zh": "我們學了怎麼使用不同種類的麵包..."
+        },
+        {
+          "t": "5:22",
+          "nl": "voor de kassa gebruiken.",
+          "zh": "在收銀台那邊。"
+        },
+        {
+          "t": "5:24",
+          "nl": "En we hebben ook geleerd...",
+          "zh": "還有我們也學了..."
+        },
+        {
+          "t": "5:26",
+          "nl": "hoe we verschillende soorten brood...",
+          "zh": "怎麼做不同種類的麵包..."
+        },
+        {
+          "t": "5:29",
+          "nl": "voor de feestdagen kunnen maken.",
+          "zh": "為了節慶可以使用。"
+        },
+        {
+          "t": "5:32",
+          "nl": "We hebben een kerstbrood en een suikerbrood leren maken.",
+          "zh": "我們學會了做聖誕麵包和糖麵包。"
+        },
+        {
+          "t": "5:36",
+          "nl": "Echt leuk!",
+          "zh": "真的很好玩！"
+        },
+        {
+          "t": "5:38",
+          "nl": "Maar eh...",
+          "zh": "不過，嗯..."
+        },
+        {
+          "t": "5:39",
+          "nl": "Ik bel om het huiswerk door te geven.",
+          "zh": "我打電話來是要告訴你作業的事。"
+        },
+        {
+          "t": "5:42",
+          "nl": "Ehm...",
+          "zh": "嗯..."
+        },
+        {
+          "t": "5:43",
+          "nl": "Voor de toets rekenen...",
+          "zh": "對於數學考試..."
+        },
+        {
+          "t": "5:45",
+          "nl": "moeten we hoofdstuk 6 leren.",
+          "zh": "我們要學第六章。"
+        },
+        {
+          "t": "5:48",
+          "nl": "En we moeten oefening 1 en 2...",
+          "zh": "還有我們要做第七章的練習1和2..."
+        },
+        {
+          "t": "5:51",
+          "nl": "van hoofdstuk 7 maken voor Nederlands.",
+          "zh": "針對荷蘭語。"
+        },
+        {
+          "t": "5:55",
+          "nl": "Voor maatschappijleer...",
+          "zh": "對於社會學..."
+        },
+        {
+          "t": "5:57",
+          "nl": "moeten we een tekst uit de krant kiezen.",
+          "zh": "我們要選一篇報紙上的文章。"
+        },
+        {
+          "t": "6:00",
+          "nl": "Dat wordt het onderwerp van de presentatie...",
+          "zh": "那就是簡報的主題..."
+        },
+        {
+          "t": "6:03",
+          "nl": "die we moeten maken.",
+          "zh": "我們得做的。"
+        },
+        {
+          "t": "6:05",
+          "nl": "Nou.",
+          "zh": "嗯。"
+        },
+        {
+          "t": "6:06",
+          "nl": "Beterschap.",
+          "zh": "祝你早日康復。"
+        },
+        {
+          "t": "6:07",
+          "nl": "En we bellen nog wel.",
+          "zh": "我們會再打電話的。"
+        },
+        {
+          "t": "6:09",
+          "nl": "Oh, oh, oh ja!",
+          "zh": "哦，哦，哦，對了！"
+        },
+        {
+          "t": "6:11",
+          "nl": "Die tekst uit de krant...",
+          "zh": "那篇報紙上的文字..."
+        },
+        {
+          "t": "6:13",
+          "nl": "moet je meenemen naar school.",
+          "zh": "你要帶去學校。"
+        },
+        {
+          "t": "6:16",
+          "nl": "Niet vergeten, hè?",
+          "zh": "別忘了喔？"
+        },
+        {
+          "t": "6:18",
+          "nl": "Doeg!",
+          "zh": "掰掰！"
+        }
+      ],
+      "vocab": [
+        {
+          "nl": "de opleiding tot bakker",
+          "zh": "麵包師的培訓"
+        },
+        {
+          "nl": "het kerstbrood / suikerbrood",
+          "zh": "聖誕麵包／砂糖麵包"
+        },
+        {
+          "nl": "het huiswerk",
+          "zh": "回家作業"
+        },
+        {
+          "nl": "de toets",
+          "zh": "小考"
+        },
+        {
+          "nl": "het hoofdstuk",
+          "zh": "章節"
+        },
+        {
+          "nl": "het onderwerp",
+          "zh": "主題"
+        }
+      ],
+      "patterns": [
+        {
+          "nl": "Hopelijk ben je snel weer beter",
+          "zh": "希望你快點好起來",
+          "note": "生病時的關心句。"
+        },
+        {
+          "nl": "Niet vergeten, hè?",
+          "zh": "別忘了喔！",
+          "note": "結尾叮嚀的固定講法。"
+        }
+      ],
+      "questions": [
+        {
+          "n": 13,
+          "t": "5:36",
+          "reconstructed": false,
+          "q_nl": "Wat vond de man van de les vandaag?",
+          "q_zh": "那個男的（Steve）覺得今天的課怎樣？",
+          "options": [
+            {
+              "nl": "Moeilijk",
+              "zh": "困難"
+            },
+            {
+              "nl": "Saai",
+              "zh": "無聊"
+            },
+            {
+              "nl": "Leuk",
+              "zh": "有趣"
+            }
+          ],
+          "answer": 2,
+          "source": [
+            {
+              "t": "5:32",
+              "nl": "We hebben een kerstbrood en een suikerbrood leren maken.",
+              "zh": "我們學了做聖誕麵包和砂糖麵包。"
+            },
+            {
+              "t": "5:36",
+              "nl": "Echt leuk!",
+              "zh": "真的很好玩！"
+            }
+          ],
+          "explain": "Steve 講完上課內容後直接說「Echt leuk!」——非常好玩。",
+          "trap": "「moeilijk / saai」原文完全沒出現。聽到 leuk 就是答案。"
+        },
+        {
+          "n": 14,
+          "t": "6:13",
+          "reconstructed": false,
+          "q_nl": "Wat moet Ellen meenemen naar school?",
+          "q_zh": "Ellen 要帶什麼來學校？",
+          "options": [
+            {
+              "nl": "Een tekst uit de krant",
+              "zh": "一篇報紙上的文章"
+            },
+            {
+              "nl": "Een recept voor brood",
+              "zh": "麵包食譜"
+            },
+            {
+              "nl": "Iets om over te presenteren",
+              "zh": "一個要報告的東西"
+            }
+          ],
+          "answer": 0,
+          "source": [
+            {
+              "t": "5:57",
+              "nl": "Voor maatschappijleer moeten we een tekst uit de krant kiezen.",
+              "zh": "社會科要從報紙挑一篇文章。"
+            },
+            {
+              "t": "6:11",
+              "nl": "Die tekst uit de krant moet je meenemen naar school.",
+              "zh": "那篇報紙文章你要帶來學校。"
+            }
+          ],
+          "explain": "結尾 Steve 補一句「Die tekst uit de krant moet je meenemen」——那篇報紙文章要帶來。",
+          "trap": "食譜是「上課學到」的，不是要帶來的；報告是用那篇文章「做」的事——meenemen（帶來）只指文章本身。"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title_zh": "Sabine 弄丟提款卡到銀行辦新卡",
+      "title_nl": "Fabio is met zijn vriendin Sabine bij de bank",
+      "kind": "對話",
+      "context_zh": "Sabine 弄丟了提款卡，跟男友 Fabio 一起到銀行櫃台辦新的。",
+      "start": "6:22",
+      "no_questions": false,
+      "dialogue": [
+        {
+          "t": "6:22",
+          "nl": "Goedemiddag.",
+          "zh": "下午好。"
+        },
+        {
+          "t": "6:23",
+          "nl": "Hallo.",
+          "zh": "哈囉。"
+        },
+        {
+          "t": "6:26",
+          "nl": "Ik heb een probleem.",
+          "zh": "我有個問題。"
+        },
+        {
+          "t": "6:28",
+          "nl": "Ik heb geen pinpas meer.",
+          "zh": "我沒有提款卡了。"
+        },
+        {
+          "t": "6:30",
+          "nl": "Wat is er met uw pinpas gebeurd?",
+          "zh": "您的提款卡發生什麼事了？"
+        },
+        {
+          "t": "6:32",
+          "nl": "Is hij gestolen of niet meer geldig?",
+          "zh": "是被偷了還是過期了？"
+        },
+        {
+          "t": "6:35",
+          "nl": "Nee, ik ben hem kwijt.",
+          "zh": "不是，我把它弄丟了。"
+        },
+        {
+          "t": "6:37",
+          "nl": "Oh, wanneer is dat gebeurd?",
+          "zh": "哦，什麼時候發生的？"
+        },
+        {
+          "t": "6:39",
+          "nl": "Gisteren ging ik boodschappen doen...",
+          "zh": "昨天我去買東西..."
+        },
+        {
+          "t": "6:41",
+          "nl": "maar toen was hij weg.",
+          "zh": "可是那時候它就不見了。"
+        },
+        {
+          "t": "6:43",
+          "nl": "Ik denk dus de dag voor gisteren.",
+          "zh": "我想應該是前天。"
+        },
+        {
+          "t": "6:47",
+          "nl": "Maar ik kon pas vandaag hierheen komen.",
+          "zh": "不過我今天才有辦法來這裡。"
+        },
+        {
+          "t": "6:50",
+          "nl": "Oké.",
+          "zh": "好的。"
+        },
+        {
+          "t": "6:51",
+          "nl": "Heeft u uw pinpas al geblokkeerd?",
+          "zh": "您已經把提款卡封鎖了嗎？"
+        },
+        {
+          "t": "6:54",
+          "nl": "Dan krijgt u per post een nieuwe.",
+          "zh": "那您會收到一張新的卡片寄來。"
+        },
+        {
+          "t": "6:56",
+          "nl": "Ja, heb ik gedaan.",
+          "zh": "是的，我已經做了。"
+        },
+        {
+          "t": "6:57",
+          "nl": "Goed.",
+          "zh": "好的。"
+        },
+        {
+          "t": "6:58",
+          "nl": "Dan is alles geregeld.",
+          "zh": "那一切都處理好了。"
+        },
+        {
+          "t": "7:00",
+          "nl": "U kunt weer geld opnemen...",
+          "zh": "您可以再次提取現金..."
+        },
+        {
+          "t": "7:02",
+          "nl": "als u uw nieuwe pas heeft.",
+          "zh": "當您拿到新的卡片時。"
+        }
+      ],
+      "vocab": [
+        {
+          "nl": "de pinpas",
+          "zh": "提款卡／金融卡"
+        },
+        {
+          "nl": "gestolen",
+          "zh": "被偷的"
+        },
+        {
+          "nl": "kwijt zijn",
+          "zh": "弄丟了"
+        },
+        {
+          "nl": "de pas blokkeren",
+          "zh": "把卡片停用"
+        },
+        {
+          "nl": "geld opnemen",
+          "zh": "領錢"
+        }
+      ],
+      "patterns": [
+        {
+          "nl": "Is hij gestolen of niet meer geldig?",
+          "zh": "是被偷還是過期了？",
+          "note": "銀行櫃台常見的二選一問句。"
+        },
+        {
+          "nl": "Dan is alles geregeld",
+          "zh": "那就都安排好了",
+          "note": "geregeld = 已處理／已搞定。"
+        }
+      ],
+      "questions": [
+        {
+          "n": 15,
+          "t": "6:35",
+          "reconstructed": false,
+          "q_nl": "Waarom moest Sabine een nieuwe pinpas aanvragen?",
+          "q_zh": "Sabine 為什麼要辦新提款卡？",
+          "options": [
+            {
+              "nl": "Haar oude pas is niet meer geldig",
+              "zh": "她的舊卡過期了"
+            },
+            {
+              "nl": "Haar oude pas is gestolen",
+              "zh": "她的舊卡被偷了"
+            },
+            {
+              "nl": "Ze is haar oude pas kwijt",
+              "zh": "她把舊卡弄丟了"
+            }
+          ],
+          "answer": 2,
+          "source": [
+            {
+              "t": "6:32",
+              "nl": "Is hij gestolen of niet meer geldig?",
+              "zh": "是被偷還是過期？"
+            },
+            {
+              "t": "6:35",
+              "nl": "Nee, ik ben hem kwijt.",
+              "zh": "不是，我是弄丟了。"
+            }
+          ],
+          "explain": "櫃台問是「被偷還是過期」，Sabine 兩個都否認：「Nee, ik ben hem kwijt」——弄丟了。",
+          "trap": "被偷、過期 都是櫃台問句的「選項」，被 Sabine 用「Nee」否定掉。聽到名詞要先聽肯定／否定。"
+        },
+        {
+          "n": 16,
+          "t": "6:46",
+          "reconstructed": false,
+          "q_nl": "Sinds wanneer heeft Sabine geen pinpas meer?",
+          "q_zh": "Sabine 從什麼時候開始沒有提款卡？",
+          "options": [
+            {
+              "nl": "Sinds de dag voor gisteren",
+              "zh": "從前天"
+            },
+            {
+              "nl": "Sinds gisteren",
+              "zh": "從昨天"
+            },
+            {
+              "nl": "Sinds vandaag",
+              "zh": "從今天"
+            }
+          ],
+          "answer": 0,
+          "source": [
+            {
+              "t": "6:39",
+              "nl": "Gisteren ging ik boodschappen doen, maar toen was hij weg.",
+              "zh": "昨天我去買東西，結果卡片就不見了。"
+            },
+            {
+              "t": "6:43",
+              "nl": "Ik denk dus de dag voor gisteren.",
+              "zh": "所以我想應該是前天（弄丟的）。"
+            }
+          ],
+          "explain": "她昨天買東西時發現卡片不見 → 推測「dag voor gisteren（前天）」就丟了。",
+          "trap": "gisteren 是「發現」的時間，不是「弄丟」的時間。要聽 dus（所以）後面的推論。「vandaag」是她到銀行的日子。"
+        },
+        {
+          "n": 17,
+          "t": "7:00",
+          "reconstructed": false,
+          "q_nl": "Wat moet Sabine nu doen?",
+          "q_zh": "Sabine 現在還要做什麼？",
+          "options": [
+            {
+              "nl": "Een nieuwe pas aanvragen",
+              "zh": "辦新卡"
+            },
+            {
+              "nl": "Geld opnemen",
+              "zh": "領錢"
+            },
+            {
+              "nl": "Haar pas blokkeren",
+              "zh": "把卡停用"
+            },
+            {
+              "nl": "Niets, alles is geregeld",
+              "zh": "不用做什麼，都已經處理好了"
+            }
+          ],
+          "answer": 3,
+          "source": [
+            {
+              "t": "6:54",
+              "nl": "Heeft u uw pinpas al geblokkeerd?",
+              "zh": "您卡片已經停用了嗎？"
+            },
+            {
+              "t": "6:56",
+              "nl": "Ja, heb ik gedaan.",
+              "zh": "是的，已經停了。"
+            },
+            {
+              "t": "6:58",
+              "nl": "Goed. Dan is alles geregeld.",
+              "zh": "好，那就都搞定了。"
+            },
+            {
+              "t": "7:00",
+              "nl": "U kunt weer geld opnemen als u uw nieuwe pas heeft.",
+              "zh": "等您拿到新卡就可以再領錢了。"
+            }
+          ],
+          "explain": "辦新卡（這次來銀行已經辦了）+ 停卡（自己已經處理了）→ 櫃台說「alles geregeld」。領錢是「拿到新卡之後」才做的事。",
+          "trap": "⚠️ 這題我（QQ）原本選了 1「辦新卡」——錯！辦新卡正是她現在來銀行做的這件事，已經在處理中了。剩下要做的是「niets」。要聽完所有對話才能下判斷。"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title_zh": "電視訪問實習生 Bram",
+      "title_nl": "Jose kijkt naar een interview op tv (TV-programma De Praktijk: stagiair Bram)",
+      "kind": "電視訪問",
+      "context_zh": "Jose 在看電視節目《De Praktijk》。今天訪問實習生 Bram（園藝助理），也問了他的主管 Wim 的意見。",
+      "start": "7:14",
+      "no_questions": false,
+      "dialogue": [
+        {
+          "t": "7:14",
+          "nl": "Goedemorgen en welkom bij tv-programma De Praktijk.",
+          "zh": "早安，歡迎收看電視節目《實務》。"
+        },
+        {
+          "t": "7:17",
+          "nl": "Vandaag kijken wij mee met Bram.",
+          "zh": "今天我們要跟著布拉姆一起看看。"
+        },
+        {
+          "t": "7:19",
+          "nl": "Hij loopt stage als medewerker Groen.",
+          "zh": "他在綠化部門實習。"
+        },
+        {
+          "t": "7:22",
+          "nl": "Bram, wat ga je vandaag doen?",
+          "zh": "布拉姆，今天你要做什麼？"
+        },
+        {
+          "t": "7:24",
+          "nl": "Vandaag gaan we een boom weghalen.",
+          "zh": "今天我們要把一棵樹移走。"
+        },
+        {
+          "t": "7:26",
+          "nl": "En wat doe jij nog meer tijdens je stage?",
+          "zh": "那你在實習期間還做些什麼呢？"
+        },
+        {
+          "t": "7:29",
+          "nl": "Soms moeten we het gras maaien of bloemen neerzetten.",
+          "zh": "有時候我們需要修剪草坪或擺放花朵。"
+        },
+        {
+          "t": "7:32",
+          "nl": "Maar vandaag dus niet.",
+          "zh": "不過今天就不是這樣。"
+        },
+        {
+          "t": "7:34",
+          "nl": "En wat vind je nou het allerleukste om te doen tijdens je stage?",
+          "zh": "那你覺得在實習期間最有趣的事情是什麼？"
+        },
+        {
+          "t": "7:37",
+          "nl": "Het buitenwerken vind ik heel fijn.",
+          "zh": "我覺得在戶外工作很棒。"
+        },
+        {
+          "t": "7:40",
+          "nl": "En het samenwerken met collega's ook.",
+          "zh": "跟同事一起合作也很好。"
+        },
+        {
+          "t": "7:42",
+          "nl": "Maar het leukste vind ik het werken in een team.",
+          "zh": "不過我覺得最有趣的是團隊合作。"
+        },
+        {
+          "t": "7:45",
+          "nl": "En Wim Egge is jouw baas, toch?",
+          "zh": "威姆·埃格是你的老闆，對吧？"
+        },
+        {
+          "t": "7:48",
+          "nl": "Ja, dat klopt.",
+          "zh": "是的，沒錯。"
+        },
+        {
+          "t": "7:49",
+          "nl": "Wim.",
+          "zh": "威姆。"
+        },
+        {
+          "t": "7:53",
+          "nl": "Wim, hoe vind je dat Bram het doet?",
+          "zh": "威姆，你覺得布拉姆表現怎麼樣？"
+        },
+        {
+          "t": "7:56",
+          "nl": "Heel goed.",
+          "zh": "非常好。"
+        },
+        {
+          "t": "7:57",
+          "nl": "Hij werkt goed in een team.",
+          "zh": "他在團隊裡表現得很好。"
+        },
+        {
+          "t": "7:59",
+          "nl": "En hij doet zijn werk heel goed.",
+          "zh": "而且他的工作做得很棒。"
+        },
+        {
+          "t": "8:01",
+          "nl": "Alleen nog tijd op zijn werk komen...",
+          "zh": "只是還是有點難準時到工作..."
+        },
+        {
+          "t": "8:03",
+          "nl": "dat vind je nog wel een beetje moeilijk, hè?",
+          "zh": "這對你來說還是有點困難，是吧？"
+        },
+        {
+          "t": "8:05",
+          "nl": "Ja, dat klopt.",
+          "zh": "是的，沒錯。"
+        },
+        {
+          "t": "8:06",
+          "nl": "Ik moet vroeger opstaan.",
+          "zh": "我需要早點起床。"
+        },
+        {
+          "t": "8:09",
+          "nl": "Nou, heel veel succes jullie samen nog.",
+          "zh": "那麼，祝你們一起加油。"
+        },
+        {
+          "t": "8:12",
+          "nl": "En dank je wel voor dit interview.",
+          "zh": "謝謝你接受這次訪問。"
+        }
+      ],
+      "vocab": [
+        {
+          "nl": "stage lopen / de stagiair",
+          "zh": "實習／實習生"
+        },
+        {
+          "nl": "medewerker Groen",
+          "zh": "園藝部員工"
+        },
+        {
+          "nl": "de boom weghalen",
+          "zh": "把樹移除"
+        },
+        {
+          "nl": "het gras maaien",
+          "zh": "割草"
+        },
+        {
+          "nl": "bloemen neerzetten",
+          "zh": "擺設花卉"
+        },
+        {
+          "nl": "op tijd op het werk zijn",
+          "zh": "準時上班"
+        }
+      ],
+      "patterns": [
+        {
+          "nl": "Het ... vind ik heel fijn",
+          "zh": "我覺得……很愉快",
+          "note": "het + 動詞名詞化（het buitenwerken）。"
+        },
+        {
+          "nl": "Dat vind je nog wel een beetje moeilijk, hè?",
+          "zh": "那你還是覺得有點難齁？",
+          "note": "主管溫和指出「待改進」的句型。"
+        }
+      ],
+      "questions": [
+        {
+          "n": 18,
+          "t": "7:24",
+          "reconstructed": false,
+          "q_nl": "Wat doet Bram vandaag?",
+          "q_zh": "Bram 今天要做什麼？",
+          "options": [
+            {
+              "nl": "Een boom weghalen",
+              "zh": "移除一棵樹"
+            },
+            {
+              "nl": "Gras maaien",
+              "zh": "割草"
+            },
+            {
+              "nl": "Bloemen neerzetten",
+              "zh": "擺設花卉"
+            }
+          ],
+          "answer": 0,
+          "source": [
+            {
+              "t": "7:24",
+              "nl": "Vandaag gaan we een boom weghalen.",
+              "zh": "我們今天要移除一棵樹。"
+            },
+            {
+              "t": "7:29",
+              "nl": "Soms moeten we het gras maaien of bloemen neerzetten. Maar vandaag dus niet.",
+              "zh": "有時候要割草或擺花，但今天不是。"
+            }
+          ],
+          "explain": "主持人問「今天」要做什麼，Bram 答「een boom weghalen」——其餘兩項他自己補一句「vandaag dus niet（今天不做）」。",
+          "trap": "割草、擺花 都被提到，但被「vandaag dus niet」整個否定。"
+        },
+        {
+          "n": 19,
+          "t": "7:42",
+          "reconstructed": false,
+          "q_nl": "Wat vindt Bram het leukste aan zijn stage?",
+          "q_zh": "Bram 覺得實習最有趣的是什麼？",
+          "options": [
+            {
+              "nl": "Werken in een team",
+              "zh": "在團隊裡工作"
+            },
+            {
+              "nl": "Buiten werken",
+              "zh": "戶外工作"
+            },
+            {
+              "nl": "Werken met planten",
+              "zh": "跟植物一起工作"
+            }
+          ],
+          "answer": 0,
+          "source": [
+            {
+              "t": "7:37",
+              "nl": "Het buitenwerken vind ik heel fijn.",
+              "zh": "戶外工作我覺得很愉快。"
+            },
+            {
+              "t": "7:40",
+              "nl": "En het samenwerken met collega's ook.",
+              "zh": "跟同事一起也是。"
+            },
+            {
+              "t": "7:42",
+              "nl": "Maar het leukste vind ik het werken in een team.",
+              "zh": "但最有趣的是團隊工作。"
+            }
+          ],
+          "explain": "三件事都喜歡，但用「Maar het leukste vind ik...」帶出「最」喜歡的——團隊工作。",
+          "trap": "戶外工作只是「heel fijn」、跟同事一起只是「ook」，題目問「最」要聽 het leukste。"
+        },
+        {
+          "n": 20,
+          "t": "8:05",
+          "reconstructed": false,
+          "q_nl": "Wat moet Bram nog leren, volgens zijn baas?",
+          "q_zh": "主管覺得 Bram 還要學什麼？",
+          "options": [
+            {
+              "nl": "Met collega's samenwerken",
+              "zh": "跟同事合作"
+            },
+            {
+              "nl": "Netjes werken",
+              "zh": "工作要整潔"
+            },
+            {
+              "nl": "Op tijd op het werk zijn",
+              "zh": "準時上班"
+            }
+          ],
+          "answer": 2,
+          "source": [
+            {
+              "t": "8:00",
+              "nl": "Alleen nog tijd op zijn werk komen, dat vind je nog wel een beetje moeilijk, hè?",
+              "zh": "只是準時上班這件事，你還是覺得有點難齁？"
+            },
+            {
+              "t": "8:05",
+              "nl": "Ja, dat klopt. Ik moet vroeger opstaan.",
+              "zh": "對，我得早點起床。"
+            }
+          ],
+          "explain": "主管說只剩「準時上班（tijd op zijn werk komen）」這件事還要加強，Bram 自己承認。",
+          "trap": "跟同事合作：主管前面才稱讚「Hij werkt goed in een team」——已經做得好。整潔沒被提到。"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title_zh": "Jamal 老闆遲到、交代新人安排",
+      "title_nl": "Jamal werkt in een boekenwinkel. De baas heeft zijn voicemail ingesproken",
+      "kind": "語音留言",
+      "context_zh": "Jamal 在書店上班。老闆原本九點要到，現在會晚到（11:30）。他在 Jamal 的語音留下交代：新同事 Myrthe 今天第一天，要先做什麼安排。",
+      "start": "8:22",
+      "no_questions": false,
+      "dialogue": [
+        {
+          "t": "8:22",
+          "nl": "Goedemorgen, Jamal.",
+          "zh": "早安，賈馬爾。"
+        },
+        {
+          "t": "8:24",
+          "nl": "Ik zou vandaag om negen uur in de winkel zijn.",
+          "zh": "我今天應該九點到店裡。"
+        },
+        {
+          "t": "8:28",
+          "nl": "Maar het wordt later. Half twaalf.",
+          "zh": "不過會晚一點，半到十二點。"
+        },
+        {
+          "t": "8:31",
+          "nl": "Dus wil je wat doorgeven?",
+          "zh": "所以你想要傳達什麼嗎？"
+        },
+        {
+          "t": "8:34",
+          "nl": "Nou, vandaag komt Meerte voor het eerst.",
+          "zh": "今天梅爾特第一次來。"
+        },
+        {
+          "t": "8:37",
+          "nl": "Dus help haar allemaal een beetje mee.",
+          "zh": "所以大家幫幫她一下。"
+        },
+        {
+          "t": "8:40",
+          "nl": "Ze komt om tien uur.",
+          "zh": "她十點會來。"
+        },
+        {
+          "t": "8:43",
+          "nl": "Laat jij Meerte zien waar...",
+          "zh": "你能帶Meerte去看看哪裡..."
+        },
+        {
+          "t": "8:45",
+          "nl": "Dan kan René Meerte meteen laten zien hoe dat...",
+          "zh": "然後René可以馬上教Meerte怎麼..."
+        },
+        {
+          "t": "8:49",
+          "nl": "Goedemorgen, Jamal.",
+          "zh": "早安，Jamal。"
+        },
+        {
+          "t": "8:52",
+          "nl": "Ik zou vandaag om negen uur in de winkel zijn.",
+          "zh": "我今天九點會在店裡。"
+        },
+        {
+          "t": "8:56",
+          "nl": "Maar het wordt later. Half twaalf.",
+          "zh": "不過會晚一點，半十二。"
+        },
+        {
+          "t": "8:59",
+          "nl": "Dus wil je wat doorgeven?",
+          "zh": "所以你想傳達什麼嗎？"
+        },
+        {
+          "t": "9:02",
+          "nl": "Nou, vandaag komt Meerte voor het eerst.",
+          "zh": "嗯，今天Meerte第一次來。"
+        },
+        {
+          "t": "9:05",
+          "nl": "Dus help haar allemaal een beetje mee.",
+          "zh": "所以大家幫幫她一下。"
+        },
+        {
+          "t": "9:08",
+          "nl": "Ze komt om tien uur.",
+          "zh": "她十點會來。"
+        },
+        {
+          "t": "9:11",
+          "nl": "Laat jij Meerte zien waar alles staat en zo?",
+          "zh": "你能帶Meerte去看看所有東西嗎？"
+        },
+        {
+          "t": "9:14",
+          "nl": "En vraag dan aan Emma of ze wil uitleggen...",
+          "zh": "然後問Emma她能不能解釋一下..."
+        },
+        {
+          "t": "9:17",
+          "nl": "hoe de kassa werkt.",
+          "zh": "收銀機怎麼用。"
+        },
+        {
+          "t": "9:19",
+          "nl": "En René sluit vandaag af.",
+          "zh": "然後René今天會負責結束。"
+        },
+        {
+          "t": "9:22",
+          "nl": "Om zes uur.",
+          "zh": "六點。"
+        },
+        {
+          "t": "9:24",
+          "nl": "Dus dan kan René Meerte meteen laten zien hoe dat moet.",
+          "zh": "所以René可以馬上教Meerte怎麼做。"
+        },
+        {
+          "t": "9:28",
+          "nl": "Afsluiten. Bedankt alvast. En tot straks.",
+          "zh": "結束。先謝謝你們。待會見。"
+        }
+      ],
+      "vocab": [
+        {
+          "nl": "de boekenwinkel",
+          "zh": "書店"
+        },
+        {
+          "nl": "voor het eerst",
+          "zh": "第一次"
+        },
+        {
+          "nl": "iets doorgeven",
+          "zh": "把訊息轉達"
+        },
+        {
+          "nl": "laten zien",
+          "zh": "帶人看／示範"
+        },
+        {
+          "nl": "uitleggen hoe ... werkt",
+          "zh": "說明……怎麼運作"
+        },
+        {
+          "nl": "afsluiten",
+          "zh": "關店打烊"
+        }
+      ],
+      "patterns": [
+        {
+          "nl": "Het wordt later",
+          "zh": "會晚一點",
+          "note": "worden 表「變成」、暗示「進度往後挪」。"
+        },
+        {
+          "nl": "Vraag aan ... of zij wil ...",
+          "zh": "請……是否願意……",
+          "note": "間接請求的句型。"
+        }
+      ],
+      "questions": [
+        {
+          "n": 21,
+          "t": "8:46",
+          "reconstructed": false,
+          "q_nl": "Hoe laat komt Myrthe?",
+          "q_zh": "Myrthe 幾點到？",
+          "options": [
+            {
+              "nl": "Om negen uur",
+              "zh": "九點"
+            },
+            {
+              "nl": "Om tien uur",
+              "zh": "十點"
+            },
+            {
+              "nl": "Om half twaalf",
+              "zh": "十一點半"
+            },
+            {
+              "nl": "Om zes uur",
+              "zh": "六點"
+            }
+          ],
+          "answer": 1,
+          "source": [
+            {
+              "t": "8:36",
+              "nl": "Ze komt om tien uur.",
+              "zh": "她十點到。"
+            }
+          ],
+          "explain": "老闆直接說「Ze komt om tien uur」——Myrthe 十點到。",
+          "trap": "⚠️ 我（QQ）原本選 3「half twaalf」——錯！half twaalf 是「老闆自己」會到的時間（從九點延到 11:30）；九點是老闆「原本」要到的時間；六點是 René 打烊的時間。三個都跟其他人有關，要鎖定「Myrthe」。"
+        },
+        {
+          "n": 22,
+          "t": "9:08",
+          "reconstructed": false,
+          "q_nl": "Wat moet Jamal voor Myrthe doen?",
+          "q_zh": "Jamal 要為 Myrthe 做什麼？",
+          "options": [
+            {
+              "nl": "Haar leren hoe ze de winkel afsluit",
+              "zh": "教她怎麼關店"
+            },
+            {
+              "nl": "Haar laten zien waar alles staat",
+              "zh": "帶她看東西放在哪"
+            },
+            {
+              "nl": "Haar uitleggen hoe de kassa werkt",
+              "zh": "教她收銀台怎麼用"
+            }
+          ],
+          "answer": 1,
+          "source": [
+            {
+              "t": "8:51",
+              "nl": "Laat jij Meerte zien waar alles staat en zo?",
+              "zh": "你帶 Myrthe 看一下東西都放在哪好嗎？"
+            },
+            {
+              "t": "8:54",
+              "nl": "En vraag dan aan Emma of ze wil uitleggen hoe de kassa werkt.",
+              "zh": "收銀台請 Emma 教她。"
+            },
+            {
+              "t": "8:59",
+              "nl": "En René sluit vandaag af. Dus dan kan René Meerte meteen laten zien hoe dat moet.",
+              "zh": "今天 René 關店，到時就讓 René 順便示範。"
+            }
+          ],
+          "explain": "Jamal 自己負責的只有「帶她看東西在哪」——收銀台是 Emma 教，關店是 René 示範。",
+          "trap": "收銀台、關店 都是任務，但分派給「別人」做。題目問「Jamal 要做」的，三件事要分清誰做。"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title_zh": "新聞：Barendrecht 新電影院開幕",
+      "title_nl": "Silvana kijkt naar het nieuws op televisie",
+      "kind": "電視新聞",
+      "context_zh": "Silvana 看新聞：Barendrecht 昨天開了一家特別的電影院 Bioscoop Gloob，總共 9 廳，有兒童專用廳，開幕期間票價優惠。",
+      "start": "9:32",
+      "no_questions": false,
+      "dialogue": [
+        {
+          "t": "9:32",
+          "nl": "Goedenavond.",
+          "zh": "晚安。"
+        },
+        {
+          "t": "9:34",
+          "nl": "En hartelijk welkom bij Regionieuws.",
+          "zh": "歡迎來到區域新聞。"
+        },
+        {
+          "t": "9:37",
+          "nl": "Eerst nieuws uit Barendrecht.",
+          "zh": "首先是來自Barendrecht的消息。"
+        },
+        {
+          "t": "9:40",
+          "nl": "Daar is gisteren een bijzondere bioscoop geopend.",
+          "zh": "那裡昨天開了一家特別的電影院。"
+        },
+        {
+          "t": "9:44",
+          "nl": "Bioscoop Gloop heeft in totaal negen zalen.",
+          "zh": "Gloop電影院總共有九個放映廳。"
+        },
+        {
+          "t": "9:47",
+          "nl": "De bioscoop is een bijzondere zaal.",
+          "zh": "這家電影院有一個特別的放映廳。"
+        },
+        {
+          "t": "9:50",
+          "nl": "De bioscoop is een bijzondere zaal.",
+          "zh": "這家電影院有一個特別的放映廳。"
+        },
+        {
+          "t": "9:53",
+          "nl": "De bioscoop is een bijzondere zaal.",
+          "zh": "這家電影院有一個特別的放映廳。"
+        },
+        {
+          "t": "9:56",
+          "nl": "De bioscoop is een bijzondere zaal.",
+          "zh": "這家電影院有一個特別的放映廳。"
+        },
+        {
+          "t": "9:59",
+          "nl": "De bioscoop heeft in totaal negen zalen.",
+          "zh": "這家電影院總共有九個放映廳。"
+        },
+        {
+          "t": "10:02",
+          "nl": "De bioscoop heeft zes gewone zalen,",
+          "zh": "這家電影院有六個普通放映廳，"
+        },
+        {
+          "t": "10:05",
+          "nl": "twee 3D-zalen en een aparte kinderzaal.",
+          "zh": "兩個3D放映廳和一個專門的兒童放映廳。"
+        },
+        {
+          "t": "10:08",
+          "nl": "Gloop is de eerste bioscoop in Nederland met zo'n zaal.",
+          "zh": "Gloop是荷蘭第一間有這種影廳的電影院。"
+        },
+        {
+          "t": "10:12",
+          "nl": "De zaal is speciaal gemaakt voor kinderen en hun ouders.",
+          "zh": "這個影廳是特別為小朋友和他們的父母設計的。"
+        },
+        {
+          "t": "10:16",
+          "nl": "Dat kun je zien aan de vrolijke kleuren en de speciale stoelen.",
+          "zh": "你可以從快樂的顏色和特別的座椅看出來。"
+        },
+        {
+          "t": "10:20",
+          "nl": "En natuurlijk aan de films die in de zaal draaien.",
+          "zh": "當然還有在影廳放映的電影。"
+        },
+        {
+          "t": "10:24",
+          "nl": "Bioscoop Gloop heeft tijdelijk een speciale openingsactie.",
+          "zh": "Gloop電影院目前有一個特別的開幕活動。"
+        },
+        {
+          "t": "10:28",
+          "nl": "In het weekend betalen kinderen nu 4 euro voor een kaartje en volwassenen 6 euro.",
+          "zh": "在週末，小朋友的票價現在只要4歐元，成人則是6歐元。"
+        },
+        {
+          "t": "10:34",
+          "nl": "Door de weeks zijn de kaartjes nu ook goedkoper.",
+          "zh": "平日的票價現在也變便宜了。"
+        },
+        {
+          "t": "10:37",
+          "nl": "Van maandag tot en met donderdag zijn kaartjes voor kinderen maar 3 euro en voor volwassenen 5 euro.",
+          "zh": "從星期一到星期四，小朋友的票只要3歐元，成人則是5歐元。"
+        },
+        {
+          "t": "10:45",
+          "nl": "De openingsactie duurt tot zondag 6 maart.",
+          "zh": "開幕活動持續到3月6日星期日。"
+        },
+        {
+          "t": "10:49",
+          "nl": "En nu nieuws uit Maasdam.",
+          "zh": "現在來看看來自Maasdam的消息。"
+        }
+      ],
+      "vocab": [
+        {
+          "nl": "de bioscoop",
+          "zh": "電影院"
+        },
+        {
+          "nl": "de zaal (zalen)",
+          "zh": "廳（複數 zalen）"
+        },
+        {
+          "nl": "de kinderzaal",
+          "zh": "兒童專用廳"
+        },
+        {
+          "nl": "3D-zaal",
+          "zh": "3D 廳"
+        },
+        {
+          "nl": "de openingsactie",
+          "zh": "開幕優惠活動"
+        },
+        {
+          "nl": "het kaartje",
+          "zh": "門票"
+        },
+        {
+          "nl": "door de weeks",
+          "zh": "平日"
+        },
+        {
+          "nl": "in het weekend",
+          "zh": "週末"
+        }
+      ],
+      "patterns": [
+        {
+          "nl": "... is de eerste ... in Nederland met ...",
+          "zh": "……是荷蘭第一間有……的……",
+          "note": "介紹「首例」的固定句型。"
+        },
+        {
+          "nl": "Van maandag tot en met donderdag",
+          "zh": "週一到週四",
+          "note": "tot en met（簡寫 t/m）= 包含結尾的日子。"
+        }
+      ],
+      "questions": [
+        {
+          "n": 23,
+          "t": "10:08",
+          "reconstructed": false,
+          "q_nl": "Waarom is de nieuwe bioscoop zo speciaal?",
+          "q_zh": "新電影院為什麼這麼特別？",
+          "options": [
+            {
+              "nl": "Er is een kinderzaal",
+              "zh": "有兒童專用廳"
+            },
+            {
+              "nl": "Er zijn erg veel zalen",
+              "zh": "廳數很多"
+            },
+            {
+              "nl": "Er zijn veel 3D-zalen",
+              "zh": "有很多 3D 廳"
+            }
+          ],
+          "answer": 0,
+          "source": [
+            {
+              "t": "10:05",
+              "nl": "twee 3D-zalen en een aparte kinderzaal.",
+              "zh": "兩個 3D 廳和一個獨立的兒童廳。"
+            },
+            {
+              "t": "10:08",
+              "nl": "Gloop is de eerste bioscoop in Nederland met zo'n zaal.",
+              "zh": "Gloob 是荷蘭第一間有這種廳的電影院。"
+            }
+          ],
+          "explain": "主播強調「de eerste bioscoop in Nederland met zo'n zaal」——荷蘭第一間有兒童廳。「特別」就在這個「首例」。",
+          "trap": "9 廳、2 個 3D 廳都只是「規模描述」，不是「特別」的點。要聽 de eerste 這個詞。"
+        },
+        {
+          "n": 24,
+          "t": "~10:00",
+          "reconstructed": true,
+          "q_nl": "Hoeveel gewone zalen heeft Bioscoop Gloob?",
+          "q_zh": "Bioscoop Gloob 有幾個一般廳？",
+          "options": [
+            {
+              "nl": "Drie",
+              "zh": "三個"
+            },
+            {
+              "nl": "Zes",
+              "zh": "六個"
+            },
+            {
+              "nl": "Negen",
+              "zh": "九個"
+            }
+          ],
+          "answer": 1,
+          "source": [
+            {
+              "t": "9:59",
+              "nl": "De bioscoop heeft in totaal negen zalen.",
+              "zh": "電影院總共有九個廳。"
+            },
+            {
+              "t": "10:02",
+              "nl": "De bioscoop heeft zes gewone zalen, twee 3D-zalen en een aparte kinderzaal.",
+              "zh": "六個一般廳、兩個 3D 廳，加一個獨立兒童廳。"
+            }
+          ],
+          "explain": "總共 9 廳 = 6 一般 + 2 3D + 1 兒童。題目問「gewone（一般的）」是六個。",
+          "trap": "九 是「總數」，三 沒出現——但 9－3（3D + 兒童）= 6 也對。聽到「gewone」要鎖定那個數字。"
+        },
+        {
+          "n": 25,
+          "t": "10:45",
+          "reconstructed": false,
+          "q_nl": "Silvana is 30 jaar. Ze wil op donderdag 3 maart naar bioscoop Gloob. Hoeveel moet ze betalen?",
+          "q_zh": "Silvana 30 歲。她想週四 3 月 3 日去 Gloob，要付多少？",
+          "options": [
+            {
+              "nl": "€ 3",
+              "zh": "三歐"
+            },
+            {
+              "nl": "€ 4",
+              "zh": "四歐"
+            },
+            {
+              "nl": "€ 5",
+              "zh": "五歐"
+            },
+            {
+              "nl": "€ 6",
+              "zh": "六歐"
+            }
+          ],
+          "answer": 2,
+          "source": [
+            {
+              "t": "10:28",
+              "nl": "In het weekend betalen kinderen nu 4 euro voor een kaartje en volwassenen 6 euro.",
+              "zh": "週末小孩四歐、大人六歐。"
+            },
+            {
+              "t": "10:34",
+              "nl": "Door de weeks zijn de kaartjes nu ook goedkoper.",
+              "zh": "平日也比較便宜。"
+            },
+            {
+              "t": "10:37",
+              "nl": "Van maandag tot en met donderdag zijn kaartjes voor kinderen maar 3 euro en voor volwassenen 5 euro.",
+              "zh": "週一到週四，小孩三歐、大人五歐。"
+            },
+            {
+              "t": "10:45",
+              "nl": "De openingsactie duurt tot zondag 6 maart.",
+              "zh": "開幕優惠到 3 月 6 日週日為止。"
+            }
+          ],
+          "explain": "Silvana 30 歲 = 大人；3/3 週四 = 平日 → 大人平日 5 歐。要組合「大人 + 平日」兩個資訊。",
+          "trap": "4 歐是「週末小孩」；3 歐是「平日小孩」；6 歐是「週末大人」。30 歲不是小孩、週四不是週末——四個價錢都被講出來，要兩個維度交叉對齊。"
+        }
+      ]
+    }
+  ]
+}
