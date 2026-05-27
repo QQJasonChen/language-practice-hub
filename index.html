@@ -234,12 +234,20 @@
   </div>
 
   <!-- Shortcuts -->
-  <div style="display:flex;gap:10px;margin:16px 0 0">
-    <div style="flex:1;padding:14px 16px;background:linear-gradient(135deg,rgba(124,92,252,0.15),rgba(255,59,92,0.1));border-radius:16px;border:1px solid rgba(255,255,255,0.08);cursor:pointer;display:flex;align-items:center;gap:10px" onclick="window.location.href='templates.html'">
+  <div style="display:flex;gap:10px;margin:16px 0 0;flex-wrap:wrap">
+    <div style="flex:1;min-width:140px;padding:14px 16px;background:linear-gradient(135deg,rgba(251,146,60,0.2),rgba(94,234,212,0.1));border-radius:16px;border:1px solid rgba(251,146,60,0.3);cursor:pointer;display:flex;align-items:center;gap:10px" onclick="window.location.href='random-quiz.html'">
+      <div style="font-size:24px">🎯</div>
+      <div><div style="font-size:14px;font-weight:700">隨機考一題</div><div style="font-size:11px;color:var(--muted)">3 mock · 67 題池</div></div>
+    </div>
+    <div style="flex:1;min-width:140px;padding:14px 16px;background:linear-gradient(135deg,rgba(94,234,212,0.15),rgba(124,92,252,0.1));border-radius:16px;border:1px solid rgba(94,234,212,0.25);cursor:pointer;display:flex;align-items:center;gap:10px" onclick="window.location.href='vocab.html'">
+      <div style="font-size:24px">📚</div>
+      <div><div style="font-size:14px;font-weight:700">詞彙閃卡</div><div style="font-size:11px;color:var(--muted)">跨 mock SRS</div></div>
+    </div>
+    <div style="flex:1;min-width:140px;padding:14px 16px;background:linear-gradient(135deg,rgba(124,92,252,0.15),rgba(255,59,92,0.1));border-radius:16px;border:1px solid rgba(255,255,255,0.08);cursor:pointer;display:flex;align-items:center;gap:10px" onclick="window.location.href='templates.html'">
       <div style="font-size:24px">📝</div>
       <div><div style="font-size:14px;font-weight:700">模板練習</div><div style="font-size:11px;color:var(--muted)">93 模板 · 488 例句</div></div>
     </div>
-    <div style="flex:1;padding:14px 16px;background:linear-gradient(135deg,rgba(255,130,0,0.15),rgba(255,59,92,0.1));border-radius:16px;border:1px solid rgba(255,255,255,0.08);cursor:pointer;display:flex;align-items:center;gap:10px" onclick="window.location.href='pronunciation.html'">
+    <div style="flex:1;min-width:140px;padding:14px 16px;background:linear-gradient(135deg,rgba(255,130,0,0.15),rgba(255,59,92,0.1));border-radius:16px;border:1px solid rgba(255,255,255,0.08);cursor:pointer;display:flex;align-items:center;gap:10px" onclick="window.location.href='pronunciation.html'">
       <div style="font-size:24px">🔤</div>
       <div><div style="font-size:14px;font-weight:700">發音練習</div><div style="font-size:11px;color:var(--muted)">母音 · 子音 · Echo</div></div>
     </div>

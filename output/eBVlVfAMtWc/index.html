@@ -587,6 +587,7 @@
     <div class="player-actions">
       <button class="pa-btn" onclick="toggleExtraControls()">⚙ AB Loop</button>
       <button class="pa-btn" id="multi-loop-btn" onclick="toggleMultiLoop()" style="display:inline">📌 多句</button>
+      <button class="pa-btn" id="shadow-btn" onclick="toggleShadow()" style="background:rgba(15,118,110,0.15);border-color:rgba(15,118,110,0.4);color:#5eead4">🔁 跟讀</button>
       <button class="pa-btn" onclick="prevSentence()">⏮</button>
       <button class="pa-btn" onclick="nextSentence()">⏭</button>
       <span id="progress-text" style="font-size:10px;color:var(--dim);margin-left:auto;font-weight:600">0/0</span>
@@ -962,6 +963,61 @@ jumpToLine = function(idx) {
 
 function prevSentence() { jumpToLine(Math.max(0, (activeLineIndex || 0) - 1)); }
 function nextSentence() { jumpToLine(Math.min(segments.length - 1, (activeLineIndex || 0) + 1)); }
+
+// ── Inline auto-shadow: hands-free 跟讀 mode ──
+// Plays current sentence → pauses sentence_duration × 1.0 (your turn to repeat) →
+// next sentence. Stays in dialogue view, no modal. Tap again to stop.
+let shadowState = { active: false, timer: null, idx: 0 };
+function shadowSettings() {
+  return {
+    pauseRatio: parseFloat(localStorage.getItem('lph_shadow_ratio') || '1.0'),
+    repeatOnce: localStorage.getItem('lph_shadow_repeat') === '1',
+  };
+}
+function toggleShadow() {
+  if (shadowState.active) { stopShadow(); return; }
+  shadowState.active = true;
+  shadowState.idx = activeLineIndex || 0;
+  const btn = document.getElementById('shadow-btn');
+  if (btn) { btn.textContent = '⏹ 停止跟讀'; btn.style.background = 'rgba(255,59,92,0.2)'; btn.style.color = '#fda4af'; }
+  playShadowSentence();
+}
+function stopShadow() {
+  shadowState.active = false;
+  if (shadowState.timer) { clearTimeout(shadowState.timer); shadowState.timer = null; }
+  audio.pause();
+  setPlayButton(false);
+  const btn = document.getElementById('shadow-btn');
+  if (btn) { btn.textContent = '🔁 跟讀'; btn.style.background = 'rgba(15,118,110,0.15)'; btn.style.color = '#5eead4'; }
+}
+function playShadowSentence(replaying) {
+  if (!shadowState.active) return;
+  const i = shadowState.idx;
+  if (i >= segments.length) { stopShadow(); return; }
+  const s = segments[i];
+  setActiveDialogueLine(i);
+  audio.currentTime = s.start;
+  audio.play().then(() => setPlayButton(true)).catch(() => {});
+  const dur = (s.end - s.start) * 1000;
+  // Pause audio at sentence end
+  shadowState.timer = setTimeout(() => {
+    if (!shadowState.active) return;
+    audio.pause();
+    setPlayButton(false);
+    const { pauseRatio, repeatOnce } = shadowSettings();
+    const pauseMs = Math.max(dur * pauseRatio, 1500);
+    // Optional: replay sentence once after your repeat, before advancing
+    shadowState.timer = setTimeout(() => {
+      if (!shadowState.active) return;
+      if (repeatOnce && !replaying) {
+        playShadowSentence(true);
+      } else {
+        shadowState.idx += 1;
+        playShadowSentence(false);
+      }
+    }, pauseMs);
+  }, dur + 100);  // small buffer so the last word isn't clipped
+}
 
 function setActiveDialogueLine(idx) {
   document.querySelectorAll('.dialogue-line').forEach(l => l.classList.remove('highlight'));
@@ -1686,7 +1742,9 @@ function estimateDifficulty(text) {
 }
 
 // ── Recording & Pronunciation Scoring ──
-let recState = { recording: false, mediaRec: null, chunks: [], lineIdx: null, stream: null };
+const LANG_BCP47 = 'en-US' || 'nl-NL';
+const SpeechRecCtor = window.SpeechRecognition || window.webkitSpeechRecognition;
+let recState = { recording: false, mediaRec: null, chunks: [], lineIdx: null, stream: null, sr: null };
 
 async function toggleRec(idx) {
   if (recState.recording && recState.lineIdx === idx) {
@@ -1694,7 +1752,78 @@ async function toggleRec(idx) {
     return;
   }
   if (recState.recording) stopRec();
-  startRec(idx);
+  // Prefer free browser Web Speech API (instant, no API key needed)
+  if (SpeechRecCtor) {
+    startWebSpeech(idx);
+  } else {
+    startRec(idx);
+  }
+}
+
+// ── Free browser-native STT path (Web Speech API) ──
+function startWebSpeech(idx) {
+  const s = segments[idx]; if (!s) return;
+
+  // Show "聽你說..." UI immediately
+  const line = document.querySelectorAll('.dialogue-line')[idx];
+  let resultDiv = line.querySelector('.rec-result');
+  if (!resultDiv) {
+    resultDiv = document.createElement('div');
+    resultDiv.className = 'rec-result';
+    line.querySelector('.line-text').appendChild(resultDiv);
+  }
+  resultDiv.innerHTML = '<div style="color:var(--muted)">🎤 聽你說…（請說出這句話）</div>';
+
+  const btn = document.getElementById(`rec-${idx}`);
+  if (btn) btn.classList.add('recording');
+
+  const sr = new SpeechRecCtor();
+  sr.lang = LANG_BCP47;
+  sr.continuous = false;
+  sr.interimResults = false;
+  sr.maxAlternatives = 1;
+
+  recState.sr = sr;
+  recState.lineIdx = idx;
+  recState.recording = true;
+
+  sr.onresult = (e) => {
+    const spoken = e.results[0][0].transcript;
+    const { score, diffHtml } = compareTexts(s.text, spoken);
+    const scoreClass = score >= 80 ? 'good' : score >= 50 ? 'ok' : 'bad';
+    const emoji = score >= 80 ? '🎉' : score >= 50 ? '👍' : '💪';
+    resultDiv.innerHTML = `
+      <div class="rec-score ${scoreClass}">${emoji} ${score}% 命中</div>
+      <div class="rec-you">你說的：${escapeHtml(spoken)}</div>
+      <div class="rec-diff">${diffHtml}</div>
+      <div class="rec-playback">
+        <button class="rec-play-btn" onclick="jumpToLine(${idx})">▶ 聽原音</button>
+        <button class="rec-play-btn" onclick="toggleRec(${idx})">🎤 再說一次</button>
+      </div>
+      <div style="color:var(--dim);font-size:11px;margin-top:4px">⚡ 瀏覽器原生 STT（免費、即時）· 設 OpenAI key 可改用 Whisper 精度更高</div>`;
+    if (!store.recScores) store.recScores = {};
+    store.recScores[idx] = { score, userText: spoken, date: Date.now(), via: 'web-speech' };
+    saveStore(store);
+  };
+  sr.onerror = (e) => {
+    const msg = e.error === 'no-speech' ? '沒聽到你的聲音，再試一次'
+              : e.error === 'not-allowed' ? '麥克風被擋住了，請允許權限'
+              : `STT 錯誤：${e.error}`;
+    resultDiv.innerHTML = `<div style="color:var(--accent)">❌ ${msg}</div>
+      <div class="rec-playback"><button class="rec-play-btn" onclick="toggleRec(${idx})">🎤 再試一次</button></div>`;
+  };
+  sr.onend = () => {
+    recState.recording = false;
+    recState.sr = null;
+    if (btn) btn.classList.remove('recording');
+  };
+
+  audio.pause();
+  try { sr.start(); } catch (e) {
+    resultDiv.innerHTML = `<div style="color:var(--accent)">❌ ${e.message}</div>`;
+    if (btn) btn.classList.remove('recording');
+    recState.recording = false;
+  }
 }
 
 async function startRec(idx) {
@@ -1744,6 +1873,14 @@ async function startRec(idx) {
 }
 
 function stopRec() {
+  if (recState.sr && recState.recording) {
+    try { recState.sr.stop(); } catch (e) {}
+    recState.sr = null;
+    recState.recording = false;
+    const btn = document.getElementById(`rec-${recState.lineIdx}`);
+    if (btn) btn.classList.remove('recording');
+    return;
+  }
   if (recState.mediaRec && recState.recording) {
     recState.mediaRec.stop();
     recState.recording = false;

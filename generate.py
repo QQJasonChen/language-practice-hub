@@ -740,11 +740,19 @@ def generate_html(data, video_info, lang, native, output_dir):
     questions_json = json.dumps(data.get('questions', []), ensure_ascii=False)
     vocabulary_json = json.dumps(data.get('vocabulary', []), ensure_ascii=False)
 
+    # BCP-47 language code for Web Speech API
+    bcp47 = {
+        'nl': 'nl-NL', 'en': 'en-US', 'de': 'de-DE', 'fr': 'fr-FR',
+        'es': 'es-ES', 'ja': 'ja-JP', 'ko': 'ko-KR', 'it': 'it-IT',
+        'pt': 'pt-PT',
+    }.get(lang, lang)
+
     html = template
     html = html.replace('{{TITLE}}', video_info.get('title', 'Language Practice'))
     html = html.replace('{{CHANNEL}}', video_info.get('channel', ''))
     html = html.replace('{{LANG_NAME}}', lang_info['name'])
     html = html.replace('{{LANG_ZH}}', lang_info['zh'])
+    html = html.replace('{{LANG_BCP47}}', bcp47)
     html = html.replace('{{NATIVE_NAME}}', native_name)
     html = html.replace('{{SEGMENTS_JSON}}', segments_json)
     html = html.replace('{{QUESTIONS_JSON}}', questions_json)

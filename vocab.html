@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>📚 詞彙閃卡 — A2 Listening Hub</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
+    --text:#e8e8f0;--text2:#9ca3af;--dim:#6b7280;--ok:#4ade80;--bad:#f87171;
+    --accent:#fb923c;--ring:#5eead4;--purple:#a78bfa}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans","Noto Sans JP",sans-serif}
+  .wrap{max-width:680px;margin:0 auto;padding:18px 14px 80px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  header a{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:0;font-size:19px;flex:1}
+  .stats{display:flex;gap:8px;margin-bottom:14px}
+  .stat{flex:1;text-align:center;padding:10px;background:var(--card);border-radius:10px}
+  .stat .n{font-size:20px;font-weight:800}
+  .stat .l{font-size:11px;color:var(--text2);margin-top:2px}
+  .stat.due .n{color:var(--accent)}
+  .stat.learning .n{color:var(--ring)}
+  .stat.mastered .n{color:var(--ok)}
+
+  .tabs{display:flex;gap:4px;margin:14px 0 10px;border-bottom:1px solid var(--line)}
+  .tab{padding:8px 14px;cursor:pointer;font-size:13px;font-weight:700;
+    color:var(--text2);border-bottom:2px solid transparent}
+  .tab.on{color:var(--ring);border-color:var(--ring)}
+
+  /* Card view */
+  .card{background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line);
+    border-radius:16px;padding:30px 22px;text-align:center;min-height:280px;
+    display:flex;flex-direction:column;justify-content:center}
+  .card-src{font-size:11px;color:var(--dim);margin-bottom:14px}
+  .card-nl{font-size:32px;font-weight:800;margin:6px 0;color:var(--text);
+    word-break:break-word;line-height:1.2}
+  .card-kana{font-size:14px;color:var(--text2);margin-top:4px}
+  .card-tts{display:inline-block;margin:14px 0;padding:8px 16px;background:rgba(94,234,212,0.15);
+    color:var(--ring);border:1px solid var(--ring);border-radius:8px;cursor:pointer;font-size:14px}
+  .card-tts:hover{background:rgba(94,234,212,0.25)}
+  .card-zh{font-size:20px;color:var(--ring);margin:14px 0 4px;font-weight:600;display:none}
+  .card-note{font-size:13px;color:var(--text2);margin:8px 0;font-style:italic;display:none}
+  .card.revealed .card-zh,.card.revealed .card-note{display:block}
+
+  .reveal-btn{padding:14px 28px;background:var(--purple);color:#000;border:0;
+    border-radius:10px;font-size:15px;font-weight:800;cursor:pointer;margin-top:16px}
+  .grade-row{display:none;gap:8px;margin-top:18px;flex-direction:column}
+  .card.revealed ~ .grade-row{display:flex}
+  .grade-row.show{display:flex}
+  .grade-row > div{display:flex;gap:6px}
+  .grade{flex:1;padding:14px 6px;border:0;border-radius:8px;font-size:13px;font-weight:800;cursor:pointer}
+  .grade .top{font-size:15px;display:block}
+  .grade .bot{font-size:10px;opacity:.7;display:block;margin-top:3px;font-weight:600}
+  .grade.again{background:var(--bad);color:#fff}
+  .grade.hard{background:#f59e0b;color:#000}
+  .grade.good{background:var(--ring);color:#000}
+  .grade.easy{background:var(--ok);color:#000}
+
+  .empty{text-align:center;padding:40px 20px;color:var(--text2)}
+  .empty .e-emoji{font-size:48px;margin-bottom:10px}
+
+  /* List view */
+  .vlist{display:flex;flex-direction:column;gap:6px}
+  .vrow{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--card);
+    border-radius:8px;border:1px solid var(--line)}
+  .vrow .vnl{flex:1;font-weight:700;font-size:14px}
+  .vrow .vzh{color:var(--text2);font-size:12px}
+  .vrow .v-state{font-size:11px;padding:2px 6px;border-radius:4px;font-weight:700}
+  .v-state.new{background:rgba(255,255,255,0.05);color:var(--text2)}
+  .v-state.learn{background:rgba(94,234,212,0.15);color:var(--ring)}
+  .v-state.due{background:rgba(251,146,60,0.2);color:var(--accent)}
+  .v-state.done{background:rgba(74,222,128,0.15);color:var(--ok)}
+  .vrow .v-src{font-size:10px;color:var(--dim)}
+  .filter{margin-bottom:10px;display:flex;gap:6px;flex-wrap:wrap}
+  .filter button{padding:5px 10px;background:var(--card2);border:1px solid var(--line);
+    color:var(--text2);border-radius:6px;font-size:12px;cursor:pointer}
+  .filter button.on{background:var(--ring);color:#000;border-color:var(--ring)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="index.html">← 返回</a>
+    <h1>📚 詞彙閃卡</h1>
+  </header>
+
+  <div class="stats">
+    <div class="stat due"><div class="n" id="s-due">…</div><div class="l">今天該複習</div></div>
+    <div class="stat learning"><div class="n" id="s-learning">…</div><div class="l">學習中</div></div>
+    <div class="stat mastered"><div class="n" id="s-mastered">…</div><div class="l">已熟</div></div>
+    <div class="stat"><div class="n" id="s-total">…</div><div class="l">總詞彙</div></div>
+  </div>
+
+  <div class="tabs">
+    <div class="tab on" data-tab="study" onclick="switchTab('study')">📖 複習</div>
+    <div class="tab" data-tab="list" onclick="switchTab('list')">🗂 全部</div>
+  </div>
+
+  <!-- Study tab -->
+  <div id="tab-study">
+    <div id="card-container"></div>
+  </div>
+
+  <!-- List tab -->
+  <div id="tab-list" style="display:none">
+    <div class="filter">
+      <button class="on" data-f="all">全部 <span id="f-all-n"></span></button>
+      <button data-f="due">該複習 <span id="f-due-n"></span></button>
+      <button data-f="learn">學習中 <span id="f-learn-n"></span></button>
+      <button data-f="done">已熟 <span id="f-done-n"></span></button>
+      <button data-f="new">未學 <span id="f-new-n"></span></button>
+    </div>
+    <div class="vlist" id="vlist"></div>
+  </div>
+</div>
+
+<script>
+const MOCKS = ['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026'];
+const MOCK_LABELS = {'_iC1Pooi2UA':'M1', 'AMVy2zPNLso':'M2', 'mock3_a2_2026':'M3'};
+const SRS_KEY = 'lph_vocab_srs';
+const INTERVALS = [1, 3, 7, 14, 30];  // days
+let vocab = [];          // [{nl, zh, kana, src:[vid, scn], ...}]
+let queue = [];          // due cards for study tab
+let qi = 0;
+
+function todayStr() { return new Date().toISOString().slice(0,10); }
+function daysFromNow(n) {
+  const d = new Date(); d.setDate(d.getDate() + n);
+  return d.toISOString().slice(0,10);
+}
+function loadSRS() {
+  try { return JSON.parse(localStorage.getItem(SRS_KEY) || '{}'); }
+  catch(e) { return {}; }
+}
+function saveSRS(s) { localStorage.setItem(SRS_KEY, JSON.stringify(s)); }
+
+async function loadVocab() {
+  const m = new Map();  // key=normalized nl
+  for (const vid of MOCKS) {
+    try {
+      const r = await fetch(`output/${vid}/exam.json`);
+      const ex = await r.json();
+      for (const sc of ex.scenarios || []) {
+        for (const v of sc.vocab || []) {
+          const key = v.nl.toLowerCase().trim();
+          if (!m.has(key)) {
+            m.set(key, {
+              nl: v.nl, zh: v.zh, kana: v.kana || '',
+              type: 'vocab',
+              src: [{vid, scn: sc.title_zh}],
+            });
+          } else {
+            m.get(key).src.push({vid, scn: sc.title_zh});
+          }
+        }
+        for (const p of sc.patterns || []) {
+          const key = p.nl.toLowerCase().trim();
+          if (!m.has(key)) {
+            m.set(key, {
+              nl: p.nl, zh: p.zh, note: p.note || '',
+              type: 'pattern',
+              src: [{vid, scn: sc.title_zh}],
+            });
+          } else {
+            m.get(key).src.push({vid, scn: sc.title_zh});
+          }
+        }
+      }
+    } catch(e) { console.error('load fail', vid, e); }
+  }
+  vocab = [...m.values()];
+}
+
+function getState(v) {
+  const srs = loadSRS();
+  const s = srs[v.nl.toLowerCase().trim()];
+  if (!s) return 'new';
+  if (s.reps >= 5) return 'done';
+  if (s.due <= todayStr()) return 'due';
+  return 'learn';
+}
+
+function updateStats() {
+  const counts = { new: 0, learn: 0, due: 0, done: 0 };
+  for (const v of vocab) counts[getState(v)]++;
+  document.getElementById('s-due').textContent = counts.due;
+  document.getElementById('s-learning').textContent = counts.learn;
+  document.getElementById('s-mastered').textContent = counts.done;
+  document.getElementById('s-total').textContent = vocab.length;
+  document.getElementById('f-all-n').textContent = '(' + vocab.length + ')';
+  document.getElementById('f-due-n').textContent = '(' + counts.due + ')';
+  document.getElementById('f-learn-n').textContent = '(' + counts.learn + ')';
+  document.getElementById('f-done-n').textContent = '(' + counts.done + ')';
+  document.getElementById('f-new-n').textContent = '(' + counts.new + ')';
+}
+
+function buildQueue() {
+  // Due first, then new (limit 20 new/session). Skip done.
+  const dueArr = vocab.filter(v => getState(v) === 'due');
+  const newArr = vocab.filter(v => getState(v) === 'new').slice(0, 20);
+  queue = [...dueArr, ...newArr];
+  qi = 0;
+}
+
+function renderCard() {
+  const box = document.getElementById('card-container');
+  if (!queue.length || qi >= queue.length) {
+    box.innerHTML = `<div class="empty"><div class="e-emoji">🎉</div>
+      <div style="font-size:17px;font-weight:700;color:var(--ok)">今天全部複習完了</div>
+      <div style="margin-top:8px">明天再來看看吧，或切到「🗂 全部」瀏覽。</div></div>`;
+    return;
+  }
+  const v = queue[qi];
+  const srcLabels = v.src.map(s => MOCK_LABELS[s.vid]).join(', ');
+  box.innerHTML = `
+    <div style="text-align:center;font-size:12px;color:var(--dim);margin-bottom:8px">
+      ${qi + 1} / ${queue.length} · ${v.type === 'pattern' ? '🔑 句型' : '📚 詞彙'}
+    </div>
+    <div class="card" id="card">
+      <div class="card-src">${srcLabels}</div>
+      <div class="card-nl">${esc(v.nl)}</div>
+      ${v.kana ? `<div class="card-kana">${esc(v.kana)}</div>` : ''}
+      <span class="card-tts" onclick="speak('${esc(v.nl).replace(/'/g,"\\'")}')">🔊 聽發音</span>
+      <div class="card-zh">${esc(v.zh)}</div>
+      ${v.note ? `<div class="card-note">💡 ${esc(v.note)}</div>` : ''}
+    </div>
+    <div id="action-row" style="margin-top:14px">
+      <button class="reveal-btn" style="width:100%" onclick="reveal()">翻牌看意思</button>
+    </div>`;
+}
+
+function reveal() {
+  document.getElementById('card').classList.add('revealed');
+  document.getElementById('action-row').innerHTML = `
+    <div class="grade-row show">
+      <div>
+        <button class="grade again" onclick="grade(0)"><span class="top">😕</span><span class="bot">忘了 (1d)</span></button>
+        <button class="grade hard" onclick="grade(1)"><span class="top">🤔</span><span class="bot">勉強 (3d)</span></button>
+        <button class="grade good" onclick="grade(2)"><span class="top">👍</span><span class="bot">會 (7d)</span></button>
+        <button class="grade easy" onclick="grade(3)"><span class="top">⚡</span><span class="bot">超會 (14d)</span></button>
+      </div>
+    </div>`;
+}
+
+function grade(g) {
+  const v = queue[qi];
+  const key = v.nl.toLowerCase().trim();
+  const srs = loadSRS();
+  const cur = srs[key] || { reps: 0, interval: 0 };
+  let newReps, newInt;
+  if (g === 0) { newReps = 0; newInt = 1; }
+  else if (g === 1) { newReps = cur.reps; newInt = Math.max(2, Math.min(cur.interval || 1, 3)); }
+  else if (g === 2) { newReps = cur.reps + 1; newInt = INTERVALS[Math.min(newReps, INTERVALS.length - 1)]; }
+  else { newReps = cur.reps + 2; newInt = INTERVALS[Math.min(newReps, INTERVALS.length - 1)] * 2; }
+  srs[key] = { reps: newReps, interval: newInt, due: daysFromNow(newInt), lastSeen: todayStr() };
+  saveSRS(srs);
+  qi++;
+  updateStats();
+  renderCard();
+}
+
+function speak(text) {
+  if (!window.speechSynthesis) { alert('此瀏覽器不支援語音合成'); return; }
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'nl-NL';
+  u.rate = 0.9;
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(u);
+}
+
+function switchTab(t) {
+  document.querySelectorAll('.tab').forEach(x => x.classList.toggle('on', x.dataset.tab === t));
+  document.getElementById('tab-study').style.display = t === 'study' ? 'block' : 'none';
+  document.getElementById('tab-list').style.display = t === 'list' ? 'block' : 'none';
+  if (t === 'list') renderList('all');
+}
+
+function renderList(filter) {
+  document.querySelectorAll('.filter button').forEach(b =>
+    b.classList.toggle('on', b.dataset.f === filter));
+  const filtered = vocab.filter(v => filter === 'all' || getState(v) === filter);
+  const box = document.getElementById('vlist');
+  if (!filtered.length) { box.innerHTML = '<div class="empty">沒有符合的詞</div>'; return; }
+  const stateLabels = { new: '新', learn: '學習', due: '該複習', done: '已熟' };
+  box.innerHTML = filtered.map(v => {
+    const st = getState(v);
+    return `<div class="vrow" onclick="speak('${esc(v.nl).replace(/'/g,"\\'")}')">
+      <div style="flex:1">
+        <div class="vnl">${esc(v.nl)}${v.kana ? ` <span style="color:var(--dim);font-weight:400;font-size:11px">${esc(v.kana)}</span>` : ''}</div>
+        <div class="vzh">${esc(v.zh)}</div>
+      </div>
+      <span class="v-state ${st}">${stateLabels[st]}</span>
+      <span class="v-src">${v.src.map(s => MOCK_LABELS[s.vid]).join(',')}</span>
+    </div>`;
+  }).join('');
+}
+document.querySelectorAll('.filter button').forEach(b =>
+  b.addEventListener('click', () => renderList(b.dataset.f)));
+
+function esc(t) {
+  return String(t || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+(async function init() {
+  await loadVocab();
+  updateStats();
+  buildQueue();
+  renderCard();
+})();
+</script>
+</body>
+</html>

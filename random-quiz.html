@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>🎯 隨機考一題 — A2 Listening Hub</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
+    --text:#e8e8f0;--text2:#9ca3af;--dim:#6b7280;--ok:#4ade80;--bad:#f87171;
+    --accent:#fb923c;--ring:#5eead4}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans","Noto Sans JP",sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:18px 14px 80px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  header a{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:0;font-size:19px;flex:1}
+  .start-card{background:linear-gradient(135deg,rgba(251,146,60,0.18),rgba(94,234,212,0.08));
+    border:1px solid rgba(251,146,60,0.3);border-radius:14px;padding:22px;text-align:center}
+  .start-card h2{margin:0 0 10px;font-size:22px}
+  .start-card p{margin:6px 0;color:var(--text2);font-size:14px}
+  .start-controls{display:flex;justify-content:center;gap:8px;margin:14px 0 12px;flex-wrap:wrap}
+  .num-btn{padding:8px 14px;border-radius:8px;border:1px solid var(--line);
+    background:var(--card2);color:var(--text);cursor:pointer;font-size:13px;font-weight:600}
+  .num-btn.on{background:var(--accent);border-color:var(--accent);color:#000}
+  .start-btn{padding:14px 28px;background:var(--accent);color:#000;border:0;
+    border-radius:10px;font-size:16px;font-weight:800;cursor:pointer;width:100%;margin-top:8px}
+  .start-btn:disabled{opacity:.5;cursor:not-allowed}
+  .pool-info{font-size:12px;color:var(--dim);margin-top:8px}
+
+  .timer{position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:5;
+    display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line)}
+  .t-num{font-weight:800;font-size:16px}
+  .t-bar{flex:1;height:6px;background:rgba(255,255,255,0.05);border-radius:3px;overflow:hidden}
+  .t-fill{height:100%;background:var(--ring);transition:width .3s}
+  .t-time{font-size:13px;color:var(--accent);font-weight:700;font-variant-numeric:tabular-nums}
+
+  .question-card{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:16px;margin:14px 0}
+  .src-tag{display:inline-block;padding:3px 8px;background:rgba(94,234,212,0.15);
+    color:var(--ring);font-size:11px;font-weight:700;border-radius:4px;margin-bottom:8px}
+  .q-nl{font-size:17px;font-weight:700;margin:4px 0}
+  .q-zh{font-size:13px;color:var(--text2);margin-bottom:12px}
+  .q-audio{width:100%;margin:8px 0;height:36px}
+  .options{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+  .opt{padding:11px 14px;border:1px solid var(--line);border-radius:8px;
+    background:var(--card2);cursor:pointer;display:flex;align-items:flex-start;gap:10px}
+  .opt:hover{border-color:rgba(94,234,212,0.4)}
+  .opt.picked{border-color:var(--accent);background:rgba(251,146,60,0.1)}
+  .opt.correct{border-color:var(--ok);background:rgba(74,222,128,0.15)}
+  .opt.wrong{border-color:var(--bad);background:rgba(248,113,113,0.15)}
+  .opt-num{font-weight:800;color:var(--text2);min-width:18px}
+  .opt-text{flex:1;font-size:14px}
+  .opt-zh{font-size:11.5px;color:var(--dim);margin-top:2px}
+
+  .reveal{margin-top:14px;padding:12px;background:var(--card2);border-radius:8px;
+    border-left:3px solid var(--ring);font-size:13px;display:none}
+  .reveal.on{display:block}
+  .reveal .lbl{font-weight:800;color:var(--ring);margin-right:6px}
+  .reveal .src-line{padding:4px 0;color:var(--text2)}
+  .next-btn{padding:12px 20px;background:var(--ring);color:#000;border:0;
+    border-radius:8px;font-size:14px;font-weight:800;cursor:pointer;margin-top:12px;width:100%}
+
+  .summary{text-align:center;padding:24px;background:var(--card);border-radius:14px;margin-top:12px}
+  .big-score{font-size:54px;font-weight:900;margin:8px 0}
+  .big-score.good{color:var(--ok)}
+  .big-score.ok{color:var(--accent)}
+  .big-score.bad{color:var(--bad)}
+  .summary-list{text-align:left;margin-top:18px;display:flex;flex-direction:column;gap:8px}
+  .sum-row{display:flex;align-items:center;gap:10px;padding:10px;background:var(--card2);
+    border-radius:8px;font-size:13px}
+  .sum-row .mark{font-size:18px;min-width:22px}
+  .sum-row a{margin-left:auto;color:var(--ring);text-decoration:none;font-weight:700;font-size:12px}
+  .again-btn{padding:12px;background:var(--accent);color:#000;border:0;border-radius:10px;
+    font-weight:800;font-size:15px;cursor:pointer;width:100%;margin-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="index.html">← 返回</a>
+    <h1>🎯 隨機考一題</h1>
+  </header>
+
+  <div id="start-screen" class="start-card">
+    <h2>暖身 5 題？</h2>
+    <p>從 3 份 A2 模擬考的 <b id="total-pool">…</b> 題裡隨機抽。<br>
+    每題 25 秒、有 audio。做完看分數＋哪題出自哪份。</p>
+    <div class="start-controls">
+      <button class="num-btn" data-n="3">3 題</button>
+      <button class="num-btn on" data-n="5">5 題</button>
+      <button class="num-btn" data-n="10">10 題</button>
+      <button class="num-btn" data-n="20">20 題</button>
+    </div>
+    <button class="start-btn" id="start-btn" onclick="start()">▶ 開始</button>
+    <div class="pool-info" id="pool-info">載入題庫中…</div>
+  </div>
+
+  <div id="quiz-screen" style="display:none">
+    <div class="timer">
+      <span class="t-num" id="q-num">1 / 5</span>
+      <div class="t-bar"><div class="t-fill" id="t-fill"></div></div>
+      <span class="t-time" id="t-time">25s</span>
+    </div>
+    <div id="question-container"></div>
+  </div>
+
+  <div id="summary-screen" style="display:none"></div>
+</div>
+
+<script>
+const MOCKS = ['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026'];
+const MOCK_LABELS = {'_iC1Pooi2UA':'Mock 1', 'AMVy2zPNLso':'Mock 2', 'mock3_a2_2026':'Mock 3 (自製)'};
+let pool = [];            // [{vid, audio, scn, q}]
+let chosenN = 5;
+let queue = [];           // current quiz subset
+let qi = 0;
+let answers = [];         // per-question {chosen, correct, ms}
+let tick = null;
+let qStart = 0;
+const SEC_PER_Q = 25;
+
+async function loadPool() {
+  const all = [];
+  for (const vid of MOCKS) {
+    try {
+      const r = await fetch(`output/${vid}/exam.json`);
+      const ex = await r.json();
+      for (const sc of ex.scenarios || []) {
+        for (const q of sc.questions || []) {
+          all.push({vid, audio: `output/${vid}/audio.mp3`, scn: sc.title_zh, q});
+        }
+      }
+    } catch(e) { console.error('load fail', vid, e); }
+  }
+  pool = all;
+  document.getElementById('total-pool').textContent = pool.length;
+  document.getElementById('pool-info').textContent =
+    `題庫：${pool.length} 題 · ${MOCKS.length} 份模擬考`;
+}
+
+document.querySelectorAll('.num-btn').forEach(b => {
+  b.onclick = () => {
+    document.querySelectorAll('.num-btn').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    chosenN = parseInt(b.dataset.n);
+  };
+});
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+function parseT(t) {
+  const m = String(t).match(/(\d+):(\d+)/);
+  return m ? parseInt(m[1]) * 60 + parseInt(m[2]) : 0;
+}
+
+function start() {
+  if (pool.length === 0) { alert('題庫還沒載入完，等一下'); return; }
+  queue = shuffle([...pool]).slice(0, chosenN);
+  qi = 0;
+  answers = [];
+  document.getElementById('start-screen').style.display = 'none';
+  document.getElementById('quiz-screen').style.display = 'block';
+  renderQ();
+}
+
+function renderQ() {
+  if (qi >= queue.length) { showSummary(); return; }
+  const item = queue[qi];
+  const q = item.q;
+  document.getElementById('q-num').textContent = `${qi + 1} / ${queue.length}`;
+  const audioStart = parseT(q.t);
+  const html = `
+    <div class="question-card">
+      <span class="src-tag">${MOCK_LABELS[item.vid]} · ${item.scn}</span>
+      <div class="q-nl">${esc(q.q_nl)}</div>
+      <div class="q-zh">${esc(q.q_zh)}</div>
+      <audio class="q-audio" controls preload="auto" src="${item.audio}#t=${audioStart}"></audio>
+      <div class="options" id="opts">
+        ${q.options.map((o, i) => `
+          <div class="opt" data-i="${i}" onclick="pick(${i})">
+            <span class="opt-num">${i+1}</span>
+            <div class="opt-text">${esc(o.nl)}<div class="opt-zh">${esc(o.zh)}</div></div>
+          </div>`).join('')}
+      </div>
+      <div class="reveal" id="reveal"></div>
+    </div>`;
+  document.getElementById('question-container').innerHTML = html;
+  qStart = Date.now();
+  if (tick) clearInterval(tick);
+  tick = setInterval(updateTimer, 200);
+  updateTimer();
+}
+
+function updateTimer() {
+  const elapsed = (Date.now() - qStart) / 1000;
+  const remain = SEC_PER_Q - elapsed;
+  const pct = Math.max(0, remain / SEC_PER_Q * 100);
+  const fill = document.getElementById('t-fill');
+  const txt = document.getElementById('t-time');
+  if (fill) fill.style.width = pct + '%';
+  if (txt) {
+    txt.textContent = `${Math.max(0, remain).toFixed(0)}s`;
+    txt.style.color = remain < 5 ? 'var(--bad)' : remain < 10 ? 'var(--accent)' : 'var(--ring)';
+  }
+  if (remain <= 0) { clearInterval(tick); pick(-1); }
+}
+
+function pick(i) {
+  if (tick) { clearInterval(tick); tick = null; }
+  const item = queue[qi];
+  const correct = item.q.answer;
+  const ms = Date.now() - qStart;
+  const opts = document.querySelectorAll('.opt');
+  opts.forEach((o, idx) => {
+    o.onclick = null;
+    if (idx === correct) o.classList.add('correct');
+    else if (idx === i) o.classList.add('wrong');
+  });
+  answers.push({chosen: i, correct, ms, item});
+
+  const rv = document.getElementById('reveal');
+  const src = (item.q.source || []).map(s =>
+    `<div class="src-line"><b>${esc(s.t)}</b> · ${esc(s.nl)}<br><span style="color:var(--dim)">${esc(s.zh||'')}</span></div>`
+  ).join('');
+  rv.innerHTML = `
+    <div><span class="lbl">📍 出處：</span></div>${src}
+    <div style="margin-top:8px"><span class="lbl">💡 反推：</span>${esc(item.q.explain || '')}</div>
+    ${item.q.trap ? `<div style="margin-top:6px"><span class="lbl" style="color:var(--accent)">⚠️ 陷阱：</span>${esc(item.q.trap)}</div>` : ''}
+    <button class="next-btn" onclick="next()">${qi + 1 < queue.length ? '下一題 →' : '看分數 →'}</button>`;
+  rv.classList.add('on');
+}
+
+function next() {
+  qi++;
+  renderQ();
+}
+
+function showSummary() {
+  document.getElementById('quiz-screen').style.display = 'none';
+  const right = answers.filter(a => a.chosen === a.correct).length;
+  const pct = Math.round(right / answers.length * 100);
+  const cls = pct >= 80 ? 'good' : pct >= 50 ? 'ok' : 'bad';
+  const emoji = pct >= 80 ? '🎉' : pct >= 50 ? '👍' : '💪';
+  const html = `
+    <div class="summary">
+      <div>${emoji}</div>
+      <div class="big-score ${cls}">${right} / ${answers.length}</div>
+      <div style="color:var(--text2);font-size:15px">命中率 ${pct}%</div>
+      <div class="summary-list">
+        ${answers.map((a, i) => {
+          const ok = a.chosen === a.correct;
+          const item = a.item;
+          const seconds = (a.ms / 1000).toFixed(1);
+          const audioStart = parseT(item.q.t);
+          return `<div class="sum-row">
+            <span class="mark">${ok ? '✓' : '✗'}</span>
+            <div style="flex:1">
+              <div style="font-size:13px">${esc(item.q.q_zh)}</div>
+              <div style="font-size:11px;color:var(--dim)">${MOCK_LABELS[item.vid]} · ${item.scn} · ${seconds}s</div>
+            </div>
+            <a href="output/${item.vid}/exam.html">看詳解 →</a>
+          </div>`;
+        }).join('')}
+      </div>
+      <button class="again-btn" onclick="restart()">🎯 再來一輪</button>
+    </div>`;
+  document.getElementById('summary-screen').style.display = 'block';
+  document.getElementById('summary-screen').innerHTML = html;
+
+  // log to localStorage for streak / stats
+  try {
+    const log = JSON.parse(localStorage.getItem('lph_random_log') || '[]');
+    log.unshift({ date: Date.now(), n: answers.length, right, pct });
+    localStorage.setItem('lph_random_log', JSON.stringify(log.slice(0, 50)));
+  } catch(e) {}
+}
+
+function restart() {
+  document.getElementById('summary-screen').style.display = 'none';
+  document.getElementById('start-screen').style.display = 'block';
+}
+
+function esc(t) {
+  return String(t || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+loadPool();
+</script>
+</body>
+</html>
