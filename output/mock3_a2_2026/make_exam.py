@@ -38,7 +38,7 @@ def pull_dialogue(segs, a: int, b: int):
 
 MOCK3 = {
     'video_id': VID,
-    'exam_type': 'A2 Luisteren · Inburgering（QQ 自製模擬考三）',
+    'exam_type': 'A2 Luisteren · Inburgering（模擬考三）',
     'intro': (
         '這份是 QQ 自己錄製的真實做題過程模擬考三（共 10 個場景、25 題）。'
         '結構與 PART 1+2 相同——每個場景的對話只列一次，後面接所有考題，'

@@ -130,7 +130,7 @@ def main():
     data = {
         'video_id': 'mock3_a2_2026',
         'video_info': {
-            'title': '荷蘭文 A2 luisteren 模擬考三（QQ 自製真實做題版）',
+            'title': '荷蘭文 A2 luisteren 模擬考三（真實做題版）',
             'channel': '自製模擬考',
             'duration': int(all_segs[-1]['end']) + 5 if all_segs else 0,
         },

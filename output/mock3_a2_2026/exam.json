@@ -1,9 +1,9 @@
 {
   "video_id": "mock3_a2_2026",
-  "title": "荷蘭文 A2 luisteren 模擬考三（QQ 自製真實做題版）",
+  "title": "荷蘭文 A2 luisteren 模擬考三（真實做題版）",
   "channel": "自製模擬考",
   "duration": 656,
-  "exam_type": "A2 Luisteren · Inburgering（QQ 自製模擬考三）",
+  "exam_type": "A2 Luisteren · Inburgering（模擬考三）",
   "intro": "這份是 QQ 自己錄製的真實做題過程模擬考三（共 10 個場景、25 題）。結構與 PART 1+2 相同——每個場景的對話只列一次，後面接所有考題，每題標出答案藏在原文哪一句。題目選項依照 OptimumAssessment 介面照抄。",
   "n_questions": 25,
   "scenarios": [
@@ -164,7 +164,7 @@
       "questions": [
         {
           "n": 1,
-          "t": "6:25",
+          "t": "0:24",
           "reconstructed": false,
           "q_nl": "Wat vertelt de man over de sportschool?",
           "q_zh": "那個男的告訴她關於健身房什麼？",
@@ -185,12 +185,12 @@
           "answer": 0,
           "source": [
             {
-              "t": "0:22",
+              "t": "0:17",
               "nl": "De eerste twee maanden sport u gratis.",
               "zh": "頭兩個月免費運動。"
             },
             {
-              "t": "0:24",
+              "t": "0:19",
               "nl": "En daarna betaalt u maar 12,50 euro per maand.",
               "zh": "之後一個月只要 12.50 歐元。"
             }
@@ -200,7 +200,7 @@
         },
         {
           "n": 2,
-          "t": "6:25",
+          "t": "0:28",
           "reconstructed": false,
           "q_nl": "Waarom wil de vrouw niet naar de sportschool gaan?",
           "q_zh": "為什麼女的不想去這間健身房？",
@@ -221,12 +221,12 @@
           "answer": 1,
           "source": [
             {
-              "t": "0:16",
+              "t": "0:11",
               "nl": "Houdt u van sporten? Ja, wel.",
               "zh": "您喜歡運動嗎？喜歡的。"
             },
             {
-              "t": "0:33",
+              "t": "0:28",
               "nl": "Alleen helaas woon ik hier niet in de buurt.",
               "zh": "只是可惜我不住在附近。"
             }
@@ -363,7 +363,7 @@
       "questions": [
         {
           "n": 3,
-          "t": "6:25",
+          "t": "1:14",
           "reconstructed": false,
           "q_nl": "Wat voor iemand zoekt het postbedrijf?",
           "q_zh": "郵局在找什麼樣的人？",
@@ -408,7 +408,7 @@
         },
         {
           "n": 4,
-          "t": "6:25",
+          "t": "1:26",
           "reconstructed": false,
           "q_nl": "Lars wil graag postbode worden. Hoe laat moet hij dan beginnen?",
           "q_zh": "Lars 想當郵差，他幾點要開始上班？",
@@ -453,7 +453,7 @@
         },
         {
           "n": 5,
-          "t": "6:25",
+          "t": "1:42",
           "reconstructed": false,
           "q_nl": "Met wie moet Lars contact opnemen?",
           "q_zh": "Lars 要跟誰聯絡？",
@@ -605,7 +605,7 @@
       "questions": [
         {
           "n": 6,
-          "t": "6:25",
+          "t": "2:14",
           "reconstructed": false,
           "q_nl": "Wanneer gaat Mariska de opdracht inleveren?",
           "q_zh": "Mariska 什麼時候要交作業？",
@@ -640,7 +640,7 @@
               "zh": "那有點太晚，要不要星期三？"
             },
             {
-              "t": "2:15",
+              "t": "2:14",
               "nl": "Ja, dat lukt ook wel.",
               "zh": "好，星期三也可以。"
             }
@@ -650,7 +650,7 @@
         },
         {
           "n": 7,
-          "t": "6:25",
+          "t": "2:23",
           "reconstructed": false,
           "q_nl": "Hoe moet Mariska de opdracht inleveren?",
           "q_zh": "Mariska 要怎麼交作業？",
@@ -828,7 +828,7 @@
       "questions": [
         {
           "n": 8,
-          "t": "6:25",
+          "t": "2:54",
           "reconstructed": false,
           "q_nl": "Hoe gaan George en Chanti naar de bijeenkomst?",
           "q_zh": "George 和 Chanti 怎麼去這個活動？",
@@ -849,17 +849,17 @@
           "answer": 2,
           "source": [
             {
-              "t": "2:58",
+              "t": "3:01",
               "nl": "Mijn kaart voor het openbaar vervoer heb ik niet meer.",
               "zh": "我的大眾運輸卡沒了。"
             },
             {
-              "t": "3:01",
+              "t": "3:04",
               "nl": "En zonder kaart kan ik niet met de trein reizen.",
               "zh": "沒有卡我就不能搭火車。"
             },
             {
-              "t": "3:03",
+              "t": "3:07",
               "nl": "Maar we kunnen wel met de auto van het werk.",
               "zh": "不過我們可以開公司的車。"
             }
@@ -869,7 +869,7 @@
         },
         {
           "n": 9,
-          "t": "6:25",
+          "t": "3:14",
           "reconstructed": false,
           "q_nl": "Hoe laat wil George morgenochtend bij Chanti zijn?",
           "q_zh": "George 明天早上幾點要到 Chanti 家？",
@@ -894,7 +894,7 @@
           "answer": 0,
           "source": [
             {
-              "t": "3:11",
+              "t": "3:10",
               "nl": "Ik haal je om half zes bij jou thuis op.",
               "zh": "我五點半到你家接你。"
             },
@@ -909,7 +909,7 @@
         },
         {
           "n": 10,
-          "t": "6:25",
+          "t": "3:32",
           "reconstructed": false,
           "q_nl": "Chanti moet een berichtje sturen. Wat moet zij in het berichtje zetten?",
           "q_zh": "Chanti 要傳訊息。她要在訊息裡寫什麼？",
@@ -930,12 +930,12 @@
           "answer": 1,
           "source": [
             {
-              "t": "3:28",
+              "t": "3:29",
               "nl": "wil je nog even een berichtje sturen met je straat- en huisnummer?",
               "zh": "你可以再傳個訊息告訴我你的街名和門牌號碼嗎？"
             },
             {
-              "t": "3:34",
+              "t": "3:35",
               "nl": "Ik weet het niet meer zo precies.",
               "zh": "我記不太清楚了。"
             }
@@ -1097,7 +1097,7 @@
       "questions": [
         {
           "n": 11,
-          "t": "6:25",
+          "t": "4:07",
           "reconstructed": false,
           "q_nl": "Waar zijn de pashokjes?",
           "q_zh": "試衣間在哪裡？",
@@ -1118,7 +1118,7 @@
           "answer": 0,
           "source": [
             {
-              "t": "6:25",
+              "t": "4:07",
               "nl": "De paskamers zijn daar. Tegenover de kassa.",
               "zh": "試衣間在那邊，收銀台對面。"
             }
@@ -1128,7 +1128,7 @@
         },
         {
           "n": 12,
-          "t": "6:25",
+          "t": "4:51",
           "reconstructed": true,
           "q_nl": "Welke maat is goed voor Johnny?",
           "q_zh": "哪個尺寸適合 Johnny？",
@@ -1154,12 +1154,12 @@
               "zh": "這是幾號？52 號。"
             },
             {
-              "t": "4:39",
+              "t": "4:45",
               "nl": "Hij is gewoon te groot.",
               "zh": "太大了。"
             },
             {
-              "t": "4:48",
+              "t": "4:47",
               "nl": "Ik zal een kleinere maat broek voor u pakken. Maat 50 zou goed moeten zijn.",
               "zh": "我幫您拿一個小一點的，50 號應該剛好。"
             }
@@ -1320,7 +1320,7 @@
       "questions": [
         {
           "n": 13,
-          "t": "6:25",
+          "t": "5:36",
           "reconstructed": false,
           "q_nl": "Wat vond de man van de les vandaag?",
           "q_zh": "那個男的（Steve）覺得今天的課怎樣？",
@@ -1341,12 +1341,12 @@
           "answer": 2,
           "source": [
             {
-              "t": "5:33",
+              "t": "5:32",
               "nl": "We hebben een kerstbrood en een suikerbrood leren maken.",
               "zh": "我們學了做聖誕麵包和砂糖麵包。"
             },
             {
-              "t": "6:25",
+              "t": "5:36",
               "nl": "Echt leuk!",
               "zh": "真的很好玩！"
             }
@@ -1356,7 +1356,7 @@
         },
         {
           "n": 14,
-          "t": "6:25",
+          "t": "6:13",
           "reconstructed": false,
           "q_nl": "Wat moet Ellen meenemen naar school?",
           "q_zh": "Ellen 要帶什麼來學校？",
@@ -1377,12 +1377,12 @@
           "answer": 0,
           "source": [
             {
-              "t": "5:56",
+              "t": "5:57",
               "nl": "Voor maatschappijleer moeten we een tekst uit de krant kiezen.",
               "zh": "社會科要從報紙挑一篇文章。"
             },
             {
-              "t": "6:13",
+              "t": "6:11",
               "nl": "Die tekst uit de krant moet je meenemen naar school.",
               "zh": "那篇報紙文章你要帶來學校。"
             }
@@ -1514,7 +1514,7 @@
       "questions": [
         {
           "n": 15,
-          "t": "6:25",
+          "t": "6:35",
           "reconstructed": false,
           "q_nl": "Waarom moest Sabine een nieuwe pinpas aanvragen?",
           "q_zh": "Sabine 為什麼要辦新提款卡？",
@@ -1540,7 +1540,7 @@
               "zh": "是被偷還是過期？"
             },
             {
-              "t": "6:34",
+              "t": "6:35",
               "nl": "Nee, ik ben hem kwijt.",
               "zh": "不是，我是弄丟了。"
             }
@@ -1550,7 +1550,7 @@
         },
         {
           "n": 16,
-          "t": "6:25",
+          "t": "6:46",
           "reconstructed": false,
           "q_nl": "Sinds wanneer heeft Sabine geen pinpas meer?",
           "q_zh": "Sabine 從什麼時候開始沒有提款卡？",
@@ -1576,7 +1576,7 @@
               "zh": "昨天我去買東西，結果卡片就不見了。"
             },
             {
-              "t": "6:42",
+              "t": "6:43",
               "nl": "Ik denk dus de dag voor gisteren.",
               "zh": "所以我想應該是前天（弄丟的）。"
             }
@@ -1586,7 +1586,7 @@
         },
         {
           "n": 17,
-          "t": "6:25",
+          "t": "7:00",
           "reconstructed": false,
           "q_nl": "Wat moet Sabine nu doen?",
           "q_zh": "Sabine 現在還要做什麼？",
@@ -1611,17 +1611,17 @@
           "answer": 3,
           "source": [
             {
-              "t": "6:25",
+              "t": "6:54",
               "nl": "Heeft u uw pinpas al geblokkeerd?",
               "zh": "您卡片已經停用了嗎？"
             },
             {
-              "t": "6:55",
+              "t": "6:56",
               "nl": "Ja, heb ik gedaan.",
               "zh": "是的，已經停了。"
             },
             {
-              "t": "6:25",
+              "t": "6:58",
               "nl": "Goed. Dan is alles geregeld.",
               "zh": "好，那就都搞定了。"
             },
@@ -1782,7 +1782,7 @@
       "questions": [
         {
           "n": 18,
-          "t": "6:25",
+          "t": "7:24",
           "reconstructed": false,
           "q_nl": "Wat doet Bram vandaag?",
           "q_zh": "Bram 今天要做什麼？",
@@ -1808,7 +1808,7 @@
               "zh": "我們今天要移除一棵樹。"
             },
             {
-              "t": "6:25",
+              "t": "7:29",
               "nl": "Soms moeten we het gras maaien of bloemen neerzetten. Maar vandaag dus niet.",
               "zh": "有時候要割草或擺花，但今天不是。"
             }
@@ -1818,7 +1818,7 @@
         },
         {
           "n": 19,
-          "t": "6:25",
+          "t": "7:42",
           "reconstructed": false,
           "q_nl": "Wat vindt Bram het leukste aan zijn stage?",
           "q_zh": "Bram 覺得實習最有趣的是什麼？",
@@ -1859,7 +1859,7 @@
         },
         {
           "n": 20,
-          "t": "6:25",
+          "t": "8:05",
           "reconstructed": false,
           "q_nl": "Wat moet Bram nog leren, volgens zijn baas?",
           "q_zh": "主管覺得 Bram 還要學什麼？",
@@ -1880,7 +1880,7 @@
           "answer": 2,
           "source": [
             {
-              "t": "8:01",
+              "t": "8:00",
               "nl": "Alleen nog tijd op zijn werk komen, dat vind je nog wel een beetje moeilijk, hè?",
               "zh": "只是準時上班這件事，你還是覺得有點難齁？"
             },
@@ -2026,7 +2026,7 @@
       "questions": [
         {
           "n": 21,
-          "t": "6:25",
+          "t": "8:46",
           "reconstructed": false,
           "q_nl": "Hoe laat komt Myrthe?",
           "q_zh": "Myrthe 幾點到？",
@@ -2051,7 +2051,7 @@
           "answer": 1,
           "source": [
             {
-              "t": "6:25",
+              "t": "8:36",
               "nl": "Ze komt om tien uur.",
               "zh": "她十點到。"
             }
@@ -2061,7 +2061,7 @@
         },
         {
           "n": 22,
-          "t": "6:25",
+          "t": "9:08",
           "reconstructed": false,
           "q_nl": "Wat moet Jamal voor Myrthe doen?",
           "q_zh": "Jamal 要為 Myrthe 做什麼？",
@@ -2082,17 +2082,17 @@
           "answer": 1,
           "source": [
             {
-              "t": "6:25",
+              "t": "8:51",
               "nl": "Laat jij Meerte zien waar alles staat en zo?",
               "zh": "你帶 Myrthe 看一下東西都放在哪好嗎？"
             },
             {
-              "t": "9:15",
+              "t": "8:54",
               "nl": "En vraag dan aan Emma of ze wil uitleggen hoe de kassa werkt.",
               "zh": "收銀台請 Emma 教她。"
             },
             {
-              "t": "6:25",
+              "t": "8:59",
               "nl": "En René sluit vandaag af. Dus dan kan René Meerte meteen laten zien hoe dat moet.",
               "zh": "今天 René 關店，到時就讓 René 順便示範。"
             }
@@ -2236,7 +2236,7 @@
       "questions": [
         {
           "n": 23,
-          "t": "6:25",
+          "t": "10:08",
           "reconstructed": false,
           "q_nl": "Waarom is de nieuwe bioscoop zo speciaal?",
           "q_zh": "新電影院為什麼這麼特別？",
@@ -2257,12 +2257,12 @@
           "answer": 0,
           "source": [
             {
-              "t": "6:25",
+              "t": "10:05",
               "nl": "twee 3D-zalen en een aparte kinderzaal.",
               "zh": "兩個 3D 廳和一個獨立的兒童廳。"
             },
             {
-              "t": "10:07",
+              "t": "10:08",
               "nl": "Gloop is de eerste bioscoop in Nederland met zo'n zaal.",
               "zh": "Gloob 是荷蘭第一間有這種廳的電影院。"
             }
@@ -2272,7 +2272,7 @@
         },
         {
           "n": 24,
-          "t": "6:25",
+          "t": "~10:00",
           "reconstructed": true,
           "q_nl": "Hoeveel gewone zalen heeft Bioscoop Gloob?",
           "q_zh": "Bioscoop Gloob 有幾個一般廳？",
@@ -2293,12 +2293,12 @@
           "answer": 1,
           "source": [
             {
-              "t": "6:25",
+              "t": "9:59",
               "nl": "De bioscoop heeft in totaal negen zalen.",
               "zh": "電影院總共有九個廳。"
             },
             {
-              "t": "9:59",
+              "t": "10:02",
               "nl": "De bioscoop heeft zes gewone zalen, twee 3D-zalen en een aparte kinderzaal.",
               "zh": "六個一般廳、兩個 3D 廳，加一個獨立兒童廳。"
             }
@@ -2308,7 +2308,7 @@
         },
         {
           "n": 25,
-          "t": "6:25",
+          "t": "10:45",
           "reconstructed": false,
           "q_nl": "Silvana is 30 jaar. Ze wil op donderdag 3 maart naar bioscoop Gloob. Hoeveel moet ze betalen?",
           "q_zh": "Silvana 30 歲。她想週四 3 月 3 日去 Gloob，要付多少？",
@@ -2333,7 +2333,7 @@
           "answer": 2,
           "source": [
             {
-              "t": "10:27",
+              "t": "10:28",
               "nl": "In het weekend betalen kinderen nu 4 euro voor een kaartje en volwassenen 6 euro.",
               "zh": "週末小孩四歐、大人六歐。"
             },
