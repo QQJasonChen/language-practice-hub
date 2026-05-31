@@ -544,46 +544,93 @@ function renderStats() {
   }
 }
 
+// 依標題判斷類型：聽力 luisteren / 口說 spreken / 其他
+function getKind(v) {
+  const t = (v.title || '').toLowerCase();
+  if (/luister/.test(t)) return 'luisteren';
+  if (/spreek|spreken/.test(t)) return 'spreken';
+  return 'other';
+}
+const KIND_META = {
+  luisteren: { emoji: '📻', label: '聽力', color: '#5eead4',
+    sub: 'A2 Inburgering · 三大題：① 短對話 ② 長對話 ③ 廣告／新聞／留言' },
+  spreken: { emoji: '🗣️', label: '口說', color: '#fb923c',
+    sub: 'A2 Inburgering · 三大題：① 看圖描述 ② 回答問題 ③ 情境給回應' },
+  other:   { emoji: '📺', label: '其他', color: '#a78bfa', sub: '' },
+};
+
 function renderPills() {
-  const channels = [...new Set(videos.map(v=>v.channel))].sort();
+  const counts = { all: videos.length, luisteren: 0, spreken: 0, other: 0 };
+  videos.forEach(v => counts[getKind(v)]++);
+  const pill = (key, label) =>
+    `<div class="pill ${filter===key?'active':''}" onclick="setF('${key}')">${label} <span style="opacity:.65;font-weight:600">${counts[key]}</span></div>`;
   document.getElementById('pills').innerHTML =
-    `<div class="pill ${filter==='all'?'active':''}" onclick="setF('all')">全部</div>` +
-    channels.map(ch => {
-      const short = CH_SHORT[ch] || ch.substring(0,12);
-      return `<div class="pill ${filter===ch?'active':''}" onclick="setF('${ch.replace(/'/g,"\\'")}')">${short}</div>`;
-    }).join('');
+    pill('all', '全部') + pill('luisteren', '📻 聽力') + pill('spreken', '🗣️ 口說') +
+    (counts.other ? pill('other', '📺 其他') : '');
 }
 
 function setF(f) {
   filter = f;
   renderPills();
   renderCards();
-  document.getElementById('filter-label').textContent = f === 'all' ? '全部' : (CH_SHORT[f] || f);
+  const meta = KIND_META[f] || { emoji: '', label: '全部' };
+  document.getElementById('filter-label').textContent =
+    f === 'all' ? '全部' : `${meta.emoji} ${meta.label}`;
+}
+
+function cardHtml(v) {
+  const p = getPrac(v.id);
+  const pct = v.segments ? Math.round(p/v.segments*100) : 0;
+  const dur = v.duration ? `${Math.floor(v.duration/60)} 分` : '';
+  const km = KIND_META[getKind(v)];
+  return `<div class="card" onclick="go('${v.id}')" style="border-left:3px solid ${km.color}">
+    <div class="card-top">
+      <div class="c-title">${esc(v.title)}</div>
+      <span class="c-badge" style="background:${km.color}22;color:${km.color}">${km.emoji} ${km.label}</span>
+    </div>
+    <div class="c-info">
+      <span>💬 ${v.segments} 句</span>
+      ${dur ? `<span>⏱ ${dur}</span>` : ''}
+      <span style="color:var(--text3)">${esc(v.channel || '')}</span>
+    </div>
+    <div class="c-progress"><div class="c-progress-fill" style="width:${pct}%;background:${km.color}"></div></div>
+    <div class="c-footer">
+      <span class="c-pct">${pct > 0 ? pct+'% 完成' : '尚未開始'}</span>
+      <span class="c-arrow">→</span>
+    </div>
+  </div>`;
+}
+
+function sectionHeader(kind, n) {
+  const km = KIND_META[kind];
+  return `<div style="margin:18px 0 8px;padding:10px 14px;background:linear-gradient(90deg,${km.color}1a,transparent);border-left:3px solid ${km.color};border-radius:6px">
+    <div style="display:flex;align-items:baseline;gap:8px">
+      <span style="font-size:18px;font-weight:800;color:${km.color}">${km.emoji} ${km.label}</span>
+      <span style="font-size:12px;color:var(--text3);font-weight:600">${n} 支</span>
+    </div>
+    ${km.sub ? `<div style="font-size:11.5px;color:var(--text2);margin-top:3px">${km.sub}</div>` : ''}
+  </div>`;
 }
 
 function renderCards() {
-  const list = filter === 'all' ? videos : videos.filter(v => v.channel === filter);
-  document.getElementById('cards').innerHTML = list.map(v => {
-    const p = getPrac(v.id);
-    const pct = v.segments ? Math.round(p/v.segments*100) : 0;
-    const dur = v.duration ? `${Math.floor(v.duration/60)} 分` : '';
-    return `<div class="card" onclick="go('${v.id}')">
-      <div class="stripe stripe-${v.lang}"></div>
-      <div class="card-top">
-        <div class="c-title">${esc(v.title)}</div>
-        <span class="c-badge badge-${v.lang}">${v.lang}</span>
-      </div>
-      <div class="c-info">
-        <span>💬 ${v.segments} 句</span>
-        ${dur ? `<span>⏱ ${dur}</span>` : ''}
-      </div>
-      <div class="c-progress"><div class="c-progress-fill" style="width:${pct}%"></div></div>
-      <div class="c-footer">
-        <span class="c-pct">${pct > 0 ? pct+'% 完成' : '尚未開始'}</span>
-        <span class="c-arrow">→</span>
-      </div>
-    </div>`;
-  }).join('') || '<div style="text-align:center;color:var(--text3);padding:60px 0">沒有符合的影片</div>';
+  const box = document.getElementById('cards');
+  if (filter === 'all') {
+    // Grouped view: 聽力 先（少而精），口說 後
+    const groups = { luisteren: [], spreken: [], other: [] };
+    videos.forEach(v => groups[getKind(v)].push(v));
+    let html = '';
+    for (const k of ['luisteren', 'spreken', 'other']) {
+      if (!groups[k].length) continue;
+      html += sectionHeader(k, groups[k].length);
+      html += groups[k].map(cardHtml).join('');
+    }
+    box.innerHTML = html;
+  } else {
+    const list = videos.filter(v => getKind(v) === filter);
+    box.innerHTML = list.length
+      ? sectionHeader(filter, list.length) + list.map(cardHtml).join('')
+      : '<div style="text-align:center;color:var(--text3);padding:60px 0">沒有符合的影片</div>';
+  }
 }
 
 // videos that have the new 場景制 exam app (vs the original SRS / 連音陷阱本 page)
