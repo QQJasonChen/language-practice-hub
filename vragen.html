@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>❓ 問句速查 — A2 Listening Hub</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
+    --text:#e8e8f0;--text2:#9ca3af;--dim:#6b7280;--ok:#4ade80;--bad:#f87171;
+    --accent:#fb923c;--ring:#5eead4;--purple:#a78bfa}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans","Noto Sans JP",sans-serif}
+  .wrap{max-width:780px;margin:0 auto;padding:18px 14px 80px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+  header a{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:0;font-size:19px;flex:1}
+  .lede{color:var(--text2);font-size:13px;margin:0 0 14px;line-height:1.6}
+  .lede b{color:var(--ring)}
+
+  .toc{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0;padding:10px;background:var(--card);
+    border-radius:10px;border:1px solid var(--line)}
+  .toc a{display:inline-block;padding:5px 10px;background:var(--card2);color:var(--text);
+    border-radius:6px;font-size:12px;text-decoration:none;font-weight:600;
+    border:1px solid var(--line)}
+  .toc a:hover{border-color:var(--ring);color:var(--ring)}
+  .toc a .n{opacity:.6;font-weight:500;margin-left:3px}
+
+  .search{margin:10px 0 16px;position:relative}
+  .search input{width:100%;padding:10px 36px 10px 14px;background:var(--card);
+    border:1px solid var(--line);border-radius:10px;color:var(--text);font-size:14px}
+  .search input:focus{outline:none;border-color:var(--ring)}
+  .search::after{content:'🔍';position:absolute;right:12px;top:50%;transform:translateY(-50%);
+    color:var(--dim);font-size:14px;pointer-events:none}
+
+  .group{margin:22px 0 16px;scroll-margin-top:12px}
+  .g-head{display:flex;align-items:baseline;gap:10px;padding:10px 14px;
+    border-radius:8px;border-left:4px solid var(--accent);
+    background:linear-gradient(90deg,rgba(251,146,60,0.12),transparent)}
+  .g-head .nl{font-size:22px;font-weight:900;letter-spacing:-0.5px}
+  .g-head .zh{font-size:14px;color:var(--text2);font-weight:600}
+  .g-head .cnt{margin-left:auto;font-size:11px;color:var(--dim);font-weight:700}
+  .g-meta{padding:8px 14px;font-size:12.5px;color:var(--text2);line-height:1.6;
+    background:var(--card);border-radius:0 0 8px 8px;border:1px solid var(--line);border-top:0}
+  .g-meta .lbl{color:var(--accent);font-weight:800;margin-right:4px}
+  .g-meta .trap{color:#fda4af;font-weight:600}
+
+  .q-list{display:flex;flex-direction:column;gap:6px;margin-top:6px}
+  .q{display:flex;gap:10px;padding:10px 12px;background:var(--card);border-radius:8px;
+    border:1px solid var(--line);cursor:pointer;align-items:flex-start}
+  .q:hover{border-color:var(--ring)}
+  .q-play{flex:0 0 32px;height:32px;display:flex;align-items:center;justify-content:center;
+    background:rgba(94,234,212,0.15);color:var(--ring);border-radius:50%;font-size:14px}
+  .q-play.notone{background:rgba(255,255,255,0.05);color:var(--dim)}
+  .q-body{flex:1;min-width:0}
+  .q-nl{font-weight:600;font-size:14px;color:var(--text);line-height:1.4}
+  .q-zh{color:var(--text2);font-size:12.5px;margin-top:3px}
+  .q-src{font-size:10.5px;color:var(--dim);margin-top:4px}
+  .q-src a{color:var(--ring);text-decoration:none;margin-left:6px}
+
+  /* Highlight the interrogative phrase */
+  .iw{background:rgba(251,146,60,0.18);color:#fdba74;padding:0 3px;border-radius:3px;font-weight:800}
+
+  /* Color per group emoji */
+  .em-wat .g-head{border-color:#fb923c;background:linear-gradient(90deg,rgba(251,146,60,0.12),transparent)}
+  .em-wat .g-meta .lbl{color:#fb923c}
+  .em-waarom .g-head{border-color:#a78bfa;background:linear-gradient(90deg,rgba(167,139,250,0.12),transparent)}
+  .em-waarom .g-meta .lbl{color:#a78bfa}
+  .em-waar .g-head{border-color:#60a5fa;background:linear-gradient(90deg,rgba(96,165,250,0.12),transparent)}
+  .em-waar .g-meta .lbl{color:#60a5fa}
+  .em-wanneer .g-head{border-color:#34d399;background:linear-gradient(90deg,rgba(52,211,153,0.12),transparent)}
+  .em-wanneer .g-meta .lbl{color:#34d399}
+  .em-hoelaat .g-head{border-color:#5eead4;background:linear-gradient(90deg,rgba(94,234,212,0.14),transparent)}
+  .em-hoelaat .g-meta .lbl{color:#5eead4}
+  .em-hoe .g-head{border-color:#fde047;background:linear-gradient(90deg,rgba(253,224,71,0.12),transparent)}
+  .em-hoe .g-meta .lbl{color:#fde047}
+  .em-welke .g-head{border-color:#f472b6;background:linear-gradient(90deg,rgba(244,114,182,0.12),transparent)}
+  .em-welke .g-meta .lbl{color:#f472b6}
+  .em-wie .g-head{border-color:#fb7185;background:linear-gradient(90deg,rgba(251,113,133,0.12),transparent)}
+  .em-wie .g-meta .lbl{color:#fb7185}
+  .em-hoeveel .g-head{border-color:#22d3ee;background:linear-gradient(90deg,rgba(34,211,238,0.12),transparent)}
+  .em-hoeveel .g-meta .lbl{color:#22d3ee}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="index.html">← 返回</a>
+    <h1>❓ 問句速查</h1>
+  </header>
+  <p class="lede">A2 luisteren 67 題的問句 99% 落在 <b>8 個核心句型</b>裡。看懂這些開頭詞 + 它們各自的「聽力陷阱模式」，就能在 25 秒內鎖定該抓什麼資訊。</p>
+
+  <div class="toc" id="toc"></div>
+  <div class="search"><input id="search" type="search" placeholder="搜尋問句（中文或荷文都可）…"></div>
+
+  <div id="groups"></div>
+</div>
+
+<script>
+const MOCKS = ['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026'];
+const MOCK_LABELS = {'_iC1Pooi2UA':'M1', 'AMVy2zPNLso':'M2', 'mock3_a2_2026':'M3'};
+
+// Question-pattern definitions: order matters (multi-word patterns first)
+const PATTERNS = [
+  { id: 'metwie', emoji: 'em-wie', nl: 'Met wie', zh: '跟誰',
+    desc: 'wie + 介系詞 met = 「跟誰」。其他組合：Aan wie（給誰）／Van wie（誰的）。',
+    trap: '原文常一次出現 3-4 個人名，全部都聽到了，但題目鎖定的是「動作的對象」——要抓動詞前後那個 name。',
+    match: q => /^met\s+wie\b/i.test(q) },
+  { id: 'hoelaat', emoji: 'em-hoelaat', nl: 'Hoe laat', zh: '幾點',
+    desc: '問時鐘上的時間。常見答法：om half zes（5:30）、om kwart over zes（6:15）、om kwart voor zes（5:45）。',
+    trap: '⚠️ <b>half X = X 點前的半小時</b>！half zes = 5:30 不是 6:30。原文常給 2-3 個時間點，要分清哪個對應「題目問的那個人／那件事」。',
+    match: q => /^hoe\s+laat\b/i.test(q) },
+  { id: 'hoelang', emoji: 'em-hoelaat', nl: 'Hoe lang / Hoe vaak', zh: '多久 / 多常',
+    desc: 'Hoe lang = 時間長度；Hoe vaak = 頻率（一週幾次）。',
+    trap: '別跟 Hoe laat 混淆。',
+    match: q => /^hoe\s+(lang|vaak)\b/i.test(q) },
+  { id: 'hoeveel', emoji: 'em-hoeveel', nl: 'Hoeveel', zh: '多少 / 幾個',
+    desc: '問數量、價錢、人數。可加單位：Hoeveel euro、Hoeveel mensen、Hoeveel keer。',
+    trap: '價錢題常給「平日 vs 週末」「兒童 vs 大人」兩個維度，要把兩個資訊交叉對齊。',
+    match: q => /^hoeveel\b/i.test(q) },
+  { id: 'waarmee', emoji: 'em-waar', nl: 'Waarmee / Waarover', zh: '用什麼 / 關於什麼',
+    desc: 'Waar + 介系詞 = 抽象的「什麼」。Waarmee 用什麼工具方法；Waarover 關於什麼話題；Waarvoor 為了什麼。',
+    trap: '會被誤聽成 Waar（哪裡）。注意後面有沒有介系詞合體。',
+    match: q => /^waar(mee|over|voor|naartoe|aan|van)\b/i.test(q) },
+  { id: 'waar', emoji: 'em-waar', nl: 'Waar', zh: '哪裡',
+    desc: '問地點。常見變形：Waar ... naartoe（往哪去）、Waar zit ...（位於哪裡）。',
+    trap: '原文可能講「不要去 A、不要去 B、應該去 C」。聽到地名就選會錯——要等到正面的描述。',
+    match: q => /^waar\b/i.test(q) },
+  { id: 'wanneer', emoji: 'em-wanneer', nl: 'Wanneer / Sinds wanneer', zh: '什麼時候 / 從什麼時候開始',
+    desc: '問日期、星期幾。Sinds wanneer = 起始時間（從何時起）。',
+    trap: '對話常先給「錯的時間」再修正（Nee, joh... → 真實時間）。陷阱版本常是「被否定的那個」。',
+    match: q => /^(wanneer|sinds\s+wanneer)\b/i.test(q) },
+  { id: 'waarom', emoji: 'em-waarom', nl: 'Waarom', zh: '為什麼',
+    desc: '問原因。原文裡的線索詞：omdat、want、daarom、dus。',
+    trap: '常有多個事實被講出來，但只有一個是「題目問的事件的原因」。要對齊主詞和動詞。',
+    match: q => /^waarom\b/i.test(q) },
+  { id: 'welke', emoji: 'em-welke', nl: 'Welke / Welk', zh: '哪一個',
+    desc: '從多個選項中挑一個。Welke + de-woord、Welk + het-woord。',
+    trap: '選項通常都被原文唸過，但只有一個是「題目限定那個人／那件事」的答案。聽到熟悉字就選最容易錯。',
+    match: q => /^(welke|welk)\b/i.test(q) },
+  { id: 'hoe', emoji: 'em-hoe', nl: 'Hoe', zh: '怎麼樣 / 如何',
+    desc: '問方法、方式。常用：Hoe + werkwoord（怎麼做某事）。',
+    trap: '常和「Wat」題型雷同。差別：Hoe 問「方式」（怎麼做）、Wat 問「內容」（做什麼）。',
+    match: q => /^hoe\b/i.test(q) },
+  { id: 'wie', emoji: 'em-wie', nl: 'Wie', zh: '誰',
+    desc: '問身分／角色。常和家庭關係詞一起出現（broer/zus/neef/collega）。',
+    trap: '人物關係題只要抓住名字前後那個關係詞（mijn broer X），不必聽懂整句。',
+    match: q => /^wie\b/i.test(q) },
+  { id: 'wat', emoji: 'em-wat', nl: 'Wat', zh: '什麼',
+    desc: '萬用問句，A2 最高頻。常見變形：Wat vertelt/zegt/vraagt/doet/moet/vindt X?',
+    trap: '範圍最廣、選項最分散。聽前先看選項——通常選項都圍繞同一主題的不同細節，要抓「題目鎖定那個動詞 + 主詞」對應的句子。',
+    match: q => /^wat\b/i.test(q) },
+];
+const FALLBACK = { id: 'context', emoji: 'em-wat', nl: '情境題', zh: '情境鋪陳 + 問句',
+  desc: '題目先給情境（「Lars 想當郵差……」「Mario 在 Arnhem 站……」）再問問題。',
+  trap: '別被人名／地名分心。重點還是後面那個問句的句型（通常是 Wat / Hoe / Hoeveel）。',
+  match: () => true };
+
+function parseTs(t) {
+  const m = String(t || '').match(/(\d+):(\d+)/);
+  return m ? parseInt(m[1]) * 60 + parseInt(m[2]) : 0;
+}
+
+let _audio = null, _stopT = null;
+function playAt(vid, start, end) {
+  if (_stopT) { clearTimeout(_stopT); _stopT = null; }
+  if (!_audio) _audio = new Audio();
+  const src = `output/${vid}/audio.mp3`;
+  if (_audio.src.indexOf(src) === -1) _audio.src = src;
+  const playFn = () => {
+    _audio.currentTime = start;
+    _audio.play().catch(() => {});
+    const durMs = Math.max(2000, (end - start) * 1000 + 300);
+    _stopT = setTimeout(() => _audio.pause(), durMs);
+  };
+  if (_audio.readyState >= 1) playFn();
+  else _audio.addEventListener('loadedmetadata', playFn, { once: true });
+}
+
+function highlight(nl, pattern) {
+  // Bold the leading interrogative
+  const re = new RegExp(`^(${pattern.nl.split(' / ')[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})\\b`, 'i');
+  return nl.replace(re, '<span class="iw">$1</span>');
+}
+function esc(t) {
+  return String(t || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+let allQ = [];     // [{vid, scn, n, q_nl, q_zh, t, audio_end}]
+let grouped = {};  // patternId → questions
+
+async function load() {
+  for (const vid of MOCKS) {
+    const ex = await (await fetch(`output/${vid}/exam.json`)).json();
+    for (const sc of ex.scenarios || []) {
+      for (const q of sc.questions || []) {
+        const t = parseTs(q.t);
+        // estimate audio range: from question's stated t to next question's t
+        const idx = sc.questions.indexOf(q);
+        const next = sc.questions[idx + 1];
+        const endT = next ? parseTs(next.t) : t + 8;
+        allQ.push({
+          vid, scn: sc.title_zh, n: q.n,
+          q_nl: q.q_nl, q_zh: q.q_zh, t, end: Math.max(t + 3, endT),
+        });
+      }
+    }
+  }
+  // Group
+  for (const q of allQ) {
+    const p = PATTERNS.find(p => p.match(q.q_nl)) || FALLBACK;
+    (grouped[p.id] = grouped[p.id] || []).push(q);
+  }
+  render();
+}
+
+function render(searchQ) {
+  // TOC
+  document.getElementById('toc').innerHTML = PATTERNS
+    .filter(p => grouped[p.id]?.length)
+    .map(p => `<a href="#${p.id}">${p.nl} <span class="n">${grouped[p.id].length}</span></a>`)
+    .join('') + (grouped['context']?.length
+      ? `<a href="#context">${FALLBACK.nl} <span class="n">${grouped['context'].length}</span></a>` : '');
+
+  const sq = (searchQ || '').toLowerCase().trim();
+  const box = document.getElementById('groups');
+  const allPatterns = [...PATTERNS, FALLBACK];
+  let html = '';
+  for (const p of allPatterns) {
+    let items = grouped[p.id] || [];
+    if (sq) items = items.filter(q =>
+      q.q_nl.toLowerCase().includes(sq) || q.q_zh.includes(sq));
+    if (!items.length) continue;
+    html += `<div class="group ${p.emoji}" id="${p.id}">
+      <div class="g-head">
+        <span class="nl">${p.nl}</span>
+        <span class="zh">${p.zh}</span>
+        <span class="cnt">${items.length} 題</span>
+      </div>
+      <div class="g-meta">
+        <div><span class="lbl">用法</span>${p.desc}</div>
+        <div style="margin-top:5px"><span class="lbl trap">⚠️ 陷阱</span>${p.trap}</div>
+      </div>
+      <div class="q-list">${items.map(q => `
+        <div class="q" onclick="playAt('${q.vid}', ${q.t}, ${q.end})">
+          <div class="q-play">▶</div>
+          <div class="q-body">
+            <div class="q-nl">${highlight(esc(q.q_nl), p)}</div>
+            <div class="q-zh">${esc(q.q_zh)}</div>
+            <div class="q-src">${MOCK_LABELS[q.vid]} · ${esc(q.scn)} · Q${q.n}
+              <a href="output/${q.vid}/exam.html" onclick="event.stopPropagation()">看詳解 →</a></div>
+          </div>
+        </div>`).join('')}
+      </div>
+    </div>`;
+  }
+  box.innerHTML = html || '<div style="text-align:center;color:var(--dim);padding:40px">沒有符合的問句</div>';
+}
+
+document.getElementById('search').addEventListener('input', e => render(e.target.value));
+
+load();
+</script>
+</body>
+</html>
