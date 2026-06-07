@@ -840,12 +840,15 @@ function renderAnalysisPanel(s) {
       <span class="ana-red-s">${escapeHtml(r.spoken)}</span></div>`).join('');
   // Support both new `frame` and legacy `grammar` field
   const frameText = a.frame || a.grammar || '';
+  const trapText = (typeof a.trap === 'string' && a.trap.length > 3) ? a.trap : '';
+  // No content at all → return empty so the parent button hides too
+  if (!words && !frameText && !stressed && !reductions && !trapText) return '';
   return `<div class="line-analysis" onclick="event.stopPropagation()">
     ${words ? `<div class="ana-sec"><span class="ana-lbl">📚 生字</span>${words}</div>` : ''}
     ${frameText ? `<div class="ana-sec"><span class="ana-lbl">🎯 句框</span><span class="ana-text">${escapeHtml(frameText)}</span></div>` : ''}
     ${stressed ? `<div class="ana-sec"><span class="ana-lbl">🔔 重讀</span>${stressed}<span class="ana-hint">  ← 講者會強調，耳朵警鈴</span></div>` : ''}
     ${reductions ? `<div class="ana-sec"><span class="ana-lbl">🔊 連音</span>${reductions}</div>` : ''}
-    ${(typeof a.trap === 'string' && a.trap.length > 3) ? `<div class="ana-sec ana-trap"><span class="ana-lbl">⚠️ 陷阱</span><span class="ana-text">${escapeHtml(a.trap)}</span></div>` : ''}
+    ${trapText ? `<div class="ana-sec ana-trap"><span class="ana-lbl">⚠️ 陷阱</span><span class="ana-text">${escapeHtml(trapText)}</span></div>` : ''}
   </div>`;
 }
 function toggleAnalysis(idx) {
@@ -859,7 +862,8 @@ function renderDialogue() {
     const zh = s.translation || '';
     const isBookmarked = store.bookmarks.includes(i);
     const isTrapped = store.traps.includes(i);
-    const hasAna = !!s.analysis;
+    const anaHtml = s.analysis ? renderAnalysisPanel(s) : '';
+    const hasAna = anaHtml !== '';
     return `<div class="dialogue-line" data-idx="${i}" onclick="jumpToLine(${i})">
       <span class="line-text">${escapeHtml(s.text)}${zh ? `<div class="line-zh">${escapeHtml(zh)}</div>` : ''}</span>
       ${hasAna ? `<button class="ana-btn" onclick="event.stopPropagation();toggleAnalysis(${i})" title="逐句拆解">🔬</button>` : ''}
@@ -868,7 +872,7 @@ function renderDialogue() {
       <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" onclick="event.stopPropagation();toggleBookmark(${i})" title="書籤">🔖</button>
       <button class="trap-btn ${isTrapped ? 'trapped' : ''}" onclick="event.stopPropagation();toggleTrap(${i})" title="聽錯了 → 加入連音陷阱本">🪤</button>
       <button class="line-repeat-btn" onclick="event.stopPropagation();loopLine(${i})" title="單句Loop / Shift+點兩句=多句Loop">🔁</button>
-      ${hasAna ? renderAnalysisPanel(s) : ''}
+      ${anaHtml}
     </div>`;
   }).join('');
   applyModes();
