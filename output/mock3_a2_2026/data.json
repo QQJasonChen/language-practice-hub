@@ -16,19 +16,17 @@
         "translation": "您好，女士。我可以給您一份宣傳單嗎？",
         "analysis": {
           "words_hard": [
-            "folder",
-            "meegeven"
-          ],
-          "frame": "[骨架字] Zou ik u ... een ... mogen …?",
-          "stressed": [
-            "meeg"
-          ],
-          "reductions": [
             {
-              "written": "folder mogen",
-              "spoken": "folder mogen"
+              "nl": "folder",
+              "zh": "宣傳單/資料夾",
+              "level": "A2"
             }
           ],
+          "frame": "Zou ik u misschien ... meegeven? | 客氣地請求帶走/提供資料",
+          "stressed": [
+            "mذeeg"
+          ],
+          "reductions": [],
           "trap": null
         }
       },
@@ -38,13 +36,9 @@
         "text": "Waar gaat dit over?",
         "translation": "這是關於什麼的？",
         "analysis": {
-          "words_hard": [
-            "gaat",
-            "over"
-          ],
-          "frame": "[骨架字] Waar gaat dit ...?",
+          "words_hard": [],
+          "frame": "",
           "stressed": [
-            "gaat",
             "over"
           ],
           "reductions": [],
@@ -57,20 +51,13 @@
         "text": "Volgende week opent hier in de straat een nieuwe sportschool.",
         "translation": "下週這條街上會開一家新的健身房。",
         "analysis": {
-          "words_hard": [
-            "sportschool"
-          ],
-          "frame": "[骨架字] Volgende week opent hier in de straat een ....",
+          "words_hard": [],
+          "frame": "",
           "stressed": [
-            "Open t",
-            "week"
+            "volgende",
+            "opens"
           ],
-          "reductions": [
-            {
-              "written": "sportschool",
-              "spoken": "sportschool"
-            }
-          ],
+          "reductions": [],
           "trap": null
         }
       },
@@ -80,23 +67,14 @@
         "text": "Superfit heet die. Houdt u van sporten?",
         "translation": "叫做Superfit。您喜歡運動嗎？",
         "analysis": {
-          "words_hard": [
-            "Superfit",
-            "houdt",
-            "sporten"
-          ],
-          "frame": "[骨架字] [naam] - Houdt u van ...?",
+          "words_hard": [],
+          "frame": "",
           "stressed": [
             "Superfit",
-            "sporten"
+            "houdt"
           ],
-          "reductions": [
-            {
-              "written": "Superfit",
-              "spoken": "Superfit"
-            }
-          ],
-          "trap": null
+          "reductions": [],
+          "trap": "Superfit is eigennaam; luister vooral naar 'houdt u van sporten?' als reactie"
         }
       },
       {
@@ -106,10 +84,8 @@
         "translation": "嗯，喜歡。",
         "analysis": {
           "words_hard": [],
-          "frame": "[骨架字] Ja, wel.",
-          "stressed": [
-            "wel"
-          ],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -120,14 +96,11 @@
         "text": "Dan is superfit misschien wel iets voor u.",
         "translation": "那Superfit可能適合您。",
         "analysis": {
-          "words_hard": [
-            "Superfit",
-            "iets"
-          ],
-          "frame": "[骨架字] Dan is ... misschien wel ... voor u.",
+          "words_hard": [],
+          "frame": "Dan is ... misschien wel ... | 轉折導入建議",
           "stressed": [
-            "wel",
-            "misschien"
+            "misschien",
+            "wel"
           ],
           "reductions": [],
           "trap": null
@@ -140,10 +113,8 @@
         "translation": "您看看。",
         "analysis": {
           "words_hard": [],
-          "frame": "[骨架字] Kijk maar.",
-          "stressed": [
-            "Kijk"
-          ],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -155,13 +126,15 @@
         "translation": "前兩個月您可以免費運動。",
         "analysis": {
           "words_hard": [
-            "maanden",
-            "sport",
-            "gratis"
+            {
+              "nl": "maanden",
+              "zh": "月數",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] De eerste twee maanden ... gratis.",
+          "frame": "De eerste twee maanden sport u gratis. | 首兩個月免費",
           "stressed": [
-            "gratis"
+            "maanden"
           ],
           "reductions": [],
           "trap": null
@@ -174,23 +147,18 @@
         "translation": "然後每個月只要付12.50歐元。",
         "analysis": {
           "words_hard": [
-            "betaalt",
-            "maand",
-            "euro",
-            "12,50"
-          ],
-          "frame": "[骨架字] En daarna betaalt u maar ... euro per maand.",
-          "stressed": [
-            "betaalt",
-            "maand",
-            "euro"
-          ],
-          "reductions": [
             {
-              "written": "12,50",
-              "spoken": "12,50"
+              "nl": "betalen",
+              "zh": "付費",
+              "level": "A2"
             }
           ],
+          "frame": "En daarna betaalt u maar ... euro per maand | 之後每月付多少",
+          "stressed": [
+            "betalt",
+            "per maand"
+          ],
+          "reductions": [],
           "trap": null
         }
       },
@@ -200,10 +168,8 @@
         "text": "Oh, dat is niet duur.",
         "translation": "哦，這不貴。",
         "analysis": {
-          "words_hard": [
-            "duur"
-          ],
-          "frame": "[骨架字] Oh, dat is niet ...",
+          "words_hard": [],
+          "frame": "",
           "stressed": [
             "duur"
           ],
@@ -217,14 +183,10 @@
         "text": "Nee, en u betaalt ook geen sport.",
         "translation": "對，而且您也不用付運動費。",
         "analysis": {
-          "words_hard": [
-            "betaalt",
-            "sport"
-          ],
-          "frame": "[骨架字] Nee, en u betaalt ook geen ...",
+          "words_hard": [],
+          "frame": "",
           "stressed": [
-            "betaalt",
-            "sport"
+            "geen"
           ],
           "reductions": [],
           "trap": null
@@ -236,10 +198,8 @@
         "text": "U betaalt ook geen inschrijfgeld.",
         "translation": "您也不用付註冊費。",
         "analysis": {
-          "words_hard": [
-            "inschrijfgeld"
-          ],
-          "frame": "[骨架字] U betaalt ook geen inschrijfgeld.",
+          "words_hard": [],
+          "frame": "",
           "stressed": [
             "inschrijfgeld"
           ],
@@ -253,13 +213,9 @@
         "text": "Nou, dat klinkt heel goed.",
         "translation": "哇，聽起來很好。",
         "analysis": {
-          "words_hard": [
-            "klinkt",
-            "goed"
-          ],
-          "frame": "[骨架字] Nou, dat klinkt heel goed.",
+          "words_hard": [],
+          "frame": "",
           "stressed": [
-            "klinkt",
             "goed"
           ],
           "reductions": [],
@@ -272,16 +228,10 @@
         "text": "Alleen helaas woon ik hier niet in de buurt.",
         "translation": "可惜我不住在這附近。",
         "analysis": {
-          "words_hard": [
-            "buurt",
-            "woon",
-            "hier",
-            "niet"
-          ],
-          "frame": "[骨架字] Alleen helaas woon ik hier niet in de buurt.",
+          "words_hard": [],
+          "frame": "",
           "stressed": [
-            "buurt",
-            "niet"
+            "alleen"
           ],
           "reductions": [],
           "trap": null
@@ -293,10 +243,8 @@
         "text": "Oh, wat jammer.",
         "translation": "哦，真可惜。",
         "analysis": {
-          "words_hard": [
-            "jammer"
-          ],
-          "frame": "[骨架字] Oh, wat ...",
+          "words_hard": [],
+          "frame": "",
           "stressed": [
             "jammer"
           ],
@@ -310,14 +258,20 @@
         "text": "Zou u de folder misschien aan iemand kunnen meegeven?",
         "translation": "您能把宣傳單給別人嗎？",
         "analysis": {
-          "words_hard": [],
-          "frame": "[骨架字] ...{中文用途說明 1 句}",
+          "words_hard": [
+            {
+              "nl": "folder",
+              "zh": "資料夾/資料本",
+              "level": "A2"
+            }
+          ],
+          "frame": "Zou u de ... misschien aan iemand kunnen meegeven? | 請求把某物交給某人",
           "stressed": [
-            "zou",
-            "meegifte"
+            "meedoen",
+            "meegeven"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "Zou u ... kunnen meegeven? 注意禮貌用語 u 的尊稱與 kan 的位置"
         }
       },
       {
@@ -326,19 +280,20 @@
         "text": "Ja, mijn zus woont hier wel in de buurt.",
         "translation": "嗯，我的妹妹住在這附近。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Ja, mijn zus woont hier wel in de buurt. ",
-          "stressed": [
-            "woont",
-            "buurt"
-          ],
-          "reductions": [
+          "words_hard": [
             {
-              "written": "Ja, mijn zus woont hier wel in de buurt.",
-              "spoken": "Ja, mijn zus woont hier wel in de buurt."
+              "nl": "zus",
+              "zh": "姐姐/妹妹",
+              "level": "A2"
             }
           ],
-          "trap": null
+          "frame": "Ja, mijn ... woont hier wel in de buurt. | 是的，我的某人就近住在這裡",
+          "stressed": [
+            "wel",
+            "in de buurt"
+          ],
+          "reductions": [],
+          "trap": "wel in de buurt 常用口氣表示就近"
         }
       },
       {
@@ -347,12 +302,17 @@
         "text": "Dus misschien wil zij bij jullie komen sporten.",
         "translation": "所以她也許會想來你們這裡運動。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Dus misschien wil zij bij jullie komen sporten.",
+          "words_hard": [
+            {
+              "nl": "misschien",
+              "zh": "也許",
+              "level": "A2"
+            }
+          ],
+          "frame": "Dus misschien wil zij bij jullie komen sporten. | 於是也許她想來你們這邊運動",
           "stressed": [
             "misschien",
-            "komen",
-            "sporten"
+            "wil"
           ],
           "reductions": [],
           "trap": null
@@ -364,15 +324,20 @@
         "text": "Oh, nou. Heel fijn. Dank u wel.",
         "translation": "哦，那太好了。謝謝您。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Oh, nou. Heel fijn. Dank u wel.",
+          "words_hard": [
+            {
+              "nl": "Dank",
+              "zh": "謝謝",
+              "level": "A2"
+            }
+          ],
+          "frame": "Oh, nou. Heel fijn. Dank u wel. | 哦，好。非常好。謝謝您",
           "stressed": [
             "fijn",
-            "Dank",
-            "wel"
+            "Dank"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "Dank u wel 需注意禮貌用語 u is 尊稱"
         }
       },
       {
@@ -381,11 +346,16 @@
         "text": "Fijne dag.",
         "translation": "祝您有個愉快的一天。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Fijne dag.",
+          "words_hard": [
+            {
+              "nl": "Fijne",
+              "zh": "美好、愉快",
+              "level": "A2"
+            }
+          ],
+          "frame": "Fijne dag. | 祝你有美好的一天",
           "stressed": [
-            "Fijne",
-            "dag"
+            "Fijne"
           ],
           "reductions": [],
           "trap": null
@@ -397,11 +367,16 @@
         "text": "Hetzelfde. Dag.",
         "translation": "同樣的，掰掰。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Hetzelfde. Dag.",
+          "words_hard": [
+            {
+              "nl": "Hetzelfde",
+              "zh": "一樣的",
+              "level": "A2"
+            }
+          ],
+          "frame": "Hetzelfde. Dag. | 一樣。再見",
           "stressed": [
-            "Hetzelfde",
-            "Dag"
+            "zelfde"
           ],
           "reductions": [],
           "trap": null
@@ -413,11 +388,15 @@
         "text": "Dag.",
         "translation": "掰掰。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Dag.",
-          "stressed": [
-            "Dag"
+          "words_hard": [
+            {
+              "nl": "Dag",
+              "zh": "再見/日",
+              "level": "A1"
+            }
           ],
+          "frame": "Dag. | 再見",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -428,8 +407,14 @@
         "text": "Aaron is postbode.",
         "translation": "Aaron是郵差。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Aaron is postbode.",
+          "words_hard": [
+            {
+              "nl": "postbode",
+              "zh": "郵差",
+              "level": "A2"
+            }
+          ],
+          "frame": "Aaron is postbode. | Aaron 是郵差",
           "stressed": [
             "postbode"
           ],
@@ -443,13 +428,19 @@
         "text": "Hé, Johan.",
         "translation": "嘿，Johan。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Hé, Johan.",
+          "words_hard": [
+            {
+              "nl": "Johan",
+              "zh": "人名",
+              "level": "A1"
+            }
+          ],
+          "frame": "Hé, Johan. | 嘿，Johan",
           "stressed": [
             "Hé"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "人名在聽力中要注意辨識"
         }
       },
       {
@@ -459,27 +450,29 @@
         "translation": "你還認識想來這裡工作的人嗎？",
         "analysis": {
           "words_hard": [
-            "jij",
-            "nog",
-            "iemand",
-            "hier",
-            "wil",
-            "komen",
-            "werken"
-          ],
-          "frame": "Ken jij nog iemand die hier wil komen werken?",
-          "stressed": [
-            "Ken",
-            "jij",
-            "werken"
-          ],
-          "reductions": [
             {
-              "written": "Ken jij nog",
-              "spoken": "Ken jy nog"
+              "nl": "Ken",
+              "zh": "認識",
+              "level": "A2"
+            },
+            {
+              "nl": "jij",
+              "zh": "你",
+              "level": "A2"
+            },
+            {
+              "nl": "werken",
+              "zh": "工作",
+              "level": "A2"
             }
           ],
-          "trap": null
+          "frame": "Ken jij nog iemand die hier wil komen werken? | 你還認識有人想在這裡工作嗎",
+          "stressed": [
+            "jij",
+            "werken"
+          ],
+          "reductions": [],
+          "trap": "jij 與 jij 的強調要清楚，句中問句很常見"
         }
       },
       {
@@ -488,11 +481,16 @@
         "text": "Wat voor iemand?",
         "translation": "是什麼樣的人？",
         "analysis": {
-          "words_hard": [],
-          "frame": "Wat voor iemand?",
+          "words_hard": [
+            {
+              "nl": "Wat",
+              "zh": "什麼",
+              "level": "A1"
+            }
+          ],
+          "frame": "Wat voor iemand? | 什麼樣的人？",
           "stressed": [
-            "Wat",
-            "iemand"
+            "Wat"
           ],
           "reductions": [],
           "trap": null
@@ -505,19 +503,20 @@
         "translation": "嗯，老的或年輕的都可以，沒關係。",
         "analysis": {
           "words_hard": [
-            "oud",
-            "jong",
-            "Maakt",
-            "uit"
+            {
+              "nl": "oud",
+              "zh": "年長的",
+              "level": "A2"
+            }
           ],
-          "frame": "Nou ja, oud of jong. Maakt niet uit.",
+          "frame": "Nou ja, oud of jong. Maakt niet uit. | 也好，老的或年輕的。無所謂",
           "stressed": [
             "oud",
-            "jong",
+            "jongen",
             "Maakt"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "Maakt niet uit 表示沒有偏好"
         }
       },
       {
@@ -526,12 +525,16 @@
         "text": "En hij hoeft ook geen ervaring te hebben.",
         "translation": "而且他也不需要有經驗。",
         "analysis": {
-          "words_hard": [],
-          "frame": "En hij hoeft ook geen ervaring te hebben.",
+          "words_hard": [
+            {
+              "nl": "ervaring",
+              "zh": "經驗",
+              "level": "A2"
+            }
+          ],
+          "frame": "En hij hoeft ook geen ervaring te hebben. | 他也不需要經驗",
           "stressed": [
-            "hoeft",
-            "ervaring",
-            "hebben"
+            "ervaring"
           ],
           "reductions": [],
           "trap": null
@@ -544,14 +547,21 @@
         "translation": "但他必須是一個好學生。",
         "analysis": {
           "words_hard": [
-            "goede",
-            "student",
-            "wel"
+            {
+              "nl": "goede",
+              "zh": "好、優秀的",
+              "level": "A2"
+            },
+            {
+              "nl": "student",
+              "zh": "學生",
+              "level": "A2"
+            }
           ],
-          "frame": "Maar hij is wel een goed student.",
+          "frame": "Maar hij is wel een goed student. | 但他確實是個好學生",
           "stressed": [
-            "goed",
-            "student"
+            "wel",
+            "goede"
           ],
           "reductions": [],
           "trap": null
@@ -564,26 +574,19 @@
         "translation": "要能早起的人。",
         "analysis": {
           "words_hard": [
-            "Iemand",
-            "die",
-            "vroeg",
-            "op",
-            "kan",
-            "staan"
-          ],
-          "frame": "Iemand die vroeg op kan staan.",
-          "stressed": [
-            "vroeg",
-            "op",
-            "staan"
-          ],
-          "reductions": [
             {
-              "written": "Iemand die vroeg op kan staan",
-              "spoken": "Iemands die vroog op kon staan"
+              "nl": "Iemand",
+              "zh": "某人",
+              "level": "A2"
             }
           ],
-          "trap": null
+          "frame": "Iemand die vroeg op kan staan. | 能早起的某人",
+          "stressed": [
+            "Iemand",
+            "vroeg"
+          ],
+          "reductions": [],
+          "trap": "Iemand 是泛指，注意語境"
         }
       },
       {
@@ -592,14 +595,25 @@
         "text": "Nou, mijn neef Lars misschien. Hoe vroeg moet hij dan beginnen?",
         "translation": "嗯，我的表弟拉斯也許吧。他要幾點開始呢？",
         "analysis": {
-          "words_hard": [],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "words_hard": [
+            {
+              "nl": "neef",
+              "zh": "表兄弟/表姊妹",
+              "level": "A2"
+            },
+            {
+              "nl": "waarschijnlijk",
+              "zh": "大概，可能",
+              "level": "A2"
+            }
+          ],
+          "frame": "Hoe vroeg ... hij dan beginnen? | 問某人需要多早開始",
           "stressed": [
-            "Lars",
+            "nou",
             "beginnen"
           ],
           "reductions": [],
-          "trap": "這句包含縮寫與語氣詞，重點在於“多少早開始”的問法，學生要聽出時間點的骨架。"
+          "trap": null
         }
       },
       {
@@ -608,14 +622,25 @@
         "text": "Nou ja, ik begin altijd al om vijf uur.",
         "translation": "嗯，我總是五點就開始。",
         "analysis": {
-          "words_hard": [],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "words_hard": [
+            {
+              "nl": "begin",
+              "zh": "開始",
+              "level": "A2"
+            },
+            {
+              "nl": "veel",
+              "zh": "常常，總是",
+              "level": "A2"
+            }
+          ],
+          "frame": "Nou ja, ik begin altijd al om ... | 說明固定習慣",
           "stressed": [
             "altijd",
-            "vijf uur"
+            "om 5 uur"
           ],
           "reductions": [],
-          "trap": "聽到「altijd」與「om vijf uur」的時間點，容易漏掉習慣性回答與具體時間。"
+          "trap": null
         }
       },
       {
@@ -624,14 +649,20 @@
         "text": "Maar dat hoeft Lars nog niet, hoor.",
         "translation": "不過拉斯還不需要這麼早啦。",
         "analysis": {
-          "words_hard": [],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "words_hard": [
+            {
+              "nl": "hoeven",
+              "zh": "不必，無需",
+              "level": "A2"
+            }
+          ],
+          "frame": "Maar dat hoeft Lars nog niet, hoor | 表示尚未需要",
           "stressed": [
-            "hoor",
-            "moet"
+            "nog",
+            "niet"
           ],
           "reductions": [],
-          "trap": "“hoor”作語氣助詞，容易忽略；要理解對比與否定的語氣。"
+          "trap": null
         }
       },
       {
@@ -640,13 +671,20 @@
         "text": "Hij moet dan om zes uur.",
         "translation": "他要六點開始。",
         "analysis": {
-          "words_hard": [],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "words_hard": [
+            {
+              "nl": "moet",
+              "zh": "必須",
+              "level": "A2"
+            }
+          ],
+          "frame": "Hij moet dan om ... | 記錄必須的時間",
           "stressed": [
-            "uur"
+            "moet",
+            "om zes uur"
           ],
           "reductions": [],
-          "trap": "「om zes uur」時間點要快速抓出，避免混成其他音。"
+          "trap": null
         }
       },
       {
@@ -655,14 +693,20 @@
         "text": "En dan is hij rond twaalf uur klaar.",
         "translation": "然後他大約十二點就會結束。",
         "analysis": {
-          "words_hard": [],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "words_hard": [
+            {
+              "nl": "klaar",
+              "zh": "完成，準備好",
+              "level": "A2"
+            }
+          ],
+          "frame": "En dan is hij rond ... klaar | 表示完成到某時間點",
           "stressed": [
-            "twaalf",
+            "rond twaalf uur",
             "klaar"
           ],
           "reductions": [],
-          "trap": "時間點加上動作完成的狀態，容易聽成“跑完”或其他動詞。"
+          "trap": null
         }
       },
       {
@@ -671,13 +715,24 @@
         "text": "Of heel soms om één uur.",
         "translation": "有時候會到一點。",
         "analysis": {
-          "words_hard": [],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "words_hard": [
+            {
+              "nl": "soms",
+              "zh": "有時候",
+              "level": "A2"
+            },
+            {
+              "nl": "één",
+              "zh": "一點鐘",
+              "level": "A2"
+            }
+          ],
+          "frame": "Of heel soms om ... | 表示偶爾在某時間",
           "stressed": [
             "om één uur"
           ],
           "reductions": [],
-          "trap": "有時會聽成「一點鐘」但實際表示偶爾的時間點，需分辨 "
+          "trap": null
         }
       },
       {
@@ -687,15 +742,23 @@
         "translation": "我去問問他。",
         "analysis": {
           "words_hard": [
-            "vragen"
+            {
+              "nl": "vraag",
+              "zh": "問，請求",
+              "level": "A2"
+            },
+            {
+              "nl": "eens",
+              "zh": "一次",
+              "level": "A2"
+            }
           ],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "frame": "Ik zal hem eens vragen | 我會試著問他",
           "stressed": [
-            "zal",
-            "hem"
+            "eens"
           ],
           "reductions": [],
-          "trap": "“Ik zal hem eens vragen” 要抓「我去問他一次」的行動意圖。"
+          "trap": null
         }
       },
       {
@@ -705,15 +768,24 @@
         "translation": "讓他打電話給艾絲特吧。",
         "analysis": {
           "words_hard": [
+            {
+              "nl": "laten",
+              "zh": "讓、讓他...",
+              "level": "A2"
+            },
+            {
+              "nl": "bellen",
+              "zh": "打電話",
+              "level": "A2"
+            }
+          ],
+          "frame": "Laat hem maar even bellen naar ... | 讓他打電話給某人",
+          "stressed": [
+            "even",
             "bellen"
           ],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
-          "stressed": [
-            "bellen",
-            "Esther"
-          ],
           "reductions": [],
-          "trap": "動詞「bellen」的連音，聽時可能把「hem」當成主詞。"
+          "trap": null
         }
       },
       {
@@ -723,16 +795,24 @@
         "translation": "奧拉夫，我可以問你一件事嗎？",
         "analysis": {
           "words_hard": [
-            "mag",
-            "vragen"
+            {
+              "nl": "mag",
+              "zh": "可以，能",
+              "level": "A2"
+            },
+            {
+              "nl": "iets",
+              "zh": "某事",
+              "level": "A2"
+            }
           ],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "frame": "Olaf, mag ik iets vragen? | 請求 permission",
           "stressed": [
             "mag",
-            "vragen"
+            "iets"
           ],
           "reductions": [],
-          "trap": "禮貌問句開頭，聽成直問或命令都可能。"
+          "trap": null
         }
       },
       {
@@ -743,11 +823,9 @@
         "analysis": {
           "words_hard": [],
           "frame": "",
-          "stressed": [
-            "Natuurlijk"
-          ],
+          "stressed": [],
           "reductions": [],
-          "trap": "肯定回答時的重讀詞，通常 heard as 換句式的開頭。"
+          "trap": null
         }
       },
       {
@@ -757,15 +835,29 @@
         "translation": "下次課程，星期一，我們要交那個作業。",
         "analysis": {
           "words_hard": [
-            "inleveren"
+            {
+              "nl": "volgende",
+              "zh": "下次的，下周的",
+              "level": "A2"
+            },
+            {
+              "nl": "les",
+              "zh": "課程",
+              "level": "A2"
+            },
+            {
+              "nl": "inleveren",
+              "zh": "交上，提交",
+              "level": "A2"
+            }
           ],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "frame": "Volgende les, maandag, moeten we die opdracht inleveren. | 下一節課（週一）要把作業交上",
           "stressed": [
             "volgende",
-            "opdracht"
+            "inleveren"
           ],
           "reductions": [],
-          "trap": "“inleveren” 是動作；句子重點在於截止時間與任務。"
+          "trap": null
         }
       },
       {
@@ -775,15 +867,24 @@
         "translation": "不過我這個週末要出門，所以我來不及。",
         "analysis": {
           "words_hard": [
-            "weekend"
+            {
+              "nl": "weekend",
+              "zh": "週末",
+              "level": "A2"
+            },
+            {
+              "nl": "lukken",
+              "zh": "成功",
+              "level": "A2"
+            }
           ],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "frame": "Maar ik ga dit weekend weg, dus dat lukt me niet. | 這週末我要離開，這就做不到",
           "stressed": [
-            "weg",
-            "lukt"
+            "weekend",
+            "niet"
           ],
           "reductions": [],
-          "trap": "“dit weekend weg” 可能讓學生忽略動作因果（因此做不到）。"
+          "trap": null
         }
       },
       {
@@ -793,15 +894,24 @@
         "translation": "我可以星期五交作業嗎？",
         "analysis": {
           "words_hard": [
-            "inleveren"
+            {
+              "nl": "op",
+              "zh": "在（時間）",
+              "level": "A2"
+            },
+            {
+              "nl": "inleveren",
+              "zh": "交上",
+              "level": "A2"
+            }
           ],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "frame": "Mag ik de opdracht ook vrijdag inleveren? | 我可以週五也把作業交上嗎",
           "stressed": [
-            "vrijdag",
-            "inleveren"
+            "inleveren",
+            "vrijdag"
           ],
           "reductions": [],
-          "trap": "詢問是否也可以更晚日提交，注意副詞位置與重音。"
+          "trap": null
         }
       },
       {
@@ -811,15 +921,24 @@
         "translation": "這樣有點晚喔。",
         "analysis": {
           "words_hard": [
-            "laat"
+            {
+              "nl": "laat",
+              "zh": "晚",
+              "level": "A2"
+            },
+            {
+              "nl": "wel",
+              "zh": "還是",
+              "level": "A2"
+            }
           ],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
+          "frame": "Dat is wel wat laat | 那有點晚",
           "stressed": [
-            "wel",
-            "wat laat"
+            "laat",
+            "wel"
           ],
           "reductions": [],
-          "trap": "“Dat is wel wat laat” 需要分辨“有點晚，但還算可以”的語氣。"
+          "trap": null
         }
       },
       {
@@ -829,14 +948,18 @@
         "translation": "星期三怎麼樣？",
         "analysis": {
           "words_hard": [
+            {
+              "nl": "woensdag",
+              "zh": "星期三",
+              "level": "A2"
+            }
+          ],
+          "frame": "Woensdag anders? | 星期三要不然呢",
+          "stressed": [
             "Woensdag"
           ],
-          "frame": "\"[骨架字]...{中文用途說明 1 句}\"。沒明顯句框就 \"\"。",
-          "stressed": [
-            "anders"
-          ],
           "reductions": [],
-          "trap": "提出替代日時的語氣，需抓時間詞的邊界。"
+          "trap": null
         }
       },
       {
@@ -845,11 +968,19 @@
         "text": "Ja, dat lukt ook wel.",
         "translation": "嗯，這樣也可以。",
         "analysis": {
-          "words_hard": [],
-          "frame": "[骨架字]...{中文用途說明 1 句}",
-          "stressed": "[無特定重讀字]",
+          "words_hard": [
+            {
+              "nl": "lukt",
+              "zh": "成功/行得通",
+              "level": "A2"
+            }
+          ],
+          "frame": "Ja ... ook wel. | 反应＋肯定的程度",
+          "stressed": [
+            "wel"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "wel 常与 lukt 搭配表示勉强可以"
         }
       },
       {
@@ -859,8 +990,11 @@
         "translation": "好的，太好了。",
         "analysis": {
           "words_hard": [],
-          "frame": "[骨架字]...{中文用途說明 1 句}",
-          "stressed": "[無特定重讀字]",
+          "frame": "Oké, mooi. | 表示同意/滿意的簡短回應",
+          "stressed": [
+            "Oké",
+            "mooi"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -872,21 +1006,23 @@
         "translation": "那你可以把作業寄給我嗎？",
         "analysis": {
           "words_hard": [
-            "opdracht",
-            "mailen",
-            "mailen?",
-            "mailen/",
-            "opdracht"
-          ],
-          "frame": "Wil je [骨架字] dan ...? → 你要把任務寄出嗎？",
-          "stressed": "Wil",
-          "reductions": [
             {
-              "written": "Wil je",
-              "spoken": "Wilje"
+              "nl": "opdracht",
+              "zh": "作業/任務",
+              "level": "A2"
+            },
+            {
+              "nl": "mailen",
+              "zh": "寄信",
+              "level": "A2"
             }
           ],
-          "trap": "注意 dan 常作為轉折引出條件或時間關係，聽者易漏出現實際動作的請求"
+          "frame": "Wil je de ... dan ...? | 要不要把 ... 发邮件",
+          "stressed": [
+            "dan"
+          ],
+          "reductions": [],
+          "trap": "dan 常作條件/結果連接，后面通常是動作的選擇"
         }
       },
       {
@@ -895,18 +1031,12 @@
         "text": "Op woensdag werk ik thuis.",
         "translation": "星期三我在家工作。",
         "analysis": {
-          "words_hard": [
-            "woensdag",
-            "thuis"
+          "words_hard": [],
+          "frame": "Op woensdag werk ik thuis. | 我在禮拜三在家工作",
+          "stressed": [
+            "woensdag"
           ],
-          "frame": "[骨架字] Op woensdag [bone] ik [骨架]",
-          "stressed": "Op",
-          "reductions": [
-            {
-              "written": "Op woensdag",
-              "spoken": "Opwoensdag"
-            }
-          ],
+          "reductions": [],
           "trap": null
         }
       },
@@ -917,25 +1047,18 @@
         "translation": "所以我不能在學校從我的郵箱拿到。",
         "analysis": {
           "words_hard": [
-            "op",
-            "school",
-            "uit",
-            "mijn",
-            "postvakje"
-          ],
-          "frame": "Ik kan hem dus niet [骨架] op school [骨骨] mijn postvakje halen",
-          "stressed": "dus",
-          "reductions": [
             {
-              "written": "op school",
-              "spoken": "opschool"
-            },
-            {
-              "written": "postvakje halen",
-              "spoken": "postvakjehalen"
+              "nl": "postvakje",
+              "zh": "信箱格",
+              "level": "A2"
             }
           ],
-          "trap": "het koppelen van niet kunnen + locatie + halen kan hoorbaar als één klankburst, let op verbinding"
+          "frame": "Ik kan hem dus niet op school uit mijn postvakje halen. | 我因此不能在學校從我的信箱拿出來",
+          "stressed": [
+            "dus"
+          ],
+          "reductions": [],
+          "trap": "dus 表示因果或因此的原因與結果連接"
         }
       },
       {
@@ -945,21 +1068,18 @@
         "translation": "而且寄到我家也要花很久。",
         "analysis": {
           "words_hard": [
-            "post",
-            "naar",
-            "huis",
-            "sturen",
-            "duurt"
-          ],
-          "frame": "En met de post [骨架] naar mijn huis sturen duurt wel lang",
-          "stressed": "duurt",
-          "reductions": [
             {
-              "written": "naar mijn huis",
-              "spoken": "naarmijnhuis"
+              "nl": "post",
+              "zh": "郵件/信件",
+              "level": "A2"
             }
           ],
-          "trap": null
+          "frame": "En met de post naar mijn huis sturen duurt wel lang. | 寄信到家裡通常時間長",
+          "stressed": [
+            "duurt wel lang"
+          ],
+          "reductions": [],
+          "trap": "duurt wel lang 表示時間感延長，注意 wel 強化語氣"
         }
       },
       {
@@ -969,8 +1089,8 @@
         "translation": "好的。",
         "analysis": {
           "words_hard": [],
-          "frame": "[骨架]...{中文用途說明 1 句}",
-          "stressed": "",
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -982,17 +1102,17 @@
         "translation": "歡迎來到Teleworks的語音信箱。",
         "analysis": {
           "words_hard": [
-            "Welkom",
-            "Teleworks"
-          ],
-          "frame": "[骨架] bij voicemail van Teleworks",
-          "stressed": "Welkom",
-          "reductions": [
             {
-              "written": "Welkom bij",
-              "spoken": "Welkombij"
+              "nl": "voicemail",
+              "zh": "語音信箱",
+              "level": "A2"
             }
           ],
+          "frame": "Welkom bij voicemail van Teleworks. | 歡迎致電 Teleworks 的語音信箱",
+          "stressed": [
+            "Welkom"
+          ],
+          "reductions": [],
           "trap": null
         }
       },
@@ -1003,17 +1123,19 @@
         "translation": "您有一條新消息。",
         "analysis": {
           "words_hard": [
-            "bericht"
-          ],
-          "frame": "U heeft één nieuw [骨架]",
-          "stressed": "nieuw",
-          "reductions": [
             {
-              "written": "U heeft één",
-              "spoken": "Uheeft één"
+              "nl": "bericht",
+              "zh": "訊息",
+              "level": "A2"
             }
           ],
-          "trap": null
+          "frame": "U heeft één nieuw bericht. | 您有一則新訊息",
+          "stressed": [
+            "één",
+            "nieuw"
+          ],
+          "reductions": [],
+          "trap": "nieuwe 訊息常在通知語境出現，注意数字 één 與 nieuw 的重音"
         }
       },
       {
@@ -1023,18 +1145,16 @@
         "translation": "嗨，香蒂，我是喬治。",
         "analysis": {
           "words_hard": [
-            "Shanti",
-            "George"
-          ],
-          "frame": "Hoi, [骨架], met [骨架]",
-          "stressed": "Shanti",
-          "reductions": [
             {
-              "written": "Hoi, Shanti",
-              "spoken": "HoiShanti"
+              "nl": "Shanti",
+              "zh": "人名不列入",
+              "level": "A2"
             }
           ],
-          "trap": null
+          "frame": "",
+          "stressed": [],
+          "reductions": [],
+          "trap": "無明顯觸發點，直接聽即可"
         }
       },
       {
@@ -1044,19 +1164,19 @@
         "translation": "明天不是在阿姆斯特丹有那個會議嗎？",
         "analysis": {
           "words_hard": [
-            "morgen",
-            "bijeenkomst",
-            "Amsterdam"
-          ],
-          "frame": "[Morgen] is toch die [骨架] in [骨架]?",
-          "stressed": "morgen",
-          "reductions": [
             {
-              "written": "Morgen is toch",
-              "spoken": "Morgenistoch"
+              "nl": "bijeenkomst",
+              "zh": "聚會/會議",
+              "level": "A2"
             }
           ],
-          "trap": null
+          "frame": "Morgen is toch die bijeenkomst in Amsterdam? | 明天在阿姆斯特丹的那個聚會？",
+          "stressed": [
+            "morgen",
+            "toch"
+          ],
+          "reductions": [],
+          "trap": "morgen 是未來時間，toch 表示語氣上的肯定與確認"
         }
       },
       {
@@ -1066,22 +1186,19 @@
         "translation": "我還想打電話跟你聊聊一起搭車的事。",
         "analysis": {
           "words_hard": [
-            "bellen",
-            "samenreizen"
-          ],
-          "frame": "Ik zou je nog [骨架] over het [骨架].",
-          "stressed": "bellen",
-          "reductions": [
             {
-              "written": "nog bellen",
-              "spoken": "nogbellen"
-            },
-            {
-              "written": "samenreizen",
-              "spoken": "samenreizen"
+              "nl": "samenreizen",
+              "zh": "同車/共乘",
+              "level": "A2"
             }
           ],
-          "trap": null
+          "frame": "Ik zou je nog bellen over het samenreizen. | 我還會打電話給你討論共乘",
+          "stressed": [
+            "nog",
+            "samenreizen"
+          ],
+          "reductions": [],
+          "trap": "nog 表示未完成的意向； samenreizen 是合併動詞"
         }
       },
       {
@@ -1091,20 +1208,17 @@
         "translation": "我已經沒有公共交通的票了。",
         "analysis": {
           "words_hard": [
-            "kaart",
-            "openbaar vervoer",
-            "niet",
-            "heb",
-            "niet meer"
-          ],
-          "frame": "Mijn [骨架] voor het openbaar vervoer heb ik [骨架].",
-          "stressed": "niet",
-          "reductions": [
             {
-              "written": "voor het openbaar vervoer",
-              "spoken": "voorhetopenbaarvervoer"
+              "nl": "kaart",
+              "zh": "票/卡",
+              "level": "A2"
             }
           ],
+          "frame": "Mijn kaart voor het openbaar vervoer heb ik niet meer. | 我不再有公交通行卡",
+          "stressed": [
+            "kaart"
+          ],
+          "reductions": [],
           "trap": null
         }
       },
@@ -1115,18 +1229,19 @@
         "translation": "沒有票我就不能搭火車。",
         "analysis": {
           "words_hard": [
-            "zonder kaart",
-            "trein reizen"
-          ],
-          "frame": "En zonder [骨架] kan ik niet met de trein reizen",
-          "stressed": "kaart",
-          "reductions": [
             {
-              "written": "zonder kaart",
-              "spoken": "zonderkaart"
+              "nl": "zonder",
+              "zh": "沒有",
+              "level": "A2"
             }
           ],
-          "trap": null
+          "frame": "En zonder kaart kan ik niet met de trein reizen. | 沒有卡就不能搭火車",
+          "stressed": [
+            "zonder",
+            "kan"
+          ],
+          "reductions": [],
+          "trap": "zonder 表示缺乏，後面的 kan 是能力或允許的否定"
         }
       },
       {
@@ -1136,18 +1251,18 @@
         "translation": "不過我們可以用公司的車。",
         "analysis": {
           "words_hard": [
-            "auto",
-            "werk"
-          ],
-          "frame": "Maar we kunnen wel met de [骨架] van het werk.",
-          "stressed": "auto",
-          "reductions": [
             {
-              "written": "van het werk",
-              "spoken": "vanhetwerk"
+              "nl": "werken",
+              "zh": "工作",
+              "level": "A2"
             }
           ],
-          "trap": null
+          "frame": "Maar we kunnen wel met de auto van het werk. | 但我們可以用公司提供的車子去/自公司車",
+          "stressed": [
+            "wel"
+          ],
+          "reductions": [],
+          "trap": "wel 常與 maar 形成對比/轉折"
         }
       },
       {
@@ -1157,8 +1272,10 @@
         "translation": "會議八點開始。",
         "analysis": {
           "words_hard": [],
-          "frame": "骨架詞 ...",
-          "stressed": "begint",
+          "frame": "om ... uur | 時間表達：幾點開始",
+          "stressed": [
+            "acht"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1169,11 +1286,24 @@
         "text": "Ik haal je om half zes bij jou thuis op.",
         "translation": "我六點半在你家接你。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Ik haal ... bij ... op",
-          "stressed": "op",
-          "reductions": [],
-          "trap": null
+          "words_hard": [
+            {
+              "nl": "ophalen",
+              "zh": "接人",
+              "level": "A2"
+            }
+          ],
+          "frame": "Ik haal je om ... bij jou thuis op | 我要在...接你",
+          "stressed": [
+            "half zes"
+          ],
+          "reductions": [
+            {
+              "written": "haal je",
+              "spoken": "haalje"
+            }
+          ],
+          "trap": "half zes = 5:30 不是 6:30！half + 數字 = 該數字前的半小時"
         }
       },
       {
@@ -1183,15 +1313,19 @@
         "translation": "這也許有點早，不過這樣我們有足夠的時間停車。",
         "analysis": {
           "words_hard": [
-            "bovendien",
-            "vroeg",
-            " tijd",
-            " parkeren"
+            {
+              "nl": "toch",
+              "zh": "仍然",
+              "level": "A2"
+            }
           ],
-          "frame": "Dat is misschien wel ... maar dan hebben we ...",
-          "stressed": "kunnen",
+          "frame": "Dat is ... wel ... , maar dan hebben we ... | 轉折＋條件情況",
+          "stressed": [
+            "wel",
+            "maar"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "wel 在這裡強調對比，後面才是關鍵"
         }
       },
       {
@@ -1200,12 +1334,9 @@
         "text": "Het kan soms zo druk zijn.",
         "translation": "有時候真的會很忙。",
         "analysis": {
-          "words_hard": [
-            "druk",
-            "zijn"
-          ],
-          "frame": "Het kan soms zo ...",
-          "stressed": "druk",
+          "words_hard": [],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1216,14 +1347,9 @@
         "text": "Dat was het, geloof ik.",
         "translation": "我想就這樣吧。",
         "analysis": {
-          "words_hard": [
-            "geloof",
-            "dat",
-            "was",
-            "het"
-          ],
-          "frame": "Dat was ..., geloof ik.",
-          "stressed": "geloof",
+          "words_hard": [],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1235,14 +1361,18 @@
         "translation": "喔對，能不能再發個訊息給我你的街道和門牌號碼？",
         "analysis": {
           "words_hard": [
-            "berichtje",
-            "straat-",
-            "huisnummer"
+            {
+              "nl": "berichtje",
+              "zh": "簡訊",
+              "level": "A2"
+            }
           ],
-          "frame": "Oh ja, wil je nog even een berichtje sturen met je straat- en huisnummer?",
-          "stressed": "berichtje",
+          "frame": "Oh ja, wil je nog even een berichtje sturen met ...? | 需要再發簡訊",
+          "stressed": [
+            "berichtje"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "Niets"
         }
       },
       {
@@ -1252,14 +1382,18 @@
         "translation": "我有點不太記得了。",
         "analysis": {
           "words_hard": [
-            "precies",
-            "niet",
-            "meer"
+            {
+              "nl": "precies",
+              "zh": "精確的",
+              "level": "A2"
+            }
           ],
-          "frame": "Ik weet het niet meer zo ...",
-          "stressed": "precies",
+          "frame": "Ik weet het niet meer zo ... | 不太確定",
+          "stressed": [
+            "niet"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "niet + meer 可能混淆"
         }
       },
       {
@@ -1268,9 +1402,17 @@
         "text": "Ik lees het wel.",
         "translation": "我會看一下的。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Ik lees het wel",
-          "stressed": "lees",
+          "words_hard": [
+            {
+              "nl": "lees",
+              "zh": "讀/看",
+              "level": "A2"
+            }
+          ],
+          "frame": "Ik lees het wel | 我會看看/讀一下",
+          "stressed": [
+            "lees"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1282,8 +1424,8 @@
         "translation": "掰掰。",
         "analysis": {
           "words_hard": [],
-          "frame": "Dag",
-          "stressed": "Dag",
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1295,10 +1437,16 @@
         "translation": "先讀一下問題。",
         "analysis": {
           "words_hard": [
+            {
+              "nl": "vraag",
+              "zh": "問題",
+              "level": "A2"
+            }
+          ],
+          "frame": "Lees eerst de vraag | 先讀問題",
+          "stressed": [
             "vraag"
           ],
-          "frame": "Lees eerst de ...",
-          "stressed": "vraag",
           "reductions": [],
           "trap": null
         }
@@ -1309,12 +1457,9 @@
         "text": "Mevrouw. Ja.",
         "translation": "女士。對。",
         "analysis": {
-          "words_hard": [
-            "Mevrouw",
-            "Ja"
-          ],
-          "frame": "Mevrouw. Ja.",
-          "stressed": "Mevrouw",
+          "words_hard": [],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1325,12 +1470,9 @@
         "text": "Mag ik iets vragen? Natuurlijk.",
         "translation": "我可以問一下嗎？當然可以。",
         "analysis": {
-          "words_hard": [
-            "Natuurlijk",
-            "vragen"
-          ],
-          "frame": "Mag ik iets vragen? Natuurlijk.",
-          "stressed": "Natuurlijk",
+          "words_hard": [],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1341,13 +1483,9 @@
         "text": "Waar zijn de...",
         "translation": "...在哪裡？",
         "analysis": {
-          "words_hard": [
-            "Waar",
-            "zijn",
-            "de"
-          ],
-          "frame": "Waar zijn de...",
-          "stressed": "Waar",
+          "words_hard": [],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1358,12 +1496,9 @@
         "text": "Mevrouw. Ja.",
         "translation": "女士。對。",
         "analysis": {
-          "words_hard": [
-            "Mevrouw",
-            "Ja"
-          ],
-          "frame": "Mevrouw. Ja.",
-          "stressed": "Mevrouw",
+          "words_hard": [],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1374,12 +1509,9 @@
         "text": "Mag ik iets vragen? Natuurlijk.",
         "translation": "我可以問一下嗎？當然可以。",
         "analysis": {
-          "words_hard": [
-            "Natuurlijk",
-            "vragen"
-          ],
-          "frame": "Mag ik iets vragen? Natuurlijk.",
-          "stressed": "Natuurlijk",
+          "words_hard": [],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1391,8 +1523,10 @@
         "translation": "試衣間在哪裡？",
         "analysis": {
           "words_hard": [],
-          "frame": "[骨架字]...{中文用途說明 1 句}",
-          "stressed": "",
+          "frame": "Waar ...? | 要問位置/場所",
+          "stressed": [
+            "waar"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1404,8 +1538,11 @@
         "translation": "試衣間在那邊，對著收銀台。",
         "analysis": {
           "words_hard": [],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "",
+          "frame": "De paskamers zijn daar, tegenover de kassa. | 對面/位置描述",
+          "stressed": [
+            "daar",
+            "tegenover"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1416,9 +1553,15 @@
         "text": "Oh ja, dank u.",
         "translation": "喔，謝謝你。",
         "analysis": {
-          "words_hard": [],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "",
+          "words_hard": [
+            {
+              "nl": "dank u",
+              "zh": "謝謝您",
+              "level": "A2"
+            }
+          ],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1430,10 +1573,13 @@
         "translation": "喔，如果褲子不合適，就叫我一聲。",
         "analysis": {
           "words_hard": [],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "",
+          "frame": "Oh, en als ... niet past, dan ... mij maar. | 如果不合適就請告訴我/叫我做某事",
+          "stressed": [
+            "past",
+            "maar"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "maar 後面通常才是決定性的回覆/要求"
         }
       },
       {
@@ -1442,9 +1588,18 @@
         "text": "Dan pak ik een andere maat voor u. Is goed.",
         "translation": "我會幫你拿一個其他的尺寸。好的。",
         "analysis": {
-          "words_hard": [],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "",
+          "words_hard": [
+            {
+              "nl": "maat",
+              "zh": "尺寸/號碼",
+              "level": "A1"
+            }
+          ],
+          "frame": "Dan pak ik een andere maat voor u. | 換另一個尺寸",
+          "stressed": [
+            "Dan",
+            "maat"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1455,12 +1610,12 @@
         "text": "En? Lukt het?",
         "translation": "那怎麼樣？順利嗎？",
         "analysis": {
-          "words_hard": [
-            "Lukt",
-            "het"
+          "words_hard": [],
+          "frame": "En? Lukt het? | 願不願意/成功與否的確認",
+          "stressed": [
+            "En",
+            "Lukt"
           ],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "het",
           "reductions": [],
           "trap": null
         }
@@ -1472,8 +1627,8 @@
         "translation": "是的。",
         "analysis": {
           "words_hard": [],
-          "frame": "[骨架字] Ja",
-          "stressed": "Ja",
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1484,11 +1639,12 @@
         "text": "Maar hij zit niet zo lekker.",
         "translation": "不過穿起來不太舒服。",
         "analysis": {
-          "words_hard": [
+          "words_hard": [],
+          "frame": "Maar hij zit niet zo lekker. | 觸感/穿著是否舒服",
+          "stressed": [
+            "Niet",
             "lekker"
           ],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "lekker",
           "reductions": [],
           "trap": null
         }
@@ -1499,13 +1655,12 @@
         "text": "Nee, hij is gewoon te groot.",
         "translation": "不，這就是太大了。",
         "analysis": {
-          "words_hard": [
-            "groot",
+          "words_hard": [],
+          "frame": "Nee, hij is gewoon te groot. | 尺寸太大/過大",
+          "stressed": [
             "te",
-            "maar"
+            "groot"
           ],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "groot",
           "reductions": [],
           "trap": null
         }
@@ -1516,12 +1671,11 @@
         "text": "Welke maat is dit?",
         "translation": "這是什麼尺寸？",
         "analysis": {
-          "words_hard": [
-            "maat",
-            "dit"
+          "words_hard": [],
+          "frame": "Welke maat is dit? | 這個是什麼尺寸",
+          "stressed": [
+            "Welke"
           ],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "maat",
           "reductions": [],
           "trap": null
         }
@@ -1533,11 +1687,14 @@
         "translation": "52號。",
         "analysis": {
           "words_hard": [
-            "Maat",
-            "52"
+            {
+              "nl": "maat 52",
+              "zh": "52號尺寸",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "52",
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1549,11 +1706,16 @@
         "translation": "我會幫你拿一條小一點的褲子。",
         "analysis": {
           "words_hard": [
-            "kleinere maat",
-            "broek"
+            {
+              "nl": "kleinere",
+              "zh": "較小的",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "kleinere",
+          "frame": "Ik zal een kleinere maat broek voor u pakken. | 拿更小的尺碼給你",
+          "stressed": [
+            "kleinere"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1565,15 +1727,16 @@
         "translation": "50號應該就可以了。",
         "analysis": {
           "words_hard": [
-            "Maat",
-            "50",
-            "zou",
-            "goed",
-            "moeten",
-            "zijn"
+            {
+              "nl": "Maat 50",
+              "zh": "50號尺寸",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "zou",
+          "frame": "",
+          "stressed": [
+            "50"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1584,17 +1747,12 @@
         "text": "Oh, en die broek kunt u zo aan mij geven.",
         "translation": "喔，這條褲子你可以直接給我。",
         "analysis": {
-          "words_hard": [
-            "broek",
-            "geven",
-            "oh",
-            "die",
-            "zo",
-            "aan",
-            "mij"
+          "words_hard": [],
+          "frame": "Oh, en die broek kunt u zo aan mij geven. | 直接給我那條褲子",
+          "stressed": [
+            "Oh",
+            "gegeven"
           ],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "geven",
           "reductions": [],
           "trap": null
         }
@@ -1605,13 +1763,12 @@
         "text": "Dan leg ik hem wel terug.",
         "translation": "那我就把它放回去。",
         "analysis": {
-          "words_hard": [
-            "leg",
-            "terug",
-            "wel"
+          "words_hard": [],
+          "frame": "Dan leg ik hem wel terug. | 我就把它放回去",
+          "stressed": [
+            "Dan",
+            "terug"
           ],
-          "frame": "[骨架字] ... {中文用途說明 1 句}",
-          "stressed": "wel",
           "reductions": [],
           "trap": null
         }
@@ -1623,8 +1780,8 @@
         "translation": "好的。好嗎？",
         "analysis": {
           "words_hard": [],
-          "frame": "[]",
-          "stressed": "",
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1636,17 +1793,15 @@
         "translation": "歡迎來到 Teleworks 的語音信箱。",
         "analysis": {
           "words_hard": [
-            "voicemail",
-            "Teleworks"
-          ],
-          "frame": "[骨架字] welkom bij ...{中文用途說明 1 句}",
-          "stressed": "Welkom",
-          "reductions": [
             {
-              "written": "voicemail",
-              "spoken": "voicemail"
+              "nl": " voicemail",
+              "zh": "語音信箱",
+              "level": "A2"
             }
           ],
+          "frame": "Welkom bij ... | 歡迎話語/開場招呼",
+          "stressed": [],
+          "reductions": [],
           "trap": null
         }
       },
@@ -1657,10 +1812,16 @@
         "translation": "你有一則新訊息。",
         "analysis": {
           "words_hard": [
-            "bericht"
+            {
+              "nl": "bericht",
+              "zh": "訊息",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] U heeft één nieuw ...{中文用途說明 1 句}",
-          "stressed": "nieuw",
+          "frame": "U heeft één nieuw ... | 有一條新訊息",
+          "stressed": [
+            " één "
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1672,11 +1833,14 @@
         "translation": "嗨，艾倫，我是史蒂夫。",
         "analysis": {
           "words_hard": [
-            "Ellen",
-            "Steve"
+            {
+              "nl": "Steve",
+              "zh": "斯蒂夫（人名）",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] Hoi ... , ... hier.",
-          "stressed": "hier",
+          "frame": "Hoi ..., ... hier. | 打招呼＋自我介紹",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1687,16 +1851,13 @@
         "text": "Jammer dat je er vandaag niet was.",
         "translation": "真可惜你今天沒來。",
         "analysis": {
-          "words_hard": [
-            "Jammer",
-            " vandaag",
-            "niet",
-            "was"
+          "words_hard": [],
+          "frame": "",
+          "stressed": [
+            "dat"
           ],
-          "frame": "[骨架字] Jammer dat je er vandaag niet ...{中文用途說明 1 句}",
-          "stressed": "Jammer",
           "reductions": [],
-          "trap": null
+          "trap": "Jammer dat 你 er vandaag niet was -> 較常聽出現的結構是 'Jammer dat ...'，要注意 'dat' 後的動作或狀況"
         }
       },
       {
@@ -1706,12 +1867,16 @@
         "translation": "希望你快點好起來。",
         "analysis": {
           "words_hard": [
-            "Hoop",
-            "snel",
-            "beter"
+            {
+              "nl": "hopelijk",
+              "zh": "希望",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] Hopelijk ben je ... weer ....{中文用途說明 1 句}",
-          "stressed": "Hopelijk",
+          "frame": "Hopelijk ben je ... | 希望你快點好轉",
+          "stressed": [
+            "hopelijk"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1723,12 +1888,16 @@
         "translation": "你錯過了一堂有趣的課。",
         "analysis": {
           "words_hard": [
-            "gemist",
-            "les",
-            "interessante"
+            {
+              "nl": "gemist",
+              "zh": "错过",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] Je hebt een ... les ...{中文用途說明 1 句}",
-          "stressed": "interessante",
+          "frame": "Je hebt een ... les gemist | 你錯過了一節課",
+          "stressed": [
+            "gemist"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1740,14 +1909,14 @@
         "translation": "我們學了怎麼做不同種類的節日麵包。",
         "analysis": {
           "words_hard": [
-            "verschillende",
-            "soorten",
-            "brood",
-            "feestdagen",
-            "maken"
+            {
+              "nl": "feestdagen",
+              "zh": "節日",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] We hebben geleerd hoe we ... brood voor de ... kunnen ...{中文用途說明 1 句}",
-          "stressed": "verschillende",
+          "frame": "We hebben geleerd hoe we verschillende soorten brood voor de ... kunnen maken | 我們學過為節日做麵包",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1759,13 +1928,17 @@
         "translation": "我們學會了怎麼做聖誕麵包和糖麵包。",
         "analysis": {
           "words_hard": [
-            "kerstbrood",
-            "suikerbrood",
-            "leren",
-            "maken"
+            {
+              "nl": "kerstbrood",
+              "zh": "聖誕麵包",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] We hebben een ... brood en een ... brood ... maken.",
-          "stressed": "kerstbrood",
+          "frame": "We hebben een ... en een ... leren maken | 我們學會做聖誕麵包與糖霜麵包",
+          "stressed": [
+            "kerstbrood",
+            "suikerbrood"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1777,10 +1950,12 @@
         "translation": "真的很好玩。",
         "analysis": {
           "words_hard": [],
-          "frame": "[骨架字] Echt leuk.",
-          "stressed": "leuk",
+          "frame": "",
+          "stressed": [
+            "leuk"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "Echt leuk. 常見用於簡短的正面反應，需聽出語氣"
         }
       },
       {
@@ -1790,12 +1965,17 @@
         "translation": "不過我打電話來是要告訴你作業。",
         "analysis": {
           "words_hard": [
-            "bel",
-            "huiswerk",
-            "doorgeven"
+            {
+              "nl": "bel",
+              "zh": "打電話/致電",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] Maar ik ... om het ... door te geven.",
-          "stressed": "bel",
+          "frame": "Maar ik bel om ... door te geven | 但我打電話是為了把作業交上去",
+          "stressed": [
+            "bel",
+            "door"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1807,13 +1987,16 @@
         "translation": "對於數學考試，我們需要學第六章。",
         "analysis": {
           "words_hard": [
-            "toets",
-            "rekenen",
-            "hoofdstuk 6",
-            "leren"
+            {
+              "nl": "toets",
+              "zh": "考課/測驗",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] Voor de toets ... hoofdstuk 6 ....",
-          "stressed": "toets",
+          "frame": "Voor de ... rekenen moeten we hoofdstuk 6 leren | 於是數學測驗/考課需要學習第6章",
+          "stressed": [
+            "toets"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1825,13 +2008,22 @@
         "translation": "還有我們要做第七章的練習題 1 和 2，關於荷蘭文。",
         "analysis": {
           "words_hard": [
-            "oefening",
-            "hoofdstuk 7",
-            "maken",
-            "Nederlands"
+            {
+              "nl": "oefening",
+              "zh": "練習題",
+              "level": "A2"
+            },
+            {
+              "nl": "hoofdstuk",
+              "zh": "章節",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] En we moeten ... van ... hoofdstuk 7 ... voor ... maken.",
-          "stressed": "maken",
+          "frame": "En we moeten oefening 1 en 2 van hoofdstuk 7 maken | 我們需要做第7章的練習題1和2",
+          "stressed": [
+            "oefening",
+            "hoofdstuk"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1843,14 +2035,16 @@
         "translation": "在社會學課上，我們要選一篇報紙上的文章。",
         "analysis": {
           "words_hard": [
-            "maatschappijleer",
-            "tekst",
-            "uit",
-            "de krant",
-            "kiezen"
+            {
+              "nl": "maatschappijleer",
+              "zh": "公民教育",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] Voor ... maatschappijleer moeten we een tekst uit ... krant kiezen.",
-          "stressed": "kiezen",
+          "frame": "Voor ... moeten we een tekst uit de krant kiezen | 公民教育科需要選一篇報紙文章",
+          "stressed": [
+            "maatschappijleer"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1862,12 +2056,16 @@
         "translation": "那會是我們要做的報告主題。",
         "analysis": {
           "words_hard": [
-            "onderwerp",
-            "presentatie",
-            "maken"
+            {
+              "nl": "onderwerp",
+              "zh": "主題",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] Dat wordt het ... van de presentatie die we moeten ... maken.",
-          "stressed": "onderwerp",
+          "frame": "Dat wordt het ... van de presentatie die we moeten maken | 這將是我們必須製作的簡報主題",
+          "stressed": [
+            "onderwerp"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -1879,9 +2077,10 @@
         "translation": "好吧，科學。",
         "analysis": {
           "words_hard": [],
-          "grammar": "",
+          "frame": "Nou, ... | 問候或承接語氣的開場",
+          "stressed": [],
           "reductions": [],
-          "trap": null
+          "trap": "此句很短，聽者要抓語氣轉折的開始"
         }
       },
       {
@@ -1891,9 +2090,12 @@
         "translation": "我們會再打電話的。",
         "analysis": {
           "words_hard": [],
-          "grammar": "",
+          "frame": "En we bellen nog wel | 進一步的動作，仍會打電話",
+          "stressed": [
+            "nog"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "nòg 表示額外行動，注意語調轉折"
         }
       },
       {
@@ -1903,9 +2105,12 @@
         "translation": "哦，哦，哦，對了。",
         "analysis": {
           "words_hard": [],
-          "grammar": "",
+          "frame": "Oh, oh, oh ja | 感嘆+肯定",
+          "stressed": [
+            "ja"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "重讀 ja 表示肯定反應"
         }
       },
       {
@@ -1915,15 +2120,18 @@
         "translation": "那篇報紙上的文章你要帶去學校。",
         "analysis": {
           "words_hard": [
-            "tekst",
-            "krant",
-            "meenemen",
-            "naar",
-            "school"
+            {
+              "nl": "meenemen",
+              "zh": "帶去",
+              "level": "A2"
+            }
           ],
-          "grammar": "",
+          "frame": "Die tekst uit de krant moet je meenemen naar school | 將某物帶去某地的指示",
+          "stressed": [
+            "moet"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "moet 表示必須，跟想像的指示語氣有關"
         }
       },
       {
@@ -1932,13 +2140,14 @@
         "text": "Niet vergeten, hè.",
         "translation": "別忘了，喔。",
         "analysis": {
-          "words_hard": [
-            "vergeten",
-            "hè"
+          "words_hard": [],
+          "frame": "Niet vergeten, hè | 否定動作後的提醒",
+          "stressed": [
+            "Niet",
+            "vergeten"
           ],
-          "grammar": "",
           "reductions": [],
-          "trap": null
+          "trap": "Remember 要注意否定開頭往往接提醒"
         }
       },
       {
@@ -1947,11 +2156,9 @@
         "text": "Doeg!",
         "translation": "掰掰！",
         "analysis": {
-          "words_hard": [
-            "Doeg",
-            "Doeg!"
-          ],
-          "grammar": "",
+          "words_hard": [],
+          "frame": "Doeg! | 再見的告別",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1962,10 +2169,9 @@
         "text": "Goedemiddag.",
         "translation": "午安。",
         "analysis": {
-          "words_hard": [
-            "Goedemiddag"
-          ],
-          "grammar": "",
+          "words_hard": [],
+          "frame": "Goedemiddag. | 正式問候語再見",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1977,7 +2183,8 @@
         "translation": "",
         "analysis": {
           "words_hard": [],
-          "grammar": "",
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -1989,11 +2196,18 @@
         "translation": "我有個問題。",
         "analysis": {
           "words_hard": [
+            {
+              "nl": "probleem",
+              "zh": "問題",
+              "level": "A2"
+            }
+          ],
+          "frame": "Ik heb een probleem | 我有一個問題（自己感受）",
+          "stressed": [
             "probleem"
           ],
-          "grammar": "",
           "reductions": [],
-          "trap": null
+          "trap": "此句為自我擁有問題的表述，聽者要聽清主語"
         }
       },
       {
@@ -2003,12 +2217,17 @@
         "translation": "我沒有提款卡了。",
         "analysis": {
           "words_hard": [
-            "pinpas",
-            "meer"
+            {
+              "nl": "pinpas",
+              "zh": "信用卡/自動取款卡"
+            }
           ],
-          "grammar": "",
+          "frame": "Ik heb geen pinpas meer | 失去/沒有 pinpas",
+          "stressed": [
+            "geen"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "geen 搭配 meer 表示已不再有"
         }
       },
       {
@@ -2018,13 +2237,17 @@
         "translation": "你的提款卡發生了什麼事？",
         "analysis": {
           "words_hard": [
-            "pinpas",
-            "gebeurd",
-            "er"
+            {
+              "nl": "pinpas",
+              "zh": "提款卡"
+            }
           ],
-          "grammar": "",
+          "frame": "Wat is er met uw pinpas gebeurd? | pinpas 的發生情況/出了什麼事",
+          "stressed": [
+            "gebeurd"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "gebeurd 關注事件發生"
         }
       },
       {
@@ -2033,13 +2256,14 @@
         "text": "Is hij gestolen of niet meer geldig?",
         "translation": "是被偷了還是過期了？",
         "analysis": {
-          "words_hard": [
+          "words_hard": [],
+          "frame": "Is hij gestolen of niet meer geldig? | 是不是 偷的，或 不再有效",
+          "stressed": [
             "gestolen",
             "geldig"
           ],
-          "grammar": "",
           "reductions": [],
-          "trap": null
+          "trap": "niet meer gelddig 時常連結為何失效"
         }
       },
       {
@@ -2049,9 +2273,12 @@
         "translation": "不，我把它弄丟了。",
         "analysis": {
           "words_hard": [],
-          "grammar": "",
+          "frame": "Nee, ik ben hem kwijt | 不， 我丟了它",
+          "stressed": [
+            " kwijt "
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "kwijt 常見盜失表達，需分辨情境"
         }
       },
       {
@@ -2060,13 +2287,13 @@
         "text": "Oh, wanneer is dat gebeurd?",
         "translation": "哦，什麼時候發生的？",
         "analysis": {
-          "words_hard": [
-            "gebeurd",
-            "oh"
+          "words_hard": [],
+          "frame": "Oh, wanneer is dat gebeurd? | 問何時發生",
+          "stressed": [
+            "Wanneer"
           ],
-          "grammar": "",
           "reductions": [],
-          "trap": null
+          "trap": "на 聽出時序轉折點"
         }
       },
       {
@@ -2076,14 +2303,22 @@
         "translation": "昨天我去買東西，但那時候它就不見了。",
         "analysis": {
           "words_hard": [
+            {
+              "nl": "boodschappen",
+              "zh": "雜貨/採买"
+            },
+            {
+              "nl": "weg",
+              "zh": "不見/走路的路"
+            }
+          ],
+          "frame": "Gisteren ging ik boodschappen doen, maar toen was hij weg | 昨天去買菜，但它卻不見",
+          "stressed": [
             "Gisteren",
-            "boodschappen",
-            "doen",
             "weg"
           ],
-          "grammar": "",
           "reductions": [],
-          "trap": null
+          "trap": "Gisteren 具時間點； maar 表轉折"
         }
       },
       {
@@ -2094,23 +2329,23 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "voor",
-              "zh": "前日/前天"
-            },
-            {
-              "nl": "gisteren",
-              "zh": "昨天"
+              "nl": "denken",
+              "zh": "認為/想",
+              "level": "A2"
             }
           ],
-          "frame": "[骨架字]...{中文用途說明 1 句}",
+          "frame": "Ik denk ... de dag ...? | 想到某日的想法",
           "stressed": [
-            "denken",
-            "dag",
-            "voor",
-            "gisteren"
+            "denk",
+            "dag"
           ],
-          "reductions": [],
-          "trap": null
+          "reductions": [
+            {
+              "written": "denk dus",
+              "spoken": "denk dus"
+            }
+          ],
+          "trap": "dood-simple pattern: 'Ik denk dus ...' 但 dunno"
         }
       },
       {
@@ -2121,18 +2356,18 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "pas",
-              "zh": "才，才剛"
+              "nl": "kon",
+              "zh": "能夠",
+              "level": "A2"
             }
           ],
-          "frame": "Maar ik kon ... hierheen komen",
+          "frame": "Maar ik kon pas ... hierheen komen | 只能今天才來/才剛能到此地",
           "stressed": [
-            "kon",
-            "hierheen",
-            "komen"
+            "pas",
+            "hierheen"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "pas 後面通常接時間點，表示遲到或剛能做到"
         }
       },
       {
@@ -2144,21 +2379,16 @@
           "words_hard": [
             {
               "nl": "pinpas",
-              "zh": "簽帳金融卡"
+              "zh": "提款卡",
+              "level": "A2"
             }
           ],
-          "frame": "[骨架字] heeft u uw ... al geblokkeerd?",
+          "frame": "Heeft u uw ... al geblokkeerd? | 是否已經鎖住/停用",
           "stressed": [
-            "pinpas",
-            "gebloKkeerd"
+            "al"
           ],
-          "reductions": [
-            {
-              "written": "Heeft u uw pinpas al geblokkeerd?",
-              "spoken": "Heeftuuwpinpasje geblokkeerd?"
-            }
-          ],
-          "trap": null
+          "reductions": [],
+          "trap": "al geblokkeerd 表示動作已完成"
         }
       },
       {
@@ -2169,18 +2399,18 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "per post",
-              "zh": "寄件—郵寄"
+              "nl": "post",
+              "zh": "郵寄",
+              "level": "A2"
             }
           ],
-          "frame": "Dan krijgt u ... een nieuwe.",
+          "frame": "Dan krijgt u per ... een nieuwe | 之後會寄一張新的",
           "stressed": [
-            "krijgt",
-            "post",
-            "nieuwe"
+            "per",
+            "nieuw"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "per post 常見搭配，表示透過郵寄"
         }
       },
       {
@@ -2189,10 +2419,15 @@
         "text": "Ja, heb ik gedaan.",
         "translation": "是的，我已經做了。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Ja, heb ik gedaan",
+          "words_hard": [
+            {
+              "nl": "gedaan",
+              "zh": "做完/完成",
+              "level": "A2"
+            }
+          ],
+          "frame": "",
           "stressed": [
-            "gesproken",
             "gedaan"
           ],
           "reductions": [],
@@ -2205,13 +2440,19 @@
         "text": "Goed, dan is alles geregeld.",
         "translation": "好的，那一切都搞定了。",
         "analysis": {
-          "words_hard": [],
-          "frame": "Goed, dan is alles geregeld",
+          "words_hard": [
+            {
+              "nl": "geregeld",
+              "zh": "已安排好/已處理",
+              "level": "A2"
+            }
+          ],
+          "frame": "Goed, dan is alles ... | 好的，一切已經處理好",
           "stressed": [
-            "geregeld"
+            "alles"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "alles geregeld 常見在結語提醒狀態"
         }
       },
       {
@@ -2222,17 +2463,18 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "opnemen",
-              "zh": "取錢、存取"
+              "nl": "passen",
+              "zh": "提款/取款",
+              "level": "A2"
             }
           ],
-          "frame": "U kunt weer geld opnemen als u uw ... heeft.",
+          "frame": "U kunt weer geld opnemen als u uw ... heeft | 你可以再提款，只要你有你的新卡",
           "stressed": [
-            "opnemen",
+            "opgenomen",
             "heeft"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "has/have 的位置要注意，has 的變化在 heeft"
         }
       },
       {
@@ -2243,18 +2485,17 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "tv-programma",
-              "zh": "電視節目"
+              "nl": "Goedemorgen",
+              "zh": "早安",
+              "level": "A1"
             }
           ],
-          "frame": "Goedemorgen en welkom bij tv-programma De Praktijk",
+          "frame": "Goedemorgen en welkom bij ... | 歡迎收看節目",
           "stressed": [
-            "Goedemorgen",
-            "welkom",
-            "De Praktijk"
+            "welkom"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "programma 常見聽到；介係詞 bij 不同含義"
         }
       },
       {
@@ -2265,18 +2506,17 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "Vandaag",
-              "zh": "今天"
+              "nl": "kijken",
+              "zh": "看看/觀察",
+              "level": "A2"
             }
           ],
-          "frame": "Vandaag kijken wij mee met Bram",
+          "frame": "Vandaag kijken wij mee met ... | 今天我們一起看看與某人相關的畫面/合作",
           "stressed": [
-            "Vandaag",
-            "meegaan",
-            "Bram"
+            "Vandaag"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "Vandaag 常在今天的新聞/節目開場"
         }
       },
       {
@@ -2287,18 +2527,17 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "medewerker groen",
-              "zh": "綠化部門工作人員"
+              "nl": "stage",
+              "zh": "實習",
+              "level": "A2"
             }
           ],
-          "frame": "Hij loopt stage als medewerker groen",
+          "frame": "Hij loopt stage als medewerker groen | 他在當綠化部門的實習生",
           "stressed": [
-            "loopt",
-            "stage",
-            "groen"
+            "stage"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "stage 作為實習的固定說法"
         }
       },
       {
@@ -2309,17 +2548,18 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "Bram",
-              "zh": "人名"
+              "nl": "ga",
+              "zh": "去/做",
+              "level": "A2"
             }
           ],
-          "frame": "Bram, wat ga je vandaag doen?",
+          "frame": "Bram, wat ga je vandaag doen? | Bram 今天要做什麼",
           "stressed": [
-            "Bram",
+            "ga",
             "doen"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "ga 有未來義，聽清安排"
         }
       },
       {
@@ -2331,17 +2571,16 @@
           "words_hard": [
             {
               "nl": "boom",
-              "zh": "樹木"
+              "zh": "樹",
+              "level": "A2"
             }
           ],
-          "frame": "Vandaag gaan we een boom weghalen",
+          "frame": "Vandaag gaan we een boom ... | 今天要移除一棵樹",
           "stressed": [
-            "Vandaag",
-            "boom",
-            "weghalen"
+            "boom"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "weghalen 常見搭配"
         }
       },
       {
@@ -2352,17 +2591,18 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "stage",
-              "zh": "實習期間"
+              "nl": "jij",
+              "zh": "你",
+              "level": "A2"
             }
           ],
-          "frame": "En wat doe jij nog meer tijdens je stage?",
+          "frame": "En wat doe jij nog meer tijdens je stage? | 你在實習期間還做些什麼",
           "stressed": [
-            "wat",
-            "stage"
+            "jij",
+            "meer"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "nog meer 在問其他內容時常見"
         }
       },
       {
@@ -2373,17 +2613,28 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "gras maaien",
-              "zh": "割草"
+              "nl": "gras",
+              "zh": "草",
+              "level": "A2"
+            },
+            {
+              "nl": "maaien",
+              "zh": "割草",
+              "level": "A2"
+            },
+            {
+              "nl": "bloemen",
+              "zh": "花",
+              "level": "A2"
             }
           ],
-          "frame": "Soms moeten we het gras maaien of bloemen neerzetten, maar vandaag dus niet",
+          "frame": "Soms moeten we het gras maaien of bloemen neerzetten, maar vandaag dus niet. | 有時需要做的事，但今天不做",
           "stressed": [
-            "maaien",
-            "niet"
+            "niet",
+            "maar"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "maar vandaag dus niet 強調與前述的對比"
         }
       },
       {
@@ -2395,17 +2646,16 @@
           "words_hard": [
             {
               "nl": "allerleukste",
-              "zh": "最開心/最喜歡的"
+              "zh": "最喜歡的",
+              "level": "A2"
             }
           ],
-          "frame": "En wat vind je nou het allerleukste om te doen tijdens je stage?",
+          "frame": "En wat vind je nou het allerleukste om te doen tijdens je stage? | 在實習期間最喜歡做的事是什麼",
           "stressed": [
-            "allerleukste",
-            "doen",
-            "stage"
+            "allerleukste"
           ],
           "reductions": [],
-          "trap": null
+          "trap": "allerleukste 是複合比較級，聽清楚"
         }
       },
       {
@@ -2421,8 +2671,10 @@
               "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
-          "stressed": "fijn",
+          "frame": "",
+          "stressed": [
+            "fijn"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -2440,8 +2692,10 @@
               "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
-          "stressed": "samen",
+          "frame": "",
+          "stressed": [
+            "ook"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -2455,14 +2709,16 @@
           "words_hard": [
             {
               "nl": "leukste",
-              "zh": "最開心/最棒",
+              "zh": "最有趣的",
               "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
-          "stressed": "leuk",
+          "frame": "Maar ... vind ik ... | 否定/轉折後接個人評價",
+          "stressed": [
+            "leukste"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "leukste 作為形容詞最高級，聽不清時易混淆"
         }
       },
       {
@@ -2473,13 +2729,15 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "Wim",
-              "zh": "人名",
+              "nl": "baas",
+              "zh": "老闆",
               "level": "A2"
             }
           ],
-          "frame": "Wim Egge is jouw baas, toch?",
-          "stressed": "baas",
+          "frame": "",
+          "stressed": [
+            "toch"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -2491,10 +2749,12 @@
         "translation": "是的，沒錯。",
         "analysis": {
           "words_hard": [],
-          "frame": "Ja, dat klopt",
-          "stressed": "klopt",
+          "frame": "",
+          "stressed": [
+            "klopt"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "Ja 的回答常接著說 klop t/ klopt 可能指肯定"
         }
       },
       {
@@ -2504,9 +2764,14 @@
         "translation": "溫。",
         "analysis": {
           "words_hard": [
-            "Wim"
+            {
+              "nl": "Wim",
+              "zh": "人名",
+              "level": "A2"
+            }
           ],
-          "grammar": "",
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -2518,9 +2783,16 @@
         "translation": "溫，你覺得布拉姆做得怎麼樣？",
         "analysis": {
           "words_hard": [
-            "Bram"
+            {
+              "nl": "vinden",
+              "zh": "覺得",
+              "level": "A2"
+            }
           ],
-          "grammar": "",
+          "frame": "",
+          "stressed": [
+            "vind"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -2532,11 +2804,22 @@
         "translation": "非常好。他在團隊中表現得很好，工作也做得很棒。",
         "analysis": {
           "words_hard": [
-            "team",
-            "werkt",
-            "werk"
+            {
+              "nl": "team",
+              "zh": "團隊",
+              "level": "A2"
+            },
+            {
+              "nl": "werkt",
+              "zh": "工作",
+              "level": "A2"
+            }
           ],
-          "grammar": "",
+          "frame": "",
+          "stressed": [
+            "Heel",
+            "goed"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -2548,11 +2831,18 @@
         "translation": "唯一還是有點難的是準時到工作，對吧？",
         "analysis": {
           "words_hard": [
-            "tijd"
+            {
+              "nl": "tijd",
+              "zh": "時間",
+              "level": "A2"
+            }
           ],
-          "grammar": "",
+          "frame": "",
+          "stressed": [
+            "moeilijk"
+          ],
           "reductions": [],
-          "trap": null
+          "trap": "‘hè?’ 常聽成加強語氣，確認對方是否懂"
         }
       },
       {
@@ -2562,9 +2852,16 @@
         "translation": "是的，沒錯。我需要早點起床。",
         "analysis": {
           "words_hard": [
-            "opstaan"
+            {
+              "nl": "opstaan",
+              "zh": "起床",
+              "level": "A2"
+            }
           ],
-          "grammar": "",
+          "frame": "",
+          "stressed": [
+            "vroeger"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -2575,8 +2872,23 @@
         "text": "Heel veel succes jullie samen nog en dank je wel voor dit interview.",
         "translation": "祝你們一起順利，謝謝你接受這次訪問。",
         "analysis": {
-          "words_hard": [],
-          "grammar": "",
+          "words_hard": [
+            {
+              "nl": "samen",
+              "zh": "一起",
+              "level": "A2"
+            },
+            {
+              "nl": "interview",
+              "zh": "訪談",
+              "level": "A2"
+            }
+          ],
+          "frame": "",
+          "stressed": [
+            "veel",
+            "dank"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -2588,9 +2900,14 @@
         "translation": "早安，賈馬爾。",
         "analysis": {
           "words_hard": [
-            " Jamal"
+            {
+              "nl": "Goedemorgen",
+              "zh": "早安",
+              "level": "A2"
+            }
           ],
-          "grammar": "",
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -2602,10 +2919,21 @@
         "translation": "我原本今天九點要到店裡，但會晚一點，半到十二點。",
         "analysis": {
           "words_hard": [
-            "winkel",
+            {
+              "nl": "winkel",
+              "zh": "商店",
+              "level": "A2"
+            },
+            {
+              "nl": "half twaalf",
+              "zh": "11:30",
+              "level": "A2"
+            }
+          ],
+          "frame": "",
+          "stressed": [
             "Half twaalf"
           ],
-          "grammar": "",
           "reductions": [],
           "trap": null
         }
@@ -2616,8 +2944,17 @@
         "text": "Dus wil je wat doorgeven?",
         "translation": "所以你想傳達什麼嗎？",
         "analysis": {
-          "words_hard": [],
-          "grammar": "",
+          "words_hard": [
+            {
+              "nl": "doorgeven",
+              "zh": "傳達/告知",
+              "level": "A2"
+            }
+          ],
+          "frame": "",
+          "stressed": [
+            "doorgeven"
+          ],
           "reductions": [],
           "trap": null
         }
@@ -2629,9 +2966,14 @@
         "translation": "嗯，今天米爾特第一次來，所以大家幫幫她。",
         "analysis": {
           "words_hard": [
-            "Myrthe"
+            {
+              "nl": "My rthe",
+              "zh": "人名",
+              "level": "A2"
+            }
           ],
-          "grammar": "",
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -2643,16 +2985,16 @@
         "translation": "她十點會來。你可以帶Myrthe去看看哪裡...",
         "analysis": {
           "words_hard": [
-            "om",
-            "tiem",
-            "uur",
-            "Myrthe",
-            "zien",
-            "waar"
+            {
+              "nl": "toegeven",
+              "zh": "顯示/讓人看到",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
+          "frame": "Ze komt om ... uur. Laat jij ... zien waar... | 指定時間點，指示路徑/位置",
           "stressed": [
-            "Tien"
+            "om tien uur",
+            "laat"
           ],
           "reductions": [],
           "trap": null
@@ -2665,16 +3007,16 @@
         "translation": "那René可以馬上教Myrthe怎麼...",
         "analysis": {
           "words_hard": [
-            " René",
-            "Myrthe",
-            "laten zien",
-            "hoe dat"
+            {
+              "nl": "laten zien",
+              "zh": "讓人看到",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
+          "frame": "Dan kan ... meteen laten zien hoe ... | 連接動作，示範/展示",
           "stressed": [
-            "laten",
-            "zien",
-            "dat"
+            "kan",
+            "laten zien"
           ],
           "reductions": [],
           "trap": null
@@ -2686,14 +3028,9 @@
         "text": "Goedemorgen, Jamal.",
         "translation": "早安，Jamal。",
         "analysis": {
-          "words_hard": [
-            "Goedemorgen",
-            "Jamal"
-          ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
-          "stressed": [
-            "Goedemorgen"
-          ],
+          "words_hard": [],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -2705,27 +3042,23 @@
         "translation": "我本來今天九點要到店裡，但會晚一點。大概十一點半。",
         "analysis": {
           "words_hard": [
-            "Vandaag",
-            "negen uur",
-            "winkel",
-            "maar",
-            "wordt",
-            "later",
-            "Half twaalf"
-          ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
-          "stressed": [
-            "negen",
-            " Half",
-            "twaalf"
-          ],
-          "reductions": [
             {
-              "written": "gaat",
-              "spoken": "gàt"
+              "nl": "winkel",
+              "zh": "商店",
+              "level": "A2"
+            },
+            {
+              "nl": "Half twaalf",
+              "zh": "十一點半",
+              "level": "A2"
             }
           ],
-          "trap": null
+          "frame": "Ik zou vandaag om ... in de ... zijn, maar het wordt later. ... | 提醒時間與變動",
+          "stressed": [
+            "half twaalf"
+          ],
+          "reductions": [],
+          "trap": "Half twaalf 常被聽成 half één 的混淆，留意是十一點半"
         }
       },
       {
@@ -2734,13 +3067,10 @@
         "text": "Dus wil je wat doorgeven?",
         "translation": "所以你想要傳達什麼嗎？",
         "analysis": {
-          "words_hard": [
-            "willen",
-            "doorgeven"
-          ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
+          "words_hard": [],
+          "frame": "",
           "stressed": [
-            "doorgeven"
+            "Dus"
           ],
           "reductions": [],
           "trap": null
@@ -2753,24 +3083,20 @@
         "translation": "嗯，今天Myrthe第一次來，所以大家都幫她一下。",
         "analysis": {
           "words_hard": [
-            "vandaag",
-            "komt",
-            "Myrthhe",
-            "voor",
-            "het",
-            "ėerst",
-            "help",
-            "haar",
-            "allemaal",
-            "een",
-            "beetje",
-            "mee"
+            {
+              "nl": "voor het eerst",
+              "zh": "第一次",
+              "level": "A2"
+            },
+            {
+              "nl": "mee",
+              "zh": "一起",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
+          "frame": "Nou, vandaag komt ... voor het eerst, dus help haar allemaal een beetje mee. | 第一次到來，請一起協助",
           "stressed": [
-            "vandaag",
-            "Myrthe",
-            "allemaal"
+            "eerste"
           ],
           "reductions": [],
           "trap": null
@@ -2783,14 +3109,16 @@
         "translation": "她十點會來。你可以帶Myrthe去看看所有東西在哪裡嗎？",
         "analysis": {
           "words_hard": [
-            "Tien",
-            "uur",
-            "Laat jij Myrthe zien waar alles staat en zo"
+            {
+              "nl": "Laat jij Myrthe zien waar alles staat",
+              "zh": "讓她看到一切在哪裡",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
+          "frame": "Ze komt om tien uur. Laat jij Myrthe zien waar alles staat en zo? | 指示地點、再確認",
           "stressed": [
-            "Tien",
-            "staat"
+            "om tien uur",
+            "zo"
           ],
           "reductions": [],
           "trap": null
@@ -2803,15 +3131,16 @@
         "translation": "然後問Emma她可不可以解釋一下收銀機怎麼用。",
         "analysis": {
           "words_hard": [
-            " Emma",
-            "wil",
-            "uitleggen",
-            "hoe de kassa werkt"
+            {
+              "nl": "uitleggen",
+              "zh": "解釋",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
+          "frame": "En vraag dan aan Emma of ze wil uitleggen hoe de kassa werkt. | 請某人解說/說明",
           "stressed": [
-            "uitleggen",
-            "kassa"
+            "uitgelegd",
+            "uitleggen"
           ],
           "reductions": [],
           "trap": null
@@ -2824,16 +3153,15 @@
         "translation": "還有René今天會收尾。六點。",
         "analysis": {
           "words_hard": [
-            "René",
-            "sluit",
-            "vandaag",
-            "af",
-            "Om zes uur"
+            {
+              "nl": "sluit",
+              "zh": "關閉/結束",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
+          "frame": "En René sluit vandaag af. Om zes uur. |  結束、關閉的時間點",
           "stressed": [
-            "sluit",
-            "zes"
+            "Om zes uur"
           ],
           "reductions": [],
           "trap": null
@@ -2846,16 +3174,15 @@
         "translation": "所以是的，René可以馬上教Myrthe怎麼結束。",
         "analysis": {
           "words_hard": [
-            " René",
-            "Myrthe",
-            "laten zien",
-            "hoe dat moet afsluiten"
+            {
+              "nl": "afsluiten",
+              "zh": "結束",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
+          "frame": "Dus ja, dan kan René Myrthe meteen laten zien hoe dat moet afsluiten. | 如何完成結束動作",
           "stressed": [
-            "laten",
-            "zien",
-            "afsluiten"
+            "moet afsluiten"
           ],
           "reductions": [],
           "trap": null
@@ -2867,17 +3194,9 @@
         "text": "Bedankt alvast en tot straks.",
         "translation": "提前謝謝你，待會見。",
         "analysis": {
-          "words_hard": [
-            "Bedankt",
-            "alvast",
-            "tot",
-            "straks"
-          ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
-          "stressed": [
-            "Bedankt",
-            "straks"
-          ],
+          "words_hard": [],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -2902,16 +3221,15 @@
         "translation": "晚上好，歡迎收看地區新聞。",
         "analysis": {
           "words_hard": [
-            "Goedenavond",
-            "hartelijk",
-            "welkom",
-            "Regio",
-            "Nieuws"
+            {
+              "nl": "Regio Nieuws",
+              "zh": "地區新聞",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
+          "frame": "Goedenavond en hartelijk welkom bij Regio Nieuws. | 開場問候與節目介紹",
           "stressed": [
-            "Goedenavond",
-            "welkom"
+            "hartelijk"
           ],
           "reductions": [],
           "trap": null
@@ -2924,14 +3242,14 @@
         "translation": "首先是來自Barendrecht的消息。",
         "analysis": {
           "words_hard": [
-            "Eerst",
-            "nieuws",
-            "Barendrecht"
+            {
+              "nl": "Barendrecht",
+              "zh": "地名",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
-          "stressed": [
-            "Eerst"
-          ],
+          "frame": "Eerst nieuws uit Barendrecht. | 第一則新聞的地點與順序",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -2943,16 +3261,15 @@
         "translation": "昨天那裡開了一家特別的電影院。",
         "analysis": {
           "words_hard": [
-            "gisteren",
-            "bijZondere",
-            "bioscoop",
-            "geopend"
+            {
+              "nl": "bijzondere",
+              "zh": "特別的",
+              "level": "A2"
+            }
           ],
-          "frame": "[骨架字] ... {用途說明 1 句}",
+          "frame": "Daar is gisteren een bijzondere bioscoop geopend. | 描述过去发生的特別事件",
           "stressed": [
-            "gisteren",
-            "bijzondere",
-            "geopend"
+            "bijzondere"
           ],
           "reductions": [],
           "trap": null
@@ -2966,15 +3283,13 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "zalen",
-              "zh": "禮堂/放映廳",
+              "nl": "bioscoop",
+              "zh": "電影院",
               "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
-          "stressed": [
-            "zalen"
-          ],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -2988,20 +3303,22 @@
           "words_hard": [
             {
               "nl": "zalen",
-              "zh": "放映廳",
+              "zh": "廳",
               "level": "A2"
             },
             {
-              "nl": "3D-zalen",
-              "zh": "3D 的放映廳",
+              "nl": "3D",
+              "zh": "3D",
+              "level": "A2"
+            },
+            {
+              "nl": "kinderzaal",
+              "zh": "兒童廳",
               "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
-          "stressed": [
-            "zalf?",
-            "zalen"
-          ],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -3014,15 +3331,13 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "zo'n",
-              "zh": "那樣的/如此的",
+              "nl": "eerste",
+              "zh": "第一",
               "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
-          "stressed": [
-            "zo'n"
-          ],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -3035,15 +3350,18 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "kinderzaal",
-              "zh": "兒童影廳",
+              "nl": "kinder",
+              "zh": "孩子",
+              "level": "A2"
+            },
+            {
+              "nl": "ouders",
+              "zh": "父母",
               "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
-          "stressed": [
-            "kinderzaal"
-          ],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -3059,17 +3377,11 @@
               "nl": "vrolijke",
               "zh": "快樂的",
               "level": "A2"
-            },
-            {
-              "nl": "stoelen",
-              "zh": "座位",
-              "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
+          "frame": "",
           "stressed": [
-            "vrolijke",
-            "speci..."
+            "vrolijke"
           ],
           "reductions": [],
           "trap": null
@@ -3081,17 +3393,9 @@
         "text": "En natuurlijk aan de films die in de zaal draaien.",
         "translation": "當然還有在這個廳放映的電影。",
         "analysis": {
-          "words_hard": [
-            {
-              "nl": "films",
-              "zh": "電影",
-              "level": "A2"
-            }
-          ],
-          "frame": "[骨架字] ...",
-          "stressed": [
-            "films"
-          ],
+          "words_hard": [],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }
@@ -3104,14 +3408,14 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "openingsactie",
-              "zh": "開幕優惠",
+              "nl": "openingactie",
+              "zh": "開幕促銷",
               "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
+          "frame": "",
           "stressed": [
-            "openingsactie"
+            "actie"
           ],
           "reductions": [],
           "trap": null
@@ -3130,15 +3434,15 @@
               "level": "A2"
             },
             {
-              "nl": "euro",
-              "zh": "歐元",
+              "nl": "volwassenen",
+              "zh": "成年人",
               "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
+          "frame": "",
           "stressed": [
             "kaartje",
-            "euro"
+            "volwassenen"
           ],
           "reductions": [],
           "trap": null
@@ -3152,15 +3456,14 @@
         "analysis": {
           "words_hard": [
             {
-              "nl": "Door de weeks",
+              "nl": "door de weeks",
               "zh": "平日",
               "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
+          "frame": "",
           "stressed": [
-            "weeks",
-            "Door de weken"
+            "weeks"
           ],
           "reductions": [],
           "trap": null
@@ -3182,14 +3485,9 @@
               "nl": "donderdag",
               "zh": "星期四",
               "level": "A2"
-            },
-            {
-              "nl": "kaartjes",
-              "zh": "票",
-              "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
+          "frame": "",
           "stressed": [
             "maandag",
             "donderdag"
@@ -3211,7 +3509,7 @@
               "level": "A2"
             }
           ],
-          "frame": "[骨架字] ...",
+          "frame": "",
           "stressed": [
             "maart"
           ],
@@ -3225,17 +3523,9 @@
         "text": "En nu nieuws uit Maasdam.",
         "translation": "現在是來自Maasdam的消息。",
         "analysis": {
-          "words_hard": [
-            {
-              "nl": "Maasdam",
-              "zh": "地名",
-              "level": "A2"
-            }
-          ],
-          "frame": "[骨架字] ...",
-          "stressed": [
-            "Maasdam"
-          ],
+          "words_hard": [],
+          "frame": "",
+          "stressed": [],
           "reductions": [],
           "trap": null
         }

@@ -21,34 +21,131 @@ MOCKS = ['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026']
 BATCH = 15      # segments per GPT call
 WORKERS = 5     # parallel API calls
 
-PROMPT_TMPL = """你是荷蘭語 A2 Inburgering 聽力教練。你的學生「聽得到字、但腦袋反應不過來」。
-下面 {n} 句來自 A2 luisteren 模擬考。對每一句給「**幫他聽得懂**」的分析（不是書面語法）。
+PROMPT_TMPL = """You are an A2 Dutch listening coach for inburgering exam. Output JSON only.
 
-對每一句輸出 JSON：
-- `i`: 句子編號（從 1 開始）
-- `words_hard`: 對 A2 學習者「可能不認識」的**內容字**（不含 de/het/een/dat/maar 等高頻虛詞）。{{nl, zh, level}}。沒有就 []。
-- `frame`: 這句的**聽力句框**——把要聽的「骨架詞」抽出來、中間填 ...。**重點是學生一聽到骨架詞就要 trigger「啊這是 X 句型」**。例：
-   * "Hoe lang ... al ...?" → 問「某狀態持續多久了」
-   * "Wat leuk!" → 反應句、表驚喜
-   * "Ik wil ... om ... te ..." → 表目的
-   * "Niet ..., maar ..." → 否定 + 對比，答案在 maar 後面
-  寫法：[骨架字]...{{中文用途說明 1 句}}。沒明顯句框就 ""。
-- `stressed`: 這句**講者會重讀**的 1-3 個字（強讀＝聽力 trigger 點）。例：al / leuk / wel / niet / 數字 / 形容詞最高級。
-- `reductions`: **連音黏字**——書寫 vs 真實發音。每個 {{written, spoken}}。例：
-   * "is Daniëlle" → "izDaniëlle"（s+D 黏一起）
-   * "Heb je een" → "Hebbie nuh"（clitic）
-   * "wilde ik je" → "wildikje"
-  沒有就 []。
-- `trap`: 純聽力陷阱（不是文法陷阱）寫 1 句中文。例：
-   * 「al 很輕、容易漏聽，但漏了就不知道是『已經』」
-   * 「leuk 在 'Wat leuk' 講超快，A2 容易聽成單字 leuk 而非完整表達」
-   無陷阱寫 null。
+For each of {n} sentences, write analysis that helps the student RECOGNIZE patterns by ear.
 
-⚠️ 不要寫「疑問句 + 直接引語」這種書面文法。要寫「**聽的時候耳朵要警鈴的東西**」。
+## Output schema per sentence:
+{{
+  "i": 1,                          // 1-based
+  "words_hard": [],                // [{{nl, zh, level}}] — content words A2 learners may not know
+  "frame": "",                     // KEY sentence frame, format: "X ... Y ... | 中文" — see rules
+  "stressed": [],                  // [string] — function words that listeners MUST catch
+  "reductions": [],                // [{{written, spoken}}] — only real connected-speech blurs
+  "trap": null                     // string OR null — listening-specific pitfall
+}}
 
-只輸出 JSON（外層 {{"data":[...]}}）。
+## STRICT RULES (read carefully):
 
-句子：
+### `frame` — listen-for-this pattern (PATTERN, NOT sentence!)
+- Format: `<short pattern with ... placeholders> | <中文用途>`
+- ABSTRACT the sentence into a 2-6 word pattern using `...` for variable content. DO NOT just paste the full sentence.
+- ONLY fill when the sentence has a recognizable A2 pattern worth recognizing. Otherwise `""`.
+- Short reactions ("Bedankt.", "Tot dan!", "Ja."): use `""`.
+- Plain statements without trigger structure ("De kinderen spelen buiten.", "Ik kom uit Taiwan."): use `""`.
+
+CORRECT examples:
+  Sentence: "Hoe lang is Daniëlle al zwanger?"
+  → frame: "Hoe lang ... al ...? | 問某狀態持續多久了"
+
+  Sentence: "Wat leuk! Gefeliciteerd, joh!"
+  → frame: "Wat ...! | 反應＋驚喜表達"
+
+  Sentence: "Niet van die dikke, die moet ik zelf nog snijden."
+  → frame: "Niet ... , maar ... | 否定排除，答案在 maar 後面"
+
+  Sentence: "Ik wilde je uitnodigen om komende zaterdag bij ons te komen eten."
+  → frame: "Ik wilde je uitnodigen om ... te ... | 邀請某人做某事"
+
+  Sentence: "Komt u om 1 uur naar lokaal 15 als u deze cursus wilt volgen."
+  → frame: "Komt u om ... naar ... als u ... | 條件式祈使（時間+地點+條件）"
+
+WRONG examples (NEVER output these):
+  ✗ "Hey Steven, hoe gaat het? | 你最近怎麼樣？"  ← full sentence with NO `...`
+  ✗ "Steven komt Yari tegen op straat. | ..."     ← full sentence
+  ✗ "Lees eerst de vraag. Kijk daarna naar de video." ← full sentence
+  ✗ "[骨架字] ... [骨架字]"  ← literal placeholder
+  → For sentences like the above with no real frame, output `""` (empty string).
+
+### `stressed` — what ear should flag
+ONLY pick from these categories (1-3 words max):
+- **Polarity/scope flippers**: niet, wel, al, nog, juist, alleen, ook, maar, pas, helemaal, zelfs, eigenlijk
+- **Negation**: geen, nooit, niets, niemand
+- **Time/sequence flips**: eerst, eindelijk, straks, morgen, gisteren, vandaag, nu, dan
+- **Comparative/superlative**: meer, minder, beter, slechter, -ste suffix words (mooist, leukst, het beste)
+- **Numbers + units**: 5, vijf, half zes, 12,50 euro
+- **Crucial verbs of opinion**: vindt, denkt, wil
+- **Emphatic adjectives in reactions**: leuk (in "Wat leuk"), super, geweldig
+
+NEVER pick:
+- People's names (Daniëlle, Steven, Aron, Lars, ...)
+- Concrete nouns (sportschool, kinderen, basisschool, water, brood, kaartje, ...) unless they ARE the answer
+- Verbs in neutral statements (gaat, komt, hebt) — unless emphatic
+- Articles, prepositions, pronouns
+
+If sentence has no clear stress trigger, use `[]`.
+
+### `reductions` — connected speech
+ONLY mark if there's a REAL phonetic blur. Skip otherwise.
+- Examples to mark:
+  * "is Daniëlle" → "izDaniëlle"  (s+D voiced glide)
+  * "Heb je een" → "Hebbie nuh"   (clitic je → bie, een → nuh)
+  * "wilde ik je" → "wildikje"    (vowel deletion)
+  * "Wat is dit" → "Watisdit"     (run-together)
+  * "ga je" → "gaje" / "gaa-je"
+- DO NOT just paste the whole sentence into both fields. Pick the specific BLUR span.
+- If no blurring, use `[]`. Most sentences won't have any.
+
+### `trap` — listening-only trap
+A natural-language 1-sentence Chinese tip. Examples:
+- "al 在 'is al zwanger' 唸得很輕，漏聽就不知道是『已經』"
+- "maar 後面才是真正答案，前面 niet 否定的句子是干擾"
+- "half zes = 5:30 不是 6:30！half + 數字 = 該數字前的半小時"
+- "vroeg(早) 跟 vroeger(從前) 連音聽起來很像，要靠句尾 -er 區分"
+If no real trap, use `null`.
+
+### `words_hard`
+Content words A2 inburgering learners likely don't know. Format `{{nl, zh, level}}` with level A1/A2/B1/B2.
+Skip: de/het/een/dat/dus/maar/wel/niet/al/nog/...
+
+## Few-shot examples (STUDY THESE):
+
+Input: "Wat leuk! Gefeliciteerd, joh! Hoe lang is Daniëlle al zwanger?"
+Output: {{
+  "i": 1,
+  "words_hard": [{{"nl":"gefeliciteerd","zh":"恭喜","level":"A2"}},{{"nl":"zwanger","zh":"懷孕的","level":"A2"}}],
+  "frame": "Hoe lang ... al ...? | 問某狀態持續多久了",
+  "stressed": ["al","leuk"],
+  "reductions": [],
+  "trap": "al 很輕、容易漏聽，但漏了就分不清是『現在懷孕』還是『已經懷孕多久了』"
+}}
+
+Input: "Niet van die dikke, die moet ik zelf dan nog snijden."
+Output: {{
+  "i": 2,
+  "words_hard": [{{"nl":"dikke","zh":"粗的","level":"A2"}},{{"nl":"snijden","zh":"切","level":"B1"}}],
+  "frame": "Niet ... | 否定排除（後面通常會接 maar 給正面答案）",
+  "stressed": ["Niet","zelf"],
+  "reductions": [],
+  "trap": "Niet 開頭句聽到要等下一句 maar，答案在 maar 之後"
+}}
+
+Input: "Bedankt."
+Output: {{"i": 3, "words_hard": [], "frame": "", "stressed": [], "reductions": [], "trap": null}}
+
+Input: "Ik haal je om half zes bij jou thuis op."
+Output: {{
+  "i": 4,
+  "words_hard": [{{"nl":"halen","zh":"接","level":"A2"}}],
+  "frame": "Ik haal je om ... op | 我幾點接你（接人時間）",
+  "stressed": ["half zes"],
+  "reductions": [{{"written":"haal je","spoken":"haalje"}}],
+  "trap": "half zes = 5:30 不是 6:30！half + 數字 = 該數字前的半小時"
+}}
+
+## Now analyze these sentences. Output strict JSON: {{"data": [...]}}.
+
+Sentences:
 {lines}
 """
 

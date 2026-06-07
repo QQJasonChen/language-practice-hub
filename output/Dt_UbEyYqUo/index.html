@@ -155,6 +155,10 @@
     padding-left: 9px;
   }
   .line-text { flex: 1; }
+  /* Stressed-word highlight inside dialogue text — visible before opening 🔬 */
+  .line-stress { background: rgba(253,224,71,0.22); color: #fef3c7; padding: 1px 3px;
+    border-radius: 3px; font-weight: 700; }
+  [data-theme="light"] .line-stress { background: rgba(234,179,8,0.25); color: #713f12; }
   .line-zh { font-size: 12px; color: var(--dim); margin-top: 3px; display: none; line-height: 1.5; }
   .show-zh .line-zh { display: block; }
 
@@ -864,8 +868,12 @@ function renderDialogue() {
     const isTrapped = store.traps.includes(i);
     const anaHtml = s.analysis ? renderAnalysisPanel(s) : '';
     const hasAna = anaHtml !== '';
+    const stressedWords = s.analysis
+      ? (Array.isArray(s.analysis.stressed) ? s.analysis.stressed : (s.analysis.stressed ? [s.analysis.stressed] : []))
+      : [];
+    const textHtml = highlightStressed(s.text, stressedWords);
     return `<div class="dialogue-line" data-idx="${i}" onclick="jumpToLine(${i})">
-      <span class="line-text">${escapeHtml(s.text)}${zh ? `<div class="line-zh">${escapeHtml(zh)}</div>` : ''}</span>
+      <span class="line-text">${textHtml}${zh ? `<div class="line-zh">${escapeHtml(zh)}</div>` : ''}</span>
       ${hasAna ? `<button class="ana-btn" onclick="event.stopPropagation();toggleAnalysis(${i})" title="逐句拆解">🔬</button>` : ''}
       <button class="rec-btn" id="rec-${i}" onclick="event.stopPropagation();toggleRec(${i})" title="錄音比對">🎙️</button>
       <button class="explain-btn" onclick="event.stopPropagation();explainLine(${i})" title="AI 解析">💡</button>
@@ -881,6 +889,21 @@ function renderDialogue() {
 }
 
 function escapeHtml(t) { return String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+// Inline-highlight the stressed words inside the Dutch sentence (case-insensitive, word-boundary)
+function highlightStressed(text, stressed) {
+  let html = escapeHtml(text);
+  if (!stressed || !stressed.length) return html;
+  // Build one regex; sort by length desc so "half zes" matches before "half"
+  const words = stressed
+    .map(w => String(w).trim())
+    .filter(Boolean)
+    .sort((a, b) => b.length - a.length)
+    .map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  if (!words.length) return html;
+  // Word-boundary aware: \b doesn't work well with multibyte, use lookarounds for ASCII letters
+  const re = new RegExp('(' + words.join('|') + ')(?=[\\s.,!?;:"\'()\\]]|$)', 'gi');
+  return html.replace(re, '<mark class="line-stress">$1</mark>');
+}
 function applyModes() {
   const box = document.getElementById('dialogue-box');
   box.classList.toggle('show-zh', showZh);
