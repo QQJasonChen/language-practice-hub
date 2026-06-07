@@ -860,7 +860,7 @@ function renderDialogue() {
   updateProgress();
 }
 
-function escapeHtml(t) { return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function escapeHtml(t) { return String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 function applyModes() {
   const box = document.getElementById('dialogue-box');
   box.classList.toggle('show-zh', showZh);
