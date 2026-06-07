@@ -145,6 +145,7 @@
     padding: 10px 12px; border-radius: 12px; margin-bottom: 2px; cursor: pointer;
     transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
     line-height: 1.65; font-size: 14px; display: flex; align-items: flex-start; gap: 6px;
+    flex-wrap: wrap;  /* analysis panel can wrap to new row below text + buttons */
   }
   .dialogue-line:active { transform: scale(0.98); }
   .dialogue-line:hover { background: rgba(255,255,255,0.04); }
@@ -177,8 +178,8 @@
   @keyframes recPulse { 0%,100%{ transform:scale(1); } 50%{ transform:scale(1.2); } }
 
   /* Per-sentence analysis panel — collapses by default, expands on 🔬 click */
-  .line-analysis { display: none; flex-basis: 100%; margin: 8px 0 4px;
-    padding: 10px 12px; background: rgba(94,234,212,0.05);
+  .line-analysis { display: none; width: 100%; flex-basis: 100%; order: 99;
+    margin: 8px 0 4px; padding: 10px 12px; background: rgba(94,234,212,0.05);
     border-left: 3px solid #5eead4; border-radius: 6px; font-size: 12.5px; line-height: 1.55; }
   .dialogue-line.show-analysis .line-analysis { display: block; }
   .dialogue-line.show-analysis .ana-btn { opacity: 1 !important; color: #5eead4; }
@@ -829,7 +830,7 @@ function renderAnalysisPanel(s) {
     ${words ? `<div class="ana-sec"><span class="ana-lbl">📚 生字</span>${words}</div>` : ''}
     ${a.grammar ? `<div class="ana-sec"><span class="ana-lbl">🔑 文法</span><span class="ana-text">${escapeHtml(a.grammar)}</span></div>` : ''}
     ${reductions ? `<div class="ana-sec"><span class="ana-lbl">🔊 連音</span>${reductions}</div>` : ''}
-    ${a.trap ? `<div class="ana-sec ana-trap"><span class="ana-lbl">⚠️ 陷阱</span><span class="ana-text">${escapeHtml(a.trap)}</span></div>` : ''}
+    ${(typeof a.trap === 'string' && a.trap.length > 3) ? `<div class="ana-sec ana-trap"><span class="ana-lbl">⚠️ 陷阱</span><span class="ana-text">${escapeHtml(a.trap)}</span></div>` : ''}
   </div>`;
 }
 function toggleAnalysis(idx) {
