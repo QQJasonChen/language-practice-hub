@@ -568,9 +568,11 @@
         <div class="time-display" id="time-display">0:00 / 0:00</div>
       </div>
       <div class="speed-control">
-        <button class="speed-btn" onclick="setSpeed(0.8)">🐢</button>
-        <button class="speed-btn active" onclick="setSpeed(1.0)">1x</button>
-        <button class="speed-btn" onclick="setSpeed(1.2)">🐇</button>
+        <button class="speed-btn" data-spd="0.6" onclick="setSpeed(0.6)">0.6×</button>
+        <button class="speed-btn" data-spd="0.75" onclick="setSpeed(0.75)">0.75×</button>
+        <button class="speed-btn" data-spd="0.85" onclick="setSpeed(0.85)">0.85×</button>
+        <button class="speed-btn active" data-spd="1" onclick="setSpeed(1.0)">1×</button>
+        <button class="speed-btn" data-spd="1.15" onclick="setSpeed(1.15)">1.15×</button>
       </div>
     </div>
     <!-- Collapsible controls -->
@@ -998,15 +1000,17 @@ function playShadowSentence(replaying) {
   setActiveDialogueLine(i);
   audio.currentTime = s.start;
   audio.play().then(() => setPlayButton(true)).catch(() => {});
-  const dur = (s.end - s.start) * 1000;
-  // Pause audio at sentence end
+  // Wall-clock duration depends on current playback speed
+  // (at 0.6×, a 3-second sentence takes 5 seconds to actually play)
+  const playMs = (s.end - s.start) * 1000 / (audio.playbackRate || 1);
+  // For the user-repeat pause, use the slowed duration too — so you have
+  // matched time to repeat regardless of speed setting
   shadowState.timer = setTimeout(() => {
     if (!shadowState.active) return;
     audio.pause();
     setPlayButton(false);
     const { pauseRatio, repeatOnce } = shadowSettings();
-    const pauseMs = Math.max(dur * pauseRatio, 1500);
-    // Optional: replay sentence once after your repeat, before advancing
+    const pauseMs = Math.max(playMs * pauseRatio, 1500);
     shadowState.timer = setTimeout(() => {
       if (!shadowState.active) return;
       if (repeatOnce && !replaying) {
@@ -1016,7 +1020,7 @@ function playShadowSentence(replaying) {
         playShadowSentence(false);
       }
     }, pauseMs);
-  }, dur + 100);  // small buffer so the last word isn't clipped
+  }, playMs + 100);  // small buffer so the last word isn't clipped
 }
 
 function setActiveDialogueLine(idx) {
@@ -1100,12 +1104,20 @@ function toggleExtraControls() {
 
 function setSpeed(v) {
   audio.playbackRate = v;
-  document.querySelectorAll('.speed-btn').forEach(b => b.classList.remove('active'));
-  const btns = document.querySelectorAll('.speed-btn');
-  if (v <= 0.8) btns[0].classList.add('active');
-  else if (v >= 1.2) btns[2].classList.add('active');
-  else btns[1].classList.add('active');
+  try { localStorage.setItem('lph_playback_speed', String(v)); } catch(e) {}
+  document.querySelectorAll('.speed-btn').forEach(b => {
+    b.classList.toggle('active', parseFloat(b.dataset.spd) === v);
+  });
 }
+// Restore last chosen speed on page load (persist across sessions for Week 1 慢練)
+(function restoreSpeed() {
+  const v = parseFloat(localStorage.getItem('lph_playback_speed') || '1');
+  if (v && v !== 1.0) {
+    const apply = () => setSpeed(v);
+    if (document.readyState === 'complete') apply();
+    else window.addEventListener('load', apply);
+  }
+})();
 function syncABLabels() { document.getElementById('a-time').textContent = pointA!==null?fmt(pointA):'—'; document.getElementById('b-time').textContent = pointB!==null?fmt(pointB):'—'; updateMarkers(); }
 
 function updateMarkers() {

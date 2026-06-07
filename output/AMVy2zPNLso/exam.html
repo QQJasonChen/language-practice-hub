@@ -431,9 +431,11 @@ header .meta { font-size:11.5px; color:#bfdbfe; }
       <div class="bar" id="bar"><div class="fill" id="fill"></div></div>
       <div class="tnow" id="tnow">0:00 / 0:00</div>
       <div class="spd">
-        <button data-s="0.7">0.7×</button>
+        <button data-s="0.6">0.6×</button>
+        <button data-s="0.75">0.75×</button>
         <button data-s="0.85">0.85×</button>
         <button data-s="1" class="on">1×</button>
+        <button data-s="1.15">1.15×</button>
       </div>
     </div></div>
     <audio id="aud" src="audio.mp3" preload="metadata"></audio><script>
@@ -562,11 +564,20 @@ A.ontimeupdate = ()=>{
 };
 bar.onclick = e=>{ const r=bar.getBoundingClientRect();
   A.currentTime=(e.clientX-r.left)/r.width*A.duration; };
+function applySpeed(v) {
+  A.playbackRate = v;
+  try { localStorage.setItem('lph_playback_speed', String(v)); } catch(e) {}
+  document.querySelectorAll('.spd button').forEach(b =>
+    b.classList.toggle('on', parseFloat(b.dataset.s) === v));
+}
 document.querySelectorAll('.spd button').forEach(b=>{
-  b.onclick=()=>{ A.playbackRate=parseFloat(b.dataset.s);
-    document.querySelectorAll('.spd button').forEach(x=>x.classList.remove('on'));
-    b.classList.add('on'); };
+  b.onclick=()=> applySpeed(parseFloat(b.dataset.s));
 });
+// Restore last chosen speed (shared with echo page via same key)
+(function() {
+  const v = parseFloat(localStorage.getItem('lph_playback_speed') || '1');
+  if (v && v !== 1.0) applySpeed(v);
+})();
 
 // ── Question interactions (study mode) ──
 function bindQuestions(root) {
