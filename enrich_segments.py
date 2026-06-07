@@ -11,13 +11,15 @@ Run: python3 enrich_segments.py
 Cost: ~$0.30 via gpt-4o-mini for 1000 segments.
 """
 import json, os, subprocess, sys, time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 API = os.environ['OPENAI_API_KEY']
 ROOT = Path(__file__).parent
 OUT = ROOT / 'output'
 MOCKS = ['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026']
-BATCH = 10  # segments per GPT call
+BATCH = 15      # segments per GPT call
+WORKERS = 5     # parallel API calls
 
 PROMPT_TMPL = """你是荷蘭語 A2 Inburgering 考試的聽力教練。下面 {n} 句來自 A2 luisteren 模擬考。對每一句給出 JSON 分析。
 
@@ -50,6 +52,7 @@ def enrich_batch(batch):
     prompt = PROMPT_TMPL.format(n=len(batch), lines=lines)
     resp = call_gpt({
         'model': 'gpt-5-nano',
+        'reasoning_effort': 'minimal',
         'response_format': {'type': 'json_object'},
         'messages': [
             {'role': 'system', 'content': '你只能輸出有效 JSON。把 array 包在 {"data": [...]} 裡。'},
@@ -83,31 +86,36 @@ def main():
         path = OUT / vid / 'data.json'
         d = json.loads(path.read_text(encoding='utf-8'))
         segs = d['ai_data']['segments']
-        print(f'\n▶ {vid}  {len(segs)} segs')
-        for i in range(0, len(segs), BATCH):
-            batch = segs[i:i+BATCH]
-            t0 = time.time()
-            analyses = enrich_batch(batch)
-            for j, a in enumerate(analyses):
-                if a:
-                    segs[i+j]['analysis'] = a
-                    for w in a.get('words_hard', []):
-                        key = w['nl'].lower().strip()
-                        if not key: continue
-                        if key in all_vocab:
-                            all_vocab[key]['count'] += 1
-                            all_vocab[key]['sources'].append([vid, i+j])
-                        else:
-                            all_vocab[key] = {
-                                'nl': w['nl'], 'zh': w.get('zh',''),
-                                'level': w.get('level','A2'),
-                                'count': 1, 'sources': [[vid, i+j]],
-                            }
-            dt = time.time() - t0
-            print(f'  [{i+len(batch):3d}/{len(segs)}]  {dt:.1f}s  vocab_total={len(all_vocab)}')
+        print(f'\n▶ {vid}  {len(segs)} segs ({WORKERS} workers, batch={BATCH})')
+        # Build list of (batch_start, batch_segs)
+        batches = [(i, segs[i:i+BATCH]) for i in range(0, len(segs), BATCH)]
+        t0_total = time.time()
+        with ThreadPoolExecutor(max_workers=WORKERS) as ex:
+            future_to_start = {ex.submit(enrich_batch, b): i for i, b in batches}
+            done = 0
+            for fut in as_completed(future_to_start):
+                i = future_to_start[fut]
+                analyses = fut.result()
+                for j, a in enumerate(analyses):
+                    if a:
+                        segs[i+j]['analysis'] = a
+                        for w in a.get('words_hard', []):
+                            key = w['nl'].lower().strip()
+                            if not key: continue
+                            if key in all_vocab:
+                                all_vocab[key]['count'] += 1
+                                all_vocab[key]['sources'].append([vid, i+j])
+                            else:
+                                all_vocab[key] = {
+                                    'nl': w['nl'], 'zh': w.get('zh',''),
+                                    'level': w.get('level','A2'),
+                                    'count': 1, 'sources': [[vid, i+j]],
+                                }
+                done += 1
+                print(f'  [{done*BATCH:3d}/{len(segs)}]  vocab={len(all_vocab)}', flush=True)
         d['ai_data']['segments'] = segs
         path.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding='utf-8')
-        print(f'  ✓ wrote {path.name}')
+        print(f'  ✓ wrote {path.name} in {time.time()-t0_total:.0f}s')
 
     # Write aggregated vocab
     vocab_list = sorted(all_vocab.values(), key=lambda v: (-v['count'], v['nl']))

@@ -111,6 +111,12 @@
       <button data-f="done">已熟 <span id="f-done-n"></span></button>
       <button data-f="new">未學 <span id="f-new-n"></span></button>
     </div>
+    <div class="filter" id="level-filter" style="margin-top:4px">
+      <button class="on" data-l="all">所有難度 <span id="l-all-n"></span></button>
+      <button data-l="A1">A1 <span id="l-A1-n"></span></button>
+      <button data-l="A2">A2 <span id="l-A2-n"></span></button>
+      <button data-l="B1">B1+ <span id="l-B1-n"></span></button>
+    </div>
     <div class="vlist" id="vlist"></div>
   </div>
 </div>
@@ -204,6 +210,42 @@ function findAudioMatch(needle, dialogue) {
 
 async function loadVocab() {
   const m = new Map();  // key=normalized nl
+
+  // Lazy-loaded data.json per mock (cached) for resolving segidx→{start,end}
+  const dataCache = {};
+  async function getSeg(vid, segidx) {
+    if (!dataCache[vid]) {
+      try { dataCache[vid] = (await (await fetch(`output/${vid}/data.json`)).json()).ai_data.segments; }
+      catch(e) { dataCache[vid] = []; }
+    }
+    return dataCache[vid][segidx];
+  }
+
+  // ── Pass 1: GPT-extracted hard words from all_vocab.json (~500+ if exists) ──
+  try {
+    const all = await (await fetch('output/all_vocab.json')).json();
+    for (const w of (all.words || [])) {
+      const key = w.nl.toLowerCase().trim();
+      const [vid, segidx] = (w.sources || [[null]])[0];
+      const item = {
+        nl: w.nl, zh: w.zh || '', kana: '',
+        type: 'word',
+        level: w.level || 'A2',
+        count: w.count || 1,
+        src: (w.sources || []).map(([v]) => ({vid: v, scn: ''})),
+      };
+      if (vid && typeof segidx === 'number') {
+        const seg = await getSeg(vid, segidx);
+        if (seg) item.audio = { vid, start: seg.start, end: seg.end };
+      }
+      m.set(key, item);
+    }
+    console.log(`loaded ${m.size} hard words from all_vocab.json`);
+  } catch(e) {
+    console.log('all_vocab.json not available yet (GPT enrichment may still be running)');
+  }
+
+  // ── Pass 2: hand-curated vocab + patterns from exam.json (overlay) ──
   for (const vid of MOCKS) {
     try {
       const r = await fetch(`output/${vid}/exam.json`);
@@ -254,7 +296,13 @@ function getState(v) {
 
 function updateStats() {
   const counts = { new: 0, learn: 0, due: 0, done: 0 };
-  for (const v of vocab) counts[getState(v)]++;
+  const lvCounts = { A1: 0, A2: 0, B1: 0 };  // B1 also counts B2
+  for (const v of vocab) {
+    counts[getState(v)]++;
+    const lv = v.level || 'A2';
+    if (lv === 'B2') lvCounts.B1++;
+    else if (lvCounts[lv] !== undefined) lvCounts[lv]++;
+  }
   document.getElementById('s-due').textContent = counts.due;
   document.getElementById('s-learning').textContent = counts.learn;
   document.getElementById('s-mastered').textContent = counts.done;
@@ -264,6 +312,10 @@ function updateStats() {
   document.getElementById('f-learn-n').textContent = '(' + counts.learn + ')';
   document.getElementById('f-done-n').textContent = '(' + counts.done + ')';
   document.getElementById('f-new-n').textContent = '(' + counts.new + ')';
+  const setLv = (k) => { const el = document.getElementById('l-'+k+'-n'); if (el) el.textContent = '(' + (lvCounts[k] || 0) + ')'; };
+  setLv('A1'); setLv('A2'); setLv('B1');
+  const elAll = document.getElementById('l-all-n');
+  if (elAll) elAll.textContent = '(' + vocab.length + ')';
 }
 
 function buildQueue() {
@@ -383,10 +435,21 @@ function switchTab(t) {
   if (t === 'list') renderList('all');
 }
 
-function renderList(filter) {
-  document.querySelectorAll('.filter button').forEach(b =>
-    b.classList.toggle('on', b.dataset.f === filter));
-  const filtered = vocab.filter(v => filter === 'all' || getState(v) === filter);
+let _listState = 'all', _listLevel = 'all';
+function renderList(filter, level) {
+  if (filter) _listState = filter;
+  if (level)  _listLevel = level;
+  document.querySelectorAll('#tab-list .filter:nth-of-type(1) button').forEach(b =>
+    b.classList.toggle('on', b.dataset.f === _listState));
+  document.querySelectorAll('#level-filter button').forEach(b =>
+    b.classList.toggle('on', b.dataset.l === _listLevel));
+  const levelMatch = v => {
+    if (_listLevel === 'all') return true;
+    const lv = v.level || 'A2';
+    if (_listLevel === 'B1') return lv === 'B1' || lv === 'B2';
+    return lv === _listLevel;
+  };
+  const filtered = vocab.filter(v => (_listState === 'all' || getState(v) === _listState) && levelMatch(v));
   const box = document.getElementById('vlist');
   if (!filtered.length) { box.innerHTML = '<div class="empty">沒有符合的詞</div>'; return; }
   const stateLabels = { new: '新', learn: '學習', due: '該複習', done: '已熟' };
@@ -394,18 +457,25 @@ function renderList(filter) {
     const st = getState(v);
     const key = v.nl.toLowerCase().trim().replace(/'/g,"\\'");
     const speaker = v.audio ? '🔊' : '🔈';
+    const lv = v.level || '';
+    const lvColor = {A1:'#4ade80', A2:'#5eead4', B1:'#fb923c', B2:'#f87171'}[lv] || '#9ca3af';
     return `<div class="vrow" onclick="playVocab('${key}')">
       <div style="flex:1">
         <div class="vnl">${speaker} ${esc(v.nl)}${v.kana ? ` <span style="color:var(--dim);font-weight:400;font-size:11px">${esc(v.kana)}</span>` : ''}</div>
         <div class="vzh">${esc(v.zh)}</div>
       </div>
+      ${lv ? `<span style="font-size:10px;padding:1px 5px;background:${lvColor}22;color:${lvColor};border-radius:3px;font-weight:700">${lv}</span>` : ''}
       <span class="v-state ${st}">${stateLabels[st]}</span>
-      <span class="v-src">${v.src.map(s => MOCK_LABELS[s.vid]).join(',')}</span>
+      <span class="v-src">${v.src.filter(s=>s.vid).map(s => MOCK_LABELS[s.vid]).filter((x,i,a)=>a.indexOf(x)===i).join(',')}</span>
     </div>`;
   }).join('');
 }
-document.querySelectorAll('.filter button').forEach(b =>
-  b.addEventListener('click', () => renderList(b.dataset.f)));
+// state filter buttons
+document.querySelectorAll('#tab-list .filter:nth-of-type(1) button').forEach(b =>
+  b.addEventListener('click', () => renderList(b.dataset.f, null)));
+// level filter buttons
+document.querySelectorAll('#level-filter button').forEach(b =>
+  b.addEventListener('click', () => renderList(null, b.dataset.l)));
 
 function esc(t) {
   return String(t || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
