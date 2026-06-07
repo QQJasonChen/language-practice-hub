@@ -167,6 +167,11 @@
   .dialogue-line:hover .rec-btn,
   .dialogue-line:hover .ana-btn { opacity: 0.5; }
   .explain-btn:hover, .bookmark-btn:hover, .line-repeat-btn:hover, .rec-btn:hover, .ana-btn:hover { opacity: 1 !important; }
+  /* On touch devices (no hover), keep all inline buttons visible by default */
+  @media (hover: none) {
+    .explain-btn, .bookmark-btn, .line-repeat-btn, .rec-btn, .ana-btn { opacity: 0.55; }
+    .ana-btn { color: #5eead4; opacity: 0.85; }  /* extra emphasis — newest feature */
+  }
   .bookmark-btn.bookmarked { opacity: 1 !important; color: var(--orange); }
   .rec-btn.recording { opacity: 1 !important; color: var(--accent); animation: recPulse 0.8s ease-in-out infinite; }
   @keyframes recPulse { 0%,100%{ transform:scale(1); } 50%{ transform:scale(1.2); } }
