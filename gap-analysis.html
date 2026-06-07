@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>📊 失分模式診斷器 — A2 Listening Hub</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
+    --text:#e8e8f0;--text2:#9ca3af;--dim:#6b7280;--ok:#4ade80;--mid:#fbbf24;
+    --bad:#f87171;--worse:#dc2626;--accent:#fb923c;--ring:#5eead4;--purple:#a78bfa}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans","Noto Sans JP",sans-serif}
+  .wrap{max-width:780px;margin:0 auto;padding:18px 14px 80px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+  header a{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:0;font-size:19px;flex:1}
+  .lede{color:var(--text2);font-size:13px;line-height:1.6;margin:0 0 14px}
+
+  /* Progress */
+  .progress-card{background:var(--card);border:1px solid var(--line);border-radius:10px;
+    padding:12px 14px;margin-bottom:14px;display:flex;align-items:center;gap:14px}
+  .progress-card .num{font-size:24px;font-weight:800}
+  .progress-bar{flex:1;height:8px;background:rgba(255,255,255,0.06);border-radius:4px;overflow:hidden}
+  .progress-bar .fill{height:100%;background:linear-gradient(90deg,var(--ring),var(--accent));transition:width .3s}
+  .pct{font-size:13px;color:var(--text2);font-weight:700;min-width:42px;text-align:right}
+
+  /* Section header */
+  .mock-head{font-size:15px;font-weight:800;margin:18px 0 8px;padding:8px 12px;
+    background:var(--card);border-left:3px solid var(--ring);border-radius:6px}
+  .mock-head .lbl{color:var(--ring)}
+  .mock-head .cnt{color:var(--dim);font-weight:500;font-size:12px;margin-left:6px}
+
+  /* Question card */
+  .q{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;margin-bottom:8px}
+  .q.scored{opacity:.92}
+  .q-meta{display:flex;align-items:baseline;gap:8px;font-size:11px;color:var(--dim);margin-bottom:6px}
+  .q-meta .tag{padding:1px 6px;background:rgba(94,234,212,0.12);color:var(--ring);border-radius:3px;font-weight:700}
+  .q-nl{font-weight:700;font-size:14.5px;color:var(--text)}
+  .q-zh{color:var(--text2);font-size:12.5px;margin-top:2px}
+  .q-actions{display:flex;gap:6px;margin-top:10px}
+  .a-btn{flex:1;padding:9px 6px;border:1px solid var(--line);background:var(--card2);
+    color:var(--text);border-radius:6px;font-size:12.5px;font-weight:700;cursor:pointer;
+    text-align:center;line-height:1.3}
+  .a-btn .em{font-size:14px;display:block;margin-bottom:2px}
+  .a-btn:hover{border-color:var(--ring)}
+  .a-btn.s1{--c:var(--ok)} .a-btn.s2{--c:var(--mid)}
+  .a-btn.s3{--c:var(--bad)} .a-btn.s4{--c:var(--worse)}
+  .a-btn.picked{background:var(--c);color:#000;border-color:var(--c)}
+
+  /* Summary */
+  .summary{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:18px;margin-top:20px}
+  .summary h2{margin:0 0 12px;font-size:16px}
+  .axis{margin:14px 0}
+  .axis .axis-title{font-size:12px;color:var(--text2);margin-bottom:6px;font-weight:700}
+  .stack{display:flex;height:24px;border-radius:4px;overflow:hidden;background:rgba(255,255,255,0.04)}
+  .stack .seg{display:flex;align-items:center;justify-content:center;font-size:11px;
+    font-weight:700;color:#000;transition:width .3s}
+  .stack .seg.s1{background:var(--ok)}
+  .stack .seg.s2{background:var(--mid)}
+  .stack .seg.s3{background:var(--bad)}
+  .stack .seg.s4{background:var(--worse)}
+  .stack-legend{display:flex;gap:12px;font-size:11px;color:var(--text2);margin-top:6px}
+  .stack-legend .dot{display:inline-block;width:10px;height:10px;border-radius:2px;
+    margin-right:4px;vertical-align:middle}
+
+  .axis-row{display:flex;align-items:center;gap:10px;margin:6px 0}
+  .axis-row .label{flex:0 0 90px;font-size:12px;font-weight:600}
+  .axis-row .bar{flex:1}
+
+  .verdict{padding:14px;background:var(--card2);border-left:3px solid var(--accent);
+    border-radius:6px;margin-top:14px;font-size:13.5px;line-height:1.6}
+  .verdict h3{margin:0 0 8px;color:var(--accent);font-size:14px}
+
+  .controls{margin-top:14px;display:flex;gap:8px}
+  .controls button{padding:8px 14px;border:1px solid var(--line);background:var(--card2);
+    color:var(--text);border-radius:6px;font-size:12px;cursor:pointer}
+  .controls button.danger{background:rgba(248,113,113,0.12);border-color:var(--bad);color:var(--bad)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="index.html">← 返回</a>
+    <h1>📊 失分模式診斷器</h1>
+  </header>
+  <p class="lede">花 10 分鐘掃過 67 題真實做題，每題誠實標。完成後系統會算出你「真正最弱的類型」，下一個月就針對它練。</p>
+
+  <div class="progress-card">
+    <span class="num" id="done-n">0</span>
+    <div style="flex:1">
+      <div class="progress-bar"><div class="fill" id="done-fill" style="width:0%"></div></div>
+      <div style="font-size:11px;color:var(--dim);margin-top:4px"><b id="done-cnt">0</b> / 67 題完成</div>
+    </div>
+    <span class="pct" id="done-pct">0%</span>
+  </div>
+
+  <div id="questions"></div>
+
+  <div class="summary" id="summary" style="display:none">
+    <h2>📊 你的失分模式分析</h2>
+    <div id="summary-body"></div>
+    <div class="controls">
+      <button onclick="scrollTo({top:0})">回頂部</button>
+      <button class="danger" onclick="resetAll()">重置全部答案</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const MOCKS = [
+  ['_iC1Pooi2UA', 'M1 · PART 1'],
+  ['AMVy2zPNLso', 'M2 · PART 2'],
+  ['mock3_a2_2026', 'M3 · 自製模擬考三'],
+];
+const STORE_KEY = 'lph_gap_analysis_v1';
+const SCORE_LABELS = {1: '✓ 會', 2: '✓ 慢', 3: '? 猜的', 4: '✗ 不會'};
+
+function loadState() { try { return JSON.parse(localStorage.getItem(STORE_KEY)||'{}'); } catch(e){ return {}; } }
+function saveState(s) { localStorage.setItem(STORE_KEY, JSON.stringify(s)); }
+
+// Classify question by interrogative
+function questionType(q_nl) {
+  const t = (q_nl || '').toLowerCase().trim();
+  if (/^met\s+wie/.test(t)) return 'Met wie';
+  if (/^hoe\s+laat/.test(t)) return 'Hoe laat';
+  if (/^hoe\s+(lang|vaak)/.test(t)) return 'Hoe lang/vaak';
+  if (/^hoeveel/.test(t)) return 'Hoeveel';
+  if (/^waar(mee|over|voor|naartoe|aan|van)/.test(t)) return 'Waar+介';
+  if (/^waar\b/.test(t)) return 'Waar';
+  if (/^(wanneer|sinds)/.test(t)) return 'Wanneer';
+  if (/^waarom/.test(t)) return 'Waarom';
+  if (/^(welke|welk)\b/.test(t)) return 'Welke';
+  if (/^hoe\b/.test(t)) return 'Hoe';
+  if (/^wie\b/.test(t)) return 'Wie';
+  if (/^wat\b/.test(t)) return 'Wat';
+  return '情境題';
+}
+
+let allQ = [];  // [{vid, mockLabel, scn, n, q_nl, q_zh, type, key, hasTrap}]
+
+async function loadQuestions() {
+  for (const [vid, label] of MOCKS) {
+    const ex = await (await fetch(`output/${vid}/exam.json`)).json();
+    for (const sc of ex.scenarios || []) {
+      for (const q of sc.questions || []) {
+        allQ.push({
+          vid, mockLabel: label, scn: sc.title_zh,
+          n: q.n, q_nl: q.q_nl, q_zh: q.q_zh,
+          type: questionType(q.q_nl),
+          hasTrap: !!(q.trap && q.trap.trim()),
+          key: `${vid}:${q.n}`,
+        });
+      }
+    }
+  }
+  render();
+}
+
+function render() {
+  const state = loadState();
+  let html = '';
+  let lastVid = null;
+  for (const q of allQ) {
+    if (q.vid !== lastVid) {
+      const total = allQ.filter(x => x.vid === q.vid).length;
+      html += `<div class="mock-head"><span class="lbl">${esc(q.mockLabel)}</span><span class="cnt">${total} 題</span></div>`;
+      lastVid = q.vid;
+    }
+    const s = state[q.key];
+    const cls = s ? 'scored' : '';
+    html += `<div class="q ${cls}" id="q-${q.key.replace(':','-')}">
+      <div class="q-meta">Q${q.n} · <span class="tag">${q.type}</span> · ${esc(q.scn)}${q.hasTrap?' · ⚠️ 有陷阱':''}</div>
+      <div class="q-nl">${esc(q.q_nl)}</div>
+      <div class="q-zh">${esc(q.q_zh)}</div>
+      <div class="q-actions">
+        ${[1,2,3,4].map(n => `<button class="a-btn s${n} ${s===n?'picked':''}"
+          onclick="score('${q.key}', ${n})">
+            <span class="em">${SCORE_LABELS[n].split(' ')[0]}</span>${SCORE_LABELS[n].split(' ')[1]||''}
+          </button>`).join('')}
+      </div>
+    </div>`;
+  }
+  document.getElementById('questions').innerHTML = html;
+  updateProgress();
+}
+
+function score(key, n) {
+  const state = loadState();
+  state[key] = n;
+  saveState(state);
+  const node = document.getElementById('q-' + key.replace(':','-'));
+  if (node) {
+    node.querySelectorAll('.a-btn').forEach((b, i) => b.classList.toggle('picked', i+1 === n));
+    node.classList.add('scored');
+  }
+  updateProgress();
+}
+
+function updateProgress() {
+  const state = loadState();
+  const done = allQ.filter(q => state[q.key]).length;
+  const pct = Math.round(done / allQ.length * 100);
+  document.getElementById('done-n').textContent = done;
+  document.getElementById('done-cnt').textContent = done;
+  document.getElementById('done-fill').style.width = pct + '%';
+  document.getElementById('done-pct').textContent = pct + '%';
+  if (done === allQ.length) renderSummary();
+  else document.getElementById('summary').style.display = 'none';
+}
+
+function renderSummary() {
+  const state = loadState();
+  // Aggregate by question type
+  const byType = {};
+  const byMock = {};
+  let trapHits = {1:0,2:0,3:0,4:0}, nonTrap = {1:0,2:0,3:0,4:0};
+  for (const q of allQ) {
+    const s = state[q.key];
+    if (!s) continue;
+    (byType[q.type] = byType[q.type] || {1:0,2:0,3:0,4:0})[s]++;
+    (byMock[q.mockLabel] = byMock[q.mockLabel] || {1:0,2:0,3:0,4:0})[s]++;
+    if (q.hasTrap) trapHits[s]++; else nonTrap[s]++;
+  }
+  const stack = (counts, total) => {
+    if (!total) return '<div style="font-size:11px;color:var(--dim)">無資料</div>';
+    return `<div class="stack">
+      ${[1,2,3,4].map(n => {
+        const c = counts[n] || 0;
+        const p = c / total * 100;
+        return c ? `<div class="seg s${n}" style="width:${p}%" title="${SCORE_LABELS[n]} ${c}">${p>=10?c:''}</div>` : '';
+      }).join('')}
+    </div>`;
+  };
+  const rowsByType = Object.entries(byType)
+    .map(([t, counts]) => ({t, counts, total: Object.values(counts).reduce((a,b)=>a+b,0)}))
+    .sort((a, b) => (b.counts[3]+b.counts[4]) - (a.counts[3]+a.counts[4]));
+  // Total / weak / strong overall
+  const total = allQ.length;
+  const tCounts = {1:0,2:0,3:0,4:0};
+  for (const q of allQ) { const s = state[q.key]; if (s) tCounts[s]++; }
+  const weakness = (tCounts[3] + tCounts[4]) / total;
+  const slowness = tCounts[2] / total;
+  const strong = tCounts[1] / total;
+  const trapTotal = Object.values(trapHits).reduce((a,b)=>a+b,0);
+  const nonTrapTotal = Object.values(nonTrap).reduce((a,b)=>a+b,0);
+  const trapWeak = trapTotal ? ((trapHits[3]+trapHits[4])/trapTotal*100).toFixed(0) : 0;
+  const nonTrapWeak = nonTrapTotal ? ((nonTrap[3]+nonTrap[4])/nonTrapTotal*100).toFixed(0) : 0;
+
+  let verdict = '';
+  if (weakness > 0.4) {
+    verdict = '<h3>🔴 主要瓶頸：單字量 / 句子整體不懂</h3>不會 + 猜的 加起來超過 40%。<b>建議優先做「📚 詞彙閃卡」全字版</b>，把不認識的字餵進 SRS，這是最大投資報酬率的補強。';
+  } else if (slowness > 0.4) {
+    verdict = '<h3>🟡 主要瓶頸：parsing 速度（聽得懂但跟不上）</h3>「會但慢」超過 40%。<b>建議優先在 0.6-0.85x 速度做大量 shadowing</b>，等耳朵習慣節奏。連音解碼也會有幫助。';
+  } else if (trapWeak - nonTrapWeak > 15) {
+    verdict = `<h3>🟠 主要瓶頸：陷阱題識別</h3>有陷阱的題你弱 ${trapWeak}% vs 無陷阱 ${nonTrapWeak}%——差 ${trapWeak - nonTrapWeak} 個 percentage point。<b>建議重點看「❓ 問句速查」每組的 ⚠️ 陷阱說明</b>，建立「聽到 niet/wel/maar 警鈴」反射。`;
+  } else if (strong > 0.7) {
+    verdict = '<h3>🟢 整體狀況不錯</h3>會 + 慢 加起來超過 70%——基本能力夠了，可能是真考緊張或不熟悉考場介面。<b>下次練習多用「⏱️ 考場模式」適應壓力</b>。';
+  } else {
+    const worstType = rowsByType[0]?.t || '';
+    verdict = `<h3>🎯 主要弱點：${worstType} 題型</h3>這類「不會 + 猜的」最多。<b>建議去「❓ 問句速查」看 ${worstType} 那一組所有例題反覆練</b>。`;
+  }
+
+  let html = `
+    <div class="axis">
+      <div class="axis-title">總體分布（${total} 題）</div>
+      ${stack(tCounts, total)}
+      <div class="stack-legend">
+        <span><span class="dot" style="background:var(--ok)"></span>會 ${tCounts[1]}</span>
+        <span><span class="dot" style="background:var(--mid)"></span>慢 ${tCounts[2]}</span>
+        <span><span class="dot" style="background:var(--bad)"></span>猜 ${tCounts[3]}</span>
+        <span><span class="dot" style="background:var(--worse)"></span>不會 ${tCounts[4]}</span>
+      </div>
+    </div>
+
+    <div class="axis">
+      <div class="axis-title">依題型分布（弱的排前面）</div>
+      ${rowsByType.map(r => `
+        <div class="axis-row">
+          <span class="label">${r.t}</span>
+          <span class="bar">${stack(r.counts, r.total)}</span>
+        </div>`).join('')}
+    </div>
+
+    <div class="axis">
+      <div class="axis-title">依模擬考</div>
+      ${Object.entries(byMock).map(([m, counts]) => {
+        const total = Object.values(counts).reduce((a,b)=>a+b,0);
+        return `<div class="axis-row">
+          <span class="label" style="font-size:11px">${m.split(' ')[0]}</span>
+          <span class="bar">${stack(counts, total)}</span>
+        </div>`;
+      }).join('')}
+    </div>
+
+    <div class="axis">
+      <div class="axis-title">陷阱題 vs 非陷阱題</div>
+      <div class="axis-row">
+        <span class="label">陷阱題</span>
+        <span class="bar">${stack(trapHits, trapTotal)}</span>
+      </div>
+      <div class="axis-row">
+        <span class="label">非陷阱</span>
+        <span class="bar">${stack(nonTrap, nonTrapTotal)}</span>
+      </div>
+    </div>
+
+    <div class="verdict">${verdict}</div>`;
+
+  document.getElementById('summary-body').innerHTML = html;
+  document.getElementById('summary').style.display = 'block';
+}
+
+function resetAll() {
+  if (!confirm('真的要清掉全部答案？')) return;
+  localStorage.removeItem(STORE_KEY);
+  render();
+}
+
+function esc(t) { return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+loadQuestions();
+</script>
+</body>
+</html>
