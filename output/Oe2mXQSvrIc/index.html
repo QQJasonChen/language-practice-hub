@@ -817,19 +817,24 @@ if (!store.traps) store.traps = [];   // 連音陷阱本：聽錯的句子 idx
 function renderAnalysisPanel(s) {
   const a = s.analysis;
   if (!a) return '';
+  // Defensive: GPT sometimes returns string instead of array, or string instead of object
+  const asArr = (x) => Array.isArray(x) ? x : (x == null ? [] : [x]);
   const lvColor = { A1:'#4ade80', A2:'#5eead4', B1:'#fb923c', B2:'#f87171' };
-  const words = (a.words_hard || []).filter(w => w && w.nl).map(w => {
-    const c = lvColor[w.level] || '#9ca3af';
-    return `<span class="ana-word" style="background:${c}22;border-color:${c}66"
-      title="${escapeHtml(w.level||'')}">
-      <b>${escapeHtml(w.nl)}</b>
-      <span class="ana-zh">${escapeHtml(w.zh||'')}</span>
-      <span class="ana-lv" style="color:${c}">${escapeHtml(w.level||'')}</span>
-    </span>`;
-  }).join('');
-  const stressed = (a.stressed || []).filter(Boolean).map(w =>
+  const words = asArr(a.words_hard)
+    .map(w => typeof w === 'string' ? { nl: w, zh: '', level: '' } : w)
+    .filter(w => w && w.nl)
+    .map(w => {
+      const c = lvColor[w.level] || '#9ca3af';
+      return `<span class="ana-word" style="background:${c}22;border-color:${c}66"
+        title="${escapeHtml(w.level||'')}">
+        <b>${escapeHtml(w.nl)}</b>
+        <span class="ana-zh">${escapeHtml(w.zh||'')}</span>
+        <span class="ana-lv" style="color:${c}">${escapeHtml(w.level||'')}</span>
+      </span>`;
+    }).join('');
+  const stressed = asArr(a.stressed).filter(w => typeof w === 'string' && w).map(w =>
     `<span class="ana-stress">${escapeHtml(w)}</span>`).join('');
-  const reductions = (a.reductions || []).filter(r => r && r.written).map(r =>
+  const reductions = asArr(a.reductions).filter(r => r && typeof r === 'object' && r.written).map(r =>
     `<div class="ana-red"><span class="ana-red-w">${escapeHtml(r.written)}</span>
       <span class="ana-red-arr">→</span>
       <span class="ana-red-s">${escapeHtml(r.spoken)}</span></div>`).join('');
