@@ -354,7 +354,15 @@ function renderCard() {
     return;
   }
   const v = queue[qi];
-  const srcLabels = v.src.map(s => MOCK_LABELS[s.vid]).join(', ');
+  // Group by mock: M1 ×4 · M2 ×1 instead of M1, M1, M1, M1, M2
+  const srcCounts = {};
+  for (const s of v.src) {
+    const lbl = MOCK_LABELS[s.vid];
+    if (lbl) srcCounts[lbl] = (srcCounts[lbl] || 0) + 1;
+  }
+  const srcLabels = Object.entries(srcCounts)
+    .map(([lbl, n]) => n > 1 ? `${lbl} ×${n}` : lbl)
+    .join(' · ');
   const key = v.nl.toLowerCase().trim().replace(/'/g,"\\'");
   const playBtn = v.audio
     ? `<span class="card-tts" onclick="playVocab('${key}')">🔊 聽原音（${MOCK_LABELS[v.audio.vid]}）</span>`
