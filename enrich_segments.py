@@ -21,16 +21,32 @@ MOCKS = ['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026']
 BATCH = 15      # segments per GPT call
 WORKERS = 5     # parallel API calls
 
-PROMPT_TMPL = """你是荷蘭語 A2 Inburgering 考試的聽力教練。下面 {n} 句來自 A2 luisteren 模擬考。對每一句給出 JSON 分析。
+PROMPT_TMPL = """你是荷蘭語 A2 Inburgering 聽力教練。你的學生「聽得到字、但腦袋反應不過來」。
+下面 {n} 句來自 A2 luisteren 模擬考。對每一句給「**幫他聽得懂**」的分析（不是書面語法）。
 
-對每一句輸出：
+對每一句輸出 JSON：
 - `i`: 句子編號（從 1 開始）
-- `words_hard`: 對 A2 學習者來說「可能不認識」的內容字（去掉 de/het/een/maar/dat/dus/wel 等高頻虛詞）。每個帶 {{nl, zh, level}}，level 用 A1/A2/B1/B2。如果這句太簡單沒生字就 []。
-- `grammar`: 一句話標示文法骨架（如 "om + te + inf"、"hadden afgesproken om..."、"祈使句"）。
-- `reductions`: 如有連音/縮讀就列 [{{written, spoken}}]，如 {{"written": "Heb je", "spoken": "Hebbie"}}。沒有就 []。
-- `trap`: 如有 A2 學習者典型聽力陷阱（否定詞、wel/niet 反轉、數字陷阱、相似詞混淆）寫 1 句中文說明；無陷阱寫 null。
+- `words_hard`: 對 A2 學習者「可能不認識」的**內容字**（不含 de/het/een/dat/maar 等高頻虛詞）。{{nl, zh, level}}。沒有就 []。
+- `frame`: 這句的**聽力句框**——把要聽的「骨架詞」抽出來、中間填 ...。**重點是學生一聽到骨架詞就要 trigger「啊這是 X 句型」**。例：
+   * "Hoe lang ... al ...?" → 問「某狀態持續多久了」
+   * "Wat leuk!" → 反應句、表驚喜
+   * "Ik wil ... om ... te ..." → 表目的
+   * "Niet ..., maar ..." → 否定 + 對比，答案在 maar 後面
+  寫法：[骨架字]...{{中文用途說明 1 句}}。沒明顯句框就 ""。
+- `stressed`: 這句**講者會重讀**的 1-3 個字（強讀＝聽力 trigger 點）。例：al / leuk / wel / niet / 數字 / 形容詞最高級。
+- `reductions`: **連音黏字**——書寫 vs 真實發音。每個 {{written, spoken}}。例：
+   * "is Daniëlle" → "izDaniëlle"（s+D 黏一起）
+   * "Heb je een" → "Hebbie nuh"（clitic）
+   * "wilde ik je" → "wildikje"
+  沒有就 []。
+- `trap`: 純聽力陷阱（不是文法陷阱）寫 1 句中文。例：
+   * 「al 很輕、容易漏聽，但漏了就不知道是『已經』」
+   * 「leuk 在 'Wat leuk' 講超快，A2 容易聽成單字 leuk 而非完整表達」
+   無陷阱寫 null。
 
-只輸出 JSON array，不要解釋，不要 markdown fence。
+⚠️ 不要寫「疑問句 + 直接引語」這種書面文法。要寫「**聽的時候耳朵要警鈴的東西**」。
+
+只輸出 JSON（外層 {{"data":[...]}}）。
 
 句子：
 {lines}
@@ -72,7 +88,8 @@ def enrich_batch(batch):
             if 0 <= idx < len(batch):
                 out[idx] = {
                     'words_hard': item.get('words_hard', []),
-                    'grammar': item.get('grammar', ''),
+                    'frame': item.get('frame', '') or item.get('grammar', ''),
+                    'stressed': item.get('stressed', []),
                     'reductions': item.get('reductions', []),
                     'trap': item.get('trap'),
                 }
@@ -100,6 +117,7 @@ def main():
                     if a:
                         segs[i+j]['analysis'] = a
                         for w in a.get('words_hard', []):
+                            if not isinstance(w, dict) or not w.get('nl'): continue
                             key = w['nl'].lower().strip()
                             if not key: continue
                             if key in all_vocab:

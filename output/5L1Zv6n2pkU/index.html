@@ -197,6 +197,11 @@
   .ana-red-w { color: var(--text2); }
   .ana-red-arr { margin: 0 6px; color: var(--dim); }
   .ana-red-s { color: var(--orange); font-weight: 700; font-family: ui-monospace, Menlo, monospace; }
+  .ana-stress { display: inline-block; padding: 2px 8px; margin: 2px 4px 2px 0;
+    background: rgba(253,224,71,0.15); color: #fde047; border: 1px solid #fde04766;
+    border-radius: 4px; font-size: 12px; font-weight: 800;
+    font-family: ui-monospace, Menlo, monospace; }
+  .ana-hint { color: var(--dim); font-size: 11px; margin-left: 6px; font-style: italic; }
   .ana-trap { background: rgba(251,146,60,0.08); border-radius: 4px; padding: 6px 8px; margin-top: 4px; }
   .ana-trap .ana-lbl { color: var(--orange); }
 
@@ -813,7 +818,7 @@ function renderAnalysisPanel(s) {
   const a = s.analysis;
   if (!a) return '';
   const lvColor = { A1:'#4ade80', A2:'#5eead4', B1:'#fb923c', B2:'#f87171' };
-  const words = (a.words_hard || []).map(w => {
+  const words = (a.words_hard || []).filter(w => w && w.nl).map(w => {
     const c = lvColor[w.level] || '#9ca3af';
     return `<span class="ana-word" style="background:${c}22;border-color:${c}66"
       title="${escapeHtml(w.level||'')}">
@@ -822,13 +827,18 @@ function renderAnalysisPanel(s) {
       <span class="ana-lv" style="color:${c}">${escapeHtml(w.level||'')}</span>
     </span>`;
   }).join('');
-  const reductions = (a.reductions || []).map(r =>
+  const stressed = (a.stressed || []).filter(Boolean).map(w =>
+    `<span class="ana-stress">${escapeHtml(w)}</span>`).join('');
+  const reductions = (a.reductions || []).filter(r => r && r.written).map(r =>
     `<div class="ana-red"><span class="ana-red-w">${escapeHtml(r.written)}</span>
       <span class="ana-red-arr">→</span>
       <span class="ana-red-s">${escapeHtml(r.spoken)}</span></div>`).join('');
+  // Support both new `frame` and legacy `grammar` field
+  const frameText = a.frame || a.grammar || '';
   return `<div class="line-analysis" onclick="event.stopPropagation()">
     ${words ? `<div class="ana-sec"><span class="ana-lbl">📚 生字</span>${words}</div>` : ''}
-    ${a.grammar ? `<div class="ana-sec"><span class="ana-lbl">🔑 文法</span><span class="ana-text">${escapeHtml(a.grammar)}</span></div>` : ''}
+    ${frameText ? `<div class="ana-sec"><span class="ana-lbl">🎯 句框</span><span class="ana-text">${escapeHtml(frameText)}</span></div>` : ''}
+    ${stressed ? `<div class="ana-sec"><span class="ana-lbl">🔔 重讀</span>${stressed}<span class="ana-hint">  ← 講者會強調，耳朵警鈴</span></div>` : ''}
     ${reductions ? `<div class="ana-sec"><span class="ana-lbl">🔊 連音</span>${reductions}</div>` : ''}
     ${(typeof a.trap === 'string' && a.trap.length > 3) ? `<div class="ana-sec ana-trap"><span class="ana-lbl">⚠️ 陷阱</span><span class="ana-text">${escapeHtml(a.trap)}</span></div>` : ''}
   </div>`;
