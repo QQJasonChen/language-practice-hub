@@ -157,18 +157,42 @@
   .line-zh { font-size: 12px; color: var(--dim); margin-top: 3px; display: none; line-height: 1.5; }
   .show-zh .line-zh { display: block; }
 
-  .explain-btn, .bookmark-btn, .line-repeat-btn, .rec-btn {
+  .explain-btn, .bookmark-btn, .line-repeat-btn, .rec-btn, .ana-btn {
     background: none; border: none; color: var(--dim); font-size: 14px;
     padding: 2px; cursor: pointer; opacity: 0; transition: opacity 0.2s; flex-shrink: 0;
   }
   .dialogue-line:hover .explain-btn,
   .dialogue-line:hover .bookmark-btn,
   .dialogue-line:hover .line-repeat-btn,
-  .dialogue-line:hover .rec-btn { opacity: 0.5; }
-  .explain-btn:hover, .bookmark-btn:hover, .line-repeat-btn:hover, .rec-btn:hover { opacity: 1 !important; }
+  .dialogue-line:hover .rec-btn,
+  .dialogue-line:hover .ana-btn { opacity: 0.5; }
+  .explain-btn:hover, .bookmark-btn:hover, .line-repeat-btn:hover, .rec-btn:hover, .ana-btn:hover { opacity: 1 !important; }
   .bookmark-btn.bookmarked { opacity: 1 !important; color: var(--orange); }
   .rec-btn.recording { opacity: 1 !important; color: var(--accent); animation: recPulse 0.8s ease-in-out infinite; }
   @keyframes recPulse { 0%,100%{ transform:scale(1); } 50%{ transform:scale(1.2); } }
+
+  /* Per-sentence analysis panel — collapses by default, expands on 🔬 click */
+  .line-analysis { display: none; flex-basis: 100%; margin: 8px 0 4px;
+    padding: 10px 12px; background: rgba(94,234,212,0.05);
+    border-left: 3px solid #5eead4; border-radius: 6px; font-size: 12.5px; line-height: 1.55; }
+  .dialogue-line.show-analysis .line-analysis { display: block; }
+  .dialogue-line.show-analysis .ana-btn { opacity: 1 !important; color: #5eead4; }
+  .ana-sec { margin: 4px 0; }
+  .ana-lbl { display: inline-block; color: #5eead4; font-weight: 800; font-size: 11px;
+    min-width: 56px; margin-right: 6px; }
+  .ana-text { color: var(--text2); }
+  .ana-word { display: inline-block; padding: 2px 7px; margin: 2px 4px 2px 0;
+    border: 1px solid; border-radius: 4px; font-size: 11.5px; }
+  .ana-word b { font-weight: 700; }
+  .ana-word .ana-zh { color: var(--text2); margin-left: 5px; font-size: 11px; }
+  .ana-word .ana-lv { margin-left: 5px; font-size: 9.5px; font-weight: 700; }
+  .ana-red { display: inline-flex; align-items: center; padding: 2px 7px; margin: 2px 4px 2px 0;
+    background: rgba(255,255,255,0.04); border-radius: 4px; font-size: 11.5px; }
+  .ana-red-w { color: var(--text2); }
+  .ana-red-arr { margin: 0 6px; color: var(--dim); }
+  .ana-red-s { color: var(--orange); font-weight: 700; font-family: ui-monospace, Menlo, monospace; }
+  .ana-trap { background: rgba(251,146,60,0.08); border-radius: 4px; padding: 6px 8px; margin-top: 4px; }
+  .ana-trap .ana-lbl { color: var(--orange); }
 
   /* Recording result */
   .rec-result {
@@ -779,19 +803,51 @@ if (!store.practiced) store.practiced = [];
 if (!store.bookmarks) store.bookmarks = [];
 if (!store.traps) store.traps = [];   // 連音陷阱本：聽錯的句子 idx
 
+function renderAnalysisPanel(s) {
+  const a = s.analysis;
+  if (!a) return '';
+  const lvColor = { A1:'#4ade80', A2:'#5eead4', B1:'#fb923c', B2:'#f87171' };
+  const words = (a.words_hard || []).map(w => {
+    const c = lvColor[w.level] || '#9ca3af';
+    return `<span class="ana-word" style="background:${c}22;border-color:${c}66"
+      title="${escapeHtml(w.level||'')}">
+      <b>${escapeHtml(w.nl)}</b>
+      <span class="ana-zh">${escapeHtml(w.zh||'')}</span>
+      <span class="ana-lv" style="color:${c}">${escapeHtml(w.level||'')}</span>
+    </span>`;
+  }).join('');
+  const reductions = (a.reductions || []).map(r =>
+    `<div class="ana-red"><span class="ana-red-w">${escapeHtml(r.written)}</span>
+      <span class="ana-red-arr">→</span>
+      <span class="ana-red-s">${escapeHtml(r.spoken)}</span></div>`).join('');
+  return `<div class="line-analysis" onclick="event.stopPropagation()">
+    ${words ? `<div class="ana-sec"><span class="ana-lbl">📚 生字</span>${words}</div>` : ''}
+    ${a.grammar ? `<div class="ana-sec"><span class="ana-lbl">🔑 文法</span><span class="ana-text">${escapeHtml(a.grammar)}</span></div>` : ''}
+    ${reductions ? `<div class="ana-sec"><span class="ana-lbl">🔊 連音</span>${reductions}</div>` : ''}
+    ${a.trap ? `<div class="ana-sec ana-trap"><span class="ana-lbl">⚠️ 陷阱</span><span class="ana-text">${escapeHtml(a.trap)}</span></div>` : ''}
+  </div>`;
+}
+function toggleAnalysis(idx) {
+  const line = document.querySelectorAll('.dialogue-line')[idx];
+  if (line) line.classList.toggle('show-analysis');
+}
+
 function renderDialogue() {
   const box = document.getElementById('dialogue-box');
   box.innerHTML = segments.map((s, i) => {
     const zh = s.translation || '';
     const isBookmarked = store.bookmarks.includes(i);
     const isTrapped = store.traps.includes(i);
+    const hasAna = !!s.analysis;
     return `<div class="dialogue-line" data-idx="${i}" onclick="jumpToLine(${i})">
       <span class="line-text">${escapeHtml(s.text)}${zh ? `<div class="line-zh">${escapeHtml(zh)}</div>` : ''}</span>
+      ${hasAna ? `<button class="ana-btn" onclick="event.stopPropagation();toggleAnalysis(${i})" title="逐句拆解">🔬</button>` : ''}
       <button class="rec-btn" id="rec-${i}" onclick="event.stopPropagation();toggleRec(${i})" title="錄音比對">🎙️</button>
       <button class="explain-btn" onclick="event.stopPropagation();explainLine(${i})" title="AI 解析">💡</button>
       <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" onclick="event.stopPropagation();toggleBookmark(${i})" title="書籤">🔖</button>
       <button class="trap-btn ${isTrapped ? 'trapped' : ''}" onclick="event.stopPropagation();toggleTrap(${i})" title="聽錯了 → 加入連音陷阱本">🪤</button>
       <button class="line-repeat-btn" onclick="event.stopPropagation();loopLine(${i})" title="單句Loop / Shift+點兩句=多句Loop">🔁</button>
+      ${hasAna ? renderAnalysisPanel(s) : ''}
     </div>`;
   }).join('');
   applyModes();

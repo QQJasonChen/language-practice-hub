@@ -1,0 +1,9693 @@
+{
+  "count": 641,
+  "words": [
+    {
+      "nl": "vraag",
+      "zh": "問題",
+      "level": "A2",
+      "count": 21,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          30
+        ],
+        [
+          "_iC1Pooi2UA",
+          117
+        ],
+        [
+          "_iC1Pooi2UA",
+          129
+        ],
+        [
+          "_iC1Pooi2UA",
+          186
+        ],
+        [
+          "_iC1Pooi2UA",
+          201
+        ],
+        [
+          "_iC1Pooi2UA",
+          218
+        ],
+        [
+          "_iC1Pooi2UA",
+          234
+        ],
+        [
+          "_iC1Pooi2UA",
+          258
+        ],
+        [
+          "_iC1Pooi2UA",
+          371
+        ],
+        [
+          "_iC1Pooi2UA",
+          393
+        ],
+        [
+          "_iC1Pooi2UA",
+          416
+        ],
+        [
+          "AMVy2zPNLso",
+          1
+        ],
+        [
+          "AMVy2zPNLso",
+          62
+        ],
+        [
+          "AMVy2zPNLso",
+          86
+        ],
+        [
+          "AMVy2zPNLso",
+          135
+        ],
+        [
+          "AMVy2zPNLso",
+          166
+        ],
+        [
+          "AMVy2zPNLso",
+          227
+        ],
+        [
+          "AMVy2zPNLso",
+          286
+        ],
+        [
+          "AMVy2zPNLso",
+          335
+        ],
+        [
+          "AMVy2zPNLso",
+          357
+        ],
+        [
+          "AMVy2zPNLso",
+          372
+        ]
+      ]
+    },
+    {
+      "nl": "video",
+      "zh": "影片",
+      "level": "A2",
+      "count": 12,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          46
+        ],
+        [
+          "_iC1Pooi2UA",
+          62
+        ],
+        [
+          "_iC1Pooi2UA",
+          166
+        ],
+        [
+          "_iC1Pooi2UA",
+          234
+        ],
+        [
+          "_iC1Pooi2UA",
+          258
+        ],
+        [
+          "_iC1Pooi2UA",
+          353
+        ],
+        [
+          "_iC1Pooi2UA",
+          416
+        ],
+        [
+          "AMVy2zPNLso",
+          63
+        ],
+        [
+          "AMVy2zPNLso",
+          274
+        ],
+        [
+          "AMVy2zPNLso",
+          286
+        ],
+        [
+          "AMVy2zPNLso",
+          343
+        ],
+        [
+          "AMVy2zPNLso",
+          357
+        ]
+      ]
+    },
+    {
+      "nl": "bericht",
+      "zh": "信息，消息",
+      "level": "A2",
+      "count": 11,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          316
+        ],
+        [
+          "_iC1Pooi2UA",
+          283
+        ],
+        [
+          "AMVy2zPNLso",
+          105
+        ],
+        [
+          "AMVy2zPNLso",
+          120
+        ],
+        [
+          "AMVy2zPNLso",
+          134
+        ],
+        [
+          "AMVy2zPNLso",
+          226
+        ],
+        [
+          "AMVy2zPNLso",
+          241
+        ],
+        [
+          "AMVy2zPNLso",
+          253
+        ],
+        [
+          "AMVy2zPNLso",
+          256
+        ],
+        [
+          "mock3_a2_2026",
+          53
+        ],
+        [
+          "mock3_a2_2026",
+          92
+        ]
+      ]
+    },
+    {
+      "nl": "Lees",
+      "zh": "讀",
+      "level": "A2",
+      "count": 7,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          299
+        ],
+        [
+          "_iC1Pooi2UA",
+          281
+        ],
+        [
+          "AMVy2zPNLso",
+          121
+        ],
+        [
+          "AMVy2zPNLso",
+          242
+        ],
+        [
+          "AMVy2zPNLso",
+          357
+        ],
+        [
+          "mock3_a2_2026",
+          67
+        ],
+        [
+          "mock3_a2_2026",
+          69
+        ]
+      ]
+    },
+    {
+      "nl": "Welkom",
+      "zh": "歡迎",
+      "level": "A1",
+      "count": 7,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          372
+        ],
+        [
+          "_iC1Pooi2UA",
+          282
+        ],
+        [
+          "_iC1Pooi2UA",
+          394
+        ],
+        [
+          "_iC1Pooi2UA",
+          417
+        ],
+        [
+          "AMVy2zPNLso",
+          64
+        ],
+        [
+          "AMVy2zPNLso",
+          87
+        ],
+        [
+          "mock3_a2_2026",
+          52
+        ]
+      ]
+    },
+    {
+      "nl": "maanden",
+      "zh": "月",
+      "level": "A2",
+      "count": 7,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          34
+        ],
+        [
+          "_iC1Pooi2UA",
+          5
+        ],
+        [
+          "AMVy2zPNLso",
+          53
+        ],
+        [
+          "AMVy2zPNLso",
+          56
+        ],
+        [
+          "AMVy2zPNLso",
+          74
+        ],
+        [
+          "AMVy2zPNLso",
+          77
+        ],
+        [
+          "mock3_a2_2026",
+          7
+        ]
+      ]
+    },
+    {
+      "nl": "weg",
+      "zh": "路/街道",
+      "level": "A2",
+      "count": 7,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          106
+        ],
+        [
+          "_iC1Pooi2UA",
+          178
+        ],
+        [
+          "_iC1Pooi2UA",
+          161
+        ],
+        [
+          "AMVy2zPNLso",
+          132
+        ],
+        [
+          "AMVy2zPNLso",
+          251
+        ],
+        [
+          "AMVy2zPNLso",
+          266
+        ],
+        [
+          "mock3_a2_2026",
+          41
+        ]
+      ]
+    },
+    {
+      "nl": "luistert",
+      "zh": "聽",
+      "level": "A2",
+      "count": 6,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          280
+        ],
+        [
+          "AMVy2zPNLso",
+          203
+        ],
+        [
+          "AMVy2zPNLso",
+          220
+        ],
+        [
+          "AMVy2zPNLso",
+          226
+        ],
+        [
+          "AMVy2zPNLso",
+          241
+        ],
+        [
+          "AMVy2zPNLso",
+          256
+        ]
+      ]
+    },
+    {
+      "nl": "medecursist",
+      "zh": "同學（拼寫）",
+      "level": "A2",
+      "count": 6,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          246
+        ],
+        [
+          "_iC1Pooi2UA",
+          233
+        ],
+        [
+          "_iC1Pooi2UA",
+          257
+        ],
+        [
+          "_iC1Pooi2UA",
+          269
+        ],
+        [
+          "AMVy2zPNLso",
+          330
+        ],
+        [
+          "AMVy2zPNLso",
+          316
+        ]
+      ]
+    },
+    {
+      "nl": "ontbijt",
+      "zh": "早餐",
+      "level": "A2",
+      "count": 6,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          380
+        ],
+        [
+          "_iC1Pooi2UA",
+          383
+        ],
+        [
+          "_iC1Pooi2UA",
+          389
+        ],
+        [
+          "_iC1Pooi2UA",
+          406
+        ],
+        [
+          "_iC1Pooi2UA",
+          426
+        ],
+        [
+          "_iC1Pooi2UA",
+          429
+        ]
+      ]
+    },
+    {
+      "nl": "parkeerplaats",
+      "zh": "parkeerplaats",
+      "level": "A2",
+      "count": 6,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          144
+        ],
+        [
+          "AMVy2zPNLso",
+          112
+        ],
+        [
+          "AMVy2zPNLso",
+          130
+        ],
+        [
+          "AMVy2zPNLso",
+          349
+        ],
+        [
+          "AMVy2zPNLso",
+          363
+        ],
+        [
+          "AMVy2zPNLso",
+          377
+        ]
+      ]
+    },
+    {
+      "nl": "Patiënten",
+      "zh": "病人",
+      "level": "A2",
+      "count": 5,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          133
+        ],
+        [
+          "_iC1Pooi2UA",
+          134
+        ],
+        [
+          "_iC1Pooi2UA",
+          170
+        ],
+        [
+          "_iC1Pooi2UA",
+          153
+        ],
+        [
+          "_iC1Pooi2UA",
+          154
+        ]
+      ]
+    },
+    {
+      "nl": "Snackbar",
+      "zh": "小吃店",
+      "level": "A2",
+      "count": 5,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          187
+        ],
+        [
+          "_iC1Pooi2UA",
+          192
+        ],
+        [
+          "_iC1Pooi2UA",
+          202
+        ],
+        [
+          "_iC1Pooi2UA",
+          219
+        ],
+        [
+          "_iC1Pooi2UA",
+          230
+        ]
+      ]
+    },
+    {
+      "nl": "bioscoop",
+      "zh": "電影院",
+      "level": "A2",
+      "count": 5,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          292
+        ],
+        [
+          "_iC1Pooi2UA",
+          296
+        ],
+        [
+          "_iC1Pooi2UA",
+          308
+        ],
+        [
+          "_iC1Pooi2UA",
+          326
+        ],
+        [
+          "mock3_a2_2026",
+          164
+        ]
+      ]
+    },
+    {
+      "nl": "lokaal",
+      "zh": "教室",
+      "level": "A2",
+      "count": 5,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          80
+        ],
+        [
+          "_iC1Pooi2UA",
+          95
+        ],
+        [
+          "_iC1Pooi2UA",
+          99
+        ],
+        [
+          "_iC1Pooi2UA",
+          100
+        ],
+        [
+          "_iC1Pooi2UA",
+          101
+        ]
+      ]
+    },
+    {
+      "nl": "om",
+      "zh": "前置詞/連接詞",
+      "level": "A2",
+      "count": 5,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          76
+        ],
+        [
+          "_iC1Pooi2UA",
+          113
+        ],
+        [
+          "_iC1Pooi2UA",
+          412
+        ],
+        [
+          "mock3_a2_2026",
+          31
+        ],
+        [
+          "mock3_a2_2026",
+          153
+        ]
+      ]
+    },
+    {
+      "nl": "over",
+      "zh": "overgaan op/over",
+      "level": "A2",
+      "count": 5,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          349
+        ],
+        [
+          "_iC1Pooi2UA",
+          368
+        ],
+        [
+          "AMVy2zPNLso",
+          333
+        ],
+        [
+          "mock3_a2_2026",
+          1
+        ],
+        [
+          "mock3_a2_2026",
+          150
+        ]
+      ]
+    },
+    {
+      "nl": "voicemail",
+      "zh": "語音信箱",
+      "level": "A2",
+      "count": 5,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          200
+        ],
+        [
+          "_iC1Pooi2UA",
+          282
+        ],
+        [
+          "AMVy2zPNLso",
+          120
+        ],
+        [
+          "AMVy2zPNLso",
+          331
+        ],
+        [
+          "AMVy2zPNLso",
+          317
+        ]
+      ]
+    },
+    {
+      "nl": "wel",
+      "zh": "确实，的确",
+      "level": "A2",
+      "count": 5,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          119
+        ],
+        [
+          "AMVy2zPNLso",
+          128
+        ],
+        [
+          "mock3_a2_2026",
+          67
+        ],
+        [
+          "mock3_a2_2026",
+          43
+        ],
+        [
+          "mock3_a2_2026",
+          106
+        ]
+      ]
+    },
+    {
+      "nl": "In",
+      "zh": "在",
+      "level": "A1",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          100
+        ],
+        [
+          "_iC1Pooi2UA",
+          101
+        ],
+        [
+          "AMVy2zPNLso",
+          138
+        ],
+        [
+          "AMVy2zPNLso",
+          106
+        ]
+      ]
+    },
+    {
+      "nl": "Luister",
+      "zh": "聽",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          76
+        ],
+        [
+          "_iC1Pooi2UA",
+          314
+        ],
+        [
+          "AMVy2zPNLso",
+          122
+        ],
+        [
+          "AMVy2zPNLso",
+          332
+        ]
+      ]
+    },
+    {
+      "nl": "Morgenavond",
+      "zh": "明晚",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          287
+        ],
+        [
+          "_iC1Pooi2UA",
+          312
+        ],
+        [
+          "_iC1Pooi2UA",
+          320
+        ],
+        [
+          "_iC1Pooi2UA",
+          323
+        ]
+      ]
+    },
+    {
+      "nl": "bestelling",
+      "zh": "訂單",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          192
+        ],
+        [
+          "_iC1Pooi2UA",
+          207
+        ],
+        [
+          "_iC1Pooi2UA",
+          217
+        ],
+        [
+          "AMVy2zPNLso",
+          173
+        ]
+      ]
+    },
+    {
+      "nl": "blikjes",
+      "zh": "罐頭/罐裝",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          191
+        ],
+        [
+          "_iC1Pooi2UA",
+          206
+        ],
+        [
+          "_iC1Pooi2UA",
+          212
+        ],
+        [
+          "_iC1Pooi2UA",
+          213
+        ]
+      ]
+    },
+    {
+      "nl": "boodschappen",
+      "zh": "雜貨、採買",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          403
+        ],
+        [
+          "_iC1Pooi2UA",
+          380
+        ],
+        [
+          "_iC1Pooi2UA",
+          426
+        ],
+        [
+          "mock3_a2_2026",
+          119
+        ]
+      ]
+    },
+    {
+      "nl": "dozen",
+      "zh": "打/份",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          188
+        ],
+        [
+          "_iC1Pooi2UA",
+          212
+        ],
+        [
+          "_iC1Pooi2UA",
+          214
+        ],
+        [
+          "_iC1Pooi2UA",
+          215
+        ]
+      ]
+    },
+    {
+      "nl": "filmpje",
+      "zh": "短片",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          45
+        ],
+        [
+          "_iC1Pooi2UA",
+          61
+        ],
+        [
+          "AMVy2zPNLso",
+          43
+        ],
+        [
+          "AMVy2zPNLso",
+          85
+        ]
+      ]
+    },
+    {
+      "nl": "fouten",
+      "zh": "錯誤",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          253
+        ],
+        [
+          "_iC1Pooi2UA",
+          236
+        ],
+        [
+          "_iC1Pooi2UA",
+          260
+        ],
+        [
+          "_iC1Pooi2UA",
+          271
+        ]
+      ]
+    },
+    {
+      "nl": "gebouw",
+      "zh": "gebouw",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          142
+        ],
+        [
+          "AMVy2zPNLso",
+          143
+        ],
+        [
+          "AMVy2zPNLso",
+          110
+        ],
+        [
+          "AMVy2zPNLso",
+          129
+        ]
+      ]
+    },
+    {
+      "nl": "grijze",
+      "zh": "灰色",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          191
+        ],
+        [
+          "_iC1Pooi2UA",
+          206
+        ],
+        [
+          "_iC1Pooi2UA",
+          214
+        ],
+        [
+          "_iC1Pooi2UA",
+          225
+        ]
+      ]
+    },
+    {
+      "nl": "huisadres",
+      "zh": "居住地址",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          194
+        ],
+        [
+          "_iC1Pooi2UA",
+          209
+        ],
+        [
+          "_iC1Pooi2UA",
+          227
+        ],
+        [
+          "_iC1Pooi2UA",
+          230
+        ]
+      ]
+    },
+    {
+      "nl": "inchecken",
+      "zh": "辦理登機手續",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          347
+        ],
+        [
+          "AMVy2zPNLso",
+          362
+        ],
+        [
+          "AMVy2zPNLso",
+          370
+        ],
+        [
+          "AMVy2zPNLso",
+          376
+        ]
+      ]
+    },
+    {
+      "nl": "ingeschreven",
+      "zh": "registered",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          42
+        ],
+        [
+          "AMVy2zPNLso",
+          65
+        ],
+        [
+          "AMVy2zPNLso",
+          84
+        ],
+        [
+          "AMVy2zPNLso",
+          88
+        ]
+      ]
+    },
+    {
+      "nl": "inleveren",
+      "zh": "提交、交上",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          334
+        ],
+        [
+          "AMVy2zPNLso",
+          321
+        ],
+        [
+          "mock3_a2_2026",
+          40
+        ],
+        [
+          "mock3_a2_2026",
+          42
+        ]
+      ]
+    },
+    {
+      "nl": "leidinggevende",
+      "zh": "主管/經理",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          52
+        ],
+        [
+          "AMVy2zPNLso",
+          58
+        ],
+        [
+          "AMVy2zPNLso",
+          73
+        ],
+        [
+          "AMVy2zPNLso",
+          79
+        ]
+      ]
+    },
+    {
+      "nl": "linksaf",
+      "zh": "linksaf slaan",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          139
+        ],
+        [
+          "AMVy2zPNLso",
+          107
+        ],
+        [
+          "AMVy2zPNLso",
+          118
+        ],
+        [
+          "AMVy2zPNLso",
+          125
+        ]
+      ]
+    },
+    {
+      "nl": "rekening",
+      "zh": "帳單",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          193
+        ],
+        [
+          "_iC1Pooi2UA",
+          208
+        ],
+        [
+          "_iC1Pooi2UA",
+          226
+        ],
+        [
+          "_iC1Pooi2UA",
+          229
+        ]
+      ]
+    },
+    {
+      "nl": "woorden",
+      "zh": "單詞",
+      "level": "A2",
+      "count": 4,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          242
+        ],
+        [
+          "_iC1Pooi2UA",
+          236
+        ],
+        [
+          "_iC1Pooi2UA",
+          239
+        ],
+        [
+          "_iC1Pooi2UA",
+          266
+        ]
+      ]
+    },
+    {
+      "nl": "Apeldoorn",
+      "zh": "阿佩洛多恩",
+      "level": "A1",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          249
+        ],
+        [
+          "AMVy2zPNLso",
+          264
+        ],
+        [
+          "AMVy2zPNLso",
+          273
+        ]
+      ]
+    },
+    {
+      "nl": "Cola Light",
+      "zh": "可樂淡/低糖",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          191
+        ],
+        [
+          "_iC1Pooi2UA",
+          206
+        ],
+        [
+          "_iC1Pooi2UA",
+          225
+        ]
+      ]
+    },
+    {
+      "nl": "Evelien",
+      "zh": "Evelien",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          278
+        ],
+        [
+          "AMVy2zPNLso",
+          280
+        ],
+        [
+          "AMVy2zPNLso",
+          284
+        ]
+      ]
+    },
+    {
+      "nl": "Ja",
+      "zh": "是",
+      "level": "A1",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          124
+        ],
+        [
+          "mock3_a2_2026",
+          4
+        ],
+        [
+          "mock3_a2_2026",
+          107
+        ]
+      ]
+    },
+    {
+      "nl": "Koningsdagontbijt",
+      "zh": "國王日早餐活動",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          373
+        ],
+        [
+          "_iC1Pooi2UA",
+          395
+        ],
+        [
+          "_iC1Pooi2UA",
+          418
+        ]
+      ]
+    },
+    {
+      "nl": "Nee",
+      "zh": "不、沒有",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          404
+        ],
+        [
+          "_iC1Pooi2UA",
+          427
+        ],
+        [
+          "mock3_a2_2026",
+          10
+        ]
+      ]
+    },
+    {
+      "nl": "Utrecht",
+      "zh": "烏得勒支",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          259
+        ],
+        [
+          "AMVy2zPNLso",
+          269
+        ],
+        [
+          "AMVy2zPNLso",
+          271
+        ]
+      ]
+    },
+    {
+      "nl": "Verhalen",
+      "zh": "故事",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          350
+        ],
+        [
+          "_iC1Pooi2UA",
+          357
+        ],
+        [
+          "_iC1Pooi2UA",
+          359
+        ]
+      ]
+    },
+    {
+      "nl": "afgesproken",
+      "zh": "已約定",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          285
+        ],
+        [
+          "_iC1Pooi2UA",
+          301
+        ],
+        [
+          "_iC1Pooi2UA",
+          318
+        ]
+      ]
+    },
+    {
+      "nl": "afspreken",
+      "zh": "約見、見面",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          337
+        ],
+        [
+          "AMVy2zPNLso",
+          340
+        ],
+        [
+          "AMVy2zPNLso",
+          325
+        ]
+      ]
+    },
+    {
+      "nl": "allemaal",
+      "zh": "大家",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          354
+        ],
+        [
+          "_iC1Pooi2UA",
+          408
+        ],
+        [
+          "AMVy2zPNLso",
+          214
+        ]
+      ]
+    },
+    {
+      "nl": "basisschool",
+      "zh": "小學",
+      "level": "A1",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          369
+        ],
+        [
+          "_iC1Pooi2UA",
+          391
+        ],
+        [
+          "_iC1Pooi2UA",
+          414
+        ]
+      ]
+    },
+    {
+      "nl": "bedrijfsfeest",
+      "zh": "公司聚餐/公司派對",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          286
+        ],
+        [
+          "_iC1Pooi2UA",
+          302
+        ],
+        [
+          "_iC1Pooi2UA",
+          319
+        ]
+      ]
+    },
+    {
+      "nl": "begane grond",
+      "zh": "一樓",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          132
+        ],
+        [
+          "_iC1Pooi2UA",
+          169
+        ],
+        [
+          "_iC1Pooi2UA",
+          152
+        ]
+      ]
+    },
+    {
+      "nl": "belangrijk",
+      "zh": "重要",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          48
+        ],
+        [
+          "_iC1Pooi2UA",
+          64
+        ],
+        [
+          "AMVy2zPNLso",
+          288
+        ]
+      ]
+    },
+    {
+      "nl": "beveiliging",
+      "zh": "保全/保安",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          50
+        ],
+        [
+          "AMVy2zPNLso",
+          69
+        ],
+        [
+          "AMVy2zPNLso",
+          71
+        ]
+      ]
+    },
+    {
+      "nl": "blauw",
+      "zh": "blauw",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          143
+        ],
+        [
+          "AMVy2zPNLso",
+          111
+        ],
+        [
+          "AMVy2zPNLso",
+          129
+        ]
+      ]
+    },
+    {
+      "nl": "cursus",
+      "zh": "課程",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          232
+        ],
+        [
+          "_iC1Pooi2UA",
+          256
+        ],
+        [
+          "_iC1Pooi2UA",
+          351
+        ]
+      ]
+    },
+    {
+      "nl": "daarom",
+      "zh": "因此",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          6
+        ],
+        [
+          "AMVy2zPNLso",
+          247
+        ],
+        [
+          "AMVy2zPNLso",
+          262
+        ]
+      ]
+    },
+    {
+      "nl": "dank",
+      "zh": "感谢",
+      "level": "A1",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          235
+        ],
+        [
+          "mock3_a2_2026",
+          77
+        ],
+        [
+          "mock3_a2_2026",
+          145
+        ]
+      ]
+    },
+    {
+      "nl": "er",
+      "zh": "在那（此處指時間）",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          402
+        ],
+        [
+          "_iC1Pooi2UA",
+          425
+        ],
+        [
+          "mock3_a2_2026",
+          94
+        ]
+      ]
+    },
+    {
+      "nl": "ervaring",
+      "zh": "經驗",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          51
+        ],
+        [
+          "AMVy2zPNLso",
+          72
+        ],
+        [
+          "mock3_a2_2026",
+          27
+        ]
+      ]
+    },
+    {
+      "nl": "extra",
+      "zh": "額外的",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          272
+        ],
+        [
+          "AMVy2zPNLso",
+          218
+        ],
+        [
+          "AMVy2zPNLso",
+          222
+        ]
+      ]
+    },
+    {
+      "nl": "franse",
+      "zh": "法國的/法式",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          189
+        ],
+        [
+          "_iC1Pooi2UA",
+          203
+        ],
+        [
+          "_iC1Pooi2UA",
+          221
+        ]
+      ]
+    },
+    {
+      "nl": "frikandellen",
+      "zh": "炸肉香腸條",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          189
+        ],
+        [
+          "_iC1Pooi2UA",
+          204
+        ],
+        [
+          "_iC1Pooi2UA",
+          222
+        ]
+      ]
+    },
+    {
+      "nl": "gemeentehuis",
+      "zh": "gemeentehuis (het)",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          137
+        ],
+        [
+          "AMVy2zPNLso",
+          105
+        ],
+        [
+          "AMVy2zPNLso",
+          123
+        ]
+      ]
+    },
+    {
+      "nl": "groene brug",
+      "zh": "groene brug",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          140
+        ],
+        [
+          "AMVy2zPNLso",
+          108
+        ],
+        [
+          "AMVy2zPNLso",
+          117
+        ]
+      ]
+    },
+    {
+      "nl": "groothandel",
+      "zh": "批發商",
+      "level": "B1",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          184
+        ],
+        [
+          "_iC1Pooi2UA",
+          199
+        ],
+        [
+          "_iC1Pooi2UA",
+          216
+        ]
+      ]
+    },
+    {
+      "nl": "iemand",
+      "zh": "某人",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          267
+        ],
+        [
+          "_iC1Pooi2UA",
+          270
+        ],
+        [
+          "mock3_a2_2026",
+          25
+        ]
+      ]
+    },
+    {
+      "nl": "journaal",
+      "zh": "新聞節目",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          342
+        ],
+        [
+          "AMVy2zPNLso",
+          356
+        ],
+        [
+          "AMVy2zPNLso",
+          371
+        ]
+      ]
+    },
+    {
+      "nl": "ketchup",
+      "zh": "",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          190
+        ],
+        [
+          "_iC1Pooi2UA",
+          205
+        ],
+        [
+          "_iC1Pooi2UA",
+          224
+        ]
+      ]
+    },
+    {
+      "nl": "kijkt",
+      "zh": "看",
+      "level": "A1",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          128
+        ],
+        [
+          "_iC1Pooi2UA",
+          165
+        ],
+        [
+          "AMVy2zPNLso",
+          356
+        ]
+      ]
+    },
+    {
+      "nl": "kilometer",
+      "zh": "公里",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          259
+        ],
+        [
+          "AMVy2zPNLso",
+          262
+        ],
+        [
+          "AMVy2zPNLso",
+          267
+        ]
+      ]
+    },
+    {
+      "nl": "klussen",
+      "zh": "修繕/做小事",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          38
+        ],
+        [
+          "_iC1Pooi2UA",
+          42
+        ],
+        [
+          "_iC1Pooi2UA",
+          9
+        ]
+      ]
+    },
+    {
+      "nl": "kroketten",
+      "zh": "克羅克條",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          189
+        ],
+        [
+          "_iC1Pooi2UA",
+          204
+        ],
+        [
+          "_iC1Pooi2UA",
+          222
+        ]
+      ]
+    },
+    {
+      "nl": "last",
+      "zh": "麻煩、困擾",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          168
+        ],
+        [
+          "_iC1Pooi2UA",
+          151
+        ],
+        [
+          "AMVy2zPNLso",
+          368
+        ]
+      ]
+    },
+    {
+      "nl": "legitimatiebewijs",
+      "zh": "身份證明",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          33
+        ],
+        [
+          "AMVy2zPNLso",
+          4
+        ],
+        [
+          "AMVy2zPNLso",
+          13
+        ]
+      ]
+    },
+    {
+      "nl": "leraar",
+      "zh": "老師",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          370
+        ],
+        [
+          "_iC1Pooi2UA",
+          392
+        ],
+        [
+          "_iC1Pooi2UA",
+          415
+        ]
+      ]
+    },
+    {
+      "nl": "leren",
+      "zh": "學習",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          197
+        ],
+        [
+          "AMVy2zPNLso",
+          205
+        ],
+        [
+          "AMVy2zPNLso",
+          214
+        ]
+      ]
+    },
+    {
+      "nl": "lied",
+      "zh": "歌/歌曲",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          384
+        ],
+        [
+          "_iC1Pooi2UA",
+          435
+        ],
+        [
+          "_iC1Pooi2UA",
+          430
+        ]
+      ]
+    },
+    {
+      "nl": "mag",
+      "zh": "可以、能夠",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          71
+        ],
+        [
+          "mock3_a2_2026",
+          74
+        ],
+        [
+          "mock3_a2_2026",
+          38
+        ]
+      ]
+    },
+    {
+      "nl": "mayonaise",
+      "zh": "美乃滋",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          190
+        ],
+        [
+          "_iC1Pooi2UA",
+          205
+        ],
+        [
+          "_iC1Pooi2UA",
+          223
+        ]
+      ]
+    },
+    {
+      "nl": "moeder",
+      "zh": "媽媽",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          381
+        ],
+        [
+          "_iC1Pooi2UA",
+          405
+        ],
+        [
+          "_iC1Pooi2UA",
+          428
+        ]
+      ]
+    },
+    {
+      "nl": "open",
+      "zh": "開放、開門",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          176
+        ],
+        [
+          "_iC1Pooi2UA",
+          159
+        ],
+        [
+          "AMVy2zPNLso",
+          8
+        ]
+      ]
+    },
+    {
+      "nl": "overkant",
+      "zh": "overkant (van de weg)",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          146
+        ],
+        [
+          "AMVy2zPNLso",
+          114
+        ],
+        [
+          "AMVy2zPNLso",
+          132
+        ]
+      ]
+    },
+    {
+      "nl": "parkeergarage",
+      "zh": "parkeergarage",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          145
+        ],
+        [
+          "AMVy2zPNLso",
+          113
+        ],
+        [
+          "AMVy2zPNLso",
+          131
+        ]
+      ]
+    },
+    {
+      "nl": "parkeerplaatsen",
+      "zh": "停車位",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          108
+        ],
+        [
+          "_iC1Pooi2UA",
+          114
+        ],
+        [
+          "_iC1Pooi2UA",
+          121
+        ]
+      ]
+    },
+    {
+      "nl": "paspoortcontrole",
+      "zh": "護照安檢",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          348
+        ],
+        [
+          "AMVy2zPNLso",
+          370
+        ],
+        [
+          "AMVy2zPNLso",
+          377
+        ]
+      ]
+    },
+    {
+      "nl": "passagiers",
+      "zh": "乘客",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          346
+        ],
+        [
+          "AMVy2zPNLso",
+          360
+        ],
+        [
+          "AMVy2zPNLso",
+          375
+        ]
+      ]
+    },
+    {
+      "nl": "patat",
+      "zh": "薯條",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          188
+        ],
+        [
+          "_iC1Pooi2UA",
+          196
+        ],
+        [
+          "_iC1Pooi2UA",
+          220
+        ]
+      ]
+    },
+    {
+      "nl": "pinpas",
+      "zh": "提款卡",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          114
+        ],
+        [
+          "mock3_a2_2026",
+          115
+        ],
+        [
+          "mock3_a2_2026",
+          122
+        ]
+      ]
+    },
+    {
+      "nl": "pizzeria",
+      "zh": "披薩店",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          285
+        ],
+        [
+          "_iC1Pooi2UA",
+          301
+        ],
+        [
+          "_iC1Pooi2UA",
+          318
+        ]
+      ]
+    },
+    {
+      "nl": "planning",
+      "zh": "計畫",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          198
+        ],
+        [
+          "AMVy2zPNLso",
+          207
+        ],
+        [
+          "AMVy2zPNLso",
+          215
+        ]
+      ]
+    },
+    {
+      "nl": "postadres",
+      "zh": "",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          208
+        ],
+        [
+          "_iC1Pooi2UA",
+          226
+        ],
+        [
+          "_iC1Pooi2UA",
+          231
+        ]
+      ]
+    },
+    {
+      "nl": "rechtdoor",
+      "zh": "直走",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          108
+        ],
+        [
+          "AMVy2zPNLso",
+          119
+        ],
+        [
+          "AMVy2zPNLso",
+          127
+        ]
+      ]
+    },
+    {
+      "nl": "rechterkant",
+      "zh": "rechterkant",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          142
+        ],
+        [
+          "AMVy2zPNLso",
+          110
+        ],
+        [
+          "AMVy2zPNLso",
+          128
+        ]
+      ]
+    },
+    {
+      "nl": "reserveren",
+      "zh": "預約",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          288
+        ],
+        [
+          "_iC1Pooi2UA",
+          304
+        ],
+        [
+          "_iC1Pooi2UA",
+          322
+        ]
+      ]
+    },
+    {
+      "nl": "schoonmaak",
+      "zh": "清潔工作",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          48
+        ],
+        [
+          "AMVy2zPNLso",
+          68
+        ],
+        [
+          "AMVy2zPNLso",
+          70
+        ]
+      ]
+    },
+    {
+      "nl": "snelweg",
+      "zh": "高速公路",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          244
+        ],
+        [
+          "AMVy2zPNLso",
+          259
+        ],
+        [
+          "AMVy2zPNLso",
+          261
+        ]
+      ]
+    },
+    {
+      "nl": "sportveld",
+      "zh": "運動場",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          399
+        ],
+        [
+          "_iC1Pooi2UA",
+          375
+        ],
+        [
+          "_iC1Pooi2UA",
+          420
+        ]
+      ]
+    },
+    {
+      "nl": "spreek",
+      "zh": "spreek",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          138
+        ],
+        [
+          "AMVy2zPNLso",
+          106
+        ],
+        [
+          "AMVy2zPNLso",
+          124
+        ]
+      ]
+    },
+    {
+      "nl": "supermarkt",
+      "zh": "supermarkt",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          141
+        ],
+        [
+          "AMVy2zPNLso",
+          109
+        ],
+        [
+          "AMVy2zPNLso",
+          127
+        ]
+      ]
+    },
+    {
+      "nl": "tekst",
+      "zh": "文本",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          314
+        ],
+        [
+          "AMVy2zPNLso",
+          136
+        ],
+        [
+          "mock3_a2_2026",
+          108
+        ]
+      ]
+    },
+    {
+      "nl": "terugbellen",
+      "zh": "回撥",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          293
+        ],
+        [
+          "_iC1Pooi2UA",
+          309
+        ],
+        [
+          "_iC1Pooi2UA",
+          327
+        ]
+      ]
+    },
+    {
+      "nl": "tien",
+      "zh": "十",
+      "level": "A1",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          364
+        ],
+        [
+          "AMVy2zPNLso",
+          252
+        ],
+        [
+          "AMVy2zPNLso",
+          267
+        ]
+      ]
+    },
+    {
+      "nl": "tip",
+      "zh": "建議/提示",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          200
+        ],
+        [
+          "AMVy2zPNLso",
+          204
+        ],
+        [
+          "AMVy2zPNLso",
+          217
+        ]
+      ]
+    },
+    {
+      "nl": "toets",
+      "zh": "toets (test)",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          276
+        ],
+        [
+          "AMVy2zPNLso",
+          277
+        ],
+        [
+          "mock3_a2_2026",
+          101
+        ]
+      ]
+    },
+    {
+      "nl": "toetsen",
+      "zh": "toetsen",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          283
+        ],
+        [
+          "AMVy2zPNLso",
+          291
+        ],
+        [
+          "AMVy2zPNLso",
+          298
+        ]
+      ]
+    },
+    {
+      "nl": "traktatie",
+      "zh": "款待/點心",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          351
+        ],
+        [
+          "AMVy2zPNLso",
+          367
+        ],
+        [
+          "AMVy2zPNLso",
+          381
+        ]
+      ]
+    },
+    {
+      "nl": "uitnodigen",
+      "zh": "邀請",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          35
+        ],
+        [
+          "_iC1Pooi2UA",
+          6
+        ],
+        [
+          "_iC1Pooi2UA",
+          7
+        ]
+      ]
+    },
+    {
+      "nl": "uitnodiging",
+      "zh": "邀請函",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          47
+        ],
+        [
+          "AMVy2zPNLso",
+          67
+        ],
+        [
+          "AMVy2zPNLso",
+          89
+        ]
+      ]
+    },
+    {
+      "nl": "uur",
+      "zh": "點/時",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          80
+        ],
+        [
+          "_iC1Pooi2UA",
+          95
+        ],
+        [
+          "AMVy2zPNLso",
+          263
+        ]
+      ]
+    },
+    {
+      "nl": "verkeer",
+      "zh": "交通",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          177
+        ],
+        [
+          "_iC1Pooi2UA",
+          160
+        ],
+        [
+          "AMVy2zPNLso",
+          263
+        ]
+      ]
+    },
+    {
+      "nl": "verlichting",
+      "zh": "照明",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          107
+        ],
+        [
+          "_iC1Pooi2UA",
+          120
+        ],
+        [
+          "_iC1Pooi2UA",
+          122
+        ]
+      ]
+    },
+    {
+      "nl": "vluchten",
+      "zh": "航班",
+      "level": "B1",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          345
+        ],
+        [
+          "AMVy2zPNLso",
+          359
+        ],
+        [
+          "AMVy2zPNLso",
+          374
+        ]
+      ]
+    },
+    {
+      "nl": "voicemailbericht",
+      "zh": "語音信箱訊息",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          298
+        ],
+        [
+          "_iC1Pooi2UA",
+          313
+        ],
+        [
+          "_iC1Pooi2UA",
+          280
+        ]
+      ]
+    },
+    {
+      "nl": "vol",
+      "zh": "滿/額滿",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          78
+        ],
+        [
+          "_iC1Pooi2UA",
+          87
+        ],
+        [
+          "_iC1Pooi2UA",
+          93
+        ]
+      ]
+    },
+    {
+      "nl": "volgende",
+      "zh": "下列/下週",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          77
+        ],
+        [
+          "_iC1Pooi2UA",
+          274
+        ],
+        [
+          "mock3_a2_2026",
+          40
+        ]
+      ]
+    },
+    {
+      "nl": "volgorde",
+      "zh": "順序",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          254
+        ],
+        [
+          "_iC1Pooi2UA",
+          236
+        ],
+        [
+          "_iC1Pooi2UA",
+          260
+        ]
+      ]
+    },
+    {
+      "nl": "vrachtwagen",
+      "zh": "卡車",
+      "level": "A1",
+      "count": 3,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          250
+        ],
+        [
+          "AMVy2zPNLso",
+          261
+        ],
+        [
+          "AMVy2zPNLso",
+          265
+        ]
+      ]
+    },
+    {
+      "nl": "vragen",
+      "zh": "問題/題目",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          299
+        ],
+        [
+          "AMVy2zPNLso",
+          257
+        ],
+        [
+          "mock3_a2_2026",
+          36
+        ]
+      ]
+    },
+    {
+      "nl": "waarschijnlijk",
+      "zh": "可能、大概",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          174
+        ],
+        [
+          "_iC1Pooi2UA",
+          157
+        ],
+        [
+          "mock3_a2_2026",
+          62
+        ]
+      ]
+    },
+    {
+      "nl": "wedstrijd",
+      "zh": "比賽",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          386
+        ],
+        [
+          "_iC1Pooi2UA",
+          436
+        ],
+        [
+          "_iC1Pooi2UA",
+          432
+        ]
+      ]
+    },
+    {
+      "nl": "zwanger",
+      "zh": "懷孕",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          32
+        ],
+        [
+          "_iC1Pooi2UA",
+          3
+        ],
+        [
+          "_iC1Pooi2UA",
+          4
+        ]
+      ]
+    },
+    {
+      "nl": "zwarte",
+      "zh": "黑色的",
+      "level": "A2",
+      "count": 3,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          206
+        ],
+        [
+          "_iC1Pooi2UA",
+          215
+        ],
+        [
+          "_iC1Pooi2UA",
+          225
+        ]
+      ]
+    },
+    {
+      "nl": "A50",
+      "zh": "高速公路編號",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          249
+        ],
+        [
+          "AMVy2zPNLso",
+          264
+        ]
+      ]
+    },
+    {
+      "nl": "Amsterdam-Zuid",
+      "zh": "阿姆斯特丹南區",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          130
+        ],
+        [
+          "_iC1Pooi2UA",
+          167
+        ]
+      ]
+    },
+    {
+      "nl": "Arnhem",
+      "zh": "阿納姆",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          269
+        ],
+        [
+          "AMVy2zPNLso",
+          271
+        ]
+      ]
+    },
+    {
+      "nl": "Bedankt",
+      "zh": "谢谢",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          228
+        ],
+        [
+          "mock3_a2_2026",
+          160
+        ]
+      ]
+    },
+    {
+      "nl": "Chris",
+      "zh": "人名",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          204
+        ],
+        [
+          "AMVy2zPNLso",
+          209
+        ]
+      ]
+    },
+    {
+      "nl": "Dag",
+      "zh": "再見 / 你好",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          21
+        ],
+        [
+          "mock3_a2_2026",
+          68
+        ]
+      ]
+    },
+    {
+      "nl": "Engels",
+      "zh": "英語",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          232
+        ],
+        [
+          "_iC1Pooi2UA",
+          256
+        ]
+      ]
+    },
+    {
+      "nl": "Giovanni",
+      "zh": " Giovanni（人名）",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          405
+        ],
+        [
+          "_iC1Pooi2UA",
+          428
+        ]
+      ]
+    },
+    {
+      "nl": "Goedemorgen",
+      "zh": "早安",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          146
+        ],
+        [
+          "mock3_a2_2026",
+          152
+        ]
+      ]
+    },
+    {
+      "nl": "Hé",
+      "zh": "嗨/喂（呼喚）",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          31
+        ],
+        [
+          "mock3_a2_2026",
+          23
+        ]
+      ]
+    },
+    {
+      "nl": "Informatie",
+      "zh": "資訊",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          77
+        ],
+        [
+          "_iC1Pooi2UA",
+          92
+        ]
+      ]
+    },
+    {
+      "nl": "Julio",
+      "zh": "Julio",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          74
+        ],
+        [
+          "_iC1Pooi2UA",
+          88
+        ]
+      ]
+    },
+    {
+      "nl": "Kijk",
+      "zh": "看看/看",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          1
+        ],
+        [
+          "mock3_a2_2026",
+          6
+        ]
+      ]
+    },
+    {
+      "nl": "Mee",
+      "zh": "一起",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          290
+        ],
+        [
+          "mock3_a2_2026",
+          149
+        ]
+      ]
+    },
+    {
+      "nl": "Mevrouw",
+      "zh": "女士",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          70
+        ],
+        [
+          "mock3_a2_2026",
+          73
+        ]
+      ]
+    },
+    {
+      "nl": "Moerad",
+      "zh": "人名",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          289
+        ],
+        [
+          "_iC1Pooi2UA",
+          305
+        ]
+      ]
+    },
+    {
+      "nl": "Mooi",
+      "zh": "好棒/漂亮",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          382
+        ],
+        [
+          "mock3_a2_2026",
+          46
+        ]
+      ]
+    },
+    {
+      "nl": "NS-bussen",
+      "zh": "NS-bussen",
+      "level": "B1",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          240
+        ],
+        [
+          "AMVy2zPNLso",
+          255
+        ]
+      ]
+    },
+    {
+      "nl": "Rotterdam",
+      "zh": "鹿特丹",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          246
+        ],
+        [
+          "AMVy2zPNLso",
+          261
+        ]
+      ]
+    },
+    {
+      "nl": "Schiphol",
+      "zh": "史基浦機場",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          360
+        ],
+        [
+          "AMVy2zPNLso",
+          375
+        ]
+      ]
+    },
+    {
+      "nl": "Schiphol Airport",
+      "zh": "史基浦機場",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          344
+        ],
+        [
+          "AMVy2zPNLso",
+          358
+        ]
+      ]
+    },
+    {
+      "nl": "Steven",
+      "zh": "人名",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          41
+        ],
+        [
+          "_iC1Pooi2UA",
+          14
+        ]
+      ]
+    },
+    {
+      "nl": "Waar",
+      "zh": "在哪裡",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          294
+        ],
+        [
+          "mock3_a2_2026",
+          72
+        ]
+      ]
+    },
+    {
+      "nl": "Zineb",
+      "zh": "人名",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          310
+        ],
+        [
+          "_iC1Pooi2UA",
+          313
+        ]
+      ]
+    },
+    {
+      "nl": "aangifte",
+      "zh": " aangifte doen van de geboorte",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          32
+        ],
+        [
+          "AMVy2zPNLso",
+          3
+        ]
+      ]
+    },
+    {
+      "nl": "afdeling inkoop",
+      "zh": "采购部",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          292
+        ],
+        [
+          "AMVy2zPNLso",
+          297
+        ]
+      ]
+    },
+    {
+      "nl": "afgesloten",
+      "zh": "封閉",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          105
+        ],
+        [
+          "_iC1Pooi2UA",
+          112
+        ]
+      ]
+    },
+    {
+      "nl": "afspraak",
+      "zh": "appointment",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          38
+        ],
+        [
+          "AMVy2zPNLso",
+          9
+        ]
+      ]
+    },
+    {
+      "nl": "afspraken",
+      "zh": "約定",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          345
+        ],
+        [
+          "_iC1Pooi2UA",
+          361
+        ]
+      ]
+    },
+    {
+      "nl": "agenda",
+      "zh": "agenda",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          283
+        ],
+        [
+          "AMVy2zPNLso",
+          290
+        ]
+      ]
+    },
+    {
+      "nl": "alle",
+      "zh": "所有",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          134
+        ],
+        [
+          "_iC1Pooi2UA",
+          238
+        ]
+      ]
+    },
+    {
+      "nl": "andere",
+      "zh": "其他的",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          376
+        ],
+        [
+          "_iC1Pooi2UA",
+          421
+        ]
+      ]
+    },
+    {
+      "nl": "april",
+      "zh": "四月",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          373
+        ],
+        [
+          "_iC1Pooi2UA",
+          411
+        ]
+      ]
+    },
+    {
+      "nl": "avondopleiding",
+      "zh": "夜間/晚上課程",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          52
+        ],
+        [
+          "AMVy2zPNLso",
+          73
+        ]
+      ]
+    },
+    {
+      "nl": "balie",
+      "zh": "desk/reception",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          39
+        ],
+        [
+          "AMVy2zPNLso",
+          10
+        ]
+      ]
+    },
+    {
+      "nl": "bedrijf",
+      "zh": "公司",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          45
+        ],
+        [
+          "_iC1Pooi2UA",
+          61
+        ]
+      ]
+    },
+    {
+      "nl": "bel",
+      "zh": "打電話",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          317
+        ],
+        [
+          "_iC1Pooi2UA",
+          284
+        ]
+      ]
+    },
+    {
+      "nl": "bellen",
+      "zh": "bellen",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          177
+        ],
+        [
+          "mock3_a2_2026",
+          37
+        ]
+      ]
+    },
+    {
+      "nl": "bestellen",
+      "zh": "點餐",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          202
+        ],
+        [
+          "_iC1Pooi2UA",
+          220
+        ]
+      ]
+    },
+    {
+      "nl": "bezoekers",
+      "zh": "bezoekers",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          147
+        ],
+        [
+          "AMVy2zPNLso",
+          112
+        ]
+      ]
+    },
+    {
+      "nl": "bijeenkomst",
+      "zh": "聚會/會議",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          60
+        ],
+        [
+          "mock3_a2_2026",
+          55
+        ]
+      ]
+    },
+    {
+      "nl": "broer",
+      "zh": "兄弟",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          323
+        ],
+        [
+          "_iC1Pooi2UA",
+          329
+        ]
+      ]
+    },
+    {
+      "nl": "buren",
+      "zh": "鄰居們",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          103
+        ],
+        [
+          "_iC1Pooi2UA",
+          116
+        ]
+      ]
+    },
+    {
+      "nl": "bus",
+      "zh": "公車",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          182
+        ],
+        [
+          "AMVy2zPNLso",
+          206
+        ]
+      ]
+    },
+    {
+      "nl": "buurthuis",
+      "zh": "社區中心",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          102
+        ],
+        [
+          "_iC1Pooi2UA",
+          115
+        ]
+      ]
+    },
+    {
+      "nl": "cola",
+      "zh": "可樂",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          191
+        ],
+        [
+          "_iC1Pooi2UA",
+          224
+        ]
+      ]
+    },
+    {
+      "nl": "collega",
+      "zh": "同事",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          47
+        ],
+        [
+          "_iC1Pooi2UA",
+          329
+        ]
+      ]
+    },
+    {
+      "nl": "cursussen",
+      "zh": "課程",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          77
+        ],
+        [
+          "_iC1Pooi2UA",
+          92
+        ]
+      ]
+    },
+    {
+      "nl": "daarover",
+      "zh": "daarover (daardoor)",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          348
+        ],
+        [
+          "_iC1Pooi2UA",
+          367
+        ]
+      ]
+    },
+    {
+      "nl": "dan",
+      "zh": "然後",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          407
+        ],
+        [
+          "mock3_a2_2026",
+          5
+        ]
+      ]
+    },
+    {
+      "nl": "dansen",
+      "zh": "跳舞",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          384
+        ],
+        [
+          "_iC1Pooi2UA",
+          430
+        ]
+      ]
+    },
+    {
+      "nl": "ding",
+      "zh": "麻煩事/事務",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          121
+        ],
+        [
+          "_iC1Pooi2UA",
+          123
+        ]
+      ]
+    },
+    {
+      "nl": "docent",
+      "zh": "老师/讲师",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          233
+        ],
+        [
+          "_iC1Pooi2UA",
+          352
+        ]
+      ]
+    },
+    {
+      "nl": "doorgeven",
+      "zh": "传达、传递",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          148
+        ],
+        [
+          "mock3_a2_2026",
+          154
+        ]
+      ]
+    },
+    {
+      "nl": "doorrijden",
+      "zh": "繼續前進",
+      "level": "B1",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          248
+        ],
+        [
+          "AMVy2zPNLso",
+          263
+        ]
+      ]
+    },
+    {
+      "nl": "druk",
+      "zh": "忙碌",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          289
+        ],
+        [
+          "mock3_a2_2026",
+          63
+        ]
+      ]
+    },
+    {
+      "nl": "drukke",
+      "zh": "繁忙的",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          195
+        ],
+        [
+          "AMVy2zPNLso",
+          211
+        ]
+      ]
+    },
+    {
+      "nl": "drukste",
+      "zh": "最繁忙的",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          353
+        ],
+        [
+          "AMVy2zPNLso",
+          376
+        ]
+      ]
+    },
+    {
+      "nl": "dunne",
+      "zh": "細的",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          203
+        ],
+        [
+          "_iC1Pooi2UA",
+          221
+        ]
+      ]
+    },
+    {
+      "nl": "duurt",
+      "zh": "需要花時間",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          378
+        ],
+        [
+          "mock3_a2_2026",
+          50
+        ]
+      ]
+    },
+    {
+      "nl": "eerste verdieping",
+      "zh": "一樓上層/第一層",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          134
+        ],
+        [
+          "_iC1Pooi2UA",
+          171
+        ]
+      ]
+    },
+    {
+      "nl": "eieren",
+      "zh": "雞蛋",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          250
+        ],
+        [
+          "AMVy2zPNLso",
+          265
+        ]
+      ]
+    },
+    {
+      "nl": "eind",
+      "zh": "結尾/結局",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          386
+        ],
+        [
+          "_iC1Pooi2UA",
+          432
+        ]
+      ]
+    },
+    {
+      "nl": "even",
+      "zh": "一下",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          317
+        ],
+        [
+          "AMVy2zPNLso",
+          124
+        ]
+      ]
+    },
+    {
+      "nl": "examen",
+      "zh": "考試",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          366
+        ],
+        [
+          "AMVy2zPNLso",
+          196
+        ]
+      ]
+    },
+    {
+      "nl": "fiets",
+      "zh": "腳踏車",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          386
+        ],
+        [
+          "_iC1Pooi2UA",
+          432
+        ]
+      ]
+    },
+    {
+      "nl": "file",
+      "zh": "塞車",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          264
+        ],
+        [
+          "AMVy2zPNLso",
+          267
+        ]
+      ]
+    },
+    {
+      "nl": "files",
+      "zh": "路面阻塞、交通堵塞",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          243
+        ],
+        [
+          "AMVy2zPNLso",
+          258
+        ]
+      ]
+    },
+    {
+      "nl": "filmpjes",
+      "zh": "影片",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          44
+        ],
+        [
+          "_iC1Pooi2UA",
+          60
+        ]
+      ]
+    },
+    {
+      "nl": "folder",
+      "zh": "資料夾/檔案夾",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          15
+        ],
+        [
+          "mock3_a2_2026",
+          0
+        ]
+      ]
+    },
+    {
+      "nl": "foutje",
+      "zh": "小错误",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          237
+        ],
+        [
+          "_iC1Pooi2UA",
+          262
+        ]
+      ]
+    },
+    {
+      "nl": "gebeuren",
+      "zh": "發生",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          115
+        ],
+        [
+          "mock3_a2_2026",
+          118
+        ]
+      ]
+    },
+    {
+      "nl": "geboorte",
+      "zh": "birth",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          35
+        ],
+        [
+          "AMVy2zPNLso",
+          12
+        ]
+      ]
+    },
+    {
+      "nl": "geboren",
+      "zh": "出生（孩童）",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          31
+        ],
+        [
+          "AMVy2zPNLso",
+          2
+        ]
+      ]
+    },
+    {
+      "nl": "gevaar",
+      "zh": "危險",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          173
+        ],
+        [
+          "_iC1Pooi2UA",
+          156
+        ]
+      ]
+    },
+    {
+      "nl": "gratis",
+      "zh": "免費的",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          379
+        ],
+        [
+          "mock3_a2_2026",
+          7
+        ]
+      ]
+    },
+    {
+      "nl": "groep",
+      "zh": "組/團體",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          81
+        ],
+        [
+          "_iC1Pooi2UA",
+          96
+        ]
+      ]
+    },
+    {
+      "nl": "groepsopdracht",
+      "zh": "小組任務",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          333
+        ],
+        [
+          "AMVy2zPNLso",
+          320
+        ]
+      ]
+    },
+    {
+      "nl": "half",
+      "zh": "半",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          420
+        ],
+        [
+          "AMVy2zPNLso",
+          263
+        ]
+      ]
+    },
+    {
+      "nl": "half 2",
+      "zh": "1:30",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          82
+        ],
+        [
+          "_iC1Pooi2UA",
+          97
+        ]
+      ]
+    },
+    {
+      "nl": "half negen",
+      "zh": "八點三十分",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          374
+        ],
+        [
+          "_iC1Pooi2UA",
+          396
+        ]
+      ]
+    },
+    {
+      "nl": "half uur",
+      "zh": "半小時",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          378
+        ],
+        [
+          "_iC1Pooi2UA",
+          424
+        ]
+      ]
+    },
+    {
+      "nl": "hartstikke",
+      "zh": "非常/超",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          37
+        ],
+        [
+          "_iC1Pooi2UA",
+          8
+        ]
+      ]
+    },
+    {
+      "nl": "idee",
+      "zh": "主意",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          249
+        ],
+        [
+          "_iC1Pooi2UA",
+          273
+        ]
+      ]
+    },
+    {
+      "nl": "ingesproken",
+      "zh": "語音錄音/留言",
+      "level": "B1",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          185
+        ],
+        [
+          "_iC1Pooi2UA",
+          217
+        ]
+      ]
+    },
+    {
+      "nl": "inschrijven",
+      "zh": "註冊/報名",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          82
+        ],
+        [
+          "_iC1Pooi2UA",
+          97
+        ]
+      ]
+    },
+    {
+      "nl": "interesse",
+      "zh": "興趣",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          59
+        ],
+        [
+          "AMVy2zPNLso",
+          80
+        ]
+      ]
+    },
+    {
+      "nl": "internet",
+      "zh": "網路",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          44
+        ],
+        [
+          "_iC1Pooi2UA",
+          60
+        ]
+      ]
+    },
+    {
+      "nl": "jammer",
+      "zh": "可惜",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          14
+        ],
+        [
+          "mock3_a2_2026",
+          94
+        ]
+      ]
+    },
+    {
+      "nl": "kantine",
+      "zh": "自助餐廳/員工餐廳",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          157
+        ],
+        [
+          "AMVy2zPNLso",
+          171
+        ]
+      ]
+    },
+    {
+      "nl": "kennismakingsgesprek",
+      "zh": "初次會談",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          46
+        ],
+        [
+          "AMVy2zPNLso",
+          66
+        ]
+      ]
+    },
+    {
+      "nl": "kinderen",
+      "zh": "孩子們",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          422
+        ],
+        [
+          "_iC1Pooi2UA",
+          429
+        ]
+      ]
+    },
+    {
+      "nl": "koksopleiding",
+      "zh": "koksopleiding",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          179
+        ],
+        [
+          "AMVy2zPNLso",
+          208
+        ]
+      ]
+    },
+    {
+      "nl": "laten zien",
+      "zh": "讓人看看/展示",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          150
+        ],
+        [
+          "mock3_a2_2026",
+          151
+        ]
+      ]
+    },
+    {
+      "nl": "leuk",
+      "zh": "好玩、有趣",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          324
+        ],
+        [
+          "_iC1Pooi2UA",
+          387
+        ]
+      ]
+    },
+    {
+      "nl": "lokaal 5",
+      "zh": "教室5",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          82
+        ],
+        [
+          "_iC1Pooi2UA",
+          97
+        ]
+      ]
+    },
+    {
+      "nl": "lukt",
+      "zh": "成功/能做到",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          45
+        ],
+        [
+          "mock3_a2_2026",
+          80
+        ]
+      ]
+    },
+    {
+      "nl": "mailtje",
+      "zh": "郵件（小）",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          160
+        ],
+        [
+          "AMVy2zPNLso",
+          174
+        ]
+      ]
+    },
+    {
+      "nl": "naam",
+      "zh": "naam",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          279
+        ],
+        [
+          "AMVy2zPNLso",
+          295
+        ]
+      ]
+    },
+    {
+      "nl": "natuurproject",
+      "zh": "自然專案/自然課題",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          339
+        ],
+        [
+          "_iC1Pooi2UA",
+          358
+        ]
+      ]
+    },
+    {
+      "nl": "niveau",
+      "zh": "程度",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          49
+        ],
+        [
+          "AMVy2zPNLso",
+          71
+        ]
+      ]
+    },
+    {
+      "nl": "oefening",
+      "zh": "練習",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          248
+        ],
+        [
+          "_iC1Pooi2UA",
+          347
+        ]
+      ]
+    },
+    {
+      "nl": "omroepbericht",
+      "zh": "廣播通知",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          75
+        ],
+        [
+          "_iC1Pooi2UA",
+          89
+        ]
+      ]
+    },
+    {
+      "nl": "onderweg",
+      "zh": "onderweg",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          148
+        ],
+        [
+          "AMVy2zPNLso",
+          116
+        ]
+      ]
+    },
+    {
+      "nl": "ongeluk",
+      "zh": "事故",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          245
+        ],
+        [
+          "AMVy2zPNLso",
+          260
+        ]
+      ]
+    },
+    {
+      "nl": "onhandig",
+      "zh": "不方便",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          105
+        ],
+        [
+          "_iC1Pooi2UA",
+          118
+        ]
+      ]
+    },
+    {
+      "nl": "ontbijten",
+      "zh": "吃早餐",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          397
+        ],
+        [
+          "_iC1Pooi2UA",
+          419
+        ]
+      ]
+    },
+    {
+      "nl": "oorzaak",
+      "zh": "原因",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          245
+        ],
+        [
+          "AMVy2zPNLso",
+          260
+        ]
+      ]
+    },
+    {
+      "nl": "op",
+      "zh": "在/到達",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          61
+        ],
+        [
+          "mock3_a2_2026",
+          143
+        ]
+      ]
+    },
+    {
+      "nl": "ophalen",
+      "zh": "接送/接來",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          291
+        ],
+        [
+          "_iC1Pooi2UA",
+          307
+        ]
+      ]
+    },
+    {
+      "nl": "overstroomd",
+      "zh": "氾濫/淹沒",
+      "level": "B1",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          132
+        ],
+        [
+          "_iC1Pooi2UA",
+          152
+        ]
+      ]
+    },
+    {
+      "nl": "pakket",
+      "zh": "包裹",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          161
+        ],
+        [
+          "AMVy2zPNLso",
+          175
+        ]
+      ]
+    },
+    {
+      "nl": "parkeren",
+      "zh": "parkeren",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          149
+        ],
+        [
+          "AMVy2zPNLso",
+          119
+        ]
+      ]
+    },
+    {
+      "nl": "paskamers",
+      "zh": "試衣間",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          75
+        ],
+        [
+          "mock3_a2_2026",
+          76
+        ]
+      ]
+    },
+    {
+      "nl": "plek",
+      "zh": "位子",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          349
+        ],
+        [
+          "AMVy2zPNLso",
+          364
+        ]
+      ]
+    },
+    {
+      "nl": "precies",
+      "zh": "正好/恰好",
+      "level": "B1",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          123
+        ],
+        [
+          "mock3_a2_2026",
+          66
+        ]
+      ]
+    },
+    {
+      "nl": "productie",
+      "zh": "生產",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          69
+        ],
+        [
+          "AMVy2zPNLso",
+          70
+        ]
+      ]
+    },
+    {
+      "nl": "rechtsaf",
+      "zh": "右转",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          109
+        ],
+        [
+          "AMVy2zPNLso",
+          118
+        ]
+      ]
+    },
+    {
+      "nl": "reizen",
+      "zh": "出行",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          240
+        ],
+        [
+          "AMVy2zPNLso",
+          255
+        ]
+      ]
+    },
+    {
+      "nl": "reizigers",
+      "zh": "旅客",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          365
+        ],
+        [
+          "AMVy2zPNLso",
+          379
+        ]
+      ]
+    },
+    {
+      "nl": "schoongemaakt",
+      "zh": "已清理",
+      "level": "B1",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          251
+        ],
+        [
+          "AMVy2zPNLso",
+          266
+        ]
+      ]
+    },
+    {
+      "nl": "schrijfopdracht",
+      "zh": "写作作业",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          235
+        ],
+        [
+          "_iC1Pooi2UA",
+          259
+        ]
+      ]
+    },
+    {
+      "nl": "slapen",
+      "zh": "睡覺",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          172
+        ],
+        [
+          "_iC1Pooi2UA",
+          155
+        ]
+      ]
+    },
+    {
+      "nl": "snacks",
+      "zh": "點心、零食",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          48
+        ],
+        [
+          "_iC1Pooi2UA",
+          64
+        ]
+      ]
+    },
+    {
+      "nl": "snijden",
+      "zh": "切",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          197
+        ],
+        [
+          "_iC1Pooi2UA",
+          221
+        ]
+      ]
+    },
+    {
+      "nl": "spelfouten",
+      "zh": "拼写错误",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          240
+        ],
+        [
+          "_iC1Pooi2UA",
+          264
+        ]
+      ]
+    },
+    {
+      "nl": "stadsboerderij",
+      "zh": "城市農場",
+      "level": "B1",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          346
+        ],
+        [
+          "_iC1Pooi2UA",
+          365
+        ]
+      ]
+    },
+    {
+      "nl": "stage",
+      "zh": "實習",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          55
+        ],
+        [
+          "AMVy2zPNLso",
+          76
+        ]
+      ]
+    },
+    {
+      "nl": "telefoonnummer",
+      "zh": "telefoonnummer",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          280
+        ],
+        [
+          "AMVy2zPNLso",
+          296
+        ]
+      ]
+    },
+    {
+      "nl": "toevallig",
+      "zh": "剛好/偶然",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          303
+        ],
+        [
+          "_iC1Pooi2UA",
+          320
+        ]
+      ]
+    },
+    {
+      "nl": "totaal",
+      "zh": "總共",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          57
+        ],
+        [
+          "AMVy2zPNLso",
+          212
+        ]
+      ]
+    },
+    {
+      "nl": "trein",
+      "zh": "火車",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          206
+        ],
+        [
+          "mock3_a2_2026",
+          58
+        ]
+      ]
+    },
+    {
+      "nl": "treinen",
+      "zh": "列車",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          254
+        ],
+        [
+          "AMVy2zPNLso",
+          269
+        ]
+      ]
+    },
+    {
+      "nl": "treinstation",
+      "zh": "火車站",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          162
+        ],
+        [
+          "_iC1Pooi2UA",
+          180
+        ]
+      ]
+    },
+    {
+      "nl": "uitzendbureau",
+      "zh": "employment agency",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          41
+        ],
+        [
+          "AMVy2zPNLso",
+          83
+        ]
+      ]
+    },
+    {
+      "nl": "vanaf",
+      "zh": "从…起",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          107
+        ],
+        [
+          "AMVy2zPNLso",
+          125
+        ]
+      ]
+    },
+    {
+      "nl": "verdieping",
+      "zh": "樓層",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          156
+        ],
+        [
+          "AMVy2zPNLso",
+          170
+        ]
+      ]
+    },
+    {
+      "nl": "vertraging",
+      "zh": "延遲/耽擱",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          202
+        ],
+        [
+          "AMVy2zPNLso",
+          219
+        ]
+      ]
+    },
+    {
+      "nl": "vijf",
+      "zh": "五",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          244
+        ],
+        [
+          "AMVy2zPNLso",
+          259
+        ]
+      ]
+    },
+    {
+      "nl": "voldoende",
+      "zh": "充足",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          81
+        ],
+        [
+          "_iC1Pooi2UA",
+          96
+        ]
+      ]
+    },
+    {
+      "nl": "voor het eerst",
+      "zh": "第一次",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          149
+        ],
+        [
+          "mock3_a2_2026",
+          155
+        ]
+      ]
+    },
+    {
+      "nl": "vriendin",
+      "zh": "朋友（女性）",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          298
+        ],
+        [
+          "_iC1Pooi2UA",
+          313
+        ]
+      ]
+    },
+    {
+      "nl": "vriendinnen",
+      "zh": "朋友（女性）",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          36
+        ],
+        [
+          "_iC1Pooi2UA",
+          7
+        ]
+      ]
+    },
+    {
+      "nl": "vrijdag",
+      "zh": "星期五",
+      "level": "A1",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          373
+        ],
+        [
+          "mock3_a2_2026",
+          42
+        ]
+      ]
+    },
+    {
+      "nl": "wachten",
+      "zh": "等待",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          201
+        ],
+        [
+          "AMVy2zPNLso",
+          218
+        ]
+      ]
+    },
+    {
+      "nl": "waterleiding",
+      "zh": "水管",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          130
+        ],
+        [
+          "_iC1Pooi2UA",
+          150
+        ]
+      ]
+    },
+    {
+      "nl": "werken",
+      "zh": "工作",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          63
+        ],
+        [
+          "_iC1Pooi2UA",
+          72
+        ]
+      ]
+    },
+    {
+      "nl": "werkplanning",
+      "zh": "工作計畫",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          54
+        ],
+        [
+          "AMVy2zPNLso",
+          75
+        ]
+      ]
+    },
+    {
+      "nl": "werkroosters",
+      "zh": "工作排程",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          54
+        ],
+        [
+          "AMVy2zPNLso",
+          75
+        ]
+      ]
+    },
+    {
+      "nl": "woensdag",
+      "zh": "星期三",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          48
+        ],
+        [
+          "mock3_a2_2026",
+          44
+        ]
+      ]
+    },
+    {
+      "nl": "woordenboek",
+      "zh": "辭典",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          362
+        ],
+        [
+          "_iC1Pooi2UA",
+          278
+        ]
+      ]
+    },
+    {
+      "nl": "zes",
+      "zh": "六",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          311
+        ],
+        [
+          "_iC1Pooi2UA",
+          312
+        ]
+      ]
+    },
+    {
+      "nl": "zeven",
+      "zh": "七",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          311
+        ],
+        [
+          "_iC1Pooi2UA",
+          312
+        ]
+      ]
+    },
+    {
+      "nl": "ziens",
+      "zh": "告別用語",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          252
+        ],
+        [
+          "AMVy2zPNLso",
+          60
+        ]
+      ]
+    },
+    {
+      "nl": "zullen",
+      "zh": "將",
+      "level": "A2",
+      "count": 2,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          248
+        ],
+        [
+          "AMVy2zPNLso",
+          324
+        ]
+      ]
+    },
+    {
+      "nl": " Hamza",
+      "zh": "哈姆扎 人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          229
+        ]
+      ]
+    },
+    {
+      "nl": " leukste",
+      "zh": "最有趣的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          137
+        ]
+      ]
+    },
+    {
+      "nl": "018-365-4481",
+      "zh": "電話號碼",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          73
+        ]
+      ]
+    },
+    {
+      "nl": "27 april",
+      "zh": "4/27",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          388
+        ]
+      ]
+    },
+    {
+      "nl": "6 weken",
+      "zh": "6 週",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          124
+        ]
+      ]
+    },
+    {
+      "nl": "Ach",
+      "zh": "唉",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          5
+        ]
+      ]
+    },
+    {
+      "nl": "Afrika",
+      "zh": "非洲",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          67
+        ]
+      ]
+    },
+    {
+      "nl": "Amara.org",
+      "zh": "一個字幕提供平台",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          384
+        ]
+      ]
+    },
+    {
+      "nl": "Amara.org gemeenschap",
+      "zh": "Amara.org gemeenschap",
+      "level": "B1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          275
+        ]
+      ]
+    },
+    {
+      "nl": "Amina",
+      "zh": "名字",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          125
+        ]
+      ]
+    },
+    {
+      "nl": "Amsterdam",
+      "zh": "阿姆斯特丹",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          259
+        ]
+      ]
+    },
+    {
+      "nl": "Azië",
+      "zh": "亞洲",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          67
+        ]
+      ]
+    },
+    {
+      "nl": "B1",
+      "zh": "B1 水平",
+      "level": "B1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          50
+        ]
+      ]
+    },
+    {
+      "nl": "Babies/zwanger",
+      "zh": "懷孕",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          33
+        ]
+      ]
+    },
+    {
+      "nl": "Barendrecht",
+      "zh": "地名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          163
+        ]
+      ]
+    },
+    {
+      "nl": "Bent u getrouwd",
+      "zh": "您結婚了嗎",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          7
+        ]
+      ]
+    },
+    {
+      "nl": "Bram",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          141
+        ]
+      ]
+    },
+    {
+      "nl": "Capotte vrachtwagen",
+      "zh": "壞掉的卡車",
+      "level": "B1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          246
+        ]
+      ]
+    },
+    {
+      "nl": "Chauffeurs",
+      "zh": "司機",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          71
+        ]
+      ]
+    },
+    {
+      "nl": "Daniëlle",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          32
+        ]
+      ]
+    },
+    {
+      "nl": "Dank je",
+      "zh": "謝謝你",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          328
+        ]
+      ]
+    },
+    {
+      "nl": "Dank u wel",
+      "zh": "謝謝您",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          18
+        ]
+      ]
+    },
+    {
+      "nl": "Doeg",
+      "zh": "再見",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          110
+        ]
+      ]
+    },
+    {
+      "nl": "Drie",
+      "zh": "三",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          5
+        ]
+      ]
+    },
+    {
+      "nl": "Drie maanden",
+      "zh": "三個月",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          13
+        ]
+      ]
+    },
+    {
+      "nl": "Echt",
+      "zh": "真的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          99
+        ]
+      ]
+    },
+    {
+      "nl": "Egge",
+      "zh": "姓氏",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          138
+        ]
+      ]
+    },
+    {
+      "nl": "Einde",
+      "zh": "結束",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          83
+        ]
+      ]
+    },
+    {
+      "nl": "Enrico",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          233
+        ]
+      ]
+    },
+    {
+      "nl": "Fijne",
+      "zh": "美好、愉快",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          19
+        ]
+      ]
+    },
+    {
+      "nl": "Franse patat",
+      "zh": "法國薯條",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          198
+        ]
+      ]
+    },
+    {
+      "nl": "Gefeliciteerd",
+      "zh": "恭喜",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          4
+        ]
+      ]
+    },
+    {
+      "nl": "Gerrits",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          187
+        ]
+      ]
+    },
+    {
+      "nl": "Gerritsen",
+      "zh": "姓氏",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          196
+        ]
+      ]
+    },
+    {
+      "nl": "Gisteren",
+      "zh": "昨天",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          358
+        ]
+      ]
+    },
+    {
+      "nl": "Goedenavond",
+      "zh": "晚上好",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          162
+        ]
+      ]
+    },
+    {
+      "nl": "Ha",
+      "zh": "嗨，打招呼用語",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          319
+        ]
+      ]
+    },
+    {
+      "nl": "Hetzelfde",
+      "zh": "同樣的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          20
+        ]
+      ]
+    },
+    {
+      "nl": "Hoe gaat het",
+      "zh": "你好嗎",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          2
+        ]
+      ]
+    },
+    {
+      "nl": "Hoe lang",
+      "zh": "多久/多久之久",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          4
+        ]
+      ]
+    },
+    {
+      "nl": "Hoek",
+      "zh": "角落/店名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          187
+        ]
+      ]
+    },
+    {
+      "nl": "Hoeveel",
+      "zh": "多少",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          85
+        ]
+      ]
+    },
+    {
+      "nl": "Hoi",
+      "zh": "嗨",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          93
+        ]
+      ]
+    },
+    {
+      "nl": "Hopelijk",
+      "zh": "希望",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          95
+        ]
+      ]
+    },
+    {
+      "nl": "Iemand die vroeg op kan staan",
+      "zh": "能早起的人",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          29
+        ]
+      ]
+    },
+    {
+      "nl": "In de rij",
+      "zh": "在排隊中",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          369
+        ]
+      ]
+    },
+    {
+      "nl": "Koningsdag",
+      "zh": "國王日",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          434
+        ]
+      ]
+    },
+    {
+      "nl": "Laat",
+      "zh": "讓",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          277
+        ]
+      ]
+    },
+    {
+      "nl": "Lars",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          30
+        ]
+      ]
+    },
+    {
+      "nl": "Lopend",
+      "zh": "步行",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          183
+        ]
+      ]
+    },
+    {
+      "nl": "Maat 52",
+      "zh": "尺碼52",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          85
+        ]
+      ]
+    },
+    {
+      "nl": "Mark",
+      "zh": "名字",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          11
+        ]
+      ]
+    },
+    {
+      "nl": "Melvin",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          232
+        ]
+      ]
+    },
+    {
+      "nl": "Mira",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          209
+        ]
+      ]
+    },
+    {
+      "nl": "Misschien",
+      "zh": "也許",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          17
+        ]
+      ]
+    },
+    {
+      "nl": "NS",
+      "zh": "NS (Nederlandse Spoorwegen)",
+      "level": "B1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          270
+        ]
+      ]
+    },
+    {
+      "nl": "Nabil",
+      "zh": "Nabil",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          165
+        ]
+      ]
+    },
+    {
+      "nl": "Nederland",
+      "zh": "荷蘭",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          68
+        ]
+      ]
+    },
+    {
+      "nl": "Nederlands",
+      "zh": "荷蘭語",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          49
+        ]
+      ]
+    },
+    {
+      "nl": "Nederlands spreken",
+      "zh": "荷蘭語口語能力",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          82
+        ]
+      ]
+    },
+    {
+      "nl": "Nika en Marcus samen maken",
+      "zh": "Nika 和 Marcus 一起做什麼",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          327
+        ]
+      ]
+    },
+    {
+      "nl": "Nou",
+      "zh": "那好吧/那就",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          12
+        ]
+      ]
+    },
+    {
+      "nl": "Oké",
+      "zh": "好的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          46
+        ]
+      ]
+    },
+    {
+      "nl": "Ola",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          366
+        ]
+      ]
+    },
+    {
+      "nl": "Om half tien",
+      "zh": "差十分十點",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          413
+        ]
+      ]
+    },
+    {
+      "nl": "Om zeven uur",
+      "zh": "七點鐘",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          321
+        ]
+      ]
+    },
+    {
+      "nl": "Op maandag, op dinsdag, op vrijdag, op zaterdag",
+      "zh": "週一、週二、週五、週六",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          341
+        ]
+      ]
+    },
+    {
+      "nl": "Over een maand",
+      "zh": "一個月後",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          126
+        ]
+      ]
+    },
+    {
+      "nl": "Over zes weken",
+      "zh": "再過六週",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          127
+        ]
+      ]
+    },
+    {
+      "nl": "Paul",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          36
+        ]
+      ]
+    },
+    {
+      "nl": "Roman",
+      "zh": "罗曼（人名）",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          134
+        ]
+      ]
+    },
+    {
+      "nl": "Shanti",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          54
+        ]
+      ]
+    },
+    {
+      "nl": "Sonja",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          295
+        ]
+      ]
+    },
+    {
+      "nl": "Sophia",
+      "zh": "Sophia",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          282
+        ]
+      ]
+    },
+    {
+      "nl": "Superfit",
+      "zh": "品牌名/健身房名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          3
+        ]
+      ]
+    },
+    {
+      "nl": "Ten slotte",
+      "zh": "最後",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          253
+        ]
+      ]
+    },
+    {
+      "nl": "Top",
+      "zh": "好/太棒",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          40
+        ]
+      ]
+    },
+    {
+      "nl": "Tot",
+      "zh": "直到",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          275
+        ]
+      ]
+    },
+    {
+      "nl": "Tot dan",
+      "zh": "到時見/再見",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          11
+        ]
+      ]
+    },
+    {
+      "nl": "Tuurlijk",
+      "zh": "當然",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          10
+        ]
+      ]
+    },
+    {
+      "nl": "Twee maanden",
+      "zh": "兩個月",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          12
+        ]
+      ]
+    },
+    {
+      "nl": "Vanavond",
+      "zh": "今晚",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          311
+        ]
+      ]
+    },
+    {
+      "nl": "Vandaag",
+      "zh": "今天",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          128
+        ]
+      ]
+    },
+    {
+      "nl": "Vier maanden",
+      "zh": "四個月",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          13
+        ]
+      ]
+    },
+    {
+      "nl": "Vraag 1, vraag 2, vraag 3, vraag 4",
+      "zh": "問題 1 至 4",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          328
+        ]
+      ]
+    },
+    {
+      "nl": "Wat",
+      "zh": "什麼",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          41
+        ]
+      ]
+    },
+    {
+      "nl": "Welke",
+      "zh": "哪一個",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          84
+        ]
+      ]
+    },
+    {
+      "nl": "Wim",
+      "zh": "人名",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          140
+        ]
+      ]
+    },
+    {
+      "nl": "Yari",
+      "zh": "Yari",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          14
+        ]
+      ]
+    },
+    {
+      "nl": "Zuid",
+      "zh": "南方/西區",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          180
+        ]
+      ]
+    },
+    {
+      "nl": "Zuid-Amerika",
+      "zh": "南美洲",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          67
+        ]
+      ]
+    },
+    {
+      "nl": "aangifte doen",
+      "zh": "申報/報案",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          6
+        ]
+      ]
+    },
+    {
+      "nl": "aankomende tijd",
+      "zh": "未來一段時間",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          9
+        ]
+      ]
+    },
+    {
+      "nl": "aanmelden",
+      "zh": "註冊/申請",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          99
+        ]
+      ]
+    },
+    {
+      "nl": "acht uur",
+      "zh": "八點",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          379
+        ]
+      ]
+    },
+    {
+      "nl": "advies",
+      "zh": "建議",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          276
+        ]
+      ]
+    },
+    {
+      "nl": "afdeling",
+      "zh": "科別/部門",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          155
+        ]
+      ]
+    },
+    {
+      "nl": "afdelingen",
+      "zh": "科室/部門",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          163
+        ]
+      ]
+    },
+    {
+      "nl": "afgelopen twee jaar",
+      "zh": "過去兩年",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          355
+        ]
+      ]
+    },
+    {
+      "nl": "afsluiten",
+      "zh": "結束/結尾",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          159
+        ]
+      ]
+    },
+    {
+      "nl": "alle woorden",
+      "zh": "所有單字",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          263
+        ]
+      ]
+    },
+    {
+      "nl": "allerlei",
+      "zh": "各式各樣",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          385
+        ]
+      ]
+    },
+    {
+      "nl": "allerleukste",
+      "zh": "最喜歡的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          134
+        ]
+      ]
+    },
+    {
+      "nl": "anders",
+      "zh": "否則",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          44
+        ]
+      ]
+    },
+    {
+      "nl": "auto",
+      "zh": "汽車",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          428
+        ]
+      ]
+    },
+    {
+      "nl": "autos",
+      "zh": "車",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          260
+        ]
+      ]
+    },
+    {
+      "nl": "avond",
+      "zh": "今晚/晚些時候",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          284
+        ]
+      ]
+    },
+    {
+      "nl": "baas",
+      "zh": "老闆",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          152
+        ]
+      ]
+    },
+    {
+      "nl": "begin",
+      "zh": "開始",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          31
+        ]
+      ]
+    },
+    {
+      "nl": "bekijkt",
+      "zh": "閲讀、查看",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          85
+        ]
+      ]
+    },
+    {
+      "nl": "beller",
+      "zh": "beller (对话者)",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          279
+        ]
+      ]
+    },
+    {
+      "nl": "berichtje",
+      "zh": "簡訊、小訊息",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          65
+        ]
+      ]
+    },
+    {
+      "nl": "bespreek",
+      "zh": "討論",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          355
+        ]
+      ]
+    },
+    {
+      "nl": "beste",
+      "zh": "最好/最適合",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          181
+        ]
+      ]
+    },
+    {
+      "nl": "bestelt",
+      "zh": "點餐/點單",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          211
+        ]
+      ]
+    },
+    {
+      "nl": "bestond",
+      "zh": "存在/成立",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          383
+        ]
+      ]
+    },
+    {
+      "nl": "beter",
+      "zh": "好了",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          95
+        ]
+      ]
+    },
+    {
+      "nl": "bij",
+      "zh": "在...附近/於",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          325
+        ]
+      ]
+    },
+    {
+      "nl": "bijn",
+      "zh": "昨日日常詞，應為 'belangrijk/ bijzondere' 需判斷",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          164
+        ]
+      ]
+    },
+    {
+      "nl": "boodschappen doen",
+      "zh": "採買食材",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          389
+        ]
+      ]
+    },
+    {
+      "nl": "brief",
+      "zh": "信",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          267
+        ]
+      ]
+    },
+    {
+      "nl": "brievenschrijven",
+      "zh": "信件寫作",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          276
+        ]
+      ]
+    },
+    {
+      "nl": "broek",
+      "zh": "褲子",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          78
+        ]
+      ]
+    },
+    {
+      "nl": "brug",
+      "zh": "桥",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          126
+        ]
+      ]
+    },
+    {
+      "nl": "buitenwerken",
+      "zh": "在户外工作",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          135
+        ]
+      ]
+    },
+    {
+      "nl": "bussen",
+      "zh": "busjes/bussen",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          160
+        ]
+      ]
+    },
+    {
+      "nl": "buurt",
+      "zh": "附近",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          13
+        ]
+      ]
+    },
+    {
+      "nl": "colas",
+      "zh": "可樂",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          206
+        ]
+      ]
+    },
+    {
+      "nl": "collega's",
+      "zh": "同事",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          63
+        ]
+      ]
+    },
+    {
+      "nl": "controleer",
+      "zh": "檢查",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          277
+        ]
+      ]
+    },
+    {
+      "nl": "cursus Nederlands",
+      "zh": "荷蘭語課程",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          74
+        ]
+      ]
+    },
+    {
+      "nl": "daadwerkelijk",
+      "zh": "實際上?（此句中應為 op Schiphol tegenover）",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          346
+        ]
+      ]
+    },
+    {
+      "nl": "daarachter",
+      "zh": "在后面",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          111
+        ]
+      ]
+    },
+    {
+      "nl": "dankjewel",
+      "zh": "謝謝你",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          259
+        ]
+      ]
+    },
+    {
+      "nl": "dans",
+      "zh": "舞蹈",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          434
+        ]
+      ]
+    },
+    {
+      "nl": "datum",
+      "zh": "日期",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          67
+        ]
+      ]
+    },
+    {
+      "nl": "de dag",
+      "zh": "那一天/前一天（特定日期前的日子）",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          120
+        ]
+      ]
+    },
+    {
+      "nl": "derde",
+      "zh": "第三",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          336
+        ]
+      ]
+    },
+    {
+      "nl": "dicht",
+      "zh": "關閉/關門",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          338
+        ]
+      ]
+    },
+    {
+      "nl": "die",
+      "zh": "那個",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          285
+        ]
+      ]
+    },
+    {
+      "nl": "dikke",
+      "zh": "大/厚",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          203
+        ]
+      ]
+    },
+    {
+      "nl": "dinsdag",
+      "zh": "星期二",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          322
+        ]
+      ]
+    },
+    {
+      "nl": "directeur",
+      "zh": "directeur",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          281
+        ]
+      ]
+    },
+    {
+      "nl": "dit",
+      "zh": "這個",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          110
+        ]
+      ]
+    },
+    {
+      "nl": "donderdag",
+      "zh": "Thursday",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          158
+        ]
+      ]
+    },
+    {
+      "nl": "door",
+      "zh": "過遍/再過一遍",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          279
+        ]
+      ]
+    },
+    {
+      "nl": "doorlezen",
+      "zh": "再讀、校對",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          243
+        ]
+      ]
+    },
+    {
+      "nl": "drukste dag",
+      "zh": "最繁忙的一天",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          373
+        ]
+      ]
+    },
+    {
+      "nl": "drukste dag ooit",
+      "zh": "有史以來最忙的日子",
+      "level": "B1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          355
+        ]
+      ]
+    },
+    {
+      "nl": "duur",
+      "zh": "便宜/昂貴的相對詞",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          9
+        ]
+      ]
+    },
+    {
+      "nl": "e-mail",
+      "zh": "email（郵件）",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          61
+        ]
+      ]
+    },
+    {
+      "nl": "een beetje",
+      "zh": "一點點",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          155
+        ]
+      ]
+    },
+    {
+      "nl": "een boom",
+      "zh": "一棵樹",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          131
+        ]
+      ]
+    },
+    {
+      "nl": "eventjes",
+      "zh": "一下、短暫地",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          326
+        ]
+      ]
+    },
+    {
+      "nl": "examens",
+      "zh": "考試",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          195
+        ]
+      ]
+    },
+    {
+      "nl": "fabriek",
+      "zh": "工廠",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          71
+        ]
+      ]
+    },
+    {
+      "nl": "feestdagen",
+      "zh": "feestdagen",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          97
+        ]
+      ]
+    },
+    {
+      "nl": "fijn",
+      "zh": "愉快",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          387
+        ]
+      ]
+    },
+    {
+      "nl": "fles",
+      "zh": "瓶子",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          190
+        ]
+      ]
+    },
+    {
+      "nl": "flessen",
+      "zh": "瓶",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          205
+        ]
+      ]
+    },
+    {
+      "nl": "formulier",
+      "zh": "formulier",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          172
+        ]
+      ]
+    },
+    {
+      "nl": "ga je",
+      "zh": "你要去做/打算做",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          130
+        ]
+      ]
+    },
+    {
+      "nl": "gaan",
+      "zh": "前往，去",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          360
+        ]
+      ]
+    },
+    {
+      "nl": "gaten",
+      "zh": "洞",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          107
+        ]
+      ]
+    },
+    {
+      "nl": "geen",
+      "zh": "沒有/零",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          86
+        ]
+      ]
+    },
+    {
+      "nl": "geen probleem",
+      "zh": "沒問題",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          10
+        ]
+      ]
+    },
+    {
+      "nl": "geldig",
+      "zh": "有效",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          116
+        ]
+      ]
+    },
+    {
+      "nl": "geloof",
+      "zh": "相信",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          64
+        ]
+      ]
+    },
+    {
+      "nl": "gemaakt",
+      "zh": "修好、做完",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          175
+        ]
+      ]
+    },
+    {
+      "nl": "gemeente",
+      "zh": "gemeente",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          158
+        ]
+      ]
+    },
+    {
+      "nl": "gemist",
+      "zh": "missen (gemist)",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          96
+        ]
+      ]
+    },
+    {
+      "nl": "geopend",
+      "zh": "開幕",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          164
+        ]
+      ]
+    },
+    {
+      "nl": "geroepen",
+      "zh": "被指派/ ingezet",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          347
+        ]
+      ]
+    },
+    {
+      "nl": "geschreven",
+      "zh": "拼写",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          239
+        ]
+      ]
+    },
+    {
+      "nl": "gestolen",
+      "zh": "被偷",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          116
+        ]
+      ]
+    },
+    {
+      "nl": "getrouwd",
+      "zh": "married",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          36
+        ]
+      ]
+    },
+    {
+      "nl": "gevraagd",
+      "zh": "問、請求的動作相關動詞",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          244
+        ]
+      ]
+    },
+    {
+      "nl": "goed geschreven",
+      "zh": "寫得好",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          263
+        ]
+      ]
+    },
+    {
+      "nl": "goedemiddag",
+      "zh": "午安",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          111
+        ]
+      ]
+    },
+    {
+      "nl": "goeie",
+      "zh": "好，正確",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          202
+        ]
+      ]
+    },
+    {
+      "nl": "groene",
+      "zh": "绿色的",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          126
+        ]
+      ]
+    },
+    {
+      "nl": "groot",
+      "zh": "太大",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          83
+        ]
+      ]
+    },
+    {
+      "nl": "half tien",
+      "zh": "十點半",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          398
+        ]
+      ]
+    },
+    {
+      "nl": "half zes",
+      "zh": "五點半",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          61
+        ]
+      ]
+    },
+    {
+      "nl": "handig",
+      "zh": "有用的，方便的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          216
+        ]
+      ]
+    },
+    {
+      "nl": "handige informatie",
+      "zh": "handige informatie",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          168
+        ]
+      ]
+    },
+    {
+      "nl": "handigste",
+      "zh": "最方便的、最实用的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          115
+        ]
+      ]
+    },
+    {
+      "nl": "hartelijk welkom",
+      "zh": "衷心歡迎",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          162
+        ]
+      ]
+    },
+    {
+      "nl": "heeft",
+      "zh": "有/需要",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          133
+        ]
+      ]
+    },
+    {
+      "nl": "hele jaar",
+      "zh": "整年",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          354
+        ]
+      ]
+    },
+    {
+      "nl": "helpen",
+      "zh": "幫忙",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          389
+        ]
+      ]
+    },
+    {
+      "nl": "hoofdstuk 6",
+      "zh": "第六章",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          101
+        ]
+      ]
+    },
+    {
+      "nl": "hoofdstuk 7",
+      "zh": "第七章",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          102
+        ]
+      ]
+    },
+    {
+      "nl": "hoor",
+      "zh": "對話中的輕微肯定/結尾語助詞",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          32
+        ]
+      ]
+    },
+    {
+      "nl": "houdt",
+      "zh": "喜好/忠於？動詞第三人稱單數形式",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          3
+        ]
+      ]
+    },
+    {
+      "nl": "huis",
+      "zh": "家/住所",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          125
+        ]
+      ]
+    },
+    {
+      "nl": "huiswerk",
+      "zh": "作業",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          100
+        ]
+      ]
+    },
+    {
+      "nl": "huiswerkopdracht",
+      "zh": "作業任務",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          356
+        ]
+      ]
+    },
+    {
+      "nl": "hun",
+      "zh": "他們的",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          370
+        ]
+      ]
+    },
+    {
+      "nl": "ijs",
+      "zh": "冰淇淋",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          365
+        ]
+      ]
+    },
+    {
+      "nl": "ijsfabrikant",
+      "zh": "冰淇淋製造商",
+      "level": "B1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          350
+        ]
+      ]
+    },
+    {
+      "nl": "inschrijfgeld",
+      "zh": "報名費",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          11
+        ]
+      ]
+    },
+    {
+      "nl": "inschrijving",
+      "zh": "註冊/登記",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          46
+        ]
+      ]
+    },
+    {
+      "nl": "jaar",
+      "zh": "一年/年",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          373
+        ]
+      ]
+    },
+    {
+      "nl": "jij",
+      "zh": "你",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          63
+        ]
+      ]
+    },
+    {
+      "nl": "kapot gegaan",
+      "zh": "破裂/壞掉了",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          150
+        ]
+      ]
+    },
+    {
+      "nl": "kapotte",
+      "zh": "損壞的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          261
+        ]
+      ]
+    },
+    {
+      "nl": "kassa",
+      "zh": "收銀機/櫃台",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          157
+        ]
+      ]
+    },
+    {
+      "nl": "ken",
+      "zh": "認識/知道",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          24
+        ]
+      ]
+    },
+    {
+      "nl": "kennen",
+      "zh": "认识/了解",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          238
+        ]
+      ]
+    },
+    {
+      "nl": "kerstbrood",
+      "zh": "聖誕麵包",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          98
+        ]
+      ]
+    },
+    {
+      "nl": "kinderbedje",
+      "zh": "嬰兒床",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          42
+        ]
+      ]
+    },
+    {
+      "nl": "kindje",
+      "zh": "小孩/寶寶",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          32
+        ]
+      ]
+    },
+    {
+      "nl": "klas",
+      "zh": "班級",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          419
+        ]
+      ]
+    },
+    {
+      "nl": "kleinere",
+      "zh": "較小的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          86
+        ]
+      ]
+    },
+    {
+      "nl": "klok",
+      "zh": "時間",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          401
+        ]
+      ]
+    },
+    {
+      "nl": "koken",
+      "zh": "煮/烹飪",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          43
+        ]
+      ]
+    },
+    {
+      "nl": "kom en halve negen",
+      "zh": "九點半",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          377
+        ]
+      ]
+    },
+    {
+      "nl": "komen",
+      "zh": "來",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          72
+        ]
+      ]
+    },
+    {
+      "nl": "komt",
+      "zh": "來到、到達",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          400
+        ]
+      ]
+    },
+    {
+      "nl": "kunt",
+      "zh": "你可以",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          88
+        ]
+      ]
+    },
+    {
+      "nl": "kwijt",
+      "zh": "遺失",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          117
+        ]
+      ]
+    },
+    {
+      "nl": "laatste",
+      "zh": "最後的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          264
+        ]
+      ]
+    },
+    {
+      "nl": "landen",
+      "zh": "國家/ 地區",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          66
+        ]
+      ]
+    },
+    {
+      "nl": "lang",
+      "zh": "久/長",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          50
+        ]
+      ]
+    },
+    {
+      "nl": "langslopen",
+      "zh": "langslopen",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          176
+        ]
+      ]
+    },
+    {
+      "nl": "lastig",
+      "zh": "困難的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          378
+        ]
+      ]
+    },
+    {
+      "nl": "laten",
+      "zh": "需要/要",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          423
+        ]
+      ]
+    },
+    {
+      "nl": "lekker",
+      "zh": "舒服、合適",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          82
+        ]
+      ]
+    },
+    {
+      "nl": "les",
+      "zh": "課",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          361
+        ]
+      ]
+    },
+    {
+      "nl": "liggen",
+      "zh": "躺在、位於",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          251
+        ]
+      ]
+    },
+    {
+      "nl": "lopen",
+      "zh": "走路",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          162
+        ]
+      ]
+    },
+    {
+      "nl": "lukken",
+      "zh": "成功、成功完成",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          41
+        ]
+      ]
+    },
+    {
+      "nl": "ma tidal",
+      "zh": "無",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          410
+        ]
+      ]
+    },
+    {
+      "nl": "maaiën",
+      "zh": "割草",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          133
+        ]
+      ]
+    },
+    {
+      "nl": "maaltijd",
+      "zh": "...?",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          8
+        ]
+      ]
+    },
+    {
+      "nl": "maat",
+      "zh": "尺碼",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          79
+        ]
+      ]
+    },
+    {
+      "nl": "maatschappijleer",
+      "zh": "社會科",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          103
+        ]
+      ]
+    },
+    {
+      "nl": "magazijn",
+      "zh": "倉庫",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          70
+        ]
+      ]
+    },
+    {
+      "nl": "mailen",
+      "zh": "mailen",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          178
+        ]
+      ]
+    },
+    {
+      "nl": "maken",
+      "zh": "做/做成",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          96
+        ]
+      ]
+    },
+    {
+      "nl": "medekursisten",
+      "zh": "同學/同修",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          209
+        ]
+      ]
+    },
+    {
+      "nl": "medewerker groen",
+      "zh": "綠化部門工作人員",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          129
+        ]
+      ]
+    },
+    {
+      "nl": "mee gaan",
+      "zh": "一起去",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          306
+        ]
+      ]
+    },
+    {
+      "nl": "meest",
+      "zh": "最美/最...",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          433
+        ]
+      ]
+    },
+    {
+      "nl": "met Marcus",
+      "zh": "跟 Marcus 一起，打招呼用語",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          319
+        ]
+      ]
+    },
+    {
+      "nl": "minder",
+      "zh": "較少",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          223
+        ]
+      ]
+    },
+    {
+      "nl": "moesten",
+      "zh": "必須，應當",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          382
+        ]
+      ]
+    },
+    {
+      "nl": "moet",
+      "zh": "必須",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          33
+        ]
+      ]
+    },
+    {
+      "nl": "moeten",
+      "zh": "必须",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          133
+        ]
+      ]
+    },
+    {
+      "nl": "mogelijk",
+      "zh": "可能",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          151
+        ]
+      ]
+    },
+    {
+      "nl": "na het eten",
+      "zh": "吃完飯後",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          324
+        ]
+      ]
+    },
+    {
+      "nl": "natuur",
+      "zh": "自然/戶外",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          360
+        ]
+      ]
+    },
+    {
+      "nl": "neef",
+      "zh": "表弟/表哥",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          30
+        ]
+      ]
+    },
+    {
+      "nl": "nog meer",
+      "zh": "更多、還有其他",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          132
+        ]
+      ]
+    },
+    {
+      "nl": "noten",
+      "zh": "堅果",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          65
+        ]
+      ]
+    },
+    {
+      "nl": "nu",
+      "zh": "現在",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          262
+        ]
+      ]
+    },
+    {
+      "nl": "oefening 1 en 2",
+      "zh": "練習題1和2",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          102
+        ]
+      ]
+    },
+    {
+      "nl": "om negen uur",
+      "zh": "九点钟",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          147
+        ]
+      ]
+    },
+    {
+      "nl": "omgevallen",
+      "zh": "翻覆的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          265
+        ]
+      ]
+    },
+    {
+      "nl": "onderwerp",
+      "zh": "主題",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          104
+        ]
+      ]
+    },
+    {
+      "nl": "ook",
+      "zh": "也",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          42
+        ]
+      ]
+    },
+    {
+      "nl": "op school",
+      "zh": "在學校",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          411
+        ]
+      ]
+    },
+    {
+      "nl": "opdracht",
+      "zh": "任務/作業",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          47
+        ]
+      ]
+    },
+    {
+      "nl": "openbaar vervoer",
+      "zh": "公共交通工具",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          57
+        ]
+      ]
+    },
+    {
+      "nl": "opnemen",
+      "zh": "opnemen: 取出錢",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          126
+        ]
+      ]
+    },
+    {
+      "nl": "oud",
+      "zh": "老的；年長的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          26
+        ]
+      ]
+    },
+    {
+      "nl": "ouders",
+      "zh": "家長",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          421
+        ]
+      ]
+    },
+    {
+      "nl": "pas",
+      "zh": "才、才剛",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          121
+        ]
+      ]
+    },
+    {
+      "nl": "pauze",
+      "zh": "休息/喝茶时间",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          294
+        ]
+      ]
+    },
+    {
+      "nl": "pennen",
+      "zh": "pennen",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          169
+        ]
+      ]
+    },
+    {
+      "nl": "personeel",
+      "zh": "員工",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          361
+        ]
+      ]
+    },
+    {
+      "nl": "plaatsen",
+      "zh": "plaatsen",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          94
+        ]
+      ]
+    },
+    {
+      "nl": "postbode",
+      "zh": "郵差",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          22
+        ]
+      ]
+    },
+    {
+      "nl": "postvakje",
+      "zh": "信箱格",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          49
+        ]
+      ]
+    },
+    {
+      "nl": "praat",
+      "zh": "說話",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          257
+        ]
+      ]
+    },
+    {
+      "nl": "praten",
+      "zh": "聊天，談話",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          116
+        ]
+      ]
+    },
+    {
+      "nl": "prijs",
+      "zh": "獎品",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          433
+        ]
+      ]
+    },
+    {
+      "nl": "probleem",
+      "zh": "問題",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          113
+        ]
+      ]
+    },
+    {
+      "nl": "qua",
+      "zh": "就…而言",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          268
+        ]
+      ]
+    },
+    {
+      "nl": "rekenen",
+      "zh": "算數",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          101
+        ]
+      ]
+    },
+    {
+      "nl": "restaurant",
+      "zh": "餐廳",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          297
+        ]
+      ]
+    },
+    {
+      "nl": "rond",
+      "zh": "左右、左右於",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          34
+        ]
+      ]
+    },
+    {
+      "nl": "ruim",
+      "zh": "相當多/很多",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          375
+        ]
+      ]
+    },
+    {
+      "nl": "samenreizen",
+      "zh": "同程/共同出行",
+      "level": "B1",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          56
+        ]
+      ]
+    },
+    {
+      "nl": "samenwerken",
+      "zh": "合作",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          136
+        ]
+      ]
+    },
+    {
+      "nl": "schilderd",
+      "zh": "油漆/粉刷",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          39
+        ]
+      ]
+    },
+    {
+      "nl": "schoonmaakwerk",
+      "zh": "清潔工作",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          82
+        ]
+      ]
+    },
+    {
+      "nl": "schrijfblok",
+      "zh": "寫作本",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          363
+        ]
+      ]
+    },
+    {
+      "nl": "slotjes",
+      "zh": "最後",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          268
+        ]
+      ]
+    },
+    {
+      "nl": "sluit",
+      "zh": "關閉/結束",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          158
+        ]
+      ]
+    },
+    {
+      "nl": "soms",
+      "zh": "有時",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          35
+        ]
+      ]
+    },
+    {
+      "nl": "spellen",
+      "zh": "遊戲",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          431
+        ]
+      ]
+    },
+    {
+      "nl": "sportdag",
+      "zh": "運動日",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          390
+        ]
+      ]
+    },
+    {
+      "nl": "sportschool",
+      "zh": "健身房",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          2
+        ]
+      ]
+    },
+    {
+      "nl": "stad",
+      "zh": "城鎮、城市",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          339
+        ]
+      ]
+    },
+    {
+      "nl": "stand",
+      "zh": "站著/停著",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          262
+        ]
+      ]
+    },
+    {
+      "nl": "station",
+      "zh": "車站",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          269
+        ]
+      ]
+    },
+    {
+      "nl": "stations",
+      "zh": "車站",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          254
+        ]
+      ]
+    },
+    {
+      "nl": "straat- en huisnummer",
+      "zh": "街道與門牌號碼",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          65
+        ]
+      ]
+    },
+    {
+      "nl": "strat",
+      "zh": "街上",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          0
+        ]
+      ]
+    },
+    {
+      "nl": "student",
+      "zh": "學生",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          28
+        ]
+      ]
+    },
+    {
+      "nl": "stukje",
+      "zh": "一小段",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          127
+        ]
+      ]
+    },
+    {
+      "nl": "suikerbrood",
+      "zh": "糖麵包",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          98
+        ]
+      ]
+    },
+    {
+      "nl": "supermarkten",
+      "zh": "超市",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          69
+        ]
+      ]
+    },
+    {
+      "nl": "taxi",
+      "zh": "taxi",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          272
+        ]
+      ]
+    },
+    {
+      "nl": "tegen",
+      "zh": "對面/遇到",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          0
+        ]
+      ]
+    },
+    {
+      "nl": "tekst uit de krant kiezen",
+      "zh": "從報紙中選一篇文本",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          103
+        ]
+      ]
+    },
+    {
+      "nl": "temporarily",
+      "zh": "暫時地",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          122
+        ]
+      ]
+    },
+    {
+      "nl": "thuis",
+      "zh": "家裡",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          325
+        ]
+      ]
+    },
+    {
+      "nl": "tijd",
+      "zh": "时间",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          143
+        ]
+      ]
+    },
+    {
+      "nl": "tijdelijk",
+      "zh": "臨時的",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          109
+        ]
+      ]
+    },
+    {
+      "nl": "toch",
+      "zh": "還是、也就是說",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          323
+        ]
+      ]
+    },
+    {
+      "nl": "tot straks",
+      "zh": "待會兒見",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          160
+        ]
+      ]
+    },
+    {
+      "nl": "trakteerde",
+      "zh": "款待、請客",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          380
+        ]
+      ]
+    },
+    {
+      "nl": "tram",
+      "zh": "電車",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          182
+        ]
+      ]
+    },
+    {
+      "nl": "treinstation Zuid",
+      "zh": "南火車站",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          179
+        ]
+      ]
+    },
+    {
+      "nl": "trouwboekje",
+      "zh": "huwelijksboekje",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          37
+        ]
+      ]
+    },
+    {
+      "nl": "trouwen",
+      "zh": "結婚",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          14
+        ]
+      ]
+    },
+    {
+      "nl": "tussen",
+      "zh": "在…之間",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          259
+        ]
+      ]
+    },
+    {
+      "nl": "tv-programma",
+      "zh": "電視節目",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          127
+        ]
+      ]
+    },
+    {
+      "nl": "uit halen",
+      "zh": "提取、找出",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          247
+        ]
+      ]
+    },
+    {
+      "nl": "uitdelen",
+      "zh": "給予/邀請",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          3
+        ]
+      ]
+    },
+    {
+      "nl": "uitleggen",
+      "zh": "解釋",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          157
+        ]
+      ]
+    },
+    {
+      "nl": "vanochtend",
+      "zh": "今天早上",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          155
+        ]
+      ]
+    },
+    {
+      "nl": "veel",
+      "zh": "很多",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          131
+        ]
+      ]
+    },
+    {
+      "nl": "vergeten",
+      "zh": "忘記",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          109
+        ]
+      ]
+    },
+    {
+      "nl": "verpakken",
+      "zh": "包裝",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          68
+        ]
+      ]
+    },
+    {
+      "nl": "verplaatst",
+      "zh": "搬到其他地方",
+      "level": "B1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          154
+        ]
+      ]
+    },
+    {
+      "nl": "versieren",
+      "zh": "裝飾",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          409
+        ]
+      ]
+    },
+    {
+      "nl": "vertragen",
+      "zh": "延遲",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          225
+        ]
+      ]
+    },
+    {
+      "nl": "verwerken",
+      "zh": "加工",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          68
+        ]
+      ]
+    },
+    {
+      "nl": "verwerking",
+      "zh": "? 不確定",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          224
+        ]
+      ]
+    },
+    {
+      "nl": "vier",
+      "zh": "四",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          262
+        ]
+      ]
+    },
+    {
+      "nl": "vieren kilometer",
+      "zh": "四公里",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          247
+        ]
+      ]
+    },
+    {
+      "nl": "vloer",
+      "zh": "地板",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          39
+        ]
+      ]
+    },
+    {
+      "nl": "volgen",
+      "zh": "參加/修習",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          84
+        ]
+      ]
+    },
+    {
+      "nl": "voorbeeld",
+      "zh": "例子",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          270
+        ]
+      ]
+    },
+    {
+      "nl": "vorige",
+      "zh": "上一次/前一次",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          227
+        ]
+      ]
+    },
+    {
+      "nl": "vroeger",
+      "zh": "以前",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          144
+        ]
+      ]
+    },
+    {
+      "nl": "wagen",
+      "zh": "車/車子",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          59
+        ]
+      ]
+    },
+    {
+      "nl": "war",
+      "zh": "是/存在（過去時）",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          383
+        ]
+      ]
+    },
+    {
+      "nl": "waren",
+      "zh": "是/存在（第三人稱複數過去時）",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          382
+        ]
+      ]
+    },
+    {
+      "nl": "warme dag",
+      "zh": "炎熱天氣",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          351
+        ]
+      ]
+    },
+    {
+      "nl": "week",
+      "zh": "周",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          197
+        ]
+      ]
+    },
+    {
+      "nl": "weer open",
+      "zh": "再度開放",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          163
+        ]
+      ]
+    },
+    {
+      "nl": "weet",
+      "zh": "知道",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          128
+        ]
+      ]
+    },
+    {
+      "nl": "weken",
+      "zh": "週",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          111
+        ]
+      ]
+    },
+    {
+      "nl": "wereldnotjes",
+      "zh": "世界級的小果仁？",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          68
+        ]
+      ]
+    },
+    {
+      "nl": "werk",
+      "zh": "工作",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          47
+        ]
+      ]
+    },
+    {
+      "nl": "werkwoorden",
+      "zh": "动词",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          237
+        ]
+      ]
+    },
+    {
+      "nl": "wetenschap",
+      "zh": "科學",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          105
+        ]
+      ]
+    },
+    {
+      "nl": "winkel",
+      "zh": "商店",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          147
+        ]
+      ]
+    },
+    {
+      "nl": "witten",
+      "zh": "未知詞，此句為: worden/wordt 口語化",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          153
+        ]
+      ]
+    },
+    {
+      "nl": "zeg",
+      "zh": "說",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          220
+        ]
+      ]
+    },
+    {
+      "nl": "zegt",
+      "zh": "說",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "AMVy2zPNLso",
+          221
+        ]
+      ]
+    },
+    {
+      "nl": "zie",
+      "zh": "看見",
+      "level": "A1",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          265
+        ]
+      ]
+    },
+    {
+      "nl": "zien",
+      "zh": "看見",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          241
+        ]
+      ]
+    },
+    {
+      "nl": "zo",
+      "zh": "這樣/如此",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          156
+        ]
+      ]
+    },
+    {
+      "nl": "zou",
+      "zh": "應該",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          87
+        ]
+      ]
+    },
+    {
+      "nl": "zoveel",
+      "zh": "那麼多",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "_iC1Pooi2UA",
+          120
+        ]
+      ]
+    },
+    {
+      "nl": "zussen",
+      "zh": "姐姐/妹妹",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          16
+        ]
+      ]
+    },
+    {
+      "nl": "团队",
+      "zh": "team",
+      "level": "A2",
+      "count": 1,
+      "sources": [
+        [
+          "mock3_a2_2026",
+          142
+        ]
+      ]
+    }
+  ]
+}
