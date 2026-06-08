@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>🎯 預測答題訓練 — A2 Listening Hub</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
+    --text:#e8e8f0;--text2:#9ca3af;--dim:#6b7280;--ok:#4ade80;--bad:#f87171;
+    --accent:#fb923c;--ring:#5eead4;--purple:#a78bfa;--gold:#fde047}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans","Noto Sans JP",sans-serif}
+  .wrap{max-width:600px;margin:0 auto;padding:18px 14px 100px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+  header a{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:0;font-size:18px;flex:1}
+
+  .lede{padding:10px 14px;background:rgba(167,139,250,0.1);border-radius:10px;
+    border-left:3px solid var(--purple);color:var(--text);font-size:12.5px;line-height:1.6;margin-bottom:14px}
+  .lede b{color:var(--purple)}
+
+  .stats{display:flex;gap:8px;margin-bottom:14px}
+  .stat{flex:1;text-align:center;padding:10px;background:var(--card);border-radius:10px}
+  .stat .n{font-size:18px;font-weight:800}
+  .stat .l{font-size:11px;color:var(--text2);margin-top:2px}
+  .stat.hit .n{color:var(--ok)}
+  .stat.miss .n{color:var(--bad)}
+  .stat.ratio .n{color:var(--ring)}
+
+  .card{background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line);
+    border-radius:14px;padding:18px;margin-bottom:14px}
+
+  .src-tag{font-size:11px;color:var(--dim);font-weight:700;margin-bottom:8px}
+  .q-nl{font-size:17px;font-weight:800;color:var(--text);line-height:1.4}
+  .q-zh{font-size:13px;color:var(--text2);margin-top:4px}
+
+  .opts{margin-top:14px}
+  .opt{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--card2);
+    border:2px solid transparent;border-radius:8px;margin-bottom:6px;cursor:pointer;
+    transition:border-color .15s,background .15s}
+  .opt:hover{border-color:var(--text2)}
+  .opt.picked{border-color:var(--ring);background:rgba(94,234,212,0.08)}
+  .opt.correct{border-color:var(--ok);background:rgba(74,222,128,0.12)}
+  .opt.wrong{border-color:var(--bad);background:rgba(248,113,113,0.1)}
+  .opt-letter{flex:0 0 26px;height:26px;background:rgba(255,255,255,0.06);
+    border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-size:12px;font-weight:800;color:var(--text2)}
+  .opt.picked .opt-letter{background:var(--ring);color:#000}
+  .opt.correct .opt-letter{background:var(--ok);color:#000}
+  .opt.wrong .opt-letter{background:var(--bad);color:#fff}
+  .opt-nl{flex:1;font-weight:700}
+  .opt-zh{color:var(--text2);font-size:12px;margin-left:8px}
+
+  /* Predict phase */
+  .predict-phase{margin:14px 0}
+  .timer{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+  .timer-bar{flex:1;height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+  .timer-fill{height:100%;background:linear-gradient(90deg,var(--ok),var(--gold),var(--accent),var(--bad));
+    width:100%;transition:width 1s linear,background .3s}
+  .timer-num{font-size:18px;font-weight:800;font-family:ui-monospace,monospace;
+    color:var(--ring);min-width:36px;text-align:right}
+  .timer-num.warn{color:var(--accent)}
+  .timer-num.crit{color:var(--bad)}
+  .predict-input{display:flex;gap:8px;margin-top:8px}
+  .predict-input input{flex:1;padding:10px 12px;background:var(--card2);
+    border:1px solid var(--line);border-radius:8px;color:var(--text);font:inherit;font-size:14px}
+  .predict-input input:focus{outline:none;border-color:var(--ring)}
+  .predict-tip{font-size:11.5px;color:var(--text2);margin-top:6px;line-height:1.5}
+  .predict-tip b{color:var(--ring)}
+
+  /* Action buttons */
+  .actions{display:flex;gap:8px;margin-top:12px}
+  .btn{flex:1;padding:11px;border:0;border-radius:8px;cursor:pointer;font:inherit;
+    font-size:14px;font-weight:800}
+  .btn-primary{background:linear-gradient(135deg,#7c3aed,#a78bfa);color:#fff}
+  .btn-primary:hover{filter:brightness(1.1)}
+  .btn-secondary{background:var(--card2);color:var(--text);border:1px solid var(--line)}
+  .btn-secondary:hover{border-color:var(--text2)}
+  .btn-ok{background:var(--ok);color:#000}
+  .btn-replay{padding:8px 14px;background:rgba(94,234,212,0.15);color:var(--ring);
+    border:1px solid var(--ring);border-radius:6px;cursor:pointer;font:inherit;font-size:12px;font-weight:700}
+
+  /* Reveal phase */
+  .reveal{margin-top:14px;padding:12px;background:rgba(74,222,128,0.06);
+    border-left:3px solid var(--ok);border-radius:0 8px 8px 0}
+  .reveal.bad{background:rgba(248,113,113,0.06);border-color:var(--bad)}
+  .reveal-h{font-weight:800;color:var(--ok);font-size:13px;margin-bottom:6px}
+  .reveal.bad .reveal-h{color:var(--bad)}
+  .reveal-body{font-size:12.5px;line-height:1.6;color:var(--text)}
+  .pred-hit{color:var(--ok);font-weight:800}
+  .pred-miss{color:var(--bad);font-weight:800}
+  .src-quote{margin-top:8px;padding:8px 10px;background:var(--card2);
+    border-left:3px solid var(--ring);border-radius:0 6px 6px 0;font-size:12.5px;line-height:1.55}
+  .src-quote .src-t{color:var(--ring);font-weight:800;font-family:ui-monospace,monospace;margin-right:8px}
+  .src-quote mark{background:var(--gold);color:#18181b;padding:1px 4px;border-radius:3px;font-weight:800}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="index.html">← 返回</a>
+    <h1>🎯 預測答題訓練</h1>
+  </header>
+
+  <div class="lede">
+    <b>考試最大殺手不是聽力差、是沒先讀完選項就播。</b>
+    這頁強迫你執行考場最強策略：<b>25 秒讀題</b> + <b>預測答案會聽到什麼字</b> → 才播。
+    練的是 reading-into-listening 預測力。
+  </div>
+
+  <div class="stats">
+    <div class="stat ratio"><div class="n" id="s-ratio">…</div><div class="l">命中率</div></div>
+    <div class="stat hit"><div class="n" id="s-hit">…</div><div class="l">預測 ✓</div></div>
+    <div class="stat miss"><div class="n" id="s-miss">…</div><div class="l">預測 ✗</div></div>
+    <div class="stat"><div class="n" id="s-total">…</div><div class="l">已做</div></div>
+  </div>
+
+  <div id="qbox"></div>
+</div>
+
+<script>
+const MOCKS = ['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026'];
+const MOCK_LABELS = {'_iC1Pooi2UA':'M1', 'AMVy2zPNLso':'M2', 'mock3_a2_2026':'M3'};
+const STATE_KEY = 'lph_predict_state';
+const READ_SECONDS = 25;
+
+let pool = [];       // [{vid, scn, n, q_nl, q_zh, options, answer, source, explain}]
+let curQ = null;
+let phase = 'predict'; // 'predict' | 'listen' | 'answer' | 'reveal'
+let timerId = null;
+let timeLeft = READ_SECONDS;
+let userPrediction = '';
+let userPick = -1;
+let _audio = null, _stopT = null;
+
+function loadStats() {
+  try { return JSON.parse(localStorage.getItem(STATE_KEY) || '{}'); }
+  catch(e) { return {}; }
+}
+function saveStats(s) { localStorage.setItem(STATE_KEY, JSON.stringify(s)); }
+function esc(t) { return String(t || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function parseTs(t) {
+  const m = String(t || '').match(/(\d+):(\d+)/);
+  return m ? parseInt(m[1]) * 60 + parseInt(m[2]) : 0;
+}
+
+async function loadPool() {
+  for (const vid of MOCKS) {
+    try {
+      const ex = await (await fetch(`output/${vid}/exam.json`)).json();
+      for (const sc of ex.scenarios || []) {
+        for (const q of sc.questions || []) {
+          if (!q.options || !q.options.length || q.answer == null) continue;
+          pool.push({
+            vid, scn: sc.title_zh || sc.title_nl || '',
+            n: q.n, q_nl: q.q_nl, q_zh: q.q_zh,
+            options: q.options, answer: q.answer,
+            source: q.source || [],
+            explain: q.explain || '',
+            t: parseTs(q.t),
+          });
+        }
+      }
+    } catch(e) { console.error('load fail', vid, e); }
+  }
+  // Shuffle
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+}
+
+function playSegment(vid, start, end) {
+  if (_stopT) { clearTimeout(_stopT); _stopT = null; }
+  if (!_audio) _audio = new Audio();
+  const src = `output/${vid}/audio.mp3`;
+  if (_audio.src.indexOf(src) === -1) _audio.src = src;
+  const adjStart = Math.max(0, start - 0.3);
+  const adjEnd = end + 0.4;
+  const go = () => {
+    _audio.playbackRate = 1.0;
+    _audio.currentTime = adjStart;
+    _audio.play().catch(()=>{});
+    const dur = (adjEnd - adjStart) * 1000 + 200;
+    _stopT = setTimeout(() => _audio.pause(), Math.max(1200, dur));
+  };
+  if (_audio.readyState >= 1) go();
+  else _audio.addEventListener('loadedmetadata', go, { once: true });
+}
+
+function playQuestion() {
+  if (!curQ) return;
+  // Play the source segments back-to-back if available; else play around q.t
+  if (curQ.source && curQ.source.length) {
+    const first = curQ.source[0], last = curQ.source[curQ.source.length - 1];
+    const start = parseTs(first.t);
+    const end = parseTs(last.t) + 6;
+    playSegment(curQ.vid, start, end);
+  } else {
+    playSegment(curQ.vid, curQ.t, curQ.t + 8);
+  }
+}
+
+function startTimer() {
+  timeLeft = READ_SECONDS;
+  updateTimerUI();
+  if (timerId) clearInterval(timerId);
+  timerId = setInterval(() => {
+    timeLeft--;
+    updateTimerUI();
+    if (timeLeft <= 0) {
+      clearInterval(timerId); timerId = null;
+      goListen();
+    }
+  }, 1000);
+}
+
+function updateTimerUI() {
+  const num = document.getElementById('timer-num');
+  const fill = document.getElementById('timer-fill');
+  if (!num || !fill) return;
+  num.textContent = timeLeft + 's';
+  fill.style.width = (timeLeft / READ_SECONDS * 100) + '%';
+  num.classList.toggle('warn', timeLeft <= 10 && timeLeft > 5);
+  num.classList.toggle('crit', timeLeft <= 5);
+}
+
+function goListen() {
+  // Capture prediction first
+  const input = document.getElementById('pred-input');
+  userPrediction = input ? input.value.trim() : '';
+  phase = 'listen';
+  renderQ();
+  // Auto-play immediately
+  setTimeout(playQuestion, 200);
+}
+
+function pickOpt(i) {
+  if (phase !== 'listen' && phase !== 'answer') return;
+  userPick = i;
+  phase = 'answer';
+  renderQ();
+}
+
+function reveal() {
+  if (userPick < 0) {
+    alert('請先選一個答案');
+    return;
+  }
+  // Record stats
+  const correct = userPick === curQ.answer;
+  // Prediction hit: check if any word in userPrediction appears in correct answer's nl OR source nl
+  let predHit = false;
+  if (userPrediction) {
+    const predWords = userPrediction.toLowerCase()
+      .split(/[\s,，、/]+/).filter(w => w.length > 0);
+    const ansText = (curQ.options[curQ.answer].nl + ' ' +
+      (curQ.source || []).map(s => s.nl || '').join(' ')).toLowerCase();
+    predHit = predWords.some(w => ansText.includes(w));
+  }
+  const stats = loadStats();
+  stats.total = (stats.total || 0) + 1;
+  stats.correct = (stats.correct || 0) + (correct ? 1 : 0);
+  stats.predicted = (stats.predicted || 0) + (userPrediction ? 1 : 0);
+  stats.predHit = (stats.predHit || 0) + (predHit ? 1 : 0);
+  saveStats(stats);
+  curQ._predHit = predHit;
+  curQ._correct = correct;
+  phase = 'reveal';
+  renderQ();
+  updateStatsUI();
+}
+
+function nextQuestion() {
+  if (!pool.length) return;
+  curQ = pool.shift();
+  if (pool.length < 5) {
+    // Refill: re-load + shuffle again
+    loadPool();
+  }
+  phase = 'predict';
+  userPrediction = '';
+  userPick = -1;
+  renderQ();
+  startTimer();
+}
+
+function highlightPredInSource(text, prediction) {
+  if (!prediction) return esc(text);
+  const words = prediction.toLowerCase().split(/[\s,，、/]+/).filter(w => w.length > 1);
+  if (!words.length) return esc(text);
+  const escaped = words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  const re = new RegExp('(' + escaped.join('|') + ')', 'gi');
+  return esc(text).replace(re, '<mark>$1</mark>');
+}
+
+function renderQ() {
+  const box = document.getElementById('qbox');
+  if (!curQ) {
+    box.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text2)">載入中…</div>';
+    return;
+  }
+  const q = curQ;
+  const optsHtml = q.options.map((o, i) => {
+    let cls = '';
+    if (phase === 'answer' && i === userPick) cls = 'picked';
+    if (phase === 'reveal') {
+      if (i === q.answer) cls = 'correct';
+      else if (i === userPick) cls = 'wrong';
+    }
+    const handler = (phase === 'listen' || phase === 'answer') ? `onclick="pickOpt(${i})"` : '';
+    return `<div class="opt ${cls}" ${handler}>
+      <span class="opt-letter">${String.fromCharCode(65 + i)}</span>
+      <span class="opt-nl">${esc(o.nl)}</span>
+      <span class="opt-zh">${esc(o.zh || '')}</span>
+    </div>`;
+  }).join('');
+
+  let phaseHtml = '';
+  if (phase === 'predict') {
+    phaseHtml = `<div class="predict-phase">
+      <div class="timer">
+        <div class="timer-bar"><div class="timer-fill" id="timer-fill"></div></div>
+        <div class="timer-num" id="timer-num">25s</div>
+      </div>
+      <div class="predict-input">
+        <input id="pred-input" type="text" placeholder="預測會聽到哪個字？例：drie / Amsterdam / half zes"
+          autocomplete="off" autofocus>
+      </div>
+      <div class="predict-tip">
+        💡 看選項 → 想：「<b>答案 A 對應的關鍵字</b>會聽到什麼？」<b>嘴巴說出來</b>更有效
+      </div>
+      <div class="actions">
+        <button class="btn btn-secondary" onclick="goListen()">⏭ 我準備好聽了</button>
+      </div>
+    </div>`;
+  } else if (phase === 'listen' || phase === 'answer') {
+    const replayHtml = `<button class="btn-replay" onclick="playQuestion()">🔁 重播</button>`;
+    const submitDisabled = userPick < 0;
+    phaseHtml = `<div style="margin:12px 0;text-align:center">
+      ${userPrediction ? `<div style="color:var(--ring);font-size:12px">你的預測：「<b>${esc(userPrediction)}</b>」</div>` : ''}
+      <div style="margin-top:8px;display:flex;gap:8px;justify-content:center;align-items:center">
+        ${replayHtml}
+      </div>
+    </div>
+    <div class="actions">
+      <button class="btn btn-primary" ${submitDisabled ? 'disabled style="opacity:.5;cursor:not-allowed"' : ''} onclick="reveal()">對答案</button>
+    </div>`;
+  } else if (phase === 'reveal') {
+    const correctOpt = q.options[q.answer];
+    const isOK = q._correct;
+    const srcHtml = (q.source || []).map(s => {
+      const t = parseTs(s.t);
+      return `<div class="src-quote" onclick="playSegment('${q.vid}',${t},${t+5})" style="cursor:pointer">
+        <span class="src-t">${esc(s.t)}</span>${highlightPredInSource(s.nl, userPrediction)}
+        ${s.zh ? `<div style="color:var(--text2);font-size:11.5px;margin-top:2px">${esc(s.zh)}</div>` : ''}
+      </div>`;
+    }).join('');
+    let predLine = '';
+    if (userPrediction) {
+      predLine = q._predHit
+        ? `🎯 你預測：「<span class="pred-hit">${esc(userPrediction)}</span>」 → 命中！`
+        : `🎯 你預測：「<span class="pred-miss">${esc(userPrediction)}</span>」 → 沒中，但這就是練的點`;
+    } else {
+      predLine = '<span style="color:var(--text2)">⚠️ 這題沒有預測 — 下題試著預測一下</span>';
+    }
+    phaseHtml = `<div class="reveal ${isOK ? '' : 'bad'}">
+      <div class="reveal-h">${isOK ? '✓ 答對' : '✗ 答錯'} · 正確答案：${String.fromCharCode(65 + q.answer)} ${esc(correctOpt.nl)}</div>
+      <div class="reveal-body">
+        <div>${predLine}</div>
+        ${srcHtml ? `<div style="margin-top:10px"><b style="font-size:11px;color:var(--text2);letter-spacing:.5px">📍 原文出處（可重播）</b>${srcHtml}</div>` : ''}
+        ${q.explain ? `<div style="margin-top:10px;color:var(--text2);font-size:12px"><b style="color:var(--text)">💡 詳解：</b>${esc(q.explain)}</div>` : ''}
+      </div>
+    </div>
+    <div class="actions" style="margin-top:14px">
+      <button class="btn btn-secondary" onclick="playQuestion()">🔁 重聽</button>
+      <button class="btn btn-primary" onclick="nextQuestion()">下一題 →</button>
+    </div>`;
+  }
+
+  box.innerHTML = `<div class="card">
+    <div class="src-tag">${MOCK_LABELS[q.vid]} · ${esc(q.scn)} · Q${q.n}</div>
+    <div class="q-nl">${esc(q.q_nl)}</div>
+    ${q.q_zh ? `<div class="q-zh">${esc(q.q_zh)}</div>` : ''}
+    <div class="opts">${optsHtml}</div>
+    ${phaseHtml}
+  </div>`;
+
+  // Focus the input field on predict phase
+  if (phase === 'predict') {
+    setTimeout(() => {
+      const inp = document.getElementById('pred-input');
+      if (inp) {
+        inp.focus();
+        inp.onkeydown = e => { if (e.key === 'Enter') goListen(); };
+      }
+    }, 50);
+  }
+}
+
+function updateStatsUI() {
+  const s = loadStats();
+  const total = s.total || 0;
+  const predicted = s.predicted || 0;
+  const hit = s.predHit || 0;
+  const miss = predicted - hit;
+  const ratio = predicted ? Math.round(hit / predicted * 100) : 0;
+  document.getElementById('s-total').textContent = total;
+  document.getElementById('s-hit').textContent = hit;
+  document.getElementById('s-miss').textContent = miss;
+  document.getElementById('s-ratio').textContent = predicted ? ratio + '%' : '—';
+}
+
+(async function init() {
+  await loadPool();
+  updateStatsUI();
+  nextQuestion();
+})();
+</script>
+</body>
+</html>
