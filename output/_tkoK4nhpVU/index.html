@@ -892,26 +892,53 @@ function renderDialogue() {
 }
 
 function escapeHtml(t) { return String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-// Common verbs / modals that GPT over-tags as "stressed" but aren't real listening
-// triggers. Filter them out to keep highlights signal-heavy.
-const STRESS_BLACKLIST = new Set([
-  'kan','gaat','komt','gaan','komen','heb','hebt','heeft','hebben',
-  'ben','bent','is','zijn','wil','wilt','willen','moet','moeten',
-  'doe','doen','doet','zal','zou','was','waren','word','wordt','worden',
-  'en','of','dat','dit','die','deze','ik','je','jij','u','hij','zij','we','wij','jullie','ze',
+// Whitelist of A2 listening trigger words/phrases. Only these get highlighted
+// regardless of what GPT tagged as "stressed". Built from NT2 textbook chapter
+// on luisteren cues + common A2 trap-flipper words.
+const STRESS_WHITELIST = new Set([
+  // Polarity / scope flippers (the answer often hides AFTER these)
+  'niet','wel','geen','juist','maar','toch','nou','nee',
+  // Quantifier / scope
+  'al','nog','pas','alleen','enkel','ook','helemaal','zelfs','echt','heel','super',
+  // Sequence / time anchors
+  'eerst','daarna','eindelijk','straks','dadelijk','meteen','snel','later',
+  'morgen','gisteren','vandaag','vannacht','vanmorgen','vanmiddag','vanavond',
+  'nu','dan','soms','altijd','nooit','vaak','meestal',
+  // Comparatives / qualifiers
+  'meer','minder','beter','slechter','liefst','graag',
+  // Emotional reactions
+  'leuk','jammer','helaas','geweldig','prima','goed','slecht',
+  // Question-flipping anchors
+  'misschien','waarschijnlijk','zeker','natuurlijk','eigenlijk',
+  // Days (often the answer to "wanneer")
+  'maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag','zondag',
 ]);
+// Numbers and time expressions (regex)
+const NUMBER_RE = /^([0-9]+|nul|een|twee|drie|vier|vijf|zes|zeven|acht|negen|tien|elf|twaalf|dertien|veertien|vijftien|zestien|zeventien|achttien|negentien|twintig|dertig|veertig|vijftig|zestig|zeventig|tachtig|negentig|honderd|duizend)$/i;
 
-// Inline-highlight the stressed words inside the Dutch sentence
+function isListeningKey(word) {
+  const w = word.toLowerCase().trim().replace(/[.,!?;:]$/, '');
+  if (!w) return false;
+  if (STRESS_WHITELIST.has(w)) return true;
+  // Multi-word phrases ALWAYS allowed if multi-word (likely time/quantity phrase)
+  if (/\s/.test(w)) return true;
+  if (NUMBER_RE.test(w)) return true;
+  // Comparative/superlative suffixes (Dutch): -ste, -ste-ende, -er when >5 chars
+  if (/ste$/.test(w) && w.length >= 5) return true;
+  if (/er$/.test(w) && w.length >= 6) return true;  // "duurder", "vroeger", "beter" already in WL
+  return false;
+}
+
 function highlightStressed(text, stressed) {
   let html = escapeHtml(text);
   if (!stressed || !stressed.length) return html;
   const words = stressed
     .map(w => String(w).trim())
-    .filter(w => w && !STRESS_BLACKLIST.has(w.toLowerCase()))
+    .filter(isListeningKey)
     .sort((a, b) => b.length - a.length)  // longest first ("half zes" before "half")
     .map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
   if (!words.length) return html;
-  // Word boundary BOTH sides: not preceded by letter, not followed by letter
+  // Word boundary BOTH sides (Unicode-aware for ë, ö etc.)
   const re = new RegExp(
     '(?<![\\p{L}\\p{M}])(' + words.join('|') + ')(?![\\p{L}\\p{M}])', 'giu');
   return html.replace(re, '<mark class="line-stress">$1</mark>');
