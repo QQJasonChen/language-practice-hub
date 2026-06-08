@@ -83,6 +83,15 @@
   .filter button{padding:5px 10px;background:var(--card2);border:1px solid var(--line);
     color:var(--text2);border-radius:6px;font-size:12px;cursor:pointer}
   .filter button.on{background:var(--ring);color:#000;border-color:var(--ring)}
+
+  .lg-row{display:flex;justify-content:flex-end;align-items:center;gap:8px;margin-bottom:6px}
+  .lg-toggle{padding:5px 10px;background:var(--card2);border:1px solid var(--line);
+    color:var(--text2);border-radius:6px;font-size:11.5px;cursor:pointer;opacity:.7}
+  .lg-toggle.on{background:rgba(94,234,212,0.12);border-color:var(--ring);color:var(--ring);opacity:1}
+  .lapse-pill{display:inline-block;padding:2px 8px;margin-left:6px;
+    background:rgba(94,234,212,0.2);color:var(--ring);border-radius:8px;
+    font-size:10px;font-weight:700;vertical-align:middle}
+  .lg-hint{font-size:10.5px;color:var(--dim);margin-top:4px;text-align:center}
 </style>
 </head>
 <body>
@@ -106,6 +115,12 @@
 
   <!-- Study tab -->
   <div id="tab-study">
+    <div class="lg-row">
+      <button class="lg-toggle on" id="lg-toggle" onclick="toggleLapseGuard()"
+        title="答錯/勉強的卡會在幾張卡之後再考一次（最多 2 次），強化短期 → 長期記憶">
+        🔁 間歇複習：開
+      </button>
+    </div>
     <div id="card-container"></div>
   </div>
 
@@ -132,10 +147,15 @@
 const MOCKS = ['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026'];
 const MOCK_LABELS = {'_iC1Pooi2UA':'M1', 'AMVy2zPNLso':'M2', 'mock3_a2_2026':'M3'};
 const SRS_KEY = 'lph_vocab_srs';
+const LAPSE_KEY = 'lph_lapse_guard';
+const LAPSE_MAX = 2;     // max re-queues per card per session
 const INTERVALS = [1, 3, 7, 14, 30];  // days
 let vocab = [];          // [{nl, zh, kana, src:[vid, scn], ...}]
 let queue = [];          // due cards for study tab
 let qi = 0;
+let lapseGuard = localStorage.getItem(LAPSE_KEY) !== '0';  // default ON
+let lapseSeen = new Map();  // session-only: key → re-queue count
+let lapseDone = 0;       // session counter for hint
 
 function todayStr() { return new Date().toISOString().slice(0,10); }
 function daysFromNow(n) {
@@ -343,6 +363,16 @@ function buildQueue() {
   const newArr = vocab.filter(v => getState(v) === 'new').slice(0, 20);
   queue = [...dueArr, ...newArr];
   qi = 0;
+  lapseSeen = new Map();   // reset session lapse tracking
+  lapseDone = 0;
+}
+
+function toggleLapseGuard() {
+  lapseGuard = !lapseGuard;
+  localStorage.setItem(LAPSE_KEY, lapseGuard ? '1' : '0');
+  const btn = document.getElementById('lg-toggle');
+  btn.classList.toggle('on', lapseGuard);
+  btn.textContent = lapseGuard ? '🔁 間歇複習：開' : '🔁 間歇複習：關';
 }
 
 function renderCard() {
@@ -373,10 +403,16 @@ function renderCard() {
          ${v.audio_zh ? `<div class="ctx-zh">${esc(v.audio_zh)}</div>` : ''}
        </div>`
     : `<div class="ctx-panel" id="ctx-panel"><div class="ctx-empty">（無原音上下文，這字是 TTS 合成發音）</div></div>`;
+  const reseen = lapseSeen.get(v.nl.toLowerCase().trim()) || 0;
+  const lapsePill = reseen > 0
+    ? `<span class="lapse-pill">🔁 第 ${reseen + 1} 次</span>` : '';
+  const lapseHint = reseen > 0
+    ? `<div class="lg-hint">這張剛剛沒答好，再考一次（${reseen}/${LAPSE_MAX}）</div>` : '';
   box.innerHTML = `
     <div style="text-align:center;font-size:12px;color:var(--dim);margin-bottom:8px">
-      ${qi + 1} / ${queue.length} · ${v.type === 'pattern' ? '🔑 句型' : '📚 詞彙'}
+      ${qi + 1} / ${queue.length} · ${v.type === 'pattern' ? '🔑 句型' : '📚 詞彙'}${lapsePill}
     </div>
+    ${lapseHint}
     <div class="card" id="card">
       <div class="card-src">${srcLabels}</div>
       <div class="card-nl">${esc(v.nl)}</div>
@@ -425,6 +461,19 @@ function grade(g) {
   else { newReps = cur.reps + 2; newInt = INTERVALS[Math.min(newReps, INTERVALS.length - 1)] * 2; }
   srs[key] = { reps: newReps, interval: newInt, due: daysFromNow(newInt), lastSeen: todayStr() };
   saveSRS(srs);
+
+  // Lapse-guard: 忘了 (g=0) / 勉強 (g=1) 的卡，3-6 張之後再考一次（最多 2 次）
+  if (lapseGuard && g <= 1) {
+    const reseen = lapseSeen.get(key) || 0;
+    if (reseen < LAPSE_MAX) {
+      lapseSeen.set(key, reseen + 1);
+      const remaining = queue.length - qi - 1;
+      const offset = Math.min(Math.max(remaining, 1), 3 + Math.floor(Math.random() * 4));
+      queue.splice(qi + 1 + offset, 0, v);
+      lapseDone++;
+    }
+  }
+
   qi++;
   updateStats();
   renderCard();
@@ -531,6 +580,10 @@ function esc(t) {
   await loadVocab();
   const withAudio = vocab.filter(v => v.audio).length;
   console.log(`vocab: ${withAudio}/${vocab.length} cards have original-audio playback`);
+  // Sync toggle button to saved state
+  const btn = document.getElementById('lg-toggle');
+  btn.classList.toggle('on', lapseGuard);
+  btn.textContent = lapseGuard ? '🔁 間歇複習：開' : '🔁 間歇複習：關';
   updateStats();
   buildQueue();
   renderCard();
