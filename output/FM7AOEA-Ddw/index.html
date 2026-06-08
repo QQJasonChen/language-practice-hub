@@ -155,10 +155,12 @@
     padding-left: 9px;
   }
   .line-text { flex: 1; }
-  /* Stressed-word highlight inside dialogue text — visible before opening 🔬 */
-  .line-stress { background: rgba(253,224,71,0.22); color: #fef3c7; padding: 1px 3px;
-    border-radius: 3px; font-weight: 700; }
-  [data-theme="light"] .line-stress { background: rgba(234,179,8,0.25); color: #713f12; }
+  /* Stressed-word highlight inside dialogue text — OFF by default,
+     toggled on via .show-stress on dialogue-box. Tap 🔔 重讀高亮 to enable. */
+  .line-stress { background: none; color: inherit; padding: 0; border-radius: 0; font-weight: inherit; }
+  .show-stress .line-stress { background: rgba(253,224,71,0.22); color: #fef3c7;
+    padding: 1px 3px; border-radius: 3px; font-weight: 700; }
+  [data-theme="light"] .show-stress .line-stress { background: rgba(234,179,8,0.25); color: #713f12; }
   .line-zh { font-size: 12px; color: var(--dim); margin-top: 3px; display: none; line-height: 1.5; }
   .show-zh .line-zh { display: block; }
 
@@ -666,6 +668,7 @@
     <div class="mode-bar">
       <button class="mode-btn" id="zh-toggle" onclick="toggleZh()">繁體中文翻譯</button>
       <button class="mode-btn" id="dictation-toggle" onclick="toggleDictation()">👂 聽寫模式</button>
+      <button class="mode-btn" id="stress-toggle" onclick="toggleStress()" title="在原句裡黃高亮 GPT 標的重讀字（耳朵 trigger 訓練）">🔔 重讀高亮</button>
       <button class="mode-btn echo-btn" onclick="openEcho()">🔄 迴音法 Echo</button>
       <button class="mode-btn" onclick="openExamMode()" style="background:rgba(255,59,92,0.1);border-color:rgba(255,59,92,0.3);color:var(--accent)">🎯 考試模擬</button>
       <button class="mode-btn" onclick="openSprekenMode()" style="background:rgba(96,165,250,0.1);border-color:rgba(96,165,250,0.3);color:var(--blue)">🗣️ 口說練習</button>
@@ -889,25 +892,46 @@ function renderDialogue() {
 }
 
 function escapeHtml(t) { return String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-// Inline-highlight the stressed words inside the Dutch sentence (case-insensitive, word-boundary)
+// Common verbs / modals that GPT over-tags as "stressed" but aren't real listening
+// triggers. Filter them out to keep highlights signal-heavy.
+const STRESS_BLACKLIST = new Set([
+  'kan','gaat','komt','gaan','komen','heb','hebt','heeft','hebben',
+  'ben','bent','is','zijn','wil','wilt','willen','moet','moeten',
+  'doe','doen','doet','zal','zou','was','waren','word','wordt','worden',
+  'en','of','dat','dit','die','deze','ik','je','jij','u','hij','zij','we','wij','jullie','ze',
+]);
+
+// Inline-highlight the stressed words inside the Dutch sentence
 function highlightStressed(text, stressed) {
   let html = escapeHtml(text);
   if (!stressed || !stressed.length) return html;
-  // Build one regex; sort by length desc so "half zes" matches before "half"
   const words = stressed
     .map(w => String(w).trim())
-    .filter(Boolean)
-    .sort((a, b) => b.length - a.length)
+    .filter(w => w && !STRESS_BLACKLIST.has(w.toLowerCase()))
+    .sort((a, b) => b.length - a.length)  // longest first ("half zes" before "half")
     .map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
   if (!words.length) return html;
-  // Word-boundary aware: \b doesn't work well with multibyte, use lookarounds for ASCII letters
-  const re = new RegExp('(' + words.join('|') + ')(?=[\\s.,!?;:"\'()\\]]|$)', 'gi');
+  // Word boundary BOTH sides: not preceded by letter, not followed by letter
+  const re = new RegExp(
+    '(?<![\\p{L}\\p{M}])(' + words.join('|') + ')(?![\\p{L}\\p{M}])', 'giu');
   return html.replace(re, '<mark class="line-stress">$1</mark>');
+}
+
+// Stress-highlight toggle (default OFF, persisted)
+let showStress = localStorage.getItem('lph_show_stress') === '1';
+function toggleStress() {
+  showStress = !showStress;
+  localStorage.setItem('lph_show_stress', showStress ? '1' : '0');
+  document.getElementById('stress-toggle').classList.toggle('active', showStress);
+  document.getElementById('dialogue-box').classList.toggle('show-stress', showStress);
 }
 function applyModes() {
   const box = document.getElementById('dialogue-box');
   box.classList.toggle('show-zh', showZh);
   box.classList.toggle('dictation-mode', dictationMode);
+  box.classList.toggle('show-stress', showStress);
+  const btn = document.getElementById('stress-toggle');
+  if (btn) btn.classList.toggle('active', showStress);
 }
 function toggleZh() { showZh = !showZh; document.getElementById('zh-toggle').classList.toggle('active', showZh); applyModes(); }
 function toggleDictation() {
