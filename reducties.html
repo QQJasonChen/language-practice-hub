@@ -145,17 +145,42 @@ function saveState(s) { localStorage.setItem(STATE_KEY, JSON.stringify(s)); }
 function exKey(patId, ex) { return `${patId}|${ex.vid}|${ex.idx}`; }
 function esc(t) { return String(t || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
+// Pre-roll: Whisper segment boundaries are ±0.2-0.4s loose. Start 0.3s early
+// so we don't clip the first word of the line.
+const PRE_ROLL = 0.3;
+const POST_ROLL = 0.4;
 function playEx(vid, start, end, rate) {
   if (_stopT) { clearTimeout(_stopT); _stopT = null; }
   if (!_audio) _audio = new Audio();
   const src = `output/${vid}/audio.mp3`;
   if (_audio.src.indexOf(src) === -1) _audio.src = src;
+  const adjStart = Math.max(0, start - PRE_ROLL);
+  const adjEnd = end + POST_ROLL;
   const go = () => {
     _audio.playbackRate = rate;
-    _audio.currentTime = start;
+    _audio.currentTime = adjStart;
     _audio.play().catch(()=>{});
-    const dur = (end - start) / rate * 1000 + 350;
+    const dur = (adjEnd - adjStart) / rate * 1000 + 100;
     _stopT = setTimeout(() => _audio.pause(), Math.max(1200, dur));
+  };
+  if (_audio.readyState >= 1) go();
+  else _audio.addEventListener('loadedmetadata', go, { once: true });
+}
+
+// "Wide" play: ±2s context window at 0.85x — diagnostic for "doesn't match" cases
+function playWide(vid, start, end) {
+  if (_stopT) { clearTimeout(_stopT); _stopT = null; }
+  if (!_audio) _audio = new Audio();
+  const src = `output/${vid}/audio.mp3`;
+  if (_audio.src.indexOf(src) === -1) _audio.src = src;
+  const wStart = Math.max(0, start - 2);
+  const wEnd = end + 2;
+  const go = () => {
+    _audio.playbackRate = 0.85;
+    _audio.currentTime = wStart;
+    _audio.play().catch(()=>{});
+    const dur = (wEnd - wStart) / 0.85 * 1000 + 100;
+    _stopT = setTimeout(() => _audio.pause(), dur);
   };
   if (_audio.readyState >= 1) go();
   else _audio.addEventListener('loadedmetadata', go, { once: true });
@@ -204,6 +229,8 @@ function exHtml(patId, ex) {
       <button class="speed-btn slow" onclick="playEx('${ex.vid}',${ex.start},${ex.end},0.8)">0.8x</button>
       <button class="speed-btn" onclick="playEx('${ex.vid}',${ex.start},${ex.end},1.0)">1.0x</button>
       <button class="speed-btn fast" onclick="playEx('${ex.vid}',${ex.start},${ex.end},1.15)">1.15x</button>
+      <button class="speed-btn" style="background:rgba(255,255,255,0.06);color:var(--text2);border-color:var(--line)"
+        onclick="playWide('${ex.vid}',${ex.start},${ex.end})" title="對不到？聽前後 2 秒寬版">📐 寬版</button>
       <button class="reveal-btn" onclick="toggleReveal(this)">👁 顯示中文</button>
     </div>
     <div class="ex-judge">
