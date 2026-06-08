@@ -46,17 +46,55 @@
   .g-meta .trap{color:#fda4af;font-weight:600}
 
   .q-list{display:flex;flex-direction:column;gap:6px;margin-top:6px}
-  .q{display:flex;gap:10px;padding:10px 12px;background:var(--card);border-radius:8px;
-    border:1px solid var(--line);cursor:pointer;align-items:flex-start}
+  .q{display:block;background:var(--card);border-radius:8px;border:1px solid var(--line);
+    overflow:hidden}
+  .q.has-detail{cursor:pointer}
   .q:hover{border-color:var(--ring)}
+  .q.expanded{border-color:var(--ring);background:linear-gradient(180deg,var(--card),rgba(94,234,212,0.04))}
+  .q-row{display:flex;gap:10px;padding:10px 12px;align-items:flex-start}
   .q-play{flex:0 0 32px;height:32px;display:flex;align-items:center;justify-content:center;
-    background:rgba(94,234,212,0.15);color:var(--ring);border-radius:50%;font-size:14px}
+    background:rgba(94,234,212,0.15);color:var(--ring);border-radius:50%;font-size:14px;cursor:pointer}
+  .q-play:hover{background:rgba(94,234,212,0.3)}
   .q-play.notone{background:rgba(255,255,255,0.05);color:var(--dim)}
   .q-body{flex:1;min-width:0}
   .q-nl{font-weight:600;font-size:14px;color:var(--text);line-height:1.4}
   .q-zh{color:var(--text2);font-size:12.5px;margin-top:3px}
-  .q-src{font-size:10.5px;color:var(--dim);margin-top:4px}
-  .q-src a{color:var(--ring);text-decoration:none;margin-left:6px}
+  .q-src{font-size:10.5px;color:var(--dim);margin-top:4px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+  .q-src a{color:var(--ring);text-decoration:none}
+  .expand-cue{margin-left:auto;color:var(--ring);font-weight:700;font-size:11px;opacity:.7}
+  .q.expanded .expand-cue{opacity:1;transform:rotate(180deg);display:inline-block}
+
+  /* Inline question detail */
+  .q-detail{display:none;padding:0 12px 14px 12px;border-top:1px dashed var(--line);
+    margin-top:4px;animation:fadeIn .2s ease-out}
+  .q.expanded .q-detail{display:block}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+  .d-section{margin-top:12px}
+  .d-h{font-size:11px;font-weight:800;letter-spacing:.5px;color:var(--text2);
+    text-transform:uppercase;margin-bottom:6px}
+  .d-body{font-size:13px;color:var(--text);line-height:1.6}
+  .d-section.trap .d-body{color:#fda4af}
+  .opt{display:flex;align-items:center;gap:8px;padding:6px 10px;background:var(--card2);
+    border-radius:6px;margin-bottom:4px;font-size:13px;border:1px solid transparent}
+  .opt.correct{background:rgba(74,222,128,0.12);border-color:rgba(74,222,128,0.4)}
+  .opt-letter{flex:0 0 20px;height:20px;background:rgba(255,255,255,0.06);
+    border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-size:11px;font-weight:800;color:var(--text2)}
+  .opt.correct .opt-letter{background:var(--ok);color:#000}
+  .opt-nl{font-weight:600;color:var(--text)}
+  .opt-zh{color:var(--text2);font-size:12px;margin-left:auto}
+  .opt-mark{color:var(--ok);font-weight:800;font-size:11px;margin-left:6px}
+  .src-line{display:flex;gap:10px;padding:7px 10px;background:var(--card2);
+    border-left:3px solid var(--ring);border-radius:0 6px 6px 0;margin-bottom:4px;
+    cursor:pointer;font-size:13px;align-items:baseline;line-height:1.5}
+  .src-line:hover{background:rgba(94,234,212,0.1)}
+  .src-t{flex:0 0 38px;color:var(--ring);font-weight:700;font-size:11.5px;font-family:ui-monospace,monospace}
+  .src-nl{flex:1;color:var(--text);font-weight:500}
+  .src-zh{color:var(--text2);font-size:12px;margin-left:6px}
+  .d-link{display:inline-block;margin-top:10px;padding:5px 10px;background:var(--card2);
+    color:var(--ring);text-decoration:none;border-radius:5px;font-size:11.5px;font-weight:700;
+    border:1px solid var(--line)}
+  .d-link:hover{border-color:var(--ring)}
 
   /* Highlight the interrogative phrase */
   .iw{background:rgba(251,146,60,0.18);color:#fdba74;padding:0 3px;border-radius:3px;font-weight:800}
@@ -195,13 +233,15 @@ async function load() {
     for (const sc of ex.scenarios || []) {
       for (const q of sc.questions || []) {
         const t = parseTs(q.t);
-        // estimate audio range: from question's stated t to next question's t
         const idx = sc.questions.indexOf(q);
         const next = sc.questions[idx + 1];
         const endT = next ? parseTs(next.t) : t + 8;
         allQ.push({
           vid, scn: sc.title_zh, n: q.n,
           q_nl: q.q_nl, q_zh: q.q_zh, t, end: Math.max(t + 3, endT),
+          options: q.options || [], answer: q.answer,
+          source: q.source || [], explain: q.explain || '',
+          trap: q.trap || '', reconstructed: q.reconstructed || false,
         });
       }
     }
@@ -241,20 +281,54 @@ function render(searchQ) {
         <div><span class="lbl">用法</span>${p.desc}</div>
         <div style="margin-top:5px"><span class="lbl trap">⚠️ 陷阱</span>${p.trap}</div>
       </div>
-      <div class="q-list">${items.map(q => `
-        <div class="q" onclick="playAt('${q.vid}', ${q.t}, ${q.end})">
-          <div class="q-play">▶</div>
-          <div class="q-body">
-            <div class="q-nl">${highlight(esc(q.q_nl), p)}</div>
-            <div class="q-zh">${esc(q.q_zh)}</div>
-            <div class="q-src">${MOCK_LABELS[q.vid]} · ${esc(q.scn)} · Q${q.n}
-              <a href="output/${q.vid}/exam.html" onclick="event.stopPropagation()">看詳解 →</a></div>
+      <div class="q-list">${items.map(q => {
+        const hasDetail = q.options && q.options.length;
+        return `<div class="q ${hasDetail ? 'has-detail' : ''}">
+          <div class="q-row" onclick="${hasDetail ? `this.parentElement.classList.toggle('expanded')` : ''}">
+            <div class="q-play" onclick="event.stopPropagation();playAt('${q.vid}', ${q.t}, ${q.end})">▶</div>
+            <div class="q-body">
+              <div class="q-nl">${highlight(esc(q.q_nl), p)}</div>
+              <div class="q-zh">${esc(q.q_zh)}</div>
+              <div class="q-src">
+                <span>${MOCK_LABELS[q.vid]} · ${esc(q.scn)} · Q${q.n}</span>
+                ${hasDetail ? '<span class="expand-cue">▼ 點看詳解</span>' : ''}
+              </div>
+            </div>
           </div>
-        </div>`).join('')}
+          ${hasDetail ? detailHtml(q) : ''}
+        </div>`;
+      }).join('')}
       </div>
     </div>`;
   }
   box.innerHTML = html || '<div style="text-align:center;color:var(--dim);padding:40px">沒有符合的問句</div>';
+}
+
+function detailHtml(q) {
+  const opts = (q.options || []).map((o, i) => {
+    const isAns = i === q.answer;
+    return `<div class="opt ${isAns ? 'correct' : ''}">
+      <span class="opt-letter">${String.fromCharCode(65 + i)}</span>
+      <span class="opt-nl">${esc(o.nl)}</span>
+      <span class="opt-zh">${esc(o.zh || '')}</span>
+      ${isAns ? '<span class="opt-mark">✓ 答案</span>' : ''}
+    </div>`;
+  }).join('');
+  const src = (q.source || []).map(s => {
+    const t = parseTs(s.t);
+    return `<div class="src-line" onclick="event.stopPropagation();playAt('${q.vid}', ${t}, ${t + 6})">
+      <span class="src-t">${esc(s.t)}</span>
+      <span class="src-nl">${esc(s.nl)}</span>
+      ${s.zh ? `<span class="src-zh">${esc(s.zh)}</span>` : ''}
+    </div>`;
+  }).join('');
+  return `<div class="q-detail">
+    ${opts ? `<div class="d-section"><div class="d-h">選項</div>${opts}</div>` : ''}
+    ${src ? `<div class="d-section"><div class="d-h">📍 原文出處（點時間播放）</div>${src}</div>` : ''}
+    ${q.explain ? `<div class="d-section"><div class="d-h">💡 詳解</div><div class="d-body">${esc(q.explain)}</div></div>` : ''}
+    ${q.trap ? `<div class="d-section trap"><div class="d-h">⚠️ 陷阱</div><div class="d-body">${esc(q.trap)}</div></div>` : ''}
+    <a href="output/${q.vid}/exam.html" class="d-link" onclick="event.stopPropagation()">→ 在練習頁打開完整 scenario</a>
+  </div>`;
 }
 
 document.getElementById('search').addEventListener('input', e => render(e.target.value));
