@@ -234,8 +234,8 @@
     <span>開始你的第一次練習，<strong>建立學習連續紀錄</strong></span>
   </div>
 
-  <!-- 14-day exam plan: HEADLINE card -->
-  <div style="margin:16px 0 0;padding:16px 18px;border-radius:18px;
+  <!-- 14-day exam plan: HEADLINE card (gets enhanced with today's tasks by JS below) -->
+  <div id="today-widget" style="margin:16px 0 0;padding:16px 18px;border-radius:18px;
        background:linear-gradient(135deg,rgba(167,139,250,0.22),rgba(94,234,212,0.12));
        border:1px solid rgba(167,139,250,0.4);cursor:pointer;display:flex;align-items:center;gap:14px"
        onclick="window.location.href='day14.html'">
@@ -248,6 +248,80 @@
     </div>
     <div style="font-size:18px;color:#a78bfa;font-weight:800">→</div>
   </div>
+  <script>
+    // ── Today widget: replace the headline card with today's tasks ──
+    (async function todayWidget() {
+      const STORE_KEY = 'lph_day14_state';
+      const EXAM_KEY = 'lph_exam_date';
+      try {
+        const j = await (await fetch('data/day14_plan.json')).json();
+        const PLAN = j.plan;
+        const examIso = localStorage.getItem(EXAM_KEY);
+        if (!examIso) return; // no exam date set → keep generic card
+        const examDate = new Date(examIso);
+        const today = new Date(); today.setHours(0,0,0,0);
+        const daysUntilExam = Math.ceil((examDate - today) / 86400000);
+        // Map: day N = examDate - (15 - N) days from today's perspective
+        // dayN today = examDate - (15-N) days = today → 15 - N = (examDate - today) days → N = 15 - daysUntilExam
+        const todayDayNum = 15 - daysUntilExam;
+        if (todayDayNum < 1 || todayDayNum > 14) return;
+        const day = PLAN.find(p => p.d === todayDayNum);
+        if (!day) return;
+        const state = JSON.parse(localStorage.getItem(STORE_KEY) || '{}');
+        const done = day.tasks.filter(t => state[t.id]).length;
+        const total = day.tasks.length;
+        const allDone = done === total;
+        const esc = s => String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+        const card = document.getElementById('today-widget');
+        card.style.cursor = 'default';
+        card.onclick = null;
+        card.style.flexDirection = 'column';
+        card.style.alignItems = 'stretch';
+        card.style.gap = '12px';
+        if (allDone) {
+          card.style.background = 'linear-gradient(135deg,rgba(74,222,128,0.22),rgba(94,234,212,0.12))';
+          card.style.borderColor = 'rgba(74,222,128,0.4)';
+        } else {
+          card.style.background = 'linear-gradient(135deg,rgba(253,224,71,0.18),rgba(167,139,250,0.12))';
+          card.style.borderColor = 'rgba(253,224,71,0.4)';
+        }
+        card.innerHTML = `
+          <div style="display:flex;align-items:center;gap:12px">
+            <div style="font-size:32px;line-height:1">${allDone ? '✅' : '📅'}</div>
+            <div style="flex:1">
+              <div style="font-size:11px;color:#a78bfa;font-weight:800;letter-spacing:1px">
+                D${todayDayNum} / 14 · ${esc(day.phase)} · 剩 ${daysUntilExam} 天考試
+              </div>
+              <div style="font-size:15px;font-weight:800;color:#e8e8f0;margin-top:2px">${esc(day.title)}</div>
+            </div>
+            <div style="background:rgba(0,0,0,0.25);padding:4px 9px;border-radius:10px;
+              font-size:12px;font-weight:800;color:${allDone ? '#4ade80' : '#fde047'}">${done}/${total}</div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:5px">
+            ${day.tasks.map(t => {
+              const isDone = state[t.id];
+              return `<a href="${esc(t.link || '#')}" style="display:flex;align-items:center;gap:9px;
+                padding:9px 11px;background:${isDone ? 'rgba(74,222,128,0.1)' : 'rgba(0,0,0,0.2)'};
+                border-radius:8px;text-decoration:none;border:1px solid ${isDone ? 'rgba(74,222,128,0.3)' : 'rgba(255,255,255,0.05)'};
+                transition:border-color .15s">
+                <span style="flex:0 0 18px;height:18px;border-radius:50%;border:2px solid ${isDone ? '#4ade80' : 'rgba(255,255,255,0.2)'};
+                  background:${isDone ? '#4ade80' : 'transparent'};display:flex;align-items:center;justify-content:center;
+                  color:#000;font-size:11px;font-weight:800">${isDone ? '✓' : ''}</span>
+                <span style="flex:1;font-size:12.5px;font-weight:600;color:${isDone ? 'var(--muted)' : '#e8e8f0'};
+                  ${isDone ? 'text-decoration:line-through' : ''}">${esc(t.name)}</span>
+                ${t.min ? `<span style="font-size:10px;color:var(--muted);font-weight:700">${t.min}分</span>` : ''}
+              </a>`;
+            }).join('')}
+          </div>
+          <a href="day14.html" style="display:block;text-align:center;font-size:11.5px;font-weight:700;
+            color:#a78bfa;text-decoration:none;padding:4px">→ 看完整 14 天計畫</a>
+        `;
+      } catch(e) {
+        console.warn('today widget failed', e);
+      }
+    })();
+  </script>
 
   <!-- Shortcuts -->
   <div style="display:flex;gap:10px;margin:14px 0 0;flex-wrap:wrap">

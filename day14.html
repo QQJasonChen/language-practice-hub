@@ -132,8 +132,9 @@
 const STORE_KEY = 'lph_day14_state';
 const EXAM_KEY = 'lph_exam_date';
 
-// ── The 14-day protocol ──
-const PLAN = [
+// ── The 14-day protocol (loaded from data/day14_plan.json at init) ──
+let PLAN = null;
+const _PLAN_FALLBACK = [
   // ── Phase 1: 解碼基礎（建耳朵）──
   { d:1, phase:'解碼基礎', title:'連音解碼 — 小字組',
     why:'考試最常漏聽的不是難字、是 niet/wel/al 這些小字。今天把這 4 個練到熟。',
@@ -464,7 +465,16 @@ document.getElementById('exam-date').addEventListener('change', e => {
   if (e.target.value) saveExamDate(e.target.value);
 });
 
-render();
+(async function init() {
+  try {
+    const j = await (await fetch('data/day14_plan.json')).json();
+    PLAN = j.plan;
+  } catch(e) {
+    console.warn('PLAN fetch failed, using inline fallback', e);
+    PLAN = _PLAN_FALLBACK;
+  }
+  render();
+})();
 </script>
 </body>
 </html>
