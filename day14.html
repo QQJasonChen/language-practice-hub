@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>📅 14 天備考計畫 — A2 Listening Hub</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
+    --text:#e8e8f0;--text2:#9ca3af;--dim:#6b7280;--ok:#4ade80;--bad:#f87171;
+    --accent:#fb923c;--ring:#5eead4;--purple:#a78bfa;--gold:#fde047}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans","Noto Sans JP",sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:18px 14px 100px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+  header a{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:0;font-size:19px;flex:1}
+
+  .hero{margin:8px 0 16px;padding:14px 16px;border-radius:14px;
+    background:linear-gradient(135deg,rgba(167,139,250,0.18),rgba(94,234,212,0.1));
+    border:1px solid rgba(167,139,250,0.3)}
+  .hero .count{font-size:34px;font-weight:900;color:var(--purple);line-height:1}
+  .hero .count .small{font-size:14px;color:var(--text2);font-weight:600;margin-left:6px}
+  .hero .sub{font-size:12.5px;color:var(--text2);margin-top:4px;line-height:1.6}
+  .hero .exam-date{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);
+    display:flex;gap:8px;align-items:center;font-size:12.5px}
+  .hero .exam-date input{flex:1;padding:5px 10px;background:var(--card);
+    border:1px solid var(--line);border-radius:6px;color:var(--text);font:inherit;font-size:12.5px}
+
+  .progress{margin:14px 0;background:var(--card);border-radius:10px;padding:10px 14px}
+  .progress-bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:6px}
+  .progress-fill{height:100%;background:linear-gradient(90deg,var(--ring),var(--ok));border-radius:3px;transition:width .3s}
+  .progress-label{display:flex;justify-content:space-between;font-size:12px;color:var(--text2)}
+
+  .day{margin-bottom:10px;background:var(--card);border-radius:12px;
+    border:1px solid var(--line);overflow:hidden}
+  .day.today{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
+  .day.done{opacity:.6}
+  .day-head{display:flex;align-items:center;gap:12px;padding:12px 14px;cursor:pointer;user-select:none}
+  .day-head:hover{background:var(--card2)}
+  .day-num{flex:0 0 44px;height:44px;border-radius:10px;background:var(--card2);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800}
+  .day-num .d-n{font-size:18px;color:var(--text)}
+  .day-num .d-d{font-size:9px;color:var(--text2);margin-top:1px}
+  .day.today .day-num{background:var(--gold);color:#18181b}
+  .day.today .day-num .d-n,.day.today .day-num .d-d{color:#18181b}
+  .day.done .day-num{background:rgba(74,222,128,0.2);color:var(--ok)}
+  .day.done .day-num .d-n,.day.done .day-num .d-d{color:var(--ok)}
+  .day-meta{flex:1;min-width:0}
+  .day-title{font-size:14px;font-weight:700;color:var(--text)}
+  .day-sub{font-size:11.5px;color:var(--text2);margin-top:2px}
+  .day-prog{font-size:11px;color:var(--text2);padding:3px 8px;background:var(--card2);
+    border-radius:10px;font-weight:700}
+  .day.today .day-prog{background:rgba(253,224,71,0.2);color:var(--gold)}
+  .day.done .day-prog{background:rgba(74,222,128,0.18);color:var(--ok)}
+  .day-toggle{font-size:14px;color:var(--text2);transition:transform .2s}
+  .day.open .day-toggle{transform:rotate(180deg)}
+
+  .day-body{display:none;padding:0 14px 14px;border-top:1px solid var(--line)}
+  .day.open .day-body{display:block}
+  .day-why{margin:12px 0 8px;padding:8px 11px;background:rgba(94,234,212,0.06);
+    border-left:3px solid var(--ring);border-radius:0 6px 6px 0;
+    color:var(--text);font-size:12.5px;line-height:1.6}
+  .day-why .why-tag{color:var(--ring);font-weight:800;margin-right:5px}
+
+  .task{display:flex;gap:11px;padding:10px;background:var(--card2);
+    border-radius:8px;margin-bottom:6px;border:1px solid var(--line);
+    transition:border-color .15s,background .15s}
+  .task.done{background:rgba(74,222,128,0.08);border-color:rgba(74,222,128,0.35)}
+  .task-check{flex:0 0 22px;height:22px;border-radius:50%;border:2px solid var(--line);
+    display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:13px;
+    color:transparent;transition:all .15s;margin-top:2px}
+  .task-check:hover{border-color:var(--ok)}
+  .task.done .task-check{background:var(--ok);border-color:var(--ok);color:#000}
+  .task-body{flex:1;min-width:0}
+  .task-title{font-size:13.5px;font-weight:700;color:var(--text);line-height:1.4}
+  .task.done .task-title{text-decoration:line-through;color:var(--text2)}
+  .task-how{font-size:12px;color:var(--text2);line-height:1.55;margin-top:4px}
+  .task-how b{color:var(--ring);font-weight:700}
+  .task-link{display:inline-flex;align-items:center;gap:4px;margin-top:6px;
+    padding:4px 9px;background:rgba(94,234,212,0.12);color:var(--ring);
+    text-decoration:none;border-radius:5px;font-size:11.5px;font-weight:700;
+    border:1px solid rgba(94,234,212,0.3)}
+  .task-link:hover{background:rgba(94,234,212,0.22)}
+  .task-time{font-size:10.5px;color:var(--dim);font-weight:700;
+    padding:1px 6px;background:var(--card);border-radius:4px;margin-left:6px}
+
+  .reset{margin-top:14px;text-align:center}
+  .reset button{padding:6px 12px;background:transparent;border:1px solid var(--line);
+    color:var(--text2);border-radius:6px;cursor:pointer;font-size:12px;font:inherit}
+  .reset button:hover{border-color:var(--bad);color:var(--bad)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="index.html">← 返回</a>
+    <h1>📅 14 天備考計畫</h1>
+  </header>
+
+  <div class="hero">
+    <div>
+      <span class="count" id="days-left">14</span><span class="small">天後考試</span>
+    </div>
+    <div class="sub" id="hero-sub">
+      14 天 = 你還有時間把「解碼速度」練起來。<b style="color:var(--ring)">每天 30 分鐘</b>，按表操課。
+      別自由發揮、別跳關。每天完成 = ✓。
+    </div>
+    <div class="exam-date">
+      <span>📍 考試日期：</span>
+      <input type="date" id="exam-date">
+      <button id="save-exam" style="padding:5px 12px;background:var(--ring);color:#000;
+        border:0;border-radius:6px;font-weight:700;cursor:pointer;font:inherit;font-size:12px">儲存</button>
+    </div>
+  </div>
+
+  <div class="progress">
+    <div class="progress-label">
+      <span>整體進度</span><span id="prog-text">0 / 0 task</span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="prog-fill" style="width:0%"></div></div>
+  </div>
+
+  <div id="days"></div>
+
+  <div class="reset">
+    <button onclick="resetProgress()">🗑 清空所有進度</button>
+  </div>
+</div>
+
+<script>
+const STORE_KEY = 'lph_day14_state';
+const EXAM_KEY = 'lph_exam_date';
+
+// ── The 14-day protocol ──
+const PLAN = [
+  // ── Phase 1: 解碼基礎（建耳朵）──
+  { d:1, phase:'解碼基礎', title:'連音解碼 — 小字組',
+    why:'考試最常漏聽的不是難字、是 niet/wel/al 這些小字。今天把這 4 個練到熟。',
+    tasks:[
+      { id:'d1t1', t:'reducties.html#niet', name:'niet 8 題：4 種速度各跟讀 1 次',
+        how:'打開 → 預設展開 niet。每句 <b>0.6x → 1.0x → 1.15x</b> 各播 1 次 + 跟讀。1.15x 跟得上 → ✓',
+        link:'reducties.html', min:8 },
+      { id:'d1t2', t:'reducties.html#wel', name:'wel 8 題',
+        how:'同上。注意聽 wel 和 niet 的差別 — 兩個都很輕、聽不到答案就反過來',
+        link:'reducties.html', min:8 },
+      { id:'d1t3', t:'reducties.html#al', name:'al + 連音句頭 (Heb je / Ga je) 各 4 題',
+        how:'al 漏聽 = 把「已經 X」聽成「現在」。Heb je → Hebbie 是問句最高頻',
+        link:'reducties.html', min:12 },
+    ]
+  },
+  { d:2, phase:'解碼基礎', title:'連音解碼 — 弱讀代名詞',
+    why:'je / het / er 都被吃進前面動詞、變成 \'e / \'t / \'r。這是 Dutch 速度感的核心。',
+    tasks:[
+      { id:'d2t1', t:'reducties.html#je', name:'je 8 題',
+        how:'重點：聽到動詞尾巴跟「ie/e」音的，幾乎都黏了一個 je 在後面',
+        link:'reducties.html', min:8 },
+      { id:'d2t2', t:'reducties.html#het', name:'het 8 題',
+        how:'het 99% 變成 \'t。Ik heb het → \'kheppet。',
+        link:'reducties.html', min:8 },
+      { id:'d2t3', t:'reducties.html#er', name:'er 8 題',
+        how:'er 弱讀成 \'r。\'r is / \'r staat / \'r ligt 都黏成一塊',
+        link:'reducties.html', min:8 },
+    ]
+  },
+  { d:3, phase:'解碼基礎', title:'M1 chunk shadow — 場景 1-3',
+    why:'單字練完了，要練「整句速度」。挑 M1 前 3 個場景的 5 句答錯題對應的原文。',
+    tasks:[
+      { id:'d3t1', t:'echo M1', name:'M1 echo 頁 — 開 0.75x + Karaoke',
+        how:'每句 <b>🔁 loop 3 次 + 跟讀</b>。先 0.75x → 1.0x → 1.15x。重點：能跟讀 = 能聽懂',
+        link:'output/_iC1Pooi2UA/index.html', min:20 },
+      { id:'d3t2', t:'M1 場景 1-3 5 句', name:'挑你失分多的 5 句 chunk shadow 3 次',
+        how:'參考失分診斷頁找出 M1 失分最多的 3 個場景',
+        link:'gap-analysis.html', min:10 },
+    ]
+  },
+  { d:4, phase:'解碼基礎', title:'M1 chunk shadow — 場景 4-7',
+    why:'M1 完整掃過一輪。同樣 chunk shadow，但這次包含長句。',
+    tasks:[
+      { id:'d4t1', t:'M1 場景 4-7', name:'M1 後半 chunk shadow 5 句',
+        how:'重點選有 niet/maar/al 的句子（這幾個小字練過了、看看耳朵有沒有開）',
+        link:'output/_iC1Pooi2UA/index.html', min:20 },
+      { id:'d4t2', t:'reducties 重訪', name:'回 reducties — 切「✗ 只看糊的」tab 重做',
+        how:'昨天 ✗ 的句子今天重做。能轉 ✓ = 短期記憶進長期了',
+        link:'reducties.html', min:10 },
+    ]
+  },
+
+  // ── Phase 2: 統整 + 診斷 ──
+  { d:5, phase:'統整診斷', title:'M1 完整重做',
+    why:'四天解碼基礎做完，回頭做 M1 看分數差距。這是第一個「有進步」訊號',
+    tasks:[
+      { id:'d5t1', t:'M1 完整考', name:'M1 exam.html — 整套 22 題計時做',
+        how:'<b>不暫停、不重聽</b>。模擬考場狀態。做完看分數',
+        link:'output/_iC1Pooi2UA/exam.html', min:25 },
+      { id:'d5t2', t:'M1 錯題重聽', name:'錯的題目開 echo 找原文 chunk shadow 5 次',
+        how:'錯題就是你的學習邊界。練透 = 下次同題型不會錯',
+        link:'output/_iC1Pooi2UA/index.html', min:10 },
+    ]
+  },
+  { d:6, phase:'統整診斷', title:'失分模式診斷 + 詞彙補強',
+    why:'看你失分集中在哪：聽不到？讀不懂？陷阱題？這決定剩下 8 天的重點',
+    tasks:[
+      { id:'d6t1', t:'gap-analysis', name:'打開失分診斷頁、找出最弱的題型',
+        how:'看是哪種題型（時間/地點/原因/數字）失分最多 → 那是優先項',
+        link:'gap-analysis.html', min:10 },
+      { id:'d6t2', t:'vocab SRS', name:'閃卡刷 15-20 張（含間歇複習）',
+        how:'答錯/勉強的會在幾張卡後自動跳回來考一次。練密度比練廣度重要',
+        link:'vocab.html', min:15 },
+    ]
+  },
+  { d:7, phase:'統整診斷', title:'問句速查 + PDF 複習',
+    why:'A2 問句 99% 是 8 種句型。看懂 Hoe lang / Wat is / Met wie 開頭 = 知道答案會藏在哪',
+    tasks:[
+      { id:'d7t1', t:'vragen.html', name:'問句速查全部展開、標記不熟的 8-10 題',
+        how:'看到不熟的問句就 click 展開、聽原文、記陷阱模式',
+        link:'vragen.html', min:15 },
+      { id:'d7t2', t:'reducties 重訪 ②', name:'連音解碼「只看糊的」再清一次',
+        how:'第二輪 ✗ 的就是真的弱點，需要更慢更多遍',
+        link:'reducties.html', min:10 },
+    ]
+  },
+
+  // ── Phase 3: 預測 + 速度（M2 + M3）──
+  { d:8, phase:'預測速度', title:'M2 — 預測 + 第一次嘗試',
+    why:'考試最大殺手不是聽力、是「沒先讀選項就播」。今天練「先預測再聽」',
+    tasks:[
+      { id:'d8t1', t:'M2 exam 預測模式', name:'M2 — 每題先看選項 25 秒、預測答案才播音',
+        how:'<b>嘴巴說出來</b>：「我猜會聽到 X / 不會聽到 Y」。再播。對了 = 預測成功',
+        link:'output/AMVy2zPNLso/exam.html', min:25 },
+      { id:'d8t2', t:'M2 錯題 echo', name:'錯題回 echo 0.75x chunk shadow',
+        how:'同 D5 流程',
+        link:'output/AMVy2zPNLso/index.html', min:10 },
+    ]
+  },
+  { d:9, phase:'預測速度', title:'M2 — 第二次（鞏固）',
+    why:'昨天練過、今天再做一次。目標：分數明顯提升 + 心理上「我聽得到」的感覺',
+    tasks:[
+      { id:'d9t1', t:'M2 重做', name:'M2 計時完整重做',
+        how:'目標 ≥18/22。沒到 → 找出哪個題型還在掉',
+        link:'output/AMVy2zPNLso/exam.html', min:25 },
+      { id:'d9t2', t:'vocab 補強', name:'閃卡 15 張 — focus M2 失分題的字',
+        how:'level filter 切 A2，按進度刷',
+        link:'vocab.html', min:10 },
+    ]
+  },
+  { d:10, phase:'預測速度', title:'M3 chunk shadow（難的）',
+    why:'M3 是你自己錄的考題，難度比 M1/M2 高。先把難句拆掉再做整套。',
+    tasks:[
+      { id:'d10t1', t:'M3 echo', name:'M3 echo — 場景 1-5 chunk shadow 5 句',
+        how:'0.75x → 1.0x → 1.15x。重點：M3 速度感比 M1/M2 快、要適應',
+        link:'output/mock3_a2_2026/index.html', min:25 },
+      { id:'d10t2', t:'reducties M3 focus', name:'連音解碼 — 看 reducties 哪些例句是來自 M3',
+        how:'M3 出現的連音模式需要特別熟',
+        link:'reducties.html', min:10 },
+    ]
+  },
+  { d:11, phase:'預測速度', title:'M3 完整做',
+    why:'M3 是最接近真考難度的。今天做完看分數',
+    tasks:[
+      { id:'d11t1', t:'M3 exam', name:'M3 計時完整做',
+        how:'同 M2 流程：先讀題 25 秒 + 預測 + 才播',
+        link:'output/mock3_a2_2026/exam.html', min:30 },
+      { id:'d11t2', t:'M3 錯題 echo', name:'錯題回 echo chunk shadow',
+        how:'',
+        link:'output/mock3_a2_2026/index.html', min:10 },
+    ]
+  },
+
+  // ── Phase 4: 衝刺 + 維持 ──
+  { d:12, phase:'衝刺維持', title:'隨機綜合考',
+    why:'三套 mock 都做過了。今天隨機抽題、模擬考場「未知」感',
+    tasks:[
+      { id:'d12t1', t:'random-quiz', name:'隨機考 25 題（從 3 套 mock 池）',
+        how:'每題 30 秒倒數。不要重聽',
+        link:'random-quiz.html', min:20 },
+      { id:'d12t2', t:'錯題清單重練', name:'打開 vragen 找錯題對應的問句類型重看',
+        how:'',
+        link:'vragen.html', min:10 },
+    ]
+  },
+  { d:13, phase:'衝刺維持', title:'弱點清零',
+    why:'考前倒數 2 天。今天不開新題、只把「✗ 還是糊」「✗ 答錯」的清乾淨',
+    tasks:[
+      { id:'d13t1', t:'reducties 清零', name:'連音解碼「只看糊的」全部清乾淨',
+        how:'目標：「✗ 還是糊」歸零或 ≤3',
+        link:'reducties.html', min:20 },
+      { id:'d13t2', t:'vocab SRS 清', name:'閃卡：把「該複習」清光',
+        how:'',
+        link:'vocab.html', min:10 },
+    ]
+  },
+  { d:14, phase:'衝刺維持', title:'考前一天 — 輕複習 + 休息',
+    why:'今天不練新東西。30 分鐘輕掃 vragen PDF + 早睡。考場上靠的是肌肉記憶',
+    tasks:[
+      { id:'d14t1', t:'vragen PDF', name:'看一次問句速查 PDF — 8 種句型 + 陷阱',
+        how:'像考前 cheat sheet 看一遍。<b>不背、只認</b>',
+        link:'transcripts/問句速查/A2 luisteren 問句速查.pdf', min:15 },
+      { id:'d14t2', t:'reducties 重點', name:'連音解碼 — 只看 niet/wel/al/maar 4 個',
+        how:'這 4 個小字是「答錯機率最大」的高危詞。考前再認一次',
+        link:'reducties.html', min:10 },
+      { id:'d14t3', t:'早睡', name:'💤 23:00 前睡',
+        how:'聽力靠的是專注力。8 小時睡眠 ≫ 多練 1 小時',
+        link:'', min:0 },
+    ]
+  },
+];
+
+function todayISO() { return new Date().toISOString().slice(0, 10); }
+function fmtDate(d) {
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${m}/${day}`;
+}
+function loadState() {
+  try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); }
+  catch(e) { return {}; }
+}
+function saveState(s) { localStorage.setItem(STORE_KEY, JSON.stringify(s)); }
+function esc(t) { return String(t || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function getExamDate() {
+  const saved = localStorage.getItem(EXAM_KEY);
+  if (saved) return new Date(saved);
+  // Default: today + 14 days
+  const d = new Date();
+  d.setDate(d.getDate() + 14);
+  return d;
+}
+function saveExamDate(iso) { localStorage.setItem(EXAM_KEY, iso); render(); }
+
+function dayDate(dayNum, examDate) {
+  // Day 1 = today, Day 14 = exam day - 1, Day 15 = exam day
+  // So day N's date = examDate - (14 - N) days
+  const d = new Date(examDate);
+  d.setDate(d.getDate() - (15 - dayNum));
+  return d;
+}
+
+function isToday(d) {
+  const t = new Date();
+  return d.getFullYear() === t.getFullYear() &&
+         d.getMonth() === t.getMonth() &&
+         d.getDate() === t.getDate();
+}
+function isPast(d) {
+  const t = new Date(); t.setHours(0, 0, 0, 0);
+  return d < t;
+}
+
+function toggleTask(taskId) {
+  const state = loadState();
+  state[taskId] = !state[taskId];
+  saveState(state);
+  render();
+}
+
+function toggleDay(dayNum) {
+  const all = document.querySelectorAll('.day');
+  const target = document.querySelector(`[data-day="${dayNum}"]`);
+  if (target) target.classList.toggle('open');
+}
+
+function dayProgress(day) {
+  const state = loadState();
+  const done = day.tasks.filter(t => state[t.id]).length;
+  return { done, total: day.tasks.length };
+}
+
+function render() {
+  const examDate = getExamDate();
+  const today = new Date(); today.setHours(0,0,0,0);
+  const daysUntilExam = Math.ceil((examDate - today) / (1000 * 60 * 60 * 24));
+
+  // Hero
+  document.getElementById('days-left').textContent = Math.max(0, daysUntilExam);
+  document.getElementById('exam-date').value = examDate.toISOString().slice(0, 10);
+  if (daysUntilExam <= 0) {
+    document.getElementById('hero-sub').innerHTML =
+      '🎯 <b style="color:var(--gold)">考試日</b> — 祝你好運！記得呼吸、聽前先讀完選項。';
+  } else if (daysUntilExam <= 3) {
+    document.getElementById('hero-sub').innerHTML =
+      `剩 <b style="color:var(--accent)">${daysUntilExam}</b> 天 — <b style="color:var(--ring)">不練新題</b>、只清弱點 + 早睡。考場靠肌肉記憶。`;
+  }
+
+  // Overall progress
+  const state = loadState();
+  let totalT = 0, doneT = 0;
+  for (const day of PLAN) {
+    totalT += day.tasks.length;
+    doneT += day.tasks.filter(t => state[t.id]).length;
+  }
+  const pct = totalT ? Math.round(doneT / totalT * 100) : 0;
+  document.getElementById('prog-text').textContent = `${doneT} / ${totalT} task (${pct}%)`;
+  document.getElementById('prog-fill').style.width = pct + '%';
+
+  // Days
+  const box = document.getElementById('days');
+  let html = '';
+  let lastPhase = '';
+  for (const day of PLAN) {
+    const d = dayDate(day.d, examDate);
+    const today_ = isToday(d);
+    const past = isPast(d) && !today_;
+    const prog = dayProgress(day);
+    const fullDone = prog.done === prog.total;
+
+    if (day.phase !== lastPhase) {
+      html += `<div style="margin:18px 0 8px;padding:0 4px;font-size:11px;font-weight:800;
+        color:var(--text2);letter-spacing:1px;text-transform:uppercase">${esc(day.phase)}</div>`;
+      lastPhase = day.phase;
+    }
+
+    html += `<div class="day ${today_ ? 'today' : ''} ${fullDone ? 'done' : ''}" data-day="${day.d}">
+      <div class="day-head" onclick="toggleDay(${day.d})">
+        <div class="day-num">
+          <div class="d-n">D${day.d}</div>
+          <div class="d-d">${fmtDate(d)}</div>
+        </div>
+        <div class="day-meta">
+          <div class="day-title">${esc(day.title)}</div>
+          <div class="day-sub">${today_ ? '👉 今天' : (past ? '已過' : '')} · ${day.tasks.length} 件事</div>
+        </div>
+        <div class="day-prog">${prog.done}/${prog.total}</div>
+        <span class="day-toggle">▼</span>
+      </div>
+      <div class="day-body">
+        <div class="day-why"><span class="why-tag">💡 為什麼今天練這個：</span>${esc(day.why)}</div>
+        ${day.tasks.map(t => `
+          <div class="task ${state[t.id] ? 'done' : ''}">
+            <div class="task-check" onclick="toggleTask('${t.id}')">${state[t.id] ? '✓' : ''}</div>
+            <div class="task-body">
+              <div class="task-title">${esc(t.name)}${t.min ? `<span class="task-time">${t.min} 分鐘</span>` : ''}</div>
+              ${t.how ? `<div class="task-how">${t.how}</div>` : ''}
+              ${t.link ? `<a class="task-link" href="${esc(t.link)}" target="_blank">→ 開始練 ${esc(t.t || '')}</a>` : ''}
+            </div>
+          </div>`).join('')}
+      </div>
+    </div>`;
+  }
+  box.innerHTML = html;
+
+  // Auto-open today's day
+  const todayCard = document.querySelector('.day.today');
+  if (todayCard) todayCard.classList.add('open');
+  // If no "today" (past exam date or future setup), open D1
+  else {
+    const firstCard = document.querySelector('.day');
+    if (firstCard) firstCard.classList.add('open');
+  }
+}
+
+function resetProgress() {
+  if (!confirm('確定清空所有打勾進度？')) return;
+  localStorage.removeItem(STORE_KEY);
+  render();
+}
+
+document.getElementById('save-exam').onclick = () => {
+  const v = document.getElementById('exam-date').value;
+  if (v) saveExamDate(v);
+};
+document.getElementById('exam-date').addEventListener('change', e => {
+  if (e.target.value) saveExamDate(e.target.value);
+});
+
+render();
+</script>
+</body>
+</html>
