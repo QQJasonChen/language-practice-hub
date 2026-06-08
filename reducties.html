@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>🎧 連音解碼訓練 — A2 Listening Hub</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
+    --text:#e8e8f0;--text2:#9ca3af;--dim:#6b7280;--ok:#4ade80;--bad:#f87171;
+    --accent:#fb923c;--ring:#5eead4;--purple:#a78bfa}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans","Noto Sans JP",sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:18px 14px 100px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+  header a{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:0;font-size:19px;flex:1}
+  .lede{color:var(--text2);font-size:13px;margin:0 0 14px;line-height:1.65}
+  .lede b{color:var(--ring)}
+  .lede .kicker{color:var(--accent);font-weight:700}
+
+  .stats{display:flex;gap:8px;margin:10px 0 16px}
+  .stat{flex:1;text-align:center;padding:10px;background:var(--card);border-radius:10px}
+  .stat .n{font-size:18px;font-weight:800}
+  .stat .l{font-size:11px;color:var(--text2);margin-top:2px}
+  .stat.ok .n{color:var(--ok)}
+  .stat.fail .n{color:var(--bad)}
+  .stat.left .n{color:var(--accent)}
+
+  .tabs{display:flex;gap:4px;margin:8px 0 16px;border-bottom:1px solid var(--line)}
+  .tab{padding:8px 14px;cursor:pointer;font-size:13px;font-weight:700;
+    color:var(--text2);border-bottom:2px solid transparent}
+  .tab.on{color:var(--ring);border-color:var(--ring)}
+
+  /* Pattern card */
+  .pat{margin-bottom:12px;background:var(--card);border-radius:12px;
+    border:1px solid var(--line);overflow:hidden}
+  .pat-head{display:flex;align-items:center;gap:12px;padding:14px;cursor:pointer;
+    user-select:none}
+  .pat-head:hover{background:var(--card2)}
+  .pat-icon{font-size:22px}
+  .pat-name{font-size:16px;font-weight:800;color:var(--text)}
+  .pat-zh{font-size:12px;color:var(--text2);font-weight:500;margin-left:6px}
+  .pat-meta{flex:1;display:flex;flex-direction:column;gap:2px}
+  .pat-prog{font-size:11px;color:var(--text2);font-weight:600}
+  .pat-prog .ok-n{color:var(--ok);font-weight:800}
+  .pat-prog .fail-n{color:var(--bad);font-weight:800}
+  .pat-toggle{font-size:14px;color:var(--text2);transition:transform .2s}
+  .pat.open .pat-toggle{transform:rotate(180deg)}
+
+  .pat-body{display:none;padding:0 14px 14px;border-top:1px solid var(--line)}
+  .pat.open .pat-body{display:block}
+  .pat-desc{color:var(--text);font-size:13px;line-height:1.6;margin:12px 0 8px}
+  .pat-hint{background:rgba(94,234,212,0.08);border-left:3px solid var(--ring);
+    padding:8px 10px;border-radius:0 6px 6px 0;color:var(--text);font-size:12.5px;
+    line-height:1.6;margin-bottom:14px}
+  .pat-hint .h-tag{color:var(--ring);font-weight:800;margin-right:4px}
+
+  /* Example item */
+  .ex{padding:11px;background:var(--card2);border-radius:8px;margin-bottom:8px;
+    border:1px solid var(--line);transition:border-color .15s,background .15s}
+  .ex.ok{border-color:rgba(74,222,128,0.4);background:rgba(74,222,128,0.06)}
+  .ex.fail{border-color:rgba(248,113,113,0.4);background:rgba(248,113,113,0.05)}
+  .ex-src{font-size:10px;color:var(--dim);margin-bottom:4px;font-weight:600}
+  .ex-text{font-size:14.5px;color:var(--text);line-height:1.55;font-weight:500}
+  .ex-text mark{background:#fde047;color:#18181b;padding:1px 5px;border-radius:3px;
+    font-weight:800;box-shadow:0 0 0 1px rgba(253,224,71,0.6)}
+  .ex-zh{font-size:12px;color:var(--text2);margin-top:3px;display:none}
+  .ex.revealed .ex-zh{display:block}
+  .ex-controls{display:flex;gap:5px;margin-top:9px;flex-wrap:wrap;align-items:center}
+  .speed-btn{padding:5px 10px;background:rgba(94,234,212,0.12);color:var(--ring);
+    border:1px solid var(--ring);border-radius:6px;cursor:pointer;font-size:11.5px;
+    font-weight:700;font-family:inherit}
+  .speed-btn:hover{background:rgba(94,234,212,0.25)}
+  .speed-btn.slow{background:rgba(244,114,182,0.12);color:#f9a8d4;border-color:#f472b6}
+  .speed-btn.slow:hover{background:rgba(244,114,182,0.25)}
+  .speed-btn.fast{background:rgba(251,146,60,0.12);color:#fdba74;border-color:#fb923c}
+  .speed-btn.fast:hover{background:rgba(251,146,60,0.25)}
+  .reveal-btn{padding:5px 10px;background:transparent;border:1px solid var(--line);
+    color:var(--text2);border-radius:6px;cursor:pointer;font-size:11.5px;font-weight:700;
+    font-family:inherit;margin-left:auto}
+  .reveal-btn:hover{border-color:var(--text2)}
+  .ex-judge{display:flex;gap:6px;margin-top:8px}
+  .judge-btn{flex:1;padding:7px 10px;border:0;border-radius:6px;cursor:pointer;
+    font-size:12px;font-weight:800;font-family:inherit}
+  .judge-btn.ok{background:rgba(74,222,128,0.18);color:var(--ok);
+    border:1px solid rgba(74,222,128,0.4)}
+  .judge-btn.ok:hover,.ex.ok .judge-btn.ok{background:var(--ok);color:#000}
+  .judge-btn.fail{background:rgba(248,113,113,0.18);color:var(--bad);
+    border:1px solid rgba(248,113,113,0.4)}
+  .judge-btn.fail:hover,.ex.fail .judge-btn.fail{background:var(--bad);color:#fff}
+
+  /* "Drill all in this pattern" button */
+  .drill-row{display:flex;gap:8px;margin-bottom:12px}
+  .drill-btn{flex:1;padding:9px;background:linear-gradient(135deg,#a78bfa,#7c3aed);
+    color:#fff;border:0;border-radius:8px;cursor:pointer;font-size:12.5px;font-weight:800;
+    font-family:inherit}
+  .drill-btn:hover{filter:brightness(1.1)}
+  .reset-btn{padding:9px 14px;background:transparent;border:1px solid var(--line);
+    color:var(--text2);border-radius:8px;cursor:pointer;font-size:12px;font-family:inherit}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="index.html">← 返回</a>
+    <h1>🎧 連音解碼訓練</h1>
+  </header>
+  <p class="lede">
+    <span class="kicker">為什麼你聽起來「糊糊的」？</span>
+    因為 Dutch 的小字（<b>niet / je / het / er</b>）會被吃掉、和前面的字連讀成一團。
+    這些字幕看了都認得，但耳朵抓不到 — 不是字庫問題，是<b>解碼問題</b>。
+    這頁從你 3 套 mock 抽出真實例句，每句用 4 種速度練到聽得清楚為止。
+  </p>
+
+  <div class="stats">
+    <div class="stat ok"><div class="n" id="s-ok">…</div><div class="l">✓ 聽得到</div></div>
+    <div class="stat fail"><div class="n" id="s-fail">…</div><div class="l">✗ 還是糊</div></div>
+    <div class="stat left"><div class="n" id="s-left">…</div><div class="l">未練</div></div>
+    <div class="stat"><div class="n" id="s-total">…</div><div class="l">總句</div></div>
+  </div>
+
+  <div class="tabs">
+    <div class="tab on" data-cat="all" onclick="switchCat('all')">📚 全部</div>
+    <div class="tab" data-cat="function_word" onclick="switchCat('function_word')">🔤 單字</div>
+    <div class="tab" data-cat="reduction" onclick="switchCat('reduction')">🔗 連音</div>
+    <div class="tab" data-cat="fail" onclick="switchCat('fail')">✗ 只看糊的</div>
+  </div>
+
+  <div id="pats"></div>
+</div>
+
+<script>
+const MOCK_LABELS = {'_iC1Pooi2UA':'M1','AMVy2zPNLso':'M2','mock3_a2_2026':'M3'};
+const STATE_KEY = 'lph_red_state';
+let data = null;
+let currentCat = 'all';
+let _audio = null, _stopT = null;
+
+function loadState() {
+  try { return JSON.parse(localStorage.getItem(STATE_KEY) || '{}'); }
+  catch(e) { return {}; }
+}
+function saveState(s) { localStorage.setItem(STATE_KEY, JSON.stringify(s)); }
+function exKey(patId, ex) { return `${patId}|${ex.vid}|${ex.idx}`; }
+function esc(t) { return String(t || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function playEx(vid, start, end, rate) {
+  if (_stopT) { clearTimeout(_stopT); _stopT = null; }
+  if (!_audio) _audio = new Audio();
+  const src = `output/${vid}/audio.mp3`;
+  if (_audio.src.indexOf(src) === -1) _audio.src = src;
+  const go = () => {
+    _audio.playbackRate = rate;
+    _audio.currentTime = start;
+    _audio.play().catch(()=>{});
+    const dur = (end - start) / rate * 1000 + 350;
+    _stopT = setTimeout(() => _audio.pause(), Math.max(1200, dur));
+  };
+  if (_audio.readyState >= 1) go();
+  else _audio.addEventListener('loadedmetadata', go, { once: true });
+}
+
+function mark(patId, vid, idx, status) {
+  const state = loadState();
+  state[`${patId}|${vid}|${idx}`] = status;
+  saveState(state);
+  // Update DOM directly without full re-render (preserves expanded state)
+  const exEl = document.querySelector(`[data-exkey="${patId}|${vid}|${idx}"]`);
+  if (exEl) {
+    exEl.classList.remove('ok','fail');
+    exEl.classList.add(status);
+  }
+  updateStats();
+  updatePatProg(patId);
+}
+
+function toggleReveal(el) {
+  el.closest('.ex').classList.toggle('revealed');
+}
+
+function togglePat(patId) {
+  const el = document.querySelector(`[data-pat="${patId}"]`);
+  if (el) el.classList.toggle('open');
+}
+
+function highlightMatch(text, start, end) {
+  const before = esc(text.slice(0, start));
+  const match  = esc(text.slice(start, end));
+  const after  = esc(text.slice(end));
+  return `${before}<mark>${match}</mark>${after}`;
+}
+
+function exHtml(patId, ex) {
+  const state = loadState();
+  const st = state[exKey(patId, ex)] || '';
+  const text = highlightMatch(ex.text, ex.match_start, ex.match_end);
+  return `<div class="ex ${st}" data-exkey="${exKey(patId,ex)}">
+    <div class="ex-src">${MOCK_LABELS[ex.vid] || ex.vid} · 第 ${ex.idx + 1} 句</div>
+    <div class="ex-text">${text}</div>
+    ${ex.zh ? `<div class="ex-zh">${esc(ex.zh)}</div>` : ''}
+    <div class="ex-controls">
+      <button class="speed-btn slow" onclick="playEx('${ex.vid}',${ex.start},${ex.end},0.6)">0.6x</button>
+      <button class="speed-btn slow" onclick="playEx('${ex.vid}',${ex.start},${ex.end},0.8)">0.8x</button>
+      <button class="speed-btn" onclick="playEx('${ex.vid}',${ex.start},${ex.end},1.0)">1.0x</button>
+      <button class="speed-btn fast" onclick="playEx('${ex.vid}',${ex.start},${ex.end},1.15)">1.15x</button>
+      <button class="reveal-btn" onclick="toggleReveal(this)">👁 顯示中文</button>
+    </div>
+    <div class="ex-judge">
+      <button class="judge-btn ok" onclick="mark('${patId}','${ex.vid}',${ex.idx},'ok')">✓ 聽得到</button>
+      <button class="judge-btn fail" onclick="mark('${patId}','${ex.vid}',${ex.idx},'fail')">✗ 還是糊</button>
+    </div>
+  </div>`;
+}
+
+function patProgressText(p) {
+  const state = loadState();
+  let ok = 0, fail = 0;
+  for (const ex of p.examples) {
+    const s = state[exKey(p.id, ex)];
+    if (s === 'ok') ok++;
+    else if (s === 'fail') fail++;
+  }
+  return `<span class="ok-n">${ok}</span> ✓ / <span class="fail-n">${fail}</span> ✗ / ${p.examples.length} 句`;
+}
+
+function updatePatProg(patId) {
+  const p = data.patterns.find(x => x.id === patId);
+  if (!p) return;
+  const el = document.querySelector(`[data-pat="${patId}"] .pat-prog`);
+  if (el) el.innerHTML = patProgressText(p);
+}
+
+function patHtml(p) {
+  return `<div class="pat" data-pat="${p.id}">
+    <div class="pat-head" onclick="togglePat('${p.id}')">
+      <span class="pat-icon">${p.icon}</span>
+      <div class="pat-meta">
+        <div class="pat-name">${esc(p.name)} <span class="pat-zh">${esc(p.zh)}</span></div>
+        <div class="pat-prog">${patProgressText(p)}</div>
+      </div>
+      <span class="pat-toggle">▼</span>
+    </div>
+    <div class="pat-body">
+      <div class="pat-desc">${esc(p.desc)}</div>
+      <div class="pat-hint"><span class="h-tag">💡 聽起來的樣子：</span>${esc(p.spoken_hint)}</div>
+      <div class="ex-list">${p.examples.map(ex => exHtml(p.id, ex)).join('')}</div>
+    </div>
+  </div>`;
+}
+
+function updateStats() {
+  if (!data) return;
+  const state = loadState();
+  let ok = 0, fail = 0, total = 0;
+  for (const p of data.patterns) {
+    for (const ex of p.examples) {
+      total++;
+      const s = state[exKey(p.id, ex)];
+      if (s === 'ok') ok++;
+      else if (s === 'fail') fail++;
+    }
+  }
+  document.getElementById('s-ok').textContent = ok;
+  document.getElementById('s-fail').textContent = fail;
+  document.getElementById('s-left').textContent = total - ok - fail;
+  document.getElementById('s-total').textContent = total;
+}
+
+function render() {
+  const state = loadState();
+  const box = document.getElementById('pats');
+  let pats;
+  if (currentCat === 'all') pats = data.patterns.filter(p => p.examples.length);
+  else if (currentCat === 'fail') {
+    // Keep only patterns that have fail examples, and filter examples to only fail ones
+    pats = data.patterns.map(p => ({
+      ...p,
+      examples: p.examples.filter(ex => state[exKey(p.id, ex)] === 'fail')
+    })).filter(p => p.examples.length);
+  }
+  else pats = data.patterns.filter(p => p.category === currentCat && p.examples.length);
+  if (!pats.length) {
+    box.innerHTML = `<div style="text-align:center;color:var(--text2);padding:40px 20px">
+      ${currentCat === 'fail'
+        ? '🎉 沒有「糊」的句子了！全部聽得到。'
+        : '沒有符合的項目'}
+    </div>`;
+    return;
+  }
+  box.innerHTML = pats.map(p => patHtml(p)).join('');
+  // Auto-open the first 2 patterns
+  document.querySelectorAll('.pat').forEach((el, i) => {
+    if (i < 2) el.classList.add('open');
+  });
+}
+
+function switchCat(cat) {
+  currentCat = cat;
+  document.querySelectorAll('.tab').forEach(t =>
+    t.classList.toggle('on', t.dataset.cat === cat));
+  render();
+}
+
+(async function init() {
+  data = await (await fetch('output/reducties.json')).json();
+  updateStats();
+  render();
+})();
+</script>
+</body>
+</html>

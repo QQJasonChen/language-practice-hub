@@ -1,0 +1,1340 @@
+{
+  "patterns": [
+    {
+      "id": "niet",
+      "name": "niet",
+      "category": "function_word",
+      "zh": "否定詞",
+      "icon": "❌",
+      "desc": "最常被吃掉的字。漏聽就把否定句聽成肯定句 → 答案完全反過來。",
+      "spoken_hint": "通常很輕、和前一個字連讀。'Het is niet' 聽起來像 'Hetisniet' 黏一坨。",
+      "count": 8,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 109,
+          "text": "Niet vergeten, hè.",
+          "zh": "別忘了，喔。",
+          "start": 376.7,
+          "end": 378.88,
+          "match_start": 0,
+          "match_end": 4
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 9,
+          "text": "Oh, dat is niet duur.",
+          "zh": "哦，這不貴。",
+          "start": 27.52,
+          "end": 28.7,
+          "match_start": 11,
+          "match_end": 15
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 82,
+          "text": "Maar hij zit niet zo lekker.",
+          "zh": "不過穿起來不太舒服。",
+          "start": 274.54,
+          "end": 276.22,
+          "match_start": 13,
+          "match_end": 17
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 66,
+          "text": "Ik weet het niet meer zo precies.",
+          "zh": "我有點不太記得了。",
+          "start": 214.68,
+          "end": 216.48,
+          "match_start": 12,
+          "match_end": 16
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 94,
+          "text": "Jammer dat je er vandaag niet was.",
+          "zh": "真可惜你今天沒來。",
+          "start": 320.32,
+          "end": 321.68,
+          "match_start": 25,
+          "match_end": 29
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 32,
+          "text": "Maar dat hoeft Lars nog niet, hoor.",
+          "zh": "不過拉斯還不需要這麼早啦。",
+          "start": 89.14,
+          "end": 90.84,
+          "match_start": 24,
+          "match_end": 28
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 310,
+          "text": "Vergeet ook niet het telefoonnummer.",
+          "zh": "也不要忘了電話號碼。",
+          "start": 2007.42,
+          "end": 2009.62,
+          "match_start": 12,
+          "match_end": 16
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 26,
+          "text": "Nou ja, oud of jong. Maakt niet uit.",
+          "zh": "嗯，老的或年輕的都可以，沒關係。",
+          "start": 74.1,
+          "end": 76.7,
+          "match_start": 27,
+          "match_end": 31
+        }
+      ]
+    },
+    {
+      "id": "wel",
+      "name": "wel",
+      "category": "function_word",
+      "zh": "反向肯定",
+      "icon": "✅",
+      "desc": "和 niet 對應的反向強調「就是有/就是會」。聽到 wel = 答案是肯定的。",
+      "spoken_hint": "和 niet 同樣輕。在 'Ik kom wel' 裡的 wel 幾乎沒重音。",
+      "count": 8,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 4,
+          "text": "Ja, wel.",
+          "zh": "嗯，喜歡。",
+          "start": 16.74,
+          "end": 17.66,
+          "match_start": 4,
+          "match_end": 7
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 67,
+          "text": "Ik lees het wel.",
+          "zh": "我會看一下的。",
+          "start": 218.04,
+          "end": 218.72,
+          "match_start": 12,
+          "match_end": 15
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 43,
+          "text": "Dat is wel wat laat.",
+          "zh": "這樣有點晚喔。",
+          "start": 129.88,
+          "end": 131.48,
+          "match_start": 7,
+          "match_end": 10
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 45,
+          "text": "Ja, dat lukt ook wel.",
+          "zh": "嗯，這樣也可以。",
+          "start": 135.06,
+          "end": 136.48,
+          "match_start": 17,
+          "match_end": 20
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 106,
+          "text": "En we bellen nog wel.",
+          "zh": "我們會再打電話的。",
+          "start": 368.86,
+          "end": 370.0,
+          "match_start": 17,
+          "match_end": 20
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 89,
+          "text": "Dan leg ik hem wel terug.",
+          "zh": "那我就把它放回去。",
+          "start": 298.26,
+          "end": 299.3,
+          "match_start": 15,
+          "match_end": 18
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 322,
+          "text": "Ik zal wel reserveren. Oh ja.",
+          "zh": "我會去訂位。喔對。",
+          "start": 1870.14,
+          "end": 1874.08,
+          "match_start": 7,
+          "match_end": 10
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 18,
+          "text": "Oh, nou. Heel fijn. Dank u wel.",
+          "zh": "哦，那太好了。謝謝您。",
+          "start": 46.04,
+          "end": 48.68,
+          "match_start": 27,
+          "match_end": 30
+        }
+      ]
+    },
+    {
+      "id": "je",
+      "name": "je",
+      "category": "function_word",
+      "zh": "你（弱讀 → e/ie）",
+      "icon": "👉",
+      "desc": "幾乎看不到 j 音、整個吃進前面動詞。",
+      "spoken_hint": "'Heb je' → 'Hebbie'，'Ga je' → 'Gaje'，'Wil je' → 'Wilje'。",
+      "count": 8,
+      "examples": [
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 277,
+          "text": "Je toets dan de 4.",
+          "zh": "接著按4鍵。",
+          "start": 1811.48,
+          "end": 1816.48,
+          "match_start": 0,
+          "match_end": 2
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 287,
+          "text": "Nou, je eerste dag.",
+          "zh": "嗯，你的第一天。",
+          "start": 1874.94,
+          "end": 1879.78,
+          "match_start": 5,
+          "match_end": 7
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 301,
+          "text": "Nou, je eerste dag.",
+          "zh": "嗯，妳的第一天。",
+          "start": 1962.84,
+          "end": 1964.84,
+          "match_start": 5,
+          "match_end": 7
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 148,
+          "text": "Dus wil je wat doorgeven?",
+          "zh": "所以你想傳達什麼嗎？",
+          "start": 511.8,
+          "end": 513.8,
+          "match_start": 8,
+          "match_end": 10
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 154,
+          "text": "Dus wil je wat doorgeven?",
+          "zh": "所以你想要傳達什麼嗎？",
+          "start": 540.3,
+          "end": 542.0,
+          "match_start": 8,
+          "match_end": 10
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 328,
+          "text": "Dank je. Dag. Wie is Moerad?",
+          "zh": "謝謝你。再見。Moerad 是誰？",
+          "start": 1899.1,
+          "end": 1903.86,
+          "match_start": 5,
+          "match_end": 7
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 167,
+          "text": "En dan kan je het bestellen.",
+          "zh": "然後你就可以訂購了。",
+          "start": 1078.26,
+          "end": 1082.46,
+          "match_start": 11,
+          "match_end": 13
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 130,
+          "text": "Bram, wat ga je vandaag doen?",
+          "zh": "布拉姆，今天你要做什麼？",
+          "start": 442.62,
+          "end": 443.88,
+          "match_start": 13,
+          "match_end": 15
+        }
+      ]
+    },
+    {
+      "id": "het",
+      "name": "het",
+      "category": "function_word",
+      "zh": "它/這個 (中性代名詞)",
+      "icon": "🔘",
+      "desc": "h 音幾乎不發、變成 't 黏在前一個字後面。",
+      "spoken_hint": "'Ik heb het' → 'Ikhept'，'Doe het' → 'Doet'。",
+      "count": 8,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 80,
+          "text": "En? Lukt het?",
+          "zh": "那怎麼樣？順利嗎？",
+          "start": 267.2,
+          "end": 270.44,
+          "match_start": 9,
+          "match_end": 12
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 241,
+          "text": "Ja, ik zie het.",
+          "zh": "是啊，我看到了。",
+          "start": 1401.9,
+          "end": 1404.66,
+          "match_start": 11,
+          "match_end": 14
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 265,
+          "text": "Ja, ik zie het.",
+          "zh": "是，我看到了。",
+          "start": 1524.18,
+          "end": 1526.22,
+          "match_start": 11,
+          "match_end": 14
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 67,
+          "text": "Ik lees het wel.",
+          "zh": "我會看一下的。",
+          "start": 218.04,
+          "end": 218.72,
+          "match_start": 8,
+          "match_end": 11
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 369,
+          "text": "In de rij voor het",
+          "zh": "在報到櫃台的排隊隊伍中，",
+          "start": 2350.1,
+          "end": 2351.64,
+          "match_start": 15,
+          "match_end": 18
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 231,
+          "text": "Naar het postadres.",
+          "zh": "寄到郵寄地址。",
+          "start": 1349.5,
+          "end": 1351.36,
+          "match_start": 5,
+          "match_end": 8
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 195,
+          "text": "Dat was het. Bedankt.",
+          "zh": "就這樣。謝謝。",
+          "start": 1155.76,
+          "end": 1157.96,
+          "match_start": 8,
+          "match_end": 11
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 210,
+          "text": "Dat was het. Bedankt.",
+          "zh": "就這樣，謝謝。",
+          "start": 1240.78,
+          "end": 1242.72,
+          "match_start": 8,
+          "match_end": 11
+        }
+      ]
+    },
+    {
+      "id": "er",
+      "name": "er",
+      "category": "function_word",
+      "zh": "在那裡（指代）",
+      "icon": "📍",
+      "desc": "弱讀成 'r 黏在動詞後面。漏聽就分不清主詞。",
+      "spoken_hint": "'Er is' → \"'ris\"，'Er staat' → \"'rstaat\"。",
+      "count": 8,
+      "examples": [
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 359,
+          "text": "Er waren 1300 vluchten.",
+          "zh": "有1300班次航班。",
+          "start": 2305.7,
+          "end": 2308.14,
+          "match_start": 0,
+          "match_end": 2
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 286,
+          "text": "Er is een bedrijfsfeest.",
+          "zh": "那裡有一個公司派對。",
+          "start": 1650.62,
+          "end": 1652.06,
+          "match_start": 0,
+          "match_end": 2
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 319,
+          "text": "Er is een bedrijfsfeest.",
+          "zh": "有一個公司聚會。",
+          "start": 1856.64,
+          "end": 1859.2,
+          "match_start": 0,
+          "match_end": 2
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 79,
+          "text": "Er zijn nog twee plaatsen.",
+          "zh": "還剩下兩個名額。",
+          "start": 510.38,
+          "end": 512.12,
+          "match_start": 0,
+          "match_end": 2
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 94,
+          "text": "Er zijn nog twee plaatsen.",
+          "zh": "還剩下兩個名額。",
+          "start": 589.7,
+          "end": 592.86,
+          "match_start": 0,
+          "match_end": 2
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 345,
+          "text": "Er waren 1300 vluchten. Er",
+          "zh": "史基浦有超過17萬名乘客，去年夏天最忙的那天則是18萬人。",
+          "start": 2215.46,
+          "end": 2217.9,
+          "match_start": 0,
+          "match_end": 2
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 85,
+          "text": "Hoeveel plaatsen zijn er nog?",
+          "zh": "還剩多少名額？",
+          "start": 539.64,
+          "end": 541.62,
+          "match_start": 22,
+          "match_end": 24
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 115,
+          "text": "Wat is er met uw pinpas gebeurd?",
+          "zh": "你的提款卡發生了什麼事？",
+          "start": 390.6,
+          "end": 391.86,
+          "match_start": 7,
+          "match_end": 9
+        }
+      ]
+    },
+    {
+      "id": "al",
+      "name": "al",
+      "category": "function_word",
+      "zh": "已經",
+      "icon": "⏰",
+      "desc": "兩個字母、很輕、漏聽就分不清「現在 vs 已經多久」",
+      "spoken_hint": "'is al zwanger' 裡的 al 幾乎聽不到，但漏聽就把『已經懷孕 X 個月』聽成『現在懷孕』。",
+      "count": 8,
+      "examples": [
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 42,
+          "text": "Hij heeft zich al ingeschreven.",
+          "zh": "他已經註冊了。",
+          "start": 271.58,
+          "end": 273.16,
+          "match_start": 15,
+          "match_end": 17
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 84,
+          "text": "Hij heeft zich al ingeschreven.",
+          "zh": "他已經報名了。",
+          "start": 557.86,
+          "end": 559.7,
+          "match_start": 15,
+          "match_end": 17
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 376,
+          "text": "Daarbij helpen al andere ouders.",
+          "zh": "其他家長也會幫忙。",
+          "start": 2198.82,
+          "end": 2200.62,
+          "match_start": 15,
+          "match_end": 17
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 421,
+          "text": "Daarbij helpen al andere ouders.",
+          "zh": "其他家長也會一起幫忙。",
+          "start": 2455.1,
+          "end": 2456.88,
+          "match_start": 15,
+          "match_end": 17
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 122,
+          "text": "Oké, heeft u uw pinpas al geblokkeerd?",
+          "zh": "好的，您已經把您的提款卡封鎖了嗎？",
+          "start": 410.92,
+          "end": 413.3,
+          "match_start": 23,
+          "match_end": 25
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 31,
+          "text": "Nou ja, ik begin altijd al om vijf uur.",
+          "zh": "嗯，我總是五點就開始。",
+          "start": 86.4,
+          "end": 88.62,
+          "match_start": 24,
+          "match_end": 26
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 211,
+          "text": "Tjee, wat een drukke tijd hè, met al die examens.",
+          "zh": "哇，考試季真忙碌啊。",
+          "start": 1360.67,
+          "end": 1364.71,
+          "match_start": 34,
+          "match_end": 36
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 182,
+          "text": "Tjee. Wat een drukke tijd, hè, met al die examens.",
+          "zh": "哇，真是忙碌的時期，考試好多。",
+          "start": 1179.66,
+          "end": 1183.94,
+          "match_start": 35,
+          "match_end": 37
+        }
+      ]
+    },
+    {
+      "id": "maar",
+      "name": "maar",
+      "category": "function_word",
+      "zh": "但是 / 才（轉折）",
+      "icon": "🔄",
+      "desc": "轉折詞 — maar 後面才是真資訊。前面是干擾。",
+      "spoken_hint": "「Niet ..., maar ...」結構：聽到 maar 後面才是答案。",
+      "count": 8,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 6,
+          "text": "Kijk maar.",
+          "zh": "您看看。",
+          "start": 20.62,
+          "end": 20.98,
+          "match_start": 5,
+          "match_end": 9
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 82,
+          "text": "Maar hij zit niet zo lekker.",
+          "zh": "不過穿起來不太舒服。",
+          "start": 274.54,
+          "end": 276.22,
+          "match_start": 0,
+          "match_end": 4
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 348,
+          "text": "Maar daarover later meer. Goed.",
+          "zh": "但這部分稍後會說。好。",
+          "start": 2008.34,
+          "end": 2011.92,
+          "match_start": 0,
+          "match_end": 4
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 367,
+          "text": "Maar daarover later meer. Goed.",
+          "zh": "不過這部分稍後再說。好。",
+          "start": 2125.36,
+          "end": 2128.94,
+          "match_start": 0,
+          "match_end": 4
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 28,
+          "text": "Maar hij is wel een goed student.",
+          "zh": "但他必須是一個好學生。",
+          "start": 79.62,
+          "end": 80.84,
+          "match_start": 0,
+          "match_end": 4
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 32,
+          "text": "Maar dat hoeft Lars nog niet, hoor.",
+          "zh": "不過拉斯還不需要這麼早啦。",
+          "start": 89.14,
+          "end": 90.84,
+          "match_start": 0,
+          "match_end": 4
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 37,
+          "text": "Laat hem maar even bellen naar Esther.",
+          "zh": "讓他打電話給艾絲特吧。",
+          "start": 102.46,
+          "end": 104.28,
+          "match_start": 9,
+          "match_end": 13
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 121,
+          "text": "Maar ik kon pas vandaag hierheen komen.",
+          "zh": "不過我今天才可以來這裡。",
+          "start": 408.02,
+          "end": 409.86,
+          "match_start": 0,
+          "match_end": 4
+        }
+      ]
+    },
+    {
+      "id": "nog",
+      "name": "nog",
+      "category": "function_word",
+      "zh": "還 / 仍然",
+      "icon": "🔁",
+      "desc": "'還要做'、'還沒做'、'再來一份' — A2 高頻時間/數量副詞",
+      "spoken_hint": "'Heb je nog ...?' 'Nog niet'：常和 niet/geen 一起出現，要兩個都抓到。",
+      "count": 8,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 106,
+          "text": "En we bellen nog wel.",
+          "zh": "我們會再打電話的。",
+          "start": 368.86,
+          "end": 370.0,
+          "match_start": 13,
+          "match_end": 16
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 79,
+          "text": "Er zijn nog twee plaatsen.",
+          "zh": "還剩下兩個名額。",
+          "start": 510.38,
+          "end": 512.12,
+          "match_start": 8,
+          "match_end": 11
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 94,
+          "text": "Er zijn nog twee plaatsen.",
+          "zh": "還剩下兩個名額。",
+          "start": 589.7,
+          "end": 592.86,
+          "match_start": 8,
+          "match_end": 11
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 85,
+          "text": "Hoeveel plaatsen zijn er nog?",
+          "zh": "還剩多少名額？",
+          "start": 539.64,
+          "end": 541.62,
+          "match_start": 25,
+          "match_end": 28
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 32,
+          "text": "Maar dat hoeft Lars nog niet, hoor.",
+          "zh": "不過拉斯還不需要這麼早啦。",
+          "start": 89.14,
+          "end": 90.84,
+          "match_start": 20,
+          "match_end": 23
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 271,
+          "text": "Die kan er dan nog fouten uithalen. Oké.",
+          "zh": "他們可以幫你找錯。好的。",
+          "start": 1557.98,
+          "end": 1561.98,
+          "match_start": 15,
+          "match_end": 18
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 132,
+          "text": "En wat doe jij nog meer tijdens je stage?",
+          "zh": "那你在實習期間還做些什麼呢？",
+          "start": 446.48,
+          "end": 448.4,
+          "match_start": 15,
+          "match_end": 18
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 56,
+          "text": "Ik zou je nog bellen over het samenreizen.",
+          "zh": "我還想打電話跟你聊聊一起搭車的事。",
+          "start": 174.76,
+          "end": 176.94,
+          "match_start": 10,
+          "match_end": 13
+        }
+      ]
+    },
+    {
+      "id": "pas",
+      "name": "pas",
+      "category": "function_word",
+      "zh": "才 / 剛剛",
+      "icon": "⏳",
+      "desc": "'才幾點'、'剛剛開始' — 時間限定詞",
+      "spoken_hint": "'Het is pas drie uur'：pas = 才，否定預期。",
+      "count": 7,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 121,
+          "text": "Maar ik kon pas vandaag hierheen komen.",
+          "zh": "不過我今天才可以來這裡。",
+          "start": 408.02,
+          "end": 409.86,
+          "match_start": 12,
+          "match_end": 15
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 126,
+          "text": "U kunt weer geld opnemen als u uw nieuwe pas heeft.",
+          "zh": "當您拿到新的卡片後，就可以再提款了。",
+          "start": 420.66,
+          "end": 423.72,
+          "match_start": 41,
+          "match_end": 44
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 137,
+          "text": "De waterleiding is waarschijnlijk pas donderdag gemaakt.",
+          "zh": "水管很可能要到星期四才修好。",
+          "start": 849.48,
+          "end": 852.56,
+          "match_start": 34,
+          "match_end": 37
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 157,
+          "text": "De waterleiding is waarschijnlijk pas donderdag gemaakt.",
+          "zh": "水管可能要到星期四才會修好。",
+          "start": 951.9,
+          "end": 954.92,
+          "match_start": 34,
+          "match_end": 37
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 174,
+          "text": "De waterleiding is waarschijnlijk pas donderdag gemaakt.",
+          "zh": "水管可能要到星期四才會修好。",
+          "start": 1038.86,
+          "end": 1041.94,
+          "match_start": 34,
+          "match_end": 37
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 48,
+          "text": "Vind je lekkere en gezonde snacks ook belangrijk? Dan pas jij precies bij ons bedrijf.",
+          "zh": "你在找工作嗎？想和有趣的同事一起工作嗎？",
+          "start": 294.26,
+          "end": 299.94,
+          "match_start": 54,
+          "match_end": 57
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 64,
+          "text": "Vind je lekkere en gezonde snacks ook belangrijk? Dan pas jij precies bij ons bedrijf.",
+          "zh": "你覺得美味又健康的零食也很重要嗎？那你就是我們公司的理想人選。",
+          "start": 406.14,
+          "end": 411.8,
+          "match_start": 54,
+          "match_end": 57
+        }
+      ]
+    },
+    {
+      "id": "hebje",
+      "name": "Heb je",
+      "category": "reduction",
+      "zh": "你有...嗎？",
+      "icon": "🔗",
+      "desc": "問句最高頻句頭、變成一個字 'Hebbie'",
+      "spoken_hint": "Heb + je → Hebbie。聽到 Hebbie 就要反應「他在問你有沒有 X」",
+      "count": 4,
+      "examples": [
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 222,
+          "text": "Dan heb je extra tijd om te leren.",
+          "zh": "這樣你會有額外的時間學習。",
+          "start": 1413.17,
+          "end": 1416.21,
+          "match_start": 4,
+          "match_end": 10
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 223,
+          "text": "Dan heb je minder tijd om te leren.",
+          "zh": "這樣你會有較少時間學習。",
+          "start": 1416.93,
+          "end": 1419.97,
+          "match_start": 4,
+          "match_end": 10
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 244,
+          "text": "Heb je dat aan iemand gevraagd? Nee.",
+          "zh": "你有問過別人嗎？沒有。",
+          "start": 1418.84,
+          "end": 1422.44,
+          "match_start": 0,
+          "match_end": 6
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 268,
+          "text": "Heb je dat aan iemand gevraagd? Nee. Oké.",
+          "zh": "你有請求過別人嗎？沒有。好的。",
+          "start": 1540.78,
+          "end": 1545.78,
+          "match_start": 0,
+          "match_end": 6
+        }
+      ]
+    },
+    {
+      "id": "wilje",
+      "name": "Wil je",
+      "category": "reduction",
+      "zh": "你要 / 想 ...嗎？",
+      "icon": "🔗",
+      "desc": "邀請、提議句最高頻開頭、變成 'Wilje'",
+      "spoken_hint": "Wil + je → Wilje。",
+      "count": 8,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 148,
+          "text": "Dus wil je wat doorgeven?",
+          "zh": "所以你想傳達什麼嗎？",
+          "start": 511.8,
+          "end": 513.8,
+          "match_start": 4,
+          "match_end": 10
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 154,
+          "text": "Dus wil je wat doorgeven?",
+          "zh": "所以你想要傳達什麼嗎？",
+          "start": 540.3,
+          "end": 542.0,
+          "match_start": 4,
+          "match_end": 10
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 47,
+          "text": "Wil je de opdracht dan mailen?",
+          "zh": "那你可以把作業寄給我嗎？",
+          "start": 138.56,
+          "end": 140.64,
+          "match_start": 0,
+          "match_end": 6
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 327,
+          "text": "Dus wil je mij even terugbellen?",
+          "zh": "所以，你能打電話回我嗎？",
+          "start": 1894.04,
+          "end": 1897.16,
+          "match_start": 4,
+          "match_end": 10
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 309,
+          "text": "Dus, wil je mij even terugbellen? Dank je.",
+          "zh": "所以，你能打電話回我嗎？謝謝你。",
+          "start": 1788.12,
+          "end": 1792.56,
+          "match_start": 5,
+          "match_end": 11
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 293,
+          "text": "Dus, wil je mij even terugbellen? Dank je. Dag!",
+          "zh": "所以，能回電給我嗎？謝謝。掰掰！",
+          "start": 1688.0,
+          "end": 1693.92,
+          "match_start": 5,
+          "match_end": 11
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 47,
+          "text": "Zoek jij werk? Wil je met leuke collega's werken?",
+          "zh": "然後觀看影片。",
+          "start": 289.34,
+          "end": 293.34,
+          "match_start": 15,
+          "match_end": 21
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 63,
+          "text": "Zoek jij werk? Wil je met leuke collega's werken?",
+          "zh": "你在找工作嗎？想跟很棒的同事一起工作嗎？",
+          "start": 401.26,
+          "end": 405.22,
+          "match_start": 15,
+          "match_end": 21
+        }
+      ]
+    },
+    {
+      "id": "gaje",
+      "name": "Ga je",
+      "category": "reduction",
+      "zh": "你去 / 要 ...嗎？",
+      "icon": "🔗",
+      "desc": "變成 'Gaje' 或 'Gah-je'",
+      "spoken_hint": "Ga + je → Gaje",
+      "count": 7,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 130,
+          "text": "Bram, wat ga je vandaag doen?",
+          "zh": "布拉姆，今天你要做什麼？",
+          "start": 442.62,
+          "end": 443.88,
+          "match_start": 10,
+          "match_end": 15
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 126,
+          "text": "En dan bij de groene brug ga je naar rechts.",
+          "zh": "然後到了綠色的橋時右轉。",
+          "start": 826.88,
+          "end": 829.52,
+          "match_start": 26,
+          "match_end": 31
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 140,
+          "text": "En dan bij de groene brug ga je naar rechts.",
+          "zh": "然後到了綠色的橋時右轉。",
+          "start": 924.02,
+          "end": 926.74,
+          "match_start": 26,
+          "match_end": 31
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 109,
+          "text": "En bij de supermarkt ga je rechtsaf. Je weet wel, hè?",
+          "zh": "在超市那裡右轉。你知道吧？",
+          "start": 734.1,
+          "end": 738.18,
+          "match_start": 21,
+          "match_end": 26
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 127,
+          "text": "Dan een stukje rechtdoor. En bij de supermarkt ga je rechtsaf.",
+          "zh": "往前走一段，在超市那裡右轉。",
+          "start": 830.3,
+          "end": 834.16,
+          "match_start": 47,
+          "match_end": 52
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 141,
+          "text": "Dan een stukje rechtdoor. En bij de supermarkt ga je rechtsaf.",
+          "zh": "往前走一段，在超市那裡右轉。",
+          "start": 927.44,
+          "end": 930.82,
+          "match_start": 47,
+          "match_end": 52
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 108,
+          "text": "En dan bij de groene brug ga je naar rechts. Dan een stukje rechtdoor en dan naar rechts.",
+          "zh": "然後到了綠色的橋時右轉。往前稍微走一段再右轉。",
+          "start": 729.76,
+          "end": 734.1,
+          "match_start": 26,
+          "match_end": 31
+        }
+      ]
+    },
+    {
+      "id": "kanje",
+      "name": "Kan je",
+      "category": "reduction",
+      "zh": "你能 ...嗎？",
+      "icon": "🔗",
+      "desc": "能力詢問、變成 'Kanje'",
+      "spoken_hint": "Kan + je → Kanje（很常見的請託開頭）",
+      "count": 4,
+      "examples": [
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 167,
+          "text": "En dan kan je het bestellen.",
+          "zh": "然後你就可以訂購了。",
+          "start": 1078.26,
+          "end": 1082.46,
+          "match_start": 7,
+          "match_end": 13
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 189,
+          "text": "Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.",
+          "zh": "我意思是，這時候你反正都在等車，可以做更多事。",
+          "start": 1212.09,
+          "end": 1215.99,
+          "match_start": 53,
+          "match_end": 59
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 201,
+          "text": "Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.",
+          "zh": "我的意思是，那段時間你本來就是在等待，你可以做很多額外的事情。",
+          "start": 1296.75,
+          "end": 1300.07,
+          "match_start": 53,
+          "match_end": 59
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 218,
+          "text": "Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.",
+          "zh": "我的意思是，那段時間你本來就是在等待，你可以做很多額外的事情。",
+          "start": 1392.73,
+          "end": 1396.27,
+          "match_start": 53,
+          "match_end": 59
+        }
+      ]
+    },
+    {
+      "id": "magje",
+      "name": "Mag je",
+      "category": "reduction",
+      "zh": "你可以 ...嗎？",
+      "icon": "🔗",
+      "desc": "許可詢問、變成 'Magje'",
+      "spoken_hint": "Mag + je → Magje。",
+      "count": 0,
+      "examples": []
+    },
+    {
+      "id": "watis",
+      "name": "Wat is",
+      "category": "reduction",
+      "zh": "什麼是 ...？ / ...是什麼？",
+      "icon": "🔗",
+      "desc": "黏成 'Watis'。A2 萬用問句。",
+      "spoken_hint": "Wat + is → Watis（一個字）",
+      "count": 1,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 115,
+          "text": "Wat is er met uw pinpas gebeurd?",
+          "zh": "你的提款卡發生了什麼事？",
+          "start": 390.6,
+          "end": 391.86,
+          "match_start": 0,
+          "match_end": 6
+        }
+      ]
+    },
+    {
+      "id": "hoeis",
+      "name": "Hoe is",
+      "category": "reduction",
+      "zh": "...怎麼樣？",
+      "icon": "🔗",
+      "desc": "黏成 'Hoeis'",
+      "spoken_hint": "Hoe + is → Hoeis",
+      "count": 0,
+      "examples": []
+    },
+    {
+      "id": "datis",
+      "name": "Dat is",
+      "category": "reduction",
+      "zh": "那是 ...",
+      "icon": "🔗",
+      "desc": "回答句、變成 'Datis'",
+      "spoken_hint": "Dat + is → Datis（dis 也可以）",
+      "count": 8,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 43,
+          "text": "Dat is wel wat laat.",
+          "zh": "這樣有點晚喔。",
+          "start": 129.88,
+          "end": 131.48,
+          "match_start": 0,
+          "match_end": 6
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 9,
+          "text": "Oh, dat is niet duur.",
+          "zh": "哦，這不貴。",
+          "start": 27.52,
+          "end": 28.7,
+          "match_start": 4,
+          "match_end": 10
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 249,
+          "text": "Ja, dat is een goed idee.",
+          "zh": "是啊，這是個好主意。",
+          "start": 1445.34,
+          "end": 1447.1,
+          "match_start": 4,
+          "match_end": 10
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 273,
+          "text": "Ja, dat is een goed idee.",
+          "zh": "是啊，這是個好主意。",
+          "start": 1567.32,
+          "end": 1569.06,
+          "match_start": 4,
+          "match_end": 10
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 187,
+          "text": "Ja, dat is misschien wel handig, ja.",
+          "zh": "是的，這或許很實用。",
+          "start": 1203.51,
+          "end": 1206.09,
+          "match_start": 4,
+          "match_end": 10
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 111,
+          "text": "Maar dat duurt nog 6 weken. Dat is wel lang zeg.",
+          "zh": "那還要六週，真的很久。",
+          "start": 696.52,
+          "end": 701.62,
+          "match_start": 28,
+          "match_end": 34
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 124,
+          "text": "Maar dat duurt nog 6 weken. Dat is wel lang zeg.",
+          "zh": "那還要六週，真的很久。",
+          "start": 781.3,
+          "end": 786.76,
+          "match_start": 28,
+          "match_end": 34
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 111,
+          "text": "En daarachter staat een blauw gebouw. Dat is hem wel.",
+          "zh": "後面有一棟藍色建築。那才是。",
+          "start": 742.92,
+          "end": 746.12,
+          "match_start": 38,
+          "match_end": 44
+        }
+      ]
+    },
+    {
+      "id": "ikheb",
+      "name": "Ik heb",
+      "category": "reduction",
+      "zh": "我有 ...",
+      "icon": "🔗",
+      "desc": "Ik 弱讀 → 'k，整個變成 'kheb 或 'khep\"",
+      "spoken_hint": "Ik + heb → 'kheb（很快、幾乎一個音節）",
+      "count": 7,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 113,
+          "text": "Ik heb een probleem.",
+          "zh": "我有個問題。",
+          "start": 386.42,
+          "end": 387.76,
+          "match_start": 0,
+          "match_end": 6
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 114,
+          "text": "Ik heb geen pinpas meer.",
+          "zh": "我沒有提款卡了。",
+          "start": 388.38,
+          "end": 389.66,
+          "match_start": 0,
+          "match_end": 6
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 2,
+          "text": "Kan ik u helpen? Ik heb een zoon gekregen, gisteren.",
+          "zh": "我可以幫您嗎？我昨天生了一個兒子。",
+          "start": 26.34,
+          "end": 31.32,
+          "match_start": 17,
+          "match_end": 23
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 17,
+          "text": "Kan ik u helpen? Ik heb een zoon gekregen. Gisteren.",
+          "zh": "我可以幫您嗎？我昨天生了一個兒子。",
+          "start": 110.76,
+          "end": 115.76,
+          "match_start": 17,
+          "match_end": 23
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 31,
+          "text": "Kan ik u helpen? Ik heb een zoon gekregen. Gisteren.",
+          "zh": "我可以幫您嗎？我昨天生了一個兒子。",
+          "start": 191.76,
+          "end": 196.76,
+          "match_start": 17,
+          "match_end": 23
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 335,
+          "text": "Ik heb vraag 1 dinsdag al gemaakt, en jij zou dan de derde vraag nog",
+          "zh": "喔，那第四題也是吧？那就是問題二，我們要一起做。",
+          "start": 2150.96,
+          "end": 2154.98,
+          "match_start": 0,
+          "match_end": 6
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 322,
+          "text": "Ik heb vraag 1 dinsdag al gemaakt, en jij zou dan de derde vraag nog thuis",
+          "zh": "我星期二已經做完問題一，你會在家做第三題。",
+          "start": 2076.48,
+          "end": 2080.86,
+          "match_start": 0,
+          "match_end": 6
+        }
+      ]
+    },
+    {
+      "id": "ikben",
+      "name": "Ik ben",
+      "category": "reduction",
+      "zh": "我是 ...",
+      "icon": "🔗",
+      "desc": "變成 'kben",
+      "spoken_hint": "Ik + ben → 'kben",
+      "count": 1,
+      "examples": [
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 117,
+          "text": "Nee, ik ben hem kwijt.",
+          "zh": "不，我把它弄丟了。",
+          "start": 394.38,
+          "end": 396.5,
+          "match_start": 5,
+          "match_end": 11
+        }
+      ]
+    }
+  ]
+}
