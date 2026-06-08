@@ -52,9 +52,15 @@ header .meta { font-size:11.5px; color:#bfdbfe; }
 .dlg-h { font-size:13.5px; font-weight:800; color:var(--blue); margin:14px 15px 4px; }
 .dlg-h span { font-size:11px; color:#9ca3af; font-weight:500; }
 .line { display:flex; gap:9px; padding:7px 15px; border-bottom:1px solid #f3f4f6;
-  cursor:pointer; transition:background .12s; }
+  cursor:pointer; transition:background .15s, border-color .15s; position:relative;
+  border-left:3px solid transparent; scroll-margin-top:80px; scroll-margin-bottom:140px; }
 .line:hover { background:#f8fafc; }
-.line.playing { background:#fef3c7; }
+.line.playing { background:#fef3c7; border-left-color:#f59e0b;
+  box-shadow:inset 0 0 0 1px rgba(245,158,11,0.25); }
+.line.playing::before { content:"▶"; position:absolute; left:-2px; top:50%;
+  transform:translateY(-50%); color:#f59e0b; font-size:9px;
+  width:14px; text-align:center; pointer-events:none; }
+.line.playing .lnl { color:#78350f; font-weight:700; }
 .ts { flex:0 0 50px; font:700 12px ui-monospace,Menlo,monospace; color:#fff;
   background:var(--blue2); border:none; border-radius:6px; padding:2px 0; height:fit-content;
   cursor:pointer; }
@@ -624,6 +630,17 @@ function bindTS() {
 pp.onclick = ()=> A.paused ? A.play() : A.pause();
 A.onplay = ()=> pp.textContent='⏸';
 A.onpause= ()=> pp.textContent='▶';
+
+// ── Karaoke auto-scroll: keep current line visible during playback ──
+// Pause auto-scroll for 4s after user manually scrolls (so they can browse freely).
+let _userScrolledAt = 0;
+let _autoScrollAt = 0;
+window.addEventListener('scroll', () => {
+  // Distinguish auto-scroll (we just triggered it) vs user-scroll
+  if (Date.now() - _autoScrollAt < 250) return;
+  _userScrolledAt = Date.now();
+}, { passive: true });
+let _lastCur = null;
 A.ontimeupdate = ()=>{
   fill.style.width = (A.currentTime/A.duration*100||0)+'%';
   tnow.textContent = fmt(A.currentTime)+' / '+fmt(A.duration);
@@ -633,6 +650,18 @@ A.ontimeupdate = ()=>{
   });
   document.querySelectorAll('.line.playing').forEach(l=>{ if(l!==cur) l.classList.remove('playing'); });
   if(cur && !cur.classList.contains('playing')) cur.classList.add('playing');
+  // Auto-scroll only when the current line CHANGES, audio is playing,
+  // and user hasn't manually scrolled in the last 4s
+  if (cur && cur !== _lastCur && !A.paused && Date.now() - _userScrolledAt > 4000) {
+    const rect = cur.getBoundingClientRect();
+    const vh = window.innerHeight;
+    // Only scroll if the line isn't comfortably in the middle band (25-65% of viewport)
+    if (rect.top < vh * 0.2 || rect.bottom > vh * 0.7) {
+      _autoScrollAt = Date.now();
+      cur.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+  _lastCur = cur;
 };
 bar.onclick = e=>{ const r=bar.getBoundingClientRect();
   A.currentTime=(e.clientX-r.left)/r.width*A.duration; };

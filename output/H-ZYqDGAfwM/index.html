@@ -150,6 +150,12 @@
   .dialogue-line:active { transform: scale(0.98); }
   .dialogue-line:hover { background: rgba(255,255,255,0.04); }
   [data-theme="light"] .dialogue-line:hover { background: rgba(0,0,0,0.03); }
+  /* Karaoke: line currently being played (driven by syncLoop / updateKaraoke) */
+  .dialogue-line { scroll-margin-top: 80px; scroll-margin-bottom: 140px; border-left: 3px solid transparent; transition: border-color .15s, background .15s; }
+  .dialogue-line.playing { background: rgba(245,158,11,0.14); border-left-color: #f59e0b; }
+  .dialogue-line.playing .line-text { color: #fed7aa; font-weight: 600; }
+  [data-theme="light"] .dialogue-line.playing { background: rgba(245,158,11,0.16); }
+  [data-theme="light"] .dialogue-line.playing .line-text { color: #78350f; }
   .dialogue-line.highlight {
     background: rgba(255,59,92,0.08); border-left: 3px solid var(--accent);
     padding-left: 9px;
@@ -1383,9 +1389,48 @@ audio.addEventListener('ended', () => setPlayButton(false));
 audio.addEventListener('loadedmetadata', () => { renderSegmentMarkers(); updateProgressUI(); });
 
 // rAF-based sync for smooth scrolling + reliable loop
+let _karaokeLastIdx = -1;
+let _karaokeUserScrolledAt = 0;
+let _karaokeAutoScrollAt = 0;
+window.addEventListener('scroll', () => {
+  if (Date.now() - _karaokeAutoScrollAt < 250) return;
+  _karaokeUserScrolledAt = Date.now();
+}, { passive: true });
+
+function updateKaraoke() {
+  if (!segments || !segments.length) return;
+  const t = audio.currentTime;
+  // Find the last segment whose start <= t (current segment)
+  let curIdx = -1;
+  for (let i = 0; i < segments.length; i++) {
+    if (segments[i].start <= t) curIdx = i;
+    else break;
+  }
+  if (curIdx === _karaokeLastIdx) return;
+  // Remove old playing class, add to new line
+  const lines = document.querySelectorAll('.dialogue-line');
+  if (_karaokeLastIdx >= 0 && lines[_karaokeLastIdx]) {
+    lines[_karaokeLastIdx].classList.remove('playing');
+  }
+  if (curIdx >= 0 && lines[curIdx]) {
+    lines[curIdx].classList.add('playing');
+    // Auto-scroll only if user hasn't manually scrolled in the last 4s + playing
+    if (!audio.paused && Date.now() - _karaokeUserScrolledAt > 4000) {
+      const rect = lines[curIdx].getBoundingClientRect();
+      const vh = window.innerHeight;
+      if (rect.top < vh * 0.2 || rect.bottom > vh * 0.7) {
+        _karaokeAutoScrollAt = Date.now();
+        lines[curIdx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+  }
+  _karaokeLastIdx = curIdx;
+}
+
 function syncLoop() {
   if (!audio.paused) {
     updateProgressUI();
+    updateKaraoke();
     // AB Loop check (more reliable than timeupdate)
     if (loopEnabled && pointA !== null && pointB !== null) {
       const a = Math.min(pointA, pointB), b = Math.max(pointA, pointB);
