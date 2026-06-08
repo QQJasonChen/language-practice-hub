@@ -155,12 +155,13 @@
     padding-left: 9px;
   }
   .line-text { flex: 1; }
-  /* Stressed-word highlight inside dialogue text — OFF by default,
-     toggled on via .show-stress on dialogue-box. Tap 🔔 重讀高亮 to enable. */
+  /* Answer-key highlight (proper nouns, numbers, days, time) — ON by default,
+     toggled via .show-stress on dialogue-box. Tap 🎯 答題線索 to disable. */
   .line-stress { background: none; color: inherit; padding: 0; border-radius: 0; font-weight: inherit; }
-  .show-stress .line-stress { background: rgba(253,224,71,0.22); color: #fef3c7;
-    padding: 1px 3px; border-radius: 3px; font-weight: 700; }
-  [data-theme="light"] .show-stress .line-stress { background: rgba(234,179,8,0.25); color: #713f12; }
+  .show-stress .line-stress { background: #fde047; color: #18181b;
+    padding: 1px 5px; border-radius: 3px; font-weight: 800;
+    box-shadow: 0 0 0 1px rgba(253,224,71,0.6); }
+  [data-theme="light"] .show-stress .line-stress { background: #fde047; color: #18181b; }
   .line-zh { font-size: 12px; color: var(--dim); margin-top: 3px; display: none; line-height: 1.5; }
   .show-zh .line-zh { display: block; }
 
@@ -668,7 +669,7 @@
     <div class="mode-bar">
       <button class="mode-btn" id="zh-toggle" onclick="toggleZh()">{{NATIVE_NAME}}翻譯</button>
       <button class="mode-btn" id="dictation-toggle" onclick="toggleDictation()">👂 聽寫模式</button>
-      <button class="mode-btn" id="stress-toggle" onclick="toggleStress()" title="在原句裡黃高亮 GPT 標的重讀字（耳朵 trigger 訓練）">🔔 重讀高亮</button>
+      <button class="mode-btn active" id="stress-toggle" onclick="toggleStress()" title="高亮答題會用到的關鍵字：地名/人名、數字、星期、時間表達">🎯 答題線索</button>
       <button class="mode-btn echo-btn" onclick="openEcho()">🔄 迴音法 Echo</button>
       <button class="mode-btn" onclick="openExamMode()" style="background:rgba(255,59,92,0.1);border-color:rgba(255,59,92,0.3);color:var(--accent)">🎯 考試模擬</button>
       <button class="mode-btn" onclick="openSprekenMode()" style="background:rgba(96,165,250,0.1);border-color:rgba(96,165,250,0.3);color:var(--blue)">🗣️ 口說練習</button>
@@ -871,10 +872,7 @@ function renderDialogue() {
     const isTrapped = store.traps.includes(i);
     const anaHtml = s.analysis ? renderAnalysisPanel(s) : '';
     const hasAna = anaHtml !== '';
-    const stressedWords = s.analysis
-      ? (Array.isArray(s.analysis.stressed) ? s.analysis.stressed : (s.analysis.stressed ? [s.analysis.stressed] : []))
-      : [];
-    const textHtml = highlightStressed(s.text, stressedWords);
+    const textHtml = highlightAnswerKeys(s.text);
     return `<div class="dialogue-line" data-idx="${i}" onclick="jumpToLine(${i})">
       <span class="line-text">${textHtml}${zh ? `<div class="line-zh">${escapeHtml(zh)}</div>` : ''}</span>
       ${hasAna ? `<button class="ana-btn" onclick="event.stopPropagation();toggleAnalysis(${i})" title="逐句拆解">🔬</button>` : ''}
@@ -892,63 +890,134 @@ function renderDialogue() {
 }
 
 function escapeHtml(t) { return String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-// Whitelist of A2 listening trigger words/phrases. Only these get highlighted
-// regardless of what GPT tagged as "stressed". Built from NT2 textbook chapter
-// on luisteren cues + common A2 trap-flipper words.
-const STRESS_WHITELIST = new Set([
-  // Polarity / scope flippers (the answer often hides AFTER these)
-  'niet','wel','geen','juist','maar','toch','nou','nee',
-  // Quantifier / scope
-  'al','nog','pas','alleen','enkel','ook','helemaal','zelfs','echt','heel','super',
-  // Sequence / time anchors
-  'eerst','daarna','eindelijk','straks','dadelijk','meteen','snel','later',
-  'morgen','gisteren','vandaag','vannacht','vanmorgen','vanmiddag','vanavond',
-  'nu','dan','soms','altijd','nooit','vaak','meestal',
-  // Comparatives / qualifiers
-  'meer','minder','beter','slechter','liefst','graag',
-  // Emotional reactions
-  'leuk','jammer','helaas','geweldig','prima','goed','slecht',
-  // Question-flipping anchors
-  'misschien','waarschijnlijk','zeker','natuurlijk','eigenlijk',
-  // Days (often the answer to "wanneer")
+
+// ── Answer-key highlight (rule-based, NO GPT) ──
+// Only mark words that bear EXAM ANSWERS — not function words / scope flippers.
+// A2 inburgering luisteren = WH-questions → answers live in: places, names, numbers,
+// times, days. Highlighting "niet/wel/maar/daarna" is noise that hurts more than helps.
+
+// Common Dutch words that often appear at sentence start (capitalized) but are
+// NOT proper nouns. Used to avoid false positives in proper-noun detection.
+const DUTCH_SENTENCE_INITIAL = new Set([
+  // Pronouns / articles / demonstratives
+  'ik','jij','je','u','hij','zij','ze','wij','we','jullie','men',
+  'die','dit','dat','deze','wie','wat','welke','iemand','niemand','iets','niets',
+  'de','het','een','er','daar','hier',
+  // Question words
+  'hoe','waar','wanneer','waarom',
+  // Common verbs (imperative or question-initial position)
+  'kijk','lees','kom','komt','ga','gaat','zit','sta','doe','doet',
+  'zoek','zoekt','vind','vindt','wil','wilt','kan','kun','kunt',
+  'mag','moet','heb','hebt','heeft','ben','bent','is','zijn','was','waren',
+  'word','wordt','worden','maak','maakt','denk','denkt','spreek','spreekt',
+  'pas','past','eet','eten','drink','drinkt','help','helpt','geef','geeft',
+  'neem','neemt','zet','breng','brengt','laat','laten','let','blijf','blijft',
+  'hoor','hoort','zie','ziet','zeg','zegt','vraag','vraagt','luister','luistert',
+  'praat','praten','werk','werkt','leer','leert','schrijf','speel','speelt',
+  // Adverbs / connectives at sentence start
+  'dan','nu','toen','soms','altijd','vaak','morgen','gisteren','vandaag',
+  'straks','dadelijk','meteen','later','vroeger','eerst','daarna','eindelijk',
+  'maar','ook','wel','al','nog','pas','toch','niet','geen','alleen',
+  // Conjunctions / fillers
+  'als','want','omdat','dus','en','of','nou','oh','hee','hoi','hallo','tot',
+  'ja','nee','sorry','bedankt','dank','oké','okay','ok','natuurlijk',
+  'misschien','prima','tuurlijk','goedemorgen','goedemiddag','goedenavond',
+  // Prepositions (can appear sentence-initial: "Op zaterdag...", "In Amsterdam...")
+  'op','in','voor','van','met','aan','naar','over','door','tegen','tussen',
+  'boven','onder','achter','na','tot','bij','om','uit','zonder','behalve',
+  // Common quantity / qualifier words (rarely answer-bearing)
+  'veel','weinig','genoeg','elk','elke','iedere','sommige','allemaal','samen',
+  'goed','beter','best','lekker','mooi','leuk','jammer','helaas',
+  // Common content verbs sometimes capitalized at start
+  'mooi','snel','langzaam','rustig','duidelijk',
+]);
+
+const DAYS = new Set([
   'maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag','zondag',
 ]);
-// Numbers and time expressions (regex)
-const NUMBER_RE = /^([0-9]+|nul|een|twee|drie|vier|vijf|zes|zeven|acht|negen|tien|elf|twaalf|dertien|veertien|vijftien|zestien|zeventien|achttien|negentien|twintig|dertig|veertig|vijftig|zestig|zeventig|tachtig|negentig|honderd|duizend)$/i;
 
-function isListeningKey(word) {
-  const w = word.toLowerCase().trim().replace(/[.,!?;:]$/, '');
-  if (!w) return false;
-  if (STRESS_WHITELIST.has(w)) return true;
-  // Multi-word phrases ALWAYS allowed if multi-word (likely time/quantity phrase)
-  if (/\s/.test(w)) return true;
-  if (NUMBER_RE.test(w)) return true;
-  // Comparative/superlative suffixes (Dutch): -ste, -ste-ende, -er when >5 chars
-  if (/ste$/.test(w) && w.length >= 5) return true;
-  if (/er$/.test(w) && w.length >= 6) return true;  // "duurder", "vroeger", "beter" already in WL
-  return false;
+const TIME_UNITS = new Set([
+  'uur','euro','cent','jaar','jaren','maand','maanden','week','weken',
+  'dag','dagen','minuut','minuten','seconde','seconden','keer','procent',
+]);
+
+const NUMBER_WORDS = new Set([
+  'nul','een','twee','drie','vier','vijf','zes','zeven','acht','negen','tien',
+  'elf','twaalf','dertien','veertien','vijftien','zestien','zeventien','achttien','negentien',
+  'twintig','dertig','veertig','vijftig','zestig','zeventig','tachtig','negentig',
+  'honderd','duizend','miljoen',
+]);
+
+const PROPER_NOUN_INITIAL_RE = /^[A-ZÄÖÜÉÈÊËÁÀÂÅÆÇÍÌÎÏÑÓÒÔØÚÙÛŸ]/;
+
+// Lowercase utility ignoring trailing punctuation
+const tokLower = s => String(s || '').toLowerCase().replace(/[.,!?;:'"()]+$/, '');
+const tokClean = s => String(s || '').replace(/[.,!?;:'"()]+$/, '');
+
+function highlightAnswerKeys(text) {
+  if (!text) return '';
+  // Tokenize: keep whitespace + punctuation as separate tokens, but DO NOT split
+  // on `.` or `,` when surrounded by digits (so "12,50" stays one token).
+  const tokens = String(text).split(/(\s+|[!?;:"'()“”]|(?<!\d)[.,]|[.,](?!\d))/).filter(t => t !== '');
+  const out = [];
+  for (let i = 0; i < tokens.length; i++) {
+    const tok = tokens[i];
+    if (/^\s+$/.test(tok) || /^[!?;:"'()“”]$/.test(tok) || tok === '.' || tok === ',') {
+      out.push(escapeHtml(tok));
+      continue;
+    }
+    const lower = tokLower(tok);
+    const clean = tokClean(tok);
+    let isKey = false;
+
+    // 1. Pure digit token: 5, 12, 12,50, 1.50
+    if (/^\d+([.,]\d+)?$/.test(clean)) isKey = true;
+    // 2. Day of week
+    else if (DAYS.has(lower)) isKey = true;
+    // 3. Time unit (only when adjacent to a number)
+    else if (TIME_UNITS.has(lower)) {
+      let j = i - 1;
+      while (j >= 0 && /^\s+$/.test(tokens[j])) j--;
+      const prev = j >= 0 ? tokLower(tokens[j]) : '';
+      if (/^\d/.test(prev) || NUMBER_WORDS.has(prev)) isKey = true;
+    }
+    // 4. half / kwart (when followed by number → time expression)
+    else if (lower === 'half' || lower === 'kwart') {
+      let j = i + 1;
+      while (j < tokens.length && /^\s+$/.test(tokens[j])) j++;
+      const next = j < tokens.length ? tokLower(tokens[j]) : '';
+      if (NUMBER_WORDS.has(next) || /^\d/.test(next)) isKey = true;
+    }
+    // 5. Spelled-out number (een/twee/...) when part of a time/quantity:
+    //    preceded by half/kwart, OR followed by time unit
+    else if (NUMBER_WORDS.has(lower)) {
+      let j = i - 1;
+      while (j >= 0 && /^\s+$/.test(tokens[j])) j--;
+      const prev = j >= 0 ? tokLower(tokens[j]) : '';
+      let k = i + 1;
+      while (k < tokens.length && /^\s+$/.test(tokens[k])) k++;
+      const next = k < tokens.length ? tokLower(tokens[k]) : '';
+      if (prev === 'half' || prev === 'kwart') isKey = true;
+      else if (TIME_UNITS.has(next)) isKey = true;
+    }
+    // 6. Proper nouns: capitalized, not "Ik", not a common sentence-initial word
+    else if (PROPER_NOUN_INITIAL_RE.test(tok) && lower !== 'ik'
+             && !DUTCH_SENTENCE_INITIAL.has(lower)) {
+      isKey = true;
+    }
+
+    if (isKey) out.push(`<mark class="line-stress">${escapeHtml(tok)}</mark>`);
+    else out.push(escapeHtml(tok));
+  }
+  return out.join('');
 }
 
-function highlightStressed(text, stressed) {
-  let html = escapeHtml(text);
-  if (!stressed || !stressed.length) return html;
-  const words = stressed
-    .map(w => String(w).trim())
-    .filter(isListeningKey)
-    .sort((a, b) => b.length - a.length)  // longest first ("half zes" before "half")
-    .map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-  if (!words.length) return html;
-  // Word boundary BOTH sides (Unicode-aware for ë, ö etc.)
-  const re = new RegExp(
-    '(?<![\\p{L}\\p{M}])(' + words.join('|') + ')(?![\\p{L}\\p{M}])', 'giu');
-  return html.replace(re, '<mark class="line-stress">$1</mark>');
-}
-
-// Stress-highlight toggle (default OFF, persisted)
-let showStress = localStorage.getItem('lph_show_stress') === '1';
+// Answer-key highlight toggle — new key (forces fresh default for all users).
+// Default ON because the new highlights are genuinely useful (vs. old broken ones).
+let showStress = localStorage.getItem('lph_show_keys') !== '0';
 function toggleStress() {
   showStress = !showStress;
-  localStorage.setItem('lph_show_stress', showStress ? '1' : '0');
+  localStorage.setItem('lph_show_keys', showStress ? '1' : '0');
   document.getElementById('stress-toggle').classList.toggle('active', showStress);
   document.getElementById('dialogue-box').classList.toggle('show-stress', showStress);
 }
