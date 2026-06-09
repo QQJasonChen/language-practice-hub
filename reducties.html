@@ -145,17 +145,22 @@ function saveState(s) { localStorage.setItem(STATE_KEY, JSON.stringify(s)); }
 function exKey(patId, ex) { return `${patId}|${ex.vid}|${ex.idx}`; }
 function esc(t) { return String(t || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
-// Pre-roll: Whisper segment boundaries are ±0.2-0.4s loose. Start 0.3s early
-// so we don't clip the first word of the line.
-const PRE_ROLL = 0.3;
-const POST_ROLL = 0.4;
+// Per-mock buffer: M3 (self-recorded) timestamps are off by ~0.5-1.5s in places.
+// M1/M2 (YouTube) are tight. Pre-roll covers "first word clipped" cases.
+const BUFFER = {
+  '_iC1Pooi2UA': { pre: 0.4, post: 0.5 },   // M1 — tight
+  'AMVy2zPNLso': { pre: 0.4, post: 0.5 },   // M2 — tight
+  'mock3_a2_2026': { pre: 1.2, post: 0.8 }, // M3 — looser (self-recorded)
+};
+function getBuffer(vid) { return BUFFER[vid] || { pre: 0.6, post: 0.6 }; }
 function playEx(vid, start, end, rate) {
   if (_stopT) { clearTimeout(_stopT); _stopT = null; }
   if (!_audio) _audio = new Audio();
   const src = `output/${vid}/audio.mp3`;
   if (_audio.src.indexOf(src) === -1) _audio.src = src;
-  const adjStart = Math.max(0, start - PRE_ROLL);
-  const adjEnd = end + POST_ROLL;
+  const buf = getBuffer(vid);
+  const adjStart = Math.max(0, start - buf.pre);
+  const adjEnd = end + buf.post;
   const go = () => {
     _audio.playbackRate = rate;
     _audio.currentTime = adjStart;
@@ -167,14 +172,15 @@ function playEx(vid, start, end, rate) {
   else _audio.addEventListener('loadedmetadata', go, { once: true });
 }
 
-// "Wide" play: ±2s context window at 0.85x — diagnostic for "doesn't match" cases
+// "Wide" play: extra ±2.5s ON TOP of normal buffer, at 0.85x — for "doesn't match" cases
 function playWide(vid, start, end) {
   if (_stopT) { clearTimeout(_stopT); _stopT = null; }
   if (!_audio) _audio = new Audio();
   const src = `output/${vid}/audio.mp3`;
   if (_audio.src.indexOf(src) === -1) _audio.src = src;
-  const wStart = Math.max(0, start - 2);
-  const wEnd = end + 2;
+  const buf = getBuffer(vid);
+  const wStart = Math.max(0, start - buf.pre - 2.5);
+  const wEnd = end + buf.post + 2.5;
   const go = () => {
     _audio.playbackRate = 0.85;
     _audio.currentTime = wStart;
@@ -220,8 +226,10 @@ function exHtml(patId, ex) {
   const state = loadState();
   const st = state[exKey(patId, ex)] || '';
   const text = highlightMatch(ex.text, ex.match_start, ex.match_end);
+  const drift = ex.vid === 'mock3_a2_2026'
+    ? ' <span style="color:#fb923c;font-weight:700">⚠️ M3 時間軸偏 ~1s</span>' : '';
   return `<div class="ex ${st}" data-exkey="${exKey(patId,ex)}">
-    <div class="ex-src">${MOCK_LABELS[ex.vid] || ex.vid} · 第 ${ex.idx + 1} 句</div>
+    <div class="ex-src">${MOCK_LABELS[ex.vid] || ex.vid} · 第 ${ex.idx + 1} 句${drift}</div>
     <div class="ex-text">${text}</div>
     ${ex.zh ? `<div class="ex-zh">${esc(ex.zh)}</div>` : ''}
     <div class="ex-controls">

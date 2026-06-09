@@ -171,13 +171,20 @@ async function loadPool() {
   }
 }
 
+// Per-mock buffer: M3 (self-recorded) timestamps drift ~1s; M1/M2 (YouTube) tight
+const PRED_BUFFER = {
+  '_iC1Pooi2UA': { pre: 0.4, post: 0.5 },
+  'AMVy2zPNLso': { pre: 0.4, post: 0.5 },
+  'mock3_a2_2026': { pre: 1.2, post: 0.8 },
+};
 function playSegment(vid, start, end) {
   if (_stopT) { clearTimeout(_stopT); _stopT = null; }
   if (!_audio) _audio = new Audio();
   const src = `output/${vid}/audio.mp3`;
   if (_audio.src.indexOf(src) === -1) _audio.src = src;
-  const adjStart = Math.max(0, start - 0.3);
-  const adjEnd = end + 0.4;
+  const buf = PRED_BUFFER[vid] || { pre: 0.6, post: 0.6 };
+  const adjStart = Math.max(0, start - buf.pre);
+  const adjEnd = end + buf.post;
   const go = () => {
     _audio.playbackRate = 1.0;
     _audio.currentTime = adjStart;
