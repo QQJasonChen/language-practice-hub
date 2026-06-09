@@ -215,32 +215,12 @@
           "match_end": 7
         },
         {
-          "vid": "AMVy2zPNLso",
-          "idx": 301,
-          "text": "Nou, je eerste dag.",
-          "zh": "嗯，妳的第一天。",
-          "start": 1962.84,
-          "end": 1964.84,
-          "match_start": 5,
-          "match_end": 7
-        },
-        {
           "vid": "mock3_a2_2026",
           "idx": 148,
           "text": "Dus wil je wat doorgeven?",
           "zh": "所以你想傳達什麼嗎？",
           "start": 511.8,
           "end": 513.8,
-          "match_start": 8,
-          "match_end": 10
-        },
-        {
-          "vid": "mock3_a2_2026",
-          "idx": 154,
-          "text": "Dus wil je wat doorgeven?",
-          "zh": "所以你想要傳達什麼嗎？",
-          "start": 540.3,
-          "end": 542.0,
           "match_start": 8,
           "match_end": 10
         },
@@ -273,6 +253,26 @@
           "end": 443.88,
           "match_start": 13,
           "match_end": 15
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 291,
+          "text": "Ik zal je thuis komen ophalen.",
+          "zh": "我會去你家接你。",
+          "start": 1678.38,
+          "end": 1681.8,
+          "match_start": 7,
+          "match_end": 9
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 312,
+          "text": "telefoon op. Wat moet je doen?",
+          "zh": "你該做什麼？",
+          "start": 2016.12,
+          "end": 2019.78,
+          "match_start": 22,
+          "match_end": 24
         }
       ]
     },
@@ -303,16 +303,6 @@
           "zh": "是啊，我看到了。",
           "start": 1401.9,
           "end": 1404.66,
-          "match_start": 11,
-          "match_end": 14
-        },
-        {
-          "vid": "_iC1Pooi2UA",
-          "idx": 265,
-          "text": "Ja, ik zie het.",
-          "zh": "是，我看到了。",
-          "start": 1524.18,
-          "end": 1526.22,
           "match_start": 11,
           "match_end": 14
         },
@@ -357,12 +347,22 @@
           "match_end": 11
         },
         {
-          "vid": "_iC1Pooi2UA",
-          "idx": 210,
-          "text": "Dat was het. Bedankt.",
-          "zh": "就這樣，謝謝。",
-          "start": 1240.78,
-          "end": 1242.72,
+          "vid": "AMVy2zPNLso",
+          "idx": 354,
+          "text": "dag van het hele jaar.",
+          "zh": "全年最忙碌的一天。",
+          "start": 2264.48,
+          "end": 2266.62,
+          "match_start": 8,
+          "match_end": 11
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 64,
+          "text": "Dat was het, geloof ik.",
+          "zh": "我想就這樣吧。",
+          "start": 206.8,
+          "end": 208.12,
           "match_start": 8,
           "match_end": 11
         }
@@ -400,31 +400,11 @@
         },
         {
           "vid": "_iC1Pooi2UA",
-          "idx": 319,
-          "text": "Er is een bedrijfsfeest.",
-          "zh": "有一個公司聚會。",
-          "start": 1856.64,
-          "end": 1859.2,
-          "match_start": 0,
-          "match_end": 2
-        },
-        {
-          "vid": "_iC1Pooi2UA",
           "idx": 79,
           "text": "Er zijn nog twee plaatsen.",
           "zh": "還剩下兩個名額。",
           "start": 510.38,
           "end": 512.12,
-          "match_start": 0,
-          "match_end": 2
-        },
-        {
-          "vid": "_iC1Pooi2UA",
-          "idx": 94,
-          "text": "Er zijn nog twee plaatsen.",
-          "zh": "還剩下兩個名額。",
-          "start": 589.7,
-          "end": 592.86,
           "match_start": 0,
           "match_end": 2
         },
@@ -457,6 +437,26 @@
           "end": 391.86,
           "match_start": 7,
           "match_end": 9
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 374,
+          "text": "Er waren dertienhonderd vluchten.",
+          "zh": "有1300班航班。",
+          "start": 2388.9,
+          "end": 2390.46,
+          "match_start": 0,
+          "match_end": 2
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 94,
+          "text": "Jammer dat je er vandaag niet was.",
+          "zh": "真可惜你今天沒來。",
+          "start": 320.32,
+          "end": 321.68,
+          "match_start": 14,
+          "match_end": 16
         }
       ]
     },
@@ -481,32 +481,12 @@
           "match_end": 17
         },
         {
-          "vid": "AMVy2zPNLso",
-          "idx": 84,
-          "text": "Hij heeft zich al ingeschreven.",
-          "zh": "他已經報名了。",
-          "start": 557.86,
-          "end": 559.7,
-          "match_start": 15,
-          "match_end": 17
-        },
-        {
           "vid": "_iC1Pooi2UA",
           "idx": 376,
           "text": "Daarbij helpen al andere ouders.",
           "zh": "其他家長也會幫忙。",
           "start": 2198.82,
           "end": 2200.62,
-          "match_start": 15,
-          "match_end": 17
-        },
-        {
-          "vid": "_iC1Pooi2UA",
-          "idx": 421,
-          "text": "Daarbij helpen al andere ouders.",
-          "zh": "其他家長也會一起幫忙。",
-          "start": 2455.1,
-          "end": 2456.88,
           "match_start": 15,
           "match_end": 17
         },
@@ -547,6 +527,26 @@
           "zh": "哇，真是忙碌的時期，考試好多。",
           "start": 1179.66,
           "end": 1183.94,
+          "match_start": 35,
+          "match_end": 37
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 184,
+          "text": "Ja, volgende week hebben we alleen al drie examens.",
+          "zh": "是啊，下週我們有三場考試。",
+          "start": 1187.04,
+          "end": 1191.18,
+          "match_start": 35,
+          "match_end": 37
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 399,
+          "text": "Naar het sportveld. Daarbij helpen al andere ouders.",
+          "zh": "運動場。其他家長也會幫忙。",
+          "start": 2325.26,
+          "end": 2328.88,
           "match_start": 35,
           "match_end": 37
         }
@@ -593,16 +593,6 @@
           "match_end": 4
         },
         {
-          "vid": "_iC1Pooi2UA",
-          "idx": 367,
-          "text": "Maar daarover later meer. Goed.",
-          "zh": "不過這部分稍後再說。好。",
-          "start": 2125.36,
-          "end": 2128.94,
-          "match_start": 0,
-          "match_end": 4
-        },
-        {
           "vid": "mock3_a2_2026",
           "idx": 28,
           "text": "Maar hij is wel een goed student.",
@@ -641,6 +631,16 @@
           "end": 409.86,
           "match_start": 0,
           "match_end": 4
+        },
+        {
+          "vid": "mock3_a2_2026",
+          "idx": 100,
+          "text": "Maar ik bel om het huiswerk door te geven.",
+          "zh": "不過我打電話來是要告訴你作業。",
+          "start": 338.28,
+          "end": 341.36,
+          "match_start": 0,
+          "match_end": 4
         }
       ]
     },
@@ -671,16 +671,6 @@
           "zh": "還剩下兩個名額。",
           "start": 510.38,
           "end": 512.12,
-          "match_start": 8,
-          "match_end": 11
-        },
-        {
-          "vid": "_iC1Pooi2UA",
-          "idx": 94,
-          "text": "Er zijn nog twee plaatsen.",
-          "zh": "還剩下兩個名額。",
-          "start": 589.7,
-          "end": 592.86,
           "match_start": 8,
           "match_end": 11
         },
@@ -733,6 +723,16 @@
           "end": 176.94,
           "match_start": 10,
           "match_end": 13
+        },
+        {
+          "vid": "_iC1Pooi2UA",
+          "idx": 240,
+          "text": "Kijk, er zitten nog best veel spelfouten in.",
+          "zh": "看，還有不少拼字錯誤。",
+          "start": 1398.0,
+          "end": 1400.72,
+          "match_start": 16,
+          "match_end": 19
         }
       ]
     },
@@ -744,7 +744,7 @@
       "icon": "⏳",
       "desc": "'才幾點'、'剛剛開始' — 時間限定詞",
       "spoken_hint": "'Het is pas drie uur'：pas = 才，否定預期。",
-      "count": 7,
+      "count": 4,
       "examples": [
         {
           "vid": "mock3_a2_2026",
@@ -778,41 +778,11 @@
         },
         {
           "vid": "_iC1Pooi2UA",
-          "idx": 157,
-          "text": "De waterleiding is waarschijnlijk pas donderdag gemaakt.",
-          "zh": "水管可能要到星期四才會修好。",
-          "start": 951.9,
-          "end": 954.92,
-          "match_start": 34,
-          "match_end": 37
-        },
-        {
-          "vid": "_iC1Pooi2UA",
-          "idx": 174,
-          "text": "De waterleiding is waarschijnlijk pas donderdag gemaakt.",
-          "zh": "水管可能要到星期四才會修好。",
-          "start": 1038.86,
-          "end": 1041.94,
-          "match_start": 34,
-          "match_end": 37
-        },
-        {
-          "vid": "_iC1Pooi2UA",
           "idx": 48,
           "text": "Vind je lekkere en gezonde snacks ook belangrijk? Dan pas jij precies bij ons bedrijf.",
           "zh": "你在找工作嗎？想和有趣的同事一起工作嗎？",
           "start": 294.26,
           "end": 299.94,
-          "match_start": 54,
-          "match_end": 57
-        },
-        {
-          "vid": "_iC1Pooi2UA",
-          "idx": 64,
-          "text": "Vind je lekkere en gezonde snacks ook belangrijk? Dan pas jij precies bij ons bedrijf.",
-          "zh": "你覺得美味又健康的零食也很重要嗎？那你就是我們公司的理想人選。",
-          "start": 406.14,
-          "end": 411.8,
           "match_start": 54,
           "match_end": 57
         }
@@ -878,7 +848,7 @@
       "icon": "🔗",
       "desc": "邀請、提議句最高頻開頭、變成 'Wilje'",
       "spoken_hint": "Wil + je → Wilje。",
-      "count": 8,
+      "count": 7,
       "examples": [
         {
           "vid": "mock3_a2_2026",
@@ -887,16 +857,6 @@
           "zh": "所以你想傳達什麼嗎？",
           "start": 511.8,
           "end": 513.8,
-          "match_start": 4,
-          "match_end": 10
-        },
-        {
-          "vid": "mock3_a2_2026",
-          "idx": 154,
-          "text": "Dus wil je wat doorgeven?",
-          "zh": "所以你想要傳達什麼嗎？",
-          "start": 540.3,
-          "end": 542.0,
           "match_start": 4,
           "match_end": 10
         },
@@ -951,14 +911,14 @@
           "match_end": 21
         },
         {
-          "vid": "_iC1Pooi2UA",
-          "idx": 63,
-          "text": "Zoek jij werk? Wil je met leuke collega's werken?",
-          "zh": "你在找工作嗎？想跟很棒的同事一起工作嗎？",
-          "start": 401.26,
-          "end": 405.22,
-          "match_start": 15,
-          "match_end": 21
+          "vid": "mock3_a2_2026",
+          "idx": 65,
+          "text": "Oh ja, wil je nog even een berichtje sturen met je straat- en huisnummer?",
+          "zh": "喔對，能不能再發個訊息給我你的街道和門牌號碼？",
+          "start": 208.94,
+          "end": 213.72,
+          "match_start": 7,
+          "match_end": 13
         }
       ]
     },
@@ -970,7 +930,7 @@
       "icon": "🔗",
       "desc": "變成 'Gaje' 或 'Gah-je'",
       "spoken_hint": "Ga + je → Gaje",
-      "count": 7,
+      "count": 5,
       "examples": [
         {
           "vid": "mock3_a2_2026",
@@ -989,16 +949,6 @@
           "zh": "然後到了綠色的橋時右轉。",
           "start": 826.88,
           "end": 829.52,
-          "match_start": 26,
-          "match_end": 31
-        },
-        {
-          "vid": "AMVy2zPNLso",
-          "idx": 140,
-          "text": "En dan bij de groene brug ga je naar rechts.",
-          "zh": "然後到了綠色的橋時右轉。",
-          "start": 924.02,
-          "end": 926.74,
           "match_start": 26,
           "match_end": 31
         },
@@ -1024,16 +974,6 @@
         },
         {
           "vid": "AMVy2zPNLso",
-          "idx": 141,
-          "text": "Dan een stukje rechtdoor. En bij de supermarkt ga je rechtsaf.",
-          "zh": "往前走一段，在超市那裡右轉。",
-          "start": 927.44,
-          "end": 930.82,
-          "match_start": 47,
-          "match_end": 52
-        },
-        {
-          "vid": "AMVy2zPNLso",
           "idx": 108,
           "text": "En dan bij de groene brug ga je naar rechts. Dan een stukje rechtdoor en dan naar rechts.",
           "zh": "然後到了綠色的橋時右轉。往前稍微走一段再右轉。",
@@ -1052,7 +992,7 @@
       "icon": "🔗",
       "desc": "能力詢問、變成 'Kanje'",
       "spoken_hint": "Kan + je → Kanje（很常見的請託開頭）",
-      "count": 4,
+      "count": 2,
       "examples": [
         {
           "vid": "AMVy2zPNLso",
@@ -1071,26 +1011,6 @@
           "zh": "我意思是，這時候你反正都在等車，可以做更多事。",
           "start": 1212.09,
           "end": 1215.99,
-          "match_start": 53,
-          "match_end": 59
-        },
-        {
-          "vid": "AMVy2zPNLso",
-          "idx": 201,
-          "text": "Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.",
-          "zh": "我的意思是，那段時間你本來就是在等待，你可以做很多額外的事情。",
-          "start": 1296.75,
-          "end": 1300.07,
-          "match_start": 53,
-          "match_end": 59
-        },
-        {
-          "vid": "AMVy2zPNLso",
-          "idx": 218,
-          "text": "Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.",
-          "zh": "我的意思是，那段時間你本來就是在等待，你可以做很多額外的事情。",
-          "start": 1392.73,
-          "end": 1396.27,
           "match_start": 53,
           "match_end": 59
         }
@@ -1181,16 +1101,6 @@
           "match_end": 10
         },
         {
-          "vid": "_iC1Pooi2UA",
-          "idx": 273,
-          "text": "Ja, dat is een goed idee.",
-          "zh": "是啊，這是個好主意。",
-          "start": 1567.32,
-          "end": 1569.06,
-          "match_start": 4,
-          "match_end": 10
-        },
-        {
           "vid": "AMVy2zPNLso",
           "idx": 187,
           "text": "Ja, dat is misschien wel handig, ja.",
@@ -1211,16 +1121,6 @@
           "match_end": 34
         },
         {
-          "vid": "_iC1Pooi2UA",
-          "idx": 124,
-          "text": "Maar dat duurt nog 6 weken. Dat is wel lang zeg.",
-          "zh": "那還要六週，真的很久。",
-          "start": 781.3,
-          "end": 786.76,
-          "match_start": 28,
-          "match_end": 34
-        },
-        {
           "vid": "AMVy2zPNLso",
           "idx": 111,
           "text": "En daarachter staat een blauw gebouw. Dat is hem wel.",
@@ -1229,6 +1129,26 @@
           "end": 746.12,
           "match_start": 38,
           "match_end": 44
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 199,
+          "text": "Dat helpt mij altijd heel goed. Ja, dat is misschien wel handig.",
+          "zh": "這對我總是很有幫助。是的，這或許很方便。",
+          "start": 1285.91,
+          "end": 1289.97,
+          "match_start": 36,
+          "match_end": 42
+        },
+        {
+          "vid": "AMVy2zPNLso",
+          "idx": 110,
+          "text": "Dan zie je aan de rechterkant een groot gebouw. Dat is het nog niet.",
+          "zh": "然後你會在右手邊看到一棟大樓。那還不是目的地。",
+          "start": 738.78,
+          "end": 742.34,
+          "match_start": 48,
+          "match_end": 54
         }
       ]
     },
@@ -1240,7 +1160,7 @@
       "icon": "🔗",
       "desc": "Ik 弱讀 → 'k，整個變成 'kheb 或 'khep\"",
       "spoken_hint": "Ik + heb → 'kheb（很快、幾乎一個音節）",
-      "count": 7,
+      "count": 6,
       "examples": [
         {
           "vid": "mock3_a2_2026",
@@ -1279,16 +1199,6 @@
           "zh": "我可以幫您嗎？我昨天生了一個兒子。",
           "start": 110.76,
           "end": 115.76,
-          "match_start": 17,
-          "match_end": 23
-        },
-        {
-          "vid": "AMVy2zPNLso",
-          "idx": 31,
-          "text": "Kan ik u helpen? Ik heb een zoon gekregen. Gisteren.",
-          "zh": "我可以幫您嗎？我昨天生了一個兒子。",
-          "start": 191.76,
-          "end": 196.76,
           "match_start": 17,
           "match_end": 23
         },

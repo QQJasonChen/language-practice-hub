@@ -163,26 +163,33 @@ def main():
     for pat in PATTERNS:
         regex = re.compile(pat['regex'], re.IGNORECASE)
         examples = []
+        # Dedupe by (vid, normalized_text) — A2 mocks replay each scenario twice,
+        # so the same sentence appears 2x in data.json. Keep only first occurrence.
+        seen = set()
         for vid in MOCKS:
             for idx, seg in enumerate(all_segs[vid]):
                 text = (seg.get('text') or '').strip()
                 if not text:
                     continue
                 m = regex.search(text)
-                if m:
-                    # Skip super-long sentences (>120 chars) — too hard for drill
-                    if len(text) > 130:
-                        continue
-                    examples.append({
-                        'vid': vid,
-                        'idx': idx,
-                        'text': text,
-                        'zh': (seg.get('translation') or '').strip(),
-                        'start': round(float(seg.get('start') or 0), 2),
-                        'end': round(float(seg.get('end') or 0), 2),
-                        'match_start': m.start(),
-                        'match_end': m.end(),
-                    })
+                if not m:
+                    continue
+                if len(text) > 130:
+                    continue
+                key = (vid, text.lower())
+                if key in seen:
+                    continue
+                seen.add(key)
+                examples.append({
+                    'vid': vid,
+                    'idx': idx,
+                    'text': text,
+                    'zh': (seg.get('translation') or '').strip(),
+                    'start': round(float(seg.get('start') or 0), 2),
+                    'end': round(float(seg.get('end') or 0), 2),
+                    'match_start': m.start(),
+                    'match_end': m.end(),
+                })
         # Sort by text length asc (easier first), cap
         examples.sort(key=lambda e: len(e['text']))
         examples = examples[:PER_PATTERN_CAP]
