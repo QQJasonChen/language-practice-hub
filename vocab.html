@@ -424,6 +424,11 @@ function renderCard() {
     </div>
     <div id="action-row" style="margin-top:14px">
       <button class="reveal-btn" style="width:100%" onclick="reveal()">翻牌看意思</button>
+      <button onclick="markKnown()" style="margin-top:8px;width:100%;padding:8px;
+        background:transparent;border:1px solid var(--line);color:var(--text2);
+        border-radius:8px;font:inherit;font-size:12px;font-weight:700;cursor:pointer">
+        ✓✓ 我已經會這個字了 · 永遠跳過
+      </button>
     </div>`;
 }
 
@@ -447,6 +452,19 @@ function reveal() {
         <button class="grade easy" onclick="grade(3)"><span class="top">⚡</span><span class="bot">超會 (14d)</span></button>
       </div>
     </div>`;
+}
+
+// Permanent skip: user explicitly says "I know this, never quiz me again"
+function markKnown() {
+  const v = queue[qi];
+  const key = v.nl.toLowerCase().trim();
+  const srs = loadSRS();
+  // reps 999 → state 'done' forever (getState checks reps >= 5)
+  srs[key] = { reps: 999, interval: 9999, due: daysFromNow(9999), lastSeen: todayStr(), skipped: true };
+  saveSRS(srs);
+  qi++;
+  updateStats();
+  renderCard();
 }
 
 function grade(g) {

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>☁️ 跨裝置同步 — A2 Listening Hub</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
+    --text:#e8e8f0;--text2:#9ca3af;--dim:#6b7280;--ok:#4ade80;--bad:#f87171;
+    --accent:#fb923c;--ring:#5eead4;--purple:#a78bfa}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans","Noto Sans JP",sans-serif}
+  .wrap{max-width:680px;margin:0 auto;padding:18px 14px 100px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+  header a{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:0;font-size:19px;flex:1}
+
+  .lede{margin:6px 0 16px;padding:12px 14px;border-radius:10px;
+    background:rgba(94,234,212,0.08);border-left:3px solid var(--ring);
+    color:var(--text);font-size:12.5px;line-height:1.65}
+  .lede b{color:var(--ring)}
+
+  .section{margin:18px 0;background:var(--card);border-radius:12px;
+    border:1px solid var(--line);padding:14px}
+  .sec-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+  .sec-icon{font-size:22px}
+  .sec-title{font-size:15px;font-weight:800}
+  .sec-sub{font-size:11.5px;color:var(--text2);margin-left:auto}
+
+  textarea{width:100%;min-height:120px;padding:10px;background:var(--card2);
+    border:1px solid var(--line);border-radius:8px;color:var(--text);
+    font:12px ui-monospace,"SF Mono",monospace;line-height:1.5;resize:vertical}
+  textarea:focus{outline:none;border-color:var(--ring)}
+
+  .btn-row{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+  .btn{padding:9px 14px;border:0;border-radius:7px;cursor:pointer;
+    font:inherit;font-size:12.5px;font-weight:800}
+  .btn-primary{background:linear-gradient(135deg,#5eead4,#0891b2);color:#000}
+  .btn-primary:hover{filter:brightness(1.1)}
+  .btn-ok{background:var(--ok);color:#000}
+  .btn-warn{background:rgba(248,113,113,0.15);color:var(--bad);
+    border:1px solid rgba(248,113,113,0.4)}
+  .btn-warn:hover{background:var(--bad);color:#fff}
+  .btn-2nd{background:var(--card2);color:var(--text);border:1px solid var(--line)}
+  .btn-2nd:hover{border-color:var(--text2)}
+
+  .toast{display:none;padding:8px 12px;background:rgba(74,222,128,0.12);
+    border:1px solid rgba(74,222,128,0.4);border-radius:6px;color:var(--ok);
+    font-size:12px;font-weight:700;margin-top:10px}
+  .toast.show{display:block}
+  .toast.bad{background:rgba(248,113,113,0.12);border-color:rgba(248,113,113,0.4);color:var(--bad)}
+
+  .keys-list{font-size:11.5px;color:var(--text2);line-height:1.7;margin-top:6px}
+  .keys-list .k{display:inline-block;padding:1px 6px;background:var(--card2);
+    border-radius:4px;margin-right:4px;font-family:ui-monospace,monospace;
+    font-size:11px;color:var(--text)}
+
+  .how{margin-top:14px;padding:12px;background:rgba(167,139,250,0.06);
+    border-left:3px solid var(--purple);border-radius:0 6px 6px 0;
+    font-size:12.5px;line-height:1.7}
+  .how b{color:var(--purple)}
+  .how ol{padding-left:18px;margin:6px 0 0}
+  .how li{margin-bottom:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="index.html">← 返回</a>
+    <h1>☁️ 跨裝置同步</h1>
+  </header>
+
+  <div class="lede">
+    所有進度（閃卡 SRS、reducties 紀錄、14 天計畫打勾、考試日期、預測統計…）
+    存在<b>瀏覽器 localStorage</b>，不跨裝置。<br>
+    手動匯出/匯入解決：30 秒一次，0 登入、0 後端。
+  </div>
+
+  <!-- Export -->
+  <div class="section">
+    <div class="sec-head">
+      <div class="sec-icon">📤</div>
+      <div class="sec-title">匯出（這個裝置 → JSON）</div>
+      <div class="sec-sub" id="export-info">…</div>
+    </div>
+    <textarea id="export-text" readonly placeholder="按下「產生」會在這裡顯示你的所有進度 JSON"></textarea>
+    <div class="btn-row">
+      <button class="btn btn-primary" onclick="doExport()">⚡ 產生 JSON</button>
+      <button class="btn btn-ok" onclick="copyExport()">📋 複製到剪貼簿</button>
+      <button class="btn btn-2nd" onclick="downloadExport()">⬇️ 下載檔案</button>
+    </div>
+    <div class="toast" id="export-toast"></div>
+    <div class="keys-list" id="keys-list"></div>
+  </div>
+
+  <!-- Import -->
+  <div class="section">
+    <div class="sec-head">
+      <div class="sec-icon">📥</div>
+      <div class="sec-title">匯入（JSON → 這個裝置）</div>
+    </div>
+    <textarea id="import-text" placeholder="把另一裝置匯出的 JSON 貼在這裡（或用「上傳檔案」）"></textarea>
+    <div class="btn-row">
+      <button class="btn btn-primary" onclick="doImport()">⚡ 覆寫進度</button>
+      <label class="btn btn-2nd" style="cursor:pointer">
+        📁 上傳檔案
+        <input type="file" accept=".json,application/json" onchange="loadFile(event)" style="display:none">
+      </label>
+    </div>
+    <div class="toast" id="import-toast"></div>
+    <div class="how">
+      <b>SOP（換裝置）：</b>
+      <ol>
+        <li><b>來源裝置</b>：按「⚡ 產生 JSON」→「📋 複製到剪貼簿」</li>
+        <li>用 Telegram / iMessage / Mail 傳給自己</li>
+        <li><b>目標裝置</b>：開這頁 → 貼到匯入框 → 「⚡ 覆寫進度」</li>
+        <li>(或下載 .json 檔案、用 AirDrop / 雲端硬碟傳)</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Reset (danger zone) -->
+  <div class="section">
+    <div class="sec-head">
+      <div class="sec-icon">🗑</div>
+      <div class="sec-title" style="color:var(--bad)">危險區：重置</div>
+    </div>
+    <div style="font-size:12.5px;color:var(--text2);line-height:1.6">
+      清空這個裝置上的所有進度（閃卡、reducties、計畫打勾…）。
+      <b style="color:var(--bad)">不可復原</b>。建議先匯出備份再清。
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-warn" onclick="doReset()">🗑 清空所有進度</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// All localStorage keys this site uses. Both `lph_*` and `hub_*` prefixes,
+// plus dynamic per-video keys (lph_<videoId>, lph_explain_<videoId>...).
+function collectKeys() {
+  const keys = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k.startsWith('lph_') || k.startsWith('hub_')) keys.push(k);
+  }
+  return keys.sort();
+}
+
+function showToast(elId, msg, bad) {
+  const el = document.getElementById(elId);
+  el.textContent = msg;
+  el.classList.add('show');
+  el.classList.toggle('bad', !!bad);
+  setTimeout(() => el.classList.remove('show'), 3500);
+}
+
+function doExport() {
+  const keys = collectKeys();
+  const data = {};
+  for (const k of keys) data[k] = localStorage.getItem(k);
+  const out = {
+    _version: 1,
+    _exportedAt: new Date().toISOString(),
+    _origin: location.origin,
+    _keyCount: keys.length,
+    data,
+  };
+  const json = JSON.stringify(out, null, 2);
+  document.getElementById('export-text').value = json;
+  const sizeKB = (json.length / 1024).toFixed(1);
+  document.getElementById('export-info').textContent = `${keys.length} keys · ${sizeKB} KB`;
+  document.getElementById('keys-list').innerHTML = '📋 包含：' +
+    keys.map(k => `<span class="k">${k}</span>`).join('');
+  showToast('export-toast', `✓ 已產生 ${keys.length} 個 key、${sizeKB} KB`);
+}
+
+async function copyExport() {
+  const t = document.getElementById('export-text').value;
+  if (!t) { doExport(); }
+  try {
+    await navigator.clipboard.writeText(document.getElementById('export-text').value);
+    showToast('export-toast', '✓ 已複製到剪貼簿，貼到另一裝置即可');
+  } catch (e) {
+    showToast('export-toast', '⚠ 複製失敗，手動 Cmd/Ctrl+A → C', true);
+  }
+}
+
+function downloadExport() {
+  const t = document.getElementById('export-text').value;
+  if (!t) doExport();
+  const data = document.getElementById('export-text').value;
+  const blob = new Blob([data], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  const ts = new Date().toISOString().slice(0, 16).replace(/[:T]/g, '-');
+  a.download = `lph-progress-${ts}.json`;
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+  showToast('export-toast', '✓ 下載中…');
+}
+
+function loadFile(ev) {
+  const f = ev.target.files[0];
+  if (!f) return;
+  const r = new FileReader();
+  r.onload = () => {
+    document.getElementById('import-text').value = r.result;
+    showToast('import-toast', `✓ 載入 ${f.name}，檢查內容後按「覆寫進度」`);
+  };
+  r.readAsText(f);
+}
+
+function doImport() {
+  const t = document.getElementById('import-text').value.trim();
+  if (!t) { showToast('import-toast', '⚠ 匯入框是空的', true); return; }
+  let obj;
+  try { obj = JSON.parse(t); }
+  catch(e) { showToast('import-toast', '⚠ JSON 格式錯誤：' + e.message, true); return; }
+  const data = obj.data || obj;  // accept both wrapped and raw
+  if (typeof data !== 'object') {
+    showToast('import-toast', '⚠ 找不到 data 物件', true); return;
+  }
+  const keys = Object.keys(data).filter(k => k.startsWith('lph_') || k.startsWith('hub_'));
+  if (!keys.length) {
+    showToast('import-toast', '⚠ 沒有任何 lph_/hub_ key', true); return;
+  }
+  if (!confirm(`即將覆寫 ${keys.length} 個 key 到這個裝置的 localStorage。\n\n確定？（建議先匯出備份）`)) return;
+  for (const k of keys) {
+    const v = data[k];
+    if (v === null || v === undefined) continue;
+    localStorage.setItem(k, typeof v === 'string' ? v : JSON.stringify(v));
+  }
+  showToast('import-toast', `✓ 已寫入 ${keys.length} 個 key、可以回首頁繼續了`);
+}
+
+function doReset() {
+  if (!confirm('真的要清空這個裝置的所有進度嗎？建議先匯出備份！')) return;
+  if (!confirm('再確認一次：所有 lph_* / hub_* key 會被刪除，不可復原。確定？')) return;
+  const keys = collectKeys();
+  for (const k of keys) localStorage.removeItem(k);
+  alert(`✓ 已刪除 ${keys.length} 個 key`);
+  location.reload();
+}
+
+// Init: show current key count
+(function init() {
+  const keys = collectKeys();
+  document.getElementById('export-info').textContent = `準備好匯出 ${keys.length} 個 key`;
+})();
+</script>
+</body>
+</html>
