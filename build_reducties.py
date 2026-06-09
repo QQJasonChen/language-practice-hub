@@ -205,9 +205,16 @@ def main():
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
     total = sum(p['count'] for p in out['patterns'])
     print(f'✓ {out_path.relative_to(ROOT)}')
-    print(f'  {len(PATTERNS)} patterns, {total} drill items')
-    for p in out['patterns']:
-        print(f'    {p["icon"]} {p["name"]:10s} {p["count"]:2d} examples')
+    print(f'  {len(PATTERNS)} patterns, {total} drill items (pre-silence-filter)')
+
+    # Always run silence filter to drop Whisper-hallucinated segments.
+    # (Whisper sometimes outputs plausible text on silent regions of long audio.)
+    print('\n▶ Filtering Whisper-hallucinated (silent) segments...')
+    try:
+        import subprocess as sp
+        sp.run(['python3', str(ROOT / 'find_silent_segments.py')], check=True)
+    except Exception as e:
+        print(f'  ⚠ silence filter skipped: {e}')
 
 
 if __name__ == '__main__':

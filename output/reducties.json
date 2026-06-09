@@ -192,7 +192,7 @@
       "icon": "👉",
       "desc": "幾乎看不到 j 音、整個吃進前面動詞。",
       "spoken_hint": "'Heb je' → 'Hebbie'，'Ga je' → 'Gaje'，'Wil je' → 'Wilje'。",
-      "count": 8,
+      "count": 7,
       "examples": [
         {
           "vid": "AMVy2zPNLso",
@@ -233,16 +233,6 @@
           "end": 1903.86,
           "match_start": 5,
           "match_end": 7
-        },
-        {
-          "vid": "AMVy2zPNLso",
-          "idx": 167,
-          "text": "En dan kan je het bestellen.",
-          "zh": "然後你就可以訂購了。",
-          "start": 1078.26,
-          "end": 1082.46,
-          "match_start": 11,
-          "match_end": 13
         },
         {
           "vid": "mock3_a2_2026",
@@ -992,18 +982,8 @@
       "icon": "🔗",
       "desc": "能力詢問、變成 'Kanje'",
       "spoken_hint": "Kan + je → Kanje（很常見的請託開頭）",
-      "count": 2,
+      "count": 1,
       "examples": [
-        {
-          "vid": "AMVy2zPNLso",
-          "idx": 167,
-          "text": "En dan kan je het bestellen.",
-          "zh": "然後你就可以訂購了。",
-          "start": 1078.26,
-          "end": 1082.46,
-          "match_start": 7,
-          "match_end": 13
-        },
         {
           "vid": "AMVy2zPNLso",
           "idx": 189,
