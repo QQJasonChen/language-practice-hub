@@ -208,7 +208,7 @@
   <div class="header">
     <div class="greeting" id="greeting">早安 ☀️</div>
     <div class="header-actions">
-      <span style="font-size:9px;color:#888;opacity:.55;margin-right:6px;letter-spacing:.3px">v2026-06-01</span>
+      <span style="font-size:9px;color:#888;opacity:.55;margin-right:6px;letter-spacing:.3px">v2026-06-09</span>
       <button class="header-btn" onclick="location.reload()">↻</button>
     </div>
   </div>
@@ -233,6 +233,46 @@
     <span class="flame">🔥</span>
     <span>開始你的第一次練習，<strong>建立學習連續紀錄</strong></span>
   </div>
+
+  <!-- Daily review: one-tap unified SRS queue (vocab due + exam wrong answers) -->
+  <div id="review-cta" style="margin:16px 0 0;padding:16px 18px;border-radius:18px;
+       background:linear-gradient(135deg,rgba(94,234,212,0.22),rgba(52,211,153,0.12));
+       border:1px solid rgba(94,234,212,0.45);cursor:pointer;display:flex;align-items:center;gap:14px"
+       onclick="window.location.href='review.html'">
+    <div style="font-size:34px;line-height:1">▶</div>
+    <div style="flex:1">
+      <div style="font-size:15px;font-weight:800;color:#e8e8f0">今日複習</div>
+      <div style="font-size:11.5px;color:var(--text2);margin-top:2px;line-height:1.5" id="review-sub">
+        該複習的單字 + 錯題，混成一個 session
+      </div>
+    </div>
+    <div id="review-badge" style="display:none;background:rgba(0,0,0,0.3);padding:5px 11px;border-radius:11px;
+      font-size:14px;font-weight:900;color:#5eead4"></div>
+    <div style="font-size:18px;color:#5eead4;font-weight:800">→</div>
+  </div>
+  <script>
+    // due count from localStorage only (no fetch): vocab SRS due + exam due/wrong
+    (function reviewBadge() {
+      const t = (() => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); })();
+      let n = 0;
+      try {
+        const srs = JSON.parse(localStorage.getItem('lph_vocab_srs') || '{}');
+        n += Object.values(srs).filter(s => s && !s.skipped && s.reps < 900 && s.due <= t).length;
+      } catch(e) {}
+      for (const vid of ['mock3_a2_2026', '_iC1Pooi2UA', 'AMVy2zPNLso']) {
+        try {
+          const st = JSON.parse(localStorage.getItem('examapp:' + vid) || '{}');
+          n += Object.values(st.q || {}).filter(q =>
+            (q.srs && !q.srs.graduated && q.srs.due <= t) || q.last_correct === false).length;
+        } catch(e) {}
+      }
+      if (n > 0) {
+        const b = document.getElementById('review-badge');
+        b.textContent = n; b.style.display = 'block';
+        document.getElementById('review-sub').textContent = `${n} 項到期 · 大約 ${Math.max(3, Math.round(n * 0.6))} 分鐘`;
+      }
+    })();
+  </script>
 
   <!-- 14-day exam plan: HEADLINE card (gets enhanced with today's tasks by JS below) -->
   <div id="today-widget" style="margin:16px 0 0;padding:16px 18px;border-radius:18px;
@@ -348,6 +388,10 @@
     <div style="flex:1;min-width:140px;padding:14px 16px;background:linear-gradient(135deg,rgba(167,139,250,0.18),rgba(94,234,212,0.1));border-radius:16px;border:1px solid rgba(167,139,250,0.3);cursor:pointer;display:flex;align-items:center;gap:10px" onclick="window.location.href='predict.html'">
       <div style="font-size:24px">🎯</div>
       <div><div style="font-size:14px;font-weight:700">預測答題</div><div style="font-size:11px;color:var(--muted)">25 秒讀題策略</div></div>
+    </div>
+    <div style="flex:1;min-width:140px;padding:14px 16px;background:linear-gradient(135deg,rgba(96,165,250,0.18),rgba(167,139,250,0.1));border-radius:16px;border:1px solid rgba(96,165,250,0.3);cursor:pointer;display:flex;align-items:center;gap:10px" onclick="window.location.href='dictee.html'">
+      <div style="font-size:24px">✍️</div>
+      <div><div style="font-size:14px;font-weight:700">聽寫訓練</div><div style="font-size:11px;color:var(--muted)">聽一句打一句 · 抓漏</div></div>
     </div>
     <div style="flex:1;min-width:140px;padding:14px 16px;background:linear-gradient(135deg,rgba(94,234,212,0.12),rgba(96,165,250,0.1));border-radius:16px;border:1px solid rgba(94,234,212,0.25);cursor:pointer;display:flex;align-items:center;gap:10px" onclick="window.location.href='sync.html'">
       <div style="font-size:24px">☁️</div>

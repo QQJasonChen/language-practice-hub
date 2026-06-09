@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>✍️ 聽寫訓練 — Echo Dutch</title>
+<style>
+  :root {
+    --bg:#050510; --surface:rgba(255,255,255,0.04); --surface2:rgba(255,255,255,0.08);
+    --border:rgba(255,255,255,0.09); --text:#f2f2f7; --text2:#a0a0b8; --text3:#606078;
+    --green:#34d399; --red:#f87171; --orange:#fb923c; --blue:#60a5fa; --purple:#a78bfa;
+    --accent:#5eead4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{font-family:-apple-system,'Inter',sans-serif;background:var(--bg);color:var(--text);
+    min-height:100vh;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+  .wrap{max-width:480px;margin:0 auto;padding:14px 18px 80px}
+  .top{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .back{width:34px;height:34px;border-radius:50%;background:var(--surface);border:1px solid var(--border);
+    color:var(--text2);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none}
+  .top h1{font-size:18px;font-weight:800}
+  .top .count{margin-left:auto;font-size:12px;color:var(--text3);font-weight:700}
+  .progress{height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;margin-bottom:16px}
+  .progress .fill{height:100%;background:linear-gradient(90deg,var(--purple),var(--blue));
+    transition:width .35s;border-radius:3px;width:0}
+
+  /* start screen */
+  .pills{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+  .pill{padding:9px 16px;border-radius:100px;background:var(--surface);border:1px solid var(--border);
+    color:var(--text2);font-size:13px;font-weight:700;cursor:pointer}
+  .pill.on{background:linear-gradient(135deg,var(--purple),var(--blue));color:#fff;border-color:transparent}
+  .howto{padding:14px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--border);
+    font-size:13px;color:var(--text2);line-height:1.7;margin-bottom:14px}
+  .howto b{color:var(--text)}
+  .start-btn{width:100%;padding:16px;border-radius:16px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,var(--purple),var(--blue));color:#fff;font-size:16px;font-weight:800}
+  .start-btn:disabled{opacity:.4}
+  .mini-stat{font-size:12px;color:var(--text3);text-align:center;margin-top:12px}
+
+  /* play card */
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:20px 18px;
+    animation:pop .3s cubic-bezier(.22,1,.36,1)}
+  @keyframes pop{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  .src-tag{font-size:10.5px;font-weight:800;letter-spacing:1px;color:var(--purple);margin-bottom:12px}
+  .audio-row{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+  .play-big{flex:1;padding:15px;border-radius:14px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,var(--accent),#34d399);color:#04211a;font-size:15px;font-weight:800}
+  .play-big:active{transform:scale(0.97)}
+  .spd{display:flex;gap:5px;margin:4px 0 14px}
+  .spd button{flex:1;padding:7px 0;border-radius:9px;border:1px solid var(--border);background:var(--surface2);
+    color:var(--text2);font-size:11.5px;font-weight:700;cursor:pointer}
+  .spd button.on{background:var(--accent);color:#04211a;border-color:transparent}
+  textarea{width:100%;min-height:84px;padding:13px 14px;border-radius:13px;border:1px solid var(--border);
+    background:rgba(0,0,0,0.3);color:var(--text);font-size:16px;line-height:1.55;resize:vertical;
+    font-family:inherit;outline:none}
+  textarea:focus{border-color:var(--purple)}
+  .hint-row{display:flex;gap:8px;margin-top:10px}
+  .hint-btn{flex:1;padding:11px;border-radius:12px;border:1px solid var(--border);background:var(--surface2);
+    color:var(--text2);font-size:13px;font-weight:700;cursor:pointer}
+  .check-btn{flex:1.4;padding:11px;border-radius:12px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,var(--purple),var(--blue));color:#fff;font-size:14px;font-weight:800}
+  .hint-text{margin-top:10px;font-size:14px;color:var(--orange);font-weight:600;letter-spacing:1px;display:none}
+
+  /* result */
+  .result{margin-top:16px;display:none}
+  .res-pct{font-size:30px;font-weight:900;margin-bottom:8px}
+  .diff{padding:13px 14px;border-radius:13px;background:rgba(0,0,0,0.3);border:1px solid var(--border);
+    font-size:16.5px;line-height:1.8;font-weight:600}
+  .diff .ok{color:var(--green)}
+  .diff .miss{color:var(--red);text-decoration:underline;text-decoration-style:dotted}
+  .diff-extra{margin-top:6px;font-size:12.5px;color:var(--text3)}
+  .diff-extra s{color:var(--red)}
+  .res-zh{margin-top:10px;font-size:13.5px;color:var(--text2);line-height:1.6}
+  .res-actions{display:flex;gap:8px;margin-top:14px}
+  .res-actions button{flex:1;padding:13px;border-radius:13px;border:none;cursor:pointer;font-size:14px;font-weight:800}
+  .replay-one{background:var(--surface2);border:1px solid var(--border) !important;color:var(--text)}
+  .next-one{background:linear-gradient(135deg,var(--accent),#34d399);color:#04211a}
+
+  /* summary */
+  .center-box{text-align:center;padding:50px 10px}
+  .center-box .big{font-size:52px;margin-bottom:14px}
+  .center-box h2{font-size:20px;font-weight:800;margin-bottom:10px}
+  .sum-list{text-align:left;margin-top:18px;display:flex;flex-direction:column;gap:8px}
+  .sum-row{padding:11px 13px;border-radius:11px;background:var(--surface);border:1px solid var(--border);
+    font-size:13px;display:flex;align-items:center;gap:10px}
+  .sum-row .pct{font-weight:900;flex:0 0 48px}
+  .links{display:flex;flex-direction:column;gap:10px;margin-top:20px}
+  .links a,.links button{display:block;width:100%;padding:13px;border-radius:13px;background:var(--surface2);
+    border:1px solid var(--border);color:var(--text);font-size:14px;font-weight:700;text-decoration:none;
+    text-align:center;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="back" href="index.html">←</a>
+    <h1>✍️ 聽寫訓練</h1>
+    <span class="count" id="counter"></span>
+  </div>
+  <div class="progress"><div class="fill" id="prog"></div></div>
+  <div id="stage">
+    <div class="howto"><b>怎麼練：</b>聽一句 → 打出聽到的荷蘭文 → 自動比對標出聽錯/漏聽的字。
+      連音、吞音聽不出來的地方會原形畢露——這是補聽力漏洞最快的練法。
+      不分大小寫、不管標點。</div>
+    <div style="font-size:13px;font-weight:800;color:var(--text2);margin-bottom:4px">選素材</div>
+    <div class="pills" id="mock-pills"></div>
+    <button class="start-btn" id="start" disabled onclick="startSession()">載入中…</button>
+    <div class="mini-stat" id="mini-stat"></div>
+  </div>
+</div>
+
+<script>
+const MOCKS = [
+  { vid: 'mock3_a2_2026', label: '模考三' },
+  { vid: '_iC1Pooi2UA',  label: 'PART 1' },
+  { vid: 'AMVy2zPNLso',  label: 'PART 2' },
+];
+const STORE_KEY = 'lph_dictee_v1';   // { "vid:idx": {tries, lastPct, lastDate} }
+const SPEED_KEY = 'lph_playback_speed';
+const SESSION_N = 10;
+const SPEEDS = [0.6, 0.75, 0.85, 1.0];
+
+const esc = t => String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const todayStr = () => new Date().toISOString().slice(0, 10);
+
+let selected = new Set(MOCKS.map(m => m.vid));
+let pools = {};        // vid -> [{vid, idx, text, zh, start, end, words}]
+let silentSet = new Set();
+let session = [], si = 0, results = [];
+let speed = parseFloat(localStorage.getItem(SPEED_KEY)) || 0.85;
+if (!SPEEDS.includes(speed)) speed = 0.85;
+
+function loadStore() { try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); } catch(e) { return {}; } }
+function saveStore(s) { localStorage.setItem(STORE_KEY, JSON.stringify(s)); }
+
+// ── Normalization + tokenize (shared by diff + filters) ──
+function tokens(s) {
+  return String(s || '').toLowerCase()
+    .replace(/[.,!?;:"'`„”“‘’…()«»—–]/g, ' ')
+    .replace(/\s+/g, ' ').trim()
+    .split(' ').filter(Boolean);
+}
+
+// ── Pool loading ──
+async function loadPools() {
+  try {
+    const sj = await (await fetch('output/_silent_segments.json')).json();
+    (sj.silent || []).forEach(([vid, idx]) => silentSet.add(vid + ':' + idx));
+  } catch(e) {}
+  for (const m of MOCKS) {
+    try {
+      const d = await (await fetch(`output/${m.vid}/data.json`)).json();
+      const seen = new Set();
+      pools[m.vid] = (d.ai_data.segments || []).map((s, idx) => ({ s, idx }))
+        .filter(({ s, idx }) => {
+          if (silentSet.has(m.vid + ':' + idx)) return false;
+          const tk = tokens(s.text);
+          if (tk.length < 3 || tk.length > 14) return false;
+          if (s.end - s.start < 1.2) return false;
+          const norm = tk.join(' ');
+          if (seen.has(norm)) return false;   // scene replays duplicate lines
+          seen.add(norm);
+          return true;
+        })
+        .map(({ s, idx }) => ({ vid: m.vid, idx, text: s.text, zh: s.translation || '', start: s.start, end: s.end }));
+    } catch(e) { pools[m.vid] = []; console.warn('pool failed', m.vid, e); }
+  }
+  updateStart();
+}
+
+function renderPills() {
+  document.getElementById('mock-pills').innerHTML = MOCKS.map(m =>
+    `<div class="pill ${selected.has(m.vid) ? 'on' : ''}" onclick="togglePill('${m.vid}')">${m.label}</div>`).join('');
+}
+function togglePill(vid) {
+  if (selected.has(vid)) { if (selected.size > 1) selected.delete(vid); }
+  else selected.add(vid);
+  renderPills(); updateStart();
+}
+function updateStart() {
+  const n = [...selected].reduce((s, v) => s + (pools[v] || []).length, 0);
+  const btn = document.getElementById('start');
+  if (!Object.keys(pools).length) return;
+  btn.disabled = n === 0;
+  btn.textContent = `▶ 開始聽寫（${SESSION_N} 句）`;
+  const store = loadStore();
+  const practiced = Object.keys(store).length;
+  const weak = Object.values(store).filter(r => r.lastPct < 100).length;
+  document.getElementById('mini-stat').textContent =
+    `句池 ${n} 句 · 已練過 ${practiced} 句` + (weak ? ` · 待修正 ${weak} 句（會優先出現）` : '');
+}
+
+// ── Session build: wrong-first, then unseen (shuffled), then mastered ──
+function startSession() {
+  const store = loadStore();
+  const all = [...selected].flatMap(v => pools[v] || []);
+  const wrong = [], unseen = [], done = [];
+  all.forEach(it => {
+    const r = store[it.vid + ':' + it.idx];
+    if (!r) unseen.push(it);
+    else if (r.lastPct < 100) wrong.push(it);
+    else done.push(it);
+  });
+  const shuffle = arr => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; } return arr; };
+  session = [...shuffle(wrong), ...shuffle(unseen), ...shuffle(done)].slice(0, SESSION_N);
+  si = 0; results = [];
+  renderItem();
+}
+
+// ── Audio ──
+let _audio = null, _stopT = null;
+function playCur() {
+  const it = session[si];
+  if (_stopT) { clearTimeout(_stopT); _stopT = null; }
+  if (!_audio) _audio = new Audio();
+  const src = `output/${it.vid}/audio.mp3`;
+  if (_audio.src.indexOf(src) === -1) _audio.src = src;
+  const go = () => {
+    _audio.playbackRate = speed;
+    _audio.currentTime = Math.max(0, it.start - 0.15);
+    _audio.play().catch(()=>{});
+    const durMs = Math.max(1500, ((it.end - it.start) / speed) * 1000 + 350);
+    _stopT = setTimeout(() => _audio.pause(), durMs);
+  };
+  if (_audio.readyState >= 1) go();
+  else { _audio.addEventListener('loadedmetadata', go, { once: true }); _audio.load(); }
+}
+function setSpeed(v) {
+  speed = v; localStorage.setItem(SPEED_KEY, String(v));
+  document.querySelectorAll('.spd button').forEach(b => b.classList.toggle('on', parseFloat(b.dataset.v) === v));
+}
+
+// ── Per-sentence UI ──
+function renderItem() {
+  if (si >= session.length) return renderSummary();
+  const it = session[si];
+  const m = MOCKS.find(x => x.vid === it.vid);
+  document.getElementById('prog').style.width = Math.round(si / session.length * 100) + '%';
+  document.getElementById('counter').textContent = `${si + 1} / ${session.length}`;
+  document.getElementById('stage').innerHTML = `
+    <div class="card">
+      <div class="src-tag">🎧 ${esc(m ? m.label : it.vid)} · 句 ${it.idx + 1}</div>
+      <div class="audio-row"><button class="play-big" onclick="playCur()">▶ 播放這一句</button></div>
+      <div class="spd">${SPEEDS.map(v =>
+        `<button data-v="${v}" class="${v === speed ? 'on' : ''}" onclick="setSpeed(${v})">${v}×</button>`).join('')}</div>
+      <textarea id="inp" placeholder="把聽到的打出來…" autocapitalize="off" autocorrect="off"
+        spellcheck="false" autocomplete="off" lang="nl"></textarea>
+      <div class="hint-row">
+        <button class="hint-btn" onclick="showHint()">💡 首字母</button>
+        <button class="check-btn" onclick="check()">對答案</button>
+      </div>
+      <div class="hint-text" id="hint"></div>
+      <div class="result" id="result"></div>
+    </div>`;
+  playCur();
+}
+function showHint() {
+  const it = session[si];
+  const h = tokens(it.text).map(w => w[0] + '·'.repeat(Math.max(w.length - 1, 1))).join('  ');
+  const el = document.getElementById('hint');
+  el.textContent = h; el.style.display = 'block';
+}
+
+// ── Word-level alignment diff (Levenshtein on tokens, backtraced) ──
+function alignDiff(refToks, hypToks) {
+  const n = refToks.length, m = hypToks.length;
+  const dp = Array.from({ length: n + 1 }, () => new Array(m + 1).fill(0));
+  for (let i = 0; i <= n; i++) dp[i][0] = i;
+  for (let j = 0; j <= m; j++) dp[0][j] = j;
+  for (let i = 1; i <= n; i++)
+    for (let j = 1; j <= m; j++)
+      dp[i][j] = Math.min(
+        dp[i-1][j-1] + (refToks[i-1] === hypToks[j-1] ? 0 : 1),
+        dp[i-1][j] + 1, dp[i][j-1] + 1);
+  // backtrace → per-ref-token matched flag + extra hyp tokens
+  const refOk = new Array(n).fill(false), extra = [];
+  let i = n, j = m;
+  while (i > 0 || j > 0) {
+    if (i > 0 && j > 0 && refToks[i-1] === hypToks[j-1] && dp[i][j] === dp[i-1][j-1]) {
+      refOk[i-1] = true; i--; j--;
+    } else if (i > 0 && j > 0 && dp[i][j] === dp[i-1][j-1] + 1) { i--; j--; }
+    else if (i > 0 && dp[i][j] === dp[i-1][j] + 1) { i--; }
+    else { extra.push(hypToks[j-1]); j--; }
+  }
+  return { refOk, extra: extra.reverse() };
+}
+
+function check() {
+  const it = session[si];
+  const typed = document.getElementById('inp').value;
+  const refToksOrig = String(it.text).split(/\s+/).filter(Boolean);  // keep original casing for display
+  const refToks = tokens(it.text);
+  const hypToks = tokens(typed);
+  const { refOk, extra } = alignDiff(refToks, hypToks);
+  const matched = refOk.filter(Boolean).length;
+  const pct = refToks.length ? Math.round(matched / refToks.length * 100) : 0;
+
+  // display: original-cased ref words colored by match (token counts align 1:1 with refToks)
+  const diffHtml = refToksOrig.map((w, k) =>
+    `<span class="${refOk[k] ? 'ok' : 'miss'}">${esc(w)}</span>`).join(' ');
+  const extraHtml = extra.length
+    ? `<div class="diff-extra">多打的字：${extra.map(w => `<s>${esc(w)}</s>`).join(' ')}</div>` : '';
+
+  const res = document.getElementById('result');
+  res.style.display = 'block';
+  res.innerHTML = `
+    <div class="res-pct" style="color:${pct === 100 ? 'var(--green)' : pct >= 70 ? 'var(--orange)' : 'var(--red)'}">${pct}%</div>
+    <div class="diff">${diffHtml}</div>${extraHtml}
+    <div class="res-zh">${esc(it.zh)}</div>
+    <div class="res-actions">
+      <button class="replay-one" onclick="playCur()">🔊 再聽</button>
+      <button class="next-one" onclick="nextItem()">下一句 →</button>
+    </div>`;
+  document.querySelector('.check-btn').disabled = true;
+
+  // persist
+  const store = loadStore();
+  const key = it.vid + ':' + it.idx;
+  const prev = store[key] || { tries: 0 };
+  store[key] = { tries: prev.tries + 1, lastPct: pct, lastDate: todayStr() };
+  saveStore(store);
+  results.push({ it, pct });
+}
+function nextItem() { si++; renderItem(); }
+
+// ── Summary ──
+function renderSummary() {
+  document.getElementById('prog').style.width = '100%';
+  document.getElementById('counter').textContent = '';
+  const avg = results.length ? Math.round(results.reduce((s, r) => s + r.pct, 0) / results.length) : 0;
+  const weak = results.filter(r => r.pct < 100);
+  document.getElementById('stage').innerHTML = `
+    <div class="center-box">
+      <div class="big">${avg === 100 ? '🏆' : avg >= 80 ? '💪' : '📝'}</div>
+      <h2>平均 ${avg}%</h2>
+      <p style="font-size:13px;color:var(--text2)">${weak.length
+        ? `${weak.length} 句沒全對 — 下次 session 會優先再出`
+        : '全對！這批句子已內化'}</p>
+      ${weak.length ? `<div class="sum-list">${weak.map(r => `
+        <div class="sum-row">
+          <span class="pct" style="color:${r.pct >= 70 ? 'var(--orange)' : 'var(--red)'}">${r.pct}%</span>
+          <span style="flex:1;color:var(--text2)">${esc(r.it.text)}</span>
+        </div>`).join('')}</div>` : ''}
+      <div class="links">
+        <button onclick="startSession()">🔁 再來 ${SESSION_N} 句</button>
+        <a href="index.html">← 回首頁</a>
+      </div>
+    </div>`;
+}
+
+renderPills();
+loadPools();
+</script>
+</body>
+</html>

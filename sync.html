@@ -137,13 +137,17 @@
 </div>
 
 <script>
-// All localStorage keys this site uses. Both `lph_*` and `hub_*` prefixes,
-// plus dynamic per-video keys (lph_<videoId>, lph_explain_<videoId>...).
+// All localStorage keys this site uses. `lph_*` / `hub_*` prefixes,
+// dynamic per-video keys (lph_<videoId>, lph_explain_<videoId>...),
+// plus `examapp:<videoId>` (exam answers + SRS — was missing before 2026-06-09).
+function isOurKey(k) {
+  return k.startsWith('lph_') || k.startsWith('hub_') || k.startsWith('examapp:');
+}
 function collectKeys() {
   const keys = [];
   for (let i = 0; i < localStorage.length; i++) {
     const k = localStorage.key(i);
-    if (k.startsWith('lph_') || k.startsWith('hub_')) keys.push(k);
+    if (isOurKey(k)) keys.push(k);
   }
   return keys.sort();
 }
@@ -223,9 +227,9 @@ function doImport() {
   if (typeof data !== 'object') {
     showToast('import-toast', '⚠ 找不到 data 物件', true); return;
   }
-  const keys = Object.keys(data).filter(k => k.startsWith('lph_') || k.startsWith('hub_'));
+  const keys = Object.keys(data).filter(isOurKey);
   if (!keys.length) {
-    showToast('import-toast', '⚠ 沒有任何 lph_/hub_ key', true); return;
+    showToast('import-toast', '⚠ 沒有任何 lph_/hub_/examapp key', true); return;
   }
   if (!confirm(`即將覆寫 ${keys.length} 個 key 到這個裝置的 localStorage。\n\n確定？（建議先匯出備份）`)) return;
   for (const k of keys) {
@@ -238,7 +242,7 @@ function doImport() {
 
 function doReset() {
   if (!confirm('真的要清空這個裝置的所有進度嗎？建議先匯出備份！')) return;
-  if (!confirm('再確認一次：所有 lph_* / hub_* key 會被刪除，不可復原。確定？')) return;
+  if (!confirm('再確認一次：所有 lph_* / hub_* / examapp:* key 會被刪除，不可復原。確定？')) return;
   const keys = collectKeys();
   for (const k of keys) localStorage.removeItem(k);
   alert(`✓ 已刪除 ${keys.length} 個 key`);

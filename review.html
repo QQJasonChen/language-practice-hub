@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>▶ 今日複習 — Echo Dutch</title>
+<style>
+  :root {
+    --bg:#050510; --surface:rgba(255,255,255,0.04); --surface2:rgba(255,255,255,0.08);
+    --border:rgba(255,255,255,0.09); --text:#f2f2f7; --text2:#a0a0b8; --text3:#606078;
+    --green:#34d399; --red:#f87171; --orange:#fb923c; --blue:#60a5fa; --purple:#a78bfa;
+    --accent:#5eead4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{font-family:-apple-system,'Inter',sans-serif;background:var(--bg);color:var(--text);
+    min-height:100vh;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+  .wrap{max-width:480px;margin:0 auto;padding:14px 18px 60px}
+  .top{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .back{width:34px;height:34px;border-radius:50%;background:var(--surface);border:1px solid var(--border);
+    color:var(--text2);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none}
+  .top h1{font-size:18px;font-weight:800}
+  .top .count{margin-left:auto;font-size:12px;color:var(--text3);font-weight:700}
+
+  .progress{height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;margin-bottom:18px}
+  .progress .fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--accent),var(--green));
+    transition:width .35s cubic-bezier(.22,1,.36,1);width:0}
+
+  /* ── Card shell ── */
+  .item{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:20px 18px;
+    animation:pop .3s cubic-bezier(.22,1,.36,1)}
+  @keyframes pop{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  .kind-tag{display:inline-block;font-size:10px;font-weight:800;letter-spacing:1px;padding:4px 10px;
+    border-radius:8px;margin-bottom:12px;text-transform:uppercase}
+  .kind-vocab{background:rgba(94,234,212,0.13);color:var(--accent)}
+  .kind-exam{background:rgba(251,146,60,0.13);color:var(--orange)}
+
+  /* ── Vocab card ── */
+  .v-word{font-size:34px;font-weight:900;letter-spacing:-0.5px;margin:6px 0 4px}
+  .v-level{font-size:11px;color:var(--text3);font-weight:700;margin-bottom:14px}
+  .v-zh{font-size:20px;font-weight:700;color:var(--green);margin:10px 0 4px;display:none}
+  .item.revealed .v-zh{display:block}
+  .speak-btn{padding:9px 16px;border-radius:12px;background:var(--surface2);border:1px solid var(--border);
+    color:var(--text);font-size:14px;font-weight:700;cursor:pointer}
+  .speak-btn:active{transform:scale(0.95)}
+
+  .reveal-btn{width:100%;margin-top:16px;padding:14px;border-radius:14px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,var(--accent),#34d399);color:#04211a;font-size:15px;font-weight:800}
+  .grades{display:none;gap:8px;margin-top:16px}
+  .item.revealed .grades{display:flex}
+  .grade{flex:1;padding:11px 4px;border-radius:12px;border:1px solid var(--border);background:var(--surface2);
+    color:var(--text);cursor:pointer;text-align:center}
+  .grade:active{transform:scale(0.94)}
+  .grade .top-e{display:block;font-size:18px}
+  .grade .bot-t{display:block;font-size:10.5px;font-weight:700;color:var(--text2);margin-top:3px}
+  .grade.again{border-color:rgba(248,113,113,0.4)} .grade.hard{border-color:rgba(251,146,60,0.4)}
+  .grade.good{border-color:rgba(52,211,153,0.4)} .grade.easy{border-color:rgba(94,234,212,0.5)}
+
+  /* ── Exam question card ── */
+  .q-scene{font-size:11.5px;color:var(--purple);font-weight:700;margin-bottom:8px}
+  .q-nl{font-size:17px;font-weight:800;line-height:1.45}
+  .q-zh{font-size:13px;color:var(--text2);margin-top:4px;line-height:1.5;margin-bottom:12px}
+  .opts{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+  .opt{padding:12px 14px;border-radius:12px;border:1px solid var(--border);background:var(--surface2);
+    cursor:pointer;font-size:14px;line-height:1.45}
+  .opt:active{transform:scale(0.98)}
+  .opt .o-zh{display:block;font-size:11.5px;color:var(--text3);margin-top:2px}
+  .opt.correct{border-color:var(--green);background:rgba(52,211,153,0.12)}
+  .opt.wrongpick{border-color:var(--red);background:rgba(248,113,113,0.12)}
+  .opt.disabled{pointer-events:none}
+  .explain{display:none;margin-top:14px;padding:13px 14px;border-radius:12px;background:rgba(96,165,250,0.08);
+    border:1px solid rgba(96,165,250,0.25);font-size:13px;line-height:1.6;color:var(--text2)}
+  .explain b{color:var(--blue)}
+  .explain .src-line{margin-top:8px;padding:8px 10px;background:rgba(0,0,0,0.25);border-radius:8px;font-size:12.5px}
+  .explain .src-line .nl{color:var(--text);font-weight:600}
+  .explain a{color:var(--purple);font-weight:700;text-decoration:none}
+  .item.answered .explain{display:block}
+  .next-btn{display:none;width:100%;margin-top:14px;padding:14px;border-radius:14px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,var(--purple),var(--blue));color:#fff;font-size:15px;font-weight:800}
+  .item.answered .next-btn{display:block}
+
+  /* ── empty / done ── */
+  .center-box{text-align:center;padding:60px 10px}
+  .center-box .big{font-size:52px;margin-bottom:14px}
+  .center-box h2{font-size:20px;font-weight:800;margin-bottom:8px}
+  .center-box p{font-size:13.5px;color:var(--text2);line-height:1.7}
+  .center-box .links{display:flex;flex-direction:column;gap:10px;margin-top:22px}
+  .center-box .links a{display:block;padding:13px;border-radius:13px;background:var(--surface2);
+    border:1px solid var(--border);color:var(--text);font-size:14px;font-weight:700;text-decoration:none}
+  .stat-row{display:flex;gap:10px;justify-content:center;margin:18px 0}
+  .stat-pill{padding:10px 18px;border-radius:14px;background:var(--surface2);border:1px solid var(--border)}
+  .stat-pill .n{font-size:22px;font-weight:900}
+  .stat-pill .l{font-size:10px;color:var(--text3);font-weight:700;letter-spacing:1px;margin-top:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="back" href="index.html">←</a>
+    <h1>▶ 今日複習</h1>
+    <span class="count" id="counter"></span>
+  </div>
+  <div class="progress"><div class="fill" id="prog"></div></div>
+  <div id="stage"><div class="center-box"><div class="big">⏳</div><p>整理今天該複習的內容…</p></div></div>
+</div>
+
+<script>
+// ── Config: must stay in sync with vocab.html / exam.html SRS logic ──
+const MOCKS = [
+  { vid: 'mock3_a2_2026', label: '模考三' },
+  { vid: '_iC1Pooi2UA',  label: 'PART 1' },
+  { vid: 'AMVy2zPNLso',  label: 'PART 2' },
+];
+const VOCAB_SRS_KEY = 'lph_vocab_srs';
+const INTERVALS = [1, 3, 7, 14, 30];   // same as vocab.html + exam.html
+const VOCAB_CAP = 12, EXAM_CAP = 10;
+
+const esc = t => String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const todayStr = () => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+const daysFromNow = n => { const d = new Date(); d.setDate(d.getDate()+n); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+const addDays = (iso, n) => { const d = new Date(iso+'T00:00:00'); d.setDate(d.getDate()+n); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+const parseT = t => { const p = String(t||'0:00').split(':').map(Number); return p.length===2 ? p[0]*60+p[1] : p[0]; };
+
+// ── Shared audio (original mock recordings) ──
+let _audio = null, _stopT = null;
+function playRange(vid, start, end) {
+  if (_stopT) { clearTimeout(_stopT); _stopT = null; }
+  if (!_audio) _audio = new Audio();
+  const src = `output/${vid}/audio.mp3`;
+  if (_audio.src.indexOf(src) === -1) _audio.src = src;
+  const go = () => {
+    _audio.currentTime = Math.max(0, start);
+    _audio.play().catch(()=>{});
+    const durMs = Math.max(1500, (end - start) * 1000 + 300);
+    _stopT = setTimeout(() => _audio.pause(), durMs);
+  };
+  if (_audio.readyState >= 1) go();
+  else { _audio.addEventListener('loadedmetadata', go, { once: true }); _audio.load(); }
+}
+
+// lazy data.json segment lookup for vocab audio
+const _segCache = {};
+async function playVocabAudio(v) {
+  const srcInfo = (v.sources || [])[0];
+  if (!srcInfo) return ttsFallback(v.nl);
+  const [vid, idx] = srcInfo;
+  try {
+    if (!_segCache[vid]) {
+      const r = await fetch(`output/${vid}/data.json`);
+      _segCache[vid] = (await r.json()).ai_data.segments;
+    }
+    const s = _segCache[vid][idx];
+    if (s) return playRange(vid, s.start, s.end);
+  } catch(e) {}
+  ttsFallback(v.nl);
+}
+function ttsFallback(text) {
+  if (!window.speechSynthesis) return;
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'nl-NL'; u.rate = 0.9;
+  window.speechSynthesis.cancel(); window.speechSynthesis.speak(u);
+}
+
+// ── Build queue ──
+let queue = [], qi = 0, stats = { vocab: 0, exam: 0, examRight: 0 };
+
+async function build() {
+  const t = todayStr();
+  // 1) vocab due (entries already in SRS store, due today/overdue, not permanently skipped)
+  let vocabDue = [];
+  try {
+    const srs = JSON.parse(localStorage.getItem(VOCAB_SRS_KEY) || '{}');
+    const all = (await (await fetch('output/all_vocab.json')).json()).words;
+    vocabDue = all
+      .filter(w => {
+        const s = srs[w.nl.toLowerCase().trim()];
+        return s && !s.skipped && s.reps < 900 && s.due <= t;
+      })
+      .sort((a, b) => srs[a.nl.toLowerCase().trim()].due < srs[b.nl.toLowerCase().trim()].due ? -1 : 1)
+      .slice(0, VOCAB_CAP)
+      .map(w => ({ kind: 'vocab', v: w }));
+  } catch(e) { console.warn('vocab load failed', e); }
+
+  // 2) exam questions: due SRS or currently-wrong, from each mock's examapp store
+  let examItems = [];
+  for (const m of MOCKS) {
+    let store;
+    try { store = JSON.parse(localStorage.getItem('examapp:' + m.vid) || '{}'); } catch(e) { store = {}; }
+    const qstates = store.q || {};
+    const picked = Object.entries(qstates).filter(([qid, q]) =>
+      (q.srs && !q.srs.graduated && q.srs.due <= t) || q.last_correct === false);
+    if (!picked.length) continue;
+    try {
+      const exam = await (await fetch(`output/${m.vid}/exam.json`)).json();
+      const qmap = {};
+      exam.scenarios.forEach(sc => (sc.questions || []).forEach(q => {
+        qmap[String(q.n)] = { q, scene: sc };
+      }));
+      picked.forEach(([qid, qs]) => {
+        if (qmap[qid]) examItems.push({ kind: 'exam', vid: m.vid, label: m.label, qid, due: (qs.srs && qs.srs.due) || t, ...qmap[qid] });
+      });
+    } catch(e) { console.warn('exam.json load failed', m.vid, e); }
+  }
+  examItems.sort((a, b) => a.due < b.due ? -1 : 1);
+  examItems = examItems.slice(0, EXAM_CAP);
+
+  // 3) interleave: vocab / exam alternating
+  queue = [];
+  const a = [...vocabDue], b = [...examItems];
+  while (a.length || b.length) {
+    if (a.length) queue.push(a.shift());
+    if (b.length) queue.push(b.shift());
+  }
+
+  if (!queue.length) return renderEmpty();
+  render();
+}
+
+// ── Renderers ──
+function setProgress() {
+  document.getElementById('prog').style.width = Math.round(qi / queue.length * 100) + '%';
+  document.getElementById('counter').textContent = `${Math.min(qi + 1, queue.length)} / ${queue.length}`;
+}
+
+function render() {
+  if (qi >= queue.length) return renderDone();
+  setProgress();
+  const it = queue[qi];
+  if (it.kind === 'vocab') renderVocab(it);
+  else renderExam(it);
+}
+
+function renderVocab(it) {
+  const v = it.v;
+  document.getElementById('stage').innerHTML = `
+    <div class="item" id="card">
+      <span class="kind-tag kind-vocab">📚 單字複習</span>
+      <div class="v-word">${esc(v.nl)}</div>
+      <div class="v-level">${esc(v.level || '')} · 出現 ${v.count || 1} 次</div>
+      <button class="speak-btn" onclick='playVocabAudio(${JSON.stringify(v).replace(/'/g,"&#39;")})'>🔊 聽原音</button>
+      <div class="v-zh">${esc(v.zh)}</div>
+      <button class="reveal-btn" id="reveal" onclick="revealVocab()">顯示意思</button>
+      <div class="grades">
+        <button class="grade again" onclick="gradeVocab(0)"><span class="top-e">😕</span><span class="bot-t">忘了 1d</span></button>
+        <button class="grade hard"  onclick="gradeVocab(1)"><span class="top-e">🤔</span><span class="bot-t">勉強 3d</span></button>
+        <button class="grade good"  onclick="gradeVocab(2)"><span class="top-e">👍</span><span class="bot-t">會 7d</span></button>
+        <button class="grade easy"  onclick="gradeVocab(3)"><span class="top-e">⚡</span><span class="bot-t">超會 14d</span></button>
+      </div>
+    </div>`;
+}
+function revealVocab() {
+  document.getElementById('card').classList.add('revealed');
+  document.getElementById('reveal').style.display = 'none';
+}
+function gradeVocab(g) {
+  // identical scheduling math to vocab.html grade()
+  const v = queue[qi].v;
+  const key = v.nl.toLowerCase().trim();
+  let srs;
+  try { srs = JSON.parse(localStorage.getItem(VOCAB_SRS_KEY) || '{}'); } catch(e) { srs = {}; }
+  const cur = srs[key] || { reps: 0, interval: 0 };
+  let newReps, newInt;
+  if (g === 0) { newReps = 0; newInt = 1; }
+  else if (g === 1) { newReps = cur.reps; newInt = Math.max(2, Math.min(cur.interval || 1, 3)); }
+  else if (g === 2) { newReps = cur.reps + 1; newInt = INTERVALS[Math.min(newReps, INTERVALS.length - 1)]; }
+  else { newReps = cur.reps + 2; newInt = INTERVALS[Math.min(newReps, INTERVALS.length - 1)] * 2; }
+  srs[key] = { reps: newReps, interval: newInt, due: daysFromNow(newInt), lastSeen: todayStr() };
+  localStorage.setItem(VOCAB_SRS_KEY, JSON.stringify(srs));
+  stats.vocab++;
+  qi++; render();
+}
+
+function renderExam(it) {
+  const q = it.q;
+  const src = q.source || [];
+  const aStart = src.length ? parseT(src[0].t) : parseT(q.t);
+  const aEnd = Math.min(aStart + 20, (src.length ? parseT(src[src.length-1].t) : aStart) + 6);
+  document.getElementById('stage').innerHTML = `
+    <div class="item" id="card">
+      <span class="kind-tag kind-exam">🎯 錯題複習 · ${esc(it.label)}</span>
+      <div class="q-scene">場景 ${esc(it.scene.n)} · ${esc(it.scene.title_zh || '')}</div>
+      <div class="q-nl">${esc(q.q_nl)}</div>
+      <div class="q-zh">${esc(q.q_zh)}</div>
+      <button class="speak-btn" onclick="playRange('${it.vid}', ${aStart}, ${aEnd})">▶ 聽答案所在段落</button>
+      <div class="opts">
+        ${q.options.map((o, i) => `
+          <div class="opt" data-i="${i}" onclick="answerExam(${i})">
+            ${esc(o.nl)}<span class="o-zh">${esc(o.zh)}</span>
+          </div>`).join('')}
+      </div>
+      <div class="explain" id="explain"></div>
+      <button class="next-btn" onclick="qi++; render()">下一題 →</button>
+    </div>`;
+}
+function answerExam(pick) {
+  const it = queue[qi], q = it.q;
+  const correct = pick === q.answer;
+  // mark UI
+  const card = document.getElementById('card');
+  card.classList.add('answered');
+  card.querySelectorAll('.opt').forEach(el => {
+    el.classList.add('disabled');
+    const i = Number(el.dataset.i);
+    if (i === q.answer) el.classList.add('correct');
+    else if (i === pick) el.classList.add('wrongpick');
+  });
+  const srcHtml = (q.source || []).map(s =>
+    `<div class="src-line"><span class="nl">${esc(s.nl)}</span><br>${esc(s.zh)}</div>`).join('');
+  document.getElementById('explain').innerHTML =
+    `<b>${correct ? '✓ 答對' : '✗ 答錯'}</b> · ${esc(q.explain || '')}` +
+    (q.trap ? `<br><b>陷阱：</b>${esc(q.trap)}` : '') + srcHtml +
+    `<div style="margin-top:8px"><a href="output/${it.vid}/exam.html">到完整模擬考頁 →</a></div>`;
+
+  // write back: identical to exam.html recordAnswer + scheduleSRS
+  const key = 'examapp:' + it.vid;
+  let st;
+  try { st = JSON.parse(localStorage.getItem(key)) || {}; } catch(e) { st = {}; }
+  st.q = st.q || {};
+  const qs = st.q[it.qid] = st.q[it.qid] || { attempts: [] };
+  qs.attempts = qs.attempts || [];
+  qs.last_pick = pick; qs.last_correct = correct;
+  qs.attempts.push({ date: todayStr(), pick, correct });
+  qs.srs = qs.srs || { due: todayStr(), interval: 0, reps: 0 };
+  if (!correct) {
+    qs.srs.interval = 1; qs.srs.reps = 0; qs.srs.due = addDays(todayStr(), 1);
+  } else {
+    qs.srs.reps += 1;
+    qs.srs.interval = INTERVALS[Math.min(qs.srs.reps, INTERVALS.length - 1)];
+    qs.srs.due = addDays(todayStr(), qs.srs.interval);
+    if (qs.srs.reps >= 4) qs.srs.graduated = true;
+  }
+  localStorage.setItem(key, JSON.stringify(st));
+  stats.exam++; if (correct) stats.examRight++;
+}
+
+// ── End states ──
+function renderEmpty() {
+  document.getElementById('counter').textContent = '';
+  document.getElementById('stage').innerHTML = `
+    <div class="center-box">
+      <div class="big">🎉</div>
+      <h2>今天沒有該複習的</h2>
+      <p>單字卡都還沒到期，錯題也清空了。<br>想加練的話：</p>
+      <div class="links">
+        <a href="random-quiz.html">🎯 隨機考一輪（會產生新的複習素材）</a>
+        <a href="vocab.html">📚 學新單字</a>
+        <a href="dictee.html">✍️ 聽寫訓練</a>
+      </div>
+    </div>`;
+}
+function renderDone() {
+  document.getElementById('prog').style.width = '100%';
+  const pct = stats.exam ? Math.round(stats.examRight / stats.exam * 100) : null;
+  // streak log
+  try {
+    const log = JSON.parse(localStorage.getItem('lph_review_log') || '[]');
+    log.unshift({ date: todayStr(), vocab: stats.vocab, exam: stats.exam, right: stats.examRight });
+    localStorage.setItem('lph_review_log', JSON.stringify(log.slice(0, 60)));
+  } catch(e) {}
+  document.getElementById('stage').innerHTML = `
+    <div class="center-box">
+      <div class="big">✅</div>
+      <h2>今日複習完成！</h2>
+      <div class="stat-row">
+        <div class="stat-pill"><div class="n" style="color:var(--accent)">${stats.vocab}</div><div class="l">單字</div></div>
+        <div class="stat-pill"><div class="n" style="color:var(--orange)">${stats.exam}</div><div class="l">錯題</div></div>
+        ${pct !== null ? `<div class="stat-pill"><div class="n" style="color:${pct>=70?'var(--green)':'var(--red)'}">${pct}%</div><div class="l">正確率</div></div>` : ''}
+      </div>
+      <p>答錯的明天會再出現；答對的會越排越遠。</p>
+      <div class="links">
+        <a href="dictee.html">✍️ 加練聽寫</a>
+        <a href="index.html">← 回首頁</a>
+      </div>
+    </div>`;
+}
+
+build();
+</script>
+</body>
+</html>
