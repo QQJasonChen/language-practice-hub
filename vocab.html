@@ -49,6 +49,8 @@
   .card-zh{font-size:20px;color:var(--ring);margin:14px 0 4px;font-weight:600;display:none}
   .card-note{font-size:13px;color:var(--text2);margin:8px 0;font-style:italic;display:none}
   .card.revealed .card-zh,.card.revealed .card-note{display:block}
+  .prod-back{display:none}
+  .card.revealed .prod-back{display:block}
 
   .reveal-btn{padding:14px 28px;background:var(--purple);color:#000;border:0;
     border-radius:10px;font-size:15px;font-weight:800;cursor:pointer;margin-top:16px}
@@ -120,6 +122,9 @@
         title="答錯/勉強的卡會在幾張卡之後再考一次（最多 2 次），強化短期 → 長期記憶">
         🔁 間歇複習：開
       </button>
+      <button class="lg-toggle" id="dir-toggle" onclick="toggleDir()"
+        title="中→荷 = production 模式：看中文，先大聲說出荷蘭文再翻牌。比認得難一倍、記得牢一倍，直接練口說考試要的能力">
+      </button>
     </div>
     <div id="card-container"></div>
   </div>
@@ -154,6 +159,7 @@ let vocab = [];          // [{nl, zh, kana, src:[vid, scn], ...}]
 let queue = [];          // due cards for study tab
 let qi = 0;
 let lapseGuard = localStorage.getItem(LAPSE_KEY) !== '0';  // default ON
+let dir = localStorage.getItem('lph_vocab_dir') || 'nl2zh'; // nl2zh 認 / zh2nl 說
 let lapseSeen = new Map();  // session-only: key → re-queue count
 let lapseDone = 0;       // session counter for hint
 
@@ -375,6 +381,19 @@ function toggleLapseGuard() {
   btn.textContent = lapseGuard ? '🔁 間歇複習：開' : '🔁 間歇複習：關';
 }
 
+function syncDirBtn() {
+  const btn = document.getElementById('dir-toggle');
+  if (!btn) return;
+  btn.classList.toggle('on', dir === 'zh2nl');
+  btn.textContent = dir === 'zh2nl' ? '🗣️ 中→荷（說）' : '👁 荷→中（認）';
+}
+function toggleDir() {
+  dir = dir === 'nl2zh' ? 'zh2nl' : 'nl2zh';
+  localStorage.setItem('lph_vocab_dir', dir);
+  syncDirBtn();
+  renderCard();
+}
+
 function renderCard() {
   const box = document.getElementById('card-container');
   if (!queue.length || qi >= queue.length) {
@@ -408,22 +427,30 @@ function renderCard() {
     ? `<span class="lapse-pill">🔁 第 ${reseen + 1} 次</span>` : '';
   const lapseHint = reseen > 0
     ? `<div class="lg-hint">這張剛剛沒答好，再考一次（${reseen}/${LAPSE_MAX}）</div>` : '';
-  box.innerHTML = `
-    <div style="text-align:center;font-size:12px;color:var(--dim);margin-bottom:8px">
-      ${qi + 1} / ${queue.length} · ${v.type === 'pattern' ? '🔑 句型' : '📚 詞彙'}${lapsePill}
-    </div>
-    ${lapseHint}
-    <div class="card" id="card">
-      <div class="card-src">${srcLabels}</div>
+  // zh2nl (production): front = Chinese, back = Dutch + audio + context.
+  // Audio/context stay hidden pre-reveal so they don't leak the answer.
+  const cardInner = dir === 'zh2nl'
+    ? `<div class="card-src">${srcLabels}</div>
+      <div class="card-nl" style="font-size:26px">${esc(v.zh)}</div>
+      <div style="font-size:11.5px;color:var(--dim);margin-top:2px">先大聲說出荷蘭文，再翻牌</div>
+      <div class="card-zh" style="font-size:28px;color:var(--text)">${esc(v.nl)}</div>
+      <div class="prod-back">${playBtn}${ctxHtml}</div>
+      ${v.note ? `<div class="card-note">💡 ${esc(v.note)}</div>` : ''}`
+    : `<div class="card-src">${srcLabels}</div>
       <div class="card-nl">${esc(v.nl)}</div>
       ${v.kana ? `<div class="card-kana">${esc(v.kana)}</div>` : ''}
       ${playBtn}
       ${ctxHtml}
       <div class="card-zh">${esc(v.zh)}</div>
-      ${v.note ? `<div class="card-note">💡 ${esc(v.note)}</div>` : ''}
+      ${v.note ? `<div class="card-note">💡 ${esc(v.note)}</div>` : ''}`;
+  box.innerHTML = `
+    <div style="text-align:center;font-size:12px;color:var(--dim);margin-bottom:8px">
+      ${qi + 1} / ${queue.length} · ${v.type === 'pattern' ? '🔑 句型' : '📚 詞彙'}${lapsePill}
     </div>
+    ${lapseHint}
+    <div class="card" id="card">${cardInner}</div>
     <div id="action-row" style="margin-top:14px">
-      <button class="reveal-btn" style="width:100%" onclick="reveal()">翻牌看意思</button>
+      <button class="reveal-btn" style="width:100%" onclick="reveal()">${dir === 'zh2nl' ? '翻牌看荷蘭文' : '翻牌看意思'}</button>
       <button onclick="markKnown()" style="margin-top:8px;width:100%;padding:8px;
         background:transparent;border:1px solid var(--line);color:var(--text2);
         border-radius:8px;font:inherit;font-size:12px;font-weight:700;cursor:pointer">
@@ -602,6 +629,7 @@ function esc(t) {
   const btn = document.getElementById('lg-toggle');
   btn.classList.toggle('on', lapseGuard);
   btn.textContent = lapseGuard ? '🔁 間歇複習：開' : '🔁 間歇複習：關';
+  syncDirBtn();
   updateStats();
   buildQueue();
   renderCard();

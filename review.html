@@ -232,14 +232,18 @@ function render() {
 
 function renderVocab(it) {
   const v = it.v;
+  // respect vocab.html's direction setting: zh2nl = production mode (see Chinese, say Dutch)
+  const prod = localStorage.getItem('lph_vocab_dir') === 'zh2nl';
+  const front = prod ? esc(v.zh) : esc(v.nl);
+  const back = prod ? esc(v.nl) : esc(v.zh);
   document.getElementById('stage').innerHTML = `
     <div class="item" id="card">
-      <span class="kind-tag kind-vocab">📚 單字複習</span>
-      <div class="v-word">${esc(v.nl)}</div>
+      <span class="kind-tag kind-vocab">📚 單字複習${prod ? ' · 🗣️ 說出荷蘭文' : ''}</span>
+      <div class="v-word" ${prod ? 'style="font-size:28px"' : ''}>${front}</div>
       <div class="v-level">${esc(v.level || '')} · 出現 ${v.count || 1} 次</div>
-      <button class="speak-btn" onclick='playVocabAudio(${JSON.stringify(v).replace(/'/g,"&#39;")})'>🔊 聽原音</button>
-      <div class="v-zh">${esc(v.zh)}</div>
-      <button class="reveal-btn" id="reveal" onclick="revealVocab()">顯示意思</button>
+      ${prod ? '' : `<button class="speak-btn" onclick='playVocabAudio(${JSON.stringify(v).replace(/'/g,"&#39;")})'>🔊 聽原音</button>`}
+      <div class="v-zh">${back}${prod ? ` <button class="speak-btn" style="margin-left:8px;padding:6px 12px;font-size:12px" onclick='playVocabAudio(${JSON.stringify(v).replace(/'/g,"&#39;")})'>🔊</button>` : ''}</div>
+      <button class="reveal-btn" id="reveal" onclick="revealVocab()">${prod ? '翻牌看荷蘭文' : '顯示意思'}</button>
       <div class="grades">
         <button class="grade again" onclick="gradeVocab(0)"><span class="top-e">😕</span><span class="bot-t">忘了 1d</span></button>
         <button class="grade hard"  onclick="gradeVocab(1)"><span class="top-e">🤔</span><span class="bot-t">勉強 3d</span></button>

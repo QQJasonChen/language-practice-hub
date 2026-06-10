@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>🗣️ 口說模擬器 — Echo Dutch</title>
+<style>
+  :root {
+    --bg:#050510; --surface:rgba(255,255,255,0.04); --surface2:rgba(255,255,255,0.08);
+    --border:rgba(255,255,255,0.09); --text:#f2f2f7; --text2:#a0a0b8; --text3:#606078;
+    --green:#34d399; --red:#f87171; --orange:#fb923c; --blue:#60a5fa; --purple:#a78bfa;
+    --accent:#5eead4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{font-family:-apple-system,'Inter',sans-serif;background:var(--bg);color:var(--text);
+    min-height:100vh;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+  .wrap{max-width:480px;margin:0 auto;padding:14px 18px 80px}
+  .top{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .back{width:34px;height:34px;border-radius:50%;background:var(--surface);border:1px solid var(--border);
+    color:var(--text2);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none}
+  .top h1{font-size:18px;font-weight:800}
+  .top .count{margin-left:auto;font-size:12px;color:var(--text3);font-weight:700}
+  .progress{height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;margin-bottom:16px}
+  .progress .fill{height:100%;background:linear-gradient(90deg,var(--orange),var(--red));
+    transition:width .35s;border-radius:3px;width:0}
+
+  .howto{padding:14px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--border);
+    font-size:13px;color:var(--text2);line-height:1.7;margin-bottom:14px}
+  .howto b{color:var(--text)}
+  .opt-row{display:flex;gap:8px;margin-bottom:14px;align-items:center}
+  .opt-label{font-size:13px;font-weight:800;color:var(--text2);flex:0 0 64px}
+  .seg{display:flex;gap:6px;flex:1}
+  .seg button{flex:1;padding:9px 0;border-radius:10px;border:1px solid var(--border);background:var(--surface2);
+    color:var(--text2);font-size:12.5px;font-weight:700;cursor:pointer}
+  .seg button.on{background:linear-gradient(135deg,var(--orange),var(--red));color:#fff;border-color:transparent}
+  .start-btn{width:100%;padding:16px;border-radius:16px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,var(--orange),var(--red));color:#fff;font-size:16px;font-weight:800}
+  .start-btn:disabled{opacity:.4}
+  .mini-stat{font-size:12px;color:var(--text3);text-align:center;margin-top:12px}
+
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:20px 18px;
+    animation:pop .3s cubic-bezier(.22,1,.36,1)}
+  @keyframes pop{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  .src-tag{font-size:10.5px;font-weight:800;letter-spacing:1px;color:var(--orange);margin-bottom:12px}
+  .q-text{font-size:18px;font-weight:800;line-height:1.5}
+  .q-zh{font-size:13.5px;color:var(--text2);margin-top:8px;line-height:1.6;display:none}
+  .card.show-zh .q-zh{display:block}
+  .btn-row{display:flex;gap:8px;margin-top:16px}
+  .b{flex:1;padding:13px;border-radius:13px;border:1px solid var(--border);background:var(--surface2);
+    color:var(--text);font-size:14px;font-weight:700;cursor:pointer}
+  .b:active{transform:scale(0.96)}
+  .b.primary{background:linear-gradient(135deg,var(--orange),var(--red));color:#fff;border:none;flex:1.5}
+
+  /* countdown ring */
+  .ring-box{display:flex;flex-direction:column;align-items:center;margin:18px 0 6px}
+  .ring{position:relative;width:150px;height:150px}
+  .ring svg{transform:rotate(-90deg)}
+  .ring .num{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    font-size:44px;font-weight:900}
+  .rec-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--red);
+    animation:blink 1s infinite;margin-right:6px}
+  @keyframes blink{50%{opacity:.2}}
+  .rec-label{font-size:12px;color:var(--text2);margin-top:10px;font-weight:700}
+
+  .model-box{margin-top:16px;padding:14px 15px;border-radius:13px;background:rgba(52,211,153,0.08);
+    border:1px solid rgba(52,211,153,0.3)}
+  .model-box .m-tag{font-size:11px;font-weight:800;color:var(--green);letter-spacing:1px;margin-bottom:6px}
+  .model-box .m-nl{font-size:16px;font-weight:700;line-height:1.55}
+  .model-box .m-zh{font-size:12.5px;color:var(--text2);margin-top:6px;line-height:1.6}
+  .grades{display:flex;gap:8px;margin-top:16px}
+  .grade{flex:1;padding:12px 4px;border-radius:12px;border:1px solid var(--border);background:var(--surface2);
+    color:var(--text);cursor:pointer;text-align:center}
+  .grade:active{transform:scale(0.94)}
+  .grade .e{display:block;font-size:20px}
+  .grade .t{display:block;font-size:10.5px;font-weight:700;color:var(--text2);margin-top:3px}
+  .grade.g0{border-color:rgba(248,113,113,0.45)} .grade.g1{border-color:rgba(251,146,60,0.45)}
+  .grade.g2{border-color:rgba(52,211,153,0.45)}
+
+  .center-box{text-align:center;padding:50px 10px}
+  .center-box .big{font-size:52px;margin-bottom:14px}
+  .center-box h2{font-size:20px;font-weight:800;margin-bottom:10px}
+  .center-box p{font-size:13px;color:var(--text2);line-height:1.7}
+  .stat-row{display:flex;gap:10px;justify-content:center;margin:18px 0}
+  .stat-pill{padding:10px 18px;border-radius:14px;background:var(--surface2);border:1px solid var(--border)}
+  .stat-pill .n{font-size:22px;font-weight:900}
+  .stat-pill .l{font-size:10px;color:var(--text3);font-weight:700;letter-spacing:1px;margin-top:2px}
+  .links{display:flex;flex-direction:column;gap:10px;margin-top:20px}
+  .links a,.links button{display:block;width:100%;padding:13px;border-radius:13px;background:var(--surface2);
+    border:1px solid var(--border);color:var(--text);font-size:14px;font-weight:700;text-decoration:none;
+    text-align:center;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="back" href="index.html">←</a>
+    <h1>🗣️ 口說模擬器</h1>
+    <span class="count" id="counter"></span>
+  </div>
+  <div class="progress"><div class="fill" id="prog"></div></div>
+  <div id="stage">
+    <div class="howto"><b>考試怎麼考，這裡就怎麼練：</b>聽問題 → 倒數內大聲回答（會錄音）→
+      聽 Ad Appel 模範答案對照 → 自評。講不出來的題目下次優先再出。<br>
+      <b>記得開聲音、找個能講話的地方。</b></div>
+    <div class="opt-row">
+      <span class="opt-label">作答秒數</span>
+      <div class="seg" id="timer-seg"></div>
+    </div>
+    <div class="opt-row">
+      <span class="opt-label">錄音</span>
+      <div class="seg" id="mic-seg">
+        <button data-v="1">🎙️ 開（可回聽自己）</button>
+        <button data-v="0">關（只倒數）</button>
+      </div>
+    </div>
+    <button class="start-btn" id="start" disabled onclick="startSession()">載入中…</button>
+    <div class="mini-stat" id="mini-stat"></div>
+  </div>
+</div>
+
+<script>
+const DATA_URL = 'output/spreken_items.json';
+const STORE_KEY = 'lph_spreken_v1';     // { "vid:idx": {reps, interval, due, lastGrade, tries} }
+const TIMER_KEY = 'lph_spreken_timer';
+const MIC_KEY = 'lph_spreken_mic';
+const INTERVALS = [1, 3, 7, 14, 30];
+const SESSION_N = 8;
+const TIMERS = [15, 25, 35];
+
+const esc = t => String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const todayStr = () => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+const daysFromNow = n => { const d = new Date(); d.setDate(d.getDate()+n); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+
+let DATA = null;
+let timerSec = parseInt(localStorage.getItem(TIMER_KEY)) || 25;
+if (!TIMERS.includes(timerSec)) timerSec = 25;
+let micOn = localStorage.getItem(MIC_KEY) !== '0';
+let session = [], si = 0, grades = [];
+let micStream = null, mediaRec = null, recChunks = [], myRecUrl = null;
+let countdownT = null;
+
+function loadStore() { try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); } catch(e) { return {}; } }
+function saveStore(s) { localStorage.setItem(STORE_KEY, JSON.stringify(s)); }
+
+// ── Settings UI ──
+function renderSettings() {
+  document.getElementById('timer-seg').innerHTML = TIMERS.map(s =>
+    `<button class="${s === timerSec ? 'on' : ''}" onclick="setTimer(${s})">${s} 秒</button>`).join('');
+  document.querySelectorAll('#mic-seg button').forEach(b => {
+    b.classList.toggle('on', (b.dataset.v === '1') === micOn);
+    b.onclick = () => { micOn = b.dataset.v === '1'; localStorage.setItem(MIC_KEY, micOn ? '1' : '0'); renderSettings(); };
+  });
+}
+function setTimer(s) { timerSec = s; localStorage.setItem(TIMER_KEY, String(s)); renderSettings(); }
+
+// ── Load data ──
+(async function init() {
+  renderSettings();
+  try {
+    DATA = await (await fetch(DATA_URL)).json();
+    const store = loadStore();
+    const practiced = Object.keys(store).length;
+    const t = todayStr();
+    const due = Object.values(store).filter(r => r.due <= t || r.lastGrade === 0).length;
+    document.getElementById('start').disabled = false;
+    document.getElementById('start').textContent = `▶ 開始（${SESSION_N} 題）`;
+    document.getElementById('mini-stat').textContent =
+      `題庫 ${DATA.count} 題 · ${DATA.videos.length} 份 Ad Appel 考卷 · 已練 ${practiced} 題` +
+      (due ? ` · ${due} 題該複習` : '');
+  } catch(e) {
+    document.getElementById('start').textContent = '題庫載入失敗';
+  }
+})();
+
+// ── Session build: due/failed first → unseen (exam order) → rest ──
+function startSession() {
+  const store = loadStore();
+  const t = todayStr();
+  const all = [];
+  DATA.videos.forEach(v => v.items.forEach((it, idx) =>
+    all.push({ ...it, vid: v.vid, label: v.label, idx })));
+  const due = [], unseen = [], rest = [];
+  all.forEach(it => {
+    const r = store[it.vid + ':' + it.idx];
+    if (!r) unseen.push(it);
+    else if (r.due <= t || r.lastGrade === 0) due.push(it);
+    else rest.push(it);
+  });
+  const shuffle = arr => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; } return arr; };
+  session = [...shuffle(due), ...unseen, ...shuffle(rest)].slice(0, SESSION_N);
+  si = 0; grades = [];
+  if (micOn) initMic();
+  renderQuestion();
+}
+
+async function initMic() {
+  if (micStream) return;
+  try {
+    micStream = await navigator.mediaDevices.getUserMedia({
+      audio: { echoCancellation: true, noiseSuppression: true } });
+  } catch(e) { micOn = false; }
+}
+
+// ── Audio range playback ──
+let _audio = null, _stopT = null, _onEnd = null;
+function playRange(vid, start, end, onDone) {
+  if (_stopT) { clearTimeout(_stopT); _stopT = null; }
+  if (!_audio) _audio = new Audio();
+  const src = `output/${vid}/audio.mp3`;
+  if (_audio.src.indexOf(src) === -1) _audio.src = src;
+  const go = () => {
+    _audio.playbackRate = 1.0;
+    _audio.currentTime = Math.max(0, start);
+    _audio.play().catch(()=>{});
+    const durMs = Math.max(1200, (end - start) * 1000 + 250);
+    _stopT = setTimeout(() => { _audio.pause(); if (onDone) onDone(); }, durMs);
+  };
+  if (_audio.readyState >= 1) go();
+  else { _audio.addEventListener('loadedmetadata', go, { once: true }); _audio.load(); }
+}
+
+// ── Phase 1: question ──
+function renderQuestion() {
+  if (countdownT) { clearInterval(countdownT); countdownT = null; }
+  if (myRecUrl) { URL.revokeObjectURL(myRecUrl); myRecUrl = null; }
+  if (si >= session.length) return renderSummary();
+  const it = session[si];
+  document.getElementById('prog').style.width = Math.round(si / session.length * 100) + '%';
+  document.getElementById('counter').textContent = `${si + 1} / ${session.length}`;
+  document.getElementById('stage').innerHTML = `
+    <div class="card" id="card">
+      <div class="src-tag">🗣️ ${esc(it.label)} · 第 ${it.idx + 1} 題</div>
+      <div class="q-text">${esc(it.q_nl)}</div>
+      <div class="q-zh">${esc(it.q_zh)}</div>
+      <div class="btn-row">
+        <button class="b" onclick="playQ()">🔊 再聽問題</button>
+        <button class="b" onclick="document.getElementById('card').classList.toggle('show-zh')">中文</button>
+      </div>
+      <div class="btn-row">
+        <button class="b primary" onclick="startAnswer()">🎙️ 開始作答（${timerSec} 秒）</button>
+      </div>
+    </div>`;
+  playQ();
+}
+function playQ() { const it = session[si]; playRange(it.vid, it.q_start, it.q_end); }
+
+// ── Phase 2: countdown + record ──
+function startAnswer() {
+  if (_stopT) { clearTimeout(_stopT); _stopT = null; }
+  if (_audio) _audio.pause();
+  const it = session[si];
+  const R = 66, CIRC = 2 * Math.PI * R;
+  document.getElementById('stage').innerHTML = `
+    <div class="card">
+      <div class="src-tag">🗣️ ${esc(it.label)} · 第 ${it.idx + 1} 題</div>
+      <div class="q-text" style="font-size:15px;color:var(--text2)">${esc(it.q_nl)}</div>
+      <div class="ring-box">
+        <div class="ring">
+          <svg width="150" height="150">
+            <circle cx="75" cy="75" r="${R}" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="9"/>
+            <circle id="ring-fg" cx="75" cy="75" r="${R}" fill="none" stroke="#fb923c" stroke-width="9"
+              stroke-linecap="round" stroke-dasharray="${CIRC}" stroke-dashoffset="0"/>
+          </svg>
+          <div class="num" id="cd-num">${timerSec}</div>
+        </div>
+        <div class="rec-label" id="rec-label">${micOn && micStream ? '<span class="rec-dot"></span>錄音中 — 大聲回答！' : '大聲回答！'}</div>
+      </div>
+      <div class="btn-row">
+        <button class="b primary" onclick="finishAnswer()">講完了 →</button>
+      </div>
+    </div>`;
+  // start recording
+  recChunks = [];
+  if (micOn && micStream) {
+    try {
+      let mime = '';
+      for (const t of ['audio/mp4', 'audio/webm;codecs=opus', 'audio/webm']) {
+        if (typeof MediaRecorder !== 'undefined' && MediaRecorder.isTypeSupported(t)) { mime = t; break; }
+      }
+      mediaRec = mime ? new MediaRecorder(micStream, { mimeType: mime }) : new MediaRecorder(micStream);
+      mediaRec.ondataavailable = e => { if (e.data.size) recChunks.push(e.data); };
+      mediaRec.start();
+    } catch(e) { mediaRec = null; }
+  }
+  // countdown
+  let left = timerSec;
+  const fg = document.getElementById('ring-fg');
+  countdownT = setInterval(() => {
+    left--;
+    document.getElementById('cd-num').textContent = left;
+    fg.style.strokeDashoffset = CIRC * (1 - left / timerSec);
+    if (left <= 5) fg.style.stroke = '#f87171';
+    if (left <= 0) finishAnswer();
+  }, 1000);
+}
+
+function finishAnswer() {
+  if (countdownT) { clearInterval(countdownT); countdownT = null; }
+  if (mediaRec && mediaRec.state === 'recording') {
+    mediaRec.onstop = () => {
+      if (recChunks.length) {
+        const blob = new Blob(recChunks, { type: mediaRec.mimeType || 'audio/webm' });
+        myRecUrl = URL.createObjectURL(blob);
+        const b = document.getElementById('my-rec-btn');
+        if (b) b.style.display = 'block';
+      }
+    };
+    mediaRec.stop();
+  }
+  renderModel();
+}
+
+// ── Phase 3: model answer + self grade ──
+function renderModel() {
+  const it = session[si];
+  document.getElementById('stage').innerHTML = `
+    <div class="card show-zh">
+      <div class="src-tag">🗣️ ${esc(it.label)} · 第 ${it.idx + 1} 題</div>
+      <div class="q-text" style="font-size:14px;color:var(--text3)">${esc(it.q_nl)}</div>
+      <div class="model-box">
+        <div class="m-tag">✅ 模範答案</div>
+        <div class="m-nl">${esc(it.a_nl)}</div>
+        <div class="m-zh">${esc(it.a_zh)}</div>
+      </div>
+      <div class="btn-row">
+        <button class="b" onclick="playA()">🔊 再聽模範</button>
+        <button class="b" id="my-rec-btn" style="display:${myRecUrl ? 'block' : 'none'}"
+          onclick="playMine()">▶ 自己的錄音</button>
+      </div>
+      <div class="grades">
+        <button class="grade g0" onclick="grade(0)"><span class="e">😣</span><span class="t">講不出來</span></button>
+        <button class="grade g1" onclick="grade(1)"><span class="e">🤔</span><span class="t">卡卡的</span></button>
+        <button class="grade g2" onclick="grade(2)"><span class="e">💪</span><span class="t">流暢</span></button>
+      </div>
+    </div>`;
+  playA();
+}
+function playA() { const it = session[si]; playRange(it.vid, it.a_start, it.a_end); }
+let _mine = null;
+function playMine() {
+  if (!myRecUrl) return;
+  if (_audio) _audio.pause();
+  if (!_mine) _mine = new Audio();
+  _mine.src = myRecUrl; _mine.play().catch(()=>{});
+}
+
+function grade(g) {
+  const it = session[si];
+  const store = loadStore();
+  const key = it.vid + ':' + it.idx;
+  const cur = store[key] || { reps: 0, interval: 0, tries: 0 };
+  let newReps, newInt;
+  if (g === 0) { newReps = 0; newInt = 1; }
+  else if (g === 1) { newReps = cur.reps; newInt = Math.max(2, Math.min(cur.interval || 1, 3)); }
+  else { newReps = (cur.reps || 0) + 1; newInt = INTERVALS[Math.min(newReps, INTERVALS.length - 1)]; }
+  store[key] = { reps: newReps, interval: newInt, due: daysFromNow(newInt),
+    lastGrade: g, tries: (cur.tries || 0) + 1 };
+  saveStore(store);
+  grades.push({ it, g });
+  si++;
+  renderQuestion();
+}
+
+// ── Summary ──
+function renderSummary() {
+  document.getElementById('prog').style.width = '100%';
+  document.getElementById('counter').textContent = '';
+  if (myRecUrl) { URL.revokeObjectURL(myRecUrl); myRecUrl = null; }
+  const n0 = grades.filter(x => x.g === 0).length;
+  const n1 = grades.filter(x => x.g === 1).length;
+  const n2 = grades.filter(x => x.g === 2).length;
+  document.getElementById('stage').innerHTML = `
+    <div class="center-box">
+      <div class="big">${n0 === 0 && n1 === 0 ? '🏆' : n2 >= n0 + n1 ? '💪' : '📝'}</div>
+      <h2>口說 session 完成</h2>
+      <div class="stat-row">
+        <div class="stat-pill"><div class="n" style="color:var(--green)">${n2}</div><div class="l">流暢</div></div>
+        <div class="stat-pill"><div class="n" style="color:var(--orange)">${n1}</div><div class="l">卡卡</div></div>
+        <div class="stat-pill"><div class="n" style="color:var(--red)">${n0}</div><div class="l">講不出</div></div>
+      </div>
+      <p>講不出來的明天優先再考你一次。<br>口說不是知道答案，是嘴巴肌肉記住答案。</p>
+      <div class="links">
+        <button onclick="startSession()">🔁 再來 ${SESSION_N} 題</button>
+        <a href="index.html">← 回首頁</a>
+      </div>
+    </div>`;
+}
+</script>
+</body>
+</html>
