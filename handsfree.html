@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>🎧 耳機模式 — Echo Dutch</title>
+<style>
+  :root {
+    --bg:#050510; --surface:rgba(255,255,255,0.04); --surface2:rgba(255,255,255,0.08);
+    --border:rgba(255,255,255,0.09); --text:#f2f2f7; --text2:#a0a0b8; --text3:#606078;
+    --green:#34d399; --red:#f87171; --orange:#fb923c; --blue:#60a5fa; --purple:#a78bfa;
+    --accent:#5eead4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{font-family:-apple-system,'Inter',sans-serif;background:var(--bg);color:var(--text);
+    min-height:100vh;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+  .wrap{max-width:480px;margin:0 auto;padding:14px 18px 80px}
+  .top{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .back{width:34px;height:34px;border-radius:50%;background:var(--surface);border:1px solid var(--border);
+    color:var(--text2);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none}
+  .top h1{font-size:18px;font-weight:800}
+  .top .count{margin-left:auto;font-size:12px;color:var(--text3);font-weight:700}
+  .progress{height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;margin-bottom:16px}
+  .progress .fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--blue));
+    transition:width .35s;border-radius:3px;width:0}
+
+  .howto{padding:14px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--border);
+    font-size:13px;color:var(--text2);line-height:1.7;margin-bottom:14px}
+  .howto b{color:var(--text)}
+  .pills{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 14px}
+  .pill{padding:9px 16px;border-radius:100px;background:var(--surface);border:1px solid var(--border);
+    color:var(--text2);font-size:13px;font-weight:700;cursor:pointer}
+  .pill.on{background:linear-gradient(135deg,var(--accent),var(--blue));color:#04211a;border-color:transparent}
+  .opt-row{display:flex;gap:8px;margin-bottom:12px;align-items:center}
+  .opt-label{font-size:13px;font-weight:800;color:var(--text2);flex:0 0 72px}
+  .seg{display:flex;gap:6px;flex:1}
+  .seg button{flex:1;padding:9px 0;border-radius:10px;border:1px solid var(--border);background:var(--surface2);
+    color:var(--text2);font-size:12.5px;font-weight:700;cursor:pointer}
+  .seg button.on{background:var(--accent);color:#04211a;border-color:transparent}
+  .start-btn{width:100%;padding:16px;border-radius:16px;border:none;cursor:pointer;
+    background:linear-gradient(135deg,var(--accent),var(--blue));color:#04211a;font-size:16px;font-weight:800}
+  .sec-label{font-size:13px;font-weight:800;color:var(--text2);margin-bottom:6px}
+
+  /* player */
+  .player{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:22px 18px;
+    text-align:center;animation:pop .3s cubic-bezier(.22,1,.36,1)}
+  @keyframes pop{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  .ph-scene{font-size:11px;font-weight:800;letter-spacing:1px;color:var(--accent);margin-bottom:10px}
+  .ph-stage{display:inline-block;font-size:11px;font-weight:800;padding:4px 12px;border-radius:100px;
+    margin-bottom:14px;background:var(--surface2);color:var(--text2)}
+  .ph-stage.dialogue{background:rgba(94,234,212,0.14);color:var(--accent)}
+  .ph-stage.question{background:rgba(251,146,60,0.14);color:var(--orange)}
+  .ph-stage.think{background:rgba(167,139,250,0.16);color:var(--purple)}
+  .ph-stage.answer{background:rgba(52,211,153,0.14);color:var(--green)}
+  .ph-text{font-size:17px;font-weight:700;line-height:1.55;min-height:78px;display:flex;
+    align-items:center;justify-content:center}
+  .ph-sub{font-size:12.5px;color:var(--text3);margin-top:8px;line-height:1.5;min-height:18px}
+  .big-btn{width:84px;height:84px;border-radius:50%;border:none;cursor:pointer;margin:18px auto 6px;
+    background:linear-gradient(135deg,var(--accent),var(--blue));color:#04211a;font-size:32px;font-weight:900;
+    display:flex;align-items:center;justify-content:center}
+  .big-btn:active{transform:scale(0.93)}
+  .ctl-row{display:flex;gap:8px;margin-top:14px}
+  .ctl{flex:1;padding:11px;border-radius:12px;border:1px solid var(--border);background:var(--surface2);
+    color:var(--text2);font-size:13px;font-weight:700;cursor:pointer}
+  .ctl:active{transform:scale(0.96)}
+
+  .center-box{text-align:center;padding:50px 10px}
+  .center-box .big{font-size:52px;margin-bottom:14px}
+  .center-box h2{font-size:20px;font-weight:800;margin-bottom:10px}
+  .center-box p{font-size:13px;color:var(--text2);line-height:1.7}
+  .links{display:flex;flex-direction:column;gap:10px;margin-top:20px}
+  .links a,.links button{display:block;width:100%;padding:13px;border-radius:13px;background:var(--surface2);
+    border:1px solid var(--border);color:var(--text);font-size:14px;font-weight:700;text-decoration:none;
+    text-align:center;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="back" href="index.html">←</a>
+    <h1>🎧 耳機模式</h1>
+    <span class="count" id="counter"></span>
+  </div>
+  <div class="progress"><div class="fill" id="prog"></div></div>
+  <div id="stage">
+    <div class="howto"><b>把零碎時間變聽力時間：</b>戴耳機按播放就好——自動播
+      對話 → 唸問題 → 留時間給你心裡作答 → 公布答案 + 重播原文關鍵句。
+      走路、做家事、通勤都能練。<b>過程不用看螢幕、不用按任何鍵。</b><br>
+      <span style="font-size:11.5px;color:var(--text3)">⚠️ 播放中螢幕會保持喚醒（鎖屏會中斷 TTS）。放口袋前把亮度調到最低即可。</span></div>
+    <div class="sec-label">選模擬考</div>
+    <div class="pills" id="mock-pills"></div>
+    <div class="opt-row">
+      <span class="opt-label">思考秒數</span>
+      <div class="seg" id="think-seg"></div>
+    </div>
+    <div class="opt-row">
+      <span class="opt-label">對話次數</span>
+      <div class="seg" id="rep-seg">
+        <button data-v="1">1 次</button>
+        <button data-v="2">2 次（仿真考）</button>
+      </div>
+    </div>
+    <button class="start-btn" id="start" onclick="startSession()">▶ 開始播放</button>
+    <div style="font-size:12px;color:var(--text3);text-align:center;margin-top:12px" id="mini-stat">載入中…</div>
+  </div>
+</div>
+
+<script>
+const MOCKS = [
+  { vid: 'mock3_a2_2026', label: '模考三' },
+  { vid: '_iC1Pooi2UA',  label: 'PART 1' },
+  { vid: 'AMVy2zPNLso',  label: 'PART 2' },
+];
+const THINK_KEY = 'lph_hf_think', REP_KEY = 'lph_hf_rep', MOCK_KEY = 'lph_hf_mock';
+const THINKS = [5, 8, 12];
+
+const esc = t => String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const parseT = t => { const p = String(t||'0:00').split(':').map(Number); return p.length===2 ? p[0]*60+p[1] : p[0]; };
+
+let thinkSec = parseInt(localStorage.getItem(THINK_KEY)) || 8;
+if (!THINKS.includes(thinkSec)) thinkSec = 8;
+let repeats = parseInt(localStorage.getItem(REP_KEY)) || 1;
+let mockVid = localStorage.getItem(MOCK_KEY) || 'mock3_a2_2026';
+const exams = {};   // vid -> exam.json
+
+function renderSettings() {
+  document.getElementById('mock-pills').innerHTML = MOCKS.map(m =>
+    `<div class="pill ${m.vid === mockVid ? 'on' : ''}" onclick="setMock('${m.vid}')">${m.label}</div>`).join('');
+  document.getElementById('think-seg').innerHTML = THINKS.map(s =>
+    `<button class="${s === thinkSec ? 'on' : ''}" onclick="setThink(${s})">${s} 秒</button>`).join('');
+  document.querySelectorAll('#rep-seg button').forEach(b => {
+    b.classList.toggle('on', parseInt(b.dataset.v) === repeats);
+    b.onclick = () => { repeats = parseInt(b.dataset.v); localStorage.setItem(REP_KEY, String(repeats)); renderSettings(); };
+  });
+}
+function setMock(v) { mockVid = v; localStorage.setItem(MOCK_KEY, v); renderSettings(); updateStat(); }
+function setThink(s) { thinkSec = s; localStorage.setItem(THINK_KEY, String(s)); renderSettings(); }
+
+async function loadExam(vid) {
+  if (!exams[vid]) exams[vid] = await (await fetch(`output/${vid}/exam.json`)).json();
+  return exams[vid];
+}
+async function updateStat() {
+  try {
+    const ex = await loadExam(mockVid);
+    const scenes = ex.scenarios.length;
+    const qs = ex.scenarios.reduce((s, sc) => s + (sc.questions || []).length, 0);
+    document.getElementById('mini-stat').textContent =
+      `${scenes} 個場景 · ${qs} 題 · 全程約 ${Math.round(ex.duration / 60 * (repeats === 2 ? 1.6 : 1) + qs * (thinkSec + 10) / 60)} 分鐘`;
+  } catch(e) { document.getElementById('mini-stat').textContent = ''; }
+}
+
+// ── Build the step list for a mock ──
+function buildSteps(ex) {
+  const steps = [];
+  ex.scenarios.forEach(sc => {
+    const dlg = sc.dialogue || [];
+    if (!dlg.length) return;
+    const dStart = parseT(dlg[0].t) - 0.3;
+    const dEnd = parseT(dlg[dlg.length - 1].t) + 5;
+    const sceneTag = `場景 ${sc.n} · ${sc.title_zh || ''}`;
+    steps.push({ kind: 'announce', scene: sceneTag, text: `場景${sc.n}，${sc.title_zh || ''}`,
+      show: sc.context_zh || sc.title_zh || '', stage: 'dialogue', stageLabel: '📺 對話' });
+    for (let r = 0; r < repeats; r++)
+      steps.push({ kind: 'audio', scene: sceneTag, start: dStart, end: dEnd,
+        show: r ? '（重播第 2 次）' : '注意聽，等下要回答問題', stage: 'dialogue',
+        stageLabel: repeats > 1 ? `📺 對話 ${r + 1}/${repeats}` : '📺 對話' });
+    (sc.questions || []).forEach((q, qi) => {
+      const opts = q.options || [];
+      const optText = opts.map((o, i) => `${'ABC'[i]}. ${o.nl}`).join(' ... ');
+      steps.push({ kind: 'tts', scene: sceneTag, lang: 'nl-NL', text: q.q_nl + ' ... ' + optText,
+        show: q.q_nl, sub: q.q_zh, stage: 'question', stageLabel: `❓ 問題 ${qi + 1}` });
+      steps.push({ kind: 'pause', scene: sceneTag, sec: thinkSec,
+        show: '🤔 心裡選一個答案…', sub: opts.map((o, i) => `${'ABC'[i]}. ${o.nl}`).join('\n'),
+        stage: 'think', stageLabel: '🤔 思考' });
+      const ansNl = opts[q.answer] ? opts[q.answer].nl : '';
+      const src = q.source || [];
+      steps.push({ kind: 'tts', scene: sceneTag, lang: 'nl-NL',
+        text: 'Het antwoord is: ' + ansNl,
+        show: '✅ ' + ansNl, sub: q.explain || '', stage: 'answer', stageLabel: '✅ 答案' });
+      if (src.length) {
+        const s0 = parseT(src[0].t) - 0.3;
+        const s1 = Math.min(parseT(src[src.length - 1].t) + 5, s0 + 18);
+        steps.push({ kind: 'audio', scene: sceneTag, start: s0, end: s1,
+          show: '🔁 答案藏在這句：' + src.map(s => s.nl).join(' '), sub: src.map(s => s.zh).join(' '),
+          stage: 'answer', stageLabel: '🔁 原文重播' });
+      }
+      steps.push({ kind: 'pause', scene: sceneTag, sec: 1.2, show: '', stage: 'answer', stageLabel: '' });
+    });
+  });
+  return steps;
+}
+
+// ── Runner ──
+let steps = [], idx = 0, playing = false, runToken = 0;
+let _audio = null, _stopT = null, _pauseT = null, wakeLock = null;
+
+function audioPlay(start, end) {
+  return new Promise(res => {
+    if (!_audio) _audio = new Audio();
+    const src = `output/${mockVid}/audio.mp3`;
+    if (_audio.src.indexOf(src) === -1) _audio.src = src;
+    const go = () => {
+      _audio.currentTime = Math.max(0, start);
+      _audio.play().catch(()=>{});
+      _stopT = setTimeout(() => { _audio.pause(); res(); },
+        Math.max(1200, (end - start) * 1000 + 250));
+    };
+    if (_audio.readyState >= 1) go();
+    else { _audio.addEventListener('loadedmetadata', go, { once: true }); _audio.load(); }
+  });
+}
+function tts(text, lang) {
+  return new Promise(res => {
+    if (!window.speechSynthesis) return setTimeout(res, 1500);
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = lang || 'nl-NL';
+    u.rate = lang === 'zh-TW' ? 1.0 : 0.92;
+    u.onend = res; u.onerror = res;
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(u);
+    // safety net: some engines never fire onend
+    setTimeout(res, Math.max(4000, text.length * 350));
+  });
+}
+const wait = s => new Promise(res => { _pauseT = setTimeout(res, s * 1000); });
+
+async function runFrom(i) {
+  const token = ++runToken;
+  idx = i;
+  while (playing && idx < steps.length && token === runToken) {
+    const st = steps[idx];
+    renderStep(st);
+    if (st.kind === 'audio') await audioPlay(st.start, st.end);
+    else if (st.kind === 'tts') await tts(st.text, st.lang);
+    else if (st.kind === 'announce') await tts(st.text, 'zh-TW');
+    else if (st.kind === 'pause') await wait(st.sec);
+    if (token !== runToken) return;   // superseded by pause/skip
+    idx++;
+  }
+  if (playing && idx >= steps.length && token === runToken) renderDone();
+}
+
+function stopAll() {
+  runToken++;
+  if (_stopT) { clearTimeout(_stopT); _stopT = null; }
+  if (_pauseT) { clearTimeout(_pauseT); _pauseT = null; }
+  if (_audio) _audio.pause();
+  if (window.speechSynthesis) window.speechSynthesis.cancel();
+}
+function togglePlay() {
+  if (playing) { playing = false; stopAll(); renderStep(steps[Math.min(idx, steps.length - 1)]); }
+  else { playing = true; runFrom(idx); }
+}
+function skipScene(dirn) {
+  const cur = steps[Math.min(idx, steps.length - 1)];
+  let i = idx;
+  if (dirn > 0) { while (i < steps.length && steps[i].scene === cur.scene) i++; }
+  else {
+    while (i > 0 && steps[i - 1] && steps[i - 1].scene === cur.scene) i--;  // start of current
+    if (i > 0) { const prev = steps[i - 1].scene; while (i > 0 && steps[i - 1].scene === prev) i--; }
+  }
+  stopAll();
+  idx = Math.max(0, Math.min(i, steps.length - 1));
+  if (playing) runFrom(idx); else renderStep(steps[idx]);
+}
+
+async function startSession() {
+  const ex = await loadExam(mockVid);
+  steps = buildSteps(ex);
+  idx = 0; playing = true;
+  try { wakeLock = await navigator.wakeLock.request('screen'); } catch(e) {}
+  runFrom(0);
+}
+
+// ── UI ──
+function renderStep(st) {
+  if (!st) return;
+  document.getElementById('prog').style.width = Math.round(idx / steps.length * 100) + '%';
+  document.getElementById('counter').textContent = `${idx + 1} / ${steps.length}`;
+  document.getElementById('stage').innerHTML = `
+    <div class="player">
+      <div class="ph-scene">${esc(st.scene)}</div>
+      <div class="ph-stage ${st.stage}">${esc(st.stageLabel || '')}</div>
+      <div class="ph-text">${esc(st.show || '…')}</div>
+      <div class="ph-sub">${esc(st.sub || '')}</div>
+      <button class="big-btn" onclick="togglePlay()">${playing ? '⏸' : '▶'}</button>
+      <div style="font-size:11px;color:var(--text3);font-weight:700">${playing ? '播放中' : '已暫停'}</div>
+      <div class="ctl-row">
+        <button class="ctl" onclick="skipScene(-1)">⏮ 上一場景</button>
+        <button class="ctl" onclick="skipScene(1)">下一場景 ⏭</button>
+      </div>
+      <div class="ctl-row">
+        <button class="ctl" onclick="exitSession()">✕ 結束</button>
+      </div>
+    </div>`;
+}
+function renderDone() {
+  playing = false; stopAll();
+  if (wakeLock) { try { wakeLock.release(); } catch(e) {} wakeLock = null; }
+  document.getElementById('prog').style.width = '100%';
+  document.getElementById('stage').innerHTML = `
+    <div class="center-box">
+      <div class="big">🎧</div>
+      <h2>整份聽完了！</h2>
+      <p>被動聽 ≠ 會考。剛剛哪幾題心裡沒答出來？<br>去「▶ 今日複習」或模擬考頁做一輪主動作答。</p>
+      <div class="links">
+        <button onclick="location.reload()">🔁 換一份再聽</button>
+        <a href="review.html">▶ 今日複習</a>
+        <a href="index.html">← 回首頁</a>
+      </div>
+    </div>`;
+}
+function exitSession() {
+  playing = false; stopAll();
+  if (wakeLock) { try { wakeLock.release(); } catch(e) {} wakeLock = null; }
+  location.reload();
+}
+
+renderSettings();
+updateStat();
+</script>
+</body>
+</html>

@@ -107,6 +107,7 @@
     <div class="pills" id="mock-pills"></div>
     <button class="start-btn" id="start" disabled onclick="startSession()">載入中…</button>
     <div class="mini-stat" id="mini-stat"></div>
+    <div id="weakness"></div>
   </div>
 </div>
 
@@ -117,6 +118,7 @@ const MOCKS = [
   { vid: 'AMVy2zPNLso',  label: 'PART 2' },
 ];
 const STORE_KEY = 'lph_dictee_v1';   // { "vid:idx": {tries, lastPct, lastDate} }
+const MISS_KEY = 'lph_dictee_misses'; // { word: missCount } 跨 session 累計
 const SPEED_KEY = 'lph_playback_speed';
 const SESSION_N = 10;
 const SPEEDS = [0.6, 0.75, 0.85, 1.0];
@@ -320,6 +322,14 @@ function check() {
   const prev = store[key] || { tries: 0 };
   store[key] = { tries: prev.tries + 1, lastPct: pct, lastDate: todayStr() };
   saveStore(store);
+  // 弱點統計：累計每個漏聽/聽錯的字（給弱點分析面板）
+  try {
+    const misses = JSON.parse(localStorage.getItem(MISS_KEY) || '{}');
+    refToks.forEach((w, k) => { if (!refOk[k]) misses[w] = (misses[w] || 0) + 1; });
+    // cap size: keep top 400 by count
+    const entries = Object.entries(misses).sort((a, b) => b[1] - a[1]).slice(0, 400);
+    localStorage.setItem(MISS_KEY, JSON.stringify(Object.fromEntries(entries)));
+  } catch(e) {}
   results.push({ it, pct });
 }
 function nextItem() { si++; renderItem(); }
@@ -349,8 +359,64 @@ function renderSummary() {
     </div>`;
 }
 
+// ── 弱點分析：你最常聽漏的字，分三類 ──
+// 連音高危字：功能詞，口語中常弱化/黏走（je→j', het→'t, niet→nie ...）
+const REDUCTIE_SET = new Set(['je','jij','het','er','een','niet','dat','de','ik','ze','zij','we','wij',
+  'te','hem','haar','me','mij','mijn','zijn','u','uw','en','is','in','op','aan','van','met','dan',
+  'maar','wel','nog','al','ook','even','eens','toch','hoor','heb','hebt','heeft','ben','bent','was',
+  'die','dit','deze','wat','als','of','om','naar','voor','bij','uit','over']);
+const NUMTIME_SET = new Set(['nul','één','twee','drie','vier','vijf','zes','zeven','acht','negen','tien',
+  'elf','twaalf','dertien','veertien','vijftien','zestien','zeventien','achttien','negentien','twintig',
+  'dertig','veertig','vijftig','zestig','zeventig','tachtig','negentig','honderd','duizend',
+  'uur','half','kwart','minuten','maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag','zondag',
+  'januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december',
+  'morgen','vanavond','vandaag','gisteren','week','maand','jaar','euro']);
+
+function wordCat(w) {
+  if (REDUCTIE_SET.has(w)) return 'red';
+  if (NUMTIME_SET.has(w)) return 'num';
+  return 'content';
+}
+function renderWeakness() {
+  let misses;
+  try { misses = JSON.parse(localStorage.getItem(MISS_KEY) || '{}'); } catch(e) { misses = {}; }
+  const entries = Object.entries(misses).filter(([, n]) => n >= 1).sort((a, b) => b[1] - a[1]);
+  const box = document.getElementById('weakness');
+  if (!box) return;
+  if (entries.length < 3) { box.innerHTML = ''; return; }
+  const total = entries.reduce((s, [, n]) => s + n, 0);
+  const catSum = { red: 0, num: 0, content: 0 };
+  entries.forEach(([w, n]) => catSum[wordCat(w)] += n);
+  const redPct = Math.round(catSum.red / total * 100);
+  const numPct = Math.round(catSum.num / total * 100);
+  const top = entries.slice(0, 12);
+  const CAT_STYLE = {
+    red: 'background:rgba(248,113,113,0.14);color:#f87171;border:1px solid rgba(248,113,113,0.35)',
+    num: 'background:rgba(251,146,60,0.14);color:#fb923c;border:1px solid rgba(251,146,60,0.35)',
+    content: 'background:rgba(96,165,250,0.12);color:#60a5fa;border:1px solid rgba(96,165,250,0.3)',
+  };
+  let advice = '';
+  if (redPct >= 40) advice = `🔴 <b>連音高危字占你漏聽的 ${redPct}%</b> — 不是單字量問題，是連音解碼問題。去 <a href="reducties.html" style="color:#f87171;font-weight:800">🎧 連音解碼</a> 針對性練。`;
+  else if (numPct >= 30) advice = `🟠 <b>數字/時間詞占 ${numPct}%</b> — 考試最愛考時間地點數字，每天聽寫前先快唸一遍 1–100 和星期月份。`;
+  else advice = `🔵 漏聽以內容詞為主 — 是詞彙量問題，把這些字丟進 <a href="vocab.html" style="color:#60a5fa;font-weight:800">📚 閃卡</a> 練。`;
+  box.innerHTML = `
+    <div style="margin-top:16px;padding:14px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--border)">
+      <div style="font-size:13px;font-weight:800;margin-bottom:10px">📊 你最常聽漏的字 <span style="font-size:11px;color:var(--text3);font-weight:600">累計 ${total} 次</span></div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px">
+        ${top.map(([w, n]) => `<span style="padding:5px 11px;border-radius:100px;font-size:13px;font-weight:700;${CAT_STYLE[wordCat(w)]}">${esc(w)} <span style="opacity:.65;font-size:11px">×${n}</span></span>`).join('')}
+      </div>
+      <div style="display:flex;gap:10px;font-size:10.5px;color:var(--text3);margin-bottom:10px">
+        <span><span style="color:#f87171">●</span> 連音高危 ${redPct}%</span>
+        <span><span style="color:#fb923c">●</span> 數字時間 ${numPct}%</span>
+        <span><span style="color:#60a5fa">●</span> 內容字 ${100 - redPct - numPct}%</span>
+      </div>
+      <div style="font-size:12.5px;color:var(--text2);line-height:1.6">${advice}</div>
+    </div>`;
+}
+
 renderPills();
 loadPools();
+renderWeakness();
 </script>
 </body>
 </html>
