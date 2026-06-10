@@ -2,144 +2,236 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>☁️ 跨裝置同步 — A2 Listening Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>☁️ 自動同步 — Echo Dutch</title>
 <style>
-  *{box-sizing:border-box}
-  :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
-    --text:#e8e8f0;--text2:#9ca3af;--dim:#6b7280;--ok:#4ade80;--bad:#f87171;
-    --accent:#fb923c;--ring:#5eead4;--purple:#a78bfa}
-  html,body{margin:0;background:var(--bg);color:var(--text);
-    font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans","Noto Sans JP",sans-serif}
-  .wrap{max-width:680px;margin:0 auto;padding:18px 14px 100px}
-  header{display:flex;align-items:center;gap:12px;margin-bottom:6px}
-  header a{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
-  h1{margin:0;font-size:19px;flex:1}
+  :root {
+    --bg:#050510; --surface:rgba(255,255,255,0.04); --surface2:rgba(255,255,255,0.08);
+    --border:rgba(255,255,255,0.09); --text:#f2f2f7; --text2:#a0a0b8; --text3:#606078;
+    --green:#34d399; --red:#f87171; --orange:#fb923c; --blue:#60a5fa; --purple:#a78bfa;
+    --accent:#5eead4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{font-family:-apple-system,'Inter',sans-serif;background:var(--bg);color:var(--text);
+    min-height:100vh;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+  .wrap{max-width:480px;margin:0 auto;padding:14px 18px 80px}
+  .top{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+  .back{width:34px;height:34px;border-radius:50%;background:var(--surface);border:1px solid var(--border);
+    color:var(--text2);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none}
+  .top h1{font-size:18px;font-weight:800}
 
-  .lede{margin:6px 0 16px;padding:12px 14px;border-radius:10px;
-    background:rgba(94,234,212,0.08);border-left:3px solid var(--ring);
-    color:var(--text);font-size:12.5px;line-height:1.65}
-  .lede b{color:var(--ring)}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+    padding:16px;margin-bottom:14px}
+  .card h2{font-size:14px;font-weight:800;margin-bottom:8px}
+  .card p{font-size:13px;color:var(--text2);line-height:1.7}
+  .status-ok{border-color:rgba(52,211,153,0.4);background:rgba(52,211,153,0.06)}
+  .status-row{display:flex;align-items:center;gap:12px}
+  .status-row .dot{font-size:28px}
+  .status-row .t1{font-size:15px;font-weight:800}
+  .status-row .t2{font-size:12px;color:var(--text2);margin-top:2px}
 
-  .section{margin:18px 0;background:var(--card);border-radius:12px;
-    border:1px solid var(--line);padding:14px}
-  .sec-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
-  .sec-icon{font-size:22px}
-  .sec-title{font-size:15px;font-weight:800}
-  .sec-sub{font-size:11.5px;color:var(--text2);margin-left:auto}
+  .step{display:flex;gap:12px;margin:14px 0}
+  .step .n{flex:0 0 26px;height:26px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--blue));
+    color:#04211a;font-size:13px;font-weight:900;display:flex;align-items:center;justify-content:center}
+  .step .b{flex:1;font-size:13px;color:var(--text2);line-height:1.65}
+  .step .b b{color:var(--text)}
+  .step .b a{color:var(--blue);font-weight:700}
 
-  textarea{width:100%;min-height:120px;padding:10px;background:var(--card2);
-    border:1px solid var(--line);border-radius:8px;color:var(--text);
-    font:12px ui-monospace,"SF Mono",monospace;line-height:1.5;resize:vertical}
-  textarea:focus{outline:none;border-color:var(--ring)}
-
-  .btn-row{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
-  .btn{padding:9px 14px;border:0;border-radius:7px;cursor:pointer;
-    font:inherit;font-size:12.5px;font-weight:800}
-  .btn-primary{background:linear-gradient(135deg,#5eead4,#0891b2);color:#000}
-  .btn-primary:hover{filter:brightness(1.1)}
-  .btn-ok{background:var(--ok);color:#000}
-  .btn-warn{background:rgba(248,113,113,0.15);color:var(--bad);
-    border:1px solid rgba(248,113,113,0.4)}
-  .btn-warn:hover{background:var(--bad);color:#fff}
-  .btn-2nd{background:var(--card2);color:var(--text);border:1px solid var(--line)}
-  .btn-2nd:hover{border-color:var(--text2)}
-
-  .toast{display:none;padding:8px 12px;background:rgba(74,222,128,0.12);
-    border:1px solid rgba(74,222,128,0.4);border-radius:6px;color:var(--ok);
-    font-size:12px;font-weight:700;margin-top:10px}
+  button.btn{width:100%;padding:13px;border-radius:13px;border:none;cursor:pointer;
+    font-size:14px;font-weight:800;margin-top:8px}
+  .btn-main{background:linear-gradient(135deg,var(--accent),var(--blue));color:#04211a}
+  .btn-ghost{background:var(--surface2);border:1px solid var(--border) !important;color:var(--text)}
+  .btn-danger{background:transparent;border:1px solid rgba(248,113,113,0.4) !important;color:var(--red)}
+  input[type=text]{width:100%;padding:12px 13px;border-radius:12px;border:1px solid var(--border);
+    background:rgba(0,0,0,0.3);color:var(--text);font-size:13px;outline:none;margin-top:8px}
+  input[type=text]:focus{border-color:var(--accent)}
+  textarea{width:100%;min-height:110px;padding:11px;border-radius:11px;border:1px solid var(--border);
+    background:rgba(0,0,0,0.3);color:var(--text2);font-size:11px;font-family:ui-monospace,monospace;
+    resize:vertical;outline:none}
+  .toast{display:none;padding:11px 13px;border-radius:11px;font-size:13px;font-weight:700;margin-top:10px;
+    background:rgba(52,211,153,0.12);border:1px solid rgba(52,211,153,0.35);color:var(--green)}
+  .toast.bad{background:rgba(248,113,113,0.1);border-color:rgba(248,113,113,0.35);color:var(--red)}
   .toast.show{display:block}
-  .toast.bad{background:rgba(248,113,113,0.12);border-color:rgba(248,113,113,0.4);color:var(--bad)}
-
-  .keys-list{font-size:11.5px;color:var(--text2);line-height:1.7;margin-top:6px}
-  .keys-list .k{display:inline-block;padding:1px 6px;background:var(--card2);
-    border-radius:4px;margin-right:4px;font-family:ui-monospace,monospace;
-    font-size:11px;color:var(--text)}
-
-  .how{margin-top:14px;padding:12px;background:rgba(167,139,250,0.06);
-    border-left:3px solid var(--purple);border-radius:0 6px 6px 0;
-    font-size:12.5px;line-height:1.7}
-  .how b{color:var(--purple)}
-  .how ol{padding-left:18px;margin:6px 0 0}
-  .how li{margin-bottom:4px}
+  details{margin-top:18px}
+  summary{font-size:13px;font-weight:700;color:var(--text3);cursor:pointer;padding:8px 0}
+  .code-box{position:relative;margin-top:8px}
+  .copy-btn{position:absolute;top:8px;right:8px;padding:6px 12px;border-radius:8px;border:none;
+    background:var(--accent);color:#04211a;font-size:12px;font-weight:800;cursor:pointer}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <a href="index.html">← 返回</a>
-    <h1>☁️ 跨裝置同步</h1>
-  </header>
-
-  <div class="lede">
-    所有進度（閃卡 SRS、reducties 紀錄、14 天計畫打勾、考試日期、預測統計…）
-    存在<b>瀏覽器 localStorage</b>，不跨裝置。<br>
-    手動匯出/匯入解決：30 秒一次，0 登入、0 後端。
+  <div class="top">
+    <a class="back" href="index.html">←</a>
+    <h1>☁️ 自動同步</h1>
   </div>
 
-  <!-- Export -->
-  <div class="section">
-    <div class="sec-head">
-      <div class="sec-icon">📤</div>
-      <div class="sec-title">匯出（這個裝置 → JSON）</div>
-      <div class="sec-sub" id="export-info">…</div>
-    </div>
-    <textarea id="export-text" readonly placeholder="按下「產生」會在這裡顯示你的所有進度 JSON"></textarea>
-    <div class="btn-row">
-      <button class="btn btn-primary" onclick="doExport()">⚡ 產生 JSON</button>
-      <button class="btn btn-ok" onclick="copyExport()">📋 複製到剪貼簿</button>
-      <button class="btn btn-2nd" onclick="downloadExport()">⬇️ 下載檔案</button>
-    </div>
-    <div class="toast" id="export-toast"></div>
-    <div class="keys-list" id="keys-list"></div>
-  </div>
+  <div class="card" id="status-card"></div>
+  <div id="main"></div>
 
-  <!-- Import -->
-  <div class="section">
-    <div class="sec-head">
-      <div class="sec-icon">📥</div>
-      <div class="sec-title">匯入（JSON → 這個裝置）</div>
+  <details>
+    <summary>🔧 進階：手動匯出 / 匯入（備用）</summary>
+    <div class="card">
+      <h2>📤 匯出</h2>
+      <button class="btn btn-ghost" onclick="doExport(); copyExport()">複製進度 JSON 到剪貼簿</button>
+      <button class="btn btn-ghost" onclick="doExport(); downloadExport()">下載 .json 檔（可 AirDrop）</button>
+      <textarea id="export-text" readonly placeholder="匯出的 JSON 會出現在這裡"></textarea>
+      <div class="toast" id="export-toast"></div>
     </div>
-    <textarea id="import-text" placeholder="把另一裝置匯出的 JSON 貼在這裡（或用「上傳檔案」）"></textarea>
-    <div class="btn-row">
-      <button class="btn btn-primary" onclick="doImport()">⚡ 覆寫進度</button>
-      <label class="btn btn-2nd" style="cursor:pointer">
-        📁 上傳檔案
-        <input type="file" accept=".json,application/json" onchange="loadFile(event)" style="display:none">
-      </label>
+    <div class="card">
+      <h2>📥 匯入</h2>
+      <input type="file" accept=".json" onchange="loadFile(event)" style="font-size:12px;color:var(--text2)">
+      <textarea id="import-text" placeholder="或把另一台的 JSON 貼進來"></textarea>
+      <button class="btn btn-ghost" onclick="doImport()">覆寫進度</button>
+      <div class="toast" id="import-toast"></div>
     </div>
-    <div class="toast" id="import-toast"></div>
-    <div class="how">
-      <b>SOP（換裝置）：</b>
-      <ol>
-        <li><b>來源裝置</b>：按「⚡ 產生 JSON」→「📋 複製到剪貼簿」</li>
-        <li>用 Telegram / iMessage / Mail 傳給自己</li>
-        <li><b>目標裝置</b>：開這頁 → 貼到匯入框 → 「⚡ 覆寫進度」</li>
-        <li>(或下載 .json 檔案、用 AirDrop / 雲端硬碟傳)</li>
-      </ol>
+    <div class="card">
+      <h2>🗑 重置</h2>
+      <button class="btn btn-danger" onclick="doReset()">清空這台裝置的所有進度</button>
     </div>
-  </div>
-
-  <!-- Reset (danger zone) -->
-  <div class="section">
-    <div class="sec-head">
-      <div class="sec-icon">🗑</div>
-      <div class="sec-title" style="color:var(--bad)">危險區：重置</div>
-    </div>
-    <div style="font-size:12.5px;color:var(--text2);line-height:1.6">
-      清空這個裝置上的所有進度（閃卡、reducties、計畫打勾…）。
-      <b style="color:var(--bad)">不可復原</b>。建議先匯出備份再清。
-    </div>
-    <div class="btn-row">
-      <button class="btn btn-warn" onclick="doReset()">🗑 清空所有進度</button>
-    </div>
-  </div>
+  </details>
 </div>
 
+<script src="sync-core.js"></script>
 <script>
-// All localStorage keys this site uses. `lph_*` / `hub_*` prefixes,
-// dynamic per-video keys (lph_<videoId>, lph_explain_<videoId>...),
-// plus `examapp:<videoId>` (exam answers + SRS — was missing before 2026-06-09).
+// ── Apps Script backend code (user pastes this into script.google.com) ──
+const GAS_CODE = `// Echo Dutch 同步後端 — 進度存在你自己的 Google Drive
+const FILE_NAME = 'echo-dutch-sync.json';
+
+function getFile_() {
+  const files = DriveApp.getFilesByName(FILE_NAME);
+  if (files.hasNext()) return files.next();
+  return DriveApp.createFile(FILE_NAME,
+    JSON.stringify({ data: {}, updatedAt: 0 }), MimeType.PLAIN_TEXT);
+}
+function doGet() {
+  return ContentService.createTextOutput(getFile_().getBlob().getDataAsString())
+    .setMimeType(ContentService.MimeType.JSON);
+}
+function doPost(e) {
+  const body = JSON.parse(e.postData.contents);
+  if (!body || !body.data) throw new Error('bad payload');
+  getFile_().setContent(JSON.stringify(
+    { data: body.data, updatedAt: body.updatedAt || Date.now() }));
+  return ContentService.createTextOutput(
+    JSON.stringify({ ok: true, updatedAt: body.updatedAt }))
+    .setMimeType(ContentService.MimeType.JSON);
+}`;
+
+function fmtTime(ts) {
+  if (!ts) return '—';
+  const d = new Date(ts);
+  return `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+}
+
+function renderStatus() {
+  const box = document.getElementById('status-card');
+  if (LphSync.isConfigured()) {
+    box.classList.add('status-ok');
+    box.innerHTML = `<div class="status-row">
+      <div class="dot">☁️</div>
+      <div style="flex:1">
+        <div class="t1" style="color:var(--green)">自動同步已開啟</div>
+        <div class="t2">每次打開 app 自動雙向同步 · 上次：${fmtTime(LphSync.lastSyncAt())}</div>
+      </div></div>`;
+  } else {
+    box.classList.remove('status-ok');
+    box.innerHTML = `<div class="status-row">
+      <div class="dot">😴</div>
+      <div style="flex:1">
+        <div class="t1">還沒設定</div>
+        <div class="t2">做一次 3 分鐘設定，之後 iPhone / iPad / 電腦自動互通</div>
+      </div></div>`;
+  }
+}
+
+function renderMain() {
+  const box = document.getElementById('main');
+  if (LphSync.isConfigured()) {
+    box.innerHTML = `
+      <div class="card">
+        <button class="btn btn-main" onclick="manualSync()">🔄 立即同步</button>
+        <div class="toast" id="sync-toast"></div>
+        <p style="margin-top:10px;font-size:12px">進度存在<b style="color:var(--text)">你自己的 Google Drive</b>
+        （檔名 echo-dutch-sync.json）。其他裝置打開這頁，貼同一個網址即可加入。</p>
+        <input type="text" readonly value="${LphSync.getUrl()}" onclick="this.select()"
+          style="font-size:11px;color:var(--text3)">
+        <button class="btn btn-ghost" onclick="copyUrl()">📋 複製網址（給其他裝置用）</button>
+        <button class="btn btn-danger" onclick="disconnect()">中斷連結（進度保留在本機）</button>
+      </div>`;
+  } else {
+    box.innerHTML = `
+      <div class="card">
+        <h2>一次設定，永久自動（免費）</h2>
+        <div class="step"><div class="n">1</div><div class="b">
+          用電腦開 <a href="https://script.google.com/home/projects/create" target="_blank">script.google.com</a>
+          → 會直接開一個新專案</div></div>
+        <div class="step"><div class="n">2</div><div class="b">
+          刪掉編輯器裡的內容，<b>貼上下面這段程式碼</b>，按 💾 儲存</div></div>
+        <div class="code-box">
+          <button class="copy-btn" onclick="copyCode()">📋 複製</button>
+          <textarea readonly id="gas-code" style="min-height:150px"></textarea>
+        </div>
+        <div class="step"><div class="n">3</div><div class="b">
+          右上 <b>部署 → 新增部署作業 → 類型選「網頁應用程式」</b><br>
+          「誰可以存取」選 <b>所有人</b> → 部署 → 複製那串
+          <b>https://script.google.com/macros/s/…/exec</b> 網址</div></div>
+        <div class="step"><div class="n">4</div><div class="b">貼到下面，按連結：</div></div>
+        <input type="text" id="url-input" placeholder="https://script.google.com/macros/s/…/exec"
+          autocapitalize="off" autocorrect="off" spellcheck="false">
+        <button class="btn btn-main" onclick="connect()">🔗 連結並同步</button>
+        <div class="toast" id="sync-toast"></div>
+        <p style="margin-top:10px;font-size:11.5px;color:var(--text3)">
+          ℹ️ 程式碼跑在你自己的 Google 帳號裡，只有拿到這串網址的人能存取，別公開貼出去就好。</p>
+      </div>`;
+    document.getElementById('gas-code').value = GAS_CODE;
+  }
+}
+
+function toast(msg, bad) {
+  const el = document.getElementById('sync-toast');
+  if (!el) return;
+  el.textContent = msg;
+  el.classList.add('show'); el.classList.toggle('bad', !!bad);
+  setTimeout(() => el.classList.remove('show'), 5000);
+}
+async function copyCode() {
+  try { await navigator.clipboard.writeText(GAS_CODE); alert('✓ 已複製，去 script.google.com 貼上'); }
+  catch(e) { document.getElementById('gas-code').select(); }
+}
+async function copyUrl() {
+  try { await navigator.clipboard.writeText(LphSync.getUrl()); toast('✓ 已複製網址'); } catch(e) {}
+}
+async function connect() {
+  const u = document.getElementById('url-input').value.trim();
+  if (!/^https:\/\/script\.google(usercontent)?\.com\/.+/.test(u)) {
+    toast('⚠ 這不像 Apps Script 的 /exec 網址', true); return;
+  }
+  LphSync.setUrl(u);
+  toast('連線測試中…');
+  const r = await LphSync.syncNow();
+  if (r.status === 'error') { LphSync.setUrl(''); toast('✗ 連不上：' + r.detail + '（檢查「誰可以存取」是不是「所有人」）', true); return; }
+  renderStatus(); renderMain();
+  setTimeout(() => toast('✓ 連結成功！' + (r.detail || '')), 50);
+}
+async function manualSync() {
+  toast('同步中…');
+  const r = await LphSync.syncNow();
+  const MSG = { uptodate: '✓ 已是最新', pulled: '✓ ' + (r.detail||''), pushed: '✓ ' + (r.detail||''),
+    merged: '✓ ' + (r.detail||''), error: '✗ ' + (r.detail||''), off: '尚未設定' };
+  toast(MSG[r.status] || r.status, r.status === 'error');
+  renderStatus();
+}
+function disconnect() {
+  if (!confirm('中斷自動同步？本機進度不會消失，雲端檔案也還在你的 Drive。')) return;
+  LphSync.setUrl('');
+  localStorage.removeItem('lph_sync_snap');
+  localStorage.removeItem('lph_sync_meta');
+  renderStatus(); renderMain();
+}
+
+// ── manual export/import (advanced fallback) ──
 function isOurKey(k) {
   return k.startsWith('lph_') || k.startsWith('hub_') || k.startsWith('examapp:');
 }
@@ -151,109 +243,66 @@ function collectKeys() {
   }
   return keys.sort();
 }
-
 function showToast(elId, msg, bad) {
   const el = document.getElementById(elId);
-  el.textContent = msg;
-  el.classList.add('show');
-  el.classList.toggle('bad', !!bad);
+  el.textContent = msg; el.classList.add('show'); el.classList.toggle('bad', !!bad);
   setTimeout(() => el.classList.remove('show'), 3500);
 }
-
 function doExport() {
   const keys = collectKeys();
   const data = {};
   for (const k of keys) data[k] = localStorage.getItem(k);
-  const out = {
-    _version: 1,
-    _exportedAt: new Date().toISOString(),
-    _origin: location.origin,
-    _keyCount: keys.length,
-    data,
-  };
-  const json = JSON.stringify(out, null, 2);
-  document.getElementById('export-text').value = json;
-  const sizeKB = (json.length / 1024).toFixed(1);
-  document.getElementById('export-info').textContent = `${keys.length} keys · ${sizeKB} KB`;
-  document.getElementById('keys-list').innerHTML = '📋 包含：' +
-    keys.map(k => `<span class="k">${k}</span>`).join('');
-  showToast('export-toast', `✓ 已產生 ${keys.length} 個 key、${sizeKB} KB`);
+  document.getElementById('export-text').value = JSON.stringify(
+    { _version: 1, _exportedAt: new Date().toISOString(), _keyCount: keys.length, data }, null, 2);
 }
-
 async function copyExport() {
-  const t = document.getElementById('export-text').value;
-  if (!t) { doExport(); }
   try {
     await navigator.clipboard.writeText(document.getElementById('export-text').value);
-    showToast('export-toast', '✓ 已複製到剪貼簿，貼到另一裝置即可');
-  } catch (e) {
-    showToast('export-toast', '⚠ 複製失敗，手動 Cmd/Ctrl+A → C', true);
-  }
+    showToast('export-toast', '✓ 已複製到剪貼簿');
+  } catch (e) { showToast('export-toast', '⚠ 複製失敗，手動全選複製', true); }
 }
-
 function downloadExport() {
-  const t = document.getElementById('export-text').value;
-  if (!t) doExport();
-  const data = document.getElementById('export-text').value;
-  const blob = new Blob([data], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
+  const blob = new Blob([document.getElementById('export-text').value], { type: 'application/json' });
   const a = document.createElement('a');
-  a.href = url;
-  const ts = new Date().toISOString().slice(0, 16).replace(/[:T]/g, '-');
-  a.download = `lph-progress-${ts}.json`;
+  a.href = URL.createObjectURL(blob);
+  a.download = `lph-progress-${new Date().toISOString().slice(0,16).replace(/[:T]/g,'-')}.json`;
   document.body.appendChild(a); a.click(); a.remove();
-  URL.revokeObjectURL(url);
-  showToast('export-toast', '✓ 下載中…');
+  URL.revokeObjectURL(a.href);
 }
-
 function loadFile(ev) {
   const f = ev.target.files[0];
   if (!f) return;
   const r = new FileReader();
-  r.onload = () => {
-    document.getElementById('import-text').value = r.result;
-    showToast('import-toast', `✓ 載入 ${f.name}，檢查內容後按「覆寫進度」`);
-  };
+  r.onload = () => { document.getElementById('import-text').value = r.result;
+    showToast('import-toast', `✓ 載入 ${f.name}，按「覆寫進度」`); };
   r.readAsText(f);
 }
-
 function doImport() {
   const t = document.getElementById('import-text').value.trim();
   if (!t) { showToast('import-toast', '⚠ 匯入框是空的', true); return; }
   let obj;
-  try { obj = JSON.parse(t); }
-  catch(e) { showToast('import-toast', '⚠ JSON 格式錯誤：' + e.message, true); return; }
-  const data = obj.data || obj;  // accept both wrapped and raw
-  if (typeof data !== 'object') {
-    showToast('import-toast', '⚠ 找不到 data 物件', true); return;
-  }
+  try { obj = JSON.parse(t); } catch (e) { showToast('import-toast', '⚠ JSON 格式錯誤', true); return; }
+  const data = obj.data || obj;
   const keys = Object.keys(data).filter(isOurKey);
-  if (!keys.length) {
-    showToast('import-toast', '⚠ 沒有任何 lph_/hub_/examapp key', true); return;
-  }
-  if (!confirm(`即將覆寫 ${keys.length} 個 key 到這個裝置的 localStorage。\n\n確定？（建議先匯出備份）`)) return;
+  if (!keys.length) { showToast('import-toast', '⚠ 沒有任何 lph_/hub_/examapp key', true); return; }
+  if (!confirm(`即將覆寫 ${keys.length} 個 key。確定？`)) return;
   for (const k of keys) {
     const v = data[k];
-    if (v === null || v === undefined) continue;
-    localStorage.setItem(k, typeof v === 'string' ? v : JSON.stringify(v));
+    if (v != null) localStorage.setItem(k, typeof v === 'string' ? v : JSON.stringify(v));
   }
-  showToast('import-toast', `✓ 已寫入 ${keys.length} 個 key、可以回首頁繼續了`);
+  showToast('import-toast', `✓ 已寫入 ${keys.length} 個 key`);
 }
-
 function doReset() {
-  if (!confirm('真的要清空這個裝置的所有進度嗎？建議先匯出備份！')) return;
-  if (!confirm('再確認一次：所有 lph_* / hub_* / examapp:* key 會被刪除，不可復原。確定？')) return;
+  if (!confirm('真的要清空這台裝置的所有進度嗎？')) return;
+  if (!confirm('再確認一次：不可復原。確定？')) return;
   const keys = collectKeys();
   for (const k of keys) localStorage.removeItem(k);
   alert(`✓ 已刪除 ${keys.length} 個 key`);
   location.reload();
 }
 
-// Init: show current key count
-(function init() {
-  const keys = collectKeys();
-  document.getElementById('export-info').textContent = `準備好匯出 ${keys.length} 個 key`;
-})();
+renderStatus();
+renderMain();
 </script>
 </body>
 </html>

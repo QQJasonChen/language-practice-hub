@@ -208,6 +208,9 @@
   <div class="header">
     <div class="greeting" id="greeting">早安 ☀️</div>
     <div class="header-actions">
+      <span id="cloud-pill" style="display:none;font-size:10px;font-weight:700;padding:4px 9px;border-radius:100px;
+        background:rgba(94,234,212,0.12);border:1px solid rgba(94,234,212,0.3);color:#5eead4;margin-right:4px"
+        onclick="window.location.href='sync.html'">☁️ …</span>
       <span style="font-size:9px;color:#888;opacity:.55;margin-right:6px;letter-spacing:.3px">v2026-06-10</span>
       <button class="header-btn" onclick="location.reload()">↻</button>
     </div>
@@ -403,7 +406,7 @@
     </div>
     <div style="flex:1;min-width:140px;padding:14px 16px;background:linear-gradient(135deg,rgba(94,234,212,0.12),rgba(96,165,250,0.1));border-radius:16px;border:1px solid rgba(94,234,212,0.25);cursor:pointer;display:flex;align-items:center;gap:10px" onclick="window.location.href='sync.html'">
       <div style="font-size:24px">☁️</div>
-      <div><div style="font-size:14px;font-weight:700">跨裝置同步</div><div style="font-size:11px;color:var(--muted)">匯出/匯入進度</div></div>
+      <div><div style="font-size:14px;font-weight:700">自動同步</div><div style="font-size:11px;color:var(--muted)">iPhone/iPad/電腦互通</div></div>
     </div>
     <div style="flex:1;min-width:140px;padding:14px 16px;background:linear-gradient(135deg,rgba(124,92,252,0.15),rgba(255,59,92,0.1));border-radius:16px;border:1px solid rgba(255,255,255,0.08);cursor:pointer;display:flex;align-items:center;gap:10px" onclick="window.location.href='templates.html'">
       <div style="font-size:24px">📝</div>
@@ -808,6 +811,27 @@ setGreeting();
 renderStats();
 renderPills();
 renderCards();
+</script>
+<script src="sync-core.js"></script>
+<script>
+// Auto cloud sync on every app open (no-op until configured in sync.html)
+(async function autoSync() {
+  if (!window.LphSync || !LphSync.isConfigured()) return;
+  const pill = document.getElementById('cloud-pill');
+  pill.style.display = 'inline-block';
+  pill.textContent = '☁️ 同步中…';
+  const r = await LphSync.syncNow();
+  if (r.status === 'error') {
+    pill.textContent = '☁️ 離線';
+    pill.style.color = '#fb923c'; pill.style.borderColor = 'rgba(251,146,60,0.35)';
+    pill.style.background = 'rgba(251,146,60,0.1)';
+    return;
+  }
+  const d = new Date();
+  pill.textContent = `☁️ ✓ ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+  // pulled new data from another device -> refresh the stats/cards on screen
+  if (r.status === 'pulled' || r.status === 'merged') { renderStats(); renderCards(); }
+})();
 </script>
 </body>
 </html>
