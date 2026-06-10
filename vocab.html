@@ -533,9 +533,11 @@ function playSegment(audioInfo) {
   const src = `output/${audioInfo.vid}/audio.mp3`;
   if (_audio.src.indexOf(src) === -1) _audio.src = src;
   const playFromStart = () => {
-    _audio.currentTime = audioInfo.start;
+    // pad both ends: Whisper segment boundaries often clip word onsets/tails
+    const start = Math.max(0, audioInfo.start - 0.25);
+    _audio.currentTime = start;
     _audio.play().catch(() => {});
-    const durMs = Math.max(1500, (audioInfo.end - audioInfo.start) * 1000 + 300);
+    const durMs = Math.max(1500, (audioInfo.end + 0.6 - start) * 1000 + 300);
     _stopT = setTimeout(() => _audio.pause(), durMs);
   };
   if (_audio.readyState >= 1) {

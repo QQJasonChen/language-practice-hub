@@ -43,6 +43,13 @@
   .speak-btn{padding:9px 16px;border-radius:12px;background:var(--surface2);border:1px solid var(--border);
     color:var(--text);font-size:14px;font-weight:700;cursor:pointer}
   .speak-btn:active{transform:scale(0.95)}
+  .ctx-box{display:none;margin-top:12px;padding:12px 13px;border-radius:12px;
+    background:rgba(94,234,212,0.06);border:1px solid rgba(94,234,212,0.22);text-align:left}
+  .ctx-box.show{display:block}
+  .ctx-box .ctx-nl{font-size:14.5px;font-weight:600;line-height:1.55}
+  .ctx-box .ctx-nl mark{background:rgba(94,234,212,0.3);color:var(--accent);border-radius:4px;padding:0 3px}
+  .ctx-box .ctx-zh{font-size:12px;color:var(--text2);margin-top:5px;line-height:1.5}
+  .ctx-box .ctx-src{font-size:10px;color:var(--text3);margin-top:6px;font-weight:700;letter-spacing:.5px}
 
   .reveal-btn{width:100%;margin-top:16px;padding:14px;border-radius:14px;border:none;cursor:pointer;
     background:linear-gradient(135deg,var(--accent),#34d399);color:#04211a;font-size:15px;font-weight:800}
@@ -140,6 +147,13 @@ function playRange(vid, start, end) {
 
 // lazy data.json segment lookup for vocab audio
 const _segCache = {};
+const MOCK_LABELS = { 'mock3_a2_2026': 'M3', '_iC1Pooi2UA': 'M1', 'AMVy2zPNLso': 'M2' };
+function highlightWord(sentence, word) {
+  const safe = esc(sentence);
+  if (!word) return safe;
+  const re = new RegExp('(' + esc(word).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+  return safe.replace(re, '<mark>$1</mark>');
+}
 async function playVocabAudio(v) {
   const srcInfo = (v.sources || [])[0];
   if (!srcInfo) return ttsFallback(v.nl);
@@ -150,7 +164,19 @@ async function playVocabAudio(v) {
       _segCache[vid] = (await r.json()).ai_data.segments;
     }
     const s = _segCache[vid][idx];
-    if (s) return playRange(vid, s.start, s.end);
+    if (s) {
+      // pad both ends: Whisper segment boundaries often clip word onsets/tails
+      playRange(vid, s.start - 0.25, s.end + 0.6);
+      const box = document.getElementById('ctx-box');
+      if (box) {
+        box.innerHTML =
+          `<div class="ctx-nl">${highlightWord(s.text, v.nl)}</div>` +
+          (s.translation ? `<div class="ctx-zh">${esc(s.translation)}</div>` : '') +
+          `<div class="ctx-src">🎧 原音出處 · ${esc(MOCK_LABELS[vid] || vid)} 第 ${idx + 1} 句</div>`;
+        box.classList.add('show');
+      }
+      return;
+    }
   } catch(e) {}
   ttsFallback(v.nl);
 }
@@ -243,6 +269,7 @@ function renderVocab(it) {
       <div class="v-level">${esc(v.level || '')} · 出現 ${v.count || 1} 次</div>
       ${prod ? '' : `<button class="speak-btn" onclick='playVocabAudio(${JSON.stringify(v).replace(/'/g,"&#39;")})'>🔊 聽原音</button>`}
       <div class="v-zh">${back}${prod ? ` <button class="speak-btn" style="margin-left:8px;padding:6px 12px;font-size:12px" onclick='playVocabAudio(${JSON.stringify(v).replace(/'/g,"&#39;")})'>🔊</button>` : ''}</div>
+      <div class="ctx-box" id="ctx-box"></div>
       <button class="reveal-btn" id="reveal" onclick="revealVocab()">${prod ? '翻牌看荷蘭文' : '顯示意思'}</button>
       <div class="grades">
         <button class="grade again" onclick="gradeVocab(0)"><span class="top-e">😕</span><span class="bot-t">忘了 1d</span></button>
