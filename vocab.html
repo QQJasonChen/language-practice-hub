@@ -94,6 +94,29 @@
     background:rgba(94,234,212,0.2);color:var(--ring);border-radius:8px;
     font-size:10px;font-weight:700;vertical-align:middle}
   .lg-hint{font-size:10.5px;color:var(--dim);margin-top:4px;text-align:center}
+
+  /* Progress to finite goal — make the finish line visible */
+  .progress-wrap{margin:0 0 14px;padding:12px 14px;background:var(--card);border-radius:10px}
+  .progress-head{display:flex;justify-content:space-between;align-items:baseline;
+    font-size:12px;margin-bottom:7px}
+  .progress-head .core-lbl{color:var(--accent);font-weight:800}
+  .progress-head .all-lbl{color:var(--text2)}
+  .pbar{height:8px;background:var(--card2);border-radius:99px;overflow:hidden}
+  .pbar+.pbar{margin-top:6px}
+  .pbar .fill{height:100%;width:0;border-radius:99px;transition:width .45s ease;
+    background:linear-gradient(90deg,var(--accent),#fbbf24)}
+  .pbar .fill.all{background:linear-gradient(90deg,var(--ring),#34d399)}
+  .progress-sub{font-size:10.5px;color:var(--dim);margin-top:7px;text-align:center}
+  .core-badge{display:inline-block;font-size:10px;font-weight:800;color:var(--accent);
+    background:rgba(251,146,60,0.15);border:1px solid rgba(251,146,60,0.4);
+    padding:1px 6px;border-radius:6px;margin-left:6px;vertical-align:middle}
+
+  /* Audio-first: hide spelling + context until the EAR has had its turn */
+  .card.audio-first .card-nl,.card.audio-first .card-kana{display:none}
+  .card.audio-first.revealed .card-nl,.card.audio-first.revealed .card-kana{display:block}
+  .card.audio-first:not(.revealed) .ctx-panel{display:none!important}
+  .af-prompt{font-size:13px;color:var(--text2);margin:6px 0 2px}
+  .card.audio-first.revealed .af-prompt{display:none}
 </style>
 </head>
 <body>
@@ -110,6 +133,16 @@
     <div class="stat"><div class="n" id="s-total">…</div><div class="l">總詞彙</div></div>
   </div>
 
+  <div class="progress-wrap" id="progress-wrap" style="display:none">
+    <div class="progress-head">
+      <span class="core-lbl">⭐ 核心字（跨模考高頻）<span id="pb-core-txt">0 / 0</span></span>
+      <span class="all-lbl">全部 <span id="pb-all-txt">0 / 0</span></span>
+    </div>
+    <div class="pbar"><div class="fill" id="pb-core-fill"></div></div>
+    <div class="pbar"><div class="fill all" id="pb-all-fill"></div></div>
+    <div class="progress-sub" id="pb-sub">先把核心字啃到滾瓜爛熟，整段模考就會從噪音變成聽得懂</div>
+  </div>
+
   <div class="tabs">
     <div class="tab on" data-tab="study" onclick="switchTab('study')">📖 複習</div>
     <div class="tab" data-tab="list" onclick="switchTab('list')">🗂 全部</div>
@@ -124,6 +157,9 @@
       </button>
       <button class="lg-toggle" id="dir-toggle" onclick="toggleDir()"
         title="中→荷 = production 模式：看中文，先大聲說出荷蘭文再翻牌。比認得難一倍、記得牢一倍，直接練口說考試要的能力">
+      </button>
+      <button class="lg-toggle" id="af-toggle" onclick="toggleAudioFirst()"
+        title="先聽聲音 → 想意思 → 才翻牌看拼字。逼耳朵，不靠眼睛讀拼字。只在「荷→中（認）」模式有效">
       </button>
     </div>
     <div id="card-container"></div>
@@ -160,6 +196,7 @@ let queue = [];          // due cards for study tab
 let qi = 0;
 let lapseGuard = localStorage.getItem(LAPSE_KEY) !== '0';  // default ON
 let dir = localStorage.getItem('lph_vocab_dir') || 'nl2zh'; // nl2zh 認 / zh2nl 說
+let audioFirst = localStorage.getItem('lph_audio_first') !== '0'; // default ON: ear before eyes
 let lapseSeen = new Map();  // session-only: key → re-queue count
 let lapseDone = 0;       // session counter for hint
 
@@ -266,7 +303,7 @@ async function loadVocab() {
       const key = w.nl.toLowerCase().trim();
       const [vid, segidx] = (w.sources || [[null]])[0];
       const item = {
-        nl: w.nl, zh: w.zh || '', kana: '',
+        nl: (w.nl || '').trim(), zh: w.zh || '', kana: '',
         type: 'word',
         level: w.level || 'A2',
         count: w.count || 1,
@@ -328,6 +365,12 @@ async function loadVocab() {
     } catch(e) { console.error('load fail', vid, e); }
   }
   vocab = [...m.values()];
+  // Mark core words (appear in ≥2 mocks) — the high-yield bedrock to learn first.
+  // Function words (de/een/het…) live in reducties; here we rank by frequency.
+  for (const v of vocab) {
+    v.core = new Set((v.src || []).map(s => s.vid).filter(Boolean)).size >= 2;
+    if (typeof v.count !== 'number') v.count = 0;
+  }
 }
 
 function getState(v) {
@@ -361,12 +404,34 @@ function updateStats() {
   setLv('A1'); setLv('A2'); setLv('B1');
   const elAll = document.getElementById('l-all-n');
   if (elAll) elAll.textContent = '(' + vocab.length + ')';
+
+  // Progress to finite goal: "已學" = engaged at least once (state ≠ new).
+  const coreAll = vocab.filter(v => v.core);
+  const coreLearned = coreAll.filter(v => getState(v) !== 'new').length;
+  const allLearned = vocab.filter(v => getState(v) !== 'new').length;
+  const pct = (a, b) => b ? Math.round(a / b * 100) : 0;
+  const setTxt = (id, t) => { const e = document.getElementById(id); if (e) e.textContent = t; };
+  const setW = (id, w) => { const e = document.getElementById(id); if (e) e.style.width = w + '%'; };
+  setTxt('pb-core-txt', ` ${coreLearned} / ${coreAll.length}`);
+  setTxt('pb-all-txt', `${allLearned} / ${vocab.length}`);
+  setW('pb-core-fill', pct(coreLearned, coreAll.length));
+  setW('pb-all-fill', pct(allLearned, vocab.length));
+  const wrap = document.getElementById('progress-wrap');
+  if (wrap && vocab.length) wrap.style.display = 'block';
+  // Once core is done, nudge toward listening to whole mocks.
+  if (coreAll.length && coreLearned >= coreAll.length) {
+    setTxt('pb-sub', '🎉 核心字學完了！現在可以開始聽整段模考，不再是噪音了');
+  }
 }
 
 function buildQueue() {
   // Due first, then new (limit 20 new/session). Skip done.
+  // New words: core (cross-mock) first, then by frequency desc — so you always
+  // meet the highest-yield unseen words before the long tail (3D / 27 april…).
   const dueArr = vocab.filter(v => getState(v) === 'due');
-  const newArr = vocab.filter(v => getState(v) === 'new').slice(0, 20);
+  const newArr = vocab.filter(v => getState(v) === 'new')
+    .sort((a, b) => (b.core - a.core) || (b.count - a.count))
+    .slice(0, 20);
   queue = [...dueArr, ...newArr];
   qi = 0;
   lapseSeen = new Map();   // reset session lapse tracking
@@ -391,6 +456,22 @@ function toggleDir() {
   dir = dir === 'nl2zh' ? 'zh2nl' : 'nl2zh';
   localStorage.setItem('lph_vocab_dir', dir);
   syncDirBtn();
+  syncAfBtn();
+  renderCard();
+}
+
+function syncAfBtn() {
+  const b = document.getElementById('af-toggle');
+  if (!b) return;
+  b.classList.toggle('on', audioFirst);
+  b.textContent = audioFirst ? '🔊 聽音優先：開' : '🔊 聽音優先：關';
+  // Audio-first only makes sense in 荷→中（認）; in production mode the front is Chinese.
+  b.style.display = dir === 'nl2zh' ? '' : 'none';
+}
+function toggleAudioFirst() {
+  audioFirst = !audioFirst;
+  localStorage.setItem('lph_audio_first', audioFirst ? '1' : '0');
+  syncAfBtn();
   renderCard();
 }
 
@@ -403,6 +484,7 @@ function renderCard() {
     return;
   }
   const v = queue[qi];
+  const af = audioFirst && dir === 'nl2zh';  // ear-before-eyes for recognition
   // Group by mock: M1 ×4 · M2 ×1 instead of M1, M1, M1, M1, M2
   const srcCounts = {};
   for (const s of v.src) {
@@ -437,6 +519,7 @@ function renderCard() {
       <div class="prod-back">${playBtn}${ctxHtml}</div>
       ${v.note ? `<div class="card-note">💡 ${esc(v.note)}</div>` : ''}`
     : `<div class="card-src">${srcLabels}</div>
+      ${af ? '<div class="af-prompt">🔊 先聽聲音，想意思 → 再翻牌看拼字</div>' : ''}
       <div class="card-nl">${esc(v.nl)}</div>
       ${v.kana ? `<div class="card-kana">${esc(v.kana)}</div>` : ''}
       ${playBtn}
@@ -445,10 +528,10 @@ function renderCard() {
       ${v.note ? `<div class="card-note">💡 ${esc(v.note)}</div>` : ''}`;
   box.innerHTML = `
     <div style="text-align:center;font-size:12px;color:var(--dim);margin-bottom:8px">
-      ${qi + 1} / ${queue.length} · ${v.type === 'pattern' ? '🔑 句型' : '📚 詞彙'}${lapsePill}
+      ${qi + 1} / ${queue.length} · ${v.type === 'pattern' ? '🔑 句型' : '📚 詞彙'}${v.core ? '<span class="core-badge">⭐ 核心</span>' : ''}${lapsePill}
     </div>
     ${lapseHint}
-    <div class="card" id="card">${cardInner}</div>
+    <div class="card${af ? ' audio-first' : ''}" id="card">${cardInner}</div>
     <div id="action-row" style="margin-top:14px">
       <button class="reveal-btn" style="width:100%" onclick="reveal()">${dir === 'zh2nl' ? '翻牌看荷蘭文' : '翻牌看意思'}</button>
       <button onclick="markKnown()" style="margin-top:8px;width:100%;padding:8px;
@@ -457,6 +540,13 @@ function renderCard() {
         ✓✓ 我已經會這個字了 · 永遠跳過
       </button>
     </div>`;
+
+  // Audio-first: auto-play the sound the moment the card shows, so the EAR is
+  // the first cue (not the spelling). Browser may block until first interaction
+  // — the 🔊 button is right there as fallback.
+  if (af) setTimeout(() => {
+    try { v.audio ? playSegment(v.audio) : speak(v.nl); } catch(e) {}
+  }, 130);
 }
 
 // 把句子裡的目標字 highlight（不分大小寫，但保留原文 case）
@@ -470,6 +560,9 @@ function highlightWord(sentence, word) {
 
 function reveal() {
   document.getElementById('card').classList.add('revealed');
+  // Reveal the example sentence on flip (so the word is seen in real context).
+  const ctx = document.getElementById('ctx-panel');
+  if (ctx) ctx.classList.add('show');
   document.getElementById('action-row').innerHTML = `
     <div class="grade-row show">
       <div>
@@ -632,6 +725,7 @@ function esc(t) {
   btn.classList.toggle('on', lapseGuard);
   btn.textContent = lapseGuard ? '🔁 間歇複習：開' : '🔁 間歇複習：關';
   syncDirBtn();
+  syncAfBtn();
   updateStats();
   buildQueue();
   renderCard();
