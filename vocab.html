@@ -81,6 +81,27 @@
   .v-state.due{background:rgba(251,146,60,0.2);color:var(--accent)}
   .v-state.done{background:rgba(74,222,128,0.15);color:var(--ok)}
   .vrow .v-src{font-size:10px;color:var(--dim)}
+  .fav-btn{background:none;border:none;cursor:pointer;font-size:17px;padding:2px 4px;
+    opacity:.35;transition:opacity .15s,transform .15s;line-height:1;flex-shrink:0}
+  .fav-btn:hover{opacity:.7}
+  .fav-btn.on{opacity:1;transform:scale(1.15)}
+
+  /* Floating context popup */
+  #ctx-popup{display:none;position:fixed;z-index:999;
+    background:#1e1e2e;border:1px solid rgba(255,255,255,0.13);border-radius:14px;
+    box-shadow:0 8px 40px rgba(0,0,0,0.6);padding:16px 18px;max-width:320px;width:90vw}
+  #ctx-popup.show{display:block}
+  #ctx-popup .pop-src{font-size:10px;color:var(--dim);margin-bottom:8px}
+  #ctx-popup .pop-nl{font-size:16px;font-weight:700;line-height:1.5;color:var(--text)}
+  #ctx-popup .pop-nl mark{background:rgba(251,146,60,0.3);color:#fdba74;padding:0 2px;border-radius:3px}
+  #ctx-popup .pop-zh{font-size:13px;color:var(--ring);margin-top:6px}
+  #ctx-popup .pop-btns{display:flex;gap:8px;margin-top:12px}
+  #ctx-popup .pop-play{flex:1;padding:9px;background:rgba(94,234,212,0.12);color:var(--ring);
+    border:1px solid var(--ring);border-radius:8px;cursor:pointer;font-size:13px;font-weight:700}
+  #ctx-popup .pop-close{padding:9px 12px;background:rgba(255,255,255,0.05);color:var(--text2);
+    border:1px solid var(--line);border-radius:8px;cursor:pointer;font-size:13px}
+  #ctx-popup-overlay{display:none;position:fixed;inset:0;z-index:998}
+  #ctx-popup-overlay.show{display:block}
   .filter{margin-bottom:10px;display:flex;gap:6px;flex-wrap:wrap}
   .filter button{padding:5px 10px;background:var(--card2);border:1px solid var(--line);
     color:var(--text2);border-radius:6px;font-size:12px;cursor:pointer}
@@ -159,6 +180,10 @@
       <button class="lg-toggle" id="af-toggle" onclick="toggleAudioFirst()"
         title="先聽聲音 → 想意思 → 才翻牌看拼字。逼耳朵，不靠眼睛讀拼字。只在「荷→中（認）」模式有效">
       </button>
+      <button class="lg-toggle" id="fav-only-toggle" onclick="toggleFavOnly()"
+        title="只複習你標記的 ⭐ 收藏字，專攻不熟的">
+        ⭐ 收藏：關
+      </button>
     </div>
     <div id="card-container"></div>
   </div>
@@ -171,6 +196,7 @@
       <button data-f="learn">學習中 <span id="f-learn-n"></span></button>
       <button data-f="done">已熟 <span id="f-done-n"></span></button>
       <button data-f="new">未學 <span id="f-new-n"></span></button>
+      <button data-f="fav">⭐ 收藏 <span id="f-fav-n"></span></button>
     </div>
     <div class="filter" id="level-filter" style="margin-top:4px">
       <button class="on" data-l="all">所有難度 <span id="l-all-n"></span></button>
@@ -182,10 +208,23 @@
   </div>
 </div>
 
+<!-- Floating context popup (shown when user taps a word row in list view) -->
+<div id="ctx-popup-overlay" onclick="closeCtxPopup()"></div>
+<div id="ctx-popup">
+  <div class="pop-src" id="pop-src"></div>
+  <div class="pop-nl" id="pop-nl"></div>
+  <div class="pop-zh" id="pop-zh"></div>
+  <div class="pop-btns">
+    <button class="pop-play" id="pop-play" onclick="popPlay()">🔊 聽原音</button>
+    <button class="pop-close" onclick="closeCtxPopup()">✕ 關閉</button>
+  </div>
+</div>
+
 <script>
 const MOCKS = ['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026'];
 const MOCK_LABELS = {'_iC1Pooi2UA':'M1', 'AMVy2zPNLso':'M2', 'mock3_a2_2026':'M3'};
 const SRS_KEY = 'lph_vocab_srs';
+const FAV_KEY  = 'lph_vocab_fav';
 const LAPSE_KEY = 'lph_lapse_guard';
 const LAPSE_MAX = 2;     // max re-queues per card per session
 const INTERVALS = [1, 3, 7, 14, 30];  // days
@@ -193,6 +232,7 @@ let vocab = [];          // [{nl, zh, kana, src:[vid, scn], ...}]
 let queue = [];          // due cards for study tab
 let qi = 0;
 let lapseGuard = localStorage.getItem(LAPSE_KEY) !== '0';  // default ON
+let favOnly    = localStorage.getItem('lph_fav_only') === '1'; // default OFF
 let dir = localStorage.getItem('lph_vocab_dir') || 'nl2zh'; // nl2zh 認 / zh2nl 說
 let audioFirst = localStorage.getItem('lph_audio_first') !== '0'; // default ON: ear before eyes
 let lapseSeen = new Map();  // session-only: key → re-queue count
@@ -208,6 +248,20 @@ function loadSRS() {
   catch(e) { return {}; }
 }
 function saveSRS(s) { localStorage.setItem(SRS_KEY, JSON.stringify(s)); }
+
+function loadFav() { try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); } catch(e){ return new Set(); } }
+function saveFav(set) { localStorage.setItem(FAV_KEY, JSON.stringify([...set])); }
+function isFav(v) { return loadFav().has(v.nl.toLowerCase().trim()); }
+function toggleFavWord(key) {
+  const f = loadFav();
+  if (f.has(key)) f.delete(key); else f.add(key);
+  saveFav(f);
+  // update the star button in the list without full re-render
+  const btn = document.querySelector(`.fav-btn[data-key="${CSS.escape(key)}"]`);
+  if (btn) { btn.classList.toggle('on', f.has(key)); btn.title = f.has(key) ? '取消收藏' : '收藏'; }
+  // update fav count badge
+  document.getElementById('f-fav-n').textContent = '(' + f.size + ')';
+}
 
 // "0:38" → 38, "1:42" → 102, "12:05" → 725
 function parseTs(t) {
@@ -398,6 +452,7 @@ function updateStats() {
   document.getElementById('f-learn-n').textContent = '(' + counts.learn + ')';
   document.getElementById('f-done-n').textContent = '(' + counts.done + ')';
   document.getElementById('f-new-n').textContent = '(' + counts.new + ')';
+  document.getElementById('f-fav-n').textContent = '(' + loadFav().size + ')';
   const setLv = (k) => { const el = document.getElementById('l-'+k+'-n'); if (el) el.textContent = '(' + (lvCounts[k] || 0) + ')'; };
   setLv('A1'); setLv('A2'); setLv('B1');
   const elAll = document.getElementById('l-all-n');
@@ -423,11 +478,14 @@ function updateStats() {
 }
 
 function buildQueue() {
-  // Due first, then new (limit 20 new/session). Skip done.
-  // New words: core (cross-mock) first, then by frequency desc — so you always
-  // meet the highest-yield unseen words before the long tail (3D / 27 april…).
-  const dueArr = vocab.filter(v => getState(v) === 'due');
-  const newArr = vocab.filter(v => getState(v) === 'new')
+  // When favOnly is ON: only include favourited words (any state except done).
+  // Otherwise: due first, then new (core-first, limit 20 new/session).
+  const favSet = loadFav();
+  const eligible = favOnly
+    ? vocab.filter(v => favSet.has(v.nl.toLowerCase().trim()) && getState(v) !== 'done')
+    : null;
+  const dueArr = (eligible || vocab).filter(v => getState(v) === 'due');
+  const newArr = (eligible || vocab).filter(v => getState(v) === 'new')
     .sort((a, b) => (b.core - a.core) || (b.count - a.count))
     .slice(0, 20);
   queue = [...dueArr, ...newArr];
@@ -470,6 +528,20 @@ function toggleAudioFirst() {
   audioFirst = !audioFirst;
   localStorage.setItem('lph_audio_first', audioFirst ? '1' : '0');
   syncAfBtn();
+  renderCard();
+}
+
+function syncFavOnlyBtn() {
+  const b = document.getElementById('fav-only-toggle');
+  if (!b) return;
+  b.classList.toggle('on', favOnly);
+  b.textContent = favOnly ? '⭐ 收藏：開' : '⭐ 收藏：關';
+}
+function toggleFavOnly() {
+  favOnly = !favOnly;
+  localStorage.setItem('lph_fav_only', favOnly ? '1' : '0');
+  syncFavOnlyBtn();
+  buildQueue();
   renderCard();
 }
 
@@ -682,7 +754,11 @@ function renderList(filter, level) {
     if (_listLevel === 'B1') return lv === 'B1' || lv === 'B2';
     return lv === _listLevel;
   };
-  const filtered = vocab.filter(v => (_listState === 'all' || getState(v) === _listState) && levelMatch(v));
+  const favSet = loadFav();
+  const filtered = vocab.filter(v => {
+    if (_listState === 'fav') return favSet.has(v.nl.toLowerCase().trim()) && levelMatch(v);
+    return (_listState === 'all' || getState(v) === _listState) && levelMatch(v);
+  });
   const box = document.getElementById('vlist');
   if (!filtered.length) { box.innerHTML = '<div class="empty">沒有符合的詞</div>'; return; }
   const stateLabels = { new: '新', learn: '學習', due: '該複習', done: '已熟' };
@@ -692,14 +768,18 @@ function renderList(filter, level) {
     const speaker = v.audio ? '🔊' : '🔈';
     const lv = v.level || '';
     const lvColor = {A1:'#4ade80', A2:'#5eead4', B1:'#fb923c', B2:'#f87171'}[lv] || '#9ca3af';
-    return `<div class="vrow" onclick="playVocab('${key}')">
-      <div style="flex:1">
+    const faved = favSet.has(v.nl.toLowerCase().trim());
+    return `<div class="vrow">
+      <div style="flex:1;cursor:pointer" onclick="showCtxPopup('${key}',this.closest('.vrow'))">
         <div class="vnl">${speaker} ${esc(v.nl)}${v.kana ? ` <span style="color:var(--dim);font-weight:400;font-size:11px">${esc(v.kana)}</span>` : ''}</div>
         <div class="vzh">${esc(v.zh)}</div>
       </div>
       ${lv ? `<span style="font-size:10px;padding:1px 5px;background:${lvColor}22;color:${lvColor};border-radius:3px;font-weight:700">${lv}</span>` : ''}
       <span class="v-state ${st}">${stateLabels[st]}</span>
       <span class="v-src">${v.src.filter(s=>s.vid).map(s => MOCK_LABELS[s.vid]).filter((x,i,a)=>a.indexOf(x)===i).join(',')}</span>
+      <button class="fav-btn${faved?' on':''}" data-key="${key}"
+        title="${faved?'取消收藏':'收藏'}"
+        onclick="event.stopPropagation();toggleFavWord('${key}')">⭐</button>
     </div>`;
   }).join('');
 }
@@ -714,6 +794,50 @@ function esc(t) {
   return String(t || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
+// ── Floating context popup (list view: tap a word → see full sentence) ──
+let _popAudio = null;
+function showCtxPopup(key, anchorEl) {
+  const v = vocabByKey(key);
+  if (!v) return;
+  const popup = document.getElementById('ctx-popup');
+  const overlay = document.getElementById('ctx-popup-overlay');
+  document.getElementById('pop-src').textContent =
+    v.src.filter(s=>s.vid).map(s=>MOCK_LABELS[s.vid]).filter((x,i,a)=>a.indexOf(x)===i).join('·')
+    + (v.audio_text ? '' : ' · 無原音語境');
+  if (v.audio_text) {
+    // highlight the target word in the sentence
+    const safe = esc(v.audio_text);
+    const re = new RegExp('(' + esc(v.nl).replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+    document.getElementById('pop-nl').innerHTML = safe.replace(re, '<mark>$1</mark>');
+    document.getElementById('pop-zh').textContent = v.audio_zh || '';
+    document.getElementById('pop-play').style.display = '';
+  } else {
+    document.getElementById('pop-nl').textContent = '（這個字在原音檔裡找不到對應句段）';
+    document.getElementById('pop-zh').textContent = '';
+    document.getElementById('pop-play').style.display = 'none';
+  }
+  _popAudio = v;
+  // Position: below the row, clamped to viewport
+  popup.classList.add('show');
+  overlay.classList.add('show');
+  const rect = anchorEl.getBoundingClientRect();
+  const popH = popup.offsetHeight || 160;
+  const spaceBelow = window.innerHeight - rect.bottom - 8;
+  const top = spaceBelow >= popH ? rect.bottom + 6 : rect.top - popH - 6;
+  const left = Math.min(Math.max(8, rect.left), window.innerWidth - popup.offsetWidth - 8);
+  popup.style.top  = Math.max(8, top) + 'px';
+  popup.style.left = left + 'px';
+}
+function closeCtxPopup() {
+  document.getElementById('ctx-popup').classList.remove('show');
+  document.getElementById('ctx-popup-overlay').classList.remove('show');
+  _popAudio = null;
+}
+function popPlay() {
+  if (!_popAudio) return;
+  speak(_popAudio.nl, _popAudio.audio);
+}
+
 (async function init() {
   await loadVocab();
   const withAudio = vocab.filter(v => v.audio).length;
@@ -724,6 +848,7 @@ function esc(t) {
   btn.textContent = lapseGuard ? '🔁 間歇複習：開' : '🔁 間歇複習：關';
   syncDirBtn();
   syncAfBtn();
+  syncFavOnlyBtn();
   updateStats();
   buildQueue();
   renderCard();
