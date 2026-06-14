@@ -123,6 +123,18 @@ def wrap_vocab(text: str, vocab: list) -> str:
     return out
 
 
+def render_analysis(nl: str, analysis: dict):
+    """Return (panel_html, has_analysis) for a sentence's pre-generated AI explanation."""
+    a = analysis.get(' '.join((nl or '').lower().split()))
+    if not a:
+        return '', False
+    bd = ''.join(f'<div class="ana-bd"><b>{esc(c[0])}</b> {esc(c[1])}</div>'
+                 for c in a.get('breakdown', []) if isinstance(c, list) and len(c) >= 2)
+    g = f'<div class="ana-g">📘 {esc(a["grammar"])}</div>' if a.get('grammar') else ''
+    l = f'<div class="ana-l">👂 {esc(a["listen"])}</div>' if a.get('listen') else ''
+    return f'<div class="lana">{bd}{g}{l}</div>', True
+
+
 CSS = r"""
 :root { --blue:#1e3a8a; --blue2:#3b82f6; --amber:#f59e0b; --ink:#1f2937;
   --green:#16a34a; --red:#dc2626; --cyan:#0891b2; }
@@ -218,7 +230,16 @@ header .meta { font-size:11.5px; color:#bfdbfe; }
 .lact:active { transform:scale(.9); }
 .lact.loop.on { background:#fde68a; border-color:#f59e0b; color:#92400e; }
 .line.hard .lact.star { background:#fee2e2; border-color:#f87171; color:#b91c1c; }
+.lact.ana.on { background:#dbeafe; border-color:#3b82f6; color:#1e40af; }
 .line.looping { box-shadow:inset 0 0 0 2px rgba(245,158,11,.5); }
+/* AI sentence explanation panel (tap 💡) */
+.lana { display:none; margin:9px 0 2px; padding:11px 13px; background:#0f172a; color:#e2e8f0;
+  border-radius:10px; border-left:3px solid var(--amber); font-size:12.5px; line-height:1.65; }
+.lana.show { display:block; }
+.lana .ana-bd { padding:1px 0; }
+.lana .ana-bd b { color:#fcd34d; font-weight:700; }
+.lana .ana-g { margin-top:7px; color:#bae6fd; }
+.lana .ana-l { margin-top:4px; color:#fca5a5; }
 .line.hard { border-left-color:#f87171; }
 /* active-listening: hide ZH globally, reveal a line on tap */
 body.hide-zh .lzh { display:none; }
@@ -475,6 +496,15 @@ function bindLineActs() {
   document.querySelectorAll('.lact.star:not(.albound)').forEach(btn => {
     btn.classList.add('albound');
     btn.addEventListener('click', e => { e.stopPropagation(); toggleHard(btn.closest('.line')); });
+  });
+  document.querySelectorAll('.lact.ana:not(.albound)').forEach(btn => {
+    btn.classList.add('albound');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      btn.classList.toggle('on');
+      const pan = btn.closest('.line').querySelector('.lana');
+      if (pan) pan.classList.toggle('show');
+    });
   });
 }
 // ── Tap a word → meaning + the sentence's REAL audio (word ↔ meaning ↔ sound) ──
@@ -890,6 +920,13 @@ updateBadges();
 def build(exam: dict) -> str:
     parts = []
     total_q = exam['n_questions']
+    ana_path = OUT / exam['video_id'] / 'analysis.json'
+    analysis = {}
+    if ana_path.exists():
+        try:
+            analysis = json.loads(ana_path.read_text(encoding='utf-8'))
+        except Exception:
+            analysis = {}
     parts.append(f"""<header><div class="wrap">
       <h1>{esc(exam.get('title',''))}</h1>
       <div class="meta">🎧 {esc(exam.get('exam_type',''))} ·
@@ -942,14 +979,18 @@ def build(exam: dict) -> str:
         for u in resegment_dialogue(sc['dialogue']):
             s, e = u['start'], u['end']
             label = f"{int(s)//60}:{int(s)%60:02d}"
+            ana_html, has_ana = render_analysis(u['nl'], analysis)
+            ana_btn = ('<button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button>'
+                       if has_ana else '')
             parts.append(
                 f'<div class="line" data-t="{s:.1f}" data-end="{e:.1f}">'
                 f'<button class="ts" data-t="{s:.1f}">{label}</button>'
                 f'<div class="lb"><div class="lnl">{wrap_vocab(u["nl"], sc["vocab"])}</div>'
-                f'<div class="lzh">{esc(u["zh"])}</div></div>'
+                f'<div class="lzh">{esc(u["zh"])}</div>{ana_html}</div>'
                 f'<div class="lacts">'
                 f'<button class="lact loop" title="循環這一句">🔁</button>'
                 f'<button class="lact star" title="標記難句，之後集中複習">☆</button>'
+                f'{ana_btn}'
                 f'</div></div>')
         if sc.get('no_questions'):
             parts.append('<div class="note">本場景的考題影片未收錄，僅附對話與單字供額外練習。</div>')
