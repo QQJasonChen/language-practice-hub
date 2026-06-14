@@ -85,6 +85,12 @@
     opacity:.35;transition:opacity .15s,transform .15s;line-height:1;flex-shrink:0}
   .fav-btn:hover{opacity:.7}
   .fav-btn.on{opacity:1;transform:scale(1.15)}
+  /* fav toggle on the study card — a clearly visible pill */
+  .card-fav{background:var(--card2);border:1px solid var(--line);color:var(--text2);
+    border-radius:99px;padding:4px 12px;font-size:11.5px;font-weight:700;cursor:pointer;
+    transition:all .15s;line-height:1.3;white-space:nowrap}
+  .card-fav:hover{border-color:var(--accent)}
+  .card-fav.on{background:rgba(251,146,60,0.18);border-color:var(--accent);color:var(--accent)}
 
   /* Floating context popup */
   #ctx-popup{display:none;position:fixed;z-index:999;
@@ -272,11 +278,9 @@ function toggleCardFav(key) {
   const btn = document.getElementById('card-fav-btn');
   if (btn) {
     const on = f.has(key);
-    btn.textContent = on ? '⭐' : '☆';
-    btn.style.opacity = on ? '1' : '0.3';
-    btn.style.transform = on ? 'scale(1.2)' : '';
+    btn.classList.toggle('on', on);
+    btn.textContent = on ? '⭐ 已收藏' : '☆ 收藏';
     btn.title = on ? '取消收藏' : '標記為不熟，加入收藏';
-    setTimeout(() => { if (btn) btn.style.transform = on ? 'scale(1)' : ''; }, 200);
   }
   const favEl = document.getElementById('f-fav-n');
   if (favEl) favEl.textContent = '(' + f.size + ')';
@@ -619,15 +623,12 @@ function renderCard() {
   const vFaved = loadFav().has(vKey);
   const safeKey = vKey.replace(/'/g,"\\'");
   box.innerHTML = `
-    <div style="display:flex;align-items:center;justify-content:center;gap:8px;
-      font-size:12px;color:var(--dim);margin-bottom:8px;position:relative">
+    <div style="display:flex;align-items:center;justify-content:center;gap:10px;
+      flex-wrap:wrap;font-size:12px;color:var(--dim);margin-bottom:8px">
       <span>${qi + 1} / ${queue.length} · ${v.type === 'pattern' ? '🔑 句型' : '📚 詞彙'}${v.core ? '<span class="core-badge">⭐ 核心</span>' : ''}${lapsePill}</span>
-      <button id="card-fav-btn" onclick="toggleCardFav('${safeKey}')"
-        title="${vFaved?'取消收藏':'標記為不熟，加入收藏'}"
-        style="position:absolute;right:0;background:none;border:none;cursor:pointer;
-          font-size:20px;padding:0 2px;opacity:${vFaved?'1':'0.3'};
-          transition:opacity .15s,transform .15s;line-height:1">
-        ${vFaved?'⭐':'☆'}
+      <button id="card-fav-btn" class="card-fav${vFaved?' on':''}" onclick="toggleCardFav('${safeKey}')"
+        title="${vFaved?'取消收藏':'標記為不熟，加入收藏'}">
+        ${vFaved?'⭐ 已收藏':'☆ 收藏'}
       </button>
     </div>
     ${lapseHint}
