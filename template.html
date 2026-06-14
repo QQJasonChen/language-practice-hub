@@ -675,7 +675,6 @@
     <div class="mode-bar">
       <button class="mode-btn" id="zh-toggle" onclick="toggleZh()">{{NATIVE_NAME}}翻譯</button>
       <button class="mode-btn" id="dictation-toggle" onclick="toggleDictation()">👂 聽寫模式</button>
-      <button class="mode-btn active" id="stress-toggle" onclick="toggleStress()" title="高亮答題會用到的關鍵字：地名/人名、數字、星期、時間表達">🎯 答題線索</button>
       <button class="mode-btn echo-btn" onclick="openEcho()">🔄 迴音法 Echo</button>
       <button class="mode-btn" onclick="openExamMode()" style="background:rgba(255,59,92,0.1);border-color:rgba(255,59,92,0.3);color:var(--accent)">🎯 考試模擬</button>
       <button class="mode-btn" onclick="openSprekenMode()" style="background:rgba(96,165,250,0.1);border-color:rgba(96,165,250,0.3);color:var(--blue)">🗣️ 口說練習</button>
@@ -962,6 +961,9 @@ const tokClean = s => String(s || '').replace(/[.,!?;:'"()]+$/, '');
 
 function highlightAnswerKeys(text) {
   if (!text) return '';
+  // Answer-key (yellow) highlighting removed — wasn't useful and distracted from
+  // active listening. Return the plain sentence; the rest of this function is dead.
+  return escapeHtml(text);
   // Tokenize: keep whitespace + punctuation as separate tokens, but DO NOT split
   // on `.` or `,` when surrounded by digits (so "12,50" stays one token).
   const tokens = String(text).split(/(\s+|[!?;:"'()“”]|(?<!\d)[.,]|[.,](?!\d))/).filter(t => t !== '');
