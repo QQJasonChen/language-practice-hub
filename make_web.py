@@ -29,52 +29,6 @@ def secs(t: str) -> float:
     m = re.match(r'^(\d+):(\d{1,2})$', t)
     return int(m.group(1)) * 60 + int(m.group(2)) if m else -1
 
-def esc_attr(t: str) -> str:
-    return esc(t).replace('"', '&quot;')
-
-def wrap_vocab(text: str, vocab: list) -> str:
-    """Wrap scene-vocab terms inside a dialogue line with tappable spans, so the
-    learner can tap a word -> meaning + the sentence's REAL audio (word <-> sound).
-    Conservative: whole-word/phrase matches only, longest first, no overlaps."""
-    terms = []
-    for v in (vocab or []):
-        nl = (v.get('nl') or '').strip()
-        zh = (v.get('zh') or '').strip()
-        if not nl or not zh or '...' in nl or '…' in nl:
-            continue
-        cands = {nl}
-        m = re.match(r"^(de|het|een|'t)\s+(.+)$", nl, re.I)
-        if m:
-            cands.add(m.group(2).strip())
-        for c in cands:
-            if len(c) >= 2:
-                terms.append((c, zh))
-    if not terms:
-        return esc(text)
-    terms.sort(key=lambda x: -len(x[0]))
-    taken = [False] * len(text)
-    spans = []
-    for term, zh in terms:
-        pat = re.compile(r"(?<![0-9A-Za-zÀ-ÿ])" + re.escape(term).replace(r"\ ", r"\s+")
-                         + r"(?![0-9A-Za-zÀ-ÿ])", re.I)
-        for mt in pat.finditer(text):
-            a, b = mt.start(), mt.end()
-            if any(taken[a:b]):
-                continue
-            for k in range(a, b):
-                taken[k] = True
-            spans.append((a, b, zh))
-    if not spans:
-        return esc(text)
-    spans.sort()
-    out, idx = '', 0
-    for a, b, zh in spans:
-        out += esc(text[idx:a])
-        out += f'<span class="w" data-zh="{esc_attr(zh)}">{esc(text[a:b])}</span>'
-        idx = b
-    out += esc(text[idx:])
-    return out
-
 
 CSS = r"""
 :root { --blue:#1e3a8a; --blue2:#3b82f6; --amber:#f59e0b; --ink:#1f2937;
@@ -146,23 +100,6 @@ header .meta { font-size:11.5px; color:#bfdbfe; }
 .ts:active { transform:scale(.94); }
 .line .lb { flex:1; min-width:0; }
 .line .lnl { font-weight:500; }
-/* tappable vocab word inside a line */
-.lnl .w { border-bottom:1.5px dotted #94a3b8; cursor:pointer; }
-.lnl .w:active { background:#fef9c3; }
-.line.playing .lnl .w { border-bottom-color:#b45309; }
-#wpop-ov { position:fixed; inset:0; z-index:59; display:none; }
-#wpop-ov.show { display:block; }
-#wpop { position:fixed; z-index:60; display:none; background:#0f172a; color:#e2e8f0;
-  border:1px solid #334155; border-radius:13px; padding:13px 15px; max-width:280px;
-  box-shadow:0 12px 44px rgba(0,0,0,.45); }
-#wpop.show { display:block; }
-#wpop .wp-nl { font-weight:800; font-size:16px; }
-#wpop .wp-zh { color:#fcd34d; font-size:13.5px; margin-top:5px; line-height:1.4; }
-#wpop .wp-btns { display:flex; gap:7px; margin-top:11px; }
-#wpop .wp-play { background:var(--amber); color:#0f172a; border:none; border-radius:8px;
-  padding:8px 12px; font-weight:800; font-size:13px; cursor:pointer; }
-#wpop .wp-slow { background:#334155; color:#e2e8f0; border:none; border-radius:8px;
-  padding:8px 12px; font-weight:700; font-size:13px; cursor:pointer; }
 .line .lzh { color:#9ca3af; font-size:12.5px; }
 /* per-line actions: loop one sentence / mark as hard */
 .lacts { display:flex; flex-direction:column; gap:4px; flex:none; margin-left:6px; }
@@ -429,45 +366,6 @@ function bindLineActs() {
     btn.classList.add('albound');
     btn.addEventListener('click', e => { e.stopPropagation(); toggleHard(btn.closest('.line')); });
   });
-}
-// ── Tap a word → meaning + the sentence's REAL audio (word ↔ meaning ↔ sound) ──
-let _wpLine = null, _wpStop = null;
-function bindWords() {
-  document.querySelectorAll('.lnl .w:not(.wbound)').forEach(w => {
-    w.classList.add('wbound');
-    w.addEventListener('click', e => { e.stopPropagation(); showWordPop(w); });
-  });
-}
-function showWordPop(w) {
-  _wpLine = w.closest('.line');
-  document.getElementById('wp-nl').textContent = w.textContent;
-  document.getElementById('wp-zh').textContent = w.dataset.zh || '';
-  const pop = document.getElementById('wpop'), ov = document.getElementById('wpop-ov');
-  pop.classList.add('show'); ov.classList.add('show');
-  const r = w.getBoundingClientRect();
-  const pw = pop.offsetWidth, ph = pop.offsetHeight;
-  let top = r.bottom + 8; if (top + ph > innerHeight - 8) top = r.top - ph - 8;
-  let left = Math.min(Math.max(8, r.left), innerWidth - pw - 8);
-  pop.style.top = Math.max(8, top) + 'px'; pop.style.left = left + 'px';
-}
-function closeWordPop() {
-  document.getElementById('wpop').classList.remove('show');
-  document.getElementById('wpop-ov').classList.remove('show');
-}
-function playWordLine(slow) {
-  if (!_wpLine) return;
-  const st = parseFloat(_wpLine.dataset.t), en = parseFloat(_wpLine.dataset.end);
-  cancelLoop();
-  if (_wpStop) { clearTimeout(_wpStop); _wpStop = null; }
-  const rate = slow ? slow : (A.playbackRate || 1);
-  A.playbackRate = rate;
-  A.currentTime = st; A.play();
-  _wpLine.classList.add('reveal');
-  const ms = (en - st) / rate * 1000 + 180;
-  _wpStop = setTimeout(() => {
-    A.pause();
-    if (slow) A.playbackRate = parseFloat(localStorage.getItem('lph_playback_speed') || '1');
-  }, Math.max(900, ms));
 }
 const HARD_KEY = 'lph_hard_lines:' + VID;
 let hardSet = new Set();
@@ -818,7 +716,6 @@ document.getElementById('reset-btn').onclick = () => {
 bindQuestions();
 bindTS();
 bindLineActs();
-bindWords();
 initStudyTools();
 updateStatus();
 updateBadges();
@@ -899,7 +796,7 @@ def build(exam: dict) -> str:
             parts.append(
                 f'<div class="line" data-t="{s}" data-end="{e}">'
                 f'<button class="ts" data-t="{s}">{esc(ln["t"])}</button>'
-                f'<div class="lb"><div class="lnl">{wrap_vocab(ln["nl"], sc["vocab"])}</div>'
+                f'<div class="lb"><div class="lnl">{esc(ln["nl"])}</div>'
                 f'<div class="lzh">{esc(ln["zh"])}</div></div>'
                 f'<div class="lacts">'
                 f'<button class="lact loop" title="循環這一句">🔁</button>'
@@ -981,16 +878,7 @@ def build(exam: dict) -> str:
       <button class="ptog" id="tog-hard" title="只顯示你標記★的難句，集中複習">★ 只看難句 <span class="pn" id="hard-n"></span></button>
       <span class="phint" id="study-hint">🔁 循環單句 · ★ 標難句</span>
     </div></div>
-    <audio id="aud" src="audio.mp3" preload="metadata"></audio>
-    <div id="wpop-ov" onclick="closeWordPop()"></div>
-    <div id="wpop">
-      <div class="wp-nl" id="wp-nl"></div>
-      <div class="wp-zh" id="wp-zh"></div>
-      <div class="wp-btns">
-        <button class="wp-play" onclick="playWordLine(0)">🔊 聽原句</button>
-        <button class="wp-slow" onclick="playWordLine(0.6)">🐢 慢速</button>
-      </div>
-    </div>""")
+    <audio id="aud" src="audio.mp3" preload="metadata"></audio>""")
 
     return (f'<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width,initial-scale=1">'
