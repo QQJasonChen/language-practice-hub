@@ -101,6 +101,27 @@ header .meta { font-size:11.5px; color:#bfdbfe; }
 .line .lb { flex:1; min-width:0; }
 .line .lnl { font-weight:500; }
 .line .lzh { color:#9ca3af; font-size:12.5px; }
+/* per-line actions: loop one sentence / mark as hard */
+.lacts { display:flex; flex-direction:column; gap:4px; flex:none; margin-left:6px; }
+.lact { background:#eef2f7; border:1px solid #e2e8f0; border-radius:7px; width:30px; height:25px;
+  font-size:13px; line-height:1; cursor:pointer; padding:0; color:#64748b; }
+.lact:active { transform:scale(.9); }
+.lact.loop.on { background:#fde68a; border-color:#f59e0b; color:#92400e; }
+.line.hard .lact.star { background:#fee2e2; border-color:#f87171; color:#b91c1c; }
+.line.looping { box-shadow:inset 0 0 0 2px rgba(245,158,11,.5); }
+.line.hard { border-left-color:#f87171; }
+/* active-listening: hide ZH globally, reveal a line on tap */
+body.hide-zh .lzh { display:none; }
+body.hide-zh .line.reveal .lzh { display:block; }
+body.hide-zh .line:not(.reveal) .lb::after { content:"｜ 點一下對答案"; font-size:11px; color:#cbd5e1; }
+body.only-hard .line:not(.hard) { display:none; }
+/* player second row: study toggles */
+.player .row2 { display:flex; align-items:center; gap:8px; padding:6px 12px 0; flex-wrap:wrap; }
+.ptog { background:#1e293b; color:#cbd5e1; border:1px solid #334155; border-radius:8px;
+  padding:6px 11px; font-size:12px; font-weight:700; cursor:pointer; }
+.ptog.on { background:var(--amber); color:#0f172a; border-color:var(--amber); }
+.ptog .pn { opacity:.7; font-weight:600; }
+.phint { font-size:11px; color:#94a3b8; margin-left:auto; }
 /* question */
 .q { margin:12px 15px; border:1px solid #e5e7eb; border-radius:10px; overflow:hidden; }
 .q-h { background:#fef3c7; padding:9px 12px; display:flex; gap:8px; align-items:baseline;
@@ -311,12 +332,73 @@ const A = document.getElementById('aud');
 const pp = document.getElementById('pp'), fill = document.getElementById('fill');
 const tnow = document.getElementById('tnow'), bar = document.getElementById('bar');
 const fmt = s => (isNaN(s)?'0:00':Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0'));
-function play(sec){ if(sec>=0){ A.currentTime=sec; } A.play(); }
+let _loop = null;
+function cancelLoop(){
+  if(_loop){ _loop.line.classList.remove('looping'); _loop=null; }
+  document.querySelectorAll('.lact.loop.on').forEach(b=>b.classList.remove('on'));
+}
+function play(sec){ cancelLoop(); if(sec>=0){ A.currentTime=sec; } A.play(); }
 function bindTS() {
   document.querySelectorAll('[data-t]:not(.bound)').forEach(el => {
     el.classList.add('bound');
-    el.addEventListener('click', e => { e.stopPropagation(); play(parseFloat(el.dataset.t)); });
+    el.addEventListener('click', e => {
+      e.stopPropagation();
+      if (el.classList.contains('line')) el.classList.add('reveal'); // tap to reveal ZH in active mode
+      play(parseFloat(el.dataset.t));
+    });
   });
+}
+// ── Per-line loop (🔁) + hard-line mark (★) + active-listening toggles ──
+function bindLineActs() {
+  document.querySelectorAll('.lact.loop:not(.albound)').forEach(btn => {
+    btn.classList.add('albound');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const line = btn.closest('.line');
+      if (_loop && _loop.line === line) { cancelLoop(); A.pause(); return; }
+      cancelLoop();
+      _loop = { line, start: parseFloat(line.dataset.t), end: parseFloat(line.dataset.end) };
+      btn.classList.add('on'); line.classList.add('looping', 'reveal');
+      A.currentTime = _loop.start; A.play();
+    });
+  });
+  document.querySelectorAll('.lact.star:not(.albound)').forEach(btn => {
+    btn.classList.add('albound');
+    btn.addEventListener('click', e => { e.stopPropagation(); toggleHard(btn.closest('.line')); });
+  });
+}
+const HARD_KEY = 'lph_hard_lines:' + VID;
+let hardSet = new Set();
+try { hardSet = new Set(JSON.parse(localStorage.getItem(HARD_KEY) || '[]')); } catch(e) {}
+function _setStar(line, on){ const b = line.querySelector('.lact.star'); if(b) b.textContent = on ? '★' : '☆'; }
+function _hardCount(){ const el = document.getElementById('hard-n'); if(el) el.textContent = hardSet.size ? '('+hardSet.size+')' : ''; }
+function toggleHard(line){
+  const k = line.dataset.t;
+  if(hardSet.has(k)){ hardSet.delete(k); line.classList.remove('hard'); _setStar(line,false); }
+  else { hardSet.add(k); line.classList.add('hard'); _setStar(line,true); }
+  localStorage.setItem(HARD_KEY, JSON.stringify([...hardSet])); _hardCount();
+}
+function initStudyTools(){
+  document.querySelectorAll('.line[data-t]').forEach(line => {
+    if(hardSet.has(line.dataset.t)){ line.classList.add('hard'); _setStar(line,true); }
+  });
+  _hardCount();
+  const togZh = document.getElementById('tog-zh');
+  const togHard = document.getElementById('tog-hard');
+  if(togZh){
+    if(localStorage.getItem('lph_hide_zh')==='1'){ document.body.classList.add('hide-zh'); togZh.classList.add('on'); }
+    togZh.onclick = () => {
+      const on = document.body.classList.toggle('hide-zh');
+      togZh.classList.toggle('on', on);
+      localStorage.setItem('lph_hide_zh', on ? '1' : '0');
+    };
+  }
+  if(togHard){
+    togHard.onclick = () => {
+      const on = document.body.classList.toggle('only-hard');
+      togHard.classList.toggle('on', on);
+    };
+  }
 }
 pp.onclick = ()=> A.paused ? A.play() : A.pause();
 A.onplay = ()=> pp.textContent='⏸';
@@ -341,6 +423,8 @@ function lineAt(t) {
 }
 let _lastCur = null;
 A.ontimeupdate = ()=>{
+  // Loop one sentence: jump back to its start when we reach its end.
+  if (_loop && A.currentTime >= _loop.end - 0.04) { A.currentTime = _loop.start; }
   fill.style.width = (A.currentTime/A.duration*100||0)+'%';
   tnow.textContent = fmt(A.currentTime)+' / '+fmt(A.duration);
   const cur = lineAt(A.currentTime);
@@ -631,6 +715,8 @@ document.getElementById('reset-btn').onclick = () => {
 // ── Init ──
 bindQuestions();
 bindTS();
+bindLineActs();
+initStudyTools();
 updateStatus();
 updateBadges();
 // restore last_pick/last_correct visual state for already-answered Qs
@@ -703,13 +789,19 @@ def build(exam: dict) -> str:
         nq = len(sc['questions'])
         rnote = f'考試中此段重播 {nq} 次，這裡只列一次' if nq > 1 else '考試播放後作答'
         parts.append(f'<div class="dlg-h">📺 {esc(sc["kind"])}原文 <span>— {rnote}</span></div>')
-        for ln in sc['dialogue']:
+        dlg = sc['dialogue']
+        for i, ln in enumerate(dlg):
             s = secs(ln['t'])
+            e = secs(dlg[i + 1]['t']) if i + 1 < len(dlg) else s + 5
             parts.append(
-                f'<div class="line" data-t="{s}">'
+                f'<div class="line" data-t="{s}" data-end="{e}">'
                 f'<button class="ts" data-t="{s}">{esc(ln["t"])}</button>'
                 f'<div class="lb"><div class="lnl">{esc(ln["nl"])}</div>'
-                f'<div class="lzh">{esc(ln["zh"])}</div></div></div>')
+                f'<div class="lzh">{esc(ln["zh"])}</div></div>'
+                f'<div class="lacts">'
+                f'<button class="lact loop" title="循環這一句">🔁</button>'
+                f'<button class="lact star" title="標記難句，之後集中複習">☆</button>'
+                f'</div></div>')
         if sc.get('no_questions'):
             parts.append('<div class="note">本場景的考題影片未收錄，僅附對話與單字供額外練習。</div>')
         for q in sc['questions']:
@@ -780,6 +872,11 @@ def build(exam: dict) -> str:
         <button data-s="1" class="on">1×</button>
         <button data-s="1.15">1.15×</button>
       </div>
+    </div>
+    <div class="row2">
+      <button class="ptog" id="tog-zh" title="先遮住中文用耳朵聽，再點句子對答案">🙈 遮中文</button>
+      <button class="ptog" id="tog-hard" title="只顯示你標記★的難句，集中複習">★ 只看難句 <span class="pn" id="hard-n"></span></button>
+      <span class="phint" id="study-hint">🔁 循環單句 · ★ 標難句</span>
     </div></div>
     <audio id="aud" src="audio.mp3" preload="metadata"></audio>""")
 
