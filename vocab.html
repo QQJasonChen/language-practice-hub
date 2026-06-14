@@ -111,12 +111,10 @@
     background:rgba(251,146,60,0.15);border:1px solid rgba(251,146,60,0.4);
     padding:1px 6px;border-radius:6px;margin-left:6px;vertical-align:middle}
 
-  /* Audio-first: hide spelling + context until the EAR has had its turn */
-  .card.audio-first .card-nl,.card.audio-first .card-kana{display:none}
-  .card.audio-first.revealed .card-nl,.card.audio-first.revealed .card-kana{display:block}
-  .card.audio-first:not(.revealed) .ctx-panel{display:none!important}
-  .af-prompt{font-size:13px;color:var(--text2);margin:6px 0 2px}
-  .card.audio-first.revealed .af-prompt{display:none}
+  /* Audio-first: auto-plays the word on show, but spelling stays visible —
+     you need to see the word + hear it together to wire the sound↔meaning link */
+  .af-prompt{font-size:11px;color:var(--dim);margin:2px 0 6px;text-align:center}
+  .card.revealed .af-prompt{display:none}
 </style>
 </head>
 <body>
@@ -519,7 +517,7 @@ function renderCard() {
       <div class="prod-back">${playBtn}${ctxHtml}</div>
       ${v.note ? `<div class="card-note">💡 ${esc(v.note)}</div>` : ''}`
     : `<div class="card-src">${srcLabels}</div>
-      ${af ? '<div class="af-prompt">🔊 先聽聲音，想意思 → 再翻牌看拼字</div>' : ''}
+      ${af ? '<div class="af-prompt">🔊 自動播音中 — 看字+聽音，想好意思再翻牌</div>' : ''}
       <div class="card-nl">${esc(v.nl)}</div>
       ${v.kana ? `<div class="card-kana">${esc(v.kana)}</div>` : ''}
       ${playBtn}
@@ -531,7 +529,7 @@ function renderCard() {
       ${qi + 1} / ${queue.length} · ${v.type === 'pattern' ? '🔑 句型' : '📚 詞彙'}${v.core ? '<span class="core-badge">⭐ 核心</span>' : ''}${lapsePill}
     </div>
     ${lapseHint}
-    <div class="card${af ? ' audio-first' : ''}" id="card">${cardInner}</div>
+    <div class="card" id="card">${cardInner}</div>
     <div id="action-row" style="margin-top:14px">
       <button class="reveal-btn" style="width:100%" onclick="reveal()">${dir === 'zh2nl' ? '翻牌看荷蘭文' : '翻牌看意思'}</button>
       <button onclick="markKnown()" style="margin-top:8px;width:100%;padding:8px;
