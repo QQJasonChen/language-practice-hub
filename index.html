@@ -274,6 +274,16 @@
     </div>
   </div>
 
+  <!-- Listening mocks — the real exam drills, kept high & short -->
+  <section class="practice">
+    <div class="practice-head">
+      <h2>模擬考</h2>
+      <span class="filter-label" id="filter-label">聽力</span>
+    </div>
+    <div class="pills" id="pills"></div>
+    <div class="cards" id="cards"></div>
+  </section>
+
   <div class="tools-section">
     <div class="tools-head"><span class="t-h" style="color:#e8b04b">口說練習</span><span class="t-h-en">Spreken</span></div>
     <div class="tool-grid">
@@ -289,16 +299,6 @@
       <a class="tool g-tool" href="sync.html"><span class="ti">☁️</span><span class="tt"><span class="tn">自動同步</span><span class="ts">多裝置互通</span></span><span class="tc">→</span></a>
     </div>
   </div>
-
-  <!-- Mock / video list -->
-  <section class="practice">
-    <div class="practice-head">
-      <h2>我的練習</h2>
-      <span class="filter-label" id="filter-label">全部</span>
-    </div>
-    <div class="pills" id="pills"></div>
-    <div class="cards" id="cards"></div>
-  </section>
 
   <!-- Footer: corpus stats (secondary) -->
   <div class="stats">
@@ -553,7 +553,7 @@ const CH_SHORT = {
   'NT2 Academy': 'NT2 Academy',
   'Dutch Today': 'Dutch Today',
 };
-let filter = 'all';
+let filter = 'luisteren';  // default to the 3 listening mocks (exam focus); pills switch
 
 function esc(t) { return t ? t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : ''; }
 function getPrac(id) { try { return (JSON.parse(localStorage.getItem(`lph_${id}`)||'{}').practiced||[]).length; } catch(e) { return 0; } }
