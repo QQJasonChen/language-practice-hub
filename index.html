@@ -9,452 +9,303 @@
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
 <title>Echo Dutch — 荷蘭文口說練習</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&family=Noto+Serif+TC:wght@500;700;900&display=swap" rel="stylesheet">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-  :root {
-    --bg: #050510; --surface: rgba(255,255,255,0.04); --surface2: rgba(255,255,255,0.07);
-    --glass: rgba(20,20,40,0.7); --glass-border: rgba(255,255,255,0.08);
-    --accent: #ff3b5c; --accent2: #7c5cfc; --accent3: #00d4aa;
-    --text: #f2f2f7; --text2: #a0a0b8; --text3: #606078; --muted: #8585a0;
-    --green: #34d399; --orange: #fb923c; --blue: #60a5fa;
-    --r: 20px; --r-sm: 12px;
+  :root{
+    --bg:#161210; --bg-2:#1c1712; --panel:#211b14; --panel-2:#28201c;
+    --line:rgba(243,230,205,.10); --line-2:rgba(243,230,205,.17);
+    --ink:#f4ecdd; --ink-2:#c3b69e; --ink-3:#8c8069;
+    --accent:#ff6a3d; --accent-2:#e8b04b; --accent-3:#8fae8a;
+    --serif:'Fraunces',Georgia,'Noto Serif TC',serif;
+    --serif-tc:'Noto Serif TC','Fraunces',serif;
+    --sans:'Hanken Grotesk',-apple-system,'PingFang TC','Hiragino Sans',sans-serif;
   }
-  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color: transparent; }
-  body {
-    font-family: 'Inter', -apple-system, sans-serif;
-    background: var(--bg); color: var(--text);
-    min-height: 100vh; overflow-x: hidden;
-    padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom);
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+  body{
+    font-family:var(--sans); background:var(--bg); color:var(--ink);
+    min-height:100vh; overflow-x:hidden; line-height:1.5;
+    padding-top:env(safe-area-inset-top); padding-bottom:env(safe-area-inset-bottom);
+    -webkit-font-smoothing:antialiased;
   }
+  a{color:inherit;text-decoration:none;}
 
-  /* ── Ambient background ── */
-  .ambient {
-    position: fixed; top: -30%; left: -20%; width: 140%; height: 80%;
-    background: radial-gradient(ellipse at 30% 50%, rgba(124,92,252,0.12) 0%, transparent 60%),
-                radial-gradient(ellipse at 70% 30%, rgba(255,59,92,0.08) 0%, transparent 50%);
-    pointer-events: none; z-index: 0;
-    animation: ambientFloat 20s ease-in-out infinite alternate;
-  }
-  @keyframes ambientFloat {
-    0% { transform: translate(0, 0) scale(1); }
-    100% { transform: translate(20px, -10px) scale(1.05); }
-  }
+  /* atmosphere */
+  .grain{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.05;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");}
+  .glow{position:fixed;top:-25%;left:50%;transform:translateX(-50%);width:120%;height:55%;z-index:0;pointer-events:none;
+    background:radial-gradient(ellipse at center top, rgba(255,106,61,.13), transparent 62%);}
 
-  .app { position: relative; z-index: 1; max-width: 480px; margin: 0 auto; }
+  .app{position:relative;z-index:1;max-width:540px;margin:0 auto;padding:0 0 64px;}
 
-  /* ── Header ── */
-  .header {
-    padding: 16px 24px 0;
-    display: flex; justify-content: space-between; align-items: center;
-  }
-  .greeting { font-size: 13px; color: var(--text2); }
-  .greeting strong { color: var(--text); font-weight: 700; }
-  .header-actions { display: flex; gap: 8px; }
-  .header-btn {
-    width: 36px; height: 36px; border-radius: 50%;
-    background: var(--surface); border: 1px solid var(--glass-border);
-    color: var(--text2); font-size: 16px; cursor: pointer;
-    display: flex; align-items: center; justify-content: center;
-    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
-    transition: all 0.2s;
-  }
-  .header-btn:active { transform: scale(0.9); }
+  /* masthead */
+  .masthead{display:flex;justify-content:space-between;align-items:flex-end;padding:28px 22px 20px;}
+  .greeting{font-size:11px;color:var(--ink-3);letter-spacing:.03em;margin-bottom:5px;}
+  .wordmark{font-family:var(--serif);font-weight:600;font-size:31px;line-height:.95;letter-spacing:-.015em;
+    font-optical-sizing:auto;}
+  .wordmark em{font-style:italic;font-weight:500;color:var(--accent);}
+  .kicker{font-size:10px;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--ink-3);margin-top:7px;}
+  .mast-actions{display:flex;align-items:center;gap:8px;}
+  .cloud-pill{font-size:10px;font-weight:700;padding:5px 10px;border-radius:99px;
+    border:1px solid rgba(143,174,138,.4);color:#a6c2a1;cursor:pointer;}
+  .icon-btn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line-2);background:transparent;
+    color:var(--ink-2);font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;}
+  .icon-btn:active{transform:scale(.9);}
 
-  /* ── Hero Card ── */
-  .hero-card {
-    margin: 20px 20px 0; padding: 28px 24px;
-    background: linear-gradient(135deg, rgba(124,92,252,0.25), rgba(255,59,92,0.15));
-    border-radius: var(--r); border: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(40px); -webkit-backdrop-filter: blur(40px);
-    position: relative; overflow: hidden;
-  }
-  .hero-card::after {
-    content: ''; position: absolute; top: -50%; right: -30%; width: 200px; height: 200px;
-    background: radial-gradient(circle, rgba(255,59,92,0.2) 0%, transparent 70%);
-    border-radius: 50%;
-  }
-  .hero-card .icon-row { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; position: relative; z-index: 1; }
-  .hero-card .app-icon {
-    width: 48px; height: 48px; border-radius: 14px;
-    background: linear-gradient(135deg, var(--accent), var(--accent2));
-    display: flex; align-items: center; justify-content: center; font-size: 22px;
-    box-shadow: 0 4px 20px rgba(124,92,252,0.4);
-  }
-  .hero-card .app-name { font-size: 22px; font-weight: 800; letter-spacing: -0.5px; }
-  .hero-card .app-tag { font-size: 12px; color: var(--text2); margin-top: 1px; }
+  /* hero — exam countdown + today */
+  .hero{margin:0 18px;padding:22px 22px 20px;border:1px solid var(--line-2);border-radius:20px;
+    background:linear-gradient(158deg,#271c13 0%, #1a1510 70%);position:relative;overflow:hidden;}
+  .hero::after{content:'';position:absolute;top:-40%;right:-25%;width:230px;height:230px;border-radius:50%;
+    background:radial-gradient(circle, rgba(255,106,61,.16), transparent 68%);pointer-events:none;}
+  .hero-top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:1;}
+  .hero-kick{font-size:10px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--accent);}
+  .hero-prog{font-family:var(--serif);font-weight:600;font-size:14px;color:var(--ink-2);
+    background:rgba(0,0,0,.25);padding:2px 11px;border-radius:99px;}
+  .hero-count{display:flex;align-items:baseline;gap:11px;margin:8px 0 2px;position:relative;z-index:1;}
+  .hero-count .num{font-family:var(--serif);font-weight:900;font-size:78px;line-height:.82;color:var(--accent);
+    font-optical-sizing:auto;letter-spacing:-.03em;}
+  .hero-count .unit{font-family:var(--serif-tc);font-weight:700;font-size:15px;color:var(--ink-2);line-height:1.15;}
+  .hero.done .hero-count .num{color:var(--accent-3);}
+  .hero-meta{font-family:var(--serif-tc);font-weight:500;font-size:13px;color:var(--ink-2);margin-top:6px;
+    position:relative;z-index:1;}
+  .hero-tasks{display:flex;flex-direction:column;margin-top:15px;border-top:1px solid var(--line);position:relative;z-index:1;}
+  .htask{display:flex;align-items:center;gap:11px;padding:11px 0;border-bottom:1px solid var(--line);}
+  .htask .hk{width:18px;height:18px;border-radius:50%;border:1.5px solid var(--ink-3);flex:none;
+    display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800;color:#1b1107;}
+  .htask.done .hk{background:var(--accent-3);border-color:var(--accent-3);}
+  .htask .ht{flex:1;font-size:13px;color:var(--ink);}
+  .htask.done .ht{color:var(--ink-3);text-decoration:line-through;}
+  .htask .hm{font-size:10px;color:var(--ink-3);font-weight:600;}
+  .hero-all{display:inline-block;margin-top:14px;font-size:11.5px;font-weight:600;color:var(--accent);
+    position:relative;z-index:1;}
 
-  .hero-stats { display: flex; gap: 0; position: relative; z-index: 1; }
-  .hero-stat {
-    flex: 1; text-align: center; padding: 12px 0;
-    border-right: 1px solid rgba(255,255,255,0.08);
-  }
-  .hero-stat:last-child { border: none; }
-  .hero-stat .hs-num { font-size: 24px; font-weight: 800; }
-  .hero-stat .hs-num.green { color: var(--green); }
-  .hero-stat .hs-num.accent { color: var(--accent); }
-  .hero-stat .hs-num.blue { color: var(--blue); }
-  .hero-stat .hs-num.orange { color: var(--orange); }
-  .hero-stat .hs-label { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: 1.5px; margin-top: 4px; font-weight: 600; }
+  /* review CTA */
+  .review{display:flex;align-items:center;gap:14px;margin:15px 18px 0;padding:15px 18px;border-radius:16px;
+    background:linear-gradient(100deg, rgba(255,106,61,.15), rgba(255,106,61,.04));
+    border:1px solid rgba(255,106,61,.32);transition:transform .15s,border-color .2s;}
+  .review:active{transform:scale(.985);}
+  .review:hover{border-color:rgba(255,106,61,.5);}
+  .review .r-ico{width:36px;height:36px;border-radius:50%;flex:none;background:var(--accent);color:#1b1107;
+    display:flex;align-items:center;justify-content:center;font-size:13px;box-shadow:0 4px 18px rgba(255,106,61,.4);}
+  .review .r-body{flex:1;display:flex;flex-direction:column;}
+  .review .r-title{font-family:var(--serif-tc);font-weight:700;font-size:15.5px;}
+  .review .r-sub{font-size:11.5px;color:var(--ink-2);margin-top:1px;line-height:1.45;}
+  .review .r-badge{display:none;align-items:center;justify-content:center;background:var(--accent);color:#1b1107;
+    font-family:var(--serif);font-weight:600;font-size:14px;min-width:26px;height:26px;padding:0 8px;border-radius:99px;}
+  .review .r-arrow{color:var(--accent);font-weight:700;font-size:17px;}
 
-  /* ── Streak / Motivation ── */
-  .motivation {
-    margin: 16px 20px 0; padding: 14px 18px;
-    background: var(--surface); border-radius: var(--r-sm);
-    border: 1px solid var(--glass-border);
-    display: flex; align-items: center; gap: 12px;
-    font-size: 13px; color: var(--text2);
-  }
-  .motivation .flame { font-size: 24px; }
-  .motivation strong { color: var(--text); }
+  /* stats */
+  .stats{display:flex;margin:20px 22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .stat{flex:1;padding:15px 0;text-align:center;border-right:1px solid var(--line);}
+  .stat:last-child{border-right:none;}
+  .stat .n{font-family:var(--serif);font-weight:600;font-size:27px;line-height:1;font-optical-sizing:auto;}
+  .stat .l{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-3);margin-top:6px;font-weight:600;}
+  .motivation{display:flex;align-items:center;gap:9px;margin:13px 22px 0;font-size:11.5px;color:var(--ink-2);}
+  .motivation .flame{color:var(--accent);font-size:13px;}
+  .motivation strong{color:var(--ink);font-weight:700;}
 
-  /* ── Section ── */
-  .section { padding: 24px 20px 0; }
-  .section-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 14px; }
-  .section-title { font-size: 19px; font-weight: 800; letter-spacing: -0.3px; }
-  .section-sub { font-size: 12px; color: var(--text3); font-weight: 500; cursor: pointer; }
+  /* tools — editorial grouped index */
+  .tools-section{margin-top:24px;}
+  .tools-head{display:flex;align-items:baseline;gap:9px;padding:0 22px 4px;}
+  .tools-head .t-h{font-family:var(--serif-tc);font-weight:700;font-size:16.5px;}
+  .tools-head .t-h-en{font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);}
+  .tool-list{display:flex;flex-direction:column;}
+  .tool-row{display:flex;align-items:center;gap:13px;padding:13px 22px;border-top:1px solid var(--line);
+    transition:background .16s;}
+  .tool-row:hover{background:var(--panel);}
+  .tool-row:active{background:var(--panel-2);}
+  .tool-row .ti{width:36px;height:36px;border-radius:11px;flex:none;display:flex;align-items:center;
+    justify-content:center;font-size:17px;}
+  .g-listen .ti{background:rgba(255,106,61,.13);}
+  .g-speak  .ti{background:rgba(232,176,75,.13);}
+  .g-tool   .ti{background:rgba(143,174,138,.13);}
+  .tool-row .tt{flex:1;display:flex;flex-direction:column;min-width:0;}
+  .tool-row .tn{font-size:14px;font-weight:600;letter-spacing:-.1px;}
+  .tool-row .ts{font-size:11px;color:var(--ink-3);margin-top:1px;}
+  .tool-row .tc{color:var(--ink-3);font-size:15px;}
 
-  /* ── Language Pills ── */
-  .pills { display: flex; gap: 8px; margin-bottom: 16px; overflow-x: auto; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
-  .pills::-webkit-scrollbar { display: none; }
-  .pill {
-    flex-shrink: 0; padding: 8px 16px; border-radius: 100px;
-    background: var(--surface); border: 1px solid var(--glass-border);
-    color: var(--text2); font-size: 13px; font-weight: 600; cursor: pointer;
-    transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
-  }
-  .pill:active { transform: scale(0.92); }
-  .pill.active {
-    background: linear-gradient(135deg, var(--accent), var(--accent2));
-    color: #fff; border-color: transparent;
-    box-shadow: 0 4px 16px rgba(255,59,92,0.3);
-  }
+  /* practice / mock list */
+  .practice{margin-top:30px;padding:0 22px;}
+  .practice-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:13px;}
+  .practice-head h2{font-family:var(--serif-tc);font-weight:700;font-size:18px;}
+  .filter-label{font-size:11.5px;color:var(--ink-3);}
+  .pills{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;margin-bottom:14px;}
+  .pills::-webkit-scrollbar{display:none;}
+  .pill{flex:none;padding:7px 15px;border-radius:99px;border:1px solid var(--line-2);background:transparent;
+    color:var(--ink-2);font-size:12.5px;font-weight:600;cursor:pointer;transition:all .2s;font-family:var(--sans);}
+  .pill:active{transform:scale(.93);}
+  .pill.active{background:var(--accent);border-color:var(--accent);color:#1b1107;}
+  .cards{display:flex;flex-direction:column;gap:11px;}
+  .vgroup{margin:18px 0 4px;padding-left:13px;border-left:2.5px solid var(--k);}
+  .vgroup .vg-emoji{font-size:15px;}
+  .vgroup .vg-label{font-family:var(--serif-tc);font-weight:700;font-size:16px;color:var(--k);margin-left:4px;}
+  .vgroup .vg-n{font-size:11px;color:var(--ink-3);margin-left:6px;}
+  .vgroup .vg-sub{font-size:11px;color:var(--ink-2);margin-top:4px;line-height:1.5;}
+  .vcard{border:1px solid var(--line);border-left:3px solid var(--k);border-radius:13px;padding:15px 16px;
+    background:var(--panel);cursor:pointer;transition:transform .15s,background .2s,border-color .2s;}
+  .vcard:active{transform:scale(.985);}
+  .vcard:hover{background:var(--panel-2);border-color:var(--line-2);}
+  .vc-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;}
+  .vc-title{font-size:14px;font-weight:600;line-height:1.42;color:var(--ink);}
+  .vc-badge{flex:none;font-size:10px;font-weight:700;padding:3px 9px;border-radius:7px;
+    border:1px solid var(--k);color:var(--k);white-space:nowrap;}
+  .vc-meta{display:flex;gap:12px;font-size:11px;color:var(--ink-3);margin-top:8px;}
+  .vc-ch{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .vc-bar{height:3px;background:rgba(243,230,205,.08);border-radius:2px;margin-top:11px;overflow:hidden;}
+  .vc-bar i{display:block;height:100%;background:var(--k);border-radius:2px;transition:width .6s cubic-bezier(.22,1,.36,1);}
+  .vc-foot{display:flex;justify-content:space-between;align-items:center;margin-top:9px;}
+  .vc-foot span:first-child{font-size:11px;font-weight:700;color:var(--ink-2);}
+  .vc-arrow{color:var(--ink-3);}
 
-  /* ── Video Cards ── */
-  .cards { display: flex; flex-direction: column; gap: 12px; padding-bottom: 40px; }
-  .card {
-    background: var(--surface); border-radius: var(--r);
-    border: 1px solid var(--glass-border);
-    padding: 18px 18px 14px; cursor: pointer;
-    transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
-    position: relative; overflow: hidden;
-  }
-  .card:active { transform: scale(0.97); }
-  .card:hover { border-color: rgba(255,255,255,0.15); }
-
-  /* Language accent stripe */
-  .card .stripe {
-    position: absolute; top: 0; left: 0; width: 4px; height: 100%;
-    border-radius: var(--r) 0 0 var(--r);
-  }
-  .stripe-nl { background: linear-gradient(180deg, #ff3b5c, #ff6b81); }
-  .stripe-ja { background: linear-gradient(180deg, #60a5fa, #93c5fd); }
-  .stripe-en { background: linear-gradient(180deg, #34d399, #6ee7b7); }
-  .stripe-de { background: linear-gradient(180deg, #fb923c, #fdba74); }
-  .stripe-fr { background: linear-gradient(180deg, #7c5cfc, #a78bfa); }
-
-  .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; padding-left: 8px; }
-  .card .c-title { font-size: 15px; font-weight: 700; line-height: 1.4; flex: 1; margin-right: 10px; letter-spacing: -0.2px; }
-  .card .c-badge {
-    flex-shrink: 0; padding: 4px 10px; border-radius: 8px;
-    font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;
-  }
-  .badge-nl { background: rgba(255,59,92,0.12); color: #ff6b81; }
-  .badge-ja { background: rgba(96,165,250,0.12); color: #93c5fd; }
-  .badge-en { background: rgba(52,211,153,0.12); color: #6ee7b7; }
-  .badge-de { background: rgba(251,146,60,0.12); color: #fdba74; }
-  .badge-fr { background: rgba(124,92,252,0.12); color: #a78bfa; }
-
-  .card .c-info { display: flex; gap: 14px; font-size: 12px; color: var(--text3); padding-left: 8px; margin-bottom: 12px; font-weight: 500; }
-
-  .card .c-progress { height: 3px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow: hidden; margin-left: 8px; }
-  .card .c-progress-fill { height: 100%; border-radius: 2px; background: var(--green); transition: width 0.6s cubic-bezier(0.22, 1, 0.36, 1); }
-
-  .card .c-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; padding-left: 8px; }
-  .card .c-pct { font-size: 11px; font-weight: 700; color: var(--green); }
-  .card .c-arrow { color: var(--text3); font-size: 16px; transition: transform 0.2s; }
-  .card:hover .c-arrow { transform: translateX(3px); }
-
-  /* ── Practice tools grid ── */
-  .section-mini {
-    margin: 22px 20px 10px; font-size: 12px; font-weight: 700;
-    color: var(--text2); letter-spacing: 0.3px; text-transform: uppercase;
-  }
-  .tools { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 0 20px; }
-  .tool {
-    display: flex; align-items: center; gap: 11px;
-    padding: 12px 13px; border-radius: 14px;
-    background: var(--surface); border: 1px solid var(--glass-border);
-    cursor: pointer; transition: all 0.2s;
-    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
-  }
-  .tool:active { transform: scale(0.96); }
-  .tool:hover { border-color: rgba(255,255,255,0.16); background: var(--surface2); }
-  .tool .t-ico {
-    flex: 0 0 38px; height: 38px; border-radius: 11px;
-    display: flex; align-items: center; justify-content: center; font-size: 19px;
-  }
-  .tool .t-txt { min-width: 0; }
-  .tool .t-name { font-size: 13.5px; font-weight: 700; color: var(--text); letter-spacing: -0.2px; }
-  .tool .t-sub { font-size: 10.5px; color: var(--muted); margin-top: 2px; line-height: 1.3;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
-  /* ── Single centred column on every screen size ── */
-  .app { max-width: 520px; }
-  @media (min-width: 769px) {
-    .app { max-width: 540px; }
-  }
-
-  /* ── Animations ── */
-  @keyframes slideUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
-  .hero-card { animation: slideUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.1s backwards; }
-  .motivation { animation: slideUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.2s backwards; }
-  .card { animation: slideUp 0.5s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
-  .card:nth-child(1) { animation-delay: 0.25s; }
-  .card:nth-child(2) { animation-delay: 0.3s; }
-  .card:nth-child(3) { animation-delay: 0.35s; }
-  .card:nth-child(4) { animation-delay: 0.4s; }
-  .card:nth-child(5) { animation-delay: 0.45s; }
+  /* page-load motion */
+  @keyframes rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
+  .hero,.review,.stats,.motivation,.tools-section,.practice{animation:rise .6s cubic-bezier(.2,.7,.3,1) backwards;}
+  .hero{animation-delay:.04s;} .review{animation-delay:.1s;} .stats{animation-delay:.16s;}
+  .motivation{animation-delay:.2s;} .tools-section{animation-delay:.24s;} .practice{animation-delay:.3s;}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important;}}
 </style>
 </head>
 <body>
 
-<div class="ambient"></div>
+<div class="grain"></div>
+<div class="glow"></div>
 
 <div class="app">
-  <div class="header">
-    <div class="greeting" id="greeting">早安 ☀️</div>
-    <div class="header-actions">
-      <span id="cloud-pill" style="display:none;font-size:10px;font-weight:700;padding:4px 9px;border-radius:100px;
-        background:rgba(94,234,212,0.12);border:1px solid rgba(94,234,212,0.3);color:#5eead4;margin-right:4px"
-        onclick="window.location.href='sync.html'">☁️ …</span>
-      <span style="font-size:9px;color:#888;opacity:.55;margin-right:6px;letter-spacing:.3px">v2026-06-10</span>
-      <button class="header-btn" onclick="location.reload()">↻</button>
+  <header class="masthead">
+    <div>
+      <div class="greeting" id="greeting"></div>
+      <h1 class="wordmark"><em>Echo</em> Dutch</h1>
+      <div class="kicker">A2 Luisteren · Inburgering</div>
     </div>
-  </div>
+    <div class="mast-actions">
+      <span id="cloud-pill" class="cloud-pill" style="display:none" onclick="location.href='sync.html'">☁️</span>
+      <button class="icon-btn" onclick="location.reload()" aria-label="reload">↻</button>
+    </div>
+  </header>
 
-  <div class="hero-card">
-    <div class="icon-row">
-      <div class="app-icon">🎧</div>
-      <div>
-        <div class="app-name">Echo Dutch</div>
-        <div class="app-tag">荷蘭文口說考試練習神器</div>
-      </div>
-    </div>
-    <div class="hero-stats">
-      <div class="hero-stat"><div class="hs-num accent" id="h-videos">0</div><div class="hs-label">影片</div></div>
-      <div class="hero-stat"><div class="hs-num blue" id="h-langs">0</div><div class="hs-label">語言</div></div>
-      <div class="hero-stat"><div class="hs-num green" id="h-sentences">0</div><div class="hs-label">句子</div></div>
-      <div class="hero-stat"><div class="hs-num orange" id="h-practiced">0</div><div class="hs-label">已練</div></div>
-    </div>
-  </div>
+  <!-- Hero: exam countdown + today's plan (JS replaces when exam date is set) -->
+  <section class="hero" id="today-widget">
+    <div class="hero-kick">備考計畫</div>
+    <div class="hero-count"><span class="num">14</span><span class="unit">天<br>衝刺</span></div>
+    <div class="hero-meta">設定考試日期 · 每天按表操課</div>
+    <a href="day14.html" class="hero-all">打開 14 天計畫 →</a>
+  </section>
 
-  <div class="motivation" id="motivation">
-    <span class="flame">🔥</span>
-    <span>開始你的第一次練習，<strong>建立學習連續紀錄</strong></span>
-  </div>
-
-  <!-- Daily review: one-tap unified SRS queue (vocab due + exam wrong answers) -->
-  <div id="review-cta" style="margin:16px 0 0;padding:16px 18px;border-radius:18px;
-       background:linear-gradient(135deg,rgba(94,234,212,0.22),rgba(52,211,153,0.12));
-       border:1px solid rgba(94,234,212,0.45);cursor:pointer;display:flex;align-items:center;gap:14px"
-       onclick="window.location.href='review.html'">
-    <div style="font-size:34px;line-height:1">▶</div>
-    <div style="flex:1">
-      <div style="font-size:15px;font-weight:800;color:#e8e8f0">今日複習</div>
-      <div style="font-size:11.5px;color:var(--text2);margin-top:2px;line-height:1.5" id="review-sub">
-        該複習的單字 + 錯題，混成一個 session
-      </div>
-    </div>
-    <div id="review-badge" style="display:none;background:rgba(0,0,0,0.3);padding:5px 11px;border-radius:11px;
-      font-size:14px;font-weight:900;color:#5eead4"></div>
-    <div style="font-size:18px;color:#5eead4;font-weight:800">→</div>
-  </div>
+  <!-- Primary daily review -->
+  <a class="review" id="review-cta" href="review.html">
+    <span class="r-ico">▶</span>
+    <span class="r-body">
+      <span class="r-title">今日複習</span>
+      <span class="r-sub" id="review-sub">到期單字 + 錯題，混成一個 session</span>
+    </span>
+    <span class="r-badge" id="review-badge"></span>
+    <span class="r-arrow">→</span>
+  </a>
   <script>
-    // due count from localStorage only (no fetch): vocab SRS due + exam due/wrong
-    (function reviewBadge() {
-      const t = (() => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); })();
-      let n = 0;
-      try {
-        const srs = JSON.parse(localStorage.getItem('lph_vocab_srs') || '{}');
-        n += Object.values(srs).filter(s => s && !s.skipped && s.reps < 900 && s.due <= t).length;
-      } catch(e) {}
-      for (const vid of ['mock3_a2_2026', '_iC1Pooi2UA', 'AMVy2zPNLso']) {
-        try {
-          const st = JSON.parse(localStorage.getItem('examapp:' + vid) || '{}');
-          n += Object.values(st.q || {}).filter(q =>
-            (q.srs && !q.srs.graduated && q.srs.due <= t) || q.last_correct === false).length;
-        } catch(e) {}
+    (function reviewBadge(){
+      const t=(()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');})();
+      let n=0;
+      try{const srs=JSON.parse(localStorage.getItem('lph_vocab_srs')||'{}');
+        n+=Object.values(srs).filter(s=>s&&!s.skipped&&s.reps<900&&s.due<=t).length;}catch(e){}
+      for(const vid of ['mock3_a2_2026','_iC1Pooi2UA','AMVy2zPNLso']){
+        try{const st=JSON.parse(localStorage.getItem('examapp:'+vid)||'{}');
+          n+=Object.values(st.q||{}).filter(q=>(q.srs&&!q.srs.graduated&&q.srs.due<=t)||q.last_correct===false).length;}catch(e){}
       }
-      if (n > 0) {
-        const b = document.getElementById('review-badge');
-        b.textContent = n; b.style.display = 'block';
-        document.getElementById('review-sub').textContent = `${n} 項到期 · 大約 ${Math.max(3, Math.round(n * 0.6))} 分鐘`;
-      }
+      if(n>0){const b=document.getElementById('review-badge');b.textContent=n;b.style.display='inline-flex';
+        document.getElementById('review-sub').textContent=`${n} 項到期 · 約 ${Math.max(3,Math.round(n*0.6))} 分鐘`;}
     })();
-  </script>
-
-  <!-- 14-day exam plan: HEADLINE card (gets enhanced with today's tasks by JS below) -->
-  <div id="today-widget" style="margin:16px 0 0;padding:16px 18px;border-radius:18px;
-       background:linear-gradient(135deg,rgba(167,139,250,0.22),rgba(94,234,212,0.12));
-       border:1px solid rgba(167,139,250,0.4);cursor:pointer;display:flex;align-items:center;gap:14px"
-       onclick="window.location.href='day14.html'">
-    <div style="font-size:34px;line-height:1">📅</div>
-    <div style="flex:1">
-      <div style="font-size:15px;font-weight:800;color:#e8e8f0">14 天備考計畫</div>
-      <div style="font-size:11.5px;color:var(--muted);margin-top:2px;line-height:1.5">
-        每天 30 分鐘 · 不用想練什麼 · 按表操課
-      </div>
-    </div>
-    <div style="font-size:18px;color:#a78bfa;font-weight:800">→</div>
-  </div>
-  <script>
-    // ── Today widget: replace the headline card with today's tasks ──
-    (async function todayWidget() {
-      const STORE_KEY = 'lph_day14_state';
-      const EXAM_KEY = 'lph_exam_date';
-      try {
-        const j = await (await fetch('data/day14_plan.json')).json();
-        const PLAN = j.plan;
-        const examIso = localStorage.getItem(EXAM_KEY);
-        if (!examIso) return; // no exam date set → keep generic card
-        const examDate = new Date(examIso);
-        const today = new Date(); today.setHours(0,0,0,0);
-        const daysUntilExam = Math.ceil((examDate - today) / 86400000);
-        // Map: day N = examDate - (15 - N) days from today's perspective
-        // dayN today = examDate - (15-N) days = today → 15 - N = (examDate - today) days → N = 15 - daysUntilExam
-        const todayDayNum = 15 - daysUntilExam;
-        if (todayDayNum < 1 || todayDayNum > 14) return;
-        const day = PLAN.find(p => p.d === todayDayNum);
-        if (!day) return;
-        const state = JSON.parse(localStorage.getItem(STORE_KEY) || '{}');
-        const done = day.tasks.filter(t => state[t.id]).length;
-        const total = day.tasks.length;
-        const allDone = done === total;
-        const esc = s => String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-
-        const card = document.getElementById('today-widget');
-        card.style.cursor = 'default';
-        card.onclick = null;
-        card.style.flexDirection = 'column';
-        card.style.alignItems = 'stretch';
-        card.style.gap = '12px';
-        if (allDone) {
-          card.style.background = 'linear-gradient(135deg,rgba(74,222,128,0.22),rgba(94,234,212,0.12))';
-          card.style.borderColor = 'rgba(74,222,128,0.4)';
-        } else {
-          card.style.background = 'linear-gradient(135deg,rgba(253,224,71,0.18),rgba(167,139,250,0.12))';
-          card.style.borderColor = 'rgba(253,224,71,0.4)';
+    (async function todayWidget(){
+      const STORE_KEY='lph_day14_state', EXAM_KEY='lph_exam_date';
+      const esc=s=>String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      try{
+        const j=await (await fetch('data/day14_plan.json')).json();
+        const PLAN=j.plan;
+        const examIso=localStorage.getItem(EXAM_KEY);
+        if(!examIso) return;
+        const examDate=new Date(examIso);
+        const today=new Date(); today.setHours(0,0,0,0);
+        const daysUntilExam=Math.ceil((examDate-today)/86400000);
+        const todayDayNum=15-daysUntilExam;
+        const card=document.getElementById('today-widget');
+        if(todayDayNum<1||todayDayNum>14){
+          card.innerHTML=`<div class="hero-kick">倒數 · LUISTEREN</div>
+            <div class="hero-count"><span class="num">${Math.max(0,daysUntilExam)}</span><span class="unit">天<br>後考試</span></div>
+            <a href="day14.html" class="hero-all">打開 14 天計畫 →</a>`;
+          return;
         }
-        card.innerHTML = `
-          <div style="display:flex;align-items:center;gap:12px">
-            <div style="font-size:32px;line-height:1">${allDone ? '✅' : '📅'}</div>
-            <div style="flex:1">
-              <div style="font-size:11px;color:#a78bfa;font-weight:800;letter-spacing:1px">
-                D${todayDayNum} / 14 · ${esc(day.phase)} · 剩 ${daysUntilExam} 天考試
-              </div>
-              <div style="font-size:15px;font-weight:800;color:#e8e8f0;margin-top:2px">${esc(day.title)}</div>
-            </div>
-            <div style="background:rgba(0,0,0,0.25);padding:4px 9px;border-radius:10px;
-              font-size:12px;font-weight:800;color:${allDone ? '#4ade80' : '#fde047'}">${done}/${total}</div>
+        const day=PLAN.find(p=>p.d===todayDayNum); if(!day) return;
+        const state=JSON.parse(localStorage.getItem(STORE_KEY)||'{}');
+        const done=day.tasks.filter(t=>state[t.id]).length, total=day.tasks.length, allDone=done===total;
+        if(allDone) card.classList.add('done');
+        card.innerHTML=`
+          <div class="hero-top">
+            <span class="hero-kick">${allDone?'今日完成 ✓':'倒數 · LUISTEREN'}</span>
+            <span class="hero-prog">${done}/${total}</span>
           </div>
-          <div style="display:flex;flex-direction:column;gap:5px">
-            ${day.tasks.map(t => {
-              const isDone = state[t.id];
-              return `<a href="${esc(t.link || '#')}" style="display:flex;align-items:center;gap:9px;
-                padding:9px 11px;background:${isDone ? 'rgba(74,222,128,0.1)' : 'rgba(0,0,0,0.2)'};
-                border-radius:8px;text-decoration:none;border:1px solid ${isDone ? 'rgba(74,222,128,0.3)' : 'rgba(255,255,255,0.05)'};
-                transition:border-color .15s">
-                <span style="flex:0 0 18px;height:18px;border-radius:50%;border:2px solid ${isDone ? '#4ade80' : 'rgba(255,255,255,0.2)'};
-                  background:${isDone ? '#4ade80' : 'transparent'};display:flex;align-items:center;justify-content:center;
-                  color:#000;font-size:11px;font-weight:800">${isDone ? '✓' : ''}</span>
-                <span style="flex:1;font-size:12.5px;font-weight:600;color:${isDone ? 'var(--muted)' : '#e8e8f0'};
-                  ${isDone ? 'text-decoration:line-through' : ''}">${esc(t.name)}</span>
-                ${t.min ? `<span style="font-size:10px;color:var(--muted);font-weight:700">${t.min}分</span>` : ''}
-              </a>`;
-            }).join('')}
+          <div class="hero-count"><span class="num">${daysUntilExam}</span><span class="unit">天<br>後考試</span></div>
+          <div class="hero-meta">D${todayDayNum} / 14 · ${esc(day.phase)} — ${esc(day.title)}</div>
+          <div class="hero-tasks">
+            ${day.tasks.map(t=>{const isDone=state[t.id];
+              return `<a href="${esc(t.link||'#')}" class="htask${isDone?' done':''}">
+                <span class="hk">${isDone?'✓':''}</span>
+                <span class="ht">${esc(t.name)}</span>
+                ${t.min?`<span class="hm">${t.min}′</span>`:''}
+              </a>`;}).join('')}
           </div>
-          <a href="day14.html" style="display:block;text-align:center;font-size:11.5px;font-weight:700;
-            color:#a78bfa;text-decoration:none;padding:4px">→ 看完整 14 天計畫</a>
-        `;
-      } catch(e) {
-        console.warn('today widget failed', e);
-      }
+          <a href="day14.html" class="hero-all">看完整 14 天計畫 →</a>`;
+      }catch(e){ console.warn('today widget failed',e); }
     })();
   </script>
 
-  <!-- Practice tools, grouped by purpose -->
-  <div class="section-mini" style="color:#5eead4">📻 聽力練習 · 考試主項</div>
-  <div class="tools">
-    <div class="tool" onclick="location.href='vocab.html'">
-      <div class="t-ico" style="background:#60a5fa22;color:#60a5fa">📚</div>
-      <div class="t-txt"><div class="t-name">詞彙閃卡</div><div class="t-sub">聽音認字 · 核心優先</div></div>
-    </div>
-    <div class="tool" onclick="location.href='reducties.html'">
-      <div class="t-ico" style="background:#f472b622;color:#f472b6">🎧</div>
-      <div class="t-txt"><div class="t-name">連音解碼</div><div class="t-sub">niet/je/het 連音</div></div>
-    </div>
-    <div class="tool" onclick="location.href='dictee.html'">
-      <div class="t-ico" style="background:#60a5fa22;color:#60a5fa">✍️</div>
-      <div class="t-txt"><div class="t-name">聽寫訓練</div><div class="t-sub">聽一句打一句</div></div>
-    </div>
-    <div class="tool" onclick="location.href='predict.html'">
-      <div class="t-ico" style="background:#a78bfa22;color:#a78bfa">🎯</div>
-      <div class="t-txt"><div class="t-name">預測答題</div><div class="t-sub">25 秒讀題策略</div></div>
-    </div>
-    <div class="tool" onclick="location.href='vragen.html'">
-      <div class="t-ico" style="background:#a78bfa22;color:#a78bfa">❓</div>
-      <div class="t-txt"><div class="t-name">問句速查</div><div class="t-sub">8 句型 · 66 例</div></div>
-    </div>
-    <div class="tool" onclick="location.href='random-quiz.html'">
-      <div class="t-ico" style="background:#fbbf2422;color:#fbbf24">🎲</div>
-      <div class="t-txt"><div class="t-name">隨機考一題</div><div class="t-sub">67 題隨機抽</div></div>
-    </div>
-    <div class="tool" onclick="location.href='gap-analysis.html'">
-      <div class="t-ico" style="background:#f8717122;color:#f87171">📊</div>
-      <div class="t-txt"><div class="t-name">失分診斷</div><div class="t-sub">10 分鐘找弱點</div></div>
-    </div>
-    <div class="tool" onclick="location.href='handsfree.html'">
-      <div class="t-ico" style="background:#5eead422;color:#5eead4">🎧</div>
-      <div class="t-txt"><div class="t-name">耳機模式</div><div class="t-sub">走路就能練</div></div>
+  <!-- Stats -->
+  <div class="stats">
+    <div class="stat"><div class="n" id="h-videos">0</div><div class="l">影片</div></div>
+    <div class="stat"><div class="n" id="h-sentences">0</div><div class="l">句子</div></div>
+    <div class="stat"><div class="n" id="h-practiced">0</div><div class="l">已練</div></div>
+  </div>
+  <div class="motivation" id="motivation"><span class="flame">✦</span><span>開始你的第一次練習，建立連續紀錄</span></div>
+
+  <!-- Tools, grouped by purpose -->
+  <div class="tools-section">
+    <div class="tools-head"><span class="t-h" style="color:#ff8a5d">聽力練習</span><span class="t-h-en">考試主項 · Luisteren</span></div>
+    <div class="tool-list">
+      <a class="tool-row g-listen" href="vocab.html"><span class="ti">📚</span><span class="tt"><span class="tn">詞彙閃卡</span><span class="ts">聽音認字 · 核心優先</span></span><span class="tc">→</span></a>
+      <a class="tool-row g-listen" href="reducties.html"><span class="ti">🎧</span><span class="tt"><span class="tn">連音解碼</span><span class="ts">niet/je/het 連音</span></span><span class="tc">→</span></a>
+      <a class="tool-row g-listen" href="dictee.html"><span class="ti">✍️</span><span class="tt"><span class="tn">聽寫訓練</span><span class="ts">聽一句打一句 · 短句先</span></span><span class="tc">→</span></a>
+      <a class="tool-row g-listen" href="predict.html"><span class="ti">🎯</span><span class="tt"><span class="tn">預測答題</span><span class="ts">25 秒讀題策略</span></span><span class="tc">→</span></a>
+      <a class="tool-row g-listen" href="vragen.html"><span class="ti">❓</span><span class="tt"><span class="tn">問句速查</span><span class="ts">8 句型 · 66 例</span></span><span class="tc">→</span></a>
+      <a class="tool-row g-listen" href="random-quiz.html"><span class="ti">🎲</span><span class="tt"><span class="tn">隨機考一題</span><span class="ts">67 題隨機抽</span></span><span class="tc">→</span></a>
+      <a class="tool-row g-listen" href="gap-analysis.html"><span class="ti">📊</span><span class="tt"><span class="tn">失分診斷</span><span class="ts">10 分鐘找弱點</span></span><span class="tc">→</span></a>
+      <a class="tool-row g-listen" href="handsfree.html"><span class="ti">🎧</span><span class="tt"><span class="tn">耳機模式</span><span class="ts">走路就能練</span></span><span class="tc">→</span></a>
     </div>
   </div>
 
-  <div class="section-mini" style="color:#fb923c">🗣️ 口說練習</div>
-  <div class="tools">
-    <div class="tool" onclick="location.href='spreken.html'">
-      <div class="t-ico" style="background:#fb923c22;color:#fb923c">🗣️</div>
-      <div class="t-txt"><div class="t-name">口說模擬器</div><div class="t-sub">聽問題 25 秒答</div></div>
-    </div>
-    <div class="tool" onclick="location.href='templates.html'">
-      <div class="t-ico" style="background:#818cf822;color:#818cf8">📝</div>
-      <div class="t-txt"><div class="t-name">模板練習</div><div class="t-sub">93 模板 · 488 例</div></div>
-    </div>
-    <div class="tool" onclick="location.href='pronunciation.html'">
-      <div class="t-ico" style="background:#fb923c22;color:#fb923c">🔤</div>
-      <div class="t-txt"><div class="t-name">發音練習</div><div class="t-sub">母音 · 子音 · Echo</div></div>
+  <div class="tools-section">
+    <div class="tools-head"><span class="t-h" style="color:#e8b04b">口說練習</span><span class="t-h-en">Spreken</span></div>
+    <div class="tool-list">
+      <a class="tool-row g-speak" href="spreken.html"><span class="ti">🗣️</span><span class="tt"><span class="tn">口說模擬器</span><span class="ts">聽問題 25 秒答</span></span><span class="tc">→</span></a>
+      <a class="tool-row g-speak" href="templates.html"><span class="ti">📝</span><span class="tt"><span class="tn">模板練習</span><span class="ts">93 模板 · 488 例</span></span><span class="tc">→</span></a>
+      <a class="tool-row g-speak" href="pronunciation.html"><span class="ti">🔤</span><span class="tt"><span class="tn">發音練習</span><span class="ts">母音 · 子音 · Echo</span></span><span class="tc">→</span></a>
     </div>
   </div>
 
-  <div class="section-mini" style="color:var(--text2)">⚙️ 工具</div>
-  <div class="tools">
-    <div class="tool" onclick="location.href='sync.html'">
-      <div class="t-ico" style="background:#5eead422;color:#5eead4">☁️</div>
-      <div class="t-txt"><div class="t-name">自動同步</div><div class="t-sub">多裝置互通</div></div>
+  <div class="tools-section">
+    <div class="tools-head"><span class="t-h" style="color:#a6c2a1">工具</span><span class="t-h-en">Tools</span></div>
+    <div class="tool-list">
+      <a class="tool-row g-tool" href="sync.html"><span class="ti">☁️</span><span class="tt"><span class="tn">自動同步</span><span class="ts">多裝置互通</span></span><span class="tc">→</span></a>
     </div>
   </div>
 
-  <div class="section">
-    <div class="section-head">
-      <span class="section-title">我的練習</span>
-      <span class="section-sub" id="filter-label">全部</span>
+  <!-- Mock / video list -->
+  <section class="practice">
+    <div class="practice-head">
+      <h2>我的練習</h2>
+      <span class="filter-label" id="filter-label">全部</span>
     </div>
-
     <div class="pills" id="pills"></div>
     <div class="cards" id="cards"></div>
-  </div>
+  </section>
 </div>
 
 <script>
@@ -709,15 +560,14 @@ function getPrac(id) { try { return (JSON.parse(localStorage.getItem(`lph_${id}`
 // Greeting based on time
 function setGreeting() {
   const h = new Date().getHours();
-  const g = h < 12 ? '早安 ☀️' : h < 18 ? '午安 🌤' : '晚安 🌙';
-  document.getElementById('greeting').innerHTML = `${g} <strong>準備好練習了嗎？</strong>`;
+  const g = h < 12 ? '早安' : h < 18 ? '午安' : '晚安';
+  document.getElementById('greeting').textContent = `${g}，今天也練一點`;
 }
 
 function renderStats() {
   const total = videos.reduce((s,v) => s+v.segments, 0);
   const prac = videos.reduce((s,v) => s+getPrac(v.id), 0);
   document.getElementById('h-videos').textContent = videos.length;
-  document.getElementById('h-langs').textContent = new Set(videos.map(v=>v.lang)).size;
   document.getElementById('h-sentences').textContent = total.toLocaleString();
   document.getElementById('h-practiced').textContent = prac.toLocaleString();
 
@@ -737,11 +587,11 @@ function getKind(v) {
   return 'other';
 }
 const KIND_META = {
-  luisteren: { emoji: '📻', label: '聽力', color: '#5eead4',
+  luisteren: { emoji: '📻', label: '聽力', color: '#ff8a5d',
     sub: 'A2 Inburgering · 三大題：① 短對話 ② 長對話 ③ 廣告／新聞／留言' },
-  spreken: { emoji: '🗣️', label: '口說', color: '#fb923c',
+  spreken: { emoji: '🗣️', label: '口說', color: '#e8b04b',
     sub: 'A2 Inburgering · 三大題：① 看圖描述 ② 回答問題 ③ 情境給回應' },
-  other:   { emoji: '📺', label: '其他', color: '#a78bfa', sub: '' },
+  other:   { emoji: '📺', label: '其他', color: '#9a8f7a', sub: '' },
 };
 
 function renderPills() {
@@ -768,32 +618,22 @@ function cardHtml(v) {
   const pct = v.segments ? Math.round(p/v.segments*100) : 0;
   const dur = v.duration ? `${Math.floor(v.duration/60)} 分` : '';
   const km = KIND_META[getKind(v)];
-  return `<div class="card" onclick="go('${v.id}')" style="border-left:3px solid ${km.color}">
-    <div class="card-top">
-      <div class="c-title">${esc(v.title)}</div>
-      <span class="c-badge" style="background:${km.color}22;color:${km.color}">${km.emoji} ${km.label}</span>
+  return `<div class="vcard" onclick="go('${v.id}')" style="--k:${km.color}">
+    <div class="vc-top">
+      <div class="vc-title">${esc(v.title)}</div>
+      <span class="vc-badge">${km.emoji} ${km.label}</span>
     </div>
-    <div class="c-info">
-      <span>💬 ${v.segments} 句</span>
-      ${dur ? `<span>⏱ ${dur}</span>` : ''}
-      <span style="color:var(--text3)">${esc(v.channel || '')}</span>
-    </div>
-    <div class="c-progress"><div class="c-progress-fill" style="width:${pct}%;background:${km.color}"></div></div>
-    <div class="c-footer">
-      <span class="c-pct">${pct > 0 ? pct+'% 完成' : '尚未開始'}</span>
-      <span class="c-arrow">→</span>
-    </div>
+    <div class="vc-meta"><span>${v.segments} 句</span>${dur ? `<span>${dur}</span>` : ''}<span class="vc-ch">${esc(v.channel || '')}</span></div>
+    <div class="vc-bar"><i style="width:${pct}%"></i></div>
+    <div class="vc-foot"><span>${pct > 0 ? pct+'% 完成' : '尚未開始'}</span><span class="vc-arrow">→</span></div>
   </div>`;
 }
 
 function sectionHeader(kind, n) {
   const km = KIND_META[kind];
-  return `<div style="margin:18px 0 8px;padding:10px 14px;background:linear-gradient(90deg,${km.color}1a,transparent);border-left:3px solid ${km.color};border-radius:6px">
-    <div style="display:flex;align-items:baseline;gap:8px">
-      <span style="font-size:18px;font-weight:800;color:${km.color}">${km.emoji} ${km.label}</span>
-      <span style="font-size:12px;color:var(--text3);font-weight:600">${n} 支</span>
-    </div>
-    ${km.sub ? `<div style="font-size:11.5px;color:var(--text2);margin-top:3px">${km.sub}</div>` : ''}
+  return `<div class="vgroup" style="--k:${km.color}">
+    <span class="vg-emoji">${km.emoji}</span><span class="vg-label">${km.label}</span><span class="vg-n">${n} 支</span>
+    ${km.sub ? `<div class="vg-sub">${km.sub}</div>` : ''}
   </div>`;
 }
 
