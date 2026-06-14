@@ -105,25 +105,26 @@
   .motivation .flame{color:var(--accent);font-size:13px;}
   .motivation strong{color:var(--ink);font-weight:700;}
 
-  /* tools — editorial grouped index */
-  .tools-section{margin-top:24px;}
-  .tools-head{display:flex;align-items:baseline;gap:9px;padding:0 22px 4px;}
+  /* tools — tappable icon grid (launchpad) */
+  .tools-section{margin-top:20px;}
+  .tools-head{display:flex;align-items:baseline;gap:9px;padding:0 20px 9px;}
   .tools-head .t-h{font-family:var(--serif-tc);font-weight:700;font-size:16.5px;}
   .tools-head .t-h-en{font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);}
-  .tool-list{display:flex;flex-direction:column;}
-  .tool-row{display:flex;align-items:center;gap:13px;padding:13px 22px;border-top:1px solid var(--line);
-    transition:background .16s;}
-  .tool-row:hover{background:var(--panel);}
-  .tool-row:active{background:var(--panel-2);}
-  .tool-row .ti{width:36px;height:36px;border-radius:11px;flex:none;display:flex;align-items:center;
-    justify-content:center;font-size:17px;}
-  .g-listen .ti{background:rgba(255,106,61,.13);}
-  .g-speak  .ti{background:rgba(232,176,75,.13);}
-  .g-tool   .ti{background:rgba(143,174,138,.13);}
-  .tool-row .tt{flex:1;display:flex;flex-direction:column;min-width:0;}
-  .tool-row .tn{font-size:14px;font-weight:600;letter-spacing:-.1px;}
-  .tool-row .ts{font-size:11px;color:var(--ink-3);margin-top:1px;}
-  .tool-row .tc{color:var(--ink-3);font-size:15px;}
+  .tool-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:0 18px;}
+  .tool{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;
+    padding:13px 5px 11px;border-radius:15px;background:var(--panel);border:1px solid var(--line);
+    transition:transform .14s,background .2s,border-color .2s;}
+  .tool:active{transform:scale(.94);}
+  .tool:hover{background:var(--panel-2);border-color:var(--line-2);}
+  .tool .ti{width:44px;height:44px;border-radius:13px;flex:none;display:flex;align-items:center;
+    justify-content:center;font-size:22px;}
+  .g-listen .ti{background:rgba(255,106,61,.14);}
+  .g-speak  .ti{background:rgba(232,176,75,.14);}
+  .g-tool   .ti{background:rgba(143,174,138,.14);}
+  .tool .tt{display:flex;flex-direction:column;align-items:center;width:100%;min-width:0;}
+  .tool .tn{font-size:11.5px;font-weight:600;line-height:1.22;color:var(--ink);}
+  .tool .ts,.tool .tc{display:none;}
+  @media (max-width:360px){ .tool-grid{grid-template-columns:repeat(3,1fr);} }
 
   /* practice / mock list */
   .practice{margin-top:30px;padding:0 22px;}
@@ -258,42 +259,34 @@
     })();
   </script>
 
-  <!-- Stats -->
-  <div class="stats">
-    <div class="stat"><div class="n" id="h-videos">0</div><div class="l">影片</div></div>
-    <div class="stat"><div class="n" id="h-sentences">0</div><div class="l">句子</div></div>
-    <div class="stat"><div class="n" id="h-practiced">0</div><div class="l">已練</div></div>
-  </div>
-  <div class="motivation" id="motivation"><span class="flame">✦</span><span>開始你的第一次練習，建立連續紀錄</span></div>
-
   <!-- Tools, grouped by purpose -->
   <div class="tools-section">
     <div class="tools-head"><span class="t-h" style="color:#ff8a5d">聽力練習</span><span class="t-h-en">考試主項 · Luisteren</span></div>
-    <div class="tool-list">
-      <a class="tool-row g-listen" href="vocab.html"><span class="ti">📚</span><span class="tt"><span class="tn">詞彙閃卡</span><span class="ts">聽音認字 · 核心優先</span></span><span class="tc">→</span></a>
-      <a class="tool-row g-listen" href="reducties.html"><span class="ti">🎧</span><span class="tt"><span class="tn">連音解碼</span><span class="ts">niet/je/het 連音</span></span><span class="tc">→</span></a>
-      <a class="tool-row g-listen" href="dictee.html"><span class="ti">✍️</span><span class="tt"><span class="tn">聽寫訓練</span><span class="ts">聽一句打一句 · 短句先</span></span><span class="tc">→</span></a>
-      <a class="tool-row g-listen" href="predict.html"><span class="ti">🎯</span><span class="tt"><span class="tn">預測答題</span><span class="ts">25 秒讀題策略</span></span><span class="tc">→</span></a>
-      <a class="tool-row g-listen" href="vragen.html"><span class="ti">❓</span><span class="tt"><span class="tn">問句速查</span><span class="ts">8 句型 · 66 例</span></span><span class="tc">→</span></a>
-      <a class="tool-row g-listen" href="random-quiz.html"><span class="ti">🎲</span><span class="tt"><span class="tn">隨機考一題</span><span class="ts">67 題隨機抽</span></span><span class="tc">→</span></a>
-      <a class="tool-row g-listen" href="gap-analysis.html"><span class="ti">📊</span><span class="tt"><span class="tn">失分診斷</span><span class="ts">10 分鐘找弱點</span></span><span class="tc">→</span></a>
-      <a class="tool-row g-listen" href="handsfree.html"><span class="ti">🎧</span><span class="tt"><span class="tn">耳機模式</span><span class="ts">走路就能練</span></span><span class="tc">→</span></a>
+    <div class="tool-grid">
+      <a class="tool g-listen" href="vocab.html"><span class="ti">📚</span><span class="tt"><span class="tn">詞彙閃卡</span><span class="ts">聽音認字 · 核心優先</span></span><span class="tc">→</span></a>
+      <a class="tool g-listen" href="reducties.html"><span class="ti">🎧</span><span class="tt"><span class="tn">連音解碼</span><span class="ts">niet/je/het 連音</span></span><span class="tc">→</span></a>
+      <a class="tool g-listen" href="dictee.html"><span class="ti">✍️</span><span class="tt"><span class="tn">聽寫訓練</span><span class="ts">聽一句打一句 · 短句先</span></span><span class="tc">→</span></a>
+      <a class="tool g-listen" href="predict.html"><span class="ti">🎯</span><span class="tt"><span class="tn">預測答題</span><span class="ts">25 秒讀題策略</span></span><span class="tc">→</span></a>
+      <a class="tool g-listen" href="vragen.html"><span class="ti">❓</span><span class="tt"><span class="tn">問句速查</span><span class="ts">8 句型 · 66 例</span></span><span class="tc">→</span></a>
+      <a class="tool g-listen" href="random-quiz.html"><span class="ti">🎲</span><span class="tt"><span class="tn">隨機考一題</span><span class="ts">67 題隨機抽</span></span><span class="tc">→</span></a>
+      <a class="tool g-listen" href="gap-analysis.html"><span class="ti">📊</span><span class="tt"><span class="tn">失分診斷</span><span class="ts">10 分鐘找弱點</span></span><span class="tc">→</span></a>
+      <a class="tool g-listen" href="handsfree.html"><span class="ti">🎧</span><span class="tt"><span class="tn">耳機模式</span><span class="ts">走路就能練</span></span><span class="tc">→</span></a>
     </div>
   </div>
 
   <div class="tools-section">
     <div class="tools-head"><span class="t-h" style="color:#e8b04b">口說練習</span><span class="t-h-en">Spreken</span></div>
-    <div class="tool-list">
-      <a class="tool-row g-speak" href="spreken.html"><span class="ti">🗣️</span><span class="tt"><span class="tn">口說模擬器</span><span class="ts">聽問題 25 秒答</span></span><span class="tc">→</span></a>
-      <a class="tool-row g-speak" href="templates.html"><span class="ti">📝</span><span class="tt"><span class="tn">模板練習</span><span class="ts">93 模板 · 488 例</span></span><span class="tc">→</span></a>
-      <a class="tool-row g-speak" href="pronunciation.html"><span class="ti">🔤</span><span class="tt"><span class="tn">發音練習</span><span class="ts">母音 · 子音 · Echo</span></span><span class="tc">→</span></a>
+    <div class="tool-grid">
+      <a class="tool g-speak" href="spreken.html"><span class="ti">🗣️</span><span class="tt"><span class="tn">口說模擬器</span><span class="ts">聽問題 25 秒答</span></span><span class="tc">→</span></a>
+      <a class="tool g-speak" href="templates.html"><span class="ti">📝</span><span class="tt"><span class="tn">模板練習</span><span class="ts">93 模板 · 488 例</span></span><span class="tc">→</span></a>
+      <a class="tool g-speak" href="pronunciation.html"><span class="ti">🔤</span><span class="tt"><span class="tn">發音練習</span><span class="ts">母音 · 子音 · Echo</span></span><span class="tc">→</span></a>
     </div>
   </div>
 
   <div class="tools-section">
     <div class="tools-head"><span class="t-h" style="color:#a6c2a1">工具</span><span class="t-h-en">Tools</span></div>
-    <div class="tool-list">
-      <a class="tool-row g-tool" href="sync.html"><span class="ti">☁️</span><span class="tt"><span class="tn">自動同步</span><span class="ts">多裝置互通</span></span><span class="tc">→</span></a>
+    <div class="tool-grid">
+      <a class="tool g-tool" href="sync.html"><span class="ti">☁️</span><span class="tt"><span class="tn">自動同步</span><span class="ts">多裝置互通</span></span><span class="tc">→</span></a>
     </div>
   </div>
 
@@ -306,6 +299,14 @@
     <div class="pills" id="pills"></div>
     <div class="cards" id="cards"></div>
   </section>
+
+  <!-- Footer: corpus stats (secondary) -->
+  <div class="stats">
+    <div class="stat"><div class="n" id="h-videos">0</div><div class="l">影片</div></div>
+    <div class="stat"><div class="n" id="h-sentences">0</div><div class="l">句子</div></div>
+    <div class="stat"><div class="n" id="h-practiced">0</div><div class="l">已練</div></div>
+  </div>
+  <div class="motivation" id="motivation"><span class="flame">✦</span><span>開始你的第一次練習，建立連續紀錄</span></div>
 </div>
 
 <script>
