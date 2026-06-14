@@ -193,7 +193,9 @@ function updateStart() {
     `句池 ${n} 句 · 已練過 ${practiced} 句` + (weak ? ` · 待修正 ${weak} 句（會優先出現）` : '');
 }
 
-// ── Session build: wrong-first, then unseen (shuffled), then mastered ──
+// ── Session build: wrong-first, then unseen, then mastered.
+// Within each bucket, SHORT sentences first — start with 3-4 word lines so you
+// get wins early instead of an 11-word wall at #2 (→ 0% → demoralised). ──
 function startSession() {
   const store = loadStore();
   const all = [...selected].flatMap(v => pools[v] || []);
@@ -204,8 +206,11 @@ function startSession() {
     else if (r.lastPct < 100) wrong.push(it);
     else done.push(it);
   });
-  const shuffle = arr => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; } return arr; };
-  session = [...shuffle(wrong), ...shuffle(unseen), ...shuffle(done)].slice(0, SESSION_N);
+  const byLen = arr => arr
+    .map(it => ({ it, n: tokens(it.text).length }))
+    .sort((a, b) => a.n - b.n)
+    .map(x => x.it);
+  session = [...byLen(wrong), ...byLen(unseen), ...byLen(done)].slice(0, SESSION_N);
   si = 0; results = [];
   renderItem();
 }

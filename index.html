@@ -201,16 +201,11 @@
   .tool .t-sub { font-size: 10.5px; color: var(--muted); margin-top: 2px; line-height: 1.3;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-  /* ── Desktop layout ── */
+  /* ── Single centred column on every screen size ── */
+  .app { max-width: 520px; }
   @media (min-width: 769px) {
-    body { display: flex; }
-    .app { min-width: 420px; height: 100vh; overflow-y: auto; border-right: 1px solid var(--glass-border); }
-    .desktop-panel { flex: 1; height: 100vh; }
-    .desktop-panel iframe { width: 100%; height: 100%; border: none; }
-    .desktop-empty { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--text3); gap: 8px; }
-    .desktop-empty .de-icon { font-size: 48px; margin-bottom: 8px; opacity: 0.5; }
+    .app { max-width: 540px; }
   }
-  @media (max-width: 768px) { .desktop-panel { display: none; } }
 
   /* ── Animations ── */
   @keyframes slideUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
@@ -459,14 +454,6 @@
 
     <div class="pills" id="pills"></div>
     <div class="cards" id="cards"></div>
-  </div>
-</div>
-
-<div class="desktop-panel" id="desktop-panel">
-  <div class="desktop-empty">
-    <div class="de-icon">🎧</div>
-    <div style="font-size:15px;font-weight:600;color:var(--text2)">選一支影片開始練習</div>
-    <div style="font-size:12px">從左側選擇影片</div>
   </div>
 </div>
 
