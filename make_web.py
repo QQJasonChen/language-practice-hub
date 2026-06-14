@@ -130,9 +130,10 @@ def render_analysis(nl: str, analysis: dict):
         return '', False
     bd = ''.join(f'<div class="ana-bd"><b>{esc(c[0])}</b> {esc(c[1])}</div>'
                  for c in a.get('breakdown', []) if isinstance(c, list) and len(c) >= 2)
+    o = f'<div class="ana-o">🧩 語序 · {esc(a["order"])}</div>' if a.get('order') else ''
     g = f'<div class="ana-g">📘 {esc(a["grammar"])}</div>' if a.get('grammar') else ''
     l = f'<div class="ana-l">👂 {esc(a["listen"])}</div>' if a.get('listen') else ''
-    return f'<div class="lana">{bd}{g}{l}</div>', True
+    return f'<div class="lana">{bd}{o}{g}{l}</div>', True
 
 
 CSS = r"""
@@ -238,6 +239,8 @@ header .meta { font-size:11.5px; color:#bfdbfe; }
 .lana.show { display:block; }
 .lana .ana-bd { padding:1px 0; }
 .lana .ana-bd b { color:#fcd34d; font-weight:700; }
+.lana .ana-o { margin-top:9px; padding:8px 10px; background:rgba(245,158,11,.12);
+  border:1px solid rgba(245,158,11,.4); border-radius:8px; color:#fde68a; font-weight:600; }
 .lana .ana-g { margin-top:7px; color:#bae6fd; }
 .lana .ana-l { margin-top:4px; color:#fca5a5; }
 .line.hard { border-left-color:#f87171; }
