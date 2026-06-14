@@ -32,6 +32,53 @@ def secs(t: str) -> float:
 def esc_attr(t: str) -> str:
     return esc(t).replace('"', '&quot;')
 
+def resegment_dialogue(dlg: list) -> list:
+    """Turn ~4s Whisper chunks into clean one-sentence lines.
+    Pass 1: merge a chunk whose text doesn't end on a sentence terminator into
+            the next (fixes a sentence cut across two chunks).
+    Pass 2: split each merged chunk into individual sentences, interpolating each
+            sentence's start time by character position. Only split when NL and ZH
+            have the same sentence count (otherwise keep the chunk intact).
+    Returns [{'start': float, 'end': float, 'nl': str, 'zh': str}]."""
+    base = []
+    for i, ln in enumerate(dlg):
+        s = secs(ln['t'])
+        e = secs(dlg[i + 1]['t']) if i + 1 < len(dlg) else s + 5
+        if e <= s:
+            e = s + 4
+        base.append([s, e, (ln.get('nl') or '').strip(), (ln.get('zh') or '').strip()])
+
+    ends_ok = lambda t: re.search(r'[.?!][\'")\]]?\s*$', t.strip())
+    merged, i = [], 0
+    while i < len(base):
+        s, e, nl, zh = base[i]
+        j = i
+        while not ends_ok(nl) and j + 1 < len(base):
+            j += 1
+            e = base[j][1]
+            nl = (nl + ' ' + base[j][2]).strip()
+            zh = (zh + base[j][3]).strip()
+        merged.append([s, e, nl, zh])
+        i = j + 1
+
+    out = []
+    for s, e, nl, zh in merged:
+        nl_sents = [x.strip() for x in re.split(r'(?<=[.?!])\s+', nl) if x.strip()]
+        zh_sents = [x.strip() for x in re.split(r'(?<=[。？！!?])', zh) if x.strip()]
+        if len(nl_sents) > 1 and len(nl_sents) == len(zh_sents):
+            total = sum(len(x) for x in nl_sents) or 1
+            acc = 0
+            for ns, zs in zip(nl_sents, zh_sents):
+                f0 = acc / total
+                acc += len(ns)
+                f1 = acc / total
+                out.append({'start': s + f0 * (e - s), 'end': s + f1 * (e - s),
+                            'nl': ns, 'zh': zs})
+        else:
+            out.append({'start': s, 'end': e, 'nl': nl, 'zh': zh})
+    return out
+
+
 def wrap_vocab(text: str, vocab: list) -> str:
     """Wrap scene-vocab terms inside a dialogue line with tappable spans, so the
     learner can tap a word -> meaning + the sentence's REAL audio (word <-> sound).
@@ -892,15 +939,14 @@ def build(exam: dict) -> str:
         nq = len(sc['questions'])
         rnote = f'考試中此段重播 {nq} 次，這裡只列一次' if nq > 1 else '考試播放後作答'
         parts.append(f'<div class="dlg-h">📺 {esc(sc["kind"])}原文 <span>— {rnote}</span></div>')
-        dlg = sc['dialogue']
-        for i, ln in enumerate(dlg):
-            s = secs(ln['t'])
-            e = secs(dlg[i + 1]['t']) if i + 1 < len(dlg) else s + 5
+        for u in resegment_dialogue(sc['dialogue']):
+            s, e = u['start'], u['end']
+            label = f"{int(s)//60}:{int(s)%60:02d}"
             parts.append(
-                f'<div class="line" data-t="{s}" data-end="{e}">'
-                f'<button class="ts" data-t="{s}">{esc(ln["t"])}</button>'
-                f'<div class="lb"><div class="lnl">{wrap_vocab(ln["nl"], sc["vocab"])}</div>'
-                f'<div class="lzh">{esc(ln["zh"])}</div></div>'
+                f'<div class="line" data-t="{s:.1f}" data-end="{e:.1f}">'
+                f'<button class="ts" data-t="{s:.1f}">{label}</button>'
+                f'<div class="lb"><div class="lnl">{wrap_vocab(u["nl"], sc["vocab"])}</div>'
+                f'<div class="lzh">{esc(u["zh"])}</div></div>'
                 f'<div class="lacts">'
                 f'<button class="lact loop" title="循環這一句">🔁</button>'
                 f'<button class="lact star" title="標記難句，之後集中複習">☆</button>'
