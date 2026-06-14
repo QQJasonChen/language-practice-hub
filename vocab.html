@@ -260,7 +260,26 @@ function toggleFavWord(key) {
   const btn = document.querySelector(`.fav-btn[data-key="${CSS.escape(key)}"]`);
   if (btn) { btn.classList.toggle('on', f.has(key)); btn.title = f.has(key) ? '取消收藏' : '收藏'; }
   // update fav count badge
-  document.getElementById('f-fav-n').textContent = '(' + f.size + ')';
+  const favEl = document.getElementById('f-fav-n');
+  if (favEl) favEl.textContent = '(' + f.size + ')';
+}
+
+// Toggle fav from the study card (no list re-render needed — just swap the icon)
+function toggleCardFav(key) {
+  const f = loadFav();
+  if (f.has(key)) f.delete(key); else f.add(key);
+  saveFav(f);
+  const btn = document.getElementById('card-fav-btn');
+  if (btn) {
+    const on = f.has(key);
+    btn.textContent = on ? '⭐' : '☆';
+    btn.style.opacity = on ? '1' : '0.3';
+    btn.style.transform = on ? 'scale(1.2)' : '';
+    btn.title = on ? '取消收藏' : '標記為不熟，加入收藏';
+    setTimeout(() => { if (btn) btn.style.transform = on ? 'scale(1)' : ''; }, 200);
+  }
+  const favEl = document.getElementById('f-fav-n');
+  if (favEl) favEl.textContent = '(' + f.size + ')';
 }
 
 // "0:38" → 38, "1:42" → 102, "12:05" → 725
@@ -596,9 +615,20 @@ function renderCard() {
       ${ctxHtml}
       <div class="card-zh">${esc(v.zh)}</div>
       ${v.note ? `<div class="card-note">💡 ${esc(v.note)}</div>` : ''}`;
+  const vKey = v.nl.toLowerCase().trim();
+  const vFaved = loadFav().has(vKey);
+  const safeKey = vKey.replace(/'/g,"\\'");
   box.innerHTML = `
-    <div style="text-align:center;font-size:12px;color:var(--dim);margin-bottom:8px">
-      ${qi + 1} / ${queue.length} · ${v.type === 'pattern' ? '🔑 句型' : '📚 詞彙'}${v.core ? '<span class="core-badge">⭐ 核心</span>' : ''}${lapsePill}
+    <div style="display:flex;align-items:center;justify-content:center;gap:8px;
+      font-size:12px;color:var(--dim);margin-bottom:8px;position:relative">
+      <span>${qi + 1} / ${queue.length} · ${v.type === 'pattern' ? '🔑 句型' : '📚 詞彙'}${v.core ? '<span class="core-badge">⭐ 核心</span>' : ''}${lapsePill}</span>
+      <button id="card-fav-btn" onclick="toggleCardFav('${safeKey}')"
+        title="${vFaved?'取消收藏':'標記為不熟，加入收藏'}"
+        style="position:absolute;right:0;background:none;border:none;cursor:pointer;
+          font-size:20px;padding:0 2px;opacity:${vFaved?'1':'0.3'};
+          transition:opacity .15s,transform .15s;line-height:1">
+        ${vFaved?'⭐':'☆'}
+      </button>
     </div>
     ${lapseHint}
     <div class="card" id="card">${cardInner}</div>
