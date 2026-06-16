@@ -439,7 +439,10 @@ async function loadVocab() {
       }
     } catch(e) { console.error('load fail', vid, e); }
   }
-  vocab = [...m.values()];
+  // Drop proper nouns (person names / places / road codes) — not exam vocabulary.
+  let proper = new Set();
+  try { proper = new Set(await (await fetch('output/proper_nouns.json')).json()); } catch(e) {}
+  vocab = [...m.values()].filter(v => !proper.has(v.nl.toLowerCase().trim()));
   // Mark core words (appear in ≥2 mocks) — the high-yield bedrock to learn first.
   // Function words (de/een/het…) live in reducties; here we rank by frequency.
   for (const v of vocab) {
