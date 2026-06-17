@@ -32,6 +32,31 @@ def secs(t: str) -> float:
 def esc_attr(t: str) -> str:
     return esc(t).replace('"', '&quot;')
 
+_clean_re = re.compile(r'[^0-9a-zà-ÿ ]')
+def _clean(s: str) -> str:
+    return ' '.join(_clean_re.sub('', (s or '').lower()).split())
+
+def occurrence_times(sentence: str, data_segs: list) -> list:
+    """All start times where this sentence is spoken in the full audio (the mock
+    replays each scenario ~3×). Interpolate the sentence's start inside each
+    matching chunk by character position. Short sentences (ambiguous) → [] so the
+    caller falls back to the single first-play time."""
+    key = _clean(sentence)
+    if len(key) < 8:
+        return []
+    out = []
+    for ct, s, e in data_segs:
+        idx = ct.find(key)
+        if idx >= 0:
+            out.append(round(s + (idx / max(1, len(ct))) * (e - s), 1))
+    out.sort()
+    ded = []
+    for v in out:
+        if not ded or v - ded[-1] > 1.0:
+            ded.append(v)
+    return ded
+
+
 def resegment_dialogue(dlg: list) -> list:
     """Turn ~4s Whisper chunks into clean one-sentence lines.
     Pass 1: merge a chunk whose text doesn't end on a sentence terminator into
@@ -597,9 +622,16 @@ window.addEventListener('wheel', _markUserScroll, { passive: true });
 window.addEventListener('touchmove', _markUserScroll, { passive: true });
 
 function lineAt(t) {
-  let cur = null;
-  document.querySelectorAll('.line[data-t]').forEach(l => {
-    if (parseFloat(l.dataset.t) <= t) cur = l;
+  // Each line lists ALL its occurrence times (the mock audio replays every
+  // scenario ~3×). Pick the line whose most-recent occurrence ≤ t is latest,
+  // so the highlight follows whichever replay is currently playing.
+  let cur = null, best = -1;
+  document.querySelectorAll('.line[data-ts]').forEach(l => {
+    const arr = l.dataset.ts.split(',');
+    for (let k = 0; k < arr.length; k++) {
+      const v = parseFloat(arr[k]);
+      if (v <= t && v > best) { best = v; cur = l; }
+    }
   });
   return cur;
 }
@@ -930,6 +962,17 @@ def build(exam: dict) -> str:
             analysis = json.loads(ana_path.read_text(encoding='utf-8'))
         except Exception:
             analysis = {}
+    # full transcript (with all replays) — used to follow whichever replay plays
+    data_segs = []
+    dpath = OUT / exam['video_id'] / 'data.json'
+    if dpath.exists():
+        try:
+            for s in json.loads(dpath.read_text(encoding='utf-8'))['ai_data']['segments']:
+                ct = _clean(s.get('text') or '')
+                if ct:
+                    data_segs.append((ct, float(s.get('start') or 0), float(s.get('end') or 0)))
+        except Exception:
+            data_segs = []
     parts.append(f"""<header><div class="wrap">
       <h1>{esc(exam.get('title',''))}</h1>
       <div class="meta">🎧 {esc(exam.get('exam_type',''))} ·
@@ -982,11 +1025,13 @@ def build(exam: dict) -> str:
         for u in resegment_dialogue(sc['dialogue']):
             s, e = u['start'], u['end']
             label = f"{int(s)//60}:{int(s)%60:02d}"
+            occ = occurrence_times(u['nl'], data_segs) or [round(s, 1)]
+            data_ts = ','.join(f'{x:g}' for x in occ)
             ana_html, has_ana = render_analysis(u['nl'], analysis)
             ana_btn = ('<button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button>'
                        if has_ana else '')
             parts.append(
-                f'<div class="line" data-t="{s:.1f}" data-end="{e:.1f}">'
+                f'<div class="line" data-t="{s:.1f}" data-end="{e:.1f}" data-ts="{data_ts}">'
                 f'<button class="ts" data-t="{s:.1f}">{label}</button>'
                 f'<div class="lb"><div class="lnl">{wrap_vocab(u["nl"], sc["vocab"])}</div>'
                 f'<div class="lzh">{esc(u["zh"])}</div>{ana_html}</div>'
