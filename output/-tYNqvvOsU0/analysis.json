@@ -1,0 +1,879 @@
+{
+ "bezoek de dokter.": {
+  "breakdown": [
+   [
+    "Bezoek",
+    "拜訪"
+   ],
+   [
+    "de dokter",
+    "醫生"
+   ]
+  ],
+  "order": "動詞(Bezoek) → 主詞(你) → 受詞(de dokter)",
+  "grammar": "這是祈使句，主詞通常省略。",
+  "listen": "注意‘de’的發音，可能聽不清楚。"
+ },
+ "start de diashow, klik op de oranje pijltjes hieronder.": {
+  "breakdown": [
+   [
+    "Start",
+    "啟動"
+   ],
+   [
+    "de diashow",
+    "投影片"
+   ],
+   [
+    "klik op",
+    "點擊"
+   ],
+   [
+    "de oranje pijltjes",
+    "橘色箭頭"
+   ],
+   [
+    "hieronder",
+    "下面"
+   ]
+  ],
+  "order": "動詞(Start) → 主詞(你) → 受詞(de diashow) → 動詞(klik) → 受詞(de oranje pijltjes) → 地點(hieronder)",
+  "grammar": "這句有兩個動詞，注意動詞的順序。",
+  "listen": "‘de’和‘op’可能會連音，注意聽。"
+ },
+ "hoi, ik ben de dokter.": {
+  "breakdown": [
+   [
+    "Hoi",
+    "嗨"
+   ],
+   [
+    "ik ben",
+    "我是"
+   ],
+   [
+    "de dokter",
+    "醫生"
+   ]
+  ],
+  "order": "問候(Hoi) → 主詞(ik) → 動詞(ben) → 受詞(de dokter)",
+  "grammar": "這是簡單現在式，表達自我介紹。",
+  "listen": "‘ik ben’可能聽起來像‘ikben’，要注意。"
+ },
+ "op de foto's zie je wat er gebeurt als je bij me langskomt in het ziekenhuis.": {
+  "breakdown": [
+   [
+    "Op de foto's",
+    "在照片中"
+   ],
+   [
+    "zie je",
+    "你可以看到"
+   ],
+   [
+    "wat er gebeurt",
+    "會發生什麼事"
+   ],
+   [
+    "als je bij me langskomt",
+    "當你來找我"
+   ],
+   [
+    "in het ziekenhuis",
+    "在醫院"
+   ]
+  ],
+  "order": "地點(Op de foto's) → 動詞(zie) → 主詞(je) → 受詞(什麼事) → 條件(als je bij me langskomt) → 地點(in het ziekenhuis)",
+  "grammar": "這句包含條件句，注意動詞位置。",
+  "listen": "‘wat er’可能連音，聽時要特別注意。"
+ },
+ "piep moet naar de dokter in het ziekenhuis.": {
+  "breakdown": [
+   [
+    "Piep",
+    "Piep"
+   ],
+   [
+    "moet",
+    "必須"
+   ],
+   [
+    "naar de dokter",
+    "去醫生"
+   ],
+   [
+    "in het ziekenhuis",
+    "在醫院"
+   ]
+  ],
+  "order": "主詞(Piep) → 動詞(moet) → 地點(naar de dokter) → 地點(in het ziekenhuis)",
+  "grammar": "這句使用情態動詞‘moet’表示必要性。",
+  "listen": "‘de’的發音可能不清晰，注意聽。"
+ },
+ "samen met mama rolt hij naar boven.": {
+  "breakdown": [
+   [
+    "Samen met mama",
+    "和媽媽一起"
+   ],
+   [
+    "rolt hij",
+    "他推著"
+   ],
+   [
+    "naar boven",
+    "往上走"
+   ]
+  ],
+  "order": "副詞(Samen met mama) → 動詞(rolt) → 主詞(hij) → 地點(naar boven)",
+  "grammar": "這句有副詞短語，強調一起行動。",
+  "listen": "‘met’可能聽起來像‘met’，注意連音。"
+ },
+ "mama kijkt op het scherm.": {
+  "breakdown": [
+   [
+    "Mama",
+    "媽媽"
+   ],
+   [
+    "kijkt op",
+    "看著"
+   ],
+   [
+    "het scherm",
+    "螢幕"
+   ]
+  ],
+  "order": "主詞(Mama) → 動詞(kijkt) → 受詞(het scherm)",
+  "grammar": "這是簡單現在式，描述動作。",
+  "listen": "‘op’的發音可能不清晰，注意聽。"
+ },
+ "het is een grote wegwijzer.": {
+  "breakdown": [
+   [
+    "Het is",
+    "那是"
+   ],
+   [
+    "een grote wegwijzer",
+    "一個大型指示牌"
+   ]
+  ],
+  "order": "主詞(Het) → 動詞(is) → 受詞(een grote wegwijzer)",
+  "grammar": "這句是簡單現在式，描述事物。",
+  "listen": "‘is’的發音可能不清晰，注意聽。"
+ },
+ "daar kan ze precies zien waar de kamer van de dokter is.": {
+  "breakdown": [
+   [
+    "Daar",
+    "那裡"
+   ],
+   [
+    "kan ze zien",
+    "她可以看到"
+   ],
+   [
+    "precies waar",
+    "準確地在哪裡"
+   ],
+   [
+    "de kamer van de dokter is",
+    "醫生的診室"
+   ]
+  ],
+  "order": "地點(Daar) → 動詞(kan) → 主詞(ze) → 動詞(zien) → 受詞(precies waar de kamer van de dokter is)",
+  "grammar": "這句使用情態動詞‘kan’表示能力。",
+  "listen": "‘precies’的發音可能不清晰，注意聽。"
+ },
+ "gevonden!": {
+  "breakdown": [
+   [
+    "Gevonden",
+    "找到了"
+   ]
+  ],
+  "order": "這是簡單過去式的感嘆句。",
+  "grammar": "這句是過去分詞，表示已完成的動作。",
+  "listen": "注意‘Gevonden’的重音，可能聽不清楚。"
+ },
+ "dit is de kinderpoli.": {
+  "breakdown": [
+   [
+    "Dit is",
+    "這裡是"
+   ],
+   [
+    "de kinderpoli",
+    "兒童門診"
+   ]
+  ],
+  "order": "主詞(Dit) → 動詞(is) → 受詞(de kinderpoli)",
+  "grammar": "這句是簡單現在式，描述事物。",
+  "listen": "‘de’的發音可能不清晰，注意聽。"
+ },
+ "in het midden staan gele aanmeldzuilen.": {
+  "breakdown": [
+   [
+    "In het midden",
+    "在中間"
+   ],
+   [
+    "staan",
+    "有"
+   ],
+   [
+    "gele aanmeldzuilen",
+    "黃色的報到柱"
+   ]
+  ],
+  "order": "地點(In het midden) → 動詞(staan) → 受詞(gele aanmeldzuilen)",
+  "grammar": "這句是簡單現在式，描述位置。",
+  "listen": "‘staan’的發音可能不清晰，注意聽。"
+ },
+ "je houdt je ziekenhuispas voor het raampje en je krijgt een nummertje.": {
+  "breakdown": [
+   [
+    "Je",
+    "你"
+   ],
+   [
+    "houdt",
+    "將"
+   ],
+   [
+    "je ziekenhuispas",
+    "你的醫院卡"
+   ],
+   [
+    "voor het raampje",
+    "放在小窗戶前"
+   ],
+   [
+    "en je krijgt een nummertje",
+    "然後會收到一個號碼"
+   ]
+  ],
+  "order": "主詞Je → 動詞houdt → 受詞je ziekenhuispas → 地點voor het raampje → 連接詞en → 主詞je → 動詞krijgt → 受詞een nummertje。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意houdt和je之間的連音。"
+ },
+ "op een groot scherm zie je of je aan de beurt bent.": {
+  "breakdown": [
+   [
+    "Op een groot scherm",
+    "在大螢幕上"
+   ],
+   [
+    "zie je",
+    "可以看到你"
+   ],
+   [
+    "of je aan de beurt bent",
+    "是否輪到你了"
+   ]
+  ],
+  "order": "地點Op een groot scherm → 動詞zie → 主詞je → 連接詞of → 主詞je → 動詞ben → 受詞aan de beurt。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意aan de beurt的連音。"
+ },
+ "piep moet even wachten.": {
+  "breakdown": [
+   [
+    "Piep",
+    "Piep"
+   ],
+   [
+    "moet",
+    "需要"
+   ],
+   [
+    "even wachten",
+    "稍等"
+   ]
+  ],
+  "order": "主詞Piep → 動詞moet → 副詞even → 動詞wachten。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意moet和even之間的連音。"
+ },
+ "gelukkig is er van alles te doen.": {
+  "breakdown": [
+   [
+    "Gelukkig",
+    "幸好"
+   ],
+   [
+    "is er",
+    "有"
+   ],
+   [
+    "van alles te doen",
+    "很多事情可以做"
+   ]
+  ],
+  "order": "副詞Gelukkig → 動詞is → 受詞er → 受詞van alles → 不定詞te doen。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意is和er之間的連音。"
+ },
+ "er is een speelzaal en je kunt computerspelletjes spelen. er is ook een leestafel.": {
+  "breakdown": [
+   [
+    "Er is",
+    "這裡有"
+   ],
+   [
+    "een speelzaal",
+    "一個遊戲室"
+   ],
+   [
+    "en je kunt",
+    "你可以"
+   ],
+   [
+    "computerspelletjes spelen",
+    "玩電腦遊戲"
+   ],
+   [
+    "Er is ook",
+    "這裡也有"
+   ],
+   [
+    "een leestafel",
+    "一個閱讀桌"
+   ]
+  ],
+  "order": "受詞Er → 動詞is → 受詞een speelzaal → 連接詞en → 主詞je → 動詞kunt → 受詞computerspelletjes → 動詞spelen → 受詞Er → 動詞is → 連接詞ook → 受詞een leestafel。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意is和ook之間的連音。"
+ },
+ "het is zover.": {
+  "breakdown": [
+   [
+    "Het is",
+    "時候"
+   ],
+   [
+    "zover",
+    "到了"
+   ]
+  ],
+  "order": "主詞Het → 動詞is → 受詞zover。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意is和zover之間的連音。"
+ },
+ "piep is aan de beurt.": {
+  "breakdown": [
+   [
+    "Piep",
+    "Piep"
+   ],
+   [
+    "is aan de beurt",
+    "輪到"
+   ]
+  ],
+  "order": "主詞Piep → 動詞is → 受詞aan de beurt。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意is和aan de beurt之間的連音。"
+ },
+ "de doktersassistent komt hem halen.": {
+  "breakdown": [
+   [
+    "De doktersassistent",
+    "醫護助理"
+   ],
+   [
+    "komt",
+    "來"
+   ],
+   [
+    "hem halen",
+    "接他"
+   ]
+  ],
+  "order": "主詞De doktersassistent → 動詞komt → 受詞hem → 動詞halen。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意komt和hem之間的連音。"
+ },
+ "onderweg lopen ze langs de meetlat.": {
+  "breakdown": [
+   [
+    "Onderweg",
+    "路上"
+   ],
+   [
+    "lopen ze",
+    "他們走"
+   ],
+   [
+    "langs de meetlat",
+    "經過身高尺"
+   ]
+  ],
+  "order": "副詞Onderweg → 動詞lopen → 主詞ze → 受詞langs de meetlat。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意lopen和ze之間的連音。"
+ },
+ "dat is makkelijk, kunnen ze meteen even kijken hoe lang hij is.": {
+  "breakdown": [
+   [
+    "Dat is makkelijk",
+    "這很方便"
+   ],
+   [
+    "kunnen ze",
+    "他們可以"
+   ],
+   [
+    "meteen even kijken",
+    "馬上看看"
+   ],
+   [
+    "hoe lang hij is",
+    "他有多高"
+   ]
+  ],
+  "order": "主詞Dat → 動詞is → 受詞makkelijk → 動詞kunnen → 主詞ze → 副詞meteen → 副詞even → 動詞kijken → 受詞hoe lang hij is。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意is和makkelijk之間的連音。"
+ },
+ "de doktersassistent zet piep ook even op de weegschaal.": {
+  "breakdown": [
+   [
+    "De doktersassistent",
+    "醫護助理"
+   ],
+   [
+    "zet",
+    "讓"
+   ],
+   [
+    "Piep ook even",
+    "Piep也"
+   ],
+   [
+    "op de weegschaal",
+    "站上秤子"
+   ]
+  ],
+  "order": "主詞De doktersassistent → 動詞zet → 受詞Piep → 副詞ook → 副詞even → 受詞op de weegschaal。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意zet和Piep之間的連音。"
+ },
+ "hoe lang je bent en hoeveel je weegt is iets wat de dokter altijd wil weten.": {
+  "breakdown": [
+   [
+    "Hoe lang je bent",
+    "你的身高"
+   ],
+   [
+    "en hoeveel je weegt",
+    "和體重"
+   ],
+   [
+    "is iets wat de dokter altijd wil weten",
+    "是醫生總是想知道的事情"
+   ]
+  ],
+  "order": "受詞Hoe lang je bent → 連接詞en → 受詞hoeveel je weegt → 動詞is → 受詞iets → 受詞wat de dokter → 副詞altijd → 動詞wil → 動詞weten。",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意is和iets之間的連音。"
+ },
+ "soms moet je nog even wachten op de dokter.": {
+  "breakdown": [
+   [
+    "Soms",
+    "有時候"
+   ],
+   [
+    "moet je",
+    "你需要"
+   ],
+   [
+    "nog even wachten",
+    "再等一會兒"
+   ],
+   [
+    "op de dokter",
+    "醫生"
+   ]
+  ],
+  "order": "Soms(時間) → moet(動詞#1) → je(主詞) → nog even wachten(動詞#2) → op de dokter(介詞片語)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "'je' 和 'de' 可能連音，聽起來像 'je de'。"
+ },
+ "gelukkig heeft hij ook wat te spelen in zijn kamer.": {
+  "breakdown": [
+   [
+    "Gelukkig",
+    "幸好"
+   ],
+   [
+    "heeft hij",
+    "他有"
+   ],
+   [
+    "ook wat te spelen",
+    "一些玩具可以玩"
+   ],
+   [
+    "in zijn kamer",
+    "在他的房間裡"
+   ]
+  ],
+  "order": "Gelukkig(副詞) → heeft(動詞#1) → hij(主詞) → ook wat te spelen(動詞#2) → in zijn kamer(介詞片語)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "'heeft' 和 'hij' 可能連音，聽起來像 'heeft hij'。"
+ },
+ "daar is de dokter.": {
+  "breakdown": [
+   [
+    "Daar",
+    "那裡"
+   ],
+   [
+    "is de dokter",
+    "是醫生"
+   ]
+  ],
+  "order": "Daar(副詞) → is(動詞) → de dokter(主詞)",
+  "grammar": "現在式，簡單句。",
+  "listen": "'is' 可能被弱讀，聽起來像 'is'。"
+ },
+ "hij geeft piep een hand en vertelt wie hij is.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "geeft Piep een hand",
+    "跟 Piep 握手"
+   ],
+   [
+    "en vertelt",
+    "並介紹"
+   ],
+   [
+    "wie hij is",
+    "他是誰"
+   ]
+  ],
+  "order": "Hij(主詞) → geeft(動詞#1) → Piep(受詞) → een hand(受詞) → en(連接詞) → vertelt(動詞#2) → wie hij is(從句)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "'en' 可能被弱讀，聽起來像 'en'。"
+ },
+ "soms is de dokter een vrouw en soms een man.": {
+  "breakdown": [
+   [
+    "Soms",
+    "有時"
+   ],
+   [
+    "is de dokter",
+    "醫生是"
+   ],
+   [
+    "een vrouw",
+    "女的"
+   ],
+   [
+    "en soms een man",
+    "有時是男的"
+   ]
+  ],
+  "order": "Soms(時間) → is(動詞) → de dokter(主詞) → een vrouw(補語) → en(連接詞) → soms(時間) → een man(補語)",
+  "grammar": "現在式，簡單句。",
+  "listen": "'is' 可能被弱讀，聽起來像 'is'。"
+ },
+ "als iedereen zit gaat de dokter van alles uitleggen.": {
+  "breakdown": [
+   [
+    "Als iedereen zit",
+    "當大家坐好"
+   ],
+   [
+    "gaat de dokter",
+    "醫生會"
+   ],
+   [
+    "van alles uitleggen",
+    "解釋很多事情"
+   ]
+  ],
+  "order": "Als(連接詞) → iedereen(主詞) → zit(動詞) → gaat(動詞#1) → de dokter(主詞) → van alles uitleggen(動詞#2)",
+  "grammar": "從句，動詞在句尾。",
+  "listen": "'gaat' 和 'de' 可能連音，聽起來像 'gaat de'。"
+ },
+ "dat doet de dokter altijd voor hij je gaat onderzoeken.": {
+  "breakdown": [
+   [
+    "Dat",
+    "這"
+   ],
+   [
+    "doet de dokter altijd",
+    "醫生總是這樣做"
+   ],
+   [
+    "voor hij je gaat onderzoeken",
+    "在他檢查你之前"
+   ]
+  ],
+  "order": "Dat(主詞) → doet(動詞) → de dokter(主詞) → altijd(副詞) → voor(介詞) → hij(主詞) → je(受詞) → gaat(動詞) → onderzoeken(原形動詞)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "'doet' 可能被弱讀，聽起來像 'doet'。"
+ },
+ "piep klimt op de bank.": {
+  "breakdown": [
+   [
+    "Piep",
+    "Piep"
+   ],
+   [
+    "klimt op de bank",
+    "爬上診療床"
+   ]
+  ],
+  "order": "Piep(主詞) → klimt(動詞) → op de bank(介詞片語)",
+  "grammar": "現在式，簡單句。",
+  "listen": "'op' 可能被弱讀，聽起來像 'op'。"
+ },
+ "nu gaat de dokter hem onderzoeken.": {
+  "breakdown": [
+   [
+    "Nu",
+    "現在"
+   ],
+   [
+    "gaat de dokter",
+    "醫生要"
+   ],
+   [
+    "hem onderzoeken",
+    "開始檢查他"
+   ]
+  ],
+  "order": "Nu(副詞) → gaat(動詞#1) → de dokter(主詞) → hem(受詞) → onderzoeken(原形動詞)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "'gaat' 和 'de' 可能連音，聽起來像 'gaat de'。"
+ },
+ "hij voelt en klopt op pieps buik en hij luistert naar de dokter.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "voelt en klopt",
+    "觸摸並敲擊"
+   ],
+   [
+    "op Pieps buik",
+    "在 Piep 的肚子上"
+   ],
+   [
+    "en hij luistert naar de dokter",
+    "並聽他的呼吸"
+   ]
+  ],
+  "order": "Hij(主詞) → voelt(動詞#1) → en(連接詞) → klopt(動詞#2) → op Pieps buik(介詞片語) → en(連接詞) → hij(主詞) → luistert(動詞) → naar de dokter(介詞片語)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "'en' 可能被弱讀，聽起來像 'en'。"
+ },
+ "soms moet je even in je ondergoed, maar niet altijd.": {
+  "breakdown": [
+   [
+    "Soms",
+    "有時"
+   ],
+   [
+    "moet je even in je ondergoed",
+    "你必須只穿內衣"
+   ],
+   [
+    "maar niet altijd",
+    "但不一定每次都要"
+   ]
+  ],
+  "order": "Soms(時間) → moet(動詞#1) → je(主詞) → even in je ondergoed(動詞#2) → maar(連接詞) → niet altijd(副詞)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "'je' 和 'in' 可能連音，聽起來像 'je in'。"
+ },
+ "de dokter kijkt ook even in pieps oor. daar heeft hij een speciaal kijkertje voor.": {
+  "breakdown": [
+   [
+    "De dokter",
+    "醫生"
+   ],
+   [
+    "kijkt ook even in Pieps oor",
+    "也會看 Piep 的耳朵"
+   ],
+   [
+    "Daar heeft hij een speciaal kijkertje voor",
+    "有專用的小工具"
+   ]
+  ],
+  "order": "De dokter(主詞) → kijkt(動詞) → ook even(副詞) → in Pieps oor(介詞片語) → Daar(副詞) → heeft(動詞) → hij(主詞) → een speciaal kijkertje(受詞) → voor(介詞)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "'heeft' 和 'hij' 可能連音，聽起來像 'heeft hij'。"
+ },
+ "wat de dokter onderzoekt ligt aan jou, aan wat je hebt.": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "de dokter",
+    "醫生"
+   ],
+   [
+    "onderzoekt",
+    "檢查"
+   ],
+   [
+    "ligt aan jou",
+    "取決於你"
+   ],
+   [
+    "aan wat je hebt",
+    "和你的病情"
+   ]
+  ],
+  "order": "主詞(de dokter) → 動詞(onderzoekt) → 受詞(Wat) → 其他(aan jou, aan wat je hebt)",
+  "grammar": "使用現在時，動詞在第二位。",
+  "listen": "注意'wat'和'je'的連音。"
+ },
+ "het onderzoek is voorbij.": {
+  "breakdown": [
+   [
+    "Het onderzoek",
+    "檢查"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "voorbij",
+    "結束了"
+   ]
+  ],
+  "order": "主詞(Het onderzoek) → 動詞(is) → 補語(voorbij)",
+  "grammar": "現在時，簡單句型。",
+  "listen": "注意'het'的弱讀。"
+ },
+ "de dokter praat nog even met mama en piep.": {
+  "breakdown": [
+   [
+    "De dokter",
+    "醫生"
+   ],
+   [
+    "praat",
+    "說話"
+   ],
+   [
+    "nog even",
+    "還稍微"
+   ],
+   [
+    "met mama en Piep",
+    "和媽媽及Piep"
+   ]
+  ],
+  "order": "主詞(De dokter) → 動詞(praat) → 其他(nog even, met mama en Piep)",
+  "grammar": "現在時，簡單句型。",
+  "listen": "注意'nog'和'even'的連音。"
+ },
+ "hij vertelt wat hij denkt dat er aan de hand is en wat er nu verder gaat gebeuren.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "vertelt",
+    "告訴"
+   ],
+   [
+    "wat hij denkt",
+    "他認為什麼"
+   ],
+   [
+    "dat er aan de hand is",
+    "問題在哪裡"
+   ],
+   [
+    "en wat er nu verder gaat gebeuren",
+    "以及接下來會怎麼做"
+   ]
+  ],
+  "order": "主詞(Hij) → 動詞(vertelt) → 受詞(wat hij denkt) → 其他(dat er aan de hand is, en wat er nu verder gaat gebeuren)",
+  "grammar": "現在時，包含從句，動詞在句尾。",
+  "listen": "注意'wat'和'hij'的連音。"
+ },
+ "het is klaar.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "klaar",
+    "結束了"
+   ]
+  ],
+  "order": "主詞(Het) → 動詞(is) → 補語(klaar)",
+  "grammar": "現在時，簡單句型。",
+  "listen": "注意'het'的弱讀。"
+ },
+ "piep mag weer naar huis.": {
+  "breakdown": [
+   [
+    "Piep",
+    "Piep"
+   ],
+   [
+    "mag",
+    "可以"
+   ],
+   [
+    "weer",
+    "再"
+   ],
+   [
+    "naar huis",
+    "回家"
+   ]
+  ],
+  "order": "主詞(Piep) → 動詞(mag) → 其他(weer, naar huis)",
+  "grammar": "現在時，簡單句型。",
+  "listen": "注意'mag'的弱讀。"
+ },
+ "nog een hand van de dokter en doei!": {
+  "breakdown": [
+   [
+    "Nog een hand",
+    "再一次握手"
+   ],
+   [
+    "van de dokter",
+    "醫生的"
+   ],
+   [
+    "en doei",
+    "再見"
+   ]
+  ],
+  "order": "其他(Nog een hand van de dokter) → 連接詞(en) → 其他(doei)",
+  "grammar": "現在時，簡單句型。",
+  "listen": "注意'Nog'和'en'的連音。"
+ }
+}

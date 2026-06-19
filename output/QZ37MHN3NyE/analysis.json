@@ -22276,5 +22276,713 @@
   "order": "主詞Dit → 動詞is → 補語een gedicht。規則：主詞在前，動詞第二位。",
   "grammar": "現在式，表示定義。",
   "listen": "注意is的發音，可能聽不清。"
+ },
+ "het is om te luisteren.": {
+  "breakdown": [
+   [
+    "Het is",
+    "這是"
+   ],
+   [
+    "om te luisteren",
+    "用來聆聽的"
+   ]
+  ],
+  "order": "主詞(Het) → 動詞(is) → 補語(om te luisteren)",
+  "grammar": "現在式，表達用途或目的。",
+  "listen": "注意連音，'om te' 可能聽起來像 'om'te'."
+ },
+ "ik wil niet meer.": {
+  "breakdown": [
+   [
+    "Ik wil",
+    "我想"
+   ],
+   [
+    "niet meer",
+    "不再"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(wil) → 否定(niet) → 補語(meer)",
+  "grammar": "現在式，'niet' 用於否定。",
+  "listen": "'niet' 可能被弱讀，聽起來像 'n'."
+ },
+ "ik wil geen handjes geven.": {
+  "breakdown": [
+   [
+    "Ik wil",
+    "我想"
+   ],
+   [
+    "geen handjes geven",
+    "不想握手"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(wil) → 否定(geen) → 補語(handjes geven)",
+  "grammar": "現在式，'geen' 用於否定名詞。",
+  "listen": "'geen' 可能被弱讀，聽起來像 'g'."
+ },
+ "ik wil niet zeggen elke keer, jawel mevrouw, jawel meneer.": {
+  "breakdown": [
+   [
+    "Ik wil",
+    "我想"
+   ],
+   [
+    "niet zeggen",
+    "不想說"
+   ],
+   [
+    "elke keer",
+    "每次"
+   ],
+   [
+    "Jawel mevrouw, jawel meneer",
+    "是的女士，是的先生"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(wil) → 否定(niet) → 動詞(segen) → 補語(elke keer) → 直接引語(Jawel mevrouw, jawel meneer)",
+  "grammar": "現在式，'elke keer' 表示頻率。",
+  "listen": "'Jawel' 可能連音，聽起來像 'Ja wel'."
+ },
+ "nee, nooit meer in mijn leven.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "nooit meer",
+    "永遠不再"
+   ],
+   [
+    "in mijn leven",
+    "在我的一生中"
+   ]
+  ],
+  "order": "否定(Nee) → 副詞(nooit meer) → 補語(in mijn leven)",
+  "grammar": "現在式，強調永遠不再。",
+  "listen": "'Nee' 可能被弱讀，聽起來像 'N'."
+ },
+ "ik hou mijn handen op mijn rug en ik zeg lekker niks terug.": {
+  "breakdown": [
+   [
+    "Ik hou",
+    "我把"
+   ],
+   [
+    "mijn handen",
+    "我的手"
+   ],
+   [
+    "op mijn rug",
+    "放在背後"
+   ],
+   [
+    "en ik zeg",
+    "然後我說"
+   ],
+   [
+    "lekker niks terug",
+    "什麼也不回應"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(hou) → 受詞(mijn handen) → 介詞短語(op mijn rug) → 連接詞(en) → 主詞(Ik) → 動詞(zeg) → 補語(lekkerniks terug)",
+  "grammar": "現在式，'lekker' 用來強調。",
+  "listen": "'niks' 可能被弱讀，聽起來像 'n'."
+ },
+ "ik wil alleen maar snoepen en ik wil geen tandjes poetsen.": {
+  "breakdown": [
+   [
+    "Ik wil",
+    "我想"
+   ],
+   [
+    "alleen maar",
+    "只"
+   ],
+   [
+    "snoepen",
+    "吃糖果"
+   ],
+   [
+    "en ik wil",
+    "然後我想"
+   ],
+   [
+    "geen tandjes poetsen",
+    "不想刷牙"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(wil) → 補語(alleen maar snoepen) → 連接詞(en) → 主詞(Ik) → 動詞(wil) → 否定(geen) → 補語(tandjes poetsen)",
+  "grammar": "現在式，'alleen maar' 表示限制。",
+  "listen": "'geen' 可能被弱讀，聽起來像 'g'."
+ },
+ "ik wil heel hard springen in een plas en dan mijn tong uitsteken en morsen op mijn nieuwe jas.": {
+  "breakdown": [
+   [
+    "Ik wil",
+    "我想"
+   ],
+   [
+    "heel hard springen",
+    "很用力地跳"
+   ],
+   [
+    "in een plas",
+    "進水坑"
+   ],
+   [
+    "en dan",
+    "然後"
+   ],
+   [
+    "mijn tong uitsteken",
+    "伸出我的舌頭"
+   ],
+   [
+    "en morsen",
+    "然後弄髒"
+   ],
+   [
+    "op mijn nieuwe jas",
+    "我的新外套"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(wil) → 補語(heel hard springen) → 介詞短語(in een plas) → 連接詞(en) → 副詞(dan) → 主詞(mijn tong) → 動詞(uitsteken) → 連接詞(en) → 動詞(morsen) → 介詞短語(op mijn nieuwe jas)",
+  "grammar": "現在式，描述行為。",
+  "listen": "'heel hard' 可能連音，聽起來像 'heelhard'."
+ },
+ "en ik wil alles wat niet mag.": {
+  "breakdown": [
+   [
+    "En ik wil",
+    "然後我想"
+   ],
+   [
+    "alles wat niet mag",
+    "所有不被允許的事"
+   ]
+  ],
+  "order": "連接詞(En) → 主詞(Ik) → 動詞(wil) → 補語(alles wat niet mag)",
+  "grammar": "現在式，'wat niet mag' 是關係子句。",
+  "listen": "'wat niet' 可能連音，聽起來像 'watn'."
+ },
+ "de hele dag.": {
+  "breakdown": [
+   [
+    "De hele dag",
+    "一整天"
+   ]
+  ],
+  "order": "主詞(De hele dag)",
+  "grammar": "名詞短語，表示時間。",
+  "listen": "注意 'de' 可能被弱讀，聽起來像 'd'."
+ },
+ "en ik wil ook niet met de juffrouw mee.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "wil",
+    "想"
+   ],
+   [
+    "ook",
+    "也"
+   ],
+   [
+    "niet",
+    "不"
+   ],
+   [
+    "met de juffrouw mee",
+    "跟老師走"
+   ]
+  ],
+  "order": "主詞(ik) → 動詞(wil) → 其他(ook niet met de juffrouw mee)",
+  "grammar": "使用現在時，'niet'是否定詞，放在動詞後面。",
+  "listen": "'niet'可能聽不清，注意連音。"
+ },
+ "en ik wil altijd heel hard roepen, nee.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "wil",
+    "想"
+   ],
+   [
+    "altijd",
+    "總是"
+   ],
+   [
+    "heel hard",
+    "大聲"
+   ],
+   [
+    "roepen",
+    "喊"
+   ],
+   [
+    "nee",
+    "不"
+   ]
+  ],
+  "order": "主詞(ik) → 動詞(wil) → 其他(altijd heel hard roepen, nee)",
+  "grammar": "現在時，'nee'是強調的否定詞。",
+  "listen": "注意'heel hard'的連音，可能聽成'heelhard'。"
+ },
+ "78.": {
+  "breakdown": [
+   [
+    "78",
+    "78"
+   ]
+  ],
+  "order": "這句是數字，無需語序規則。",
+  "grammar": "無特別文法重點。",
+  "listen": "數字'78'可能聽不清，注意發音。"
+ },
+ "wiskunde is moeilijk.": {
+  "breakdown": [
+   [
+    "Wiskunde",
+    "數學"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "moeilijk",
+    "難"
+   ]
+  ],
+  "order": "主詞(Wiskunde) → 動詞(is) → 形容詞(moeilijk)",
+  "grammar": "使用現在時，形容詞(moeilijk)描述主詞。",
+  "listen": "注意'is'的發音，可能聽不清。"
+ },
+ "luister en lees mee in je boek, hoofdstuk 18.": {
+  "breakdown": [
+   [
+    "Luister",
+    "聽"
+   ],
+   [
+    "en",
+    "並且"
+   ],
+   [
+    "lees mee",
+    "跟著讀"
+   ],
+   [
+    "in je boek",
+    "在你的書裡"
+   ],
+   [
+    "hoofdstuk 18",
+    "第18章"
+   ]
+  ],
+  "order": "動詞(Luister) → 其他(en lees mee in je boek, hoofdstuk 18)",
+  "grammar": "命令句，動詞放句首。",
+  "listen": "'lees mee'可能連音，注意聽清。"
+ },
+ "ik woon met mijn broers, mijn kleine zusje en mijn ouders in oostende.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "woon",
+    "住"
+   ],
+   [
+    "met mijn broers",
+    "和我的兄弟們"
+   ],
+   [
+    "mijn kleine zusje",
+    "我的小妹妹"
+   ],
+   [
+    "en mijn ouders",
+    "和我的父母"
+   ],
+   [
+    "in Oostende",
+    "在奧斯坦德"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(woon) → 其他(met mijn broers, mijn kleine zusje en mijn ouders in Oostende)",
+  "grammar": "現在時，'met'是介系詞，後接名詞。",
+  "listen": "'met mijn broers'可能聽不清，注意連音。"
+ },
+ "wij wonen in een appartement.": {
+  "breakdown": [
+   [
+    "Wij",
+    "我們"
+   ],
+   [
+    "wonen",
+    "住"
+   ],
+   [
+    "in een appartement",
+    "在一間公寓"
+   ]
+  ],
+  "order": "主詞(Wij) → 動詞(wonen) → 其他(in een appartement)",
+  "grammar": "現在時，'in'是介系詞，後接名詞。",
+  "listen": "注意'apartement'的發音，可能聽不清。"
+ },
+ "het appartement is klein.": {
+  "breakdown": [
+   [
+    "Het appartement",
+    "公寓"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "klein",
+    "小"
+   ]
+  ],
+  "order": "主詞(Het appartement) → 動詞(is) → 形容詞(klein)",
+  "grammar": "現在時，形容詞(klein)描述主詞。",
+  "listen": "注意'is'的發音，可能聽不清。"
+ },
+ "ik ga elke dag naar school.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "ga",
+    "去"
+   ],
+   [
+    "elke dag",
+    "每天"
+   ],
+   [
+    "naar school",
+    "去學校"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(ga) → 其他(elke dag naar school)",
+  "grammar": "現在時，'naar'是介系詞，後接名詞。",
+  "listen": "注意'naar school'的連音，可能聽不清。"
+ },
+ "frans vind ik plezant.": {
+  "breakdown": [
+   [
+    "Frans",
+    "法語"
+   ],
+   [
+    "vind",
+    "覺得"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "plezant",
+    "有趣"
+   ]
+  ],
+  "order": "主詞(ik) → 動詞(vind) → 其他(Frans plezant)",
+  "grammar": "現在時，形容詞(plezant)描述主詞。",
+  "listen": "注意'vind ik'的連音，可能聽不清。"
+ },
+ "ik schrijf graag en ik lees graag in het frans.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "schrijf",
+    "寫"
+   ],
+   [
+    "graag",
+    "喜歡"
+   ],
+   [
+    "en",
+    "並且"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "lees",
+    "讀"
+   ],
+   [
+    "graag",
+    "喜歡"
+   ],
+   [
+    "in het Frans",
+    "用法語"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(schrijf) → 其他(graag) → 連接詞(en) → 主詞(Ik) → 動詞(lees) → 其他(graag in het Frans)",
+  "grammar": "現在時，'graag'表示喜好，重複使用。",
+  "listen": "注意'ik schrijf graag'的連音，可能聽不清。"
+ },
+ "maar wiskunde vind ik stom.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "wiskunde",
+    "數學"
+   ],
+   [
+    "vind",
+    "覺得"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "stom",
+    "煩"
+   ]
+  ],
+  "order": "主詞(ik) → 動詞(vind) → 其他(Maar wiskunde stom)",
+  "grammar": "現在時，形容詞(stom)描述主詞。",
+  "listen": "注意'vind ik'的連音，可能聽不清。"
+ },
+ "ik kan dat niet goed.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "kan",
+    "能"
+   ],
+   [
+    "dat",
+    "那個"
+   ],
+   [
+    "niet",
+    "不"
+   ],
+   [
+    "goed",
+    "好"
+   ]
+  ],
+  "order": "主詞→動詞→賓語→否定詞→副詞。規則：動詞在第2位，否定詞放在動詞後面。",
+  "grammar": "現在式，動詞kan是情態動詞。",
+  "listen": "注意‘kan’和‘niet’的連音，可能聽不清。"
+ },
+ "het is heel moeilijk en dan word ik zenuwachtig.": {
+  "breakdown": [
+   [
+    "Het",
+    "它"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "heel",
+    "非常"
+   ],
+   [
+    "moeilijk",
+    "困難"
+   ],
+   [
+    "en",
+    "然後"
+   ],
+   [
+    "dan",
+    "那時"
+   ],
+   [
+    "word",
+    "變得"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "zenuwachtig",
+    "緊張"
+   ]
+  ],
+  "order": "主詞→動詞→形容詞→連接詞→副詞→動詞→主詞→形容詞。規則：動詞在第2位，後面的動詞放在句尾。",
+  "grammar": "現在式，‘word’是變化動詞。",
+  "listen": "‘en dan’連音，可能聽不清。"
+ },
+ "ik maak ook niet graag huiswerk.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "maak",
+    "做"
+   ],
+   [
+    "ook",
+    "也"
+   ],
+   [
+    "niet",
+    "不"
+   ],
+   [
+    "graag",
+    "喜歡"
+   ],
+   [
+    "huiswerk",
+    "作業"
+   ]
+  ],
+  "order": "主詞→動詞→副詞→否定詞→副詞→賓語。規則：動詞在第2位，‘ook’和‘niet’放在動詞後。",
+  "grammar": "現在式，‘maak’是動詞。",
+  "listen": "注意‘niet’的發音，可能被忽略。"
+ },
+ "ik praat graag met mijn vriendinnen.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "praat",
+    "聊天"
+   ],
+   [
+    "graag",
+    "喜歡"
+   ],
+   [
+    "met",
+    "和"
+   ],
+   [
+    "mijn",
+    "我的"
+   ],
+   [
+    "vriendinnen",
+    "朋友們"
+   ]
+  ],
+  "order": "主詞→動詞→副詞→介詞→物主代名詞→賓語。規則：動詞在第2位，介詞後接物主代名詞。",
+  "grammar": "現在式，‘praat’是動詞。",
+  "listen": "‘met mijn’連音，可能聽不清。"
+ },
+ "ik zing graag. ik kijk graag in tijdschriften.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "zing",
+    "唱歌"
+   ],
+   [
+    "graag",
+    "喜歡"
+   ],
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "kijk",
+    "看"
+   ],
+   [
+    "graag",
+    "喜歡"
+   ],
+   [
+    "in",
+    "在"
+   ],
+   [
+    "tijdschriften",
+    "雜誌"
+   ]
+  ],
+  "order": "主詞→動詞→副詞→主詞→動詞→副詞→介詞→賓語。規則：兩個獨立句，動詞各在第2位。",
+  "grammar": "現在式，‘zing’和‘kijk’都是動詞。",
+  "listen": "‘graag’可能被弱讀，注意聽。"
+ },
+ "maar zwemmen vind ik niet plezant.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "zwemmen",
+    "游泳"
+   ],
+   [
+    "vind",
+    "覺得"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "niet",
+    "不"
+   ],
+   [
+    "plezant",
+    "好玩"
+   ]
+  ],
+  "order": "連接詞→動詞→賓語→主詞→否定詞→形容詞。規則：動詞在第2位，主詞在動詞後。",
+  "grammar": "現在式，‘vind’是動詞。",
+  "listen": "‘niet’的發音可能被忽略，注意聽。"
  }
 }

@@ -1,0 +1,663 @@
+1
+00:00:03,060 --> 00:00:05,060
+Drinken, drinken, drinken
+
+2
+00:00:05,700 --> 00:00:07,580
+Een man zit in een restaurant.
+
+3
+00:00:09,340 --> 00:00:09,840
+De man roept,
+
+4
+00:00:10,700 --> 00:00:12,080
+Ober, mag ik de menukaart?
+
+5
+00:00:13,500 --> 00:00:15,120
+De ober brengt de menukaart.
+
+6
+00:00:16,520 --> 00:00:18,860
+De man bestelt spaghetti en een fles witte wijn.
+
+7
+00:00:20,340 --> 00:00:22,480
+De ober brengt het bord spaghetti en de wijn.
+
+8
+00:00:24,020 --> 00:00:26,160
+De ober legt een mes en een vork naast het bord.
+
+9
+00:00:27,320 --> 00:00:28,380
+De man vraagt,
+
+10
+00:00:29,040 --> 00:00:30,340
+Ober, mag ik ook een lepel?
+
+11
+00:00:32,020 --> 00:00:33,320
+De ober brengt de lepel.
+
+12
+00:00:34,560 --> 00:00:35,460
+De man heeft honger.
+
+13
+00:00:36,600 --> 00:00:37,580
+Hij eet de spaghetti.
+
+14
+00:00:38,900 --> 00:00:39,760
+Hij zegt, lekker!
+
+15
+00:01:01,220 --> 00:01:02,540
+Hij heeft dorst.
+
+16
+00:01:03,300 --> 00:01:04,420
+Hij drinkt veel wijn.
+
+17
+00:01:05,740 --> 00:01:05,940
+Hij roept,
+
+18
+00:01:06,980 --> 00:01:08,700
+Ober, mag ik nog een fles wijn?
+
+19
+00:01:10,160 --> 00:01:12,140
+De ober brengt een tweede fles wijn.
+
+20
+00:01:13,600 --> 00:01:14,940
+De wijn is erg lekker.
+
+21
+00:01:16,540 --> 00:01:18,060
+De man drinkt veel en roept,
+
+22
+00:01:19,000 --> 00:01:21,380
+Ober, mag ik nog een fles wijn?
+
+23
+00:01:22,580 --> 00:01:24,920
+De ober brengt een derde fles wijn.
+
+24
+00:01:26,060 --> 00:01:27,340
+De man roept,
+
+25
+00:01:30,020 --> 00:01:31,500
+Ober, Ober!
+
+26
+00:01:33,140 --> 00:01:35,560
+De ober loopt naar de tafel van de man.
+
+27
+00:01:37,140 --> 00:01:37,740
+De man zegt,
+
+28
+00:01:38,620 --> 00:01:43,820
+Ober, mag ik nog een fles wijn?
+
+29
+00:01:44,500 --> 00:01:48,360
+De ober zegt, nee meneer, ik breng geen wijn meer.
+
+30
+00:01:49,340 --> 00:01:50,840
+De ober loopt naar de telefoon.
+
+31
+00:01:51,640 --> 00:01:52,960
+De ober belt een taxi.
+
+32
+00:02:08,060 --> 00:02:08,700
+De man zegt,
+
+37
+00:02:08,700 --> 00:02:12,600
+De ober zegt, nee meneer, ik breng geen wijn meer.
+
+38
+00:02:14,380 --> 00:02:15,660
+Hallo met
+
+39
+00:02:16,720 --> 00:02:18,260
+Een man komt thuis.
+
+40
+00:02:19,720 --> 00:02:20,820
+Hij loopt naar de radio.
+
+41
+00:02:22,280 --> 00:02:23,340
+Hij doet de radio aan.
+
+42
+00:02:24,220 --> 00:02:26,380
+Hij luistert naar de muziek.
+
+43
+00:02:27,840 --> 00:02:28,680
+Hij pakt de krant.
+
+44
+00:02:29,940 --> 00:02:31,800
+Hij zit in de stoel en leest de krant.
+
+45
+00:02:33,080 --> 00:02:34,980
+Dan de telefoon gaat.
+
+46
+00:02:36,360 --> 00:02:37,620
+De man loopt naar de radio.
+
+47
+00:02:38,920 --> 00:02:40,080
+Hij doet de radio uit.
+
+48
+00:02:41,260 --> 00:02:42,440
+Hij loopt naar de telefoon.
+
+49
+00:02:43,700 --> 00:02:44,640
+Hij pakt de telefoon.
+
+50
+00:02:45,640 --> 00:02:46,080
+Hij zegt,
+
+51
+00:02:48,160 --> 00:02:50,180
+De andere man zegt,
+
+52
+00:02:53,340 --> 00:02:53,640
+Zet je?
+
+53
+00:03:09,000 --> 00:03:11,080
+Drinken, drinken, drinken
+
+54
+00:03:11,640 --> 00:03:13,540
+Een man zit in een restaurant.
+
+55
+00:03:15,300 --> 00:03:15,820
+De man roept,
+
+56
+00:03:16,640 --> 00:03:18,040
+Ober, mag ik de menukaart?
+
+57
+00:03:19,020 --> 00:03:21,080
+De ober brengt de menukaart.
+
+58
+00:03:21,900 --> 00:03:24,860
+De man bestelt spaghetti en een fles witte wijn.
+
+59
+00:03:26,340 --> 00:03:28,440
+De ober brengt het bord spaghetti en de wijn.
+
+60
+00:03:30,000 --> 00:03:32,160
+De ober legt een mes en een vork naast het bord.
+
+61
+00:03:33,660 --> 00:03:34,340
+De man vraagt,
+
+62
+00:03:35,060 --> 00:03:36,300
+Ober, mag ik ook een lepel?
+
+63
+00:03:38,000 --> 00:03:39,300
+De ober brengt de lepel.
+
+64
+00:03:40,540 --> 00:03:41,420
+De man heeft honger.
+
+65
+00:03:42,560 --> 00:03:43,520
+Hij eet de spaghetti.
+
+66
+00:03:44,880 --> 00:03:45,760
+Hij zegt, lekker.
+
+67
+00:04:07,600 --> 00:04:08,440
+De man sluit de telefoon.
+
+74
+00:04:08,440 --> 00:04:09,080
+Naar de markt.
+
+75
+00:04:11,280 --> 00:04:13,980
+Een oude vrouw en een klein meisje
+
+76
+00:04:13,980 --> 00:04:15,480
+stappen uit de bus.
+
+77
+00:04:16,640 --> 00:04:19,380
+De vrouw is de oma van het kleine meisje.
+
+78
+00:04:19,380 --> 00:04:22,860
+Ze gaan naar de markt.
+
+79
+00:04:23,580 --> 00:04:25,240
+Oma draagt een grote tas
+
+80
+00:04:25,400 --> 00:04:28,920
+en haar kleinkind een kleintasje.
+
+81
+00:04:30,220 --> 00:04:32,220
+Oma zegt, geef een handje.
+
+82
+00:04:33,500 --> 00:04:35,760
+Het meisje pakt de hand van oma.
+
+83
+00:04:37,180 --> 00:04:38,600
+Ze lopen naar de groenteman.
+
+84
+00:04:40,420 --> 00:04:44,500
+Oma zegt, goedemiddag, mag ik tien sinaasappels?
+
+85
+00:04:45,300 --> 00:04:49,800
+De groenteman doet de sinaasappels in een plastic tasje.
+
+86
+00:04:51,080 --> 00:04:53,360
+Hij geeft het plastic tasje aan oma.
+
+87
+00:04:54,920 --> 00:04:59,060
+Hij pakt een rode appel en geeft de appel aan het meisje.
+
+88
+00:05:00,420 --> 00:05:02,620
+Het meisje zegt, dank u wel.
+
+89
+00:05:15,360 --> 00:05:19,520
+De groenteman vraagt, anders nog iets mevrouw?
+
+90
+00:05:21,040 --> 00:05:26,400
+Ja, ik wil graag twee kilo aardappels en één pond worteltjes.
+
+91
+00:05:27,600 --> 00:05:32,120
+De groenteman doet de aardappelen en de worteltjes in plastic tasjes.
+
+92
+00:05:33,280 --> 00:05:37,080
+Hij zegt, dat is samen vijf euro zestig.
+
+93
+00:05:39,040 --> 00:05:40,220
+Oma zoekt haar geld.
+
+94
+00:05:40,220 --> 00:05:43,060
+Ze zoekt en zoekt.
+
+95
+00:05:44,120 --> 00:05:44,960
+Waar is het geld?
+
+97
+00:05:48,000 --> 00:05:50,760
+Ze zegt, sorry, ik heb geen geld.
+
+98
+00:05:51,280 --> 00:05:52,420
+Het geld ligt thuis.
+
+99
+00:05:53,740 --> 00:05:58,420
+Ze geeft de sinaasappels, de aardappels en de worteltjes terug.
+
+100
+00:05:59,680 --> 00:06:01,060
+Ze kijkt naar de groenteman.
+
+101
+00:06:02,260 --> 00:06:04,040
+De groenteman kijkt terug.
+
+102
+00:06:05,760 --> 00:06:08,760
+Oma en de groenteman kijken naar het meisje.
+
+103
+00:06:08,760 --> 00:06:12,140
+Het meisje heeft een halve appel.
+
+104
+00:06:14,020 --> 00:06:16,240
+De groenteman vraagt, is de appel lekker?
+
+105
+00:06:17,520 --> 00:06:19,620
+Het meisje zegt, ja.
+
+106
+00:06:21,200 --> 00:06:25,300
+Oma zegt, ik kom morgen terug, dan geef ik het geld voor de appel.
+
+107
+00:06:26,560 --> 00:06:30,120
+De groenteman zegt, de appel is gratis hoor.
+
+108
+00:06:31,800 --> 00:06:33,620
+Oma zegt, dank u wel.
+
+109
+00:06:34,460 --> 00:06:37,100
+En samen lopen ze snel naar de bus.
+
+110
+00:06:49,880 --> 00:06:51,240
+De waterpokken
+
+111
+00:06:53,260 --> 00:06:54,620
+Het kindje huilt.
+
+112
+00:06:56,380 --> 00:06:59,100
+De moeder van het kindje geeft het kindje een kusje.
+
+113
+00:07:00,520 --> 00:07:01,680
+Het kindje blijft huilen.
+
+114
+00:07:03,280 --> 00:07:05,120
+De moeder geeft het kindje nog een kusje.
+
+115
+00:07:06,120 --> 00:07:08,580
+Is de pijn nu over? vraagt de moeder.
+
+116
+00:07:09,480 --> 00:07:10,900
+Het kindje blijft huilen.
+
+117
+00:07:12,340 --> 00:07:13,860
+De moeder kleedt het kindje aan.
+
+118
+00:07:15,220 --> 00:07:17,200
+Ze gaat met dat kindje naar de dokter toe.
+
+119
+00:07:18,760 --> 00:07:21,980
+De dokter zegt, doe zijn truitje en broekje uit alsjeblieft.
+
+120
+00:07:23,580 --> 00:07:25,080
+De moeder kleedt het kindje uit.
+
+121
+00:07:26,540 --> 00:07:29,220
+Het kindje ligt zonder kleren op de tafel van de dokter.
+
+122
+00:07:30,620 --> 00:07:33,400
+De dokter stopt een thermometer in de bibs van het kindje.
+
+123
+00:07:34,520 --> 00:07:37,660
+De dokter zegt, uw kindje heeft een beetje koorts.
+
+124
+00:07:38,240 --> 00:07:38,960
+Dat is niet erg.
+
+125
+00:07:40,240 --> 00:07:42,400
+Hij kijkt eerst in het linkeroor van het kindje.
+
+126
+00:07:43,620 --> 00:07:45,960
+En dan kijkt hij in het rechteroor van het kindje.
+
+127
+00:08:12,820 --> 00:08:15,220
+Hij kijkt ook in de mond van het kindje.
+
+128
+00:08:16,780 --> 00:08:18,840
+Hij kijkt naar de buik en de rug van het kindje.
+
+129
+00:08:20,460 --> 00:08:23,300
+Op de buik en de rug van het kindje zitten rode vlekjes.
+
+130
+00:08:24,760 --> 00:08:27,300
+De dokter zegt, uw kindje heeft waterpokken.
+
+131
+00:08:27,840 --> 00:08:28,680
+Dat duurt een week.
+
+132
+00:08:29,700 --> 00:08:31,260
+De moeder kleedt haar kindje aan.
+
+133
+00:08:31,900 --> 00:08:34,080
+De dokter geeft de moeder een recept.
+
+134
+00:08:35,600 --> 00:08:37,960
+De moeder gaat met het recept naar een apotheek.
+
+135
+00:08:39,380 --> 00:08:41,020
+Ze krijgt medicijnen voor haar kindje.
+
+136
+00:08:42,320 --> 00:08:44,520
+De moeder loopt met haar kindje snel naar huis.
+
+137
+00:08:45,900 --> 00:08:49,720
+Ze kleedt eerst haar kindje uit en dan doet ze zijn pyjama aan.
+
+138
+00:08:51,060 --> 00:08:52,420
+Ze legt haar kindje in bed.
+
+139
+00:08:53,560 --> 00:08:55,320
+Ze geeft haar kindje de medicijnen.
+
+140
+00:08:56,320 --> 00:09:00,300
+S'avonds slaapt haar kindje rustig. Het kindje huilt niet meer.
+
+141
+00:09:15,040 --> 00:09:15,960
+Lekker geprakt
+
+142
+00:09:17,780 --> 00:09:20,340
+Veel mensen gaan op zondag met de auto rijden.
+
+143
+00:09:21,720 --> 00:09:22,580
+Mijn vrouw en ik niet.
+
+144
+00:09:23,360 --> 00:09:24,680
+Wij hebben geen auto.
+
+145
+00:09:26,260 --> 00:09:28,520
+Wij gaan op zondag op de fiets naar het park.
+
+146
+00:09:30,620 --> 00:09:33,080
+Het park is niet ver, maar dichtbij.
+
+147
+00:09:34,480 --> 00:09:36,260
+Het is maar vijf minuten op de fiets.
+
+148
+00:09:37,920 --> 00:09:39,240
+In het park is een restaurant.
+
+149
+00:09:40,480 --> 00:09:42,780
+Wij zitten altijd op het terras van het restaurant.
+
+150
+00:09:44,160 --> 00:09:45,320
+Er is altijd veel te zien.
+
+151
+00:09:46,760 --> 00:09:49,280
+Er komen veel moeders en vaders met hun kinderen.
+
+152
+00:09:50,340 --> 00:09:52,520
+Ik vind het leuk om te kijken naar kinderen.
+
+153
+00:09:54,120 --> 00:09:56,700
+Ik neem altijd een boek of de krant mee naar het park.
+
+154
+00:09:58,020 --> 00:09:59,360
+Ik vind boeken lezen leuk.
+
+155
+00:10:00,700 --> 00:10:03,300
+Maar ik lees op het terras vaak geen bladzijden.
+
+156
+00:10:04,480 --> 00:10:07,540
+Ik kijk de hele dag naar de kinderen.
+
+157
+00:10:08,240 --> 00:10:09,680
+Mijn vrouw en ik hebben geen kinderen.
+
+158
+00:10:11,320 --> 00:10:12,680
+Mijn vrouw wilde geen kinderen.
+
+159
+00:10:13,700 --> 00:10:14,160
+Ik wel.
+
+160
+00:10:28,240 --> 00:10:31,420
+We eten elke dag precies om kwart over zes.
+
+161
+00:10:32,900 --> 00:10:34,780
+Ik haal altijd de koffie en de thee.
+
+162
+00:10:36,220 --> 00:10:38,780
+Mijn vrouw wil geen koffie en thee halen in het restaurant.
+
+163
+00:10:39,980 --> 00:10:41,640
+Ze vindt in de rij staan niet leuk.
+
+164
+00:10:42,940 --> 00:10:47,360
+Ik vind dat ook niet leuk, maar ik vind ruzie maken heel erg vervelend.
+
+165
+00:10:48,660 --> 00:10:49,260
+Onze vrouw en ik hebben geen koffie en thee.
+
+166
+00:10:49,260 --> 00:10:50,920
+Om vijf uur gaan we altijd naar huis.
+
+167
+00:10:53,080 --> 00:10:55,620
+We eten elke dag precies om kwart over zes.
+
+168
+00:10:57,340 --> 00:11:00,580
+Mijn vrouw kookt elke dag aardappelen met vlees en groenten.
+
+169
+00:11:02,000 --> 00:11:04,560
+Mijn vrouw vindt alles door elkaar geprakt lekker.
+
+170
+00:11:06,060 --> 00:11:06,520
+Ik niet.
+
+171
+00:11:08,380 --> 00:11:11,120
+Na het eten kijkt mijn vrouw de hele avond televisie.
+
+172
+00:11:12,600 --> 00:11:13,140
+Ik niet.
+
+173
+00:11:14,480 --> 00:11:15,720
+Ik lees s'avonds de krant.
+
+174
+00:11:17,300 --> 00:11:20,620
+Om elf uur gaat mijn vrouw naar boven, naar bed.
+
+175
+00:11:22,140 --> 00:11:22,520
+Ik niet.
+
+176
+00:11:23,760 --> 00:11:25,380
+Ik lees nog een paar uur een boek.
+
+177
+00:11:27,080 --> 00:11:28,860
+Mijn vrouw slaapt altijd meteen.

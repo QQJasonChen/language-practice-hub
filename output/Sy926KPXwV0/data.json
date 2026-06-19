@@ -1,0 +1,758 @@
+{
+  "video_id": "Sy926KPXwV0",
+  "video_info": {
+    "title": "Oefenen het luisteren met 10 Nederlandse teksten",
+    "channel": "Inburgeren examen A2",
+    "duration": 702
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Drinken, drinken, drinken. Een man zit in een restaurant.",
+        "translation": "喝，喝，喝。一個男人坐在餐廳裡。",
+        "start": 3.06,
+        "end": 7.58
+      },
+      {
+        "text": "De man roept: \"Ober, mag ik de menukaart?\" De ober brengt de menukaart.",
+        "translation": "男人喊道：「服務生，我可以看菜單嗎？」服務生拿來菜單。",
+        "start": 9.34,
+        "end": 15.12
+      },
+      {
+        "text": "De man bestelt spaghetti en een fles witte wijn. De ober brengt het bord spaghetti en de wijn.",
+        "translation": "男人點了義大利麵和一瓶白酒。服務生端來義大利麵和酒。",
+        "start": 16.52,
+        "end": 22.48
+      },
+      {
+        "text": "De ober legt een mes en een vork naast het bord. De man vraagt:",
+        "translation": "服務生把刀和叉子放在盤子旁邊。男人問：",
+        "start": 24.02,
+        "end": 28.38
+      },
+      {
+        "text": "\"Ober, mag ik ook een lepel?\" De ober brengt de lepel.",
+        "translation": "「服務生，我也可以要一把湯匙嗎？」服務生拿來湯匙。",
+        "start": 29.04,
+        "end": 33.32
+      },
+      {
+        "text": "De man heeft honger. Hij eet de spaghetti.",
+        "translation": "男人肚子餓了。他吃義大利麵。",
+        "start": 34.56,
+        "end": 37.58
+      },
+      {
+        "text": "Hij zegt: \"Lekker!\"",
+        "translation": "他說：「很好吃！」",
+        "start": 38.9,
+        "end": 39.76
+      },
+      {
+        "text": "Hij heeft dorst. Hij drinkt veel wijn.",
+        "translation": "他口渴了。他喝了很多酒。",
+        "start": 61.22,
+        "end": 64.42
+      },
+      {
+        "text": "Hij roept: \"Ober, mag ik nog een fles wijn?\"",
+        "translation": "他喊道：「服務生，我可以再要一瓶酒嗎？」",
+        "start": 65.74,
+        "end": 68.7
+      },
+      {
+        "text": "De ober brengt een tweede fles wijn. De wijn is erg lekker.",
+        "translation": "服務生端來第二瓶酒。酒非常好喝。",
+        "start": 70.16,
+        "end": 74.94
+      },
+      {
+        "text": "De man drinkt veel en roept: \"Ober, mag ik nog een fles wijn?\"",
+        "translation": "男人喝了很多，並喊道：「服務生，我可以再要一瓶酒嗎？」",
+        "start": 76.54,
+        "end": 81.38
+      },
+      {
+        "text": "De ober brengt een derde fles wijn. De man roept:",
+        "translation": "服務生端來第三瓶酒。男人喊道：",
+        "start": 82.58,
+        "end": 87.34
+      },
+      {
+        "text": "\"Ober, ober!\" De ober loopt naar de tafel van de man.",
+        "translation": "「服務生，服務生！」服務生走向男人的桌子。",
+        "start": 90.02,
+        "end": 95.56
+      },
+      {
+        "text": "De man zegt:",
+        "translation": "男人說：",
+        "start": 97.14,
+        "end": 97.74
+      },
+      {
+        "text": "\"Ober, mag ik nog een fles wijn?\"",
+        "translation": "「服務生，我可以再要一瓶酒嗎？」",
+        "start": 98.62,
+        "end": 103.82
+      },
+      {
+        "text": "De ober zegt: \"Nee meneer, ik breng geen wijn meer.\"",
+        "translation": "服務生說：「不，先生，我不再送酒了。」",
+        "start": 104.5,
+        "end": 108.36
+      },
+      {
+        "text": "De ober loopt naar de telefoon. De ober belt een taxi.",
+        "translation": "服務生走向電話。服務生打電話叫計程車。",
+        "start": 109.34,
+        "end": 112.96
+      },
+      {
+        "text": "De man zegt: \"De ober zegt: nee meneer, ik breng geen wijn meer.\"",
+        "translation": "男人說：「服務生說，不，先生，我不再送酒了。」",
+        "start": 128.06,
+        "end": 132.6
+      },
+      {
+        "text": "Hallo met... Een man komt thuis.",
+        "translation": "您好，這裡是……一個男人回到家。",
+        "start": 134.38,
+        "end": 138.26
+      },
+      {
+        "text": "Hij loopt naar de radio. Hij doet de radio aan.",
+        "translation": "他走向收音機。他打開收音機。",
+        "start": 139.72,
+        "end": 143.34
+      },
+      {
+        "text": "Hij luistert naar de muziek. Hij pakt de krant.",
+        "translation": "他聽著音樂。他拿起報紙。",
+        "start": 144.22,
+        "end": 148.68
+      },
+      {
+        "text": "Hij zit in de stoel en leest de krant. Dan gaat de telefoon.",
+        "translation": "他坐在椅子上看報紙。然後電話響了。",
+        "start": 149.94,
+        "end": 154.98
+      },
+      {
+        "text": "De man loopt naar de radio. Hij doet de radio uit.",
+        "translation": "男人走向收音機。他關掉收音機。",
+        "start": 156.36,
+        "end": 160.08
+      },
+      {
+        "text": "Hij loopt naar de telefoon. Hij pakt de telefoon.",
+        "translation": "他走向電話。他拿起電話。",
+        "start": 161.26,
+        "end": 164.64
+      },
+      {
+        "text": "Hij zegt: \"De andere man zegt\":",
+        "translation": "他說：「另一個男人說：」",
+        "start": 165.64,
+        "end": 170.18
+      },
+      {
+        "text": "Zet je?",
+        "translation": "你要不要坐？",
+        "start": 173.34,
+        "end": 173.64
+      },
+      {
+        "text": "Drinken, drinken, drinken. Een man zit in een restaurant.",
+        "translation": "喝，喝，喝。一個男人坐在餐廳裡。",
+        "start": 189.0,
+        "end": 193.54
+      },
+      {
+        "text": "De man roept: \"Ober, mag ik de menukaart?\" De ober brengt de menukaart.",
+        "translation": "男人喊道：「服務生，我可以看菜單嗎？」服務生拿來菜單。",
+        "start": 195.3,
+        "end": 201.08
+      },
+      {
+        "text": "De man bestelt spaghetti en een fles witte wijn.",
+        "translation": "男人點了義大利麵和一瓶白酒。",
+        "start": 201.9,
+        "end": 204.86
+      },
+      {
+        "text": "De ober brengt het bord spaghetti en de wijn. De ober legt een mes en een vork naast het bord.",
+        "translation": "服務生端來義大利麵和酒。服務生把刀和叉子放在盤子旁邊。",
+        "start": 206.34,
+        "end": 212.16
+      },
+      {
+        "text": "De man vraagt: \"Ober, mag ik ook een lepel?\" De ober brengt de lepel.",
+        "translation": "男人問：「服務生，我也可以要一把湯匙嗎？」服務生拿來湯匙。",
+        "start": 213.66,
+        "end": 219.3
+      },
+      {
+        "text": "De man heeft honger. Hij eet de spaghetti. Hij zegt: \"Lekker.\"",
+        "translation": "男人肚子餓了。他吃義大利麵。他說：「很好吃。」",
+        "start": 220.54,
+        "end": 225.76
+      },
+      {
+        "text": "De man sluit de telefoon. Naar de markt.",
+        "translation": "男人掛上電話。前往市場。",
+        "start": 247.6,
+        "end": 249.08
+      },
+      {
+        "text": "Een oude vrouw en een klein meisje stappen uit de bus.",
+        "translation": "一位老太太和一個小女孩從公車上下來。",
+        "start": 251.28,
+        "end": 255.48
+      },
+      {
+        "text": "De vrouw is de oma van het kleine meisje.",
+        "translation": "這位女士是小女孩的奶奶。",
+        "start": 256.64,
+        "end": 259.38
+      },
+      {
+        "text": "Ze gaan naar de markt.",
+        "translation": "他們前往市場。",
+        "start": 259.38,
+        "end": 262.86
+      },
+      {
+        "text": "Oma draagt een grote tas en haar kleinkind een kleintasje.",
+        "translation": "奶奶帶著一個大包包，孫女帶著一個小包包。",
+        "start": 263.58,
+        "end": 268.92
+      },
+      {
+        "text": "Oma zegt: \"Geef een handje.\" Het meisje pakt de hand van oma.",
+        "translation": "奶奶說：「牽一下手。」女孩牽著奶奶的手。",
+        "start": 270.22,
+        "end": 275.76
+      },
+      {
+        "text": "Ze lopen naar de groenteman.",
+        "translation": "他們走向蔬菜攤。",
+        "start": 277.18,
+        "end": 278.6
+      },
+      {
+        "text": "Oma zegt: \"Goedemiddag, mag ik tien sinaasappels?\"",
+        "translation": "奶奶說：「午安，我可以買十個柳橙嗎？」",
+        "start": 280.42,
+        "end": 284.5
+      },
+      {
+        "text": "De groenteman doet de sinaasappels in een plastic tasje.",
+        "translation": "蔬菜攤老闆把柳橙裝進塑膠袋。",
+        "start": 285.3,
+        "end": 289.8
+      },
+      {
+        "text": "Hij geeft het plastic tasje aan oma.",
+        "translation": "他把塑膠袋交給奶奶。",
+        "start": 291.08,
+        "end": 293.36
+      },
+      {
+        "text": "Hij pakt een rode appel en geeft de appel aan het meisje.",
+        "translation": "他拿起一個紅蘋果，遞給女孩。",
+        "start": 294.92,
+        "end": 299.06
+      },
+      {
+        "text": "Het meisje zegt: \"Dank u wel.\"",
+        "translation": "女孩說：「謝謝您。」",
+        "start": 300.42,
+        "end": 302.62
+      },
+      {
+        "text": "De groenteman vraagt: \"Anders nog iets mevrouw?\"",
+        "translation": "蔬菜攤老闆問：「夫人，還需要其他東西嗎？」",
+        "start": 315.36,
+        "end": 319.52
+      },
+      {
+        "text": "Ja, ik wil graag twee kilo aardappels en één pond worteltjes.",
+        "translation": "是的，我想要兩公斤馬鈴薯和一斤紅蘿蔔。",
+        "start": 321.04,
+        "end": 326.4
+      },
+      {
+        "text": "De groenteman doet de aardappelen en de worteltjes in plastic tasjes.",
+        "translation": "蔬菜攤老闆把馬鈴薯和紅蘿蔔裝進塑膠袋。",
+        "start": 327.6,
+        "end": 332.12
+      },
+      {
+        "text": "Hij zegt: \"Dat is samen vijf euro zestig.\"",
+        "translation": "他說：「一共五歐元六十分。」",
+        "start": 333.28,
+        "end": 337.08
+      },
+      {
+        "text": "Oma zoekt haar geld. Ze zoekt en zoekt.",
+        "translation": "奶奶在找錢。她一直找。",
+        "start": 339.04,
+        "end": 343.06
+      },
+      {
+        "text": "Waar is het geld?",
+        "translation": "錢在哪裡？",
+        "start": 344.12,
+        "end": 344.96
+      },
+      {
+        "text": "Ze zegt: Sorry, ik heb geen geld. Het geld ligt thuis.",
+        "translation": "她說：抱歉，我沒有錢。錢放在家裡。",
+        "start": 348.0,
+        "end": 352.42
+      },
+      {
+        "text": "Ze geeft de sinaasappels, de aardappels en de worteltjes terug.",
+        "translation": "她把橙子、馬鈴薯和胡蘿蔔還回去。",
+        "start": 353.74,
+        "end": 358.42
+      },
+      {
+        "text": "Ze kijkt naar de groenteman. De groenteman kijkt terug.",
+        "translation": "她看著蔬菜攤老闆。蔬菜攤老闆也回看她。",
+        "start": 359.68,
+        "end": 364.04
+      },
+      {
+        "text": "Oma en de groenteman kijken naar het meisje.",
+        "translation": "奶奶和蔬菜攤老闆看著女孩。",
+        "start": 365.76,
+        "end": 368.76
+      },
+      {
+        "text": "Het meisje heeft een halve appel.",
+        "translation": "女孩有半顆蘋果。",
+        "start": 368.76,
+        "end": 372.14
+      },
+      {
+        "text": "De groenteman vraagt: Is de appel lekker? Het meisje zegt: Ja.",
+        "translation": "蔬菜攤老闆問：蘋果好吃嗎？女孩說：好吃。",
+        "start": 374.02,
+        "end": 379.62
+      },
+      {
+        "text": "Oma zegt: Ik kom morgen terug, dan geef ik het geld voor de appel.",
+        "translation": "奶奶說：我明天會回來，到時候給蘋果的錢。",
+        "start": 381.2,
+        "end": 385.3
+      },
+      {
+        "text": "De groenteman zegt: De appel is gratis hoor.",
+        "translation": "蔬菜攤老闆說：蘋果是免費的喔。",
+        "start": 386.56,
+        "end": 390.12
+      },
+      {
+        "text": "Oma zegt: Dank u wel. En samen lopen ze snel naar de bus.",
+        "translation": "奶奶說：謝謝您。然後他們一起快步走向公車站。",
+        "start": 391.8,
+        "end": 397.1
+      },
+      {
+        "text": "De waterpokken. Het kindje huilt.",
+        "translation": "水痘。小孩在哭。",
+        "start": 409.88,
+        "end": 414.62
+      },
+      {
+        "text": "De moeder van het kindje geeft het kindje een kusje. Het kindje blijft huilen.",
+        "translation": "小孩的媽媽吻了小孩一下。小孩持續哭著。",
+        "start": 416.38,
+        "end": 421.68
+      },
+      {
+        "text": "De moeder geeft het kindje nog een kusje. 'Is de pijn nu over?' vraagt de moeder.",
+        "translation": "媽媽又吻了小孩一下。「痛感好一點了嗎？」媽媽問。",
+        "start": 423.28,
+        "end": 428.58
+      },
+      {
+        "text": "Het kindje blijft huilen. De moeder kleedt het kindje aan.",
+        "translation": "小孩繼續哭。媽媽幫小孩穿衣服。",
+        "start": 429.48,
+        "end": 433.86
+      },
+      {
+        "text": "Ze gaat met dat kindje naar de dokter toe.",
+        "translation": "她帶那個小孩去看醫生。",
+        "start": 435.22,
+        "end": 437.2
+      },
+      {
+        "text": "De dokter zegt: Doe zijn truitje en broekje uit, alsjeblieft.",
+        "translation": "醫生說：請脫掉他的上衣和褲子。",
+        "start": 438.76,
+        "end": 441.98
+      },
+      {
+        "text": "De moeder kleedt het kindje uit. Het kindje ligt zonder kleren op de tafel van de dokter.",
+        "translation": "媽媽幫小孩脫掉衣服。小孩沒穿衣服躺在醫生桌上。",
+        "start": 443.58,
+        "end": 449.22
+      },
+      {
+        "text": "De dokter stopt een thermometer in de bibs van het kindje.",
+        "translation": "醫生把體溫計放進小孩的屁股。",
+        "start": 450.62,
+        "end": 453.4
+      },
+      {
+        "text": "De dokter zegt: Uw kindje heeft een beetje koorts.",
+        "translation": "醫生說：您的小孩有點發燒。",
+        "start": 454.52,
+        "end": 457.66
+      },
+      {
+        "text": "Dat is niet erg. Hij kijkt eerst in het linkeroor van het kindje.",
+        "translation": "這沒關係。他先看小孩的左耳。",
+        "start": 458.24,
+        "end": 462.4
+      },
+      {
+        "text": "En dan kijkt hij in het rechteroor van het kindje.",
+        "translation": "然後他看了右耳。",
+        "start": 463.62,
+        "end": 465.96
+      },
+      {
+        "text": "Hij kijkt ook in de mond van het kindje.",
+        "translation": "他也看了小孩的嘴巴。",
+        "start": 492.82,
+        "end": 495.22
+      },
+      {
+        "text": "Hij kijkt naar de buik en de rug van het kindje.",
+        "translation": "他看了小孩的肚子和背部。",
+        "start": 496.78,
+        "end": 498.84
+      },
+      {
+        "text": "Op de buik en de rug van het kindje zitten rode vlekjes.",
+        "translation": "小孩的肚子和背部有紅色斑點。",
+        "start": 500.46,
+        "end": 503.3
+      },
+      {
+        "text": "De dokter zegt: Uw kindje heeft waterpokken. Dat duurt een week.",
+        "translation": "醫生說：您的小孩得了水痘。這會持續一週。",
+        "start": 504.76,
+        "end": 508.68
+      },
+      {
+        "text": "De moeder kleedt haar kindje aan. De dokter geeft de moeder een recept.",
+        "translation": "媽媽幫小孩穿好衣服。醫生給媽媽一張藥方。",
+        "start": 509.7,
+        "end": 514.08
+      },
+      {
+        "text": "De moeder gaat met het recept naar een apotheek. Ze krijgt medicijnen voor haar kindje.",
+        "translation": "媽媽帶著藥方去藥局。她拿到小孩的藥。",
+        "start": 515.6,
+        "end": 521.02
+      },
+      {
+        "text": "De moeder loopt met haar kindje snel naar huis.",
+        "translation": "媽媽帶著小孩快步走回家。",
+        "start": 522.32,
+        "end": 524.52
+      },
+      {
+        "text": "Ze kleedt eerst haar kindje uit en dan doet ze zijn pyjama aan.",
+        "translation": "她先幫小孩脫衣服，接著幫他穿上睡衣。",
+        "start": 525.9,
+        "end": 529.72
+      },
+      {
+        "text": "Ze legt haar kindje in bed. Ze geeft haar kindje de medicijnen.",
+        "translation": "她把小孩放到床上，並給小孩吃藥。",
+        "start": 531.06,
+        "end": 535.32
+      },
+      {
+        "text": "'s Avonds slaapt haar kindje rustig. Het kindje huilt niet meer.",
+        "translation": "晚上，小孩安靜地睡覺。不再哭了。",
+        "start": 536.32,
+        "end": 540.3
+      },
+      {
+        "text": "Lekker geprakt! Veel mensen gaan op zondag met de auto rijden.",
+        "translation": "很好吃！很多人星期天開車出去。",
+        "start": 555.04,
+        "end": 560.34
+      },
+      {
+        "text": "Mijn vrouw en ik niet. Wij hebben geen auto.",
+        "translation": "我和妻子沒有。我們沒有車。",
+        "start": 561.72,
+        "end": 564.68
+      },
+      {
+        "text": "Wij gaan op zondag op de fiets naar het park.",
+        "translation": "我們星期天騎腳踏車去公園。",
+        "start": 566.26,
+        "end": 568.52
+      },
+      {
+        "text": "Het park is niet ver, maar dichtbij. Het is maar vijf minuten op de fiets.",
+        "translation": "公園不遠，就近。騎腳踏車只要五分鐘。",
+        "start": 570.62,
+        "end": 576.26
+      },
+      {
+        "text": "In het park is een restaurant. Wij zitten altijd op het terras van het restaurant.",
+        "translation": "公園裡有家餐廳。我們總是在餐廳的露天座位坐著。",
+        "start": 577.92,
+        "end": 582.78
+      },
+      {
+        "text": "Er is altijd veel te zien. Er komen veel moeders en vaders met hun kinderen.",
+        "translation": "總是有很多東西可以看。很多媽媽和爸爸帶孩子來。",
+        "start": 584.16,
+        "end": 589.28
+      },
+      {
+        "text": "Ik vind het leuk om te kijken naar kinderen.",
+        "translation": "我喜歡看小孩玩。",
+        "start": 590.34,
+        "end": 592.52
+      },
+      {
+        "text": "Ik neem altijd een boek of de krant mee naar het park. Ik vind boeken lezen leuk.",
+        "translation": "我總是帶一本書或報紙去公園。我喜歡讀書。",
+        "start": 594.12,
+        "end": 599.36
+      },
+      {
+        "text": "Maar ik lees op het terras vaak geen bladzijden.",
+        "translation": "但是我常常在露天座位上一頁也沒看。",
+        "start": 600.7,
+        "end": 603.3
+      },
+      {
+        "text": "Ik kijk de hele dag naar de kinderen.",
+        "translation": "我整天看著那些小孩。",
+        "start": 604.48,
+        "end": 607.54
+      },
+      {
+        "text": "Mijn vrouw en ik hebben geen kinderen. Mijn vrouw wilde geen kinderen.",
+        "translation": "我和妻子沒有小孩。我的妻子不想要小孩。",
+        "start": 608.24,
+        "end": 612.68
+      },
+      {
+        "text": "Ik wel.",
+        "translation": "但是我想要。",
+        "start": 613.7,
+        "end": 614.16
+      },
+      {
+        "text": "We eten elke dag precies om kwart over zes.",
+        "translation": "我們每天都是在六點十五分準時吃飯。",
+        "start": 628.24,
+        "end": 631.42
+      },
+      {
+        "text": "Ik haal altijd de koffie en de thee. Mijn vrouw wil geen koffie en thee halen in het restaurant.",
+        "translation": "我總是去拿咖啡和茶。我的妻子不想在餐廳去拿咖啡和茶。",
+        "start": 632.9,
+        "end": 638.78
+      },
+      {
+        "text": "Ze vindt in de rij staan niet leuk.",
+        "translation": "她不喜歡排隊。",
+        "start": 639.98,
+        "end": 641.64
+      },
+      {
+        "text": "Ik vind dat ook niet leuk, maar ik vind ruzie maken heel erg vervelend.",
+        "translation": "我也不喜歡，但我很討厭吵架。",
+        "start": 642.94,
+        "end": 647.36
+      },
+      {
+        "text": "Onze vrouw en ik hebben geen koffie en thee. Om vijf uur gaan we altijd naar huis.",
+        "translation": "我和妻子沒有咖啡和茶。我們總是在五點回家。",
+        "start": 648.66,
+        "end": 650.92
+      },
+      {
+        "text": "We eten elke dag precies om kwart over zes.",
+        "translation": "我們每天都是在六點十五分準時吃飯。",
+        "start": 653.08,
+        "end": 655.62
+      },
+      {
+        "text": "Mijn vrouw kookt elke dag aardappelen met vlees en groenten.",
+        "translation": "我妻子每天煮馬鈴薯、肉和蔬菜。",
+        "start": 657.34,
+        "end": 660.58
+      },
+      {
+        "text": "Mijn vrouw vindt alles door elkaar geprakt lekker. Ik niet.",
+        "translation": "我妻子喜歡把所有食物捏成一團吃。我不喜歡。",
+        "start": 662.0,
+        "end": 666.52
+      },
+      {
+        "text": "Na het eten kijkt mijn vrouw de hele avond televisie. Ik niet.",
+        "translation": "吃完飯後，我老婆整晚都在看電視。我沒有。",
+        "start": 668.38,
+        "end": 673.14
+      },
+      {
+        "text": "Ik lees 's avonds de krant.",
+        "translation": "我晚上會看報紙。",
+        "start": 674.48,
+        "end": 675.72
+      },
+      {
+        "text": "Om elf uur gaat mijn vrouw naar boven, naar bed.",
+        "translation": "十一點鐘，我老婆會上樓去睡覺。",
+        "start": 677.3,
+        "end": 680.62
+      },
+      {
+        "text": "Ik niet. Ik lees nog een paar uur een boek.",
+        "translation": "我沒有。我還會再讀幾個小時的書。",
+        "start": 682.14,
+        "end": 685.38
+      },
+      {
+        "text": "Mijn vrouw slaapt altijd meteen.",
+        "translation": "我老婆總是馬上就睡著。",
+        "start": 687.08,
+        "end": 688.86
+      }
+    ],
+    "questions": [
+      {
+        "question": "Waar zit de man aan het begin van het verhaal?",
+        "question_native": "故事一開始這個男人坐在哪裡？",
+        "options": [
+          "In een restaurant",
+          "Thuis",
+          "Op de markt"
+        ],
+        "answer": "In een restaurant"
+      },
+      {
+        "question": "Wat bestelt de man als eten en drinken?",
+        "question_native": "這個男人點了什麼食物和飲料？",
+        "options": [
+          "Spaghetti en witte wijn",
+          "Pizza en bier",
+          "Salade en water"
+        ],
+        "answer": "Spaghetti en witte wijn"
+      },
+      {
+        "question": "Waarom belt de ober een taxi?",
+        "question_native": "為什麼服務生會打電話叫計程車？",
+        "options": [
+          "Omdat hij stopt met wijn brengen",
+          "Omdat de man ziek is",
+          "Omdat de man weggaat"
+        ],
+        "answer": "Omdat hij stopt met wijn brengen"
+      },
+      {
+        "question": "Wie gaan naar de markt in het tweede deel van het verhaal?",
+        "question_native": "故事第二部分誰一起去市場？",
+        "options": [
+          "Een oude vrouw en een klein meisje",
+          "De man en de ober",
+          "Een man en een vrouw"
+        ],
+        "answer": "Een oude vrouw en een klein meisje"
+      },
+      {
+        "question": "Wat koopt de vrouw op de markt?",
+        "question_native": "這位女士在市場買了什麼？",
+        "options": [
+          "Tien sinaasappels, aardappels en worteltjes",
+          "Brood en melk",
+          "Vis en kaas"
+        ],
+        "answer": "Tien sinaasappels, aardappels en worteltjes"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "Ober",
+        "meaning": "服務生"
+      },
+      {
+        "word": "Menukaart",
+        "meaning": "菜單"
+      },
+      {
+        "word": "Spaghetti",
+        "meaning": "義大利麵"
+      },
+      {
+        "word": "Wijn",
+        "meaning": "酒"
+      },
+      {
+        "word": "Mes",
+        "meaning": "刀子"
+      },
+      {
+        "word": "Vork",
+        "meaning": "叉子"
+      },
+      {
+        "word": "Lepel",
+        "meaning": "湯匙"
+      },
+      {
+        "word": "Honger",
+        "meaning": "飢餓"
+      },
+      {
+        "word": "Dorst",
+        "meaning": "口渴"
+      },
+      {
+        "word": "Taxi",
+        "meaning": "計程車"
+      },
+      {
+        "word": "Radio",
+        "meaning": "收音機"
+      },
+      {
+        "word": "Kranten",
+        "meaning": "報紙"
+      },
+      {
+        "word": "Groenteman",
+        "meaning": "蔬菜攤老闆"
+      },
+      {
+        "word": "Plastic tasje",
+        "meaning": "塑膠袋"
+      },
+      {
+        "word": "Sinaasappels",
+        "meaning": "柳橙"
+      }
+    ]
+  }
+}

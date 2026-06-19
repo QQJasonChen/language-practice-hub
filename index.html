@@ -584,7 +584,9 @@ const videos = [
   {"id": "FIO4cZ0jCug", "title": "Listening exam 2021", "channel": "Inburgeren examen A2", "duration": 599, "lang": "nl", "native": "zh-TW", "segments": 83},
   {"id": "_--osX9sKB8", "title": "100 Dutch Sentences to Practice for the Listening Exam", "channel": "Inburgeren examen A2", "duration": 1184, "lang": "nl", "native": "zh-TW", "segments": 170},
   {"id": "CYPKuPAZt9E", "title": "Luister naar de woorden", "channel": "Inburgeren examen A2", "duration": 413, "lang": "nl", "native": "zh-TW", "segments": 56},
-  {"id": "J-VCgNpy9p8", "title": "Listening and reading A2 (to the market)", "channel": "Inburgeren examen A2", "duration": 602, "lang": "nl", "native": "zh-TW", "segments": 90}
+  {"id": "J-VCgNpy9p8", "title": "Listening and reading A2 (to the market)", "channel": "Inburgeren examen A2", "duration": 602, "lang": "nl", "native": "zh-TW", "segments": 90},
+  {"id": "Sy926KPXwV0", "title": "Oefenen het luisteren met 10 Nederlandse teksten", "channel": "Inburgeren examen A2", "duration": 688, "lang": "nl", "native": "zh-TW", "segments": 105},
+  {"id": "-tYNqvvOsU0", "title": "Luisteren en Lezen (Piet met zijn moeder in ziekenhuis)", "channel": "Inburgeren examen A2", "duration": 171, "lang": "nl", "native": "zh-TW", "segments": 25}
 ];
 const LANGS = { nl:'🇳🇱 荷蘭文', ja:'🇯🇵 日文', en:'🇬🇧 英文', de:'🇩🇪 德文', fr:'🇫🇷 法文', es:'🇪🇸 西文', ko:'🇰🇷 韓文' };
 const CH_SHORT = {
@@ -700,7 +702,7 @@ function renderCards() {
 }
 
 // videos that have the new 場景制 exam app (vs the original SRS / 連音陷阱本 page)
-const HAS_EXAM = new Set(['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026', 'EAsLs_1HyG8', '2K-cXgASSew', 'iEm-I_gVb9s', 'lk7UF1vn8a4', 'ogyJB2xEaUs', 'J4yroaYw1SQ', 'VhFT2yDaMjg', 'gIqFonNsQZ8', 'DLKjW7fqyDU', 'oS9ZMdbDffE', 'aLBxYurJGE0', 'S1Jkiew7ovQ', '6IPSJbEwluw', '4Bp2X6lj1Tw', 'oAcYTBuHhT8', 'lb0q-sk82TA', 'BQnidD3sb0g', '3EyfPWAy57w', 'tYbjAE3F4H0', 'jkm2z_f5oMk', 'MXsNK9j4PNQ', 'WqQRYFLxoDc', 'jc7V08Xc9IQ', 'WDcdn8N_oRk', 'cqXgUkucsvc', 'BJ3WH-kSAxI', '0HenRw6__u8', '5VRuRmDJURY', 'c0fBLov2nKk', 'Z0iOzLatpz4', 'QZ37MHN3NyE', 'f53OW6p7l-8', 'yQLIwMeSE5c', 'KO7Z5_85490', 'l4MewuaqxTE', 'hCh3xz_BDWo', 'FIO4cZ0jCug', '_--osX9sKB8', 'CYPKuPAZt9E', 'J-VCgNpy9p8']);
+const HAS_EXAM = new Set(['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026', 'EAsLs_1HyG8', '2K-cXgASSew', 'iEm-I_gVb9s', 'lk7UF1vn8a4', 'ogyJB2xEaUs', 'J4yroaYw1SQ', 'VhFT2yDaMjg', 'gIqFonNsQZ8', 'DLKjW7fqyDU', 'oS9ZMdbDffE', 'aLBxYurJGE0', 'S1Jkiew7ovQ', '6IPSJbEwluw', '4Bp2X6lj1Tw', 'oAcYTBuHhT8', 'lb0q-sk82TA', 'BQnidD3sb0g', '3EyfPWAy57w', 'tYbjAE3F4H0', 'jkm2z_f5oMk', 'MXsNK9j4PNQ', 'WqQRYFLxoDc', 'jc7V08Xc9IQ', 'WDcdn8N_oRk', 'cqXgUkucsvc', 'BJ3WH-kSAxI', '0HenRw6__u8', '5VRuRmDJURY', 'c0fBLov2nKk', 'Z0iOzLatpz4', 'QZ37MHN3NyE', 'f53OW6p7l-8', 'yQLIwMeSE5c', 'KO7Z5_85490', 'l4MewuaqxTE', 'hCh3xz_BDWo', 'FIO4cZ0jCug', '_--osX9sKB8', 'CYPKuPAZt9E', 'J-VCgNpy9p8', 'Sy926KPXwV0', '-tYNqvvOsU0']);
 
 function go(id) {
   localStorage.setItem('hub_last_video', id);

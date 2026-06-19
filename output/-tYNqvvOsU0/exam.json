@@ -1,0 +1,236 @@
+{
+ "video_id": "-tYNqvvOsU0",
+ "title": "Luisteren en Lezen (Piet met zijn moeder in ziekenhuis)",
+ "channel": "Inburgeren examen A2",
+ "duration": 171,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "看醫生的過程",
+   "title_nl": "Luisteren en Lezen (Piet met zijn moeder in ziekenhuis)",
+   "kind": "對話",
+   "context_zh": "小朋友Piep和媽媽一起去醫院看醫生",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Bezoek de dokter. Start de diashow, klik op de oranje pijltjes hieronder.",
+     "zh": "拜訪醫生。啟動投影片，點擊下面的橘色箭頭。"
+    },
+    {
+     "t": "0:06",
+     "nl": "Hoi, ik ben de dokter. Op de foto's zie je wat er gebeurt als je bij me langskomt in het ziekenhuis.",
+     "zh": "嗨，我是醫生。在照片中你可以看到當你來醫院找我時會發生什麼事。"
+    },
+    {
+     "t": "0:15",
+     "nl": "Piep moet naar de dokter in het ziekenhuis. Samen met mama rolt hij naar boven.",
+     "zh": "Piep 必須去醫院看醫生。他和媽媽一起推著輪椅往上走。"
+    },
+    {
+     "t": "0:24",
+     "nl": "Mama kijkt op het scherm. Het is een grote wegwijzer.",
+     "zh": "媽媽看著螢幕。那是一個大型指示牌。"
+    },
+    {
+     "t": "0:28",
+     "nl": "Daar kan ze precies zien waar de kamer van de dokter is.",
+     "zh": "她可以準確地看到醫生的診室在哪裡。"
+    },
+    {
+     "t": "0:37",
+     "nl": "Gevonden! Dit is de kinderpoli. In het midden staan gele aanmeldzuilen.",
+     "zh": "找到了！這裡是兒童門診。在中間有黃色的報到柱。"
+    },
+    {
+     "t": "0:42",
+     "nl": "Je houdt je ziekenhuispas voor het raampje en je krijgt een nummertje.",
+     "zh": "你將醫院卡放在小窗戶前，然後會收到一個號碼。"
+    },
+    {
+     "t": "0:45",
+     "nl": "Op een groot scherm zie je of je aan de beurt bent.",
+     "zh": "在大螢幕上可以看到你是否輪到你了。"
+    },
+    {
+     "t": "0:52",
+     "nl": "Piep moet even wachten. Gelukkig is er van alles te doen.",
+     "zh": "Piep 需要稍等。幸好這裡有很多事情可以做。"
+    },
+    {
+     "t": "0:56",
+     "nl": "Er is een speelzaal en je kunt computerspelletjes spelen. Er is ook een leestafel.",
+     "zh": "這裡有遊戲室，你可以玩電腦遊戲，也有閱讀桌。"
+    },
+    {
+     "t": "1:05",
+     "nl": "Het is zover. Piep is aan de beurt. De doktersassistent komt hem halen.",
+     "zh": "時候到了。輪到 Piep 了。醫護助理來接他。"
+    },
+    {
+     "t": "1:10",
+     "nl": "Onderweg lopen ze langs de meetlat. Dat is makkelijk, kunnen ze meteen even kijken hoe lang hij is.",
+     "zh": "路上他們經過身高尺。這很方便，他們可以馬上量身高。"
+    },
+    {
+     "t": "1:19",
+     "nl": "De doktersassistent zet Piep ook even op de weegschaal.",
+     "zh": "醫護助理也讓 Piep 站上秤子量體重。"
+    },
+    {
+     "t": "1:22",
+     "nl": "Hoe lang je bent en hoeveel je weegt is iets wat de dokter altijd wil weten.",
+     "zh": "醫生總是想知道你的身高和體重。"
+    },
+    {
+     "t": "1:34",
+     "nl": "Soms moet je nog even wachten op de dokter. Gelukkig heeft hij ook wat te spelen in zijn kamer.",
+     "zh": "有時候你還需要再等醫生一會兒。幸好他診室裡有些玩具可以玩。"
+    },
+    {
+     "t": "1:44",
+     "nl": "Daar is de dokter. Hij geeft Piep een hand en vertelt wie hij is.",
+     "zh": "醫生來了。他跟 Piep 握手並介紹自己。"
+    },
+    {
+     "t": "1:48",
+     "nl": "Soms is de dokter een vrouw en soms een man. Als iedereen zit gaat de dokter van alles uitleggen.",
+     "zh": "有時醫生是女的，有時是男的。大家坐好後，醫生會解釋很多事情。"
+    },
+    {
+     "t": "1:54",
+     "nl": "Dat doet de dokter altijd voor hij je gaat onderzoeken.",
+     "zh": "醫生總是在檢查你之前解釋清楚。"
+    },
+    {
+     "t": "2:02",
+     "nl": "Piep klimt op de bank. Nu gaat de dokter hem onderzoeken. Hij voelt en klopt op Pieps buik en hij luistert naar de dokter.",
+     "zh": "Piep 爬上診療床。現在醫生要開始檢查他。他觸摸並敲擊 Piep 的肚子，並聽他的呼吸。"
+    },
+    {
+     "t": "2:09",
+     "nl": "Soms moet je even in je ondergoed, maar niet altijd.",
+     "zh": "有時你必須只穿內衣，但不一定每次都要。"
+    },
+    {
+     "t": "2:17",
+     "nl": "De dokter kijkt ook even in Pieps oor. Daar heeft hij een speciaal kijkertje voor.",
+     "zh": "醫生也會看 Piep 的耳朵，有專用的小工具。"
+    },
+    {
+     "t": "2:21",
+     "nl": "Wat de dokter onderzoekt ligt aan jou, aan wat je hebt.",
+     "zh": "醫生檢查什麼取決於你和你的病情。"
+    },
+    {
+     "t": "2:30",
+     "nl": "Het onderzoek is voorbij. De dokter praat nog even met mama en Piep.",
+     "zh": "檢查結束了。醫生還跟媽媽和 Piep 簡短交談。"
+    },
+    {
+     "t": "2:34",
+     "nl": "Hij vertelt wat hij denkt dat er aan de hand is en wat er nu verder gaat gebeuren.",
+     "zh": "他說出他認為問題在哪裡，以及接下來會怎麼做。"
+    },
+    {
+     "t": "2:46",
+     "nl": "Het is klaar. Piep mag weer naar huis. Nog een hand van de dokter en doei!",
+     "zh": "結束了。Piep 可以回家了。醫生再握一次手，說再見！"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "dokter",
+     "zh": "醫生"
+    },
+    {
+     "nl": "ziekenhuis",
+     "zh": "醫院"
+    },
+    {
+     "nl": "aanmeldzuilen",
+     "zh": "登記柱"
+    },
+    {
+     "nl": "ziekenhuispas",
+     "zh": "醫院卡"
+    },
+    {
+     "nl": "nummertje",
+     "zh": "號碼"
+    },
+    {
+     "nl": "speelzaal",
+     "zh": "遊戲室"
+    },
+    {
+     "nl": "weegschaal",
+     "zh": "秤"
+    },
+    {
+     "nl": "ondergoed",
+     "zh": "內衣"
+    },
+    {
+     "nl": "oor",
+     "zh": "耳朵"
+    },
+    {
+     "nl": "onderzoek",
+     "zh": "檢查"
+    },
+    {
+     "nl": "hand",
+     "zh": "手"
+    },
+    {
+     "nl": "buik",
+     "zh": "肚子"
+    },
+    {
+     "nl": "wachten",
+     "zh": "等待"
+    },
+    {
+     "nl": "uitleggen",
+     "zh": "解釋"
+    },
+    {
+     "nl": "kamer",
+     "zh": "房間"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik ben de dokter.",
+     "zh": "我是醫生。",
+     "note": "自我介紹的句型"
+    },
+    {
+     "nl": "Piep moet naar de dokter.",
+     "zh": "Piep需要去看醫生。",
+     "note": "表達需要做某事"
+    },
+    {
+     "nl": "Je houdt je ziekenhuispas voor het raampje.",
+     "zh": "你把醫院卡放在窗前。",
+     "note": "描述動作的句型"
+    },
+    {
+     "nl": "Soms moet je even wachten.",
+     "zh": "有時候你需要等一下。",
+     "note": "表達時間的句型"
+    },
+    {
+     "nl": "De dokter kijkt ook even in Pieps oor.",
+     "zh": "醫生也會檢查Piep的耳朵。",
+     "note": "描述檢查的動作"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}
