@@ -1,0 +1,816 @@
+{
+  "video_id": "lb0q-sk82TA",
+  "video_info": {
+    "title": "Listening exam A2 Practice 2",
+    "channel": "Inburgeren examen A2",
+    "duration": 625
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Elke maandag. Hé Tessa, hoe is het?",
+        "translation": "每個星期一。嗨，Tessa，你好嗎？",
+        "start": 0.0,
+        "end": 5.96
+      },
+      {
+        "text": "Goed. Zullen wij deze week een dagje naar Amsterdam gaan?",
+        "translation": "很好。我們這週要不要去阿姆斯特丹玩一天？",
+        "start": 6.82,
+        "end": 11.94
+      },
+      {
+        "text": "Deze week kan ik niet. Ik heb het heel druk.",
+        "translation": "這週我沒空。我很忙。",
+        "start": 13.52,
+        "end": 18.28
+      },
+      {
+        "text": "Wat ga je deze week dan doen?",
+        "translation": "那你這週打算做什麼？",
+        "start": 19.46,
+        "end": 20.88
+      },
+      {
+        "text": "Maandag ga ik naar de koffieochtend in het buurthuis.",
+        "translation": "星期一我要去社區中心的咖啡上午。",
+        "start": 22.28,
+        "end": 26.02
+      },
+      {
+        "text": "Dat doe ik elke week. Dinsdag help ik op de school van mijn dochter bij de sportdag.",
+        "translation": "我每週都去。星期二我在我女兒的學校幫忙體育日。",
+        "start": 26.78,
+        "end": 32.48
+      },
+      {
+        "text": "En woensdag ga ik naar mijn moeder. Ah, waar woont ze?",
+        "translation": "星期三我要去看我媽媽。啊，她住在哪裡？",
+        "start": 32.9,
+        "end": 37.48
+      },
+      {
+        "text": "In Den Haag. En donderdag en vrijdag? Donderdag moet ik werken.",
+        "translation": "在海牙。星期四和星期五呢？星期四我要工作。",
+        "start": 38.24,
+        "end": 43.2
+      },
+      {
+        "text": "En vrijdag heb ik een afspraak in het ziekenhuis.",
+        "translation": "星期五我有一個醫院的約會。",
+        "start": 44.22,
+        "end": 46.84
+      },
+      {
+        "text": "Zo, dat is inderdaad een drukke agenda.",
+        "translation": "哇，那確實是很忙的一週行程。",
+        "start": 47.44,
+        "end": 51.06
+      },
+      {
+        "text": "Dan gaan we een andere keer, oké? Ja, leuk.",
+        "translation": "那我們改天再去，好嗎？好，太好了。",
+        "start": 52.24,
+        "end": 56.1
+      },
+      {
+        "text": "Eet je gezond?",
+        "translation": "你有吃得健康嗎？",
+        "start": 58.46,
+        "end": 59.74
+      },
+      {
+        "text": "Waar ben je geweest? Ik was bij de dokter met mijn zoon.",
+        "translation": "你去哪了？我帶我兒子去看醫生了。",
+        "start": 64.16,
+        "end": 68.02
+      },
+      {
+        "text": "Is hij ziek? Nee. Maar Jonas is te dik.",
+        "translation": "他生病了嗎？沒有。但Jonas太胖了。",
+        "start": 69.06,
+        "end": 73.32
+      },
+      {
+        "text": "Hij moet gezonder eten. Dan moet hij zeker minder snoepen.",
+        "translation": "他必須吃得更健康。那他一定要少吃零食。",
+        "start": 74.74,
+        "end": 78.88
+      },
+      {
+        "text": "Ja, en meer groenten en fruit eten.",
+        "translation": "是的，還要多吃蔬菜和水果。",
+        "start": 79.72,
+        "end": 82.96
+      },
+      {
+        "text": "Nou, dat is niet makkelijk. Nee. Eet jij gezond?",
+        "translation": "嗯，那真的不容易。是啊。你吃得健康嗎？",
+        "start": 84.32,
+        "end": 89.36
+      },
+      {
+        "text": "Ja, maar ik drink te veel koffie. Hoeveel koffie drink je dan per dag?",
+        "translation": "吃得健康，但我咖啡喝太多了。你一天喝多少咖啡？",
+        "start": 90.0,
+        "end": 94.32
+      },
+      {
+        "text": "Ongeveer acht kopjes. Tja, dat is ook niet gezond.",
+        "translation": "大約八杯。唉，那也不健康。",
+        "start": 96.16,
+        "end": 100.46
+      },
+      {
+        "text": "Nee.",
+        "translation": "不健康。",
+        "start": 101.1,
+        "end": 101.4
+      },
+      {
+        "text": "Hé, zullen we ergens een broodje eten? Ah, goed idee.",
+        "translation": "嘿，我們去吃點三明治吧？好主意。",
+        "start": 112.28,
+        "end": 116.0
+      },
+      {
+        "text": "Ik heb wel trek. Aan de overkant zit een café.",
+        "translation": "我肚子餓了。對面有一家咖啡館。",
+        "start": 116.7,
+        "end": 119.74
+      },
+      {
+        "text": "Je bedoelt De Molen? Ja, ze hebben daar lekkere broodjes.",
+        "translation": "你是說『磨坊』？對，那裡有好吃的三明治。",
+        "start": 120.42,
+        "end": 124.54
+      },
+      {
+        "text": "Goedemiddag. Hallo. Wat kan ik voor u doen?",
+        "translation": "午安。你好。請問需要什麼？",
+        "start": 128.72,
+        "end": 131.78
+      },
+      {
+        "text": "Heeft u voor ons de menukaart? Natuurlijk, ik haal hem even.",
+        "translation": "你們有菜單嗎？當然，我馬上拿給你們。",
+        "start": 132.7,
+        "end": 137.24
+      },
+      {
+        "text": "Weet u het al? Ja, ik wil graag een tosti en een thee.",
+        "translation": "你們決定好了嗎？我想要一份烤吐司和一杯茶。",
+        "start": 145.28,
+        "end": 150.52
+      },
+      {
+        "text": "De tosti met ham en kaas. Ja, lekker.",
+        "translation": "烤吐司火腿奶酪口味。好吃。",
+        "start": 151.12,
+        "end": 154.72
+      },
+      {
+        "text": "En voor u?",
+        "translation": "那您呢？",
+        "start": 156.02,
+        "end": 156.98
+      },
+      {
+        "text": "Voor mij een broodje kroket en een glas melk.",
+        "translation": "我要一個炸肉餅三明治和一杯牛奶。",
+        "start": 157.64,
+        "end": 162.34
+      },
+      {
+        "text": "Een bruin broodje of een wit broodje? Een witte graag.",
+        "translation": "要全麥麵包還是白麵包？我要白麵包。",
+        "start": 163.12,
+        "end": 167.72
+      },
+      {
+        "text": "Prima, komt eraan. Wat zullen we eten?",
+        "translation": "好的，馬上來。我們要吃什麼？",
+        "start": 168.5,
+        "end": 174.16
+      },
+      {
+        "text": "Eén. Hé, Maja.",
+        "translation": "一。嗨，Maja。",
+        "start": 174.16,
+        "end": 178.54
+      },
+      {
+        "text": "Wat ga je vanavond eten? Boerenkool met worst.",
+        "translation": "你今晚要吃什麼？高麗菜燉香腸。",
+        "start": 179.22,
+        "end": 182.24
+      },
+      {
+        "text": "Lekker. Dat is wel een echte Hollandse maaltijd.",
+        "translation": "好吃。那可是地道的荷蘭菜。",
+        "start": 183.2,
+        "end": 186.42
+      },
+      {
+        "text": "Ja, dat klopt. Mijn kinderen vinden het heerlijk.",
+        "translation": "對，沒錯。我的孩子們很喜歡。",
+        "start": 187.5,
+        "end": 190.76
+      },
+      {
+        "text": "En het is lekker in de winter. Wat ga jij eten?",
+        "translation": "冬天吃很舒服。你呢，要吃什麼？",
+        "start": 191.5,
+        "end": 194.9
+      },
+      {
+        "text": "Dat weet ik niet. Wij gaan bij mijn zus eten.",
+        "translation": "不知道。我們要去我姊姊家吃飯。",
+        "start": 196.52,
+        "end": 199.6
+      },
+      {
+        "text": "Oh, fijn. Dan hoef je niet te koken.",
+        "translation": "噢，真好。這樣你不用煮飯了。",
+        "start": 200.24,
+        "end": 202.32
+      },
+      {
+        "text": "Oh, ik hoop dat ze kip met rijst en broccoli maakt.",
+        "translation": "我希望她煮雞肉配飯和花椰菜。",
+        "start": 203.2,
+        "end": 207.76
+      },
+      {
+        "text": "Dat kan ze heel goed. Oh, eet smakelijk vanavond, hè.",
+        "translation": "她煮得很好。哦，祝你今晚用餐愉快。",
+        "start": 208.6,
+        "end": 213.8
+      },
+      {
+        "text": "Jij ook. Wat zullen we eten?",
+        "translation": "你也是。我們要吃什麼？",
+        "start": 214.6,
+        "end": 220.36
+      },
+      {
+        "text": "Twee.",
+        "translation": "二。",
+        "start": 221.28,
+        "end": 221.36
+      },
+      {
+        "text": "Oh, wat ruikt het hier lekker. Ik heb tomatensoep gemaakt.",
+        "translation": "哇，這裡聞起來好香。我煮了番茄湯。",
+        "start": 227.14,
+        "end": 231.5
+      },
+      {
+        "text": "Mag ik even proeven? Natuurlijk. Vind je het lekker?",
+        "translation": "我可以嘗一口嗎？當然。你喜歡嗎？",
+        "start": 231.5,
+        "end": 237.28
+      },
+      {
+        "text": "Mmm, het is heerlijk. Het smaakt een beetje zoet.",
+        "translation": "嗯，很好吃。味道有點甜。",
+        "start": 237.56,
+        "end": 242.14
+      },
+      {
+        "text": "Ja, ik hou van zoete gerechten. Is het je eigen recept?",
+        "translation": "是啊，我喜歡甜的料理。這是你自己的食譜嗎？",
+        "start": 242.56,
+        "end": 246.44
+      },
+      {
+        "text": "Nee, het is een recept van mijn moeder. Lust je een kopje soep?",
+        "translation": "不是，這是我媽媽的食譜。你想喝一碗湯嗎？",
+        "start": 246.9,
+        "end": 251.0
+      },
+      {
+        "text": "Ja, graag.",
+        "translation": "好啊，謝謝。",
+        "start": 251.5,
+        "end": 252.4
+      },
+      {
+        "text": "In een café 2.",
+        "translation": "在一家咖啡館 2。",
+        "start": 258.56,
+        "end": 262.24
+      },
+      {
+        "text": "Weet u het al? Ja, ik wil graag een tosti en een thee.",
+        "translation": "你們決定好了嗎？我想要一份烤吐司和一杯茶。",
+        "start": 263.98,
+        "end": 269.16
+      },
+      {
+        "text": "De tosti met ham en kaas. Ja, lekker.",
+        "translation": "火腿起司烤吐司。是的，好吃。",
+        "start": 269.76,
+        "end": 273.38
+      },
+      {
+        "text": "En voor u?",
+        "translation": "您要什麼？",
+        "start": 274.94,
+        "end": 275.66
+      },
+      {
+        "text": "Voor mij een broodje kroket en een glas melk.",
+        "translation": "我要一個可樂餅三明治和一杯牛奶。",
+        "start": 276.34,
+        "end": 280.98
+      },
+      {
+        "text": "Een bruin broodje en een glas melk. Een blauw broodje of een wit broodje? Een witte graag.",
+        "translation": "一個全麥的三明治和一杯牛奶。一個藍色麵包還是白麵包？我要白麵包。",
+        "start": 281.64,
+        "end": 286.34
+      },
+      {
+        "text": "Prima, komt eraan. Koffie met gebak.",
+        "translation": "很好，馬上來。咖啡配蛋糕。",
+        "start": 287.06,
+        "end": 292.72
+      },
+      {
+        "text": "Dag mevrouw. Goedemorgen. Zegt u het maar.",
+        "translation": "您好，女士。早安。請說。",
+        "start": 295.82,
+        "end": 299.6
+      },
+      {
+        "text": "Een half wit gesneden. Anders nog iets?",
+        "translation": "切半個白麵包。還需要其他的嗎？",
+        "start": 300.12,
+        "end": 304.48
+      },
+      {
+        "text": "En een half volkoren gesneden, alsjeblieft.",
+        "translation": "請給我切半個全麥麵包。",
+        "start": 305.82,
+        "end": 308.7
+      },
+      {
+        "text": "Dat was het?",
+        "translation": "就這些嗎？",
+        "start": 310.6,
+        "end": 312.02
+      },
+      {
+        "text": "Nee, ik wil ook nog vier gebakjes.",
+        "translation": "不，我還想要四個小蛋糕。",
+        "start": 312.5,
+        "end": 316.62
+      },
+      {
+        "text": "Welke wilt u? Die met slagroom graag.",
+        "translation": "您要哪種？我要打發鮮奶油那種。",
+        "start": 317.58,
+        "end": 322.14
+      },
+      {
+        "text": "Dat is dan 9,20 euro, alsjeblieft.",
+        "translation": "總共9.20歐元，請。",
+        "start": 332.14,
+        "end": 335.14
+      },
+      {
+        "text": "Mijn familie 1.",
+        "translation": "我的家人一。",
+        "start": 338.06,
+        "end": 342.28
+      },
+      {
+        "text": "Hallo, ik ben Simon Sanchez. Ik heb een broer en een zus.",
+        "translation": "你好，我是Simon Sanchez。我有一個哥哥和一個妹妹。",
+        "start": 343.28,
+        "end": 348.56
+      },
+      {
+        "text": "Mijn broer heet Jason en mijn zus heet Annette.",
+        "translation": "我哥哥叫Jason，我妹妹叫Annette。",
+        "start": 350.02,
+        "end": 355.6
+      },
+      {
+        "text": "Ik ben 12 jaar.",
+        "translation": "我12歲。",
+        "start": 356.52,
+        "end": 357.26
+      },
+      {
+        "text": "Jason is 9 jaar en mijn zus is 3 jaar.",
+        "translation": "Jason 9歲，我妹妹3歲。",
+        "start": 359.26,
+        "end": 363.08
+      },
+      {
+        "text": "Wij wonen met onze ouders in Amsterdam.",
+        "translation": "我們和父母一起住在阿姆斯特丹。",
+        "start": 363.08,
+        "end": 366.78
+      },
+      {
+        "text": "Mijn moeder heet Linda. De naam van mijn vader is Martin.",
+        "translation": "我媽媽叫Linda。爸爸的名字是Martin。",
+        "start": 368.48,
+        "end": 373.58
+      },
+      {
+        "text": "Mijn vader heeft één zus. Zij heet Isabella.",
+        "translation": "我爸爸有一個姐妹。她叫Isabella。",
+        "start": 374.84,
+        "end": 378.82
+      },
+      {
+        "text": "Zij is getrouwd met Hans. Hij is de zwager van mijn vader.",
+        "translation": "她嫁給Hans。他是我爸爸的姐夫。",
+        "start": 380.64,
+        "end": 386.36
+      },
+      {
+        "text": "Zij hebben samen twee dochters, Eva en Sarah.",
+        "translation": "他們有兩個女兒，Eva和Sarah。",
+        "start": 388.02,
+        "end": 392.48
+      },
+      {
+        "text": "Eva woont samen met Luc.",
+        "translation": "Eva和Luc一起住。",
+        "start": 393.98,
+        "end": 396.56
+      },
+      {
+        "text": "Sarah woont nog thuis bij haar ouders.",
+        "translation": "Sarah還和父母住在一起。",
+        "start": 398.48,
+        "end": 400.5
+      },
+      {
+        "text": "Eva en Sarah zijn mijn nichtjes. Ik ben hun neef.",
+        "translation": "Eva和Sarah是我的姪女。我是他們的堂兄。",
+        "start": 402.4,
+        "end": 406.58
+      },
+      {
+        "text": "Hans en Isabella zijn mijn oom en tante.",
+        "translation": "Hans和Isabella是我的叔叔和嬸嬸。",
+        "start": 408.5,
+        "end": 411.88
+      },
+      {
+        "text": "Mijn opa en oma heten Julio en Maria.",
+        "translation": "我的爺爺奶奶叫Julio和Maria。",
+        "start": 413.42,
+        "end": 416.76
+      },
+      {
+        "text": "Zij wonen in Spanje. Mijn familie 2.",
+        "translation": "他們住在西班牙。我的家人二。",
+        "start": 418.16,
+        "end": 422.16
+      },
+      {
+        "text": "Mijn vrouw en mijn twee dochters. Hé Mohamed, wat een leuke foto. Is dat jouw familie?",
+        "translation": "我的妻子和我兩個女兒。嗨Mohamed，好漂亮的照片。那是你的家人嗎？",
+        "start": 428.84,
+        "end": 432.64
+      },
+      {
+        "text": "Ja, dit is mijn vrouw en dit zijn mijn twee dochters.",
+        "translation": "是的，這是我的妻子，這是我的兩個女兒。",
+        "start": 433.32,
+        "end": 438.48
+      },
+      {
+        "text": "En is dat je zus? Nee, dat is mijn schoonzus.",
+        "translation": "那是你妹妹嗎？不，那是我的嫂子。",
+        "start": 439.74,
+        "end": 443.98
+      },
+      {
+        "text": "Zij is getrouwd met mijn broer. Hé, woont je broer ook in Nederland?",
+        "translation": "她嫁給我哥哥。嗨，你哥哥也住在荷蘭嗎？",
+        "start": 444.68,
+        "end": 449.06
+      },
+      {
+        "text": "Ja, gelukkig wel.",
+        "translation": "是的，還好。",
+        "start": 449.06,
+        "end": 451.34
+      },
+      {
+        "text": "En zijn dit je ouders? Ja, maar zij wonen in Irak.",
+        "translation": "那是你父母嗎？是，但他們住在伊拉克。",
+        "start": 453.36,
+        "end": 458.5
+      },
+      {
+        "text": "Ik heb ze al drie jaar niet gezien.",
+        "translation": "我已經三年沒見他們了。",
+        "start": 459.56,
+        "end": 461.34
+      },
+      {
+        "text": "Geboren 1.",
+        "translation": "出生一。",
+        "start": 468.72,
+        "end": 469.5
+      },
+      {
+        "text": "Met Jan. Hoi Jan, met Siham.",
+        "translation": "我是Jan。嗨Jan，我是Siham。",
+        "start": 476.82,
+        "end": 480.54
+      },
+      {
+        "text": "Hallo Siham. Gefeliciteerd met je zoon.",
+        "translation": "你好Siham。恭喜你生了兒子。",
+        "start": 481.5,
+        "end": 484.9
+      },
+      {
+        "text": "Ja, dankjewel. Is alles goed met Thomas?",
+        "translation": "謝謝你。Thomas一切都好嗎？",
+        "start": 485.24,
+        "end": 488.84
+      },
+      {
+        "text": "Ja, hij is helemaal gezond. Kan ik vanmiddag even op bezoek komen?",
+        "translation": "是的，他非常健康。我今天下午可以去拜訪嗎？",
+        "start": 489.32,
+        "end": 494.68
+      },
+      {
+        "text": "Leuk. Kom je om drie uur? Dat is goed. Tot vanmiddag.",
+        "translation": "很好。你三點來嗎？好的，下午見。",
+        "start": 495.22,
+        "end": 500.98
+      },
+      {
+        "text": "En doe de groeten aan Alia.",
+        "translation": "請代我問候Alia。",
+        "start": 501.48,
+        "end": 505.72
+      },
+      {
+        "text": "Zal ik doen. Tot straks.",
+        "translation": "我會的，待會見。",
+        "start": 512.94,
+        "end": 514.5
+      },
+      {
+        "text": "Geboren 2.",
+        "translation": "出生二。",
+        "start": 517.2,
+        "end": 521.34
+      },
+      {
+        "text": "Hé, gefeliciteerd met je zoon. Dankjewel.",
+        "translation": "嗨，恭喜你的兒子。謝謝。",
+        "start": 523.0,
+        "end": 524.02
+      },
+      {
+        "text": "Is alles goed gegaan?",
+        "translation": "一切順利嗎？",
+        "start": 524.9,
+        "end": 529.16
+      },
+      {
+        "text": "Ja, hij is thuisgeboren en hij is helemaal gezond.",
+        "translation": "是的，他在家生的，完全健康。",
+        "start": 530.2,
+        "end": 534.4
+      },
+      {
+        "text": "Oh, gelukkig. Wil je hem even zien?",
+        "translation": "哦，太好了。你要看看他嗎？",
+        "start": 539.04,
+        "end": 544.06
+      },
+      {
+        "text": "Dit is Thomas. Oh, wat is hij lief.",
+        "translation": "這是Thomas。喔，他好可愛。",
+        "start": 544.88,
+        "end": 545.68
+      },
+      {
+        "text": "Hoeveel weegt hij?",
+        "translation": "他多重？",
+        "start": 546.82,
+        "end": 551.46
+      },
+      {
+        "text": "En hoe is het met Maria? Ze is nu naar school.",
+        "translation": "Maria 最近怎麼樣？她現在上學去了。",
+        "start": 553.84,
+        "end": 557.68
+      },
+      {
+        "text": "Ze is erg trots op haar broertje.",
+        "translation": "她對她弟弟非常驕傲。",
+        "start": 559.52,
+        "end": 561.68
+      },
+      {
+        "text": "Een vriend van vroeger. Hé, Safi.",
+        "translation": "以前的一個朋友。嗨，Safi。",
+        "start": 565.36,
+        "end": 570.94
+      },
+      {
+        "text": "Hoi. Wie ben jij? Ik ben Paul. Paul de Waard.",
+        "translation": "嗨。你是誰？我是保羅。保羅·德瓦爾德。",
+        "start": 571.64,
+        "end": 576.78
+      },
+      {
+        "text": "We kennen elkaar van de sportclub. Oh ja. Dat is lang geleden.",
+        "translation": "我們是在運動俱樂部認識的。喔，是啊。那已經是很久以前的事了。",
+        "start": 577.62,
+        "end": 582.34
+      },
+      {
+        "text": "Ja, vier jaar. Hoe is het? Prima. En met jou?",
+        "translation": "是的，四年了。你好嗎？很好。你呢？",
+        "start": 583.52,
+        "end": 588.58
+      },
+      {
+        "text": "Goed. Woon jij ook in Den Haag? Ja, samen met mevrouw.",
+        "translation": "很好。你也住在海牙嗎？是的，和夫人一起。",
+        "start": 588.94,
+        "end": 594.04
+      },
+      {
+        "text": "Ik ben net getrouwd. Wat leuk. Hoe heet je vrouw?",
+        "translation": "我剛結婚。真好。你太太叫什麼名字？",
+        "start": 594.88,
+        "end": 599.6
+      },
+      {
+        "text": "Ze heet Elisa. En jij? Ben jij ook getrouwd?",
+        "translation": "她叫Elisa。你呢？你也結婚了嗎？",
+        "start": 600.58,
+        "end": 604.46
+      },
+      {
+        "text": "Nee. Ik woon samen met Helene.",
+        "translation": "沒有。我和Helene同居。",
+        "start": 604.88,
+        "end": 608.1
+      },
+      {
+        "text": "En onze dochter heet Lina. Zo. Er is veel veranderd.",
+        "translation": "我們的女兒叫Lina。是啊，變化很多。",
+        "start": 608.8,
+        "end": 613.74
+      },
+      {
+        "text": "Zullen we een kopje koffie drinken? Prima. Dan kunnen we verder praten.",
+        "translation": "我們喝杯咖啡吧？好啊。那我們可以繼續聊。",
+        "start": 615.26,
+        "end": 619.92
+      },
+      {
+        "text": "TV Gelderland 2021",
+        "translation": "TV Gelderland 2021",
+        "start": 624.2,
+        "end": 624.4
+      }
+    ],
+    "questions": [
+      {
+        "question": "Welke dag gaat Tessa naar de koffieochtend in het buurthuis?",
+        "question_native": "Tessa 哪一天去社區中心參加咖啡上午？",
+        "options": [
+          "Maandag",
+          "Dinsdag",
+          "Woensdag"
+        ],
+        "answer": "Maandag"
+      },
+      {
+        "question": "Waarom kan iemand deze week niet naar Amsterdam mee?",
+        "question_native": "為什麼有人這週不能去阿姆斯特丹？",
+        "options": [
+          "Hij is te druk",
+          "Hij is ziek",
+          "Hij is op vakantie"
+        ],
+        "answer": "Hij is te druk"
+      },
+      {
+        "question": "Wat eet Maja vanavond?",
+        "question_native": "Maja 今晚要吃什麼？",
+        "options": [
+          "Boerenkool met worst",
+          "Tosti",
+          "Tomatensoep"
+        ],
+        "answer": "Boerenkool met worst"
+      },
+      {
+        "question": "Wie helpt er tijdens de sportdag op school?",
+        "question_native": "誰在學校的運動日幫忙？",
+        "options": [
+          "Tessa",
+          "De spreker",
+          "Jonas"
+        ],
+        "answer": "De spreker"
+      },
+      {
+        "question": "Wat vindt Jonas volgens het gesprek?",
+        "question_native": "根據對話，Jonas被認為是？",
+        "options": [
+          "Te dik",
+          "Ziek",
+          "Goed gezond"
+        ],
+        "answer": "Te dik"
+      },
+      {
+        "question": "Wat drinkt de persoon die te veel koffie drinkt per dag?",
+        "question_native": "每天喝很多咖啡的人喝多少杯？",
+        "options": [
+          "Ongeveer acht kopjes",
+          "Ongeveer twee kopjes",
+          "Ongeveer tien kopjes"
+        ],
+        "answer": "Ongeveer acht kopjes"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "koffieochtend",
+        "meaning": "咖啡上午"
+      },
+      {
+        "word": "buurthuis",
+        "meaning": "社區中心"
+      },
+      {
+        "word": "sportdag",
+        "meaning": "運動日"
+      },
+      {
+        "word": "afspraak",
+        "meaning": "約會、預約"
+      },
+      {
+        "word": "ziekenhuis",
+        "meaning": "醫院"
+      },
+      {
+        "word": "drukke agenda",
+        "meaning": "忙碌的行程"
+      },
+      {
+        "word": "gezond",
+        "meaning": "健康的"
+      },
+      {
+        "word": "snoepen",
+        "meaning": "吃零食"
+      },
+      {
+        "word": "broodje",
+        "meaning": "三明治、小麵包"
+      },
+      {
+        "word": "tosti",
+        "meaning": "烤吐司"
+      },
+      {
+        "word": "broodje kroket",
+        "meaning": "可樂餅三明治"
+      },
+      {
+        "word": "boerenkool",
+        "meaning": "羽衣甘藍"
+      },
+      {
+        "word": "worst",
+        "meaning": "香腸"
+      },
+      {
+        "word": "recept",
+        "meaning": "食譜"
+      },
+      {
+        "word": "tomatensoep",
+        "meaning": "番茄湯"
+      }
+    ]
+  }
+}

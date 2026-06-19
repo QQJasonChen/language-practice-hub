@@ -1,0 +1,464 @@
+{
+  "video_id": "CYPKuPAZt9E",
+  "video_info": {
+    "title": "Luister naar de woorden",
+    "channel": "Inburgeren examen A2",
+    "duration": 417
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Het graan.",
+        "translation": "穀物。",
+        "start": 2.02,
+        "end": 3.42
+      },
+      {
+        "text": "De boerderij.",
+        "translation": "農場。",
+        "start": 7.4,
+        "end": 8.12
+      },
+      {
+        "text": "De koe.",
+        "translation": "母牛。",
+        "start": 14.0,
+        "end": 14.5
+      },
+      {
+        "text": "Het paard.",
+        "translation": "馬。",
+        "start": 19.56,
+        "end": 20.88
+      },
+      {
+        "text": "Het ijs.",
+        "translation": "冰淇淋。",
+        "start": 26.0,
+        "end": 27.18
+      },
+      {
+        "text": "Het gras.",
+        "translation": "草。",
+        "start": 35.0,
+        "end": 36.4
+      },
+      {
+        "text": "De stal.",
+        "translation": "畜棚。",
+        "start": 41.02,
+        "end": 42.42
+      },
+      {
+        "text": "De bol.",
+        "translation": "球莖。",
+        "start": 47.66,
+        "end": 48.1
+      },
+      {
+        "text": "De kip.",
+        "translation": "母雞。",
+        "start": 54.34,
+        "end": 55.88
+      },
+      {
+        "text": "De hond.",
+        "translation": "狗。",
+        "start": 64.36,
+        "end": 65.76
+      },
+      {
+        "text": "Het ei.",
+        "translation": "蛋。",
+        "start": 69.66,
+        "end": 71.06
+      },
+      {
+        "text": "De boer.",
+        "translation": "農夫。",
+        "start": 76.8,
+        "end": 77.68
+      },
+      {
+        "text": "De laarzen.",
+        "translation": "長靴。",
+        "start": 84.0,
+        "end": 84.8
+      },
+      {
+        "text": "Het schaap.",
+        "translation": "綿羊。",
+        "start": 94.16,
+        "end": 95.62
+      },
+      {
+        "text": "De tent.",
+        "translation": "帳篷。",
+        "start": 101.32,
+        "end": 102.72
+      },
+      {
+        "text": "De wijn.",
+        "translation": "酒。",
+        "start": 110.0,
+        "end": 110.4
+      },
+      {
+        "text": "De ster.",
+        "translation": "星星。",
+        "start": 116.0,
+        "end": 116.52
+      },
+      {
+        "text": "Het museum.",
+        "translation": "博物館。",
+        "start": 125.0,
+        "end": 126.4
+      },
+      {
+        "text": "De camping.",
+        "translation": "露營區。",
+        "start": 130.1,
+        "end": 131.5
+      },
+      {
+        "text": "Het bier.",
+        "translation": "啤酒。",
+        "start": 137.58,
+        "end": 138.38
+      },
+      {
+        "text": "Het schilderij.",
+        "translation": "畫作。",
+        "start": 144.3,
+        "end": 146.24
+      },
+      {
+        "text": "Het weekend.",
+        "translation": "週末。",
+        "start": 155.6,
+        "end": 157.0
+      },
+      {
+        "text": "De slaapzak.",
+        "translation": "睡袋。",
+        "start": 162.78,
+        "end": 164.18
+      },
+      {
+        "text": "De kerk.",
+        "translation": "教堂。",
+        "start": 168.04,
+        "end": 169.44
+      },
+      {
+        "text": "Het café.",
+        "translation": "咖啡館。",
+        "start": 176.6,
+        "end": 178.24
+      },
+      {
+        "text": "Het bos.",
+        "translation": "森林。",
+        "start": 186.58,
+        "end": 187.98
+      },
+      {
+        "text": "Het dorp.",
+        "translation": "村莊。",
+        "start": 192.56,
+        "end": 193.96
+      },
+      {
+        "text": "De computer.",
+        "translation": "電腦。",
+        "start": 198.96,
+        "end": 199.9
+      },
+      {
+        "text": "Het beeldscherm.",
+        "translation": "螢幕。",
+        "start": 204.3,
+        "end": 206.16
+      },
+      {
+        "text": "De muis.",
+        "translation": "滑鼠。",
+        "start": 210.74,
+        "end": 213.34
+      },
+      {
+        "text": "De printer.",
+        "translation": "印表機。",
+        "start": 218.98,
+        "end": 220.38
+      },
+      {
+        "text": "Het toetsenbord.",
+        "translation": "鍵盤。",
+        "start": 225.82,
+        "end": 227.68
+      },
+      {
+        "text": "De computerles.",
+        "translation": "電腦課。",
+        "start": 232.18,
+        "end": 233.02
+      },
+      {
+        "text": "De voorkant.",
+        "translation": "前面。",
+        "start": 244.02,
+        "end": 245.42
+      },
+      {
+        "text": "De voorkant.",
+        "translation": "前面。",
+        "start": 252.38,
+        "end": 254.28
+      },
+      {
+        "text": "De titel.",
+        "translation": "標題。",
+        "start": 259.32,
+        "end": 261.04
+      },
+      {
+        "text": "De inhoud.",
+        "translation": "內容。",
+        "start": 265.06,
+        "end": 266.92
+      },
+      {
+        "text": "De bladzijde.",
+        "translation": "頁面。",
+        "start": 272.46,
+        "end": 274.1
+      },
+      {
+        "text": "De tekening.",
+        "translation": "圖畫。",
+        "start": 279.24,
+        "end": 280.72
+      },
+      {
+        "text": "De achterkant.",
+        "translation": "背面。",
+        "start": 284.84,
+        "end": 286.42
+      },
+      {
+        "text": "De plank.",
+        "translation": "木板。",
+        "start": 303.14,
+        "end": 304.68
+      },
+      {
+        "text": "De stilte.",
+        "translation": "寂靜。",
+        "start": 309.94,
+        "end": 311.72
+      },
+      {
+        "text": "De vogel. De boom.",
+        "translation": "鳥。樹。",
+        "start": 320.12,
+        "end": 325.78
+      },
+      {
+        "text": "Het kanaal.",
+        "translation": "運河。",
+        "start": 331.08,
+        "end": 332.48
+      },
+      {
+        "text": "De boot.",
+        "translation": "船。",
+        "start": 337.42,
+        "end": 338.18
+      },
+      {
+        "text": "De rivier.",
+        "translation": "河流。",
+        "start": 344.42,
+        "end": 345.6
+      },
+      {
+        "text": "De zwemles.",
+        "translation": "游泳課。",
+        "start": 353.96,
+        "end": 355.36
+      },
+      {
+        "text": "De kleren.",
+        "translation": "衣服。",
+        "start": 359.64,
+        "end": 361.02
+      },
+      {
+        "text": "De handdoek.",
+        "translation": "毛巾。",
+        "start": 365.98,
+        "end": 367.52
+      },
+      {
+        "text": "De haven.",
+        "translation": "港口。",
+        "start": 371.88,
+        "end": 373.56
+      },
+      {
+        "text": "De badmeester.",
+        "translation": "救生員。",
+        "start": 382.5,
+        "end": 383.96
+      },
+      {
+        "text": "Het diploma.",
+        "translation": "畢業證書。",
+        "start": 387.44,
+        "end": 388.84
+      },
+      {
+        "text": "Het eiland.",
+        "translation": "島嶼。",
+        "start": 393.22,
+        "end": 394.1
+      },
+      {
+        "text": "Het meer.",
+        "translation": "湖泊。",
+        "start": 398.56,
+        "end": 400.24
+      },
+      {
+        "text": "Douchen.",
+        "translation": "洗澡。",
+        "start": 407.14,
+        "end": 408.54
+      },
+      {
+        "text": "De zee.",
+        "translation": "大海。",
+        "start": 413.24,
+        "end": 413.34
+      }
+    ],
+    "questions": [
+      {
+        "question": "What kind of location is mentioned multiple times in the sentences?",
+        "question_native": "句子中提到哪種類型的地點多次出現？",
+        "options": [
+          "Farm-related places",
+          "City landmarks",
+          "Beach locations"
+        ],
+        "answer": "Farm-related places"
+      },
+      {
+        "question": "Which animals are explicitly named in the sentences?",
+        "question_native": "句子中明確提到了哪些動物？",
+        "options": [
+          "Cow, horse, dog",
+          "Cat, rabbit, parrot",
+          "Fish, dolphin, whale"
+        ],
+        "answer": "Cow, horse, dog"
+      },
+      {
+        "question": "What items related to computing are included?",
+        "question_native": "包含哪些與電腦有關的物品？",
+        "options": [
+          "Computer, mouse, keyboard",
+          "Phone, tablet, speaker",
+          "Camera, printer, scanner"
+        ],
+        "answer": "Computer, mouse, keyboard"
+      },
+      {
+        "question": "Which sentence refers to 'weekend' in Dutch?",
+        "question_native": "哪一句提到了荷蘭語的「週末」？",
+        "options": [
+          "Het weekend.",
+          "De slaapzak.",
+          "Het bier."
+        ],
+        "answer": "Het weekend."
+      },
+      {
+        "question": "Which terms relate to outdoor activities?",
+        "question_native": "哪些詞語與戶外活動相關？",
+        "options": [
+          "De tent, de camping, de zwemles",
+          "Het museum, het café, het bos",
+          "De computer, de printer, het toetsenbord"
+        ],
+        "answer": "De tent, de camping, de zwemles"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "graan",
+        "meaning": "穀物"
+      },
+      {
+        "word": "boerderij",
+        "meaning": "農場"
+      },
+      {
+        "word": "koe",
+        "meaning": "母牛"
+      },
+      {
+        "word": "paard",
+        "meaning": "馬"
+      },
+      {
+        "word": "stal",
+        "meaning": "畜棚"
+      },
+      {
+        "word": "bol",
+        "meaning": "球莖"
+      },
+      {
+        "word": "schaap",
+        "meaning": "綿羊"
+      },
+      {
+        "word": "wijn",
+        "meaning": "酒"
+      },
+      {
+        "word": "museum",
+        "meaning": "博物館"
+      },
+      {
+        "word": "camping",
+        "meaning": "露營區"
+      },
+      {
+        "word": "computer",
+        "meaning": "電腦"
+      },
+      {
+        "word": "toetsenbord",
+        "meaning": "鍵盤"
+      },
+      {
+        "word": "voorkant",
+        "meaning": "前面"
+      },
+      {
+        "word": "bladzijde",
+        "meaning": "頁面"
+      },
+      {
+        "word": "haven",
+        "meaning": "港口"
+      }
+    ]
+  }
+}

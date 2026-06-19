@@ -1,0 +1,816 @@
+{
+  "video_id": "l4MewuaqxTE",
+  "video_info": {
+    "title": "Listening exam 2021 part 2",
+    "channel": "Inburgeren examen A2",
+    "duration": 988
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Julia doet een koksopleiding.",
+        "translation": "Julia 在學廚師課程。",
+        "start": 7.04,
+        "end": 10.48
+      },
+      {
+        "text": "Haar medekursisten Mira en Chris praten over de examens.",
+        "translation": "她的同學 Mira 和 Chris 正在討論考試。",
+        "start": 12.38,
+        "end": 18.28
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 19.12,
+        "end": 23.38
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 53.04,
+        "end": 57.98
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 65.22,
+        "end": 72.3
+      },
+      {
+        "text": "Julia doet een koksopleiding.",
+        "translation": "Julia 在學廚師課程。",
+        "start": 105.72,
+        "end": 109.58
+      },
+      {
+        "text": "Haar medecursisten Mira en Chris praten over de examens.",
+        "translation": "她的同學 Mira 和 Chris 正在討論考試。",
+        "start": 109.58,
+        "end": 116.58
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 118.26,
+        "end": 122.62
+      },
+      {
+        "text": "Lees eerst de vraag.",
+        "translation": "先讀問題。",
+        "start": 145.66,
+        "end": 147.44
+      },
+      {
+        "text": "Kijk daarna naar de video.",
+        "translation": "然後看影片。",
+        "start": 147.5,
+        "end": 152.56
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 177.7,
+        "end": 178.08
+      },
+      {
+        "text": "Julia luistert naar het gesprek.",
+        "translation": "Julia 正在聽對話。",
+        "start": 181.5,
+        "end": 186.34
+      },
+      {
+        "text": "Welke tip geeft Chris als eerste aan Mira?",
+        "translation": "Chris 第一個給 Mira 的建議是什麼？",
+        "start": 187.32,
+        "end": 191.58
+      },
+      {
+        "text": "Maak een planning.",
+        "translation": "做一個計劃。",
+        "start": 194.52,
+        "end": 196.26
+      },
+      {
+        "text": "Ga extra veel leren.",
+        "translation": "多花時間學習。",
+        "start": 199.42,
+        "end": 201.84
+      },
+      {
+        "text": "Leer in de bus en in de trein.",
+        "translation": "在公車和火車上學習。",
+        "start": 203.8,
+        "end": 208.06
+      },
+      {
+        "text": "Julia doet een koksopleiding.",
+        "translation": "Julia 在學廚師課程。",
+        "start": 224.26,
+        "end": 227.78
+      },
+      {
+        "text": "Haar medecursisten Mira en Chris praten over de examens.",
+        "translation": "她的同學 Mira 和 Chris 正在討論考試。",
+        "start": 229.72,
+        "end": 234.84
+      },
+      {
+        "text": "Lees eerst de vraag.",
+        "translation": "先讀問題。",
+        "start": 234.84,
+        "end": 237.94
+      },
+      {
+        "text": "Kijk daarna naar de video.",
+        "translation": "然後看影片。",
+        "start": 239.02,
+        "end": 241.02
+      },
+      {
+        "text": "Lees eerst de vraag.",
+        "translation": "先讀問題。",
+        "start": 262.9,
+        "end": 265.64
+      },
+      {
+        "text": "Kijk daarna naar de video.",
+        "translation": "然後看影片。",
+        "start": 265.74,
+        "end": 270.7
+      },
+      {
+        "text": "Julia doet een koksopleiding.",
+        "translation": "Julia 在學廚師課程。",
+        "start": 272.56,
+        "end": 274.84
+      },
+      {
+        "text": "Julia luistert naar het gesprek.",
+        "translation": "Julia 正在聽對話。",
+        "start": 299.62,
+        "end": 303.42
+      },
+      {
+        "text": "Wat zegt Chris over vertraging?",
+        "translation": "Chris 對遲到有什麼看法？",
+        "start": 304.42,
+        "end": 307.8
+      },
+      {
+        "text": "Dan heb je extra tijd om te leren.",
+        "translation": "這樣你有更多時間學習。",
+        "start": 310.7,
+        "end": 313.7
+      },
+      {
+        "text": "Dan heb je minder tijd om te leren.",
+        "translation": "這樣你有較少時間學習。",
+        "start": 316.54,
+        "end": 319.46
+      },
+      {
+        "text": "Dat je vaker vertraging hebt met de bus.",
+        "translation": "你坐公車時比較常遲到。",
+        "start": 321.78,
+        "end": 325.38
+      },
+      {
+        "text": "Dat je vaker vertraging hebt met de trein.",
+        "translation": "你坐火車時比較常遲到。",
+        "start": 327.6,
+        "end": 332.24
+      },
+      {
+        "text": "Zaira kijkt naar het journaal op televisie.",
+        "translation": "Zaira 正在看電視新聞。",
+        "start": 349.58,
+        "end": 353.14
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 353.14,
+        "end": 358.78
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 385.96,
+        "end": 388.76
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 414.94,
+        "end": 417.84
+      },
+      {
+        "text": "Wat was er bijzonder aan deze dag op Schiphol?",
+        "translation": "Schiphol 這天有什麼特別之處？",
+        "start": 417.84,
+        "end": 421.84
+      },
+      {
+        "text": "Het was de drukste dag van deze zomer.",
+        "translation": "那是這個夏天最忙碌的一天。",
+        "start": 424.82,
+        "end": 427.82
+      },
+      {
+        "text": "Het was de drukste dag van het hele jaar.",
+        "translation": "那是整年最忙碌的一天。",
+        "start": 430.84,
+        "end": 434.12
+      },
+      {
+        "text": "Het was de drukste dag van de afgelopen twee jaar.",
+        "translation": "那是過去兩年來最忙碌的一天。",
+        "start": 437.04,
+        "end": 441.0
+      },
+      {
+        "text": "Het was de drukste dag ooit.",
+        "translation": "那是有史以來最忙碌的一天。",
+        "start": 442.94,
+        "end": 446.0
+      },
+      {
+        "text": "Zaira kijkt naar het journaal op televisie.",
+        "translation": "Zaira 正在看電視新聞。",
+        "start": 459.06,
+        "end": 462.0
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 464.26,
+        "end": 467.8
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 478.02,
+        "end": 479.62
+      },
+      {
+        "text": "Gisteren was het de drukste dag van het jaar op Schiphol Airport.",
+        "translation": "昨天是 Schiphol 機場全年最忙碌的一天。",
+        "start": 481.54,
+        "end": 485.48
+      },
+      {
+        "text": "Er waren 1300 vluchten.",
+        "translation": "有 1300 班航班。",
+        "start": 486.58,
+        "end": 488.18
+      },
+      {
+        "text": "Er waren ruim 170.000 passagiers op Schiphol tegenover 180.000 op de drukste dag vorige zomer.",
+        "translation": "Schiphol 有超過 170,000 名旅客，相較去年的夏季最忙一天有 180,000 名旅客。",
+        "start": 489.04,
+        "end": 496.44
+      },
+      {
+        "text": "Schiphol heeft extra personeel ingezet. Daarom waren de rijen voor het inchecken niet langer dan normaal.",
+        "translation": "Schiphol 增派了人手，所以下了飛機的排隊時間沒有比平常長。",
+        "start": 497.9,
+        "end": 503.88
+      },
+      {
+        "text": "Ook de rij bij de paspoortcontrole was niet langer.",
+        "translation": "護照檢查的隊伍也沒有比較長。",
+        "start": 505.1,
+        "end": 507.84
+      },
+      {
+        "text": "Alleen op de parkeerplaats was het lastig om een plek te vinden.",
+        "translation": "只有停車場比較難找到停車位。",
+        "start": 508.98,
+        "end": 511.82
+      },
+      {
+        "text": "Alle reizigers kregen gisteren wel gratis ijs.",
+        "translation": "所有旅客昨天都免費拿到冰淇淋。",
+        "start": 513.8,
+        "end": 516.38
+      },
+      {
+        "text": "Ijsfabrikant Ola bestond 20 jaar en trakteerde.",
+        "translation": "冰淇淋品牌 Ola 慶祝 20 週年並請客。",
+        "start": 517.28,
+        "end": 520.24
+      },
+      {
+        "text": "Een hele fijne traktatie op zo'n warme dag.",
+        "translation": "在這麼熱的一天，真是美好的款待。",
+        "start": 521.3,
+        "end": 524.12
+      },
+      {
+        "text": "Waar hadden reizigers het meeste last van de drukte?",
+        "translation": "旅客最受擁擠影響的是哪裡？",
+        "start": 526.76,
+        "end": 532.22
+      },
+      {
+        "text": "In de rij voor het inchecken.",
+        "translation": "在報到的隊伍中。",
+        "start": 534.98,
+        "end": 537.08
+      },
+      {
+        "text": "Bij de paspoortcontrole. Op de parkeerplaats.",
+        "translation": "在護照檢查處。停車場上。",
+        "start": 539.98,
+        "end": 545.98
+      },
+      {
+        "text": "Zaira kijkt naar het journaal op televisie.",
+        "translation": "Zaira正在看電視新聞。",
+        "start": 560.58,
+        "end": 564.66
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 566.04,
+        "end": 569.6
+      },
+      {
+        "text": "Gisteren was het een hele mooie dag. Gisteren was het de drukste dag van het jaar op Schiphol Airport.",
+        "translation": "昨天是非常美好的一天。昨天是史基浦機場全年最繁忙的一天。",
+        "start": 583.0,
+        "end": 587.16
+      },
+      {
+        "text": "Er waren 1300 vluchten.",
+        "translation": "有1300班航班。",
+        "start": 588.28,
+        "end": 589.88
+      },
+      {
+        "text": "Er waren ruim 170.000 passagiers op Schiphol tegenover 180.000 op de drukste dag vorige zomer.",
+        "translation": "史基浦有超過17萬名乘客，而去年夏天最繁忙的一天則有18萬名乘客。",
+        "start": 590.72,
+        "end": 598.1
+      },
+      {
+        "text": "Daarom waren de rijen voor het inchecken niet langer dan normaal. Ook de rij bij de paspoortcontrole was niet langer.",
+        "translation": "因此，報到隊伍沒有比平常更長。護照檢查隊伍也沒有變長。",
+        "start": 602.7,
+        "end": 607.24
+      },
+      {
+        "text": "Alleen op de parkeerplaats was het lastig om een plek te vinden.",
+        "translation": "只有在停車場較難找到車位。",
+        "start": 607.24,
+        "end": 609.34
+      },
+      {
+        "text": "Alle reizigers kregen gisteren wel gratis ijs. Ijsfabrikant Ola bestond 20 jaar en",
+        "translation": "所有旅客昨天都有免費冰淇淋。冰淇淋品牌Ola慶祝成立20年，",
+        "start": 610.44,
+        "end": 613.28
+      },
+      {
+        "text": "trakteerde. Een hele fijne traktatie op zo'n warme dag.",
+        "translation": "並請大家吃冰淇淋。這是在這麼熱的天氣裡非常好的款待。",
+        "start": 615.28,
+        "end": 621.12
+      },
+      {
+        "text": "Waarom kregen de reizigers op Schiphol gratis ijs?",
+        "translation": "為什麼史基浦的旅客會得到免費冰淇淋？",
+        "start": 621.12,
+        "end": 625.58
+      },
+      {
+        "text": "Omdat Ola 20 jaar bestond.",
+        "translation": "因為Ola成立20年了。",
+        "start": 629.12,
+        "end": 633.48
+      },
+      {
+        "text": "Omdat ze zo lang moesten wachten.",
+        "translation": "因為他們等待太久了。",
+        "start": 636.34,
+        "end": 639.22
+      },
+      {
+        "text": "Omdat het zo'n warme dag was.",
+        "translation": "因為那天非常熱。",
+        "start": 642.2,
+        "end": 644.36
+      },
+      {
+        "text": "Ondertitels ingediend door de Amara.org gemeenschap. Eren is met zijn vriend Mark bij de gemeente.",
+        "translation": "字幕由Amara.org社群提供。Eren和他的朋友Mark在市政府。",
+        "start": 647.42,
+        "end": 649.64
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 669.66,
+        "end": 673.28
+      },
+      {
+        "text": "Kan ik u helpen? Ik heb een zoon gekregen.",
+        "translation": "我可以幫您嗎？我生了一個兒子。",
+        "start": 675.06,
+        "end": 678.6
+      },
+      {
+        "text": "Gisteren. Gefeliciteerd. U wilt dus aangifte doen van de geboorte.",
+        "translation": "昨天。恭喜。您想要辦理出生申報。",
+        "start": 691.72,
+        "end": 694.9
+      },
+      {
+        "text": "Mag ik uw legitimatiebewijs even vergeten? Ach, kan gebeuren.",
+        "translation": "可以看您的身份證件嗎？忘記帶了啊，沒關係。",
+        "start": 695.88,
+        "end": 699.4
+      },
+      {
+        "text": "U kunt tot twee",
+        "translation": "您可以在出生後兩個",
+        "start": 699.4,
+        "end": 706.86
+      },
+      {
+        "text": "dagen na de geboorte aangifte doen. Dus het mag morgen ook nog. Want vanmiddag zijn we gesloten.",
+        "translation": "天內申報出生。因此明天也可以，因為今天下午我們休息。",
+        "start": 708.46,
+        "end": 709.54
+      },
+      {
+        "text": "U getrouwd? Ja. Dan moet u ook het trouwboekje meenemen.",
+        "translation": "您結婚了嗎？是的。那您也必須帶結婚證書。",
+        "start": 709.54,
+        "end": 715.48
+      },
+      {
+        "text": "Morgen zijn we tot 12 uur open. U kunt op internet een afspraak maken.",
+        "translation": "明天我們營業到中午12點。您可以在網路上預約。",
+        "start": 716.58,
+        "end": 720.34
+      },
+      {
+        "text": "Dan hoeft u niet zo lang te wachten. Kan dat niet meteen hier aan de balie?",
+        "translation": "這樣您就不用等太久。不能直接來櫃檯辦理嗎？",
+        "start": 721.34,
+        "end": 725.66
+      },
+      {
+        "text": "Helaas, alleen online. Oké, bedankt.",
+        "translation": "很抱歉，只能線上辦理。好的，謝謝您。",
+        "start": 726.52,
+        "end": 730.22
+      },
+      {
+        "text": "Waarom is Mark bij de gemeente?",
+        "translation": "Mark為什麼去市政府？",
+        "start": 730.22,
+        "end": 736.46
+      },
+      {
+        "text": "Hij is zijn legitimatiebewijs kwijt.",
+        "translation": "他弄丟了身分證件。",
+        "start": 739.6,
+        "end": 741.68
+      },
+      {
+        "text": "Hij wil een geboorte aangeven.",
+        "translation": "他想申報出生。",
+        "start": 743.82,
+        "end": 748.48
+      },
+      {
+        "text": "Hij gaat binnenkort trouwen.",
+        "translation": "他即將結婚。",
+        "start": 751.34,
+        "end": 753.34
+      },
+      {
+        "text": "Eren is met zijn vriend Mark bij de gemeente.",
+        "translation": "Eren和他的朋友Mark在市政府。",
+        "start": 756.5,
+        "end": 758.38
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 780.0,
+        "end": 783.4
+      },
+      {
+        "text": "Kan ik u helpen? Ik heb een zoon gekregen.",
+        "translation": "我可以幫您嗎？我生了一個兒子。",
+        "start": 785.2,
+        "end": 788.64
+      },
+      {
+        "text": "Gisteren. Gefeliciteerd. U wilt dus aangifte doen van de geboorte.",
+        "translation": "昨天。恭喜。您想要辦理出生申報。",
+        "start": 801.68,
+        "end": 805.06
+      },
+      {
+        "text": "Mag ik uw legitimatiebewijs even vergeten? Ach, kan gebeuren.",
+        "translation": "可以看您的身份證件嗎？忘記帶了啊，沒關係。",
+        "start": 806.04,
+        "end": 809.58
+      },
+      {
+        "text": "U kunt tot twee",
+        "translation": "您可以在出生後兩個",
+        "start": 809.58,
+        "end": 817.02
+      },
+      {
+        "text": "dagen na de geboorte aangifte doen. Dus het mag morgen ook nog. Want vanmiddag zijn we gesloten.",
+        "translation": "天內申報出生。因此明天也可以，因為今天下午我們休息。",
+        "start": 818.64,
+        "end": 819.72
+      },
+      {
+        "text": "Bent u getrouwd? Ja. Dan moet u ook het trouwboekje meenemen.",
+        "translation": "您結婚了嗎？是的。那您也必須帶結婚證書。",
+        "start": 819.72,
+        "end": 825.7
+      },
+      {
+        "text": "Morgen zijn we tot 12 uur open. U kunt op internet een afspraak maken.",
+        "translation": "明天我們營業到中午12點。您可以在網路上預約。",
+        "start": 826.94,
+        "end": 830.48
+      },
+      {
+        "text": "Dan hoeft u niet zo lang te wachten. Kan dat niet meteen hier aan de balie?",
+        "translation": "這樣您就不用等太久。不能直接來櫃檯辦理嗎？",
+        "start": 831.48,
+        "end": 835.82
+      },
+      {
+        "text": "Helaas, alleen online. Oké, bedankt.",
+        "translation": "很抱歉，只能線上辦理。好的，謝謝您。",
+        "start": 836.8,
+        "end": 840.52
+      },
+      {
+        "text": "Wanneer kan Mark terugkomen bij de gemeente?",
+        "translation": "Mark何時可以回市政府？",
+        "start": 840.52,
+        "end": 847.12
+      },
+      {
+        "text": "Vanmiddag. Morgenochtend.",
+        "translation": "今天下午或明天早上。",
+        "start": 849.78,
+        "end": 852.76
+      },
+      {
+        "text": "Over drie dagen.",
+        "translation": "三天後。",
+        "start": 855.98,
+        "end": 860.96
+      },
+      {
+        "text": "Eren is met zijn vriend Mark bij de gemeente.",
+        "translation": "Eren和他的朋友Mark在市政府。",
+        "start": 867.94,
+        "end": 869.82
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後看影片。",
+        "start": 879.46,
+        "end": 883.06
+      },
+      {
+        "text": "Kan ik u helpen? Ik heb een zoon gekregen.",
+        "translation": "我可以幫您嗎？我生了一個兒子。",
+        "start": 884.88,
+        "end": 888.32
+      },
+      {
+        "text": "Gisteren. Gefeliciteerd. U wilt dus aangifte doen.",
+        "translation": "昨天。恭喜。您想要辦理出生申報。",
+        "start": 901.36,
+        "end": 904.74
+      },
+      {
+        "text": "GisterenGefeliciteerdUwiltdusaangiftedoen",
+        "translation": "",
+        "start": 905.68,
+        "end": 909.36
+      },
+      {
+        "text": "Van de geboorte: mag ik legitimatiebewijs mee neevergeten? Ach, kan gebeuren.",
+        "translation": "出生登記：我可以帶身份證明嗎？沒帶到也沒關係，可能會發生。",
+        "start": 909.36,
+        "end": 916.66
+      },
+      {
+        "text": "U kunt tot",
+        "translation": "您可以直到",
+        "start": 918.2,
+        "end": 919.2
+      },
+      {
+        "text": "Dagen na de geboorte aangifte doen. Dus het mag morgen ook nog. Want vanmiddag zijn we gesloten.",
+        "translation": "出生後幾天內申報。所以明天也可以，因為今天下午我們休息。",
+        "start": 919.38,
+        "end": 925.34
+      },
+      {
+        "text": "Bent u getrouwd? Ja. Dan moet u ook het trouwboekje meenemen.",
+        "translation": "您結婚了嗎？是的，那您也必須帶結婚證書。",
+        "start": 926.6,
+        "end": 930.12
+      },
+      {
+        "text": "Morgen zijn we tot 12 uur open. U kunt op internet een afspraak maken.",
+        "translation": "明天我們營業到12點。您可以在網路上預約。",
+        "start": 931.14,
+        "end": 935.46
+      },
+      {
+        "text": "Dan hoeft u niet zolang te wachten. Kan dat niet meteen hier aan",
+        "translation": "這樣您就不需要等待那麼久。這裡不能立刻辦理嗎？",
+        "start": 936.28,
+        "end": 940.16
+      },
+      {
+        "text": "de balie? Helaas, alleen online. Oké, bedankt.",
+        "translation": "櫃檯？很抱歉，只有線上辦理。好的，謝謝。",
+        "start": 940.16,
+        "end": 945.96
+      },
+      {
+        "text": "Mark wilde volgende keer niet zolang wachten.",
+        "translation": "Mark下次不想等那麼久。",
+        "start": 949.26,
+        "end": 952.5
+      },
+      {
+        "text": "Wat kan hij dan het beste doen?",
+        "translation": "那他最好怎麼做？",
+        "start": 954.1,
+        "end": 956.32
+      },
+      {
+        "text": "Een afspraak maken aan de balie.",
+        "translation": "在櫃檯預約。",
+        "start": 959.12,
+        "end": 962.06
+      },
+      {
+        "text": "Een afspraak maken via internet.",
+        "translation": "透過網路預約。",
+        "start": 964.78,
+        "end": 967.98
+      },
+      {
+        "text": "Voor 12 uur naar de gemeente gaan.",
+        "translation": "12點前去市政府。",
+        "start": 970.46,
+        "end": 973.76
+      },
+      {
+        "text": "Na 12 uur naar de gemeente gaan.",
+        "translation": "12點後去市政府。",
+        "start": 976.5,
+        "end": 978.9
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat doet Julia?",
+        "question_native": "Julia 在做什麼？",
+        "options": [
+          "Ze volgt een koksopleiding.",
+          "Ze kijkt naar het journaal.",
+          "Ze maakt een planning."
+        ],
+        "answer": "Ze volgt een koksopleiding."
+      },
+      {
+        "question": "Wat is de eerste tip die Chris geeft aan Mira?",
+        "question_native": "Chris 給 Mira 的第一個建議是什麼？",
+        "options": [
+          "Maak een planning.",
+          "Ga extra veel leren.",
+          "Leer in de bus en trein."
+        ],
+        "answer": "Maak een planning."
+      },
+      {
+        "question": "Wat voor vertraging bespreekt Chris?",
+        "question_native": "Chris 談論什麼樣的遲到？",
+        "options": [
+          "Vertraging met de bus.",
+          "Vertraging met het vliegtuig.",
+          "Vertraging op school."
+        ],
+        "answer": "Vertraging met de bus."
+      },
+      {
+        "question": "Wat was bijzonder aan de drukste dag op Schiphol?",
+        "question_native": "Schiphol 最忙碌的一天有什麼特別？",
+        "options": [
+          "Het was de drukste dag ooit.",
+          "Er waren geen vluchten.",
+          "Het was een rustige dag."
+        ],
+        "answer": "Het was de drukste dag ooit."
+      },
+      {
+        "question": "Hoeveel vluchten waren er op de drukste dag op Schiphol?",
+        "question_native": "Schiphol 最忙碌的一天有多少班航班？",
+        "options": [
+          "1300 vluchten",
+          "500 vluchten",
+          "2000 vluchten"
+        ],
+        "answer": "1300 vluchten"
+      },
+      {
+        "question": "Wat deed Schiphol om de drukte te verminderen?",
+        "question_native": "Schiphol 做了什麼來減少擁擠？",
+        "options": [
+          "Extra personeel inzetten.",
+          "Minder vluchten toestaan.",
+          "Gratis eten geven."
+        ],
+        "answer": "Extra personeel inzetten."
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "koksopleiding",
+        "meaning": "廚師課程"
+      },
+      {
+        "word": "medecursisten",
+        "meaning": "同學"
+      },
+      {
+        "word": "examen",
+        "meaning": "考試"
+      },
+      {
+        "word": "vraag",
+        "meaning": "問題"
+      },
+      {
+        "word": "video",
+        "meaning": "影片"
+      },
+      {
+        "word": "tip",
+        "meaning": "建議"
+      },
+      {
+        "word": "planning",
+        "meaning": "計劃"
+      },
+      {
+        "word": "vertraging",
+        "meaning": "遲到、延誤"
+      },
+      {
+        "word": "rejtes",
+        "meaning": "隊伍，排隊（錯字 correction: rij）"
+      },
+      {
+        "word": "paspoortcontrole",
+        "meaning": "護照檢查"
+      },
+      {
+        "word": "parkeren",
+        "meaning": "停車"
+      },
+      {
+        "word": "ijs",
+        "meaning": "冰淇淋"
+      },
+      {
+        "word": "ijsfabrikant",
+        "meaning": "冰淇淋製造商"
+      },
+      {
+        "word": "traktatie",
+        "meaning": "款待、請客"
+      },
+      {
+        "word": "journaal",
+        "meaning": "新聞（電視新聞）"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1034 @@
+{
+  "video_id": "MXsNK9j4PNQ",
+  "video_info": {
+    "title": "Luisteren examen A2 Oefenen 7",
+    "channel": "Inburgeren examen A2",
+    "duration": 747
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Luister en klik op de goede zin.",
+        "translation": "聽並點擊正確的句子。",
+        "start": 0.0,
+        "end": 3.08
+      },
+      {
+        "text": "Het gesprek.",
+        "translation": "對話。",
+        "start": 3.94,
+        "end": 5.72
+      },
+      {
+        "text": "Luister nu naar het hele gesprek van Noerai en Ronald.",
+        "translation": "現在聽 Noerai 和 Ronald 的完整對話。",
+        "start": 5.72,
+        "end": 11.5
+      },
+      {
+        "text": "Hallo, ik ben Noerai Toenk. Wie ben jij?",
+        "translation": "你好，我是 Noerai Toenk。你是誰？",
+        "start": 13.02,
+        "end": 17.36
+      },
+      {
+        "text": "Dag, ik ben Ronald van Meer. Is Ronald je voornaam?",
+        "translation": "你好，我是 Ronald van Meer。Ronald 是你的名字嗎？",
+        "start": 18.02,
+        "end": 23.0
+      },
+      {
+        "text": "Ja, dat klopt.",
+        "translation": "是的，沒錯。",
+        "start": 23.5,
+        "end": 25.2
+      },
+      {
+        "text": "Ronald is mijn voornaam en Van Meer is mijn achternaam.",
+        "translation": "Ronald 是我的名字，Van Meer 是我的姓氏。",
+        "start": 25.84,
+        "end": 30.02
+      },
+      {
+        "text": "Mijn voornaam is Noerai. Toenk is mijn achternaam.",
+        "translation": "我的名字是 Noerai，Toenk 是我的姓氏。",
+        "start": 31.62,
+        "end": 35.62
+      },
+      {
+        "text": "En waar kom je vandaan? Ik kom uit Turkije.",
+        "translation": "你從哪裡來？我來自土耳其。",
+        "start": 36.12,
+        "end": 39.82
+      },
+      {
+        "text": "O, Turkije. Waar in Turkije? Ik kom uit Istanbul.",
+        "translation": "喔，土耳其。土耳其的哪裡？我來自伊斯坦堡。",
+        "start": 40.34,
+        "end": 45.2
+      },
+      {
+        "text": "Istanbul, dat is een mooie stad. Ja, zeker.",
+        "translation": "伊斯坦堡，那是一個美麗的城市。是的，當然。",
+        "start": 45.84,
+        "end": 50.12
+      },
+      {
+        "text": "En waar kom jij vandaan, Ronald?",
+        "translation": "那你呢，Ronald，你從哪裡來？",
+        "start": 50.12,
+        "end": 53.32
+      },
+      {
+        "text": "Ik kom uit Nederland, uit Den Haag.",
+        "translation": "我來自荷蘭，來自海牙。",
+        "start": 54.24,
+        "end": 58.42
+      },
+      {
+        "text": "Den Haag. Is dat een mooie stad?",
+        "translation": "海牙，那是一個美麗的城市嗎？",
+        "start": 58.96,
+        "end": 62.14
+      },
+      {
+        "text": "Ja, Den Haag is een heel mooie stad. Waar woon jij?",
+        "translation": "是的，海牙是一個非常美麗的城市。你住在哪裡？",
+        "start": 62.46,
+        "end": 67.06
+      },
+      {
+        "text": "Ik woon in Utrecht. O, dat is leuk. Waar woon je in Utrecht?",
+        "translation": "我住在烏特勒支。哇，那很好。你住在烏特勒支的哪裡？",
+        "start": 67.92,
+        "end": 73.1
+      },
+      {
+        "text": "Ik woon in het centrum van de stad, in de Witte Vrouwenstraat.",
+        "translation": "我住在市中心的白婦女街。",
+        "start": 73.84,
+        "end": 78.12
+      },
+      {
+        "text": "O! Ja, die straat ken ik.",
+        "translation": "喔！我認識那條街。",
+        "start": 78.12,
+        "end": 81.04
+      },
+      {
+        "text": "Nou, Ronald, leuk om kennis met je te maken.",
+        "translation": "那麼，Ronald，很高興認識你。",
+        "start": 81.84,
+        "end": 87.38
+      },
+      {
+        "text": "Ja, ik vind het ook heel leuk.",
+        "translation": "是的，我也覺得很開心。",
+        "start": 95.0,
+        "end": 97.1
+      },
+      {
+        "text": "Het gesprek.",
+        "translation": "對話。",
+        "start": 97.68,
+        "end": 103.66
+      },
+      {
+        "text": "Luister nu naar het hele gesprek van Noerai en Ronald.",
+        "translation": "現在聽 Noerai 和 Ronald 的完整對話。",
+        "start": 105.92,
+        "end": 109.52
+      },
+      {
+        "text": "Hallo, ik ben Noerai Toenk. Wie ben jij?",
+        "translation": "你好，我是 Noerai Toenk。你是誰？",
+        "start": 110.1,
+        "end": 115.7
+      },
+      {
+        "text": "Dag, ik ben Ronald van Meer. Is Ronald je voornaam?",
+        "translation": "你好，我是 Ronald van Meer。Ronald 是你的名字嗎？",
+        "start": 116.06,
+        "end": 122.04
+      },
+      {
+        "text": "Ja, dat klopt. Ronald is mijn voornaam en Van Meer is mijn achternaam.",
+        "translation": "是的，沒錯。Ronald 是我的名字，Van Meer 是我的姓氏。",
+        "start": 123.82,
+        "end": 127.76
+      },
+      {
+        "text": "Mijn voornaam is Noerai. Toenk is mijn achternaam.",
+        "translation": "我的名字是 Noerai，Toenk 是我的姓氏。",
+        "start": 128.28,
+        "end": 132.0
+      },
+      {
+        "text": "En waar kom je vandaan? Ik kom uit Turkije.",
+        "translation": "你從哪裡來？我來自土耳其。",
+        "start": 132.52,
+        "end": 137.26
+      },
+      {
+        "text": "O, Turkije. Waar in Turkije? Ik kom uit Istanbul.",
+        "translation": "喔，土耳其。土耳其的哪裡？我來自伊斯坦堡。",
+        "start": 138.0,
+        "end": 140.78
+      },
+      {
+        "text": "Istanbul, dat is een mooie stad.",
+        "translation": "伊斯坦堡，那是一個美麗的城市。",
+        "start": 140.78,
+        "end": 145.48
+      },
+      {
+        "text": "Ja, zeker. En waar kom jij vandaan, Ronald?",
+        "translation": "是的，當然。那你呢，Ronald，你從哪裡來？",
+        "start": 146.34,
+        "end": 150.58
+      },
+      {
+        "text": "Ik kom uit Nederland. Uit Den Haag.",
+        "translation": "我來自荷蘭，來自海牙。",
+        "start": 151.42,
+        "end": 154.32
+      },
+      {
+        "text": "Den Haag. Is dat een mooie stad?",
+        "translation": "海牙，那是一個美麗的城市嗎？",
+        "start": 154.58,
+        "end": 159.22
+      },
+      {
+        "text": "Ja, Den Haag is een heel mooie stad. Waar woon jij?",
+        "translation": "是的，海牙是一個非常美麗的城市。你住在哪裡？",
+        "start": 160.06,
+        "end": 165.26
+      },
+      {
+        "text": "Ik woon in Utrecht. O, dat is leuk. Waar woon je in Utrecht?",
+        "translation": "我住在烏特勒支。喔，那很好。你住在烏特勒支的哪裡？",
+        "start": 165.26,
+        "end": 170.26
+      },
+      {
+        "text": "Ik woon in het centrum van de stad. In de Witte Vrouwenstraat.",
+        "translation": "我住在市中心，白婦女街。",
+        "start": 171.42,
+        "end": 176.84
+      },
+      {
+        "text": "O, ja, die straat ken ik. Nou, Ronald, leuk om kennis met je te maken.",
+        "translation": "喔，我認識那條街。那麼，Ronald，很高興認識你。",
+        "start": 177.24,
+        "end": 179.52
+      },
+      {
+        "text": "Ja, ik vind het ook heel leuk.",
+        "translation": "是的，我也覺得很開心。",
+        "start": 187.58,
+        "end": 193.12
+      },
+      {
+        "text": "Luister nu naar het hele gesprek van Noerai en Ronald.",
+        "translation": "現在聽 Noerai 和 Ronald 的完整對話。",
+        "start": 195.26,
+        "end": 199.0
+      },
+      {
+        "text": "Hallo, ik ben Noerai Tonk. Wie ben jij?",
+        "translation": "你好，我是 Noerai Tonk。你是誰？",
+        "start": 199.64,
+        "end": 205.14
+      },
+      {
+        "text": "Dag, ik ben Ronald van Meer. Is Ronald je voornaam?",
+        "translation": "你好，我是 Ronald van Meer。Ronald 是你的名字嗎？",
+        "start": 205.42,
+        "end": 206.82
+      },
+      {
+        "text": "Ja, dat klopt.",
+        "translation": "是的，沒錯。",
+        "start": 207.52,
+        "end": 211.44
+      },
+      {
+        "text": "Ronald is mijn voornaam en Van Meer is mijn achternaam.",
+        "translation": "Ronald 是我的名字，Van Meer 是我的姓氏。",
+        "start": 213.3,
+        "end": 217.2
+      },
+      {
+        "text": "Mijn voornaam is Noerai. Tonk is mijn achternaam.",
+        "translation": "我的名字是 Noerai，Tonk 是我的姓氏。",
+        "start": 217.52,
+        "end": 221.44
+      },
+      {
+        "text": "En waar kom je vandaan? Ik kom uit Turkije.",
+        "translation": "你從哪裡來？我來自土耳其。",
+        "start": 221.44,
+        "end": 224.76
+      },
+      {
+        "text": "O, Turkije. Waar in Turkije?",
+        "translation": "喔，土耳其。土耳其的哪裡？",
+        "start": 225.52,
+        "end": 230.24
+      },
+      {
+        "text": "Ik kom uit Istanbul. Istanbul, dat is een mooie stad.",
+        "translation": "我來自伊斯坦堡。伊斯坦堡，那是一個美麗的城市。",
+        "start": 230.6,
+        "end": 234.94
+      },
+      {
+        "text": "Ja, zeker. En waar kom jij vandaan, Ronald?",
+        "translation": "是的，當然。那你呢，Ronald，你從哪裡來？",
+        "start": 235.62,
+        "end": 240.04
+      },
+      {
+        "text": "Ik kom uit Nederland, uit Den Haag.",
+        "translation": "我來自荷蘭，來自海牙。",
+        "start": 240.96,
+        "end": 243.78
+      },
+      {
+        "text": "Den Haag, is dat een mooie stad?",
+        "translation": "海牙，那是一個美麗的城市嗎？",
+        "start": 244.06,
+        "end": 248.64
+      },
+      {
+        "text": "Ja, Den Haag is een heel mooie stad. Waar woon jij?",
+        "translation": "是的，海牙是一個非常美麗的城市。你住在哪裡？",
+        "start": 248.64,
+        "end": 251.14
+      },
+      {
+        "text": "O, dat is leuk. Waar woon je in Utrecht?",
+        "translation": "喔，那很棒。你住在烏得勒支哪裡？",
+        "start": 251.46,
+        "end": 254.74
+      },
+      {
+        "text": "Ik woon in het centrum van de stad, in de Witte Vrouwenstraat.",
+        "translation": "我住在市中心，位於Witte Vrouwenstraat（白婦人街）。",
+        "start": 255.58,
+        "end": 259.64
+      },
+      {
+        "text": "O, ja, die straat ken ik. Nou, Ronald, leuk om kennis met je te maken.",
+        "translation": "喔，對，我認識那條街。那麼，Ronald，很高興認識你。",
+        "start": 260.88,
+        "end": 266.32
+      },
+      {
+        "text": "Ja, ik vind het ook heel leuk.",
+        "translation": "是的，我也覺得很高興。",
+        "start": 266.72,
+        "end": 268.98
+      },
+      {
+        "text": "Het gesprek. Het gesprek.",
+        "translation": "對話。對話。",
+        "start": 274.58,
+        "end": 276.92
+      },
+      {
+        "text": "Luister nu naar het hele gesprek van Noerai en Ronald.",
+        "translation": "現在聽Noerai和Ronald的完整對話。",
+        "start": 277.26,
+        "end": 283.26
+      },
+      {
+        "text": "Hallo, ik ben Noerai Tonk. Wie ben jij?",
+        "translation": "你好，我是Noerai Tonk。你是誰？",
+        "start": 284.66,
+        "end": 289.12
+      },
+      {
+        "text": "Dag, ik ben Ronald van Meer. Is Ronald je voornaam?",
+        "translation": "嗨，我是Ronald van Meer。Ronald是你的名字嗎？",
+        "start": 289.76,
+        "end": 295.28
+      },
+      {
+        "text": "Ja, dat klopt.",
+        "translation": "是的，沒錯。",
+        "start": 295.28,
+        "end": 296.96
+      },
+      {
+        "text": "Ronald is mijn voornaam en Van Meer is mijn achternaam.",
+        "translation": "Ronald是我的名字，Van Meer是我的姓。",
+        "start": 297.62,
+        "end": 301.64
+      },
+      {
+        "text": "Mijn voornaam is Noerai. Tonk is mijn achternaam.",
+        "translation": "我的名字是Noerai。Tonk是我的姓。",
+        "start": 303.4,
+        "end": 307.36
+      },
+      {
+        "text": "En waar kom je vandaan? Ik kom uit Turkije.",
+        "translation": "你從哪裡來？我來自土耳其。",
+        "start": 307.88,
+        "end": 311.56
+      },
+      {
+        "text": "O, Turkije. Waar in Turkije? Ik kom uit Istanbul.",
+        "translation": "喔，土耳其。土耳其哪裡？我來自伊斯坦堡。",
+        "start": 312.1,
+        "end": 316.9
+      },
+      {
+        "text": "Istanbul, dat is een mooie stad.",
+        "translation": "伊斯坦堡，那是一個美麗的城市。",
+        "start": 317.6,
+        "end": 320.38
+      },
+      {
+        "text": "Ja, zeker. En waar kom jij vandaan, Ronald?",
+        "translation": "是的，當然。那你從哪裡來，Ronald？",
+        "start": 320.38,
+        "end": 325.08
+      },
+      {
+        "text": "Ik kom uit Nederland, uit Den Haag.",
+        "translation": "我來自荷蘭，來自海牙。",
+        "start": 325.94,
+        "end": 330.18
+      },
+      {
+        "text": "Den Haag, is dat een mooie stad?",
+        "translation": "海牙，那是個美麗的城市嗎？",
+        "start": 331.02,
+        "end": 333.92
+      },
+      {
+        "text": "Ja, Den Haag is een heel mooie stad. Waar woon jij?",
+        "translation": "是的，海牙是一個非常美麗的城市。你住在哪裡？",
+        "start": 334.18,
+        "end": 338.78
+      },
+      {
+        "text": "Ik woon in Utrecht. O, dat is leuk. Waar woon je in Utrecht?",
+        "translation": "我住在烏得勒支。喔，那很棒。你住烏得勒支哪裡？",
+        "start": 339.68,
+        "end": 344.86
+      },
+      {
+        "text": "Ik woon in het centrum van de stad, in de Witte Vrouwenstraat.",
+        "translation": "我住在市中心，位於Witte Vrouwenstraat（白婦人街）。",
+        "start": 344.86,
+        "end": 349.86
+      },
+      {
+        "text": "O, ja, die straat ken ik. Nou, Ronald, leuk om kennis met je te maken.",
+        "translation": "喔，對，我認識那條街。那麼，Ronald，很高興認識你。",
+        "start": 351.04,
+        "end": 356.44
+      },
+      {
+        "text": "Ja, ik vind het ook heel leuk.",
+        "translation": "是的，我也覺得很高興。",
+        "start": 356.84,
+        "end": 359.14
+      },
+      {
+        "text": "Het gesprek. Het gesprek.",
+        "translation": "對話。對話。",
+        "start": 362.92,
+        "end": 365.08
+      },
+      {
+        "text": "Luister nu naar het hele gesprek van Noerai en Ronald.",
+        "translation": "現在聽Noerai和Ronald的完整對話。",
+        "start": 365.62,
+        "end": 371.62
+      },
+      {
+        "text": "Hallo, ik ben Noerai Tonk. Wie ben jij?",
+        "translation": "你好，我是Noerai Tonk。你是誰？",
+        "start": 373.0,
+        "end": 377.5
+      },
+      {
+        "text": "Dag, ik ben Ronald van Meer. Is Ronald je voornaam?",
+        "translation": "嗨，我是Ronald van Meer。Ronald是你的名字嗎？",
+        "start": 378.12,
+        "end": 383.64
+      },
+      {
+        "text": "Ja, dat klopt.",
+        "translation": "是的，沒錯。",
+        "start": 383.64,
+        "end": 385.32
+      },
+      {
+        "text": "Ronald is mijn voornaam en Van Meer is mijn achternaam.",
+        "translation": "Ronald是我的名字，Van Meer是我的姓。",
+        "start": 386.0,
+        "end": 390.14
+      },
+      {
+        "text": "Mijn voornaam is Noerai. Tonk is mijn achternaam.",
+        "translation": "我的名字是Noerai。Tonk是我的姓。",
+        "start": 391.76,
+        "end": 395.72
+      },
+      {
+        "text": "En waar kom je vandaan? Ik kom uit Turkije.",
+        "translation": "你從哪裡來？我來自土耳其。",
+        "start": 396.24,
+        "end": 399.94
+      },
+      {
+        "text": "O, Turkije. Waar in Turkije? Ik kom uit Istanbul.",
+        "translation": "喔，土耳其。土耳其哪裡？我來自伊斯坦堡。",
+        "start": 400.46,
+        "end": 405.32
+      },
+      {
+        "text": "Istanbul, dat is een mooie stad. Ja, zeker.",
+        "translation": "伊斯坦堡，那是一個美麗的城市。是的，當然。",
+        "start": 405.96,
+        "end": 410.26
+      },
+      {
+        "text": "En waar kom jij vandaan, Ronald?",
+        "translation": "那你從哪裡來，Ronald？",
+        "start": 410.26,
+        "end": 413.44
+      },
+      {
+        "text": "Ik kom uit Nederland, uit Den Haag.",
+        "translation": "我來自荷蘭，來自海牙。",
+        "start": 414.36,
+        "end": 418.54
+      },
+      {
+        "text": "Den Haag, is dat een mooie stad?",
+        "translation": "海牙，那是個美麗的城市嗎？",
+        "start": 419.1,
+        "end": 422.26
+      },
+      {
+        "text": "Ja, Den Haag is een heel mooie stad. Waar woon jij?",
+        "translation": "是的，海牙是一個非常美麗的城市。你住在哪裡？",
+        "start": 422.6,
+        "end": 427.18
+      },
+      {
+        "text": "Ik woon in Utrecht. O, dat is leuk. Waar woon je in Utrecht?",
+        "translation": "我住在烏得勒支。喔，那很棒。你住烏得勒支哪裡？",
+        "start": 428.06,
+        "end": 433.22
+      },
+      {
+        "text": "Ik woon in het centrum van de stad, in de Witte Vrouwenstraat.",
+        "translation": "我住在市中心，位於Witte Vrouwenstraat（白婦人街）。",
+        "start": 433.62,
+        "end": 438.26
+      },
+      {
+        "text": "O! Ja, die straat ken ik.",
+        "translation": "喔！對，我認識那條街。",
+        "start": 438.26,
+        "end": 441.14
+      },
+      {
+        "text": "Nou, Ronald, leuk om kennis met je te maken. Ja, ik vind het ook heel leuk.",
+        "translation": "那麼，Ronald，很高興認識你。是的，我也覺得很高興。",
+        "start": 441.98,
+        "end": 447.5
+      },
+      {
+        "text": "Het gesprek.",
+        "translation": "對話。",
+        "start": 453.86,
+        "end": 455.06
+      },
+      {
+        "text": "Dag, ik zal me even voorstellen. Mijn naam is Karen Verstraten.",
+        "translation": "嗨，我來自Karen Verstraten，讓我自我介紹一下。",
+        "start": 455.92,
+        "end": 461.76
+      },
+      {
+        "text": "Hallo, ik ben Hassan Farah. Woont u al lang in deze straat?",
+        "translation": "你好，我是Hassan Farah。你在這條街住很久了嗎？",
+        "start": 462.38,
+        "end": 467.88
+      },
+      {
+        "text": "Nee, we wonen hier pas kort, sinds februari dit jaar.",
+        "translation": "不，我們剛搬來不久，今年二月才來的。",
+        "start": 468.72,
+        "end": 472.96
+      },
+      {
+        "text": "O, ik ook. Op welk huisnummer woont u?",
+        "translation": "喔，我也是。你住幾號？",
+        "start": 474.08,
+        "end": 477.58
+      },
+      {
+        "text": "Wij wonen op nummer 12. En u?",
+        "translation": "我們住12號。你呢？",
+        "start": 478.1,
+        "end": 480.6
+      },
+      {
+        "text": "Op nummer 21. Ik woon in dat huis daar.",
+        "translation": "21號。我住在那邊那棟房子。",
+        "start": 481.3,
+        "end": 485.08
+      },
+      {
+        "text": "O, dan hebben we hetzelfde soort huis.",
+        "translation": "喔，那我們住的是同一種房子。",
+        "start": 485.78,
+        "end": 488.4
+      },
+      {
+        "text": "Ja, dat klopt. Vindt u het een fijn huis?",
+        "translation": "是的，沒錯。你覺得那房子不錯嗎？",
+        "start": 489.0,
+        "end": 492.5
+      },
+      {
+        "text": "Ja, het huis is prima. Het is alleen een beetje klein voor ons gezin. En u? Hoe vindt u het?",
+        "translation": "是的，房子還可以，只是對我們家來說有點小。那你呢？你覺得怎麼樣？",
+        "start": 492.5,
+        "end": 500.6
+      },
+      {
+        "text": "Nou ik vind het een fijn huis maar ik woon alleen.",
+        "translation": "我覺得這是一間很舒服的房子，但我一個人住。",
+        "start": 501.3,
+        "end": 505.2
+      },
+      {
+        "text": "Dus voor mij is het huis een beetje groot.",
+        "translation": "所以對我來說，這房子有點大。",
+        "start": 505.98,
+        "end": 508.58
+      },
+      {
+        "text": "Het gesprek.",
+        "translation": "對話。",
+        "start": 514.64,
+        "end": 515.92
+      },
+      {
+        "text": "Dag, ik zal me even voorstellen.",
+        "translation": "你好，我先自我介紹一下。",
+        "start": 517.94,
+        "end": 520.92
+      },
+      {
+        "text": "Mijn naam is Karen Verstraten. Hallo, ik ben Hassan Farah.",
+        "translation": "我叫Karen Verstraten。你好，我是Hassan Farah。",
+        "start": 521.86,
+        "end": 526.84
+      },
+      {
+        "text": "Woont u al lang in deze straat?",
+        "translation": "你在這條街住很久了嗎？",
+        "start": 528.52,
+        "end": 530.06
+      },
+      {
+        "text": "Nee, we wonen hier pas kort, sinds februari dit jaar.",
+        "translation": "不，我們才剛搬來不久，從今年二月開始。",
+        "start": 530.54,
+        "end": 535.12
+      },
+      {
+        "text": "O, ik ook. Op welk huisnummer woont u?",
+        "translation": "噢，我也是。你住幾號？",
+        "start": 536.26,
+        "end": 539.78
+      },
+      {
+        "text": "Wij wonen op nummer 12. En u?",
+        "translation": "我們住12號。你呢？",
+        "start": 540.26,
+        "end": 542.76
+      },
+      {
+        "text": "Op nummer 21. Ik woon in dat huis daar.",
+        "translation": "21號。我住在那棟房子。",
+        "start": 542.76,
+        "end": 547.32
+      },
+      {
+        "text": "O, dan hebben we hetzelfde soort huis.",
+        "translation": "噢，那我們住的都是同一類型的房子。",
+        "start": 547.88,
+        "end": 550.6
+      },
+      {
+        "text": "Ja, dat klopt. Vindt u het een fijn huis?",
+        "translation": "是的，沒錯。你覺得這房子舒服嗎？",
+        "start": 551.24,
+        "end": 554.68
+      },
+      {
+        "text": "Ja, het huis is prima.",
+        "translation": "是的，這房子很好。",
+        "start": 555.08,
+        "end": 556.82
+      },
+      {
+        "text": "Het is alleen een beetje klein voor ons gezin. En u? Hoe vindt u het?",
+        "translation": "只是對我們一家人來說有點小。你覺得呢？",
+        "start": 557.56,
+        "end": 562.78
+      },
+      {
+        "text": "Nou ik vind het een fijn huis maar ik woon alleen.",
+        "translation": "我覺得這是一間很舒服的房子，但我一個人住。",
+        "start": 563.52,
+        "end": 567.4
+      },
+      {
+        "text": "Dus voor mij is het huis een beetje groot.",
+        "translation": "所以對我來說，這房子有點大。",
+        "start": 568.16,
+        "end": 570.74
+      },
+      {
+        "text": "Het gesprek.",
+        "translation": "對話。",
+        "start": 578.04,
+        "end": 579.48
+      },
+      {
+        "text": "Dag, ik zal me even voorstellen. Mijn naam is Karen Verstraten.",
+        "translation": "你好，我先自我介紹一下。我叫Karen Verstraten。",
+        "start": 581.04,
+        "end": 587.02
+      },
+      {
+        "text": "Hallo, ik ben Hassan Farah. Woont u al lang in deze straat?",
+        "translation": "你好，我是Hassan Farah。你在這條街住很久了嗎？",
+        "start": 587.62,
+        "end": 593.12
+      },
+      {
+        "text": "Nee, we wonen hier pas kort, sinds februari dit jaar.",
+        "translation": "不，我們才剛搬來不久，從今年二月開始。",
+        "start": 593.58,
+        "end": 598.16
+      },
+      {
+        "text": "O, ik ook. Ook. Op welk huisnummer woont u?",
+        "translation": "噢，我也是。你住幾號？",
+        "start": 599.2,
+        "end": 599.92
+      },
+      {
+        "text": "Wij wonen op nummer 12. En u?",
+        "translation": "我們住12號。你呢？",
+        "start": 603.12,
+        "end": 605.62
+      },
+      {
+        "text": "Op nummer 21. Ik woon in dat huis daar.",
+        "translation": "21號。我住在那棟房子。",
+        "start": 606.2,
+        "end": 610.12
+      },
+      {
+        "text": "O, dan hebben we hetzelfde soort huis.",
+        "translation": "噢，那我們住的都是同一類型的房子。",
+        "start": 610.6,
+        "end": 613.42
+      },
+      {
+        "text": "Ja, dat klopt. Vindt u het een fijn huis?",
+        "translation": "是的，沒錯。你覺得這房子舒服嗎？",
+        "start": 614.06,
+        "end": 617.52
+      },
+      {
+        "text": "Ja, het huis is prima. Het is alleen een beetje klein voor ons gezin.",
+        "translation": "是的，這房子很好。只是對我們一家人來說有點小。",
+        "start": 617.96,
+        "end": 623.08
+      },
+      {
+        "text": "En u? Hoe vindt u het?",
+        "translation": "你呢？你覺得怎麼樣？",
+        "start": 623.52,
+        "end": 625.6
+      },
+      {
+        "text": "Nou, ik vind het een fijn huis. Maar ik woon alleen.",
+        "translation": "嗯，我覺得這房子很不錯，但我一個人住。",
+        "start": 625.6,
+        "end": 630.24
+      },
+      {
+        "text": "Dus voor mij is het huis een beetje groot.",
+        "translation": "所以對我來說，這房子有點大。",
+        "start": 631.02,
+        "end": 633.64
+      },
+      {
+        "text": "Hé, Ahmed. Waar woon jij?",
+        "translation": "嗨，Ahmed。你住哪裡？",
+        "start": 642.32,
+        "end": 644.74
+      },
+      {
+        "text": "Ik woon hier in de buurt, in de Kerkstraat.",
+        "translation": "我住在附近的Kerkstraat。",
+        "start": 645.46,
+        "end": 648.68
+      },
+      {
+        "text": "De Kerkstraat? O ja, die ken ik wel. Leuke straat.",
+        "translation": "Kerkstraat？喔對，我知道那條街。很不錯的一條街。",
+        "start": 649.54,
+        "end": 654.66
+      },
+      {
+        "text": "En jij? Waar woon jij?",
+        "translation": "你呢？你住哪裡？",
+        "start": 654.66,
+        "end": 657.04
+      },
+      {
+        "text": "Ik woon in de Stationsbuurt, in de Spoorstraat.",
+        "translation": "我住在Stationsbuurt，Spoorstraat。",
+        "start": 658.72,
+        "end": 661.66
+      },
+      {
+        "text": "Heb je daar een groot huis?",
+        "translation": "你那裡有大房子嗎？",
+        "start": 662.92,
+        "end": 664.76
+      },
+      {
+        "text": "Nee, ik heb een klein appartement. En jij?",
+        "translation": "沒有，我有一間小公寓。你呢？",
+        "start": 665.34,
+        "end": 669.04
+      },
+      {
+        "text": "Ik heb een grote woning met mijn vrouw en kinderen.",
+        "translation": "我和妻子、小孩住一間大房子。",
+        "start": 669.7,
+        "end": 673.52
+      },
+      {
+        "text": "We hebben ook een tuin.",
+        "translation": "我們還有個花園。",
+        "start": 674.24,
+        "end": 679.18
+      },
+      {
+        "text": "O, wat leuk. Hoeveel kinderen hebben jullie?",
+        "translation": "喔，很棒。你們有幾個小孩？",
+        "start": 679.76,
+        "end": 683.02
+      },
+      {
+        "text": "Drie. En jij? Woon jij alleen?",
+        "translation": "三個。你呢？你一個人住嗎？",
+        "start": 683.02,
+        "end": 687.42
+      },
+      {
+        "text": "Ja, ik woon nu alleen. Maar ik ga samenwonen.",
+        "translation": "是的，我現在一個人住，但我打算要一起住了。",
+        "start": 696.46,
+        "end": 698.96
+      },
+      {
+        "text": "Hé, Ahmed. Waar woon jij?",
+        "translation": "嗨，Ahmed。你住哪裡？",
+        "start": 699.66,
+        "end": 702.88
+      },
+      {
+        "text": "Ik woon hier in de buurt, in de Kerkstraat.",
+        "translation": "我住在附近的Kerkstraat。",
+        "start": 703.78,
+        "end": 708.9
+      },
+      {
+        "text": "De Kerkstraat? O ja, die ken ik wel. Leuke straat.",
+        "translation": "Kerkstraat？喔對，我知道那條街。很不錯的一條街。",
+        "start": 709.72,
+        "end": 711.22
+      },
+      {
+        "text": "En jij? Waar woon jij?",
+        "translation": "你呢？你住哪裡？",
+        "start": 712.24,
+        "end": 716.52
+      },
+      {
+        "text": "Ik woon in de Stationsbuurt, in de Spoorstraat.",
+        "translation": "我住在Stationsbuurt，Spoorstraat。",
+        "start": 717.14,
+        "end": 719.0
+      },
+      {
+        "text": "Heb je daar een groot huis?",
+        "translation": "你那裡有大房子嗎？",
+        "start": 719.58,
+        "end": 723.26
+      },
+      {
+        "text": "Nee, ik heb een klein appartement. En jij?",
+        "translation": "沒有，我有一間小公寓。你呢？",
+        "start": 723.92,
+        "end": 729.72
+      },
+      {
+        "text": "Ik heb een grote woning, met mijn vrouw en kinderen. We hebben ook een tuin.",
+        "translation": "我和妻子、小孩住一間大房子。我們還有個花園。",
+        "start": 730.36,
+        "end": 733.42
+      },
+      {
+        "text": "O, wat leuk. Hoeveel kinderen hebben jullie?",
+        "translation": "喔，很棒。你們有幾個小孩？",
+        "start": 734.02,
+        "end": 737.24
+      },
+      {
+        "text": "Ja, ik woon nu alleen. Maar ik ga samenwonen.",
+        "translation": "是的，我現在一個人住。但我將會和別人一起住。",
+        "start": 737.24,
+        "end": 741.5
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wie is de voornaam van Ronald?",
+        "question_native": "Ronald 的名字是什麼？",
+        "options": [
+          "Ronald",
+          "Van Meer",
+          "Noerai"
+        ],
+        "answer": "Ronald"
+      },
+      {
+        "question": "Waar komt Noerai vandaan?",
+        "question_native": "Noerai 從哪裡來？",
+        "options": [
+          "Nederland",
+          "Turkije",
+          "Utrecht"
+        ],
+        "answer": "Turkije"
+      },
+      {
+        "question": "In welke straat woont Ronald?",
+        "question_native": "Ronald 住在哪條街？",
+        "options": [
+          "Witte Vrouwenstraat",
+          "Den Haag",
+          "Istanbul"
+        ],
+        "answer": "Witte Vrouwenstraat"
+      },
+      {
+        "question": "Is Den Haag een mooie stad?",
+        "question_native": "海牙是一個美麗的城市嗎？",
+        "options": [
+          "Ja",
+          "Nee",
+          "Weet ik niet"
+        ],
+        "answer": "Ja"
+      },
+      {
+        "question": "Wie stelt zich voor als Noerai Toenk?",
+        "question_native": "誰自我介紹為 Noerai Toenk？",
+        "options": [
+          "Ronald",
+          "Noerai",
+          "Een ander persoon"
+        ],
+        "answer": "Noerai"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "voornaam",
+        "meaning": "名字"
+      },
+      {
+        "word": "achternaam",
+        "meaning": "姓氏"
+      },
+      {
+        "word": "kom uit",
+        "meaning": "來自"
+      },
+      {
+        "word": "stad",
+        "meaning": "城市"
+      },
+      {
+        "word": "wonen",
+        "meaning": "居住"
+      },
+      {
+        "word": "centrum",
+        "meaning": "市中心"
+      },
+      {
+        "word": "straat",
+        "meaning": "街道"
+      },
+      {
+        "word": "ken",
+        "meaning": "認識"
+      },
+      {
+        "word": "gesprek",
+        "meaning": "對話"
+      },
+      {
+        "word": "leuk",
+        "meaning": "開心的、愉快的"
+      },
+      {
+        "word": "luister",
+        "meaning": "聽"
+      },
+      {
+        "word": "goed",
+        "meaning": "好的"
+      },
+      {
+        "word": "klaar",
+        "meaning": "完成的"
+      },
+      {
+        "word": "wie",
+        "meaning": "誰"
+      },
+      {
+        "word": "ja",
+        "meaning": "是的"
+      }
+    ]
+  }
+}

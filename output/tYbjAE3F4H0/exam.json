@@ -1,0 +1,861 @@
+{
+ "video_id": "tYbjAE3F4H0",
+ "title": "Listening exam A2 Practice 5",
+ "channel": "Inburgeren examen A2",
+ "duration": 877,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "找工作與日常對話",
+   "title_nl": "Listening exam A2 Practice 5",
+   "kind": "對話",
+   "context_zh": "在荷蘭，兩位朋友討論工作和生活狀況。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Waar werk je?",
+     "zh": "你在哪裡工作？"
+    },
+    {
+     "t": "0:06",
+     "nl": "Hé Tristan, lang niet gezien. Ja, hoe is het met je?",
+     "zh": "嘿 Tristan，好久不見。嗯，你最近怎麼樣？"
+    },
+    {
+     "t": "0:11",
+     "nl": "Goed, en met jou? Prima. En waar woon je nu?",
+     "zh": "我很好，你呢？很好。你現在住在哪裡？"
+    },
+    {
+     "t": "0:17",
+     "nl": "In Amsterdam. Ik werk daar ook. Wat voor werk doe je?",
+     "zh": "在阿姆斯特丹。我也在那裡工作。你做什麼工作？"
+    },
+    {
+     "t": "0:22",
+     "nl": "Ik ben kapper. Ik werk in een kapsalon.",
+     "zh": "我是理髮師。我在一家髮廊工作。"
+    },
+    {
+     "t": "0:26",
+     "nl": "Oh, wat leuk. Werk je fulltime?",
+     "zh": "喔，真好。你全職工作嗎？"
+    },
+    {
+     "t": "0:30",
+     "nl": "Nee, ik werk vier dagen per week. Op maandag ben ik vrij.",
+     "zh": "不，我一週工作四天。週一我休息。"
+    },
+    {
+     "t": "0:45",
+     "nl": "Tibberfabriek De Boer, met mevrouw El Hamdi.",
+     "zh": "De Boer電池廠，和El Hamdi女士一起工作。"
+    },
+    {
+     "t": "0:49",
+     "nl": "Goedemorgen mevrouw, u spreekt met Said Bakau.",
+     "zh": "早安女士，您正在和Said Bakau通話。"
+    },
+    {
+     "t": "0:53",
+     "nl": "Kan ik Jan Helmond spreken? Ja, ik zal je even doorverbinden.",
+     "zh": "我可以和Jan Helmond通話嗎？可以，我幫你轉接。"
+    },
+    {
+     "t": "1:03",
+     "nl": "Met Jan Helmond.",
+     "zh": "我就是Jan Helmond。"
+    },
+    {
+     "t": "1:06",
+     "nl": "Hallo Jan, met Said. Ik ben ziek. Ik kan vannacht niet werken.",
+     "zh": "哈囉Jan，我是Said。我生病了，今晚不能工作。"
+    },
+    {
+     "t": "1:11",
+     "nl": "Hm, wat vervelend. Het is heel druk.",
+     "zh": "嗯，真糟糕。現在很忙。"
+    },
+    {
+     "t": "1:16",
+     "nl": "Wat zijn je klachten? Hoofdpijn en koorts.",
+     "zh": "你有哪些症狀？頭痛和發燒。"
+    },
+    {
+     "t": "1:21",
+     "nl": "Wanneer kan je weer komen werken? Ik denk dat ik woensdag weer beter ben.",
+     "zh": "你什麼時候可以回來工作？我想我星期三會好一點。"
+    },
+    {
+     "t": "1:27",
+     "nl": "Oké, dan zien we je over twee dagen.",
+     "zh": "好的，那兩天後見。"
+    },
+    {
+     "t": "1:31",
+     "nl": "Beterschap, Said. Ja, bedankt.",
+     "zh": "祝你早日康復，Said。謝謝你。"
+    },
+    {
+     "t": "1:45",
+     "nl": "Wil jij nog koffie? Hoe laat is het?",
+     "zh": "還要喝咖啡嗎？現在幾點了？"
+    },
+    {
+     "t": "1:50",
+     "nl": "Nou, bijna drie uur. Nee, dank je. Ik moet zo weg.",
+     "zh": "快三點了。不用了，謝謝。我快要走了。"
+    },
+    {
+     "t": "1:56",
+     "nl": "Ik moet om vier uur op mijn werk zijn. Oh, wat voor werk doe je?",
+     "zh": "我必須四點到工作崗位。喔，你做什麼工作？"
+    },
+    {
+     "t": "2:01",
+     "nl": "Ik maak schoon op een school. En wat doe jij?",
+     "zh": "我在學校清潔。你呢？"
+    },
+    {
+     "t": "2:05",
+     "nl": "Ik ben vorige maand gestopt met mijn werk in de fabriek.",
+     "zh": "我上個月辭掉了工廠的工作。"
+    },
+    {
+     "t": "2:10",
+     "nl": "En ik zoek nu ander werk. Oh, wat voor werk zoek je?",
+     "zh": "我現在在找別的工作。喔，你在找什麼工作？"
+    },
+    {
+     "t": "2:14",
+     "nl": "Ja, dat weet ik niet precies. Ben je al bij het werkplein geweest?",
+     "zh": "我不太確定。你去過就業中心嗎？"
+    },
+    {
+     "t": "2:20",
+     "nl": "Daar hangen wel wat vacatures.",
+     "zh": "那裡有一些職缺。"
+    },
+    {
+     "t": "2:22",
+     "nl": "Nee, nog niet. Ik ga me daar morgen inschrijven.",
+     "zh": "還沒，我明天要去那裡登記。"
+    },
+    {
+     "t": "2:28",
+     "nl": "Oké. Nou, succes. En tot de volgende keer.",
+     "zh": "好的，祝你好運，下次見。"
+    },
+    {
+     "t": "2:33",
+     "nl": "Ja, dank je. En werk ze.",
+     "zh": "謝謝你，也祝你工作順利。"
+    },
+    {
+     "t": "2:39",
+     "nl": "Op zoek naar werk.",
+     "zh": "找工作。"
+    },
+    {
+     "t": "2:48",
+     "nl": "Goed, dan heb ik nog een paar vragen.",
+     "zh": "好的，我還有幾個問題。"
+    },
+    {
+     "t": "2:52",
+     "nl": "Waar ben je geboren? In Londen, in Engeland.",
+     "zh": "你在哪裡出生？在英格蘭倫敦。"
+    },
+    {
+     "t": "2:57",
+     "nl": "Zo, je spreekt goed Nederlands. Dank je wel. Ik woon hier ook al zeven jaar.",
+     "zh": "哇，你荷蘭語說得很好。謝謝，我已經在這裡住七年了。"
+    },
+    {
+     "t": "3:03",
+     "nl": "Is je nationaliteit nog Engels? Nee, ik heb een Nederlands paspoort.",
+     "zh": "你還是英國國籍嗎？不，我有荷蘭護照。"
+    },
+    {
+     "t": "3:09",
+     "nl": "En wat is je telefoonnummer? Van mijn mobiel?",
+     "zh": "你的電話號碼是？手機的嗎？"
+    },
+    {
+     "t": "3:14",
+     "nl": "Ja, je andere nummer staat hier al.",
+     "zh": "是的，另個號碼這裡已經有了。"
+    },
+    {
+     "t": "3:17",
+     "nl": "Dat is 06 176 53429. Prima.",
+     "zh": "是06 176 53429，沒問題。"
+    },
+    {
+     "t": "3:22",
+     "nl": "En je emailadres is ljholman@planet.nl",
+     "zh": "你的電子郵件是ljholman@planet.nl"
+    },
+    {
+     "t": "3:29",
+     "nl": "Ja, dat klopt.",
+     "zh": "是的，沒錯。"
+    },
+    {
+     "t": "3:36",
+     "nl": "Oké, dan heb ik je persoonlijke gegevens.",
+     "zh": "好，那我有你的個人資料了。"
+    },
+    {
+     "t": "3:40",
+     "nl": "Dan nu je werkervaring.",
+     "zh": "現在講你的工作經驗。"
+    },
+    {
+     "t": "3:44",
+     "nl": "Ik doe vrijwilligerswerk.",
+     "zh": "我做志工工作。"
+    },
+    {
+     "t": "3:49",
+     "nl": "Ik doe vrijwilligerswerk. 1.",
+     "zh": ""
+    },
+    {
+     "t": "3:53",
+     "nl": "2.",
+     "zh": ""
+    },
+    {
+     "t": "3:59",
+     "nl": "5. 7. 9.",
+     "zh": ""
+    },
+    {
+     "t": "4:04",
+     "nl": "10. 11.",
+     "zh": ""
+    },
+    {
+     "t": "4:19",
+     "nl": "Ik help bij de koffieochtend. Vind je het leuk werk?",
+     "zh": "我幫忙咖啡早會。你喜歡這工作嗎？"
+    },
+    {
+     "t": "4:23",
+     "nl": "Jazeker. Ik heb veel contact met de bewoners. Dat is erg leuk.",
+     "zh": "當然，我和住戶有很多聯絡，非常有趣。"
+    },
+    {
+     "t": "4:50",
+     "nl": "Hoi Richard. Hoi Mustafa. Wacht je op je dochter?",
+     "zh": "嗨，Richard。嗨，Mustafa。你在等你女兒嗎？"
+    },
+    {
+     "t": "4:55",
+     "nl": "Nee, die is al naar huis. Ik heb om kwart voor vier een afspraak met de juf.",
+     "zh": "不，她已經回家了。我四點差十分有和老師的約會。"
+    },
+    {
+     "t": "5:01",
+     "nl": "Gaat het niet goed op school? Jawel hoor, het gaat prima.",
+     "zh": "學校情況不好嗎？不是啦，一切都很好。"
+    },
+    {
+     "t": "5:05",
+     "nl": "Ik ga praten met de juf over de computerles. O?",
+     "zh": "我要和老師談談電腦課。哦？"
+    },
+    {
+     "t": "5:09",
+     "nl": "De juf heeft hulp nodig in de klas met de computers. En jij wil wel helpen?",
+     "zh": "老師需要班上電腦方面的幫助。你願意幫忙嗎？"
+    },
+    {
+     "t": "5:16",
+     "nl": "Ja, lijkt mij erg leuk. Wanneer is de computerles?",
+     "zh": "是的，我覺得很有趣。電腦課是什麼時候？"
+    },
+    {
+     "t": "5:20",
+     "nl": "Elke donderdag van half drie tot half vier.",
+     "zh": "每週四從兩點半到三點半。"
+    },
+    {
+     "t": "5:24",
+     "nl": "Help jij ook op school? Ja, ik ben leesvader.",
+     "zh": "你也在學校幫忙嗎？是的，我是閱讀志工爸爸。"
+    },
+    {
+     "t": "5:30",
+     "nl": "Wat is dat?",
+     "zh": "那是什麼？"
+    },
+    {
+     "t": "5:31",
+     "nl": "Ik lees elke woensdag van half negen tot negen uur met een groepje kinderen.",
+     "zh": "我每週三從八點半讀書到九點，和一小組小朋友一起。"
+    },
+    {
+     "t": "5:40",
+     "nl": "Waar woon je nu?",
+     "zh": "你現在住哪裡？"
+    },
+    {
+     "t": "5:47",
+     "nl": "Hé Lucas, hoe is het? Prima.",
+     "zh": "嗨，Lucas，最近怎麼樣？很好。"
+    },
+    {
+     "t": "5:52",
+     "nl": "Waar woon je nu? In de Houtmansstraat. In een flat?",
+     "zh": "你現在住哪裡？在Houtmans街。在公寓裡？"
+    },
+    {
+     "t": "5:57",
+     "nl": "Nee, we hebben een eengezinswoning.",
+     "zh": "不，我們有一棟透天厝。"
+    },
+    {
+     "t": "6:00",
+     "nl": "Fijn. Is het een groot huis?",
+     "zh": "很好。是大房子嗎？"
+    },
+    {
+     "t": "6:03",
+     "nl": "Nou, dat gaat wel. Het huis heeft drie kamers.",
+     "zh": "嗯，還好。房子有三個房間。"
+    },
+    {
+     "t": "6:09",
+     "nl": "En jouw huis? Ik woon in een flat. Op welke verdieping?",
+     "zh": "你家呢？我住公寓。幾樓？"
+    },
+    {
+     "t": "6:13",
+     "nl": "De zevende. Dat is hoog. Ja, maar er is gelukkig wel een lift.",
+     "zh": "第七樓。蠻高的。是啊，但幸好有電梯。"
+    },
+    {
+     "t": "6:35",
+     "nl": "Dit is Natasja. Ze is getrouwd en ze heeft drie kinderen.",
+     "zh": "這是Natasja。她結婚了，育有三個孩子。"
+    },
+    {
+     "t": "6:41",
+     "nl": "Ze wonen in de Nicolaastraat. Hun huis staat in een rustige wijk.",
+     "zh": "他們住在Nicolaastraat。他們的房子在一個安靜的社區。"
+    },
+    {
+     "t": "6:48",
+     "nl": "De kinderen kunnen lekker buitenspelen.",
+     "zh": "孩子們可以很自在地在外面玩。"
+    },
+    {
+     "t": "6:52",
+     "nl": "Natasja woont met haar gezin in een eengezinswoning.",
+     "zh": "Natasja和她的家人住在一棟透天厝裡。"
+    },
+    {
+     "t": "6:57",
+     "nl": "Het is een nieuw huis. Het is pas gebouwd.",
+     "zh": "這是一棟新房子，剛蓋好的。"
+    },
+    {
+     "t": "7:01",
+     "nl": "Het huis is groot. Het heeft een mooie woonkamer.",
+     "zh": "房子很大，有漂亮的客廳。"
+    },
+    {
+     "t": "7:07",
+     "nl": "Drie slaapkamers, een grote badkamer en een tuin.",
+     "zh": "三間臥室，一間大浴室和一個花園。"
+    },
+    {
+     "t": "7:12",
+     "nl": "Het huis heeft ook een zolder. Natasja is erg blij met het huis.",
+     "zh": "房子還有一個閣樓。Natasja對這房子非常滿意。"
+    },
+    {
+     "t": "7:32",
+     "nl": "Een nieuw huis.",
+     "zh": "一棟新屋。"
+    },
+    {
+     "t": "7:38",
+     "nl": "Hallo, buurvrouw. Dag, mevrouw Kok. Hoe gaat het?",
+     "zh": "哈囉，鄰居。您好，Kok女士。近來如何？"
+    },
+    {
+     "t": "7:42",
+     "nl": "Prima. En met u? En met uw man?",
+     "zh": "很好。您呢？您先生呢？"
+    },
+    {
+     "t": "7:46",
+     "nl": "Ook goed. We gaan verhuizen. O? Waar gaan jullie naartoe?",
+     "zh": "也很好。我們要搬家了。哦？你們要搬去哪裡？"
+    },
+    {
+     "t": "7:52",
+     "nl": "We gaan in de Boomstraat wonen. Maar daar staan flats.",
+     "zh": "我們要搬到Boom街。但那裡有公寓樓。"
+    },
+    {
+     "t": "7:56",
+     "nl": "Ja, dat klopt. We gaan in een flat wonen.",
+     "zh": "是的，沒錯。我們會住公寓。"
+    },
+    {
+     "t": "8:01",
+     "nl": "Deze eengezinswoning is te groot. Dat snap ik. Zeker nu uw kinderen hier niet meer wonen.",
+     "zh": "這透天厝太大了。我了解。特別是您孩子不再住這裡了。"
+    },
+    {
+     "t": "8:08",
+     "nl": "Moet u veel opknappen in de flat? Nee hoor, dat valt mee. We gaan alleen de muren schilderen.",
+     "zh": "公寓需要很多整修嗎？不會，還好。我們只會粉刷牆壁。"
+    },
+    {
+     "t": "8:15",
+     "nl": "Gelukkig. Ik ga ons huis wel missen.",
+     "zh": "還好。我會想念我們的家。"
+    },
+    {
+     "t": "8:20",
+     "nl": "En ik ga u missen. Jammer dat jullie weggaan.",
+     "zh": "我也會想念您。很可惜你們要搬走了。"
+    },
+    {
+     "t": "8:25",
+     "nl": "Wanneer gaan jullie verhuizen? Volgende week zaterdag.",
+     "zh": "你們什麼時候搬家？下週六。"
+    },
+    {
+     "t": "8:32",
+     "nl": "In het huis.",
+     "zh": "在家裡。"
+    },
+    {
+     "t": "8:39",
+     "nl": "Je keuken is helemaal veranderd.",
+     "zh": "你的廚房完全變了樣。"
+    },
+    {
+     "t": "8:43",
+     "nl": "Ja, ik heb nieuwe kastjes. Nou, wat een mooie kleur.",
+     "zh": "是的，我換了新櫥櫃。哇，顏色真好看。"
+    },
+    {
+     "t": "8:48",
+     "nl": "En ik heb een nieuwe koelkast. De oude was kapot.",
+     "zh": "我還買了新的冰箱。舊的壞了。"
+    },
+    {
+     "t": "8:51",
+     "nl": "Het is heel mooi geworden. Ja, en nu de woonkamer nog.",
+     "zh": "變得很漂亮。是啊，客廳也要改造。"
+    },
+    {
+     "t": "8:59",
+     "nl": "Wat ga je daar veranderen? Ik wil een nieuwe bank kopen.",
+     "zh": "你要改變什麼？我想買沙發。"
+    },
+    {
+     "t": "9:06",
+     "nl": "In het huis. Wat voor bank zoek je?",
+     "zh": "在家裡。你想要什麼樣的沙發？"
+    },
+    {
+     "t": "9:13",
+     "nl": "Ik wil een leren bank. Een tweezitsbank of een driezitsbank?",
+     "zh": "我想要真皮沙發。雙人沙發還是三人沙發？"
+    },
+    {
+     "t": "9:19",
+     "nl": "Een tweezitsbank. En welke kleur?",
+     "zh": "雙人沙發。什麼顏色？"
+    },
+    {
+     "t": "9:26",
+     "nl": "Ah, misschien een bruine bank. De muren in de woonkamer zijn crème en oranje.",
+     "zh": "啊，也許買棕色沙發。客廳牆壁是奶油色和橘色。"
+    },
+    {
+     "t": "9:32",
+     "nl": "Ja, dat vind ik mooi. En ik wil ook nog een paar kussens.",
+     "zh": "我也覺得很漂亮。我還想要幾個靠墊。"
+    },
+    {
+     "t": "9:37",
+     "nl": "Dat is gezellig. Hé, zullen we gaan kijken?",
+     "zh": "那會很溫馨。嘿，我們去看看吧？"
+    },
+    {
+     "t": "9:45",
+     "nl": "Welke school?",
+     "zh": "哪一所學校？"
+    },
+    {
+     "t": "9:51",
+     "nl": "Hé, hallo Lotte. Hoe gaat het? Goed, en met jou?",
+     "zh": "嘿，哈囉Lotte。你好嗎？我很好，你呢？"
+    },
+    {
+     "t": "9:56",
+     "nl": "Prima. En hoe is het met Wouter? Ja, goed hoor. Hij zit nu in groep 8.",
+     "zh": "很好。Wouter怎麼樣？是的，他很好。他現在在八年級。"
+    },
+    {
+     "t": "10:01",
+     "nl": "Oh, dan gaat hij volgend jaar naar de middelbare school.",
+     "zh": "喔，那他明年就要上中學了。"
+    },
+    {
+     "t": "10:06",
+     "nl": "Ja, en hij wil graag naar de HAVO.",
+     "zh": "是的，他想去HAVO。"
+    },
+    {
+     "t": "10:10",
+     "nl": "Gaat dat lukken? Ja, ik denk het wel. Hij haalt goede cijfers.",
+     "zh": "會成功嗎？是的，我想會的。他考得很好。"
+    },
+    {
+     "t": "10:16",
+     "nl": "Ah, dat is fijn. We hebben straks een gesprek met zijn leerkracht.",
+     "zh": "啊，那很好。我們待會兒有和他的老師談話。"
+    },
+    {
+     "t": "10:20",
+     "nl": "Dan horen we het advies van de school. Succes!",
+     "zh": "那我們就能聽到學校的建議了。加油！"
+    },
+    {
+     "t": "10:35",
+     "nl": "Goedenavond. Kom binnen en ga zitten.",
+     "zh": "晚上好。請進，坐下。"
+    },
+    {
+     "t": "10:39",
+     "nl": "Bedankt. Dank u wel. Hoe gaat het met Wouter op school?",
+     "zh": "謝謝。謝謝您。Wouter在學校表現如何？"
+    },
+    {
+     "t": "10:46",
+     "nl": "Het gaat goed. Daar ben ik blij om.",
+     "zh": "他很好。我為此感到高興。"
+    },
+    {
+     "t": "10:52",
+     "nl": "Hij doet goed z'n best en hij heeft de toets goed gemaakt.",
+     "zh": "他很用功，而且考試考得很好。"
+    },
+    {
+     "t": "10:56",
+     "nl": "Dat is fijn. Hij gaat ook met plezier naar school.",
+     "zh": "那真好。他也很開心去學校。"
+    },
+    {
+     "t": "11:01",
+     "nl": "Ja, dat zie ik. Hij vindt het leuk om te leren.",
+     "zh": "是的，我看到。他喜歡學習。"
+    },
+    {
+     "t": "11:07",
+     "nl": "Ons advies voor de middelbare school is HAVO.",
+     "zh": "我們對中學的建議是HAVO。"
+    },
+    {
+     "t": "11:10",
+     "nl": "Mooi. Dat wil hij ook graag.",
+     "zh": "很好。他也很想去。"
+    },
+    {
+     "t": "11:14",
+     "nl": "U krijgt van mij deze brief. Hierin staat ons advies.",
+     "zh": "我給您這封信。裡面有我們的建議。"
+    },
+    {
+     "t": "11:19",
+     "nl": "Wat moeten we nu doen? U kunt Wouter nu aanmelden bij een middelbare school.",
+     "zh": "我們現在該做什麼？您現在可以幫Wouter報名中學。"
+    },
+    {
+     "t": "11:26",
+     "nl": "En dan moet u deze brief meenemen.",
+     "zh": "並且您必須帶這封信。"
+    },
+    {
+     "t": "11:29",
+     "nl": "Oké. Dat gaan we doen. Bedankt.",
+     "zh": "好的，我們會這麼做。謝謝。"
+    },
+    {
+     "t": "11:35",
+     "nl": "Fijne avond. Ja, u ook. Tot ziens. Tot ziens.",
+     "zh": "晚安。您也是。再見。再見。"
+    },
+    {
+     "t": "11:42",
+     "nl": "Wat heb je geleerd?",
+     "zh": "你學了什麼？"
+    },
+    {
+     "t": "11:48",
+     "nl": "Hé, hallo. Noa. Waar ga je naartoe?",
+     "zh": "嘿，哈囉。Noa。你要去哪裡？"
+    },
+    {
+     "t": "11:52",
+     "nl": "Ik ga naar school. Ik leer Nederlands.",
+     "zh": "我要去學校。我在學荷蘭語。"
+    },
+    {
+     "t": "11:56",
+     "nl": "Wanneer ga je naar school? Op dinsdag en op donderdag.",
+     "zh": "你什麼時候去學校？星期二和星期四。"
+    },
+    {
+     "t": "12:01",
+     "nl": "Hoe laat begint de les? Om 9 uur en hij duurt tot 12 uur.",
+     "zh": "幾點開始上課？9點開始，持續到12點。"
+    },
+    {
+     "t": "12:08",
+     "nl": "Ga je ook mee? Nee, ik heb geen tijd.",
+     "zh": "你也一起去嗎？不，我沒時間。"
+    },
+    {
+     "t": "12:12",
+     "nl": "Oh, jammer. Tot ziens.",
+     "zh": "喔，可惜。再見。"
+    },
+    {
+     "t": "12:17",
+     "nl": "Wat heb je geleerd? Milan vertelt.",
+     "zh": "你學了什麼？Milan來說。"
+    },
+    {
+     "t": "12:25",
+     "nl": "Hallo, ik ben Milan. Ik ben 37 jaar.",
+     "zh": "你好，我是Milan。我37歲。"
+    },
+    {
+     "t": "12:31",
+     "nl": "Ik kom uit Albanië. In Albanië ben ik naar de basisschool geweest.",
+     "zh": "我來自阿爾巴尼亞。我在阿爾巴尼亞讀過小學。"
+    },
+    {
+     "t": "12:38",
+     "nl": "Daarna ben ik gaan werken. Ik kan goed koken.",
+     "zh": "之後我開始工作。我擅長做菜。"
+    },
+    {
+     "t": "12:42",
+     "nl": "Dat heb ik van mijn moeder geleerd.",
+     "zh": "那是我從我母親那裡學的。"
+    },
+    {
+     "t": "12:45",
+     "nl": "Van mijn vader leerde ik autorijden.",
+     "zh": "我從我父親那裡學會開車。"
+    },
+    {
+     "t": "12:49",
+     "nl": "Ik ben nu drie jaar in Nederland. Ik heb op school Nederlands geleerd.",
+     "zh": "我來荷蘭已經三年了。我在學校學荷蘭語。"
+    },
+    {
+     "t": "12:56",
+     "nl": "Nu doe ik een computercursus. Wat een weer.",
+     "zh": "現在我在上電腦課程。真是天氣啊。"
+    },
+    {
+     "t": "13:06",
+     "nl": "Hé, goedemorgen. Hé, René. Je kan hier zitten.",
+     "zh": "嘿，早安。嘿，René。你可以坐這裡。"
+    },
+    {
+     "t": "13:14",
+     "nl": "Wat een weer, hè? Ja, ben je erg nat?",
+     "zh": "天氣真糟，是吧？是的，你淋濕了嗎？"
+    },
+    {
+     "t": "13:19",
+     "nl": "Nee hoor, dat valt wel mee. Ik had gelukkig een paraplu.",
+     "zh": "不，還好。我幸運有帶傘。"
+    },
+    {
+     "t": "13:24",
+     "nl": "Blijft het de hele dag regenen? Ik geloof het wel.",
+     "zh": "會下整天雨嗎？我想會的。"
+    },
+    {
+     "t": "13:30",
+     "nl": "En morgen? Dan wordt het beter. Wat is het weerbericht?",
+     "zh": "那明天呢？明天會好一點。天氣預報是什麼？"
+    },
+    {
+     "t": "13:35",
+     "nl": "De zon gaat schijnen en het wordt 23 graden.",
+     "zh": "太陽會出來，氣溫23度。"
+    },
+    {
+     "t": "13:40",
+     "nl": "Meneer de Vries? Komt u maar.",
+     "zh": "De Vries先生？請進。"
+    },
+    {
+     "t": "13:47",
+     "nl": "Wat een weer.",
+     "zh": "真是天氣。"
+    },
+    {
+     "t": "13:56",
+     "nl": "Met Saïda. Hé, Saïda. Met Nienke.",
+     "zh": "是Saïda。嘿，Saïda。是Nienke。"
+    },
+    {
+     "t": "14:01",
+     "nl": "Nienke, wat leuk dat je belt. Wat een heerlijk weer, hè?",
+     "zh": "Nienke，很高興你打電話來。天氣真好，是吧？"
+    },
+    {
+     "t": "14:06",
+     "nl": "Ja, fantastisch. Ga je vanmiddag mee naar het park?",
+     "zh": "是的，太棒了。你今天下午要一起去公園嗎？"
+    },
+    {
+     "t": "14:11",
+     "nl": "Leuk. Misschien kunnen we picknicken? Een goed idee.",
+     "zh": "好啊。也許我們可以野餐？好主意。"
+    },
+    {
+     "t": "14:16",
+     "nl": "Hoe laat spreken we af? Half 2 in het park.",
+     "zh": "我們幾點見面？下午一點半在公園。"
+    },
+    {
+     "t": "14:22",
+     "nl": "Prima. Zal ik broodjes meenemen?",
+     "zh": "很好。我帶麵包過去，好嗎？"
+    },
+    {
+     "t": "14:25",
+     "nl": "Dat is goed. Dan neem ik koffie en frisdrank mee, oké?",
+     "zh": "那很好。那我會帶咖啡和汽水，好嗎？"
+    },
+    {
+     "t": "14:31",
+     "nl": "Ja, tot straks.",
+     "zh": "好的，待會見。"
+    },
+    {
+     "t": "14:33",
+     "nl": "Neem wel een trui mee. Het wordt later vanmiddag wel fris.",
+     "zh": "記得帶一件毛衣。今天下午稍晚會變冷。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "werken",
+     "zh": "工作"
+    },
+    {
+     "nl": "vrij",
+     "zh": "休假"
+    },
+    {
+     "nl": "kapsalon",
+     "zh": "理髮店"
+    },
+    {
+     "nl": "vacatures",
+     "zh": "職缺"
+    },
+    {
+     "nl": "inschrijven",
+     "zh": "註冊"
+    },
+    {
+     "nl": "telefoonnummer",
+     "zh": "電話號碼"
+    },
+    {
+     "nl": "emailadres",
+     "zh": "電子郵件地址"
+    },
+    {
+     "nl": "vrijwilligerswerk",
+     "zh": "志願工作"
+    },
+    {
+     "nl": "afspraak",
+     "zh": "約會"
+    },
+    {
+     "nl": "computerles",
+     "zh": "電腦課"
+    },
+    {
+     "nl": "eengezinswoning",
+     "zh": "獨立住宅"
+    },
+    {
+     "nl": "flat",
+     "zh": "公寓"
+    },
+    {
+     "nl": "verhuizen",
+     "zh": "搬家"
+    },
+    {
+     "nl": "schilderen",
+     "zh": "粉刷"
+    },
+    {
+     "nl": "bank",
+     "zh": "沙發"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Waar werk je?",
+     "zh": "你在哪裡工作？",
+     "note": "詢問工作地點"
+    },
+    {
+     "nl": "Ik werk vier dagen per week.",
+     "zh": "我每週工作四天。",
+     "note": "描述工作時間"
+    },
+    {
+     "nl": "Wat voor werk doe je?",
+     "zh": "你做什麼工作？",
+     "note": "詢問工作類型"
+    },
+    {
+     "nl": "Ik ben ziek.",
+     "zh": "我生病了。",
+     "note": "表達健康狀況"
+    },
+    {
+     "nl": "Wanneer ga je verhuizen?",
+     "zh": "你什麼時候搬家？",
+     "note": "詢問搬家時間"
+    },
+    {
+     "nl": "Ik zoek ander werk.",
+     "zh": "我在找其他工作。",
+     "note": "表達求職意圖"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

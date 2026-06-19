@@ -1,0 +1,657 @@
+{
+ "dit was mijn presentatie.": {
+  "breakdown": [
+   [
+    "Dit",
+    "這"
+   ],
+   [
+    "was",
+    "是"
+   ],
+   [
+    "mijn presentatie",
+    "我的簡報"
+   ]
+  ],
+  "order": "主詞(Dit) → 動詞(was) → 補語(mijn presentatie)",
+  "grammar": "過去式，動詞在第二位。",
+  "listen": "注意 'Dit' 和 'was' 的連音。"
+ },
+ "ik heb u vanavond een heleboel verteld over onze school, dus over de roosters.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "heb verteld",
+    "告訴了"
+   ],
+   [
+    "u vanavond",
+    "您今晚"
+   ],
+   [
+    "een heleboel",
+    "很多"
+   ],
+   [
+    "over onze school",
+    "關於我們學校"
+   ],
+   [
+    "dus over de roosters",
+    "所以是關於課表"
+   ]
+  ],
+  "order": "主詞(Ik) → 助動詞(heb) → 動詞(verteld) → 受詞(u vanavond...)",
+  "grammar": "完成式，助動詞在第二位，過去分詞在句尾。",
+  "listen": "注意 'u' 和 'vanavond' 的連音。"
+ },
+ "de rapporten, de excursies, de oude bijdragen.": {
+  "breakdown": [
+   [
+    "De rapporten",
+    "成績報告"
+   ],
+   [
+    "de excursies",
+    "校外教學"
+   ],
+   [
+    "de oude bijdragen",
+    "以及舊的貢獻"
+   ]
+  ],
+  "order": "主詞(De rapporten) → 連接詞(,) → 主詞(de excursies) → 連接詞(,) → 主詞(de oude bijdragen)",
+  "grammar": "名詞並列，無需動詞。",
+  "listen": "注意 'de' 的弱讀。"
+ },
+ "ja, het was wel veel informatie.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "het was",
+    "這是"
+   ],
+   [
+    "wel veel informatie",
+    "真的很多資訊"
+   ]
+  ],
+  "order": "副詞(Ja) → 主詞(het) → 動詞(was) → 補語(wel veel informatie)",
+  "grammar": "過去式，動詞在第二位。",
+  "listen": "注意 'het' 的弱讀。"
+ },
+ "ja, maar u hoeft niet alles te onthouden, want alle belangrijke informatie staat ook in onze schoolgids.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "maar u hoeft niet alles te onthouden",
+    "但您不需要全部記住"
+   ],
+   [
+    "want alle belangrijke informatie",
+    "因為所有重要資訊"
+   ],
+   [
+    "staat ook in onze schoolgids",
+    "也都在我們的學校指南中"
+   ]
+  ],
+  "order": "副詞(Ja) → 連接詞(maar) → 主詞(u) → 動詞(hoeft) → 補語(niet alles te onthouden)",
+  "grammar": "情態動詞，主詞後動詞在第二位。",
+  "listen": "注意 'u' 和 'hoeft' 的連音。"
+ },
+ "waar kan ik die vinden?": {
+  "breakdown": [
+   [
+    "Waar",
+    "在哪裡"
+   ],
+   [
+    "kan ik",
+    "我可以"
+   ],
+   [
+    "die vinden",
+    "找到它"
+   ]
+  ],
+  "order": "疑問詞(Waar) → 助動詞(kan) → 主詞(ik) → 動詞(vinden)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "注意 'kan' 和 'ik' 的連音。"
+ },
+ "de schoolgids staat op de website van onze school.": {
+  "breakdown": [
+   [
+    "De schoolgids",
+    "學校指南"
+   ],
+   [
+    "staat op",
+    "在"
+   ],
+   [
+    "de website van onze school",
+    "我們學校的網站上"
+   ]
+  ],
+  "order": "主詞(De schoolgids) → 動詞(staat) → 介詞短語(op de website van onze school)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "注意 'staat' 的發音。"
+ },
+ "o ja, dat is logisch.": {
+  "breakdown": [
+   [
+    "O ja",
+    "喔"
+   ],
+   [
+    "dat is logisch",
+    "這很合理"
+   ]
+  ],
+  "order": "副詞(O ja) → 主詞(dat) → 動詞(is) → 補語(logisch)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "注意 'O' 和 'ja' 的連音。"
+ },
+ "ik heb u vanavond een heleboel verteld over onze school, dus over de roosters, de rapporten, de excursies, de oude bijdragen.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "heb verteld",
+    "告訴了"
+   ],
+   [
+    "u vanavond",
+    "您今晚"
+   ],
+   [
+    "een heleboel",
+    "很多"
+   ],
+   [
+    "over onze school",
+    "關於我們學校"
+   ],
+   [
+    "dus over de roosters, de rapporten, de excursies, de oude bijdragen",
+    "所以是關於課表、成績報告，校外教學、舊的貢獻"
+   ]
+  ],
+  "order": "主詞(Ik) → 助動詞(heb) → 動詞(verteld) → 受詞(u vanavond...)",
+  "grammar": "完成式，助動詞在第二位，過去分詞在句尾。",
+  "listen": "注意 'u' 和 'vanavond' 的連音。"
+ },
+ "bekijk de video.": {
+  "breakdown": [
+   [
+    "Bekijk",
+    "觀看"
+   ],
+   [
+    "de video",
+    "影片"
+   ]
+  ],
+  "order": "動詞(Bekijk) → 受詞(de video)",
+  "grammar": "祈使句，動詞放句首。",
+  "listen": "注意 'Bekijk' 的強調。"
+ },
+ "klik op het goede antwoord.": {
+  "breakdown": [
+   [
+    "Klik",
+    "點擊"
+   ],
+   [
+    "op het goede antwoord",
+    "正確答案"
+   ]
+  ],
+  "order": "動詞(Klik) → 介詞短語(op het goede antwoord)",
+  "grammar": "祈使句，動詞放句首。",
+  "listen": "注意 'Klik' 的強調。"
+ },
+ "hoe is het contact tussen ouders en school?": {
+  "breakdown": [
+   [
+    "Hoe",
+    "如何"
+   ],
+   [
+    "is het contact",
+    "是聯繫"
+   ],
+   [
+    "tussen ouders en school",
+    "父母與學校之間"
+   ]
+  ],
+  "order": "疑問詞(Hoe) → 動詞(is) → 主詞(het contact) → 介詞短語(tussen ouders en school)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "注意 'Hoe' 和 'is' 的連音。"
+ },
+ "wij vinden het contact met de ouders heel belangrijk.": {
+  "breakdown": [
+   [
+    "Wij",
+    "我們"
+   ],
+   [
+    "vinden",
+    "重視"
+   ],
+   [
+    "het contact met de ouders",
+    "與家長的聯繫"
+   ],
+   [
+    "heel belangrijk",
+    "非常重要"
+   ]
+  ],
+  "order": "主詞(Wij) → 動詞(vinden) → 受詞(het contact met de ouders) → 形容詞(heel belangrijk)。規則：動詞在第2位，形容詞在句尾。",
+  "grammar": "現在式，表示持續的狀態。",
+  "listen": "注意連音，'het' 和 'contact' 之間可能聽不清。"
+ },
+ "dus in ieder geval één keer per jaar hebben de ouders een gesprek met de mentor.": {
+  "breakdown": [
+   [
+    "Dus",
+    "所以"
+   ],
+   [
+    "in ieder geval",
+    "至少"
+   ],
+   [
+    "één keer per jaar",
+    "每年一次"
+   ],
+   [
+    "hebben de ouders een gesprek met de mentor",
+    "家長會與導師面談"
+   ]
+  ],
+  "order": "副詞(Dus) → 時間短語(in ieder geval één keer per jaar) → 動詞(hebben) → 主詞(de ouders) → 受詞(een gesprek met de mentor)。規則：副詞開頭，動詞在第2位。",
+  "grammar": "現在式，表示定期的行為。",
+  "listen": "'één keer' 可能會被快速連讀，注意聽清。"
+ },
+ "en is dit het enige contact tussen ouders en school?": {
+  "breakdown": [
+   [
+    "En",
+    "和"
+   ],
+   [
+    "is dit",
+    "這是"
+   ],
+   [
+    "het enige contact",
+    "唯一的聯繫"
+   ],
+   [
+    "tussen ouders en school",
+    "在家長與學校之間"
+   ]
+  ],
+  "order": "連接詞(En) → 動詞(is) → 主詞(this) → 受詞(het enige contact) → 介詞短語(tussen ouders en school)。規則：動詞在第2位，主詞在前。",
+  "grammar": "現在式，詢問狀態。",
+  "listen": "'is dit' 可能會快速連讀，注意聽清。"
+ },
+ "nou, als alles goed gaat met uw kind, dan is dat prima.": {
+  "breakdown": [
+   [
+    "Nou",
+    "那"
+   ],
+   [
+    "als alles goed gaat",
+    "如果一切順利"
+   ],
+   [
+    "met uw kind",
+    "與您的孩子"
+   ],
+   [
+    "dan is dat prima",
+    "那很好"
+   ]
+  ],
+  "order": "引導詞(Nou) → 條件句(als alles goed gaat met uw kind) → 結論(then is dat prima)。規則：條件句整體在前，動詞在第2位。",
+  "grammar": "條件句，表示假設情況。",
+  "listen": "'dan' 可能會被弱讀，注意聽清。"
+ },
+ "maar wij letten natuurlijk ook goed op de leerlingen.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "wij letten natuurlijk ook goed op",
+    "我們當然也會好好照顧"
+   ],
+   [
+    "de leerlingen",
+    "學生"
+   ]
+  ],
+  "order": "連接詞(Maar) → 主詞(wij) → 動詞(letten) → 副詞(natuurlijk) → 受詞(de leerlingen)。規則：連接詞開頭，動詞在第2位。",
+  "grammar": "現在式，表示持續的行為。",
+  "listen": "'natuurlijk' 可能會被快速連讀，注意聽清。"
+ },
+ "dus als er iets is, dan sturen wij een bericht via magister of we bellen u even op.": {
+  "breakdown": [
+   [
+    "Dus",
+    "所以"
+   ],
+   [
+    "als er iets is",
+    "如果有什麼事"
+   ],
+   [
+    "dan sturen wij een bericht",
+    "我們會發訊息"
+   ],
+   [
+    "via Magister of we bellen u even op",
+    "透過 Magister 或是打電話給您"
+   ]
+  ],
+  "order": "副詞(Dus) → 條件句(als er iets is) → 結論(then sturen wij een bericht) → 介詞短語(via Magister of we bellen u even op)。規則：副詞開頭，動詞在第2位。",
+  "grammar": "現在式，表示未來的行為。",
+  "listen": "'even' 可能會被弱讀，注意聽清。"
+ },
+ "waarom zou de school bellen?": {
+  "breakdown": [
+   [
+    "Waarom",
+    "為什麼"
+   ],
+   [
+    "zou de school bellen",
+    "學校會打電話"
+   ]
+  ],
+  "order": "疑問詞(Waarom) → 助動詞(zou) → 主詞(de school) → 動詞(bellen)。規則：疑問句動詞放句首。",
+  "grammar": "條件式，表示假設情況。",
+  "listen": "'de school' 可能會被快速連讀，注意聽清。"
+ },
+ "nou, wij bellen u op als uw kind er niet is, om te vragen waarom.": {
+  "breakdown": [
+   [
+    "Nou",
+    "那"
+   ],
+   [
+    "wij bellen u op",
+    "我們會打電話給您"
+   ],
+   [
+    "als uw kind er niet is",
+    "如果您的孩子沒來"
+   ],
+   [
+    "om te vragen waarom",
+    "詢問原因"
+   ]
+  ],
+  "order": "引導詞(Nou) → 主詞(wij) → 動詞(bellen) → 受詞(u) → 條件句(als uw kind er niet is) → 目的(om te vragen waarom)。規則：引導詞開頭，動詞在第2位。",
+  "grammar": "現在式，表示未來的行為。",
+  "listen": "'er niet is' 可能會被快速連讀，注意聽清。"
+ },
+ "dat is fijn.": {
+  "breakdown": [
+   [
+    "Dat",
+    "這"
+   ],
+   [
+    "is fijn",
+    "很好"
+   ]
+  ],
+  "order": "主詞(Dat) → 動詞(is) → 形容詞(fijn)。規則：簡單句，動詞在第2位。",
+  "grammar": "現在式，表示狀態。",
+  "listen": "注意連音，'Dat is' 可能會聽不清。"
+ },
+ "welke informatie vind ik op magister?": {
+  "breakdown": [
+   [
+    "Welke informatie",
+    "哪些資訊"
+   ],
+   [
+    "vind ik op Magister",
+    "我在 Magister 上可以查到"
+   ]
+  ],
+  "order": "疑問詞(Welke) → 受詞(informatie) → 動詞(vind) → 主詞(ik) → 介詞短語(op Magister)。規則：疑問句動詞放句首。",
+  "grammar": "現在式，詢問狀態。",
+  "listen": "'ik op' 可能會被快速連讀，注意聽清。"
+ },
+ "op magister vindt u alle informatie over uw kind.": {
+  "breakdown": [
+   [
+    "Op Magister",
+    "在 Magister 上"
+   ],
+   [
+    "vindt u",
+    "您可以找到"
+   ],
+   [
+    "alle informatie",
+    "所有資訊"
+   ],
+   [
+    "over uw kind",
+    "有關您孩子的"
+   ]
+  ],
+  "order": "介詞短語(Op Magister) → 動詞(vindt) → 主詞(u) → 受詞(alle informatie) → 介詞短語(over uw kind)。規則：介詞短語在句首，動詞在第2位。",
+  "grammar": "現在式，表示持續的狀態。",
+  "listen": "'u' 可能會被弱讀，注意聽清。"
+ },
+ "dus de cijfers, over de roosters, de rapporten, het huiswerk.": {
+  "breakdown": [
+   [
+    "Dus",
+    "所以"
+   ],
+   [
+    "de cijfers",
+    "成績"
+   ],
+   [
+    "over de roosters",
+    "課表"
+   ],
+   [
+    "de rapporten",
+    "成績報告"
+   ],
+   [
+    "het huiswerk",
+    "作業"
+   ]
+  ],
+  "order": "副詞(Dus) → 受詞(de cijfers) → 介詞短語(over de roosters) → 受詞(de rapporten) → 受詞(het huiswerk)。規則：副詞開頭，受詞依序列出。",
+  "grammar": "現在式，列舉資訊。",
+  "listen": "注意連音，'de cijfers over' 可能會聽不清。"
+ },
+ "handig dat alles bij elkaar staat.": {
+  "breakdown": [
+   [
+    "Handig",
+    "方便"
+   ],
+   [
+    "dat",
+    "這"
+   ],
+   [
+    "alles",
+    "所有東西"
+   ],
+   [
+    "bij elkaar",
+    "集中在一起"
+   ],
+   [
+    "staat",
+    "在"
+   ]
+  ],
+  "order": "主詞Handig(方便) → 動詞staat(在) → 受詞dat alles(這所有東西) → 地點bij elkaar(集中在一起)。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，形容詞Handig修飾主詞。",
+  "listen": "注意弱讀的dat，可能聽不清。"
+ },
+ "nou wij bellen u op als uw kind er niet is om te vragen waarom.": {
+  "breakdown": [
+   [
+    "Nou",
+    "那麼"
+   ],
+   [
+    "wij",
+    "我們"
+   ],
+   [
+    "bellen",
+    "打電話"
+   ],
+   [
+    "u op",
+    "給您"
+   ],
+   [
+    "als",
+    "當"
+   ],
+   [
+    "uw kind",
+    "您的孩子"
+   ],
+   [
+    "er niet is",
+    "沒來"
+   ],
+   [
+    "om te vragen waarom",
+    "詢問原因"
+   ]
+  ],
+  "order": "副詞Nou(那麼) → 主詞wij(我們) → 動詞bellen(打電話) → 受詞u op(給您) → 從句als uw kind er niet is(當您的孩子沒來) → 目的om te vragen waarom(詢問原因)。規則：從句動詞放句尾。",
+  "grammar": "現在式，從句使用als引導。",
+  "listen": "注意連音，uw和kind可能連在一起。"
+ },
+ "dus de cijfers over de roosters, de rapporten, het huiswerk.": {
+  "breakdown": [
+   [
+    "Dus",
+    "所以"
+   ],
+   [
+    "de cijfers",
+    "成績"
+   ],
+   [
+    "over",
+    "關於"
+   ],
+   [
+    "de roosters",
+    "課表"
+   ],
+   [
+    "de rapporten",
+    "成績報告"
+   ],
+   [
+    "het huiswerk",
+    "作業"
+   ]
+  ],
+  "order": "副詞Dus(所以) → 主詞de cijfers(成績) → 動詞over(關於) → 受詞de roosters, de rapporten, het huiswerk(課表、成績報告、作業)。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，名詞複數形式。",
+  "listen": "注意連音，de roosters和de rapporten可能聽不清。"
+ },
+ "nou, wij bellen u op als uw kind er niet is om te vragen waarom.": {
+  "breakdown": [
+   [
+    "Nou",
+    "那麼"
+   ],
+   [
+    "wij",
+    "我們"
+   ],
+   [
+    "bellen",
+    "打電話"
+   ],
+   [
+    "u op",
+    "給您"
+   ],
+   [
+    "als",
+    "當"
+   ],
+   [
+    "uw kind",
+    "您的孩子"
+   ],
+   [
+    "er niet is",
+    "沒來"
+   ],
+   [
+    "om te vragen waarom",
+    "詢問原因"
+   ]
+  ],
+  "order": "副詞Nou(那麼) → 主詞wij(我們) → 動詞bellen(打電話) → 受詞u op(給您) → 從句als uw kind er niet is(當您的孩子沒來) → 目的om te vragen waarom(詢問原因)。規則：從句動詞放句尾。",
+  "grammar": "現在式，從句使用als引導。",
+  "listen": "注意連音，uw和kind可能連在一起。"
+ },
+ "ondertitels ingediend door de amara.org gemeenschap.": {
+  "breakdown": [
+   [
+    "Ondertitels",
+    "字幕"
+   ],
+   [
+    "ingediend",
+    "提供"
+   ],
+   [
+    "door",
+    "由"
+   ],
+   [
+    "de Amara.org gemeenschap",
+    "Amara.org 社群"
+   ]
+  ],
+  "order": "主詞Ondertitels(字幕) → 動詞ingediend(提供) → 介詞door(由) → 受詞de Amara.org gemeenschap(Amara.org 社群)。規則：主詞在前，動詞在第二位。",
+  "grammar": "過去分詞ingediend，表示已完成的動作。",
+  "listen": "注意弱讀的door，可能聽不清。"
+ }
+}

@@ -1,0 +1,637 @@
+{
+ "mario luistert naar de radio.": {
+  "breakdown": [
+   [
+    "Mario",
+    "馬里奧"
+   ],
+   [
+    "luistert",
+    "正在收聽"
+   ],
+   [
+    "naar de radio",
+    "廣播"
+   ]
+  ],
+  "order": "主詞(Mario) → 動詞(luistert) → 介詞短語(naar de radio)",
+  "grammar": "現在進行式，表示正在進行的動作。",
+  "listen": "注意luistert的發音，可能聽成luistert."
+ },
+ "hij hoort een bericht over files.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "hoort",
+    "聽到"
+   ],
+   [
+    "een bericht",
+    "一則消息"
+   ],
+   [
+    "over files",
+    "關於塞車"
+   ]
+  ],
+  "order": "主詞(Hij) → 動詞(hoort) → 受詞(een bericht) → 介詞短語(over files)",
+  "grammar": "現在時，表示當前的事實或狀況。",
+  "listen": "berichten的發音可能會被連音影響，注意聽清楚."
+ },
+ "lees eerst de vraag.": {
+  "breakdown": [
+   [
+    "Lees",
+    "讀"
+   ],
+   [
+    "eerst",
+    "先"
+   ],
+   [
+    "de vraag",
+    "問題"
+   ]
+  ],
+  "order": "動詞(Lees) → 副詞(eerst) → 受詞(de vraag)",
+  "grammar": "命令式，直接對對方發出指令。",
+  "listen": "注意Lees的發音，可能聽成Leest."
+ },
+ "luister daarna naar de tekst.": {
+  "breakdown": [
+   [
+    "Luister",
+    "聽"
+   ],
+   [
+    "daarna",
+    "然後"
+   ],
+   [
+    "naar de tekst",
+    "文本內容"
+   ]
+  ],
+  "order": "動詞(Luister) → 副詞(daarna) → 介詞短語(naar de tekst)",
+  "grammar": "命令式，指示接下來要做的事情。",
+  "listen": "注意Luister的發音，可能聽成Luistert."
+ },
+ "en dan nu de files.": {
+  "breakdown": [
+   [
+    "En dan",
+    "然後"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "de files",
+    "塞車情況"
+   ]
+  ],
+  "order": "連接詞(En dan) → 副詞(nu) → 受詞(de files)",
+  "grammar": "句子開頭的連接詞，表示轉換話題。",
+  "listen": "注意dan的發音，可能聽成de."
+ },
+ "op de snelweg a2 tussen amsterdam en utrecht staat vijf kilometer file.": {
+  "breakdown": [
+   [
+    "Op de snelweg A2",
+    "在A2高速公路上"
+   ],
+   [
+    "tussen Amsterdam en Utrecht",
+    "在阿姆斯特丹和烏特勒支之間"
+   ],
+   [
+    "staat",
+    "有"
+   ],
+   [
+    "vijf kilometer file",
+    "五公里的塞車"
+   ]
+  ],
+  "order": "介詞短語(Op de snelweg A2) → 介詞短語(tussen Amsterdam en Utrecht) → 動詞(staat) → 受詞(vijf kilometer file)",
+  "grammar": "現在時，描述當前的情況。",
+  "listen": "注意staat的發音，可能聽成staat er."
+ },
+ "de oorzaak is een ongeluk met drie auto's.": {
+  "breakdown": [
+   [
+    "De oorzaak",
+    "原因"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "een ongeluk",
+    "一宗事故"
+   ],
+   [
+    "met drie auto's",
+    "涉及三輛車"
+   ]
+  ],
+  "order": "主詞(De oorzaak) → 動詞(is) → 受詞(一宗事故) → 介詞短語(met drie auto's)",
+  "grammar": "現在時，描述事物的狀態或事實。",
+  "listen": "注意is的發音，可能聽成'ez'."
+ },
+ "bij rotterdam op de snelweg a4 naar delft staat een kapotte vrachtwagen.": {
+  "breakdown": [
+   [
+    "Bij Rotterdam",
+    "在鹿特丹"
+   ],
+   [
+    "op de snelweg A4",
+    "在A4高速公路上"
+   ],
+   [
+    "naar Delft",
+    "通往代爾夫特"
+   ],
+   [
+    "staat",
+    "有"
+   ],
+   [
+    "een kapotte vrachtwagen",
+    "一輛壞掉的貨車"
+   ]
+  ],
+  "order": "介詞短語(Bij Rotterdam) → 介詞短語(op de snelweg A4) → 介詞短語(naar Delft) → 動詞(staat) → 受詞(een kapotte vrachtwagen)",
+  "grammar": "現在時，描述當前的情況。",
+  "listen": "注意staat的發音，可能聽成staat er."
+ },
+ "daarom staat er nu een file van vier kilometer.": {
+  "breakdown": [
+   [
+    "Daarom",
+    "所以"
+   ],
+   [
+    "staat er",
+    "有"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "een file van vier kilometer",
+    "四公里的塞車"
+   ]
+  ],
+  "order": "副詞(Daarom) → 動詞(staat er) → 副詞(nu) → 受詞(一個四公里的塞車)",
+  "grammar": "現在時，表示因果關係。",
+  "listen": "注意er的發音，可能被弱讀."
+ },
+ "over een half uur zal het verkeer weer kunnen doorrijden.": {
+  "breakdown": [
+   [
+    "Over een half uur",
+    "半小時後"
+   ],
+   [
+    "zal",
+    "會"
+   ],
+   [
+    "het verkeer",
+    "交通"
+   ],
+   [
+    "weer kunnen doorrijden",
+    "恢復通行"
+   ]
+  ],
+  "order": "介詞短語(Over een half uur) → 助動詞(zal) → 主詞(het verkeer) → 副詞(weer) → 動詞(kunnen doorrijden)",
+  "grammar": "未來時，表示將來的情況。",
+  "listen": "注意zal的發音，可能聽成zal het."
+ },
+ "de laatste file staat op de a50 bij apeldoorn.": {
+  "breakdown": [
+   [
+    "De laatste file",
+    "最後一處塞車"
+   ],
+   [
+    "staat",
+    "在"
+   ],
+   [
+    "op de A50",
+    "A50高速公路上"
+   ],
+   [
+    "bij Apeldoorn",
+    "在阿佩爾多爾恩附近"
+   ]
+  ],
+  "order": "主詞(De laatste file) → 動詞(staat) → 介詞短語(op de A50) → 介詞短語(bij Apeldoorn)",
+  "grammar": "現在時，描述當前的情況。",
+  "listen": "注意staat的發音，可能聽成staat er."
+ },
+ "daar is een vrachtwagen met eieren omgevallen.": {
+  "breakdown": [
+   [
+    "Daar",
+    "有"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "een vrachtwagen",
+    "一輛貨車"
+   ],
+   [
+    "met eieren",
+    "載著雞蛋"
+   ],
+   [
+    "omgevallen",
+    "翻覆了"
+   ]
+  ],
+  "order": "副詞(Daar) → 動詞(is) → 受詞(een vrachtwagen) → 介詞短語(met eieren) → 過去分詞(omgevallen)",
+  "grammar": "現在時，描述當前的情況。",
+  "listen": "注意is的發音，可能聽成'ez'."
+ },
+ "de vrachtwagen en de eieren liggen op de weg.": {
+  "breakdown": [
+   [
+    "De vrachtwagen",
+    "貨車"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "de eieren",
+    "雞蛋"
+   ],
+   [
+    "liggen op de weg",
+    "散落在路上"
+   ]
+  ],
+  "order": "主詞(De vrachtwagen en de eieren) → 動詞(liggen) → 地點(op de weg)",
+  "grammar": "動詞在主詞後面，表示狀態的動詞用現在式。",
+  "listen": "liggen 和 op 之間的連音可能不明顯。"
+ },
+ "de weg wordt nu schoongemaakt.": {
+  "breakdown": [
+   [
+    "De weg",
+    "路面"
+   ],
+   [
+    "wordt",
+    "正在"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "schoongemaakt",
+    "清理中"
+   ]
+  ],
+  "order": "主詞(De weg) → 助動詞(wordt) → 副詞(nu) → 過去分詞(schoongemaakt)",
+  "grammar": "被動語態，助動詞在前，過去分詞在句尾。",
+  "listen": "wordt 可能聽起來像 'word'，注意尾音。"
+ },
+ "er staat een file van tien kilometer.": {
+  "breakdown": [
+   [
+    "Er staat",
+    "有"
+   ],
+   [
+    "een file",
+    "一個塞車"
+   ],
+   [
+    "van tien kilometer",
+    "長度為十公里"
+   ]
+  ],
+  "order": "引導詞(Er) → 動詞(staat) → 主詞(een file) → 介詞短語(van tien kilometer)",
+  "grammar": "使用 'Er' 引導存在句，動詞在第二位。",
+  "listen": "Er 和 staat 之間的連音可能不明顯。"
+ },
+ "ten slotte nog een bericht voor mensen die met de trein reizen.": {
+  "breakdown": [
+   [
+    "Ten slotte",
+    "最後"
+   ],
+   [
+    "nog een bericht",
+    "還有一則消息"
+   ],
+   [
+    "voor mensen",
+    "給人們"
+   ],
+   [
+    "die met de trein reizen",
+    "搭火車旅行的"
+   ]
+  ],
+  "order": "副詞(Ten slotte) → 其他成分(nog een bericht voor mensen die met de trein reizen)",
+  "grammar": "ten slotte 是固定搭配，表示結尾。",
+  "listen": "nog 和 een 之間的連音可能被忽略。"
+ },
+ "tussen de stations arnhem en utrecht rijden geen treinen.": {
+  "breakdown": [
+   [
+    "Tussen de stations",
+    "在車站之間"
+   ],
+   [
+    "Arnhem en Utrecht",
+    "阿納姆和烏特勒支"
+   ],
+   [
+    "rijden geen treinen",
+    "沒有火車行駛"
+   ]
+  ],
+  "order": "介詞短語(Tussen de stations Arnhem en Utrecht) → 動詞(rijden) → 否定(no treinen)",
+  "grammar": "介詞短語開頭，動詞在第二位，否定詞放在動詞前。",
+  "listen": "rijden 和 geen 之間的連音可能不明顯。"
+ },
+ "u kunt met de ns-bussen reizen.": {
+  "breakdown": [
+   [
+    "U kunt",
+    "您可以"
+   ],
+   [
+    "met de NS-bussen",
+    "搭乘NS巴士"
+   ],
+   [
+    "reizen",
+    "旅行"
+   ]
+  ],
+  "order": "主詞(U) → 動詞(kunt) → 介詞短語(met de NS-bussen) → 原形動詞(reizen)",
+  "grammar": "情態動詞(kunt) 在第二位，原形動詞在句尾。",
+  "listen": "kunt 可能聽起來像 'kun'，注意尾音。"
+ },
+ "tot zover de files.": {
+  "breakdown": [
+   [
+    "Tot zover",
+    "以上就是"
+   ],
+   [
+    "de files",
+    "塞車報告"
+   ]
+  ],
+  "order": "副詞(Tot zover) → 主詞(de files)",
+  "grammar": "簡單句，主詞在後，副詞在前。",
+  "listen": "Tot 和 zover 之間的連音可能不明顯。"
+ },
+ "hoelang is de file op de snelweg a2 tussen amsterdam en utrecht?": {
+  "breakdown": [
+   [
+    "Hoelang",
+    "多長"
+   ],
+   [
+    "is de file",
+    "塞車是"
+   ],
+   [
+    "op de snelweg A2",
+    "在A2高速公路上"
+   ],
+   [
+    "tussen Amsterdam en Utrecht",
+    "阿姆斯特丹和烏特勒支之間"
+   ]
+  ],
+  "order": "疑問詞(Hoelang) → 動詞(is) → 主詞(de file) → 介詞短語(op de snelweg A2 tussen Amsterdam en Utrecht)",
+  "grammar": "疑問句，動詞放在主詞前。",
+  "listen": "is 可能聽起來像 's'，注意尾音。"
+ },
+ "vier kilometer.": {
+  "breakdown": [
+   [
+    "Vier kilometer",
+    "四公里"
+   ]
+  ],
+  "order": "主詞(Vier kilometer)",
+  "grammar": "簡單句，只有主詞。",
+  "listen": "注意 'vier' 的發音，可能容易漏聽。"
+ },
+ "vijf kilometer.": {
+  "breakdown": [
+   [
+    "Vijf kilometer",
+    "五公里"
+   ]
+  ],
+  "order": "主詞(Vijf kilometer)",
+  "grammar": "簡單句，只有主詞。",
+  "listen": "注意 'vijf' 的發音，可能容易漏聽。"
+ },
+ "zes kilometer.": {
+  "breakdown": [
+   [
+    "Zes kilometer",
+    "六公里"
+   ]
+  ],
+  "order": "主詞(Zes kilometer)",
+  "grammar": "簡單句，只有主詞。",
+  "listen": "注意 'zes' 的發音，可能容易漏聽。"
+ },
+ "bij rotterdam op de snelweg a3 is er een ongeluk met drie auto's.": {
+  "breakdown": [
+   [
+    "Bij Rotterdam",
+    "在鹿特丹"
+   ],
+   [
+    "op de snelweg A3",
+    "在A3高速公路上"
+   ],
+   [
+    "is er een ongeluk",
+    "發生了事故"
+   ],
+   [
+    "met drie auto's",
+    "有三輛車"
+   ]
+  ],
+  "order": "介詞短語(Bij Rotterdam op de snelweg A3) → 動詞(is) → 引導詞(er) → 主詞(een ongeluk) → 介詞短語(met drie auto's)",
+  "grammar": "介詞短語開頭，動詞在第二位，存在句用 'er'。",
+  "listen": "is 和 er 之間的連音可能不明顯。"
+ },
+ "op de snelweg a4 naar delft staat een kapotte vrachtwagen.": {
+  "breakdown": [
+   [
+    "Op de snelweg A4",
+    "在A4高速公路上"
+   ],
+   [
+    "naar Delft",
+    "通往代爾夫特"
+   ],
+   [
+    "staat een kapotte vrachtwagen",
+    "有一輛壞掉的貨車"
+   ]
+  ],
+  "order": "A4(地點) → staat(動詞#2) → een kapotte vrachtwagen(主詞) → naar Delft(方向)",
+  "grammar": "使用現在式，動詞在第二位。",
+  "listen": "注意 'staat' 和 'een' 的連音。"
+ },
+ "waarom staat er een file op de snelweg a4 bij rotterdam?": {
+  "breakdown": [
+   [
+    "Waarom",
+    "為什麼"
+   ],
+   [
+    "staat er een file",
+    "會有塞車"
+   ],
+   [
+    "op de snelweg A4 bij Rotterdam",
+    "在鹿特丹的A4高速公路上"
+   ]
+  ],
+  "order": "Waarom(疑問詞) → staat(動詞#2) → er(主詞) → een file(賓語) → op de snelweg A4 bij Rotterdam(地點)",
+  "grammar": "疑問句，動詞放在句首。",
+  "listen": "注意 'staat er' 的連音，可能聽不清。"
+ },
+ "er is een ongeluk gebeurd met drie auto's.": {
+  "breakdown": [
+   [
+    "Er is een ongeluk gebeurd",
+    "發生了一起事故"
+   ],
+   [
+    "met drie auto's",
+    "涉及三輛車"
+   ]
+  ],
+  "order": "Er(主詞) → is(動詞#2) → een ongeluk(賓語) → gebeurd(過去分詞) → met drie auto's(補充說明)",
+  "grammar": "使用現在完成式，助動詞在第二位，過去分詞在句尾。",
+  "listen": "注意 'is' 和 'een' 的連音。"
+ },
+ "er wordt aan de weg gewerkt. er staat een kapotte vrachtwagen.": {
+  "breakdown": [
+   [
+    "Er wordt aan de weg gewerkt",
+    "正在進行道路施工"
+   ],
+   [
+    "Er staat een kapotte vrachtwagen",
+    "有一輛壞掉的貨車"
+   ]
+  ],
+  "order": "Er(主詞) → wordt(動詞#2) → aan de weg(補語) → gewerkt(過去分詞) → Er(主詞) → staat(動詞#2) → een kapotte vrachtwagen(主詞)",
+  "grammar": "使用被動語態，動詞在第二位，過去分詞在句尾。",
+  "listen": "注意 'aan de' 的連音。"
+ },
+ "mario wil met de trein van arnhem naar utrecht.": {
+  "breakdown": [
+   [
+    "Mario wil",
+    "馬里奧想"
+   ],
+   [
+    "met de trein",
+    "搭火車"
+   ],
+   [
+    "van Arnhem naar Utrecht",
+    "從阿納姆到烏特勒支"
+   ]
+  ],
+  "order": "Mario(主詞) → wil(動詞#2) → met de trein(賓語) → van Arnhem naar Utrecht(方向)",
+  "grammar": "使用情態動詞，動詞在第二位。",
+  "listen": "注意 'met de' 的連音。"
+ },
+ "wat kan hij het beste doen?": {
+  "breakdown": [
+   [
+    "Wat kan hij",
+    "他最好的做法是什麼"
+   ],
+   [
+    "het beste doen",
+    "做最好的事"
+   ]
+  ],
+  "order": "Wat(疑問詞) → kan(動詞#2) → hij(主詞) → het beste(賓語) → doen(原形動詞)",
+  "grammar": "疑問句，情態動詞在第二位，原形動詞在句尾。",
+  "listen": "注意 'kan hij' 的連音。"
+ },
+ "via apeldoorn reizen.": {
+  "breakdown": [
+   [
+    "Via Apeldoorn",
+    "透過阿珀爾多倫"
+   ],
+   [
+    "reizen",
+    "旅行"
+   ]
+  ],
+  "order": "Via Apeldoorn(方式) → reizen(動詞)",
+  "grammar": "使用不定式，動詞在句尾。",
+  "listen": "注意 'Via' 和 'Apeldoorn' 的連音。"
+ },
+ "met de ns-bus reizen.": {
+  "breakdown": [
+   [
+    "Met de NS-bus",
+    "搭NS巴士"
+   ],
+   [
+    "reizen",
+    "旅行"
+   ]
+  ],
+  "order": "Met de NS-bus(方式) → reizen(動詞)",
+  "grammar": "使用不定式，動詞在句尾。",
+  "listen": "注意 'Met de' 的連音。"
+ },
+ "met een taxi reizen.": {
+  "breakdown": [
+   [
+    "Met een taxi",
+    "搭計程車"
+   ],
+   [
+    "reizen",
+    "旅行"
+   ]
+  ],
+  "order": "Met een taxi(方式) → reizen(動詞)",
+  "grammar": "使用不定式，動詞在句尾。",
+  "listen": "注意 'Met een' 的連音。"
+ }
+}

@@ -1,0 +1,661 @@
+{
+ "video_id": "lb0q-sk82TA",
+ "title": "Listening exam A2 Practice 2",
+ "channel": "Inburgeren examen A2",
+ "duration": 624,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "忙碌的一週",
+   "title_nl": "Listening exam A2 Practice 2",
+   "kind": "對話",
+   "context_zh": "兩位朋友在咖啡廳聊天，討論各自的行程和飲食習慣。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Elke maandag. Hé Tessa, hoe is het?",
+     "zh": "每個星期一。嗨，Tessa，你好嗎？"
+    },
+    {
+     "t": "0:06",
+     "nl": "Goed. Zullen wij deze week een dagje naar Amsterdam gaan?",
+     "zh": "很好。我們這週要不要去阿姆斯特丹玩一天？"
+    },
+    {
+     "t": "0:13",
+     "nl": "Deze week kan ik niet. Ik heb het heel druk.",
+     "zh": "這週我沒空。我很忙。"
+    },
+    {
+     "t": "0:19",
+     "nl": "Wat ga je deze week dan doen?",
+     "zh": "那你這週打算做什麼？"
+    },
+    {
+     "t": "0:22",
+     "nl": "Maandag ga ik naar de koffieochtend in het buurthuis.",
+     "zh": "星期一我要去社區中心的咖啡上午。"
+    },
+    {
+     "t": "0:26",
+     "nl": "Dat doe ik elke week. Dinsdag help ik op de school van mijn dochter bij de sportdag.",
+     "zh": "我每週都去。星期二我在我女兒的學校幫忙體育日。"
+    },
+    {
+     "t": "0:32",
+     "nl": "En woensdag ga ik naar mijn moeder. Ah, waar woont ze?",
+     "zh": "星期三我要去看我媽媽。啊，她住在哪裡？"
+    },
+    {
+     "t": "0:38",
+     "nl": "In Den Haag. En donderdag en vrijdag? Donderdag moet ik werken.",
+     "zh": "在海牙。星期四和星期五呢？星期四我要工作。"
+    },
+    {
+     "t": "0:44",
+     "nl": "En vrijdag heb ik een afspraak in het ziekenhuis.",
+     "zh": "星期五我有一個醫院的約會。"
+    },
+    {
+     "t": "0:47",
+     "nl": "Zo, dat is inderdaad een drukke agenda.",
+     "zh": "哇，那確實是很忙的一週行程。"
+    },
+    {
+     "t": "0:52",
+     "nl": "Dan gaan we een andere keer, oké? Ja, leuk.",
+     "zh": "那我們改天再去，好嗎？好，太好了。"
+    },
+    {
+     "t": "0:58",
+     "nl": "Eet je gezond?",
+     "zh": "你有吃得健康嗎？"
+    },
+    {
+     "t": "1:04",
+     "nl": "Waar ben je geweest? Ik was bij de dokter met mijn zoon.",
+     "zh": "你去哪了？我帶我兒子去看醫生了。"
+    },
+    {
+     "t": "1:09",
+     "nl": "Is hij ziek? Nee. Maar Jonas is te dik.",
+     "zh": "他生病了嗎？沒有。但Jonas太胖了。"
+    },
+    {
+     "t": "1:14",
+     "nl": "Hij moet gezonder eten. Dan moet hij zeker minder snoepen.",
+     "zh": "他必須吃得更健康。那他一定要少吃零食。"
+    },
+    {
+     "t": "1:19",
+     "nl": "Ja, en meer groenten en fruit eten.",
+     "zh": "是的，還要多吃蔬菜和水果。"
+    },
+    {
+     "t": "1:24",
+     "nl": "Nou, dat is niet makkelijk. Nee. Eet jij gezond?",
+     "zh": "嗯，那真的不容易。是啊。你吃得健康嗎？"
+    },
+    {
+     "t": "1:30",
+     "nl": "Ja, maar ik drink te veel koffie. Hoeveel koffie drink je dan per dag?",
+     "zh": "吃得健康，但我咖啡喝太多了。你一天喝多少咖啡？"
+    },
+    {
+     "t": "1:36",
+     "nl": "Ongeveer acht kopjes. Tja, dat is ook niet gezond.",
+     "zh": "大約八杯。唉，那也不健康。"
+    },
+    {
+     "t": "1:41",
+     "nl": "Nee.",
+     "zh": "不健康。"
+    },
+    {
+     "t": "1:52",
+     "nl": "Hé, zullen we ergens een broodje eten? Ah, goed idee.",
+     "zh": "嘿，我們去吃點三明治吧？好主意。"
+    },
+    {
+     "t": "1:56",
+     "nl": "Ik heb wel trek. Aan de overkant zit een café.",
+     "zh": "我肚子餓了。對面有一家咖啡館。"
+    },
+    {
+     "t": "2:00",
+     "nl": "Je bedoelt De Molen? Ja, ze hebben daar lekkere broodjes.",
+     "zh": "你是說『磨坊』？對，那裡有好吃的三明治。"
+    },
+    {
+     "t": "2:08",
+     "nl": "Goedemiddag. Hallo. Wat kan ik voor u doen?",
+     "zh": "午安。你好。請問需要什麼？"
+    },
+    {
+     "t": "2:12",
+     "nl": "Heeft u voor ons de menukaart? Natuurlijk, ik haal hem even.",
+     "zh": "你們有菜單嗎？當然，我馬上拿給你們。"
+    },
+    {
+     "t": "2:25",
+     "nl": "Weet u het al? Ja, ik wil graag een tosti en een thee.",
+     "zh": "你們決定好了嗎？我想要一份烤吐司和一杯茶。"
+    },
+    {
+     "t": "2:31",
+     "nl": "De tosti met ham en kaas. Ja, lekker.",
+     "zh": "烤吐司火腿奶酪口味。好吃。"
+    },
+    {
+     "t": "2:36",
+     "nl": "En voor u?",
+     "zh": "那您呢？"
+    },
+    {
+     "t": "2:37",
+     "nl": "Voor mij een broodje kroket en een glas melk.",
+     "zh": "我要一個炸肉餅三明治和一杯牛奶。"
+    },
+    {
+     "t": "2:43",
+     "nl": "Een bruin broodje of een wit broodje? Een witte graag.",
+     "zh": "要全麥麵包還是白麵包？我要白麵包。"
+    },
+    {
+     "t": "2:48",
+     "nl": "Prima, komt eraan. Wat zullen we eten?",
+     "zh": "好的，馬上來。我們要吃什麼？"
+    },
+    {
+     "t": "2:54",
+     "nl": "Eén. Hé, Maja.",
+     "zh": "一。嗨，Maja。"
+    },
+    {
+     "t": "2:59",
+     "nl": "Wat ga je vanavond eten? Boerenkool met worst.",
+     "zh": "你今晚要吃什麼？高麗菜燉香腸。"
+    },
+    {
+     "t": "3:03",
+     "nl": "Lekker. Dat is wel een echte Hollandse maaltijd.",
+     "zh": "好吃。那可是地道的荷蘭菜。"
+    },
+    {
+     "t": "3:07",
+     "nl": "Ja, dat klopt. Mijn kinderen vinden het heerlijk.",
+     "zh": "對，沒錯。我的孩子們很喜歡。"
+    },
+    {
+     "t": "3:11",
+     "nl": "En het is lekker in de winter. Wat ga jij eten?",
+     "zh": "冬天吃很舒服。你呢，要吃什麼？"
+    },
+    {
+     "t": "3:16",
+     "nl": "Dat weet ik niet. Wij gaan bij mijn zus eten.",
+     "zh": "不知道。我們要去我姊姊家吃飯。"
+    },
+    {
+     "t": "3:20",
+     "nl": "Oh, fijn. Dan hoef je niet te koken.",
+     "zh": "噢，真好。這樣你不用煮飯了。"
+    },
+    {
+     "t": "3:23",
+     "nl": "Oh, ik hoop dat ze kip met rijst en broccoli maakt.",
+     "zh": "我希望她煮雞肉配飯和花椰菜。"
+    },
+    {
+     "t": "3:28",
+     "nl": "Dat kan ze heel goed. Oh, eet smakelijk vanavond, hè.",
+     "zh": "她煮得很好。哦，祝你今晚用餐愉快。"
+    },
+    {
+     "t": "3:34",
+     "nl": "Jij ook. Wat zullen we eten?",
+     "zh": "你也是。我們要吃什麼？"
+    },
+    {
+     "t": "3:41",
+     "nl": "Twee.",
+     "zh": "二。"
+    },
+    {
+     "t": "3:47",
+     "nl": "Oh, wat ruikt het hier lekker. Ik heb tomatensoep gemaakt.",
+     "zh": "哇，這裡聞起來好香。我煮了番茄湯。"
+    },
+    {
+     "t": "3:51",
+     "nl": "Mag ik even proeven? Natuurlijk. Vind je het lekker?",
+     "zh": "我可以嘗一口嗎？當然。你喜歡嗎？"
+    },
+    {
+     "t": "3:57",
+     "nl": "Mmm, het is heerlijk. Het smaakt een beetje zoet.",
+     "zh": "嗯，很好吃。味道有點甜。"
+    },
+    {
+     "t": "4:02",
+     "nl": "Ja, ik hou van zoete gerechten. Is het je eigen recept?",
+     "zh": "是啊，我喜歡甜的料理。這是你自己的食譜嗎？"
+    },
+    {
+     "t": "4:06",
+     "nl": "Nee, het is een recept van mijn moeder. Lust je een kopje soep?",
+     "zh": "不是，這是我媽媽的食譜。你想喝一碗湯嗎？"
+    },
+    {
+     "t": "4:11",
+     "nl": "Ja, graag.",
+     "zh": "好啊，謝謝。"
+    },
+    {
+     "t": "4:18",
+     "nl": "In een café 2.",
+     "zh": "在一家咖啡館 2。"
+    },
+    {
+     "t": "4:41",
+     "nl": "Een bruin broodje en een glas melk. Een blauw broodje of een wit broodje? Een witte graag.",
+     "zh": "一個全麥的三明治和一杯牛奶。一個藍色麵包還是白麵包？我要白麵包。"
+    },
+    {
+     "t": "4:47",
+     "nl": "Prima, komt eraan. Koffie met gebak.",
+     "zh": "很好，馬上來。咖啡配蛋糕。"
+    },
+    {
+     "t": "4:55",
+     "nl": "Dag mevrouw. Goedemorgen. Zegt u het maar.",
+     "zh": "您好，女士。早安。請說。"
+    },
+    {
+     "t": "5:00",
+     "nl": "Een half wit gesneden. Anders nog iets?",
+     "zh": "切半個白麵包。還需要其他的嗎？"
+    },
+    {
+     "t": "5:05",
+     "nl": "En een half volkoren gesneden, alsjeblieft.",
+     "zh": "請給我切半個全麥麵包。"
+    },
+    {
+     "t": "5:10",
+     "nl": "Dat was het?",
+     "zh": "就這些嗎？"
+    },
+    {
+     "t": "5:12",
+     "nl": "Nee, ik wil ook nog vier gebakjes.",
+     "zh": "不，我還想要四個小蛋糕。"
+    },
+    {
+     "t": "5:17",
+     "nl": "Welke wilt u? Die met slagroom graag.",
+     "zh": "您要哪種？我要打發鮮奶油那種。"
+    },
+    {
+     "t": "5:32",
+     "nl": "Dat is dan 9,20 euro, alsjeblieft.",
+     "zh": "總共9.20歐元，請。"
+    },
+    {
+     "t": "5:38",
+     "nl": "Mijn familie 1.",
+     "zh": "我的家人一。"
+    },
+    {
+     "t": "5:43",
+     "nl": "Hallo, ik ben Simon Sanchez. Ik heb een broer en een zus.",
+     "zh": "你好，我是Simon Sanchez。我有一個哥哥和一個妹妹。"
+    },
+    {
+     "t": "5:50",
+     "nl": "Mijn broer heet Jason en mijn zus heet Annette.",
+     "zh": "我哥哥叫Jason，我妹妹叫Annette。"
+    },
+    {
+     "t": "5:56",
+     "nl": "Ik ben 12 jaar.",
+     "zh": "我12歲。"
+    },
+    {
+     "t": "5:59",
+     "nl": "Jason is 9 jaar en mijn zus is 3 jaar.",
+     "zh": "Jason 9歲，我妹妹3歲。"
+    },
+    {
+     "t": "6:03",
+     "nl": "Wij wonen met onze ouders in Amsterdam.",
+     "zh": "我們和父母一起住在阿姆斯特丹。"
+    },
+    {
+     "t": "6:08",
+     "nl": "Mijn moeder heet Linda. De naam van mijn vader is Martin.",
+     "zh": "我媽媽叫Linda。爸爸的名字是Martin。"
+    },
+    {
+     "t": "6:14",
+     "nl": "Mijn vader heeft één zus. Zij heet Isabella.",
+     "zh": "我爸爸有一個姐妹。她叫Isabella。"
+    },
+    {
+     "t": "6:20",
+     "nl": "Zij is getrouwd met Hans. Hij is de zwager van mijn vader.",
+     "zh": "她嫁給Hans。他是我爸爸的姐夫。"
+    },
+    {
+     "t": "6:28",
+     "nl": "Zij hebben samen twee dochters, Eva en Sarah.",
+     "zh": "他們有兩個女兒，Eva和Sarah。"
+    },
+    {
+     "t": "6:33",
+     "nl": "Eva woont samen met Luc.",
+     "zh": "Eva和Luc一起住。"
+    },
+    {
+     "t": "6:38",
+     "nl": "Sarah woont nog thuis bij haar ouders.",
+     "zh": "Sarah還和父母住在一起。"
+    },
+    {
+     "t": "6:42",
+     "nl": "Eva en Sarah zijn mijn nichtjes. Ik ben hun neef.",
+     "zh": "Eva和Sarah是我的姪女。我是他們的堂兄。"
+    },
+    {
+     "t": "6:48",
+     "nl": "Hans en Isabella zijn mijn oom en tante.",
+     "zh": "Hans和Isabella是我的叔叔和嬸嬸。"
+    },
+    {
+     "t": "6:53",
+     "nl": "Mijn opa en oma heten Julio en Maria.",
+     "zh": "我的爺爺奶奶叫Julio和Maria。"
+    },
+    {
+     "t": "6:58",
+     "nl": "Zij wonen in Spanje. Mijn familie 2.",
+     "zh": "他們住在西班牙。我的家人二。"
+    },
+    {
+     "t": "7:08",
+     "nl": "Mijn vrouw en mijn twee dochters. Hé Mohamed, wat een leuke foto. Is dat jouw familie?",
+     "zh": "我的妻子和我兩個女兒。嗨Mohamed，好漂亮的照片。那是你的家人嗎？"
+    },
+    {
+     "t": "7:13",
+     "nl": "Ja, dit is mijn vrouw en dit zijn mijn twee dochters.",
+     "zh": "是的，這是我的妻子，這是我的兩個女兒。"
+    },
+    {
+     "t": "7:19",
+     "nl": "En is dat je zus? Nee, dat is mijn schoonzus.",
+     "zh": "那是你妹妹嗎？不，那是我的嫂子。"
+    },
+    {
+     "t": "7:24",
+     "nl": "Zij is getrouwd met mijn broer. Hé, woont je broer ook in Nederland?",
+     "zh": "她嫁給我哥哥。嗨，你哥哥也住在荷蘭嗎？"
+    },
+    {
+     "t": "7:29",
+     "nl": "Ja, gelukkig wel.",
+     "zh": "是的，還好。"
+    },
+    {
+     "t": "7:33",
+     "nl": "En zijn dit je ouders? Ja, maar zij wonen in Irak.",
+     "zh": "那是你父母嗎？是，但他們住在伊拉克。"
+    },
+    {
+     "t": "7:39",
+     "nl": "Ik heb ze al drie jaar niet gezien.",
+     "zh": "我已經三年沒見他們了。"
+    },
+    {
+     "t": "7:48",
+     "nl": "Geboren 1.",
+     "zh": "出生一。"
+    },
+    {
+     "t": "7:56",
+     "nl": "Met Jan. Hoi Jan, met Siham.",
+     "zh": "我是Jan。嗨Jan，我是Siham。"
+    },
+    {
+     "t": "8:01",
+     "nl": "Hallo Siham. Gefeliciteerd met je zoon.",
+     "zh": "你好Siham。恭喜你生了兒子。"
+    },
+    {
+     "t": "8:05",
+     "nl": "Ja, dankjewel. Is alles goed met Thomas?",
+     "zh": "謝謝你。Thomas一切都好嗎？"
+    },
+    {
+     "t": "8:09",
+     "nl": "Ja, hij is helemaal gezond. Kan ik vanmiddag even op bezoek komen?",
+     "zh": "是的，他非常健康。我今天下午可以去拜訪嗎？"
+    },
+    {
+     "t": "8:15",
+     "nl": "Leuk. Kom je om drie uur? Dat is goed. Tot vanmiddag.",
+     "zh": "很好。你三點來嗎？好的，下午見。"
+    },
+    {
+     "t": "8:21",
+     "nl": "En doe de groeten aan Alia.",
+     "zh": "請代我問候Alia。"
+    },
+    {
+     "t": "8:32",
+     "nl": "Zal ik doen. Tot straks.",
+     "zh": "我會的，待會見。"
+    },
+    {
+     "t": "8:37",
+     "nl": "Geboren 2.",
+     "zh": "出生二。"
+    },
+    {
+     "t": "8:43",
+     "nl": "Hé, gefeliciteerd met je zoon. Dankjewel.",
+     "zh": "嗨，恭喜你的兒子。謝謝。"
+    },
+    {
+     "t": "8:44",
+     "nl": "Is alles goed gegaan?",
+     "zh": "一切順利嗎？"
+    },
+    {
+     "t": "8:50",
+     "nl": "Ja, hij is thuisgeboren en hij is helemaal gezond.",
+     "zh": "是的，他在家生的，完全健康。"
+    },
+    {
+     "t": "8:59",
+     "nl": "Oh, gelukkig. Wil je hem even zien?",
+     "zh": "哦，太好了。你要看看他嗎？"
+    },
+    {
+     "t": "9:04",
+     "nl": "Dit is Thomas. Oh, wat is hij lief.",
+     "zh": "這是Thomas。喔，他好可愛。"
+    },
+    {
+     "t": "9:06",
+     "nl": "Hoeveel weegt hij?",
+     "zh": "他多重？"
+    },
+    {
+     "t": "9:13",
+     "nl": "En hoe is het met Maria? Ze is nu naar school.",
+     "zh": "Maria 最近怎麼樣？她現在上學去了。"
+    },
+    {
+     "t": "9:19",
+     "nl": "Ze is erg trots op haar broertje.",
+     "zh": "她對她弟弟非常驕傲。"
+    },
+    {
+     "t": "9:25",
+     "nl": "Een vriend van vroeger. Hé, Safi.",
+     "zh": "以前的一個朋友。嗨，Safi。"
+    },
+    {
+     "t": "9:31",
+     "nl": "Hoi. Wie ben jij? Ik ben Paul. Paul de Waard.",
+     "zh": "嗨。你是誰？我是保羅。保羅·德瓦爾德。"
+    },
+    {
+     "t": "9:37",
+     "nl": "We kennen elkaar van de sportclub. Oh ja. Dat is lang geleden.",
+     "zh": "我們是在運動俱樂部認識的。喔，是啊。那已經是很久以前的事了。"
+    },
+    {
+     "t": "9:43",
+     "nl": "Ja, vier jaar. Hoe is het? Prima. En met jou?",
+     "zh": "是的，四年了。你好嗎？很好。你呢？"
+    },
+    {
+     "t": "9:48",
+     "nl": "Goed. Woon jij ook in Den Haag? Ja, samen met mevrouw.",
+     "zh": "很好。你也住在海牙嗎？是的，和夫人一起。"
+    },
+    {
+     "t": "9:54",
+     "nl": "Ik ben net getrouwd. Wat leuk. Hoe heet je vrouw?",
+     "zh": "我剛結婚。真好。你太太叫什麼名字？"
+    },
+    {
+     "t": "10:00",
+     "nl": "Ze heet Elisa. En jij? Ben jij ook getrouwd?",
+     "zh": "她叫Elisa。你呢？你也結婚了嗎？"
+    },
+    {
+     "t": "10:04",
+     "nl": "Nee. Ik woon samen met Helene.",
+     "zh": "沒有。我和Helene同居。"
+    },
+    {
+     "t": "10:08",
+     "nl": "En onze dochter heet Lina. Zo. Er is veel veranderd.",
+     "zh": "我們的女兒叫Lina。是啊，變化很多。"
+    },
+    {
+     "t": "10:15",
+     "nl": "Zullen we een kopje koffie drinken? Prima. Dan kunnen we verder praten.",
+     "zh": "我們喝杯咖啡吧？好啊。那我們可以繼續聊。"
+    },
+    {
+     "t": "10:24",
+     "nl": "TV Gelderland 2021",
+     "zh": "TV Gelderland 2021"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "druk",
+     "zh": "忙碌的"
+    },
+    {
+     "nl": "afspraak",
+     "zh": "約會"
+    },
+    {
+     "nl": "gezond",
+     "zh": "健康的"
+    },
+    {
+     "nl": "eten",
+     "zh": "吃"
+    },
+    {
+     "nl": "broodje",
+     "zh": "三明治"
+    },
+    {
+     "nl": "thee",
+     "zh": "茶"
+    },
+    {
+     "nl": "soep",
+     "zh": "湯"
+    },
+    {
+     "nl": "gezellig",
+     "zh": "愉快的"
+    },
+    {
+     "nl": "familie",
+     "zh": "家庭"
+    },
+    {
+     "nl": "kinderen",
+     "zh": "孩子"
+    },
+    {
+     "nl": "moeder",
+     "zh": "母親"
+    },
+    {
+     "nl": "vader",
+     "zh": "父親"
+    },
+    {
+     "nl": "broer",
+     "zh": "兄弟"
+    },
+    {
+     "nl": "zus",
+     "zh": "姐妹"
+    },
+    {
+     "nl": "huis",
+     "zh": "家"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Wat ga je deze week dan doen?",
+     "zh": "你這週要做什麼？",
+     "note": "詢問對方的計畫"
+    },
+    {
+     "nl": "Ik heb het heel druk.",
+     "zh": "我很忙。",
+     "note": "表達忙碌的狀態"
+    },
+    {
+     "nl": "Eet jij gezond?",
+     "zh": "你吃得健康嗎？",
+     "note": "詢問飲食習慣"
+    },
+    {
+     "nl": "Ik wil graag een tosti en een thee.",
+     "zh": "我想要一份烤三明治和一杯茶。",
+     "note": "點餐的表達"
+    },
+    {
+     "nl": "Dat is wel een echte Hollandse maaltijd.",
+     "zh": "那是一頓真正的荷蘭餐。",
+     "note": "描述食物的特性"
+    },
+    {
+     "nl": "Ik hoop dat ze kip met rijst en broccoli maakt.",
+     "zh": "我希望她做雞肉配米飯和西蘭花。",
+     "note": "表達希望或期待"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

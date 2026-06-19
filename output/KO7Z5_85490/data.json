@@ -1,0 +1,826 @@
+{
+  "video_id": "KO7Z5_85490",
+  "video_info": {
+    "title": "Listening exam 2021 part 1",
+    "channel": "Inburgeren examen A2",
+    "duration": 809
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Amiel werkt in een garage als monteur.",
+        "translation": "Amiel 在車庫裡當修理工。",
+        "start": 5.76,
+        "end": 9.14
+      },
+      {
+        "text": "Hij heeft een gesprek met zijn chef.",
+        "translation": "他和他的主管有一場談話。",
+        "start": 10.92,
+        "end": 12.98
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後觀看影片。",
+        "start": 17.08,
+        "end": 20.76
+      },
+      {
+        "text": "Goedemorgen Amiel. Goedemorgen.",
+        "translation": "早安，Amiel。早安。",
+        "start": 33.82,
+        "end": 37.5
+      },
+      {
+        "text": "We hebben veel te doen vandaag. Er zijn drie auto's die gerepareerd moeten worden.",
+        "translation": "我們今天有很多事情要做。有三輛車需要維修。",
+        "start": 38.34,
+        "end": 43.62
+      },
+      {
+        "text": "De zwarte auto met een kapotte accu is als eerste gebracht.",
+        "translation": "先送來的是一輛有壞電池的黑色車。",
+        "start": 45.06,
+        "end": 49.8
+      },
+      {
+        "text": "Moet ik daarmee beginnen? Nee. Ik wil dat je begint met de witte auto.",
+        "translation": "我要先開始處理那輛車嗎？不。我希望你從白色車開始。",
+        "start": 49.8,
+        "end": 55.1
+      },
+      {
+        "text": "De koplamp links vooraan doet het niet meer.",
+        "translation": "左前方的頭燈不亮了。",
+        "start": 56.0,
+        "end": 59.16
+      },
+      {
+        "text": "De eigenaar van de witte auto heeft een enorme haast en komt de auto over twee uur alweer ophalen.",
+        "translation": "白色車的車主非常急，兩小時後會再來取車。",
+        "start": 60.54,
+        "end": 66.8
+      },
+      {
+        "text": "Als laatste mag je de blauwe auto doen. Die wordt morgen pas opgehaald.",
+        "translation": "最後你再處理藍色車。那輛車明天才會被取走。",
+        "start": 67.34,
+        "end": 71.58
+      },
+      {
+        "text": "De deuren zijn het probleem. Die gaan niet meer open.",
+        "translation": "門是問題所在。門已經打不開了。",
+        "start": 72.44,
+        "end": 76.18
+      },
+      {
+        "text": "Ik denk dat we de sleutel moeten controleren. Maar goed, dat zien we dan wel.",
+        "translation": "我覺得我們應該檢查鑰匙。但好吧，屆時再看。",
+        "start": 77.18,
+        "end": 82.74
+      },
+      {
+        "text": "Oké? Oké.",
+        "translation": "好嗎？好。",
+        "start": 83.16,
+        "end": 86.72
+      },
+      {
+        "text": "Met welke auto moet Amiel vandaag beginnen?",
+        "translation": "Amiel 今天要從哪輛車開始？",
+        "start": 88.9,
+        "end": 91.62
+      },
+      {
+        "text": "De zwarte auto.",
+        "translation": "黑色車。",
+        "start": 94.88,
+        "end": 100.82
+      },
+      {
+        "text": "De blauwe auto.",
+        "translation": "藍色車。",
+        "start": 103.14,
+        "end": 105.82
+      },
+      {
+        "text": "De witte auto.",
+        "translation": "白色車。",
+        "start": 115.7,
+        "end": 118.54
+      },
+      {
+        "text": "Amiel werkt in een garage als monteur.",
+        "translation": "Amiel 在車庫裡當修理工。",
+        "start": 120.24,
+        "end": 122.36
+      },
+      {
+        "text": "Hij heeft een gesprek met zijn chef.",
+        "translation": "他和他的主管有一場談話。",
+        "start": 125.64,
+        "end": 130.24
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後觀看影片。",
+        "start": 143.88,
+        "end": 147.42
+      },
+      {
+        "text": "Hey Amiel. Goedemorgen. Fijn dat je er bent. Goedemorgen.",
+        "translation": "嘿，Amiel。早安。很高興你來了。早安。",
+        "start": 147.42,
+        "end": 153.16
+      },
+      {
+        "text": "We hebben veel te doen vandaag. Er zijn drie auto's die gerepareerd moeten worden.",
+        "translation": "我們今天有很多事情要做。有三輛車需要維修。",
+        "start": 154.38,
+        "end": 159.08
+      },
+      {
+        "text": "De zwarte auto met een kapotte accu vooraan is als eerste gebracht.",
+        "translation": "先送來的是一輛前方電池壞掉的黑色車。",
+        "start": 159.76,
+        "end": 164.34
+      },
+      {
+        "text": "Moet ik daarmee beginnen? Nee. Ik wil dat je begint met de witte auto.",
+        "translation": "我要先開始處理那輛車嗎？不。我希望你從白色車開始。",
+        "start": 165.24,
+        "end": 168.4
+      },
+      {
+        "text": "De koplamp links vooraan doet het niet meer.",
+        "translation": "左前方的頭燈不亮了。",
+        "start": 169.78,
+        "end": 176.04
+      },
+      {
+        "text": "De eigenaar van de witte auto heeft een enorme haast en komt de auto over twee uur alweer ophalen.",
+        "translation": "白色車的車主非常急，兩小時後會再來取車。",
+        "start": 176.04,
+        "end": 180.86
+      },
+      {
+        "text": "Als laatste mag je de blauwe auto doen. Die wordt morgen pas opgehaald.",
+        "translation": "最後你再處理藍色車。那輛車明天才會被取走。",
+        "start": 182.2,
+        "end": 185.48
+      },
+      {
+        "text": "De deuren zijn het probleem. Die gaan niet meer open.",
+        "translation": "門是問題所在。門已經打不開了。",
+        "start": 186.76,
+        "end": 192.36
+      },
+      {
+        "text": "Ik denk dat we de sleutel moeten controleren. Maar goed, dat zien we dan wel.",
+        "translation": "我覺得我們應該檢查鑰匙。但好吧，屆時再看。",
+        "start": 192.6,
+        "end": 194.8
+      },
+      {
+        "text": "Oké? Oké.",
+        "translation": "好嗎？好。",
+        "start": 199.6,
+        "end": 202.34
+      },
+      {
+        "text": "Waarom staat de blauwe auto in de garage?",
+        "translation": "藍色車為什麼停在車庫？",
+        "start": 206.04,
+        "end": 207.64
+      },
+      {
+        "text": "De accu is kapot?",
+        "translation": "是電池壞了嗎？",
+        "start": 211.52,
+        "end": 212.96
+      },
+      {
+        "text": "De deuren gaan niet open?",
+        "translation": "是門打不開嗎？",
+        "start": 216.6,
+        "end": 218.06
+      },
+      {
+        "text": "Één lamp geeft geen licht.",
+        "translation": "有一盞燈不亮。",
+        "start": 232.9,
+        "end": 236.8
+      },
+      {
+        "text": "Sophia heeft een nieuwe baan.",
+        "translation": "Sophia 找到一份新工作。",
+        "start": 238.04,
+        "end": 242.64
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後觀看影片。",
+        "start": 255.24,
+        "end": 257.24
+      },
+      {
+        "text": "Waarom staat de blauwe auto in de garage? Nou, je eerste dag.",
+        "translation": "藍色車為什麼停在車庫？嗯，因為你是第一天上班。",
+        "start": 258.14,
+        "end": 262.34
+      },
+      {
+        "text": "Een belangrijke regel is dat de telefoon altijd voorgaat.",
+        "translation": "一條重要規則是，電話必須始終優先。",
+        "start": 262.88,
+        "end": 267.08
+      },
+      {
+        "text": "Dus ook al ben je nog zo druk, maakt niet uit. Je neemt hem altijd op.",
+        "translation": "所以即使你再忙也沒關係，你都要接電話。",
+        "start": 268.04,
+        "end": 271.86
+      },
+      {
+        "text": "Als iemand de directeur wil spreken, dan verbind je niet meteen door.",
+        "translation": "如果有人要找主管，你不會直接轉接。",
+        "start": 272.36,
+        "end": 277.14
+      },
+      {
+        "text": "Je kijkt dan eerst in zijn agenda. Ook vraag je waar het over gaat.",
+        "translation": "你會先查看他的行事曆，也會問是關於什麼事。",
+        "start": 277.68,
+        "end": 279.92
+      },
+      {
+        "text": "Als hij dan tijd heeft, dan toets je een één.",
+        "translation": "如果他有時間，你再按一鍵。",
+        "start": 280.84,
+        "end": 285.1
+      },
+      {
+        "text": "Als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden.",
+        "translation": "如果是給採購部打來的電話，可以直接轉接。",
+        "start": 285.62,
+        "end": 290.1
+      },
+      {
+        "text": "Je toetst dan de vier. Als Evelien pauze heeft,",
+        "translation": "你按四鍵。如果 Evelien 在休息，",
+        "start": 291.64,
+        "end": 294.84
+      },
+      {
+        "text": "dan moet je ook voor haar de telefoon opnemen en zo.",
+        "translation": "那你也必須幫她接電話等。",
+        "start": 295.62,
+        "end": 299.82
+      },
+      {
+        "text": "Dan schrijf je de naam op van de beller en dan zeg je dat Evelien terugbelt.",
+        "translation": "然後你寫下來電話者的名字，告訴對方 Evelien 會回電。",
+        "start": 300.36,
+        "end": 301.98
+      },
+      {
+        "text": "Vergeet ook niet het telefoonnummer.",
+        "translation": "不要忘記電話號碼。",
+        "start": 305.1,
+        "end": 308.96
+      },
+      {
+        "text": "Iemand belt voor de directeur.",
+        "translation": "有人打來找主管。",
+        "start": 310.5,
+        "end": 314.32
+      },
+      {
+        "text": "Wat moet Sophia als eerste doen?",
+        "translation": "Sophia 應該先做什麼？",
+        "start": 317.2,
+        "end": 319.16
+      },
+      {
+        "text": "Een één toetsen.",
+        "translation": "按一鍵。",
+        "start": 321.32,
+        "end": 323.3
+      },
+      {
+        "text": "In zijn agenda kijken.",
+        "translation": "查看他的行事曆。",
+        "start": 325.68,
+        "end": 327.72
+      },
+      {
+        "text": "Naar Evelien doorverbinden.",
+        "translation": "轉接到Evelien。",
+        "start": 330.4,
+        "end": 332.48
+      },
+      {
+        "text": "Een vier toetsen. Sophia heeft een nieuwe baan.",
+        "translation": "按四鍵。Sophia有一份新工作。",
+        "start": 342.54,
+        "end": 347.74
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題。然後觀看影片。",
+        "start": 349.4,
+        "end": 354.0
+      },
+      {
+        "text": "Nou, je eerste dag.",
+        "translation": "嗯，你的第一天。",
+        "start": 366.6,
+        "end": 368.7
+      },
+      {
+        "text": "Een belangrijke regel is dat de telefoon altijd voorgaat.",
+        "translation": "一條重要規定是電話永遠優先。",
+        "start": 369.66,
+        "end": 373.78
+      },
+      {
+        "text": "Dus ook al ben je nog zo druk, maakt niet uit. Je neemt hem altijd op.",
+        "translation": "所以即使你再忙也沒關係，你總是要接電話。",
+        "start": 374.32,
+        "end": 378.54
+      },
+      {
+        "text": "Als iemand de directeur wil spreken, dan verbind je niet meteen door.",
+        "translation": "如果有人想找主管，不能立即轉接。",
+        "start": 379.52,
+        "end": 383.3
+      },
+      {
+        "text": "Je kijkt dan eerst in zijn agenda. Ook vraag je waar het over gaat.",
+        "translation": "你先查看他的行事曆，也要問是關於什麼事。",
+        "start": 383.8,
+        "end": 388.58
+      },
+      {
+        "text": "Als hij dan tijd heeft, dan toets je een één.",
+        "translation": "如果他有時間，就按一鍵。",
+        "start": 389.08,
+        "end": 391.36
+      },
+      {
+        "text": "Als er iemand belt voor de afdeling Inkoop, die kun je dan meteen doorverbinden.",
+        "translation": "如果有人打給採購部，你可以直接轉接。",
+        "start": 391.36,
+        "end": 396.54
+      },
+      {
+        "text": "Je toetst dan de vier. Als Evelien pauze heeft,",
+        "translation": "你按四鍵。如果Evelien休息時，",
+        "start": 397.1,
+        "end": 401.56
+      },
+      {
+        "text": "dan moet je ook voor haar de telefoon opnemen en zo.",
+        "translation": "你也要替她接電話等等。",
+        "start": 403.12,
+        "end": 406.28
+      },
+      {
+        "text": "Dan schrijf je de naam op van de beller en dan zeg je dat Evelien terugbelt.",
+        "translation": "然後你寫下來電者的名字，告訴他Evelien會回電話。",
+        "start": 407.0,
+        "end": 411.26
+      },
+      {
+        "text": "Vergeet ook niet het telefoonnummer.",
+        "translation": "別忘了電話號碼。",
+        "start": 411.84,
+        "end": 413.46
+      },
+      {
+        "text": "Iemand belt voor de afdeling Inkoop.",
+        "translation": "有人打給採購部。",
+        "start": 416.74,
+        "end": 420.46
+      },
+      {
+        "text": "Wat moet Sophia doen? Een één toetsen.",
+        "translation": "Sophia要做什麼？按一鍵。",
+        "start": 422.9,
+        "end": 428.46
+      },
+      {
+        "text": "Een vier toetsen. In de agenda kijken.",
+        "translation": "按四鍵。看行事曆。",
+        "start": 431.64,
+        "end": 437.54
+      },
+      {
+        "text": "Vragen waar het over gaat.",
+        "translation": "問是關於什麼事情。",
+        "start": 440.36,
+        "end": 442.5
+      },
+      {
+        "text": "Sophia heeft een nieuwe baan.",
+        "translation": "Sophia有一份新工作。",
+        "start": 454.12,
+        "end": 457.14
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題。然後觀看影片。",
+        "start": 458.86,
+        "end": 463.36
+      },
+      {
+        "text": "Nou, je eerste dag.",
+        "translation": "嗯，你的第一天。",
+        "start": 476.02,
+        "end": 478.06
+      },
+      {
+        "text": "Een belangrijke regel is dat de telefoon altijd voorgaat.",
+        "translation": "一條重要規定是電話永遠優先。",
+        "start": 479.02,
+        "end": 483.14
+      },
+      {
+        "text": "Dus ook al ben je nog zo druk, maakt niet uit. Je neemt hem altijd op.",
+        "translation": "所以即使你再忙也沒關係，你總是要接電話。",
+        "start": 483.68,
+        "end": 487.9
+      },
+      {
+        "text": "Als iemand de directeur wil spreken, dan verbind je niet meteen door.",
+        "translation": "如果有人想找主管，不能立即轉接。",
+        "start": 488.88,
+        "end": 492.66
+      },
+      {
+        "text": "Je kijkt dan eerst in zijn agenda. Ook vraag je waar het over gaat.",
+        "translation": "你先查看他的行事曆，也要問是關於什麼事。",
+        "start": 493.18,
+        "end": 497.96
+      },
+      {
+        "text": "Als hij dan tijd heeft, dan toets je een één.",
+        "translation": "如果他有時間，就按一鍵。",
+        "start": 498.46,
+        "end": 500.74
+      },
+      {
+        "text": "Als er iemand belt voor de afdeling Inkoop, die kun je dan meteen doorverbinden.",
+        "translation": "如果有人打給採購部，你可以直接轉接。",
+        "start": 500.74,
+        "end": 505.92
+      },
+      {
+        "text": "Je toetst dan de vier. Als Evelien pauze heeft,",
+        "translation": "你按四鍵。如果Evelien休息時，",
+        "start": 506.48,
+        "end": 510.9
+      },
+      {
+        "text": "dan moet je ook voor haar de telefoon opnemen en zo.",
+        "translation": "你也要替她接電話等等。",
+        "start": 512.48,
+        "end": 515.66
+      },
+      {
+        "text": "Dan schrijf je de naam op van de beller en dan zeg je dat Evelien terugbelt.",
+        "translation": "然後你寫下來電者的名字，告訴他Evelien會回電話。",
+        "start": 516.44,
+        "end": 520.6
+      },
+      {
+        "text": "Vergeet ook niet het telefoonnummer.",
+        "translation": "別忘了電話號碼。",
+        "start": 521.22,
+        "end": 522.84
+      },
+      {
+        "text": "Evelien heeft pauze en Sofia neemt haar telefoon op.",
+        "translation": "Evelien正在休息，Sofia接她的電話。",
+        "start": 526.32,
+        "end": 532.46
+      },
+      {
+        "text": "Wat moet ze doen?",
+        "translation": "她該怎麼做？",
+        "start": 533.96,
+        "end": 535.08
+      },
+      {
+        "text": "Doorgeven wanneer Evelien terug is.",
+        "translation": "告知Evelien何時回來。",
+        "start": 538.8,
+        "end": 542.52
+      },
+      {
+        "text": "De naam en het nummer opschrijven.",
+        "translation": "寫下名字和號碼。",
+        "start": 545.28,
+        "end": 548.1
+      },
+      {
+        "text": "Vragen waar het over gaat.",
+        "translation": "問是關於什麼事情。",
+        "start": 549.88,
+        "end": 553.78
+      },
+      {
+        "text": "Doorverbinden met de directeur.",
+        "translation": "轉接給主管。",
+        "start": 556.58,
+        "end": 559.32
+      },
+      {
+        "text": "Anne en Fatima zijn vriendinnen.",
+        "translation": "Anne和Fatima是朋友。",
+        "start": 559.32,
+        "end": 579.02
+      },
+      {
+        "text": "Fatima belt Anne op.",
+        "translation": "Fatima打電話給Anne。",
+        "start": 580.92,
+        "end": 582.66
+      },
+      {
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst. 1 00:10:08,756 --> 00:10:18,396 met Anne Hallo met Fatima Hoi hoe gaat het met je? Met mij gaat het goed. Nou ja, eigenlijk niet helemaal.",
+        "translation": "先讀問題，然後聽文字。1 00:10:08,756 --> 00:10:18,396 與Anne對話，Fatima說：嗨，你好嗎？我很好。嗯，其實不完全好。",
+        "start": 585.02,
+        "end": 589.52
+      },
+      {
+        "text": "Ik heb vaak buikpijn. Daarom heb ik een afspraak met de dokter gemaakt.",
+        "translation": "我常常肚子痛。所以我跟醫生約了看診。",
+        "start": 620.12,
+        "end": 624.28
+      },
+      {
+        "text": "Maar nu heb ik een probleem.",
+        "translation": "但現在我有問題了。",
+        "start": 625.22,
+        "end": 626.88
+      },
+      {
+        "text": "Mijn afspraak is morgen om kwart voor drie. Maar om drie uur",
+        "translation": "我的約診是明天下午兩點四十五分。但三點",
+        "start": 628.18,
+        "end": 632.48
+      },
+      {
+        "text": "moet ik mijn zoon van school ophalen.",
+        "translation": "我得去學校接我兒子。",
+        "start": 632.48,
+        "end": 634.3
+      },
+      {
+        "text": "Ik dacht ik bel jou. Ben jij morgen misschien thuis?",
+        "translation": "我想我打給你。你明天會在家嗎？",
+        "start": 635.44,
+        "end": 638.78
+      },
+      {
+        "text": "Even kijken. Ja ja hoor. En ik wil je zoon morgen wel ophalen.",
+        "translation": "讓我看看。是的，我會。而且我願意明天幫你接兒子。",
+        "start": 640.54,
+        "end": 645.0
+      },
+      {
+        "text": "Dan gaat hij met mij mee naar huis en dan heb jij tijd om naar de dokter te gaan.",
+        "translation": "他會跟我一起回家，這樣你就有時間去看醫生。",
+        "start": 645.84,
+        "end": 650.68
+      },
+      {
+        "text": "Dan ga ik gezellig met je zoon thee drinken. Oh dat vind ik heel fijn.",
+        "translation": "我會跟你兒子一起喝茶。喔，我很感激。",
+        "start": 651.86,
+        "end": 656.06
+      },
+      {
+        "text": "Waarom belt Fatima naar Anne?",
+        "translation": "為什麼Fatima打電話給Anne？",
+        "start": 659.44,
+        "end": 661.3
+      },
+      {
+        "text": "Ze wil Anne om hulp vragen.",
+        "translation": "她想請安妮幫忙。",
+        "start": 665.94,
+        "end": 667.96
+      },
+      {
+        "text": "Ze wil vertellen dat ze buikpijn heeft.",
+        "translation": "她想說她肚子痛。",
+        "start": 672.26,
+        "end": 674.96
+      },
+      {
+        "text": "Ze wil weten hoe het met Anne is.",
+        "translation": "她想知道安妮的近況。",
+        "start": 679.26,
+        "end": 681.64
+      },
+      {
+        "text": "Anne en Fatima zijn vriendinnen.",
+        "translation": "安妮和法蒂瑪是朋友。",
+        "start": 693.52,
+        "end": 696.34
+      },
+      {
+        "text": "Fatima belt Anne op.",
+        "translation": "法蒂瑪打電話給安妮。",
+        "start": 698.24,
+        "end": 699.94
+      },
+      {
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "先讀問題，再聽文章。",
+        "start": 703.3,
+        "end": 706.8
+      },
+      {
+        "text": "Met Anne Hallo met Fatima, hoi hoe gaat het met je? Met mij gaat het goed. Nou ja...",
+        "translation": "和安妮通話。法蒂瑪說：嗨，你好嗎？我很好。嗯...",
+        "start": 726.26,
+        "end": 734.46
+      },
+      {
+        "text": "Eigenlijk niet helemaal.",
+        "translation": "其實不太好。",
+        "start": 734.74,
+        "end": 735.9
+      },
+      {
+        "text": "Ik heb vaak buikpijn. Daarom heb ik een afspraak met de dokter gemaakt.",
+        "translation": "我常常肚子痛，所以我預約了醫生。",
+        "start": 737.64,
+        "end": 741.78
+      },
+      {
+        "text": "Maar nu heb ik een probleem.",
+        "translation": "但是現在我有個問題。",
+        "start": 742.7,
+        "end": 744.36
+      },
+      {
+        "text": "Mijn afspraak is morgen om kwart voor drie. Maar om drie uur",
+        "translation": "我的預約是明天下午二點四十五分，但三點鐘",
+        "start": 745.7,
+        "end": 749.98
+      },
+      {
+        "text": "moet ik mijn zoon van school ophalen.",
+        "translation": "我必須去學校接我的兒子。",
+        "start": 749.98,
+        "end": 751.82
+      },
+      {
+        "text": "Ik dacht ik bel jou. Ben jij morgen misschien thuis?",
+        "translation": "我想我打給你。你明天可能在家嗎？",
+        "start": 752.94,
+        "end": 756.32
+      },
+      {
+        "text": "Even kijken. Ja ja hoor. En ik wil je zoon morgen wel ophalen. Dan gaat hij met mij mee",
+        "translation": "等一下，好的。我明天可以幫你接你兒子，他可以跟我一起",
+        "start": 757.94,
+        "end": 764.36
+      },
+      {
+        "text": "naar huis. En dan heb jij tijd om naar de dokter te gaan.",
+        "translation": "回家。這樣你就有時間去看醫生了。",
+        "start": 764.36,
+        "end": 768.2
+      },
+      {
+        "text": "Dan ga ik gezellig met je zoon thee drinken. Oh, dat vind ik heel fijn.",
+        "translation": "我會和你兒子一起喝茶。喔，我很喜歡這樣。",
+        "start": 769.38,
+        "end": 773.54
+      },
+      {
+        "text": "Wat wil Anne voor Fatima doen?",
+        "translation": "安妮想為法蒂瑪做什麼？",
+        "start": 777.24,
+        "end": 779.16
+      },
+      {
+        "text": "De zoon van Fatima van school halen?",
+        "translation": "去學校接法蒂瑪的兒子嗎？",
+        "start": 801.02,
+        "end": 804.2
+      }
+    ],
+    "questions": [
+      {
+        "question": "Met welke auto moet Amiel beginnen?",
+        "question_native": "Amiel moet met welke auto beginnen?",
+        "options": [
+          "De zwarte auto",
+          "De blauwe auto",
+          "De witte auto"
+        ],
+        "answer": "De witte auto"
+      },
+      {
+        "question": "Waarom wordt de blauwe auto als laatste gedaan?",
+        "question_native": "Waarom wordt de blauwe auto pas als laatste gedaan?",
+        "options": [
+          "Omdat de accu kapot is",
+          "Omdat hij morgen pas wordt opgehaald",
+          "Omdat de deuren het probleem zijn"
+        ],
+        "answer": "Omdat hij morgen pas wordt opgehaald"
+      },
+      {
+        "question": "Wat doet Sophia als iemand de directeur wil spreken?",
+        "question_native": "Wat moet Sophia doen als iemand de directeur wil spreken?",
+        "options": [
+          "Direct doorverbinden",
+          "Eerst in de agenda kijken en vragen waar het over gaat",
+          "De telefoon weigeren"
+        ],
+        "answer": "Eerst in de agenda kijken en vragen waar het over gaat"
+      },
+      {
+        "question": "Welke toets drukt Sophia als de directeur tijd heeft?",
+        "question_native": "Welke toets moet Sophia indrukken als de directeur tijd heeft?",
+        "options": [
+          "Een één",
+          "Een vier",
+          "Een twee"
+        ],
+        "answer": "Een één"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "monteur",
+        "meaning": "修理工"
+      },
+      {
+        "word": "garage",
+        "meaning": "車庫"
+      },
+      {
+        "word": "kapotte accu",
+        "meaning": "壞掉的電池"
+      },
+      {
+        "word": "koplamp",
+        "meaning": "頭燈"
+      },
+      {
+        "word": "eigenaar",
+        "meaning": "車主"
+      },
+      {
+        "word": "haast",
+        "meaning": "急事、趕時間"
+      },
+      {
+        "word": "repareren",
+        "meaning": "修理"
+      },
+      {
+        "word": "deur",
+        "meaning": "門"
+      },
+      {
+        "word": "sleutel",
+        "meaning": "鑰匙"
+      },
+      {
+        "word": "agenda",
+        "meaning": "行事曆"
+      },
+      {
+        "word": "doorverbinden",
+        "meaning": "轉接電話"
+      },
+      {
+        "word": "pauze",
+        "meaning": "休息"
+      },
+      {
+        "word": "telefoonnummer",
+        "meaning": "電話號碼"
+      },
+      {
+        "word": "beller",
+        "meaning": "來電者"
+      },
+      {
+        "word": "afdeling inkoop",
+        "meaning": "採購部門"
+      }
+    ]
+  }
+}

@@ -1,0 +1,221 @@
+{
+ "video_id": "5VRuRmDJURY",
+ "title": "Luisteren examen A2 Oefenen 14",
+ "channel": "Inburgeren examen A2",
+ "duration": 133,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "幫奶奶買菜",
+   "title_nl": "Luisteren examen A2 Oefenen 14",
+   "kind": "對話",
+   "context_zh": "Karel 在家幫助他的奶奶購買晚餐所需的食材。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "De boodschappen: Karel helpt soms zijn oude oma die moeilijk loopt.",
+     "zh": "買菜：卡雷爾有時會幫助他行動不便的老奶奶。"
+    },
+    {
+     "t": "0:06",
+     "nl": "Hij doet dan boodschappen voor haar. Zijn oma vertelt wat hij vandaag mee moet nemen.",
+     "zh": "他會替她買菜。他的奶奶告訴他今天需要帶什麼。"
+    },
+    {
+     "t": "0:12",
+     "nl": "Luister naar zijn oma. Wat moet hij vandaag kopen?",
+     "zh": "聽他的奶奶說。今天他需要買什麼？"
+    },
+    {
+     "t": "0:16",
+     "nl": "A. Koffie en thee B. Wasmiddel",
+     "zh": "A. 咖啡和茶 B. 洗衣粉"
+    },
+    {
+     "t": "0:22",
+     "nl": "C. Groente",
+     "zh": "C. 蔬菜"
+    },
+    {
+     "t": "0:27",
+     "nl": "Nou Karel, vandaag heb ik niet zoveel nodig hoor.",
+     "zh": "好了，卡雷爾，今天我不需要太多東西喔。"
+    },
+    {
+     "t": "0:30",
+     "nl": "Zou je alleen wat groente voor vanavond mee willen nemen? Kijk maar wat er in de aanbieding is.",
+     "zh": "你能只幫我買些今晚的蔬菜嗎？看看有哪些特價品。"
+    },
+    {
+     "t": "0:36",
+     "nl": "Over koffie en thee hoef ik me niet druk te maken, want ik heb van allebei nog minstens genoeg voor de hele maand in huis.",
+     "zh": "咖啡和茶我不用擔心，因為家裡至少還有足夠一整個月的量。"
+    },
+    {
+     "t": "0:43",
+     "nl": "Wasmiddel is veel te zwaar voor jou om te sjouwen. Dat koop ik dit weekend wel samen met je vader.",
+     "zh": "洗衣粉對你來說太重了，搬不起來。這個週末我會和你爸爸一起去買。"
+    },
+    {
+     "t": "0:49",
+     "nl": "Dan gaan we met de auto. Geef nu antwoord.",
+     "zh": "那我們開車去。現在請回答。"
+    },
+    {
+     "t": "1:04",
+     "nl": "5. Oppassen: Karel wordt door de boeren gevraagd om een avondje op de kinderen te passen.",
+     "zh": "5. 照看孩子：農夫們請卡雷爾晚上幫忙看孩子。"
+    },
+    {
+     "t": "1:11",
+     "nl": "Vindt ze dat goed? A. Ja, want ze heeft dit weekend toch niets te doen.",
+     "zh": "她覺得可以嗎？A. 可以，因為她這週末沒事做。"
+    },
+    {
+     "t": "1:16",
+     "nl": "B. Ja, maar alleen als ze niet te laat thuiskomen.",
+     "zh": "B. 可以，但只有在他們不太晚回家的情況下。"
+    },
+    {
+     "t": "1:21",
+     "nl": "C. Ja, want er draait een mooie film.",
+     "zh": "C. 可以，因為有一部好看的電影上映。"
+    },
+    {
+     "t": "1:27",
+     "nl": "Zeg Carla, zou jij aanstaande zaterdag een avondje op de kinderen willen passen?",
+     "zh": "卡拉，星期六晚上你願意幫忙看孩子嗎？"
+    },
+    {
+     "t": "1:31",
+     "nl": "We willen eens lekker naar de bioscoop, naar die nieuwe film met Tom Cruise.",
+     "zh": "我們想去電影院看湯姆克魯斯主演的新電影。"
+    },
+    {
+     "t": "1:37",
+     "nl": "Eh, nou dat komt niet zo goed uit, want mijn beste vriendin geeft een feest omdat ze jarig is.",
+     "zh": "嗯，這不太方便，因為我最好的朋友生日，正好那天有派對。"
+    },
+    {
+     "t": "1:43",
+     "nl": "Maar als we het nou zo afspreken.",
+     "zh": "但如果我們這麼約定呢？"
+    },
+    {
+     "t": "1:46",
+     "nl": "Als u nou naar de vroege voorstelling gaat, dan bent u redelijk op tijd weer terug.",
+     "zh": "如果你去看早場，你應該能夠相當準時回來。"
+    },
+    {
+     "t": "1:50",
+     "nl": "En dan kan ik naar mijn feest. Ja, als we het zo doen, dan kan ik wel.",
+     "zh": "這樣我就可以去參加我的派對。是的，如果這樣安排，我可以。"
+    },
+    {
+     "t": "1:55",
+     "nl": "Anders moet u toch echt iemand anders vragen. Geef nu antwoord.",
+     "zh": "不然你真的得找別人了。現在請回答。"
+    },
+    {
+     "t": "2:12",
+     "nl": "Einde",
+     "zh": "結束"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "boodschappen",
+     "zh": "購物"
+    },
+    {
+     "nl": "oma",
+     "zh": "奶奶"
+    },
+    {
+     "nl": "groente",
+     "zh": "蔬菜"
+    },
+    {
+     "nl": "koffie",
+     "zh": "咖啡"
+    },
+    {
+     "nl": "thee",
+     "zh": "茶"
+    },
+    {
+     "nl": "wasmiddel",
+     "zh": "洗衣粉"
+    },
+    {
+     "nl": "aanbieding",
+     "zh": "特價"
+    },
+    {
+     "nl": "zaterdag",
+     "zh": "星期六"
+    },
+    {
+     "nl": "film",
+     "zh": "電影"
+    },
+    {
+     "nl": "feest",
+     "zh": "派對"
+    },
+    {
+     "nl": "oppassen",
+     "zh": "照顧"
+    },
+    {
+     "nl": "kinderen",
+     "zh": "孩子"
+    },
+    {
+     "nl": "vader",
+     "zh": "父親"
+    },
+    {
+     "nl": "auto",
+     "zh": "汽車"
+    },
+    {
+     "nl": "terug",
+     "zh": "回來"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Zou je ... willen ...?",
+     "zh": "你願意...嗎？",
+     "note": "用於請求或邀請"
+    },
+    {
+     "nl": "Ik heb ... nodig.",
+     "zh": "我需要...",
+     "note": "表達需求"
+    },
+    {
+     "nl": "Dat komt niet zo goed uit.",
+     "zh": "這樣不太方便。",
+     "note": "表達不便"
+    },
+    {
+     "nl": "Als we ... dan ...",
+     "zh": "如果我們...那麼...",
+     "note": "條件句型"
+    },
+    {
+     "nl": "Ik kan wel.",
+     "zh": "我可以。",
+     "note": "表達同意"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

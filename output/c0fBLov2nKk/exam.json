@@ -1,0 +1,651 @@
+{
+ "video_id": "c0fBLov2nKk",
+ "title": "Luisteren examen A2 Oefenen 15",
+ "channel": "Inburgeren examen A2",
+ "duration": 700,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "借錢的理由",
+   "title_nl": "Luisteren examen A2 Oefenen 15",
+   "kind": "對話",
+   "context_zh": "Harry 向他的女友解釋為什麼他沒有錢還她。",
+   "start": "0:02",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:02",
+     "nl": "EEN ZONDER GELD",
+     "zh": "一個沒有錢"
+    },
+    {
+     "t": "0:05",
+     "nl": "Harry moet zijn vriendin tien gulden terugbetalen, maar hij heeft geen geld.",
+     "zh": "哈利必須還女朋友十荷蘭盾，但他沒有錢。"
+    },
+    {
+     "t": "0:11",
+     "nl": "Hij vertelt hoe dat komt. Gelooft zijn vriendin hem?",
+     "zh": "他說明原因。他的女朋友相信他嗎？"
+    },
+    {
+     "t": "0:16",
+     "nl": "A. JA B. NEE",
+     "zh": "A. 是 B. 否"
+    },
+    {
+     "t": "0:21",
+     "nl": "Zo, en waarom heb je dat geld dan niet bij je? Vanmorgen had je het nog.",
+     "zh": "那麼，你為什麼沒帶錢？你今天早上還有帶。"
+    },
+    {
+     "t": "0:26",
+     "nl": "Ja, zie je, dat is een beetje een vreemd verhaal, maar het is echt waar hoor.",
+     "zh": "是啊，你看，這有點離奇的故事，但是真的喔。"
+    },
+    {
+     "t": "0:31",
+     "nl": "Een vogel heeft het geld opgegeten. Een vogel?",
+     "zh": "有隻鳥吃掉了錢。鳥？"
+    },
+    {
+     "t": "0:35",
+     "nl": "Ja, ik zat in het park te lunchen en daar zitten toch veel vogels, eenden en vuten en zo.",
+     "zh": "是的，我在公園吃午餐，那裡有很多鳥，鴨子和潜鳥等等。"
+    },
+    {
+     "t": "0:42",
+     "nl": "Nou, ik had geen honger meer en toen dacht ik, ik geef mijn brood nog even aan de vogels.",
+     "zh": "當時我不餓了，就想把我的麵包給鳥吃。"
+    },
+    {
+     "t": "0:47",
+     "nl": "En daarna ga ik meteen dat tientje terugbetalen.",
+     "zh": "然後我就馬上去還那十塊錢。"
+    },
+    {
+     "t": "0:50",
+     "nl": "Ik had dus dat brood in ene hand en dat tientje in de andere hand toen gooide ik per ongeluk.",
+     "zh": "所以我一手拿著麵包，一手拿著那十塊，結果不小心掉了。"
+    },
+    {
+     "t": "0:57",
+     "nl": "Ja, ja, hou maar op, ik begrijp het al.",
+     "zh": "好啦好啦，別說了，我明白了。"
+    },
+    {
+     "t": "0:59",
+     "nl": "Dat is wel het meest fantastische smoes die ik ooit gehoord heb.",
+     "zh": "這是我聽過最荒謬的藉口了。"
+    },
+    {
+     "t": "1:04",
+     "nl": "Betaal jij me morgen maar terug en vertel me dan meteen maar wat je nou echt met dat tientje gedaan hebt.",
+     "zh": "明天再還我錢，然後馬上跟我說你到底拿那十塊錢做了什麼。"
+    },
+    {
+     "t": "1:10",
+     "nl": "Geef nu antwoord.",
+     "zh": "請回答。"
+    },
+    {
+     "t": "1:27",
+     "nl": "2. De beste auto",
+     "zh": "2. 最好的車"
+    },
+    {
+     "t": "1:30",
+     "nl": "Een man praat met zijn vrouw over een nieuwe auto.",
+     "zh": "一個男人和他妻子談論一輛新車。"
+    },
+    {
+     "t": "1:35",
+     "nl": "Waarom vindt de man de Audi 80 de beste auto?",
+     "zh": "為什麼男人認為奧迪80是最好的車？"
+    },
+    {
+     "t": "1:39",
+     "nl": "A. Deze auto is de snelste.",
+     "zh": "A. 這輛車最快。"
+    },
+    {
+     "t": "1:43",
+     "nl": "B. Deze auto gebruikt weinig benzine.",
+     "zh": "B. 這輛車很省油。"
+    },
+    {
+     "t": "1:47",
+     "nl": "C. Deze auto is heel veilig.",
+     "zh": "C. 這輛車非常安全。"
+    },
+    {
+     "t": "1:52",
+     "nl": "Ik denk dat ik die auto wil die we laatst in de krant gezien hebben.",
+     "zh": "我想要那輛我們最近在報紙上看到的車。"
+    },
+    {
+     "t": "1:57",
+     "nl": "Je weet wel, hoe heet die ook alweer? Ja, welke bedoel je? We hebben er een paar gezien.",
+     "zh": "你知道吧，叫什麼名字來著？對，你說的是哪台？我們看過好幾台。"
+    },
+    {
+     "t": "2:03",
+     "nl": "Ik bedoel die Audi 80, die snelle, weet je, die 200 kilometer per uur haalt.",
+     "zh": "我說的是奧迪80，那台跑得快的，知道嗎，最高時速達到200公里。"
+    },
+    {
+     "t": "2:08",
+     "nl": "Ja ja de Audi 80.",
+     "zh": "是的是的，奧迪80。"
+    },
+    {
+     "t": "2:12",
+     "nl": "Leuke auto hoor maar die Volkswagen lijkt me veel beter voor ons.",
+     "zh": "不錯的車，但那輛福斯我覺得對我們更好。"
+    },
+    {
+     "t": "2:16",
+     "nl": "Dat is een echte familiewagen.",
+     "zh": "那才是真正的家庭車。"
+    },
+    {
+     "t": "2:18",
+     "nl": "Zuinig met benzine en bovendien, hij was erg veilig volgens de krant.",
+     "zh": "省油而且，根據報紙，它非常安全。"
+    },
+    {
+     "t": "2:42",
+     "nl": "3. Telefoneren Meneer De Wit belt de school van zijn zoontje.",
+     "zh": "3. 打電話\n德·维特先生打電話給他兒子的學校。"
+    },
+    {
+     "t": "2:48",
+     "nl": "Waarom belt hij de school? A. Hij wil weten wanneer de vakantie begint.",
+     "zh": "他為什麼打電話給學校？ A. 他想知道假期什麼時候開始。"
+    },
+    {
+     "t": "2:55",
+     "nl": "B. Hij wil weten wanneer de vakantie afgelopen is.",
+     "zh": "B. 他想知道假期什麼時候結束。"
+    },
+    {
+     "t": "3:00",
+     "nl": "C. Hij wil dat zijn zoontje een week langer vakantie krijgt.",
+     "zh": "C. 他想讓兒子多放一週假。"
+    },
+    {
+     "t": "3:07",
+     "nl": "Met de secretarisse van de directeur.",
+     "zh": "和校長的秘書講話。"
+    },
+    {
+     "t": "3:10",
+     "nl": "Met De Wit. Ik bel even over de vakantie.",
+     "zh": "我是不經意德·维特。打電話是關於假期的。"
+    },
+    {
+     "t": "3:14",
+     "nl": "We willen de 18e juli op vakantie en dan zijn we op 7 augustus weer terug.",
+     "zh": "我們計畫7月18日去度假，8月7日回來。"
+    },
+    {
+     "t": "3:21",
+     "nl": "Nou weet ik dat de schoolvakantie op 12 juli begint, dus dat is geen probleem.",
+     "zh": "我知道學校假期7月12日開始，沒問題。"
+    },
+    {
+     "t": "3:27",
+     "nl": "Maar wanneer de schoolvakantie nou precies afgelopen is, dat weet mijn zoontje niet.",
+     "zh": "但我兒子不知道假期什麼時候準確結束。"
+    },
+    {
+     "t": "3:32",
+     "nl": "Kunt u me dat vertellen? Ja hoor, even kijken.",
+     "zh": "你能告訴我嗎？當然，讓我查一下。"
+    },
+    {
+     "t": "3:37",
+     "nl": "Dat is 13 augustus, dus u kunt rustig op vakantie en u bent ruim op tijd weer terug.",
+     "zh": "是8月13日，你可以安心度假，還能提前回來。"
+    },
+    {
+     "t": "3:43",
+     "nl": "Fijn om te horen, bedankt. Geef nu antwoord.",
+     "zh": "聽到這個消息真好，謝謝。請回答。"
+    },
+    {
+     "t": "4:06",
+     "nl": "4. In het ziekenhuis Jan praat met zijn buurvrouw die in het ziekenhuis ligt.",
+     "zh": "4. 在醫院裡\n簡和他住院的鄰居聊天。"
+    },
+    {
+     "t": "4:12",
+     "nl": "Hoeveel mensen zijn er woensdag op bezoek geweest? A. 2",
+     "zh": "星期三有多少人來探望？ A. 2"
+    },
+    {
+     "t": "4:18",
+     "nl": "B. 3 C. 4",
+     "zh": "B. 3 C. 4"
+    },
+    {
+     "t": "4:23",
+     "nl": "Dus je man is langs geweest en je twee dochters.",
+     "zh": "所以你先生來過，你兩個女兒也來了。"
+    },
+    {
+     "t": "4:28",
+     "nl": "En waren er nog meer mensen op bezoek?",
+     "zh": "還有其他人來探望嗎？"
+    },
+    {
+     "t": "4:31",
+     "nl": "Ja, mijn kleinzoon had smiddags vrij, dus die kwam ook even.",
+     "zh": "有，我孫子下午放假，也來看了一下。"
+    },
+    {
+     "t": "4:36",
+     "nl": "Maar die heeft toch altijd dinsdagmiddag vrij?",
+     "zh": "但他通常星期二下午放假？"
+    },
+    {
+     "t": "4:40",
+     "nl": "O ja, dat is waar. Ik vergis me, dat was eergisteren.",
+     "zh": "哦對，是的，我弄錯了，那是前天。"
+    },
+    {
+     "t": "5:02",
+     "nl": "Kiespijn. Mevrouw Arends heeft vreselijke kiespijn.",
+     "zh": "牙痛。Arends女士牙痛得很厲害。"
+    },
+    {
+     "t": "5:09",
+     "nl": "Ze maakt een afspraak met de tandarts. Hoe laat kan ze morgen langskomen?",
+     "zh": "她預約了牙醫。她明天幾點可以過來？"
+    },
+    {
+     "t": "5:15",
+     "nl": "A. In de lunchpauze B. Na de lunchpauze",
+     "zh": "A. 在午休時間 B. 午休後"
+    },
+    {
+     "t": "5:21",
+     "nl": "C. Voor 9 uur 's morgens",
+     "zh": "C. 早上九點之前"
+    },
+    {
+     "t": "5:27",
+     "nl": "Tja, het is morgen vreselijk druk.",
+     "zh": "唉，明天非常忙碌。"
+    },
+    {
+     "t": "5:31",
+     "nl": "Even in mijn agenda kijken hoor, of ik nog een half uurtje vrij heb.",
+     "zh": "我看看我的行事曆，看看我是否還有半小時空閒。"
+    },
+    {
+     "t": "5:35",
+     "nl": "S'middags kan zeker niet, dan zit ik helemaal vol.",
+     "zh": "下午肯定不行，那時我完全排滿了。"
+    },
+    {
+     "t": "5:39",
+     "nl": "Tja, en voor de lunchpauze wordt ook een probleem.",
+     "zh": "唉，午休前也會是個問題。"
+    },
+    {
+     "t": "5:43",
+     "nl": "Normaal zou ik u wel tijdens de lunchpauze even kunnen helpen,",
+     "zh": "通常我可以在午休的時候幫您一下，"
+    },
+    {
+     "t": "5:46",
+     "nl": "maar ja, dan heb ik ook al een spoedgeval.",
+     "zh": "但嗯，那時我也已經有急診了。"
+    },
+    {
+     "t": "5:48",
+     "nl": "Hmm, weet u wat? Komt u maar vroeg, om half negen bijvoorbeeld,",
+     "zh": "嗯，您知道嗎？那您早點來吧，比如八點半，"
+    },
+    {
+     "t": "5:55",
+     "nl": "dan bent u de eerste. Geef nu antwoord.",
+     "zh": "那時您是第一個。請現在回答。"
+    },
+    {
+     "t": "6:14",
+     "nl": "De bioscoop. Een man en een vrouw praten met elkaar.",
+     "zh": "電影院。一男一女正在對話。"
+    },
+    {
+     "t": "6:20",
+     "nl": "Waarom wil de vrouw niet naar de bioscoop? A. Er zijn geen leuke films.",
+     "zh": "為什麼這位女士不想去電影院？A. 沒有好看的電影。"
+    },
+    {
+     "t": "6:27",
+     "nl": "B. Ze is moe. C. Ze moet naar een feest.",
+     "zh": "B. 她很累。C. 她必須去參加派對。"
+    },
+    {
+     "t": "6:34",
+     "nl": "Ga je zaterdagavond mee naar de bioscoop?",
+     "zh": "你星期六晚上要一起去電影院嗎？"
+    },
+    {
+     "t": "6:37",
+     "nl": "Dat lijkt me gezellig, en het is al zo lang geleden dat we een film gezien hebben.",
+     "zh": "我覺得挺愉快的，而且我們好久沒看電影了。"
+    },
+    {
+     "t": "6:42",
+     "nl": "Nee joh, zaterdag heb ik zo'n drukke dag.",
+     "zh": "不行啦，星期六我有很忙的一天。"
+    },
+    {
+     "t": "6:44",
+     "nl": "Ik moet eerst een bezoek brengen aan hun ouders en dan nog boodschappen doen.",
+     "zh": "我得先去拜訪他們的父母，然後還要買東西。"
+    },
+    {
+     "t": "6:49",
+     "nl": "Trouwens, 's avonds kan ik helemaal niet. Ik heb een verjaardagsfeestje van een vriendin van school.",
+     "zh": "而且晚上我完全不能去。我有一個學校女友的生日派對。"
+    },
+    {
+     "t": "7:17",
+     "nl": "Bij de dokter.",
+     "zh": "在醫生那裡。"
+    },
+    {
+     "t": "7:20",
+     "nl": "U bent bij de dokter. Wat moet u van de dokter doen?",
+     "zh": "你在醫生那裡。醫生讓你做什麼？"
+    },
+    {
+     "t": "7:25",
+     "nl": "A. Alle medicijnen opmaken. B. Gezond eten.",
+     "zh": "A. 把所有藥吃完。 B. 健康飲食。"
+    },
+    {
+     "t": "7:32",
+     "nl": "C. Over een paar dagen terugkomen.",
+     "zh": "C. 幾天後回來。"
+    },
+    {
+     "t": "7:38",
+     "nl": "Nou, het is maar een griepje. Over een paar dagen bent u weer beter.",
+     "zh": "其實只是感冒而已。幾天後你就會好。"
+    },
+    {
+     "t": "7:42",
+     "nl": "U kunt het beste voedsel met veel vitamines eten.",
+     "zh": "你最好多吃含有大量維他命的食物。"
+    },
+    {
+     "t": "7:47",
+     "nl": "Groente en vooral veel fruit. Sinaasappels en zo.",
+     "zh": "蔬菜，尤其是很多水果。像橘子那種。"
+    },
+    {
+     "t": "7:51",
+     "nl": "Dat helpt echt het beste. Beter dan al die drankjes.",
+     "zh": "那樣真的最有效，比那些飲料還好。"
+    },
+    {
+     "t": "7:56",
+     "nl": "En bovendien is het ook goedkoper. Geef nu antwoord.",
+     "zh": "而且還比較便宜。請現在回答。"
+    },
+    {
+     "t": "8:19",
+     "nl": "Een motor met zijspan.",
+     "zh": "有側車的機車。"
+    },
+    {
+     "t": "8:22",
+     "nl": "U hoort een gesprek tussen een man en een vrouw.",
+     "zh": "你聽到一段男女人士的對話。"
+    },
+    {
+     "t": "8:26",
+     "nl": "Zijn deze mensen het met elkaar eens?",
+     "zh": "這些人意見一致嗎？"
+    },
+    {
+     "t": "8:29",
+     "nl": "A. Ja. B. Nee.",
+     "zh": "A. 是。 B. 不是。"
+    },
+    {
+     "t": "8:36",
+     "nl": "Ik heb een motor gekocht met zijspan. Leuk, hè?",
+     "zh": "我買了輛有側車的機車。很酷吧？"
+    },
+    {
+     "t": "8:39",
+     "nl": "Met een wat? Met een zijspan. Zo'n bakje naast je motor,",
+     "zh": "什麼？有側車的。就是機車旁邊有個小車箱，"
+    },
+    {
+     "t": "8:45",
+     "nl": "waar nog een extra persoon in kan zitten.",
+     "zh": "裡面還能坐一個額外的人。"
+    },
+    {
+     "t": "8:48",
+     "nl": "Ik zit op de motor en mijn vrouw zit ernaast in het zijspan.",
+     "zh": "我坐在機車上，我太太坐在旁邊的側車裡。"
+    },
+    {
+     "t": "8:52",
+     "nl": "We gaan in de vakantie samen met de motor door Nederland rijden.",
+     "zh": "我們假期要一起騎機車遊荷蘭。"
+    },
+    {
+     "t": "8:56",
+     "nl": "Fantastisch lijkt me dat. Echt waar? Nou, mij lijkt het vreselijk.",
+     "zh": "那太棒了。真的嗎？我覺得很糟糕。"
+    },
+    {
+     "t": "9:01",
+     "nl": "Zo koud met die wind. Ik ga veel liever met het vliegtuig op vakantie.",
+     "zh": "風太冷了。我寧願搭飛機去度假。"
+    },
+    {
+     "t": "9:06",
+     "nl": "Lekker snel en je zit zo in een warm land.",
+     "zh": "又快又能很快抵達溫暖的地方。"
+    },
+    {
+     "t": "9:30",
+     "nl": "Bij de bakker.",
+     "zh": "在麵包店。"
+    },
+    {
+     "t": "9:33",
+     "nl": "Een vrouw heeft een taart besteld. Vindt de vrouw de taart groot genoeg?",
+     "zh": "一位女士訂了一個蛋糕。她覺得蛋糕夠大嗎？"
+    },
+    {
+     "t": "9:46",
+     "nl": "Zo, hier is uw taart. Wat denkt u, ziet die er goed uit?",
+     "zh": "好了，您的蛋糕來了。您覺得看起來好嗎？"
+    },
+    {
+     "t": "9:50",
+     "nl": "Ja, ja, ik vind hem geloof ik precies goed. Groter hoeft niet.",
+     "zh": "是，是，我覺得大小剛好。不需要更大。"
+    },
+    {
+     "t": "9:54",
+     "nl": "Zo'n hele grote taart, dat ziet er vaak wel mooi uit,",
+     "zh": "超大的蛋糕看起來常常很漂亮，"
+    },
+    {
+     "t": "9:58",
+     "nl": "maar die gaan toch nooit helemaal op. En dan kan je de rest altijd weggooien.",
+     "zh": "但它們通常吃不完。剩下的只能丟掉。"
+    },
+    {
+     "t": "10:26",
+     "nl": "10. Het politiebureau.",
+     "zh": "10. 警察局。"
+    },
+    {
+     "t": "10:31",
+     "nl": "Mevrouw Atsma zoekt het politiebureau Westerpark.",
+     "zh": "Ats女士正在尋找Westerpark警察局。"
+    },
+    {
+     "t": "10:35",
+     "nl": "Meneer Meijer loopt met haar mee. Waarom loopt hij mee?",
+     "zh": "Meijer先生陪著她走。為什麼他要陪同呢？"
+    },
+    {
+     "t": "10:40",
+     "nl": "A. Omdat de vrouw zich niet goed voelt.",
+     "zh": "A. 因為這位女士感覺不舒服。"
+    },
+    {
+     "t": "10:44",
+     "nl": "B. Omdat het politiebureau moeilijk te vinden is.",
+     "zh": "B. 因為警察局很難找。"
+    },
+    {
+     "t": "10:49",
+     "nl": "C. Omdat hij naar dezelfde straat moet.",
+     "zh": "C. 因為他要去同一條街。"
+    },
+    {
+     "t": "10:55",
+     "nl": "Meneer, ik moet naar het politiebureau Westerpark. Weet u waar dat is? Ja.",
+     "zh": "先生，我必須去Westerpark警察局。您知道在哪裡嗎？知道。"
+    },
+    {
+     "t": "11:01",
+     "nl": "Dan moet u hier rechtsaf, dan het park door en dan weer rechtsaf.",
+     "zh": "那麼您從這裡右轉，穿過公園，再右轉。"
+    },
+    {
+     "t": "11:08",
+     "nl": "Ach, weet u wat, ik loop wel even mee.",
+     "zh": "欸，您知道嗎，我就陪您一起走吧。"
+    },
+    {
+     "t": "11:12",
+     "nl": "Ik moet toch even postzegels kopen en het postkantoor zit er recht tegenover.",
+     "zh": "我本來也要去買郵票，郵局就在正對面。"
+    },
+    {
+     "t": "11:17",
+     "nl": "We zijn er zo, het is maar een paar minuten lopen. Geef nu antwoord.",
+     "zh": "我們很快就到了，走路只要幾分鐘。現在請回答。"
+    },
+    {
+     "t": "11:37",
+     "nl": "Einde van deze oefening.",
+     "zh": "本練習結束。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "terugbetalen",
+     "zh": "還款"
+    },
+    {
+     "nl": "gelukkig",
+     "zh": "幸運"
+    },
+    {
+     "nl": "verhaal",
+     "zh": "故事"
+    },
+    {
+     "nl": "vogel",
+     "zh": "鳥"
+    },
+    {
+     "nl": "brood",
+     "zh": "麵包"
+    },
+    {
+     "nl": "auto",
+     "zh": "汽車"
+    },
+    {
+     "nl": "veilig",
+     "zh": "安全"
+    },
+    {
+     "nl": "vakantie",
+     "zh": "假期"
+    },
+    {
+     "nl": "afgelopen",
+     "zh": "結束"
+    },
+    {
+     "nl": "afspraak",
+     "zh": "約定"
+    },
+    {
+     "nl": "gezond",
+     "zh": "健康"
+    },
+    {
+     "nl": "taart",
+     "zh": "蛋糕"
+    },
+    {
+     "nl": "politiebureau",
+     "zh": "警察局"
+    },
+    {
+     "nl": "moeilijk",
+     "zh": "困難"
+    },
+    {
+     "nl": "lopen",
+     "zh": "走"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik heb geen geld.",
+     "zh": "我沒有錢。",
+     "note": "表達缺乏某物"
+    },
+    {
+     "nl": "Waarom vind je ...?",
+     "zh": "你為什麼覺得 ...？",
+     "note": "詢問原因"
+    },
+    {
+     "nl": "Ik moet ... doen.",
+     "zh": "我必須做 ...。",
+     "note": "表達必要性"
+    },
+    {
+     "nl": "Dat lijkt me ...",
+     "zh": "我覺得那 ...。",
+     "note": "表達個人看法"
+    },
+    {
+     "nl": "Kunt u me dat vertellen?",
+     "zh": "您能告訴我嗎？",
+     "note": "請求資訊"
+    },
+    {
+     "nl": "Ik vind het ...",
+     "zh": "我覺得這 ...。",
+     "note": "表達個人喜好"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

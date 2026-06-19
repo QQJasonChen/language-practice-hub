@@ -1,0 +1,446 @@
+{
+ "video_id": "MXsNK9j4PNQ",
+ "title": "Luisteren examen A2 Oefenen 7",
+ "channel": "Inburgeren examen A2",
+ "duration": 741,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "自我介紹與居住地",
+   "title_nl": "Luisteren examen A2 Oefenen 7",
+   "kind": "對話",
+   "context_zh": "Noerai 和 Ronald 在荷蘭進行自我介紹，並討論各自的居住地。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Luister en klik op de goede zin.",
+     "zh": "聽並點擊正確的句子。"
+    },
+    {
+     "t": "0:03",
+     "nl": "Het gesprek.",
+     "zh": "對話。"
+    },
+    {
+     "t": "0:05",
+     "nl": "Luister nu naar het hele gesprek van Noerai en Ronald.",
+     "zh": "現在聽 Noerai 和 Ronald 的完整對話。"
+    },
+    {
+     "t": "0:13",
+     "nl": "Hallo, ik ben Noerai Toenk. Wie ben jij?",
+     "zh": "你好，我是 Noerai Toenk。你是誰？"
+    },
+    {
+     "t": "0:18",
+     "nl": "Dag, ik ben Ronald van Meer. Is Ronald je voornaam?",
+     "zh": "你好，我是 Ronald van Meer。Ronald 是你的名字嗎？"
+    },
+    {
+     "t": "0:23",
+     "nl": "Ja, dat klopt.",
+     "zh": "是的，沒錯。"
+    },
+    {
+     "t": "0:25",
+     "nl": "Ronald is mijn voornaam en Van Meer is mijn achternaam.",
+     "zh": "Ronald 是我的名字，Van Meer 是我的姓氏。"
+    },
+    {
+     "t": "0:31",
+     "nl": "Mijn voornaam is Noerai. Toenk is mijn achternaam.",
+     "zh": "我的名字是 Noerai，Toenk 是我的姓氏。"
+    },
+    {
+     "t": "0:36",
+     "nl": "En waar kom je vandaan? Ik kom uit Turkije.",
+     "zh": "你從哪裡來？我來自土耳其。"
+    },
+    {
+     "t": "0:40",
+     "nl": "O, Turkije. Waar in Turkije? Ik kom uit Istanbul.",
+     "zh": "喔，土耳其。土耳其的哪裡？我來自伊斯坦堡。"
+    },
+    {
+     "t": "0:45",
+     "nl": "Istanbul, dat is een mooie stad. Ja, zeker.",
+     "zh": "伊斯坦堡，那是一個美麗的城市。是的，當然。"
+    },
+    {
+     "t": "0:50",
+     "nl": "En waar kom jij vandaan, Ronald?",
+     "zh": "那你呢，Ronald，你從哪裡來？"
+    },
+    {
+     "t": "0:54",
+     "nl": "Ik kom uit Nederland, uit Den Haag.",
+     "zh": "我來自荷蘭，來自海牙。"
+    },
+    {
+     "t": "0:58",
+     "nl": "Den Haag. Is dat een mooie stad?",
+     "zh": "海牙，那是一個美麗的城市嗎？"
+    },
+    {
+     "t": "1:02",
+     "nl": "Ja, Den Haag is een heel mooie stad. Waar woon jij?",
+     "zh": "是的，海牙是一個非常美麗的城市。你住在哪裡？"
+    },
+    {
+     "t": "1:07",
+     "nl": "Ik woon in Utrecht. O, dat is leuk. Waar woon je in Utrecht?",
+     "zh": "我住在烏特勒支。哇，那很好。你住在烏特勒支的哪裡？"
+    },
+    {
+     "t": "1:13",
+     "nl": "Ik woon in het centrum van de stad, in de Witte Vrouwenstraat.",
+     "zh": "我住在市中心的白婦女街。"
+    },
+    {
+     "t": "1:18",
+     "nl": "O! Ja, die straat ken ik.",
+     "zh": "喔！我認識那條街。"
+    },
+    {
+     "t": "1:21",
+     "nl": "Nou, Ronald, leuk om kennis met je te maken.",
+     "zh": "那麼，Ronald，很高興認識你。"
+    },
+    {
+     "t": "1:35",
+     "nl": "Ja, ik vind het ook heel leuk.",
+     "zh": "是的，我也覺得很開心。"
+    },
+    {
+     "t": "2:03",
+     "nl": "Ja, dat klopt. Ronald is mijn voornaam en Van Meer is mijn achternaam.",
+     "zh": "是的，沒錯。Ronald 是我的名字，Van Meer 是我的姓氏。"
+    },
+    {
+     "t": "2:20",
+     "nl": "Istanbul, dat is een mooie stad.",
+     "zh": "伊斯坦堡，那是一個美麗的城市。"
+    },
+    {
+     "t": "2:26",
+     "nl": "Ja, zeker. En waar kom jij vandaan, Ronald?",
+     "zh": "是的，當然。那你呢，Ronald，你從哪裡來？"
+    },
+    {
+     "t": "2:31",
+     "nl": "Ik kom uit Nederland. Uit Den Haag.",
+     "zh": "我來自荷蘭，來自海牙。"
+    },
+    {
+     "t": "2:51",
+     "nl": "Ik woon in het centrum van de stad. In de Witte Vrouwenstraat.",
+     "zh": "我住在市中心，白婦女街。"
+    },
+    {
+     "t": "2:57",
+     "nl": "O, ja, die straat ken ik. Nou, Ronald, leuk om kennis met je te maken.",
+     "zh": "喔，我認識那條街。那麼，Ronald，很高興認識你。"
+    },
+    {
+     "t": "3:19",
+     "nl": "Hallo, ik ben Noerai Tonk. Wie ben jij?",
+     "zh": "你好，我是 Noerai Tonk。你是誰？"
+    },
+    {
+     "t": "3:37",
+     "nl": "Mijn voornaam is Noerai. Tonk is mijn achternaam.",
+     "zh": "我的名字是 Noerai，Tonk 是我的姓氏。"
+    },
+    {
+     "t": "3:45",
+     "nl": "O, Turkije. Waar in Turkije?",
+     "zh": "喔，土耳其。土耳其的哪裡？"
+    },
+    {
+     "t": "3:50",
+     "nl": "Ik kom uit Istanbul. Istanbul, dat is een mooie stad.",
+     "zh": "我來自伊斯坦堡。伊斯坦堡，那是一個美麗的城市。"
+    },
+    {
+     "t": "4:04",
+     "nl": "Den Haag, is dat een mooie stad?",
+     "zh": "海牙，那是一個美麗的城市嗎？"
+    },
+    {
+     "t": "4:11",
+     "nl": "O, dat is leuk. Waar woon je in Utrecht?",
+     "zh": "喔，那很棒。你住在烏得勒支哪裡？"
+    },
+    {
+     "t": "4:34",
+     "nl": "Het gesprek. Het gesprek.",
+     "zh": "對話。對話。"
+    },
+    {
+     "t": "7:21",
+     "nl": "Nou, Ronald, leuk om kennis met je te maken. Ja, ik vind het ook heel leuk.",
+     "zh": "那麼，Ronald，很高興認識你。是的，我也覺得很高興。"
+    },
+    {
+     "t": "7:35",
+     "nl": "Dag, ik zal me even voorstellen. Mijn naam is Karen Verstraten.",
+     "zh": "嗨，我來自Karen Verstraten，讓我自我介紹一下。"
+    },
+    {
+     "t": "7:42",
+     "nl": "Hallo, ik ben Hassan Farah. Woont u al lang in deze straat?",
+     "zh": "你好，我是Hassan Farah。你在這條街住很久了嗎？"
+    },
+    {
+     "t": "7:48",
+     "nl": "Nee, we wonen hier pas kort, sinds februari dit jaar.",
+     "zh": "不，我們剛搬來不久，今年二月才來的。"
+    },
+    {
+     "t": "7:54",
+     "nl": "O, ik ook. Op welk huisnummer woont u?",
+     "zh": "喔，我也是。你住幾號？"
+    },
+    {
+     "t": "7:58",
+     "nl": "Wij wonen op nummer 12. En u?",
+     "zh": "我們住12號。你呢？"
+    },
+    {
+     "t": "8:01",
+     "nl": "Op nummer 21. Ik woon in dat huis daar.",
+     "zh": "21號。我住在那邊那棟房子。"
+    },
+    {
+     "t": "8:05",
+     "nl": "O, dan hebben we hetzelfde soort huis.",
+     "zh": "喔，那我們住的是同一種房子。"
+    },
+    {
+     "t": "8:09",
+     "nl": "Ja, dat klopt. Vindt u het een fijn huis?",
+     "zh": "是的，沒錯。你覺得那房子不錯嗎？"
+    },
+    {
+     "t": "8:12",
+     "nl": "Ja, het huis is prima. Het is alleen een beetje klein voor ons gezin. En u? Hoe vindt u het?",
+     "zh": "是的，房子還可以，只是對我們家來說有點小。那你呢？你覺得怎麼樣？"
+    },
+    {
+     "t": "8:21",
+     "nl": "Nou ik vind het een fijn huis maar ik woon alleen.",
+     "zh": "我覺得這是一間很舒服的房子，但我一個人住。"
+    },
+    {
+     "t": "8:25",
+     "nl": "Dus voor mij is het huis een beetje groot.",
+     "zh": "所以對我來說，這房子有點大。"
+    },
+    {
+     "t": "8:37",
+     "nl": "Dag, ik zal me even voorstellen.",
+     "zh": "你好，我先自我介紹一下。"
+    },
+    {
+     "t": "8:41",
+     "nl": "Mijn naam is Karen Verstraten. Hallo, ik ben Hassan Farah.",
+     "zh": "我叫Karen Verstraten。你好，我是Hassan Farah。"
+    },
+    {
+     "t": "8:48",
+     "nl": "Woont u al lang in deze straat?",
+     "zh": "你在這條街住很久了嗎？"
+    },
+    {
+     "t": "9:15",
+     "nl": "Ja, het huis is prima.",
+     "zh": "是的，這房子很好。"
+    },
+    {
+     "t": "9:17",
+     "nl": "Het is alleen een beetje klein voor ons gezin. En u? Hoe vindt u het?",
+     "zh": "只是對我們一家人來說有點小。你覺得呢？"
+    },
+    {
+     "t": "9:59",
+     "nl": "O, ik ook. Ook. Op welk huisnummer woont u?",
+     "zh": "噢，我也是。你住幾號？"
+    },
+    {
+     "t": "10:17",
+     "nl": "Ja, het huis is prima. Het is alleen een beetje klein voor ons gezin.",
+     "zh": "是的，這房子很好。只是對我們一家人來說有點小。"
+    },
+    {
+     "t": "10:23",
+     "nl": "En u? Hoe vindt u het?",
+     "zh": "你呢？你覺得怎麼樣？"
+    },
+    {
+     "t": "10:25",
+     "nl": "Nou, ik vind het een fijn huis. Maar ik woon alleen.",
+     "zh": "嗯，我覺得這房子很不錯，但我一個人住。"
+    },
+    {
+     "t": "10:42",
+     "nl": "Hé, Ahmed. Waar woon jij?",
+     "zh": "嗨，Ahmed。你住哪裡？"
+    },
+    {
+     "t": "10:45",
+     "nl": "Ik woon hier in de buurt, in de Kerkstraat.",
+     "zh": "我住在附近的Kerkstraat。"
+    },
+    {
+     "t": "10:49",
+     "nl": "De Kerkstraat? O ja, die ken ik wel. Leuke straat.",
+     "zh": "Kerkstraat？喔對，我知道那條街。很不錯的一條街。"
+    },
+    {
+     "t": "10:54",
+     "nl": "En jij? Waar woon jij?",
+     "zh": "你呢？你住哪裡？"
+    },
+    {
+     "t": "10:58",
+     "nl": "Ik woon in de Stationsbuurt, in de Spoorstraat.",
+     "zh": "我住在Stationsbuurt，Spoorstraat。"
+    },
+    {
+     "t": "11:02",
+     "nl": "Heb je daar een groot huis?",
+     "zh": "你那裡有大房子嗎？"
+    },
+    {
+     "t": "11:05",
+     "nl": "Nee, ik heb een klein appartement. En jij?",
+     "zh": "沒有，我有一間小公寓。你呢？"
+    },
+    {
+     "t": "11:09",
+     "nl": "Ik heb een grote woning met mijn vrouw en kinderen.",
+     "zh": "我和妻子、小孩住一間大房子。"
+    },
+    {
+     "t": "11:14",
+     "nl": "We hebben ook een tuin.",
+     "zh": "我們還有個花園。"
+    },
+    {
+     "t": "11:19",
+     "nl": "O, wat leuk. Hoeveel kinderen hebben jullie?",
+     "zh": "喔，很棒。你們有幾個小孩？"
+    },
+    {
+     "t": "11:23",
+     "nl": "Drie. En jij? Woon jij alleen?",
+     "zh": "三個。你呢？你一個人住嗎？"
+    },
+    {
+     "t": "11:36",
+     "nl": "Ja, ik woon nu alleen. Maar ik ga samenwonen.",
+     "zh": "是的，我現在一個人住，但我打算要一起住了。"
+    },
+    {
+     "t": "12:10",
+     "nl": "Ik heb een grote woning, met mijn vrouw en kinderen. We hebben ook een tuin.",
+     "zh": "我和妻子、小孩住一間大房子。我們還有個花園。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "voornaam",
+     "zh": "名字"
+    },
+    {
+     "nl": "achternaam",
+     "zh": "姓氏"
+    },
+    {
+     "nl": "komen",
+     "zh": "來自"
+    },
+    {
+     "nl": "stad",
+     "zh": "城市"
+    },
+    {
+     "nl": "wonen",
+     "zh": "居住"
+    },
+    {
+     "nl": "huisnummer",
+     "zh": "門牌號碼"
+    },
+    {
+     "nl": "fijn",
+     "zh": "好"
+    },
+    {
+     "nl": "klein",
+     "zh": "小"
+    },
+    {
+     "nl": "groot",
+     "zh": "大"
+    },
+    {
+     "nl": "gezins",
+     "zh": "家庭"
+    },
+    {
+     "nl": "tuin",
+     "zh": "花園"
+    },
+    {
+     "nl": "kinderen",
+     "zh": "孩子"
+    },
+    {
+     "nl": "alleen",
+     "zh": "獨自"
+    },
+    {
+     "nl": "centraal",
+     "zh": "中心"
+    },
+    {
+     "nl": "straat",
+     "zh": "街道"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik kom uit [land].",
+     "zh": "我來自[國家]。",
+     "note": "表達來自的國家"
+    },
+    {
+     "nl": "Mijn voornaam is [naam].",
+     "zh": "我的名字是[名字]。",
+     "note": "介紹自己的名字"
+    },
+    {
+     "nl": "Ik woon in [plaats].",
+     "zh": "我住在[地方]。",
+     "note": "表達居住地"
+    },
+    {
+     "nl": "Is dat een mooie stad?",
+     "zh": "那是一個美麗的城市嗎？",
+     "note": "詢問城市的美麗程度"
+    },
+    {
+     "nl": "Hoeveel kinderen heb je?",
+     "zh": "你有多少個孩子？",
+     "note": "詢問孩子的數量"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

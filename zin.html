@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>🎧 單句精聽 — A2 Listening Hub</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
+    --text:#e8e8f0;--text2:#9ca3af;--dim:#6b7280;--ok:#4ade80;--bad:#f87171;
+    --accent:#fb923c;--ring:#5eead4;--purple:#a78bfa}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans",sans-serif}
+  .wrap{max-width:680px;margin:0 auto;padding:18px 14px 80px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  header a{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:0;font-size:19px;flex:1}
+
+  .progress-wrap{margin:0 0 14px;padding:12px 14px;background:var(--card);border-radius:10px}
+  .progress-head{display:flex;justify-content:space-between;align-items:baseline;
+    font-size:12px;margin-bottom:7px}
+  .progress-head .l{color:var(--ring);font-weight:800}
+  .progress-head .r{color:var(--text2)}
+  .pbar{height:8px;background:var(--card2);border-radius:99px;overflow:hidden}
+  .pbar .fill{height:100%;width:0;border-radius:99px;transition:width .45s ease;
+    background:linear-gradient(90deg,var(--ring),#34d399)}
+
+  .filter{display:flex;gap:6px;margin:0 0 12px}
+  .filter button{flex:1;padding:7px 8px;background:var(--card2);border:1px solid var(--line);
+    color:var(--text2);border-radius:8px;font-size:12px;font-weight:700;cursor:pointer}
+  .filter button.on{background:var(--ring);color:#000;border-color:var(--ring)}
+
+  .meta{text-align:center;font-size:12px;color:var(--dim);margin-bottom:8px}
+  .lapse-pill{display:inline-block;padding:2px 8px;margin-left:6px;
+    background:rgba(94,234,212,0.2);color:var(--ring);border-radius:8px;
+    font-size:10px;font-weight:700}
+  .diff-chip{display:inline-block;font-size:10px;font-weight:800;padding:1px 7px;
+    border-radius:6px;margin-left:6px;vertical-align:middle}
+  .diff-1{background:rgba(74,222,128,0.15);color:var(--ok);border:1px solid rgba(74,222,128,.4)}
+  .diff-2{background:rgba(94,234,212,0.15);color:var(--ring);border:1px solid rgba(94,234,212,.4)}
+  .diff-3{background:rgba(251,146,60,0.15);color:var(--accent);border:1px solid rgba(251,146,60,.4)}
+
+  .card{background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line);
+    border-radius:16px;padding:26px 20px;min-height:230px;
+    display:flex;flex-direction:column;justify-content:center}
+  .card-src{font-size:11px;color:var(--dim);text-align:center;margin-bottom:10px}
+  .ear{font-size:54px;text-align:center;margin:6px 0 2px;opacity:.9}
+  .ear-hint{font-size:13px;color:var(--text2);text-align:center;margin-bottom:14px}
+
+  .play-row{display:flex;gap:8px;justify-content:center;margin:6px 0 4px;flex-wrap:wrap}
+  .pbtn{padding:11px 16px;background:rgba(94,234,212,0.12);color:var(--ring);
+    border:1px solid var(--ring);border-radius:10px;cursor:pointer;font-size:14px;font-weight:700}
+  .pbtn.sec{background:rgba(167,139,250,0.12);color:var(--purple);border-color:var(--purple)}
+  .pbtn.wide{background:rgba(251,146,60,0.12);color:var(--accent);border-color:var(--accent)}
+  .pbtn:active{transform:scale(.96)}
+
+  .guess{width:100%;margin:14px 0 2px;padding:11px 12px;background:var(--bg);
+    border:1px solid var(--line);border-radius:10px;color:var(--text);font:inherit;
+    font-size:15px;resize:none}
+  .guess::placeholder{color:var(--dim)}
+  .guess-lbl{font-size:11px;color:var(--dim);margin-top:8px;text-align:center}
+
+  .answer{display:none;margin-top:6px}
+  .card.revealed .answer{display:block}
+  .a-nl{font-size:21px;font-weight:800;line-height:1.4;text-align:center;color:var(--text);margin:6px 0}
+  .a-zh{font-size:15px;color:var(--ring);text-align:center;margin-top:6px}
+  .a-mine{margin-top:12px;padding:9px 11px;background:rgba(255,255,255,.04);
+    border-left:3px solid var(--dim);border-radius:6px;font-size:12.5px;color:var(--text2)}
+  .a-mine b{color:var(--text)}
+
+  .reveal-btn{padding:14px 28px;background:var(--purple);color:#000;border:0;
+    border-radius:10px;font-size:15px;font-weight:800;cursor:pointer;width:100%;margin-top:16px}
+  .grade-row{display:flex;gap:6px;margin-top:14px}
+  .grade{flex:1;padding:13px 6px;border:0;border-radius:9px;font-size:13px;font-weight:800;cursor:pointer}
+  .grade .top{font-size:18px;display:block}
+  .grade .bot{font-size:10px;opacity:.75;display:block;margin-top:3px;font-weight:600}
+  .grade.fail{background:var(--bad);color:#fff}
+  .grade.mid{background:#f59e0b;color:#000}
+  .grade.ok{background:var(--ok);color:#000}
+  .lg-hint{font-size:10.5px;color:var(--dim);margin-top:6px;text-align:center}
+
+  .empty{text-align:center;padding:40px 20px;color:var(--text2)}
+  .empty .e-emoji{font-size:48px;margin-bottom:10px}
+  .tip{font-size:11.5px;color:var(--dim);text-align:center;margin-top:14px;line-height:1.6}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="index.html">← 返回</a>
+    <h1>🎧 單句精聽</h1>
+  </header>
+
+  <div class="progress-wrap">
+    <div class="progress-head">
+      <span class="l">聽懂的句子 <span id="pb-txt">0 / 0</span></span>
+      <span class="r" id="pb-pool">—</span>
+    </div>
+    <div class="pbar"><div class="fill" id="pb-fill"></div></div>
+  </div>
+
+  <div class="filter" id="diff-filter">
+    <button class="on" data-d="ramp">短句先 ↗</button>
+    <button data-d="1">🟢 短</button>
+    <button data-d="2">🔵 中</button>
+    <button data-d="3">🟠 長</button>
+  </div>
+
+  <div id="card-container"></div>
+
+  <div class="tip">
+    先<b>只用耳朵</b>聽 → 抓大意（可選填關鍵字）→ 才翻牌。<br>
+    聽不到細節？按 <b>🐢 慢速</b> 或 <b>↔️ 寬版</b>（前後多聽一點、放慢）。
+  </div>
+</div>
+
+<script>
+const MOCKS = ['_iC1Pooi2UA', 'AMVy2zPNLso', 'mock3_a2_2026'];
+const MOCK_LABELS = {'_iC1Pooi2UA':'M1', 'AMVy2zPNLso':'M2', 'mock3_a2_2026':'M3'};
+const STATE_KEY = 'lph_zin_state';
+const LAPSE_MAX = 2;
+
+// Per-mock buffer — same convention as reducties.html (M3 self-recorded drifts ~1s)
+const BUFFER = {
+  '_iC1Pooi2UA': { pre: 0.4, post: 0.5 },
+  'AMVy2zPNLso': { pre: 0.4, post: 0.5 },
+  'mock3_a2_2026': { pre: 1.2, post: 0.8 },
+};
+function getBuffer(vid) { return BUFFER[vid] || { pre: 0.6, post: 0.6 }; }
+
+let pool = [];        // all eligible sentences
+let queue = [];       // current session queue
+let qi = 0;
+let diffPref = 'ramp';
+let lapseSeen = new Map();
+
+function loadState() { try { return JSON.parse(localStorage.getItem(STATE_KEY) || '{}'); } catch(e){ return {}; } }
+function saveState(s) { localStorage.setItem(STATE_KEY, JSON.stringify(s)); }
+function keyOf(z) { return z.vid + '|' + z.idx; }
+function esc(t){ return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function wordCount(t) {
+  return (String(t||'').trim().match(/[A-Za-zÀ-ÿ'’]+/g) || []).length;
+}
+function difficulty(wc) { return wc <= 5 ? 1 : wc <= 9 ? 2 : 3; }
+
+async function loadPool() {
+  // Exclude Whisper-hallucinated silent segments
+  let silent = new Set();
+  try {
+    const s = await (await fetch('output/_silent_segments.json')).json();
+    for (const [vid, idx] of (s.silent || [])) silent.add(vid + '|' + idx);
+  } catch(e) {}
+
+  const seen = new Set();  // dedupe (vid, text) — mocks replay each scenario 2×
+  for (const vid of MOCKS) {
+    let segs;
+    try { segs = (await (await fetch(`output/${vid}/data.json`)).json()).ai_data.segments; }
+    catch(e) { continue; }
+    segs.forEach((seg, idx) => {
+      const text = (seg.text || '').trim();
+      const zh = (seg.translation || '').trim();
+      if (!text || !zh) return;
+      if (silent.has(vid + '|' + idx)) return;
+      const wc = wordCount(text);
+      if (wc < 3 || wc > 12) return;          // single-sentence sweet spot
+      const dk = vid + '|' + text.toLowerCase();
+      if (seen.has(dk)) return;
+      seen.add(dk);
+      pool.push({
+        vid, idx, text, zh,
+        start: +seg.start || 0, end: +seg.end || 0,
+        wc, diff: difficulty(wc),
+        complete: /[.?!]\s*$/.test(text),     // ends on sentence punctuation
+      });
+    });
+  }
+  // Stable base order: shortest first, complete sentences preferred
+  pool.sort((a, b) => a.wc - b.wc || (b.complete - a.complete));
+}
+
+function buildQueue() {
+  const st = loadState();
+  const inDiff = z => diffPref === 'ramp' ? true : z.diff === +diffPref;
+  const sub = pool.filter(inDiff);
+  // review (fail/mid) first, then unseen; mastered (ok) drop out
+  const review = sub.filter(z => { const s = st[keyOf(z)]; return s === 'fail' || s === 'mid'; });
+  const fresh  = sub.filter(z => !st[keyOf(z)]);
+  // ramp keeps shortest-first; specific difficulty keeps base order too
+  queue = [...review, ...fresh];
+  qi = 0;
+  lapseSeen = new Map();
+}
+
+function updateProgress() {
+  const st = loadState();
+  const mastered = pool.filter(z => st[keyOf(z)] === 'ok').length;
+  document.getElementById('pb-txt').textContent = ` ${mastered} / ${pool.length}`;
+  document.getElementById('pb-fill').style.width = (pool.length ? Math.round(mastered/pool.length*100) : 0) + '%';
+  document.getElementById('pb-pool').textContent = `共 ${pool.length} 句`;
+}
+
+// ── Audio ──
+let _audio = null, _stopT = null;
+function play(z, rate, wide) {
+  if (_stopT) { clearTimeout(_stopT); _stopT = null; }
+  if (!_audio) _audio = new Audio();
+  const src = `output/${z.vid}/audio.mp3`;
+  if (_audio.src.indexOf(src) === -1) _audio.src = src;
+  const buf = getBuffer(z.vid);
+  const extra = wide ? 2.5 : 0;
+  const r = wide ? 0.85 : rate;
+  const start = Math.max(0, z.start - buf.pre - extra);
+  const end = z.end + buf.post + extra;
+  const go = () => {
+    _audio.playbackRate = r;
+    _audio.currentTime = start;
+    _audio.play().catch(()=>{});
+    const dur = (end - start) / r * 1000 + 120;
+    _stopT = setTimeout(() => _audio.pause(), Math.max(1200, dur));
+  };
+  if (_audio.readyState >= 1) go();
+  else _audio.addEventListener('loadedmetadata', go, { once: true });
+}
+function playCur(rate, wide) { const z = queue[qi]; if (z) play(z, rate, wide); }
+
+function renderCard() {
+  const box = document.getElementById('card-container');
+  if (!queue.length || qi >= queue.length) {
+    const msg = queue.length ? '這個難度的句子都聽懂了 🎉' : '這個難度沒有句子';
+    box.innerHTML = `<div class="empty"><div class="e-emoji">🎉</div>
+      <div style="font-size:17px;font-weight:700;color:var(--ok)">${msg}</div>
+      <div style="margin-top:8px">換個難度，或明天再來複習標記過的句子。</div></div>`;
+    return;
+  }
+  const z = queue[qi];
+  const reseen = lapseSeen.get(keyOf(z)) || 0;
+  const lapsePill = reseen > 0 ? `<span class="lapse-pill">🔁 第 ${reseen+1} 次</span>` : '';
+  const lapseHint = reseen > 0 ? `<div class="lg-hint">剛剛沒抓到，再聽一次（${reseen}/${LAPSE_MAX}）</div>` : '';
+  box.innerHTML = `
+    <div class="meta">${qi+1} / ${queue.length}
+      <span class="diff-chip diff-${z.diff}">${['','🟢 短','🔵 中','🟠 長'][z.diff]}</span>${lapsePill}</div>
+    ${lapseHint}
+    <div class="card" id="card">
+      <div class="card-src">${MOCK_LABELS[z.vid]} · 第 ${z.idx} 句 · ${z.wc} 字</div>
+      <div class="ear">🎧</div>
+      <div class="ear-hint">只用耳朵聽，先別翻牌</div>
+      <div class="play-row">
+        <button class="pbtn" onclick="playCur(1.0,false)">🔊 正常</button>
+        <button class="pbtn sec" onclick="playCur(0.75,false)">🐢 慢速</button>
+        <button class="pbtn wide" onclick="playCur(1.0,true)">↔️ 寬版</button>
+      </div>
+      <textarea class="guess" id="guess" rows="1" placeholder="打下你聽到的關鍵字（選填，幫你對答案）"></textarea>
+      <div class="guess-lbl">抓到幾個字就好，不用整句</div>
+      <div class="answer" id="answer">
+        <div class="a-nl">${esc(z.text)}</div>
+        <div class="a-zh">${esc(z.zh)}</div>
+        <div class="a-mine" id="a-mine" style="display:none"></div>
+      </div>
+    </div>
+    <div id="action-row">
+      <button class="reveal-btn" onclick="reveal()">翻牌看答案</button>
+    </div>`;
+  // auto-play once on show so the ear leads
+  setTimeout(() => playCur(1.0, false), 150);
+}
+
+function reveal() {
+  document.getElementById('card').classList.add('revealed');
+  const guess = (document.getElementById('guess').value || '').trim();
+  if (guess) {
+    const mine = document.getElementById('a-mine');
+    mine.style.display = 'block';
+    mine.innerHTML = `你聽到的：<b>${esc(guess)}</b>`;
+  }
+  document.getElementById('action-row').innerHTML = `
+    <div class="grade-row">
+      <button class="grade fail" onclick="grade('fail')"><span class="top">😕</span><span class="bot">沒抓到</span></button>
+      <button class="grade mid" onclick="grade('mid')"><span class="top">🤔</span><span class="bot">半懂</span></button>
+      <button class="grade ok" onclick="grade('ok')"><span class="top">👍</span><span class="bot">聽懂了</span></button>
+    </div>`;
+}
+
+function grade(g) {
+  const z = queue[qi];
+  const st = loadState();
+  st[keyOf(z)] = g;
+  saveState(st);
+  // lapse-guard: 沒抓到/半懂 → re-queue a few cards later (max 2×)
+  if (g !== 'ok') {
+    const reseen = lapseSeen.get(keyOf(z)) || 0;
+    if (reseen < LAPSE_MAX) {
+      lapseSeen.set(keyOf(z), reseen + 1);
+      const remaining = queue.length - qi - 1;
+      const offset = Math.min(Math.max(remaining, 1), 3 + Math.floor(Math.random() * 4));
+      queue.splice(qi + 1 + offset, 0, z);
+    }
+  }
+  qi++;
+  updateProgress();
+  renderCard();
+}
+
+document.querySelectorAll('#diff-filter button').forEach(b =>
+  b.addEventListener('click', () => {
+    diffPref = b.dataset.d;
+    document.querySelectorAll('#diff-filter button').forEach(x => x.classList.toggle('on', x === b));
+    buildQueue();
+    renderCard();
+  }));
+
+(async function init() {
+  await loadPool();
+  updateProgress();
+  buildQueue();
+  renderCard();
+})();
+</script>
+</body>
+</html>

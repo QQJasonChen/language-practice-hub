@@ -1,0 +1,231 @@
+{
+ "video_id": "iEm-I_gVb9s",
+ "title": "Luisteren examen A2 (nieuw systeem) 3 vragen",
+ "channel": "Inburgeren examen A2",
+ "duration": 322,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "荷蘭交通狀況報導",
+   "title_nl": "Luisteren examen A2 (nieuw systeem) 3 vragen",
+   "kind": "廣播/留言",
+   "context_zh": "Mario 在收聽廣播，了解荷蘭的交通狀況。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Mario luistert naar de radio. Hij hoort een bericht over files.",
+     "zh": "馬里奧正在收聽廣播。他聽到一則關於塞車的消息。"
+    },
+    {
+     "t": "0:06",
+     "nl": "Lees eerst de vraag. Luister daarna naar de tekst.",
+     "zh": "先讀問題。然後聽文本內容。"
+    },
+    {
+     "t": "0:23",
+     "nl": "En dan nu de files.",
+     "zh": "現在來看塞車情況。"
+    },
+    {
+     "t": "0:27",
+     "nl": "Op de snelweg A2 tussen Amsterdam en Utrecht staat vijf kilometer file.",
+     "zh": "在阿姆斯特丹和烏特勒支之間的A2高速公路上有五公里的塞車。"
+    },
+    {
+     "t": "0:34",
+     "nl": "De oorzaak is een ongeluk met drie auto's.",
+     "zh": "原因是一宗涉及三輛車的事故。"
+    },
+    {
+     "t": "0:38",
+     "nl": "Bij Rotterdam op de snelweg A4 naar Delft staat een kapotte vrachtwagen.",
+     "zh": "在鹿特丹，通往代爾夫特的A4高速公路上有一輛壞掉的貨車。"
+    },
+    {
+     "t": "0:44",
+     "nl": "Daarom staat er nu een file van vier kilometer.",
+     "zh": "所以現在有四公里的塞車。"
+    },
+    {
+     "t": "0:48",
+     "nl": "Over een half uur zal het verkeer weer kunnen doorrijden.",
+     "zh": "半小時後交通會恢復通行。"
+    },
+    {
+     "t": "0:53",
+     "nl": "De laatste file staat op de A50 bij Apeldoorn.",
+     "zh": "最後一處塞車在阿佩爾多爾恩附近的A50高速公路上。"
+    },
+    {
+     "t": "0:58",
+     "nl": "Daar is een vrachtwagen met eieren omgevallen.",
+     "zh": "有一輛載著雞蛋的貨車翻覆了。"
+    },
+    {
+     "t": "1:02",
+     "nl": "De vrachtwagen en de eieren liggen op de weg. De weg wordt nu schoongemaakt.",
+     "zh": "貨車和雞蛋散落在路上。現在路面正在清理中。"
+    },
+    {
+     "t": "1:08",
+     "nl": "Er staat een file van tien kilometer.",
+     "zh": "有十分鐘的塞車長度。"
+    },
+    {
+     "t": "1:12",
+     "nl": "Ten slotte nog een bericht voor mensen die met de trein reizen.",
+     "zh": "最後還有一則給搭火車旅行者的消息。"
+    },
+    {
+     "t": "1:17",
+     "nl": "Tussen de stations Arnhem en Utrecht rijden geen treinen.",
+     "zh": "阿納姆和烏特勒支車站之間沒有火車行駛。"
+    },
+    {
+     "t": "1:21",
+     "nl": "U kunt met de NS-bussen reizen. Tot zover de files.",
+     "zh": "您可以搭乘NS巴士。以上就是塞車報告。"
+    },
+    {
+     "t": "1:29",
+     "nl": "Hoelang is de file op de snelweg A2 tussen Amsterdam en Utrecht?",
+     "zh": "阿姆斯特丹和烏特勒支之間的A2高速公路塞車多長？"
+    },
+    {
+     "t": "1:36",
+     "nl": "Vier kilometer. Vijf kilometer. Zes kilometer.",
+     "zh": "四公里。五公里。六公里。"
+    },
+    {
+     "t": "2:28",
+     "nl": "Bij Rotterdam op de snelweg A3 is er een ongeluk met drie auto's. Op de snelweg A4 naar Delft staat een kapotte vrachtwagen.",
+     "zh": "在鹿特丹的A3高速公路發生了三車相撞事故。在通往代爾夫特的A4高速公路上有一輛壞掉的貨車。"
+    },
+    {
+     "t": "3:19",
+     "nl": "Waarom staat er een file op de snelweg A4 bij Rotterdam?",
+     "zh": "為什麼鹿特丹的A4高速公路上會有塞車？"
+    },
+    {
+     "t": "3:23",
+     "nl": "Er is een ongeluk gebeurd met drie auto's.",
+     "zh": "因為發生了三車相撞的事故。"
+    },
+    {
+     "t": "3:27",
+     "nl": "Er wordt aan de weg gewerkt. Er staat een kapotte vrachtwagen.",
+     "zh": "正在進行道路施工，有一輛壞掉的貨車停在路上。"
+    },
+    {
+     "t": "4:23",
+     "nl": "Er is een ongeluk gebeurd met drie auto's. Daarom staat er nu een file van vier kilometer.",
+     "zh": "發生了三車事故。所以現在有四公里的塞車。"
+    },
+    {
+     "t": "5:09",
+     "nl": "Mario wil met de trein van Arnhem naar Utrecht.",
+     "zh": "馬里奧想搭火車從阿納姆到烏特勒支。"
+    },
+    {
+     "t": "5:14",
+     "nl": "Wat kan hij het beste doen? Via Apeldoorn reizen.",
+     "zh": "他最好的做法是什麼？透過阿珀爾多倫旅行。"
+    },
+    {
+     "t": "5:18",
+     "nl": "Met de NS-bus reizen. Met een taxi reizen.",
+     "zh": "搭NS巴士旅行。搭計程車旅行。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "file",
+     "zh": "交通堵塞"
+    },
+    {
+     "nl": "snelweg",
+     "zh": "高速公路"
+    },
+    {
+     "nl": "ongeluk",
+     "zh": "事故"
+    },
+    {
+     "nl": "vrachtwagen",
+     "zh": "貨車"
+    },
+    {
+     "nl": "eieren",
+     "zh": "雞蛋"
+    },
+    {
+     "nl": "stations",
+     "zh": "車站"
+    },
+    {
+     "nl": "trein",
+     "zh": "火車"
+    },
+    {
+     "nl": "reizen",
+     "zh": "旅行"
+    },
+    {
+     "nl": "kapotte",
+     "zh": "壞掉的"
+    },
+    {
+     "nl": "doorrijden",
+     "zh": "繼續行駛"
+    },
+    {
+     "nl": "bericht",
+     "zh": "消息"
+    },
+    {
+     "nl": "oorzaak",
+     "zh": "原因"
+    },
+    {
+     "nl": "afstand",
+     "zh": "距離"
+    },
+    {
+     "nl": "schoonmaken",
+     "zh": "清理"
+    },
+    {
+     "nl": "NS-bussen",
+     "zh": "NS巴士"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Er staat een file van [afstand] kilometer.",
+     "zh": "有一段 [距離] 公里的交通堵塞。",
+     "note": "描述交通堵塞的距離"
+    },
+    {
+     "nl": "De oorzaak is een [probleem].",
+     "zh": "原因是 [問題]。",
+     "note": "說明事故或問題的原因"
+    },
+    {
+     "nl": "Tussen [plaats] en [plaats] rijden geen treinen.",
+     "zh": "在 [地點] 和 [地點] 之間沒有火車。",
+     "note": "描述火車服務的情況"
+    },
+    {
+     "nl": "U kunt met de [vervoer] reizen.",
+     "zh": "您可以搭乘 [交通工具] 旅行。",
+     "note": "提供旅行建議"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

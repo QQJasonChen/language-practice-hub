@@ -1,0 +1,711 @@
+{
+ "video_id": "3EyfPWAy57w",
+ "title": "Listening exam A2 Practice 4",
+ "channel": "Inburgeren examen A2",
+ "duration": 669,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "新開的商店",
+   "title_nl": "Listening exam A2 Practice 4",
+   "kind": "對話",
+   "context_zh": "一群朋友在新開的商店裡購物，尋找鞋子和衣服。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Een nieuwe winkel. Eén.",
+     "zh": "一間新開的商店。一。"
+    },
+    {
+     "t": "0:06",
+     "nl": "Kijk, een nieuwe winkel. Ja, die is vorige week geopend.",
+     "zh": "看，一間新商店。是的，上週開幕的。"
+    },
+    {
+     "t": "0:12",
+     "nl": "Zullen we even binnenkijken? Ja, dat is goed.",
+     "zh": "我們去裡面看看嗎？好，沒問題。"
+    },
+    {
+     "t": "0:23",
+     "nl": "Hebben ze ook schoenen? Ik heb nieuwe laarzen nodig.",
+     "zh": "他們也有鞋子嗎？我需要新的靴子。"
+    },
+    {
+     "t": "0:28",
+     "nl": "Even kijken, hier hangt een bord. Schoenen.",
+     "zh": "看看，這裡有一個招牌。鞋子。"
+    },
+    {
+     "t": "0:33",
+     "nl": "Ja, op de derde etage. Kom, dan gaan we naar boven.",
+     "zh": "是的，在三樓。來，我們上樓去。"
+    },
+    {
+     "t": "0:39",
+     "nl": "Waar is de roltrap? Daar.",
+     "zh": "手扶梯在哪裡？那邊。"
+    },
+    {
+     "t": "0:51",
+     "nl": "Hier staan de laarzen. Hoe vind je deze?",
+     "zh": "這裡是靴子。你覺得這雙怎麼樣？"
+    },
+    {
+     "t": "0:57",
+     "nl": "Mooi, maar de hakken zijn te hoog. Daar kan ik niet op lopen.",
+     "zh": "漂亮，但是鞋跟太高了。我不能穿著走路。"
+    },
+    {
+     "t": "1:03",
+     "nl": "Oh, en deze? Ja, leuk.",
+     "zh": "喔，那這雙呢？是的，很好看。"
+    },
+    {
+     "t": "1:08",
+     "nl": "Welke maat is dat? Eh, 38.",
+     "zh": "這是什麼尺寸？嗯，38號。"
+    },
+    {
+     "t": "1:12",
+     "nl": "Oh, die zijn te klein. Ik heb maat 39.",
+     "zh": "喔，太小了。我穿39號。"
+    },
+    {
+     "t": "1:17",
+     "nl": "Even vragen aan de verkoper.",
+     "zh": "我要問問店員。"
+    },
+    {
+     "t": "1:20",
+     "nl": "Meneer, heeft u deze laarzen ook in maat 39?",
+     "zh": "先生，您有這雙39號的靴子嗎？"
+    },
+    {
+     "t": "1:25",
+     "nl": "Ik ga even voor u kijken.",
+     "zh": "我幫您去看看。"
+    },
+    {
+     "t": "1:32",
+     "nl": "Alsjeblieft. Dank u wel. Mag ik ze even passen?",
+     "zh": "給您。謝謝。我可以試穿嗎？"
+    },
+    {
+     "t": "1:38",
+     "nl": "Natuurlijk.",
+     "zh": "當然可以。"
+    },
+    {
+     "t": "1:45",
+     "nl": "Hoe zitten ze? Prima.",
+     "zh": "穿起來怎麼樣？很合適。"
+    },
+    {
+     "t": "1:52",
+     "nl": "En ze lopen lekker. Hoe duur zijn ze?",
+     "zh": "而且走起來很舒服。這多少錢？"
+    },
+    {
+     "t": "1:57",
+     "nl": "49,95 euro. Oké, ik neem ze.",
+     "zh": "49.95歐元。好，我買了。"
+    },
+    {
+     "t": "2:10",
+     "nl": "Hallo meneer, mag ik wat vragen? Ja, natuurlijk mevrouw. Wat kan ik voor u doen?",
+     "zh": "您好先生，我可以問您一個問題嗎？是的，當然，女士。請問我能為您做什麼？"
+    },
+    {
+     "t": "2:15",
+     "nl": "Waar staat de koffie? Even kijken.",
+     "zh": "咖啡在哪裡？我看看。"
+    },
+    {
+     "t": "2:20",
+     "nl": "De koffie staat naast het brood. Ja, waar precies?",
+     "zh": "咖啡在麵包旁邊。是的，確切位置在哪？"
+    },
+    {
+     "t": "2:25",
+     "nl": "U gaat recht bij de groenten. U ziet eerst het brood.",
+     "zh": "您往蔬菜區右轉。先看到的是麵包。"
+    },
+    {
+     "t": "2:29",
+     "nl": "En naast het brood staat de koffie. Ah, bedankt meneer. Graag gedaan. Dag mevrouw.",
+     "zh": "麵包旁邊就是咖啡。啊，謝謝您，先生。不客氣，女士，再見。"
+    },
+    {
+     "t": "2:35",
+     "nl": "Dag.",
+     "zh": "再見。"
+    },
+    {
+     "t": "2:40",
+     "nl": "Jasmine wil een bos bloemen kopen. Haar moeder is jarig.",
+     "zh": "Jasmine想買一束花。她媽媽生日了。"
+    },
+    {
+     "t": "2:45",
+     "nl": "Ze gaat naar de markt. Daar zijn de bloemen.",
+     "zh": "她去市場。花在那裡。"
+    },
+    {
+     "t": "2:50",
+     "nl": "De bloemen zijn niet duur. Twee bossen voor drie euro.",
+     "zh": "花不貴。兩束三歐元。"
+    },
+    {
+     "t": "2:56",
+     "nl": "Ze koopt een mooie bos voor haar moeder. En ze koopt een bos voor haarzelf.",
+     "zh": "她買一束漂亮的花給媽媽。還有一束給自己。"
+    },
+    {
+     "t": "3:02",
+     "nl": "Jasmine is blij met de bloemen. In de kledingzaak.",
+     "zh": "Jasmine對花很開心。在服裝店裡。"
+    },
+    {
+     "t": "3:07",
+     "nl": "Een goedemorgen.",
+     "zh": "早安。"
+    },
+    {
+     "t": "3:12",
+     "nl": "Hallo. Kan ik u helpen? Ja, ik zoek een jasje.",
+     "zh": "您好。我可以幫您嗎？是的，我在找一件外套。"
+    },
+    {
+     "t": "3:17",
+     "nl": "Mijn zus gaat trouwen. Oh, wat leuk. Wanneer is het feest?",
+     "zh": "我妹妹要結婚。喔，真好。婚禮是哪一天？"
+    },
+    {
+     "t": "3:20",
+     "nl": "12 juli. Dus u zoekt een jasje.",
+     "zh": "7月12日。所以您在找外套。"
+    },
+    {
+     "t": "3:25",
+     "nl": "Welke kleur? Ik vind blauw een mooie kleur.",
+     "zh": "什麼顏色？我覺得藍色很好看。"
+    },
+    {
+     "t": "3:29",
+     "nl": "Prima. Laten we eens kijken. Welke maat heeft u?",
+     "zh": "好，我們來看看。您穿什麼尺寸？"
+    },
+    {
+     "t": "3:35",
+     "nl": "Meestal heb ik large. Wat vindt u van dit jasje?",
+     "zh": "我通常穿大號。您覺得這件外套如何？"
+    },
+    {
+     "t": "3:41",
+     "nl": "De stof is katoen. En dat is niet zo warm in de zomer.",
+     "zh": "材質是棉。而且夏天不會太熱。"
+    },
+    {
+     "t": "3:45",
+     "nl": "Ja, die is mooi. Mag ik het even passen?",
+     "zh": "是的，很漂亮。我可以試穿嗎？"
+    },
+    {
+     "t": "3:55",
+     "nl": "Het zit goed. Hoeveel kost het jasje?",
+     "zh": "穿起來不錯。這件外套多少錢？"
+    },
+    {
+     "t": "3:59",
+     "nl": "70 euro. Ik neem het.",
+     "zh": "70歐元。我買了。"
+    },
+    {
+     "t": "4:05",
+     "nl": "In de kledingzaak. Twee.",
+     "zh": "在服裝店。兩。"
+    },
+    {
+     "t": "4:11",
+     "nl": "Dag, mevrouw. Goedemorgen.",
+     "zh": "您好，女士。早安。"
+    },
+    {
+     "t": "4:15",
+     "nl": "Wat kan ik voor u doen? Ik wil deze tas graag ruilen.",
+     "zh": "我可以為您做什麼？我想要換這個包包。"
+    },
+    {
+     "t": "4:20",
+     "nl": "Ik vind hem echt niet mooi. Heeft u de bon voor mij?",
+     "zh": "我真的不喜歡它。您有發票嗎？"
+    },
+    {
+     "t": "4:26",
+     "nl": "Alsjeblieft. Kan ik ook mijn geld terugkrijgen?",
+     "zh": "給您。我可以退錢嗎？"
+    },
+    {
+     "t": "4:30",
+     "nl": "Nee, dat kan niet. U mag wel een andere tas uitzoeken.",
+     "zh": "不行。您可以挑另一個包包。"
+    },
+    {
+     "t": "4:36",
+     "nl": "Oké, dan doe ik dat. Dank u wel.",
+     "zh": "好，那我換一個。謝謝您。"
+    },
+    {
+     "t": "4:43",
+     "nl": "Wat heb je nodig?",
+     "zh": "你需要什麼？"
+    },
+    {
+     "t": "4:50",
+     "nl": "Met Hans. Hoi Hans, ik spreek met Mariama.",
+     "zh": "跟漢斯。嗨，漢斯，我是瑪麗亞瑪。"
+    },
+    {
+     "t": "4:56",
+     "nl": "Hoi, alles goed? Nou, niet zo.",
+     "zh": "嗨，一切都好嗎？嗯，還不太好。"
+    },
+    {
+     "t": "5:00",
+     "nl": "Ik ben ziek en ik kan niet naar buiten. Oh, wat vervelend.",
+     "zh": "我病了，不能出門。喔，真麻煩。"
+    },
+    {
+     "t": "5:04",
+     "nl": "Ja, wil jij misschien een paar boodschappen voor me doen?",
+     "zh": "是的，你能幫我買幾樣東西嗎？"
+    },
+    {
+     "t": "5:09",
+     "nl": "Natuurlijk, geen probleem. Wat wil je hebben?",
+     "zh": "當然，沒問題。你想要什麼？"
+    },
+    {
+     "t": "5:14",
+     "nl": "Even kijken. Een pakje thee.",
+     "zh": "讓我看看。一包茶。"
+    },
+    {
+     "t": "5:18",
+     "nl": "Citroenthee? Dat is goed voor u. Ja, lekker.",
+     "zh": "檸檬茶嗎？那對你很好。是的，很好喝。"
+    },
+    {
+     "t": "5:24",
+     "nl": "En ook nog een half brood. Het liefst wit.",
+     "zh": "還有半條麵包。最好是白麵包。"
+    },
+    {
+     "t": "5:29",
+     "nl": "Wacht even, ik schrijf het even op. En wat nog meer?",
+     "zh": "等一下，我寫下來。還有什麼？"
+    },
+    {
+     "t": "5:33",
+     "nl": "En jam, dat was het.",
+     "zh": "還有果醬，就這些。"
+    },
+    {
+     "t": "5:37",
+     "nl": "Of nee, ook nog vijf sinaasappels.",
+     "zh": "不，還有五顆橙子。"
+    },
+    {
+     "t": "5:42",
+     "nl": "Prima, ik kom het straks brengen, oké? Oh, fijn. En alvast bedankt Hans.",
+     "zh": "好，我待會兒會把東西送來，好嗎？喔，好耶。提前謝謝你漢斯。"
+    },
+    {
+     "t": "5:49",
+     "nl": "Tot straks. Ja, tot straks.",
+     "zh": "待會見。好，待會見。"
+    },
+    {
+     "t": "5:56",
+     "nl": "Ik ga met de bus. Twee.",
+     "zh": "我要搭公車。兩。"
+    },
+    {
+     "t": "6:07",
+     "nl": "Goedemorgen. Goedemorgen mevrouw. Dit is toch bus negen?",
+     "zh": "早安。早安女士。這是九號公車吧？"
+    },
+    {
+     "t": "6:13",
+     "nl": "Jazeker. Gaat u naar de Kruisstraat?",
+     "zh": "沒錯。您要去Kruisstraat嗎？"
+    },
+    {
+     "t": "6:17",
+     "nl": "Ja, dat is de vijfde halte. En hoe laat vertrekt u?",
+     "zh": "是的，那是第五站。您幾點出發？"
+    },
+    {
+     "t": "6:24",
+     "nl": "Over vijf minuten. Oh, wilt u me waarschuwen als we er zijn?",
+     "zh": "五分鐘後。喔，到了請提醒我好嗎？"
+    },
+    {
+     "t": "6:30",
+     "nl": "Ja, dat zal ik doen. Vergeet u straks niet uit te checken.",
+     "zh": "會的。我會提醒您的。別忘了待會兒刷卡出站。"
+    },
+    {
+     "t": "6:35",
+     "nl": "Nee hoor, dank u wel.",
+     "zh": "不會的，謝謝你。"
+    },
+    {
+     "t": "6:50",
+     "nl": "Ga je vanavond nog naar computerles? Ja, zal ik je ophalen?",
+     "zh": "你今晚還要去電腦課嗎？要我來接你嗎？"
+    },
+    {
+     "t": "6:57",
+     "nl": "Dat is goed. Met de auto of met de fiets?",
+     "zh": "好的。開車還是騎腳踏車？"
+    },
+    {
+     "t": "7:01",
+     "nl": "Ik ga liever met de fiets. Maar het gaat vanavond regenen.",
+     "zh": "我比較喜歡騎腳踏車。但今晚會下雨。"
+    },
+    {
+     "t": "7:06",
+     "nl": "Oh, zullen we dan maar met de auto gaan?",
+     "zh": "喔，那我們還是開車去好了？"
+    },
+    {
+     "t": "7:10",
+     "nl": "Prima. Hoe laat kom je me halen? Ik moet eerst nog even tanken.",
+     "zh": "好啊。你幾點來接我？我還要先加油。"
+    },
+    {
+     "t": "7:16",
+     "nl": "Dan ben ik om half acht bij je. Oké, tot vanavond.",
+     "zh": "那我七點半到你那裡。好的，今晚見。"
+    },
+    {
+     "t": "7:31",
+     "nl": "Radiobericht.",
+     "zh": "廣播消息。"
+    },
+    {
+     "t": "7:35",
+     "nl": "Hier volgt de verkeersinformatie. Het is op dit moment niet druk op de weg.",
+     "zh": "以下是交通資訊。目前路況不擁擠。"
+    },
+    {
+     "t": "7:42",
+     "nl": "Er staan maar drie files in Nederland.",
+     "zh": "荷蘭只有三處塞車。"
+    },
+    {
+     "t": "7:45",
+     "nl": "Op de A1 tussen Weesp en Bussum staat drie kilometer file.",
+     "zh": "A1公路在Weesp和Bussum之間塞車三公里。"
+    },
+    {
+     "t": "7:52",
+     "nl": "Op de A4 tussen Hoofddorp en Schiphol staat vier kilometer door een ongeluk.",
+     "zh": "A4公路在Hoofddorp和Schiphol之間因事故塞車四公里。"
+    },
+    {
+     "t": "7:58",
+     "nl": "En op de A20 voor Rotterdam vijf kilometer file.",
+     "zh": "A20公路在鹿特丹前塞車五公里。"
+    },
+    {
+     "t": "8:03",
+     "nl": "Daar staat een vrachtwagen met pech.",
+     "zh": "那裡有一輛故障的貨車。"
+    },
+    {
+     "t": "8:08",
+     "nl": "Op reis 1.",
+     "zh": "旅途一。"
+    },
+    {
+     "t": "8:18",
+     "nl": "Het is al drie uur. Bijna weekend.",
+     "zh": "已經三點了。快要週末了。"
+    },
+    {
+     "t": "8:22",
+     "nl": "Ja, lekker. Ga je nog iets leuks doen?",
+     "zh": "是啊，好棒。你要去做什麼有趣的事嗎？"
+    },
+    {
+     "t": "8:25",
+     "nl": "Ja, ik ga drie dagen naar Brussel.",
+     "zh": "是的，我要去布魯塞爾三天。"
+    },
+    {
+     "t": "8:29",
+     "nl": "Wat leuk. Slaap je in een hotel? Nee, ik logeer bij mijn oom.",
+     "zh": "真好。你會住飯店嗎？不，我住我叔叔家。"
+    },
+    {
+     "t": "8:34",
+     "nl": "Hij woont daar. Hoe ga je naar Brussel?",
+     "zh": "他住那裡。你怎麼去布魯塞爾？"
+    },
+    {
+     "t": "8:39",
+     "nl": "Oh, met de trein. Mijn man brengt me naar het station in Amsterdam.",
+     "zh": "喔，搭火車。我丈夫會送我到阿姆斯特丹車站。"
+    },
+    {
+     "t": "8:45",
+     "nl": "Daar ga ik met de sneltrein naar Brussel.",
+     "zh": "然後我搭快車去布魯塞爾。"
+    },
+    {
+     "t": "8:49",
+     "nl": "Ik hoef niet over te stappen. Hoe lang duurt de reis?",
+     "zh": "我不需要換車。旅程多久？"
+    },
+    {
+     "t": "8:54",
+     "nl": "Maar twee uur. Dus dat gaat best snel.",
+     "zh": "只要兩小時，所以很快。"
+    },
+    {
+     "t": "8:58",
+     "nl": "En mijn oom staat op het perron in Brussel.",
+     "zh": "我叔叔會在布魯塞爾月台等我。"
+    },
+    {
+     "t": "9:00",
+     "nl": "Nou, goed geregeld. Veel plezier.",
+     "zh": "真是安排得很好。玩得愉快。"
+    },
+    {
+     "t": "9:05",
+     "nl": "Bedankt.",
+     "zh": "謝謝。"
+    },
+    {
+     "t": "9:12",
+     "nl": "Op reis 2.",
+     "zh": "旅途二。"
+    },
+    {
+     "t": "9:18",
+     "nl": "Ik ga morgen op vakantie. Oh, wat heerlijk. Waar ga je naartoe?",
+     "zh": "我明天要去度假。喔，真好。你要去哪裡？"
+    },
+    {
+     "t": "9:25",
+     "nl": "Naar Spanje. Samen met een vriend. Gaan jullie met de auto?",
+     "zh": "去西班牙。和一位朋友一起。你們開車去嗎？"
+    },
+    {
+     "t": "9:29",
+     "nl": "Nee. We gaan met het vliegtuig.",
+     "zh": "不，我們搭飛機去。"
+    },
+    {
+     "t": "9:33",
+     "nl": "We gaan tien dagen. Waar gaan jullie precies heen in Spanje?",
+     "zh": "我們要去十天。你們究竟要去西班牙哪裡？"
+    },
+    {
+     "t": "9:39",
+     "nl": "Naar Madrid. Ben jij daar wel eens geweest?",
+     "zh": "去馬德里。你去過那裡嗎？"
+    },
+    {
+     "t": "9:43",
+     "nl": "Ja, twee jaar geleden. Ik vind het een prachtige stad.",
+     "zh": "是的，兩年前。我覺得那是一座很美麗的城市。"
+    },
+    {
+     "t": "9:48",
+     "nl": "Hoe lang is het vliegen naar Madrid? Volgens mij tweeëneenhalf uur.",
+     "zh": "飛到馬德里要多久？我記得是兩個半小時。"
+    },
+    {
+     "t": "9:54",
+     "nl": "Dus jullie zijn er zo. Hoeveel kost je ticket?",
+     "zh": "所以你們很快就到了。你的機票多少錢？"
+    },
+    {
+     "t": "10:00",
+     "nl": "Tweehonderdtachtig euro voor een retour. Oeh, dat is best duur.",
+     "zh": "兩百八十歐元來回票。喔，那蠻貴的。"
+    },
+    {
+     "t": "10:05",
+     "nl": "Ja, gelukkig hebben we een goedkoop hotel.",
+     "zh": "是啊，幸好我們訂了一間便宜的旅館。"
+    },
+    {
+     "t": "10:09",
+     "nl": "Nou, goede reis. En veel plezier. Dank je.",
+     "zh": "好，旅途愉快。玩得開心。謝謝你。"
+    },
+    {
+     "t": "10:18",
+     "nl": "Op straat. Mevrouw, mag ik u iets vragen?",
+     "zh": "在街上。女士，我可以問您一個問題嗎？"
+    },
+    {
+     "t": "10:24",
+     "nl": "Ja hoor. Bent u bekend in deze buurt?",
+     "zh": "當然可以。您熟悉這附近嗎？"
+    },
+    {
+     "t": "10:27",
+     "nl": "Nee, helaas niet. Ik ben hier ook voor het eerst.",
+     "zh": "不，很抱歉不熟。我也是第一次來這裡。"
+    },
+    {
+     "t": "10:34",
+     "nl": "Meneer, weet u waar de Brinkstraat is?",
+     "zh": "先生，您知道Brinkstraat在哪裡嗎？"
+    },
+    {
+     "t": "10:39",
+     "nl": "Sorry, ik ben hier niet bekend.",
+     "zh": "抱歉，我不熟這裡。"
+    },
+    {
+     "t": "10:45",
+     "nl": "Dag mevrouw. Ik zoek de Brinkstraat.",
+     "zh": "您好女士。我在找Brinkstraat。"
+    },
+    {
+     "t": "10:50",
+     "nl": "Even kijken. Dan moet u hier rechtdoor.",
+     "zh": "讓我看看。您要直走。"
+    },
+    {
+     "t": "10:53",
+     "nl": "Bij het kruispunt linksaf en dan bij de kerk rechts.",
+     "zh": "到了十字路口左轉，然後在教堂那裡右轉。"
+    },
+    {
+     "t": "11:00",
+     "nl": "Daar is de Brinkstraat. Is het ver lopen?",
+     "zh": "Brinkstraat就在那裡。走路遠嗎？"
+    },
+    {
+     "t": "11:03",
+     "nl": "Ik denk tien minuten. O, oké. Dat valt wel mee. Hartelijk bedankt.",
+     "zh": "我想大約十分鐘。喔，好。還不算遠。非常感謝。"
+    },
+    {
+     "t": "11:09",
+     "nl": "Graag gedaan.",
+     "zh": "不客氣。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "winkel",
+     "zh": "商店"
+    },
+    {
+     "nl": "schoenen",
+     "zh": "鞋子"
+    },
+    {
+     "nl": "laarzen",
+     "zh": "靴子"
+    },
+    {
+     "nl": "maat",
+     "zh": "尺碼"
+    },
+    {
+     "nl": "verkoper",
+     "zh": "店員"
+    },
+    {
+     "nl": "passen",
+     "zh": "試穿"
+    },
+    {
+     "nl": "kosten",
+     "zh": "價格"
+    },
+    {
+     "nl": "bloemen",
+     "zh": "花"
+    },
+    {
+     "nl": "jasje",
+     "zh": "外套"
+    },
+    {
+     "nl": "ruilen",
+     "zh": "退換"
+    },
+    {
+     "nl": "boodschappen",
+     "zh": "購物"
+    },
+    {
+     "nl": "brood",
+     "zh": "麵包"
+    },
+    {
+     "nl": "thee",
+     "zh": "茶"
+    },
+    {
+     "nl": "auto",
+     "zh": "汽車"
+    },
+    {
+     "nl": "vliegtuig",
+     "zh": "飛機"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik zoek een ...",
+     "zh": "我在找一個 ...",
+     "note": "表達尋找某物的需求"
+    },
+    {
+     "nl": "Hoeveel kost het?",
+     "zh": "這個多少錢？",
+     "note": "詢問價格"
+    },
+    {
+     "nl": "Mag ik het even passen?",
+     "zh": "我可以試穿一下嗎？",
+     "note": "詢問試穿的許可"
+    },
+    {
+     "nl": "Waar staat ...?",
+     "zh": " ... 在哪裡？",
+     "note": "詢問位置"
+    },
+    {
+     "nl": "Ik neem het.",
+     "zh": "我買這個。",
+     "note": "表示購買的決定"
+    },
+    {
+     "nl": "Ik ga met de ...",
+     "zh": "我搭乘 ...",
+     "note": "表達交通工具"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

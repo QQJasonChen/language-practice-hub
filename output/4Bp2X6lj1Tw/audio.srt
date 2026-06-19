@@ -1,0 +1,51 @@
+1
+00:00:00,000 --> 00:00:02,880
+Zraheeftopinterneteenboekbesteld
+
+2
+00:00:04,400 --> 00:00:06,120
+Zebeltnaardeklantenservice
+
+3
+00:00:07,500 --> 00:00:11,460
+Lees eerst de vraag, luister daarna naar de tekst.
+
+4
+00:00:25,300 --> 00:00:30,420
+Goedendag en welkom bij de klantenservice van boekenwinkel.nl.
+
+5
+00:00:31,480 --> 00:00:37,400
+Om u zo goed mogelijk te kunnen helpen, vragen we u een keuze te maken uit één van de volgende opties.
+
+6
+00:00:38,400 --> 00:00:41,600
+Wilt u een boek bestellen? Kies 1.
+
+7
+00:00:42,880 --> 00:00:45,900
+Wilt u een bestelling veranderen? Kies 2.
+
+8
+00:00:47,240 --> 00:00:50,320
+Wilt u een bestelling annuleren? Kies 3.
+
+9
+00:00:51,400 --> 00:00:56,380
+Heeft u een andere vraag en wilt u één van onze medewerkers spreken? Kies 4.
+
+10
+00:00:57,460 --> 00:00:59,760
+Wij streven naar een zo goed mogelijke service.
+
+11
+00:01:00,520 --> 00:01:03,080
+Daarom kan het zijn dat uw gesprek wordt opgenomen.
+
+12
+00:01:05,360 --> 00:01:08,160
+Sra wil liever een ander boek bestellen.
+
+13
+00:01:09,640 --> 00:01:15,480
+Welk nummer moet ze dan kiezen? 1, 2, 3, 4.

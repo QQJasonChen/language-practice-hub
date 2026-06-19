@@ -1,0 +1,725 @@
+{
+ "video_id": "f53OW6p7l-8",
+ "title": "listening exam A2 practice 2021",
+ "channel": "Inburgeren examen A2",
+ "duration": 998,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "看醫生的流程",
+   "title_nl": "listening exam A2 practice 2021",
+   "kind": "對話",
+   "context_zh": "在荷蘭，生病時如何尋求醫療幫助",
+   "start": "0:06",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:06",
+     "nl": "Huisarts.",
+     "zh": "家庭醫生。"
+    },
+    {
+     "t": "0:09",
+     "nl": "Ben je ziek? Ga naar je huisarts. Een huisarts is een dokter bij jou in de buurt.",
+     "zh": "你生病了嗎？去找你的家庭醫生。家庭醫生是你附近的醫生。"
+    },
+    {
+     "t": "0:18",
+     "nl": "De huisarts helpt jou als je ziek bent.",
+     "zh": "家庭醫生會在你生病時幫助你。"
+    },
+    {
+     "t": "0:22",
+     "nl": "Bel je huisarts om een afspraak te maken.",
+     "zh": "打電話給你的家庭醫生預約時間。"
+    },
+    {
+     "t": "0:30",
+     "nl": "Doktersassistent. Als je de huisarts belt,",
+     "zh": "醫生助理。如果你打電話給家庭醫生，"
+    },
+    {
+     "t": "0:33",
+     "nl": "spreek je eerst met de doktersassistent.",
+     "zh": "你會先和醫生助理通話。"
+    },
+    {
+     "t": "0:38",
+     "nl": "De doktersassistent stelt vragen over je probleem.",
+     "zh": "醫生助理會詢問你的問題。"
+    },
+    {
+     "t": "0:43",
+     "nl": "Zij maakt dan een afspraak met jou.",
+     "zh": "然後她會幫你安排預約。"
+    },
+    {
+     "t": "0:49",
+     "nl": "Huisartsenpost.",
+     "zh": "家庭醫生急診中心。"
+    },
+    {
+     "t": "0:54",
+     "nl": "Bij de huisartsenpost werken dokters voor de avonden, nachten, weekenden en op feestdagen.",
+     "zh": "家庭醫生急診中心的醫生會在晚上、夜間、週末及假日值班。"
+    },
+    {
+     "t": "1:03",
+     "nl": "Vraag aan je huisarts het telefoonnummer van de huisartsenpost.",
+     "zh": "向你的家庭醫生索取家庭醫生急診中心的電話號碼。"
+    },
+    {
+     "t": "1:13",
+     "nl": "Verwijsbrief voor ziekenhuis.",
+     "zh": "轉診單給醫院。"
+    },
+    {
+     "t": "1:20",
+     "nl": "Soms geeft de huisarts jou een brief mee voor een speciale dokter in het ziekenhuis.",
+     "zh": "有時家庭醫生會給你一張轉診單，讓你去醫院看專科醫生。"
+    },
+    {
+     "t": "1:27",
+     "nl": "Dat heet een verwijsbrief.",
+     "zh": "這叫做轉診單。"
+    },
+    {
+     "t": "1:32",
+     "nl": "De speciale dokter noemen wij specialist. Zonder verwijsbrief kan je niet naar de specialist.",
+     "zh": "專科醫生我們稱為專科醫師。沒有轉診單就不能去看專科醫師。"
+    },
+    {
+     "t": "1:46",
+     "nl": "Alarmbel 112.",
+     "zh": "報警電話 112。"
+    },
+    {
+     "t": "1:50",
+     "nl": "Bel 112 als er groot gevaar is. Bijvoorbeeld er is brand of iemand heeft een zwaar ongeluk of mensen vechten en dreigen met wapens.",
+     "zh": "如果有重大危險，請打 112。例如發生火災、有人重大事故或有人打架並持有武器。"
+    },
+    {
+     "t": "2:05",
+     "nl": "Is er geen levensgevaar,",
+     "zh": "如果沒有生命危險，"
+    },
+    {
+     "t": "2:09",
+     "nl": "bel dan de politie op nummer 0900 8844.",
+     "zh": "請撥打警方電話 0900 8844。"
+    },
+    {
+     "t": "2:28",
+     "nl": "Medicijnen.",
+     "zh": "藥物。"
+    },
+    {
+     "t": "2:32",
+     "nl": "De huisarts geeft je medicijnen. Soms geeft de huisarts geen medicijnen.",
+     "zh": "家庭醫生會給你藥物。有時家庭醫生不會給藥。"
+    },
+    {
+     "t": "2:40",
+     "nl": "Voor griep en verkoudheid zijn er geen goede medicijnen.",
+     "zh": "感冒和流感沒有好的藥物。"
+    },
+    {
+     "t": "2:48",
+     "nl": "Paracetamol kan helpen.",
+     "zh": "對乙醯氨基酚可能有幫助。"
+    },
+    {
+     "t": "2:55",
+     "nl": "Apotheek. Heb je een recept van de huisarts? Op het recept staan de medicijnen die je nodig hebt.",
+     "zh": "藥局。如果你有家庭醫生的處方，處方上會有你需要的藥物。"
+    },
+    {
+     "t": "3:06",
+     "nl": "Met het recept ga je naar de apotheek. De apotheek geeft jou de medicijnen. Drogist",
+     "zh": "憑處方到藥局領藥。藥局會給你藥物。藥妝店"
+    },
+    {
+     "t": "3:20",
+     "nl": "Je kunt ook medicijnen bij de drogist kopen. Maar met een recept van de huisarts moet je altijd naar de apotheek.",
+     "zh": "你也可以在藥妝店買藥。但有處方的話一定要去藥局。"
+    },
+    {
+     "t": "3:36",
+     "nl": "Tandarts. De tandarts zorgt voor je tanden en kiezen.",
+     "zh": "牙醫。牙醫會照顧你的牙齒和臼齒。"
+    },
+    {
+     "t": "3:43",
+     "nl": "Tanden en kiezen samen heten het gebit. Een gezond gebit is belangrijk. Poets daarom elke dag je tanden.",
+     "zh": "牙齒和臼齒合稱牙齒。健康的牙齒很重要。因此每天都要刷牙。"
+    },
+    {
+     "t": "4:00",
+     "nl": "Zorgverzekering. In Nederland heeft iedereen een zorgverzekering.",
+     "zh": "健康保險。在荷蘭每個人都有健康保險。"
+    },
+    {
+     "t": "4:10",
+     "nl": "Je betaalt iedere maand een bedrag voor de zorgverzekering. Dat bedrag heet premie.",
+     "zh": "你每月會付一筆保費給健康保險，這筆錢叫做保險費。"
+    },
+    {
+     "t": "4:31",
+     "nl": "Gezicht. Het haar, het oor, het oog, de mond, de neus.",
+     "zh": "臉部。頭髮、耳朵、眼睛、嘴巴、鼻子。"
+    },
+    {
+     "t": "4:53",
+     "nl": "Lichaam voorkant. Het hoofd, de nek, de borst, de buik.",
+     "zh": "身體正面。頭、脖子、胸部、腹部。"
+    },
+    {
+     "t": "5:08",
+     "nl": "De heup, het been, de knie.",
+     "zh": "臀部、腿、膝蓋。"
+    },
+    {
+     "t": "5:18",
+     "nl": "De voet.",
+     "zh": "腳。"
+    },
+    {
+     "t": "5:28",
+     "nl": "Lichaam achterkant. De rug, de billen, het achterhoofd, de schouder.",
+     "zh": "身體背面。背、臀部、後腦勺、肩膀。"
+    },
+    {
+     "t": "5:45",
+     "nl": "De arm.",
+     "zh": "手臂。"
+    },
+    {
+     "t": "5:49",
+     "nl": "De elleboog, de pols, de hand.",
+     "zh": "手肘、手腕、手。"
+    },
+    {
+     "t": "6:03",
+     "nl": "Ademen.",
+     "zh": "呼吸。"
+    },
+    {
+     "t": "6:07",
+     "nl": "De luchtpijp, de neus, de keel, de longen.",
+     "zh": "氣管、鼻子、喉嚨、肺。"
+    },
+    {
+     "t": "6:26",
+     "nl": "Eten. De lever, de alvleesklier, de maag, de dikke darm.",
+     "zh": "消化器官。肝臟、胰臟、胃、大腸。"
+    },
+    {
+     "t": "6:43",
+     "nl": "De dunne darm.",
+     "zh": "小腸。"
+    },
+    {
+     "t": "6:53",
+     "nl": "Hart en bloedvaten.",
+     "zh": "心臟與血管。"
+    },
+    {
+     "t": "7:00",
+     "nl": "Het hart, de bloedvaten.",
+     "zh": "心臟、血管。"
+    },
+    {
+     "t": "7:16",
+     "nl": "Bewegen. Veel bewegen is gezond. Bewegen geeft energie. Het is goed om elke dag een half uur te bewegen, zoals lopen,",
+     "zh": "運動。多運動有益健康。運動能提供能量。每天運動半小時很好，比如走路，"
+    },
+    {
+     "t": "7:38",
+     "nl": "voetballen en fietsen.",
+     "zh": "踢足球和騎腳踏車。"
+    },
+    {
+     "t": "7:45",
+     "nl": "Water drinken. Water is goed voor je lichaam. Je hebt misschien niet zoveel dorst,",
+     "zh": "喝水。水對你的身體有益。你可能不太口渴，"
+    },
+    {
+     "t": "7:59",
+     "nl": "Toch is het goed om water te drinken. Drink elke dag zes glazen water.",
+     "zh": "但是喝水是好的。每天喝六杯水。"
+    },
+    {
+     "t": "8:09",
+     "nl": "Vet is ongezond. Veel vet eten is ongezond. Bijvoorbeeld patat is heel vet.",
+     "zh": "脂肪是不健康的。吃太多脂肪是不健康的。比如薯條含脂肪很多。"
+    },
+    {
+     "t": "8:22",
+     "nl": "Patat met mayonaise is nog veel vetter.",
+     "zh": "薯條加美乃滋更油脂。"
+    },
+    {
+     "t": "8:26",
+     "nl": "Vetten in vis.",
+     "zh": "魚類中的脂肪。"
+    },
+    {
+     "t": "8:31",
+     "nl": "Olijfolie en noten zijn wel gezond.",
+     "zh": "橄欖油和堅果是健康的。"
+    },
+    {
+     "t": "8:39",
+     "nl": "Suiker.",
+     "zh": "糖。"
+    },
+    {
+     "t": "8:42",
+     "nl": "Pas op met suiker. Suiker is ongezond.",
+     "zh": "小心糖。糖是不健康的。"
+    },
+    {
+     "t": "8:50",
+     "nl": "Suiker is heel slecht voor je gebit. Van suiker word je dik. In drinken zit vaak veel suiker.",
+     "zh": "糖對你的牙齒非常有害。吃糖會變胖。飲料裡通常含有很多糖。"
+    },
+    {
+     "t": "9:05",
+     "nl": "Drink daarom liever water zonder suiker.",
+     "zh": "因此最好喝不加糖的水。"
+    },
+    {
+     "t": "9:18",
+     "nl": "Gezond eten. Gezond eten is belangrijk. Eet veel groenten zoals aardappelen, knoflook, persiebonen, courgette.",
+     "zh": "健康飲食。健康飲食很重要。多吃蔬菜，如馬鈴薯、大蒜、甜豆、節瓜。"
+    },
+    {
+     "t": "9:41",
+     "nl": "Radijs.",
+     "zh": "小蘿蔔。"
+    },
+    {
+     "t": "9:45",
+     "nl": "Paprika, prei, tomaten, wortels, groene peper.",
+     "zh": "甜椒、韭蔥、番茄、胡蘿蔔、青辣椒。"
+    },
+    {
+     "t": "10:04",
+     "nl": "Groene kool.",
+     "zh": "青高麗菜。"
+    },
+    {
+     "t": "10:10",
+     "nl": "Uien, broccoli.",
+     "zh": "洋蔥、西蘭花。"
+    },
+    {
+     "t": "10:17",
+     "nl": "Aubergine, pompoen.",
+     "zh": "茄子、南瓜。"
+    },
+    {
+     "t": "10:22",
+     "nl": "Komkommer, puntpaprika.",
+     "zh": "小黃瓜、甜椒。"
+    },
+    {
+     "t": "10:31",
+     "nl": "Chinese kool, rode uien.",
+     "zh": "白菜、紅洋蔥。"
+    },
+    {
+     "t": "10:34",
+     "nl": "Gember.",
+     "zh": "薑。"
+    },
+    {
+     "t": "10:39",
+     "nl": "Eet elke dag fruit, zoals",
+     "zh": "每天吃水果，例如："
+    },
+    {
+     "t": "10:45",
+     "nl": "Citroen, druiven.",
+     "zh": "檸檬、葡萄。"
+    },
+    {
+     "t": "10:52",
+     "nl": "Aardbeien, pinda's.",
+     "zh": "草莓、花生。"
+    },
+    {
+     "t": "10:58",
+     "nl": "Appel, pruim.",
+     "zh": "蘋果、李子。"
+    },
+    {
+     "t": "11:04",
+     "nl": "Noten, peer.",
+     "zh": "堅果、梨。"
+    },
+    {
+     "t": "11:12",
+     "nl": "Mandarijn, banaan.",
+     "zh": "橘子、香蕉。"
+    },
+    {
+     "t": "11:19",
+     "nl": "Kiwi, meloen.",
+     "zh": "奇異果、哈密瓜。"
+    },
+    {
+     "t": "11:23",
+     "nl": "Kersen, bosbessen.",
+     "zh": "櫻桃、藍莓。"
+    },
+    {
+     "t": "11:31",
+     "nl": "Appel, frambozen.",
+     "zh": "蘋果、覆盆子。"
+    },
+    {
+     "t": "11:37",
+     "nl": "Abrikoos, pitten.",
+     "zh": "杏子、籽。"
+    },
+    {
+     "t": "11:42",
+     "nl": "Sinaasappel.",
+     "zh": "柳橙。"
+    },
+    {
+     "t": "11:49",
+     "nl": "Vijg. Eet minder vlees.",
+     "zh": "無花果。少吃肉。"
+    },
+    {
+     "t": "11:53",
+     "nl": "Eet voedsel van granen, die niet helemaal fijn gemaakt zijn.",
+     "zh": "吃沒有完全精製的穀物食物。"
+    },
+    {
+     "t": "11:59",
+     "nl": "Dat heet volkoren.",
+     "zh": "這叫全穀類。"
+    },
+    {
+     "t": "12:08",
+     "nl": "De schijf van vijf laat zien wat je lichaam nodig heeft.",
+     "zh": "五大類飲食建議顯示你的身體所需。"
+    },
+    {
+     "t": "12:11",
+     "nl": "Groente en fruit.",
+     "zh": "蔬菜和水果。"
+    },
+    {
+     "t": "12:16",
+     "nl": "Smeer- en bereidingsvetten.",
+     "zh": "抹塗和烹飪用油脂。"
+    },
+    {
+     "t": "12:22",
+     "nl": "Vis, pulse, vlees.",
+     "zh": "魚、豆類、肉。"
+    },
+    {
+     "t": "12:27",
+     "nl": "Ei, zuivel en noten.",
+     "zh": "蛋、乳製品和堅果。"
+    },
+    {
+     "t": "12:35",
+     "nl": "Brood, graanproducten en aardappel.",
+     "zh": "麵包、穀物製品和馬鈴薯。"
+    },
+    {
+     "t": "12:49",
+     "nl": "Dranken.",
+     "zh": "飲料。"
+    },
+    {
+     "t": "12:55",
+     "nl": "Stress. Stress betekent spanning.",
+     "zh": "壓力。壓力意味著緊張。"
+    },
+    {
+     "t": "13:00",
+     "nl": "Van veel spanning krijg je problemen.",
+     "zh": "過多的緊張會引起問題。"
+    },
+    {
+     "t": "13:11",
+     "nl": "Bijvoorbeeld slecht slapen of hoofdpijn.",
+     "zh": "例如睡不好或頭痛。"
+    },
+    {
+     "t": "13:14",
+     "nl": "Omgaan met stress.",
+     "zh": "面對壓力。"
+    },
+    {
+     "t": "13:20",
+     "nl": "Het is goed om iets te doen als je stress hebt.",
+     "zh": "有壓力時做點什麼很好。"
+    },
+    {
+     "t": "13:23",
+     "nl": "Bijvoorbeeld sporten.",
+     "zh": "例如運動。"
+    },
+    {
+     "t": "13:28",
+     "nl": "Op tijd naar bed gaan en op tijd uit bed komen.",
+     "zh": "準時睡覺和起床。"
+    },
+    {
+     "t": "13:31",
+     "nl": "Naar de markt gaan.",
+     "zh": "去市場。"
+    },
+    {
+     "t": "13:36",
+     "nl": "Muziek maken, kleding maken.",
+     "zh": "做音樂，做衣服。"
+    },
+    {
+     "t": "13:40",
+     "nl": "Koken, fiets.",
+     "zh": "煮飯、騎腳踏車。"
+    },
+    {
+     "t": "13:46",
+     "nl": "Door het park wandelen.",
+     "zh": "在公園散步。"
+    },
+    {
+     "t": "13:50",
+     "nl": "Mijn hoofd zit vol.",
+     "zh": "我腦袋好滿。"
+    },
+    {
+     "t": "13:58",
+     "nl": "Heb je heel veel stress? Kan je niet stoppen met denken?",
+     "zh": "你壓力很大嗎？停不下來思考嗎？"
+    },
+    {
+     "t": "14:03",
+     "nl": "Lig je ’s nachts veel wakker?",
+     "zh": "你晚上常常睡不著嗎？"
+    },
+    {
+     "t": "14:06",
+     "nl": "Praat met anderen.",
+     "zh": "和別人談談。"
+    },
+    {
+     "t": "14:14",
+     "nl": "Praat met familie, vrienden of met de huisarts.",
+     "zh": "與家人、朋友或家庭醫師談話。"
+    },
+    {
+     "t": "14:21",
+     "nl": "Roken, alcohol en drugs.",
+     "zh": "抽菸、喝酒和毒品。"
+    },
+    {
+     "t": "14:28",
+     "nl": "Alcohol.",
+     "zh": "酒精。"
+    },
+    {
+     "t": "14:31",
+     "nl": "Wiet, drugs en sigaretten zijn ...",
+     "zh": "大麻、毒品和香菸是……"
+    },
+    {
+     "t": "14:38",
+     "nl": "Doe voorzichtig. Ook kost het veel geld.",
+     "zh": "請小心，也很花錢。"
+    },
+    {
+     "t": "14:43",
+     "nl": "Je hebt dan geen geld om te eten of voor je familie te zorgen.",
+     "zh": "那時你就沒有錢吃飯或照顧家人了。"
+    },
+    {
+     "t": "15:02",
+     "nl": "Ben je zwanger? Leef gezond.",
+     "zh": "你懷孕了嗎？健康生活。"
+    },
+    {
+     "t": "15:08",
+     "nl": "Beweeg, maar neem ook rust.",
+     "zh": "運動，但也要休息。"
+    },
+    {
+     "t": "15:11",
+     "nl": "Ga naar een verloskundige bij jou in de buurt.",
+     "zh": "找你附近的助產士。"
+    },
+    {
+     "t": "15:17",
+     "nl": "De verloskundige kijkt of alles goed gaat.",
+     "zh": "助產士會檢查一切是否順利。"
+    },
+    {
+     "t": "15:28",
+     "nl": "Het consultatiebureau is voor ouders met kinderen jonger dan vijf jaar.",
+     "zh": "育兒諮詢中心是給有五歲以下小孩的父母。"
+    },
+    {
+     "t": "15:36",
+     "nl": "Bij het consultatiebureau kan je dingen vragen over je kind.",
+     "zh": "在諮詢中心可以問關於孩子的事情。"
+    },
+    {
+     "t": "15:42",
+     "nl": "Bijvoorbeeld over eten, drinken, slapen en lopen.",
+     "zh": "例如關於吃飯、喝水、睡覺和走路。"
+    },
+    {
+     "t": "15:49",
+     "nl": "Ze kijken of je kindje goed groeit.",
+     "zh": "他們會查看你的孩子是否健康成長。"
+    },
+    {
+     "t": "15:57",
+     "nl": "Meisjes en jongens gaan in Nederland samen naar school.",
+     "zh": "在荷蘭，男孩和女孩一起上學。"
+    },
+    {
+     "t": "16:02",
+     "nl": "Ze zitten samen in de klas.",
+     "zh": "他們坐在同一個教室。"
+    },
+    {
+     "t": "16:07",
+     "nl": "Ze praten, spelen en sporten met elkaar.",
+     "zh": "他們一起聊天、玩耍和運動。"
+    },
+    {
+     "t": "16:12",
+     "nl": "In Nederland is het gewoon dat jongens en meisjes vrienden",
+     "zh": "在荷蘭，男孩和女孩當朋友是很平常的事。"
+    },
+    {
+     "t": "16:18",
+     "nl": "zijn. Relaties.",
+     "zh": "是。關係。"
+    },
+    {
+     "t": "16:23",
+     "nl": "Trouwen kan als je 18 jaar bent.",
+     "zh": "你滿18歲就可以結婚。"
+    },
+    {
+     "t": "16:29",
+     "nl": "In Nederland trouwen mannen ook met mannen.",
+     "zh": "在荷蘭，男人也能和男人結婚。"
+    },
+    {
+     "t": "16:33",
+     "nl": "En vrouwen met vrouwen. Je mag je partner zelf kiezen.",
+     "zh": "女人也能和女人結婚。你可以自己選擇伴侶。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "huisarts",
+     "zh": "家庭醫生"
+    },
+    {
+     "nl": "doktersassistent",
+     "zh": "醫生助理"
+    },
+    {
+     "nl": "afspraak",
+     "zh": "約診"
+    },
+    {
+     "nl": "huisartsenpost",
+     "zh": "家庭醫生診所"
+    },
+    {
+     "nl": "verwijsbrief",
+     "zh": "轉診信"
+    },
+    {
+     "nl": "specialist",
+     "zh": "專科醫生"
+    },
+    {
+     "nl": "alarmbel",
+     "zh": "緊急電話"
+    },
+    {
+     "nl": "medicijnen",
+     "zh": "藥物"
+    },
+    {
+     "nl": "apotheek",
+     "zh": "藥局"
+    },
+    {
+     "nl": "drogist",
+     "zh": "藥妝店"
+    },
+    {
+     "nl": "tandarts",
+     "zh": "牙醫"
+    },
+    {
+     "nl": "zorgverzekering",
+     "zh": "健康保險"
+    },
+    {
+     "nl": "gezond",
+     "zh": "健康的"
+    },
+    {
+     "nl": "eten",
+     "zh": "飲食"
+    },
+    {
+     "nl": "stress",
+     "zh": "壓力"
+    },
+    {
+     "nl": "consultatiebureau",
+     "zh": "育兒諮詢中心"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ben je ziek? Ga naar je huisarts.",
+     "zh": "你生病了嗎？去看你的家庭醫生。",
+     "note": "詢問健康狀況並給予建議"
+    },
+    {
+     "nl": "Bel je huisarts om een afspraak te maken.",
+     "zh": "打電話給你的家庭醫生預約。",
+     "note": "如何預約看診"
+    },
+    {
+     "nl": "Soms geeft de huisarts jou een brief mee.",
+     "zh": "有時家庭醫生會給你一封信。",
+     "note": "提到轉診信的用途"
+    },
+    {
+     "nl": "Bel 112 als er groot gevaar is.",
+     "zh": "如果有重大危險，請撥打112。",
+     "note": "緊急情況下的聯絡方式"
+    },
+    {
+     "nl": "Eet veel groenten zoals aardappelen, knoflook.",
+     "zh": "多吃蔬菜，例如馬鈴薯和大蒜。",
+     "note": "健康飲食的建議"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

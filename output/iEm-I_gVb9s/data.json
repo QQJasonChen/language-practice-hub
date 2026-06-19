@@ -1,0 +1,446 @@
+{
+  "video_id": "iEm-I_gVb9s",
+  "video_info": {
+    "title": "Luisteren examen A2 (nieuw systeem) 3 vragen",
+    "channel": "Inburgeren examen A2",
+    "duration": 328
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Mario luistert naar de radio. Hij hoort een bericht over files.",
+        "translation": "馬里奧正在收聽廣播。他聽到一則關於塞車的消息。",
+        "start": 0.0,
+        "end": 5.66
+      },
+      {
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "先讀問題。然後聽文本內容。",
+        "start": 6.94,
+        "end": 10.74
+      },
+      {
+        "text": "En dan nu de files.",
+        "translation": "現在來看塞車情況。",
+        "start": 23.68,
+        "end": 26.38
+      },
+      {
+        "text": "Op de snelweg A2 tussen Amsterdam en Utrecht staat vijf kilometer file.",
+        "translation": "在阿姆斯特丹和烏特勒支之間的A2高速公路上有五公里的塞車。",
+        "start": 27.56,
+        "end": 32.62
+      },
+      {
+        "text": "De oorzaak is een ongeluk met drie auto's.",
+        "translation": "原因是一宗涉及三輛車的事故。",
+        "start": 34.08,
+        "end": 37.2
+      },
+      {
+        "text": "Bij Rotterdam op de snelweg A4 naar Delft staat een kapotte vrachtwagen.",
+        "translation": "在鹿特丹，通往代爾夫特的A4高速公路上有一輛壞掉的貨車。",
+        "start": 38.96,
+        "end": 43.38
+      },
+      {
+        "text": "Daarom staat er nu een file van vier kilometer.",
+        "translation": "所以現在有四公里的塞車。",
+        "start": 44.98,
+        "end": 47.42
+      },
+      {
+        "text": "Over een half uur zal het verkeer weer kunnen doorrijden.",
+        "translation": "半小時後交通會恢復通行。",
+        "start": 48.84,
+        "end": 51.4
+      },
+      {
+        "text": "De laatste file staat op de A50 bij Apeldoorn.",
+        "translation": "最後一處塞車在阿佩爾多爾恩附近的A50高速公路上。",
+        "start": 53.04,
+        "end": 56.8
+      },
+      {
+        "text": "Daar is een vrachtwagen met eieren omgevallen.",
+        "translation": "有一輛載著雞蛋的貨車翻覆了。",
+        "start": 58.14,
+        "end": 60.32
+      },
+      {
+        "text": "De vrachtwagen en de eieren liggen op de weg. De weg wordt nu schoongemaakt.",
+        "translation": "貨車和雞蛋散落在路上。現在路面正在清理中。",
+        "start": 62.0,
+        "end": 67.22
+      },
+      {
+        "text": "Er staat een file van tien kilometer.",
+        "translation": "有十分鐘的塞車長度。",
+        "start": 68.54,
+        "end": 70.58
+      },
+      {
+        "text": "Ten slotte nog een bericht voor mensen die met de trein reizen.",
+        "translation": "最後還有一則給搭火車旅行者的消息。",
+        "start": 72.68,
+        "end": 75.66
+      },
+      {
+        "text": "Tussen de stations Arnhem en Utrecht rijden geen treinen.",
+        "translation": "阿納姆和烏特勒支車站之間沒有火車行駛。",
+        "start": 77.56,
+        "end": 80.82
+      },
+      {
+        "text": "U kunt met de NS-bussen reizen. Tot zover de files.",
+        "translation": "您可以搭乘NS巴士。以上就是塞車報告。",
+        "start": 81.82,
+        "end": 86.92
+      },
+      {
+        "text": "Hoelang is de file op de snelweg A2 tussen Amsterdam en Utrecht?",
+        "translation": "阿姆斯特丹和烏特勒支之間的A2高速公路塞車多長？",
+        "start": 89.32,
+        "end": 95.62
+      },
+      {
+        "text": "Vier kilometer. Vijf kilometer. Zes kilometer.",
+        "translation": "四公里。五公里。六公里。",
+        "start": 96.18,
+        "end": 100.9
+      },
+      {
+        "text": "Mario luistert naar de radio. Hij hoort een bericht over files.",
+        "translation": "馬里奧正在收聽廣播。他聽到一則關於塞車的消息。",
+        "start": 109.8,
+        "end": 115.6
+      },
+      {
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "先讀問題。然後聽文本內容。",
+        "start": 116.88,
+        "end": 120.32
+      },
+      {
+        "text": "En dan nu de files.",
+        "translation": "現在來看塞車情況。",
+        "start": 133.76,
+        "end": 136.3
+      },
+      {
+        "text": "Op de snelweg A2 tussen Amsterdam en Utrecht staat vijf kilometer file.",
+        "translation": "在阿姆斯特丹和烏特勒支之間的A2高速公路上有五公里的塞車。",
+        "start": 138.0,
+        "end": 142.56
+      },
+      {
+        "text": "De oorzaak is een ongeluk met drie auto's.",
+        "translation": "原因是一宗涉及三輛車的事故。",
+        "start": 144.0,
+        "end": 147.14
+      },
+      {
+        "text": "Bij Rotterdam op de snelweg A3 is er een ongeluk met drie auto's. Op de snelweg A4 naar Delft staat een kapotte vrachtwagen.",
+        "translation": "在鹿特丹的A3高速公路發生了三車相撞事故。在通往代爾夫特的A4高速公路上有一輛壞掉的貨車。",
+        "start": 148.8,
+        "end": 153.5
+      },
+      {
+        "text": "Daarom staat er nu een file van vier kilometer.",
+        "translation": "所以現在有四公里的塞車。",
+        "start": 154.9,
+        "end": 157.34
+      },
+      {
+        "text": "Over een half uur zal het verkeer weer kunnen doorrijden.",
+        "translation": "半小時後交通會恢復通行。",
+        "start": 158.78,
+        "end": 161.32
+      },
+      {
+        "text": "De laatste file staat op de A50 bij Apeldoorn.",
+        "translation": "最後一處塞車在阿佩爾多爾恩附近的A50高速公路上。",
+        "start": 163.48,
+        "end": 166.44
+      },
+      {
+        "text": "Daar is een vrachtwagen met eieren omgevallen.",
+        "translation": "有一輛載著雞蛋的貨車翻覆了。",
+        "start": 168.02,
+        "end": 170.24
+      },
+      {
+        "text": "De vrachtwagen en de eieren liggen op de weg. De weg wordt nu schoongemaakt.",
+        "translation": "貨車和雞蛋散落在路上。現在路面正在清理中。",
+        "start": 171.92,
+        "end": 177.12
+      },
+      {
+        "text": "Er staat een file van tien kilometer.",
+        "translation": "有十分鐘的塞車長度。",
+        "start": 177.12,
+        "end": 180.6
+      },
+      {
+        "text": "Ten slotte nog een bericht voor mensen die met de trein reizen.",
+        "translation": "最後還有一則給搭火車旅行者的消息。",
+        "start": 182.76,
+        "end": 185.62
+      },
+      {
+        "text": "Tussen de stations Arnhem en Utrecht rijden geen treinen.",
+        "translation": "阿納姆和烏特勒支車站之間沒有火車行駛。",
+        "start": 187.48,
+        "end": 190.8
+      },
+      {
+        "text": "U kunt met de NS-bussen reizen. Tot zover de files.",
+        "translation": "您可以搭乘NS巴士。以上就是塞車報告。",
+        "start": 192.12,
+        "end": 196.86
+      },
+      {
+        "text": "Waarom staat er een file op de snelweg A4 bij Rotterdam?",
+        "translation": "為什麼鹿特丹的A4高速公路上會有塞車？",
+        "start": 199.64,
+        "end": 203.98
+      },
+      {
+        "text": "Er is een ongeluk gebeurd met drie auto's.",
+        "translation": "因為發生了三車相撞的事故。",
+        "start": 203.98,
+        "end": 207.32
+      },
+      {
+        "text": "Er wordt aan de weg gewerkt. Er staat een kapotte vrachtwagen.",
+        "translation": "正在進行道路施工，有一輛壞掉的貨車停在路上。",
+        "start": 207.94,
+        "end": 211.94
+      },
+      {
+        "text": "Mario luistert naar de radio. Hij hoort een bericht over files.",
+        "translation": "馬里奧正在收聽廣播。他聽到一則關於塞車的消息。",
+        "start": 220.2,
+        "end": 225.68
+      },
+      {
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "先讀問題。然後聽文本內容。",
+        "start": 226.94,
+        "end": 230.4
+      },
+      {
+        "text": "En dan nu de files.",
+        "translation": "現在來看塞車情況。",
+        "start": 244.02,
+        "end": 246.4
+      },
+      {
+        "text": "Op de snelweg A2 tussen Amsterdam en Utrecht staat vijf kilometer file.",
+        "translation": "在阿姆斯特丹和烏特勒支之間的A2高速公路上有五公里的塞車。",
+        "start": 248.12,
+        "end": 252.66
+      },
+      {
+        "text": "De oorzaak is een ongeluk met drie auto's.",
+        "translation": "原因是一宗涉及三輛車的事故。",
+        "start": 254.08,
+        "end": 257.42
+      },
+      {
+        "text": "Bij Rotterdam op de snelweg A4 naar Delft staat een kapotte vrachtwagen.",
+        "translation": "在鹿特丹，通往代爾夫特的A4高速公路上有一輛壞掉的貨車。",
+        "start": 258.92,
+        "end": 263.54
+      },
+      {
+        "text": "Er is een ongeluk gebeurd met drie auto's. Daarom staat er nu een file van vier kilometer.",
+        "translation": "發生了三車事故。所以現在有四公里的塞車。",
+        "start": 263.84,
+        "end": 266.96
+      },
+      {
+        "text": "Over een half uur zal het verkeer weer kunnen doorrijden.",
+        "translation": "半小時後交通會恢復通行。",
+        "start": 268.88,
+        "end": 271.44
+      },
+      {
+        "text": "De laatste file staat op de A50 bij Apeldoorn.",
+        "translation": "最後一處塞車在阿佩爾多爾恩附近的A50高速公路上。",
+        "start": 273.64,
+        "end": 275.96
+      },
+      {
+        "text": "Daar is een vrachtwagen met eieren omgevallen.",
+        "translation": "有一輛載著雞蛋的貨車翻覆了。",
+        "start": 278.12,
+        "end": 280.34
+      },
+      {
+        "text": "De vrachtwagen en de eieren liggen op de weg. De weg wordt nu schoongemaakt.",
+        "translation": "貨車和雞蛋散落在路上。現在路面正在清理中。",
+        "start": 282.02,
+        "end": 287.24
+      },
+      {
+        "text": "Er staat een file van tien kilometer.",
+        "translation": "有十分鐘的塞車長度。",
+        "start": 288.54,
+        "end": 289.96
+      },
+      {
+        "text": "Ten slotte nog een bericht voor mensen die met de trein reizen.",
+        "translation": "最後還有一則給搭火車旅行者的消息。",
+        "start": 292.06,
+        "end": 295.98
+      },
+      {
+        "text": "Tussen de stations Arnhem en Utrecht rijden geen treinen.",
+        "translation": "阿納姆和烏特勒支車站之間沒有火車行駛。",
+        "start": 297.52,
+        "end": 300.9
+      },
+      {
+        "text": "U kunt met de NS-bussen reizen. Tot zover de files.",
+        "translation": "您可以搭乘NS巴士。以上就是塞車報告。",
+        "start": 302.22,
+        "end": 306.9
+      },
+      {
+        "text": "Mario wil met de trein van Arnhem naar Utrecht.",
+        "translation": "馬里奧想搭火車從阿納姆到烏特勒支。",
+        "start": 309.68,
+        "end": 313.46
+      },
+      {
+        "text": "Wat kan hij het beste doen? Via Apeldoorn reizen.",
+        "translation": "他最好的做法是什麼？透過阿珀爾多倫旅行。",
+        "start": 314.8,
+        "end": 318.3
+      },
+      {
+        "text": "Met de NS-bus reizen. Met een taxi reizen.",
+        "translation": "搭NS巴士旅行。搭計程車旅行。",
+        "start": 318.3,
+        "end": 322.26
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat is de oorzaak van de file op de A2 tussen Amsterdam en Utrecht?",
+        "question_native": "阿姆斯特丹和烏特勒支之間的A2高速公路塞車的原因是什麼？",
+        "options": [
+          "Een ongeluk met drie auto's",
+          "Een kapotte vrachtwagen",
+          "Wegwerkzaamheden"
+        ],
+        "answer": "Een ongeluk met drie auto's"
+      },
+      {
+        "question": "Hoe lang is de file op de snelweg A4 bij Rotterdam?",
+        "question_native": "鹿特丹的A4高速公路上塞車長度是多少？",
+        "options": [
+          "Vier kilometer",
+          "Vijf kilometer",
+          "Tien kilometer"
+        ],
+        "answer": "Vier kilometer"
+      },
+      {
+        "question": "Wat kunnen treinreizigers doen tussen Arnhem en Utrecht nu er geen treinen rijden?",
+        "question_native": "阿納姆和烏特勒支之間沒有火車時，火車乘客可以怎麼做？",
+        "options": [
+          "Met de NS-bussen reizen",
+          "Een taxi nemen",
+          "Wachten tot de treinen rijden"
+        ],
+        "answer": "Met de NS-bussen reizen"
+      },
+      {
+        "question": "Wat ligt er op de weg bij de laatste file op de A50 bij Apeldoorn?",
+        "question_native": "阿佩爾多爾恩附近A50高速公路最後一處塞車的路上有什麼東西？",
+        "options": [
+          "Een omgevallen vrachtwagen en eieren",
+          "Wegwerkzaamheden",
+          "Een ongeluk met drie auto's"
+        ],
+        "answer": "Een omgevallen vrachtwagen en eieren"
+      },
+      {
+        "question": "Hoe lang duurt het volgens het bericht voordat het verkeer weer kan doorrijden?",
+        "question_native": "根據消息，交通多久後能恢復通行？",
+        "options": [
+          "Over een half uur",
+          "Over een uur",
+          "Over tien minuten"
+        ],
+        "answer": "Over een half uur"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "file",
+        "meaning": "塞車"
+      },
+      {
+        "word": "ongeluk",
+        "meaning": "事故"
+      },
+      {
+        "word": "vrachtwagen",
+        "meaning": "貨車"
+      },
+      {
+        "word": "kapotte",
+        "meaning": "壞掉的"
+      },
+      {
+        "word": "snelweg",
+        "meaning": "高速公路"
+      },
+      {
+        "word": "verkeer",
+        "meaning": "交通"
+      },
+      {
+        "word": "rijden",
+        "meaning": "駕駛，行駛"
+      },
+      {
+        "word": "bericht",
+        "meaning": "消息"
+      },
+      {
+        "word": "stations",
+        "meaning": "車站"
+      },
+      {
+        "word": "treinen",
+        "meaning": "火車"
+      },
+      {
+        "word": "NS-bussen",
+        "meaning": "荷蘭國鐵巴士"
+      },
+      {
+        "word": "schoongemaakt",
+        "meaning": "清理"
+      },
+      {
+        "word": "eieren",
+        "meaning": "雞蛋"
+      },
+      {
+        "word": "weg",
+        "meaning": "道路"
+      },
+      {
+        "word": "half uur",
+        "meaning": "半小時"
+      }
+    ]
+  }
+}

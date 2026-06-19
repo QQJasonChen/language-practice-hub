@@ -1,0 +1,631 @@
+1
+00:00:00,000 --> 00:00:01,880
+Naar de markt.
+
+2
+00:00:03,420 --> 00:00:05,420
+Dit is Leo, hij is 62 jaar.
+
+3
+00:00:06,580 --> 00:00:09,240
+Vandaag is het markt en Leo gaat er iedere week naartoe.
+
+4
+00:00:10,240 --> 00:00:12,060
+Het is er altijd gezellig met al die mensen.
+
+5
+00:00:13,000 --> 00:00:15,340
+Maar Leo gaat er ook naartoe vanwege de prijzen.
+
+6
+00:00:15,940 --> 00:00:17,240
+Het kan vele euro's schelen.
+
+7
+00:00:18,640 --> 00:00:21,140
+Leo gaat altijd naar dezelfde kraam voor zijn fruit en groente.
+
+8
+00:00:22,020 --> 00:00:23,460
+Dagvers en goedkoop.
+
+9
+00:00:24,560 --> 00:00:26,020
+Op zijn boodschappenlijst staan
+
+10
+00:00:26,020 --> 00:00:30,580
+tomaten, uien, komkommer en sla.
+
+11
+00:00:31,920 --> 00:00:33,380
+Anders nog iets? vraagt de groenteman.
+
+12
+00:00:34,280 --> 00:00:35,680
+Nee, Leo heeft alles.
+
+13
+00:00:36,920 --> 00:00:40,000
+Daarna gaat hij naar de kaasboer voor een stuk lekkere oude kaas.
+
+14
+00:00:40,740 --> 00:00:41,920
+Wat kost dat? vraagt Leo.
+
+15
+00:00:42,420 --> 00:00:43,440
+Het kost 5 euro.
+
+16
+00:00:45,080 --> 00:00:47,120
+Op de markt is ook veel kleding te koop.
+
+17
+00:00:47,360 --> 00:00:48,880
+Maar dat vindt Leo niet zo interessant.
+
+18
+00:00:50,620 --> 00:00:52,320
+Leo eindigt altijd bij de visboer.
+
+19
+00:00:52,420 --> 00:00:53,460
+Hij vindt vis heerlijk.
+
+20
+00:00:53,460 --> 00:00:57,460
+Voor 2 euro een heerlijke verse haring met uitjes.
+
+21
+00:00:58,580 --> 00:01:00,640
+En die verdwijnt meteen in zijn mond.
+
+22
+00:01:08,920 --> 00:01:11,220
+Luister en klik op het goede antwoord.
+
+23
+00:01:11,640 --> 00:01:12,320
+De aardappel.
+
+24
+00:01:18,080 --> 00:01:18,940
+De appel.
+
+25
+00:01:25,060 --> 00:01:26,460
+De banaan.
+
+26
+00:01:30,080 --> 00:01:31,480
+De bloemkool.
+
+27
+00:01:35,460 --> 00:01:36,300
+De euro.
+
+28
+00:01:41,980 --> 00:01:42,520
+De haring.
+
+29
+00:01:48,460 --> 00:01:49,160
+De kaas.
+
+30
+00:01:56,820 --> 00:01:58,220
+De komkommer.
+
+31
+00:02:00,480 --> 00:02:01,740
+De mandarijn.
+
+32
+00:02:06,800 --> 00:02:08,000
+De wortel.
+
+33
+00:02:13,020 --> 00:02:14,540
+De prei.
+
+34
+00:02:19,460 --> 00:02:20,180
+De sla.
+
+35
+00:02:28,520 --> 00:02:29,920
+De tomaat.
+
+36
+00:02:33,780 --> 00:02:35,820
+De ui.
+
+37
+00:02:39,780 --> 00:02:41,360
+De appel.
+
+38
+00:02:50,180 --> 00:02:52,020
+De bloemkool.
+
+39
+00:03:02,900 --> 00:03:04,300
+De banaan.
+
+40
+00:03:10,860 --> 00:03:12,260
+De euro.
+
+41
+00:03:16,980 --> 00:03:18,620
+De wortel.
+
+42
+00:03:28,460 --> 00:03:29,860
+De mandarijn.
+
+43
+00:03:32,560 --> 00:03:33,940
+De prei.
+
+44
+00:03:39,660 --> 00:03:41,180
+De tomaat.
+
+45
+00:03:48,320 --> 00:03:49,940
+De ui.
+
+46
+00:04:03,440 --> 00:04:04,000
+De ui.
+
+47
+00:04:06,800 --> 00:04:08,140
+Klik op het oor en luister.
+
+48
+00:04:08,600 --> 00:04:10,240
+Goedemorgen meneer, kan ik u helpen?
+
+49
+00:04:11,080 --> 00:04:13,340
+Goedemorgen, jazeker kunt u mij helpen.
+
+50
+00:04:13,620 --> 00:04:15,420
+Even kijken, waar heb ik mijn boodschappenlijstje?
+
+51
+00:04:16,400 --> 00:04:17,500
+Ah, hier is het.
+
+52
+00:04:31,020 --> 00:04:36,580
+Doet u maar twee kilo tomaten.
+
+53
+00:04:37,460 --> 00:04:39,000
+Twee kilo tomaten, goed meneer.
+
+54
+00:04:39,320 --> 00:04:39,780
+Anders nog iets.
+
+55
+00:04:43,280 --> 00:04:45,160
+Doet u maar twee kilo tomaten.
+
+56
+00:04:46,240 --> 00:04:47,480
+Twee kilo tomaten, goed meneer.
+
+62
+00:04:47,500 --> 00:04:48,560
+Anders nog iets.
+
+63
+00:04:52,280 --> 00:04:53,080
+En een pond uien.
+
+64
+00:04:53,800 --> 00:04:56,280
+Of ja, ik weet niet, ik heb zes uien nodig.
+
+65
+00:04:57,560 --> 00:04:58,200
+Zes uien meneer.
+
+66
+00:04:58,560 --> 00:05:01,500
+Ik weeg ze voor u, zo, dat is 750 gram.
+
+67
+00:05:02,360 --> 00:05:03,120
+Ja, dat is wel goed.
+
+68
+00:05:05,660 --> 00:05:06,560
+En een pond uien.
+
+69
+00:05:07,280 --> 00:05:09,700
+Of ja, ik weet niet, ik heb zes uien nodig.
+
+70
+00:05:11,060 --> 00:05:11,660
+Zes uien meneer.
+
+71
+00:05:12,080 --> 00:05:15,240
+Ik weeg ze voor u, zo, dat is 750 gram.
+
+72
+00:05:15,820 --> 00:05:16,560
+Ja, dat is wel goed.
+
+73
+00:05:18,660 --> 00:05:19,620
+Anders nog iets.
+
+74
+00:05:20,660 --> 00:05:22,300
+Ja, wat verschillende groenten voor in de zoep.
+
+75
+00:05:22,920 --> 00:05:23,980
+Welke groenten moet ik dan nemen?
+
+76
+00:05:24,700 --> 00:05:26,520
+Zo, dus u gaat groentensoep maken?
+
+77
+00:05:27,480 --> 00:05:29,580
+Nee, geen groentensoep, maar tomatensoep.
+
+78
+00:05:30,000 --> 00:05:31,140
+Maar ik wil wel groenten er in.
+
+79
+00:05:31,720 --> 00:05:32,740
+Welke groenten zal ik dan nemen?
+
+80
+00:05:35,860 --> 00:05:36,540
+Anders nog iets.
+
+81
+00:05:37,580 --> 00:05:39,280
+Ja, wat verschillende groenten voor in de soep.
+
+82
+00:05:40,020 --> 00:05:40,920
+Welke groenten moet ik dan nemen?
+
+83
+00:05:41,860 --> 00:05:43,500
+Zo, dus u gaat groentensoep maken?
+
+84
+00:05:44,460 --> 00:05:46,520
+Nee, geen groentensoep, maar tomatensoep.
+
+85
+00:05:46,520 --> 00:05:48,120
+Maar ik wil wel groenten erin.
+
+86
+00:05:48,720 --> 00:05:49,720
+Welke groenten zal ik dan nemen?
+
+87
+00:05:51,720 --> 00:05:53,320
+Tja, bloemkool.
+
+88
+00:05:56,900 --> 00:05:58,080
+Tja, bloemkool.
+
+89
+00:06:00,880 --> 00:06:00,980
+Prei.
+
+90
+00:06:03,900 --> 00:06:04,260
+Prei.
+
+91
+00:06:06,440 --> 00:06:08,600
+Wortelen, dat zijn lekkere groenten voor in de soep.
+
+92
+00:06:11,040 --> 00:06:13,600
+Wortelen, dat zijn lekkere groenten voor in de soep.
+
+93
+00:06:15,640 --> 00:06:17,180
+Nou, doet u dat dan maar allemaal.
+
+94
+00:06:17,540 --> 00:06:18,120
+Dat klinkt goed.
+
+95
+00:06:18,340 --> 00:06:19,240
+En hoeveel krijgt u van me?
+
+96
+00:06:20,260 --> 00:06:20,800
+Eens even kijken.
+
+97
+00:06:20,920 --> 00:06:23,100
+U heeft tomaten, uien, bloemkool.
+
+98
+00:06:25,500 --> 00:06:26,760
+Nou, doet u dat dan maar allemaal.
+
+99
+00:06:27,200 --> 00:06:27,780
+Dat klinkt goed.
+
+100
+00:06:28,040 --> 00:06:28,880
+En hoeveel krijgt u van me?
+
+101
+00:06:29,900 --> 00:06:30,420
+Eens even kijken.
+
+102
+00:06:30,620 --> 00:06:32,740
+U heeft tomaten, uien, bloemkool.
+
+103
+00:06:35,160 --> 00:06:36,320
+O, wacht, ik vergeet wat.
+
+104
+00:06:36,720 --> 00:06:36,960
+Knoflook.
+
+105
+00:06:37,160 --> 00:06:37,760
+Hebt u knoflook?
+
+106
+00:06:38,680 --> 00:06:39,780
+Natuurlijk heb ik knoflook.
+
+107
+00:06:40,140 --> 00:06:40,920
+Is deze groot genoeg?
+
+108
+00:06:41,520 --> 00:06:42,260
+Ja, prima hoor.
+
+109
+00:06:42,480 --> 00:06:43,320
+Nu heb ik echt alles.
+
+110
+00:06:46,940 --> 00:06:48,440
+O, wacht, ik vergeet wat.
+
+111
+00:06:48,780 --> 00:06:49,020
+Knoflook.
+
+112
+00:06:49,180 --> 00:06:49,840
+Hebt u knoflook?
+
+113
+00:06:50,720 --> 00:06:51,860
+Natuurlijk heb ik knoflook.
+
+114
+00:06:52,220 --> 00:06:53,020
+Is deze groot genoeg?
+
+115
+00:06:53,640 --> 00:06:54,340
+Ja, prima hoor.
+
+116
+00:06:54,540 --> 00:06:55,420
+Nu heb ik echt alles.
+
+117
+00:06:57,840 --> 00:07:00,300
+Goed, dan wordt het bij elkaar...
+
+118
+00:07:00,360 --> 00:07:01,240
+11,60 euro.
+
+119
+00:07:02,500 --> 00:07:03,900
+Nou, dat is zeker niet duur.
+
+120
+00:07:04,300 --> 00:07:04,820
+Kijk u eens.
+
+121
+00:07:04,940 --> 00:07:05,540
+12 euro.
+
+122
+00:07:06,900 --> 00:07:07,220
+Dank u wel.
+
+123
+00:07:07,440 --> 00:07:08,540
+En 40 cent terug voor u.
+
+124
+00:07:08,880 --> 00:07:10,400
+En eet smakelijk vanavond.
+
+125
+00:07:11,000 --> 00:07:11,820
+Ja, dank u wel hoor.
+
+126
+00:07:12,060 --> 00:07:12,400
+Tot ziens.
+
+127
+00:07:13,040 --> 00:07:13,300
+Tot ziens.
+
+128
+00:07:31,480 --> 00:07:34,860
+Kan ik u helpen?
+
+129
+00:07:39,480 --> 00:07:40,000
+Kan ik u helpen?
+
+130
+00:07:41,960 --> 00:07:43,280
+Sinterklaas,
+
+144
+00:07:43,280 --> 00:07:45,960
+waar heb ik mijn boodschappenlijstje?
+
+145
+00:07:54,600 --> 00:07:56,580
+Doet u maar 2 kilo tomaten.
+
+146
+00:08:01,880 --> 00:08:03,820
+Doet u maar 2 kilo tomaten.
+
+147
+00:08:07,580 --> 00:08:08,200
+Anders nog iets?
+
+148
+00:08:12,340 --> 00:08:12,900
+Anders nog iets?
+
+149
+00:08:16,520 --> 00:08:17,100
+Hebt u knoflook?
+
+150
+00:08:19,000 --> 00:08:20,940
+Hebt u knoflook?
+
+151
+00:08:24,400 --> 00:08:25,980
+Nu heb ik echt alles.
+
+152
+00:08:33,100 --> 00:08:35,460
+Eet smakelijk!
+
+153
+00:08:41,460 --> 00:08:42,340
+Eet smakelijk!
+
+154
+00:08:45,420 --> 00:08:46,240
+Ja, dank u wel hoor.
+
+155
+00:08:51,520 --> 00:08:53,160
+Ja, dank u wel hoor.
+
+156
+00:08:54,740 --> 00:08:56,500
+Luister en klik op het goede antwoord.
+
+157
+00:08:57,020 --> 00:08:57,600
+Anders nog iets?
+
+158
+00:08:58,580 --> 00:09:00,340
+Ja, wat verschillende groenten voor in de soep.
+
+159
+00:09:00,980 --> 00:09:02,000
+Welke groenten moet ik dan nemen?
+
+160
+00:09:02,660 --> 00:09:04,540
+Zo, dus u gaat groentesoep maken?
+
+161
+00:09:05,540 --> 00:09:07,000
+Nee, geen groentesoep, maar tomatensoep.
+
+162
+00:09:08,060 --> 00:09:09,440
+Maar ik wil wel groenten erin.
+
+163
+00:09:09,760 --> 00:09:10,760
+Welke groenten zal ik dan nemen?
+
+164
+00:09:17,400 --> 00:09:22,320
+Tja, bloemkool, prei, wortelen, dat zijn lekkere groenten voor in de soep.
+
+165
+00:09:32,140 --> 00:09:33,620
+O, wacht, ik vergeet wat.
+
+166
+00:09:33,960 --> 00:09:35,020
+Knoflook, hebt u knoflook?
+
+167
+00:09:35,880 --> 00:09:37,020
+Natuurlijk heb ik knoflook.
+
+168
+00:09:37,380 --> 00:09:38,200
+Is deze groot genoeg?
+
+169
+00:09:38,800 --> 00:09:40,600
+Ja, prima hoor. Nu heb ik echt alles.
+
+170
+00:09:47,060 --> 00:09:50,480
+Goed, dan wordt het bij elkaar 11,60 euro.
+
+171
+00:09:51,640 --> 00:09:53,160
+Nou, dat is zeker niet duur.
+
+172
+00:09:53,560 --> 00:09:54,800
+Kijk dan eens, 12 euro.
+
+173
+00:09:56,080 --> 00:09:57,800
+Dank u wel en 40 cent terug voor u.
+
+174
+00:09:58,320 --> 00:09:59,860
+En eet smakelijk vanavond.
+
+175
+00:09:59,860 --> 00:10:01,700
+Ja, dank u wel hoor. Tot ziens.
+
+176
+00:10:02,280 --> 00:10:02,620
+Tot ziens.

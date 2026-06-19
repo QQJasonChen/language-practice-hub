@@ -1,0 +1,842 @@
+{
+  "video_id": "3EyfPWAy57w",
+  "video_info": {
+    "title": "Listening exam A2 Practice 4",
+    "channel": "Inburgeren examen A2",
+    "duration": 674
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Een nieuwe winkel. Eén.",
+        "translation": "一間新開的商店。一。",
+        "start": 0.0,
+        "end": 2.44
+      },
+      {
+        "text": "Kijk, een nieuwe winkel. Ja, die is vorige week geopend.",
+        "translation": "看，一間新商店。是的，上週開幕的。",
+        "start": 6.92,
+        "end": 11.92
+      },
+      {
+        "text": "Zullen we even binnenkijken? Ja, dat is goed.",
+        "translation": "我們去裡面看看嗎？好，沒問題。",
+        "start": 12.72,
+        "end": 16.9
+      },
+      {
+        "text": "Hebben ze ook schoenen? Ik heb nieuwe laarzen nodig.",
+        "translation": "他們也有鞋子嗎？我需要新的靴子。",
+        "start": 23.22,
+        "end": 27.08
+      },
+      {
+        "text": "Even kijken, hier hangt een bord. Schoenen.",
+        "translation": "看看，這裡有一個招牌。鞋子。",
+        "start": 28.26,
+        "end": 32.5
+      },
+      {
+        "text": "Ja, op de derde etage. Kom, dan gaan we naar boven.",
+        "translation": "是的，在三樓。來，我們上樓去。",
+        "start": 33.42,
+        "end": 38.36
+      },
+      {
+        "text": "Waar is de roltrap? Daar.",
+        "translation": "手扶梯在哪裡？那邊。",
+        "start": 39.24,
+        "end": 41.76
+      },
+      {
+        "text": "Hier staan de laarzen. Hoe vind je deze?",
+        "translation": "這裡是靴子。你覺得這雙怎麼樣？",
+        "start": 51.88,
+        "end": 55.64
+      },
+      {
+        "text": "Mooi, maar de hakken zijn te hoog. Daar kan ik niet op lopen.",
+        "translation": "漂亮，但是鞋跟太高了。我不能穿著走路。",
+        "start": 57.36,
+        "end": 61.86
+      },
+      {
+        "text": "Oh, en deze? Ja, leuk.",
+        "translation": "喔，那這雙呢？是的，很好看。",
+        "start": 63.34,
+        "end": 67.18
+      },
+      {
+        "text": "Welke maat is dat? Eh, 38.",
+        "translation": "這是什麼尺寸？嗯，38號。",
+        "start": 68.06,
+        "end": 71.7
+      },
+      {
+        "text": "Oh, die zijn te klein. Ik heb maat 39.",
+        "translation": "喔，太小了。我穿39號。",
+        "start": 72.46,
+        "end": 75.74
+      },
+      {
+        "text": "Even vragen aan de verkoper.",
+        "translation": "我要問問店員。",
+        "start": 77.26,
+        "end": 79.24
+      },
+      {
+        "text": "Meneer, heeft u deze laarzen ook in maat 39?",
+        "translation": "先生，您有這雙39號的靴子嗎？",
+        "start": 80.34,
+        "end": 84.12
+      },
+      {
+        "text": "Ik ga even voor u kijken.",
+        "translation": "我幫您去看看。",
+        "start": 85.42,
+        "end": 87.2
+      },
+      {
+        "text": "Alsjeblieft. Dank u wel. Mag ik ze even passen?",
+        "translation": "給您。謝謝。我可以試穿嗎？",
+        "start": 92.64,
+        "end": 96.98
+      },
+      {
+        "text": "Natuurlijk.",
+        "translation": "當然可以。",
+        "start": 98.86,
+        "end": 99.54
+      },
+      {
+        "text": "Hoe zitten ze? Prima.",
+        "translation": "穿起來怎麼樣？很合適。",
+        "start": 105.66,
+        "end": 108.88
+      },
+      {
+        "text": "En ze lopen lekker. Hoe duur zijn ze?",
+        "translation": "而且走起來很舒服。這多少錢？",
+        "start": 112.08,
+        "end": 115.02
+      },
+      {
+        "text": "49,95 euro. Oké, ik neem ze.",
+        "translation": "49.95歐元。好，我買了。",
+        "start": 117.74,
+        "end": 122.08
+      },
+      {
+        "text": "Hallo meneer, mag ik wat vragen? Ja, natuurlijk mevrouw. Wat kan ik voor u doen?",
+        "translation": "您好先生，我可以問您一個問題嗎？是的，當然，女士。請問我能為您做什麼？",
+        "start": 130.08,
+        "end": 135.34
+      },
+      {
+        "text": "Waar staat de koffie? Even kijken.",
+        "translation": "咖啡在哪裡？我看看。",
+        "start": 135.34,
+        "end": 138.92
+      },
+      {
+        "text": "De koffie staat naast het brood. Ja, waar precies?",
+        "translation": "咖啡在麵包旁邊。是的，確切位置在哪？",
+        "start": 140.06,
+        "end": 145.24
+      },
+      {
+        "text": "U gaat recht bij de groenten. U ziet eerst het brood.",
+        "translation": "您往蔬菜區右轉。先看到的是麵包。",
+        "start": 145.56,
+        "end": 149.42
+      },
+      {
+        "text": "En naast het brood staat de koffie. Ah, bedankt meneer. Graag gedaan. Dag mevrouw.",
+        "translation": "麵包旁邊就是咖啡。啊，謝謝您，先生。不客氣，女士，再見。",
+        "start": 149.98,
+        "end": 154.9
+      },
+      {
+        "text": "Dag.",
+        "translation": "再見。",
+        "start": 155.34,
+        "end": 155.62
+      },
+      {
+        "text": "Jasmine wil een bos bloemen kopen. Haar moeder is jarig.",
+        "translation": "Jasmine想買一束花。她媽媽生日了。",
+        "start": 160.32,
+        "end": 164.74
+      },
+      {
+        "text": "Ze gaat naar de markt. Daar zijn de bloemen.",
+        "translation": "她去市場。花在那裡。",
+        "start": 165.5,
+        "end": 169.64
+      },
+      {
+        "text": "De bloemen zijn niet duur. Twee bossen voor drie euro.",
+        "translation": "花不貴。兩束三歐元。",
+        "start": 170.7,
+        "end": 174.78
+      },
+      {
+        "text": "Ze koopt een mooie bos voor haar moeder. En ze koopt een bos voor haarzelf.",
+        "translation": "她買一束漂亮的花給媽媽。還有一束給自己。",
+        "start": 176.12,
+        "end": 181.08
+      },
+      {
+        "text": "Jasmine is blij met de bloemen. In de kledingzaak.",
+        "translation": "Jasmine對花很開心。在服裝店裡。",
+        "start": 182.96,
+        "end": 186.22
+      },
+      {
+        "text": "Een goedemorgen.",
+        "translation": "早安。",
+        "start": 187.28,
+        "end": 192.52
+      },
+      {
+        "text": "Hallo. Kan ik u helpen? Ja, ik zoek een jasje.",
+        "translation": "您好。我可以幫您嗎？是的，我在找一件外套。",
+        "start": 192.96,
+        "end": 196.4
+      },
+      {
+        "text": "Mijn zus gaat trouwen. Oh, wat leuk. Wanneer is het feest?",
+        "translation": "我妹妹要結婚。喔，真好。婚禮是哪一天？",
+        "start": 197.04,
+        "end": 200.5
+      },
+      {
+        "text": "12 juli. Dus u zoekt een jasje.",
+        "translation": "7月12日。所以您在找外套。",
+        "start": 200.9,
+        "end": 204.6
+      },
+      {
+        "text": "Welke kleur? Ik vind blauw een mooie kleur.",
+        "translation": "什麼顏色？我覺得藍色很好看。",
+        "start": 205.3,
+        "end": 209.54
+      },
+      {
+        "text": "Prima. Laten we eens kijken. Welke maat heeft u?",
+        "translation": "好，我們來看看。您穿什麼尺寸？",
+        "start": 209.82,
+        "end": 214.48
+      },
+      {
+        "text": "Meestal heb ik large. Wat vindt u van dit jasje?",
+        "translation": "我通常穿大號。您覺得這件外套如何？",
+        "start": 215.3,
+        "end": 220.56
+      },
+      {
+        "text": "De stof is katoen. En dat is niet zo warm in de zomer.",
+        "translation": "材質是棉。而且夏天不會太熱。",
+        "start": 221.12,
+        "end": 224.44
+      },
+      {
+        "text": "Ja, die is mooi. Mag ik het even passen?",
+        "translation": "是的，很漂亮。我可以試穿嗎？",
+        "start": 225.86,
+        "end": 229.42
+      },
+      {
+        "text": "Het zit goed. Hoeveel kost het jasje?",
+        "translation": "穿起來不錯。這件外套多少錢？",
+        "start": 235.94,
+        "end": 239.38
+      },
+      {
+        "text": "70 euro. Ik neem het.",
+        "translation": "70歐元。我買了。",
+        "start": 239.84,
+        "end": 242.32
+      },
+      {
+        "text": "In de kledingzaak. Twee.",
+        "translation": "在服裝店。兩。",
+        "start": 245.9,
+        "end": 248.56
+      },
+      {
+        "text": "Dag, mevrouw. Goedemorgen.",
+        "translation": "您好，女士。早安。",
+        "start": 251.3,
+        "end": 254.46
+      },
+      {
+        "text": "Wat kan ik voor u doen? Ik wil deze tas graag ruilen.",
+        "translation": "我可以為您做什麼？我想要換這個包包。",
+        "start": 255.36,
+        "end": 260.02
+      },
+      {
+        "text": "Ik vind hem echt niet mooi. Heeft u de bon voor mij?",
+        "translation": "我真的不喜歡它。您有發票嗎？",
+        "start": 260.84,
+        "end": 263.92
+      },
+      {
+        "text": "Alsjeblieft. Kan ik ook mijn geld terugkrijgen?",
+        "translation": "給您。我可以退錢嗎？",
+        "start": 266.24,
+        "end": 269.92
+      },
+      {
+        "text": "Nee, dat kan niet. U mag wel een andere tas uitzoeken.",
+        "translation": "不行。您可以挑另一個包包。",
+        "start": 270.66,
+        "end": 275.68
+      },
+      {
+        "text": "Oké, dan doe ik dat. Dank u wel.",
+        "translation": "好，那我換一個。謝謝您。",
+        "start": 276.88,
+        "end": 280.68
+      },
+      {
+        "text": "Wat heb je nodig?",
+        "translation": "你需要什麼？",
+        "start": 283.96,
+        "end": 285.46
+      },
+      {
+        "text": "Met Hans. Hoi Hans, ik spreek met Mariama.",
+        "translation": "跟漢斯。嗨，漢斯，我是瑪麗亞瑪。",
+        "start": 290.82,
+        "end": 295.44
+      },
+      {
+        "text": "Hoi, alles goed? Nou, niet zo.",
+        "translation": "嗨，一切都好嗎？嗯，還不太好。",
+        "start": 296.18,
+        "end": 299.68
+      },
+      {
+        "text": "Ik ben ziek en ik kan niet naar buiten. Oh, wat vervelend.",
+        "translation": "我病了，不能出門。喔，真麻煩。",
+        "start": 300.26,
+        "end": 304.64
+      },
+      {
+        "text": "Ja, wil jij misschien een paar boodschappen voor me doen?",
+        "translation": "是的，你能幫我買幾樣東西嗎？",
+        "start": 304.64,
+        "end": 308.52
+      },
+      {
+        "text": "Natuurlijk, geen probleem. Wat wil je hebben?",
+        "translation": "當然，沒問題。你想要什麼？",
+        "start": 309.54,
+        "end": 313.62
+      },
+      {
+        "text": "Even kijken. Een pakje thee.",
+        "translation": "讓我看看。一包茶。",
+        "start": 314.44,
+        "end": 317.46
+      },
+      {
+        "text": "Citroenthee? Dat is goed voor u. Ja, lekker.",
+        "translation": "檸檬茶嗎？那對你很好。是的，很好喝。",
+        "start": 318.84,
+        "end": 323.38
+      },
+      {
+        "text": "En ook nog een half brood. Het liefst wit.",
+        "translation": "還有半條麵包。最好是白麵包。",
+        "start": 324.32,
+        "end": 327.42
+      },
+      {
+        "text": "Wacht even, ik schrijf het even op. En wat nog meer?",
+        "translation": "等一下，我寫下來。還有什麼？",
+        "start": 329.32,
+        "end": 333.28
+      },
+      {
+        "text": "En jam, dat was het.",
+        "translation": "還有果醬，就這些。",
+        "start": 333.28,
+        "end": 336.86
+      },
+      {
+        "text": "Of nee, ook nog vijf sinaasappels.",
+        "translation": "不，還有五顆橙子。",
+        "start": 337.6,
+        "end": 341.48
+      },
+      {
+        "text": "Prima, ik kom het straks brengen, oké? Oh, fijn. En alvast bedankt Hans.",
+        "translation": "好，我待會兒會把東西送來，好嗎？喔，好耶。提前謝謝你漢斯。",
+        "start": 342.7,
+        "end": 348.46
+      },
+      {
+        "text": "Tot straks. Ja, tot straks.",
+        "translation": "待會見。好，待會見。",
+        "start": 349.54,
+        "end": 352.32
+      },
+      {
+        "text": "Ik ga met de bus. Twee.",
+        "translation": "我要搭公車。兩。",
+        "start": 356.78,
+        "end": 359.98
+      },
+      {
+        "text": "Goedemorgen. Goedemorgen mevrouw. Dit is toch bus negen?",
+        "translation": "早安。早安女士。這是九號公車吧？",
+        "start": 367.72,
+        "end": 372.94
+      },
+      {
+        "text": "Jazeker. Gaat u naar de Kruisstraat?",
+        "translation": "沒錯。您要去Kruisstraat嗎？",
+        "start": 373.86,
+        "end": 376.92
+      },
+      {
+        "text": "Ja, dat is de vijfde halte. En hoe laat vertrekt u?",
+        "translation": "是的，那是第五站。您幾點出發？",
+        "start": 377.88,
+        "end": 383.2
+      },
+      {
+        "text": "Over vijf minuten. Oh, wilt u me waarschuwen als we er zijn?",
+        "translation": "五分鐘後。喔，到了請提醒我好嗎？",
+        "start": 384.46,
+        "end": 389.48
+      },
+      {
+        "text": "Ja, dat zal ik doen. Vergeet u straks niet uit te checken.",
+        "translation": "會的。我會提醒您的。別忘了待會兒刷卡出站。",
+        "start": 390.1,
+        "end": 394.4
+      },
+      {
+        "text": "Nee hoor, dank u wel.",
+        "translation": "不會的，謝謝你。",
+        "start": 395.54,
+        "end": 397.36
+      },
+      {
+        "text": "Ga je vanavond nog naar computerles? Ja, zal ik je ophalen?",
+        "translation": "你今晚還要去電腦課嗎？要我來接你嗎？",
+        "start": 410.22,
+        "end": 415.74
+      },
+      {
+        "text": "Dat is goed. Met de auto of met de fiets?",
+        "translation": "好的。開車還是騎腳踏車？",
+        "start": 417.2,
+        "end": 420.52
+      },
+      {
+        "text": "Ik ga liever met de fiets. Maar het gaat vanavond regenen.",
+        "translation": "我比較喜歡騎腳踏車。但今晚會下雨。",
+        "start": 421.54,
+        "end": 425.22
+      },
+      {
+        "text": "Oh, zullen we dan maar met de auto gaan?",
+        "translation": "喔，那我們還是開車去好了？",
+        "start": 426.36,
+        "end": 429.88
+      },
+      {
+        "text": "Prima. Hoe laat kom je me halen? Ik moet eerst nog even tanken.",
+        "translation": "好啊。你幾點來接我？我還要先加油。",
+        "start": 430.48,
+        "end": 435.26
+      },
+      {
+        "text": "Dan ben ik om half acht bij je. Oké, tot vanavond.",
+        "translation": "那我七點半到你那裡。好的，今晚見。",
+        "start": 436.22,
+        "end": 440.38
+      },
+      {
+        "text": "Radiobericht.",
+        "translation": "廣播消息。",
+        "start": 451.04,
+        "end": 451.88
+      },
+      {
+        "text": "Hier volgt de verkeersinformatie. Het is op dit moment niet druk op de weg.",
+        "translation": "以下是交通資訊。目前路況不擁擠。",
+        "start": 455.7,
+        "end": 461.6
+      },
+      {
+        "text": "Er staan maar drie files in Nederland.",
+        "translation": "荷蘭只有三處塞車。",
+        "start": 462.66,
+        "end": 464.54
+      },
+      {
+        "text": "Op de A1 tussen Weesp en Bussum staat drie kilometer file.",
+        "translation": "A1公路在Weesp和Bussum之間塞車三公里。",
+        "start": 465.76,
+        "end": 471.02
+      },
+      {
+        "text": "Op de A4 tussen Hoofddorp en Schiphol staat vier kilometer door een ongeluk.",
+        "translation": "A4公路在Hoofddorp和Schiphol之間因事故塞車四公里。",
+        "start": 472.02,
+        "end": 477.72
+      },
+      {
+        "text": "En op de A20 voor Rotterdam vijf kilometer file.",
+        "translation": "A20公路在鹿特丹前塞車五公里。",
+        "start": 478.78,
+        "end": 482.44
+      },
+      {
+        "text": "Daar staat een vrachtwagen met pech.",
+        "translation": "那裡有一輛故障的貨車。",
+        "start": 483.84,
+        "end": 485.82
+      },
+      {
+        "text": "Op reis 1.",
+        "translation": "旅途一。",
+        "start": 488.82,
+        "end": 492.28
+      },
+      {
+        "text": "Het is al drie uur. Bijna weekend.",
+        "translation": "已經三點了。快要週末了。",
+        "start": 498.52,
+        "end": 501.84
+      },
+      {
+        "text": "Ja, lekker. Ga je nog iets leuks doen?",
+        "translation": "是啊，好棒。你要去做什麼有趣的事嗎？",
+        "start": 502.22,
+        "end": 505.12
+      },
+      {
+        "text": "Ja, ik ga drie dagen naar Brussel.",
+        "translation": "是的，我要去布魯塞爾三天。",
+        "start": 505.58,
+        "end": 509.06
+      },
+      {
+        "text": "Wat leuk. Slaap je in een hotel? Nee, ik logeer bij mijn oom.",
+        "translation": "真好。你會住飯店嗎？不，我住我叔叔家。",
+        "start": 509.38,
+        "end": 514.62
+      },
+      {
+        "text": "Hij woont daar. Hoe ga je naar Brussel?",
+        "translation": "他住那裡。你怎麼去布魯塞爾？",
+        "start": 514.62,
+        "end": 518.86
+      },
+      {
+        "text": "Oh, met de trein. Mijn man brengt me naar het station in Amsterdam.",
+        "translation": "喔，搭火車。我丈夫會送我到阿姆斯特丹車站。",
+        "start": 519.64,
+        "end": 524.5
+      },
+      {
+        "text": "Daar ga ik met de sneltrein naar Brussel.",
+        "translation": "然後我搭快車去布魯塞爾。",
+        "start": 525.32,
+        "end": 528.72
+      },
+      {
+        "text": "Ik hoef niet over te stappen. Hoe lang duurt de reis?",
+        "translation": "我不需要換車。旅程多久？",
+        "start": 529.68,
+        "end": 533.66
+      },
+      {
+        "text": "Maar twee uur. Dus dat gaat best snel.",
+        "translation": "只要兩小時，所以很快。",
+        "start": 534.0,
+        "end": 537.02
+      },
+      {
+        "text": "En mijn oom staat op het perron in Brussel.",
+        "translation": "我叔叔會在布魯塞爾月台等我。",
+        "start": 538.08,
+        "end": 540.78
+      },
+      {
+        "text": "Nou, goed geregeld. Veel plezier.",
+        "translation": "真是安排得很好。玩得愉快。",
+        "start": 540.78,
+        "end": 544.46
+      },
+      {
+        "text": "Bedankt.",
+        "translation": "謝謝。",
+        "start": 545.8,
+        "end": 546.56
+      },
+      {
+        "text": "Op reis 2.",
+        "translation": "旅途二。",
+        "start": 552.6,
+        "end": 554.78
+      },
+      {
+        "text": "Ik ga morgen op vakantie. Oh, wat heerlijk. Waar ga je naartoe?",
+        "translation": "我明天要去度假。喔，真好。你要去哪裡？",
+        "start": 558.68,
+        "end": 564.4
+      },
+      {
+        "text": "Naar Spanje. Samen met een vriend. Gaan jullie met de auto?",
+        "translation": "去西班牙。和一位朋友一起。你們開車去嗎？",
+        "start": 565.26,
+        "end": 569.8
+      },
+      {
+        "text": "Nee. We gaan met het vliegtuig.",
+        "translation": "不，我們搭飛機去。",
+        "start": 569.8,
+        "end": 573.22
+      },
+      {
+        "text": "We gaan tien dagen. Waar gaan jullie precies heen in Spanje?",
+        "translation": "我們要去十天。你們究竟要去西班牙哪裡？",
+        "start": 573.9,
+        "end": 578.42
+      },
+      {
+        "text": "Naar Madrid. Ben jij daar wel eens geweest?",
+        "translation": "去馬德里。你去過那裡嗎？",
+        "start": 579.06,
+        "end": 582.74
+      },
+      {
+        "text": "Ja, twee jaar geleden. Ik vind het een prachtige stad.",
+        "translation": "是的，兩年前。我覺得那是一座很美麗的城市。",
+        "start": 583.42,
+        "end": 587.56
+      },
+      {
+        "text": "Hoe lang is het vliegen naar Madrid? Volgens mij tweeëneenhalf uur.",
+        "translation": "飛到馬德里要多久？我記得是兩個半小時。",
+        "start": 588.5,
+        "end": 594.38
+      },
+      {
+        "text": "Dus jullie zijn er zo. Hoeveel kost je ticket?",
+        "translation": "所以你們很快就到了。你的機票多少錢？",
+        "start": 594.9,
+        "end": 598.8
+      },
+      {
+        "text": "Tweehonderdtachtig euro voor een retour. Oeh, dat is best duur.",
+        "translation": "兩百八十歐元來回票。喔，那蠻貴的。",
+        "start": 600.3,
+        "end": 604.62
+      },
+      {
+        "text": "Ja, gelukkig hebben we een goedkoop hotel.",
+        "translation": "是啊，幸好我們訂了一間便宜的旅館。",
+        "start": 605.1,
+        "end": 608.6
+      },
+      {
+        "text": "Nou, goede reis. En veel plezier. Dank je.",
+        "translation": "好，旅途愉快。玩得開心。謝謝你。",
+        "start": 609.64,
+        "end": 613.1
+      },
+      {
+        "text": "Op straat. Mevrouw, mag ik u iets vragen?",
+        "translation": "在街上。女士，我可以問您一個問題嗎？",
+        "start": 618.24,
+        "end": 623.98
+      },
+      {
+        "text": "Ja hoor. Bent u bekend in deze buurt?",
+        "translation": "當然可以。您熟悉這附近嗎？",
+        "start": 624.48,
+        "end": 627.2
+      },
+      {
+        "text": "Nee, helaas niet. Ik ben hier ook voor het eerst.",
+        "translation": "不，很抱歉不熟。我也是第一次來這裡。",
+        "start": 627.2,
+        "end": 631.9
+      },
+      {
+        "text": "Meneer, weet u waar de Brinkstraat is?",
+        "translation": "先生，您知道Brinkstraat在哪裡嗎？",
+        "start": 634.72,
+        "end": 638.58
+      },
+      {
+        "text": "Sorry, ik ben hier niet bekend.",
+        "translation": "抱歉，我不熟這裡。",
+        "start": 639.04,
+        "end": 641.28
+      },
+      {
+        "text": "Dag mevrouw. Ik zoek de Brinkstraat.",
+        "translation": "您好女士。我在找Brinkstraat。",
+        "start": 645.96,
+        "end": 648.78
+      },
+      {
+        "text": "Even kijken. Dan moet u hier rechtdoor.",
+        "translation": "讓我看看。您要直走。",
+        "start": 650.56,
+        "end": 653.94
+      },
+      {
+        "text": "Bij het kruispunt linksaf en dan bij de kerk rechts.",
+        "translation": "到了十字路口左轉，然後在教堂那裡右轉。",
+        "start": 653.94,
+        "end": 658.94
+      },
+      {
+        "text": "Daar is de Brinkstraat. Is het ver lopen?",
+        "translation": "Brinkstraat就在那裡。走路遠嗎？",
+        "start": 660.28,
+        "end": 663.42
+      },
+      {
+        "text": "Ik denk tien minuten. O, oké. Dat valt wel mee. Hartelijk bedankt.",
+        "translation": "我想大約十分鐘。喔，好。還不算遠。非常感謝。",
+        "start": 663.76,
+        "end": 668.98
+      },
+      {
+        "text": "Graag gedaan.",
+        "translation": "不客氣。",
+        "start": 669.52,
+        "end": 669.94
+      }
+    ],
+    "questions": [
+      {
+        "question": "Waar kan je laarzen vinden in de nieuwe winkel?",
+        "question_native": "在哪裡可以找到新店裡的靴子？",
+        "options": [
+          "Op de begane grond",
+          "Op de derde etage",
+          "Bij de koffiehoek"
+        ],
+        "answer": "Op de derde etage"
+      },
+      {
+        "question": "Wat is het probleem met de hoge hakken?",
+        "question_native": "高跟鞋的問題是什麼？",
+        "options": [
+          "Ze zijn te duur",
+          "Ze zijn te groot",
+          "De hakken zijn te hoog om op te lopen"
+        ],
+        "answer": "De hakken zijn te hoog om op te lopen"
+      },
+      {
+        "question": "Hoeveel kost het jasje dat de klant wil kopen?",
+        "question_native": "顧客想買的外套多少錢？",
+        "options": [
+          "49,95 euro",
+          "70 euro",
+          "100 euro"
+        ],
+        "answer": "70 euro"
+      },
+      {
+        "question": "Kan de klant zijn geld terugkrijgen als hij een tas wil ruilen?",
+        "question_native": "當顧客想換包包時可以退錢嗎？",
+        "options": [
+          "Ja",
+          "Nee",
+          "Soms"
+        ],
+        "answer": "Nee"
+      },
+      {
+        "question": "Hoeveel bossen bloemen koopt Jasmine?",
+        "question_native": "Jasmine買了幾束花？",
+        "options": [
+          "Eén",
+          "Twee",
+          "Drie"
+        ],
+        "answer": "Twee"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "laarzen",
+        "meaning": "靴子"
+      },
+      {
+        "word": "hak",
+        "meaning": "鞋跟"
+      },
+      {
+        "word": "roltrap",
+        "meaning": "手扶梯"
+      },
+      {
+        "word": "verkoper",
+        "meaning": "店員"
+      },
+      {
+        "word": "passen",
+        "meaning": "試穿"
+      },
+      {
+        "word": "kaart",
+        "meaning": "卡片；地圖；牌"
+      },
+      {
+        "word": "markt",
+        "meaning": "市場"
+      },
+      {
+        "word": "bos bloemen",
+        "meaning": "一束花"
+      },
+      {
+        "word": "jasje",
+        "meaning": "外套"
+      },
+      {
+        "word": "maat",
+        "meaning": "尺寸"
+      },
+      {
+        "word": "stof",
+        "meaning": "布料"
+      },
+      {
+        "word": "katoen",
+        "meaning": "棉"
+      },
+      {
+        "word": "ruilen",
+        "meaning": "換貨"
+      },
+      {
+        "word": "bon",
+        "meaning": "發票"
+      },
+      {
+        "word": "geld terugkrijgen",
+        "meaning": "退錢"
+      }
+    ]
+  }
+}

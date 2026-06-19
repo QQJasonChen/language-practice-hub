@@ -1,0 +1,385 @@
+{
+ "video_id": "oS9ZMdbDffE",
+ "title": "Luisteren examen A2 (nieuw systeem) 8 vragen",
+ "channel": "Inburgeren examen A2",
+ "duration": 708,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "醫院水管故障",
+   "title_nl": "Luisteren examen A2 (nieuw systeem) 8 vragen",
+   "kind": "對話",
+   "context_zh": "Amina 在社區中心，聽到鄰居們討論醫院的水管問題。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Amina is in het buurthuis.",
+     "zh": "Amina 在社區中心。"
+    },
+    {
+     "t": "0:05",
+     "nl": "De buren van Amina praten met elkaar.",
+     "zh": "Amina 的鄰居們在互相交談。"
+    },
+    {
+     "t": "0:10",
+     "nl": "Lees eerst de vraag. Kijk daarna naar de video.",
+     "zh": "請先閱讀問題，然後觀看影片。"
+    },
+    {
+     "t": "0:32",
+     "nl": "Kijk daarna naar de video.",
+     "zh": "請然後觀看影片。"
+    },
+    {
+     "t": "0:44",
+     "nl": "Lees eerst de vraag.",
+     "zh": "請先閱讀問題。"
+    },
+    {
+     "t": "1:03",
+     "nl": "Waarom is de straat van Amina afgesloten?",
+     "zh": "為什麼 Amina 的街道封閉了？"
+    },
+    {
+     "t": "2:27",
+     "nl": "Wanneer gaat de straat van Amina weer open?",
+     "zh": "Amina 的街道何時會重新開放？"
+    },
+    {
+     "t": "2:51",
+     "nl": "Waarom is de straat van Amina weer open?",
+     "zh": "為什麼 Amina 的街道重新開放了？"
+    },
+    {
+     "t": "3:52",
+     "nl": "Welke patiënten zijn naar een andere plaats gebracht?",
+     "zh": "哪些病人被送到了別的地方？"
+    },
+    {
+     "t": "3:58",
+     "nl": "Alleen de patiënten van de begane grond.",
+     "zh": "只有一樓的病人。"
+    },
+    {
+     "t": "4:04",
+     "nl": "Alleen de patiënten van de eerste verdieping.",
+     "zh": "只有二樓的病人。"
+    },
+    {
+     "t": "4:09",
+     "nl": "Alleen de patiënten van de tweede verdieping.",
+     "zh": "只有三樓的病人。"
+    },
+    {
+     "t": "4:14",
+     "nl": "Alle patiënten van het ziekenhuis.",
+     "zh": "醫院裡所有的病人。"
+    },
+    {
+     "t": "4:34",
+     "nl": "In het ziekenhuis in Amsterdam-Zuid is een waterleiding kapot gegaan.",
+     "zh": "阿姆斯特丹南區的醫院水管壞了。"
+    },
+    {
+     "t": "4:40",
+     "nl": "Het ziekenhuis heeft daar veel last van.",
+     "zh": "醫院因此受到很大困擾。"
+    },
+    {
+     "t": "4:43",
+     "nl": "De begane grond van het ziekenhuis is helemaal overstroomd.",
+     "zh": "醫院的一樓完全淹水了。"
+    },
+    {
+     "t": "4:47",
+     "nl": "Alles staat onder water. Gelukkig lagen er geen patiënten.",
+     "zh": "全部都被水淹沒了，幸好當時沒有病人在那裡。"
+    },
+    {
+     "t": "4:52",
+     "nl": "Alle patiënten op de eerste verdieping zijn wel naar een andere plek gebracht.",
+     "zh": "所有二樓的病人都被轉移到別的地方去了。"
+    },
+    {
+     "t": "4:58",
+     "nl": "Zij slapen nu op de tweede verdieping.",
+     "zh": "他們現在睡在三樓。"
+    },
+    {
+     "t": "5:01",
+     "nl": "Volgens het ziekenhuis zijn de patiënten niet in gevaar geweest.",
+     "zh": "根據醫院表示，病人並沒有處於危險之中。"
+    },
+    {
+     "t": "5:05",
+     "nl": "De waterleiding is waarschijnlijk pas donderdag gemaakt.",
+     "zh": "水管大概要到星期四才會修好。"
+    },
+    {
+     "t": "5:09",
+     "nl": "Dat is later dan de gemeente zei. Vanmorgen zei de gemeente dat het maar tot dinsdag zou duren.",
+     "zh": "這比市政府說的晚。今天早上市政府說最多到星期二會結束。"
+    },
+    {
+     "t": "5:16",
+     "nl": "Vanaf vrijdag is het hele ziekenhuis weer open.",
+     "zh": "從星期五起整間醫院都會重新開放。"
+    },
+    {
+     "t": "5:20",
+     "nl": "Ook het verkeer heeft last van het water. Er rijden voorlopig geen bussen naar het ziekenhuis.",
+     "zh": "交通也受到水災影響，目前沒有公車開往醫院。"
+    },
+    {
+     "t": "5:26",
+     "nl": "Dat komt doordat ook de weg onder water staat. Kom dus ook niet met de tram.",
+     "zh": "因為路面也被淹了，所以搭電車也別來了。"
+    },
+    {
+     "t": "5:32",
+     "nl": "U kunt het beste vanaf treinstation Zuid naar het ziekenhuis lopen.",
+     "zh": "你最好從南火車站走路到醫院。"
+    },
+    {
+     "t": "5:36",
+     "nl": "Wanneer gaan alle afdelingen van het ziekenhuis weer open?",
+     "zh": "醫院的所有部門何時會重新開放？"
+    },
+    {
+     "t": "5:42",
+     "nl": "Dinsdag, donderdag, vrijdag.",
+     "zh": "星期二、星期四、星期五。"
+    },
+    {
+     "t": "5:51",
+     "nl": "Farah kijkt naar het nieuws. Lees eerst de vraag.",
+     "zh": "Farah 在看新聞。請先閱讀問題。"
+    },
+    {
+     "t": "7:20",
+     "nl": "Hamza werkt bij een groothandel.",
+     "zh": "Hamza 在批發商工作。"
+    },
+    {
+     "t": "7:25",
+     "nl": "Een klant heeft een bestelling ingesproken op de voicemail.",
+     "zh": "一位顧客在語音信箱留下訂單。"
+    },
+    {
+     "t": "7:31",
+     "nl": "Lees eerst de vraag. Luister daarna naar de tekst.",
+     "zh": "請先閱讀問題，然後聆聽內容。"
+    },
+    {
+     "t": "7:47",
+     "nl": "Ja, Gerrits hier van Snackbar de Hoek. Ik wil even wat bestellen.",
+     "zh": "是的，這裡是角落小吃店的 Gerrits。我想訂點東西。"
+    },
+    {
+     "t": "7:51",
+     "nl": "Ik wil graag zes dozen patat.",
+     "zh": "我想要六箱薯條。"
+    },
+    {
+     "t": "7:55",
+     "nl": "Niet van die dikke, die moet ik zelf dan nog snijden. Maar van die Franse zeg maar, die dunne.",
+     "zh": "不要那種粗的，我要自己再切的。我要法式細薯條那種。"
+    },
+    {
+     "t": "7:59",
+     "nl": "Een honderd frikandellen en tweehonderd kroketten.",
+     "zh": "一百個法蘭克香腸和兩百個可樂餅。"
+    },
+    {
+     "t": "8:02",
+     "nl": "En even kijken, ook dertig flessen mayonaise en twintig ketchup.",
+     "zh": "再來看看，還要三十瓶美乃滋和二十瓶番茄醬。"
+    },
+    {
+     "t": "8:08",
+     "nl": "En graag tien dozen cola blikjes. Maar dan niet van die zwarte, maar die grijze Cola Light.",
+     "zh": "還要十箱可樂罐，但不要黑色的，要灰色的可樂輕怡版。"
+    },
+    {
+     "t": "8:14",
+     "nl": "En ja, bestelling gewoon naar de Snackbar sturen.",
+     "zh": "訂單請直接送到小吃店。"
+    },
+    {
+     "t": "8:17",
+     "nl": "Maar de rekening wel naar mijn postadres sturen graag.",
+     "zh": "但帳單請寄到我的郵件地址，謝謝。"
+    },
+    {
+     "t": "8:20",
+     "nl": "Niet zoals de vorige keer naar mijn huisadres, want dat is veranderd.",
+     "zh": "不要像上次那樣寄到我家，那地址已經改了。"
+    },
+    {
+     "t": "8:25",
+     "nl": "Dat was het. Bedankt.",
+     "zh": "就是這樣。謝謝。"
+    },
+    {
+     "t": "8:29",
+     "nl": "Welke patat bestelt meneer Gerritsen?",
+     "zh": "Gerritsen 先生點哪種薯條？"
+    },
+    {
+     "t": "8:33",
+     "nl": "Patat die hij zelf nog moet snijden. Franse patat. Dikke patat.",
+     "zh": "他自己還得切的薯條。法式薯條。粗的薯條。"
+    },
+    {
+     "t": "9:19",
+     "nl": "Niet van die dikke, die moet ik zelf dan nog snijden. Maar van die Franse, zeg maar, die dunne.",
+     "zh": "不要那種粗的，我還得自己切。但要那種法式的，薄的那種。"
+    },
+    {
+     "t": "9:32",
+     "nl": "En graag tien dozen cola-blikjes. Maar dan niet van die zwarte, maar die grijze Cola Light.",
+     "zh": "還有十箱可樂罐裝飲料。但不要那種黑色的，要灰色的可樂輕怡版。"
+    },
+    {
+     "t": "9:41",
+     "nl": "Maar de rekening wel naar mijn postadres sturen, graag.",
+     "zh": "但帳單請寄到我的郵寄地址，謝謝。"
+    },
+    {
+     "t": "10:50",
+     "nl": "Ja, Gerrits hier van Snackbar De Hoek.",
+     "zh": "是的，我是 Snackbar De Hoek 的 Gerrits。"
+    },
+    {
+     "t": "10:53",
+     "nl": "Ik wil even wat bestellen. Ik wil graag zes dozen patat.",
+     "zh": "我想要點一些東西。我想要六箱薯條。"
+    },
+    {
+     "t": "11:31",
+     "nl": "Waar moet Hamza de rekening naartoe sturen?",
+     "zh": "Hamza 應該把帳單寄到哪裡？"
+    },
+    {
+     "t": "11:36",
+     "nl": "Naar het postadres.",
+     "zh": "郵寄地址。"
+    },
+    {
+     "t": "11:41",
+     "nl": "Naar de Snackbar.",
+     "zh": "小吃店。"
+    },
+    {
+     "t": "11:47",
+     "nl": "Naar het huisadres.",
+     "zh": "家裡的地址。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "buurthuis",
+     "zh": "社區中心"
+    },
+    {
+     "nl": "straat",
+     "zh": "街道"
+    },
+    {
+     "nl": "afgesloten",
+     "zh": "封閉"
+    },
+    {
+     "nl": "patiënten",
+     "zh": "病人"
+    },
+    {
+     "nl": "waterleiding",
+     "zh": "水管"
+    },
+    {
+     "nl": "ziekenhuis",
+     "zh": "醫院"
+    },
+    {
+     "nl": "overstroomd",
+     "zh": "淹水"
+    },
+    {
+     "nl": "verkeer",
+     "zh": "交通"
+    },
+    {
+     "nl": "treinstation",
+     "zh": "火車站"
+    },
+    {
+     "nl": "bestelling",
+     "zh": "訂單"
+    },
+    {
+     "nl": "voicemail",
+     "zh": "語音信箱"
+    },
+    {
+     "nl": "frikandellen",
+     "zh": "炸肉腸"
+    },
+    {
+     "nl": "kroketten",
+     "zh": "可樂餅"
+    },
+    {
+     "nl": "mayonaise",
+     "zh": "美乃滋"
+    },
+    {
+     "nl": "ketchup",
+     "zh": "番茄醬"
+    },
+    {
+     "nl": "rekening",
+     "zh": "帳單"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Waarom is de straat van Amina afgesloten?",
+     "zh": "為什麼Amina的街道被封閉？",
+     "note": "詢問原因的句型"
+    },
+    {
+     "nl": "Wanneer gaat de straat van Amina weer open?",
+     "zh": "Amina的街道什麼時候會再開？",
+     "note": "詢問時間的句型"
+    },
+    {
+     "nl": "Alleen de patiënten van de begane grond.",
+     "zh": "只有一樓的病人。",
+     "note": "描述特定群體的句型"
+    },
+    {
+     "nl": "Ik wil graag zes dozen patat.",
+     "zh": "我想要六箱薯條。",
+     "note": "表達訂購的句型"
+    },
+    {
+     "nl": "Maar de rekening wel naar mijn postadres sturen graag.",
+     "zh": "請把帳單寄到我的郵寄地址。",
+     "note": "要求寄送的句型"
+    },
+    {
+     "nl": "Dat komt doordat ook de weg onder water staat.",
+     "zh": "這是因為路也淹水了。",
+     "note": "解釋原因的句型"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

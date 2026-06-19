@@ -1,0 +1,5155 @@
+{
+ "waar werk je?": {
+  "breakdown": [
+   [
+    "Waar",
+    "在哪裡"
+   ],
+   [
+    "werk",
+    "工作"
+   ],
+   [
+    "je",
+    "你"
+   ]
+  ],
+  "order": "疑問句：Waar(地點) → werk(動詞#2) → je(主詞)",
+  "grammar": "簡單現在式，動詞在第二位。",
+  "listen": "注意‘je’可能聽起來像‘j’。"
+ },
+ "hé tristan, lang niet gezien.": {
+  "breakdown": [
+   [
+    "Hé",
+    "嘿"
+   ],
+   [
+    "Tristan",
+    "Tristan"
+   ],
+   [
+    "lang niet gezien",
+    "好久不見"
+   ]
+  ],
+  "order": "主詞在前：Hé(感嘆) → Tristan(主詞) → lang niet gezien(狀態)",
+  "grammar": "‘lang niet gezien’是固定搭配，表示很久不見。",
+  "listen": "‘lang niet’可能連音，聽起來像‘langniet’。"
+ },
+ "ja, hoe is het met je?": {
+  "breakdown": [
+   [
+    "Ja",
+    "嗯"
+   ],
+   [
+    "hoe is het",
+    "你怎麼樣"
+   ],
+   [
+    "met je",
+    "跟你"
+   ]
+  ],
+  "order": "Ja(肯定) → hoe(疑問) → is(動詞#2) → het(主詞) → met je(介系詞片語)",
+  "grammar": "‘hoe is het met je’是常用問候語。",
+  "listen": "‘hoe is het’可能聽起來像‘hoe is’t’。"
+ },
+ "goed, en met jou?": {
+  "breakdown": [
+   [
+    "Goed",
+    "我很好"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "met jou",
+    "你呢"
+   ]
+  ],
+  "order": "Goed(狀態) → en(連接詞) → met jou(介系詞片語)",
+  "grammar": "‘met jou’用來詢問對方狀況。",
+  "listen": "‘en’可能被弱讀，聽起來不明顯。"
+ },
+ "prima.": {
+  "breakdown": [
+   [
+    "Prima",
+    "很好"
+   ]
+  ],
+  "order": "單句：Prima(狀態)",
+  "grammar": "簡單現在式，直接表達狀態。",
+  "listen": "‘Prima’發音清晰，注意不要漏聽。"
+ },
+ "en waar woon je nu?": {
+  "breakdown": [
+   [
+    "En",
+    "和"
+   ],
+   [
+    "waar",
+    "哪裡"
+   ],
+   [
+    "woon",
+    "住"
+   ],
+   [
+    "je",
+    "你"
+   ],
+   [
+    "nu",
+    "現在"
+   ]
+  ],
+  "order": "En(連接詞) → waar(地點) → woon(動詞#2) → je(主詞) → nu(時間)",
+  "grammar": "‘waar woon je nu’是詢問住處的常用句型。",
+  "listen": "‘waar’可能聽起來像‘waar’。"
+ },
+ "in amsterdam.": {
+  "breakdown": [
+   [
+    "In",
+    "在"
+   ],
+   [
+    "Amsterdam",
+    "阿姆斯特丹"
+   ]
+  ],
+  "order": "前置詞片語：In(前置詞) → Amsterdam(地名)",
+  "grammar": "‘In Amsterdam’是地點表達。",
+  "listen": "‘In’發音輕，注意不要漏聽。"
+ },
+ "ik werk daar ook.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "werk",
+    "工作"
+   ],
+   [
+    "daar",
+    "那裡"
+   ],
+   [
+    "ook",
+    "也"
+   ]
+  ],
+  "order": "主詞在前：Ik(主詞) → werk(動詞#2) → daar(地點) → ook(副詞)",
+  "grammar": "‘ook’表示也，強調相同情況。",
+  "listen": "‘daar’可能被弱讀，注意聽清。"
+ },
+ "wat voor werk doe je?": {
+  "breakdown": [
+   [
+    "Wat voor",
+    "什麼樣的"
+   ],
+   [
+    "werk",
+    "工作"
+   ],
+   [
+    "doe",
+    "做"
+   ],
+   [
+    "je",
+    "你"
+   ]
+  ],
+  "order": "疑問句：Wat voor(形容詞) → werk(名詞) → doe(動詞#2) → je(主詞)",
+  "grammar": "‘Wat voor werk’是詢問工作類型的常用句型。",
+  "listen": "‘Wat voor’可能連音，聽起來像‘Watvoor’。"
+ },
+ "ik ben kapper.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "ben",
+    "是"
+   ],
+   [
+    "kapper",
+    "理髮師"
+   ]
+  ],
+  "order": "主詞在前：Ik(主詞) → ben(動詞#2) → kapper(名詞)",
+  "grammar": "‘ben’是動詞‘zijn’的變化，表示身份。",
+  "listen": "‘ben’發音清晰，注意不要漏聽。"
+ },
+ "ik werk in een kapsalon.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "werk",
+    "工作"
+   ],
+   [
+    "in",
+    "在"
+   ],
+   [
+    "een",
+    "一家"
+   ],
+   [
+    "kapsalon",
+    "髮廊"
+   ]
+  ],
+  "order": "主詞在前：Ik(主詞) → werk(動詞#2) → in(前置詞) → een(不定冠詞) → kapsalon(名詞)",
+  "grammar": "‘in een kapsalon’是地點表達。",
+  "listen": "‘in’可能被弱讀，注意聽清。"
+ },
+ "oh, wat leuk.": {
+  "breakdown": [
+   [
+    "Oh",
+    "喔"
+   ],
+   [
+    "wat",
+    "真"
+   ],
+   [
+    "leuk",
+    "好"
+   ]
+  ],
+  "order": "感嘆句：Oh(感嘆) → wat(強調) → leuk(形容詞)",
+  "grammar": "‘wat leuk’是表達驚喜的常用語。",
+  "listen": "‘wat’發音輕，注意不要漏聽。"
+ },
+ "werk je fulltime?": {
+  "breakdown": [
+   [
+    "Werk",
+    "工作"
+   ],
+   [
+    "je",
+    "你"
+   ],
+   [
+    "fulltime",
+    "全職"
+   ],
+   [
+    "?",
+    "？"
+   ]
+  ],
+  "order": "主詞je → 動詞Werk → 補語fulltime → 疑問句結尾。規則：疑問句時動詞放在主詞前面。",
+  "grammar": "簡單現在式，動詞Werk是主要動詞。",
+  "listen": "注意Werk的發音，可能聽成Wek。"
+ },
+ "nee, ik werk vier dagen per week.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "werk",
+    "工作"
+   ],
+   [
+    "vier dagen",
+    "四天"
+   ],
+   [
+    "per week",
+    "每週"
+   ],
+   [
+    ". ",
+    "。"
+   ]
+  ],
+  "order": "主詞ik → 動詞werk → 補語vier dagen per week → 結尾。規則：主詞在前，動詞在第二位。",
+  "grammar": "簡單現在式，動詞werk是主要動詞。",
+  "listen": "注意vier的發音，可能聽成fee。"
+ },
+ "op maandag ben ik vrij.": {
+  "breakdown": [
+   [
+    "Op maandag",
+    "在週一"
+   ],
+   [
+    "ben",
+    "是"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "vrij",
+    "休息"
+   ],
+   [
+    ". ",
+    "。"
+   ]
+  ],
+  "order": "時間狀語Op maandag → 動詞ben → 主詞ik → 補語vrij → 結尾。規則：時間狀語放在句首。",
+  "grammar": "簡單現在式，動詞ben是主要動詞。",
+  "listen": "注意ben的發音，可能聽成bent。"
+ },
+ "tibberfabriek de boer, met mevrouw el hamdi.": {
+  "breakdown": [
+   [
+    "Tibberfabriek De Boer",
+    "De Boer電池廠"
+   ],
+   [
+    "met",
+    "和"
+   ],
+   [
+    "mevrouw El Hamdi",
+    "El Hamdi女士"
+   ],
+   [
+    ". ",
+    "。"
+   ]
+  ],
+  "order": "主詞Tibberfabriek De Boer → 介詞met → 補語mevrouw El Hamdi → 結尾。規則：主詞在前，介詞短語跟隨。",
+  "grammar": "名詞短語作主詞，無動詞。",
+  "listen": "注意mevrouw的發音，可能聽成mevrou。"
+ },
+ "goedemorgen mevrouw, u spreekt met said bakau.": {
+  "breakdown": [
+   [
+    "Goedemorgen",
+    "早安"
+   ],
+   [
+    "mevrouw",
+    "女士"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "spreekt",
+    "正在通話"
+   ],
+   [
+    "met",
+    "和"
+   ],
+   [
+    "Said Bakau",
+    "Said Bakau"
+   ],
+   [
+    ". ",
+    "。"
+   ]
+  ],
+  "order": "問候語Goedemorgen → 主詞u → 動詞spreekt → 介詞met → 補語Said Bakau → 結尾。規則：問候語在句首，主詞在前。",
+  "grammar": "簡單現在式，動詞spreekt是主要動詞。",
+  "listen": "注意u的發音，可能聽成你。"
+ },
+ "kan ik jan helmond spreken?": {
+  "breakdown": [
+   [
+    "Kan",
+    "可以"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "Jan Helmond",
+    "Jan Helmond"
+   ],
+   [
+    "spreken",
+    "通話"
+   ],
+   [
+    "?",
+    "嗎？"
+   ]
+  ],
+  "order": "動詞Kan → 主詞ik → 補語Jan Helmond → 動詞spreken → 疑問句結尾。規則：疑問句時動詞放在主詞前面。",
+  "grammar": "情態動詞Kan，後接原形動詞spreken。",
+  "listen": "注意Kan的發音，可能聽成kan。"
+ },
+ "ja, ik zal je even doorverbinden.": {
+  "breakdown": [
+   [
+    "Ja",
+    "可以"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "zal",
+    "將"
+   ],
+   [
+    "je",
+    "你"
+   ],
+   [
+    "even",
+    "一下"
+   ],
+   [
+    "doorverbinden",
+    "轉接"
+   ],
+   [
+    ". ",
+    "。"
+   ]
+  ],
+  "order": "肯定詞Ja → 主詞ik → 助動詞zal → 受詞je → 副詞even → 動詞doorverbinden → 結尾。規則：助動詞在主詞後，動詞在句尾。",
+  "grammar": "將來式，助動詞zal加原形動詞doorverbinden。",
+  "listen": "注意doorverbinden的連音，可能聽成doorbind。"
+ },
+ "met jan helmond.": {
+  "breakdown": [
+   [
+    "Met",
+    "我就是"
+   ],
+   [
+    "Jan Helmond",
+    "Jan Helmond"
+   ],
+   [
+    ". ",
+    "。"
+   ]
+  ],
+  "order": "介詞Met → 補語Jan Helmond → 結尾。規則：介詞短語在句首。",
+  "grammar": "無動詞，直接介紹自己。",
+  "listen": "注意Met的發音，可能聽成met。"
+ },
+ "hallo jan, met said. ik ben ziek. ik kan vannacht niet werken.": {
+  "breakdown": [
+   [
+    "Hallo",
+    "哈囉"
+   ],
+   [
+    "Jan",
+    "Jan"
+   ],
+   [
+    "met",
+    "和"
+   ],
+   [
+    "Said",
+    "Said"
+   ],
+   [
+    ". ",
+    "。"
+   ],
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "ben",
+    "是"
+   ],
+   [
+    "ziek",
+    "生病"
+   ],
+   [
+    ". ",
+    "。"
+   ],
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "kan",
+    "不能"
+   ],
+   [
+    "vannacht",
+    "今晚"
+   ],
+   [
+    "niet",
+    "不"
+   ],
+   [
+    "werken",
+    "工作"
+   ],
+   [
+    ". ",
+    "。"
+   ]
+  ],
+  "order": "問候語Hallo → 主詞Ik → 動詞ben → 補語ziek → 句號 → 主詞Ik → 動詞kan → 補語vannacht niet werken → 結尾。規則：主詞在前，動詞在第二位。",
+  "grammar": "包含兩個句子，第一句是簡單現在式，第二句是情態動詞kan。",
+  "listen": "注意niet的發音，可能聽成niet。"
+ },
+ "hm, wat vervelend.": {
+  "breakdown": [
+   [
+    "Hm",
+    "嗯"
+   ],
+   [
+    "wat",
+    "真"
+   ],
+   [
+    "vervelend",
+    "糟糕"
+   ],
+   [
+    ". ",
+    "。"
+   ]
+  ],
+  "order": "感嘆詞Hm → 形容詞vervelend → 結尾。規則：感嘆詞在句首。",
+  "grammar": "簡單現在式，無動詞。",
+  "listen": "注意wat的發音，可能聽成wat。"
+ },
+ "het is heel druk.": {
+  "breakdown": [
+   [
+    "Het",
+    "現在"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "heel druk",
+    "很忙"
+   ],
+   [
+    ". ",
+    "。"
+   ]
+  ],
+  "order": "主詞Het → 動詞is → 補語heel druk → 結尾。規則：主詞在前，動詞在第二位。",
+  "grammar": "簡單現在式，動詞is是主要動詞。",
+  "listen": "注意heel的發音，可能聽成heele。"
+ },
+ "wat zijn je klachten?": {
+  "breakdown": [
+   [
+    "Wat",
+    "你"
+   ],
+   [
+    "zijn",
+    "有哪些"
+   ],
+   [
+    "je",
+    "你的"
+   ],
+   [
+    "klachten",
+    "症狀"
+   ],
+   [
+    "?",
+    "？"
+   ]
+  ],
+  "order": "疑問詞Wat → 動詞zijn → 主詞je → 補語klachten → 疑問句結尾。規則：疑問句時動詞放在主詞前面。",
+  "grammar": "簡單現在式，動詞zijn是主要動詞。",
+  "listen": "注意je的發音，可能聽成你。"
+ },
+ "hoofdpijn en koorts.": {
+  "breakdown": [
+   [
+    "Hoofdpijn",
+    "頭痛"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "koorts",
+    "發燒"
+   ]
+  ],
+  "order": "主詞省略→Hoofdpijn(頭痛) + en(和) + koorts(發燒)",
+  "grammar": "名詞並列，無動詞。",
+  "listen": "注意連音，可能聽成 'hoofdpijnen'。"
+ },
+ "wanneer kan je weer komen werken?": {
+  "breakdown": [
+   [
+    "Wanneer",
+    "什麼時候"
+   ],
+   [
+    "kan",
+    "可以"
+   ],
+   [
+    "je",
+    "你"
+   ],
+   [
+    "weer",
+    "再"
+   ],
+   [
+    "komen werken",
+    "回來工作"
+   ]
+  ],
+  "order": "Wanneer(什麼時候) → kan(動詞#2) → je(主詞) → weer(再) → komen werken(回來工作)",
+  "grammar": "疑問句，動詞在第二位。",
+  "listen": "'je' 可能被弱讀，聽起來像 'j'。"
+ },
+ "ik denk dat ik woensdag weer beter ben.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "denk",
+    "想"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "woensdag",
+    "星期三"
+   ],
+   [
+    "weer",
+    "再"
+   ],
+   [
+    "beter ben",
+    "好一點"
+   ]
+  ],
+  "order": "Ik(主詞) → denk(動詞#2) → dat(連接詞) → ik(主詞) → woensdag(時間) → weer(再) → beter ben(好一點)",
+  "grammar": "從句，動詞在句尾。",
+  "listen": "'beter ben' 可能聽成 'beter'。"
+ },
+ "oké, dan zien we je over twee dagen.": {
+  "breakdown": [
+   [
+    "Oké",
+    "好的"
+   ],
+   [
+    "dan",
+    "那"
+   ],
+   [
+    "zien we",
+    "我們見"
+   ],
+   [
+    "je",
+    "你"
+   ],
+   [
+    "over twee dagen",
+    "兩天後"
+   ]
+  ],
+  "order": "Oké(好的) → dan(那) → zien(動詞#2) → we(主詞) → je(你) → over twee dagen(兩天後)",
+  "grammar": "V2 倒裝，動詞在第二位。",
+  "listen": "'zien we' 可能連音，聽成 'zienwe'。"
+ },
+ "beterschap, said.": {
+  "breakdown": [
+   [
+    "Beterschap",
+    "祝你早日康復"
+   ],
+   [
+    "Said",
+    "Said"
+   ]
+  ],
+  "order": "Beterschap(祝你早日康復) → Said(名字)",
+  "grammar": "祝福語，無動詞。",
+  "listen": "注意 'Beterschap' 的重音。"
+ },
+ "ja, bedankt.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "bedankt",
+    "謝謝"
+   ]
+  ],
+  "order": "Ja(是的) → bedankt(謝謝)",
+  "grammar": "簡單回答，無動詞。",
+  "listen": "'Ja' 可能被快速說出，聽起來像 'ja'。"
+ },
+ "wil jij nog koffie?": {
+  "breakdown": [
+   [
+    "Wil",
+    "要"
+   ],
+   [
+    "jij",
+    "你"
+   ],
+   [
+    "nog",
+    "還"
+   ],
+   [
+    "koffie",
+    "咖啡"
+   ]
+  ],
+  "order": "Wil(要) → jij(主詞) → nog(還) → koffie(咖啡)",
+  "grammar": "疑問句，動詞在第二位。",
+  "listen": "'jij' 可能被弱讀，聽起來像 'j'。"
+ },
+ "hoe laat is het?": {
+  "breakdown": [
+   [
+    "Hoe laat",
+    "幾點"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "het",
+    "它"
+   ]
+  ],
+  "order": "Hoe laat(幾點) → is(動詞#2) → het(它)",
+  "grammar": "疑問句，動詞在第二位。",
+  "listen": "'Hoe laat' 可能連音，聽起來像 'Helaat'。"
+ },
+ "nou, bijna drie uur.": {
+  "breakdown": [
+   [
+    "Nou",
+    "那麼"
+   ],
+   [
+    "bijna",
+    "快"
+   ],
+   [
+    "drie uur",
+    "三點"
+   ]
+  ],
+  "order": "Nou(那麼) → bijna(快) → drie uur(三點)",
+  "grammar": "口語用法，無動詞。",
+  "listen": "'bijna' 可能被快速說出，聽起來像 'bina'。"
+ },
+ "nee, dank je.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "dank je",
+    "謝謝"
+   ]
+  ],
+  "order": "Nee(不) → dank je(謝謝)",
+  "grammar": "簡單回答，無動詞。",
+  "listen": "'Nee' 可能被快速說出，聽起來像 'ne'。"
+ },
+ "ik moet zo weg.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "moet",
+    "必須"
+   ],
+   [
+    "zo",
+    "快要"
+   ],
+   [
+    "weg",
+    "走"
+   ]
+  ],
+  "order": "Ik(主詞) → moet(動詞#2) → zo(快要) → weg(走)",
+  "grammar": "V2 倒裝，動詞在第二位。",
+  "listen": "'moet zo' 可能連音，聽起來像 'moetso'。"
+ },
+ "ik moet om vier uur op mijn werk zijn.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "moet",
+    "必須"
+   ],
+   [
+    "om vier uur",
+    "四點"
+   ],
+   [
+    "op mijn werk zijn",
+    "到工作崗位"
+   ]
+  ],
+  "order": "Ik(主詞) → moet(動詞#2) → om vier uur(四點) → op mijn werk zijn(到工作崗位)",
+  "grammar": "V2 倒裝，動詞在第二位。",
+  "listen": "'moet om' 可能連音，聽起來像 'moetom'。"
+ },
+ "oh, wat voor werk doe je?": {
+  "breakdown": [
+   [
+    "Oh",
+    "喔"
+   ],
+   [
+    "wat voor werk",
+    "什麼工作"
+   ],
+   [
+    "doe je",
+    "你做"
+   ]
+  ],
+  "order": "感嘆詞 Oh → 疑問詞 wat voor → 名詞 werk → 動詞 doe → 主詞 je。",
+  "grammar": "使用疑問句形式，動詞在第二位。",
+  "listen": "注意 'wat voor' 連音，可能聽成 'watvoor'。"
+ },
+ "ik maak schoon op een school.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "maak schoon",
+    "清潔"
+   ],
+   [
+    "op een school",
+    "在學校"
+   ]
+  ],
+  "order": "主詞 Ik → 動詞 maak → 形容詞 schoon → 介系詞 op → 名詞 een school。",
+  "grammar": "動詞 maak 是現在式，表示持續的動作。",
+  "listen": "注意 'maak schoon' 可能聽成 'mak schoon'。"
+ },
+ "en wat doe jij?": {
+  "breakdown": [
+   [
+    "En",
+    "和"
+   ],
+   [
+    "wat",
+    "什麼"
+   ],
+   [
+    "doe jij",
+    "你做"
+   ]
+  ],
+  "order": "連接詞 En → 疑問詞 wat → 動詞 doe → 主詞 jij。",
+  "grammar": "使用疑問句形式，動詞在第二位。",
+  "listen": "注意 'wat' 可能被弱讀。"
+ },
+ "ik ben vorige maand gestopt met mijn werk in de fabriek.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "ben gestopt",
+    "已經辭掉"
+   ],
+   [
+    "met mijn werk",
+    "我的工作"
+   ],
+   [
+    "in de fabriek",
+    "在工廠"
+   ]
+  ],
+  "order": "主詞 Ik → 動詞 ben → 過去分詞 gestopt → 介系詞 met → 名詞 mijn werk → 介系詞 in → 名詞 de fabriek。",
+  "grammar": "使用完成式，助動詞在前，過去分詞在後。",
+  "listen": "注意 'ben' 和 'gestopt' 之間的連音。"
+ },
+ "en ik zoek nu ander werk.": {
+  "breakdown": [
+   [
+    "En",
+    "和"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "zoek",
+    "找"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "ander werk",
+    "其他工作"
+   ]
+  ],
+  "order": "連接詞 En → 主詞 ik → 動詞 zoek → 副詞 nu → 形容詞 ander → 名詞 werk。",
+  "grammar": "動詞 zoek 是現在式，表示持續的動作。",
+  "listen": "注意 'ik zoek' 可能聽成 'ik' 被弱讀。"
+ },
+ "oh, wat voor werk zoek je?": {
+  "breakdown": [
+   [
+    "Oh",
+    "喔"
+   ],
+   [
+    "wat voor werk",
+    "什麼工作"
+   ],
+   [
+    "zoek je",
+    "你在找"
+   ]
+  ],
+  "order": "感嘆詞 Oh → 疑問詞 wat voor → 名詞 werk → 動詞 zoek → 主詞 je。",
+  "grammar": "使用疑問句形式，動詞在第二位。",
+  "listen": "注意 'wat voor' 連音，可能聽成 'watvoor'。"
+ },
+ "ja, dat weet ik niet precies.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "dat weet ik niet precies",
+    "我不太確定"
+   ]
+  ],
+  "order": "肯定詞 Ja → 連接詞 dat → 動詞 weet → 主詞 ik → 副詞 niet → 形容詞 precies。",
+  "grammar": "使用現在式，表示持續的狀態。",
+  "listen": "注意 'dat' 可能被弱讀。"
+ },
+ "ben je al bij het werkplein geweest?": {
+  "breakdown": [
+   [
+    "Ben je",
+    "你去過"
+   ],
+   [
+    "al",
+    "已經"
+   ],
+   [
+    "bij het werkplein",
+    "就業中心"
+   ],
+   [
+    "geweest",
+    "嗎"
+   ]
+  ],
+  "order": "動詞 Ben → 主詞 je → 副詞 al → 介系詞 bij → 名詞 het werkplein → 過去分詞 geweest。",
+  "grammar": "使用完成式，助動詞在前，過去分詞在後。",
+  "listen": "注意 'Ben je' 可能聽成 'Ben' 被弱讀。"
+ },
+ "daar hangen wel wat vacatures.": {
+  "breakdown": [
+   [
+    "Daar",
+    "那裡"
+   ],
+   [
+    "hangen",
+    "有"
+   ],
+   [
+    "wel wat vacatures",
+    "一些職缺"
+   ]
+  ],
+  "order": "副詞 Daar → 動詞 hangen → 副詞 wel → 名詞 wat vacatures。",
+  "grammar": "動詞 hangen 是現在式，表示存在。",
+  "listen": "注意 'wel' 可能被弱讀。"
+ },
+ "nee, nog niet. ik ga me daar morgen inschrijven.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "nog niet",
+    "還沒"
+   ],
+   [
+    "Ik ga",
+    "我去"
+   ],
+   [
+    "me daar",
+    "那裡"
+   ],
+   [
+    "morgen inschrijven",
+    "明天登記"
+   ]
+  ],
+  "order": "否定詞 Nee → 副詞 nog niet → 主詞 Ik → 動詞 ga → 反身代名詞 me → 副詞 daar → 時間副詞 morgen → 動詞 inschrijven。",
+  "grammar": "動詞 ga 是現在式，表示未來的計畫。",
+  "listen": "注意 'nog niet' 可能連音。"
+ },
+ "oké. nou, succes. en tot de volgende keer.": {
+  "breakdown": [
+   [
+    "Oké",
+    "好的"
+   ],
+   [
+    "Nou",
+    "那麼"
+   ],
+   [
+    "succes",
+    "祝你好運"
+   ],
+   [
+    "En tot de volgende keer",
+    "下次見"
+   ]
+  ],
+  "order": "感嘆詞 Oké → 連接詞 Nou → 名詞 succes → 連接詞 En → 介系詞 tot → 形容詞 de volgende → 名詞 keer。",
+  "grammar": "使用簡單句，表達祝福和告別。",
+  "listen": "注意 'succes' 可能被弱讀。"
+ },
+ "ja, dank je. en werk ze.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "dank je",
+    "謝謝你"
+   ],
+   [
+    "En werk ze",
+    "祝你工作順利"
+   ]
+  ],
+  "order": "肯定詞 Ja → 名詞 dank je → 連接詞 En → 動詞 werk → 代名詞 ze。",
+  "grammar": "使用簡單句，表達感謝和祝福。",
+  "listen": "注意 'dank je' 可能被弱讀。"
+ },
+ "op zoek naar werk.": {
+  "breakdown": [
+   [
+    "Op zoek",
+    "找"
+   ],
+   [
+    "naar werk",
+    "工作"
+   ]
+  ],
+  "order": "「Op zoek」(找) → naar(到) → werk(工作)」規則：這是介系詞片語，表示目的。",
+  "grammar": "名詞片語，無動詞。",
+  "listen": "注意「op zoek」的連音。"
+ },
+ "goed, dan heb ik nog een paar vragen.": {
+  "breakdown": [
+   [
+    "Goed",
+    "好的"
+   ],
+   [
+    "dan heb ik",
+    "那我有"
+   ],
+   [
+    "nog een paar vragen",
+    "幾個問題"
+   ]
+  ],
+  "order": "Goed(好的) → dan(那) → heb(有) → ik(我) → nog(還) → een paar(幾個) → vragen(問題)」規則：主詞在動詞後，其他成分依序排列。",
+  "grammar": "現在式，動詞有變化。",
+  "listen": "「een paar」可能聽不清。"
+ },
+ "waar ben je geboren?": {
+  "breakdown": [
+   [
+    "Waar",
+    "哪裡"
+   ],
+   [
+    "ben je",
+    "你是"
+   ],
+   [
+    "geboren",
+    "出生"
+   ]
+  ],
+  "order": "Waar(哪裡) → ben(是) → je(你) → geboren(出生)」規則：疑問句，動詞在主詞前。",
+  "grammar": "現在式，動詞變化。",
+  "listen": "「geboren」的結尾可能不清楚。"
+ },
+ "in londen, in engeland.": {
+  "breakdown": [
+   [
+    "In Londen",
+    "在倫敦"
+   ],
+   [
+    "in Engeland",
+    "在英格蘭"
+   ]
+  ],
+  "order": "In(在) → Londen(倫敦) → in(在) → Engeland(英格蘭)」規則：地點前置詞在句首。",
+  "grammar": "名詞片語，無動詞。",
+  "listen": "「In」可能被弱讀。"
+ },
+ "zo, je spreekt goed nederlands. dank je wel. ik woon hier ook al zeven jaar.": {
+  "breakdown": [
+   [
+    "Zo",
+    "哇"
+   ],
+   [
+    "je spreekt goed Nederlands",
+    "你說得很好荷蘭語"
+   ],
+   [
+    "Dank je wel",
+    "謝謝"
+   ],
+   [
+    "Ik woon hier ook al zeven jaar",
+    "我已經在這裡住七年了"
+   ]
+  ],
+  "order": "Zo(哇) → je(你) → spreekt(說) → goed(很好) → Nederlands(荷蘭語) → Dank je wel(謝謝) → Ik(我) → woon(住) → hier(這裡) → ook(也) → al(已經) → zeven(七) → jaar(年)」規則：主詞在動詞前，其他成分依序排列。",
+  "grammar": "現在式，動詞變化。",
+  "listen": "「Dank je wel」可能聽不清。"
+ },
+ "is je nationaliteit nog engels?": {
+  "breakdown": [
+   [
+    "Is",
+    "是"
+   ],
+   [
+    "je nationaliteit",
+    "你的國籍"
+   ],
+   [
+    "nog Engels",
+    "還是英國的"
+   ]
+  ],
+  "order": "Is(是) → je(你) → nationaliteit(國籍) → nog(還是) → Engels(英國的)」規則：疑問句，動詞在主詞前。",
+  "grammar": "現在式，動詞變化。",
+  "listen": "「nog」可能被弱讀。"
+ },
+ "nee, ik heb een nederlands paspoort.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "ik heb",
+    "我有"
+   ],
+   [
+    "een Nederlands paspoort",
+    "一個荷蘭護照"
+   ]
+  ],
+  "order": "Nee(不) → ik(我) → heb(有) → een(一個) → Nederlands(荷蘭) → paspoort(護照)」規則：主詞在動詞前，其他成分依序排列。",
+  "grammar": "現在式，動詞變化。",
+  "listen": "「een」可能聽不清。"
+ },
+ "en wat is je telefoonnummer?": {
+  "breakdown": [
+   [
+    "En",
+    "和"
+   ],
+   [
+    "wat is",
+    "什麼是"
+   ],
+   [
+    "je telefoonnummer",
+    "你的電話號碼"
+   ]
+  ],
+  "order": "En(和) → wat(什麼) → is(是) → je(你的) → telefoonnummer(電話號碼)」規則：疑問句，動詞在主詞前。",
+  "grammar": "現在式，動詞變化。",
+  "listen": "「wat」可能被弱讀。"
+ },
+ "van mijn mobiel?": {
+  "breakdown": [
+   [
+    "Van mijn mobiel",
+    "手機的嗎"
+   ]
+  ],
+  "order": "Van(從) → mijn(我的) → mobiel(手機)」規則：介系詞片語，表示來源。",
+  "grammar": "名詞片語，無動詞。",
+  "listen": "「mijn」可能聽不清。"
+ },
+ "ja, je andere nummer staat hier al.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "je andere nummer",
+    "你的另一個號碼"
+   ],
+   [
+    "staat hier al",
+    "這裡已經有了"
+   ]
+  ],
+  "order": "Ja(是的) → je(你的) → andere(另一個) → nummer(號碼) → staat(在) → hier(這裡) → al(已經)」規則：主詞在動詞前，其他成分依序排列。",
+  "grammar": "現在式，動詞變化。",
+  "listen": "「andere」可能聽不清。"
+ },
+ "dat is 06 176 53429. prima.": {
+  "breakdown": [
+   [
+    "Dat is",
+    "那是"
+   ],
+   [
+    "06 176 53429",
+    "06 176 53429"
+   ],
+   [
+    "Prima",
+    "沒問題"
+   ]
+  ],
+  "order": "Dat(那) → is(是) → 06 176 53429(號碼) → Prima(沒問題)」規則：主詞在動詞前，其他成分依序排列。",
+  "grammar": "現在式，動詞變化。",
+  "listen": "注意「Dat」的連音。"
+ },
+ "en je emailadres is ljholman@planet.nl ja, dat klopt.": {
+  "breakdown": [
+   [
+    "En",
+    "和"
+   ],
+   [
+    "je emailadres",
+    "你的電子郵件"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "ljholman@planet.nl",
+    "ljholman@planet.nl"
+   ],
+   [
+    "Ja, dat klopt",
+    "是的，沒錯"
+   ]
+  ],
+  "order": "En(和) → je(你的) → emailadres(電子郵件) → is(是) → ljholman@planet.nl(地址) → Ja(是的) → dat(那) → klopt(對)」規則：主詞在動詞前，其他成分依序排列。",
+  "grammar": "現在式，動詞變化。",
+  "listen": "「is」可能被弱讀。"
+ },
+ "oké, dan heb ik je persoonlijke gegevens.": {
+  "breakdown": [
+   [
+    "Oké",
+    "好"
+   ],
+   [
+    "dan",
+    "那"
+   ],
+   [
+    "heb ik",
+    "我有"
+   ],
+   [
+    "je persoonlijke gegevens",
+    "你的個人資料"
+   ]
+  ],
+  "order": "主詞(ik) → 動詞(heb) → 受詞(je persoonlijke gegevens)",
+  "grammar": "現在式，主詞後動詞在第二位。",
+  "listen": "注意 'je' 可能聽起來像 'j'。"
+ },
+ "dan nu je werkervaring.": {
+  "breakdown": [
+   [
+    "Dan",
+    "現在"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "je werkervaring",
+    "你的工作經驗"
+   ]
+  ],
+  "order": "副詞(Dan) → 副詞(nu) → 受詞(je werkervaring)",
+  "grammar": "這句是簡單的陳述句，無特別時態。",
+  "listen": "注意 'nu' 可能被弱讀。"
+ },
+ "ik doe vrijwilligerswerk.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "doe",
+    "做"
+   ],
+   [
+    "vrijwilligerswerk",
+    "志工工作"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(doe) → 受詞(vrijwilligerswerk)",
+  "grammar": "現在式，主詞後動詞在第二位。",
+  "listen": "注意 'doe' 的發音，可能聽不清。"
+ },
+ "ik doe vrijwilligerswerk. 1.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "doe",
+    "做"
+   ],
+   [
+    "vrijwilligerswerk",
+    "志工工作"
+   ],
+   [
+    "1.",
+    "1."
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(doe) → 受詞(vrijwilligerswerk) → 附加信息(1.)",
+  "grammar": "現在式，主詞後動詞在第二位。",
+  "listen": "注意 '1.' 可能被忽略。"
+ },
+ "5. 7. 9.": {
+  "breakdown": [
+   [
+    "5.",
+    "5."
+   ],
+   [
+    "7.",
+    "7."
+   ],
+   [
+    "9.",
+    "9."
+   ]
+  ],
+  "order": "附加信息(5.) → 附加信息(7.) → 附加信息(9.)",
+  "grammar": "這句是簡單的列舉，無動詞。",
+  "listen": "注意數字的發音，可能聽不清。"
+ },
+ "10. 11.": {
+  "breakdown": [
+   [
+    "10.",
+    "10."
+   ],
+   [
+    "11.",
+    "11."
+   ]
+  ],
+  "order": "附加信息(10.) → 附加信息(11.)",
+  "grammar": "這句是簡單的列舉，無動詞。",
+  "listen": "注意數字的發音，可能聽不清。"
+ },
+ "ik help bij de koffieochtend.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "help",
+    "幫忙"
+   ],
+   [
+    "bij de koffieochtend",
+    "在咖啡早會"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(help) → 受詞(bij de koffieochtend)",
+  "grammar": "現在式，主詞後動詞在第二位。",
+  "listen": "注意 'bij' 可能被弱讀。"
+ },
+ "vind je het leuk werk?": {
+  "breakdown": [
+   [
+    "Vind je",
+    "你喜歡"
+   ],
+   [
+    "het leuk werk",
+    "這工作嗎"
+   ]
+  ],
+  "order": "動詞(Vind) → 主詞(je) → 受詞(het leuk werk)",
+  "grammar": "這是疑問句，動詞放在句首。",
+  "listen": "注意 'je' 可能聽起來像 'j'。"
+ },
+ "jazeker. ik heb veel contact met de bewoners. dat is erg leuk.": {
+  "breakdown": [
+   [
+    "Jazeker",
+    "當然"
+   ],
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "heb",
+    "有"
+   ],
+   [
+    "veel contact",
+    "很多聯絡"
+   ],
+   [
+    "met de bewoners",
+    "和住戶"
+   ],
+   [
+    "Dat is erg leuk",
+    "這非常有趣"
+   ]
+  ],
+  "order": "副詞(Jazeker) → 主詞(Ik) → 動詞(heb) → 受詞(veel contact) → 附加信息(met de bewoners) → 附加信息(Dat is erg leuk)",
+  "grammar": "現在式，主詞後動詞在第二位。",
+  "listen": "注意 'veel' 可能被弱讀。"
+ },
+ "hoi richard.": {
+  "breakdown": [
+   [
+    "Hoi",
+    "嗨"
+   ],
+   [
+    "Richard",
+    "Richard"
+   ]
+  ],
+  "order": "問候詞(Hoi) → 受詞(Richard)",
+  "grammar": "這是簡單的問候句，無動詞。",
+  "listen": "注意 'Hoi' 的發音，可能聽不清。"
+ },
+ "hoi mustafa.": {
+  "breakdown": [
+   [
+    "Hoi",
+    "嗨"
+   ],
+   [
+    "Mustafa",
+    "Mustafa"
+   ]
+  ],
+  "order": "問候詞(Hoi) → 受詞(Mustafa)",
+  "grammar": "這是簡單的問候句，無動詞。",
+  "listen": "注意 'Hoi' 的發音，可能聽不清。"
+ },
+ "wacht je op je dochter?": {
+  "breakdown": [
+   [
+    "Wacht je",
+    "你在等"
+   ],
+   [
+    "op je dochter",
+    "你女兒嗎"
+   ]
+  ],
+  "order": "動詞(Wacht) → 主詞(je) → 受詞(op je dochter)",
+  "grammar": "這是疑問句，動詞放在句首。",
+  "listen": "注意 'je' 可能聽起來像 'j'。"
+ },
+ "nee, die is al naar huis.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "die",
+    "她"
+   ],
+   [
+    "is al naar huis",
+    "已經回家了"
+   ]
+  ],
+  "order": "主詞 die → 動詞 is → 剩餘部分 al naar huis。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，表示已經發生的狀態。",
+  "listen": "注意 'is al' 之間的連音。"
+ },
+ "ik heb om kwart voor vier een afspraak met de juf.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "heb",
+    "有"
+   ],
+   [
+    "om kwart voor vier",
+    "四點差十分"
+   ],
+   [
+    "een afspraak met de juf",
+    "和老師的約會"
+   ]
+  ],
+  "order": "主詞 Ik → 動詞 heb → 時間 om kwart voor vier → 其他部分。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在完成式，表示未來的約定。",
+  "listen": "注意 'kwart voor' 的連音，容易漏聽。"
+ },
+ "gaat het niet goed op school?": {
+  "breakdown": [
+   [
+    "Gaat het",
+    "情況"
+   ],
+   [
+    "niet goed",
+    "不好"
+   ],
+   [
+    "op school",
+    "在學校"
+   ]
+  ],
+  "order": "動詞 Gaat → 主詞 het → 剩餘部分 niet goed op school。規則：動詞在前，主詞在第二位。",
+  "grammar": "現在式，詢問狀況。",
+  "listen": "注意 'het' 可能被弱讀。"
+ },
+ "jawel hoor, het gaat prima.": {
+  "breakdown": [
+   [
+    "Jawel hoor",
+    "不是啦"
+   ],
+   [
+    "het gaat prima",
+    "一切都很好"
+   ]
+  ],
+  "order": "主詞 het → 動詞 gaat → 剩餘部分 prima。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，強調狀況良好。",
+  "listen": "注意 'Jawel' 的發音，可能不易聽到。"
+ },
+ "ik ga praten met de juf over de computerles.": {
+  "breakdown": [
+   [
+    "Ik ga",
+    "我要"
+   ],
+   [
+    "praten met de juf",
+    "和老師談談"
+   ],
+   [
+    "over de computerles",
+    "關於電腦課"
+   ]
+  ],
+  "order": "主詞 Ik → 動詞 ga → 剩餘部分 praten met de juf over de computerles。規則：主詞在前，動詞在第二位。",
+  "grammar": "未來式，表示計畫行動。",
+  "listen": "注意 'ga praten' 的連音。"
+ },
+ "de juf heeft hulp nodig in de klas met de computers.": {
+  "breakdown": [
+   [
+    "De juf",
+    "老師"
+   ],
+   [
+    "heeft hulp nodig",
+    "需要幫助"
+   ],
+   [
+    "in de klas met de computers",
+    "在班上電腦方面"
+   ]
+  ],
+  "order": "主詞 De juf → 動詞 heeft → 剩餘部分 hulp nodig in de klas met de computers。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，描述需求。",
+  "listen": "注意 'heeft hulp' 的連音。"
+ },
+ "en jij wil wel helpen?": {
+  "breakdown": [
+   [
+    "En jij",
+    "你"
+   ],
+   [
+    "wil wel helpen",
+    "願意幫忙"
+   ]
+  ],
+  "order": "連接詞 En → 主詞 jij → 動詞 wil → 剩餘部分 wel helpen。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，詢問意願。",
+  "listen": "注意 'wil' 的發音，可能不易聽到。"
+ },
+ "ja, lijkt mij erg leuk.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "lijkt mij",
+    "我覺得"
+   ],
+   [
+    "erg leuk",
+    "很有趣"
+   ]
+  ],
+  "order": "主詞 het → 動詞 lijkt → 剩餘部分 mij erg leuk。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，表達感受。",
+  "listen": "注意 'lijkt mij' 的連音。"
+ },
+ "wanneer is de computerles?": {
+  "breakdown": [
+   [
+    "Wanneer",
+    "什麼時候"
+   ],
+   [
+    "is de computerles",
+    "是電腦課"
+   ]
+  ],
+  "order": "疑問詞 Wanneer → 動詞 is → 剩餘部分 de computerles。規則：疑問詞在前，動詞在第二位。",
+  "grammar": "現在式，詢問時間。",
+  "listen": "注意 'de computerles' 的連音。"
+ },
+ "elke donderdag van half drie tot half vier.": {
+  "breakdown": [
+   [
+    "Elke donderdag",
+    "每週四"
+   ],
+   [
+    "van half drie tot half vier",
+    "從兩點半到三點半"
+   ]
+  ],
+  "order": "時間 Elke donderdag → 剩餘部分 van half drie tot half vier。規則：時間在前，其他部分跟隨。",
+  "grammar": "現在式，描述固定時間。",
+  "listen": "注意 'van half' 的連音。"
+ },
+ "help jij ook op school?": {
+  "breakdown": [
+   [
+    "Help jij",
+    "你幫忙"
+   ],
+   [
+    "ook op school",
+    "也在學校"
+   ]
+  ],
+  "order": "動詞 Help → 主詞 jij → 剩餘部分 ook op school。規則：動詞在前，主詞在第二位。",
+  "grammar": "現在式，詢問行為。",
+  "listen": "注意 'Help jij' 的連音。"
+ },
+ "ja, ik ben leesvader.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "ik ben",
+    "我是一個"
+   ],
+   [
+    "leesvader",
+    "閱讀志工爸爸"
+   ]
+  ],
+  "order": "主詞 ik → 動詞 ben → 剩餘部分 leesvader。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，表達身份。",
+  "listen": "注意 'ik ben' 的連音。"
+ },
+ "wat is dat?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "dat",
+    "那"
+   ]
+  ],
+  "order": "主詞(那) → 動詞(是) → 補語(什麼)",
+  "grammar": "簡單現在式，主詞+動詞+補語。",
+  "listen": "注意 dat 可能聽不清。"
+ },
+ "ik lees elke woensdag van half negen tot negen uur met een groepje kinderen.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "lees",
+    "讀"
+   ],
+   [
+    "elke woensdag",
+    "每週三"
+   ],
+   [
+    "van half negen tot negen uur",
+    "從八點半到九點"
+   ],
+   [
+    "met een groepje kinderen",
+    "和一小組小朋友"
+   ]
+  ],
+  "order": "主詞(我) → 動詞(讀) → 時間(每週三) → 時間(從八點半到九點) → 補語(和一小組小朋友)",
+  "grammar": "現在式，主詞+動詞+時間+補語。",
+  "listen": "注意 elke 可能聽不清。"
+ },
+ "waar woon je nu?": {
+  "breakdown": [
+   [
+    "Waar",
+    "哪裡"
+   ],
+   [
+    "woon",
+    "住"
+   ],
+   [
+    "je",
+    "你"
+   ],
+   [
+    "nu",
+    "現在"
+   ]
+  ],
+  "order": "疑問詞(哪裡) → 動詞(住) → 主詞(你) → 副詞(現在)",
+  "grammar": "現在式，疑問句結構。",
+  "listen": "注意 je 可能被弱讀。"
+ },
+ "hé lucas, hoe is het?": {
+  "breakdown": [
+   [
+    "Hé",
+    "嗨"
+   ],
+   [
+    "Lucas",
+    "Lucas"
+   ],
+   [
+    "hoe",
+    "怎麼樣"
+   ],
+   [
+    "is het",
+    "是"
+   ]
+  ],
+  "order": "感嘆詞(嗨) → 主詞(Lucas) → 疑問詞(怎麼樣) → 動詞(是)",
+  "grammar": "疑問句，動詞在主詞前。",
+  "listen": "注意 hoe 可能聽不清。"
+ },
+ "in de houtmansstraat.": {
+  "breakdown": [
+   [
+    "In",
+    "在"
+   ],
+   [
+    "de Houtmansstraat",
+    "Houtmans街"
+   ]
+  ],
+  "order": "介系詞(在) → 地點(Houtmans街)",
+  "grammar": "簡單現在式，介系詞+地點。",
+  "listen": "注意 de 可能被弱讀。"
+ },
+ "in een flat?": {
+  "breakdown": [
+   [
+    "In",
+    "在"
+   ],
+   [
+    "een flat",
+    "公寓裡"
+   ]
+  ],
+  "order": "介系詞(在) → 補語(公寓裡)",
+  "grammar": "簡單現在式，介系詞+補語。",
+  "listen": "注意 een 可能聽不清。"
+ },
+ "nee, we hebben een eengezinswoning.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "we hebben",
+    "我們有"
+   ],
+   [
+    "een eengezinswoning",
+    "一棟透天厝"
+   ]
+  ],
+  "order": "否定詞(不) → 主詞(我們) → 動詞(有) → 補語(一棟透天厝)",
+  "grammar": "現在式，主詞+動詞+補語，否定詞在句首。",
+  "listen": "注意 een 可能被弱讀。"
+ },
+ "fijn.": {
+  "breakdown": [
+   [
+    "Fijn",
+    "很好"
+   ]
+  ],
+  "order": "形容詞(很好)",
+  "grammar": "簡單現在式，單一形容詞。",
+  "listen": "注意 Fijn 可能聽不清。"
+ },
+ "is het een groot huis?": {
+  "breakdown": [
+   [
+    "Is",
+    "是"
+   ],
+   [
+    "het",
+    "它"
+   ],
+   [
+    "een groot huis",
+    "大房子"
+   ]
+  ],
+  "order": "動詞(是) → 主詞(它) → 補語(大房子)",
+  "grammar": "疑問句，動詞在主詞前。",
+  "listen": "注意 het 可能被弱讀。"
+ },
+ "nou, dat gaat wel.": {
+  "breakdown": [
+   [
+    "Nou",
+    "嗯"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "gaat wel",
+    "還好"
+   ]
+  ],
+  "order": "感嘆詞(嗯) → 主詞(那) → 動詞(還好)",
+  "grammar": "簡單現在式，感嘆詞+主詞+動詞。",
+  "listen": "注意 dat 可能聽不清。"
+ },
+ "het huis heeft drie kamers.": {
+  "breakdown": [
+   [
+    "Het huis",
+    "房子"
+   ],
+   [
+    "heeft",
+    "有"
+   ],
+   [
+    "drie kamers",
+    "三個房間"
+   ]
+  ],
+  "order": "主詞(房子) → 動詞(有) → 補語(三個房間)",
+  "grammar": "現在式，主詞+動詞+補語。",
+  "listen": "注意 het 可能被弱讀。"
+ },
+ "en jouw huis?": {
+  "breakdown": [
+   [
+    "En",
+    "和"
+   ],
+   [
+    "jouw huis",
+    "你家"
+   ]
+  ],
+  "order": "連接詞(和) → 主詞(你家)",
+  "grammar": "簡單現在式，連接詞+主詞。",
+  "listen": "注意 jouw 可能聽不清。"
+ },
+ "ik woon in een flat.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "woon",
+    "住"
+   ],
+   [
+    "in een flat",
+    "在一個公寓"
+   ]
+  ],
+  "order": "主詞(ik) → 動詞(woon) → 地點(in een flat)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "woon 和 in 之間的連音可能不明顯。"
+ },
+ "op welke verdieping?": {
+  "breakdown": [
+   [
+    "Op welke",
+    "在幾個"
+   ],
+   [
+    "verdieping",
+    "樓層"
+   ]
+  ],
+  "order": "介系詞(Op) → 疑問詞(welke) → 名詞(verdieping)",
+  "grammar": "疑問句，動詞放在句首。",
+  "listen": "Op 和 welke 之間的連音可能被忽略。"
+ },
+ "de zevende.": {
+  "breakdown": [
+   [
+    "De",
+    "第"
+   ],
+   [
+    "zevende",
+    "七"
+   ]
+  ],
+  "order": "定冠詞(De) → 形容詞(zevende)",
+  "grammar": "簡單名詞短語，無動詞。",
+  "listen": "zevende 的發音可能不清楚。"
+ },
+ "dat is hoog.": {
+  "breakdown": [
+   [
+    "Dat",
+    "那"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "hoog",
+    "高的"
+   ]
+  ],
+  "order": "主詞(Dat) → 動詞(is) → 形容詞(hoog)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "is 的發音可能被弱讀。"
+ },
+ "ja, maar er is gelukkig wel een lift.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "maar",
+    "但"
+   ],
+   [
+    "er is gelukkig wel een lift",
+    "幸好有電梯"
+   ]
+  ],
+  "order": "肯定詞(Ja) → 轉折詞(maar) → 存在動詞(er is) → 形容詞(gelukkig) → 名詞(lift)",
+  "grammar": "存在句，動詞在第二位。",
+  "listen": "er 和 is 之間的連音可能不明顯。"
+ },
+ "dit is natasja.": {
+  "breakdown": [
+   [
+    "Dit",
+    "這"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "Natasja",
+    "Natasja"
+   ]
+  ],
+  "order": "指示詞(Dit) → 動詞(is) → 主詞(Natasja)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "is 的發音可能被弱讀。"
+ },
+ "ze is getrouwd en ze heeft drie kinderen.": {
+  "breakdown": [
+   [
+    "Ze",
+    "她"
+   ],
+   [
+    "is getrouwd",
+    "結婚了"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "ze heeft drie kinderen",
+    "她有三個孩子"
+   ]
+  ],
+  "order": "主詞(Ze) → 動詞(is) → 連接詞(en) → 主詞(ze) → 動詞(heeft) → 受詞(drie kinderen)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "is 和 getrouwd 之間的連音可能不明顯。"
+ },
+ "ze wonen in de nicolaastraat.": {
+  "breakdown": [
+   [
+    "Ze",
+    "他們"
+   ],
+   [
+    "wonen",
+    "住"
+   ],
+   [
+    "in de Nicolaastraat",
+    "在Nicolaastraat"
+   ]
+  ],
+  "order": "主詞(Ze) → 動詞(wonen) → 地點(in de Nicolaastraat)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "wonen 和 in 之間的連音可能不明顯。"
+ },
+ "hun huis staat in een rustige wijk.": {
+  "breakdown": [
+   [
+    "Hun huis",
+    "他們的房子"
+   ],
+   [
+    "staat",
+    "在"
+   ],
+   [
+    "in een rustige wijk",
+    "一個安靜的社區"
+   ]
+  ],
+  "order": "主詞(Hun huis) → 動詞(staat) → 地點(in een rustige wijk)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "staat 的發音可能被弱讀。"
+ },
+ "de kinderen kunnen lekker buitenspelen.": {
+  "breakdown": [
+   [
+    "De kinderen",
+    "孩子們"
+   ],
+   [
+    "kunnen",
+    "可以"
+   ],
+   [
+    "lekker buitenspelen",
+    "自在地在外面玩"
+   ]
+  ],
+  "order": "主詞(De kinderen) → 助動詞(kunnen) → 原形動詞(buitenspelen)",
+  "grammar": "情態動詞，助動詞在第二位，原形動詞丟句尾。",
+  "listen": "kunnen 和 lekker 之間的連音可能不明顯。"
+ },
+ "natasja woont met haar gezin in een eengezinswoning.": {
+  "breakdown": [
+   [
+    "Natasja",
+    "Natasja"
+   ],
+   [
+    "woont",
+    "住"
+   ],
+   [
+    "met haar gezin",
+    "和她的家人"
+   ],
+   [
+    "in een eengezinswoning",
+    "在一棟透天厝裡"
+   ]
+  ],
+  "order": "主詞(Natasja) → 動詞(woont) → 介系詞(met) → 受詞(har gezin) → 地點(in een eengezinswoning)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "woont 的發音可能被弱讀。"
+ },
+ "het is een nieuw huis. het is pas gebouwd.": {
+  "breakdown": [
+   [
+    "Het",
+    "這"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "een nieuw huis",
+    "一棟新房子"
+   ],
+   [
+    "Het is pas gebouwd",
+    "剛蓋好的"
+   ]
+  ],
+  "order": "主詞(Het) → 動詞(is) → 受詞(een nieuw huis) → 主詞(Het) → 動詞(is) → 副詞(pas) → 過去分詞(gebouwd)",
+  "grammar": "現在式，動詞在第二位，過去分詞丟句尾。",
+  "listen": "is 和 pas 之間的連音可能不明顯。"
+ },
+ "het huis is groot. het heeft een mooie woonkamer.": {
+  "breakdown": [
+   [
+    "Het huis",
+    "房子"
+   ],
+   [
+    "is groot",
+    "很大"
+   ],
+   [
+    "Het heeft",
+    "它有"
+   ],
+   [
+    "een mooie woonkamer",
+    "漂亮的客廳"
+   ]
+  ],
+  "order": "主詞(Het huis) → 動詞(is) → 形容詞(groot) → 主詞(Het) → 動詞(heeft) → 受詞(een mooie woonkamer)",
+  "grammar": "現在式，主詞和動詞一致。",
+  "listen": "注意'heeft'的發音，可能聽不清楚。"
+ },
+ "drie slaapkamers, een grote badkamer en een tuin.": {
+  "breakdown": [
+   [
+    "Drie slaapkamers",
+    "三間臥室"
+   ],
+   [
+    "een grote badkamer",
+    "一間大浴室"
+   ],
+   [
+    "en een tuin",
+    "和一個花園"
+   ]
+  ],
+  "order": "主詞(Drie slaapkamers) → 受詞(一系列名詞) → 連接詞(en) → 受詞(一系列名詞)",
+  "grammar": "名詞並列，無需動詞。",
+  "listen": "注意'een'的弱讀，可能聽不清。"
+ },
+ "het huis heeft ook een zolder.": {
+  "breakdown": [
+   [
+    "Het huis",
+    "房子"
+   ],
+   [
+    "heeft ook",
+    "還有"
+   ],
+   [
+    "een zolder",
+    "一個閣樓"
+   ]
+  ],
+  "order": "主詞(Het huis) → 動詞(heeft) → 副詞(ook) → 受詞(een zolder)",
+  "grammar": "現在式，主詞和動詞一致。",
+  "listen": "注意'heeft'的發音，可能聽不清楚。"
+ },
+ "natasja is erg blij met het huis.": {
+  "breakdown": [
+   [
+    "Natasja",
+    "Natasja"
+   ],
+   [
+    "is erg blij",
+    "非常滿意"
+   ],
+   [
+    "met het huis",
+    "對這房子"
+   ]
+  ],
+  "order": "主詞(Natasja) → 動詞(is) → 副詞(erg) → 形容詞(blij) → 介詞(met) → 受詞(het huis)",
+  "grammar": "現在式，主詞和動詞一致。",
+  "listen": "注意'erg'的發音，可能聽不清楚。"
+ },
+ "een nieuw huis.": {
+  "breakdown": [
+   [
+    "Een nieuw huis",
+    "一棟新屋"
+   ]
+  ],
+  "order": "主詞(一棟新屋)",
+  "grammar": "名詞短語，無需動詞。",
+  "listen": "注意'een'的弱讀，可能聽不清。"
+ },
+ "hallo, buurvrouw.": {
+  "breakdown": [
+   [
+    "Hallo",
+    "哈囉"
+   ],
+   [
+    "buurvrouw",
+    "鄰居"
+   ]
+  ],
+  "order": "問候詞(Hallo) → 受詞(buurvrouw)",
+  "grammar": "簡單問候，無需動詞。",
+  "listen": "注意'Hallo'的發音，可能聽不清楚。"
+ },
+ "dag, mevrouw kok.": {
+  "breakdown": [
+   [
+    "Dag",
+    "您好"
+   ],
+   [
+    "mevrouw Kok",
+    "Kok女士"
+   ]
+  ],
+  "order": "問候詞(Dag) → 受詞(mevrouw Kok)",
+  "grammar": "簡單問候，無需動詞。",
+  "listen": "注意'Dag'的發音，可能聽不清楚。"
+ },
+ "hoe gaat het?": {
+  "breakdown": [
+   [
+    "Hoe gaat het",
+    "近來如何"
+   ]
+  ],
+  "order": "疑問句(Hoe gaat het)",
+  "grammar": "現在式，疑問句形式。",
+  "listen": "注意'gaat'的發音，可能聽不清楚。"
+ },
+ "en met u?": {
+  "breakdown": [
+   [
+    "En met u",
+    "您呢"
+   ]
+  ],
+  "order": "連接詞(En) → 介詞(met) → 受詞(u)",
+  "grammar": "簡單問候，無需動詞。",
+  "listen": "注意'En'的弱讀，可能聽不清。"
+ },
+ "en met uw man?": {
+  "breakdown": [
+   [
+    "En met uw man",
+    "您先生呢"
+   ]
+  ],
+  "order": "連接詞(En) → 介詞(met) → 受詞(uw man)",
+  "grammar": "簡單問候，無需動詞。",
+  "listen": "注意'uw'的發音，可能聽不清楚。"
+ },
+ "ook goed.": {
+  "breakdown": [
+   [
+    "Ook goed",
+    "也很好"
+   ]
+  ],
+  "order": "副詞(Ook) → 形容詞(goed)",
+  "grammar": "簡單回答，無需動詞。",
+  "listen": "注意'Ook'的弱讀，可能聽不清。"
+ },
+ "we gaan verhuizen.": {
+  "breakdown": [
+   [
+    "We",
+    "我們"
+   ],
+   [
+    "gaan verhuizen",
+    "要搬家了"
+   ]
+  ],
+  "order": "主詞(We) → 動詞(gaan) → 動詞(verhuizen)",
+  "grammar": "未來式，使用'gaan'表示未來。",
+  "listen": "注意'gaan'的發音，可能聽不清楚。"
+ },
+ "waar gaan jullie naartoe?": {
+  "breakdown": [
+   [
+    "Waar",
+    "哪裡"
+   ],
+   [
+    "gaan",
+    "要去"
+   ],
+   [
+    "jullie",
+    "你們"
+   ],
+   [
+    "naartoe",
+    "去那裡"
+   ]
+  ],
+  "order": "疑問句：Waar(地點) → gaan(動詞#1) → jullie(主詞) → naartoe(副詞)",
+  "grammar": "使用現在式，表示未來的計畫。",
+  "listen": "注意 'jullie' 的發音，可能會聽成 'je'。"
+ },
+ "we gaan in de boomstraat wonen.": {
+  "breakdown": [
+   [
+    "We",
+    "我們"
+   ],
+   [
+    "gaan",
+    "要去"
+   ],
+   [
+    "in de Boomstraat",
+    "在Boom街"
+   ],
+   [
+    "wonen",
+    "住"
+   ]
+  ],
+  "order": "主詞在前：We(主詞) → gaan(動詞#1) → in de Boomstraat(地點) → wonen(動詞#2)",
+  "grammar": "使用現在式，表示未來的計畫。",
+  "listen": "注意 'gaan' 和 'wonen' 的連音。"
+ },
+ "maar daar staan flats.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但是"
+   ],
+   [
+    "daar",
+    "那裡"
+   ],
+   [
+    "staan",
+    "有"
+   ],
+   [
+    "flats",
+    "公寓樓"
+   ]
+  ],
+  "order": "主詞在前：Maar(連接詞) → daar(地點) → staan(動詞#2) → flats(主詞)",
+  "grammar": "使用現在式，描述事實。",
+  "listen": "注意 'staan' 的發音，可能會聽不清。"
+ },
+ "ja, dat klopt.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "klopt",
+    "沒錯"
+   ]
+  ],
+  "order": "主詞在前：Ja(肯定) → dat(主詞) → klopt(動詞#2)",
+  "grammar": "使用現在式，表示確認。",
+  "listen": "注意 'dat' 的弱讀，可能會聽不清。"
+ },
+ "we gaan in een flat wonen.": {
+  "breakdown": [
+   [
+    "We",
+    "我們"
+   ],
+   [
+    "gaan",
+    "要去"
+   ],
+   [
+    "in een flat",
+    "住公寓"
+   ],
+   [
+    "wonen",
+    "住"
+   ]
+  ],
+  "order": "主詞在前：We(主詞) → gaan(動詞#1) → in een flat(地點) → wonen(動詞#2)",
+  "grammar": "使用現在式，表示未來的計畫。",
+  "listen": "注意 'gaan' 和 'wonen' 的連音。"
+ },
+ "deze eengezinswoning is te groot.": {
+  "breakdown": [
+   [
+    "Deze",
+    "這"
+   ],
+   [
+    "eengezinswoning",
+    "透天厝"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "te groot",
+    "太大了"
+   ]
+  ],
+  "order": "主詞在前：Deze(主詞) → is(動詞#2) → eengezinswoning(主詞) → te groot(形容詞)",
+  "grammar": "使用現在式，描述狀態。",
+  "listen": "注意 'is' 的發音，可能會聽不清。"
+ },
+ "dat snap ik.": {
+  "breakdown": [
+   [
+    "Dat",
+    "我"
+   ],
+   [
+    "snap",
+    "了解"
+   ],
+   [
+    "ik",
+    "我"
+   ]
+  ],
+  "order": "主詞在前：Dat(主詞) → snap(動詞#2) → ik(主詞)",
+  "grammar": "使用現在式，表示理解。",
+  "listen": "注意 'Dat' 的弱讀，可能會聽不清。"
+ },
+ "zeker nu uw kinderen hier niet meer wonen.": {
+  "breakdown": [
+   [
+    "Zeker",
+    "特別是"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "uw kinderen",
+    "您的孩子"
+   ],
+   [
+    "hier niet meer wonen",
+    "不再住這裡了"
+   ]
+  ],
+  "order": "主詞在前：Zeker(副詞) → nu(時間) → uw kinderen(主詞) → hier niet meer wonen(動詞短語)",
+  "grammar": "使用現在式，描述狀態。",
+  "listen": "注意 'uw' 的發音，可能會聽不清。"
+ },
+ "moet u veel opknappen in de flat?": {
+  "breakdown": [
+   [
+    "Moet",
+    "需要"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "veel",
+    "很多"
+   ],
+   [
+    "opknappen",
+    "整修"
+   ],
+   [
+    "in de flat",
+    "在公寓"
+   ]
+  ],
+  "order": "主詞在前：Moet(動詞#1) → u(主詞) → veel(副詞) → opknappen(動詞#2) → in de flat(地點)",
+  "grammar": "使用現在式，表示詢問。",
+  "listen": "注意 'u' 的發音，可能會聽成 'je'。"
+ },
+ "nee hoor, dat valt mee.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "hoor",
+    "會"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "valt mee",
+    "還好"
+   ]
+  ],
+  "order": "主詞在前：Nee(否定) → hoor(副詞) → dat(主詞) → valt mee(動詞短語)",
+  "grammar": "使用現在式，表示否定。",
+  "listen": "注意 'valt mee' 的連音，可能會聽不清。"
+ },
+ "we gaan alleen de muren schilderen.": {
+  "breakdown": [
+   [
+    "We",
+    "我們"
+   ],
+   [
+    "gaan",
+    "只會"
+   ],
+   [
+    "alleen",
+    "只"
+   ],
+   [
+    "de muren",
+    "牆壁"
+   ],
+   [
+    "schilderen",
+    "粉刷"
+   ]
+  ],
+  "order": "主詞在前：We(主詞) → gaan(動詞#1) → alleen(副詞) → de muren(主詞) → schilderen(動詞#2)",
+  "grammar": "使用現在式，表示未來的計畫。",
+  "listen": "注意 'gaan' 和 'schilderen' 的連音。"
+ },
+ "gelukkig.": {
+  "breakdown": [
+   [
+    "Gelukkig",
+    "還好"
+   ]
+  ],
+  "order": "單一詞：Gelukkig(副詞)",
+  "grammar": "使用現在式，表示感受。",
+  "listen": "注意 'Gelukkig' 的發音，可能會聽不清。"
+ },
+ "ik ga ons huis wel missen.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "ga",
+    "會"
+   ],
+   [
+    "ons huis",
+    "我們的家"
+   ],
+   [
+    "wel missen",
+    "想念"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(ga) → 受詞(ons huis) → 補語(wel missen)。規則：動詞在第2位。",
+  "grammar": "現在式，表示未來的計畫或預期。",
+  "listen": "注意 'ga' 和 'ons' 之間的連音。"
+ },
+ "en ik ga u missen.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "ga",
+    "會"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "missen",
+    "想念"
+   ]
+  ],
+  "order": "連接詞(En) → 主詞(ik) → 動詞(ga) → 受詞(u) → 補語(missen)。規則：動詞在第2位。",
+  "grammar": "現在式，表示未來的情感。",
+  "listen": "注意 'ga u' 的連音，可能聽不清。"
+ },
+ "jammer dat jullie weggaan.": {
+  "breakdown": [
+   [
+    "Jammer",
+    "可惜"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "jullie",
+    "你們"
+   ],
+   [
+    "weggaan",
+    "要搬走"
+   ]
+  ],
+  "order": "主詞(Jullie) → 動詞(weggaan) → 補語(Jammer dat)。規則：從句中動詞放在句尾。",
+  "grammar": "從句，使用 'dat' 引導。",
+  "listen": "注意 'weggaan' 的發音，可能會被忽略。"
+ },
+ "wanneer gaan jullie verhuizen?": {
+  "breakdown": [
+   [
+    "Wanneer",
+    "什麼時候"
+   ],
+   [
+    "gaan",
+    "要"
+   ],
+   [
+    "jullie",
+    "你們"
+   ],
+   [
+    "verhuizen",
+    "搬家"
+   ]
+  ],
+  "order": "疑問詞(Wanneer) → 動詞(gaan) → 主詞(jullie) → 補語(verhuizen)。規則：疑問句動詞放在句首。",
+  "grammar": "現在式，詢問未來的行動。",
+  "listen": "注意 'gaan jullie' 的連音，可能聽不清。"
+ },
+ "volgende week zaterdag.": {
+  "breakdown": [
+   [
+    "Volgende week",
+    "下週"
+   ],
+   [
+    "zaterdag",
+    "六"
+   ]
+  ],
+  "order": "時間(Volgende week) → 補語(zaterdag)。規則：時間詞通常放在句首。",
+  "grammar": "名詞短語，表示具體的時間。",
+  "listen": "注意 'Volgende' 的發音，可能會被忽略。"
+ },
+ "in het huis.": {
+  "breakdown": [
+   [
+    "In",
+    "在"
+   ],
+   [
+    "het huis",
+    "家裡"
+   ]
+  ],
+  "order": "介系詞(In) → 受詞(het huis)。規則：介系詞通常放在句首。",
+  "grammar": "介系詞短語，表示位置。",
+  "listen": "注意 'het' 的弱讀，可能聽不清。"
+ },
+ "je keuken is helemaal veranderd.": {
+  "breakdown": [
+   [
+    "Je keuken",
+    "你的廚房"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "helemaal veranderd",
+    "完全變了樣"
+   ]
+  ],
+  "order": "主詞(Je keuken) → 動詞(is) → 補語(helemaal veranderd)。規則：動詞在第2位。",
+  "grammar": "現在式，描述狀態的變化。",
+  "listen": "注意 'is helemaal' 的連音，可能聽不清。"
+ },
+ "ja, ik heb nieuwe kastjes.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "heb",
+    "有"
+   ],
+   [
+    "nieuwe kastjes",
+    "新櫥櫃"
+   ]
+  ],
+  "order": "肯定詞(Ja) → 主詞(ik) → 助動詞(heb) → 補語(nieuwe kastjes)。規則：助動詞在第2位。",
+  "grammar": "現在式，表示擁有的狀態。",
+  "listen": "注意 'heb nieuwe' 的連音，可能聽不清。"
+ },
+ "nou, wat een mooie kleur.": {
+  "breakdown": [
+   [
+    "Nou",
+    "哇"
+   ],
+   [
+    "wat",
+    "多麼"
+   ],
+   [
+    "een mooie kleur",
+    "好看的顏色"
+   ]
+  ],
+  "order": "感嘆詞(Nou) → 形容詞(wat) → 補語(een mooie kleur)。規則：感嘆句通常以感嘆詞開頭。",
+  "grammar": "感嘆句，表達驚訝或讚美。",
+  "listen": "注意 'wat een' 的連音，可能聽不清。"
+ },
+ "en ik heb een nieuwe koelkast.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "heb",
+    "有"
+   ],
+   [
+    "een nieuwe koelkast",
+    "新的冰箱"
+   ]
+  ],
+  "order": "連接詞(En) → 主詞(ik) → 助動詞(heb) → 補語(een nieuwe koelkast)。規則：助動詞在第2位。",
+  "grammar": "現在式，表示擁有的狀態。",
+  "listen": "注意 'heb een' 的連音，可能聽不清。"
+ },
+ "de oude was kapot.": {
+  "breakdown": [
+   [
+    "De oude",
+    "舊的"
+   ],
+   [
+    "was",
+    "壞了"
+   ],
+   [
+    "kapot",
+    "壞了"
+   ]
+  ],
+  "order": "主詞(De oude) → 動詞(was) → 補語(kapot)。規則：動詞在第2位。",
+  "grammar": "過去式，描述過去的狀態。",
+  "listen": "注意 'was kapot' 的連音，可能聽不清。"
+ },
+ "het is heel mooi geworden.": {
+  "breakdown": [
+   [
+    "Het",
+    "它"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "heel mooi geworden",
+    "變得很漂亮"
+   ]
+  ],
+  "order": "主詞(Het) → 動詞(is) → 補語(heel mooi geworden)。規則：動詞在第2位。",
+  "grammar": "現在完成式，描述狀態的變化。",
+  "listen": "注意 'is heel' 的連音，可能聽不清。"
+ },
+ "ja, en nu de woonkamer nog.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是啊"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "de woonkamer",
+    "客廳"
+   ],
+   [
+    "nog",
+    "也"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "主詞(隱含) → 動詞(是) → 其他(和現在客廳也)",
+  "grammar": "簡單現在式，表示當前狀態。",
+  "listen": "注意連音，'de'和'woonkamer'可能連在一起。"
+ },
+ "wat ga je daar veranderen?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "ga je",
+    "你要"
+   ],
+   [
+    "daar",
+    "那裡"
+   ],
+   [
+    "veranderen",
+    "改變"
+   ],
+   [
+    "?",
+    "？"
+   ]
+  ],
+  "order": "疑問詞(什麼) → 動詞(要) → 主詞(你) → 其他(那裡改變)",
+  "grammar": "疑問句，動詞放在主詞前。",
+  "listen": "'ga je'可能聽起來像'ga'。"
+ },
+ "ik wil een nieuwe bank kopen.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "wil",
+    "想"
+   ],
+   [
+    "een nieuwe bank",
+    "一個新的沙發"
+   ],
+   [
+    "kopen",
+    "買"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "主詞(我) → 動詞(想) → 其他(一個新的沙發買)",
+  "grammar": "使用'wil'表示願望，動詞放在句尾。",
+  "listen": "'een'可能被弱讀，聽起來像'een'。"
+ },
+ "wat voor bank zoek je?": {
+  "breakdown": [
+   [
+    "Wat voor",
+    "什麼樣的"
+   ],
+   [
+    "bank",
+    "沙發"
+   ],
+   [
+    "zoek je",
+    "你在找"
+   ],
+   [
+    "?",
+    "？"
+   ]
+  ],
+  "order": "疑問詞(什麼樣的) → 名詞(沙發) → 動詞(找) → 主詞(你)",
+  "grammar": "疑問句，動詞放在主詞前。",
+  "listen": "'zoek je'可能連音，聽起來像'zoe je'。"
+ },
+ "ik wil een leren bank.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "wil",
+    "想要"
+   ],
+   [
+    "een leren bank",
+    "一個真皮沙發"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "主詞(我) → 動詞(想要) → 其他(一個真皮沙發)",
+  "grammar": "使用'wil'表示願望，動詞後接名詞。",
+  "listen": "'een'可能被弱讀，聽起來像'een'。"
+ },
+ "een tweezitsbank of een driezitsbank?": {
+  "breakdown": [
+   [
+    "Een tweezitsbank",
+    "一個雙人沙發"
+   ],
+   [
+    "of",
+    "還是"
+   ],
+   [
+    "een driezitsbank",
+    "一個三人沙發"
+   ],
+   [
+    "?",
+    "？"
+   ]
+  ],
+  "order": "名詞(雙人沙發) → 連接詞(還是) → 名詞(三人沙發)",
+  "grammar": "使用'of'表示選擇。",
+  "listen": "'tweezitsbank'和'driezitsbank'可能連音。"
+ },
+ "een tweezitsbank.": {
+  "breakdown": [
+   [
+    "Een tweezitsbank",
+    "一個雙人沙發"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "名詞(雙人沙發) → 句號",
+  "grammar": "簡單句，直接回答問題。",
+  "listen": "注意'een'的弱讀。"
+ },
+ "en welke kleur?": {
+  "breakdown": [
+   [
+    "En",
+    "和"
+   ],
+   [
+    "welke kleur",
+    "什麼顏色"
+   ],
+   [
+    "?",
+    "？"
+   ]
+  ],
+  "order": "連接詞(和) → 疑問詞(什麼顏色)",
+  "grammar": "疑問句，動詞省略。",
+  "listen": "'welke'可能被弱讀。"
+ },
+ "ah, misschien een bruine bank.": {
+  "breakdown": [
+   [
+    "Ah",
+    "啊"
+   ],
+   [
+    "misschien",
+    "也許"
+   ],
+   [
+    "een bruine bank",
+    "一個棕色沙發"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "感嘆詞(啊) → 副詞(也許) → 名詞(一個棕色沙發)",
+  "grammar": "使用'misschien'表示不確定。",
+  "listen": "'een'可能被弱讀。"
+ },
+ "de muren in de woonkamer zijn crème en oranje.": {
+  "breakdown": [
+   [
+    "De muren",
+    "牆壁"
+   ],
+   [
+    "in",
+    "在"
+   ],
+   [
+    "de woonkamer",
+    "客廳"
+   ],
+   [
+    "zijn",
+    "是"
+   ],
+   [
+    "crème en oranje",
+    "奶油色和橘色"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "主詞(牆壁) → 地點(在客廳) → 動詞(是) → 形容詞(奶油色和橘色)",
+  "grammar": "簡單現在式，描述狀態。",
+  "listen": "'de'和'muren'可能連音。"
+ },
+ "ja, dat vind ik mooi.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "dat",
+    "這"
+   ],
+   [
+    "vind ik",
+    "我覺得"
+   ],
+   [
+    "mooi",
+    "漂亮"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "主詞(我) → 動詞(覺得) → 形容詞(漂亮)",
+  "grammar": "簡單現在式，表示個人看法。",
+  "listen": "'dat'可能被弱讀。"
+ },
+ "en ik wil ook nog een paar kussens.": {
+  "breakdown": [
+   [
+    "En",
+    "和"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "wil",
+    "想要"
+   ],
+   [
+    "ook",
+    "也"
+   ],
+   [
+    "nog",
+    "還"
+   ],
+   [
+    "een paar kussens",
+    "幾個靠墊"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "連接詞(和) → 主詞(我) → 動詞(想要) → 其他(也還幾個靠墊)",
+  "grammar": "使用'wil'表示願望，'ook'強調也想要。",
+  "listen": "'een paar'可能連音，聽起來像'een paar'。"
+ },
+ "dat is gezellig.": {
+  "breakdown": [
+   [
+    "Dat",
+    "那"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "gezellig",
+    "溫馨"
+   ]
+  ],
+  "order": "主詞Dat → 動詞is → 補語gezellig。規則：基本句型主詞在前，動詞在第二位。",
+  "grammar": "簡單現在式，表達狀態或感受。",
+  "listen": "注意is的發音，可能聽成'ez'。"
+ },
+ "hé, zullen we gaan kijken?": {
+  "breakdown": [
+   [
+    "Hé",
+    "嘿"
+   ],
+   [
+    "zullen",
+    "我們要"
+   ],
+   [
+    "we",
+    "我們"
+   ],
+   [
+    "gaan",
+    "去"
+   ],
+   [
+    "kijken",
+    "看看"
+   ]
+  ],
+  "order": "感嘆詞Hé → 動詞zullen → 主詞we → 動詞gaan → 動詞kijken。規則：疑問句動詞在前，主詞在後。",
+  "grammar": "使用情態動詞zullen表示提議。",
+  "listen": "注意zullen的連音，可能聽成'zul'。"
+ },
+ "welke school?": {
+  "breakdown": [
+   [
+    "Welke",
+    "哪一"
+   ],
+   [
+    "school",
+    "所學校"
+   ]
+  ],
+  "order": "疑問詞Welke → 名詞school。規則：疑問句通常以疑問詞開頭。",
+  "grammar": "簡單名詞疑問句，直接詢問特定事物。",
+  "listen": "注意Welke的發音，可能聽成'Welke'。"
+ },
+ "hé, hallo lotte.": {
+  "breakdown": [
+   [
+    "Hé",
+    "嘿"
+   ],
+   [
+    "hallo",
+    "哈囉"
+   ],
+   [
+    "Lotte",
+    "Lotte"
+   ]
+  ],
+  "order": "感嘆詞Hé → 問候詞hallo → 名字Lotte。規則：感嘆詞和問候詞可連用。",
+  "grammar": "簡單問候句，表達友好。",
+  "listen": "注意hallo的連音，可能聽成'hal'。"
+ },
+ "en hoe is het met wouter?": {
+  "breakdown": [
+   [
+    "En",
+    "和"
+   ],
+   [
+    "hoe",
+    "怎麼樣"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "het",
+    "它"
+   ],
+   [
+    "met",
+    "關於"
+   ],
+   [
+    "Wouter",
+    "Wouter"
+   ]
+  ],
+  "order": "連接詞En → 疑問詞hoe → 動詞is → 主詞het → 介詞met → 名字Wouter。規則：連接詞在句首，後面接疑問句。",
+  "grammar": "使用疑問句詢問近況。",
+  "listen": "注意het的弱讀，可能聽不清。"
+ },
+ "ja, goed hoor.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "goed",
+    "很好"
+   ],
+   [
+    "hoor",
+    "喔"
+   ]
+  ],
+  "order": "肯定詞Ja → 形容詞goed → 語氣詞hoor。規則：簡單回答句，主詞省略。",
+  "grammar": "簡單現在式，表達肯定。",
+  "listen": "注意goed的發音，可能聽成'go'。"
+ },
+ "hij zit nu in groep 8.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "zit",
+    "坐"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "in",
+    "在"
+   ],
+   [
+    "groep 8",
+    "八年級"
+   ]
+  ],
+  "order": "主詞Hij → 動詞zit → 副詞nu → 介詞in → 名詞groep 8。規則：主詞在前，動詞在第二位。",
+  "grammar": "簡單現在式，描述當前狀態。",
+  "listen": "注意zit的發音，可能聽成'zi'。"
+ },
+ "oh, dan gaat hij volgend jaar naar de middelbare school.": {
+  "breakdown": [
+   [
+    "Oh",
+    "喔"
+   ],
+   [
+    "dan",
+    "那麼"
+   ],
+   [
+    "gaat",
+    "要去"
+   ],
+   [
+    "hij",
+    "他"
+   ],
+   [
+    "volgend jaar",
+    "明年"
+   ],
+   [
+    "naar",
+    "到"
+   ],
+   [
+    "de middelbare school",
+    "中學"
+   ]
+  ],
+  "order": "感嘆詞Oh → 副詞dan → 動詞gaat → 主詞hij → 時間副詞volgend jaar → 介詞naar → 名詞de middelbare school。規則：感嘆詞在句首，後面接副詞和主詞。",
+  "grammar": "使用將來式，表示未來計畫。",
+  "listen": "注意gaat的連音，可能聽成'ga'。"
+ },
+ "ja, en hij wil graag naar de havo.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "hij",
+    "他"
+   ],
+   [
+    "wil",
+    "想"
+   ],
+   [
+    "graag",
+    "很"
+   ],
+   [
+    "naar",
+    "到"
+   ],
+   [
+    "de HAVO",
+    "HAVO"
+   ]
+  ],
+  "order": "肯定詞Ja → 連接詞en → 主詞hij → 動詞wil → 副詞graag → 介詞naar → 名詞de HAVO。規則：主詞在動詞前，副詞在動詞後。",
+  "grammar": "使用情態動詞wil表示願望。",
+  "listen": "注意graag的發音，可能聽成'gra'。"
+ },
+ "gaat dat lukken?": {
+  "breakdown": [
+   [
+    "Gaat",
+    "會"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "lukken",
+    "成功"
+   ]
+  ],
+  "order": "動詞Gaat → 主詞dat → 動詞lukken。規則：疑問句動詞在前，主詞在後。",
+  "grammar": "使用未來式，詢問可能性。",
+  "listen": "注意Gaat的發音，可能聽成'ga'。"
+ },
+ "ja, ik denk het wel.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "denk",
+    "想"
+   ],
+   [
+    "het",
+    "它"
+   ],
+   [
+    "wel",
+    "會"
+   ]
+  ],
+  "order": "肯定詞Ja → 主詞ik → 動詞denk → 受詞het → 副詞wel。規則：主詞在動詞前，副詞在動詞後。",
+  "grammar": "簡單現在式，表達個人看法。",
+  "listen": "注意denk的發音，可能聽成'den'。"
+ },
+ "hij haalt goede cijfers.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "haalt",
+    "考得"
+   ],
+   [
+    "goede",
+    "好的"
+   ],
+   [
+    "cijfers",
+    "分數"
+   ]
+  ],
+  "order": "主詞Hij → 動詞haalt → 形容詞goede → 名詞cijfers。規則：主詞在前，動詞在第二位。",
+  "grammar": "簡單現在式，描述行為。",
+  "listen": "注意haalt的發音，可能聽成'hal'。"
+ },
+ "ah, dat is fijn.": {
+  "breakdown": [
+   [
+    "Ah",
+    "啊"
+   ],
+   [
+    "dat is",
+    "那是"
+   ],
+   [
+    "fijn",
+    "很好"
+   ]
+  ],
+  "order": "主詞(那) → 動詞(是) → 形容詞(很好)。",
+  "grammar": "簡單現在式，表達狀態或感受。",
+  "listen": "注意 dat 和 is 之間的連音。"
+ },
+ "we hebben straks een gesprek met zijn leerkracht.": {
+  "breakdown": [
+   [
+    "We hebben",
+    "我們有"
+   ],
+   [
+    "straks",
+    "待會兒"
+   ],
+   [
+    "een gesprek met",
+    "一個談話和"
+   ],
+   [
+    "zijn leerkracht",
+    "他的老師"
+   ]
+  ],
+  "order": "主詞(我們) → 動詞(有) → 時間(待會兒) → 受詞(談話) → 介詞短語(和他的老師)。",
+  "grammar": "現在完成式，表達未來的計畫。",
+  "listen": "注意 hebben 的發音，可能聽不清楚。"
+ },
+ "dan horen we het advies van de school.": {
+  "breakdown": [
+   [
+    "Dan",
+    "那"
+   ],
+   [
+    "horen we",
+    "我們聽到"
+   ],
+   [
+    "het advies van de school",
+    "學校的建議"
+   ]
+  ],
+  "order": "時間(那) → 動詞(聽到) → 主詞(我們) → 受詞(學校的建議)。",
+  "grammar": "簡單現在式，表達將來的結果。",
+  "listen": "注意 horen 和 we 之間的連音。"
+ },
+ "succes!": {
+  "breakdown": [
+   [
+    "Succes",
+    "加油"
+   ]
+  ],
+  "order": "直接的祝福語。",
+  "grammar": "無特別文法，簡單的鼓勵。",
+  "listen": "注意發音清晰，避免漏聽。"
+ },
+ "goedenavond.": {
+  "breakdown": [
+   [
+    "Goedenavond",
+    "晚上好"
+   ]
+  ],
+  "order": "直接的問候語。",
+  "grammar": "無特別文法，簡單的問候。",
+  "listen": "注意發音，保持清晰。"
+ },
+ "kom binnen en ga zitten.": {
+  "breakdown": [
+   [
+    "Kom binnen",
+    "請進"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "ga zitten",
+    "坐下"
+   ]
+  ],
+  "order": "動詞(請進) → 連接詞(和) → 動詞(坐下)。",
+  "grammar": "祈使句，直接的指令。",
+  "listen": "注意 kom 和 binnen 之間的連音。"
+ },
+ "bedankt.": {
+  "breakdown": [
+   [
+    "Bedankt",
+    "謝謝"
+   ]
+  ],
+  "order": "直接的感謝語。",
+  "grammar": "無特別文法，簡單的表達。",
+  "listen": "注意發音，保持清晰。"
+ },
+ "dank u wel.": {
+  "breakdown": [
+   [
+    "Dank u wel",
+    "謝謝您"
+   ]
+  ],
+  "order": "直接的感謝語，帶有敬意。",
+  "grammar": "無特別文法，簡單的表達。",
+  "listen": "注意 u 的發音，避免漏聽。"
+ },
+ "hoe gaat het met wouter op school?": {
+  "breakdown": [
+   [
+    "Hoe gaat het",
+    "表現如何"
+   ],
+   [
+    "met Wouter",
+    "Wouter"
+   ],
+   [
+    "op school",
+    "在學校"
+   ]
+  ],
+  "order": "疑問詞(如何) → 動詞(表現) → 主詞(Wouter) → 介詞短語(在學校)。",
+  "grammar": "疑問句，詢問狀況。",
+  "listen": "注意 hoe 和 gaat 之間的連音。"
+ },
+ "het gaat goed.": {
+  "breakdown": [
+   [
+    "Het gaat goed",
+    "他很好"
+   ]
+  ],
+  "order": "主詞(他) → 動詞(很好)。",
+  "grammar": "簡單現在式，表達狀態。",
+  "listen": "注意 het 的發音，可能被弱讀。"
+ },
+ "daar ben ik blij om.": {
+  "breakdown": [
+   [
+    "Daar ben ik blij om",
+    "我為此感到高興"
+   ]
+  ],
+  "order": "副詞(為此) → 動詞(是) → 主詞(我) → 形容詞(高興)。",
+  "grammar": "簡單現在式，表達感受。",
+  "listen": "注意 daar 和 ben 之間的連音。"
+ },
+ "hij doet goed z'n best en hij heeft de toets goed gemaakt.": {
+  "breakdown": [
+   [
+    "Hij doet goed z'n best",
+    "他很用功"
+   ],
+   [
+    "en",
+    "而且"
+   ],
+   [
+    "hij heeft de toets goed gemaakt",
+    "他考試考得很好"
+   ]
+  ],
+  "order": "主詞(他) → 動詞(用功) → 連接詞(而且) → 主詞(他) → 動詞(考得好)。",
+  "grammar": "現在完成式，表達過去的結果。",
+  "listen": "注意 doet 和 goed 之間的連音。"
+ },
+ "dat is fijn.": {
+  "breakdown": [
+   [
+    "Dat",
+    "那"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "fijn",
+    "好"
+   ]
+  ],
+  "order": "主詞(那) → 動詞(是) → 補語(好)。",
+  "grammar": "簡單現在式，主詞和動詞直接搭配。",
+  "listen": "注意 'Dat' 和 'is' 之間的連音。"
+ },
+ "hij gaat ook met plezier naar school.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "gaat",
+    "去"
+   ],
+   [
+    "ook",
+    "也"
+   ],
+   [
+    "met plezier",
+    "開心地"
+   ],
+   [
+    "naar school",
+    "去學校"
+   ]
+  ],
+  "order": "主詞(他) → 動詞(去) → 副詞(也) → 補語(開心地去學校)。",
+  "grammar": "V2 倒裝，副詞放在動詞後面。",
+  "listen": "'met plezier' 可能會連音，聽起來像 'metplezier'。"
+ },
+ "ja, dat zie ik.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "zie",
+    "看到"
+   ],
+   [
+    "ik",
+    "我"
+   ]
+  ],
+  "order": "副詞(是的) → 主詞(我) → 動詞(看到) → 受詞(那)。",
+  "grammar": "簡單現在式，主詞和動詞直接搭配。",
+  "listen": "'dat' 可能會被弱讀，聽起來不清楚。"
+ },
+ "hij vindt het leuk om te leren.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "vindt",
+    "覺得"
+   ],
+   [
+    "het",
+    "這"
+   ],
+   [
+    "leuk",
+    "有趣"
+   ],
+   [
+    "om te leren",
+    "學習"
+   ]
+  ],
+  "order": "主詞(他) → 動詞(覺得) → 受詞(這) → 補語(有趣學習)。",
+  "grammar": "動詞 'vinden' 需要受詞，'om te' 連接不定詞。",
+  "listen": "'om te leren' 可能會連音，聽起來像 'omte leren'。"
+ },
+ "ons advies voor de middelbare school is havo.": {
+  "breakdown": [
+   [
+    "Ons",
+    "我們的"
+   ],
+   [
+    "advies",
+    "建議"
+   ],
+   [
+    "voor",
+    "對於"
+   ],
+   [
+    "de middelbare school",
+    "中學"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "HAVO",
+    "HAVO"
+   ]
+  ],
+  "order": "主詞(我們的建議) → 動詞(是) → 補語(HAVO)。",
+  "grammar": "簡單現在式，主詞和動詞直接搭配。",
+  "listen": "'voor de middelbare school' 可能會連音，聽起來不清楚。"
+ },
+ "mooi.": {
+  "breakdown": [
+   [
+    "Mooi",
+    "很好"
+   ]
+  ],
+  "order": "單一形容詞(很好)。",
+  "grammar": "簡單現在式，直接表達感受。",
+  "listen": "注意 'Mooi' 的發音，可能會被弱讀。"
+ },
+ "dat wil hij ook graag.": {
+  "breakdown": [
+   [
+    "Dat",
+    "他"
+   ],
+   [
+    "wil",
+    "想"
+   ],
+   [
+    "hij",
+    "他"
+   ],
+   [
+    "ook",
+    "也"
+   ],
+   [
+    "graag",
+    "想要"
+   ],
+   [
+    "gaan",
+    "去"
+   ]
+  ],
+  "order": "主詞(他) → 動詞(想) → 副詞(也) → 補語(想去)。",
+  "grammar": "情態動詞 'wil' 需要原形動詞 'gaan'。",
+  "listen": "'ook' 可能會被弱讀，聽起來不清楚。"
+ },
+ "u krijgt van mij deze brief.": {
+  "breakdown": [
+   [
+    "U",
+    "您"
+   ],
+   [
+    "krijgt",
+    "得到"
+   ],
+   [
+    "van mij",
+    "我給"
+   ],
+   [
+    "deze brief",
+    "這封信"
+   ]
+  ],
+  "order": "主詞(您) → 動詞(得到) → 受詞(這封信)。",
+  "grammar": "簡單現在式，主詞和動詞直接搭配。",
+  "listen": "'van mij' 可能會連音，聽起來像 'vanmij'。"
+ },
+ "hierin staat ons advies.": {
+  "breakdown": [
+   [
+    "Hierin",
+    "裡面"
+   ],
+   [
+    "staat",
+    "有"
+   ],
+   [
+    "ons advies",
+    "我們的建議"
+   ]
+  ],
+  "order": "副詞(裡面) → 動詞(有) → 受詞(我們的建議)。",
+  "grammar": "簡單現在式，主詞和動詞直接搭配。",
+  "listen": "'Hierin' 可能會被弱讀，聽起來不清楚。"
+ },
+ "wat moeten we nu doen?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "moeten",
+    "必須"
+   ],
+   [
+    "we",
+    "我們"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "doen",
+    "做"
+   ]
+  ],
+  "order": "疑問詞(什麼) → 動詞(必須) → 主詞(我們) → 副詞(現在) → 動詞(做)。",
+  "grammar": "疑問句，動詞放在主詞前面。",
+  "listen": "'Wat' 和 'moeten' 之間的連音可能會被漏聽。"
+ },
+ "u kunt wouter nu aanmelden bij een middelbare school.": {
+  "breakdown": [
+   [
+    "U",
+    "您"
+   ],
+   [
+    "kunt",
+    "可以"
+   ],
+   [
+    "Wouter",
+    "Wouter"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "aanmelden",
+    "報名"
+   ],
+   [
+    "bij een middelbare school",
+    "在一所中學"
+   ]
+  ],
+  "order": "主詞(您) → 動詞(可以) → 受詞(Wouter) → 副詞(現在) → 動詞(報名)。",
+  "grammar": "情態動詞 'kunt' 需要原形動詞 'aanmelden'。",
+  "listen": "'bij een middelbare school' 可能會連音，聽起來不清楚。"
+ },
+ "en dan moet u deze brief meenemen.": {
+  "breakdown": [
+   [
+    "En",
+    "並且"
+   ],
+   [
+    "dan",
+    "然後"
+   ],
+   [
+    "moet",
+    "必須"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "deze brief",
+    "這封信"
+   ],
+   [
+    "meenemen",
+    "帶走"
+   ]
+  ],
+  "order": "連接詞(並且) → 副詞(然後) → 動詞(必須) → 主詞(您) → 受詞(這封信) → 動詞(帶走)。",
+  "grammar": "情態動詞 'moet' 需要原形動詞 'meenemen'。",
+  "listen": "'deze brief' 可能會被弱讀，聽起來不清楚。"
+ },
+ "oké. dat gaan we doen. bedankt.": {
+  "breakdown": [
+   [
+    "Oké.",
+    "好的。"
+   ],
+   [
+    "Dat gaan we doen.",
+    "我們會這麼做。"
+   ],
+   [
+    "Bedankt.",
+    "謝謝。"
+   ]
+  ],
+  "order": "主詞(我們) → 動詞(會做) → 其他(這麼)",
+  "grammar": "簡單未來式，使用 gaan + 動詞原形。",
+  "listen": "注意 'gaan' 和 'we' 之間的連音。"
+ },
+ "fijne avond.": {
+  "breakdown": [
+   [
+    "Fijne avond.",
+    "晚安。"
+   ]
+  ],
+  "order": "主詞(省略) → 形容詞(好的) → 名詞(晚上)",
+  "grammar": "這是簡單的祝福語，無需動詞。",
+  "listen": "注意 'Fijne' 的弱讀，可能聽不清。"
+ },
+ "ja, u ook.": {
+  "breakdown": [
+   [
+    "Ja,",
+    "是的，"
+   ],
+   [
+    "u ook.",
+    "您也是。"
+   ]
+  ],
+  "order": "副詞(是的) → 主詞(您) → 其他(也是)",
+  "grammar": "這是簡單的回答句，無需動詞。",
+  "listen": "注意 'u' 的發音，可能聽不清。"
+ },
+ "tot ziens.": {
+  "breakdown": [
+   [
+    "Tot ziens.",
+    "再見。"
+   ]
+  ],
+  "order": "主詞(省略) → 其他(再見)",
+  "grammar": "這是簡單的告別語，無需動詞。",
+  "listen": "注意 'Tot' 和 'ziens' 的連音。"
+ },
+ "wat heb je geleerd?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "heb je",
+    "你學了"
+   ],
+   [
+    "geleerd?",
+    "學了嗎？"
+   ]
+  ],
+  "order": "疑問詞(什麼) → 動詞(學了) → 主詞(你)",
+  "grammar": "這是疑問句，動詞在主詞前。",
+  "listen": "注意 'Wat' 的發音，可能聽不清。"
+ },
+ "hé, hallo.": {
+  "breakdown": [
+   [
+    "Hé,",
+    "嘿，"
+   ],
+   [
+    "hallo.",
+    "哈囉。"
+   ]
+  ],
+  "order": "感嘆詞(嘿) → 其他(哈囉)",
+  "grammar": "這是非正式的問候語，無需動詞。",
+  "listen": "注意 'Hé' 的強調，可能聽不清。"
+ },
+ "noa.": {
+  "breakdown": [
+   [
+    "Noa.",
+    "Noa。"
+   ]
+  ],
+  "order": "主詞(Noa)",
+  "grammar": "這是名字，無需動詞。",
+  "listen": "注意名字的發音，可能聽不清。"
+ },
+ "waar ga je naartoe?": {
+  "breakdown": [
+   [
+    "Waar",
+    "哪裡"
+   ],
+   [
+    "ga je",
+    "你要去"
+   ],
+   [
+    "naartoe?",
+    "去哪裡？"
+   ]
+  ],
+  "order": "疑問詞(哪裡) → 動詞(要去) → 主詞(你)",
+  "grammar": "這是疑問句，動詞在主詞前。",
+  "listen": "注意 'naartoe' 的連音，可能聽不清。"
+ },
+ "ik ga naar school.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "ga",
+    "要去"
+   ],
+   [
+    "naar school.",
+    "學校。"
+   ]
+  ],
+  "order": "主詞(我) → 動詞(要去) → 其他(學校)",
+  "grammar": "這是簡單的陳述句，動詞在第二位。",
+  "listen": "注意 'ga' 的弱讀，可能聽不清。"
+ },
+ "ik leer nederlands.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "leer",
+    "在學"
+   ],
+   [
+    "Nederlands.",
+    "荷蘭語。"
+   ]
+  ],
+  "order": "主詞(我) → 動詞(在學) → 其他(荷蘭語)",
+  "grammar": "這是簡單的陳述句，動詞在第二位。",
+  "listen": "注意 'leer' 的發音，可能聽不清。"
+ },
+ "wanneer ga je naar school?": {
+  "breakdown": [
+   [
+    "Wanneer",
+    "什麼時候"
+   ],
+   [
+    "ga je",
+    "你要去"
+   ],
+   [
+    "naar school?",
+    "學校？"
+   ]
+  ],
+  "order": "疑問詞(什麼時候) → 動詞(要去) → 主詞(你)",
+  "grammar": "這是疑問句，動詞在主詞前。",
+  "listen": "注意 'Wanneer' 的發音，可能聽不清。"
+ },
+ "op dinsdag en op donderdag.": {
+  "breakdown": [
+   [
+    "Op dinsdag",
+    "星期二"
+   ],
+   [
+    "en op donderdag.",
+    "和星期四。"
+   ]
+  ],
+  "order": "介詞(在) → 名詞(星期二) → 連接詞(和) → 名詞(星期四)",
+  "grammar": "這是列舉，使用連接詞 'en'。",
+  "listen": "注意 'en' 的弱讀，可能聽不清。"
+ },
+ "hoe laat begint de les?": {
+  "breakdown": [
+   [
+    "Hoe laat",
+    "幾點"
+   ],
+   [
+    "begint",
+    "開始"
+   ],
+   [
+    "de les",
+    "上課"
+   ]
+  ],
+  "order": "疑問句：Hoe laat(時間) → begint(動詞) → de les(主詞)。",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "注意 'begint' 的發音，可能聽成 'begin'。"
+ },
+ "om 9 uur en hij duurt tot 12 uur.": {
+  "breakdown": [
+   [
+    "Om 9 uur",
+    "在9點"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "hij duurt tot 12 uur",
+    "它持續到12點"
+   ]
+  ],
+  "order": "主句：Om 9 uur(時間) → duurt(動詞#2) → hij(主詞) → tot 12 uur(時間)。",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "注意 'en' 可能被弱讀。"
+ },
+ "ga je ook mee?": {
+  "breakdown": [
+   [
+    "Ga je",
+    "你去"
+   ],
+   [
+    "ook mee",
+    "也一起"
+   ]
+  ],
+  "order": "疑問句：Ga(動詞) → je(主詞) → ook(副詞) → mee(前綴)。",
+  "grammar": "可分動詞，前綴 'mee' 在句尾。",
+  "listen": "注意 'je' 可能被弱讀。"
+ },
+ "nee, ik heb geen tijd.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "ik heb",
+    "我有"
+   ],
+   [
+    "geen tijd",
+    "沒有時間"
+   ]
+  ],
+  "order": "主句：Nee(否定) → ik(主詞) → heb(動詞#2) → geen tijd(賓語)。",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "注意 'geen' 的發音，可能聽成 'geen'。"
+ },
+ "oh, jammer.": {
+  "breakdown": [
+   [
+    "Oh",
+    "喔"
+   ],
+   [
+    "jammer",
+    "可惜"
+   ]
+  ],
+  "order": "感嘆句：Oh(感嘆) → jammer(形容詞)。",
+  "grammar": "無特別文法重點。",
+  "listen": "注意 'Oh' 的語氣，可能聽不清楚。"
+ },
+ "milan vertelt.": {
+  "breakdown": [
+   [
+    "Milan",
+    "Milan"
+   ],
+   [
+    "vertelt",
+    "來說"
+   ]
+  ],
+  "order": "主句：Milan(主詞) → vertelt(動詞#2)。",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "注意 'vertelt' 的發音，可能聽成 'vertel'。"
+ },
+ "hallo, ik ben milan.": {
+  "breakdown": [
+   [
+    "Hallo",
+    "你好"
+   ],
+   [
+    "ik ben",
+    "我是"
+   ],
+   [
+    "Milan",
+    "Milan"
+   ]
+  ],
+  "order": "主句：Hallo(問候) → ik(主詞) → ben(動詞#2) → Milan(補語)。",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "注意 'Hallo' 的語氣，可能聽不清楚。"
+ },
+ "ik ben 37 jaar.": {
+  "breakdown": [
+   [
+    "Ik ben",
+    "我是"
+   ],
+   [
+    "37 jaar",
+    "37歲"
+   ]
+  ],
+  "order": "主句：Ik(主詞) → ben(動詞#2) → 37 jaar(補語)。",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "注意 'jaar' 的發音，可能聽成 'jaar'。"
+ },
+ "ik kom uit albanië.": {
+  "breakdown": [
+   [
+    "Ik kom",
+    "我來"
+   ],
+   [
+    "uit Albanië",
+    "自阿爾巴尼亞"
+   ]
+  ],
+  "order": "主句：Ik(主詞) → kom(動詞#2) → uit Albanië(地點)。",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "注意 'uit' 的發音，可能聽不清楚。"
+ },
+ "in albanië ben ik naar de basisschool geweest.": {
+  "breakdown": [
+   [
+    "In Albanië",
+    "在阿爾巴尼亞"
+   ],
+   [
+    "ben ik",
+    "我曾"
+   ],
+   [
+    "naar de basisschool geweest",
+    "上過小學"
+   ]
+  ],
+  "order": "主句：In Albanië(地點) → ben(助動詞#2) → ik(主詞) → geweest(過去分詞)。",
+  "grammar": "完成式，助動詞在第二位，過去分詞在句尾。",
+  "listen": "注意 'basisschool' 的發音，可能聽不清楚。"
+ },
+ "daarna ben ik gaan werken.": {
+  "breakdown": [
+   [
+    "Daarna",
+    "之後"
+   ],
+   [
+    "ben ik",
+    "我"
+   ],
+   [
+    "gaan werken",
+    "開始工作"
+   ]
+  ],
+  "order": "主句：Daarna(時間) → ben(助動詞#2) → ik(主詞) → gaan(動詞) → werken(原形)。",
+  "grammar": "完成式，助動詞在第二位，原形動詞在句尾。",
+  "listen": "注意 'gaan' 的發音，可能聽不清楚。"
+ },
+ "ik kan goed koken.": {
+  "breakdown": [
+   [
+    "Ik kan",
+    "我可以"
+   ],
+   [
+    "goed koken",
+    "好好做菜"
+   ]
+  ],
+  "order": "主句：Ik(主詞) → kan(情態動詞#2) → goed(副詞) → koken(原形)。",
+  "grammar": "情態動詞，情態動詞在第二位，原形動詞在句尾。",
+  "listen": "注意 'kan' 的發音，可能聽不清楚。"
+ },
+ "dat heb ik van mijn moeder geleerd.": {
+  "breakdown": [
+   [
+    "Dat",
+    "那是"
+   ],
+   [
+    "heb",
+    "我有"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "van mijn moeder",
+    "從我母親那裡"
+   ],
+   [
+    "geleerd",
+    "學的"
+   ]
+  ],
+  "order": "主詞(ik) → 助動詞(heb) → 受詞(Dat) → 介詞短語(van mijn moeder) → 過去分詞(geleerd)。",
+  "grammar": "使用完成式，助動詞在第二位，過去分詞在句尾。",
+  "listen": "注意 'heb' 和 'ik' 之間的連音。"
+ },
+ "van mijn vader leerde ik autorijden.": {
+  "breakdown": [
+   [
+    "Van mijn vader",
+    "從我父親那裡"
+   ],
+   [
+    "leerde",
+    "我學會了"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "autorijden",
+    "開車"
+   ]
+  ],
+  "order": "介詞短語(Van mijn vader) → 動詞(leerde) → 主詞(ik) → 受詞(autorijden)。",
+  "grammar": "使用過去式，動詞在第二位，受詞在句尾。",
+  "listen": "注意 'leerde' 的發音，可能被忽略。"
+ },
+ "ik ben nu drie jaar in nederland.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "ben",
+    "是"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "drie jaar",
+    "三年"
+   ],
+   [
+    "in Nederland",
+    "在荷蘭"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(ben) → 副詞(nu) → 時間短語(driek jaar) → 地點短語(in Nederland)。",
+  "grammar": "使用現在完成式，動詞在第二位，時間和地點短語在後。",
+  "listen": "注意 'ben' 和 'nu' 之間的連音。"
+ },
+ "ik heb op school nederlands geleerd.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "heb",
+    "有"
+   ],
+   [
+    "op school",
+    "在學校"
+   ],
+   [
+    "Nederlands",
+    "荷蘭語"
+   ],
+   [
+    "geleerd",
+    "學習"
+   ]
+  ],
+  "order": "主詞(Ik) → 助動詞(heb) → 介詞短語(op school) → 受詞(Nederlands) → 過去分詞(geleerd)。",
+  "grammar": "使用完成式，助動詞在第二位，過去分詞在句尾。",
+  "listen": "注意 'heb' 和 'op' 之間的連音。"
+ },
+ "nu doe ik een computercursus.": {
+  "breakdown": [
+   [
+    "Nu",
+    "現在"
+   ],
+   [
+    "doe",
+    "我在做"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "een computercursus",
+    "一個電腦課程"
+   ]
+  ],
+  "order": "副詞(Nu) → 動詞(doe) → 主詞(ik) → 受詞(een computercursus)。",
+  "grammar": "使用現在時，動詞在第二位，受詞在後。",
+  "listen": "注意 'doe' 的發音，可能被忽略。"
+ },
+ "wat een weer.": {
+  "breakdown": [
+   [
+    "Wat",
+    "真是"
+   ],
+   [
+    "een weer",
+    "天氣"
+   ]
+  ],
+  "order": "感嘆詞(Wat) → 不定冠詞(een) → 名詞(weer)。",
+  "grammar": "使用感嘆句型，名詞在後。",
+  "listen": "注意 'Wat' 和 'een' 之間的連音。"
+ },
+ "hé, goedemorgen.": {
+  "breakdown": [
+   [
+    "Hé",
+    "嘿"
+   ],
+   [
+    "goedemorgen",
+    "早安"
+   ]
+  ],
+  "order": "感嘆詞(Hé) → 問候語(goedemorgen)。",
+  "grammar": "簡單的問候句，無特別文法。",
+  "listen": "注意 'Hé' 的發音，可能被忽略。"
+ },
+ "hé, rené.": {
+  "breakdown": [
+   [
+    "Hé",
+    "嘿"
+   ],
+   [
+    "René",
+    "René"
+   ]
+  ],
+  "order": "感嘆詞(Hé) → 名字(René)。",
+  "grammar": "簡單的問候句，無特別文法。",
+  "listen": "注意 'Hé' 的發音，可能被忽略。"
+ },
+ "je kan hier zitten.": {
+  "breakdown": [
+   [
+    "Je",
+    "你"
+   ],
+   [
+    "kan",
+    "可以"
+   ],
+   [
+    "hier",
+    "這裡"
+   ],
+   [
+    "zitten",
+    "坐"
+   ]
+  ],
+  "order": "主詞(Je) → 動詞(kann) → 副詞(hier) → 不定詞(zitten)。",
+  "grammar": "使用情態動詞，情態動詞在第二位，不定詞在句尾。",
+  "listen": "注意 'kan' 和 'hier' 之間的連音。"
+ },
+ "wat een weer, hè?": {
+  "breakdown": [
+   [
+    "Wat",
+    "真是"
+   ],
+   [
+    "een weer",
+    "天氣"
+   ],
+   [
+    "hè",
+    "是吧"
+   ]
+  ],
+  "order": "感嘆詞(Wat) → 不定冠詞(een) → 名詞(weer) → 問句尾(hè)。",
+  "grammar": "使用感嘆句型，問句尾在後。",
+  "listen": "注意 'Wat' 和 'een' 之間的連音。"
+ },
+ "ja, ben je erg nat?": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "ben",
+    "是"
+   ],
+   [
+    "je",
+    "你"
+   ],
+   [
+    "erg nat",
+    "很濕"
+   ]
+  ],
+  "order": "肯定詞(Ja) → 動詞(ben) → 主詞(je) → 形容詞(erg nat)。",
+  "grammar": "使用現在時，動詞在第二位，形容詞在後。",
+  "listen": "注意 'ben' 和 'je' 之間的連音。"
+ },
+ "nee hoor, dat valt wel mee.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "hoor",
+    "哦"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "valt wel mee",
+    "還好"
+   ]
+  ],
+  "order": "否定詞(Nee) → 語氣詞(hoor) → 受詞(dat) → 動詞(valt) → 副詞(wel) → 形容詞(mee)。",
+  "grammar": "使用現在時，動詞在第二位，受詞在前。",
+  "listen": "注意 'Nee' 和 'hoor' 之間的連音。"
+ },
+ "ik had gelukkig een paraplu.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "had",
+    "有"
+   ],
+   [
+    "gelukkig",
+    "幸運"
+   ],
+   [
+    "een paraplu",
+    "一把傘"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(had) → 形容詞(gelukkig) → 名詞(een paraplu)。規則：主詞在前，動詞在第二位。",
+  "grammar": "過去式：had 是 hebben 的過去式。",
+  "listen": "注意 had 的發音，可能聽不清。"
+ },
+ "blijft het de hele dag regenen?": {
+  "breakdown": [
+   [
+    "Blijft",
+    "會"
+   ],
+   [
+    "het",
+    "它"
+   ],
+   [
+    "de hele dag",
+    "整天"
+   ],
+   [
+    "regenen",
+    "下雨"
+   ]
+  ],
+  "order": "動詞(Blijft) → 主詞(het) → 時間(de hele dag) → 動詞原形(regenen)。規則：動詞在句首，主詞在第二位。",
+  "grammar": "疑問句：動詞放在句首。",
+  "listen": "注意 Blijft 和 het 的連音。"
+ },
+ "ik geloof het wel.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "geloof",
+    "相信"
+   ],
+   [
+    "het",
+    "這"
+   ],
+   [
+    "wel",
+    "會的"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(geloof) → 受詞(het) → 副詞(wel)。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式：geloof 是 geloven 的現在式。",
+  "listen": "注意 geloof 的發音，可能聽不清。"
+ },
+ "en morgen?": {
+  "breakdown": [
+   [
+    "En",
+    "那"
+   ],
+   [
+    "morgen",
+    "明天"
+   ]
+  ],
+  "order": "連接詞(En) → 名詞(morgen)。規則：簡單句，主詞省略。",
+  "grammar": "簡單句：直接提問，無需動詞。",
+  "listen": "注意 En 的弱讀，可能聽不清。"
+ },
+ "dan wordt het beter.": {
+  "breakdown": [
+   [
+    "Dan",
+    "那麼"
+   ],
+   [
+    "wordt",
+    "會"
+   ],
+   [
+    "het",
+    "它"
+   ],
+   [
+    "beter",
+    "更好"
+   ]
+  ],
+  "order": "副詞(Dan) → 動詞(wordt) → 主詞(het) → 形容詞(beter)。規則：副詞在前，動詞在第二位。",
+  "grammar": "現在式：wordt 是 worden 的現在式。",
+  "listen": "注意 wordt 的發音，可能聽不清。"
+ },
+ "wat is het weerbericht?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "het",
+    "它"
+   ],
+   [
+    "weerbericht",
+    "天氣預報"
+   ]
+  ],
+  "order": "疑問詞(Wat) → 動詞(is) → 主詞(het) → 名詞(weerbericht)。規則：疑問詞在前，動詞在第二位。",
+  "grammar": "疑問句：動詞放在第二位。",
+  "listen": "注意 is 的發音，可能聽不清。"
+ },
+ "de zon gaat schijnen en het wordt 23 graden.": {
+  "breakdown": [
+   [
+    "De zon",
+    "太陽"
+   ],
+   [
+    "gaat",
+    "會"
+   ],
+   [
+    "schijnen",
+    "出來"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "het",
+    "它"
+   ],
+   [
+    "wordt",
+    "會"
+   ],
+   [
+    "23 graden",
+    "23度"
+   ]
+  ],
+  "order": "主詞(De zon) → 動詞(gaat) → 動詞原形(schijnen) → 連接詞(en) → 主詞(het) → 動詞(wordt) → 名詞(23 graden)。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式：gaat 是 gaan 的現在式。",
+  "listen": "注意 gaat 和 schijnen 的連音。"
+ },
+ "meneer de vries?": {
+  "breakdown": [
+   [
+    "Meneer",
+    "先生"
+   ],
+   [
+    "de Vries",
+    "de Vries"
+   ]
+  ],
+  "order": "名詞(Meneer) → 名詞(de Vries)。規則：簡單稱呼，無需動詞。",
+  "grammar": "簡單句：直接稱呼。",
+  "listen": "注意 de Vries 的發音，可能聽不清。"
+ },
+ "komt u maar.": {
+  "breakdown": [
+   [
+    "Komt",
+    "請進"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "maar",
+    "吧"
+   ]
+  ],
+  "order": "動詞(Komt) → 主詞(u) → 副詞(maar)。規則：動詞在句首。",
+  "grammar": "祈使句：動詞放在句首。",
+  "listen": "注意 komt 的發音，可能聽不清。"
+ },
+ "met saïda.": {
+  "breakdown": [
+   [
+    "Met",
+    "是"
+   ],
+   [
+    "Saïda",
+    "Saïda"
+   ]
+  ],
+  "order": "介系詞(Met) → 名詞(Saïda)。規則：簡單介紹，無需動詞。",
+  "grammar": "簡單句：直接介紹。",
+  "listen": "注意 Met 的弱讀，可能聽不清。"
+ },
+ "hé, saïda.": {
+  "breakdown": [
+   [
+    "Hé",
+    "嘿"
+   ],
+   [
+    "Saïda",
+    "Saïda"
+   ]
+  ],
+  "order": "感嘆詞(Hé) → 名詞(Saïda)。規則：簡單問候，無需動詞。",
+  "grammar": "簡單句：直接問候。",
+  "listen": "注意 Hé 的發音，可能聽不清。"
+ },
+ "met nienke.": {
+  "breakdown": [
+   [
+    "Met",
+    "是"
+   ],
+   [
+    "Nienke",
+    "Nienke"
+   ]
+  ],
+  "order": "介系詞(Met) → 名詞(Nienke)。規則：簡單介紹，無需動詞。",
+  "grammar": "簡單句：直接介紹。",
+  "listen": "注意 Met 的弱讀，可能聽不清。"
+ },
+ "nienke, wat leuk dat je belt.": {
+  "breakdown": [
+   [
+    "Nienke",
+    "Nienke"
+   ],
+   [
+    "wat leuk",
+    "真高興"
+   ],
+   [
+    "dat je belt",
+    "你打電話來"
+   ]
+  ],
+  "order": "主詞(Nienke) → 形容詞(wat leuk) → 連接詞(dat) → 主詞(je) → 動詞(belt)",
+  "grammar": "使用現在式，表達當下的感受。",
+  "listen": "注意連音，'dat je' 聽起來像 'datché'."
+ },
+ "wat een heerlijk weer, hè?": {
+  "breakdown": [
+   [
+    "Wat een heerlijk weer",
+    "天氣真好"
+   ],
+   [
+    "hè",
+    "是吧"
+   ]
+  ],
+  "order": "感嘆詞(Wat) → 形容詞(heerlijk) → 名詞(weer) → 問句尾(hè)",
+  "grammar": "使用感嘆句，表達驚訝或同意。",
+  "listen": "'een heerlijk' 可能連音，聽起來像 'eenheerlijk'."
+ },
+ "ja, fantastisch.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "fantastisch",
+    "太棒了"
+   ]
+  ],
+  "order": "肯定詞(Ja) → 形容詞(fantastisch)",
+  "grammar": "簡單的肯定句，表達同意。",
+  "listen": "'Ja' 和 'fantastisch' 之間的停頓要清楚。"
+ },
+ "ga je vanmiddag mee naar het park?": {
+  "breakdown": [
+   [
+    "Ga je",
+    "你要去"
+   ],
+   [
+    "vanmiddag",
+    "今天下午"
+   ],
+   [
+    "mee naar het park",
+    "一起去公園"
+   ]
+  ],
+  "order": "動詞(Ga) → 主詞(je) → 時間(vanmiddag) → 副詞(mee) → 介詞(naar) → 名詞(het park)",
+  "grammar": "使用未來式，詢問計畫。",
+  "listen": "'Ga je' 聽起來像 'Gajé'，注意連音。"
+ },
+ "leuk.": {
+  "breakdown": [
+   [
+    "Leuk",
+    "好啊"
+   ]
+  ],
+  "order": "單詞(Leuk)",
+  "grammar": "簡單的肯定回答，表達同意。",
+  "listen": "注意發音，'Leuk' 要清楚。"
+ },
+ "misschien kunnen we picknicken?": {
+  "breakdown": [
+   [
+    "Misschien",
+    "也許"
+   ],
+   [
+    "kunnen we",
+    "我們可以"
+   ],
+   [
+    "picknicken",
+    "野餐"
+   ]
+  ],
+  "order": "副詞(Misschien) → 動詞(kunnen) → 主詞(we) → 動詞(picknicken)",
+  "grammar": "使用條件句，表達可能性。",
+  "listen": "'kunnen we' 可能連音，聽起來像 'kunnenwé'."
+ },
+ "een goed idee.": {
+  "breakdown": [
+   [
+    "Een goed idee",
+    "好主意"
+   ]
+  ],
+  "order": "名詞(Een) → 形容詞(goede) → 名詞(idee)",
+  "grammar": "簡單的名詞短語，表達看法。",
+  "listen": "注意 'goed' 的發音，可能聽成 'goede'."
+ },
+ "hoe laat spreken we af?": {
+  "breakdown": [
+   [
+    "Hoe laat",
+    "幾點"
+   ],
+   [
+    "spreken we af",
+    "我們見面"
+   ]
+  ],
+  "order": "疑問詞(Hoe) → 名詞(laat) → 動詞(spreken) → 主詞(we) → 動詞(af)",
+  "grammar": "使用疑問句，詢問時間。",
+  "listen": "'Hoe laat' 聽起來像 'Hoo laat'，注意連音。"
+ },
+ "half 2 in het park.": {
+  "breakdown": [
+   [
+    "Half 2",
+    "下午一點半"
+   ],
+   [
+    "in het park",
+    "在公園"
+   ]
+  ],
+  "order": "時間(Half 2) → 介詞(in) → 介詞短語(het park)",
+  "grammar": "使用時間表達，簡單明瞭。",
+  "listen": "'Half 2' 要清楚，避免聽成 'Half twee'."
+ },
+ "zal ik broodjes meenemen?": {
+  "breakdown": [
+   [
+    "Zal ik",
+    "我帶"
+   ],
+   [
+    "broodjes meenemen",
+    "麵包過去"
+   ]
+  ],
+  "order": "助動詞(Zal) → 主詞(ik) → 動詞(broodjes) → 動詞(meenemen)",
+  "grammar": "使用未來式，詢問意圖。",
+  "listen": "'broodjes meenemen' 可能連音，聽起來像 'broodjesmeenemen'."
+ },
+ "dat is goed.": {
+  "breakdown": [
+   [
+    "Dat is goed",
+    "那很好"
+   ]
+  ],
+  "order": "主詞(Dat) → 動詞(is) → 形容詞(goede)",
+  "grammar": "簡單的肯定句，表達同意。",
+  "listen": "注意 'Dat' 的發音，可能聽成 'Dat is'."
+ },
+ "dan neem ik koffie en frisdrank mee, oké?": {
+  "breakdown": [
+   [
+    "Dan neem ik",
+    "那我會帶"
+   ],
+   [
+    "koffie en frisdrank mee",
+    "咖啡和汽水"
+   ]
+  ],
+  "order": "副詞(Dan) → 動詞(neem) → 主詞(ik) → 名詞(koffie en frisdrank) → 動詞(mee)",
+  "grammar": "使用未來式，表達計畫。",
+  "listen": "'koffie en frisdrank' 可能連音，聽起來像 'koffieenfrisdrank'."
+ },
+ "ja, tot straks.": {
+  "breakdown": [
+   [
+    "Ja",
+    "好的"
+   ],
+   [
+    "tot",
+    "待會"
+   ],
+   [
+    "straks",
+    "見"
+   ]
+  ],
+  "order": "主詞(隱含的你) → 動詞(ja) → 其他(待會見)",
+  "grammar": "簡單句，沒有特殊文法結構。",
+  "listen": "注意 'tot' 和 'straks' 的連音。"
+ },
+ "neem wel een trui mee.": {
+  "breakdown": [
+   [
+    "Neem",
+    "記得"
+   ],
+   [
+    "wel",
+    "一定"
+   ],
+   [
+    "een trui",
+    "一件毛衣"
+   ],
+   [
+    "mee",
+    "帶來"
+   ]
+  ],
+  "order": "動詞(Neem) → 其他(一定帶一件毛衣)",
+  "grammar": "可分動詞，'mee' 丟句尾。",
+  "listen": "'wel' 可能被弱讀，聽起來像 'neem een trui mee'。"
+ },
+ "het wordt later vanmiddag wel fris.": {
+  "breakdown": [
+   [
+    "Het",
+    "它"
+   ],
+   [
+    "wordt",
+    "會變"
+   ],
+   [
+    "later vanmiddag",
+    "今天下午稍晚"
+   ],
+   [
+    "wel fris",
+    "變冷"
+   ]
+  ],
+  "order": "主詞(Het) → 動詞(wordt) → 其他(今天下午稍晚會變冷)",
+  "grammar": "簡單未來式，'wordt' 是動詞。",
+  "listen": "'later vanmiddag' 可能連音，注意聽清楚。"
+ }
+}

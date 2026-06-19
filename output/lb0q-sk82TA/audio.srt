@@ -1,0 +1,779 @@
+1
+00:00:00,000 --> 00:00:01,080
+Elke maandag.
+
+2
+00:00:03,880 --> 00:00:05,960
+Hé Tessa, hoe is het?
+
+3
+00:00:06,820 --> 00:00:07,560
+Goed.
+
+4
+00:00:08,460 --> 00:00:11,940
+Zullen wij deze week een dagje naar Amsterdam gaan?
+
+5
+00:00:13,520 --> 00:00:15,480
+Deze week kan ik niet.
+
+6
+00:00:16,500 --> 00:00:18,280
+Ik heb het heel druk.
+
+7
+00:00:19,460 --> 00:00:20,880
+Wat ga je deze week dan doen?
+
+8
+00:00:22,280 --> 00:00:26,020
+Maandag ga ik naar de koffieochtend in het buurthuis.
+
+9
+00:00:26,780 --> 00:00:27,820
+Dat doe ik elke week.
+
+10
+00:00:28,840 --> 00:00:32,480
+Dinsdag help ik op de school van mijn dochter bij de sportdag.
+
+11
+00:00:32,900 --> 00:00:34,460
+En woensdag ga ik naar mijn moeder.
+
+12
+00:00:35,880 --> 00:00:37,480
+Ah, waar woont ze?
+
+13
+00:00:38,240 --> 00:00:38,960
+In Den Haag.
+
+14
+00:00:39,560 --> 00:00:40,860
+En donderdag en vrijdag?
+
+15
+00:00:41,640 --> 00:00:43,200
+Donderdag moet ik werken.
+
+16
+00:00:44,220 --> 00:00:46,840
+En vrijdag heb ik een afspraak in het ziekenhuis.
+
+17
+00:00:47,440 --> 00:00:51,060
+Zo, dat is inderdaad een drukke agenda.
+
+18
+00:00:52,240 --> 00:00:54,100
+Dan gaan we een andere keer, oké?
+
+19
+00:00:54,720 --> 00:00:56,100
+Ja, leuk.
+
+20
+00:00:58,460 --> 00:00:59,740
+Eet je gezond.
+
+21
+00:01:04,160 --> 00:01:05,560
+Waar ben je geweest?
+
+22
+00:01:06,100 --> 00:01:08,020
+Ik was bij de dokter met mijn zoon.
+
+23
+00:01:09,060 --> 00:01:09,500
+Is hij ziek?
+
+24
+00:01:10,400 --> 00:01:10,740
+Nee.
+
+25
+00:01:11,400 --> 00:01:13,320
+Maar Jonas is te dik.
+
+26
+00:01:14,740 --> 00:01:16,100
+Hij moet gezonder eten.
+
+27
+00:01:17,140 --> 00:01:18,880
+Dan moet hij zeker minder snoepen.
+
+28
+00:01:19,720 --> 00:01:22,960
+Ja, en meer groenten en fruit eten.
+
+29
+00:01:24,320 --> 00:01:25,360
+Nou, dat is niet makkelijk.
+
+30
+00:01:25,880 --> 00:01:26,560
+Nee.
+
+31
+00:01:28,760 --> 00:01:29,360
+Eet jij gezond?
+
+32
+00:01:30,000 --> 00:01:31,920
+Ja, maar ik drink te veel koffie.
+
+33
+00:01:32,720 --> 00:01:34,320
+Hoeveel koffie drink je dan per dag?
+
+34
+00:01:36,160 --> 00:01:37,880
+Ongeveer acht kopjes.
+
+35
+00:01:38,680 --> 00:01:40,460
+Tja, dat is ook niet gezond.
+
+36
+00:01:41,100 --> 00:01:41,400
+Nee.
+
+37
+00:01:52,280 --> 00:01:54,980
+Hé, zullen we ergens een broodje eten?
+
+38
+00:01:54,980 --> 00:01:56,000
+Ah, goed idee.
+
+39
+00:01:56,700 --> 00:01:57,320
+Ik heb wel trek.
+
+40
+00:01:58,160 --> 00:01:59,740
+Aan de overkant zit een café.
+
+41
+00:02:00,420 --> 00:02:01,460
+Je bedoelt de molen?
+
+42
+00:02:01,960 --> 00:02:04,540
+Ja, ze hebben daar lekkere broodjes.
+
+43
+00:02:08,720 --> 00:02:09,280
+Goedemiddag.
+
+44
+00:02:10,240 --> 00:02:10,420
+Hallo.
+
+45
+00:02:10,960 --> 00:02:11,780
+Wat kan ik voor u doen?
+
+46
+00:02:12,700 --> 00:02:14,040
+Heeft u voor ons de menukaart?
+
+47
+00:02:15,400 --> 00:02:17,240
+Natuurlijk, ik haal hem even.
+
+48
+00:02:25,280 --> 00:02:26,600
+Weet u het al?
+
+49
+00:02:27,300 --> 00:02:30,520
+Ja, ik wil graag een tosti en een thee.
+
+50
+00:02:31,120 --> 00:02:32,960
+De tosti met ham en kaas.
+
+51
+00:02:33,760 --> 00:02:34,720
+Ja, lekker.
+
+52
+00:02:36,020 --> 00:02:36,980
+En voor u?
+
+53
+00:02:37,640 --> 00:02:42,340
+Voor mij een broodje kroket en een glas melk.
+
+54
+00:02:43,120 --> 00:02:45,080
+Een bruin broodje of een wit broodje?
+
+55
+00:02:46,020 --> 00:02:47,720
+Een witte graag.
+
+56
+00:02:48,500 --> 00:02:49,920
+Prima, komt eraan.
+
+57
+00:02:52,160 --> 00:02:54,160
+Wat zullen we eten?
+
+58
+00:02:54,160 --> 00:02:55,060
+EEN
+
+59
+00:02:57,380 --> 00:02:58,540
+Hé, Maja.
+
+60
+00:02:59,220 --> 00:03:00,380
+Wat ga je vanavond eten?
+
+61
+00:03:01,120 --> 00:03:02,240
+Boerenkool met worst.
+
+62
+00:03:03,200 --> 00:03:03,400
+Lekker.
+
+63
+00:03:04,100 --> 00:03:06,420
+Dat is wel een echte Hollandse maaltijd.
+
+64
+00:03:07,500 --> 00:03:08,620
+Ja, dat klopt.
+
+65
+00:03:09,240 --> 00:03:10,760
+Mijn kinderen vinden het heerlijk.
+
+66
+00:03:11,500 --> 00:03:12,980
+En het is lekker in de winter.
+
+67
+00:03:14,000 --> 00:03:14,900
+Wat ga jij eten?
+
+68
+00:03:16,520 --> 00:03:17,660
+Dat weet ik niet.
+
+69
+00:03:18,240 --> 00:03:19,600
+Wij gaan bij mijn zus eten.
+
+70
+00:03:20,240 --> 00:03:20,900
+Oh, fijn.
+
+71
+00:03:21,120 --> 00:03:22,320
+Dan hoef je niet te koken.
+
+72
+00:03:23,200 --> 00:03:27,760
+Oh, ik hoop dat ze kip met rijst en broccoli maakt.
+
+73
+00:03:28,600 --> 00:03:30,120
+Dat kan ze heel goed.
+
+74
+00:03:30,920 --> 00:03:33,800
+Oh, eet smakelijk vanavond, hè.
+
+75
+00:03:34,600 --> 00:03:35,000
+Jij ook.
+
+76
+00:03:38,680 --> 00:03:40,360
+Wat zullen we eten?
+
+77
+00:03:41,280 --> 00:03:41,360
+TWEE
+
+78
+00:03:47,140 --> 00:03:49,560
+Oh, wat ruikt het hier lekker.
+
+79
+00:03:50,080 --> 00:03:51,500
+Ik heb tomatensoep gemaakt.
+
+80
+00:03:51,500 --> 00:03:53,020
+Mag ik even proeven?
+
+81
+00:03:53,700 --> 00:03:54,240
+Natuurlijk.
+
+82
+00:03:56,820 --> 00:03:57,280
+Vind je het lekker?
+
+83
+00:03:57,560 --> 00:03:59,220
+Mmm, het is heerlijk.
+
+84
+00:04:00,820 --> 00:04:02,140
+Het smaakt een beetje zoet.
+
+85
+00:04:02,560 --> 00:04:04,760
+Ja, ik hou van zoete gerechten.
+
+86
+00:04:05,400 --> 00:04:06,440
+Is het je eigen recept?
+
+87
+00:04:06,900 --> 00:04:09,220
+Nee, het is een recept van mijn moeder.
+
+88
+00:04:10,160 --> 00:04:11,000
+Lust je een kopje soep?
+
+89
+00:04:11,500 --> 00:04:12,400
+Ja, graag.
+
+90
+00:04:18,560 --> 00:04:20,440
+In een café
+
+91
+00:04:21,480 --> 00:04:22,240
+2
+
+92
+00:04:23,980 --> 00:04:25,280
+Weet u het al?
+
+93
+00:04:26,000 --> 00:04:29,160
+Ja, ik wil graag een tosti en een thee.
+
+94
+00:04:29,760 --> 00:04:31,660
+De tosti met ham en kaas.
+
+95
+00:04:32,420 --> 00:04:33,380
+Ja, lekker.
+
+96
+00:04:34,940 --> 00:04:35,660
+En voor u?
+
+97
+00:04:36,340 --> 00:04:40,980
+Voor mij een broodje kroket en een glas melk.
+
+98
+00:04:41,640 --> 00:04:42,380
+Een bruin broodje en een glas melk.
+
+99
+00:04:42,380 --> 00:04:43,800
+Een blauwe broodje of een wit broodje?
+
+100
+00:04:44,900 --> 00:04:46,340
+Een witte graag.
+
+101
+00:04:47,060 --> 00:04:49,380
+Prima, komt eraan.
+
+102
+00:04:51,640 --> 00:04:52,720
+Koffie met gebak.
+
+104
+00:04:55,820 --> 00:04:57,400
+Dag mevrouw.
+
+105
+00:04:57,820 --> 00:04:58,340
+Goedemorgen.
+
+106
+00:04:59,100 --> 00:04:59,600
+Zegt u het maar.
+
+107
+00:05:00,120 --> 00:05:02,020
+Een half wit gesneden.
+
+108
+00:05:03,920 --> 00:05:04,480
+Anders nog iets?
+
+109
+00:05:05,820 --> 00:05:08,700
+En een half volkoren gesneden, alsjeblieft.
+
+110
+00:05:10,600 --> 00:05:12,020
+Dat was het?
+
+111
+00:05:12,500 --> 00:05:16,620
+Nee, ik wil ook nog vier gebakjes.
+
+112
+00:05:17,580 --> 00:05:18,100
+Welke wilt u?
+
+113
+00:05:20,060 --> 00:05:22,140
+Die met slagroom graag.
+
+114
+00:05:32,140 --> 00:05:35,140
+Dat is dan 9,20 euro, alsjeblieft.
+
+115
+00:05:38,060 --> 00:05:42,280
+Mijn familie 1
+
+116
+00:05:43,280 --> 00:05:45,840
+Hallo, ik ben Simon Sanchez.
+
+117
+00:05:47,100 --> 00:05:48,560
+Ik heb een broer en een zus.
+
+118
+00:05:50,020 --> 00:05:55,600
+Mijn broer heet Jason en mijn zus heet Annette.
+
+119
+00:05:56,520 --> 00:05:57,260
+Ik ben 12 jaar.
+
+120
+00:05:59,260 --> 00:06:03,080
+Jason is 9 jaar en mijn zus is 3 jaar.
+
+121
+00:06:03,080 --> 00:06:06,780
+Wij wonen met onze ouders in Amsterdam.
+
+122
+00:06:08,480 --> 00:06:09,580
+Mijn moeder heet Linda.
+
+123
+00:06:11,200 --> 00:06:13,580
+De naam van mijn vader is Martin.
+
+124
+00:06:14,840 --> 00:06:16,200
+Mijn vader heeft één zus.
+
+125
+00:06:17,040 --> 00:06:18,820
+Zij heet Isabella.
+
+126
+00:06:20,640 --> 00:06:22,220
+Zij is getrouwd met Hans.
+
+127
+00:06:24,060 --> 00:06:26,360
+Hij is de zwaker van mijn vader.
+
+128
+00:06:28,020 --> 00:06:29,700
+Zij hebben samen twee dochters.
+
+129
+00:06:30,520 --> 00:06:32,480
+Eva en Sarah.
+
+130
+00:06:33,980 --> 00:06:36,560
+Eva woont samen met Luc.
+
+131
+00:06:38,480 --> 00:06:40,500
+Sarah woont nog thuis bij haar ouders.
+
+132
+00:06:42,400 --> 00:06:44,600
+Eva en Sarah zijn mijn nichtjes.
+
+133
+00:06:45,640 --> 00:06:46,580
+Ik ben hun neef.
+
+134
+00:06:48,500 --> 00:06:51,880
+Hans en Isabella zijn mijn oom en tante.
+
+135
+00:06:53,420 --> 00:06:56,760
+Mijn opa en oma heten Julio en Maria.
+
+136
+00:06:58,160 --> 00:06:59,140
+Zij wonen in Spanje.
+
+137
+00:06:59,960 --> 00:07:02,160
+Mijn familie 2
+
+138
+00:07:08,840 --> 00:07:09,400
+Mijn vrouw en mijn twee dochters
+
+139
+00:07:09,400 --> 00:07:11,200
+Hé Mohamed, wat een leuke foto.
+
+140
+00:07:11,780 --> 00:07:12,640
+Is dat jouw familie?
+
+141
+00:07:13,320 --> 00:07:18,480
+Ja, dit is mijn vrouw en dit zijn mijn twee dochters.
+
+142
+00:07:19,740 --> 00:07:21,040
+En is dat je zus?
+
+143
+00:07:21,360 --> 00:07:23,980
+Nee, dat is mijn schoonzus.
+
+144
+00:07:24,680 --> 00:07:25,880
+Zij is getrouwd met mijn broer.
+
+145
+00:07:27,620 --> 00:07:29,060
+Hé, woont je broer ook in Nederland?
+
+146
+00:07:29,060 --> 00:07:31,340
+Ja, gelukkig wel.
+
+147
+00:07:33,360 --> 00:07:35,200
+En zijn dit je ouders?
+
+148
+00:07:35,780 --> 00:07:38,500
+Ja, maar zij wonen in Irak.
+
+149
+00:07:39,560 --> 00:07:41,340
+Ik heb ze al drie jaar niet gezien.
+
+150
+00:07:48,720 --> 00:07:49,500
+Geboren 1
+
+151
+00:07:56,820 --> 00:07:57,840
+Met Jan.
+
+152
+00:07:58,540 --> 00:08:00,540
+Hoi Jan, met Siham.
+
+153
+00:08:01,500 --> 00:08:02,240
+Hallo Siham.
+
+154
+00:08:03,640 --> 00:08:04,900
+Gefeliciteerd met je zoon.
+
+155
+00:08:05,240 --> 00:08:06,320
+Ja, dankjewel.
+
+156
+00:08:07,480 --> 00:08:08,840
+Is alles goed met Thomas?
+
+157
+00:08:09,320 --> 00:08:11,120
+Ja, hij is helemaal gezond.
+
+158
+00:08:12,420 --> 00:08:14,680
+Kan ik vanmiddag even op bezoek komen?
+
+159
+00:08:15,220 --> 00:08:17,760
+Leuk. Kom je om drie uur?
+
+160
+00:08:18,720 --> 00:08:20,980
+Dat is goed. Tot vanmiddag.
+
+161
+00:08:21,480 --> 00:08:23,460
+En doe de groeten aan Alia.
+
+162
+00:08:24,260 --> 00:08:25,720
+Zal ik doen. Tot straks.
+
+163
+00:08:32,940 --> 00:08:34,500
+Geboren 2
+
+164
+00:08:37,200 --> 00:08:39,740
+Hé, gefeliciteerd met je zoon.
+
+165
+00:08:40,560 --> 00:08:41,340
+Dankjewel.
+
+166
+00:08:43,000 --> 00:08:44,020
+Is alles goed gegaan?
+
+167
+00:08:44,900 --> 00:08:49,160
+Ja, hij is thuisgeboren en hij is helemaal gezond.
+
+168
+00:08:50,200 --> 00:08:51,100
+Oh, gelukkig.
+
+169
+00:08:53,740 --> 00:08:54,400
+Wil je hem even zien?
+
+170
+00:08:59,040 --> 00:09:00,540
+Dit is Thomas.
+
+171
+00:09:01,720 --> 00:09:04,060
+Oh, wat is hij lief.
+
+172
+00:09:04,880 --> 00:09:05,680
+Hoeveel weegt hij?
+
+173
+00:09:06,820 --> 00:09:11,460
+Hij weegt 3550 gram, ruim 7 pond.
+
+174
+00:09:13,840 --> 00:09:15,420
+En hoe is het met Maria?
+
+175
+00:09:16,260 --> 00:09:17,680
+Ze is nu naar school.
+
+176
+00:09:19,520 --> 00:09:21,680
+Ze is erg trots op haar broertje.
+
+177
+00:09:25,360 --> 00:09:26,420
+Een vriend van vroeger.
+
+178
+00:09:29,360 --> 00:09:30,940
+Hé, Safi.
+
+179
+00:09:31,640 --> 00:09:33,800
+Hoi. Wie ben jij?
+
+180
+00:09:34,360 --> 00:09:36,780
+Ik ben Paul. Paul de Waard.
+
+181
+00:09:37,620 --> 00:09:38,940
+We kennen elkaar van de sportclub.
+
+182
+00:09:39,680 --> 00:09:42,340
+O, ja. Dat is lang geleden.
+
+183
+00:09:43,520 --> 00:09:46,040
+Ja, vier jaar. Hoe is het?
+
+184
+00:09:46,520 --> 00:09:48,580
+Prima. En met jou?
+
+185
+00:09:48,940 --> 00:09:51,360
+Goed. Woon jij ook in Den Haag?
+
+186
+00:09:51,880 --> 00:09:54,040
+Ja, samen met mevrouw.
+
+187
+00:09:54,880 --> 00:09:56,520
+Ik ben net getrouwd.
+
+188
+00:09:57,400 --> 00:09:59,600
+Wat leuk. Hoe heet je vrouw?
+
+189
+00:10:00,580 --> 00:10:03,300
+Ze heet Elisa. En jij?
+
+190
+00:10:03,700 --> 00:10:04,460
+Ben jij ook getrouwd?
+
+191
+00:10:04,880 --> 00:10:08,100
+Nee. Ik woon samen met Helene.
+
+192
+00:10:08,800 --> 00:10:10,460
+En onze dochter heet Lina.
+
+193
+00:10:11,660 --> 00:10:13,740
+Zo. Er is veel veranderd.
+
+194
+00:10:15,260 --> 00:10:16,840
+Zullen we een kopje koffie drinken?
+
+195
+00:10:17,580 --> 00:10:19,920
+Prima. Dan kunnen we verder praten.
+
+196
+00:10:24,200 --> 00:10:24,400
+TV Gelderland 2021

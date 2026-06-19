@@ -1,0 +1,451 @@
+{
+ "video_id": "gIqFonNsQZ8",
+ "title": "Luisteren examen A2 (nieuw systeem) 4 vragen",
+ "channel": "Inburgeren examen A2",
+ "duration": 606,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "幫助準備國王日早餐",
+   "title_nl": "Luisteren examen A2 (nieuw systeem) 4 vragen",
+   "kind": "對話",
+   "context_zh": "在學校，家長們討論如何準備國王日的早餐活動。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Paula zit op een cursus verhalenschrijven.",
+     "zh": "Paula參加一個故事寫作課程。"
+    },
+    {
+     "t": "0:04",
+     "nl": "Ze luistert naar haar docent. Lees eerst de vraag.",
+     "zh": "她在聽她的老師。請先閱讀問題。"
+    },
+    {
+     "t": "0:10",
+     "nl": "Kijk daarna naar de video.",
+     "zh": "然後觀看影片。"
+    },
+    {
+     "t": "0:25",
+     "nl": "Hallo allemaal. Goedemorgen.",
+     "zh": "大家好。早安。"
+    },
+    {
+     "t": "0:55",
+     "nl": "Aan het einde van de les spreken we af wie morgen wat meeneemt.",
+     "zh": "課程結束時，我們會約定明天誰帶什麼。"
+    },
+    {
+     "t": "1:01",
+     "nl": "Ik bedoel een woordenboek of zo.",
+     "zh": "我的意思是字典之類的東西。"
+    },
+    {
+     "t": "1:06",
+     "nl": "Maar iedereen moet zijn eigen schrijfblok meenemen.",
+     "zh": "但每個人都要帶自己的筆記本。"
+    },
+    {
+     "t": "1:11",
+     "nl": "Let op. We spreken morgen om tien uur in het park af.",
+     "zh": "注意，我們明天十點在公園集合。"
+    },
+    {
+     "t": "1:16",
+     "nl": "Dus niet op school. Via het park lopen we dan naar de stadsboerderij.",
+     "zh": "所以不是在學校。我們會從公園走去城市農場。"
+    },
+    {
+     "t": "1:23",
+     "nl": "Dit project is een goede oefening voor het examen.",
+     "zh": "這個計畫是考試的好練習。"
+    },
+    {
+     "t": "1:28",
+     "nl": "Maar daarover later meer.",
+     "zh": "不過關於那個，後面會再說。"
+    },
+    {
+     "t": "1:31",
+     "nl": "Goed, dan ga ik nu over naar het lezen van jullie korte verhalen.",
+     "zh": "好，現在我來讀你們的短篇故事。"
+    },
+    {
+     "t": "2:21",
+     "nl": "Hallo.",
+     "zh": "你好。"
+    },
+    {
+     "t": "2:24",
+     "nl": "Vandaag bespreek ik de laatste opdracht met jullie.",
+     "zh": "今天我與你們討論最後一個作業。"
+    },
+    {
+     "t": "2:29",
+     "nl": "Jullie korte verhaal dat jullie als huiswerkopdracht hadden gemaakt.",
+     "zh": "你們作為家庭作業所寫的短篇故事。"
+    },
+    {
+     "t": "2:33",
+     "nl": "We gaan straks samen jullie verhalen lezen.",
+     "zh": "我們待會將一起閱讀你們的故事。"
+    },
+    {
+     "t": "2:36",
+     "nl": "Maar eerst bespreek ik het natuurproject waar we morgen mee gaan starten.",
+     "zh": "但我先說明明天要開始的自然計畫。"
+    },
+    {
+     "t": "2:42",
+     "nl": "Voor dit project gaan jullie een aantal verhalen schrijven over de natuur.",
+     "zh": "這個計畫裡，你們會寫一些有關自然的故事。"
+    },
+    {
+     "t": "2:48",
+     "nl": "We gaan morgen dan ook echt de natuur in.",
+     "zh": "明天我們真的要進入大自然了。"
+    },
+    {
+     "t": "3:25",
+     "nl": "Maar daarover later meer. Goed.",
+     "zh": "不過關於那個，後面會再說。好。"
+    },
+    {
+     "t": "3:30",
+     "nl": "Dan ga ik nu over naar het lezen van jullie korte verhalen.",
+     "zh": "那麼我現在來讀你們的短篇故事。"
+    },
+    {
+     "t": "3:38",
+     "nl": "Waar spreken de cursisten morgen af? In het park.",
+     "zh": "學員們明天在哪裡集合？在公園。"
+    },
+    {
+     "t": "3:43",
+     "nl": "Op school. Bij de boerderij.",
+     "zh": "在學校。在農場。"
+    },
+    {
+     "t": "3:51",
+     "nl": "De kinderen van Mila en Carla zitten op de basisschool.",
+     "zh": "Mila和Carla的孩子們念小學。"
+    },
+    {
+     "t": "3:58",
+     "nl": "Mila en Carla praten met de leraar van hun kinderen.",
+     "zh": "Mila和Carla和孩子們的老師交談。"
+    },
+    {
+     "t": "4:05",
+     "nl": "Lees eerst de vraag. Kijk daarna naar de video.",
+     "zh": "先閱讀問題，再觀看影片。"
+    },
+    {
+     "t": "4:11",
+     "nl": "Hallo. Hallo. Welkom. Hallo. Ja.",
+     "zh": "你好。你好。歡迎。你好。是的。"
+    },
+    {
+     "t": "4:15",
+     "nl": "Jullie gaan helpen bij het Koningsdagontbijt op vrijdag 27 april.",
+     "zh": "你們會在4月27日星期五幫忙國王日早餐活動。"
+    },
+    {
+     "t": "4:22",
+     "nl": "Het begint om half negen. Dan ontbijten we dus met de hele klas op school.",
+     "zh": "活動從八點半開始，屆時全班會在學校一起吃早餐。"
+    },
+    {
+     "t": "4:33",
+     "nl": "Daarna, om half tien, gaan we naar buiten, naar het sportveld.",
+     "zh": "然後，九點半，我們會出去到運動場。"
+    },
+    {
+     "t": "4:38",
+     "nl": "Daarbij helpen al andere ouders. Oké.",
+     "zh": "其他家長也會幫忙。好。"
+    },
+    {
+     "t": "4:42",
+     "nl": "Dus de kinderen komen om half negen. Hoe laat moeten we alles klaarzetten?",
+     "zh": "孩子們八點半來。我們幾點要準備好一切？"
+    },
+    {
+     "t": "4:49",
+     "nl": "Nou, dat duurt wel een half uur, denk ik. Ja, dan zijn wij er om acht uur.",
+     "zh": "嗯，我想會花半小時。好，那我們八點到。"
+    },
+    {
+     "t": "4:55",
+     "nl": "Goed. Oh, trouwens. Moeten wij ook boodschappen doen voor het ontbijt?",
+     "zh": "好。哦，對了，我們也要買早餐材料嗎？"
+    },
+    {
+     "t": "5:02",
+     "nl": "Even kijken. Nee. Nee hoor.",
+     "zh": "看看。不要。不需要。"
+    },
+    {
+     "t": "5:06",
+     "nl": "Dat doet de moeder van Giovanni. Die heeft een grote auto.",
+     "zh": "那是Giovanni媽媽的事。她有一台大車。"
+    },
+    {
+     "t": "5:10",
+     "nl": "Mooi. En na het ontbijt, wat gaan de kinderen dan doen?",
+     "zh": "很好。早餐後，孩子們要做什麼？"
+    },
+    {
+     "t": "5:17",
+     "nl": "Eerst gaan we dansen op een heel leuk lied.",
+     "zh": "我們先要跳一首很有趣的舞。"
+    },
+    {
+     "t": "5:20",
+     "nl": "En daarna doen we allerlei spellen.",
+     "zh": "然後玩各種遊戲。"
+    },
+    {
+     "t": "5:25",
+     "nl": "En aan het eind van de dag is er een wedstrijd. Dan gaan de kinderen hun fiets versieren.",
+     "zh": "最後一天會有比賽，孩子們會裝飾自己的腳踏車。"
+    },
+    {
+     "t": "5:31",
+     "nl": "En de mooiste fiets wint een prijs. Het wordt vast een leuke dag.",
+     "zh": "最漂亮的腳踏車會贏得獎品。一定會很有趣的一天。"
+    },
+    {
+     "t": "5:38",
+     "nl": "Wat moeten Mila en Carla op 27 april doen?",
+     "zh": "米拉和卡拉在4月27日要做什麼？"
+    },
+    {
+     "t": "5:44",
+     "nl": "Helpen met boodschappen doen. Helpen bij het ontbijt.",
+     "zh": "幫忙買菜。幫忙準備早餐。"
+    },
+    {
+     "t": "5:49",
+     "nl": "Helpen bij de sportdag.",
+     "zh": "幫忙運動會。"
+    },
+    {
+     "t": "6:18",
+     "nl": "Hallo. Welkom. Hallo.",
+     "zh": "你好。歡迎。你好。"
+    },
+    {
+     "t": "6:22",
+     "nl": "Ja, jullie gaan helpen bij het Koningsdagontbijt.",
+     "zh": "是的，你們會幫忙國王節早餐會。"
+    },
+    {
+     "t": "6:27",
+     "nl": "Op vrijdag 27 april. Het begint om half negen.",
+     "zh": "4月27日星期五。從八點半開始。"
+    },
+    {
+     "t": "6:32",
+     "nl": "Dan ontbijten we dus met de hele klas op school.",
+     "zh": "然後我們會和全班同學一起在學校吃早餐。"
+    },
+    {
+     "t": "6:38",
+     "nl": "Daarna, om half tien, gaan we naar buiten.",
+     "zh": "接著，九點半，我們會出外。"
+    },
+    {
+     "t": "6:44",
+     "nl": "Naar het sportveld. Daarbij helpen al andere ouders.",
+     "zh": "去運動場。其他家長也會幫忙。"
+    },
+    {
+     "t": "6:49",
+     "nl": "Oké. Dus de kinderen komen om half negen.",
+     "zh": "好的，所以孩子們九點半來。"
+    },
+    {
+     "t": "6:54",
+     "nl": "Hoe laat moeten we alles klaarzetten? Nou, dat duurt wel een half uur, denk ik.",
+     "zh": "我們幾點要把一切準備好？我想大概要半小時。"
+    },
+    {
+     "t": "7:00",
+     "nl": "Ja. Dan zijn wij er om acht uur. Goed.",
+     "zh": "是的，那我們八點會到。好。"
+    },
+    {
+     "t": "7:04",
+     "nl": "O, trouwens. Moeten wij ook boodschappen doen voor het ontbijt?",
+     "zh": "喔，對了。我們也要幫忙買早餐的食材嗎？"
+    },
+    {
+     "t": "7:33",
+     "nl": "En aan het eind van de dag is er een wedstrijd.",
+     "zh": "一天結束時會有比賽。"
+    },
+    {
+     "t": "7:36",
+     "nl": "Dan gaan de kinderen hun fiets versieren. En de mooiste fiets wint een prijs.",
+     "zh": "孩子們會裝飾他們的腳踏車。最漂亮的腳踏車會得獎。"
+    },
+    {
+     "t": "7:42",
+     "nl": "Het wordt vast een leuke dag.",
+     "zh": "這一定會是愉快的一天。"
+    },
+    {
+     "t": "7:44",
+     "nl": "Hoe laat moeten Mila en Carla op 27 april op school zijn?",
+     "zh": "米拉和卡拉4月27日要幾點到學校？"
+    },
+    {
+     "t": "7:53",
+     "nl": "Om acht uur. Om half negen.",
+     "zh": "八點。八點半。"
+    },
+    {
+     "t": "7:57",
+     "nl": "Om half tien.",
+     "zh": "九點半。"
+    },
+    {
+     "t": "8:54",
+     "nl": "Daarbij helpen al andere ouders.",
+     "zh": "其他家長也會幫忙。"
+    },
+    {
+     "t": "9:08",
+     "nl": "Ja, dan zijn wij er om acht uur. Goed.",
+     "zh": "是的，那我們八點會到。好。"
+    },
+    {
+     "t": "9:12",
+     "nl": "Oh, trouwens. Moeten wij ook boodschappen doen voor het ontbijt?",
+     "zh": "喔，對了。我們也要幫忙買早餐的食材嗎？"
+    },
+    {
+     "t": "9:17",
+     "nl": "Even kijken.",
+     "zh": "看看。"
+    },
+    {
+     "t": "9:19",
+     "nl": "Nee, nee hoor. Dat doet de moeder van Giovanni. Die heeft een grote auto.",
+     "zh": "不要，不用。那是喬凡尼的媽媽做的。她有一台大車。"
+    },
+    {
+     "t": "9:53",
+     "nl": "Waarmee eindigt de Koningsdag?",
+     "zh": "國王節怎麼結束？"
+    },
+    {
+     "t": "9:57",
+     "nl": "Met een dans. Met een lied.",
+     "zh": "跳舞結束。唱歌結束。"
+    },
+    {
+     "t": "10:02",
+     "nl": "Met een wedstrijd. Met een spel.",
+     "zh": "比賽結束。玩遊戲結束。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "cursus",
+     "zh": "課程"
+    },
+    {
+     "nl": "docent",
+     "zh": "老師"
+    },
+    {
+     "nl": "woordenboek",
+     "zh": "字典"
+    },
+    {
+     "nl": "schrijfblok",
+     "zh": "寫作本"
+    },
+    {
+     "nl": "park",
+     "zh": "公園"
+    },
+    {
+     "nl": "stadsboerderij",
+     "zh": "城市農場"
+    },
+    {
+     "nl": "natuurproject",
+     "zh": "自然專案"
+    },
+    {
+     "nl": "verhalen",
+     "zh": "故事"
+    },
+    {
+     "nl": "ontbijt",
+     "zh": "早餐"
+    },
+    {
+     "nl": "sportveld",
+     "zh": "運動場"
+    },
+    {
+     "nl": "ouders",
+     "zh": "家長"
+    },
+    {
+     "nl": "boodschappen",
+     "zh": "購物"
+    },
+    {
+     "nl": "wedstrijd",
+     "zh": "比賽"
+    },
+    {
+     "nl": "fiets",
+     "zh": "自行車"
+    },
+    {
+     "nl": "prijs",
+     "zh": "獎品"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Wat moeten Mila en Carla op 27 april doen?",
+     "zh": "米拉和卡拉在4月27日要做什麼？",
+     "note": "使用疑問句詢問行動"
+    },
+    {
+     "nl": "Het begint om half negen.",
+     "zh": "它在八點半開始。",
+     "note": "描述事件的開始時間"
+    },
+    {
+     "nl": "Daarbij helpen al andere ouders.",
+     "zh": "其他家長也會幫忙。",
+     "note": "描述其他人的參與"
+    },
+    {
+     "nl": "Moeten wij ook boodschappen doen voor het ontbijt?",
+     "zh": "我們也需要為早餐購物嗎？",
+     "note": "使用疑問句詢問需求"
+    },
+    {
+     "nl": "Dan gaan de kinderen hun fiets versieren.",
+     "zh": "然後孩子們會裝飾他們的自行車。",
+     "note": "描述後續行動"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

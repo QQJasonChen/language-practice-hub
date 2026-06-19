@@ -1,0 +1,696 @@
+{
+ "video_id": "_--osX9sKB8",
+ "title": "100 Dutch Sentences to Practice for the Listening Exam",
+ "channel": "Inburgeren examen A2",
+ "duration": 1184,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "點餐與用餐",
+   "title_nl": "100 Dutch Sentences to Practice for the Listening Exam",
+   "kind": "對話",
+   "context_zh": "一對夫婦在餐廳點餐和用餐",
+   "start": "0:01",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:01",
+     "nl": "Dit meisje eet. Zij vindt het eten lekker.",
+     "zh": "這個女孩在吃飯。她覺得食物很好吃。"
+    },
+    {
+     "t": "0:08",
+     "nl": "Dit meisje eet niet. Ze vindt het eten niet lekker.",
+     "zh": "這個女孩不吃。她覺得食物不好吃。"
+    },
+    {
+     "t": "0:14",
+     "nl": "Dit meisje eet niet. Zij vindt het eten niet lekker.",
+     "zh": "這個女孩不吃。她覺得食物不好吃。"
+    },
+    {
+     "t": "0:22",
+     "nl": "Dit jongetje eet ook niet. Hij vindt het eten niet lekker.",
+     "zh": "這個男孩也不吃。他覺得食物不好吃。"
+    },
+    {
+     "t": "0:28",
+     "nl": "Dit jongetje eet ook niet.",
+     "zh": "這個男孩也不吃。"
+    },
+    {
+     "t": "0:32",
+     "nl": "Hij vindt het eten niet lekker.",
+     "zh": "他覺得食物不好吃。"
+    },
+    {
+     "t": "0:36",
+     "nl": "Dit jongetje eet wel. Hij vindt het eten wel lekker.",
+     "zh": "這個男孩吃。他覺得食物很好吃。"
+    },
+    {
+     "t": "0:51",
+     "nl": "Het jongetje zegt: \"Mama, ik ben klaar.\"",
+     "zh": "男孩說：「媽媽，我吃完了。」"
+    },
+    {
+     "t": "1:05",
+     "nl": "De moeder van het jongetje zegt: \"Nee hoor, ik zie nog champignons.\"",
+     "zh": "男孩的媽媽說：「不，你還有蘑菇沒吃喔。」"
+    },
+    {
+     "t": "1:20",
+     "nl": "Het jongetje zegt: \"Ik vind champignons vies.\"",
+     "zh": "男孩說：「我覺得蘑菇很噁心。」"
+    },
+    {
+     "t": "1:32",
+     "nl": "Champignons zijn lekker. Eten.",
+     "zh": "蘑菇很好吃。吃吧。"
+    },
+    {
+     "t": "1:43",
+     "nl": "Nee. Nee.",
+     "zh": "不要。不要。"
+    },
+    {
+     "t": "1:52",
+     "nl": "Eten of je gaat naar bed.",
+     "zh": "吃飯，不然你要去睡覺。"
+    },
+    {
+     "t": "2:02",
+     "nl": "Bah, ik vind champignons vies.",
+     "zh": "噁，我覺得蘑菇很噁心。"
+    },
+    {
+     "t": "2:13",
+     "nl": "Naar bed. Naar bed.",
+     "zh": "去睡覺。去睡覺。"
+    },
+    {
+     "t": "2:21",
+     "nl": "Dit is een bord. Dit is een bord.",
+     "zh": "這是一個盤子。這是一個盤子。"
+    },
+    {
+     "t": "2:29",
+     "nl": "Dit is een lepel. Dit is een lepel.",
+     "zh": "這是一把湯匙。這是一把湯匙。"
+    },
+    {
+     "t": "2:36",
+     "nl": "Dit is een mes.",
+     "zh": "這是一把刀子。"
+    },
+    {
+     "t": "2:45",
+     "nl": "Dit is een vork. Dit is een vork.",
+     "zh": "這是一把叉子。這是一把叉子。"
+    },
+    {
+     "t": "2:53",
+     "nl": "De ober zet het bord op tafel.",
+     "zh": "服務生把盤子放在桌上。"
+    },
+    {
+     "t": "3:03",
+     "nl": "De ober legt de lepel op tafel.",
+     "zh": "服務生把湯匙放在桌上。"
+    },
+    {
+     "t": "3:13",
+     "nl": "De ober legt het mes op tafel.",
+     "zh": "服務生把刀子放在桌上。"
+    },
+    {
+     "t": "3:22",
+     "nl": "De ober legt de vork op tafel.",
+     "zh": "服務生把叉子放在桌上。"
+    },
+    {
+     "t": "3:32",
+     "nl": "Een vrouw roept: \"Ober.\" Een vrouw roept: \"Ober.\"",
+     "zh": "一位女士喊道：「服務生。」一位女士喊道：「服務生。」"
+    },
+    {
+     "t": "3:40",
+     "nl": "De vrouw zegt: \"Ober, mag ik een koffie?\"",
+     "zh": "女士說：「服務生，我可以要一杯咖啡嗎？」"
+    },
+    {
+     "t": "3:44",
+     "nl": "Ze bestelt koffie.",
+     "zh": "她點了一杯咖啡。"
+    },
+    {
+     "t": "3:54",
+     "nl": "De ober brengt de koffie.",
+     "zh": "服務生送來咖啡。"
+    },
+    {
+     "t": "4:08",
+     "nl": "Hij zet de koffie op de tafel van de vrouw.",
+     "zh": "他把咖啡放在女士的桌上。"
+    },
+    {
+     "t": "4:24",
+     "nl": "Een man roept: \"Ober.\"",
+     "zh": "一位男士喊道：「服務生。」"
+    },
+    {
+     "t": "4:34",
+     "nl": "De man zegt: \"Ober, mag ik een koffie?\" Hij bestelt koffie.",
+     "zh": "男士說：「服務生，我可以要一杯咖啡嗎？」他點了一杯咖啡。"
+    },
+    {
+     "t": "4:40",
+     "nl": "De man zegt: \"Ober, mag ik een koffie?\"",
+     "zh": "男士說：「服務生，我可以要一杯咖啡嗎？」"
+    },
+    {
+     "t": "4:45",
+     "nl": "Hij bestelt koffie.",
+     "zh": "他點了一杯咖啡。"
+    },
+    {
+     "t": "5:03",
+     "nl": "Hij zet de koffie op de tafel van de man.",
+     "zh": "他把咖啡放在男士的桌上。"
+    },
+    {
+     "t": "5:08",
+     "nl": "De man roept ober.",
+     "zh": "那個男人叫服務員。"
+    },
+    {
+     "t": "5:18",
+     "nl": "De man zegt: 'Ober, mag ik brood?' Hij bestelt brood.",
+     "zh": "那個男人說：「服務員，我可以要麵包嗎？」他點了麵包。"
+    },
+    {
+     "t": "5:29",
+     "nl": "De ober brengt brood.",
+     "zh": "服務員端來了麵包。"
+    },
+    {
+     "t": "5:39",
+     "nl": "Hij zet het brood op de tafel van de man.",
+     "zh": "他把麵包放在那個男人的桌子上。"
+    },
+    {
+     "t": "5:50",
+     "nl": "Een andere man roept ober.",
+     "zh": "另一個男人叫服務員。"
+    },
+    {
+     "t": "5:59",
+     "nl": "De man zegt: 'Ik wil graag een biefstuk met patat.'",
+     "zh": "那個男人說：「我想要一份牛排配薯條。」"
+    },
+    {
+     "t": "6:04",
+     "nl": "De man bestelt een biefstuk met patat.",
+     "zh": "那個男人點了一份牛排配薯條。"
+    },
+    {
+     "t": "6:18",
+     "nl": "De ober brengt de biefstuk met patat.",
+     "zh": "服務員端來了牛排配薯條。"
+    },
+    {
+     "t": "6:31",
+     "nl": "Hij zet de biefstuk op de tafel van de man.",
+     "zh": "他把牛排放在那個男人的桌子上。"
+    },
+    {
+     "t": "6:58",
+     "nl": "De man zegt: 'Ober, mag ik een glas water?'",
+     "zh": "那個男人說：「服務員，我可以要一杯水嗎？」"
+    },
+    {
+     "t": "7:03",
+     "nl": "De man bestelt een glas water.",
+     "zh": "那個男人點了一杯水。"
+    },
+    {
+     "t": "7:17",
+     "nl": "De ober brengt het glas water.",
+     "zh": "服務員端來了那杯水。"
+    },
+    {
+     "t": "7:28",
+     "nl": "Hij zet het glas op de tafel van de man.",
+     "zh": "他把杯子放在那個男人的桌子上。"
+    },
+    {
+     "t": "7:37",
+     "nl": "Dit is een potlood. Het potlood ligt op tafel.",
+     "zh": "這是一支鉛筆。鉛筆放在桌上。"
+    },
+    {
+     "t": "7:49",
+     "nl": "Dit is een glas. Het glas staat op tafel.",
+     "zh": "這是一個玻璃杯。玻璃杯放在桌上。"
+    },
+    {
+     "t": "8:05",
+     "nl": "Het glas staat naast het potlood.",
+     "zh": "玻璃杯放在鉛筆旁邊。"
+    },
+    {
+     "t": "8:19",
+     "nl": "Het potlood ligt naast het glas.",
+     "zh": "鉛筆放在玻璃杯旁邊。"
+    },
+    {
+     "t": "8:29",
+     "nl": "Het pak melk staat naast het glas melk.",
+     "zh": "牛奶盒放在牛奶杯旁邊。"
+    },
+    {
+     "t": "8:43",
+     "nl": "Het kopje staat naast het potlood.",
+     "zh": "杯子放在鉛筆旁邊。"
+    },
+    {
+     "t": "8:55",
+     "nl": "Het potlood ligt naast het kopje.",
+     "zh": "鉛筆放在杯子旁邊。"
+    },
+    {
+     "t": "9:08",
+     "nl": "Het potlood ligt naast het bord.",
+     "zh": "鉛筆放在盤子旁邊。"
+    },
+    {
+     "t": "9:18",
+     "nl": "De lepel ligt op het bord.",
+     "zh": "湯匙放在盤子上。"
+    },
+    {
+     "t": "9:27",
+     "nl": "De doos staat op tafel.",
+     "zh": "盒子放在桌上。"
+    },
+    {
+     "t": "9:37",
+     "nl": "De doos staat onder de tafel.",
+     "zh": "盒子放在桌子下面。"
+    },
+    {
+     "t": "9:47",
+     "nl": "Het potlood ligt onder de tafel.",
+     "zh": "鉛筆放在桌子下面。"
+    },
+    {
+     "t": "9:57",
+     "nl": "De vrouw zit naast de man.",
+     "zh": "那位女士坐在那位男士旁邊。"
+    },
+    {
+     "t": "10:07",
+     "nl": "De man zit naast de vrouw.",
+     "zh": "那位男士坐在那位女士旁邊。"
+    },
+    {
+     "t": "10:19",
+     "nl": "Het meisje legt een potlood naast een ander potlood.",
+     "zh": "那個女孩把鉛筆放在另一支鉛筆旁邊。"
+    },
+    {
+     "t": "10:32",
+     "nl": "6",
+     "zh": ""
+    },
+    {
+     "t": "10:35",
+     "nl": "Het meisje zet een soepkom naast een andere soepkom.",
+     "zh": "女孩把湯碗放在另一個湯碗旁邊。"
+    },
+    {
+     "t": "10:48",
+     "nl": "De ober legt een menukaart op de tafel van de man.",
+     "zh": "服務生把菜單放在男士的桌上。"
+    },
+    {
+     "t": "11:03",
+     "nl": "De ober legt een vork naast de lepel en het mes.",
+     "zh": "服務生把叉子放在湯匙和刀子旁邊。"
+    },
+    {
+     "t": "11:17",
+     "nl": "De ober legt de vork naast het bord.",
+     "zh": "服務生把叉子放在盤子旁邊。"
+    },
+    {
+     "t": "11:29",
+     "nl": "10",
+     "zh": ""
+    },
+    {
+     "t": "11:31",
+     "nl": "De ober zet een glas water naast de vork.",
+     "zh": "服務生把一杯水放在叉子旁邊。"
+    },
+    {
+     "t": "11:43",
+     "nl": "De moeder zet een bord met vlees op tafel.",
+     "zh": "媽媽把一盤肉放在桌上。"
+    },
+    {
+     "t": "11:57",
+     "nl": "Ze roept: \"Komen, het eten is klaar.\"",
+     "zh": "她喊道：「來吃飯了，飯好了。」"
+    },
+    {
+     "t": "12:11",
+     "nl": "De hond komt de kamer binnen.",
+     "zh": "狗走進房間。"
+    },
+    {
+     "t": "12:19",
+     "nl": "De hond ziet het vlees, de hond vindt het vlees lekker.",
+     "zh": "狗看見肉，狗覺得肉很好吃。"
+    },
+    {
+     "t": "12:34",
+     "nl": "De jongen komt de kamer binnen, hij ziet de hond met het vlees.",
+     "zh": "男孩走進房間，他看到狗拿著肉。"
+    },
+    {
+     "t": "12:50",
+     "nl": "De jongen rent naar zijn moeder.",
+     "zh": "男孩跑向他的媽媽。"
+    },
+    {
+     "t": "12:58",
+     "nl": "Hij zegt: \"Mama, de hond eet het vlees.\"",
+     "zh": "他說：「媽媽，狗正在吃肉。」"
+    },
+    {
+     "t": "13:11",
+     "nl": "Zijn moeder roept: \"Wat? De hond eet het vlees?\"",
+     "zh": "他的媽媽喊道：「什麼？狗在吃肉？」「"
+    },
+    {
+     "t": "13:22",
+     "nl": "Kom, mama!",
+     "zh": "來，媽媽！"
+    },
+    {
+     "t": "13:38",
+     "nl": "Het vlees is weg.",
+     "zh": "肉沒了。"
+    },
+    {
+     "t": "13:42",
+     "nl": "Een kat rent de kamer in.",
+     "zh": "一隻貓跑進房間。"
+    },
+    {
+     "t": "13:51",
+     "nl": "2",
+     "zh": ""
+    },
+    {
+     "t": "13:53",
+     "nl": "De kat springt op de tafel.",
+     "zh": "貓跳到桌子上。"
+    },
+    {
+     "t": "14:02",
+     "nl": "3",
+     "zh": ""
+    },
+    {
+     "t": "14:08",
+     "nl": "Dit zijn vissen, ze zwemmen in een vissenkom.",
+     "zh": "這些是魚，它們游在魚缸裡。"
+    },
+    {
+     "t": "14:16",
+     "nl": "De kat pakt een vis.",
+     "zh": "貓抓了一條魚。"
+    },
+    {
+     "t": "14:30",
+     "nl": "De kat eet de vis op.",
+     "zh": "貓把魚吃掉了。"
+    },
+    {
+     "t": "14:36",
+     "nl": "De kat kijkt naar de vogel, de kat vindt de vogel lekker.",
+     "zh": "貓看著鳥，貓覺得鳥很好吃。"
+    },
+    {
+     "t": "14:52",
+     "nl": "De hond wil het vlees, de hond vindt het vlees lekker.",
+     "zh": "狗想要肉，狗覺得肉很好吃。"
+    },
+    {
+     "t": "15:05",
+     "nl": "De kat eet een vis, de kat vindt de vis lekker.",
+     "zh": "貓吃一條魚，貓覺得魚很好吃。"
+    },
+    {
+     "t": "15:17",
+     "nl": "De man rookt, de man vindt roken lekker.",
+     "zh": "男人在抽菸，男人覺得抽菸很舒服。"
+    },
+    {
+     "t": "15:27",
+     "nl": "De vrouw vindt sigaretten vies, ik ook.",
+     "zh": "女人覺得香菸很噁心，我也是。"
+    },
+    {
+     "t": "15:42",
+     "nl": "De man zegt: \"Ik heb honger, ik wil wat eten.\"",
+     "zh": "男人說：「我餓了，我想吃點東西。」"
+    },
+    {
+     "t": "15:54",
+     "nl": "De vrouw zegt: \"Ik ook, ik heb ook honger, ik wil een tosti.\"",
+     "zh": "女人說：「我也是，我也餓了，我想要一個烤吐司。」"
+    },
+    {
+     "t": "16:05",
+     "nl": "Ik heb ook honger, ik wil een tosti.",
+     "zh": "我也餓了，我想要一個烤吐司。"
+    },
+    {
+     "t": "16:10",
+     "nl": "De man zegt: \"Kom, we gaan naar het cafetaria.\"",
+     "zh": "男人說：「來，我們去自助餐廳。」"
+    },
+    {
+     "t": "16:20",
+     "nl": "We lopen naar het cafetaria, we lopen naar het cafetaria.",
+     "zh": "我們走向自助餐廳，我們走向自助餐廳。"
+    },
+    {
+     "t": "16:25",
+     "nl": "Ze gaan zitten, ze gaan zitten.",
+     "zh": "他們坐下，他們坐下。"
+    },
+    {
+     "t": "16:34",
+     "nl": "De man zegt: \"Kan ik u helpen?\"",
+     "zh": "男人說：「我可以幫您嗎？」"
+    },
+    {
+     "t": "16:49",
+     "nl": "De man zegt: \"Ja, mijn vrouw wil een tosti, en ik ook.\"",
+     "zh": "男人說：「是的，我妻子想要一份烤吐司，我也想要。」"
+    },
+    {
+     "t": "16:55",
+     "nl": "De man zegt: \"Ik wil graag twee tosti's.\"",
+     "zh": "男人說：「我想要兩份烤吐司。」"
+    },
+    {
+     "t": "17:14",
+     "nl": "23. De man zegt, ik wil graag twee tosti's.",
+     "zh": ""
+    },
+    {
+     "t": "17:20",
+     "nl": "24. De serveerster schrijft twee tosti's.",
+     "zh": "24. 女服務生寫下兩份熱壓吐司。"
+    },
+    {
+     "t": "17:31",
+     "nl": "25. De serveerster vraagt: wat wilt u drinken?",
+     "zh": "25. 女服務生問：您想喝什麼？"
+    },
+    {
+     "t": "17:47",
+     "nl": "26. De man zegt: ik wil graag twee koffie.",
+     "zh": "26. 男子說：我想要兩杯咖啡。"
+    },
+    {
+     "t": "17:53",
+     "nl": "27. De serveerster brengt het eten. Ze zet het eten op tafel.",
+     "zh": "27. 女服務生端來食物。她將食物放在桌上。"
+    },
+    {
+     "t": "17:58",
+     "nl": "28. Ze zegt: Eetsmakelijk.",
+     "zh": "28. 她說：請慢用。"
+    },
+    {
+     "t": "18:04",
+     "nl": "28. De serveerster brengt het eten. Ze zet het op tafel. Ze zegt: Eetsmakelijk.",
+     "zh": "28. 女服務生端來食物。她將食物放在桌上。她說：請慢用。"
+    },
+    {
+     "t": "18:11",
+     "nl": "29. De man en de vrouw eten. Ze hebben honger.",
+     "zh": "29. 男子和女子在吃飯。他們肚子很餓。"
+    },
+    {
+     "t": "18:17",
+     "nl": "30. De man en de vrouw eten. Ze hebben honger.",
+     "zh": "30. 男子和女子在吃飯。他們肚子很餓。"
+    },
+    {
+     "t": "18:25",
+     "nl": "31. De man roept: mag ik nog een kopje koffie?",
+     "zh": "31. 男子喊道：我可以再要一杯咖啡嗎？"
+    },
+    {
+     "t": "18:31",
+     "nl": "32. De man roept: mag ik nog een kopje koffie?",
+     "zh": "32. 男子喊道：我可以再要一杯咖啡嗎？"
+    },
+    {
+     "t": "18:37",
+     "nl": "33. De serveerster geeft de man nog een tweede kopje koffie.",
+     "zh": "33. 女服務生給男子第二杯咖啡。"
+    },
+    {
+     "t": "18:45",
+     "nl": "34. De serveerster geeft de man nog een tweede kopje koffie.",
+     "zh": "34. 女服務生給男子第二杯咖啡。"
+    },
+    {
+     "t": "18:58",
+     "nl": "En ze geeft de vrouw ook nog een tweede kopje koffie.",
+     "zh": "她也給女子第二杯咖啡。"
+    },
+    {
+     "t": "19:08",
+     "nl": "35. De serveerster brengt de rekening.",
+     "zh": "35. 女服務生拿來帳單。"
+    },
+    {
+     "t": "19:19",
+     "nl": "36. De man pakt de rekening.",
+     "zh": "36. 男子拿帳單。"
+    },
+    {
+     "t": "19:28",
+     "nl": "39. De man betaalt.",
+     "zh": "39. 男子付款。"
+    },
+    {
+     "t": "19:42",
+     "nl": "40. Ze lopen naar buiten.",
+     "zh": "40. 他們走到外面去。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "eten",
+     "zh": "吃"
+    },
+    {
+     "nl": "lekker",
+     "zh": "好吃"
+    },
+    {
+     "nl": "niet",
+     "zh": "不"
+    },
+    {
+     "nl": "bestellen",
+     "zh": "點餐"
+    },
+    {
+     "nl": "ober",
+     "zh": "服務生"
+    },
+    {
+     "nl": "tafel",
+     "zh": "桌子"
+    },
+    {
+     "nl": "koffie",
+     "zh": "咖啡"
+    },
+    {
+     "nl": "brood",
+     "zh": "麵包"
+    },
+    {
+     "nl": "biefstuk",
+     "zh": "牛排"
+    },
+    {
+     "nl": "patat",
+     "zh": "薯條"
+    },
+    {
+     "nl": "water",
+     "zh": "水"
+    },
+    {
+     "nl": "hond",
+     "zh": "狗"
+    },
+    {
+     "nl": "kat",
+     "zh": "貓"
+    },
+    {
+     "nl": "vis",
+     "zh": "魚"
+    },
+    {
+     "nl": "rekening",
+     "zh": "帳單"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik wil graag [iets].",
+     "zh": "我想要[某物]。",
+     "note": "表達想要某物的句型"
+    },
+    {
+     "nl": "Mag ik [iets]?",
+     "zh": "我可以要[某物]嗎？",
+     "note": "詢問是否可以要某物"
+    },
+    {
+     "nl": "Dit is een [voorwerp].",
+     "zh": "這是一個[物品]。",
+     "note": "描述物品的句型"
+    },
+    {
+     "nl": "Hij/zij vindt [iets] [bijvoeglijk naamwoord].",
+     "zh": "他/她覺得[某物]是[形容詞]的。",
+     "note": "表達對某物的感受"
+    },
+    {
+     "nl": "De ober brengt [iets].",
+     "zh": "服務生帶來[某物]。",
+     "note": "描述服務生的動作"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

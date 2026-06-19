@@ -1,0 +1,161 @@
+{
+ "video_id": "yQLIwMeSE5c",
+ "title": "Exercise listening exam Level A2",
+ "channel": "Inburgeren examen A2",
+ "duration": 215,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "尋找水管工",
+   "title_nl": "Exercise listening exam Level A2",
+   "kind": "對話",
+   "context_zh": "阿爾諾德打電話給朋友詢問水管工的事，因為他母親的地板淹水了。",
+   "start": "0:07",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:07",
+     "nl": "Met Koos Galjoen. Hoi, met Arnaud. Ik wou je wat vragen.",
+     "zh": "我是 Koos Galjoen。嗨，我是 Arnaud。我想問你一個問題。"
+    },
+    {
+     "t": "0:11",
+     "nl": "Weet jij misschien een loodgieter? Mijn moeder, haar hele vloer staat onder water.",
+     "zh": "你知道管水電工嗎？我媽媽的整個地板都淹水了。"
+    },
+    {
+     "t": "0:15",
+     "nl": "Hoe komt dat? De wc is kapot. Wat vreselijk. Nee, ik ken geen loodgieter.",
+     "zh": "怎麼會這樣？馬桶壞了。真可怕。不，我不認識水電工。"
+    },
+    {
+     "t": "0:21",
+     "nl": "Maar je kunt het beste in de Gouden Gids kijken. Daar staan ze allemaal in.",
+     "zh": "但你最好看看《黃頁》，那裡都有列出他們。"
+    },
+    {
+     "t": "0:24",
+     "nl": "Oh ja, daar had ik niet aan gedacht. Wat een goed idee. Ik ga gauw kijken.",
+     "zh": "哦對，我沒想到這個主意。真是個好主意。我馬上去看看。"
+    },
+    {
+     "t": "0:28",
+     "nl": "Bedankt. Oh, ik heb een vraag voor jou. Denk je dat ze gauw komen? Nou, ik ben bang van niet.",
+     "zh": "謝謝。哦，我有個問題想問你。你覺得他們會很快來嗎？嗯，我怕不會。"
+    },
+    {
+     "t": "0:33",
+     "nl": "Meestal laten ze hier lang wachten. Nou, dat hoop ik niet, want het stinkt vreselijk hier.",
+     "zh": "他們通常會讓人等很久。嗯，我不希望這樣，這裡真的很臭。"
+    },
+    {
+     "t": "0:38",
+     "nl": "Nou, sterk daarmee. De groet aan je moeder. Bedankt, dag.",
+     "zh": "那就加油吧。向你媽媽問好。謝謝，再見。"
+    },
+    {
+     "t": "1:55",
+     "nl": "Bedankt. Oh, denk je dat ze gauw komen? Nou, ik ben bang van niet.",
+     "zh": "謝謝。哦，你覺得他們會很快來嗎？嗯，我怕不會。"
+    },
+    {
+     "t": "3:00",
+     "nl": "Hoi, met Arnaud. Ik wou je wat vragen.",
+     "zh": "嗨，我是 Arnaud。我想問你一個問題。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "loodgieter",
+     "zh": "水管工"
+    },
+    {
+     "nl": "vloer",
+     "zh": "地板"
+    },
+    {
+     "nl": "onder water",
+     "zh": "淹水"
+    },
+    {
+     "nl": "wc",
+     "zh": "廁所"
+    },
+    {
+     "nl": "kapot",
+     "zh": "壞掉"
+    },
+    {
+     "nl": "vreselijk",
+     "zh": "可怕"
+    },
+    {
+     "nl": "Gouden Gids",
+     "zh": "黃頁"
+    },
+    {
+     "nl": "idee",
+     "zh": "主意"
+    },
+    {
+     "nl": "komen",
+     "zh": "來"
+    },
+    {
+     "nl": "wachten",
+     "zh": "等待"
+    },
+    {
+     "nl": "stinkt",
+     "zh": "臭"
+    },
+    {
+     "nl": "groet",
+     "zh": "問候"
+    },
+    {
+     "nl": "dag",
+     "zh": "再見"
+    },
+    {
+     "nl": "vragen",
+     "zh": "問題"
+    },
+    {
+     "nl": "denken",
+     "zh": "想"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik wou je wat vragen.",
+     "zh": "我想問你一些問題。",
+     "note": "表達詢問的意圖"
+    },
+    {
+     "nl": "Weet jij misschien een ...?",
+     "zh": "你知道有...嗎？",
+     "note": "詢問某人是否知道某事"
+    },
+    {
+     "nl": "Mijn moeder, haar hele vloer staat onder water.",
+     "zh": "我母親的整個地板淹水了。",
+     "note": "描述狀況"
+    },
+    {
+     "nl": "Denk je dat ze gauw komen?",
+     "zh": "你覺得他們會很快來嗎？",
+     "note": "詢問預期的時間"
+    },
+    {
+     "nl": "Nou, ik ben bang van niet.",
+     "zh": "我怕不會。",
+     "note": "表達擔憂或不確定"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

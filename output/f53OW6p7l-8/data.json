@@ -1,0 +1,860 @@
+{
+  "video_id": "f53OW6p7l-8",
+  "video_info": {
+    "title": "listening exam A2 practice 2021",
+    "channel": "Inburgeren examen A2",
+    "duration": 1002
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Huisarts.",
+        "translation": "家庭醫生。",
+        "start": 6.08,
+        "end": 6.9
+      },
+      {
+        "text": "Ben je ziek? Ga naar je huisarts. Een huisarts is een dokter bij jou in de buurt.",
+        "translation": "你生病了嗎？去找你的家庭醫生。家庭醫生是你附近的醫生。",
+        "start": 9.1,
+        "end": 16.0
+      },
+      {
+        "text": "De huisarts helpt jou als je ziek bent.",
+        "translation": "家庭醫生會在你生病時幫助你。",
+        "start": 18.38,
+        "end": 21.12
+      },
+      {
+        "text": "Bel je huisarts om een afspraak te maken.",
+        "translation": "打電話給你的家庭醫生預約時間。",
+        "start": 22.92,
+        "end": 25.52
+      },
+      {
+        "text": "Doktersassistent. Als je de huisarts belt,",
+        "translation": "醫生助理。如果你打電話給家庭醫生，",
+        "start": 30.2,
+        "end": 32.46
+      },
+      {
+        "text": "spreek je eerst met de doktersassistent.",
+        "translation": "你會先和醫生助理通話。",
+        "start": 33.64,
+        "end": 36.36
+      },
+      {
+        "text": "De doktersassistent stelt vragen over je probleem.",
+        "translation": "醫生助理會詢問你的問題。",
+        "start": 38.1,
+        "end": 42.32
+      },
+      {
+        "text": "Zij maakt dan een afspraak met jou.",
+        "translation": "然後她會幫你安排預約。",
+        "start": 43.44,
+        "end": 45.52
+      },
+      {
+        "text": "Huisartsenpost.",
+        "translation": "家庭醫生急診中心。",
+        "start": 49.94,
+        "end": 51.34
+      },
+      {
+        "text": "Bij de huisartsenpost werken dokters voor de avonden, nachten, weekenden en op feestdagen.",
+        "translation": "家庭醫生急診中心的醫生會在晚上、夜間、週末及假日值班。",
+        "start": 54.3,
+        "end": 62.48
+      },
+      {
+        "text": "Vraag aan je huisarts het telefoonnummer van de huisartsenpost.",
+        "translation": "向你的家庭醫生索取家庭醫生急診中心的電話號碼。",
+        "start": 63.88,
+        "end": 68.82
+      },
+      {
+        "text": "Verwijsbrief voor ziekenhuis.",
+        "translation": "轉診單給醫院。",
+        "start": 73.18,
+        "end": 75.92
+      },
+      {
+        "text": "Soms geeft de huisarts jou een brief mee voor een speciale dokter in het ziekenhuis.",
+        "translation": "有時家庭醫生會給你一張轉診單，讓你去醫院看專科醫生。",
+        "start": 80.06,
+        "end": 87.02
+      },
+      {
+        "text": "Dat heet een verwijsbrief.",
+        "translation": "這叫做轉診單。",
+        "start": 87.02,
+        "end": 90.24
+      },
+      {
+        "text": "De speciale dokter noemen wij specialist. Zonder verwijsbrief kan je niet naar de specialist.",
+        "translation": "專科醫生我們稱為專科醫師。沒有轉診單就不能去看專科醫師。",
+        "start": 92.92,
+        "end": 102.44
+      },
+      {
+        "text": "Alarmbel 112.",
+        "translation": "報警電話 112。",
+        "start": 106.56,
+        "end": 108.8
+      },
+      {
+        "text": "Bel 112 als er groot gevaar is. Bijvoorbeeld er is brand of iemand heeft een zwaar ongeluk of mensen vechten en dreigen met wapens.",
+        "translation": "如果有重大危險，請打 112。例如發生火災、有人重大事故或有人打架並持有武器。",
+        "start": 110.14,
+        "end": 124.72
+      },
+      {
+        "text": "Is er geen levensgevaar,",
+        "translation": "如果沒有生命危險，",
+        "start": 125.72,
+        "end": 128.82
+      },
+      {
+        "text": "bel dan de politie op nummer 0900 8844.",
+        "translation": "請撥打警方電話 0900 8844。",
+        "start": 129.76,
+        "end": 138.4
+      },
+      {
+        "text": "Medicijnen.",
+        "translation": "藥物。",
+        "start": 148.58,
+        "end": 149.98
+      },
+      {
+        "text": "De huisarts geeft je medicijnen. Soms geeft de huisarts geen medicijnen.",
+        "translation": "家庭醫生會給你藥物。有時家庭醫生不會給藥。",
+        "start": 152.3,
+        "end": 159.44
+      },
+      {
+        "text": "Voor griep en verkoudheid zijn er geen goede medicijnen.",
+        "translation": "感冒和流感沒有好的藥物。",
+        "start": 160.44,
+        "end": 166.48
+      },
+      {
+        "text": "Paracetamol kan helpen.",
+        "translation": "對乙醯氨基酚可能有幫助。",
+        "start": 168.28,
+        "end": 171.0
+      },
+      {
+        "text": "Apotheek. Heb je een recept van de huisarts? Op het recept staan de medicijnen die je nodig hebt.",
+        "translation": "藥局。如果你有家庭醫生的處方，處方上會有你需要的藥物。",
+        "start": 175.82,
+        "end": 184.34
+      },
+      {
+        "text": "Met het recept ga je naar de apotheek. De apotheek geeft jou de medicijnen. Drogist",
+        "translation": "憑處方到藥局領藥。藥局會給你藥物。藥妝店",
+        "start": 186.34,
+        "end": 198.94
+      },
+      {
+        "text": "Je kunt ook medicijnen bij de drogist kopen. Maar met een recept van de huisarts moet je altijd naar de apotheek.",
+        "translation": "你也可以在藥妝店買藥。但有處方的話一定要去藥局。",
+        "start": 200.68,
+        "end": 211.08
+      },
+      {
+        "text": "Tandarts. De tandarts zorgt voor je tanden en kiezen.",
+        "translation": "牙醫。牙醫會照顧你的牙齒和臼齒。",
+        "start": 216.08,
+        "end": 221.52
+      },
+      {
+        "text": "Tanden en kiezen samen heten het gebit. Een gezond gebit is belangrijk. Poets daarom elke dag je tanden.",
+        "translation": "牙齒和臼齒合稱牙齒。健康的牙齒很重要。因此每天都要刷牙。",
+        "start": 223.92,
+        "end": 236.42
+      },
+      {
+        "text": "Zorgverzekering. In Nederland heeft iedereen een zorgverzekering.",
+        "translation": "健康保險。在荷蘭每個人都有健康保險。",
+        "start": 240.92,
+        "end": 247.82
+      },
+      {
+        "text": "Je betaalt iedere maand een bedrag voor de zorgverzekering. Dat bedrag heet premie.",
+        "translation": "你每月會付一筆保費給健康保險，這筆錢叫做保險費。",
+        "start": 250.64,
+        "end": 258.14
+      },
+      {
+        "text": "Gezicht. Het haar, het oor, het oog, de mond, de neus.",
+        "translation": "臉部。頭髮、耳朵、眼睛、嘴巴、鼻子。",
+        "start": 271.2,
+        "end": 286.02
+      },
+      {
+        "text": "Lichaam voorkant. Het hoofd, de nek, de borst, de buik.",
+        "translation": "身體正面。頭、脖子、胸部、腹部。",
+        "start": 293.12,
+        "end": 305.34
+      },
+      {
+        "text": "De heup, het been, de knie.",
+        "translation": "臀部、腿、膝蓋。",
+        "start": 308.78,
+        "end": 316.0
+      },
+      {
+        "text": "De voet.",
+        "translation": "腳。",
+        "start": 318.64,
+        "end": 321.44
+      },
+      {
+        "text": "Lichaam achterkant. De rug, de billen, het achterhoofd, de schouder.",
+        "translation": "身體背面。背、臀部、後腦勺、肩膀。",
+        "start": 328.88,
+        "end": 343.36
+      },
+      {
+        "text": "De arm.",
+        "translation": "手臂。",
+        "start": 345.46,
+        "end": 347.3
+      },
+      {
+        "text": "De elleboog, de pols, de hand.",
+        "translation": "手肘、手腕、手。",
+        "start": 349.54,
+        "end": 357.06
+      },
+      {
+        "text": "Ademen.",
+        "translation": "呼吸。",
+        "start": 363.7,
+        "end": 365.1
+      },
+      {
+        "text": "De luchtpijp, de neus, de keel, de longen.",
+        "translation": "氣管、鼻子、喉嚨、肺。",
+        "start": 367.58,
+        "end": 377.08
+      },
+      {
+        "text": "Eten. De lever, de alvleesklier, de maag, de dikke darm.",
+        "translation": "消化器官。肝臟、胰臟、胃、大腸。",
+        "start": 386.44,
+        "end": 400.38
+      },
+      {
+        "text": "De dunne darm.",
+        "translation": "小腸。",
+        "start": 403.08,
+        "end": 404.12
+      },
+      {
+        "text": "Hart en bloedvaten.",
+        "translation": "心臟與血管。",
+        "start": 413.7,
+        "end": 416.26
+      },
+      {
+        "text": "Het hart, de bloedvaten.",
+        "translation": "心臟、血管。",
+        "start": 420.16,
+        "end": 423.4
+      },
+      {
+        "text": "Bewegen. Veel bewegen is gezond. Bewegen geeft energie. Het is goed om elke dag een half uur te bewegen, zoals lopen,",
+        "translation": "運動。多運動有益健康。運動能提供能量。每天運動半小時很好，比如走路，",
+        "start": 436.46,
+        "end": 455.48
+      },
+      {
+        "text": "voetballen en fietsen.",
+        "translation": "踢足球和騎腳踏車。",
+        "start": 458.32,
+        "end": 461.52
+      },
+      {
+        "text": "Water drinken. Water is goed voor je lichaam. Je hebt misschien niet zoveel dorst,",
+        "translation": "喝水。水對你的身體有益。你可能不太口渴，",
+        "start": 465.76,
+        "end": 476.08
+      },
+      {
+        "text": "Toch is het goed om water te drinken. Drink elke dag zes glazen water.",
+        "translation": "但是喝水是好的。每天喝六杯水。",
+        "start": 479.2,
+        "end": 486.98
+      },
+      {
+        "text": "Vet is ongezond. Veel vet eten is ongezond. Bijvoorbeeld patat is heel vet.",
+        "translation": "脂肪是不健康的。吃太多脂肪是不健康的。比如薯條含脂肪很多。",
+        "start": 489.92,
+        "end": 500.9
+      },
+      {
+        "text": "Patat met mayonaise is nog veel vetter.",
+        "translation": "薯條加美乃滋更油脂。",
+        "start": 502.72,
+        "end": 506.36
+      },
+      {
+        "text": "Vetten in vis.",
+        "translation": "魚類中的脂肪。",
+        "start": 506.36,
+        "end": 510.14
+      },
+      {
+        "text": "Olijfolie en noten zijn wel gezond.",
+        "translation": "橄欖油和堅果是健康的。",
+        "start": 511.1,
+        "end": 515.44
+      },
+      {
+        "text": "Suiker.",
+        "translation": "糖。",
+        "start": 519.56,
+        "end": 520.62
+      },
+      {
+        "text": "Pas op met suiker. Suiker is ongezond.",
+        "translation": "小心糖。糖是不健康的。",
+        "start": 522.2,
+        "end": 527.42
+      },
+      {
+        "text": "Suiker is heel slecht voor je gebit. Van suiker word je dik. In drinken zit vaak veel suiker.",
+        "translation": "糖對你的牙齒非常有害。吃糖會變胖。飲料裡通常含有很多糖。",
+        "start": 530.2,
+        "end": 542.86
+      },
+      {
+        "text": "Drink daarom liever water zonder suiker.",
+        "translation": "因此最好喝不加糖的水。",
+        "start": 545.6,
+        "end": 549.32
+      },
+      {
+        "text": "Gezond eten. Gezond eten is belangrijk. Eet veel groenten zoals aardappelen, knoflook, persiebonen, courgette.",
+        "translation": "健康飲食。健康飲食很重要。多吃蔬菜，如馬鈴薯、大蒜、甜豆、節瓜。",
+        "start": 558.5,
+        "end": 579.68
+      },
+      {
+        "text": "Radijs.",
+        "translation": "小蘿蔔。",
+        "start": 581.18,
+        "end": 582.58
+      },
+      {
+        "text": "Paprika, prei, tomaten, wortels, groene peper.",
+        "translation": "甜椒、韭蔥、番茄、胡蘿蔔、青辣椒。",
+        "start": 585.66,
+        "end": 595.78
+      },
+      {
+        "text": "Groene kool.",
+        "translation": "青高麗菜。",
+        "start": 604.2,
+        "end": 608.56
+      },
+      {
+        "text": "Uien, broccoli.",
+        "translation": "洋蔥、西蘭花。",
+        "start": 610.94,
+        "end": 615.92
+      },
+      {
+        "text": "Aubergine, pompoen.",
+        "translation": "茄子、南瓜。",
+        "start": 617.3,
+        "end": 621.22
+      },
+      {
+        "text": "Komkommer, puntpaprika.",
+        "translation": "小黃瓜、甜椒。",
+        "start": 622.76,
+        "end": 628.44
+      },
+      {
+        "text": "Chinese kool, rode uien.",
+        "translation": "白菜、紅洋蔥。",
+        "start": 631.54,
+        "end": 631.98
+      },
+      {
+        "text": "Gember.",
+        "translation": "薑。",
+        "start": 634.98,
+        "end": 638.22
+      },
+      {
+        "text": "Eet elke dag fruit, zoals",
+        "translation": "每天吃水果，例如：",
+        "start": 639.98,
+        "end": 643.38
+      },
+      {
+        "text": "Citroen, druiven.",
+        "translation": "檸檬、葡萄。",
+        "start": 645.98,
+        "end": 650.46
+      },
+      {
+        "text": "Aardbeien, pinda's.",
+        "translation": "草莓、花生。",
+        "start": 652.08,
+        "end": 656.22
+      },
+      {
+        "text": "Appel, pruim.",
+        "translation": "蘋果、李子。",
+        "start": 658.3,
+        "end": 662.64
+      },
+      {
+        "text": "Noten, peer.",
+        "translation": "堅果、梨。",
+        "start": 664.22,
+        "end": 668.22
+      },
+      {
+        "text": "Mandarijn, banaan.",
+        "translation": "橘子、香蕉。",
+        "start": 672.48,
+        "end": 676.22
+      },
+      {
+        "text": "Kiwi, meloen.",
+        "translation": "奇異果、哈密瓜。",
+        "start": 679.3,
+        "end": 682.42
+      },
+      {
+        "text": "Kersen, bosbessen.",
+        "translation": "櫻桃、藍莓。",
+        "start": 683.18,
+        "end": 688.48
+      },
+      {
+        "text": "Appel, frambozen.",
+        "translation": "蘋果、覆盆子。",
+        "start": 691.4,
+        "end": 695.54
+      },
+      {
+        "text": "Abrikoos, pitten.",
+        "translation": "杏子、籽。",
+        "start": 697.68,
+        "end": 698.22
+      },
+      {
+        "text": "Sinaasappel.",
+        "translation": "柳橙。",
+        "start": 702.66,
+        "end": 707.5
+      },
+      {
+        "text": "Vijg. Eet minder vlees.",
+        "translation": "無花果。少吃肉。",
+        "start": 709.2,
+        "end": 713.84
+      },
+      {
+        "text": "Eet voedsel van granen, die niet helemaal fijn gemaakt zijn.",
+        "translation": "吃沒有完全精製的穀物食物。",
+        "start": 713.84,
+        "end": 716.72
+      },
+      {
+        "text": "Dat heet volkoren.",
+        "translation": "這叫全穀類。",
+        "start": 719.86,
+        "end": 725.72
+      },
+      {
+        "text": "De schijf van vijf laat zien wat je lichaam nodig heeft.",
+        "translation": "五大類飲食建議顯示你的身體所需。",
+        "start": 728.0,
+        "end": 729.54
+      },
+      {
+        "text": "Groente en fruit.",
+        "translation": "蔬菜和水果。",
+        "start": 731.32,
+        "end": 734.98
+      },
+      {
+        "text": "Smeer- en bereidingsvetten.",
+        "translation": "抹塗和烹飪用油脂。",
+        "start": 736.62,
+        "end": 741.08
+      },
+      {
+        "text": "Vis, pulse, vlees.",
+        "translation": "魚、豆類、肉。",
+        "start": 742.3,
+        "end": 745.36
+      },
+      {
+        "text": "Ei, zuivel en noten.",
+        "translation": "蛋、乳製品和堅果。",
+        "start": 747.42,
+        "end": 751.98
+      },
+      {
+        "text": "Brood, graanproducten en aardappel.",
+        "translation": "麵包、穀物製品和馬鈴薯。",
+        "start": 755.8,
+        "end": 757.2
+      },
+      {
+        "text": "Dranken.",
+        "translation": "飲料。",
+        "start": 769.26,
+        "end": 774.6
+      },
+      {
+        "text": "Stress. Stress betekent spanning.",
+        "translation": "壓力。壓力意味著緊張。",
+        "start": 775.78,
+        "end": 778.94
+      },
+      {
+        "text": "Van veel spanning krijg je problemen.",
+        "translation": "過多的緊張會引起問題。",
+        "start": 780.92,
+        "end": 784.86
+      },
+      {
+        "text": "Bijvoorbeeld slecht slapen of hoofdpijn.",
+        "translation": "例如睡不好或頭痛。",
+        "start": 791.04,
+        "end": 792.72
+      },
+      {
+        "text": "Omgaan met stress.",
+        "translation": "面對壓力。",
+        "start": 794.54,
+        "end": 799.12
+      },
+      {
+        "text": "Het is goed om iets te doen als je stress hebt.",
+        "translation": "有壓力時做點什麼很好。",
+        "start": 800.72,
+        "end": 802.72
+      },
+      {
+        "text": "Bijvoorbeeld sporten.",
+        "translation": "例如運動。",
+        "start": 803.82,
+        "end": 807.4
+      },
+      {
+        "text": "Op tijd naar bed gaan en op tijd uit bed komen.",
+        "translation": "準時睡覺和起床。",
+        "start": 808.6,
+        "end": 809.72
+      },
+      {
+        "text": "Naar de markt gaan.",
+        "translation": "去市場。",
+        "start": 811.94,
+        "end": 815.04
+      },
+      {
+        "text": "Muziek maken, kleding maken.",
+        "translation": "做音樂，做衣服。",
+        "start": 816.68,
+        "end": 818.72
+      },
+      {
+        "text": "Koken, fiets.",
+        "translation": "煮飯、騎腳踏車。",
+        "start": 820.68,
+        "end": 824.6
+      },
+      {
+        "text": "Door het park wandelen.",
+        "translation": "在公園散步。",
+        "start": 826.02,
+        "end": 829.04
+      },
+      {
+        "text": "Mijn hoofd zit vol.",
+        "translation": "我腦袋好滿。",
+        "start": 830.54,
+        "end": 836.32
+      },
+      {
+        "text": "Heb je heel veel stress? Kan je niet stoppen met denken?",
+        "translation": "你壓力很大嗎？停不下來思考嗎？",
+        "start": 838.58,
+        "end": 840.28
+      },
+      {
+        "text": "Lig je ’s nachts veel wakker?",
+        "translation": "你晚上常常睡不著嗎？",
+        "start": 843.68,
+        "end": 845.28
+      },
+      {
+        "text": "Praat met anderen.",
+        "translation": "和別人談談。",
+        "start": 846.28,
+        "end": 852.5
+      },
+      {
+        "text": "Praat met familie, vrienden of met de huisarts.",
+        "translation": "與家人、朋友或家庭醫師談話。",
+        "start": 854.2,
+        "end": 858.58
+      },
+      {
+        "text": "Roken, alcohol en drugs.",
+        "translation": "抽菸、喝酒和毒品。",
+        "start": 861.96,
+        "end": 866.6
+      },
+      {
+        "text": "Alcohol.",
+        "translation": "酒精。",
+        "start": 868.3,
+        "end": 869.7
+      },
+      {
+        "text": "Wiet, drugs en sigaretten zijn ...",
+        "translation": "大麻、毒品和香菸是……",
+        "start": 871.2,
+        "end": 876.58
+      },
+      {
+        "text": "Doe voorzichtig. Ook kost het veel geld.",
+        "translation": "請小心，也很花錢。",
+        "start": 878.02,
+        "end": 882.74
+      },
+      {
+        "text": "Je hebt dan geen geld om te eten of voor je familie te zorgen.",
+        "translation": "那時你就沒有錢吃飯或照顧家人了。",
+        "start": 883.74,
+        "end": 889.7
+      },
+      {
+        "text": "Ben je zwanger? Leef gezond.",
+        "translation": "你懷孕了嗎？健康生活。",
+        "start": 902.58,
+        "end": 906.04
+      },
+      {
+        "text": "Beweeg, maar neem ook rust.",
+        "translation": "運動，但也要休息。",
+        "start": 908.52,
+        "end": 910.66
+      },
+      {
+        "text": "Ga naar een verloskundige bij jou in de buurt.",
+        "translation": "找你附近的助產士。",
+        "start": 911.66,
+        "end": 916.26
+      },
+      {
+        "text": "De verloskundige kijkt of alles goed gaat.",
+        "translation": "助產士會檢查一切是否順利。",
+        "start": 917.32,
+        "end": 920.5
+      },
+      {
+        "text": "Het consultatiebureau is voor ouders met kinderen jonger dan vijf jaar.",
+        "translation": "育兒諮詢中心是給有五歲以下小孩的父母。",
+        "start": 928.3,
+        "end": 935.54
+      },
+      {
+        "text": "Bij het consultatiebureau kan je dingen vragen over je kind.",
+        "translation": "在諮詢中心可以問關於孩子的事情。",
+        "start": 936.54,
+        "end": 941.48
+      },
+      {
+        "text": "Bijvoorbeeld over eten, drinken, slapen en lopen.",
+        "translation": "例如關於吃飯、喝水、睡覺和走路。",
+        "start": 942.68,
+        "end": 947.72
+      },
+      {
+        "text": "Ze kijken of je kindje goed groeit.",
+        "translation": "他們會查看你的孩子是否健康成長。",
+        "start": 949.04,
+        "end": 951.62
+      },
+      {
+        "text": "Meisjes en jongens gaan in Nederland samen naar school.",
+        "translation": "在荷蘭，男孩和女孩一起上學。",
+        "start": 957.16,
+        "end": 961.76
+      },
+      {
+        "text": "Ze zitten samen in de klas.",
+        "translation": "他們坐在同一個教室。",
+        "start": 962.76,
+        "end": 965.9
+      },
+      {
+        "text": "Ze praten, spelen en sporten met elkaar.",
+        "translation": "他們一起聊天、玩耍和運動。",
+        "start": 967.22,
+        "end": 970.26
+      },
+      {
+        "text": "In Nederland is het gewoon dat jongens en meisjes vrienden",
+        "translation": "在荷蘭，男孩和女孩當朋友是很平常的事。",
+        "start": 972.16,
+        "end": 978.26
+      },
+      {
+        "text": "zijn. Relaties.",
+        "translation": "是。關係。",
+        "start": 978.26,
+        "end": 982.82
+      },
+      {
+        "text": "Trouwen kan als je 18 jaar bent.",
+        "translation": "你滿18歲就可以結婚。",
+        "start": 983.72,
+        "end": 987.44
+      },
+      {
+        "text": "In Nederland trouwen mannen ook met mannen.",
+        "translation": "在荷蘭，男人也能和男人結婚。",
+        "start": 989.36,
+        "end": 992.5
+      },
+      {
+        "text": "En vrouwen met vrouwen. Je mag je partner zelf kiezen.",
+        "translation": "女人也能和女人結婚。你可以自己選擇伴侶。",
+        "start": 993.82,
+        "end": 998.24
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat doe je eerst als je de huisarts wilt bereiken?",
+        "question_native": "想聯絡家庭醫生時，首先要做什麼？",
+        "options": [
+          "Spreken met de dokter",
+          "Spreken met de doktersassistent",
+          "Direct naar de apotheek gaan"
+        ],
+        "answer": "Spreken met de doktersassistent"
+      },
+      {
+        "question": "Wat moet je doen als er een groot gevaar is, bijvoorbeeld brand?",
+        "question_native": "如果發生重大危險，例如火災，你應該做什麼？",
+        "options": [
+          "Bel 0900 8844",
+          "Bel 112",
+          "Ga naar de dokter"
+        ],
+        "answer": "Bel 112"
+      },
+      {
+        "question": "Waar ga je met een recept van de huisarts naartoe?",
+        "question_native": "有家庭醫生的處方後，你會去哪裡？",
+        "options": [
+          "Drogist",
+          "Apotheek",
+          "Ziekenhuis"
+        ],
+        "answer": "Apotheek"
+      },
+      {
+        "question": "Wat is belangrijk voor een gezond gebit?",
+        "question_native": "什麼對健康牙齒很重要？",
+        "options": [
+          "Elke dag tanden poetsen",
+          "Alleen suiker eten",
+          "Nooit naar de tandarts gaan"
+        ],
+        "answer": "Elke dag tanden poetsen"
+      },
+      {
+        "question": "Wat is de premie in een zorgverzekering?",
+        "question_native": "健康保險中的『premie』是什麼？",
+        "options": [
+          "Bedrag dat je elke maand betaalt",
+          "Aantal doktersbezoeken",
+          "Medicijnen"
+        ],
+        "answer": "Bedrag dat je elke maand betaalt"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "Huisarts",
+        "meaning": "家庭醫生"
+      },
+      {
+        "word": "Doktersassistent",
+        "meaning": "醫生助理"
+      },
+      {
+        "word": "Verwijsbrief",
+        "meaning": "轉診單"
+      },
+      {
+        "word": "Specialist",
+        "meaning": "專科醫師"
+      },
+      {
+        "word": "Alarmbel 112",
+        "meaning": "緊急報警電話 112"
+      },
+      {
+        "word": "Medicijnen",
+        "meaning": "藥物"
+      },
+      {
+        "word": "Apotheek",
+        "meaning": "藥局"
+      },
+      {
+        "word": "Drogist",
+        "meaning": "藥妝店"
+      },
+      {
+        "word": "Tandarts",
+        "meaning": "牙醫"
+      },
+      {
+        "word": "Zorgverzekering",
+        "meaning": "健康保險"
+      },
+      {
+        "word": "Premie",
+        "meaning": "保險費"
+      },
+      {
+        "word": "Gezond gebit",
+        "meaning": "健康的牙齒"
+      },
+      {
+        "word": "Bewegen",
+        "meaning": "運動"
+      },
+      {
+        "word": "Vet",
+        "meaning": "脂肪"
+      },
+      {
+        "word": "Water drinken",
+        "meaning": "喝水"
+      }
+    ]
+  }
+}

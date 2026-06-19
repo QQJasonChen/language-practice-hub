@@ -1,0 +1,211 @@
+{
+ "video_id": "WqQRYFLxoDc",
+ "title": "Luisteren examen A2 Oefenen 8",
+ "channel": "Inburgeren examen A2",
+ "duration": 193,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "如何處理燒傷",
+   "title_nl": "Luisteren examen A2 Oefenen 8",
+   "kind": "對話",
+   "context_zh": "一群人在討論如何處理燒傷的情況",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Bekijk de video. Lees de vraag. Klik op het goede antwoord.",
+     "zh": "觀看影片。閱讀問題。點擊正確答案。"
+    },
+    {
+     "t": "0:17",
+     "nl": "Lekker warm. Oh, oh, oh.",
+     "zh": "暖呼呼的。喔，喔，喔。"
+    },
+    {
+     "t": "0:23",
+     "nl": "Laat maar eens kijken.",
+     "zh": "讓我看看。"
+    },
+    {
+     "t": "0:35",
+     "nl": "Oh, oh, oh.",
+     "zh": "喔，喔，喔。"
+    },
+    {
+     "t": "0:43",
+     "nl": "Bekijk de video. Lees de vraag.",
+     "zh": "觀看影片。閱讀問題。"
+    },
+    {
+     "t": "0:47",
+     "nl": "Klik op het goede antwoord. Maar wat kunnen we dan doen?",
+     "zh": "點擊正確答案。但是我們可以做什麼呢？"
+    },
+    {
+     "t": "0:53",
+     "nl": "Ja, ik weet het niet. Nee, niet doen.",
+     "zh": "是的，我不知道。不，不要做。"
+    },
+    {
+     "t": "0:57",
+     "nl": "Nee, nee, nee, niet die kleding van die brandwond aftrekken.",
+     "zh": "不，不，不要把那條燒傷上的衣服拉下來。"
+    },
+    {
+     "t": "1:02",
+     "nl": "Oh, ik weet wat: een naald.",
+     "zh": "喔，我知道了：一根針。"
+    },
+    {
+     "t": "1:10",
+     "nl": "Nee, je moet een brandblaar nooit doorprikken.",
+     "zh": "不，你絕對不能戳破燒水泡。"
+    },
+    {
+     "t": "1:13",
+     "nl": "Wat moeten we doen dan?",
+     "zh": "那我們該怎麼做？"
+    },
+    {
+     "t": "1:36",
+     "nl": "Oh, oh, oh. Stil maar, meisje.",
+     "zh": "喔，喔，喔。安靜點，女孩。"
+    },
+    {
+     "t": "1:39",
+     "nl": "Maar wat kunnen we dan doen? Oh, liefje.",
+     "zh": "但是我們該怎麼做？喔，親愛的。"
+    },
+    {
+     "t": "1:44",
+     "nl": "Water, de rest komt later. Oh, water. Kom maar.",
+     "zh": "用水，其他的稍後再說。喔，水。過來吧。"
+    },
+    {
+     "t": "1:51",
+     "nl": "Nee, niet koud. Ook een beetje warm erbij. Dat water moet lauw zijn.",
+     "zh": "不，可以不要冷的。也要加一些溫水。那水必須是溫的。"
+    },
+    {
+     "t": "1:55",
+     "nl": "Lauw water is beter. Nee, niet zo'n harde straal.",
+     "zh": "溫水比較好。不要用那麼強的水柱。"
+    },
+    {
+     "t": "1:59",
+     "nl": "Een zachte straal, dat is goed. Auw, mama, ik wil niet meer.",
+     "zh": "溫和的水柱，這樣很好。哎呀，媽媽，我不要再弄了。"
+    },
+    {
+     "t": "2:04",
+     "nl": "Ja. Auw, ik wil niet meer. Ja, maar je moet het tenminste 15 minuten onderhouden.",
+     "zh": "是的。哎呀，我不要再弄了。但你至少要持續15分鐘。"
+    },
+    {
+     "t": "2:10",
+     "nl": "Ja. Rustig.",
+     "zh": "是的。慢慢來。"
+    },
+    {
+     "t": "2:14",
+     "nl": "Zo. Ja, dat is het.",
+     "zh": "這樣。是的，就是這樣。"
+    },
+    {
+     "t": "2:52",
+     "nl": "Dat is het. Dat is het. Dat is het. Leuk. Vaf.",
+     "zh": "就是這樣，就是這樣，就是這樣。很好。好了。"
+    },
+    {
+     "t": "2:56",
+     "nl": "Niet zo'n harde straal. Een zachte straal, dat is goed.",
+     "zh": "不要那麼強的水柱。溫和的水柱，這樣很好。"
+    },
+    {
+     "t": "3:00",
+     "nl": "Au mama, ik wil niet meer. Au, ik wil niet meer.",
+     "zh": "哎唷，媽媽，我不要再弄了。哎唷，我不要再弄了。"
+    },
+    {
+     "t": "3:06",
+     "nl": "Ja, maar je moet het tenminste 15 minuten onderhouden. Rustig.",
+     "zh": "是的，但你至少要持續15分鐘。慢慢來。"
+    },
+    {
+     "t": "3:13",
+     "nl": "Zo.",
+     "zh": "這樣。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "brandwond",
+     "zh": "燒傷"
+    },
+    {
+     "nl": "naald",
+     "zh": "針"
+    },
+    {
+     "nl": "brandblaar",
+     "zh": "水泡"
+    },
+    {
+     "nl": "water",
+     "zh": "水"
+    },
+    {
+     "nl": "lauw",
+     "zh": "溫水"
+    },
+    {
+     "nl": "zacht",
+     "zh": "柔和的"
+    },
+    {
+     "nl": "harde straal",
+     "zh": "強烈的水流"
+    },
+    {
+     "nl": "onderhouden",
+     "zh": "維持"
+    },
+    {
+     "nl": "rustig",
+     "zh": "冷靜"
+    },
+    {
+     "nl": "15 minuten",
+     "zh": "15分鐘"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Wat moeten we doen?",
+     "zh": "我們該怎麼做？",
+     "note": "詢問建議的句型"
+    },
+    {
+     "nl": "Nee, niet doen.",
+     "zh": "不，不要這樣做。",
+     "note": "表達否定的句型"
+    },
+    {
+     "nl": "Dat is het.",
+     "zh": "就是這樣。",
+     "note": "確認的句型"
+    },
+    {
+     "nl": "Ja, maar je moet het tenminste 15 minuten onderhouden.",
+     "zh": "是的，但你至少要維持15分鐘。",
+     "note": "強調持續時間的句型"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

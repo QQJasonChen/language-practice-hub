@@ -1,0 +1,1367 @@
+{
+ "luister en klik op de goede zin.": {
+  "breakdown": [
+   [
+    "Luister",
+    "聽"
+   ],
+   [
+    "en",
+    "並"
+   ],
+   [
+    "klik op de goede zin",
+    "點擊正確的句子"
+   ]
+  ],
+  "order": "Luister(動詞#1) → en(連接詞) → klik(動詞#2) → op de goede zin(介詞片語)",
+  "grammar": "命令句，動詞放在句首。",
+  "listen": "注意 'klik' 和 'op' 的連音。"
+ },
+ "het gesprek.": {
+  "breakdown": [
+   [
+    "Het gesprek",
+    "對話"
+   ]
+  ],
+  "order": "Het(定冠詞) → gesprek(名詞)",
+  "grammar": "名詞短語，主詞在前。",
+  "listen": "注意 'Het' 的弱讀。"
+ },
+ "luister nu naar het hele gesprek van noerai en ronald.": {
+  "breakdown": [
+   [
+    "Luister nu",
+    "現在聽"
+   ],
+   [
+    "naar het hele gesprek",
+    "完整對話"
+   ]
+  ],
+  "order": "Luister(動詞#1) → nu(副詞) → naar(介詞) → het hele gesprek(名詞片語)",
+  "grammar": "命令句，動詞在前，副詞可放在動詞後。",
+  "listen": "注意 'naar' 的連音。"
+ },
+ "hallo, ik ben noerai toenk.": {
+  "breakdown": [
+   [
+    "Hallo",
+    "你好"
+   ],
+   [
+    "ik ben Noerai Toenk",
+    "我是 Noerai Toenk"
+   ]
+  ],
+  "order": "Hallo(問候) → ik(主詞) → ben(動詞) → Noerai Toenk(名詞)",
+  "grammar": "主詞+動詞+補語結構。",
+  "listen": "注意 'ik' 和 'ben' 的連音。"
+ },
+ "wie ben jij?": {
+  "breakdown": [
+   [
+    "Wie",
+    "誰"
+   ],
+   [
+    "ben jij",
+    "是你"
+   ]
+  ],
+  "order": "Wie(疑問詞) → ben(動詞) → jij(主詞)",
+  "grammar": "疑問句，動詞在主詞前。",
+  "listen": "注意 'ben' 的弱讀。"
+ },
+ "dag, ik ben ronald van meer.": {
+  "breakdown": [
+   [
+    "Dag",
+    "你好"
+   ],
+   [
+    "ik ben Ronald van Meer",
+    "我是 Ronald van Meer"
+   ]
+  ],
+  "order": "Dag(問候) → ik(主詞) → ben(動詞) → Ronald van Meer(名詞)",
+  "grammar": "主詞+動詞+補語結構。",
+  "listen": "注意 'ik' 和 'ben' 的連音。"
+ },
+ "is ronald je voornaam?": {
+  "breakdown": [
+   [
+    "Is Ronald",
+    "Ronald 是"
+   ],
+   [
+    "je voornaam",
+    "你的名字嗎"
+   ]
+  ],
+  "order": "Is(動詞) → Ronald(主詞) → je(代名詞) → voornaam(名詞)",
+  "grammar": "疑問句，動詞在主詞前。",
+  "listen": "注意 'Is' 的弱讀。"
+ },
+ "ja, dat klopt.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "dat klopt",
+    "沒錯"
+   ]
+  ],
+  "order": "Ja(肯定) → dat(指示代名詞) → klopt(動詞)",
+  "grammar": "簡單句，主詞在前，動詞在後。",
+  "listen": "注意 'dat' 的弱讀。"
+ },
+ "ronald is mijn voornaam en van meer is mijn achternaam.": {
+  "breakdown": [
+   [
+    "Ronald is mijn voornaam",
+    "Ronald 是我的名字"
+   ],
+   [
+    "en Van Meer is mijn achternaam",
+    "Van Meer 是我的姓氏"
+   ]
+  ],
+  "order": "Ronald(主詞) → is(動詞) → mijn voornaam(名詞) → en(連接詞) → Van Meer(主詞) → is(動詞) → mijn achternaam(名詞)",
+  "grammar": "主詞+動詞+補語結構，連接詞連接兩個句子。",
+  "listen": "注意 'is' 的弱讀。"
+ },
+ "mijn voornaam is noerai. toenk is mijn achternaam.": {
+  "breakdown": [
+   [
+    "Mijn voornaam is Noerai",
+    "我的名字是 Noerai"
+   ],
+   [
+    "Toenk is mijn achternaam",
+    "Toenk 是我的姓氏"
+   ]
+  ],
+  "order": "Mijn voornaam(主詞) → is(動詞) → Noerai(名詞) → Toenk(主詞) → is(動詞) → mijn achternaam(名詞)",
+  "grammar": "主詞+動詞+補語結構，連接兩個句子。",
+  "listen": "注意 'is' 的弱讀。"
+ },
+ "en waar kom je vandaan?": {
+  "breakdown": [
+   [
+    "En waar",
+    "那麼哪裡"
+   ],
+   [
+    "kom je vandaan",
+    "你從哪裡來"
+   ]
+  ],
+  "order": "En(連接詞) → waar(疑問詞) → kom(動詞) → je(主詞) → vandaan(副詞)",
+  "grammar": "疑問句，動詞在主詞前。",
+  "listen": "注意 'kom' 和 'je' 的連音。"
+ },
+ "ik kom uit turkije.": {
+  "breakdown": [
+   [
+    "Ik kom uit Turkije",
+    "我來自土耳其"
+   ]
+  ],
+  "order": "Ik(主詞) → kom(動詞) → uit Turkije(介詞片語)",
+  "grammar": "主詞+動詞+介詞片語結構。",
+  "listen": "注意 'uit' 的弱讀。"
+ },
+ "o, turkije.": {
+  "breakdown": [
+   [
+    "O",
+    "喔"
+   ],
+   [
+    "Turkije",
+    "土耳其"
+   ]
+  ],
+  "order": "感嘆詞 O → 主詞 Turkije。",
+  "grammar": "簡單句，無特別文法。",
+  "listen": "注意 O 的發音，可能被弱讀。"
+ },
+ "waar in turkije?": {
+  "breakdown": [
+   [
+    "Waar",
+    "哪裡"
+   ],
+   [
+    "in",
+    "在"
+   ],
+   [
+    "Turkije",
+    "土耳其"
+   ]
+  ],
+  "order": "疑問詞 Waar → 介系詞 in → 主詞 Turkije。",
+  "grammar": "疑問句，動詞省略。",
+  "listen": "Waar 可能連音，聽起來像 'waar in'。"
+ },
+ "ik kom uit istanbul.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "kom",
+    "來自"
+   ],
+   [
+    "uit",
+    "來自"
+   ],
+   [
+    "Istanbul",
+    "伊斯坦堡"
+   ]
+  ],
+  "order": "主詞 Ik → 動詞 kom → 介系詞 uit → 地名 Istanbul。",
+  "grammar": "簡單句，現在式。",
+  "listen": "注意 kom 的發音，可能被弱讀。"
+ },
+ "istanbul, dat is een mooie stad.": {
+  "breakdown": [
+   [
+    "Istanbul",
+    "伊斯坦堡"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "een",
+    "一個"
+   ],
+   [
+    "mooie",
+    "美麗的"
+   ],
+   [
+    "stad",
+    "城市"
+   ]
+  ],
+  "order": "主詞 Istanbul → 連接詞 dat → 動詞 is → 不定冠詞 een → 形容詞 mooie → 名詞 stad。",
+  "grammar": "主詞 + 連接詞 + 系動詞 + 名詞片語。",
+  "listen": "dat 可能被弱讀，聽起來不明顯。"
+ },
+ "ja, zeker.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "zeker",
+    "當然"
+   ]
+  ],
+  "order": "肯定詞 Ja → 副詞 zeker。",
+  "grammar": "簡單句，無特別文法。",
+  "listen": "Ja 和 zeker 之間的連音。"
+ },
+ "en waar kom jij vandaan, ronald?": {
+  "breakdown": [
+   [
+    "En",
+    "那"
+   ],
+   [
+    "waar",
+    "哪裡"
+   ],
+   [
+    "kom",
+    "來自"
+   ],
+   [
+    "jij",
+    "你"
+   ],
+   [
+    "vandaan",
+    "從哪裡"
+   ]
+  ],
+  "order": "連接詞 En → 疑問詞 waar → 動詞 kom → 主詞 jij → 副詞 vandaan。",
+  "grammar": "疑問句，動詞在第二位。",
+  "listen": "waar 和 kom 之間可能連音。"
+ },
+ "ik kom uit nederland, uit den haag.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "kom",
+    "來自"
+   ],
+   [
+    "uit",
+    "來自"
+   ],
+   [
+    "Nederland",
+    "荷蘭"
+   ],
+   [
+    "uit",
+    "來自"
+   ],
+   [
+    "Den Haag",
+    "海牙"
+   ]
+  ],
+  "order": "主詞 Ik → 動詞 kom → 介系詞 uit → 地名 Nederland → 介系詞 uit → 地名 Den Haag。",
+  "grammar": "簡單句，現在式。",
+  "listen": "uit 可能被弱讀。"
+ },
+ "den haag. is dat een mooie stad?": {
+  "breakdown": [
+   [
+    "Den Haag",
+    "海牙"
+   ],
+   [
+    "Is",
+    "那"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "een",
+    "一個"
+   ],
+   [
+    "mooie",
+    "美麗的"
+   ],
+   [
+    "stad",
+    "城市"
+   ]
+  ],
+  "order": "主詞 Den Haag → 動詞 Is → 連接詞 dat → 不定冠詞 een → 形容詞 mooie → 名詞 stad。",
+  "grammar": "主詞 + 系動詞 + 名詞片語。",
+  "listen": "Is 和 dat 之間的連音。"
+ },
+ "ja, den haag is een heel mooie stad.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "Den Haag",
+    "海牙"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "een",
+    "一個"
+   ],
+   [
+    "heel",
+    "非常"
+   ],
+   [
+    "mooie",
+    "美麗的"
+   ],
+   [
+    "stad",
+    "城市"
+   ]
+  ],
+  "order": "肯定詞 Ja → 主詞 Den Haag → 動詞 is → 不定冠詞 een → 副詞 heel → 形容詞 mooie → 名詞 stad。",
+  "grammar": "主詞 + 系動詞 + 名詞片語。",
+  "listen": "is 可能被弱讀。"
+ },
+ "waar woon jij?": {
+  "breakdown": [
+   [
+    "Waar",
+    "你住在哪裡"
+   ],
+   [
+    "woon",
+    "住"
+   ],
+   [
+    "jij",
+    "你"
+   ]
+  ],
+  "order": "疑問詞 Waar → 動詞 woon → 主詞 jij。",
+  "grammar": "疑問句，動詞在第二位。",
+  "listen": "Waar 和 woon 之間的連音。"
+ },
+ "ik woon in utrecht.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "woon",
+    "住"
+   ],
+   [
+    "in",
+    "在"
+   ],
+   [
+    "Utrecht",
+    "烏特勒支"
+   ]
+  ],
+  "order": "主詞 Ik → 動詞 woon → 介系詞 in → 地名 Utrecht。",
+  "grammar": "簡單句，現在式。",
+  "listen": "注意 in 的發音，可能被弱讀。"
+ },
+ "o, dat is leuk.": {
+  "breakdown": [
+   [
+    "O",
+    "哇"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "leuk",
+    "很好"
+   ]
+  ],
+  "order": "感嘆詞 O → 連接詞 dat → 動詞 is → 形容詞 leuk。",
+  "grammar": "簡單句，無特別文法。",
+  "listen": "O 和 dat 之間的連音。"
+ },
+ "waar woon je in utrecht?": {
+  "breakdown": [
+   [
+    "Waar",
+    "哪裡"
+   ],
+   [
+    "woon je",
+    "你住"
+   ],
+   [
+    "in Utrecht",
+    "在烏特勒支"
+   ]
+  ],
+  "order": "地點(在哪裡) → 動詞(住) → 主詞(你)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "注意 'je' 可能聽起來像 'j'。"
+ },
+ "ik woon in het centrum van de stad, in de witte vrouwenstraat.": {
+  "breakdown": [
+   [
+    "Ik woon",
+    "我住"
+   ],
+   [
+    "in het centrum",
+    "在市中心"
+   ],
+   [
+    "van de stad",
+    "的城市"
+   ],
+   [
+    "in de Witte Vrouwenstraat",
+    "在白婦女街"
+   ]
+  ],
+  "order": "主詞(我) → 動詞(住) → 地點(市中心) → 街道(白婦女街)",
+  "grammar": "V2 倒裝，動詞在第二位。",
+  "listen": "'in de' 可能聽起來像 'inde'。"
+ },
+ "ja, die straat ken ik.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "die straat",
+    "那條街"
+   ],
+   [
+    "ken ik",
+    "我認識"
+   ]
+  ],
+  "order": "肯定詞(是的) → 物件(那條街) → 動詞(認識) → 主詞(我)",
+  "grammar": "簡單現在式，表達習慣或事實。",
+  "listen": "'die' 可能聽起來像 'di'。"
+ },
+ "nou, ronald, leuk om kennis met je te maken.": {
+  "breakdown": [
+   [
+    "Nou",
+    "那麼"
+   ],
+   [
+    "Ronald",
+    "Ronald"
+   ],
+   [
+    "leuk om kennis met je te maken",
+    "很高興認識你"
+   ]
+  ],
+  "order": "引導詞(那麼) → 名字(Ronald) → 形容詞(高興) → 動詞短語(認識你)",
+  "grammar": "固定搭配，'leuk om' 表達喜悅。",
+  "listen": "'kennis' 可能聽起來像 'kenis'。"
+ },
+ "ja, ik vind het ook heel leuk.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "ik vind het",
+    "我覺得"
+   ],
+   [
+    "ook heel leuk",
+    "也很開心"
+   ]
+  ],
+  "order": "肯定詞(是的) → 主詞(我) → 動詞(覺得) → 形容詞(開心)",
+  "grammar": "簡單現在式，表達個人感受。",
+  "listen": "'het' 可能聽起來像 't'。"
+ },
+ "ik kom uit nederland. uit den haag.": {
+  "breakdown": [
+   [
+    "Ik kom uit Nederland",
+    "我來自荷蘭"
+   ],
+   [
+    "Uit Den Haag",
+    "來自海牙"
+   ]
+  ],
+  "order": "主詞(我) → 動詞(來自) → 地點(荷蘭) → 地點(海牙)",
+  "grammar": "簡單現在式，表達來源。",
+  "listen": "'uit' 可能聽起來像 'u'。"
+ },
+ "ik woon in het centrum van de stad. in de witte vrouwenstraat.": {
+  "breakdown": [
+   [
+    "Ik woon",
+    "我住"
+   ],
+   [
+    "in het centrum",
+    "在市中心"
+   ],
+   [
+    "van de stad",
+    "的城市"
+   ],
+   [
+    "in de Witte Vrouwenstraat",
+    "在白婦女街"
+   ]
+  ],
+  "order": "主詞(我) → 動詞(住) → 地點(市中心) → 街道(白婦女街)",
+  "grammar": "V2 倒裝，動詞在第二位。",
+  "listen": "'in de' 可能聽起來像 'inde'。"
+ },
+ "o, ja, die straat ken ik.": {
+  "breakdown": [
+   [
+    "O",
+    "喔"
+   ],
+   [
+    "ja",
+    "是的"
+   ],
+   [
+    "die straat",
+    "那條街"
+   ],
+   [
+    "ken ik",
+    "我認識"
+   ]
+  ],
+  "order": "感嘆詞(喔) → 肯定詞(是的) → 物件(那條街) → 動詞(認識) → 主詞(我)",
+  "grammar": "簡單現在式，表達習慣或事實。",
+  "listen": "'die' 可能聽起來像 'di'。"
+ },
+ "hallo, ik ben noerai tonk.": {
+  "breakdown": [
+   [
+    "Hallo",
+    "你好"
+   ],
+   [
+    "ik ben",
+    "我是"
+   ],
+   [
+    "Noerai Tonk",
+    "Noerai Tonk"
+   ]
+  ],
+  "order": "問候詞(你好) → 主詞(我) → 動詞(是) → 名字(Noerai Tonk)",
+  "grammar": "簡單現在式，自我介紹。",
+  "listen": "'ik' 可能聽起來像 'k'。"
+ },
+ "mijn voornaam is noerai. tonk is mijn achternaam.": {
+  "breakdown": [
+   [
+    "Mijn voornaam",
+    "我的名字"
+   ],
+   [
+    "is Noerai",
+    "是 Noerai"
+   ],
+   [
+    "Tonk is mijn achternaam",
+    "Tonk 是我的姓氏"
+   ]
+  ],
+  "order": "主詞(我的名字) → 動詞(是) → 名字(Noerai) → 主詞(姓氏) → 動詞(是) → 名字(Tonk)",
+  "grammar": "簡單現在式，自我介紹。",
+  "listen": "'is' 可能聽起來像 's'。"
+ },
+ "den haag, is dat een mooie stad?": {
+  "breakdown": [
+   [
+    "Den Haag",
+    "海牙"
+   ],
+   [
+    "is dat",
+    "那是"
+   ],
+   [
+    "een mooie stad",
+    "一個美麗的城市"
+   ]
+  ],
+  "order": "地點(海牙) → 動詞(是) → 代名詞(那) → 形容詞(美麗) → 名詞(城市)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "'is' 可能聽起來像 's'。"
+ },
+ "dag, ik zal me even voorstellen. mijn naam is karen verstraten.": {
+  "breakdown": [
+   [
+    "Dag",
+    "嗨"
+   ],
+   [
+    "ik zal me even voorstellen",
+    "我來自自我介紹一下"
+   ],
+   [
+    "Mijn naam is Karen Verstraten",
+    "我的名字是 Karen Verstraten"
+   ]
+  ],
+  "order": "問候詞(嗨) → 主詞(我) → 動詞(將) → 反身代名詞(自我) → 動詞(介紹) → 名詞(名字)",
+  "grammar": "未來式，表達將要做的事。",
+  "listen": "'me' 可能聽起來像 'm'。"
+ },
+ "hallo, ik ben hassan farah.": {
+  "breakdown": [
+   [
+    "Hallo",
+    "你好"
+   ],
+   [
+    "ik ben",
+    "我是"
+   ],
+   [
+    "Hassan Farah",
+    "Hassan Farah"
+   ]
+  ],
+  "order": "主詞(ik) → 動詞(ben) → 補語(Hassan Farah)",
+  "grammar": "簡單現在式，主詞和動詞直接連接。",
+  "listen": "注意 'ben' 的發音，可能聽不清楚。"
+ },
+ "woont u al lang in deze straat?": {
+  "breakdown": [
+   [
+    "Woont u",
+    "你住"
+   ],
+   [
+    "al lang",
+    "很久"
+   ],
+   [
+    "in deze straat",
+    "在這條街"
+   ]
+  ],
+  "order": "動詞(Woont) → 主詞(u) → 時間狀語(al lang) → 地點(in deze straat)",
+  "grammar": "V2 倒裝，動詞在第二位。",
+  "listen": "注意 'u' 的發音，可能聽不清楚。"
+ },
+ "nee, we wonen hier pas kort, sinds februari dit jaar.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "we wonen hier",
+    "我們住在這裡"
+   ],
+   [
+    "pas kort",
+    "剛不久"
+   ],
+   [
+    "sinds februari dit jaar",
+    "自今年二月"
+   ]
+  ],
+  "order": "否定詞(Nee) → 主詞(we) → 動詞(wonen) → 地點(hier) → 時間狀語(pas kort, sinds februari dit jaar)",
+  "grammar": "現在進行式，表示最近的狀態。",
+  "listen": "'pas' 和 'kort' 可能連音，聽不清楚。"
+ },
+ "o, ik ook.": {
+  "breakdown": [
+   [
+    "O",
+    "喔"
+   ],
+   [
+    "ik ook",
+    "我也是"
+   ]
+  ],
+  "order": "感嘆詞(O) → 主詞(ik) → 動詞(ook)",
+  "grammar": "簡單現在式，表達同意。",
+  "listen": "注意 'ook' 的發音，可能聽不清楚。"
+ },
+ "op welk huisnummer woont u?": {
+  "breakdown": [
+   [
+    "Op welk huisnummer",
+    "你住幾號"
+   ],
+   [
+    "woont u",
+    "你住"
+   ]
+  ],
+  "order": "介系詞短語(Op welk huisnummer) → 動詞(woont) → 主詞(u)",
+  "grammar": "疑問句，動詞放在主詞前。",
+  "listen": "'welk' 可能聽不清楚，注意發音。"
+ },
+ "wij wonen op nummer 12.": {
+  "breakdown": [
+   [
+    "Wij wonen",
+    "我們住"
+   ],
+   [
+    "op nummer 12",
+    "在12號"
+   ]
+  ],
+  "order": "主詞(Wij) → 動詞(wonen) → 介系詞短語(op nummer 12)",
+  "grammar": "簡單現在式，主詞和動詞直接連接。",
+  "listen": "注意 'op' 的發音，可能聽不清楚。"
+ },
+ "en u?": {
+  "breakdown": [
+   [
+    "En",
+    "和"
+   ],
+   [
+    "u",
+    "你"
+   ]
+  ],
+  "order": "連接詞(En) → 主詞(u)",
+  "grammar": "簡單現在式，簡單的連接句。",
+  "listen": "注意 'u' 的發音，可能聽不清楚。"
+ },
+ "op nummer 21.": {
+  "breakdown": [
+   [
+    "Op nummer 21",
+    "21號"
+   ]
+  ],
+  "order": "介系詞短語(Op nummer 21)",
+  "grammar": "簡單現在式，省略主詞，直接回答。",
+  "listen": "注意 'nummer' 的發音，可能聽不清楚。"
+ },
+ "ik woon in dat huis daar.": {
+  "breakdown": [
+   [
+    "Ik woon",
+    "我住"
+   ],
+   [
+    "in dat huis daar",
+    "在那邊那棟房子"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(won) → 介系詞短語(in dat huis daar)",
+  "grammar": "簡單現在式，主詞和動詞直接連接。",
+  "listen": "注意 'dat' 的發音，可能聽不清楚。"
+ },
+ "o, dan hebben we hetzelfde soort huis.": {
+  "breakdown": [
+   [
+    "O",
+    "喔"
+   ],
+   [
+    "dan hebben we",
+    "那我們有"
+   ],
+   [
+    "hetzelfde soort huis",
+    "同一種房子"
+   ]
+  ],
+  "order": "感嘆詞(O) → 副詞(dan) → 動詞(hebben) → 主詞(we) → 補語(hetzelfde soort huis)",
+  "grammar": "現在進行式，表示狀態。",
+  "listen": "注意 'hetzelfde' 的發音，可能聽不清楚。"
+ },
+ "vindt u het een fijn huis?": {
+  "breakdown": [
+   [
+    "Vindt u",
+    "你覺得"
+   ],
+   [
+    "het een fijn huis",
+    "那房子不錯"
+   ]
+  ],
+  "order": "動詞(Vindt) → 主詞(u) → 補語(het een fijn huis)",
+  "grammar": "疑問句，動詞放在主詞前。",
+  "listen": "注意 'fijn' 的發音，可能聽不清楚。"
+ },
+ "ja, het huis is prima. het is alleen een beetje klein voor ons gezin. en u? hoe vindt u het?": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "het huis is prima",
+    "房子還可以"
+   ],
+   [
+    "Het is alleen een beetje klein voor ons gezin",
+    "只是對我們家來說有點小"
+   ],
+   [
+    "En u? Hoe vindt u het?",
+    "那你呢？你覺得怎麼樣？"
+   ]
+  ],
+  "order": "肯定詞(Ja) → 主詞(het huis) → 動詞(is) → 補語(prima) → 轉折詞(Het is) → 副詞(alene) → 形容詞(klein) → 介系詞短語(voor ons gezin) → 連接詞(En) → 主詞(u) → 疑問句(Hoe vindt u het?)",
+  "grammar": "現在進行式，表達狀態和詢問。",
+  "listen": "注意 'een beetje' 的連音，可能聽不清楚。"
+ },
+ "nou ik vind het een fijn huis maar ik woon alleen.": {
+  "breakdown": [
+   [
+    "Nou",
+    "嗯"
+   ],
+   [
+    "ik vind het een fijn huis",
+    "我覺得這是一間很舒服的房子"
+   ],
+   [
+    "maar ik woon alleen",
+    "但我一個人住"
+   ]
+  ],
+  "order": "Nou(引導詞) → ik(主詞) → vind(動詞#2) → het(受詞) → een fijn huis(補語) → maar(連接詞) → ik(主詞) → woon(動詞#2) → alleen(副詞)",
+  "grammar": "使用現在式，動詞在主詞後面。",
+  "listen": "注意 'ik' 和 'woon' 之間的連音。"
+ },
+ "dus voor mij is het huis een beetje groot.": {
+  "breakdown": [
+   [
+    "Dus",
+    "所以"
+   ],
+   [
+    "voor mij",
+    "對我來說"
+   ],
+   [
+    "is het huis een beetje groot",
+    "這房子有點大"
+   ]
+  ],
+  "order": "Dus(引導詞) → voor mij(介詞短語) → is(動詞#2) → het huis(主詞) → een beetje groot(補語)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "'het' 和 'huis' 之間可能會連音。"
+ },
+ "dag, ik zal me even voorstellen.": {
+  "breakdown": [
+   [
+    "Dag",
+    "你好"
+   ],
+   [
+    "ik zal me even voorstellen",
+    "我先自我介紹一下"
+   ]
+  ],
+  "order": "Dag(引導詞) → ik(主詞) → zal(助動詞#2) → me(反身代名詞) → even(副詞) → voorstellen(原形動詞)",
+  "grammar": "使用未來式，助動詞在主詞後面。",
+  "listen": "注意 'ik' 和 'zal' 之間的連音。"
+ },
+ "mijn naam is karen verstraten.": {
+  "breakdown": [
+   [
+    "Mijn naam",
+    "我叫"
+   ],
+   [
+    "is Karen Verstraten",
+    "Karen Verstraten"
+   ]
+  ],
+  "order": "Mijn naam(主詞) → is(動詞#2) → Karen Verstraten(補語)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "注意 'is' 的發音，可能會聽不清。"
+ },
+ "ja, het huis is prima.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "het huis is prima",
+    "這房子很好"
+   ]
+  ],
+  "order": "Ja(引導詞) → het huis(主詞) → is(動詞#2) → prima(補語)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "'het' 和 'huis' 之間可能會連音。"
+ },
+ "het is alleen een beetje klein voor ons gezin. en u? hoe vindt u het?": {
+  "breakdown": [
+   [
+    "Het is alleen een beetje klein voor ons gezin",
+    "只是對我們一家人來說有點小"
+   ],
+   [
+    "En u?",
+    "你覺得呢？"
+   ],
+   [
+    "Hoe vindt u het?",
+    "你覺得怎麼樣？"
+   ]
+  ],
+  "order": "Het(主詞) → is(動詞#2) → alleen(副詞) → een beetje klein(補語) → voor ons gezin(介詞短語) → En(連接詞) → u(主詞) → Hoe(疑問詞) → vindt(動詞#2) → u(主詞) → het(受詞)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "注意 'is' 和 'alleen' 之間的連音。"
+ },
+ "o, ik ook. ook. op welk huisnummer woont u?": {
+  "breakdown": [
+   [
+    "O",
+    "噢"
+   ],
+   [
+    "ik ook",
+    "我也是"
+   ],
+   [
+    "Ook",
+    "也"
+   ],
+   [
+    "Op welk huisnummer woont u?",
+    "你住幾號？"
+   ]
+  ],
+  "order": "O(引導詞) → ik(主詞) → ook(副詞) → Ook(引導詞) → Op welk huisnummer(介詞短語) → woont(動詞#2) → u(主詞)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "'ik' 和 'ook' 之間的連音可能會被忽略。"
+ },
+ "het is alleen een beetje klein voor ons gezin.": {
+  "breakdown": [
+   [
+    "Het is alleen een beetje klein voor ons gezin",
+    "只是對我們一家人來說有點小"
+   ]
+  ],
+  "order": "Het(主詞) → is(動詞#2) → alleen(副詞) → een beetje klein(補語) → voor ons gezin(介詞短語)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "注意 'is' 和 'alleen' 之間的連音。"
+ },
+ "hoe vindt u het?": {
+  "breakdown": [
+   [
+    "Hoe",
+    "你覺得怎麼樣？"
+   ],
+   [
+    "vindt u het?",
+    "你覺得？"
+   ]
+  ],
+  "order": "Hoe(疑問詞) → vindt(動詞#2) → u(主詞) → het(受詞)",
+  "grammar": "疑問句，動詞放在主詞前面。",
+  "listen": "注意 'vindt' 的發音，可能會聽不清。"
+ },
+ "nou, ik vind het een fijn huis. maar ik woon alleen.": {
+  "breakdown": [
+   [
+    "Nou",
+    "嗯"
+   ],
+   [
+    "ik vind het een fijn huis",
+    "我覺得這房子很不錯"
+   ],
+   [
+    "Maar ik woon alleen",
+    "但我一個人住"
+   ]
+  ],
+  "order": "Nou(引導詞) → ik(主詞) → vind(動詞#2) → het(受詞) → een fijn huis(補語) → Maar(連接詞) → ik(主詞) → woon(動詞#2) → alleen(副詞)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "注意 'ik' 和 'woon' 之間的連音。"
+ },
+ "hé, ahmed.": {
+  "breakdown": [
+   [
+    "Hé",
+    "嗨"
+   ],
+   [
+    "Ahmed",
+    "Ahmed"
+   ]
+  ],
+  "order": "Hé(引導詞) → Ahmed(主詞)",
+  "grammar": "直接呼喚對方，無需動詞。",
+  "listen": "注意 'Hé' 的發音，可能會聽不清。"
+ },
+ "ik woon hier in de buurt, in de kerkstraat.": {
+  "breakdown": [
+   [
+    "Ik woon hier in de buurt",
+    "我住在附近的"
+   ],
+   [
+    "in de Kerkstraat",
+    "Kerkstraat"
+   ]
+  ],
+  "order": "Ik(主詞) → woon(動詞#2) → hier(副詞) → in de buurt(介詞短語) → in de Kerkstraat(介詞短語)",
+  "grammar": "現在式，動詞在主詞後面。",
+  "listen": "注意 'hier' 和 'in' 之間的連音。"
+ },
+ "de kerkstraat?": {
+  "breakdown": [
+   [
+    "De Kerkstraat?",
+    "Kerkstraat？"
+   ]
+  ],
+  "order": "Kerkstraat(主題) → De(定冠詞) → ?(疑問)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "注意 'De' 可能會被弱讀。"
+ },
+ "o ja, die ken ik wel.": {
+  "breakdown": [
+   [
+    "O ja,",
+    "喔對，"
+   ],
+   [
+    "die ken ik wel.",
+    "我知道那條街。"
+   ]
+  ],
+  "order": "O ja(引言) → die(指示代名詞) → ken(動詞#2) → ik(主詞) → wel(強調)",
+  "grammar": "現在式，主詞後動詞在第二位。",
+  "listen": "注意 'O ja' 連音，可能聽成 'Oja'。"
+ },
+ "leuke straat.": {
+  "breakdown": [
+   [
+    "Leuke straat.",
+    "很不錯的一條街。"
+   ]
+  ],
+  "order": "Leuke(形容詞) → straat(名詞) → .(句尾)",
+  "grammar": "名詞短語，形容詞在名詞前。",
+  "listen": "注意 'Leuke' 可能被快速發音。"
+ },
+ "en jij?": {
+  "breakdown": [
+   [
+    "En jij?",
+    "你呢？"
+   ]
+  ],
+  "order": "En(連接詞) → jij(主詞) → ?(疑問)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "注意 'En' 可能會被弱讀。"
+ },
+ "ik woon in de stationsbuurt, in de spoorstraat.": {
+  "breakdown": [
+   [
+    "Ik woon in de Stationsbuurt,",
+    "我住在Stationsbuurt，"
+   ],
+   [
+    "in de Spoorstraat.",
+    "Spoorstraat。"
+   ]
+  ],
+  "order": "Ik(主詞) → woon(動詞#2) → in(介詞) → de(定冠詞) → Stationsbuurt(地名) → ,(逗號) → in(介詞) → de(定冠詞) → Spoorstraat(地名)",
+  "grammar": "現在式，主詞後動詞在第二位。",
+  "listen": "注意 'in de' 可能會連音。"
+ },
+ "heb je daar een groot huis?": {
+  "breakdown": [
+   [
+    "Heb je daar een groot huis?",
+    "你那裡有大房子嗎？"
+   ]
+  ],
+  "order": "Heb(助動詞) → je(主詞) → daar(副詞) → een(不定冠詞) → groot(形容詞) → huis(名詞) → ?(疑問)",
+  "grammar": "疑問句，助動詞放句首。",
+  "listen": "注意 'je' 可能會被弱讀。"
+ },
+ "nee, ik heb een klein appartement.": {
+  "breakdown": [
+   [
+    "Nee,",
+    "沒有，"
+   ],
+   [
+    "ik heb een klein appartement.",
+    "我有一間小公寓。"
+   ]
+  ],
+  "order": "Nee(否定) → ,(逗號) → ik(主詞) → heb(動詞#2) → een(不定冠詞) → klein(形容詞) → appartement(名詞)",
+  "grammar": "現在式，主詞後動詞在第二位。",
+  "listen": "注意 'Nee' 可能會被快速發音。"
+ },
+ "ik heb een grote woning met mijn vrouw en kinderen.": {
+  "breakdown": [
+   [
+    "Ik heb een grote woning",
+    "我和妻子、小孩住一間大房子。"
+   ],
+   [
+    "met mijn vrouw en kinderen.",
+    "和妻子、小孩。"
+   ]
+  ],
+  "order": "Ik(主詞) → heb(動詞#2) → een(不定冠詞) → grote(形容詞) → woning(名詞) → met(介詞) → mijn(物主代名詞) → vrouw(名詞) → en(連接詞) → kinderen(名詞)",
+  "grammar": "現在式，主詞後動詞在第二位。",
+  "listen": "注意 'met mijn' 可能會連音。"
+ },
+ "we hebben ook een tuin.": {
+  "breakdown": [
+   [
+    "We hebben ook een tuin.",
+    "我們還有個花園。"
+   ]
+  ],
+  "order": "We(主詞) → hebben(動詞#2) → ook(副詞) → een(不定冠詞) → tuin(名詞) → .(句尾)",
+  "grammar": "現在式，主詞後動詞在第二位。",
+  "listen": "注意 'ook' 可能會被快速發音。"
+ },
+ "o, wat leuk.": {
+  "breakdown": [
+   [
+    "O, wat leuk.",
+    "喔，很棒。"
+   ]
+  ],
+  "order": "O(引言) → ,(逗號) → wat(感嘆詞) → leuk(形容詞) → .(句尾)",
+  "grammar": "感嘆句，形容詞直接用於感嘆。",
+  "listen": "注意 'O' 可能會被快速發音。"
+ },
+ "hoeveel kinderen hebben jullie?": {
+  "breakdown": [
+   [
+    "Hoeveel kinderen hebben jullie?",
+    "你們有幾個小孩？"
+   ]
+  ],
+  "order": "Hoeveel(疑問詞) → kinderen(名詞) → hebben(動詞#2) → jullie(主詞) → ?(疑問)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "注意 'Hoeveel' 可能會被快速發音。"
+ },
+ "drie.": {
+  "breakdown": [
+   [
+    "Drie.",
+    "三個。"
+   ]
+  ],
+  "order": "Drie(數字) → .(句尾)",
+  "grammar": "簡單回答，直接用數字。",
+  "listen": "注意 'Drie' 可能會被快速發音。"
+ },
+ "woon jij alleen?": {
+  "breakdown": [
+   [
+    "Woon",
+    "住"
+   ],
+   [
+    "jij",
+    "你"
+   ],
+   [
+    "alleen",
+    "一個人"
+   ]
+  ],
+  "order": "主詞(jij) → 動詞(Woon) → 補語(alleen)。規則：荷蘭語的基本語序是主詞在前，動詞在第二位。",
+  "grammar": "這是一般現在式的疑問句。",
+  "listen": "注意 'jij' 可能聽起來像 'ji'。"
+ },
+ "ja, ik woon nu alleen. maar ik ga samenwonen.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "woon",
+    "住"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "alleen",
+    "一個人"
+   ],
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "ga",
+    "打算"
+   ],
+   [
+    "samenwonen",
+    "一起住"
+   ]
+  ],
+  "order": "主詞(ik) → 動詞#2(woon) → 副詞(nu) → 補語(alleen)。規則：主詞後的動詞在第二位，副詞可放在動詞後。",
+  "grammar": "這句包含現在式和未來式，'ga' 是助動詞。",
+  "listen": "注意 'ik' 和 'ga' 之間的連音。"
+ },
+ "ik heb een grote woning, met mijn vrouw en kinderen.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "heb",
+    "有"
+   ],
+   [
+    "een",
+    "一"
+   ],
+   [
+    "grote",
+    "大"
+   ],
+   [
+    "woning",
+    "房子"
+   ],
+   [
+    "met",
+    "和"
+   ],
+   [
+    "mijn",
+    "我的"
+   ],
+   [
+    "vrouw",
+    "妻子"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "kinderen",
+    "小孩"
+   ]
+  ],
+  "order": "主詞(Ik) → 助動詞(heb) → 直接受詞(een grote woning) → 伴隨詞(met mijn vrouw en kinderen)。規則：助動詞在主詞後，受詞在動詞後。",
+  "grammar": "這是完成式，'heb' 是助動詞，'gehad' 是過去分詞。",
+  "listen": "注意 'met' 可能聽起來像 'met'，但要清楚發音。"
+ }
+}

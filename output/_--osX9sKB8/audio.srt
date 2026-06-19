@@ -1,0 +1,726 @@
+1
+00:00:01,480 --> 00:00:05,480
+Dit meisje eet. Zij vindt het eten lekker.
+
+2
+00:00:08,360 --> 00:00:12,500
+2. Dit meisje eet niet. Ze vindt het eten niet lekker.
+
+3
+00:00:14,420 --> 00:00:18,760
+Dit meisje eet niet. Zij vindt het eten niet lekker.
+
+4
+00:00:22,480 --> 00:00:27,280
+3. Dit jongetje eet ook niet. Hij vindt het eten niet lekker.
+
+5
+00:00:28,520 --> 00:00:31,340
+Ditjongetjeeetookniet
+
+6
+00:00:32,420 --> 00:00:34,580
+Hijvindthetetennietlekker
+
+7
+00:00:36,640 --> 00:00:42,240
+4. Dit jongetje eet wel. Hij vindt het eten wel lekker.
+
+8
+00:00:44,240 --> 00:00:49,760
+Dit jongetje eet wel. Hij vindt het eten wel lekker.
+
+9
+00:00:51,980 --> 00:00:56,100
+5. Het jongetje zegt mama ik ben klaar.
+
+10
+00:00:58,500 --> 00:01:02,600
+Het jongetje zegt mama ik ben klaar.
+
+11
+00:01:05,440 --> 00:01:10,260
+6. De moeder van het jongetje zegt nee hoor ik zie nog champignons.
+
+12
+00:01:11,840 --> 00:01:18,220
+Demoedervanhetjongetjezegtneehoorikzienogchampignons
+
+13
+00:01:20,220 --> 00:01:24,420
+7. Het jongetje zegt ik vind champignons vies.
+
+14
+00:01:26,480 --> 00:01:30,620
+Het jongetje zegt ik vind champignons vies.
+
+15
+00:01:32,820 --> 00:01:35,960
+8. Champignons zijn lekker. Eten.
+
+16
+00:01:38,600 --> 00:01:41,440
+Champignons zijn lekker. Eten.
+
+17
+00:01:43,880 --> 00:01:46,100
+9. Nee.
+
+18
+00:01:48,800 --> 00:01:49,500
+Nee.
+
+19
+00:01:52,160 --> 00:01:54,240
+10. Eten of je gaat naar bed.
+
+20
+00:01:56,560 --> 00:01:59,200
+Eten of je gaat naar bed.
+
+21
+00:02:02,240 --> 00:02:05,540
+1. Bah, ik vind champignons vies.
+
+22
+00:02:06,620 --> 00:02:10,740
+Bah, ik vind champignons vies.
+
+23
+00:02:13,740 --> 00:02:14,700
+2. Naar bed.
+
+24
+00:02:17,960 --> 00:02:18,500
+Naar bed.
+
+25
+00:02:21,760 --> 00:02:24,720
+3. Dit is een bord.
+
+26
+00:02:26,240 --> 00:02:27,420
+Dit is een bord.
+
+27
+00:02:29,880 --> 00:02:32,160
+4. Dit is een lepel.
+
+28
+00:02:32,160 --> 00:02:35,360
+Dit is een lepel.
+
+29
+00:02:36,320 --> 00:02:39,220
+5. Dit is een mes.
+
+30
+00:02:41,320 --> 00:02:42,500
+Dit is een mes.
+
+31
+00:02:45,340 --> 00:02:47,720
+6. Dit is een vork.
+
+32
+00:02:49,420 --> 00:02:50,560
+Dit is een vork.
+
+33
+00:02:53,080 --> 00:02:56,280
+7. De ober zet het bord op tafel.
+
+34
+00:02:57,320 --> 00:03:01,120
+De ober zet het bord op tafel.
+
+35
+00:03:03,720 --> 00:03:06,800
+8. De ober legt de lepel op tafel.
+
+36
+00:03:08,420 --> 00:03:11,840
+De ober legt de lepel op tafel.
+
+37
+00:03:13,840 --> 00:03:16,620
+9. De ober legt het mes op tafel.
+
+38
+00:03:18,320 --> 00:03:21,180
+De ober legt het mes op tafel.
+
+39
+00:03:22,660 --> 00:03:26,880
+10. De ober legt de vork op tafel.
+
+40
+00:03:27,800 --> 00:03:30,760
+De ober legt de vork op tafel.
+
+41
+00:03:32,240 --> 00:03:34,360
+1. Een vrouw roept ober.
+
+42
+00:03:35,800 --> 00:03:38,040
+Een vrouw roept ober.
+
+43
+00:03:40,440 --> 00:03:44,000
+2. De vrouw zegt ober mag ik een koffie?
+
+44
+00:03:44,620 --> 00:03:45,600
+Ze bestelt koffie.
+
+45
+00:03:54,760 --> 00:03:58,060
+3. De ober brengt de koffie.
+
+46
+00:04:01,400 --> 00:04:03,760
+De ober brengt de koffie.
+
+47
+00:04:08,320 --> 00:04:11,320
+4. Hij zet de koffie op de tafel van de vrouw.
+
+48
+00:04:14,800 --> 00:04:15,580
+Hij zet de koffie op de tafel van de vrouw.
+
+49
+00:04:15,580 --> 00:04:20,020
+Hij zet de koffie op de tafel van de vrouw.
+
+50
+00:04:24,700 --> 00:04:27,120
+5. Een man roept ober.
+
+51
+00:04:29,840 --> 00:04:32,260
+Een man roept ober.
+
+52
+00:04:34,460 --> 00:04:39,700
+6. De man zegt ober mag ik een koffie? Hij bestelt koffie.
+
+53
+00:04:40,700 --> 00:04:44,460
+Demanzegtobermagikeenkoffie
+
+54
+00:04:45,500 --> 00:04:47,060
+Hijbesteltkoffie
+
+55
+00:04:48,780 --> 00:04:51,100
+7. De ober brengt de koffie.
+
+56
+00:04:53,580 --> 00:04:55,820
+De ober brengt de koffie.
+
+57
+00:04:58,600 --> 00:05:01,580
+8. Hij zet de koffie op de tafel van de man.
+
+58
+00:05:03,160 --> 00:05:07,260
+Hij zet de koffie op de tafel van de man.
+
+59
+00:05:08,260 --> 00:05:11,520
+9. De man roept ober.
+
+60
+00:05:13,260 --> 00:05:15,560
+De man roept ober.
+
+61
+00:05:18,120 --> 00:05:22,960
+10. De man zegt ober mag ik brood? Hij bestelt brood.
+
+62
+00:05:23,660 --> 00:05:28,220
+De man zegt ober mag ik brood? Hij bestelt brood.
+
+63
+00:05:29,980 --> 00:05:33,020
+1. De ober brengt brood.
+
+64
+00:05:34,680 --> 00:05:37,540
+De ober brengt brood.
+
+65
+00:05:39,880 --> 00:05:42,840
+2. Hij zet het brood op de tafel van de man.
+
+66
+00:05:44,400 --> 00:05:48,400
+Hij zet het brood op de tafel van de man.
+
+67
+00:05:50,340 --> 00:05:52,600
+3. Een andere man roept ober.
+
+68
+00:05:54,280 --> 00:05:57,180
+Een andere man roept ober.
+
+69
+00:05:59,120 --> 00:06:03,300
+4. De man zegt ik wil graag een biefstuk met patat?
+
+70
+00:06:04,060 --> 00:06:06,180
+De man bestelt een biefstuk met patat.
+
+71
+00:06:07,960 --> 00:06:12,380
+De man zegt ik wil graag een biefstuk met patat.
+
+72
+00:06:13,240 --> 00:06:16,140
+De man bestelt een biefstuk met patat.
+
+73
+00:06:18,980 --> 00:06:22,180
+5. De ober brengt de biefstuk met patat.
+
+74
+00:06:23,760 --> 00:06:28,360
+De ober brengt de biefstuk met patat.
+
+75
+00:06:31,320 --> 00:06:34,360
+6. Hij zet de biefstuk op de tafel van de man.
+
+76
+00:06:36,480 --> 00:06:40,960
+Hij zet de biefstuk op de tafel van de man.
+
+77
+00:06:44,380 --> 00:06:47,700
+7. Een andere man roept ober.
+
+78
+00:06:50,480 --> 00:06:53,780
+Een andere man roept ober.
+
+79
+00:06:58,840 --> 00:07:02,260
+8. De man zegt ober mag ik een glas water?
+
+80
+00:07:03,120 --> 00:07:04,700
+De man bestelt een glas water.
+
+81
+00:07:07,880 --> 00:07:12,060
+De man zegt ober mag ik een glas water?
+
+82
+00:07:12,720 --> 00:07:15,240
+De man bestelt een glas water.
+
+83
+00:07:17,260 --> 00:07:21,120
+9. De ober brengt het glas water.
+
+84
+00:07:23,120 --> 00:07:25,900
+De ober brengt het glas water.
+
+85
+00:07:28,220 --> 00:07:30,880
+10. Hij zet het glas op de tafel van de man.
+
+86
+00:07:32,120 --> 00:07:35,820
+Hij zet het glas op de tafel van de man.
+
+87
+00:07:37,620 --> 00:07:41,620
+1. Dit is een potlood. Het potlood ligt op tafel.
+
+88
+00:07:42,620 --> 00:07:47,500
+Dit is een potlood. Het potlood ligt op tafel.
+
+89
+00:07:49,600 --> 00:07:54,160
+2. Dit is een glas. Het glas staat op tafel.
+
+90
+00:07:57,100 --> 00:08:02,900
+Dit is een glas. Het glas staat op tafel.
+
+91
+00:08:05,900 --> 00:08:08,780
+3. Het glas staat naast het potlood.
+
+92
+00:08:10,580 --> 00:08:17,660
+Hetglasstaatnaasthetpotlood
+
+93
+00:08:19,960 --> 00:08:22,520
+4. Het potlood ligt naast het glas.
+
+94
+00:08:24,440 --> 00:08:27,280
+Het potlood ligt naast het glas.
+
+95
+00:08:29,940 --> 00:08:34,300
+5. Het pak melk staat naast het glas melk.
+
+96
+00:08:35,420 --> 00:08:40,660
+Het pak melk staat naast het glas melk.
+
+97
+00:08:43,640 --> 00:08:46,300
+6. Het kopje staat naast het potlood.
+
+98
+00:08:49,040 --> 00:08:52,660
+Het kopje staat naast het potlood.
+
+99
+00:08:55,520 --> 00:08:58,300
+7. Het potlood ligt naast het kopje.
+
+100
+00:09:00,760 --> 00:09:05,080
+Het potlood ligt naast het kopje.
+
+101
+00:09:08,220 --> 00:09:11,300
+8. Het potlood ligt naast het bord.
+
+102
+00:09:12,940 --> 00:09:15,620
+Het potlood ligt naast het bord.
+
+103
+00:09:18,820 --> 00:09:21,280
+9. De lepel ligt op het bord.
+
+104
+00:09:23,180 --> 00:09:25,780
+De lepel ligt op het bord.
+
+105
+00:09:27,120 --> 00:09:31,460
+10. De doos staat op tafel.
+
+106
+00:09:33,400 --> 00:09:35,760
+De doos staat op tafel.
+
+107
+00:09:37,660 --> 00:09:40,500
+1. De doos staat onder de tafel.
+
+108
+00:09:42,300 --> 00:09:45,020
+De doos staat onder de tafel.
+
+109
+00:09:47,700 --> 00:09:50,580
+2. Het potlood ligt onder de tafel.
+
+110
+00:09:51,660 --> 00:09:55,920
+Het potlood ligt onder de tafel.
+
+111
+00:09:57,920 --> 00:09:59,920
+3. De vrouw zit naast de man.
+1
+00:09:59,976 --> 00:10:04,296
+De vrouw zit naast de man.
+
+2
+00:10:07,896 --> 00:10:10,776
+4. De man zit naast de vrouw.
+
+3
+00:10:13,736 --> 00:10:17,696
+De man zit naast de vrouw.
+
+4
+00:10:19,796 --> 00:10:23,776
+5. Het meisje legt een potlood naast een ander potlood.
+
+5
+00:10:32,336 --> 00:10:33,616
+6
+
+6
+00:10:35,736 --> 00:10:45,916
+Hetmeisjezeteensoepkomnaasteenanderesoepkom
+
+7
+00:10:48,636 --> 00:10:52,876
+7. De ober legt een menukaart op de tafel van de man.
+
+8
+00:11:03,016 --> 00:11:06,636
+8. De ober legt een vork naast de lepel en het mes.
+
+9
+00:11:17,036 --> 00:11:20,996
+9. De ober legt de vork naast het bord.
+
+10
+00:11:29,556 --> 00:11:30,556
+10
+
+11
+00:11:31,656 --> 00:11:41,096
+Deoberzeteenglaswaternaastdevork
+
+12
+00:11:43,276 --> 00:11:46,896
+1. De moeder zet een bord met vlees op tafel.
+
+13
+00:11:57,816 --> 00:12:09,976
+2. Ze roept komen, het eten is klaar.3
+
+14
+00:12:11,016 --> 00:12:16,956
+Dehondkomtdekamerbinnen
+
+15
+00:12:19,696 --> 00:12:23,916
+4. De hond ziet het vlees, de hond vindt het vlees lekker.
+
+16
+00:12:34,176 --> 00:12:49,796
+5. De jongen komt de kamer binnen, hij ziet de hond met het vlees.6
+
+17
+00:12:50,356 --> 00:12:56,656
+Dejongenrentnaarzijnmoeder
+
+18
+00:12:58,636 --> 00:13:02,536
+7. Hij zegt mama, de hond eet het vlees.
+
+19
+00:13:11,536 --> 00:13:15,596
+8. Zijn moeder roept wat, de hond eet het vlees?
+
+20
+00:13:22,676 --> 00:13:34,776
+9. Kom mama!10
+
+21
+00:13:38,276 --> 00:13:40,296
+Hetvleesisweg
+
+22
+00:13:42,696 --> 00:13:45,416
+1. Een kat rent de kamer in.
+
+23
+00:13:51,936 --> 00:13:52,976
+2
+
+24
+00:13:53,576 --> 00:14:00,016
+Dekatspringtopdetafel
+
+25
+00:14:02,056 --> 00:14:03,096
+3
+
+26
+00:14:08,556 --> 00:14:14,116
+Ditzijnvissenzezwemmenineenvissenkom
+
+27
+00:14:16,276 --> 00:14:26,876
+4. De kat pakt een vis.5
+
+28
+00:14:30,896 --> 00:14:33,976
+Dekateetdevisop
+
+29
+00:14:36,676 --> 00:14:41,856
+6. De kat kijkt naar de vogel, de kat vindt de vogel lekker.
+
+30
+00:14:52,116 --> 00:14:56,396
+7. De hond wil het vlees, de hond vindt het vlees lekker.
+
+31
+00:15:05,376 --> 00:15:09,336
+8. De kat eet een vis, de kat vindt de vis lekker.
+
+32
+00:15:17,536 --> 00:15:21,736
+9. De man rookt, de man vindt roken lekker.
+
+33
+00:15:27,736 --> 00:15:32,596
+10. De vrouw vindt sigaretten vies, ik ook.
+
+34
+00:15:34,416 --> 00:15:38,596
+11. De vrouw vindt sigaretten vies, ik ook.
+
+35
+00:15:42,356 --> 00:15:45,936
+12. De man zegt, ik heb honger, ik wil wat eten.
+
+36
+00:15:47,136 --> 00:15:52,156
+13. De man zegt, ik heb honger, ik wil wat eten.
+
+37
+00:15:54,936 --> 00:15:58,676
+14. De vrouw zegt, ik ook, ik heb ook honger, ik wil een tosti.
+
+38
+00:16:00,756 --> 00:16:04,096
+15Devrouwzegtikook
+
+39
+00:16:05,056 --> 00:16:07,856
+ikhebookhongerikwileentosti
+
+40
+00:16:10,896 --> 00:16:14,736
+16. De man zegt kom, we gaan naar het cafetaria.
+
+41
+00:16:16,056 --> 00:16:19,336
+17Demanzegtkom
+
+42
+00:16:20,056 --> 00:16:22,316
+wegaannaarhetcafetaria
+
+43
+00:16:24,136 --> 00:16:25,296
+18
+
+44
+00:16:25,776 --> 00:16:32,776
+Zelopennaarhetcafetariazelopennaarhetcafetaria
+
+45
+00:16:34,276 --> 00:16:39,676
+19. Ze gaan zitten, ze gaan zitten.
+
+46
+00:16:49,256 --> 00:16:52,756
+20. De man zegt, kan ik u helpen?
+
+47
+00:16:55,956 --> 00:17:00,056
+21. De man zegt, ja, mijn vrouw wil een tosti, en ik ook.
+
+48
+00:17:09,476 --> 00:17:12,676
+22. De man zegt, ik wil graag twee tosti's.
+
+49
+00:17:14,736 --> 00:17:18,196
+23. De man zegt, ik wil graag twee tosti's.
+
+50
+00:17:20,636 --> 00:17:24,736
+24. De serveerster schrijft twee tosti's.
+
+51
+00:17:31,316 --> 00:17:36,556
+25. De serveerster vraagt, wat wilt u drinken?
+
+52
+00:17:47,576 --> 00:17:52,216
+26. De man zegt, ik wil graag twee koffie.
+
+53
+00:17:53,576 --> 00:17:58,056
+27DeserveersterbrengthetetenZezethetetenoptafel
+
+54
+00:17:58,416 --> 00:17:59,616
+Zezegteetsmakelijk
+
+55
+00:18:00,736 --> 00:18:03,776
+28Deserveersterbrengtheteten
+
+56
+00:18:04,956 --> 00:18:09,736
+ZezethetoptafelZezegteetsmakelijk
+
+57
+00:18:11,876 --> 00:18:16,516
+29. De man en de vrouw eten. Ze hebben honger.
+
+58
+00:18:17,596 --> 00:18:22,176
+30. De man en de vrouw eten. Ze hebben honger.
+
+59
+00:18:25,456 --> 00:18:28,736
+31. De man roept, mag ik nog een kopje koffie?
+
+60
+00:18:31,216 --> 00:18:35,456
+32. De man roept, mag ik nog een kopje koffie?
+
+61
+00:18:37,676 --> 00:18:42,496
+33. De serveerster geeft de man nog een tweede kopje koffie.
+
+62
+00:18:45,976 --> 00:18:50,756
+34. De serveerster geeft de man nog een tweede kopje koffie.
+
+63
+00:18:58,736 --> 00:19:04,456
+En ze geeft de vrouw ook nog een tweede kopje koffie.
+
+64
+00:19:08,356 --> 00:19:11,276
+35Deserveersterbrengtderekening
+
+65
+00:19:14,016 --> 00:19:16,956
+Deserveersterbrengtderekening
+
+66
+00:19:19,216 --> 00:19:22,416
+36Demanpaktderekening
+
+67
+00:19:24,416 --> 00:19:26,636
+Demanpaktderekening
+
+68
+00:19:28,736 --> 00:19:31,636
+39Demanbetaalt
+
+69
+00:19:33,636 --> 00:19:35,056
+Demanbetaalt
+
+70
+00:19:36,776 --> 00:19:39,536
+40Zelopennaarbuiten
+
+71
+00:19:42,036 --> 00:19:44,196
+Zelopennaarbuiten

@@ -1,0 +1,834 @@
+{
+ "het graan.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "graan",
+    "穀物"
+   ]
+  ],
+  "order": "主詞Het → 名詞graan。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "Het的發音可能被弱讀。"
+ },
+ "de boerderij.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "boerderij",
+    "農場"
+   ]
+  ],
+  "order": "主詞De → 名詞boerderij。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "De的發音可能被弱讀。"
+ },
+ "de koe.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "koe",
+    "母牛"
+   ]
+  ],
+  "order": "主詞De → 名詞koe。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "De的發音可能被弱讀。"
+ },
+ "het paard.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "paard",
+    "馬"
+   ]
+  ],
+  "order": "主詞Het → 名詞paard。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "Het的發音可能被弱讀。"
+ },
+ "het ijs.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "ijs",
+    "冰淇淋"
+   ]
+  ],
+  "order": "主詞Het → 名詞ijs。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "Het的發音可能被弱讀。"
+ },
+ "het gras.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "gras",
+    "草"
+   ]
+  ],
+  "order": "主詞Het → 名詞gras。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "Het的發音可能被弱讀。"
+ },
+ "de stal.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "stal",
+    "畜棚"
+   ]
+  ],
+  "order": "主詞De → 名詞stal。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "De的發音可能被弱讀。"
+ },
+ "de bol.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "bol",
+    "球莖"
+   ]
+  ],
+  "order": "主詞De → 名詞bol。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "De的發音可能被弱讀。"
+ },
+ "de kip.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "kip",
+    "母雞"
+   ]
+  ],
+  "order": "主詞De → 名詞kip。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "De的發音可能被弱讀。"
+ },
+ "de hond.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "hond",
+    "狗"
+   ]
+  ],
+  "order": "主詞De → 名詞hond。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "De的發音可能被弱讀。"
+ },
+ "het ei.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "ei",
+    "蛋"
+   ]
+  ],
+  "order": "主詞Het → 名詞ei。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "Het的發音可能被弱讀。"
+ },
+ "de boer.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "boer",
+    "農夫"
+   ]
+  ],
+  "order": "主詞De → 名詞boer。規則：主詞+名詞構成簡單句。",
+  "grammar": "名詞單數形式。",
+  "listen": "De的發音可能被弱讀。"
+ },
+ "de laarzen.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "laarzen",
+    "長靴"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數或複數，這裡是複數形式。",
+  "listen": "注意 'De' 和 'laarzen' 的連音。"
+ },
+ "het schaap.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "schaap",
+    "綿羊"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數，使用中性冠詞 'Het'。",
+  "listen": "注意 'Het' 和 'schaap' 的連音。"
+ },
+ "de tent.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "tent",
+    "帳篷"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數，使用陽性冠詞 'De'。",
+  "listen": "注意 'De' 和 'tent' 的連音。"
+ },
+ "de wijn.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "wijn",
+    "酒"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數，使用陽性冠詞 'De'。",
+  "listen": "注意 'De' 和 'wijn' 的連音。"
+ },
+ "de ster.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "ster",
+    "星星"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數，使用陽性冠詞 'De'。",
+  "listen": "注意 'De' 和 'ster' 的連音。"
+ },
+ "het museum.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "museum",
+    "博物館"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數，使用中性冠詞 'Het'。",
+  "listen": "注意 'Het' 和 'museum' 的連音。"
+ },
+ "de camping.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "camping",
+    "露營區"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數，使用陽性冠詞 'De'。",
+  "listen": "注意 'De' 和 'camping' 的連音。"
+ },
+ "het bier.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "bier",
+    "啤酒"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數，使用中性冠詞 'Het'。",
+  "listen": "注意 'Het' 和 'bier' 的連音。"
+ },
+ "het schilderij.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "schilderij",
+    "畫作"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數，使用中性冠詞 'Het'。",
+  "listen": "注意 'Het' 和 'schilderij' 的連音。"
+ },
+ "het weekend.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "weekend",
+    "週末"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數，使用中性冠詞 'Het'。",
+  "listen": "注意 'Het' 和 'weekend' 的連音。"
+ },
+ "de slaapzak.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "slaapzak",
+    "睡袋"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數，使用陽性冠詞 'De'。",
+  "listen": "注意 'De' 和 'slaapzak' 的連音。"
+ },
+ "de kerk.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "kerk",
+    "教堂"
+   ]
+  ],
+  "order": "名詞在前，形容詞或冠詞在前面。",
+  "grammar": "名詞單數，使用陽性冠詞 'De'。",
+  "listen": "注意 'De' 和 'kerk' 的連音。"
+ },
+ "het café.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "café",
+    "咖啡館"
+   ]
+  ],
+  "order": "名詞(Het) → 名詞(café)",
+  "grammar": "名詞以定冠詞開頭，表示特定的咖啡館。",
+  "listen": "注意 Het 的發音，可能聽起來像 'et'。"
+ },
+ "het bos.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "bos",
+    "森林"
+   ]
+  ],
+  "order": "名詞(Het) → 名詞(bos)",
+  "grammar": "名詞以定冠詞開頭，表示特定的森林。",
+  "listen": "注意 Het 的發音，可能聽起來像 'et'。"
+ },
+ "het dorp.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "dorp",
+    "村莊"
+   ]
+  ],
+  "order": "名詞(Het) → 名詞(dorp)",
+  "grammar": "名詞以定冠詞開頭，表示特定的村莊。",
+  "listen": "注意 Het 的發音，可能聽起來像 'et'。"
+ },
+ "de computer.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "computer",
+    "電腦"
+   ]
+  ],
+  "order": "名詞(De) → 名詞(computer)",
+  "grammar": "名詞以定冠詞開頭，表示特定的電腦。",
+  "listen": "注意 De 的發音，可能聽起來像 'de'。"
+ },
+ "het beeldscherm.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "beeldscherm",
+    "螢幕"
+   ]
+  ],
+  "order": "名詞(Het) → 名詞(beeldscherm)",
+  "grammar": "名詞以定冠詞開頭，表示特定的螢幕。",
+  "listen": "注意 Het 的發音，可能聽起來像 'et'。"
+ },
+ "de muis.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "muis",
+    "滑鼠"
+   ]
+  ],
+  "order": "名詞(De) → 名詞(muis)",
+  "grammar": "名詞以定冠詞開頭，表示特定的滑鼠。",
+  "listen": "注意 De 的發音，可能聽起來像 'de'。"
+ },
+ "de printer.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "printer",
+    "印表機"
+   ]
+  ],
+  "order": "名詞(De) → 名詞(printer)",
+  "grammar": "名詞以定冠詞開頭，表示特定的印表機。",
+  "listen": "注意 De 的發音，可能聽起來像 'de'。"
+ },
+ "het toetsenbord.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "toetsenbord",
+    "鍵盤"
+   ]
+  ],
+  "order": "名詞(Het) → 名詞(toetsenbord)",
+  "grammar": "名詞以定冠詞開頭，表示特定的鍵盤。",
+  "listen": "注意 Het 的發音，可能聽起來像 'et'。"
+ },
+ "de computerles.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "computerles",
+    "電腦課"
+   ]
+  ],
+  "order": "名詞(De) → 名詞(computerles)",
+  "grammar": "名詞以定冠詞開頭，表示特定的電腦課。",
+  "listen": "注意 De 的發音，可能聽起來像 'de'。"
+ },
+ "de voorkant.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "voorkant",
+    "前面"
+   ]
+  ],
+  "order": "名詞(De) → 名詞(voorkant)",
+  "grammar": "名詞以定冠詞開頭，表示特定的前面。",
+  "listen": "注意 De 的發音，可能聽起來像 'de'。"
+ },
+ "de titel.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "titel",
+    "標題"
+   ]
+  ],
+  "order": "名詞(De) → 名詞(titel)",
+  "grammar": "名詞以定冠詞開頭，表示特定的標題。",
+  "listen": "注意 De 的發音，可能聽起來像 'de'。"
+ },
+ "de inhoud.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "inhoud",
+    "內容"
+   ]
+  ],
+  "order": "名詞(De) → 名詞(inhoud)",
+  "grammar": "名詞以定冠詞開頭，表示特定的內容。",
+  "listen": "注意 De 的發音，可能聽起來像 'de'。"
+ },
+ "de bladzijde.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ]
+  ],
+  "order": "名詞在前，這是單數定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'De' 的發音，可能會被弱讀。"
+ },
+ "de tekening.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "tekening",
+    "圖畫"
+   ]
+  ],
+  "order": "名詞在前，這是單數定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'De' 的發音，可能會被弱讀。"
+ },
+ "de achterkant.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "achterkant",
+    "背面"
+   ]
+  ],
+  "order": "名詞在前，這是單數定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'De' 的發音，可能會被弱讀。"
+ },
+ "de plank.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "plank",
+    "木板"
+   ]
+  ],
+  "order": "名詞在前，這是單數定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'De' 的發音，可能會被弱讀。"
+ },
+ "de stilte.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "stilte",
+    "寂靜"
+   ]
+  ],
+  "order": "名詞在前，這是單數定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'De' 的發音，可能會被弱讀。"
+ },
+ "de vogel.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "vogel",
+    "鳥"
+   ]
+  ],
+  "order": "名詞在前，這是單數定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'De' 的發音，可能會被弱讀。"
+ },
+ "de boom.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "boom",
+    "樹"
+   ]
+  ],
+  "order": "名詞在前，這是單數定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'De' 的發音，可能會被弱讀。"
+ },
+ "het kanaal.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "kanaal",
+    "運河"
+   ]
+  ],
+  "order": "名詞在前，這是單數中性定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'Het' 的發音，可能會被弱讀。"
+ },
+ "de boot.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "boot",
+    "船"
+   ]
+  ],
+  "order": "名詞在前，這是單數定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'De' 的發音，可能會被弱讀。"
+ },
+ "de rivier.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "rivier",
+    "河流"
+   ]
+  ],
+  "order": "名詞在前，這是單數定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'De' 的發音，可能會被弱讀。"
+ },
+ "de zwemles.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "zwemles",
+    "游泳課"
+   ]
+  ],
+  "order": "名詞在前，這是單數定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'De' 的發音，可能會被弱讀。"
+ },
+ "de kleren.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "kleren",
+    "衣服"
+   ]
+  ],
+  "order": "名詞在前，這是單數定冠詞。",
+  "grammar": "這是名詞短語，無特別時態。",
+  "listen": "注意 'De' 的發音，可能會被弱讀。"
+ },
+ "de handdoek.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "handdoek",
+    "毛巾"
+   ]
+  ],
+  "order": "名詞在句首，沒有動詞。",
+  "grammar": "這是名詞短語，沒有時態。",
+  "listen": "注意 'De' 的發音，可能會聽不清。"
+ },
+ "de haven.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "haven",
+    "港口"
+   ]
+  ],
+  "order": "名詞在句首，沒有動詞。",
+  "grammar": "這是名詞短語，沒有時態。",
+  "listen": "注意 'De' 的發音，可能會聽不清。"
+ },
+ "de badmeester.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "badmeester",
+    "救生員"
+   ]
+  ],
+  "order": "名詞在句首，沒有動詞。",
+  "grammar": "這是名詞短語，沒有時態。",
+  "listen": "注意 'De' 的發音，可能會聽不清。"
+ },
+ "het diploma.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "diploma",
+    "畢業證書"
+   ]
+  ],
+  "order": "名詞在句首，沒有動詞。",
+  "grammar": "這是名詞短語，沒有時態。",
+  "listen": "注意 'Het' 的發音，可能會聽不清。"
+ },
+ "het eiland.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "eiland",
+    "島嶼"
+   ]
+  ],
+  "order": "名詞在句首，沒有動詞。",
+  "grammar": "這是名詞短語，沒有時態。",
+  "listen": "注意 'Het' 的發音，可能會聽不清。"
+ },
+ "het meer.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "meer",
+    "湖泊"
+   ]
+  ],
+  "order": "名詞在句首，沒有動詞。",
+  "grammar": "這是名詞短語，沒有時態。",
+  "listen": "注意 'Het' 的發音，可能會聽不清。"
+ },
+ "douchen.": {
+  "breakdown": [
+   [
+    "Douchen",
+    "洗澡"
+   ]
+  ],
+  "order": "動詞在句首，沒有主詞。",
+  "grammar": "這是動詞不定式，沒有時態。",
+  "listen": "注意 'Douchen' 的發音，可能會聽不清。"
+ },
+ "de zee.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "zee",
+    "大海"
+   ]
+  ],
+  "order": "名詞在句首，沒有動詞。",
+  "grammar": "這是名詞短語，沒有時態。",
+  "listen": "注意 'De' 的發音，可能會聽不清。"
+ }
+}

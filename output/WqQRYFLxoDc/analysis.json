@@ -1,0 +1,707 @@
+{
+ "bekijk de video.": {
+  "breakdown": [
+   [
+    "Bekijk",
+    "觀看"
+   ],
+   [
+    "de video",
+    "影片"
+   ]
+  ],
+  "order": "動詞Bekijk(動詞#1) → 主詞(你)隱含 → 受詞de video。規則：命令句動詞放首位。",
+  "grammar": "命令句，動詞直接放句首。",
+  "listen": "Bekijk的k音可能不清楚。"
+ },
+ "lees de vraag.": {
+  "breakdown": [
+   [
+    "Lees",
+    "閱讀"
+   ],
+   [
+    "de vraag",
+    "問題"
+   ]
+  ],
+  "order": "動詞Lees(動詞#1) → 主詞(你)隱含 → 受詞de vraag。規則：命令句動詞放首位。",
+  "grammar": "命令句，動詞直接放句首。",
+  "listen": "Lees的s音可能被弱讀。"
+ },
+ "klik op het goede antwoord.": {
+  "breakdown": [
+   [
+    "Klik",
+    "點擊"
+   ],
+   [
+    "op",
+    "在"
+   ],
+   [
+    "het goede antwoord",
+    "正確答案"
+   ]
+  ],
+  "order": "動詞Klik(動詞#1) → 介詞op → 受詞het goede antwoord。規則：命令句動詞放首位，介詞在動詞後。",
+  "grammar": "命令句，動詞直接放句首。",
+  "listen": "Klik的k音可能不清楚。"
+ },
+ "lekker warm.": {
+  "breakdown": [
+   [
+    "Lekker",
+    "好"
+   ],
+   [
+    "warm",
+    "暖"
+   ]
+  ],
+  "order": "形容詞Lekker → 形容詞warm。規則：形容詞連用時順序不變。",
+  "grammar": "形容詞修飾名詞，這裡無名詞。",
+  "listen": "Lekker的l音可能被弱讀。"
+ },
+ "oh, oh, oh.": {
+  "breakdown": [
+   [
+    "Oh",
+    "喔"
+   ],
+   [
+    "oh",
+    "喔"
+   ],
+   [
+    "oh",
+    "喔"
+   ]
+  ],
+  "order": "感嘆詞Oh → 感嘆詞oh → 感嘆詞oh。規則：重複感嘆詞表達情感。",
+  "grammar": "感嘆詞，無特定文法結構。",
+  "listen": "Oh的發音可能連音。"
+ },
+ "laat maar eens kijken.": {
+  "breakdown": [
+   [
+    "Laat",
+    "讓"
+   ],
+   [
+    "maar eens",
+    "我看看"
+   ],
+   [
+    "kijken",
+    "看看"
+   ]
+  ],
+  "order": "動詞Laat(動詞#1) → 副詞maar eens → 動詞kijken(動詞#2)。規則：命令句動詞放首位，副詞在動詞後。",
+  "grammar": "命令句，動詞直接放句首。",
+  "listen": "Laat的t音可能不清楚。"
+ },
+ "maar wat kunnen we dan doen?": {
+  "breakdown": [
+   [
+    "Maar",
+    "但是"
+   ],
+   [
+    "wat",
+    "什麼"
+   ],
+   [
+    "kunnen",
+    "可以"
+   ],
+   [
+    "we",
+    "我們"
+   ],
+   [
+    "dan",
+    "那麼"
+   ],
+   [
+    "doen",
+    "做"
+   ]
+  ],
+  "order": "副詞Maar → 疑問詞wat → 動詞kunnen(動詞#1) → 主詞we → 副詞dan → 動詞doen(動詞#2)。規則：疑問句時，動詞在主詞前。",
+  "grammar": "疑問句，動詞在主詞前。",
+  "listen": "kunnen的n音可能被弱讀。"
+ },
+ "ja, ik weet het niet.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "weet",
+    "知道"
+   ],
+   [
+    "het niet",
+    "不"
+   ]
+  ],
+  "order": "副詞Ja → 主詞ik → 動詞weet(動詞#1) → 受詞het → 副詞niet。規則：主詞在動詞前，否定詞在句尾。",
+  "grammar": "簡單現在式，主詞+動詞+受詞。",
+  "listen": "ik的k音可能被弱讀。"
+ },
+ "nee, niet doen.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "niet",
+    "不要"
+   ],
+   [
+    "doen",
+    "做"
+   ]
+  ],
+  "order": "副詞Nee → 副詞niet → 動詞doen(動詞#1)。規則：否定詞在動詞前。",
+  "grammar": "命令句，動詞直接放句首。",
+  "listen": "Nee的n音可能被弱讀。"
+ },
+ "nee, nee, nee, niet die kleding van die brandwond aftrekken.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "nee",
+    "不"
+   ],
+   [
+    "nee",
+    "不"
+   ],
+   [
+    "niet",
+    "不要"
+   ],
+   [
+    "die kleding",
+    "那條衣服"
+   ],
+   [
+    "van die brandwond",
+    "燒傷"
+   ],
+   [
+    "aftrekken",
+    "拉下來"
+   ]
+  ],
+  "order": "副詞Nee → 副詞nee → 副詞nee → 副詞niet → 受詞die kleding → 介詞van → 受詞die brandwond → 動詞aftrekken(動詞#1)。規則：否定詞在動詞前，受詞在動詞後。",
+  "grammar": "命令句，動詞直接放句首。",
+  "listen": "die的d音可能不清楚。"
+ },
+ "oh, ik weet wat: een naald.": {
+  "breakdown": [
+   [
+    "Oh",
+    "喔"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "weet",
+    "知道"
+   ],
+   [
+    "wat",
+    "什麼"
+   ],
+   [
+    "een naald",
+    "一根針"
+   ]
+  ],
+  "order": "感嘆詞Oh → 主詞ik → 動詞weet(動詞#1) → 疑問詞wat → 受詞een naald。規則：主詞在動詞前，受詞在句尾。",
+  "grammar": "簡單現在式，主詞+動詞+受詞。",
+  "listen": "ik的k音可能被弱讀。"
+ },
+ "nee, je moet een brandblaar nooit doorprikken.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "je",
+    "你"
+   ],
+   [
+    "moet",
+    "必須"
+   ],
+   [
+    "een brandblaar",
+    "燒水泡"
+   ],
+   [
+    "nooit",
+    "絕對不"
+   ],
+   [
+    "doorprikken",
+    "戳破"
+   ]
+  ],
+  "order": "副詞Nee → 主詞je → 動詞moet(動詞#1) → 受詞een brandblaar → 副詞nooit → 動詞doorprikken(動詞#2)。規則：主詞在動詞前，否定詞在動詞前。",
+  "grammar": "簡單現在式，主詞+動詞+受詞。",
+  "listen": "je的j音可能被弱讀。"
+ },
+ "wat moeten we doen dan?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "moeten",
+    "必須"
+   ],
+   [
+    "we",
+    "我們"
+   ],
+   [
+    "doen",
+    "做"
+   ],
+   [
+    "dan",
+    "那"
+   ]
+  ],
+  "order": "疑問句：Wat(疑問詞) → moeten(動詞#1) → we(主詞) → doen(原形動詞) → dan(副詞)",
+  "grammar": "使用現在時態，表示當前的需求。",
+  "listen": "注意 'moeten' 和 'we' 之間的連音。"
+ },
+ "stil maar, meisje.": {
+  "breakdown": [
+   [
+    "Stil",
+    "安靜"
+   ],
+   [
+    "maar",
+    "但"
+   ],
+   [
+    "meisje",
+    "女孩"
+   ]
+  ],
+  "order": "命令句：Stil(動詞) → maar(連接詞) → meisje(受詞)",
+  "grammar": "命令句直接用動詞開頭，表達要求。",
+  "listen": "'Stil' 可能會被快速說成 'stil maar'，注意連音。"
+ },
+ "oh, liefje.": {
+  "breakdown": [
+   [
+    "Oh",
+    "喔"
+   ],
+   [
+    "liefje",
+    "親愛的"
+   ]
+  ],
+  "order": "感嘆句：Oh(感嘆詞) → liefje(主詞)",
+  "grammar": "感嘆句通常用簡單的語序，表達情感。",
+  "listen": "'Oh' 可能會被弱讀，注意聽清楚。"
+ },
+ "water, de rest komt later.": {
+  "breakdown": [
+   [
+    "Water",
+    "水"
+   ],
+   [
+    "de rest",
+    "其他"
+   ],
+   [
+    "komt",
+    "來"
+   ],
+   [
+    "later",
+    "稍後"
+   ]
+  ],
+  "order": "陳述句：Water(主詞) → de rest(受詞) → komt(動詞#2) → later(副詞)",
+  "grammar": "使用現在時態，表達即將發生的事情。",
+  "listen": "'komt' 可能會被快速說成 'komt later'，注意連音。"
+ },
+ "oh, water.": {
+  "breakdown": [
+   [
+    "Oh",
+    "喔"
+   ],
+   [
+    "water",
+    "水"
+   ]
+  ],
+  "order": "感嘆句：Oh(感嘆詞) → water(主詞)",
+  "grammar": "簡單的感嘆句，直接表達情感。",
+  "listen": "'Oh' 可能會被弱讀，注意聽清楚。"
+ },
+ "kom maar.": {
+  "breakdown": [
+   [
+    "Kom",
+    "來"
+   ],
+   [
+    "maar",
+    "吧"
+   ]
+  ],
+  "order": "命令句：Kom(動詞) → maar(副詞)",
+  "grammar": "命令句直接用動詞開頭，表達要求。",
+  "listen": "'Kom' 可能會被快速說成 'kom maar'，注意連音。"
+ },
+ "nee, niet koud.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "niet",
+    "不要"
+   ],
+   [
+    "koud",
+    "冷的"
+   ]
+  ],
+  "order": "否定句：Nee(否定詞) → niet(否定副詞) → koud(形容詞)",
+  "grammar": "使用否定詞和副詞來強調不希望的狀態。",
+  "listen": "'niet' 可能會被弱讀，注意聽清楚。"
+ },
+ "ook een beetje warm erbij.": {
+  "breakdown": [
+   [
+    "Ook",
+    "也"
+   ],
+   [
+    "een beetje",
+    "一些"
+   ],
+   [
+    "warm",
+    "溫"
+   ],
+   [
+    "erbij",
+    "加進來"
+   ]
+  ],
+  "order": "陳述句：Ook(副詞) → een beetje(受詞) → warm(形容詞) → erbij(副詞)",
+  "grammar": "使用現在時態，表達添加的要求。",
+  "listen": "'een beetje' 可能會被快速說成 'een beetje warm'，注意連音。"
+ },
+ "dat water moet lauw zijn.": {
+  "breakdown": [
+   [
+    "Dat",
+    "那"
+   ],
+   [
+    "water",
+    "水"
+   ],
+   [
+    "moet",
+    "必須"
+   ],
+   [
+    "lauwwarm",
+    "溫的"
+   ]
+  ],
+  "order": "陳述句：Dat(指示詞) → water(主詞) → moet(動詞#2) → lauwwarm(形容詞)",
+  "grammar": "使用現在時態，表達必須的狀態。",
+  "listen": "'moet' 可能會被快速說成 'moet lauw'，注意連音。"
+ },
+ "lauw water is beter.": {
+  "breakdown": [
+   [
+    "Lauw",
+    "溫"
+   ],
+   [
+    "water",
+    "水"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "beter",
+    "比較好"
+   ]
+  ],
+  "order": "陳述句：Lauw(形容詞) → water(主詞) → is(動詞#2) → beter(形容詞)",
+  "grammar": "使用現在時態，表達比較的狀態。",
+  "listen": "'is beter' 可能會被快速說成 'is beter'，注意連音。"
+ },
+ "nee, niet zo'n harde straal.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "niet",
+    "不要"
+   ],
+   [
+    "zo'n",
+    "那麼"
+   ],
+   [
+    "harde",
+    "強的"
+   ],
+   [
+    "straal",
+    "水柱"
+   ]
+  ],
+  "order": "否定句：Nee(否定詞) → niet(否定副詞) → zo'n(形容詞) → harde(形容詞) → straal(受詞)",
+  "grammar": "使用否定詞和副詞來強調不希望的狀態。",
+  "listen": "'niet' 可能會被弱讀，注意聽清楚。"
+ },
+ "een zachte straal, dat is goed.": {
+  "breakdown": [
+   [
+    "Een",
+    "一個"
+   ],
+   [
+    "zachte",
+    "柔和的"
+   ],
+   [
+    "straal",
+    "水柱"
+   ],
+   [
+    "dat",
+    "這樣"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "goed",
+    "好"
+   ]
+  ],
+  "order": "陳述句：Een(不定冠詞) → zachte(形容詞) → straal(主詞) → dat(指示詞) → is(動詞#2) → goed(形容詞)",
+  "grammar": "使用現在時態，表達狀態的描述。",
+  "listen": "'dat is goed' 可能會被快速說成 'dat is goed'，注意連音。"
+ },
+ "auw, mama, ik wil niet meer.": {
+  "breakdown": [
+   [
+    "Auw",
+    "哎呀"
+   ],
+   [
+    "mama",
+    "媽媽"
+   ],
+   [
+    "ik wil niet meer",
+    "我不要再弄了"
+   ]
+  ],
+  "order": "感嘆詞(Auw) → 主詞(ik) → 動詞(wil) → 否定(niet) → 其他(meer)",
+  "grammar": "使用現在式，表達當下的感受。",
+  "listen": "注意Auw和niet的連音。"
+ },
+ "ja.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ]
+  ],
+  "order": "簡單回答，直接用Ja。",
+  "grammar": "這是肯定的回答。",
+  "listen": "Ja的發音可能很快，注意聽清楚。"
+ },
+ "auw, ik wil niet meer.": {
+  "breakdown": [
+   [
+    "Auw",
+    "哎呀"
+   ],
+   [
+    "ik wil niet meer",
+    "我不要再弄了"
+   ]
+  ],
+  "order": "感嘆詞(Auw) → 主詞(ik) → 動詞(wil) → 否定(niet) → 其他(meer)",
+  "grammar": "現在式，表達當下的感受。",
+  "listen": "注意Auw和niet的連音。"
+ },
+ "ja, maar je moet het tenminste 15 minuten onderhouden.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "maar",
+    "但"
+   ],
+   [
+    "je moet het tenminste 15 minuten onderhouden",
+    "你至少要持續15分鐘"
+   ]
+  ],
+  "order": "主詞(je) → 動詞(moet) → 其他(het) → 副詞(tenminste) → 時間(15 minuten) → 動詞(onderhouden)",
+  "grammar": "使用現在式，表達建議。",
+  "listen": "注意je和moet的連音。"
+ },
+ "rustig.": {
+  "breakdown": [
+   [
+    "Rustig",
+    "慢慢來"
+   ]
+  ],
+  "order": "簡單指示，直接用Rustig。",
+  "grammar": "這是命令句。",
+  "listen": "注意Rustig的發音可能較輕。"
+ },
+ "zo.": {
+  "breakdown": [
+   [
+    "Zo",
+    "這樣"
+   ]
+  ],
+  "order": "簡單指示，直接用Zo。",
+  "grammar": "這是簡單的指示。",
+  "listen": "Zo的發音可能很快，注意聽清楚。"
+ },
+ "ja, dat is het.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "dat is het",
+    "就是這樣"
+   ]
+  ],
+  "order": "主詞(dat) → 動詞(is) → 其他(het)",
+  "grammar": "這是肯定句，表達確認。",
+  "listen": "注意dat和is的連音。"
+ },
+ "dat is het. dat is het. dat is het. leuk. vaf.": {
+  "breakdown": [
+   [
+    "Dat is het",
+    "就是這樣"
+   ],
+   [
+    "Dat is het",
+    "就是這樣"
+   ],
+   [
+    "Dat is het",
+    "就是這樣"
+   ],
+   [
+    "Leuk",
+    "很好"
+   ],
+   [
+    "Vaf",
+    "好了"
+   ]
+  ],
+  "order": "主詞(Dat) → 動詞(is) → 其他(het) → 形容詞(Leuk) → 簡單指示(Vaf)",
+  "grammar": "重複強調，使用現在式。",
+  "listen": "注意Dat和is的連音。"
+ },
+ "niet zo'n harde straal.": {
+  "breakdown": [
+   [
+    "Niet",
+    "不要"
+   ],
+   [
+    "zo'n harde straal",
+    "那麼強的水柱"
+   ]
+  ],
+  "order": "否定(Niet) → 其他(zo'n harde straal)",
+  "grammar": "使用現在式，表達要求。",
+  "listen": "注意Niet的發音可能較輕。"
+ },
+ "au mama, ik wil niet meer.": {
+  "breakdown": [
+   [
+    "Au",
+    "哎唷"
+   ],
+   [
+    "mama",
+    "媽媽"
+   ],
+   [
+    "ik wil niet meer",
+    "我不要再弄了"
+   ]
+  ],
+  "order": "感嘆詞(Au) → 主詞(ik) → 動詞(wil) → 否定(niet) → 其他(meer)",
+  "grammar": "現在式，表達當下的感受。",
+  "listen": "注意Au和niet的連音。"
+ },
+ "au, ik wil niet meer.": {
+  "breakdown": [
+   [
+    "Au",
+    "哎唷"
+   ],
+   [
+    "ik wil niet meer",
+    "我不要再弄了"
+   ]
+  ],
+  "order": "感嘆詞(Au) → 主詞(ik) → 動詞(wil) → 否定(niet) → 其他(meer)",
+  "grammar": "現在式，表達當下的感受。",
+  "listen": "注意Au和niet的連音。"
+ }
+}

@@ -1,0 +1,566 @@
+{
+ "tot zover mijn verhaal over onze school.": {
+  "breakdown": [
+   [
+    "Tot zover",
+    "到目前為止"
+   ],
+   [
+    "mijn verhaal",
+    "我的故事"
+   ],
+   [
+    "over onze school",
+    "關於我們學校"
+   ]
+  ],
+  "order": "Tot zover(時間) → is(動詞#2) → mijn verhaal(主詞) → over onze school(補充說明)",
+  "grammar": "使用現在時，表達目前的狀態。",
+  "listen": "注意'tot'和'zover'的連音。"
+ },
+ "mag ik je nog iets vragen?": {
+  "breakdown": [
+   [
+    "Mag ik",
+    "我可以"
+   ],
+   [
+    "je nog iets vragen",
+    "再問你一個問題"
+   ]
+  ],
+  "order": "Mag(動詞) → ik(主詞) → je(受詞) → nog iets vragen(補充)",
+  "grammar": "使用情態動詞'mag'表示請求。",
+  "listen": "注意'ik'和'je'的連音。"
+ },
+ "bieden jullie ook havo aan?": {
+  "breakdown": [
+   [
+    "Bieden jullie",
+    "你們提供"
+   ],
+   [
+    "ook HAVO aan",
+    "也HAVO課程"
+   ]
+  ],
+  "order": "Bieden(動詞) → jullie(主詞) → ook(副詞) → HAVO aan(補充)",
+  "grammar": "使用現在時，詢問學校的課程。",
+  "listen": "注意'jullie'的弱讀。"
+ },
+ "jazeker.": {
+  "breakdown": [
+   [
+    "Jazeker",
+    "當然可以"
+   ]
+  ],
+  "order": "Jazeker(回答)",
+  "grammar": "簡單的肯定回答。",
+  "listen": "注意'ja'和'zeker'的連音。"
+ },
+ "uw kind kan op onze school naar het vnbo, naar het havo en naar het vwo.": {
+  "breakdown": [
+   [
+    "Uw kind",
+    "您的孩子"
+   ],
+   [
+    "kan op onze school",
+    "可以在我們學校"
+   ],
+   [
+    "naar het VNBO, naar het HAVO en naar het VWO",
+    "就讀VNBO、HAVO和VWO"
+   ]
+  ],
+  "order": "Uw kind(主詞) → kan(動詞#2) → op onze school(地點) → naar het VNBO, naar het HAVO en naar het VWO(補充)",
+  "grammar": "使用現在時，表達可能性。",
+  "listen": "注意'kan'的弱讀。"
+ },
+ "het purmerland college is een grote school.": {
+  "breakdown": [
+   [
+    "Het Purmerland College",
+    "Purmerland學院"
+   ],
+   [
+    "is een grote school",
+    "是一所大學校"
+   ]
+  ],
+  "order": "Het Purmerland College(主詞) → is(動詞#2) → een grote school(補充)",
+  "grammar": "使用現在時，描述學校的特徵。",
+  "listen": "注意'een'的弱讀。"
+ },
+ "o ja?": {
+  "breakdown": [
+   [
+    "O ja",
+    "是嗎"
+   ]
+  ],
+  "order": "O ja(反應)",
+  "grammar": "簡單的驚訝反應。",
+  "listen": "注意'o'和'ja'的連音。"
+ },
+ "hoeveel leerlingen zitten er op deze school?": {
+  "breakdown": [
+   [
+    "Hoeveel leerlingen",
+    "多少學生"
+   ],
+   [
+    "zitten er op deze school",
+    "在這所學校就讀"
+   ]
+  ],
+  "order": "Hoeveel leerlingen(主詞) → zitten(動詞) → er(副詞) → op deze school(地點)",
+  "grammar": "使用現在時，詢問學生人數。",
+  "listen": "注意'hoeveel'的發音。"
+ },
+ "op onze school zitten ongeveer duizend leerlingen.": {
+  "breakdown": [
+   [
+    "Op onze school",
+    "在我們學校"
+   ],
+   [
+    "zitten ongeveer duizend leerlingen",
+    "大約有一千名學生"
+   ]
+  ],
+  "order": "Op onze school(地點) → zitten(動詞) → ongeveer duizend leerlingen(主詞)",
+  "grammar": "使用現在時，描述學生人數。",
+  "listen": "注意'zitten'的連音。"
+ },
+ "en kan mijn kind overstappen van vnbo naar havo op deze school?": {
+  "breakdown": [
+   [
+    "En kan mijn kind",
+    "而且我的孩子可以"
+   ],
+   [
+    "overstappen van VNBO naar HAVO",
+    "從VNBO轉到HAVO"
+   ]
+  ],
+  "order": "En(連接詞) → kan(動詞#2) → mijn kind(主詞) → overstappen van VNBO naar HAVO(補充)",
+  "grammar": "使用現在時，詢問轉學的可能性。",
+  "listen": "注意'kan'的弱讀。"
+ },
+ "jazeker, dat kan.": {
+  "breakdown": [
+   [
+    "Jazeker",
+    "當然可以"
+   ],
+   [
+    "dat kan",
+    "這是可以的"
+   ]
+  ],
+  "order": "Jazeker(回答) → dat(指示詞) → kan(動詞)",
+  "grammar": "簡單的肯定回答。",
+  "listen": "注意'ja'和'zeker'的連音。"
+ },
+ "bekijk de video.": {
+  "breakdown": [
+   [
+    "Bekijk de video",
+    "請觀看影片"
+   ]
+  ],
+  "order": "Bekijk(動詞) → de video(受詞)",
+  "grammar": "使用命令式，直接請求行動。",
+  "listen": "注意'Bekijk'的強調。"
+ },
+ "klik op het goede antwoord.": {
+  "breakdown": [
+   [
+    "Klik",
+    "點擊"
+   ],
+   [
+    "op",
+    "在"
+   ],
+   [
+    "het goede antwoord",
+    "正確的答案"
+   ]
+  ],
+  "order": "動詞(klik) → 介系詞(op) → 冠詞(het) → 形容詞(goede) → 名詞(antwoord)",
+  "grammar": "命令句，動詞放在句首。",
+  "listen": "注意 'het' 和 'goede' 的連音。"
+ },
+ "waarom moeten we deze school kiezen volgens u?": {
+  "breakdown": [
+   [
+    "Waarom",
+    "為什麼"
+   ],
+   [
+    "moeten we",
+    "我們必須"
+   ],
+   [
+    "deze school kiezen",
+    "選擇這所學校"
+   ],
+   [
+    "volgens u",
+    "根據您"
+   ]
+  ],
+  "order": "疑問詞(waarom) → 動詞(moeten) → 主詞(we) → 受詞(deze school kiezen) → 介系詞(volgens) → 代名詞(u)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "注意 'deze' 和 'school' 的連音。"
+ },
+ "nou, we hebben super goede docenten en ze houden van lesgeven en samen zorgen ze voor heel goed onderwijs.": {
+  "breakdown": [
+   [
+    "Nou",
+    "那麼"
+   ],
+   [
+    "we hebben",
+    "我們有"
+   ],
+   [
+    "super goede docenten",
+    "超優秀的老師"
+   ],
+   [
+    "en ze houden van lesgeven",
+    "他們熱愛教學"
+   ],
+   [
+    "en samen zorgen ze voor heel goed onderwijs",
+    "一起提供非常好的教育"
+   ]
+  ],
+  "order": "副詞(nou) → 主詞(we) → 動詞(hebben) → 受詞(super goede docenten) → 連接詞(en) → 主詞(ze) → 動詞(houden) → 受詞(van lesgeven) → 連接詞(en) → 主詞(ze) → 動詞(zorgen) → 受詞(voor heel goed onderwijs)",
+  "grammar": "現在式，描述事實。",
+  "listen": "注意 'super' 和 'goede' 的連音。"
+ },
+ "en waar moeten we op letten?": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "waar moeten we op letten",
+    "我們應該注意什麼"
+   ]
+  ],
+  "order": "連接詞(en) → 疑問詞(waar) → 動詞(moeten) → 主詞(we) → 介系詞(op) → 受詞(letten)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "注意 'waar' 和 'moeten' 的連音。"
+ },
+ "het is natuurlijk ook belangrijk wat uw kind van de school vindt.": {
+  "breakdown": [
+   [
+    "Het is natuurlijk ook belangrijk",
+    "當然也很重要的是"
+   ],
+   [
+    "wat uw kind van de school vindt",
+    "您的孩子對學校的看法"
+   ]
+  ],
+  "order": "主詞(het) → 動詞(is) → 副詞(natuurlijk) → 連接詞(ook) → 形容詞(belangrijk) → 受詞(wat uw kind van de school vindt)",
+  "grammar": "現在式，描述事實。",
+  "listen": "注意 'het' 和 'is' 的連音。"
+ },
+ "vindt hij het gebouw fijn?": {
+  "breakdown": [
+   [
+    "Vindt hij",
+    "他喜歡"
+   ],
+   [
+    "het gebouw fijn",
+    "這棟建築嗎"
+   ]
+  ],
+  "order": "動詞(vindt) → 主詞(hij) → 受詞(het gebouw fijn)",
+  "grammar": "現在式，詢問喜好。",
+  "listen": "注意 'het' 和 'gebouw' 的連音。"
+ },
+ "hoe vindt hij de sfeer in de school?": {
+  "breakdown": [
+   [
+    "Hoe",
+    "如何"
+   ],
+   [
+    "vindt hij",
+    "他覺得"
+   ],
+   [
+    "de sfeer in de school",
+    "學校的氣氛"
+   ]
+  ],
+  "order": "疑問詞(how) → 動詞(vindt) → 主詞(hij) → 受詞(de sfeer in de school)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "注意 'de' 和 'sfeer' 的連音。"
+ },
+ "en zijn er bijvoorbeeld andere kinderen van de basisschool die ook naar deze school gaan?": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "zijn er bijvoorbeeld",
+    "有例如"
+   ],
+   [
+    "andere kinderen van de basisschool",
+    "其他小學生"
+   ],
+   [
+    "die ook naar deze school gaan",
+    "也會來這所學校"
+   ]
+  ],
+  "order": "連接詞(en) → 主詞(zijn) → 動詞(er) → 副詞(bijvoorbeeld) → 受詞(andere kinderen van de basisschool) → 連接詞(die) → 副詞(ook) → 動詞(gaan) → 受詞(naar deze school)",
+  "grammar": "現在式，描述事實。",
+  "listen": "注意 'zijn' 和 'er' 的連音。"
+ },
+ "o ja.": {
+  "breakdown": [
+   [
+    "O ja",
+    "是的"
+   ]
+  ],
+  "order": "感嘆詞(O ja)",
+  "grammar": "感嘆句，表示同意。",
+  "listen": "注意 'O' 和 'ja' 的連音。"
+ },
+ "en wat is er verder nog belangrijk?": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "wat is er verder nog belangrijk",
+    "還有什麼其他重要的事情嗎"
+   ]
+  ],
+  "order": "連接詞(en) → 疑問詞(wat) → 動詞(is) → 副詞(er) → 受詞(verder nog belangrijk)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "注意 'wat' 和 'is' 的連音。"
+ },
+ "nou, u kunt kijken welke vakken een school aanbiedt.": {
+  "breakdown": [
+   [
+    "Nou",
+    "那麼"
+   ],
+   [
+    "u kunt kijken",
+    "您可以看看"
+   ],
+   [
+    "welke vakken een school aanbiedt",
+    "學校提供哪些科目"
+   ]
+  ],
+  "order": "副詞(nou) → 主詞(u) → 動詞(kunt) → 受詞(kijken) → 受詞(welke vakken een school aanbiedt)",
+  "grammar": "現在式，建議行動。",
+  "listen": "注意 'welke' 和 'vakken' 的連音。"
+ },
+ "zijn dat de vakken die uw kind later wil volgen?": {
+  "breakdown": [
+   [
+    "Zijn dat",
+    "這些是"
+   ],
+   [
+    "de vakken die uw kind later wil volgen",
+    "您的孩子將來想學習的科目"
+   ]
+  ],
+  "order": "主詞(zijn) → 動詞(dat) → 受詞(de vakken) → 連接詞(die) → 主詞(uw kind) → 副詞(later) → 動詞(wil) → 受詞(volgen)",
+  "grammar": "現在式，詢問未來計畫。",
+  "listen": "注意 'de' 和 'vakken' 的連音。"
+ },
+ "ja.": {
+  "breakdown": [
+   [
+    "Ja.",
+    "好的。"
+   ]
+  ],
+  "order": "主詞(省略) → 是(動詞) → 句尾。",
+  "grammar": "簡單句，無特殊文法。",
+  "listen": "注意 Ja 的發音，可能聽不清。"
+ },
+ "mag ik nog even rondkijken in de school?": {
+  "breakdown": [
+   [
+    "Mag ik",
+    "我可以"
+   ],
+   [
+    "nog even",
+    "再"
+   ],
+   [
+    "rondkijken",
+    "看看"
+   ],
+   [
+    "in de school?",
+    "在學校嗎？"
+   ]
+  ],
+  "order": "情態動詞(Mag) → 主詞(ik) → 動詞(rondkijken) → 其他。",
+  "grammar": "情態動詞在句首，動詞原形在句尾。",
+  "listen": "注意 nog 和 even 可能連音。"
+ },
+ "ja, natuurlijk. ik ga zometeen een rondleiding doen, dus loopt u maar mee.": {
+  "breakdown": [
+   [
+    "Ja, natuurlijk.",
+    "當然。"
+   ],
+   [
+    "Ik ga",
+    "我會"
+   ],
+   [
+    "zometeen",
+    "稍後"
+   ],
+   [
+    "een rondleiding doen,",
+    "帶您參觀，"
+   ],
+   [
+    "dus loopt u maar mee.",
+    "所以請跟我來。"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(ga) → 時間(zometeen) → 其他。",
+  "grammar": "未來式，動詞在第二位，其他在後。",
+  "listen": "注意 dus 和 loopt 可能連音。"
+ },
+ "en dan gaan we starten bij het vak verzorging. daar zijn de leerlingen net aan het koken.": {
+  "breakdown": [
+   [
+    "En dan",
+    "接著"
+   ],
+   [
+    "gaan we",
+    "我們會"
+   ],
+   [
+    "starten bij",
+    "從...開始"
+   ],
+   [
+    "het vak verzorging.",
+    "生活照顧課。"
+   ],
+   [
+    "Daar zijn de leerlingen",
+    "那裡的學生"
+   ],
+   [
+    "net aan het koken.",
+    "正在做飯。"
+   ]
+  ],
+  "order": "連接詞(En) → 動詞(gaan) → 主詞(we) → 其他。",
+  "grammar": "未來式，動詞在第二位，其他在後。",
+  "listen": "注意 aan 和 het 可能連音。"
+ },
+ "we hebben alle twee dagen een aantal van de dagen; mutigheid en een aantal vakken tot 11 of mutigheid en een aantal vakken tot 11 of 12 jaar of afdaling vanaf 13 maart.": {
+  "breakdown": [
+   [
+    "We hebben",
+    "我們有"
+   ],
+   [
+    "alle twee dagen",
+    "兩天中"
+   ],
+   [
+    "een aantal van de dagen;",
+    "幾天；"
+   ],
+   [
+    "Mutigheid en een aantal vakken",
+    "勇氣課和一些科目"
+   ],
+   [
+    "tot 11 of 12 jaar",
+    "到11或12歲，"
+   ],
+   [
+    "of afdaling vanaf 13 maart.",
+    "或從3月13日開始下降。"
+   ]
+  ],
+  "order": "主詞(We) → 動詞(hebben) → 其他。",
+  "grammar": "複雜句，包含多個子句。",
+  "listen": "注意 een aantal 可能被快速說出。"
+ },
+ "vindt u het gebouw fijn?": {
+  "breakdown": [
+   [
+    "Vindt u",
+    "您覺得"
+   ],
+   [
+    "het gebouw",
+    "這棟建築"
+   ],
+   [
+    "fijn?",
+    "如何？"
+   ]
+  ],
+  "order": "動詞(Vindt) → 主詞(u) → 其他。",
+  "grammar": "疑問句，動詞在句首。",
+  "listen": "注意 Vindt 和 u 可能連音。"
+ },
+ "hoe vindt u de sfeer in de school?": {
+  "breakdown": [
+   [
+    "Hoe vindt u",
+    "您覺得"
+   ],
+   [
+    "de sfeer",
+    "氣氛"
+   ],
+   [
+    "in de school?",
+    "在學校怎麼樣？"
+   ]
+  ],
+  "order": "疑問詞(Hoe) → 動詞(vindt) → 主詞(u) → 其他。",
+  "grammar": "疑問句，動詞在句首。",
+  "listen": "注意 Hoe 和 vindt 可能連音。"
+ },
+ "oh ja.": {
+  "breakdown": [
+   [
+    "Oh ja.",
+    "是的。"
+   ]
+  ],
+  "order": "主詞(省略) → 是(動詞) → 句尾。",
+  "grammar": "簡單句，無特殊文法。",
+  "listen": "注意 Oh 的發音，可能聽不清。"
+ }
+}

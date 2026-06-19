@@ -281,6 +281,13 @@ body.only-hard .line:not(.hard) { display:none; }
 .ptog.on { background:var(--amber); color:#0f172a; border-color:var(--amber); }
 .ptog .pn { opacity:.7; font-weight:600; }
 .phint { font-size:11px; color:#94a3b8; margin-left:auto; }
+.skiprow .skip { background:#334155; color:#e2e8f0; border:1px solid #475569; border-radius:8px;
+  padding:6px 11px; font-size:12px; font-weight:700; cursor:pointer; }
+.skiprow .skip:active { transform:scale(.92); }
+.ptog#mode-video, .ptog#mode-audio { margin-left:0; }
+#ytbox { margin:10px 0 4px; border-radius:12px; overflow:hidden; background:#000;
+  position:sticky; top:0; z-index:25; box-shadow:0 4px 18px rgba(0,0,0,.3); }
+#ytbox #ytplayer, #ytbox iframe { width:100%; aspect-ratio:16/9; height:auto; display:block; border:0; }
 /* question */
 .q { margin:12px 15px; border:1px solid #e5e7eb; border-radius:10px; overflow:hidden; }
 .q-h { background:#fef3c7; padding:9px 12px; display:flex; gap:8px; align-items:baseline;
@@ -491,12 +498,27 @@ const A = document.getElementById('aud');
 const pp = document.getElementById('pp'), fill = document.getElementById('fill');
 const tnow = document.getElementById('tnow'), bar = document.getElementById('bar');
 const fmt = s => (isNaN(s)?'0:00':Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0'));
+
+// ── Media shim: audio.mp3 by default, switchable to the embedded YouTube video.
+// Timestamps come from the audio transcription = same source, so they align. ──
+const YT_ID = /^[A-Za-z0-9_-]{11}$/.test(VID) ? VID : '';
+let ytP = null, ytReady = false, useYT = false;
+function mTime(){ if(useYT&&ytReady){ try{return ytP.getCurrentTime()||0}catch(e){} } return A.currentTime||0; }
+function mDur(){ if(useYT&&ytReady){ try{return ytP.getDuration()||0}catch(e){} } return A.duration||0; }
+function mSeek(t){ t=Math.max(0,t); if(useYT&&ytReady){ try{ytP.seekTo(t,true);return}catch(e){} } A.currentTime=t; }
+function mPlay(){ if(useYT&&ytReady){ try{ytP.playVideo();return}catch(e){} } A.play().catch(()=>{}); }
+function mPause(){ if(useYT&&ytReady){ try{ytP.pauseVideo();return}catch(e){} } A.pause(); }
+function mRate(v){ if(useYT&&ytReady){ try{ytP.setPlaybackRate(v)}catch(e){} } A.playbackRate=v; }
+function mPaused(){ if(useYT&&ytReady){ try{return ytP.getPlayerState()!==1}catch(e){return true} } return A.paused; }
+
 let _loop = null;
 function cancelLoop(){
   if(_loop){ _loop.line.classList.remove('looping'); _loop=null; }
   document.querySelectorAll('.lact.loop.on').forEach(b=>b.classList.remove('on'));
 }
-function play(sec){ cancelLoop(); if(sec>=0){ A.currentTime=sec; } A.play(); }
+function snapToCurrent(t){ const cur=lineAt(t); if(cur){ _userScrolledAt=0; cur.scrollIntoView({behavior:'smooth',block:'center'}); } }
+function play(sec){ cancelLoop(); if(sec>=0){ mSeek(sec); } mPlay(); snapToCurrent(sec>=0?sec:mTime()); }
+function skip(d){ mSeek(mTime()+d); }   // ⏪/⏩ re-listen
 function bindTS() {
   document.querySelectorAll('[data-t]:not(.bound)').forEach(el => {
     el.classList.add('bound');
@@ -514,11 +536,11 @@ function bindLineActs() {
     btn.addEventListener('click', e => {
       e.stopPropagation();
       const line = btn.closest('.line');
-      if (_loop && _loop.line === line) { cancelLoop(); A.pause(); return; }
+      if (_loop && _loop.line === line) { cancelLoop(); mPause(); return; }
       cancelLoop();
       _loop = { line, start: parseFloat(line.dataset.t), end: parseFloat(line.dataset.end) };
       btn.classList.add('on'); line.classList.add('looping', 'reveal');
-      A.currentTime = _loop.start; A.play();
+      mSeek(_loop.start); mPlay();
     });
   });
   document.querySelectorAll('.lact.star:not(.albound)').forEach(btn => {
@@ -565,13 +587,13 @@ function playWordLine(slow) {
   cancelLoop();
   if (_wpStop) { clearTimeout(_wpStop); _wpStop = null; }
   const rate = slow ? slow : (A.playbackRate || 1);
-  A.playbackRate = rate;
-  A.currentTime = st; A.play();
+  mRate(rate);
+  mSeek(st); mPlay();
   _wpLine.classList.add('reveal');
   const ms = (en - st) / rate * 1000 + 180;
   _wpStop = setTimeout(() => {
-    A.pause();
-    if (slow) A.playbackRate = parseFloat(localStorage.getItem('lph_playback_speed') || '1');
+    mPause();
+    if (slow) mRate(parseFloat(localStorage.getItem('lph_playback_speed') || '1'));
   }, Math.max(900, ms));
 }
 const HARD_KEY = 'lph_hard_lines:' + VID;
@@ -607,9 +629,30 @@ function initStudyTools(){
     };
   }
 }
-pp.onclick = ()=> A.paused ? A.play() : A.pause();
-A.onplay = ()=> pp.textContent='⏸';
-A.onpause= ()=> pp.textContent='▶';
+pp.onclick = ()=> mPaused() ? mPlay() : mPause();
+
+// ⏪/⏩ re-listen buttons + YouTube video toggle
+document.querySelectorAll('[data-skip]').forEach(b => b.onclick = ()=> skip(parseFloat(b.dataset.skip)));
+function loadYT(cb){
+  if(window.YT && window.YT.Player) return cb();
+  const prev = window.onYouTubeIframeAPIReady;
+  window.onYouTubeIframeAPIReady = ()=>{ if(prev) prev(); cb(); };
+  if(!document.getElementById('ytapi')){ const s=document.createElement('script'); s.id='ytapi'; s.src='https://www.youtube.com/iframe_api'; document.head.appendChild(s); }
+}
+function updModeBtns(){ const v=document.getElementById('mode-video'),a=document.getElementById('mode-audio');
+  if(v)v.classList.toggle('on',useYT); if(a)a.classList.toggle('on',!useYT); }
+function enableVideo(){
+  const box=document.getElementById('ytbox'); if(!box||!YT_ID) return;
+  box.style.display='block'; A.pause();
+  if(ytReady){ useYT=true; updModeBtns(); return; }
+  loadYT(()=>{ ytP=new YT.Player('ytplayer',{videoId:YT_ID,
+    playerVars:{playsinline:1,rel:0,modestbranding:1},
+    events:{onReady:()=>{ytReady=true; useYT=true; updModeBtns();}}}); });
+}
+function disableVideo(){ const box=document.getElementById('ytbox'); if(box) box.style.display='none';
+  if(ytP){ try{ytP.pauseVideo()}catch(e){} } useYT=false; updModeBtns(); }
+(function(){ const v=document.getElementById('mode-video'),a=document.getElementById('mode-audio');
+  if(v) v.onclick=enableVideo; if(a) a.onclick=disableVideo; })();
 
 // ── Karaoke follow-along: keep the current line centred during playback ──
 // Detect a GENUINE user scroll via wheel/touch only. (The old code watched the
@@ -636,34 +679,29 @@ function lineAt(t) {
   return cur;
 }
 let _lastCur = null;
-A.ontimeupdate = ()=>{
-  // Loop one sentence: jump back to its start when we reach its end.
-  if (_loop && A.currentTime >= _loop.end - 0.04) { A.currentTime = _loop.start; }
-  fill.style.width = (A.currentTime/A.duration*100||0)+'%';
-  tnow.textContent = fmt(A.currentTime)+' / '+fmt(A.duration);
-  const cur = lineAt(A.currentTime);
+// Unified sync tick — polls whichever media is active (audio OR YouTube), 150ms.
+function tick(){
+  const t = mTime(), d = mDur();
+  if (_loop && t >= _loop.end - 0.04) { mSeek(_loop.start); }
+  fill.style.width = (t/d*100||0)+'%';
+  tnow.textContent = fmt(t)+' / '+fmt(d);
+  pp.textContent = mPaused() ? '▶' : '⏸';
+  const cur = lineAt(t);
   document.querySelectorAll('.line.playing').forEach(l=>{ if(l!==cur) l.classList.remove('playing'); });
   if(cur && !cur.classList.contains('playing')) cur.classList.add('playing');
-  // Follow the current line when it changes during playback, unless the user
-  // scrolled by hand in the last 2.5s (then leave them alone to browse).
-  if (cur && cur !== _lastCur && !A.paused && Date.now() - _userScrolledAt > 2500) {
-    const rect = cur.getBoundingClientRect();
-    const vh = window.innerHeight;
+  if (cur && cur !== _lastCur && !mPaused() && Date.now() - _userScrolledAt > 2500) {
+    const rect = cur.getBoundingClientRect(), vh = window.innerHeight;
     if (rect.top < vh * 0.22 || rect.bottom > vh * 0.74) {
       cur.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }
   _lastCur = cur;
-};
-// On play/seek, snap to the current line so the user always knows where they are.
-A.addEventListener('play', () => {
-  const cur = lineAt(A.currentTime);
-  if (cur) { _userScrolledAt = 0; cur.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
-});
+}
+setInterval(tick, 150);
 bar.onclick = e=>{ const r=bar.getBoundingClientRect();
-  A.currentTime=(e.clientX-r.left)/r.width*A.duration; };
+  mSeek((e.clientX-r.left)/r.width*mDur()); };
 function applySpeed(v) {
-  A.playbackRate = v;
+  mRate(v);
   try { localStorage.setItem('lph_playback_speed', String(v)); } catch(e) {}
   document.querySelectorAll('.spd button').forEach(b =>
     b.classList.toggle('on', parseFloat(b.dataset.s) === v));
@@ -996,13 +1034,16 @@ def build(exam: dict) -> str:
     </div></header>""")
 
     # study mode (main content) ───────────────────────────
+    import re as _re
+    is_yt = bool(_re.match(r'^[A-Za-z0-9_-]{11}$', exam['video_id']))
     parts.append('<section data-mode-content="study"><div class="wrap">')
-    parts.append('<div class="howto"><b>📖 學習模式</b>：① 每題先選答案再按「對答案」'
-                 '——答對／答錯都會記下來、自動排進 SRS 複習。② 點任何<b>藍色時間戳</b>'
-                 '聽原音。③ 想模擬真考場壓力，切到「⏱️ 考場模式」。'
-                 '④ 隔幾天回來，「🎯 錯題複習」會把該複習的題目推給你。</div>')
+    parts.append('<div class="howto"><b>📖 學習模式</b>：點<b>藍色時間戳</b>或句子聽原音，'
+                 '字幕會跟著高亮。🙈 遮中文先用耳朵聽、🔁 循環單句、⏪ 倒退重聽、💡 看 AI 詳解。'
+                 + ('按 <b>📺 看影片</b> 可邊看 YouTube 邊練，字幕同步。' if is_yt else '') + '</div>')
     if exam.get('intro'):
         parts.append(f'<div class="howto">{esc(exam["intro"])}</div>')
+    if is_yt:
+        parts.append(f'<div id="ytbox" style="display:none"><div id="ytplayer"></div></div>')
     parts.append('</div>')
 
     for sc in exam['scenarios']:
@@ -1099,6 +1140,8 @@ def build(exam: dict) -> str:
                  '<div id="stats-body"></div></section>')
 
     # player ───────────────────────────
+    mode_btns = ('<button class="ptog" id="mode-video" title="看 YouTube 影片（字幕同步）">📺 看影片</button>'
+                 '<button class="ptog on" id="mode-audio" title="只聽音檔">🎧 音檔</button>') if is_yt else ''
     parts.append(f"""<div class="player"><div class="row">
       <button class="pp" id="pp">▶</button>
       <div class="bar" id="bar"><div class="fill" id="fill"></div></div>
@@ -1111,10 +1154,17 @@ def build(exam: dict) -> str:
         <button data-s="1.15">1.15×</button>
       </div>
     </div>
+    <div class="row2 skiprow">
+      <button class="skip" data-skip="-10" title="倒退 10 秒">⏪ 10s</button>
+      <button class="skip" data-skip="-5" title="倒退 5 秒">⏪ 5s</button>
+      <button class="skip" data-skip="5" title="快進 5 秒">5s ⏩</button>
+      <button class="skip" data-skip="10" title="快進 10 秒">10s ⏩</button>
+      {mode_btns}
+    </div>
     <div class="row2">
       <button class="ptog" id="tog-zh" title="先遮住中文用耳朵聽，再點句子對答案">🙈 遮中文</button>
       <button class="ptog" id="tog-hard" title="只顯示你標記★的難句，集中複習">★ 只看難句 <span class="pn" id="hard-n"></span></button>
-      <span class="phint" id="study-hint">🔁 循環單句 · ★ 標難句</span>
+      <span class="phint" id="study-hint">🔁 循環單句 · ⏪ 重聽</span>
     </div></div>
     <audio id="aud" src="audio.mp3" preload="metadata"></audio>
     <div id="wpop-ov" onclick="closeWordPop()"></div>

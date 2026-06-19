@@ -1,0 +1,278 @@
+{
+  "video_id": "WqQRYFLxoDc",
+  "video_info": {
+    "title": "Luisteren examen A2 Oefenen 8",
+    "channel": "Inburgeren examen A2",
+    "duration": 209
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Bekijk de video. Lees de vraag. Klik op het goede antwoord.",
+        "translation": "觀看影片。閱讀問題。點擊正確答案。",
+        "start": 0.0,
+        "end": 5.22
+      },
+      {
+        "text": "Lekker warm. Oh, oh, oh.",
+        "translation": "暖呼呼的。喔，喔，喔。",
+        "start": 17.44,
+        "end": 22.22
+      },
+      {
+        "text": "Laat maar eens kijken.",
+        "translation": "讓我看看。",
+        "start": 23.18,
+        "end": 24.4
+      },
+      {
+        "text": "Oh, oh, oh.",
+        "translation": "喔，喔，喔。",
+        "start": 35.74,
+        "end": 36.34
+      },
+      {
+        "text": "Bekijk de video. Lees de vraag.",
+        "translation": "觀看影片。閱讀問題。",
+        "start": 43.5,
+        "end": 46.7
+      },
+      {
+        "text": "Klik op het goede antwoord. Maar wat kunnen we dan doen?",
+        "translation": "點擊正確答案。但是我們可以做什麼呢？",
+        "start": 47.66,
+        "end": 52.38
+      },
+      {
+        "text": "Ja, ik weet het niet. Nee, niet doen.",
+        "translation": "是的，我不知道。不，不要做。",
+        "start": 53.0,
+        "end": 56.08
+      },
+      {
+        "text": "Nee, nee, nee, niet die kleding van die brandwond aftrekken.",
+        "translation": "不，不，不要把那條燒傷上的衣服拉下來。",
+        "start": 57.08,
+        "end": 60.02
+      },
+      {
+        "text": "Oh, ik weet wat: een naald.",
+        "translation": "喔，我知道了：一根針。",
+        "start": 62.56,
+        "end": 64.6
+      },
+      {
+        "text": "Nee, je moet een brandblaar nooit doorprikken.",
+        "translation": "不，你絕對不能戳破燒水泡。",
+        "start": 70.44,
+        "end": 73.52
+      },
+      {
+        "text": "Wat moeten we doen dan?",
+        "translation": "那我們該怎麼做？",
+        "start": 73.84,
+        "end": 74.62
+      },
+      {
+        "text": "Oh, oh, oh. Stil maar, meisje.",
+        "translation": "喔，喔，喔。安靜點，女孩。",
+        "start": 96.36,
+        "end": 99.68
+      },
+      {
+        "text": "Maar wat kunnen we dan doen? Oh, liefje.",
+        "translation": "但是我們該怎麼做？喔，親愛的。",
+        "start": 99.88,
+        "end": 102.86
+      },
+      {
+        "text": "Water, de rest komt later. Oh, water. Kom maar.",
+        "translation": "用水，其他的稍後再說。喔，水。過來吧。",
+        "start": 104.8,
+        "end": 109.18
+      },
+      {
+        "text": "Nee, niet koud. Ook een beetje warm erbij. Dat water moet lauw zijn.",
+        "translation": "不，可以不要冷的。也要加一些溫水。那水必須是溫的。",
+        "start": 111.4,
+        "end": 114.8
+      },
+      {
+        "text": "Lauw water is beter. Nee, niet zo'n harde straal.",
+        "translation": "溫水比較好。不要用那麼強的水柱。",
+        "start": 115.22,
+        "end": 118.98
+      },
+      {
+        "text": "Een zachte straal, dat is goed. Auw, mama, ik wil niet meer.",
+        "translation": "溫和的水柱，這樣很好。哎呀，媽媽，我不要再弄了。",
+        "start": 119.38,
+        "end": 124.06
+      },
+      {
+        "text": "Ja. Auw, ik wil niet meer. Ja, maar je moet het tenminste 15 minuten onderhouden.",
+        "translation": "是的。哎呀，我不要再弄了。但你至少要持續15分鐘。",
+        "start": 124.92,
+        "end": 130.4
+      },
+      {
+        "text": "Ja. Rustig.",
+        "translation": "是的。慢慢來。",
+        "start": 130.58,
+        "end": 132.08
+      },
+      {
+        "text": "Zo. Ja, dat is het.",
+        "translation": "這樣。是的，就是這樣。",
+        "start": 134.84,
+        "end": 172.1
+      },
+      {
+        "text": "Dat is het. Dat is het. Dat is het. Leuk. Vaf.",
+        "translation": "就是這樣，就是這樣，就是這樣。很好。好了。",
+        "start": 172.76,
+        "end": 176.02
+      },
+      {
+        "text": "Niet zo'n harde straal. Een zachte straal, dat is goed.",
+        "translation": "不要那麼強的水柱。溫和的水柱，這樣很好。",
+        "start": 176.02,
+        "end": 178.9
+      },
+      {
+        "text": "Au mama, ik wil niet meer. Au, ik wil niet meer.",
+        "translation": "哎唷，媽媽，我不要再弄了。哎唷，我不要再弄了。",
+        "start": 180.38,
+        "end": 185.62
+      },
+      {
+        "text": "Ja, maar je moet het tenminste 15 minuten onderhouden. Rustig.",
+        "translation": "是的，但你至少要持續15分鐘。慢慢來。",
+        "start": 186.44,
+        "end": 190.32
+      },
+      {
+        "text": "Zo.",
+        "translation": "這樣。",
+        "start": 193.02,
+        "end": 193.62
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat moet je nooit doen met een brandblaar?",
+        "question_native": "燒燙傷的水泡絕對不能做什麼？",
+        "options": [
+          "Die doorprikken",
+          "Met water koelen",
+          "Rustig doen"
+        ],
+        "answer": "Die doorprikken"
+      },
+      {
+        "question": "Hoe lang moet je een brandwond met water koelen?",
+        "question_native": "燒傷應該用水冷卻多久？",
+        "options": [
+          "Minstens 15 minuten",
+          "5 minuten",
+          "Een uur"
+        ],
+        "answer": "Minstens 15 minuten"
+      },
+      {
+        "question": "Wat voor water moet je gebruiken om een brandwond te koelen?",
+        "question_native": "用什麼樣的水來冷卻燒傷？",
+        "options": [
+          "Lauw water",
+          "Koud water",
+          "Heet water"
+        ],
+        "answer": "Lauw water"
+      },
+      {
+        "question": "Wat moet je doen met de kleding op een brandwond?",
+        "question_native": "燒傷上的衣服要怎麼處理？",
+        "options": [
+          "Niet aftrekken",
+          "Direct uittrekken",
+          "Wassen met zeep"
+        ],
+        "answer": "Niet aftrekken"
+      },
+      {
+        "question": "Waarom gebruik je geen harde waterstraal?",
+        "question_native": "為什麼不用強烈的水柱？",
+        "options": [
+          "Het doet pijn",
+          "Het koelt beter",
+          "Het droogt sneller"
+        ],
+        "answer": "Het doet pijn"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "brandwond",
+        "meaning": "燒燙傷"
+      },
+      {
+        "word": "brandblaar",
+        "meaning": "燒水泡"
+      },
+      {
+        "word": "doorprikken",
+        "meaning": "戳破"
+      },
+      {
+        "word": "koelen",
+        "meaning": "冷卻"
+      },
+      {
+        "word": "lauw water",
+        "meaning": "溫水"
+      },
+      {
+        "word": "harde straal",
+        "meaning": "強烈水柱"
+      },
+      {
+        "word": "zachte straal",
+        "meaning": "溫和水柱"
+      },
+      {
+        "word": "kleding",
+        "meaning": "衣服"
+      },
+      {
+        "word": "meisje",
+        "meaning": "女孩"
+      },
+      {
+        "word": "onderhouden",
+        "meaning": "持續執行"
+      },
+      {
+        "word": "rustig",
+        "meaning": "安靜，慢慢來"
+      },
+      {
+        "word": "vraag",
+        "meaning": "問題"
+      },
+      {
+        "word": "antwoord",
+        "meaning": "答案"
+      },
+      {
+        "word": "video",
+        "meaning": "影片"
+      },
+      {
+        "word": "oplossen",
+        "meaning": "解決（隱含）"
+      }
+    ]
+  }
+}

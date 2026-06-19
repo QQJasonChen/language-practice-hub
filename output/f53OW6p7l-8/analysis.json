@@ -1,0 +1,2732 @@
+{
+ "huisarts.": {
+  "breakdown": [
+   [
+    "Huisarts.",
+    "家庭醫生。"
+   ]
+  ],
+  "order": "名詞(Huisarts) → 句子結束。",
+  "grammar": "名詞單數形式。",
+  "listen": "注意發音，Huisarts的s音可能不清楚。"
+ },
+ "ben je ziek?": {
+  "breakdown": [
+   [
+    "Ben je",
+    "你是"
+   ],
+   [
+    "ziek?",
+    "生病嗎？"
+   ]
+  ],
+  "order": "動詞(Ben) → 主詞(je) → 形容詞(ziek) → 疑問句結尾。",
+  "grammar": "現在式疑問句。",
+  "listen": "je可能聽起來像'耶'。"
+ },
+ "ga naar je huisarts.": {
+  "breakdown": [
+   [
+    "Ga naar",
+    "去"
+   ],
+   [
+    "je huisarts.",
+    "你的家庭醫生。"
+   ]
+  ],
+  "order": "動詞(Ga) → 介系詞(naar) → 物件(je huisarts)。",
+  "grammar": "命令式，動詞在句首。",
+  "listen": "naar的發音可能連音。"
+ },
+ "een huisarts is een dokter bij jou in de buurt.": {
+  "breakdown": [
+   [
+    "Een huisarts",
+    "一位家庭醫生"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "een dokter",
+    "一位醫生"
+   ],
+   [
+    "bij jou in de buurt.",
+    "在你附近。"
+   ]
+  ],
+  "order": "主詞(Een huisarts) → 動詞(is) → 補語(一位醫生...)。",
+  "grammar": "現在式陳述句。",
+  "listen": "bij的發音可能不清楚。"
+ },
+ "de huisarts helpt jou als je ziek bent.": {
+  "breakdown": [
+   [
+    "De huisarts",
+    "家庭醫生"
+   ],
+   [
+    "helpt jou",
+    "幫助你"
+   ],
+   [
+    "als je ziek bent.",
+    "當你生病時。"
+   ]
+  ],
+  "order": "主詞(De huisarts) → 動詞(helpt) → 受詞(jou) → 從句(als...)。",
+  "grammar": "現在式，包含從句。",
+  "listen": "als的連音可能不易聽出。"
+ },
+ "bel je huisarts om een afspraak te maken.": {
+  "breakdown": [
+   [
+    "Bel",
+    "打電話"
+   ],
+   [
+    "je huisarts",
+    "你的家庭醫生"
+   ],
+   [
+    "om een afspraak te maken.",
+    "來預約。"
+   ]
+  ],
+  "order": "動詞(Bel) → 受詞(je huisarts) → 目的(om...)。",
+  "grammar": "命令式，包含不定詞。",
+  "listen": "om的發音可能被弱讀。"
+ },
+ "doktersassistent.": {
+  "breakdown": [
+   [
+    "Doktersassistent.",
+    "醫生助理。"
+   ]
+  ],
+  "order": "名詞(Doktersassistent) → 句子結束。",
+  "grammar": "名詞單數形式。",
+  "listen": "注意發音，可能不清楚。"
+ },
+ "als je de huisarts belt, spreek je eerst met de doktersassistent.": {
+  "breakdown": [
+   [
+    "Als je de huisarts belt,",
+    "如果你打電話給家庭醫生，"
+   ],
+   [
+    "spreek je eerst",
+    "你會先通話"
+   ],
+   [
+    "met de doktersassistent.",
+    "和醫生助理。"
+   ]
+  ],
+  "order": "從句(Als je...) → 主句(spreek je...)。",
+  "grammar": "包含從句，動詞在主句中第二位。",
+  "listen": "de的發音可能被弱讀。"
+ },
+ "de doktersassistent stelt vragen over je probleem.": {
+  "breakdown": [
+   [
+    "De doktersassistent",
+    "醫生助理"
+   ],
+   [
+    "stelt vragen",
+    "詢問問題"
+   ],
+   [
+    "over je probleem.",
+    "關於你的問題。"
+   ]
+  ],
+  "order": "主詞(De doktersassistent) → 動詞(stelt) → 受詞(vragen) → 介系詞(over...)。",
+  "grammar": "現在式陳述句。",
+  "listen": "vragen的發音可能不清楚。"
+ },
+ "zij maakt dan een afspraak met jou.": {
+  "breakdown": [
+   [
+    "Zij maakt dan",
+    "她然後會"
+   ],
+   [
+    "een afspraak",
+    "一個預約"
+   ],
+   [
+    "met jou.",
+    "和你。"
+   ]
+  ],
+  "order": "主詞(Zij) → 動詞(maakt) → 副詞(然後) → 受詞(一個預約) → 介系詞(met jou)。",
+  "grammar": "現在式，包含副詞。",
+  "listen": "dan的發音可能被弱讀。"
+ },
+ "huisartsenpost.": {
+  "breakdown": [
+   [
+    "Huisartsenpost.",
+    "家庭醫生急診中心。"
+   ]
+  ],
+  "order": "名詞(Huisartsenpost) → 句子結束。",
+  "grammar": "名詞單數形式。",
+  "listen": "注意發音，Huisartsen的s音可能不清楚。"
+ },
+ "bij de huisartsenpost werken dokters voor de avonden, nachten, weekenden en op feestdagen.": {
+  "breakdown": [
+   [
+    "Bij de huisartsenpost",
+    "在家庭醫生急診中心"
+   ],
+   [
+    "werken dokters",
+    "工作的是醫生"
+   ],
+   [
+    "voor de avonden, nachten, weekenden",
+    "在晚上、夜間、週末"
+   ],
+   [
+    "en op feestdagen.",
+    "及假日。"
+   ]
+  ],
+  "order": "介系詞(Bij) → 主詞(werken dokters) → 動詞(werken) → 其他(時間)。",
+  "grammar": "現在式陳述句，包含多個時間狀語。",
+  "listen": "bij的發音可能被弱讀。"
+ },
+ "vraag aan je huisarts het telefoonnummer van de huisartsenpost.": {
+  "breakdown": [
+   [
+    "Vraag",
+    "向...索取"
+   ],
+   [
+    "aan je huisarts",
+    "你的家庭醫生"
+   ],
+   [
+    "het telefoonnummer",
+    "電話號碼"
+   ],
+   [
+    "van de huisartsenpost",
+    "家庭醫生急診中心"
+   ]
+  ],
+  "order": "Vraag(動詞) → aan je huisarts(受詞) → het telefoonnummer(賓語) → van de huisartsenpost(修飾語)",
+  "grammar": "使用V2語序，動詞在句子第二位。",
+  "listen": "注意 'huisarts' 和 'huisartsenpost' 的連音。"
+ },
+ "verwijsbrief voor ziekenhuis.": {
+  "breakdown": [
+   [
+    "Verwijsbrief",
+    "轉診單"
+   ],
+   [
+    "voor ziekenhuis",
+    "給醫院"
+   ]
+  ],
+  "order": "Verwijsbrief(主詞) → voor ziekenhuis(修飾語)",
+  "grammar": "簡單名詞句，無動詞。",
+  "listen": "注意 'voor' 的弱讀。"
+ },
+ "soms geeft de huisarts jou een brief mee voor een speciale dokter in het ziekenhuis.": {
+  "breakdown": [
+   [
+    "Soms",
+    "有時"
+   ],
+   [
+    "geeft de huisarts",
+    "家庭醫生會給"
+   ],
+   [
+    "jou een brief mee",
+    "你一張轉診單"
+   ],
+   [
+    "voor een speciale dokter in het ziekenhuis",
+    "讓你去醫院看專科醫生"
+   ]
+  ],
+  "order": "Soms(副詞) → geeft(動詞) → de huisarts(主詞) → jou(受詞) → een brief mee(賓語) → voor een speciale dokter in het ziekenhuis(修飾語)",
+  "grammar": "使用V2語序，動詞在第二位。",
+  "listen": "注意 'geeft' 和 'huisarts' 的連音。"
+ },
+ "dat heet een verwijsbrief.": {
+  "breakdown": [
+   [
+    "Dat",
+    "這"
+   ],
+   [
+    "heet",
+    "叫做"
+   ],
+   [
+    "een verwijsbrief",
+    "轉診單"
+   ]
+  ],
+  "order": "Dat(主詞) → heet(動詞) → een verwijsbrief(賓語)",
+  "grammar": "簡單句，無複雜結構。",
+  "listen": "注意 'Dat' 的弱讀。"
+ },
+ "de speciale dokter noemen wij specialist.": {
+  "breakdown": [
+   [
+    "De speciale dokter",
+    "專科醫生"
+   ],
+   [
+    "noemen wij",
+    "我們稱為"
+   ],
+   [
+    "specialist",
+    "專科醫師"
+   ]
+  ],
+  "order": "De speciale dokter(主詞) → noemen(動詞) → wij(主詞) → specialist(賓語)",
+  "grammar": "使用V2語序，動詞在第二位。",
+  "listen": "注意 'speciale' 和 'specialist' 的連音。"
+ },
+ "zonder verwijsbrief kan je niet naar de specialist.": {
+  "breakdown": [
+   [
+    "Zonder verwijsbrief",
+    "沒有轉診單"
+   ],
+   [
+    "kan je niet",
+    "就不能"
+   ],
+   [
+    "naar de specialist",
+    "去看專科醫師"
+   ]
+  ],
+  "order": "Zonder verwijsbrief(修飾語) → kan(動詞) → je(主詞) → niet(副詞) → naar de specialist(賓語)",
+  "grammar": "使用V2語序，動詞在第二位。",
+  "listen": "注意 'kan' 和 'je' 的連音。"
+ },
+ "alarmbel 112.": {
+  "breakdown": [
+   [
+    "Alarmbel",
+    "報警電話"
+   ],
+   [
+    "112",
+    "112"
+   ]
+  ],
+  "order": "Alarmbel(主詞) → 112(賓語)",
+  "grammar": "簡單名詞句，無動詞。",
+  "listen": "注意 'Alarmbel' 的發音。"
+ },
+ "bel 112 als er groot gevaar is.": {
+  "breakdown": [
+   [
+    "Bel",
+    "打電話"
+   ],
+   [
+    "112",
+    "112"
+   ],
+   [
+    "als er groot gevaar is",
+    "如果有重大危險"
+   ]
+  ],
+  "order": "Bel(動詞) → 112(賓語) → als er groot gevaar is(從句)",
+  "grammar": "動詞放句首，從句動詞放句尾。",
+  "listen": "注意 'Bel' 的強調。"
+ },
+ "bijvoorbeeld er is brand of iemand heeft een zwaar ongeluk of mensen vechten en dreigen met wapens.": {
+  "breakdown": [
+   [
+    "Bijvoorbeeld",
+    "例如"
+   ],
+   [
+    "er is brand",
+    "發生火災"
+   ],
+   [
+    "of iemand heeft een zwaar ongeluk",
+    "或有人重大事故"
+   ],
+   [
+    "of mensen vechten en dreigen met wapens",
+    "或有人打架並持有武器"
+   ]
+  ],
+  "order": "Bijvoorbeeld(副詞) → er is brand(主詞+動詞) → of(連接詞) → iemand heeft een zwaar ongeluk(主詞+動詞) → of(連接詞) → mensen vechten en dreigen met wapens(主詞+動詞)",
+  "grammar": "使用多個從句，注意連接詞的使用。",
+  "listen": "注意 'Bijvoorbeeld' 的弱讀。"
+ },
+ "is er geen levensgevaar, bel dan de politie op nummer 0900 8844.": {
+  "breakdown": [
+   [
+    "Is er geen levensgevaar",
+    "如果沒有生命危險"
+   ],
+   [
+    "bel dan de politie",
+    "請撥打警方"
+   ],
+   [
+    "op nummer 0900 8844",
+    "電話 0900 8844"
+   ]
+  ],
+  "order": "Is er geen levensgevaar(從句) → bel(動詞) → dan(副詞) → de politie(賓語) → op nummer 0900 8844(修飾語)",
+  "grammar": "從句動詞放句尾，動詞放句首。",
+  "listen": "注意 'Is' 和 'er' 的連音。"
+ },
+ "medicijnen.": {
+  "breakdown": [
+   [
+    "Medicijnen",
+    "藥物"
+   ]
+  ],
+  "order": "Medicijnen(主詞)",
+  "grammar": "簡單名詞句，無動詞。",
+  "listen": "注意 'Medicijnen' 的發音。"
+ },
+ "de huisarts geeft je medicijnen.": {
+  "breakdown": [
+   [
+    "De huisarts",
+    "家庭醫生"
+   ],
+   [
+    "geeft je medicijnen",
+    "會給你藥物"
+   ]
+  ],
+  "order": "De huisarts(主詞) → geeft(動詞) → je(受詞) → medicijnen(賓語)",
+  "grammar": "使用V2語序，動詞在第二位。",
+  "listen": "注意 'geeft' 和 'je' 的連音。"
+ },
+ "soms geeft de huisarts geen medicijnen.": {
+  "breakdown": [
+   [
+    "Soms",
+    "有時"
+   ],
+   [
+    "geeft",
+    "給"
+   ],
+   [
+    "de huisarts",
+    "家庭醫生"
+   ],
+   [
+    "geen medicijnen",
+    "不會給藥"
+   ]
+  ],
+  "order": "Soms(時間) → geeft(動詞#2) → de huisarts(主詞) → geen medicijnen(受詞)",
+  "grammar": "現在式，主詞後的動詞在第二位。",
+  "listen": "注意 'geen' 可能會被弱讀。"
+ },
+ "voor griep en verkoudheid zijn er geen goede medicijnen.": {
+  "breakdown": [
+   [
+    "Voor griep en verkoudheid",
+    "對於感冒和流感"
+   ],
+   [
+    "zijn er",
+    "沒有"
+   ],
+   [
+    "geen goede medicijnen",
+    "好的藥物"
+   ]
+  ],
+  "order": "Voor griep en verkoudheid(主詞) → zijn(動詞#2) → er(存在詞) → geen goede medicijnen(受詞)",
+  "grammar": "現在式，'er' 用來表示存在。",
+  "listen": "'zijn er' 連音，可能聽不清。"
+ },
+ "paracetamol kan helpen.": {
+  "breakdown": [
+   [
+    "Paracetamol",
+    "對乙醯氨基酚"
+   ],
+   [
+    "kan helpen",
+    "可能有幫助"
+   ]
+  ],
+  "order": "Paracetamol(主詞) → kan(動詞#2) → helpen(原形動詞)",
+  "grammar": "情態動詞 'kan' 在第二位，原形動詞在句尾。",
+  "listen": "'kan helpen' 可能連音，注意聽。"
+ },
+ "apotheek. heb je een recept van de huisarts? op het recept staan de medicijnen die je nodig hebt.": {
+  "breakdown": [
+   [
+    "Apotheek",
+    "藥局"
+   ],
+   [
+    "Heb je",
+    "你有"
+   ],
+   [
+    "een recept van de huisarts",
+    "家庭醫生的處方"
+   ],
+   [
+    "Op het recept staan",
+    "處方上會有"
+   ],
+   [
+    "de medicijnen die je nodig hebt",
+    "你需要的藥物"
+   ]
+  ],
+  "order": "Apotheek(主詞) → Heb(動詞#2) → je(主詞) → een recept(受詞) → van de huisarts(修飾語)",
+  "grammar": "疑問句，動詞放在句首。",
+  "listen": "'Heb je' 可能聽不清，注意連音。"
+ },
+ "met het recept ga je naar de apotheek.": {
+  "breakdown": [
+   [
+    "Met het recept",
+    "憑處方"
+   ],
+   [
+    "ga je",
+    "你去"
+   ],
+   [
+    "naar de apotheek",
+    "藥局"
+   ]
+  ],
+  "order": "Met het recept(修飾語) → ga(動詞#2) → je(主詞) → naar de apotheek(受詞)",
+  "grammar": "現在式，'met' 引導的修飾語在句首。",
+  "listen": "'ga je' 可能連音，注意聽。"
+ },
+ "de apotheek geeft jou de medicijnen.": {
+  "breakdown": [
+   [
+    "De apotheek",
+    "藥局"
+   ],
+   [
+    "geeft jou",
+    "會給你"
+   ],
+   [
+    "de medicijnen",
+    "藥物"
+   ]
+  ],
+  "order": "De apotheek(主詞) → geeft(動詞#2) → jou(受詞) → de medicijnen(受詞)",
+  "grammar": "現在式，主詞後的動詞在第二位。",
+  "listen": "'geeft jou' 可能連音，注意聽。"
+ },
+ "drogist je kunt ook medicijnen bij de drogist kopen.": {
+  "breakdown": [
+   [
+    "Drogist",
+    "藥妝店"
+   ],
+   [
+    "Je kunt ook",
+    "你也可以"
+   ],
+   [
+    "medicijnen kopen",
+    "買藥"
+   ]
+  ],
+  "order": "Drogist(主詞) → Je(主詞) → kunt(動詞#2) → ook(副詞) → medicijnen kopen(受詞)",
+  "grammar": "情態動詞 'kunt' 在第二位，原形動詞在句尾。",
+  "listen": "'kunt ook' 可能連音，注意聽。"
+ },
+ "maar met een recept van de huisarts moet je altijd naar de apotheek.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "met een recept van de huisarts",
+    "有家庭醫生的處方"
+   ],
+   [
+    "moet je altijd",
+    "你一定要"
+   ],
+   [
+    "naar de apotheek",
+    "去藥局"
+   ]
+  ],
+  "order": "Maar(連接詞) → met een recept van de huisarts(修飾語) → moet(動詞#2) → je(主詞) → altijd(副詞) → naar de apotheek(受詞)",
+  "grammar": "現在式，'moet' 在第二位。",
+  "listen": "'moet je' 可能連音，注意聽。"
+ },
+ "tandarts.": {
+  "breakdown": [
+   [
+    "Tandarts",
+    "牙醫"
+   ]
+  ],
+  "order": "Tandarts(主詞)",
+  "grammar": "名詞，單獨使用。",
+  "listen": "注意 'Tandarts' 的發音。"
+ },
+ "de tandarts zorgt voor je tanden en kiezen.": {
+  "breakdown": [
+   [
+    "De tandarts",
+    "牙醫"
+   ],
+   [
+    "zorgt voor",
+    "照顧"
+   ],
+   [
+    "je tanden en kiezen",
+    "你的牙齒和臼齒"
+   ]
+  ],
+  "order": "De tandarts(主詞) → zorgt(動詞#2) → voor(介詞) → je tanden en kiezen(受詞)",
+  "grammar": "現在式，主詞後的動詞在第二位。",
+  "listen": "'zorgt voor' 可能連音，注意聽。"
+ },
+ "tanden en kiezen samen heten het gebit.": {
+  "breakdown": [
+   [
+    "Tanden en kiezen",
+    "牙齒和臼齒"
+   ],
+   [
+    "samen heten",
+    "合稱"
+   ],
+   [
+    "het gebit",
+    "牙齒"
+   ]
+  ],
+  "order": "Tanden en kiezen(主詞) → samen(副詞) → heten(動詞#2) → het gebit(受詞)",
+  "grammar": "現在式，主詞後的動詞在第二位。",
+  "listen": "'samen heten' 可能連音，注意聽。"
+ },
+ "een gezond gebit is belangrijk.": {
+  "breakdown": [
+   [
+    "Een gezond gebit",
+    "健康的牙齒"
+   ],
+   [
+    "is belangrijk",
+    "很重要"
+   ]
+  ],
+  "order": "Een gezond gebit(主詞) → is(動詞#2) → belangrijk(形容詞)",
+  "grammar": "現在式，主詞後的動詞在第二位。",
+  "listen": "'is belangrijk' 可能連音，注意聽。"
+ },
+ "poets daarom elke dag je tanden.": {
+  "breakdown": [
+   [
+    "Poets",
+    "刷"
+   ],
+   [
+    "daarom",
+    "因此"
+   ],
+   [
+    "elke dag",
+    "每天"
+   ],
+   [
+    "je tanden",
+    "你的牙齒"
+   ]
+  ],
+  "order": "因此(副詞) → 每天(時間) → 刷(動詞#1) → 你的牙齒(受詞)",
+  "grammar": "命令句，動詞在句首。",
+  "listen": "注意連音，'je' 可能聽起來像 'j'。"
+ },
+ "zorgverzekering.": {
+  "breakdown": [
+   [
+    "Zorgverzekering",
+    "健康保險"
+   ]
+  ],
+  "order": "健康保險(名詞)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'zorg' 和 'verzekering' 的連音。"
+ },
+ "in nederland heeft iedereen een zorgverzekering.": {
+  "breakdown": [
+   [
+    "In Nederland",
+    "在荷蘭"
+   ],
+   [
+    "heeft iedereen",
+    "每個人都有"
+   ],
+   [
+    "een zorgverzekering",
+    "一個健康保險"
+   ]
+  ],
+  "order": "在荷蘭(地點) → 每個人(主詞) → 有(動詞#2) → 一個健康保險(受詞)",
+  "grammar": "現在時，'heeft' 是動詞的變化形式。",
+  "listen": "'iedereen' 可能聽起來像 'iedereen'。"
+ },
+ "je betaalt iedere maand een bedrag voor de zorgverzekering. dat bedrag heet premie.": {
+  "breakdown": [
+   [
+    "Je betaalt",
+    "你支付"
+   ],
+   [
+    "iedere maand",
+    "每個月"
+   ],
+   [
+    "een bedrag",
+    "一筆金額"
+   ],
+   [
+    "voor de zorgverzekering",
+    "給健康保險"
+   ],
+   [
+    "Dat bedrag heet premie",
+    "這筆金額叫做保險費"
+   ]
+  ],
+  "order": "你(主詞) → 支付(動詞#2) → 每個月(時間) → 一筆金額(受詞) → 給健康保險(介詞短語) → 這筆金額(主詞) → 叫做(動詞) → 保險費(受詞)",
+  "grammar": "現在時，'betaalt' 是動詞的變化形式。",
+  "listen": "'iedere' 和 'maand' 之間的連音。"
+ },
+ "gezicht.": {
+  "breakdown": [
+   [
+    "Gezicht",
+    "臉部"
+   ]
+  ],
+  "order": "臉部(名詞)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'ge' 的發音。"
+ },
+ "het haar, het oor, het oog, de mond, de neus.": {
+  "breakdown": [
+   [
+    "Het haar",
+    "頭髮"
+   ],
+   [
+    "het oor",
+    "耳朵"
+   ],
+   [
+    "het oog",
+    "眼睛"
+   ],
+   [
+    "de mond",
+    "嘴巴"
+   ],
+   [
+    "de neus",
+    "鼻子"
+   ]
+  ],
+  "order": "頭髮(名詞) → 耳朵(名詞) → 眼睛(名詞) → 嘴巴(名詞) → 鼻子(名詞)",
+  "grammar": "名詞列表，無動詞。",
+  "listen": "注意 'het' 和 'de' 的使用。"
+ },
+ "lichaam voorkant.": {
+  "breakdown": [
+   [
+    "Lichaam voorkant",
+    "身體正面"
+   ]
+  ],
+  "order": "身體正面(名詞)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'voorkant' 的發音。"
+ },
+ "het hoofd, de nek, de borst, de buik.": {
+  "breakdown": [
+   [
+    "Het hoofd",
+    "頭"
+   ],
+   [
+    "de nek",
+    "脖子"
+   ],
+   [
+    "de borst",
+    "胸部"
+   ],
+   [
+    "de buik",
+    "腹部"
+   ]
+  ],
+  "order": "頭(名詞) → 脖子(名詞) → 胸部(名詞) → 腹部(名詞)",
+  "grammar": "名詞列表，無動詞。",
+  "listen": "注意 'de' 和 'het' 的使用。"
+ },
+ "de heup, het been, de knie.": {
+  "breakdown": [
+   [
+    "De heup",
+    "臀部"
+   ],
+   [
+    "het been",
+    "腿"
+   ],
+   [
+    "de knie",
+    "膝蓋"
+   ]
+  ],
+  "order": "臀部(名詞) → 腿(名詞) → 膝蓋(名詞)",
+  "grammar": "名詞列表，無動詞。",
+  "listen": "注意 'de' 和 'het' 的使用。"
+ },
+ "de voet.": {
+  "breakdown": [
+   [
+    "De voet",
+    "腳"
+   ]
+  ],
+  "order": "腳(名詞)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'voet' 的發音。"
+ },
+ "lichaam achterkant.": {
+  "breakdown": [
+   [
+    "Lichaam achterkant",
+    "身體背面"
+   ]
+  ],
+  "order": "身體背面(名詞)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'achterkant' 的發音。"
+ },
+ "de rug, de billen, het achterhoofd, de schouder.": {
+  "breakdown": [
+   [
+    "De rug",
+    "背"
+   ],
+   [
+    "de billen",
+    "臀部"
+   ],
+   [
+    "het achterhoofd",
+    "後腦勺"
+   ],
+   [
+    "de schouder",
+    "肩膀"
+   ]
+  ],
+  "order": "背(名詞) → 臀部(名詞) → 後腦勺(名詞) → 肩膀(名詞)",
+  "grammar": "名詞列表，無動詞。",
+  "listen": "注意 'de' 和 'het' 的使用。"
+ },
+ "de arm.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "arm",
+    "手臂"
+   ]
+  ],
+  "order": "主詞(De arm) → 動詞(無) → 形容詞(無)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'De' 的發音，可能聽不清。"
+ },
+ "de elleboog, de pols, de hand.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "elleboog",
+    "手肘"
+   ],
+   [
+    "de",
+    "這個"
+   ],
+   [
+    "pols",
+    "手腕"
+   ],
+   [
+    "de",
+    "這個"
+   ],
+   [
+    "hand",
+    "手"
+   ]
+  ],
+  "order": "主詞(De elleboog, de pols, de hand) → 動詞(無) → 形容詞(無)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'de' 的重複，可能漏聽。"
+ },
+ "ademen.": {
+  "breakdown": [
+   [
+    "Ademen",
+    "呼吸"
+   ]
+  ],
+  "order": "主詞(無) → 動詞(Ademen) → 形容詞(無)",
+  "grammar": "不定詞，無主詞。",
+  "listen": "注意 'Ademen' 的發音，可能聽不清。"
+ },
+ "de luchtpijp, de neus, de keel, de longen.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "luchtpijp",
+    "氣管"
+   ],
+   [
+    "de",
+    "這個"
+   ],
+   [
+    "neus",
+    "鼻子"
+   ],
+   [
+    "de",
+    "這個"
+   ],
+   [
+    "keel",
+    "喉嚨"
+   ],
+   [
+    "de",
+    "這個"
+   ],
+   [
+    "longen",
+    "肺"
+   ]
+  ],
+  "order": "主詞(De luchtpijp, de neus, de keel, de longen) → 動詞(無) → 形容詞(無)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'de' 的重複，可能漏聽。"
+ },
+ "eten.": {
+  "breakdown": [
+   [
+    "Eten",
+    "消化器官"
+   ]
+  ],
+  "order": "主詞(無) → 動詞(Eten) → 形容詞(無)",
+  "grammar": "不定詞，無主詞。",
+  "listen": "注意 'Eten' 的發音，可能聽不清。"
+ },
+ "de lever, de alvleesklier, de maag, de dikke darm.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "lever",
+    "肝臟"
+   ],
+   [
+    "de",
+    "這個"
+   ],
+   [
+    "alvleesklier",
+    "胰臟"
+   ],
+   [
+    "de",
+    "這個"
+   ],
+   [
+    "maag",
+    "胃"
+   ],
+   [
+    "de",
+    "這個"
+   ],
+   [
+    "dikke darm",
+    "大腸"
+   ]
+  ],
+  "order": "主詞(De lever, de alvleesklier, de maag, de dikke darm) → 動詞(無) → 形容詞(無)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'de' 的重複，可能漏聽。"
+ },
+ "de dunne darm.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "dunne darm",
+    "小腸"
+   ]
+  ],
+  "order": "主詞(De dunne darm) → 動詞(無) → 形容詞(無)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'De' 的發音，可能聽不清。"
+ },
+ "hart en bloedvaten.": {
+  "breakdown": [
+   [
+    "Hart",
+    "心臟"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "bloedvaten",
+    "血管"
+   ]
+  ],
+  "order": "主詞(Hart en bloedvaten) → 動詞(無) → 形容詞(無)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'en' 的連音，可能聽不清。"
+ },
+ "het hart, de bloedvaten.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "hart",
+    "心臟"
+   ],
+   [
+    "de",
+    "這個"
+   ],
+   [
+    "bloedvaten",
+    "血管"
+   ]
+  ],
+  "order": "主詞(Het hart, de bloedvaten) → 動詞(無) → 形容詞(無)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意 'Het' 的發音，可能聽不清。"
+ },
+ "bewegen.": {
+  "breakdown": [
+   [
+    "Bewegen",
+    "運動"
+   ]
+  ],
+  "order": "主詞(無) → 動詞(Bewegen) → 形容詞(無)",
+  "grammar": "不定詞，無主詞。",
+  "listen": "注意 'Bewegen' 的發音，可能聽不清。"
+ },
+ "veel bewegen is gezond.": {
+  "breakdown": [
+   [
+    "Veel",
+    "多"
+   ],
+   [
+    "bewegen",
+    "運動"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "gezond",
+    "健康"
+   ]
+  ],
+  "order": "主詞(Veel bewegen) → 動詞(is) → 形容詞(gezond)",
+  "grammar": "主詞+動詞+形容詞結構。",
+  "listen": "注意 'is' 的弱讀，可能聽不清。"
+ },
+ "bewegen geeft energie.": {
+  "breakdown": [
+   [
+    "Bewegen",
+    "運動"
+   ],
+   [
+    "geeft",
+    "提供"
+   ],
+   [
+    "energie",
+    "能量"
+   ]
+  ],
+  "order": "主詞(Bewegen) → 動詞(geeft) → 受詞(energie)",
+  "grammar": "主詞+動詞+受詞結構。",
+  "listen": "注意 'geeft' 的發音，可能聽不清。"
+ },
+ "het is goed om elke dag een half uur te bewegen, zoals lopen, voetballen en fietsen.": {
+  "breakdown": [
+   [
+    "Het is goed",
+    "這很好"
+   ],
+   [
+    "om elke dag",
+    "每天"
+   ],
+   [
+    "een half uur te bewegen",
+    "運動半小時"
+   ],
+   [
+    "zoals lopen, voetballen en fietsen",
+    "比如走路、踢足球和騎腳踏車"
+   ]
+  ],
+  "order": "主詞(Het) → 動詞(is) → 形容詞(goede) → 不定詞(om) → 時間(每一天) → 量詞(一半小時) → 動詞(運動) → 例子(如…)",
+  "grammar": "使用不定詞結構，動詞在第二位。",
+  "listen": "注意 'is' 和 'goed' 之間的連音。"
+ },
+ "water drinken.": {
+  "breakdown": [
+   [
+    "Water",
+    "水"
+   ],
+   [
+    "drinken",
+    "喝"
+   ]
+  ],
+  "order": "主詞(Water) → 動詞(drinken)",
+  "grammar": "這是簡單的命令句，動詞在句首。",
+  "listen": "注意 'drinken' 的發音，可能聽不清。"
+ },
+ "water is goed voor je lichaam.": {
+  "breakdown": [
+   [
+    "Water",
+    "水"
+   ],
+   [
+    "is goed voor",
+    "對…有益"
+   ],
+   [
+    "je lichaam",
+    "你的身體"
+   ]
+  ],
+  "order": "主詞(Water) → 動詞(is) → 形容詞(goed) → 介詞(voor) → 受詞(je lichaam)",
+  "grammar": "這是簡單的陳述句，動詞在第二位。",
+  "listen": "注意 'is' 和 'goed' 之間的連音。"
+ },
+ "je hebt misschien niet zoveel dorst, toch is het goed om water te drinken.": {
+  "breakdown": [
+   [
+    "Je hebt misschien niet zoveel dorst",
+    "你可能不太口渴"
+   ],
+   [
+    "Toch is het goed om water te drinken",
+    "但是喝水是好的"
+   ]
+  ],
+  "order": "主詞(Je) → 動詞(hebt) → 副詞(misschien) → 否定詞(niet) → 量詞(zoveel dorst) → 連接詞(但是) → 動詞(is) → 形容詞(goed) → 不定詞(om water te drinken)",
+  "grammar": "使用可能性表達，動詞在第二位。",
+  "listen": "注意 'niet' 可能被弱讀。"
+ },
+ "drink elke dag zes glazen water.": {
+  "breakdown": [
+   [
+    "Drink",
+    "喝"
+   ],
+   [
+    "elke dag",
+    "每天"
+   ],
+   [
+    "zes glazen water",
+    "六杯水"
+   ]
+  ],
+  "order": "動詞(Drink) → 時間(elke dag) → 量詞(zes glazen) → 受詞(water)",
+  "grammar": "這是命令句，動詞在句首。",
+  "listen": "注意 'zes' 和 'glazen' 之間的連音。"
+ },
+ "vet is ongezond.": {
+  "breakdown": [
+   [
+    "Vet",
+    "脂肪"
+   ],
+   [
+    "is ongezond",
+    "是不健康的"
+   ]
+  ],
+  "order": "主詞(Vet) → 動詞(is) → 形容詞(ongezond)",
+  "grammar": "這是簡單的陳述句，動詞在第二位。",
+  "listen": "注意 'is' 和 'ongezond' 之間的連音。"
+ },
+ "veel vet eten is ongezond.": {
+  "breakdown": [
+   [
+    "Veel vet eten",
+    "吃太多脂肪"
+   ],
+   [
+    "is ongezond",
+    "是不健康的"
+   ]
+  ],
+  "order": "主詞(Veel vet eten) → 動詞(is) → 形容詞(ongezond)",
+  "grammar": "這是簡單的陳述句，動詞在第二位。",
+  "listen": "注意 'veel' 和 'vet' 之間的連音。"
+ },
+ "bijvoorbeeld patat is heel vet.": {
+  "breakdown": [
+   [
+    "Bijvoorbeeld",
+    "比如"
+   ],
+   [
+    "patat",
+    "薯條"
+   ],
+   [
+    "is heel vet",
+    "是很油脂的"
+   ]
+  ],
+  "order": "副詞(Bijvoorbeeld) → 主詞(patat) → 動詞(is) → 副詞(heel) → 形容詞(vet)",
+  "grammar": "這是簡單的陳述句，動詞在第二位。",
+  "listen": "注意 'is' 和 'heel' 之間的連音。"
+ },
+ "patat met mayonaise is nog veel vetter.": {
+  "breakdown": [
+   [
+    "Patat met mayonaise",
+    "薯條加美乃滋"
+   ],
+   [
+    "is nog veel vetter",
+    "更油脂"
+   ]
+  ],
+  "order": "主詞(Patat met mayonaise) → 動詞(is) → 副詞(nog) → 形容詞(veel vetter)",
+  "grammar": "這是簡單的陳述句，動詞在第二位。",
+  "listen": "注意 'nog' 的弱讀。"
+ },
+ "vetten in vis.": {
+  "breakdown": [
+   [
+    "Vetten",
+    "脂肪"
+   ],
+   [
+    "in vis",
+    "在魚類中"
+   ]
+  ],
+  "order": "主詞(Vetten) → 介詞(in) → 受詞(vis)",
+  "grammar": "這是簡單的陳述句，動詞省略。",
+  "listen": "注意 'in' 和 'vis' 之間的連音。"
+ },
+ "olijfolie en noten zijn wel gezond.": {
+  "breakdown": [
+   [
+    "Olijfolie en noten",
+    "橄欖油和堅果"
+   ],
+   [
+    "zijn wel gezond",
+    "是健康的"
+   ]
+  ],
+  "order": "主詞(Olijfolie en noten) → 動詞(zijn) → 副詞(wel) → 形容詞(gezond)",
+  "grammar": "這是簡單的陳述句，動詞在第二位。",
+  "listen": "注意 'zijn' 和 'wel' 之間的連音。"
+ },
+ "suiker.": {
+  "breakdown": [
+   [
+    "Suiker",
+    "糖"
+   ]
+  ],
+  "order": "主詞(Suiker)",
+  "grammar": "這是名詞句，沒有動詞。",
+  "listen": "注意 'Suiker' 的發音。"
+ },
+ "pas op met suiker.": {
+  "breakdown": [
+   [
+    "Pas op",
+    "小心"
+   ],
+   [
+    "met suiker",
+    "糖"
+   ]
+  ],
+  "order": "小心 → 動詞(ops) → 介詞(met) → 名詞(suiker)",
+  "grammar": "命令句，動詞放句首。",
+  "listen": "注意 'suiker' 的發音，可能會被忽略。"
+ },
+ "suiker is ongezond.": {
+  "breakdown": [
+   [
+    "Suiker",
+    "糖"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "ongezond",
+    "不健康的"
+   ]
+  ],
+  "order": "主詞(Suiker) → 動詞(is) → 形容詞(ongezond)",
+  "grammar": "簡單現在式，主詞後接動詞。",
+  "listen": "注意 'is' 的連音，可能聽不清。"
+ },
+ "suiker is heel slecht voor je gebit.": {
+  "breakdown": [
+   [
+    "Suiker",
+    "糖"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "heel slecht",
+    "非常有害"
+   ],
+   [
+    "voor je gebit",
+    "對你的牙齒"
+   ]
+  ],
+  "order": "主詞(Suiker) → 動詞(is) → 形容詞(heel slecht) → 介詞(voor) → 代名詞(je) → 名詞(gabit)",
+  "grammar": "簡單現在式，主詞後接動詞。",
+  "listen": "注意 'heel' 和 'slecht' 的連音。"
+ },
+ "van suiker word je dik.": {
+  "breakdown": [
+   [
+    "Van suiker",
+    "吃糖"
+   ],
+   [
+    "word",
+    "會"
+   ],
+   [
+    "je dik",
+    "你變胖"
+   ]
+  ],
+  "order": "介詞(Van) → 名詞(suiker) → 動詞(word) → 代名詞(je) → 形容詞(dik)",
+  "grammar": "簡單現在式，主詞後接動詞。",
+  "listen": "注意 'word' 的發音，可能會被忽略。"
+ },
+ "in drinken zit vaak veel suiker.": {
+  "breakdown": [
+   [
+    "In drinken",
+    "在飲料裡"
+   ],
+   [
+    "zit",
+    "含有"
+   ],
+   [
+    "vaak veel suiker",
+    "通常很多糖"
+   ]
+  ],
+  "order": "介詞(In) → 名詞(drinken) → 動詞(zit) → 副詞(vaak) → 形容詞(viel) → 名詞(suiker)",
+  "grammar": "簡單現在式，主詞後接動詞。",
+  "listen": "注意 'zit' 的弱讀，可能聽不清。"
+ },
+ "drink daarom liever water zonder suiker.": {
+  "breakdown": [
+   [
+    "Drink",
+    "喝"
+   ],
+   [
+    "daarom",
+    "因此"
+   ],
+   [
+    "liever water",
+    "最好水"
+   ],
+   [
+    "zonder suiker",
+    "不加糖"
+   ]
+  ],
+  "order": "動詞(Drink) → 副詞(daarom) → 形容詞(liever) → 名詞(water) → 介詞(zonder) → 名詞(suiker)",
+  "grammar": "命令句，動詞放句首。",
+  "listen": "注意 'liever' 的發音，可能會被忽略。"
+ },
+ "gezond eten.": {
+  "breakdown": [
+   [
+    "Gezond",
+    "健康"
+   ],
+   [
+    "eten",
+    "飲食"
+   ]
+  ],
+  "order": "形容詞(Gezond) → 名詞(eten)",
+  "grammar": "名詞短語，形容詞在前。",
+  "listen": "注意 'Gezond' 的發音，可能聽不清。"
+ },
+ "gezond eten is belangrijk.": {
+  "breakdown": [
+   [
+    "Gezond eten",
+    "健康飲食"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "belangrijk",
+    "重要"
+   ]
+  ],
+  "order": "主詞(Gezond eten) → 動詞(is) → 形容詞(belangrijk)",
+  "grammar": "簡單現在式，主詞後接動詞。",
+  "listen": "注意 'is' 的連音，可能聽不清。"
+ },
+ "eet veel groenten zoals aardappelen, knoflook, persiebonen, courgette.": {
+  "breakdown": [
+   [
+    "Eet",
+    "多吃"
+   ],
+   [
+    "veel groenten",
+    "很多蔬菜"
+   ],
+   [
+    "zoals",
+    "如"
+   ],
+   [
+    "aardappelen",
+    "馬鈴薯"
+   ],
+   [
+    "knoflook",
+    "大蒜"
+   ],
+   [
+    "persiebonen",
+    "甜豆"
+   ],
+   [
+    "courgette",
+    "節瓜"
+   ]
+  ],
+  "order": "動詞(Eet) → 副詞(veel) → 名詞(groenten) → 介詞(zolang) → 名詞(各種蔬菜)",
+  "grammar": "命令句，動詞放句首。",
+  "listen": "注意 'zoals' 的發音，可能聽不清。"
+ },
+ "radijs.": {
+  "breakdown": [
+   [
+    "Radijs",
+    "小蘿蔔"
+   ]
+  ],
+  "order": "名詞(Radijs)",
+  "grammar": "單一名詞，無其他文法重點。",
+  "listen": "注意 'Radijs' 的發音，可能聽不清。"
+ },
+ "paprika, prei, tomaten, wortels, groene peper.": {
+  "breakdown": [
+   [
+    "Paprika",
+    "甜椒"
+   ],
+   [
+    "prei",
+    "韭蔥"
+   ],
+   [
+    "tomaten",
+    "番茄"
+   ],
+   [
+    "wortels",
+    "胡蘿蔔"
+   ],
+   [
+    "groene peper",
+    "青辣椒"
+   ]
+  ],
+  "order": "名詞(Paprika) → 名詞(prei) → 名詞(tomaten) → 名詞(wortels) → 名詞(groene peper)",
+  "grammar": "名詞列舉，無其他文法重點。",
+  "listen": "注意各名詞的連音，可能聽不清。"
+ },
+ "groene kool.": {
+  "breakdown": [
+   [
+    "Groene kool",
+    "青高麗菜"
+   ]
+  ],
+  "order": "名詞(Groene kool)",
+  "grammar": "單一名詞，無其他文法重點。",
+  "listen": "注意 'Groene' 的發音，可能聽不清。"
+ },
+ "uien, broccoli.": {
+  "breakdown": [
+   [
+    "Uien",
+    "洋蔥"
+   ],
+   [
+    "broccoli",
+    "西蘭花"
+   ]
+  ],
+  "order": "名詞並列：Uien(洋蔥) → , → broccoli(西蘭花)",
+  "grammar": "名詞並列，兩個名詞用逗號分開。",
+  "listen": "注意連音，可能聽成 'Uienbroccoli'。"
+ },
+ "aubergine, pompoen.": {
+  "breakdown": [
+   [
+    "Aubergine",
+    "茄子"
+   ],
+   [
+    "pompoen",
+    "南瓜"
+   ]
+  ],
+  "order": "名詞並列：Aubergine(茄子) → , → pompoen(南瓜)",
+  "grammar": "名詞並列，兩個名詞用逗號分開。",
+  "listen": "注意連音，可能聽成 'Auberginepompoen'。"
+ },
+ "komkommer, puntpaprika.": {
+  "breakdown": [
+   [
+    "Komkommer",
+    "小黃瓜"
+   ],
+   [
+    "puntpaprika",
+    "甜椒"
+   ]
+  ],
+  "order": "名詞並列：Komkommer(小黃瓜) → , → puntpaprika(甜椒)",
+  "grammar": "名詞並列，兩個名詞用逗號分開。",
+  "listen": "注意連音，可能聽成 'Komkommerpuntpaprika'。"
+ },
+ "chinese kool, rode uien.": {
+  "breakdown": [
+   [
+    "Chinese kool",
+    "白菜"
+   ],
+   [
+    "rode uien",
+    "紅洋蔥"
+   ]
+  ],
+  "order": "名詞並列：Chinese kool(白菜) → , → rode uien(紅洋蔥)",
+  "grammar": "名詞並列，兩個名詞用逗號分開。",
+  "listen": "注意連音，可能聽成 'Chinese koolrode uien'。"
+ },
+ "gember.": {
+  "breakdown": [
+   [
+    "Gember",
+    "薑"
+   ]
+  ],
+  "order": "單一名詞：Gember(薑)",
+  "grammar": "單一名詞，無需逗號。",
+  "listen": "注意發音，可能聽成 'Gember'。"
+ },
+ "eet elke dag fruit, zoals citroen, druiven.": {
+  "breakdown": [
+   [
+    "Eet",
+    "吃"
+   ],
+   [
+    "elke dag",
+    "每天"
+   ],
+   [
+    "fruit",
+    "水果"
+   ],
+   [
+    "zoals",
+    "例如"
+   ],
+   [
+    "Citroen",
+    "檸檬"
+   ],
+   [
+    "druiven",
+    "葡萄"
+   ]
+  ],
+  "order": "主詞+動詞：Eet(吃) → elke dag(每天) → fruit(水果) → , → zoals(例如) → Citroen(檸檬) → , → druiven(葡萄)",
+  "grammar": "命令句，動詞在句首。",
+  "listen": "注意 'elke dag' 可能被快速連讀。"
+ },
+ "aardbeien, pinda's.": {
+  "breakdown": [
+   [
+    "Aardbeien",
+    "草莓"
+   ],
+   [
+    "pinda's",
+    "花生"
+   ]
+  ],
+  "order": "名詞並列：Aardbeien(草莓) → , → pinda's(花生)",
+  "grammar": "名詞並列，兩個名詞用逗號分開。",
+  "listen": "注意連音，可能聽成 'Aardbeienpinda's'。"
+ },
+ "appel, pruim.": {
+  "breakdown": [
+   [
+    "Appel",
+    "蘋果"
+   ],
+   [
+    "pruim",
+    "李子"
+   ]
+  ],
+  "order": "名詞並列：Appel(蘋果) → , → pruim(李子)",
+  "grammar": "名詞並列，兩個名詞用逗號分開。",
+  "listen": "注意連音，可能聽成 'Appelpruim'。"
+ },
+ "noten, peer.": {
+  "breakdown": [
+   [
+    "Noten",
+    "堅果"
+   ],
+   [
+    "peer",
+    "梨"
+   ]
+  ],
+  "order": "名詞並列：Noten(堅果) → , → peer(梨)",
+  "grammar": "名詞並列，兩個名詞用逗號分開。",
+  "listen": "注意連音，可能聽成 'Notenpeer'。"
+ },
+ "mandarijn, banaan.": {
+  "breakdown": [
+   [
+    "Mandarijn",
+    "橘子"
+   ],
+   [
+    "banaan",
+    "香蕉"
+   ]
+  ],
+  "order": "名詞並列：Mandarijn(橘子) → , → banaan(香蕉)",
+  "grammar": "名詞並列，兩個名詞用逗號分開。",
+  "listen": "注意連音，可能聽成 'Mandarijnbanaan'。"
+ },
+ "kiwi, meloen.": {
+  "breakdown": [
+   [
+    "Kiwi",
+    "奇異果"
+   ],
+   [
+    "meloen",
+    "哈密瓜"
+   ]
+  ],
+  "order": "名詞並列：Kiwi(奇異果) → , → meloen(哈密瓜)",
+  "grammar": "名詞並列，兩個名詞用逗號分開。",
+  "listen": "注意連音，可能聽成 'Kiwimeloen'。"
+ },
+ "kersen, bosbessen.": {
+  "breakdown": [
+   [
+    "Kersen",
+    "櫻桃"
+   ],
+   [
+    "bosbessen",
+    "藍莓"
+   ]
+  ],
+  "order": "名詞並列：Kersen(櫻桃) → , → bosbessen(藍莓)",
+  "grammar": "名詞並列，兩個名詞用逗號分開。",
+  "listen": "注意連音，可能聽成 'Kersenbosbessen'。"
+ },
+ "appel, frambozen.": {
+  "breakdown": [
+   [
+    "Appel",
+    "蘋果"
+   ],
+   [
+    "frambozen",
+    "覆盆子"
+   ]
+  ],
+  "order": "名詞並列：Appel(蘋果) → frambozen(覆盆子)。規則：用逗號分隔兩個名詞。",
+  "grammar": "名詞的單數和複數形式。",
+  "listen": "注意 frambozen 的發音，可能聽不清楚。"
+ },
+ "abrikoos, pitten.": {
+  "breakdown": [
+   [
+    "Abrikoos",
+    "杏子"
+   ],
+   [
+    "pitten",
+    "籽"
+   ]
+  ],
+  "order": "名詞並列：Abrikoos(杏子) → pitten(籽)。規則：用逗號分隔兩個名詞。",
+  "grammar": "名詞的單數和複數形式。",
+  "listen": "注意 pitten 的發音，可能聽不清楚。"
+ },
+ "sinaasappel.": {
+  "breakdown": [
+   [
+    "Sinaasappel",
+    "柳橙"
+   ]
+  ],
+  "order": "單一名詞：Sinaasappel(柳橙)。規則：直接說出名詞。",
+  "grammar": "名詞的單數形式。",
+  "listen": "注意 Sinaasappel 的發音，可能聽不清楚。"
+ },
+ "vijg.": {
+  "breakdown": [
+   [
+    "Vijg",
+    "無花果"
+   ]
+  ],
+  "order": "單一名詞：Vijg(無花果)。規則：直接說出名詞。",
+  "grammar": "名詞的單數形式。",
+  "listen": "注意 Vijg 的發音，可能聽不清楚。"
+ },
+ "eet minder vlees.": {
+  "breakdown": [
+   [
+    "Eet",
+    "少吃"
+   ],
+   [
+    "minder",
+    "更少"
+   ],
+   [
+    "vlees",
+    "肉"
+   ]
+  ],
+  "order": "命令句：Eet(吃) → minder(更少) → vlees(肉)。規則：動詞在句首，後面接形容詞和名詞。",
+  "grammar": "命令句的用法。",
+  "listen": "注意 Eet 的發音，可能聽不清楚。"
+ },
+ "eet voedsel van granen, die niet helemaal fijn gemaakt zijn.": {
+  "breakdown": [
+   [
+    "Eet",
+    "吃"
+   ],
+   [
+    "voedsel",
+    "食物"
+   ],
+   [
+    "van granen",
+    "來自穀物"
+   ],
+   [
+    "die niet helemaal fijn gemaakt zijn",
+    "沒有完全精製的"
+   ]
+  ],
+  "order": "命令句：Eet(吃) → voedsel(食物) → van granen(來自穀物) → die niet helemaal fijn gemaakt zijn(沒有完全精製的)。規則：動詞在句首，後面接名詞和修飾語。",
+  "grammar": "命令句的用法，包含關係子句。",
+  "listen": "注意 niet 和 helemaal 的連音，可能聽不清楚。"
+ },
+ "dat heet volkoren.": {
+  "breakdown": [
+   [
+    "Dat",
+    "這"
+   ],
+   [
+    "heet",
+    "叫"
+   ],
+   [
+    "volkoren",
+    "全穀類"
+   ]
+  ],
+  "order": "簡單句：Dat(這) → heet(叫) → volkoren(全穀類)。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在時的用法。",
+  "listen": "注意 heet 的發音，可能聽不清楚。"
+ },
+ "de schijf van vijf laat zien wat je lichaam nodig heeft.": {
+  "breakdown": [
+   [
+    "De schijf van vijf",
+    "五大類飲食建議"
+   ],
+   [
+    "laat zien",
+    "顯示"
+   ],
+   [
+    "wat je lichaam nodig heeft",
+    "你的身體所需"
+   ]
+  ],
+  "order": "簡單句：De schijf van vijf(五大類飲食建議) → laat zien(顯示) → wat je lichaam nodig heeft(你的身體所需)。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在時的用法。",
+  "listen": "注意 laat 和 zien 的連音，可能聽不清楚。"
+ },
+ "groente en fruit.": {
+  "breakdown": [
+   [
+    "Groente",
+    "蔬菜"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "fruit",
+    "水果"
+   ]
+  ],
+  "order": "名詞並列：Groente(蔬菜) → en(和) → fruit(水果)。規則：用連接詞連接兩個名詞。",
+  "grammar": "名詞的單數和複數形式。",
+  "listen": "注意 en 的發音，可能聽不清楚。"
+ },
+ "smeer- en bereidingsvetten.": {
+  "breakdown": [
+   [
+    "Smeer-",
+    "抹塗"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "bereidingsvetten",
+    "烹飪用油脂"
+   ]
+  ],
+  "order": "名詞並列：Smeer-(抹塗) → en(和) → bereidingsvetten(烹飪用油脂)。規則：用連接詞連接兩個名詞。",
+  "grammar": "名詞的單數和複數形式。",
+  "listen": "注意 Smeer- 的連音，可能聽不清楚。"
+ },
+ "vis, pulse, vlees.": {
+  "breakdown": [
+   [
+    "Vis",
+    "魚"
+   ],
+   [
+    "pulse",
+    "豆類"
+   ],
+   [
+    "vlees",
+    "肉"
+   ]
+  ],
+  "order": "名詞並列：Vis(魚) → pulse(豆類) → vlees(肉)。規則：用逗號分隔三個名詞。",
+  "grammar": "名詞的單數和複數形式。",
+  "listen": "注意 pulse 的發音，可能聽不清楚。"
+ },
+ "ei, zuivel en noten.": {
+  "breakdown": [
+   [
+    "Ei",
+    "蛋"
+   ],
+   [
+    "zuivel",
+    "乳製品"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "noten",
+    "堅果"
+   ]
+  ],
+  "order": "名詞並列：Ei(蛋) → zuivel(乳製品) → en(和) → noten(堅果)。規則：用連接詞連接三個名詞。",
+  "grammar": "名詞的單數和複數形式。",
+  "listen": "注意 en 的發音，可能聽不清楚。"
+ },
+ "brood, graanproducten en aardappel.": {
+  "breakdown": [
+   [
+    "Brood",
+    "麵包"
+   ],
+   [
+    "graanproducten",
+    "穀物製品"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "aardappel",
+    "馬鈴薯"
+   ]
+  ],
+  "order": "名詞並列：Brood → graanproducten → en → aardappel。規則：用 'en' 連接名詞。",
+  "grammar": "名詞並列，無特別時態或動詞。",
+  "listen": "注意 'en' 的連音，可能聽不清。"
+ },
+ "dranken.": {
+  "breakdown": [
+   [
+    "Dranken",
+    "飲料"
+   ]
+  ],
+  "order": "單一名詞：Dranken。規則：簡單直接，無需其他成分。",
+  "grammar": "名詞，無動詞或時態。",
+  "listen": "'Dranken' 的結尾可能被弱讀。"
+ },
+ "stress.": {
+  "breakdown": [
+   [
+    "Stress",
+    "壓力"
+   ]
+  ],
+  "order": "單一名詞：Stress。規則：簡單直接，無需其他成分。",
+  "grammar": "名詞，無動詞或時態。",
+  "listen": "'Stress' 的發音可能不清晰。"
+ },
+ "stress betekent spanning.": {
+  "breakdown": [
+   [
+    "Stress",
+    "壓力"
+   ],
+   [
+    "betekent",
+    "意味著"
+   ],
+   [
+    "spanning",
+    "緊張"
+   ]
+  ],
+  "order": "主詞→動詞→補語：Stress → betekent → spanning。規則：動詞在第二位。",
+  "grammar": "現在時，動詞 'betekent' 是主要動詞。",
+  "listen": "注意 'betekent' 的發音，可能被弱讀。"
+ },
+ "van veel spanning krijg je problemen.": {
+  "breakdown": [
+   [
+    "Van veel spanning",
+    "過多的緊張"
+   ],
+   [
+    "krijg je",
+    "會引起"
+   ],
+   [
+    "problemen",
+    "問題"
+   ]
+  ],
+  "order": "介系詞片語→動詞→主詞→補語：Van veel spanning → krijg → je → problemen。規則：動詞在第二位。",
+  "grammar": "現在時，動詞 'krijg' 是主要動詞。",
+  "listen": "'krijg je' 可能連音，聽不清。"
+ },
+ "bijvoorbeeld slecht slapen of hoofdpijn.": {
+  "breakdown": [
+   [
+    "Bijvoorbeeld",
+    "例如"
+   ],
+   [
+    "slecht slapen",
+    "睡不好"
+   ],
+   [
+    "of",
+    "或"
+   ],
+   [
+    "hoofdpijn",
+    "頭痛"
+   ]
+  ],
+  "order": "副詞→名詞→連接詞→名詞：Bijvoorbeeld → slecht slapen → of → hoofdpijn。規則：用 'of' 連接選項。",
+  "grammar": "名詞短語，無動詞或時態。",
+  "listen": "'slecht slapen' 可能被快速說出，聽不清。"
+ },
+ "omgaan met stress.": {
+  "breakdown": [
+   [
+    "Omgaan met",
+    "面對"
+   ],
+   [
+    "stress",
+    "壓力"
+   ]
+  ],
+  "order": "動詞片語→名詞：Omgaan met → stress。規則：動詞片語在前。",
+  "grammar": "動詞片語，無時態或主詞。",
+  "listen": "'Omgaan met' 可能連音，聽不清。"
+ },
+ "het is goed om iets te doen als je stress hebt.": {
+  "breakdown": [
+   [
+    "Het is goed",
+    "這很好"
+   ],
+   [
+    "om iets te doen",
+    "做點什麼"
+   ],
+   [
+    "als je stress hebt",
+    "當你有壓力時"
+   ]
+  ],
+  "order": "主詞→動詞→補語→從句：Het → is → goed → om iets te doen → als je stress hebt。規則：從句動詞在句尾。",
+  "grammar": "現在時，'is' 是主要動詞。",
+  "listen": "'Het is' 可能被快速說出，聽不清。"
+ },
+ "bijvoorbeeld sporten.": {
+  "breakdown": [
+   [
+    "Bijvoorbeeld",
+    "例如"
+   ],
+   [
+    "sporten",
+    "運動"
+   ]
+  ],
+  "order": "副詞→動詞：Bijvoorbeeld → sporten。規則：簡單直接，無需其他成分。",
+  "grammar": "動詞，無時態或主詞。",
+  "listen": "'sporten' 的發音可能不清晰。"
+ },
+ "op tijd naar bed gaan en op tijd uit bed komen.": {
+  "breakdown": [
+   [
+    "Op tijd",
+    "準時"
+   ],
+   [
+    "naar bed gaan",
+    "睡覺"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "op tijd uit bed komen",
+    "準時起床"
+   ]
+  ],
+  "order": "副詞→動詞片語→連接詞→動詞片語：Op tijd → naar bed gaan → en → op tijd uit bed komen。規則：用 'en' 連接兩個動作。",
+  "grammar": "動詞片語，無時態或主詞。",
+  "listen": "注意 'op tijd' 的連音，可能聽不清。"
+ },
+ "naar de markt gaan.": {
+  "breakdown": [
+   [
+    "Naar de markt gaan",
+    "去市場"
+   ]
+  ],
+  "order": "動詞片語：Naar de markt gaan。規則：簡單直接，無需其他成分。",
+  "grammar": "動詞片語，無時態或主詞。",
+  "listen": "'Naar de markt' 可能被快速說出，聽不清。"
+ },
+ "muziek maken, kleding maken.": {
+  "breakdown": [
+   [
+    "Muziek maken",
+    "做音樂"
+   ],
+   [
+    "kleding maken",
+    "做衣服"
+   ]
+  ],
+  "order": "動詞片語→連接詞→動詞片語：Muziek maken → en → kleding maken。規則：用 'en' 連接兩個動作。",
+  "grammar": "動詞片語，無時態或主詞。",
+  "listen": "注意 'Muziek maken' 的連音，可能聽不清。"
+ },
+ "koken, fiets.": {
+  "breakdown": [
+   [
+    "Koken",
+    "煮飯"
+   ],
+   [
+    "fiets",
+    "騎腳踏車"
+   ]
+  ],
+  "order": "動詞Koken(煮飯) → 動詞fiets(騎腳踏車)",
+  "grammar": "這是名詞短語，無特定時態或動詞變化。",
+  "listen": "注意Koken和fiets之間的停頓。"
+ },
+ "door het park wandelen.": {
+  "breakdown": [
+   [
+    "Door",
+    "在"
+   ],
+   [
+    "het park",
+    "公園"
+   ],
+   [
+    "wandelen",
+    "散步"
+   ]
+  ],
+  "order": "介系詞Door(在) → 定冠詞het(這) → 名詞park(公園) → 動詞wandelen(散步)",
+  "grammar": "這是介系詞短語，無特定時態。",
+  "listen": "注意Door和het之間的連音。"
+ },
+ "mijn hoofd zit vol.": {
+  "breakdown": [
+   [
+    "Mijn hoofd",
+    "我腦袋"
+   ],
+   [
+    "zit vol",
+    "好滿"
+   ]
+  ],
+  "order": "主詞Mijn hoofd(我腦袋) → 動詞zit(坐) → 形容詞vol(滿)",
+  "grammar": "現在式，動詞zit是主動詞。",
+  "listen": "注意zit的發音，可能聽不清。"
+ },
+ "heb je heel veel stress?": {
+  "breakdown": [
+   [
+    "Heb je",
+    "你有"
+   ],
+   [
+    "heel veel stress",
+    "很多壓力"
+   ]
+  ],
+  "order": "助動詞Heb(有) → 主詞je(你) → 副詞heel veel(很多) → 名詞stress(壓力)",
+  "grammar": "現在式，助動詞在句首。",
+  "listen": "注意Heb的發音，可能被弱讀。"
+ },
+ "kan je niet stoppen met denken?": {
+  "breakdown": [
+   [
+    "Kan je",
+    "你能"
+   ],
+   [
+    "niet stoppen",
+    "不停止"
+   ],
+   [
+    "met denken",
+    "思考"
+   ]
+  ],
+  "order": "情態動詞Kan(能) → 主詞je(你) → 副詞niet(不) → 動詞stoppen(停止) → 介系詞met(與) → 動詞denken(思考)",
+  "grammar": "情態動詞句型，動詞stoppen和denken分開。",
+  "listen": "注意niet的發音，可能被弱讀。"
+ },
+ "lig je ’s nachts veel wakker?": {
+  "breakdown": [
+   [
+    "Lig je",
+    "你躺"
+   ],
+   [
+    "’s nachts",
+    "晚上"
+   ],
+   [
+    "veel wakker",
+    "常常醒著"
+   ]
+  ],
+  "order": "動詞Lig(躺) → 主詞je(你) → 時間副詞’s nachts(晚上) → 副詞veel(常常) → 形容詞wakker(醒著)",
+  "grammar": "現在式，動詞Lig是主動詞。",
+  "listen": "注意Lig的發音，可能聽不清。"
+ },
+ "praat met anderen.": {
+  "breakdown": [
+   [
+    "Praat",
+    "談"
+   ],
+   [
+    "met anderen",
+    "和別人"
+   ]
+  ],
+  "order": "動詞Praat(談) → 介系詞met(和) → 名詞anderen(別人)",
+  "grammar": "這是祈使句，動詞在句首。",
+  "listen": "注意Praat的發音，可能聽不清。"
+ },
+ "praat met familie, vrienden of met de huisarts.": {
+  "breakdown": [
+   [
+    "Praat",
+    "談"
+   ],
+   [
+    "met familie",
+    "和家人"
+   ],
+   [
+    "vrienden",
+    "朋友"
+   ],
+   [
+    "of met de huisarts",
+    "或和家庭醫師"
+   ]
+  ],
+  "order": "動詞Praat(談) → 介系詞met(和) → 名詞familie(家人) → 名詞vrienden(朋友) → 連接詞of(或) → 介系詞met(和) → 名詞de huisarts(家庭醫師)",
+  "grammar": "這是祈使句，動詞在句首。",
+  "listen": "注意met的發音，可能聽不清。"
+ },
+ "roken, alcohol en drugs.": {
+  "breakdown": [
+   [
+    "Roken",
+    "抽菸"
+   ],
+   [
+    "alcohol",
+    "喝酒"
+   ],
+   [
+    "en drugs",
+    "和毒品"
+   ]
+  ],
+  "order": "動詞Roken(抽菸) → 名詞alcohol(酒精) → 連接詞en(和) → 名詞drugs(毒品)",
+  "grammar": "這是名詞短語，無特定時態。",
+  "listen": "注意Roken和alcohol之間的連音。"
+ },
+ "alcohol.": {
+  "breakdown": [
+   [
+    "Alcohol",
+    "酒精"
+   ]
+  ],
+  "order": "名詞Alcohol(酒精)",
+  "grammar": "這是名詞，無特定時態。",
+  "listen": "注意Alcohol的發音，可能聽不清。"
+ },
+ "wiet, drugs en sigaretten zijn ...": {
+  "breakdown": [
+   [
+    "Wiet",
+    "大麻"
+   ],
+   [
+    "drugs",
+    "毒品"
+   ],
+   [
+    "en sigaretten",
+    "和香菸"
+   ],
+   [
+    "zijn ...",
+    "是……"
+   ]
+  ],
+  "order": "名詞Wiet(大麻) → 名詞drugs(毒品) → 連接詞en(和) → 名詞sigaretten(香菸) → 動詞zijn(是)",
+  "grammar": "這是現在式，動詞在句尾。",
+  "listen": "注意zijn的發音，可能聽不清。"
+ },
+ "doe voorzichtig. ook kost het veel geld.": {
+  "breakdown": [
+   [
+    "Doe voorzichtig",
+    "請小心"
+   ],
+   [
+    "Ook",
+    "也"
+   ],
+   [
+    "kost het veel geld",
+    "花很多錢"
+   ]
+  ],
+  "order": "動詞Doe(做) → 形容詞voorzichtig(小心) → 副詞Ook(也) → 動詞kost(花) → 代名詞het(它) → 副詞veel(很多) → 名詞geld(錢)",
+  "grammar": "這是祈使句，動詞在句首。",
+  "listen": "注意Doe的發音，可能聽不清。"
+ },
+ "je hebt dan geen geld om te eten of voor je familie te zorgen.": {
+  "breakdown": [
+   [
+    "Je hebt",
+    "你有"
+   ],
+   [
+    "dan geen geld",
+    "那時沒有錢"
+   ],
+   [
+    "om te eten of voor je familie te zorgen",
+    "吃飯或照顧家人"
+   ]
+  ],
+  "order": "主詞(Je) → 助動詞(hebt) → 副詞(dan) → 直接受詞(geen geld) → 不定詞(om te eten of voor je familie te zorgen)",
+  "grammar": "使用現在時，動詞hebt是助動詞。",
+  "listen": "注意‘je’和‘hebt’的連音，可能聽不清。"
+ },
+ "ben je zwanger?": {
+  "breakdown": [
+   [
+    "Ben je",
+    "你是"
+   ],
+   [
+    "zwanger",
+    "懷孕"
+   ]
+  ],
+  "order": "動詞(Ben) → 主詞(je) → 形容詞(zwanger)",
+  "grammar": "這是疑問句，動詞放在句首。",
+  "listen": "‘Ben’和‘je’的連音，可能聽不清。"
+ },
+ "leef gezond.": {
+  "breakdown": [
+   [
+    "Leef",
+    "生活"
+   ],
+   [
+    "gezond",
+    "健康"
+   ]
+  ],
+  "order": "動詞(Leef) → 形容詞(gezond)",
+  "grammar": "這是祈使句，動詞放在句首。",
+  "listen": "‘Leef’的發音要清楚，注意強調。"
+ },
+ "beweeg, maar neem ook rust.": {
+  "breakdown": [
+   [
+    "Beweeg",
+    "運動"
+   ],
+   [
+    "maar",
+    "但"
+   ],
+   [
+    "neem ook rust",
+    "也要休息"
+   ]
+  ],
+  "order": "動詞(Beweeg) → 連接詞(maar) → 動詞(Neem) → 副詞(ook) → 名詞(rust)",
+  "grammar": "‘neem’是可分動詞，‘ook’是副詞。",
+  "listen": "‘neem’和‘ook’的連音，可能聽不清。"
+ },
+ "ga naar een verloskundige bij jou in de buurt.": {
+  "breakdown": [
+   [
+    "Ga",
+    "去"
+   ],
+   [
+    "naar een verloskundige",
+    "找助產士"
+   ],
+   [
+    "bij jou in de buurt",
+    "在你附近"
+   ]
+  ],
+  "order": "動詞(Ga) → 介詞(naar) → 直接受詞(een verloskundige) → 介詞短語(bij jou in de buurt)",
+  "grammar": "使用命令式，動詞放在句首。",
+  "listen": "‘naar’和‘een’的連音，可能聽不清。"
+ },
+ "de verloskundige kijkt of alles goed gaat.": {
+  "breakdown": [
+   [
+    "De verloskundige",
+    "助產士"
+   ],
+   [
+    "kijkt",
+    "會檢查"
+   ],
+   [
+    "of alles goed gaat",
+    "一切是否順利"
+   ]
+  ],
+  "order": "主詞(De verloskundige) → 動詞(kijkt) → 連接詞(of) → 直接受詞(alles goed gaat)",
+  "grammar": "使用現在時，動詞kijkt是主要動詞。",
+  "listen": "‘of’的發音可能較弱，注意聽清。"
+ },
+ "het consultatiebureau is voor ouders met kinderen jonger dan vijf jaar.": {
+  "breakdown": [
+   [
+    "Het consultatiebureau",
+    "育兒諮詢中心"
+   ],
+   [
+    "is voor ouders",
+    "是給父母"
+   ],
+   [
+    "met kinderen jonger dan vijf jaar",
+    "有五歲以下小孩"
+   ]
+  ],
+  "order": "主詞(Het consultatiebureau) → 動詞(is) → 介詞短語(voor ouders) → 介詞短語(met kinderen jonger dan vijf jaar)",
+  "grammar": "使用現在時，動詞is是主要動詞。",
+  "listen": "‘is’的發音可能較弱，注意聽清。"
+ },
+ "bij het consultatiebureau kan je dingen vragen over je kind.": {
+  "breakdown": [
+   [
+    "Bij het consultatiebureau",
+    "在諮詢中心"
+   ],
+   [
+    "kan je",
+    "可以"
+   ],
+   [
+    "dingen vragen over je kind",
+    "問關於孩子的事情"
+   ]
+  ],
+  "order": "介詞短語(Bij het consultatiebureau) → 助動詞(kan) → 主詞(je) → 直接受詞(dingen vragen over je kind)",
+  "grammar": "使用現在時，‘kan’是助動詞。",
+  "listen": "‘kan’和‘je’的連音，可能聽不清。"
+ },
+ "bijvoorbeeld over eten, drinken, slapen en lopen.": {
+  "breakdown": [
+   [
+    "Bijvoorbeeld",
+    "例如"
+   ],
+   [
+    "over eten, drinken, slapen en lopen",
+    "關於吃飯、喝水、睡覺和走路"
+   ]
+  ],
+  "order": "副詞(Bijvoorbeeld) → 介詞(over) → 直接受詞(eten, drinken, slapen en lopen)",
+  "grammar": "‘over’是介詞，後面接名詞。",
+  "listen": "‘over’的發音可能較弱，注意聽清。"
+ },
+ "ze kijken of je kindje goed groeit.": {
+  "breakdown": [
+   [
+    "Ze kijken",
+    "他們會查看"
+   ],
+   [
+    "of je kindje goed groeit",
+    "你的孩子是否健康成長"
+   ]
+  ],
+  "order": "主詞(Ze) → 動詞(kijken) → 連接詞(of) → 直接受詞(je kindje goed groeit)",
+  "grammar": "使用現在時，動詞kijken是主要動詞。",
+  "listen": "‘of’的發音可能較弱，注意聽清。"
+ },
+ "meisjes en jongens gaan in nederland samen naar school.": {
+  "breakdown": [
+   [
+    "Meisjes en jongens",
+    "女孩和男孩"
+   ],
+   [
+    "gaan in Nederland",
+    "在荷蘭上學"
+   ],
+   [
+    "samen naar school",
+    "一起上學"
+   ]
+  ],
+  "order": "主詞(Meisjes en jongens) → 動詞(gaan) → 介詞短語(in Nederland) → 副詞(samen) → 介詞短語(naar school)",
+  "grammar": "使用現在時，動詞gaan是主要動詞。",
+  "listen": "‘en’的發音可能較弱，注意聽清。"
+ },
+ "ze zitten samen in de klas.": {
+  "breakdown": [
+   [
+    "Ze zitten",
+    "他們坐"
+   ],
+   [
+    "samen in de klas",
+    "在同一個教室"
+   ]
+  ],
+  "order": "主詞(Ze) → 動詞(zitten) → 副詞(samen) → 介詞短語(in de klas)",
+  "grammar": "使用現在時，動詞zitten是主要動詞。",
+  "listen": "‘samen’的發音可能較弱，注意聽清。"
+ },
+ "ze praten, spelen en sporten met elkaar.": {
+  "breakdown": [
+   [
+    "Ze",
+    "他們"
+   ],
+   [
+    "praten",
+    "聊天"
+   ],
+   [
+    "spelen",
+    "玩耍"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "sporten",
+    "運動"
+   ],
+   [
+    "met elkaar",
+    "一起"
+   ]
+  ],
+  "order": "主詞(Ze) → 動詞(praten, spelen, sporten) → 其他(met elkaar)",
+  "grammar": "使用現在式，動詞不需要變化。",
+  "listen": "注意連音，'en'可能會被快速讀成一個音。"
+ },
+ "in nederland is het gewoon dat jongens en meisjes vrienden zijn. relaties.": {
+  "breakdown": [
+   [
+    "In Nederland",
+    "在荷蘭"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "het gewoon",
+    "這很平常"
+   ],
+   [
+    "dat jongens en meisjes vrienden zijn",
+    "男孩和女孩當朋友"
+   ]
+  ],
+  "order": "時間(In Nederland) → 動詞(is) → 主詞(het) → 形容詞(gemeen) → 從句(dat...)",
+  "grammar": "使用現在式，'dat'引導的從句動詞放句尾。",
+  "listen": "'is het'可能會連音，聽起來像'it'。"
+ },
+ "trouwen kan als je 18 jaar bent.": {
+  "breakdown": [
+   [
+    "Trouwen",
+    "結婚"
+   ],
+   [
+    "kan",
+    "可以"
+   ],
+   [
+    "als je 18 jaar bent",
+    "你滿18歲"
+   ]
+  ],
+  "order": "動詞(Trouwen) → 助動詞(kan) → 從句(als je 18 jaar bent)",
+  "grammar": "'kan'是情態動詞，後面接原形動詞。",
+  "listen": "注意'je'可能會被弱讀，聽不清楚。"
+ },
+ "in nederland trouwen mannen ook met mannen.": {
+  "breakdown": [
+   [
+    "In Nederland",
+    "在荷蘭"
+   ],
+   [
+    "trouwen",
+    "結婚"
+   ],
+   [
+    "mannen",
+    "男人"
+   ],
+   [
+    "ook",
+    "也"
+   ],
+   [
+    "met mannen",
+    "和男人"
+   ]
+  ],
+  "order": "時間(In Nederland) → 動詞(trouwen) → 主詞(mannen) → 副詞(ook) → 其他(met mannen)",
+  "grammar": "使用現在式，'ook'表示附加的意思。",
+  "listen": "'en'可能會被快速讀成一個音，注意聽。"
+ },
+ "en vrouwen met vrouwen.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "vrouwen",
+    "女人"
+   ],
+   [
+    "met vrouwen",
+    "和女人"
+   ],
+   [
+    "trouwen",
+    "結婚"
+   ]
+  ],
+  "order": "連接詞(En) → 主詞(vrouwen) → 其他(met vrouwen) → 動詞(trouwen)",
+  "grammar": "使用現在式，'En'用來連接兩個句子。",
+  "listen": "'En'的發音可能會很快，注意聽。"
+ },
+ "je mag je partner zelf kiezen.": {
+  "breakdown": [
+   [
+    "Je",
+    "你"
+   ],
+   [
+    "mag",
+    "可以"
+   ],
+   [
+    "je partner",
+    "你的伴侶"
+   ],
+   [
+    "zelf kiezen",
+    "自己選擇"
+   ]
+  ],
+  "order": "主詞(Je) → 動詞(mag) → 受詞(je partner) → 副詞(zelf) → 動詞(kiezen)",
+  "grammar": "'mag'是情態動詞，後面接原形動詞。",
+  "listen": "'je'可能會被弱讀，聽不清楚。"
+ }
+}

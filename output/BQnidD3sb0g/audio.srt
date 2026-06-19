@@ -1,0 +1,783 @@
+1
+00:00:00,000 --> 00:00:00,800
+Feest
+
+2
+00:00:06,860 --> 00:00:08,700
+Met Naomi Willems.
+
+3
+00:00:09,140 --> 00:00:10,520
+Hoi Naomi, met René.
+
+4
+00:00:11,060 --> 00:00:12,960
+Hoi, hoe gaat het?
+
+5
+00:00:13,440 --> 00:00:16,580
+Goed, bedankt voor de uitnodiging voor je feest.
+
+6
+00:00:17,160 --> 00:00:19,220
+Maar ik kan helaas niet komen.
+
+7
+00:00:20,080 --> 00:00:24,060
+O, wat jammer. Je bent mijn beste vriend.
+
+8
+00:00:24,640 --> 00:00:26,680
+Ja, ik moet werken.
+
+9
+00:00:27,520 --> 00:00:30,020
+Ja, daar is niets aan te doen.
+
+10
+00:00:31,060 --> 00:00:32,960
+Zullen we dan een andere keer afspreken?
+
+11
+00:00:33,720 --> 00:00:34,740
+Ja, dat is goed.
+
+12
+00:00:35,880 --> 00:00:37,040
+Veel plezier op het feest.
+
+13
+00:00:37,540 --> 00:00:39,020
+En alvast gefeliciteerd.
+
+14
+00:00:39,600 --> 00:00:41,480
+Bedankt en tot ziens.
+
+15
+00:00:46,320 --> 00:00:47,220
+Hoeveel kost het?
+
+16
+00:00:48,200 --> 00:00:48,520
+1
+
+17
+00:00:52,480 --> 00:00:53,720
+Goedemorgen meneer.
+
+18
+00:00:54,540 --> 00:00:55,180
+Goedemorgen.
+
+19
+00:01:02,240 --> 00:01:04,540
+Dat is dan 43,15 euro.
+
+20
+00:01:05,580 --> 00:01:06,580
+Heeft u nog een flessenbon?
+
+21
+00:01:07,080 --> 00:01:07,360
+Nee.
+
+22
+00:01:09,360 --> 00:01:10,580
+Alsjeblieft, 50 euro.
+
+23
+00:01:12,280 --> 00:01:13,820
+Heeft u er 15 cent bij?
+
+24
+00:01:15,360 --> 00:01:16,300
+Even kijken.
+
+25
+00:01:17,420 --> 00:01:18,180
+Nee, dat heb ik niet.
+
+26
+00:01:19,660 --> 00:01:20,940
+Oké, alsjeblieft.
+
+27
+00:01:21,220 --> 00:01:22,860
+Met 6,85 euro.
+
+28
+00:01:23,720 --> 00:01:25,180
+Wilt u de bon mee?
+
+29
+00:01:26,120 --> 00:01:26,940
+Ja, graag.
+
+30
+00:01:27,620 --> 00:01:28,840
+Fijne dag verder.
+
+31
+00:01:29,560 --> 00:01:30,900
+U ook, dag.
+
+32
+00:01:34,580 --> 00:01:35,480
+Hoeveel kost het?
+
+34
+00:01:40,220 --> 00:01:41,580
+Dag mevrouw.
+
+35
+00:01:42,240 --> 00:01:42,760
+Goedemorgen.
+
+36
+00:01:43,460 --> 00:01:44,180
+Deze cd voor u?
+
+37
+00:01:44,900 --> 00:01:46,180
+Ja, hoeveel kost die?
+
+38
+00:01:47,400 --> 00:01:49,360
+17,95 euro alsjeblieft.
+
+39
+00:01:54,860 --> 00:01:55,780
+Kan ik pinnen?
+
+40
+00:01:56,380 --> 00:01:57,780
+Natuurlijk, gaat uw gang.
+
+41
+00:02:01,980 --> 00:02:03,360
+Zal ik de cd in een tasje doen?
+
+42
+00:02:04,320 --> 00:02:05,940
+Nee hoor, hij gaat zo wel mee.
+
+43
+00:02:07,480 --> 00:02:08,060
+Hier is uw bon.
+
+44
+00:02:09,080 --> 00:02:11,620
+Met de bon kunt u de cd binnen 2 weken ruilen.
+
+45
+00:02:13,920 --> 00:02:15,320
+Oké, dank u wel.
+
+46
+00:02:16,500 --> 00:02:16,920
+Tot ziens.
+
+47
+00:02:18,020 --> 00:02:18,060
+Dag.
+
+48
+00:02:18,060 --> 00:02:19,140
+Kijk eens.
+
+49
+00:02:27,560 --> 00:02:29,340
+Hoi Josh, met Marcel.
+
+50
+00:02:30,000 --> 00:02:31,480
+Hé Marcel, hoe gaat het?
+
+51
+00:02:32,540 --> 00:02:34,960
+Ja goed, ga je mee naar de sportschool?
+
+52
+00:02:35,740 --> 00:02:37,080
+Nee, ik kan niet.
+
+53
+00:02:37,660 --> 00:02:38,920
+Ik heb mijn arm gebroken.
+
+54
+00:02:39,840 --> 00:02:41,540
+Oh, wat is er gebeurd?
+
+55
+00:02:42,080 --> 00:02:43,860
+Ik ben bij de voetbaltraining gevallen.
+
+56
+00:02:44,880 --> 00:02:45,620
+Precies op mijn arm.
+
+57
+00:02:45,620 --> 00:02:47,340
+En nu is die gebroken.
+
+58
+00:02:48,220 --> 00:02:49,060
+Wat vervelend.
+
+59
+00:02:50,320 --> 00:02:50,960
+Heb je veel pijn?
+
+60
+00:02:51,700 --> 00:02:53,140
+Nee hoor, dat valt wel mee.
+
+61
+00:02:53,700 --> 00:02:56,560
+Nou, ja, sterkte ermee.
+
+62
+00:03:07,060 --> 00:03:08,900
+Hoi Suzanne, ga je mee wandelen?
+
+63
+00:03:11,140 --> 00:03:13,120
+Nee, ik heb geen zin.
+
+64
+00:03:13,720 --> 00:03:14,500
+Ik ben moe.
+
+65
+00:03:14,500 --> 00:03:17,880
+Maar bewegen is gezond hoor.
+
+66
+00:03:18,400 --> 00:03:22,280
+Je moet elke dag minimaal 30 minuten bewegen.
+
+67
+00:03:23,340 --> 00:03:24,420
+Dat zegt mijn huisarts.
+
+68
+00:03:24,780 --> 00:03:25,740
+Dat doe ik ook.
+
+69
+00:03:27,000 --> 00:03:29,800
+Ik breng de kinderen naar school, lopend.
+
+70
+00:03:30,720 --> 00:03:32,900
+Ik doe boodschappen op de fiets.
+
+71
+00:03:33,840 --> 00:03:35,580
+Ik maak elke dag mijn huis schoon.
+
+72
+00:03:36,920 --> 00:03:39,760
+Ik ga met de trap en niet met de lift.
+
+73
+00:03:40,740 --> 00:03:43,020
+Oké, oké, ik hoor het al.
+
+74
+00:03:43,020 --> 00:03:46,140
+Maar samen wandelen is ook gezellig.
+
+75
+00:03:47,280 --> 00:03:48,300
+Ja, dat is waar.
+
+76
+00:03:49,000 --> 00:03:50,000
+Heb je morgen tijd?
+
+77
+00:03:50,720 --> 00:03:52,480
+Ja hoor, tot morgen.
+
+78
+00:04:01,540 --> 00:04:03,080
+Goedemorgen mevrouw Winter.
+
+79
+00:04:04,820 --> 00:04:05,720
+Goedemorgen dokter.
+
+80
+00:04:09,520 --> 00:04:10,940
+Wat kan ik voor u doen?
+
+81
+00:04:10,940 --> 00:04:14,460
+Nou, ik heb een rode plek op mijn arm.
+
+82
+00:04:15,520 --> 00:04:16,240
+Mag ik even kijken?
+
+83
+00:04:18,880 --> 00:04:21,120
+Ja, dat is een vervelende plek.
+
+84
+00:04:22,280 --> 00:04:22,900
+Heeft u ook jeuk?
+
+85
+00:04:24,040 --> 00:04:25,760
+Ja, vooral s'nacht.
+
+86
+00:04:26,580 --> 00:04:27,840
+Hoe lang heeft u deze plek al?
+
+87
+00:04:29,580 --> 00:04:30,840
+Zeker drie weken.
+
+88
+00:04:32,120 --> 00:04:33,240
+Ja, dat is al lang.
+
+89
+00:04:34,660 --> 00:04:35,820
+U krijgt van mij een zalf.
+
+90
+00:04:35,820 --> 00:04:40,980
+U moet de plek drie keer per dag insmeren met deze zalf.
+
+91
+00:04:42,080 --> 00:04:44,240
+En hoe lang moet ik de zalf gebruiken?
+
+92
+00:04:45,120 --> 00:04:46,900
+Nou, in ieder geval deze week.
+
+93
+00:04:47,960 --> 00:04:51,400
+En als het dan nog niet over is, moet u even terugkomen.
+
+94
+00:04:52,660 --> 00:04:52,880
+Goed.
+
+95
+00:04:56,220 --> 00:04:57,740
+Alsjeblieft, hier is het recept.
+
+96
+00:04:58,600 --> 00:05:00,200
+Ja, bedankt. Dag dokter.
+
+97
+00:05:01,140 --> 00:05:02,920
+Dag mevrouw Winter. Sterkte ermee.
+
+98
+00:05:05,820 --> 00:05:08,740
+Mijn tas is gestolen. 1
+
+99
+00:05:12,100 --> 00:05:12,580
+Agent?
+
+100
+00:05:13,840 --> 00:05:14,320
+Ja?
+
+101
+00:05:14,720 --> 00:05:15,340
+Mag ik wat vragen?
+
+102
+00:05:16,280 --> 00:05:18,100
+Natuurlijk. Wat kan ik voor u doen?
+
+103
+00:05:18,920 --> 00:05:19,860
+Mijn tas is gestolen.
+
+104
+00:05:20,800 --> 00:05:22,160
+Ai, dat is niet zo mooi.
+
+105
+00:05:23,260 --> 00:05:23,960
+Wat moet ik nu doen?
+
+106
+00:05:25,180 --> 00:05:28,540
+U moet aangifte doen bij het politiebureau.
+
+107
+00:05:32,940 --> 00:05:33,760
+Wat zat er in uw tas?
+
+108
+00:05:33,760 --> 00:05:37,880
+Mijn portemonnee met 50 euro en mijn bankpasje.
+
+109
+00:05:38,880 --> 00:05:42,020
+Ja, uw pasje moet u meteen laten blokkeren bij uw bank.
+
+110
+00:05:42,720 --> 00:05:44,920
+Oké. Bedankt voor de informatie.
+
+111
+00:05:45,980 --> 00:05:48,160
+Nou, graag gedaan meneer. Succes verder.
+
+112
+00:05:54,440 --> 00:05:56,740
+Mijn tas is gestolen. 2
+
+113
+00:06:02,700 --> 00:06:03,340
+3
+
+114
+00:06:03,340 --> 00:06:04,360
+Met de klantenservice.
+
+115
+00:06:04,920 --> 00:06:08,740
+Hallo, u spreekt met Nico Stevens. Mijn bankpas is gestolen.
+
+116
+00:06:09,180 --> 00:06:13,380
+Oh, wat vervelend. Ik laat uw pas blokkeren.
+
+117
+00:06:14,040 --> 00:06:16,060
+Maar dan kan ik hem niet meer gebruiken.
+
+118
+00:06:16,760 --> 00:06:20,120
+Ja, dat klopt. U krijgt van ons een nieuwe pas.
+
+119
+00:06:20,560 --> 00:06:21,480
+En hoe lang duurt dat?
+
+120
+00:06:22,140 --> 00:06:23,240
+Drie werkdagen.
+
+121
+00:06:24,080 --> 00:06:24,720
+Oké.
+
+122
+00:06:24,720 --> 00:06:26,780
+Wat is uw rekeningnummer?
+
+123
+00:06:29,620 --> 00:06:30,420
+Ben je ziek?
+
+124
+00:06:36,500 --> 00:06:38,960
+Hé Mirka, hoe gaat het?
+
+125
+00:06:39,500 --> 00:06:41,040
+Ik voel me niet lekker.
+
+126
+00:06:42,220 --> 00:06:43,080
+Ben je ziek?
+
+127
+00:06:44,320 --> 00:06:48,480
+Ja. Ik heb hoofdpijn en last van mijn keel.
+
+128
+00:06:49,960 --> 00:06:50,780
+Heb je ook koorts?
+
+129
+00:06:51,520 --> 00:06:52,680
+Nee hoor, dat niet.
+
+130
+00:06:53,520 --> 00:06:56,380
+Zal ik een paracetamol voor je pakken?
+
+131
+00:06:56,600 --> 00:06:59,560
+Ja, graag. Misschien gaat het dan beter.
+
+132
+00:07:03,460 --> 00:07:05,540
+In ieder geval, beterschap.
+
+133
+00:07:05,900 --> 00:07:07,000
+Ja, dank je wel.
+
+134
+00:07:16,180 --> 00:07:17,380
+Dag meneer.
+
+135
+00:07:17,920 --> 00:07:18,440
+Goedemorgen.
+
+136
+00:07:19,400 --> 00:07:19,940
+Zegt u het maar.
+
+137
+00:07:19,940 --> 00:07:22,740
+Ik kom mijn oordruppels halen.
+
+138
+00:07:23,060 --> 00:07:23,780
+Wat is uw naam?
+
+139
+00:07:24,520 --> 00:07:25,320
+Bakir.
+
+140
+00:07:25,980 --> 00:07:27,040
+Kunt u dat even spellen?
+
+141
+00:07:27,780 --> 00:07:29,940
+B-A-K-I-R.
+
+142
+00:07:34,720 --> 00:07:36,240
+Een ogenblikje.
+
+143
+00:07:40,020 --> 00:07:42,820
+Alstublieft. Dit zijn uw oordruppels.
+
+144
+00:07:43,540 --> 00:07:45,700
+U moet ze twee keer per dag gebruiken.
+
+145
+00:07:45,700 --> 00:07:50,180
+S'morgens als u opstaat en s'avonds als u naar bed gaat.
+
+146
+00:07:51,040 --> 00:07:51,540
+Bedankt.
+
+147
+00:07:52,180 --> 00:07:52,940
+Heeft u nog vragen?
+
+148
+00:07:53,560 --> 00:07:54,820
+Nee, alles is duidelijk.
+
+149
+00:07:55,780 --> 00:07:56,280
+Beterschap.
+
+150
+00:07:56,780 --> 00:07:57,940
+Dank u wel. Tot ziens.
+
+151
+00:08:08,700 --> 00:08:11,320
+Hallo. Kan ik u helpen?
+
+152
+00:08:12,240 --> 00:08:15,020
+Ja. Heeft u voor mij een hoestdrankje?
+
+153
+00:08:15,700 --> 00:08:17,200
+Is het voor u zelf?
+
+154
+00:08:17,760 --> 00:08:19,500
+Nee, het is voor mijn dochter.
+
+155
+00:08:20,460 --> 00:08:21,080
+Hoe oud is ze?
+
+156
+00:08:21,920 --> 00:08:24,040
+Sinds zeven jaar. Ze heeft griep.
+
+157
+00:08:25,580 --> 00:08:27,140
+En heeft ze ook koorts?
+
+158
+00:08:28,000 --> 00:08:30,220
+Ja, vanochtend 38,5.
+
+159
+00:08:31,720 --> 00:08:32,780
+Ah, vervelend.
+
+160
+00:08:36,020 --> 00:08:36,780
+Hier is een drankje.
+
+161
+00:08:42,020 --> 00:08:44,000
+12,75 alsjeblieft.
+
+162
+00:08:46,040 --> 00:08:46,700
+Alsjeblieft.
+
+163
+00:08:48,380 --> 00:08:49,420
+En het beste met uw dochter.
+
+164
+00:08:51,200 --> 00:08:51,320
+Bedankt.
+
+165
+00:09:00,820 --> 00:09:03,460
+Hé, Bianca. Waar ga je naartoe?
+
+166
+00:09:04,180 --> 00:09:06,860
+Ik ga naar de bibliotheek. Ga je mee?
+
+167
+00:09:07,960 --> 00:09:09,840
+Daar ben ik nog nooit geweest.
+
+168
+00:09:09,840 --> 00:09:12,900
+Nee? Ik hou van lezen.
+
+169
+00:09:13,800 --> 00:09:14,600
+Ik heb een abonnement.
+
+170
+00:09:15,320 --> 00:09:15,940
+En je dochter?
+
+171
+00:09:16,280 --> 00:09:18,800
+Ja, die heeft ook een abonnement.
+
+172
+00:09:19,720 --> 00:09:20,560
+Dat is gratis.
+
+173
+00:09:20,980 --> 00:09:22,320
+O, dat is makkelijk.
+
+174
+00:09:23,180 --> 00:09:25,680
+Ga ook mee. Dan kun je meteen lid worden.
+
+175
+00:09:26,300 --> 00:09:27,180
+Ja, goed idee.
+
+176
+00:09:28,260 --> 00:09:29,220
+Moet ik nog wat meenemen?
+
+177
+00:09:30,500 --> 00:09:31,620
+Een legitimatiebewijs.
+
+178
+00:09:32,280 --> 00:09:33,480
+O, dat heb ik bij me.
+
+179
+00:09:34,300 --> 00:09:34,900
+Laten we gaan.
+
+180
+00:09:43,040 --> 00:09:44,560
+Bibliotheek 2
+
+181
+00:09:46,600 --> 00:09:49,300
+Dag mevrouw. Wat kan ik voor je doen?
+
+182
+00:09:50,260 --> 00:09:52,240
+Dag. Ik wil lid worden.
+
+183
+00:09:53,360 --> 00:09:56,760
+Dat kan. We hebben twee abonnementen.
+
+184
+00:09:58,400 --> 00:10:01,660
+Een basisabonnement en een plusabonnement.
+
+185
+00:10:02,920 --> 00:10:04,160
+O, en wat is het verschil?
+
+186
+00:10:04,960 --> 00:10:07,740
+Een basisabonnement kost 30 euro.
+
+187
+00:10:07,740 --> 00:10:11,860
+Dan kunt u met uw pasje zes boeken of dvd's lenen.
+
+188
+00:10:12,820 --> 00:10:16,260
+Met een plusabonnement kunt u tien boeken of dvd's lenen.
+
+189
+00:10:16,660 --> 00:10:18,140
+En dat kost 40 euro.
+
+190
+00:10:20,480 --> 00:10:22,800
+O, dan wil ik een basisabonnement.
+
+191
+00:10:24,260 --> 00:10:27,140
+Prima. Heeft u een legitimatiebewijs bij u?
+
+192
+00:10:29,600 --> 00:10:31,140
+Ja, alstublieft.
+
+193
+00:10:33,420 --> 00:10:34,820
+Dan heb ik nog een andere vraag.
+
+194
+00:10:34,820 --> 00:10:37,100
+Kan mijn zoon ook lid worden?
+
+195
+00:10:38,540 --> 00:10:40,720
+Natuurlijk. Hoe oud is hij?
+
+196
+00:10:41,240 --> 00:10:42,100
+Hij is elf jaar.
+
+197
+00:10:43,100 --> 00:10:45,500
+Dan is het abonnement voor hem gratis.

@@ -1,0 +1,431 @@
+1
+00:00:07,700 --> 00:00:09,100
+MUZIEK
+
+2
+00:00:20,980 --> 00:00:22,480
+TELEFOON RINKELT
+
+3
+00:00:26,240 --> 00:00:27,840
+TELEFOON RINKELT
+
+4
+00:00:27,840 --> 00:00:28,980
+Met Koos Galjoen.
+
+5
+00:00:29,380 --> 00:00:31,440
+Hoi, met Arnaud. Ik wou je wat vragen.
+
+6
+00:00:32,280 --> 00:00:35,700
+Weet jij misschien een loodgieter? Mijn moeder staat onder water.
+
+7
+00:00:36,280 --> 00:00:38,640
+Hoe komt dat? De wc is kapot.
+
+8
+00:00:38,800 --> 00:00:41,260
+Wat vreselijk. Nee, ik ken geen loodgieter.
+
+9
+00:00:41,760 --> 00:00:43,480
+Maar je kunt het beste in de Gouden Gids kijken.
+
+10
+00:00:44,740 --> 00:00:47,560
+O ja, daar had ik niet aan gedacht. Wat een goed idee.
+
+11
+00:00:48,100 --> 00:00:49,860
+Ik ga gauw kijken. Bedankt.
+
+12
+00:00:50,740 --> 00:00:52,080
+O, denk je dat ze gauw komen?
+
+13
+00:00:52,540 --> 00:00:55,640
+Nou, ik ben bang voor niet. Meestal laten ze hier lang wachten.
+
+14
+00:00:55,640 --> 00:00:58,900
+Nou, dat hoop ik niet, want het stinkt vreselijk hier.
+
+15
+00:00:59,320 --> 00:01:01,440
+Nou, sterk daarmee. De groet aan je moeder.
+
+16
+00:01:01,660 --> 00:01:02,520
+Bedankt. Dag.
+
+17
+00:01:20,460 --> 00:01:21,020
+TELEFOON RINKELT
+
+18
+00:01:24,380 --> 00:01:24,940
+TELEFOON RINKELT
+
+19
+00:01:53,920 --> 00:01:55,200
+NIET TE RECHTEREN
+
+20
+00:01:55,200 --> 00:01:55,620
+Wat wordt er aan de hand?
+
+21
+00:01:55,620 --> 00:01:57,660
+Dat hoop ik niet, want het stinkt vreselijk hier.
+
+22
+00:01:58,060 --> 00:02:00,200
+Nou, sterk daarmee. De groet aan je moeder.
+
+23
+00:02:00,360 --> 00:02:01,520
+Bedankt. Dag.
+
+24
+00:02:16,440 --> 00:02:19,720
+GELUIDVANTELEFOONGELUIDVAN
+
+25
+00:02:19,720 --> 00:02:23,100
+TELEFOON
+
+26
+00:02:23,940 --> 00:02:25,220
+Met Koos Galjoen.
+
+27
+00:02:25,640 --> 00:02:27,700
+Hoi, met Arnaud. Ik wou je wat vragen.
+
+28
+00:02:27,700 --> 00:02:32,000
+Weet jij misschien een loodgieter? Mijn moeder, haar hele vloer staat onder water.
+
+29
+00:02:32,680 --> 00:02:33,260
+Hoe komt dat?
+
+30
+00:02:33,500 --> 00:02:34,680
+De wc is kapot.
+
+31
+00:02:35,060 --> 00:02:37,460
+Wat vreselijk. Nee, ik ken geen loodgieter.
+
+32
+00:02:37,980 --> 00:02:41,040
+Maar je kunt het beste in de Gouden Gids kijken. Daar staan ze allemaal in.
+
+33
+00:02:41,280 --> 00:02:43,820
+O, ja, daar had ik niet aan gedacht. Wat een goed idee.
+
+34
+00:02:44,360 --> 00:02:46,120
+Ik ga gauw kijken. Bedankt.
+
+35
+00:02:47,000 --> 00:02:48,320
+O, denk je dat ze gauw komen?
+
+36
+00:02:48,760 --> 00:02:51,900
+Nou, ik ben bang voor niet. Meestal laten ze hier lang wachten.
+
+37
+00:02:52,420 --> 00:02:54,960
+Nou, dat hoop ik niet, want het stinkt vreselijk hier.
+
+38
+00:02:54,960 --> 00:02:57,740
+Nou, sterk daarmee. De groet aan je moeder.
+
+39
+00:02:57,920 --> 00:02:58,780
+Bedankt. Dag.
+
+40
+00:03:24,420 --> 00:03:24,940
+GELUID VAN TELEFOON
+
+41
+00:04:12,820 --> 00:04:14,460
+MET MAN OP DE TELEFOON
+
+42
+00:04:21,000 --> 00:04:22,200
+Met Koosjon.
+
+43
+00:04:22,640 --> 00:04:24,920
+Met Arnoud. Ik wou je wat vragen over een loodgieter van mij.
+
+47
+00:04:24,920 --> 00:04:29,280
+Weet jij misschien een loodgieter? Mijn moeder, haar hele vloer staat onder water.
+
+48
+00:04:29,960 --> 00:04:30,540
+Hoe komt dat?
+
+49
+00:04:30,800 --> 00:04:32,140
+De wc is kapot.
+
+50
+00:04:32,360 --> 00:04:34,760
+Wat vreselijk. Nee, ik ken geen loodgieter.
+
+51
+00:04:35,280 --> 00:04:38,340
+Maar je kunt het beste in de Gouden Gids kijken. Daar staan ze allemaal in.
+
+52
+00:04:38,560 --> 00:04:41,100
+O, ja, daar had ik niet aan gedacht. Wat een goed idee.
+
+53
+00:04:41,660 --> 00:04:43,400
+Ik ga gauw kijken. Bedankt.
+
+54
+00:04:44,280 --> 00:04:45,620
+O, denk je dat ze gauw komen?
+
+55
+00:04:46,040 --> 00:04:49,180
+Nou, ik ben bang van niet. Meestal laten ze hier lang wachten.
+
+56
+00:04:49,700 --> 00:04:52,260
+Nou, dat hoop ik niet, want het stinkt vreselijk hier.
+
+57
+00:04:52,260 --> 00:04:55,020
+Nou, sterk daarmee. De groet aan je moeder.
+
+58
+00:04:55,180 --> 00:04:56,060
+Bedankt. Dag.
+
+59
+00:05:11,260 --> 00:05:12,580
+Kan ik u helpen?
+
+60
+00:05:13,900 --> 00:05:19,080
+Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.
+
+61
+00:05:19,960 --> 00:05:23,280
+Het spijt me, maar de appels die u vraagt zijn uitverkocht.
+
+62
+00:05:24,220 --> 00:05:26,820
+Jammer. Welke appels raadt u me dan aan?
+
+63
+00:05:28,320 --> 00:05:32,460
+Als ik u was, zou ik deze nemen. Ze smaken heerlijk zoet.
+
+64
+00:05:33,340 --> 00:05:36,300
+Normaal kosten ze 1,75 euro per kilo.
+
+65
+00:05:37,160 --> 00:05:39,700
+Maar betaalt u maar 1,25 euro.
+
+66
+00:05:40,740 --> 00:05:44,360
+Goed. Geeft u mij daar maar één kilo van?
+
+67
+00:05:45,400 --> 00:05:49,260
+Alsjeblieft. Anders nog iets? Nee, bedankt.
+
+68
+00:06:00,240 --> 00:06:01,520
+Kan ik u helpen?
+
+69
+00:06:03,160 --> 00:06:08,060
+Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.
+
+70
+00:06:09,160 --> 00:06:12,240
+Het spijt me, maar de appels die u vraagt zijn uitverkocht.
+
+71
+00:06:12,840 --> 00:06:15,800
+Jammer. Welke appels raadt u me dan aan?
+
+72
+00:06:17,300 --> 00:06:21,440
+Als ik u was, zou ik deze nemen. Ze smaken heerlijk zoet.
+
+73
+00:06:22,320 --> 00:06:25,280
+Normaal kosten ze 1,75 euro per kilo.
+
+74
+00:06:26,140 --> 00:06:28,680
+Maar betaalt u maar 1,25 euro.
+
+75
+00:06:29,980 --> 00:06:33,320
+Goed. Geeft u mij daar maar één kilo van?
+
+76
+00:06:34,280 --> 00:06:37,720
+Alsjeblieft. Anders nog iets? Nee, bedankt.
+
+77
+00:06:47,400 --> 00:06:50,840
+Alsjeblieft. Welke appels raadt u me dan aan?
+
+78
+00:06:50,840 --> 00:06:53,680
+Alsjeblieft. Welke appels raadt u me dan aan?
+
+79
+00:06:53,680 --> 00:06:55,260
+Alsjeblieft. Welke appels raadt u me dan aan?
+
+80
+00:06:54,340 --> 00:06:57,800
+Alsjeblieft. Welke appels raadt u me dan aan?
+
+81
+00:06:59,280 --> 00:07:00,940
+Kan ik u helpen?
+
+82
+00:07:02,240 --> 00:07:07,480
+Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.
+
+83
+00:07:08,360 --> 00:07:11,660
+Het spijt me, maar de appels die u vraagt zijn uitverkocht.
+
+84
+00:07:12,580 --> 00:07:15,200
+Jammer. Welke appels raadt u me dan aan?
+
+85
+00:07:16,460 --> 00:07:20,840
+Als ik u was, zou ik deze nemen. Ze smaken heerlijk zoet.
+
+86
+00:07:21,720 --> 00:07:24,680
+Normaal kosten ze 1,75 euro per kilo.
+
+87
+00:07:25,540 --> 00:07:28,080
+Maar betaalt u maar 1,25 euro.
+
+88
+00:07:29,120 --> 00:07:32,740
+Goed. Geeft u mij daar maar één kilo van?
+
+89
+00:07:33,740 --> 00:07:37,660
+Alsjeblieft. Anders nog iets? Nee, bedankt.
+
+90
+00:07:48,980 --> 00:07:50,300
+Kan ik u helpen?
+
+91
+00:07:51,680 --> 00:07:56,820
+Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.
+
+92
+00:07:57,940 --> 00:08:01,020
+Het spijt me, maar de appels die u vraagt zijn uitverkocht.
+
+93
+00:08:01,020 --> 00:08:04,560
+Jammer. Welke appels raadt u me dan aan?
+
+94
+00:08:06,020 --> 00:08:10,220
+Als ik u was, zou ik deze nemen. Ze smaken heerlijk zoet.
+
+95
+00:08:11,080 --> 00:08:14,040
+Normaal kosten ze 1,75 euro per kilo.
+
+96
+00:08:14,920 --> 00:08:17,460
+Maar betaalt u maar 1,25 euro.
+
+97
+00:08:19,000 --> 00:08:22,100
+Goed. Geeft u mij daar maar één kilo van?
+
+98
+00:08:23,040 --> 00:08:26,500
+Alsjeblieft. Anders nog iets? Nee, bedankt.
+
+99
+00:08:39,440 --> 00:08:40,040
+Goed. Geeft u mij daar maar één kilo van?
+
+100
+00:08:41,220 --> 00:08:41,820
+Alsjeblieft. Maar betaalt u mij daar maar één kilo van?
+
+101
+00:08:41,820 --> 00:08:46,540
+Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.
+
+102
+00:08:47,640 --> 00:08:50,720
+Het spijt me, maar de appels die u vraagt zijn uitverkocht.
+
+103
+00:08:51,180 --> 00:08:54,280
+Jammer. Welke appels raadt u me dan aan?
+
+104
+00:08:55,420 --> 00:08:59,880
+Als ik u was, zou ik deze nemen. Ze smaken heerlijk zoet.
+
+105
+00:09:00,440 --> 00:09:03,760
+Normaal kosten ze 1,75 euro per kilo.
+
+106
+00:09:04,680 --> 00:09:07,160
+Maar betaalt u maar 1,25 euro.
+
+107
+00:09:08,260 --> 00:09:11,800
+Goed. Geeft u mij daar maar één kilo van?
+
+108
+00:09:12,800 --> 00:09:16,200
+Alsjeblieft. Anders nog iets? Nee, bedankt.
+
+109
+00:09:36,600 --> 00:09:40,200
+Goed. Geeft u mij daar maar 1,25 euro per kilo uit de aanbieding.
+
+110
+00:09:40,200 --> 00:09:47,540
+daarmaar125europerkilouitdeaanbiedingAlsjeblieftMaarbetaaltumijdaarmaar125europerkilouitdeaanbieding
+
+111
+00:09:47,700 --> 00:09:59,460
+GoedGeeftumijdaarmaar125europerkilouitdeaanbieding

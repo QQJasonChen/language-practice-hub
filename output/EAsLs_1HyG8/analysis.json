@@ -1,0 +1,1469 @@
+{
+ "nika volgt een cursus nederlands.": {
+  "breakdown": [
+   [
+    "Nika",
+    "Nika"
+   ],
+   [
+    "volgt",
+    "正在上"
+   ],
+   [
+    "een cursus Nederlands",
+    "一門荷蘭語課程"
+   ]
+  ],
+  "order": "主詞(Nika) → 動詞(volgt) → 受詞(一門荷蘭語課程)",
+  "grammar": "現在式，表示正在進行的動作。",
+  "listen": "注意 'volgt' 的發音，可能會聽成 'volg'。"
+ },
+ "een medecursist heeft een bericht ingesproken op haar voicemail.": {
+  "breakdown": [
+   [
+    "Een medecursist",
+    "一位同學"
+   ],
+   [
+    "heeft",
+    "有"
+   ],
+   [
+    "een bericht ingesproken",
+    "留下了一則訊息"
+   ],
+   [
+    "op haar voicemail",
+    "在她的語音信箱"
+   ]
+  ],
+  "order": "主詞(一位同學) → 助動詞(heeft) → 過去分詞(留下訊息) → 地點(在她的語音信箱)",
+  "grammar": "完成式，助動詞和過去分詞結合。",
+  "listen": "'heeft' 和 'een' 之間可能會連音。"
+ },
+ "nika luistert naar het bericht.": {
+  "breakdown": [
+   [
+    "Nika",
+    "Nika"
+   ],
+   [
+    "luistert",
+    "正在聽"
+   ],
+   [
+    "naar het bericht",
+    "那個訊息"
+   ]
+  ],
+  "order": "主詞(Nika) → 動詞(luistert) → 受詞(那個訊息)",
+  "grammar": "現在式，表示正在進行的動作。",
+  "listen": "注意 'luistert' 的發音，可能會聽成 'luister'。"
+ },
+ "lees eerst de vraag.": {
+  "breakdown": [
+   [
+    "Lees",
+    "請閱讀"
+   ],
+   [
+    "eerst",
+    "先"
+   ],
+   [
+    "de vraag",
+    "問題"
+   ]
+  ],
+  "order": "動詞(Lees) → 副詞(eerst) → 受詞(問題)",
+  "grammar": "祈使句，動詞放句首。",
+  "listen": "'de' 可能會被弱讀，聽起來像 'd'。"
+ },
+ "luister daarna naar de tekst.": {
+  "breakdown": [
+   [
+    "Luister",
+    "請聽"
+   ],
+   [
+    "daarna",
+    "接著"
+   ],
+   [
+    "naar de tekst",
+    "文本內容"
+   ]
+  ],
+  "order": "動詞(Luister) → 副詞(daarna) → 受詞(文本內容)",
+  "grammar": "祈使句，動詞放句首。",
+  "listen": "'de' 可能會被弱讀，聽起來像 'd'。"
+ },
+ "de vraag is uitgelegd.": {
+  "breakdown": [
+   [
+    "De vraag",
+    "問題"
+   ],
+   [
+    "is",
+    "已經"
+   ],
+   [
+    "uitgelegd",
+    "說明"
+   ]
+  ],
+  "order": "主詞(問題) → 動詞(is) → 過去分詞(說明)",
+  "grammar": "現在完成式，表示狀態已經完成。",
+  "listen": "'is' 可能會被弱讀，聽起來像 's'。"
+ },
+ "ha nika!": {
+  "breakdown": [
+   [
+    "Ha",
+    "嗨"
+   ],
+   [
+    "Nika",
+    "Nika"
+   ]
+  ],
+  "order": "感嘆詞(Ha) → 主詞(Nika)",
+  "grammar": "簡單的問候語，無特別文法。",
+  "listen": "'Ha' 可能會聽得不清楚。"
+ },
+ "met markus.": {
+  "breakdown": [
+   [
+    "Met",
+    "我是"
+   ],
+   [
+    "Markus",
+    "Markus"
+   ]
+  ],
+  "order": "介系詞(Met) → 主詞(Markus)",
+  "grammar": "簡單的自我介紹，無特別文法。",
+  "listen": "'Met' 可能會被弱讀，聽起來像 'm'。"
+ },
+ "ik, eh, ik bel even voor onze groepsopdracht.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "eh",
+    "嗯"
+   ],
+   [
+    "ik bel even",
+    "我打電話來"
+   ],
+   [
+    "voor onze groepsopdracht",
+    "關於我們的小組作業"
+   ]
+  ],
+  "order": "主詞(Ik) → 語氣詞(eh) → 動詞(ik bel) → 目的(關於我們的小組作業)",
+  "grammar": "現在式，表示正在進行的動作。",
+  "listen": "'ik' 和 'bel' 之間可能會有連音。"
+ },
+ "die moeten we dus volgende week, eh, maandag inleveren.": {
+  "breakdown": [
+   [
+    "Die",
+    "那個"
+   ],
+   [
+    "moeten we",
+    "我們必須"
+   ],
+   [
+    "dus",
+    "所以"
+   ],
+   [
+    "volgende week",
+    "下週"
+   ],
+   [
+    "eh",
+    "嗯"
+   ],
+   [
+    "maandag",
+    "星期一"
+   ],
+   [
+    "inleveren",
+    "交作業"
+   ]
+  ],
+  "order": "主詞(我們) → 動詞(moeten) → 副詞(dus) → 時間(下週星期一) → 受詞(交作業)",
+  "grammar": "情態動詞(moeten) + 原形動詞(inleveren)。",
+  "listen": "'we' 可能會被弱讀，聽起來像 'w'。"
+ },
+ "ik heb vraag 1 dinsdag al gemaakt en jij zou dan de derde vraag nog thuis doen.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "heb",
+    "已經"
+   ],
+   [
+    "vraag 1",
+    "第一題"
+   ],
+   [
+    "dinsdag",
+    "星期二"
+   ],
+   [
+    "al gemaakt",
+    "做了"
+   ],
+   [
+    "en jij",
+    "而你"
+   ],
+   [
+    "zou dan",
+    "會"
+   ],
+   [
+    "de derde vraag",
+    "第三題"
+   ],
+   [
+    "nog thuis doen",
+    "還在家做"
+   ]
+  ],
+  "order": "主詞(Ik) → 助動詞(heb) → 受詞(第一題) → 時間(星期二) → 副詞(al) → 連接詞(en) → 主詞(你) → 助動詞(zou) → 受詞(第三題) → 地點(在家) → 動詞(doen)",
+  "grammar": "完成式，助動詞和過去分詞結合。",
+  "listen": "'al' 可能會被弱讀，聽起來像 'a'。"
+ },
+ "oh, en de vierde, toch?": {
+  "breakdown": [
+   [
+    "Oh",
+    "喔"
+   ],
+   [
+    "en",
+    "還有"
+   ],
+   [
+    "de vierde",
+    "第四題"
+   ],
+   [
+    "toch",
+    "對吧"
+   ]
+  ],
+  "order": "感嘆詞(Oh) → 連接詞(en) → 受詞(第四題) → 語氣詞(toch)",
+  "grammar": "簡單的感嘆句，無特別文法。",
+  "listen": "'de' 可能會被弱讀，聽起來像 'd'。"
+ },
+ "dan vraag 2, die zouden we samen doen.": {
+  "breakdown": [
+   [
+    "Dan",
+    "那"
+   ],
+   [
+    "vraag 2",
+    "第二題"
+   ],
+   [
+    "die zouden we samen doen",
+    "我們要一起做"
+   ]
+  ],
+  "order": "Dan(時間) → vraag(動詞#1) → 2(受詞) → die(主詞) → zouden(助動詞#2) → we(主詞) → samen(副詞) → doen(原形動詞)",
+  "grammar": "助動詞在第二位，原形動詞放句尾。",
+  "listen": "注意 'die' 和 'zouden' 的連音。"
+ },
+ "zullen we vrijdag of zaterdag afspreken?": {
+  "breakdown": [
+   [
+    "Zullen we",
+    "我們要"
+   ],
+   [
+    "vrijdag of zaterdag",
+    "星期五或星期六"
+   ],
+   [
+    "afspreken",
+    "見面"
+   ]
+  ],
+  "order": "Zullen(動詞) → we(主詞) → vrijdag of zaterdag(受詞) → afspreken(原形動詞)",
+  "grammar": "情態動詞在句首，原形動詞放句尾。",
+  "listen": "注意 'of' 的弱讀，可能聽不清楚。"
+ },
+ "ja, het liefst zaterdag.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "het liefst",
+    "最好是"
+   ],
+   [
+    "zaterdag",
+    "星期六"
+   ]
+  ],
+  "order": "Ja(肯定) → het liefst(副詞) → zaterdag(受詞)",
+  "grammar": "簡單句，主詞省略，直接表達意見。",
+  "listen": "注意 'het liefst' 的連音，可能聽不清。"
+ },
+ "de school is dan dicht, maar het kan ook wel bij mij thuis.": {
+  "breakdown": [
+   [
+    "De school",
+    "學校"
+   ],
+   [
+    "is dan dicht",
+    "那時候關門"
+   ],
+   [
+    "maar het kan ook wel bij mij thuis",
+    "不過也可以在我家見面"
+   ]
+  ],
+  "order": "De school(主詞) → is(動詞) → dan(副詞) → dicht(形容詞) → maar(連接詞) → het(主詞) → kan(動詞) → ook wel(副詞) → bij mij thuis(地點)",
+  "grammar": "主詞在前，動詞在第二位，其他成分依序排列。",
+  "listen": "注意 'kan' 和 'ook' 的連音。"
+ },
+ "dan kunnen we daarna nog even naar de stad.": {
+  "breakdown": [
+   [
+    "Dan",
+    "然後"
+   ],
+   [
+    "kunnen we",
+    "我們可以"
+   ],
+   [
+    "daarna nog even naar de stad",
+    "一起去市區"
+   ]
+  ],
+  "order": "Dan(時間) → kunnen(動詞) → we(主詞) → daarna(副詞) → nog even(副詞) → naar de stad(地點)",
+  "grammar": "情態動詞在第二位，地點放句尾。",
+  "listen": "注意 'kunnen' 的連音，可能漏聽。"
+ },
+ "oké?": {
+  "breakdown": [
+   [
+    "Oké",
+    "好嗎"
+   ],
+   [
+    "?",
+    "？"
+   ]
+  ],
+  "order": "Oké(肯定) → ?(疑問符)",
+  "grammar": "簡單的疑問句，直接表達。",
+  "listen": "注意語氣的上揚，表示疑問。"
+ },
+ "ik, eh, ja, ik hoor het wel.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "eh",
+    "嗯"
+   ],
+   [
+    "ja",
+    "我"
+   ],
+   [
+    "ik hoor het wel",
+    "等你回覆"
+   ]
+  ],
+  "order": "Ik(主詞) → eh(填充詞) → ja(肯定) → ik(主詞) → hoor(動詞) → het(受詞) → wel(副詞)",
+  "grammar": "簡單句，使用填充詞表達思考。",
+  "listen": "注意 'ik' 的重複，可能聽不清。"
+ },
+ "bel je even terug?": {
+  "breakdown": [
+   [
+    "Bel je",
+    "你會打電話"
+   ],
+   [
+    "even terug",
+    "回來"
+   ]
+  ],
+  "order": "Bel(動詞) → je(主詞) → even(副詞) → terug(副詞)",
+  "grammar": "疑問句，動詞在句首。",
+  "listen": "注意 'je' 的弱讀，可能漏聽。"
+ },
+ "welke vraag moeten nika en markus samen maken?": {
+  "breakdown": [
+   [
+    "Welke vraag",
+    "哪一題"
+   ],
+   [
+    "moeten Nika en Markus",
+    "Nika 和 Markus 要"
+   ],
+   [
+    "samen maken",
+    "一起做"
+   ]
+  ],
+  "order": "Welke(疑問詞) → vraag(受詞) → moeten(動詞) → Nika en Markus(主詞) → samen(副詞) → maken(原形動詞)",
+  "grammar": "疑問句，動詞在第二位，受詞在前。",
+  "listen": "注意 'Welke' 的發音，可能聽不清。"
+ },
+ "vraag 1.": {
+  "breakdown": [
+   [
+    "Vraag 1",
+    "第一題"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "Vraag(受詞) → 1(數字) → .(句號)",
+  "grammar": "簡單句，直接回答問題。",
+  "listen": "注意 'Vraag' 的發音，可能漏聽。"
+ },
+ "vraag 2.": {
+  "breakdown": [
+   [
+    "Vraag 2",
+    "第二題"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "Vraag(受詞) → 2(數字) → .(句號)",
+  "grammar": "簡單句，直接回答問題。",
+  "listen": "注意 'Vraag' 的發音，可能漏聽。"
+ },
+ "vraag 3.": {
+  "breakdown": [
+   [
+    "Vraag 3",
+    "第三題"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "Vraag(受詞) → 3(數字) → .(句號)",
+  "grammar": "簡單句，直接回答問題。",
+  "listen": "注意 'Vraag' 的發音，可能漏聽。"
+ },
+ "vraag 4.": {
+  "breakdown": [
+   [
+    "Vraag",
+    "題"
+   ],
+   [
+    "4",
+    "4"
+   ]
+  ],
+  "order": "主詞→動詞→賓語。這句是簡單的陳述句。",
+  "grammar": "無特別文法重點。",
+  "listen": "注意 'Vraag' 的發音，可能聽成 'vraag'。"
+ },
+ "ik, eh, ik bel even over onze groepsopdracht.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "eh",
+    "嗯"
+   ],
+   [
+    "ik bel",
+    "我打電話"
+   ],
+   [
+    "even",
+    "一下"
+   ],
+   [
+    "over onze groepsopdracht",
+    "關於我們的小組作業"
+   ]
+  ],
+  "order": "主詞→動詞→賓語。'ik' 和 'bel' 之間有 'eh' 的插入。",
+  "grammar": "'bel' 是現在式動詞。",
+  "listen": "'ik' 和 'bel' 之間的 'eh' 可能被忽略。"
+ },
+ "die moeten we dus volgende week maandag inleveren.": {
+  "breakdown": [
+   [
+    "Die",
+    "那個"
+   ],
+   [
+    "moeten we",
+    "我們必須"
+   ],
+   [
+    "dus",
+    "所以"
+   ],
+   [
+    "volgende week maandag",
+    "下週一"
+   ],
+   [
+    "inleveren",
+    "交作業"
+   ]
+  ],
+  "order": "主詞→動詞→賓語。'moeten' 是情態動詞，'inleveren' 在句尾。",
+  "grammar": "'moeten' 是情態動詞，'inleveren' 是不定式。",
+  "listen": "'moeten we' 可能聽成 'moeten'。"
+ },
+ "ik heb vraag 1 dinsdag al gemaakt.": {
+  "breakdown": [
+   [
+    "Ik heb",
+    "我已經"
+   ],
+   [
+    "vraag 1",
+    "第一題"
+   ],
+   [
+    "dinsdag",
+    "星期二"
+   ],
+   [
+    "al gemaakt",
+    "做了"
+   ]
+  ],
+  "order": "主詞→助動詞→過去分詞。'heb' 是助動詞，'gemaakt' 在句尾。",
+  "grammar": "完成式，'heb' 是助動詞，過去分詞在句尾。",
+  "listen": "注意 'al' 的弱讀，可能聽不清。"
+ },
+ "en jij zou dan de derde vraag nog thuis doen.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "jij zou",
+    "你會"
+   ],
+   [
+    "dan",
+    "那麼"
+   ],
+   [
+    "de derde vraag",
+    "第三題"
+   ],
+   [
+    "nog thuis doen",
+    "還在家做"
+   ]
+  ],
+  "order": "主詞→情態動詞→賓語。'zou' 是情態動詞，'doen' 在句尾。",
+  "grammar": "'zou' 是情態動詞，'doen' 是不定式。",
+  "listen": "'jij zou' 可能聽成 'jij'。"
+ },
+ "dan kunnen we daarna nog even naar de stad. oké, ik, eh, ja, ik hoor het wel.": {
+  "breakdown": [
+   [
+    "Dan",
+    "然後"
+   ],
+   [
+    "kunnen we",
+    "我們可以"
+   ],
+   [
+    "daarna",
+    "之後"
+   ],
+   [
+    "nog even",
+    "再"
+   ],
+   [
+    "naar de stad",
+    "去市區"
+   ]
+  ],
+  "order": "副詞→動詞→主詞→賓語。'kunnen' 是情態動詞，'gaan' 在句尾。",
+  "grammar": "'kunnen' 是情態動詞，'gaan' 是不定式。",
+  "listen": "'kunnen we' 可能聽成 'kunnen'。"
+ },
+ "bel je even terug.": {
+  "breakdown": [
+   [
+    "Bel je",
+    "你會打電話"
+   ],
+   [
+    "even terug",
+    "回來一下"
+   ]
+  ],
+  "order": "動詞→主詞→賓語。這是疑問句，動詞在前。",
+  "grammar": "無特別文法重點。",
+  "listen": "'je' 可能聽不清，注意連音。"
+ },
+ "op welke dag wil markus afspreken?": {
+  "breakdown": [
+   [
+    "Op welke dag",
+    "哪一天"
+   ],
+   [
+    "wil Markus",
+    "Markus 想"
+   ],
+   [
+    "afspreken",
+    "見面"
+   ]
+  ],
+  "order": "介詞短語→動詞→主詞。'wil' 是情態動詞，'afspreken' 在句尾。",
+  "grammar": "'wil' 是情態動詞，'afspreken' 是不定式。",
+  "listen": "'welke dag' 可能聽成 'welke'。"
+ },
+ "op maandag.": {
+  "breakdown": [
+   [
+    "Op maandag",
+    "星期一"
+   ]
+  ],
+  "order": "介詞短語。這句是簡單的陳述句。",
+  "grammar": "無特別文法重點。",
+  "listen": "注意 'maandag' 的發音，可能聽成 'maandag'。"
+ },
+ "op dinsdag.": {
+  "breakdown": [
+   [
+    "Op dinsdag",
+    "星期二"
+   ]
+  ],
+  "order": "介詞短語。這句是簡單的陳述句。",
+  "grammar": "無特別文法重點。",
+  "listen": "注意 'dinsdag' 的發音，可能聽成 'dinsdag'。"
+ },
+ "op vrijdag.": {
+  "breakdown": [
+   [
+    "Op vrijdag",
+    "星期五"
+   ]
+  ],
+  "order": "介詞短語。這句是簡單的陳述句。",
+  "grammar": "無特別文法重點。",
+  "listen": "注意 'vrijdag' 的發音，可能聽成 'vrijdag'。"
+ },
+ "op zaterdag.": {
+  "breakdown": [
+   [
+    "Op zaterdag",
+    "星期六"
+   ]
+  ],
+  "order": "介詞短語。這句是簡單的陳述句。",
+  "grammar": "無特別文法重點。",
+  "listen": "注意 'zaterdag' 的發音，可能聽成 'zaterdag'。"
+ },
+ "zaira kijkt naar het journaal op televisie.": {
+  "breakdown": [
+   [
+    "Zaira",
+    "Zaira"
+   ],
+   [
+    "kijkt",
+    "在看"
+   ],
+   [
+    "naar het journaal",
+    "電視新聞"
+   ],
+   [
+    "op televisie",
+    "在電視上"
+   ]
+  ],
+  "order": "主詞Zaira → 動詞kijkt → 介詞短語(naar het journaal op televisie)",
+  "grammar": "kijkt是現在式，表示正在進行的動作。",
+  "listen": "注意kijkt和naar的連音。"
+ },
+ "kijk daarna naar de video.": {
+  "breakdown": [
+   [
+    "Kijk",
+    "看"
+   ],
+   [
+    "daarna",
+    "接著"
+   ],
+   [
+    "naar de video",
+    "觀看影片"
+   ]
+  ],
+  "order": "動詞Kijk → 副詞daarna → 介詞短語(naar de video)",
+  "grammar": "Kijk是祈使句，動詞放在句首。",
+  "listen": "注意Kijk的重音，daarna可能被弱讀。"
+ },
+ "gisteren was het de drukste dag van het jaar op schiphol airport.": {
+  "breakdown": [
+   [
+    "Gisteren",
+    "昨天"
+   ],
+   [
+    "was",
+    "是"
+   ],
+   [
+    "het de drukste dag",
+    "一年中最繁忙的一天"
+   ],
+   [
+    "van het jaar op Schiphol Airport",
+    "在史基浦機場"
+   ]
+  ],
+  "order": "時間副詞Gisteren → 動詞was → 主詞het → 補語(最繁忙的一天)",
+  "grammar": "was是過去式，描述過去的情況。",
+  "listen": "注意was的發音，可能聽不清。"
+ },
+ "er waren 1300 vluchten.": {
+  "breakdown": [
+   [
+    "Er waren",
+    "有"
+   ],
+   [
+    "1300 vluchten",
+    "1300班航班"
+   ]
+  ],
+  "order": "主詞Er → 動詞waren → 補語(1300 vluchten)",
+  "grammar": "waren是過去式，表示存在的狀態。",
+  "listen": "注意Er的發音，可能被忽略。"
+ },
+ "er waren ruim 170.000 passagiers op schiphol tegenover 180.000 op de drukste dag vorige zomer.": {
+  "breakdown": [
+   [
+    "Er waren",
+    "有"
+   ],
+   [
+    "ruim 170.000 passagiers",
+    "超過17萬名旅客"
+   ],
+   [
+    "op Schiphol",
+    "在史基浦機場"
+   ],
+   [
+    "tegenover 180.000 op de drukste dag vorige zomer",
+    "相比去年暑假最繁忙的一天的18萬人"
+   ]
+  ],
+  "order": "主詞Er → 動詞waren → 補語(170.000 passagiers) → 介詞短語(對比)",
+  "grammar": "tegenover用於比較，強調差異。",
+  "listen": "注意ruim的發音，可能被弱讀。"
+ },
+ "schiphol heeft extra personeel ingezet.": {
+  "breakdown": [
+   [
+    "Schiphol",
+    "史基浦機場"
+   ],
+   [
+    "heeft",
+    "動用了"
+   ],
+   [
+    "extra personeel",
+    "額外的人力"
+   ],
+   [
+    "ingezet",
+    ""
+   ]
+  ],
+  "order": "主詞Schiphol → 動詞heeft → 補語(extra personeel) → 過去分詞ingezet",
+  "grammar": "heeft是現在完成式，表示已經發生的動作。",
+  "listen": "注意heeft的連音，可能聽不清。"
+ },
+ "daarom waren de rijen voor het inchecken niet langer dan normaal.": {
+  "breakdown": [
+   [
+    "Daarom",
+    "因此"
+   ],
+   [
+    "waren",
+    "是"
+   ],
+   [
+    "de rijen",
+    "隊伍"
+   ],
+   [
+    "voor het inchecken",
+    "為報到"
+   ],
+   [
+    "niet langer dan normaal",
+    "沒有比平常更長"
+   ]
+  ],
+  "order": "副詞Daarom → 動詞waren → 主詞de rijen → 補語(不長)",
+  "grammar": "niet longer than normaal是比較級，表示相對長度。",
+  "listen": "注意de rijen的連音，可能漏聽。"
+ },
+ "ook de rij bij de paspoortcontrole was niet langer.": {
+  "breakdown": [
+   [
+    "Ook",
+    "也"
+   ],
+   [
+    "de rij",
+    "隊伍"
+   ],
+   [
+    "bij de paspoortcontrole",
+    "在護照檢查"
+   ],
+   [
+    "was niet langer",
+    "沒有更長"
+   ]
+  ],
+  "order": "副詞Ook → 主詞de rij → 動詞was → 補語(不長)",
+  "grammar": "was是過去式，描述過去的情況。",
+  "listen": "注意bij的發音，可能被弱讀。"
+ },
+ "alleen op de parkeerplaats was het lastig om een plek te vinden.": {
+  "breakdown": [
+   [
+    "Alleen",
+    "只有"
+   ],
+   [
+    "op de parkeerplaats",
+    "在停車場"
+   ],
+   [
+    "was het lastig",
+    "是困難的"
+   ],
+   [
+    "om een plek te vinden",
+    "找車位"
+   ]
+  ],
+  "order": "副詞Alleen → 地點op de parkeerplaats → 動詞was → 補語(困難)",
+  "grammar": "om ... te ...表示目的，這裡是找車位。",
+  "listen": "注意was的發音，可能聽不清。"
+ },
+ "alle reizigers kregen gisteren wel gratis ijs.": {
+  "breakdown": [
+   [
+    "Alle reizigers",
+    "所有旅客"
+   ],
+   [
+    "kregen",
+    "得到"
+   ],
+   [
+    "gisteren",
+    "昨天"
+   ],
+   [
+    "wel gratis ijs",
+    "免費冰淇淋"
+   ]
+  ],
+  "order": "主詞Alle reizigers → 動詞kregen → 時間gisteren → 補語(wel gratis ijs)",
+  "grammar": "kregen是過去式，表示已經發生的動作。",
+  "listen": "注意kregen的連音，可能漏聽。"
+ },
+ "ijsfabrikant ola bestond 20 jaar en trakteerde.": {
+  "breakdown": [
+   [
+    "Ijsfabrikant Ola",
+    "冰淇淋製造商Ola"
+   ],
+   [
+    "bestond",
+    "成立"
+   ],
+   [
+    "20 jaar",
+    "20年"
+   ],
+   [
+    "en trakteerde",
+    "並提供招待"
+   ]
+  ],
+  "order": "主詞Ijsfabrikant Ola → 動詞bestond → 補語(20年) → 連接詞en → 動詞trakteerde",
+  "grammar": "bestond是過去式，描述過去的情況。",
+  "listen": "注意en的連音，可能被忽略。"
+ },
+ "een hele fijne traktatie op zo'n warme dag.": {
+  "breakdown": [
+   [
+    "Een hele fijne traktatie",
+    "一個很棒的招待"
+   ],
+   [
+    "op zo'n warme dag",
+    "在這麼熱的一天"
+   ]
+  ],
+  "order": "主詞Een hele fijne traktatie → 介詞短語(op zo'n warme dag)",
+  "grammar": "op ... 表示時間或情境。",
+  "listen": "注意fijne的發音，可能聽不清。"
+ },
+ "wat was er bijzonder aan deze dag op schiphol?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "was",
+    "是"
+   ],
+   [
+    "er",
+    "有"
+   ],
+   [
+    "bijzonder",
+    "特別的"
+   ],
+   [
+    "aan deze dag op Schiphol",
+    "在史基浦的這天"
+   ]
+  ],
+  "order": "Wat(疑問詞) → was(動詞#2) → er(主詞) → bijzonder(形容詞) → aan deze dag op Schiphol(介詞片語)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "注意 'er' 可能聽不清。"
+ },
+ "het was de drukste dag van deze zomer.": {
+  "breakdown": [
+   [
+    "Het",
+    "這"
+   ],
+   [
+    "was",
+    "是"
+   ],
+   [
+    "de drukste dag",
+    "最繁忙的一天"
+   ],
+   [
+    "van deze zomer",
+    "今夏的"
+   ]
+  ],
+  "order": "Het(主詞) → was(動詞#2) → de drukste dag(名詞片語) → van deze zomer(介詞片語)",
+  "grammar": "V2 倒裝，主詞在動詞後。",
+  "listen": "'de' 和 'drukste' 連音，可能聽不清。"
+ },
+ "het was de drukste dag van het hele jaar.": {
+  "breakdown": [
+   [
+    "Het",
+    "這"
+   ],
+   [
+    "was",
+    "是"
+   ],
+   [
+    "de drukste dag",
+    "最繁忙的一天"
+   ],
+   [
+    "van het hele jaar",
+    "全年的"
+   ]
+  ],
+  "order": "Het(主詞) → was(動詞#2) → de drukste dag(名詞片語) → van het hele jaar(介詞片語)",
+  "grammar": "V2 倒裝，主詞在動詞後。",
+  "listen": "注意 'het' 可能被弱讀。"
+ },
+ "het was de drukste dag van de afgelopen twee jaar.": {
+  "breakdown": [
+   [
+    "Het",
+    "這"
+   ],
+   [
+    "was",
+    "是"
+   ],
+   [
+    "de drukste dag",
+    "最繁忙的一天"
+   ],
+   [
+    "van de afgelopen twee jaar",
+    "過去兩年的"
+   ]
+  ],
+  "order": "Het(主詞) → was(動詞#2) → de drukste dag(名詞片語) → van de afgelopen twee jaar(介詞片語)",
+  "grammar": "V2 倒裝，主詞在動詞後。",
+  "listen": "'de' 和 'afgelopen' 連音，可能漏聽。"
+ },
+ "het was de drukste dag ooit.": {
+  "breakdown": [
+   [
+    "Het",
+    "這"
+   ],
+   [
+    "was",
+    "是"
+   ],
+   [
+    "de drukste dag",
+    "最繁忙的一天"
+   ],
+   [
+    "ooit",
+    "有史以來"
+   ]
+  ],
+  "order": "Het(主詞) → was(動詞#2) → de drukste dag(名詞片語) → ooit(副詞)",
+  "grammar": "V2 倒裝，主詞在動詞後。",
+  "listen": "'de' 和 'drukste' 連音，可能聽不清。"
+ },
+ "gisteren was het de drukste dag van het jaar.": {
+  "breakdown": [
+   [
+    "Gisteren",
+    "昨天"
+   ],
+   [
+    "was",
+    "是"
+   ],
+   [
+    "het",
+    "這"
+   ],
+   [
+    "de drukste dag",
+    "最繁忙的一天"
+   ],
+   [
+    "van het jaar",
+    "全年的"
+   ]
+  ],
+  "order": "Gisteren(時間) → was(動詞#2) → het(主詞) → de drukste dag(名詞片語) → van het jaar(介詞片語)",
+  "grammar": "V2 倒裝，時間放句首。",
+  "listen": "'het' 可能被弱讀。"
+ },
+ "het was de drukste dag van het jaar.": {
+  "breakdown": [
+   [
+    "Het",
+    "這"
+   ],
+   [
+    "was",
+    "是"
+   ],
+   [
+    "de drukste dag",
+    "最繁忙的一天"
+   ],
+   [
+    "van het jaar",
+    "全年的"
+   ]
+  ],
+  "order": "Het(主詞) → was(動詞#2) → de drukste dag(名詞片語) → van het jaar(介詞片語)",
+  "grammar": "V2 倒裝，主詞在動詞後。",
+  "listen": "注意 'de' 和 'drukste' 連音，可能漏聽。"
+ },
+ "ijsfabrikant ola bestond twintig jaar en trakteerde.": {
+  "breakdown": [
+   [
+    "Ijsfabrikant",
+    "冰淇淋製造商"
+   ],
+   [
+    "Ola",
+    "Ola"
+   ],
+   [
+    "bestond",
+    "成立"
+   ],
+   [
+    "twintig jaar",
+    "二十年"
+   ],
+   [
+    "en trakteerde",
+    "並請大家吃冰淇淋"
+   ]
+  ],
+  "order": "Ijsfabrikant(主詞) → Ola(主詞補充) → bestond(動詞#2) → twintig jaar(時間) → en(連接詞) → trakteerde(動詞#2)",
+  "grammar": "V2 倒裝，主詞在動詞後。",
+  "listen": "'en' 可能被弱讀。"
+ },
+ "waar hadden reizigers het meeste last van de drukte?": {
+  "breakdown": [
+   [
+    "Waar",
+    "在哪裡"
+   ],
+   [
+    "hadden",
+    "有"
+   ],
+   [
+    "reizigers",
+    "旅客們"
+   ],
+   [
+    "het meeste last van",
+    "最受...之苦"
+   ],
+   [
+    "de drukte",
+    "擁擠"
+   ]
+  ],
+  "order": "Waar(疑問詞) → hadden(動詞#2) → reizigers(主詞) → het meeste last van(名詞片語) → de drukte(名詞)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "'het' 可能被弱讀。"
+ },
+ "bij de paspoortcontrole.": {
+  "breakdown": [
+   [
+    "Bij",
+    "在"
+   ],
+   [
+    "de paspoortcontrole",
+    "護照檢查處"
+   ]
+  ],
+  "order": "Bij(介詞) → de paspoortcontrole(名詞片語)",
+  "grammar": "簡單句，介詞引導名詞片語。",
+  "listen": "'de' 和 'paspoortcontrole' 連音，可能漏聽。"
+ },
+ "op de parkeerplaats.": {
+  "breakdown": [
+   [
+    "Op",
+    "在"
+   ],
+   [
+    "de parkeerplaats",
+    "停車場"
+   ]
+  ],
+  "order": "Op(介詞) → de parkeerplaats(名詞片語)",
+  "grammar": "簡單句，介詞引導名詞片語。",
+  "listen": "'de' 和 'parkeerplaats' 連音，可能漏聽。"
+ },
+ "in de rij voor het inchecken.": {
+  "breakdown": [
+   [
+    "In",
+    "在"
+   ],
+   [
+    "de rij",
+    "隊伍中"
+   ],
+   [
+    "voor",
+    "為了"
+   ],
+   [
+    "het inchecken",
+    "辦理登機手續"
+   ]
+  ],
+  "order": "In(介詞) → de rij(名詞片語) → voor(介詞) → het inchecken(名詞片語)",
+  "grammar": "簡單句，介詞引導名詞片語。",
+  "listen": "'de' 和 'rij' 連音，可能漏聽。"
+ },
+ "lees eerst de vraag, kijk daarna naar de video.": {
+  "breakdown": [
+   [
+    "Lees",
+    "讀"
+   ],
+   [
+    "eerst",
+    "先"
+   ],
+   [
+    "de vraag",
+    "問題"
+   ],
+   [
+    "kijk daarna",
+    "再看"
+   ],
+   [
+    "naar de video",
+    "影片"
+   ]
+  ],
+  "order": "先讀問題 → 再看影片。規則：兩個動作用連接詞連接，動詞在句中保持在第二位。",
+  "grammar": "使用了命令式，動詞在句首。",
+  "listen": "注意 'kijk' 和 'naar' 的連音。"
+ },
+ "video lees eerst de vraag, kijk daarna naar de video.": {
+  "breakdown": [
+   [
+    "Video",
+    "影片"
+   ],
+   [
+    "lees eerst",
+    "先讀"
+   ],
+   [
+    "de vraag",
+    "問題"
+   ],
+   [
+    "kijk daarna",
+    "再看"
+   ],
+   [
+    "naar de video",
+    "影片"
+   ]
+  ],
+  "order": "影片 → 先讀問題 → 再看影片。規則：主詞在句首，動詞仍在第二位。",
+  "grammar": "命令式，動詞在句首。",
+  "listen": "注意 'lees' 和 'de' 的連音。"
+ },
+ "er waren dertienhonderd vluchten.": {
+  "breakdown": [
+   [
+    "Er waren",
+    "有"
+   ],
+   [
+    "dertienhonderd",
+    "一千三百"
+   ],
+   [
+    "vluchten",
+    "班航班"
+   ]
+  ],
+  "order": "有 → 一千三百 → 班航班。規則：主詞在句首，動詞在第二位，數字在名詞前。",
+  "grammar": "使用過去式，表示過去的狀態。",
+  "listen": "注意 'dertienhonderd' 的發音。"
+ },
+ "er waren ruim 170.000 passagiers op schiphol, tegenover 180.000 op de drukste dag vorige zomer.": {
+  "breakdown": [
+   [
+    "Er waren",
+    "有"
+   ],
+   [
+    "ruim 170.000",
+    "超過17萬"
+   ],
+   [
+    "passagiers",
+    "名旅客"
+   ],
+   [
+    "op Schiphol",
+    "在史基浦機場"
+   ],
+   [
+    "tegenover 180.000",
+    "對比18萬"
+   ],
+   [
+    "op de drukste dag",
+    "在最忙碌的那天"
+   ],
+   [
+    "vorige zomer",
+    "去年夏天"
+   ]
+  ],
+  "order": "有 → 超過17萬 → 名旅客 → 在史基浦機場 → 對比18萬 → 在最忙碌的那天 → 去年夏天。規則：主詞在句首，動詞在第二位，其他資訊依序排列。",
+  "grammar": "使用過去式，描述過去的情況。",
+  "listen": "注意 'ruim' 和 'passagiers' 的連音。"
+ },
+ "waarom kregen de reizigers op schiphol gratis ijs?": {
+  "breakdown": [
+   [
+    "Waarom",
+    "為什麼"
+   ],
+   [
+    "kregen",
+    "獲得"
+   ],
+   [
+    "de reizigers",
+    "旅客"
+   ],
+   [
+    "op Schiphol",
+    "在史基浦"
+   ],
+   [
+    "gratis ijs",
+    "免費冰淇淋"
+   ]
+  ],
+  "order": "為什麼 → 獲得 → 旅客 → 在史基浦 → 免費冰淇淋。規則：疑問句開頭，動詞在第二位。",
+  "grammar": "使用過去式，表示過去的事件。",
+  "listen": "注意 'de' 和 'reizigers' 的連音。"
+ },
+ "omdat ola twintig jaar bestond.": {
+  "breakdown": [
+   [
+    "Omdat",
+    "因為"
+   ],
+   [
+    "Ola",
+    "Ola"
+   ],
+   [
+    "twintig jaar",
+    "二十年"
+   ],
+   [
+    "bestond",
+    "成立"
+   ]
+  ],
+  "order": "因為 → Ola → 二十年 → 成立。規則：因果關係，'Omdat' 開頭，動詞在句尾。",
+  "grammar": "使用過去式，描述過去的狀態。",
+  "listen": "注意 'twintig' 和 'jaar' 的連音。"
+ },
+ "omdat ze zo lang moesten wachten.": {
+  "breakdown": [
+   [
+    "Omdat",
+    "因為"
+   ],
+   [
+    "ze",
+    "他們"
+   ],
+   [
+    "zo lang",
+    "這麼久"
+   ],
+   [
+    "moesten wachten",
+    "必須等待"
+   ]
+  ],
+  "order": "因為 → 他們 → 這麼久 → 必須等待。規則：因果關係，'Omdat' 開頭，動詞在句尾。",
+  "grammar": "使用過去式，描述過去的情況。",
+  "listen": "注意 'moesten' 和 'wachten' 的連音。"
+ },
+ "omdat het zo'n warme dag was.": {
+  "breakdown": [
+   [
+    "Omdat",
+    "因為"
+   ],
+   [
+    "het",
+    "那天"
+   ],
+   [
+    "zo'n warme dag",
+    "非常熱的日子"
+   ],
+   [
+    "was",
+    "是"
+   ]
+  ],
+  "order": "因為 → 那天 → 非常熱的日子 → 是。規則：因果關係，'Omdat' 開頭，動詞在句尾。",
+  "grammar": "使用過去式，描述過去的狀態。",
+  "listen": "注意 'zo'n' 和 'warme' 的連音。"
+ },
+ "ondertitels ingediend door de amara.org gemeenschap": {
+  "breakdown": [
+   [
+    "Ondertitels",
+    "字幕"
+   ],
+   [
+    "ingediend door",
+    "由...提供"
+   ],
+   [
+    "de Amara.org gemeenschap",
+    "Amara.org社群"
+   ]
+  ],
+  "order": "字幕 → 由...提供 → Amara.org社群。規則：主詞在句首，動詞在第二位，提供者在句尾。",
+  "grammar": "使用過去分詞，表示被動語態。",
+  "listen": "注意 'door' 和 'de' 的連音。"
+ }
+}

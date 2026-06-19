@@ -1,0 +1,306 @@
+{
+ "video_id": "FIO4cZ0jCug",
+ "title": "Listening exam 2021",
+ "channel": "Inburgeren examen A2",
+ "duration": 599,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "尋找水管工",
+   "title_nl": "Listening exam 2021",
+   "kind": "對話",
+   "context_zh": "阿爾諾德在電話中詢問庫斯關於水管工的事情，因為他母親的地板淹水了。",
+   "start": "0:07",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:07",
+     "nl": "Muziek.",
+     "zh": "音樂。"
+    },
+    {
+     "t": "0:20",
+     "nl": "Telefoon rinkelt.",
+     "zh": "電話響了。"
+    },
+    {
+     "t": "0:26",
+     "nl": "Telefoon rinkelt. Met Koos Galjoen. Hoi, met Arnaud. Ik wou je wat vragen.",
+     "zh": "電話響了。Koos Galjoen在電話那頭。嗨，我是Arnaud。我想問你一些事。"
+    },
+    {
+     "t": "0:32",
+     "nl": "Weet jij misschien een loodgieter? Mijn moeder staat onder water.",
+     "zh": "你知道有沒有水電工？我媽媽家淹水了。"
+    },
+    {
+     "t": "0:36",
+     "nl": "Hoe komt dat? De wc is kapot. Wat vreselijk. Nee, ik ken geen loodgieter.",
+     "zh": "怎麼會這樣？馬桶壞了。真糟糕。不好意思，我不認識水電工。"
+    },
+    {
+     "t": "0:41",
+     "nl": "Maar je kunt het beste in de Gouden Gids kijken. O ja, daar had ik niet aan gedacht. Wat een goed idee.",
+     "zh": "不過你最好看看黃頁。哦，對，我沒想到。好主意。"
+    },
+    {
+     "t": "0:48",
+     "nl": "Ik ga gauw kijken. Bedankt. O, denk je dat ze gauw komen?",
+     "zh": "我馬上去看。謝謝。你覺得他們會很快來嗎？"
+    },
+    {
+     "t": "0:52",
+     "nl": "Nou, ik ben bang van niet. Meestal laten ze hier lang wachten.",
+     "zh": "恐怕不會。通常他們會讓人等很久。"
+    },
+    {
+     "t": "0:55",
+     "nl": "Nou, dat hoop ik niet, want het stinkt vreselijk hier.",
+     "zh": "希望不是這樣，這裡臭得很。"
+    },
+    {
+     "t": "0:59",
+     "nl": "Nou, sterkte daarmee. De groet aan je moeder. Bedankt. Dag.",
+     "zh": "那你加油吧。替我向你媽媽問好。謝謝。再見。"
+    },
+    {
+     "t": "1:20",
+     "nl": "Telefoon rinkelt. Telefoon rinkelt.",
+     "zh": "電話響了。電話響了。"
+    },
+    {
+     "t": "1:53",
+     "nl": "Niet te rechten. Wat wordt er aan de hand? Dat hoop ik niet, want het stinkt vreselijk hier.",
+     "zh": "別掛斷。發生什麼事？希望不是這樣，這裡臭得很。"
+    },
+    {
+     "t": "2:16",
+     "nl": "Geluid van de telefoon.",
+     "zh": "電話聲。"
+    },
+    {
+     "t": "2:19",
+     "nl": "Telefoon.",
+     "zh": "電話。"
+    },
+    {
+     "t": "2:23",
+     "nl": "Met Koos Galjoen. Hoi, met Arnaud. Ik wou je wat vragen.",
+     "zh": "Koos Galjoen在電話那頭。嗨，我是Arnaud。我想問你一些事。"
+    },
+    {
+     "t": "2:27",
+     "nl": "Weet jij misschien een loodgieter? Mijn moeder, haar hele vloer staat onder water.",
+     "zh": "你知道有沒有水電工？我媽媽整個地板淹水了。"
+    },
+    {
+     "t": "2:37",
+     "nl": "Maar je kunt het beste in de Gouden Gids kijken. Daar staan ze allemaal in.",
+     "zh": "但你最好查黃頁。裡面都有水電工的資料。"
+    },
+    {
+     "t": "2:41",
+     "nl": "O, ja, daar had ik niet aan gedacht. Wat een goed idee. Ik ga gauw kijken. Bedankt.",
+     "zh": "哦，對，我沒想到。好主意。我馬上去看。謝謝。"
+    },
+    {
+     "t": "2:47",
+     "nl": "O, denk je dat ze gauw komen? Nou, ik ben bang van niet. Meestal laten ze hier lang wachten.",
+     "zh": "你覺得他們會很快來嗎？恐怕不會。通常他們會讓人等很久。"
+    },
+    {
+     "t": "2:52",
+     "nl": "Nou, dat hoop ik niet, want het stinkt vreselijk hier. Nou, sterkte daarmee. De groet aan je moeder.",
+     "zh": "希望不是這樣，這裡臭得很。那你加油吧。替我向你媽媽問好。"
+    },
+    {
+     "t": "2:57",
+     "nl": "Bedankt. Dag.",
+     "zh": "謝謝。再見。"
+    },
+    {
+     "t": "3:24",
+     "nl": "Geluid van telefoon.",
+     "zh": "電話聲。"
+    },
+    {
+     "t": "4:12",
+     "nl": "Met man op de telefoon.",
+     "zh": "電話裡有男人聲音。"
+    },
+    {
+     "t": "4:21",
+     "nl": "Met Koosjon. Met Arnoud. Ik wou je wat vragen over een loodgieter van mij.",
+     "zh": "Koosjon在電話這邊。Arnoud在這裡。我想問你關於一個水電工的事。"
+    },
+    {
+     "t": "5:11",
+     "nl": "Kan ik u helpen?",
+     "zh": "我可以幫您嗎？"
+    },
+    {
+     "t": "5:13",
+     "nl": "Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.",
+     "zh": "我想要一公斤特價1.25歐元的蘋果。"
+    },
+    {
+     "t": "5:19",
+     "nl": "Het spijt me, maar de appels die u vraagt zijn uitverkocht.",
+     "zh": "很抱歉，您要的蘋果已經賣完了。"
+    },
+    {
+     "t": "5:24",
+     "nl": "Jammer. Welke appels raadt u me dan aan?",
+     "zh": "真可惜。那您推薦我買哪種蘋果？"
+    },
+    {
+     "t": "5:28",
+     "nl": "Als ik u was, zou ik deze nemen. Ze smaken heerlijk zoet.",
+     "zh": "如果我是您，我會買這種。味道非常甜美。"
+    },
+    {
+     "t": "5:33",
+     "nl": "Normaal kosten ze 1,75 euro per kilo.",
+     "zh": "正常價格是一公斤1.75歐元。"
+    },
+    {
+     "t": "5:37",
+     "nl": "Maar betaalt u maar 1,25 euro.",
+     "zh": "但您只需付1.25歐元。"
+    },
+    {
+     "t": "5:40",
+     "nl": "Goed. Geeft u mij daar maar één kilo van?",
+     "zh": "好，那給我一公斤。"
+    },
+    {
+     "t": "5:45",
+     "nl": "Alsjeblieft. Anders nog iets? Nee, bedankt.",
+     "zh": "給您。還需要別的嗎？不，謝謝。"
+    },
+    {
+     "t": "6:47",
+     "nl": "Alsjeblieft. Welke appels raadt u me dan aan?",
+     "zh": "請問。您建議我買哪種蘋果？"
+    },
+    {
+     "t": "6:55",
+     "nl": "Alsjeblieft. Welke appels raadt u me dan aan? Kan ik u helpen?",
+     "zh": "請問。您建議我買哪種蘋果？我可以幫您嗎？"
+    },
+    {
+     "t": "8:39",
+     "nl": "Goed. Geeft u mij daar maar één kilo van? Alsjeblieft. Maar betaalt u mij daar maar één kilo van?",
+     "zh": "好的。請給我一公斤。請，但您只需付我這一公斤的錢。"
+    },
+    {
+     "t": "9:36",
+     "nl": "Goed. Geeft u mij daar maar 1,25 euro per kilo uit de aanbieding.",
+     "zh": "好的。請給我每公斤1.25歐元特價的蘋果。"
+    },
+    {
+     "t": "9:40",
+     "nl": "Daar maar 1,25 euro per kilo uit de aanbieding. Alsjeblieft. Maar betaalt u mij daar maar 1,25 euro per kilo uit de aanbieding.",
+     "zh": "那是一公斤1.25歐元的特價蘋果。請。您只需付我一公斤1.25歐元的錢。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "loodgieter",
+     "zh": "水管工"
+    },
+    {
+     "nl": "onder water",
+     "zh": "淹水"
+    },
+    {
+     "nl": "wc",
+     "zh": "廁所"
+    },
+    {
+     "nl": "Gouden Gids",
+     "zh": "黃頁"
+    },
+    {
+     "nl": "komen",
+     "zh": "來"
+    },
+    {
+     "nl": "wachten",
+     "zh": "等待"
+    },
+    {
+     "nl": "stinkt",
+     "zh": "臭"
+    },
+    {
+     "nl": "sterkte",
+     "zh": "祝好"
+    },
+    {
+     "nl": "groet",
+     "zh": "問候"
+    },
+    {
+     "nl": "appels",
+     "zh": "蘋果"
+    },
+    {
+     "nl": "aanbieding",
+     "zh": "特價"
+    },
+    {
+     "nl": "uitverkocht",
+     "zh": "售罄"
+    },
+    {
+     "nl": "raadt aan",
+     "zh": "推薦"
+    },
+    {
+     "nl": "heerlijk",
+     "zh": "美味"
+    },
+    {
+     "nl": "betaalt",
+     "zh": "支付"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Weet jij misschien een loodgieter?",
+     "zh": "你知道有水管工嗎？",
+     "note": "詢問是否知道某人或某事"
+    },
+    {
+     "nl": "Mijn moeder staat onder water.",
+     "zh": "我母親的地板淹水了。",
+     "note": "描述狀況或問題"
+    },
+    {
+     "nl": "Ik ga gauw kijken.",
+     "zh": "我馬上去看看。",
+     "note": "表達即將採取行動"
+    },
+    {
+     "nl": "Als ik u was, zou ik deze nemen.",
+     "zh": "如果我是你，我會選這個。",
+     "note": "給予建議"
+    },
+    {
+     "nl": "Geeft u mij daar maar één kilo van.",
+     "zh": "給我一公斤這個。",
+     "note": "請求某物的表達"
+    },
+    {
+     "nl": "Het spijt me, maar de appels zijn uitverkocht.",
+     "zh": "抱歉，但蘋果已經售罄。",
+     "note": "表達歉意和狀態"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

@@ -1,0 +1,611 @@
+{
+ "sophia heeft een nieuwe baan.": {
+  "breakdown": [
+   [
+    "Sophia",
+    "Sophia"
+   ],
+   [
+    "heeft",
+    "有"
+   ],
+   [
+    "een nieuwe baan",
+    "一份新工作"
+   ]
+  ],
+  "order": "主詞(Sophia) → 動詞(heeft) → 受詞(een nieuwe baan)",
+  "grammar": "現在式，主詞和動詞一致。",
+  "listen": "注意 'heeft' 的發音，可能聽不清楚。"
+ },
+ "lees eerst de vraag, kijk daarna naar de video.": {
+  "breakdown": [
+   [
+    "Lees",
+    "請閱讀"
+   ],
+   [
+    "eerst de vraag",
+    "問題"
+   ],
+   [
+    "kijk daarna naar de video",
+    "然後觀看影片"
+   ]
+  ],
+  "order": "動詞(Lees) → 副詞(eerst) → 受詞(de vraag) → 動詞(kijk) → 副詞(daara) → 受詞(naar de video)",
+  "grammar": "命令式，動詞放句首。",
+  "listen": "'eerst' 和 'de' 連音，可能漏聽。"
+ },
+ "je eerste dag.": {
+  "breakdown": [
+   [
+    "Je",
+    "你"
+   ],
+   [
+    "eerste dag",
+    "第一天"
+   ]
+  ],
+  "order": "主詞(Je) → 形容詞(eerste) → 名詞(dag)",
+  "grammar": "名詞短語，形容詞修飾名詞。",
+  "listen": "注意 'Je' 的發音，可能聽不清楚。"
+ },
+ "een belangrijke regel is dat de telefoon altijd voorgaat.": {
+  "breakdown": [
+   [
+    "Een belangrijke regel",
+    "一項重要規則"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "dat de telefoon altijd voorgaat",
+    "電話永遠優先"
+   ]
+  ],
+  "order": "主詞(Een belangrijke regel) → 動詞(is) → 從句(dat de telefoon altijd voorgaat)",
+  "grammar": "從句，動詞放句尾。",
+  "listen": "'dat' 可能被弱讀，聽不清楚。"
+ },
+ "dus ook al ben je...": {
+  "breakdown": [
+   [
+    "Dus",
+    "所以"
+   ],
+   [
+    "ook al ben je",
+    "即使你"
+   ]
+  ],
+  "order": "副詞(Dus) → 從句(ook al ben je)",
+  "grammar": "從句，動詞放句尾。",
+  "listen": "'Dus' 的發音可能不明顯。"
+ },
+ "nog zo druk, maakt niet uit. je neemt hem altijd op.": {
+  "breakdown": [
+   [
+    "Nog zo druk",
+    "再忙"
+   ],
+   [
+    "maakt niet uit",
+    "也沒關係"
+   ],
+   [
+    "Je neemt hem altijd op",
+    "你總是接電話"
+   ]
+  ],
+  "order": "副詞(Nog zo druk) → 動詞(maakt) → 受詞(niet uit) → 主詞(Je) → 動詞(neemt) → 受詞(hem) → 副詞(altijd) → 動詞(op)",
+  "grammar": "現在式，主詞和動詞一致。",
+  "listen": "'maakt niet uit' 可能連音，聽不清楚。"
+ },
+ "als iemand de directeur wil spreken, dan verbind je niet meteen door. je kijkt dan eerst in zijn agenda.": {
+  "breakdown": [
+   [
+    "Als iemand de directeur wil spreken",
+    "如果有人要找主管"
+   ],
+   [
+    "dan verbind je niet meteen door",
+    "你不會馬上轉接"
+   ],
+   [
+    "Je kijkt dan eerst in zijn agenda",
+    "而是先查看主管的行事曆"
+   ]
+  ],
+  "order": "從句(Als iemand de directeur wil spreken) → 副詞(dan) → 主詞(je) → 動詞(verbind) → 副詞(niet meteen) → 動詞(door) → 主詞(Je) → 動詞(kijkt) → 副詞(da) → 受詞(in zijn agenda)",
+  "grammar": "從句，動詞放句尾。",
+  "listen": "'Als' 可能被弱讀，聽不清楚。"
+ },
+ "ook vraag je waar het over gaat.": {
+  "breakdown": [
+   [
+    "Ook vraag je",
+    "你還會詢問"
+   ],
+   [
+    "waar het over gaat",
+    "事情的內容"
+   ]
+  ],
+  "order": "副詞(Ook) → 動詞(vraag) → 主詞(je) → 受詞(waar het over gaat)",
+  "grammar": "現在式，主詞和動詞一致。",
+  "listen": "注意 'waar' 的發音，可能聽不清楚。"
+ },
+ "als hij tijd heeft, dan toets je een 1.": {
+  "breakdown": [
+   [
+    "Als hij tijd heeft",
+    "如果他有時間"
+   ],
+   [
+    "dan toets je een 1",
+    "你就按1"
+   ]
+  ],
+  "order": "從句(Als hij tijd heeft) → 副詞(da) → 動詞(toets) → 主詞(je) → 受詞(een 1)",
+  "grammar": "從句，動詞放句尾。",
+  "listen": "'toets' 可能聽不清楚，注意發音。"
+ },
+ "als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden. je toetst dan de 4. als evelien pauze heeft, dan moet je ook voor haar de telefoon opnemen en zo.": {
+  "breakdown": [
+   [
+    "Als er iemand belt voor de afdeling inkoop",
+    "如果有人打電話給採購部門"
+   ],
+   [
+    "die kun je dan meteen doorverbinden",
+    "你可以直接轉接"
+   ],
+   [
+    "Je toetst dan de 4",
+    "按4"
+   ],
+   [
+    "Als Evelien pauze heeft",
+    "如果Evelien休息"
+   ],
+   [
+    "dan moet je ook voor haar de telefoon opnemen",
+    "你也要幫她接電話"
+   ]
+  ],
+  "order": "從句(Als er iemand belt voor de afdeling inkoop) → 受詞(die) → 動詞(kun) → 副詞(je) → 副詞(da) → 動詞(doorverbinden) → 主詞(Je) → 動詞(toetst) → 副詞(da) → 受詞(de 4) → 從句(Als Evelien pauze heeft) → 副詞(da) → 動詞(moet) → 主詞(je) → 副詞(ook) → 受詞(voor haar de telefoon opnemen)",
+  "grammar": "從句，動詞放句尾。",
+  "listen": "'die' 和 'kun' 可能連音，聽不清楚。"
+ },
+ "dan schrijf je de naam op van de beller en zeg je dat evelien terugbelt. vergeet ook niet het telefoonnummer.": {
+  "breakdown": [
+   [
+    "Dan schrijf je de naam op",
+    "你會記下來電者的名字"
+   ],
+   [
+    "van de beller",
+    "來電者"
+   ],
+   [
+    "en zeg je dat Evelien terugbelt",
+    "告訴他Evelien會回電"
+   ],
+   [
+    "Vergeet ook niet het telefoonnummer",
+    "別忘了電話號碼"
+   ]
+  ],
+  "order": "副詞(Dan) → 動詞(schrijf) → 主詞(je) → 受詞(de naam) → 副詞(op) → 受詞(van de beller) → 連接詞(en) → 動詞(zeg) → 主詞(je) → 受詞(dat Evelien terugbelt) → 動詞(Vergeet) → 副詞(ook) → 副詞(niet) → 受詞(het telefoonnummer)",
+  "grammar": "現在式，主詞和動詞一致。",
+  "listen": "'en' 可能被弱讀，聽不清楚。"
+ },
+ "iemand belt voor de directeur. wat moet sophia als eerst doen?": {
+  "breakdown": [
+   [
+    "Iemand belt voor de directeur",
+    "有人打電話找主管"
+   ],
+   [
+    "Wat moet Sophia als eerst doen",
+    "Sophia應該先做什麼"
+   ]
+  ],
+  "order": "主詞(Iemand) → 動詞(belt) → 受詞(voor de directeur) → 疑問詞(Wat) → 動詞(moet) → 主詞(Sophia) → 副詞(als eerst) → 動詞(doen)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "'Iemand' 和 'belt' 可能連音，聽不清楚。"
+ },
+ "een 1 toetsen, een 4 toetsen, in zijn agenda kijken, naar evelien doorverbinden.": {
+  "breakdown": [
+   [
+    "Een 1 toetsen",
+    "按1"
+   ],
+   [
+    "een 4 toetsen",
+    "按4"
+   ],
+   [
+    "in zijn agenda kijken",
+    "查看行事曆"
+   ],
+   [
+    "naar Evelien doorverbinden",
+    "轉接給Evelien"
+   ]
+  ],
+  "order": "動詞(按1)→動詞(按4)→動詞(查看)→動詞(轉接)",
+  "grammar": "動詞不定式用於命令句。",
+  "listen": "注意 'een' 和 'toetsen' 的連音。"
+ },
+ "lees eerst de vraag. kijk daarna naar de video.": {
+  "breakdown": [
+   [
+    "Lees eerst de vraag",
+    "請先閱讀問題"
+   ],
+   [
+    "Kijk daarna naar de video",
+    "然後觀看影片"
+   ]
+  ],
+  "order": "動詞(閱讀)→副詞(先)→名詞(問題)→動詞(觀看)→副詞(然後)→名詞(影片)",
+  "grammar": "命令句中動詞在句首。",
+  "listen": "注意 'eerst' 和 'de' 的連音。"
+ },
+ "nou, je eerste dag.": {
+  "breakdown": [
+   [
+    "Nou",
+    "嗯"
+   ],
+   [
+    "je eerste dag",
+    "你的第一天"
+   ]
+  ],
+  "order": "副詞(嗯)→主詞(你)→形容詞(第一)→名詞(天)",
+  "grammar": "簡單句，主詞+謂語+補語。",
+  "listen": "注意 'je' 的弱讀。"
+ },
+ "dus ook al ben...": {
+  "breakdown": [
+   [
+    "Dus",
+    "所以"
+   ],
+   [
+    "ook al ben",
+    "即使你"
+   ],
+   [
+    "...",
+    "..."
+   ]
+  ],
+  "order": "副詞(所以)→副詞(即使)→主詞(你)→動詞(是)",
+  "grammar": "'ook al' 用於讓步從句。",
+  "listen": "注意 'Dus' 的連音。"
+ },
+ "ben je nog zo druk, maakt niet uit. je neemt hem altijd op.": {
+  "breakdown": [
+   [
+    "Ben je nog zo druk",
+    "再忙也沒關係"
+   ],
+   [
+    "maakt niet uit",
+    "沒關係"
+   ],
+   [
+    "Je neemt hem altijd op",
+    "你總是接電話"
+   ]
+  ],
+  "order": "動詞(是)→主詞(你)→副詞(再)→形容詞(忙)→動詞(接)→賓語(電話)",
+  "grammar": "現在式用於描述事實。",
+  "listen": "注意 'zo' 和 'druk' 的連音。"
+ },
+ "als hij dan tijd heeft, dan toets je een 1.": {
+  "breakdown": [
+   [
+    "Als hij dan tijd heeft",
+    "如果他有時間"
+   ],
+   [
+    "dan toets je een 1",
+    "你就按1"
+   ]
+  ],
+  "order": "連接詞(如果)→主詞(他)→副詞(那麼)→動詞(有)→名詞(時間)→副詞(那麼)→動詞(按)→數字(1)",
+  "grammar": "'Als' 引導條件句。",
+  "listen": "注意 'dan' 的弱讀。"
+ },
+ "als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden.": {
+  "breakdown": [
+   [
+    "Als er iemand belt",
+    "如果有人打電話"
+   ],
+   [
+    "voor de afdeling inkoop",
+    "給採購部門"
+   ],
+   [
+    "Die kun je dan meteen doorverbinden",
+    "你可以直接轉接"
+   ]
+  ],
+  "order": "連接詞(如果)→主詞(有人)→動詞(打)→介詞(給)→名詞(部門)→代名詞(你)→動詞(可以)→副詞(直接)→動詞(轉接)",
+  "grammar": "'Die' 指代前面提到的名詞。",
+  "listen": "注意 'voor' 和 'de' 的連音。"
+ },
+ "je toetst dan de 4.": {
+  "breakdown": [
+   [
+    "Je toetst dan de 4",
+    "你按4"
+   ]
+  ],
+  "order": "主詞(你)→動詞(按)→副詞(那麼)→名詞(4)",
+  "grammar": "簡單句，主詞+動詞+賓語。",
+  "listen": "注意 'toetst' 的發音。"
+ },
+ "als evelien pauze heeft, dan moet je ook voor haar de telefoon opnemen en zo.": {
+  "breakdown": [
+   [
+    "Als Evelien pauze heeft",
+    "如果Evelien休息"
+   ],
+   [
+    "dan moet je ook voor haar",
+    "你也要為她"
+   ],
+   [
+    "De telefoon opnemen en zo",
+    "接電話等等"
+   ]
+  ],
+  "order": "連接詞(如果)→主詞(Evelien)→動詞(休息)→副詞(那麼)→動詞(必須)→主詞(你)→副詞(也)→介詞(為)→代名詞(她)→動詞(接)→名詞(電話)",
+  "grammar": "'moet' 是情態動詞，後接原形動詞。",
+  "listen": "注意 'en' 的弱讀。"
+ },
+ "iemand belt voor de afdeling inkoop.": {
+  "breakdown": [
+   [
+    "Iemand belt",
+    "有人打電話"
+   ],
+   [
+    "voor de afdeling inkoop",
+    "給採購部門"
+   ]
+  ],
+  "order": "主詞(有人)→動詞(打)→介詞(給)→名詞(部門)",
+  "grammar": "簡單句，主詞+動詞+賓語。",
+  "listen": "注意 'voor' 和 'de' 的連音。"
+ },
+ "wat moet sophia doen?": {
+  "breakdown": [
+   [
+    "Wat moet Sophia doen",
+    "Sophia應該怎麼做"
+   ]
+  ],
+  "order": "疑問詞(什麼)→動詞(應該)→主詞(Sophia)→動詞(做)",
+  "grammar": "疑問句，動詞在主詞前。",
+  "listen": "注意 'moet' 的弱讀。"
+ },
+ "een 1 toetsen, een 4 toetsen, in de agenda kijken, vragen waar het over gaat.": {
+  "breakdown": [
+   [
+    "Een 1 toetsen",
+    "按1"
+   ],
+   [
+    "een 4 toetsen",
+    "按4"
+   ],
+   [
+    "in de agenda kijken",
+    "查看行事曆"
+   ],
+   [
+    "vragen waar het over gaat",
+    "詢問事情內容"
+   ]
+  ],
+  "order": "動詞(按1)→動詞(按4)→動詞(查看)→動詞(詢問)→名詞(內容)",
+  "grammar": "命令句中動詞在句首。",
+  "listen": "注意 'vragen' 的發音。"
+ },
+ "sophia heeft een nieuwe baan. lees eerst de vraag. kijk daarna naar de video.": {
+  "breakdown": [
+   [
+    "Sophia",
+    "Sophia"
+   ],
+   [
+    "heeft",
+    "有"
+   ],
+   [
+    "een nieuwe baan",
+    "一份新工作"
+   ],
+   [
+    "Lees eerst de vraag",
+    "請先閱讀問題"
+   ],
+   [
+    "Kijk daarna naar de video",
+    "然後觀看影片"
+   ]
+  ],
+  "order": "主詞(Sophia) → 動詞(heeft) → 受詞(een nieuwe baan) → 命令句(Lees eerst de vraag) → 命令句(Kijk daarna naar de video)",
+  "grammar": "命令句的動詞放句首，主詞可省略。",
+  "listen": "注意 'een' 可能會被弱讀。"
+ },
+ "dus ook al ben die kun je dan meteen doorverbinden.": {
+  "breakdown": [
+   [
+    "Dus",
+    "所以"
+   ],
+   [
+    "ook al",
+    "即使"
+   ],
+   [
+    "ben",
+    "你"
+   ],
+   [
+    "Die kun je dan meteen doorverbinden",
+    "你可以直接轉接，按4"
+   ]
+  ],
+  "order": "連接詞(Dus) → 副詞(ook al) → 主詞(Du) → 動詞(ben) → 受詞(Den) → 動詞(doorverbinden)",
+  "grammar": "'ook al' 用於引導讓步從句。",
+  "listen": "'Die' 和 'kun' 可能連音，聽起來像一個詞。"
+ },
+ "evelien heeft pauze en sophia neemt haar telefoon op.": {
+  "breakdown": [
+   [
+    "Evelien",
+    "Evelien"
+   ],
+   [
+    "heeft pauze",
+    "正在休息"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "Sophia",
+    "Sophia"
+   ],
+   [
+    "neemt haar telefoon op",
+    "幫她接電話"
+   ]
+  ],
+  "order": "主詞(Evelien) → 動詞(heeft) → 受詞(pauze) → 連接詞(en) → 主詞(Sophia) → 動詞(neemt) → 受詞(haar telefoon) → 動詞(op)",
+  "grammar": "'en' 連接兩個主詞，動詞不變。",
+  "listen": "注意 'neemt' 和 'haar' 的連音。"
+ },
+ "wat moet ze doen?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "moet",
+    "應該"
+   ],
+   [
+    "ze",
+    "她"
+   ],
+   [
+    "doen",
+    "做"
+   ]
+  ],
+  "order": "疑問詞(Wat) → 助動詞(moet) → 主詞(ze) → 動詞(doen)",
+  "grammar": "疑問句的動詞放在主詞前。",
+  "listen": "'moet' 可能會被弱讀。"
+ },
+ "de naam en het nummer opschrijven, doorgeven wanneer evelien terug is, doorverbinden met de directeur.": {
+  "breakdown": [
+   [
+    "De naam",
+    "名字"
+   ],
+   [
+    "en het nummer",
+    "和電話號碼"
+   ],
+   [
+    "opschrijven",
+    "記下"
+   ],
+   [
+    "doorgeven",
+    "告知"
+   ],
+   [
+    "wanneer Evelien terug is",
+    "Evelien回來時間"
+   ],
+   [
+    "doorverbinden met de directeur",
+    "轉接給主管"
+   ]
+  ],
+  "order": "主詞(De naam en het nummer) → 動詞(opschrijven) → 受詞(doorgeven) → 副詞(wanneer) → 主詞(Evelien) → 動詞(is) → 動詞(doorverbinden)",
+  "grammar": "多個動詞時，最後一個動詞放句尾。",
+  "listen": "'en' 可能會被弱讀，聽起來像一個詞。"
+ },
+ "vragen waar het over gaat.": {
+  "breakdown": [
+   [
+    "Vragen",
+    "詢問"
+   ],
+   [
+    "waar",
+    "事情的"
+   ],
+   [
+    "het over gaat",
+    "內容"
+   ]
+  ],
+  "order": "動詞(Vragen) → 受詞(waar) → 受詞(het) → 動詞(over gaat)",
+  "grammar": "動詞在句首，後面接受詞。",
+  "listen": "'waar' 和 'het' 可能連音。"
+ },
+ "danschrijfjedenaamopvandebellerendanzegjedatevelien terugbeltvergeetookniethettelefoonnummer evelienheeftpauzeensophianeemthaartelefoonop watmoetzedoendenaamenhetnummeropschrijvendoorgevenwanneerevelien terugisdoorverbindenmetdedirecteur vragenwaarhetovergaat": {
+  "breakdown": [
+   [
+    "DanschrijfjedenaamopvandebellerendanzegjedatEvelienterugbeltVergeetookniethettelefoonnummer",
+    "請寫下來，並告訴Evelien回電，別忘了電話號碼"
+   ],
+   [
+    "EvelienheeftpauzeenSophianeemthaartelefoonop",
+    "Evelien正在休息，Sophia幫她接電話"
+   ],
+   [
+    "Watmoetzedoen",
+    "她應該做什麼"
+   ],
+   [
+    "Denaamenhetnummeropschrijven",
+    "記下名字和電話號碼"
+   ],
+   [
+    "DoorgevenwanneerEvelienterugis",
+    "告知Evelien回來時間"
+   ],
+   [
+    "Doorverbindenmetdedirecteur",
+    "轉接給主管"
+   ],
+   [
+    "Vragenwaarhetovergaat",
+    "詢問事情的內容"
+   ]
+  ],
+  "order": "這是多句合併，依序排列。",
+  "grammar": "句子結構複雜，注意各部分的連接。",
+  "listen": "整句可能因為連音而難以辨識。"
+ }
+}

@@ -1,0 +1,660 @@
+{
+  "video_id": "0HenRw6__u8",
+  "video_info": {
+    "title": "Luisteren examen A2 Oefenen 13",
+    "channel": "Inburgeren examen A2",
+    "duration": 602
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "1. OP HET WERK",
+        "translation": "1. 在工作上",
+        "start": 4.56,
+        "end": 7.5
+      },
+      {
+        "text": "Een vrouw praat met een man. Ze vertelt iets over een collega.",
+        "translation": "一位女士與一位男士交談。她正在說一位同事的事情。",
+        "start": 8.04,
+        "end": 13.0
+      },
+      {
+        "text": "Staat de collega op plaatje A of plaatje B?",
+        "translation": "那位同事是在圖片A還是圖片B？",
+        "start": 14.7,
+        "end": 17.78
+      },
+      {
+        "text": "Kies nu het goede antwoord.",
+        "translation": "請選擇正確答案。",
+        "start": 24.5,
+        "end": 39.76
+      },
+      {
+        "text": "2. EEN GESPREK",
+        "translation": "2. 一個對話",
+        "start": 51.3,
+        "end": 53.7
+      },
+      {
+        "text": "U hoort een gesprek tussen een man en een vrouw.",
+        "translation": "您會聽到一段男女之間的對話。",
+        "start": 53.9,
+        "end": 57.42
+      },
+      {
+        "text": "Waar praten deze mensen? A. Op school",
+        "translation": "這些人在什麼地方談話？A. 在學校",
+        "start": 58.18,
+        "end": 62.16
+      },
+      {
+        "text": "B. Op straat C. Thuis",
+        "translation": "B. 在街上 C. 在家裡",
+        "start": 62.84,
+        "end": 67.16
+      },
+      {
+        "text": "3. EEN GESPREK",
+        "translation": "3. 一個對話",
+        "start": 82.26,
+        "end": 97.14
+      },
+      {
+        "text": "Kies nu het goede antwoord.",
+        "translation": "請選擇正確答案。",
+        "start": 103.96,
+        "end": 114.82
+      },
+      {
+        "text": "4. DE HUISARTS",
+        "translation": "4. 家庭醫生",
+        "start": 115.92,
+        "end": 118.5
+      },
+      {
+        "text": "U hoort informatietelefoon van de huisarts.",
+        "translation": "您正在聽家庭醫生的資訊電話。",
+        "start": 118.8,
+        "end": 122.24
+      },
+      {
+        "text": "Hoe laat begint het vrije spreekuur op donderdag?",
+        "translation": "週四的免費門診幾點開始？",
+        "start": 123.22,
+        "end": 126.12
+      },
+      {
+        "text": "A. Om acht uur B. Om half negen",
+        "translation": "A. 八點 B. 八點半",
+        "start": 127.52,
+        "end": 132.56
+      },
+      {
+        "text": "C. Om negen uur",
+        "translation": "C. 九點",
+        "start": 132.86,
+        "end": 135.28
+      },
+      {
+        "text": "Dit is de informatietelefoon van dokter Paul.",
+        "translation": "這是保羅醫生的資訊電話。",
+        "start": 137.48,
+        "end": 141.34
+      },
+      {
+        "text": "Ik ben momenteel niet aanwezig.",
+        "translation": "我目前不在診所。",
+        "start": 141.34,
+        "end": 144.56
+      },
+      {
+        "text": "U kunt op alle werkdagen van negen tot vijf uur bellen voor een afspraak.",
+        "translation": "您可以在所有工作日的九點到五點期間打電話預約。",
+        "start": 145.66,
+        "end": 150.74
+      },
+      {
+        "text": "U kunt ook komen op het vrije spreekuur.",
+        "translation": "您也可以來參加免費門診。",
+        "start": 151.72,
+        "end": 154.52
+      },
+      {
+        "text": "Op maandag van acht tot tien uur, op donderdag van half negen tot half elf.",
+        "translation": "週一從八點到十點，週四從八點半到十點半。",
+        "start": 155.52,
+        "end": 163.0
+      },
+      {
+        "text": "Kies nu het goede antwoord.",
+        "translation": "請選擇正確答案。",
+        "start": 165.42,
+        "end": 166.94
+      },
+      {
+        "text": "4. KOFFIE DRINKEN",
+        "translation": "4. 喝咖啡",
+        "start": 178.88,
+        "end": 181.72
+      },
+      {
+        "text": "U vraagt of Joke vanmiddag komt koffie drinken.",
+        "translation": "您問喬克今天下午是否會來喝咖啡。",
+        "start": 182.02,
+        "end": 185.82
+      },
+      {
+        "text": "Waarom komt ze niet koffie drinken? A. Ze moet werken",
+        "translation": "她為什麼不來喝咖啡？A. 她必須工作",
+        "start": 187.02,
+        "end": 191.52
+      },
+      {
+        "text": "B. Ze is een beetje moe",
+        "translation": "B. 她有點累",
+        "start": 192.54,
+        "end": 194.88
+      },
+      {
+        "text": "C. Ze lust geen koffie",
+        "translation": "C. 她不喜歡咖啡",
+        "start": 195.78,
+        "end": 199.24
+      },
+      {
+        "text": "Goh, wat jammer, maar vanmiddag wordt een beetje moeilijk.",
+        "translation": "哦，真可惜，但今天下午有點困難。",
+        "start": 200.38,
+        "end": 203.74
+      },
+      {
+        "text": "Ik heb de hele week hard gewerkt en de kinderen waren ook zo druk.",
+        "translation": "我整個星期都很努力工作，孩子們也很吵鬧。",
+        "start": 204.58,
+        "end": 208.88
+      },
+      {
+        "text": "En vanavond heb ik weer een afspraak. Ik moet vanmiddag echt even uitrusten hoor.",
+        "translation": "今晚我還有約會。我今天下午真的需要好好休息。",
+        "start": 209.62,
+        "end": 215.48
+      },
+      {
+        "text": "Even lekker op de bank liggen of zo en even helemaal niks doen.",
+        "translation": "好好躺在沙發上什麼都不做。",
+        "start": 216.02,
+        "end": 219.82
+      },
+      {
+        "text": "Zal ik anders volgende week een keer langskomen? Kies nu het goede antwoord.",
+        "translation": "要不下週我找時間來看你？請選擇正確答案。",
+        "start": 220.78,
+        "end": 226.44
+      },
+      {
+        "text": "5. IN EEN RESTAURANT",
+        "translation": "5. 在餐廳",
+        "start": 238.18,
+        "end": 240.96
+      },
+      {
+        "text": "Alida is in een restaurant. Neemt ze soep?",
+        "translation": "阿莉達在餐廳。她會點湯嗎？",
+        "start": 241.68,
+        "end": 245.6
+      },
+      {
+        "text": "A. Ja B. Nee",
+        "translation": "A. 會 B. 不會",
+        "start": 246.74,
+        "end": 251.1
+      },
+      {
+        "text": "Die runderbiefstuk, met wat voor saus is die?",
+        "translation": "那份牛排搭配什麼醬汁？",
+        "start": 252.08,
+        "end": 255.6
+      },
+      {
+        "text": "A. Met pepersaus, mevrouw. Heel smakelijk hoor. B. Oké, geef me die dan maar.",
+        "translation": "A. 胡椒醬，女士。非常美味。 B. 好，那就給我那個。",
+        "start": 256.26,
+        "end": 261.52
+      },
+      {
+        "text": "A. Wilt u ook een voorafje? We hebben heerlijke tomatensoep.",
+        "translation": "A. 您也要前菜嗎？我們有非常好喝的番茄湯。",
+        "start": 262.28,
+        "end": 266.3
+      },
+      {
+        "text": "B. Nou nee, bedankt. Ik hou niet zo van tomaten.",
+        "translation": "B. 不，謝謝。我不太喜歡番茄。",
+        "start": 267.2,
+        "end": 270.6
+      },
+      {
+        "text": "A. Zoals u wilt, mevrouw. Geef nu het goede antwoord.",
+        "translation": "A. 隨您便，女士。請選擇正確答案。",
+        "start": 271.14,
+        "end": 276.14
+      },
+      {
+        "text": "6. NAAR DE ZWARTE MART",
+        "translation": "6. 去黑市",
+        "start": 284.84,
+        "end": 287.66
+      },
+      {
+        "text": "Mevrouw Van Diemen belt haar zoon. Wanneer gaan ze samen naar de Zwarte Mart?",
+        "translation": "范迪門女士打電話給她的兒子。他們什麼時候一起去黑市？",
+        "start": 288.38,
+        "end": 293.98
+      },
+      {
+        "text": "A. Vrijdagmiddag B. Zaterdagmorgen",
+        "translation": "A. 星期五下午 B. 星期六早上",
+        "start": 295.44,
+        "end": 299.9
+      },
+      {
+        "text": "A. Met John van Diemen B. Hallo jongen, met je moeder. Hoe gaat het?",
+        "translation": "A. 我是約翰·范迪門。 B. 哈囉兒子，是你媽媽。你怎麼樣？",
+        "start": 302.1,
+        "end": 307.88
+      },
+      {
+        "text": "A. Hoi, mam. Ja, met mij gaat het prima hoor.",
+        "translation": "A. 嗨，媽媽。我很好，謝謝。",
+        "start": 307.88,
+        "end": 311.32
+      },
+      {
+        "text": "B. Mooi. Wat ik vragen wou.",
+        "translation": "B. 很好。我想問你件事。",
+        "start": 312.0,
+        "end": 313.86
+      },
+      {
+        "text": "Heb je zin om zaterdagmorgen mee te gaan naar de Zwarte Markt in Beverwijk? A.",
+        "translation": "你週六早上想不想一起去比弗韋克的黑市？ A。",
+        "start": 314.58,
+        "end": 319.0
+      },
+      {
+        "text": "Nou dat lijkt me leuk, maar 's morgens neem ik niet. Ik kan wel om drie uur 's middags.",
+        "translation": "這聽起來不錯，但我早上沒空。我下午三點可以。",
+        "start": 320.04,
+        "end": 326.94
+      },
+      {
+        "text": "B. Hmm, dat wordt een beetje laat. Zullen we anders vrijdag gaan, vroeg in de middag?",
+        "translation": "B. 嗯，那有點晚。要不我們改星期五下午早點去？",
+        "start": 327.82,
+        "end": 333.58
+      },
+      {
+        "text": "A. Ehm.",
+        "translation": "A. 嗯。",
+        "start": 334.24,
+        "end": 335.32
+      },
+      {
+        "text": "Ja, dat is goed. Oké, dan kom ik je vrijdag wel even ophalen.",
+        "translation": "好，那就這樣。星期五我會來接你。",
+        "start": 336.22,
+        "end": 341.18
+      },
+      {
+        "text": "B. Geef nu het goede antwoord.",
+        "translation": "B. 請現在選擇正確答案。",
+        "start": 342.38,
+        "end": 344.46
+      },
+      {
+        "text": "7. De radio.",
+        "translation": "7. 收音機。",
+        "start": 355.18,
+        "end": 357.52
+      },
+      {
+        "text": "U hoort een stukje van een radioprogramma.",
+        "translation": "您聽到了一段收音機節目的片段。",
+        "start": 358.18,
+        "end": 362.14
+      },
+      {
+        "text": "In welk programma kunt u dit horen? A. Het nieuws.",
+        "translation": "您在哪個節目可以聽到這個？ A. 新聞。",
+        "start": 362.58,
+        "end": 367.34
+      },
+      {
+        "text": "B. Een sportprogramma. C. Het weerbericht.",
+        "translation": "B. 體育節目。 C. 天氣預報。",
+        "start": 367.9,
+        "end": 372.9
+      },
+      {
+        "text": "Bij een busongeluk in Oostenrijk zijn vandaag vier doden gevallen en twaalf mensen gewond geraakt.",
+        "translation": "今天在奧地利發生了一起公車事故，造成四人死亡，十二人受傷。",
+        "start": 374.2,
+        "end": 380.94
+      },
+      {
+        "text": "De bus slipte op een door sneeuw glad geworden stuk van de weg en viel in een ravijn.",
+        "translation": "公車在因雪而變得滑溜的路段打滑，掉進了一個山谷。",
+        "start": 381.94,
+        "end": 386.92
+      },
+      {
+        "text": "De vier Nederlandse passagiers hebben alleen lichte verwondingen.",
+        "translation": "這四位荷蘭乘客只有輕微的傷。",
+        "start": 387.92,
+        "end": 391.62
+      },
+      {
+        "text": "Ze zijn vanmiddag uit het ziekenhuis gekomen en kunnen waarschijnlijk vanavond al naar huis.",
+        "translation": "他們今天下午已經出院，可能今晚就能回家。",
+        "start": 392.94,
+        "end": 397.84
+      },
+      {
+        "text": "Kies nu het goede antwoord.",
+        "translation": "請現在選擇正確答案。",
+        "start": 399.76,
+        "end": 401.26
+      },
+      {
+        "text": "8. In het park.",
+        "translation": "8. 在公園裡。",
+        "start": 412.62,
+        "end": 414.46
+      },
+      {
+        "text": "U hoort een kind praten. Tegen wie praat dit kind?",
+        "translation": "您聽到一個小孩說話。這個小孩是在跟誰說話？",
+        "start": 415.0,
+        "end": 419.42
+      },
+      {
+        "text": "A. Tegen een ander kind. B. Tegen zijn vader.",
+        "translation": "A. 跟另一個小孩。 B. 跟他的爸爸。",
+        "start": 420.78,
+        "end": 425.52
+      },
+      {
+        "text": "C. Tegen een politieagent.",
+        "translation": "C. 跟一位警察先生。",
+        "start": 426.58,
+        "end": 429.14
+      },
+      {
+        "text": "Kies nu het goede antwoord.",
+        "translation": "請現在選擇正確答案。",
+        "start": 452.2,
+        "end": 454.92
+      },
+      {
+        "text": "9. U hoort een gesprek tussen een man en een vrouw.",
+        "translation": "9. 您聽到一段男女之間的對話。",
+        "start": 468.72,
+        "end": 474.62
+      },
+      {
+        "text": "Waar praten deze mensen? A. Thuis.",
+        "translation": "這些人在哪裡說話？ A. 在家裡。",
+        "start": 475.74,
+        "end": 480.02
+      },
+      {
+        "text": "B. In de supermarkt. C. Op straat.",
+        "translation": "B. 在超市。 C. 在街上。",
+        "start": 480.64,
+        "end": 485.72
+      },
+      {
+        "text": "Hey mevrouw, haal die kar nou eens weg, ik wil er langs, anders kom ik nooit bij de kassa.",
+        "translation": "嘿女士，請把那台推車移開，我要過去，不然我永遠到不了收銀台。",
+        "start": 487.54,
+        "end": 493.06
+      },
+      {
+        "text": "Oké, oké, waarom zo'n haast?",
+        "translation": "好啦，好啦，為什麼這麼急？",
+        "start": 494.2,
+        "end": 496.64
+      },
+      {
+        "text": "Ja, sorry hoor, maar ik ben al zo laat, ik moet over tien minuten thuis zijn.",
+        "translation": "不好意思啦，我已經很晚了，我十分鐘後必須到家。",
+        "start": 497.52,
+        "end": 502.16
+      },
+      {
+        "text": "En het was ook al zo druk in de straat.",
+        "translation": "街上也已經很擁擠了。",
+        "start": 502.82,
+        "end": 505.56
+      },
+      {
+        "text": "Ik moest wel een kwartier zoeken naar een parkeerplaats.",
+        "translation": "我花了大約十五分鐘找停車位。",
+        "start": 505.72,
+        "end": 508.92
+      },
+      {
+        "text": "Geef nu het goede antwoord.",
+        "translation": "請現在選擇正確答案。",
+        "start": 510.66,
+        "end": 512.54
+      },
+      {
+        "text": "10. Niet met de auto.",
+        "translation": "10. 不開車。",
+        "start": 522.66,
+        "end": 525.14
+      },
+      {
+        "text": "Klaas komt bij zijn vriendin op bezoek. Waarom is hij niet met de auto?",
+        "translation": "Klaas 去拜訪他的女朋友。為什麼他沒有開車？",
+        "start": 526.64,
+        "end": 531.9
+      },
+      {
+        "text": "A. Hij heeft geen auto meer.",
+        "translation": "A. 他沒有車了。",
+        "start": 532.82,
+        "end": 535.56
+      },
+      {
+        "text": "B. Hij heeft geen rijbewijs.",
+        "translation": "B. 他沒有駕照。",
+        "start": 536.68,
+        "end": 539.92
+      },
+      {
+        "text": "C. Hij slikt medicijnen waar je slaperig van wordt.",
+        "translation": "C. 他正在服用會讓人困倦的藥物。",
+        "start": 540.6,
+        "end": 544.98
+      },
+      {
+        "text": "Hey Klaas, waarom ben je niet met de auto? Heb je hem soms verkocht?",
+        "translation": "嘿 Klaas，為什麼你沒開車來？你是賣掉車了嗎？",
+        "start": 546.76,
+        "end": 551.68
+      },
+      {
+        "text": "Nee hoor, ik heb hem nog steeds.",
+        "translation": "沒有啦，我的車還在。",
+        "start": 552.68,
+        "end": 554.7
+      },
+      {
+        "text": "Maar ja, ik heb van de dokter pillen gekregen en nou voel ik me een beetje suf, dus voor deze keer heb ik maar de tram genomen.",
+        "translation": "但是我有從醫生那裡拿到藥，現在覺得有點昏昏欲睡，所以這次我改搭電車了。",
+        "start": 555.48,
+        "end": 563.48
+      },
+      {
+        "text": "Geef nu het goede antwoord.",
+        "translation": "請現在選擇正確答案。",
+        "start": 565.0,
+        "end": 566.76
+      },
+      {
+        "text": "10. Niet met de auto.",
+        "translation": "10. 不開車。",
+        "start": 575.52,
+        "end": 581.42
+      },
+      {
+        "text": "Klaas komt bij zijn vriendin op bezoek. Waarom is hij niet met de auto? Heb je hem soms verkocht?",
+        "translation": "Klaas 去拜訪他的女朋友。為什麼他沒有開車？你是賣掉車了嗎？",
+        "start": 581.42,
+        "end": 583.62
+      },
+      {
+        "text": "A.",
+        "translation": "A.",
+        "start": 586.7,
+        "end": 588.1
+      },
+      {
+        "text": "Hij heeft geen auto meer.",
+        "translation": "他沒有車了。",
+        "start": 598.5,
+        "end": 601.58
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wanneer begint het vrije spreekuur op donderdag?",
+        "question_native": "週四的免費門診幾點開始？",
+        "options": [
+          "Om acht uur",
+          "Om half negen",
+          "Om negen uur"
+        ],
+        "answer": "Om half negen"
+      },
+      {
+        "question": "Waarom kan Joke vanmiddag niet komen koffie drinken?",
+        "question_native": "為什麼喬克今天下午不能來喝咖啡？",
+        "options": [
+          "Ze moet werken",
+          "Ze is een beetje moe",
+          "Ze lust geen koffie"
+        ],
+        "answer": "Ze is een beetje moe"
+      },
+      {
+        "question": "Neemt Alida soep in het restaurant?",
+        "question_native": "阿莉達在餐廳會點湯嗎？",
+        "options": [
+          "Ja",
+          "Nee",
+          "Dat is niet gezegd"
+        ],
+        "answer": "Nee"
+      },
+      {
+        "question": "Wanneer willen mevrouw Van Diemen en haar zoon naar de Zwarte Mart gaan?",
+        "question_native": "范迪門女士和她兒子打算什麼時候去黑市？",
+        "options": [
+          "Vrijdagmiddag",
+          "Zaterdagmorgen",
+          "Zaterdagmiddag"
+        ],
+        "answer": "Vrijdagmiddag"
+      },
+      {
+        "question": "Waar vindt het gesprek tussen de man en de vrouw plaats in segment 2?",
+        "question_native": "第二段男士與女士的對話發生在什麼地方？",
+        "options": [
+          "Op school",
+          "Op straat",
+          "Thuis"
+        ],
+        "answer": "Op straat"
+      },
+      {
+        "question": "Wat voor saus hoort bij de runderbiefstuk?",
+        "question_native": "牛排配的是什麼醬？",
+        "options": [
+          "Pepersaus",
+          "Tomatensaus",
+          "Mosterdsaus"
+        ],
+        "answer": "Pepersaus"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "collega",
+        "meaning": "同事"
+      },
+      {
+        "word": "informatietelefoon",
+        "meaning": "資訊電話"
+      },
+      {
+        "word": "vrije spreekuur",
+        "meaning": "免費門診時間"
+      },
+      {
+        "word": "afspraak",
+        "meaning": "約會、預約"
+      },
+      {
+        "word": "uitrusten",
+        "meaning": "休息"
+      },
+      {
+        "word": "pepersaus",
+        "meaning": "胡椒醬"
+      },
+      {
+        "word": "voorafje",
+        "meaning": "前菜"
+      },
+      {
+        "word": "tomatensoep",
+        "meaning": "番茄湯"
+      },
+      {
+        "word": "Zwarte Mart",
+        "meaning": "黑市"
+      },
+      {
+        "word": "zaterdagmorgen",
+        "meaning": "星期六早上"
+      },
+      {
+        "word": "ophalen",
+        "meaning": "接（某人）"
+      },
+      {
+        "word": "druk",
+        "meaning": "忙、吵鬧"
+      },
+      {
+        "word": "bank liggen",
+        "meaning": "躺在沙發上"
+      },
+      {
+        "word": "heel smakelijk",
+        "meaning": "非常美味"
+      },
+      {
+        "word": "lusten",
+        "meaning": "喜歡（食物）"
+      }
+    ]
+  }
+}

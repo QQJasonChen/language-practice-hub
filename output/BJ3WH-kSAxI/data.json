@@ -1,0 +1,684 @@
+{
+  "video_id": "BJ3WH-kSAxI",
+  "video_info": {
+    "title": "Listening exam A2 Practice 12",
+    "channel": "Inburgeren examen A2",
+    "duration": 611
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "1. Op de radio",
+        "translation": "1. 在收音機上",
+        "start": 2.82,
+        "end": 5.7
+      },
+      {
+        "text": "2. U hoort op de radio een bericht. Wat is dit voor bericht?",
+        "translation": "2. 你在收音機上聽到一則訊息。這是什麼訊息？",
+        "start": 6.2,
+        "end": 11.78
+      },
+      {
+        "text": "3. a. Een nieuwsbericht b. Een reclamebericht",
+        "translation": "3. a. 新聞報導 b. 廣告訊息",
+        "start": 12.94,
+        "end": 18.44
+      },
+      {
+        "text": "4. c. Een weerbericht",
+        "translation": "4. c. 天氣預報",
+        "start": 18.68,
+        "end": 21.2
+      },
+      {
+        "text": "5. Bent u op zoek naar een goed adres voor tweedehands auto's?",
+        "translation": "5. 你是否正在尋找二手車的好地址？",
+        "start": 23.54,
+        "end": 27.4
+      },
+      {
+        "text": "6. Dan is er voor u goed nieuws! Maandag 24 juni",
+        "translation": "6. 那麼，有好消息給你！6月24日星期一",
+        "start": 27.4,
+        "end": 31.78
+      },
+      {
+        "text": "7. opent Jones Tweedehands Auto Paradise zijn deuren.",
+        "translation": "7. Jones二手車天堂將開門營業。",
+        "start": 31.78,
+        "end": 35.38
+      },
+      {
+        "text": "8. Keuze uit alle merken. Honderden modellen staan voor u klaar.",
+        "translation": "8. 各種品牌任你挑選。數百個車型等待您的光臨。",
+        "start": 36.1,
+        "end": 40.22
+      },
+      {
+        "text": "9. Natuurlijk allemaal uitgebreid getest en goedgekeurd door de ANWB.",
+        "translation": "9. 當然，全都經過ANWB詳細測試並通過審核。",
+        "start": 40.66,
+        "end": 44.4
+      },
+      {
+        "text": "10. En voor de eerste 100 bezoekers is er een aantrekkelijke korting.",
+        "translation": "10. 前100位訪客還可以享有優惠折扣。",
+        "start": 45.4,
+        "end": 49.68
+      },
+      {
+        "text": "11. Dus tot maandag 24 juni bij Jones Tweedehands Auto Paradise.",
+        "translation": "11. 所以，6月24日星期一見於Jones二手車天堂。",
+        "start": 50.28,
+        "end": 55.26
+      },
+      {
+        "text": "12. Kies nu het goede antwoord.",
+        "translation": "12. 現在選擇正確答案。",
+        "start": 56.62,
+        "end": 59.06
+      },
+      {
+        "text": "13. 2. Het keukengereedschap Een vrouw vertelt iets over een ding",
+        "translation": "13. 2. 廚房用具 一位女士講述了一個她常在廚房使用的東西",
+        "start": 68.82,
+        "end": 74.58
+      },
+      {
+        "text": "14. dat ze vaak in de keuken gebruikt. Welk plaatje past het beste?",
+        "translation": "14. 哪張圖片最合適？",
+        "start": 74.58,
+        "end": 78.74
+      },
+      {
+        "text": "15. Plaatje A, B of C?",
+        "translation": "15. 圖片A、B還是C？",
+        "start": 79.34,
+        "end": 82.02
+      },
+      {
+        "text": "16. Ja, ik gebruik hem echt wel vaak. Hij is echt heel handig",
+        "translation": "16. 是的，我真的經常使用它。它真的非常方便",
+        "start": 83.78,
+        "end": 87.98
+      },
+      {
+        "text": "17. voor als je bijvoorbeeld appeltaart wil bakken. Dan kan je een mooie dunne taartbodem maken.",
+        "translation": "17. 比如做蘋果派時用它。這樣可以做出漂亮又薄的派皮。",
+        "start": 87.98,
+        "end": 93.7
+      },
+      {
+        "text": "18. Ook als ik zelf pizza's maak, gebruik ik hem altijd.",
+        "translation": "18. 做披薩時我也總是用它。",
+        "start": 94.7,
+        "end": 97.9
+      },
+      {
+        "text": "19. Zo'n pizzabodem die moet echt mooi dun en plat zijn.",
+        "translation": "19. 那種披薩底一定要漂亮、又薄又平。",
+        "start": 98.78,
+        "end": 102.56
+      },
+      {
+        "text": "20. Anders wordt het niet lekker. Kies nu het goede antwoord.",
+        "translation": "20. 不然味道就不好。現在選擇正確答案。",
+        "start": 103.22,
+        "end": 107.48
+      },
+      {
+        "text": "21. 3. Op vakantie Meneer de boer huurt een kamer in een hotel.",
+        "translation": "21. 3. 渡假 一位農夫先生在飯店租了一間房間。",
+        "start": 119.76,
+        "end": 125.48
+      },
+      {
+        "text": "22. Hoeveel kinderen neemt hij mee? A. 1",
+        "translation": "22. 他帶了幾個小孩？A. 1個",
+        "start": 126.84,
+        "end": 130.74
+      },
+      {
+        "text": "23. B. 2",
+        "translation": "23. B. 2個",
+        "start": 131.46,
+        "end": 133.72
+      },
+      {
+        "text": "24. Hallo, ik wil graag een kamer voor twee nachten. Dat kan. Voor hoeveel personen?",
+        "translation": "24. 你好，我想要一間房，住兩晚。可以。幾位入住？",
+        "start": 134.66,
+        "end": 140.06
+      },
+      {
+        "text": "25. 3. Mijn vrouw en ik en ons zoontje van 2 jaar.",
+        "translation": "25. 3位。我和我太太，還有我們兩歲的兒子。",
+        "start": 140.06,
+        "end": 144.48
+      },
+      {
+        "text": "26. Geef nu antwoord.",
+        "translation": "26. 請現在回答。",
+        "start": 146.58,
+        "end": 148.34
+      },
+      {
+        "text": "27. 4. De gehuurde auto De eigenaar van een autoverhuurbedrijf",
+        "translation": "27. 4. 租來的車 一家租車公司老闆與客戶交談。",
+        "start": 161.46,
+        "end": 167.06
+      },
+      {
+        "text": "28. praat met een klant. Waarom moet de klant extra betalen?",
+        "translation": "28. 為什麼客戶要付額外費用？",
+        "start": 167.68,
+        "end": 171.84
+      },
+      {
+        "text": "29. A. Hij brengt de auto niet op tijd terug. B. De auto is beschadigd.",
+        "translation": "29. A. 他沒有準時還車。 B. 車子受損了。",
+        "start": 172.98,
+        "end": 178.68
+      },
+      {
+        "text": "30. C. Hij heeft alle benzine opgemaakt en niet getankt.",
+        "translation": "30. C. 他把所有油都用完了，卻沒加油。",
+        "start": 179.48,
+        "end": 183.42
+      },
+      {
+        "text": "31. Hallo, ik kom de auto terugbrengen. Die rode Fiat.",
+        "translation": "31. 你好，我要還車。那台紅色的Fiat。",
+        "start": 186.14,
+        "end": 188.88
+      },
+      {
+        "text": "32. Prima. Loopt u even mee naar buiten. Dan kan ik even kijken of alles in orde is.",
+        "translation": "32. 好的，請跟我到外面，我要檢查車況。",
+        "start": 190.3,
+        "end": 194.36
+      },
+      {
+        "text": "33. O, het spijt me mevrouw, maar dat gaat u 50 gulden extra kosten.",
+        "translation": "33. 哦，抱歉女士，這會多收您50荷蘭盾。",
+        "start": 198.02,
+        "end": 202.62
+      },
+      {
+        "text": "34. Waarom? Ik breng hem toch keurig op tijd terug? Ja, maar kijkt u eens even naar de benzinemeter.",
+        "translation": "34. 為什麼？我明明準時還車了。是的，但請看一下油表，",
+        "start": 203.16,
+        "end": 208.76
+      },
+      {
+        "text": "35. Die staat bijna op nul. En u moet de auto met een volle tank inleveren.",
+        "translation": "35. 幾乎快沒油了。租車時必須是滿油還車。",
+        "start": 209.36,
+        "end": 213.64
+      },
+      {
+        "text": "36. Geef nu antwoord.",
+        "translation": "36. 請現在回答。",
+        "start": 216.16,
+        "end": 217.6
+      },
+      {
+        "text": "37. 5. Bij de kinderopvang.",
+        "translation": "37. 5. 在托兒所。",
+        "start": 233.44,
+        "end": 235.78
+      },
+      {
+        "text": "38. De medewerkster van de kinderopvang praat met een man. Waarom is de man bij de kinderopvang?",
+        "translation": "38. 托兒所工作人員與一名男子交談。為什麼男子來到托兒所？",
+        "start": 236.8,
+        "end": 242.42
+      },
+      {
+        "text": "39. A. Omdat hij daar werkt. B. Omdat hij zijn zoontje komt ophalen.",
+        "translation": "39. A. 因為他在這裡工作。 B. 因為他來接他的兒子。",
+        "start": 243.28,
+        "end": 248.98
+      },
+      {
+        "text": "40. C. Omdat hij wil vertellen dat zijn zoontje ziek is.",
+        "translation": "40. C. 因為他來告訴兒子生病了。",
+        "start": 250.04,
+        "end": 253.0
+      },
+      {
+        "text": "41. Hallo, ik ben de vader van Martijn. Kan ik hem al meenemen?",
+        "translation": "41. 你好，我是Martijn的爸爸。我可以帶他回家嗎？",
+        "start": 254.56,
+        "end": 258.0
+      },
+      {
+        "text": "42. O, hallo. Prettig kennis te maken. Ik ben Annelies.",
+        "translation": "42. 哦，你好。很高興認識你。我是Annelies。",
+        "start": 258.8,
+        "end": 261.94
+      },
+      {
+        "text": "43. Normaal komt uw vrouw altijd. Ja, maar die heeft een griepje.",
+        "translation": "43. 通常你太太總是來的。是，但她感冒了。",
+        "start": 262.72,
+        "end": 266.54
+      },
+      {
+        "text": "44. O, nou, wens aan mijn beterschap. Ik zal Martijn even roepen, want hij speelt buiten.",
+        "translation": "44. 哦，那祝她早日康復。我去叫Martijn，他在外面玩。",
+        "start": 267.28,
+        "end": 272.28
+      },
+      {
+        "text": "45. Martijn, kom je? Je vader is er. Kies nu het goede antwoord.",
+        "translation": "45. Martijn，你來嗎？你爸爸來了。現在選擇正確答案。",
+        "start": 273.36,
+        "end": 279.18
+      },
+      {
+        "text": "46. 6. Op school.",
+        "translation": "46. 6. 在學校。",
+        "start": 296.86,
+        "end": 299.38
+      },
+      {
+        "text": "47. Een cursiste komt na de les terug op school. Wat zoekt ze?",
+        "translation": "47. 一位女學員課後回到學校。她在找什麼？",
+        "start": 300.84,
+        "end": 305.3
+      },
+      {
+        "text": "48. A. Haar boek. B. Haar tas.",
+        "translation": "48. A. 她的書。 B. 她的包。",
+        "start": 306.92,
+        "end": 310.46
+      },
+      {
+        "text": "49. C. Haar map.",
+        "translation": "49. C. 她的資料夾。",
+        "start": 311.24,
+        "end": 312.68
+      },
+      {
+        "text": "50. Kies nu het goede antwoord.",
+        "translation": "50. 現在選擇正確答案。",
+        "start": 341.86,
+        "end": 344.04
+      },
+      {
+        "text": "7. Werk. Twee mensen praten over de situatie op hun werk.",
+        "translation": "7. 工作。兩個人談論他們工作的情況。",
+        "start": 358.4,
+        "end": 363.72
+      },
+      {
+        "text": "Is de vrouw tevreden met haar werk? A. Ja.",
+        "translation": "那位女士對她的工作滿意嗎？A. 是的。",
+        "start": 364.72,
+        "end": 368.9
+      },
+      {
+        "text": "B. Nee. Zeg, waar werk je eigenlijk?",
+        "translation": "B. 不。說說看，你到底在哪裡工作？",
+        "start": 369.62,
+        "end": 374.2
+      },
+      {
+        "text": "Nou, ik werk sinds kort op een kantoor in Zuidoost, vlakbij de Amsterdam Arena.",
+        "translation": "嗯，我最近在東南區一間辦公室工作，就在阿姆斯特丹競技場附近。",
+        "start": 375.12,
+        "end": 379.5
+      },
+      {
+        "text": "O, en bevalt het een beetje? Nou, eigenlijk niet zo nee.",
+        "translation": "哦，還算滿意嗎？嗯，說實話不太滿意。",
+        "start": 380.2,
+        "end": 384.48
+      },
+      {
+        "text": "Ik zit op een hele ongezellige afdeling en mijn baas is ook zo'n onsympathieke man.",
+        "translation": "我在一個非常冷清的部門工作，而且我的老闆也是個不怎麼讓人喜歡的人。",
+        "start": 384.98,
+        "end": 389.94
+      },
+      {
+        "text": "Altijd wat te zeuren. Nooit is het eens goed.",
+        "translation": "總是抱怨，從來不滿意。",
+        "start": 390.84,
+        "end": 393.58
+      },
+      {
+        "text": "Bovendien, ik vind het maar een saaie buurt hier. Niks te doen in de pauze.",
+        "translation": "而且，我覺得這裡的區域很無聊，休息時間沒什麼事情可做。",
+        "start": 394.34,
+        "end": 399.12
+      },
+      {
+        "text": "Kies nu het goede antwoord.",
+        "translation": "現在選擇正確的答案。",
+        "start": 400.78,
+        "end": 402.28
+      },
+      {
+        "text": "8. In het ziekenhuis. Mevrouw Brandsma ligt in het ziekenhuis.",
+        "translation": "8. 在醫院。Bransma女士住院了。",
+        "start": 412.24,
+        "end": 417.28
+      },
+      {
+        "text": "Ze heeft erg veel pijn in haar maag. Moet ze geopereerd worden?",
+        "translation": "她的胃非常痛。她需要接受手術嗎？",
+        "start": 418.3,
+        "end": 421.84
+      },
+      {
+        "text": "A. Ja. B. Misschien.",
+        "translation": "A. 是的。B. 可能。",
+        "start": 422.84,
+        "end": 426.2
+      },
+      {
+        "text": "C. Nee.",
+        "translation": "C. 不。",
+        "start": 426.98,
+        "end": 428.68
+      },
+      {
+        "text": "Tja, dat het een operatie wordt, dat is wel zeker.",
+        "translation": "那手術是肯定的。",
+        "start": 431.58,
+        "end": 435.14
+      },
+      {
+        "text": "Maar of we dat hier in dit ziekenhuis kunnen doen, dat weet ik nog niet precies.",
+        "translation": "但我們是否能在這家醫院做手術，我還不確定。",
+        "start": 436.18,
+        "end": 440.34
+      },
+      {
+        "text": "Daarvoor moet ik eerst de röntgenfoto's zien.",
+        "translation": "為此我得先看X光片。",
+        "start": 441.46,
+        "end": 443.46
+      },
+      {
+        "text": "Het kan zijn dat er tijdens de operatie speciale apparatuur nodig is.",
+        "translation": "手術時可能需要特殊設備。",
+        "start": 444.48,
+        "end": 448.68
+      },
+      {
+        "text": "En die hebben we hier helaas niet.",
+        "translation": "而這裡很遺憾沒有這些設備。",
+        "start": 449.28,
+        "end": 450.62
+      },
+      {
+        "text": "Dus het wordt of hier of in een ander ziekenhuis.",
+        "translation": "所以手術要麼在這裡要麼在另一家醫院進行。",
+        "start": 450.62,
+        "end": 455.5
+      },
+      {
+        "text": "Kies nu het goede antwoord.",
+        "translation": "現在選擇正確的答案。",
+        "start": 457.26,
+        "end": 458.84
+      },
+      {
+        "text": "9. Boos. Een moeder moppert op haar zoon.",
+        "translation": "9. 生氣。一位母親對她的兒子抱怨。",
+        "start": 467.66,
+        "end": 472.26
+      },
+      {
+        "text": "Waarom is de moeder boos op haar zoon? A. Hij heeft zijn kleine broertje geslagen.",
+        "translation": "為什麼母親生她兒子的氣？A. 他打了他的小弟弟。",
+        "start": 473.56,
+        "end": 479.38
+      },
+      {
+        "text": "B. Hij heeft snoep uit een winkel gestolen.",
+        "translation": "B. 他偷了商店的糖果。",
+        "start": 480.32,
+        "end": 483.58
+      },
+      {
+        "text": "C. Hij doet zijn best niet op school.",
+        "translation": "C. 他在學校不努力。",
+        "start": 484.82,
+        "end": 487.24
+      },
+      {
+        "text": "De meester zegt ook dat het helemaal niet goed gaat. Je zit maar te kletsen en je werkt niet hard genoeg.",
+        "translation": "老師也說情況非常不好。你總是在聊個不停，工作不夠努力。",
+        "start": 489.92,
+        "end": 495.5
+      },
+      {
+        "text": "Geen wonder dat je zulke slechte cijfers hebt.",
+        "translation": "難怪你的成績這麼差。",
+        "start": 496.34,
+        "end": 498.68
+      },
+      {
+        "text": "Hier, rekenen een 4 en schrijven zelfs een 3.",
+        "translation": "數學只有4分，寫作甚至只有3分。",
+        "start": 499.12,
+        "end": 503.44
+      },
+      {
+        "text": "En het is heus niet te moeilijk voor je, maar je doet er gewoon te weinig voor.",
+        "translation": "這對你來說並不難，但你就是付出太少了。",
+        "start": 503.82,
+        "end": 508.22
+      },
+      {
+        "text": "Kies nu het goede antwoord.",
+        "translation": "現在選擇正確的答案。",
+        "start": 509.6,
+        "end": 511.78
+      },
+      {
+        "text": "10. Naar Utrecht.",
+        "translation": "10. 去烏得勒支。",
+        "start": 525.28,
+        "end": 527.42
+      },
+      {
+        "text": "Een man belt met het informatienummer van het openbaar vervoer.",
+        "translation": "一位男子撥打公共交通的資訊電話。",
+        "start": 527.94,
+        "end": 531.76
+      },
+      {
+        "text": "Hoe kan hij morgen het beste naar Utrecht gaan? A. Met de trein.",
+        "translation": "他明天怎麼去烏得勒支最方便？A. 坐火車。",
+        "start": 532.56,
+        "end": 537.74
+      },
+      {
+        "text": "B. Met de bus.",
+        "translation": "B. 坐公車。",
+        "start": 538.54,
+        "end": 540.36
+      },
+      {
+        "text": "Goedemorgen, informatie openbaar vervoer. Zegt u het maar.",
+        "translation": "早安，這裡是公共交通資訊，請講。",
+        "start": 543.44,
+        "end": 546.36
+      },
+      {
+        "text": "Ja, hallo. Ik woon in Amsterdam en ik moet morgen om half tien in Utrecht zijn.",
+        "translation": "您好，我住在阿姆斯特丹，明天必須在九點半到烏得勒支。",
+        "start": 547.22,
+        "end": 552.76
+      },
+      {
+        "text": "Dan kun je natuurlijk het beste met de bus gaan, meneer. Maar ik kan toch ook met de trein?",
+        "translation": "那你最好搭公車，先生。但我不能坐火車嗎？",
+        "start": 553.16,
+        "end": 558.28
+      },
+      {
+        "text": "Nee, nee. Er is morgen een staking, dus die rijden niet.",
+        "translation": "不行不行，明天有罷工，火車不開。",
+        "start": 559.04,
+        "end": 561.98
+      },
+      {
+        "text": "U moet lijn 130 naar Utrecht nemen. Die stopt op het plein voor het centraal station.",
+        "translation": "你必須搭130號公車到烏得勒支，它會停在中央車站前的廣場。",
+        "start": 561.98,
+        "end": 567.68
+      },
+      {
+        "text": "Kies nu het goede antwoord.",
+        "translation": "現在選擇正確的答案。",
+        "start": 569.82,
+        "end": 571.24
+      },
+      {
+        "text": "10. Naar Utrecht. B. Met de bus. A. Met de trein.",
+        "translation": "10. 去烏得勒支。B. 坐公車。A. 坐火車。",
+        "start": 598.42,
+        "end": 599.96
+      },
+      {
+        "text": "B. Met de bus. Goedemorgen, informatie openbaar vervoer. Zegt u het maar.",
+        "translation": "B. 坐公車。早安，這裡是公共交通資訊，請講。",
+        "start": 604.84,
+        "end": 608.36
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat voor soort bericht wordt op de radio aangekondigd?",
+        "question_native": "收音機上播送的是什麼類型的訊息？",
+        "options": [
+          "Nieuwsbericht",
+          "Reclamebericht",
+          "Weerbericht"
+        ],
+        "answer": "Reclamebericht"
+      },
+      {
+        "question": "Welk keukengereedschap wordt beschreven in de tweede situatie?",
+        "question_native": "第二段描述的是什麼廚房用具？",
+        "options": [
+          "Taartvorm",
+          "Deegroller",
+          "Koksmes"
+        ],
+        "answer": "Deegroller"
+      },
+      {
+        "question": "Hoeveel kinderen neemt de boer mee op vakantie?",
+        "question_native": "農夫帶了幾個孩子去渡假？",
+        "options": [
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "Waarom moet de klant extra betalen bij het autoverhuurbedrijf?",
+        "question_native": "為什麼租車客戶需要付額外費用？",
+        "options": [
+          "Auto niet op tijd terug",
+          "Auto beschadigd",
+          "Tank bijna leeg"
+        ],
+        "answer": "Tank bijna leeg"
+      },
+      {
+        "question": "Waarom komt de man naar de kinderopvang?",
+        "question_native": "這位男子為什麼來托兒所？",
+        "options": [
+          "Omdat hij daar werkt",
+          "Om zijn zoontje op te halen",
+          "Om te vertellen dat zijn zoontje ziek is"
+        ],
+        "answer": "Omdat hij zijn zoontje op te halen"
+      },
+      {
+        "question": "Wat zoekt de cursiste na de les op school?",
+        "question_native": "該學員下課後在學校尋找什麼？",
+        "options": [
+          "Boek",
+          "Tas",
+          "Map"
+        ],
+        "answer": "Tas"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "Tweedehandsauto's",
+        "meaning": "二手車"
+      },
+      {
+        "word": "Reclamebericht",
+        "meaning": "廣告訊息"
+      },
+      {
+        "word": "Appeltaart",
+        "meaning": "蘋果派"
+      },
+      {
+        "word": "Pizzabodem",
+        "meaning": "披薩底"
+      },
+      {
+        "word": "Kamer huren",
+        "meaning": "租房間"
+      },
+      {
+        "word": "Zoontje",
+        "meaning": "小兒子"
+      },
+      {
+        "word": "Autoverhuurbedrijf",
+        "meaning": "租車公司"
+      },
+      {
+        "word": "Benzinemeter",
+        "meaning": "油表"
+      },
+      {
+        "word": "Kinderopvang",
+        "meaning": "托兒所"
+      },
+      {
+        "word": "Griepje",
+        "meaning": "感冒"
+      },
+      {
+        "word": "Medewerkster",
+        "meaning": "女職員"
+      },
+      {
+        "word": "Cursiste",
+        "meaning": "女學員"
+      },
+      {
+        "word": "Tas",
+        "meaning": "包包"
+      },
+      {
+        "word": "Nieuwsbericht",
+        "meaning": "新聞報導"
+      },
+      {
+        "word": "Korting",
+        "meaning": "折扣"
+      }
+    ]
+  }
+}

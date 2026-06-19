@@ -1,0 +1,718 @@
+{
+ "eren is met zijn vriend mark bij de gemeente.": {
+  "breakdown": [
+   [
+    "Eren",
+    "Eren"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "met zijn vriend Mark",
+    "和他的朋友Mark"
+   ],
+   [
+    "bij de gemeente",
+    "在市政府"
+   ]
+  ],
+  "order": "主詞(Eren) → 動詞(is) → 其他(met zijn vriend Mark bij de gemeente)",
+  "grammar": "現在式，主詞和動詞一致。",
+  "listen": "注意連音，'met zijn' 可能聽成 'met z'n'。"
+ },
+ "lees eerst de vraag, kijk daarna naar de video.": {
+  "breakdown": [
+   [
+    "Lees",
+    "請閱讀"
+   ],
+   [
+    "eerst de vraag",
+    "問題"
+   ],
+   [
+    "kijk daarna",
+    "然後觀看"
+   ],
+   [
+    "naar de video",
+    "影片"
+   ]
+  ],
+  "order": "動詞(Lees) → 副詞(eerst) → 其他(de vraag) → 動詞(kijk) → 副詞(daarna) → 其他(naar de video)",
+  "grammar": "命令句，動詞在句首。",
+  "listen": "'eerst' 和 'de' 之間的連音可能被忽略。"
+ },
+ "kan ik u helpen?": {
+  "breakdown": [
+   [
+    "Kan",
+    "可以"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "u helpen",
+    "幫您"
+   ]
+  ],
+  "order": "動詞(Kan) → 主詞(ik) → 其他(u helpen)",
+  "grammar": "疑問句，助動詞在前。",
+  "listen": "'u' 可能聽起來很輕，注意聽清。"
+ },
+ "ik heb een zoon gekregen, gisteren.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "heb",
+    "有"
+   ],
+   [
+    "een zoon gekregen",
+    "生了一個兒子"
+   ],
+   [
+    "gisteren",
+    "昨天"
+   ]
+  ],
+  "order": "主詞(Ik) → 助動詞(heb) → 其他(een zoon gekregen) → 時間(gisteren)",
+  "grammar": "完成式，助動詞在前，過去分詞在後。",
+  "listen": "'een' 和 'zoon' 之間可能連音。"
+ },
+ "gefeliciteerd.": {
+  "breakdown": [
+   [
+    "Gefeliciteerd",
+    "恭喜您"
+   ]
+  ],
+  "order": "這句是單句，無需語序變化。",
+  "grammar": "這是祝賀用語，無特定時態。",
+  "listen": "注意 'Gefeliciteerd' 的重音。"
+ },
+ "u wilt dus aangifte doen van de geboorte.": {
+  "breakdown": [
+   [
+    "U",
+    "您"
+   ],
+   [
+    "wilt",
+    "要"
+   ],
+   [
+    "dus",
+    "所以"
+   ],
+   [
+    "aangifte doen van de geboorte",
+    "申報出生登記"
+   ]
+  ],
+  "order": "主詞(U) → 情態動詞(wilt) → 其他(dus aangifte doen van de geboorte)",
+  "grammar": "情態動詞在主詞後，原形動詞在句尾。",
+  "listen": "'dus' 可能被弱讀，注意聽清。"
+ },
+ "mag ik uw legitimatiebewijs?": {
+  "breakdown": [
+   [
+    "Mag",
+    "可以"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "uw legitimatiebewijs",
+    "您的身份證件"
+   ]
+  ],
+  "order": "動詞(Mag) → 主詞(ik) → 其他(uw legitimatiebewijs)",
+  "grammar": "疑問句，助動詞在前。",
+  "listen": "'uw' 可能聽起來很輕，注意聽清。"
+ },
+ "nee, vergeten.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "vergeten",
+    "忘記"
+   ]
+  ],
+  "order": "這句是單句，無需語序變化。",
+  "grammar": "簡單句，使用過去分詞。",
+  "listen": "'vergeten' 可能聽起來不清楚。"
+ },
+ "ach, kan gebeuren.": {
+  "breakdown": [
+   [
+    "Ach",
+    "沒關係"
+   ],
+   [
+    "kan gebeuren",
+    "這種事會發生"
+   ]
+  ],
+  "order": "這句是單句，無需語序變化。",
+  "grammar": "簡單句，表達安慰。",
+  "listen": "'kan' 和 'gebeuren' 之間的連音可能被忽略。"
+ },
+ "u kunt tot twee dagen na de geboorte aangifte doen.": {
+  "breakdown": [
+   [
+    "U",
+    "您"
+   ],
+   [
+    "kunt",
+    "可以"
+   ],
+   [
+    "tot twee dagen",
+    "在兩天內"
+   ],
+   [
+    "na de geboorte",
+    "出生後"
+   ],
+   [
+    "aangifte doen",
+    "辦理申報"
+   ]
+  ],
+  "order": "主詞(U) → 動詞(kunt) → 其他(tot twee dagen na de geboorte) → 動詞(aangifte doen)",
+  "grammar": "情態動詞在主詞後，原形動詞在句尾。",
+  "listen": "'tot' 和 'twee' 之間可能連音。"
+ },
+ "dus het mag morgen ook nog, want vanmiddag zijn we gesloten.": {
+  "breakdown": [
+   [
+    "Dus",
+    "所以"
+   ],
+   [
+    "het mag",
+    "這是可以的"
+   ],
+   [
+    "morgen ook nog",
+    "明天也可以"
+   ],
+   [
+    "want",
+    "因為"
+   ],
+   [
+    "vanmiddag",
+    "今天下午"
+   ],
+   [
+    "zijn we gesloten",
+    "我們休息"
+   ]
+  ],
+  "order": "副詞(Dus) → 其他(het mag morgen ook nog) → 連接詞(want) → 其他(vanmiddag zijn we gesloten)",
+  "grammar": "這句包含原因，'want' 引導原因子句。",
+  "listen": "'het' 可能被弱讀，注意聽清。"
+ },
+ "bent u getrouwd?": {
+  "breakdown": [
+   [
+    "Bent",
+    "結婚了"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "getrouwd",
+    "結婚"
+   ]
+  ],
+  "order": "動詞(Bent) → 主詞(u) → 其他(getrouwd)",
+  "grammar": "疑問句，助動詞在前。",
+  "listen": "'u' 可能聽起來很輕，注意聽清。"
+ },
+ "ja.": {
+  "breakdown": [
+   [
+    "Ja.",
+    "是的。"
+   ]
+  ],
+  "order": "主詞(省略) → 動詞(是) → 補語(的)",
+  "grammar": "簡單句，無特別文法重點。",
+  "listen": "注意 Ja 的發音，可能聽成 'ya'。"
+ },
+ "dan moet u ook het trouwboekje meenemen.": {
+  "breakdown": [
+   [
+    "Dan",
+    "那"
+   ],
+   [
+    "moet u",
+    "您必須"
+   ],
+   [
+    "ook",
+    "也"
+   ],
+   [
+    "het trouwboekje",
+    "結婚證書"
+   ],
+   [
+    "meenemen",
+    "帶來"
+   ]
+  ],
+  "order": "副詞(那) → 動詞(必須) → 主詞(您) → 副詞(也) → 受詞(結婚證書) → 動詞(帶來)",
+  "grammar": "必須用現在式，動詞需放在第二位。",
+  "listen": "'moet' 和 'u' 之間可能連音。"
+ },
+ "morgen zijn we tot twaalf uur open.": {
+  "breakdown": [
+   [
+    "Morgen",
+    "明天"
+   ],
+   [
+    "zijn we",
+    "我們是"
+   ],
+   [
+    "tot twaalf uur",
+    "到十二點"
+   ],
+   [
+    "open",
+    "開放"
+   ]
+  ],
+  "order": "時間(明天) → 動詞(是) → 主詞(我們) → 時間(到十二點) → 補語(開放)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "'zijn' 和 'we' 之間可能連音。"
+ },
+ "u kunt op internet een afspraak maken.": {
+  "breakdown": [
+   [
+    "U kunt",
+    "您可以"
+   ],
+   [
+    "op internet",
+    "在網路上"
+   ],
+   [
+    "een afspraak maken",
+    "預約"
+   ]
+  ],
+  "order": "主詞(您) → 動詞(可以) → 地點(在網路上) → 受詞(預約)",
+  "grammar": "情態動詞用現在式，原形動詞放句尾。",
+  "listen": "'kunt' 和 'op' 之間可能連音。"
+ },
+ "dan hoeft u niet zo lang te wachten.": {
+  "breakdown": [
+   [
+    "Dan",
+    "這樣"
+   ],
+   [
+    "hoeft u",
+    "您不必"
+   ],
+   [
+    "niet",
+    "不"
+   ],
+   [
+    "zo lang",
+    "那麼久"
+   ],
+   [
+    "te wachten",
+    "等"
+   ]
+  ],
+  "order": "副詞(這樣) → 動詞(不必) → 主詞(您) → 否定詞(不) → 副詞(那麼久) → 動詞(等)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "'hoeft' 和 'u' 之間可能連音。"
+ },
+ "kan dat niet meteen hier aan de balie?": {
+  "breakdown": [
+   [
+    "Kan dat",
+    "這可以"
+   ],
+   [
+    "niet",
+    "不"
+   ],
+   [
+    "meteen",
+    "立刻"
+   ],
+   [
+    "hier",
+    "這裡"
+   ],
+   [
+    "aan de balie",
+    "在櫃檯辦理"
+   ]
+  ],
+  "order": "動詞(可以) → 受詞(這) → 否定詞(不) → 副詞(立刻) → 地點(這裡) → 補語(在櫃檯辦理)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "'Kan' 和 'dat' 之間可能連音。"
+ },
+ "helaas, alleen online.": {
+  "breakdown": [
+   [
+    "Helaas",
+    "很抱歉"
+   ],
+   [
+    "alleen",
+    "只"
+   ],
+   [
+    "online",
+    "線上"
+   ]
+  ],
+  "order": "副詞(很抱歉) → 副詞(只) → 補語(線上)",
+  "grammar": "簡單句，無特別文法重點。",
+  "listen": "'Helaas' 的發音可能不清楚。"
+ },
+ "oké, bedankt.": {
+  "breakdown": [
+   [
+    "Oké",
+    "好的"
+   ],
+   [
+    "bedankt",
+    "謝謝您"
+   ]
+  ],
+  "order": "主詞(省略) → 動詞(謝謝) → 補語(您)",
+  "grammar": "簡單句，無特別文法重點。",
+  "listen": "'Oké' 的發音可能不清楚。"
+ },
+ "waarom is mark bij de gemeente?": {
+  "breakdown": [
+   [
+    "Waarom",
+    "為什麼"
+   ],
+   [
+    "is Mark",
+    "Mark是"
+   ],
+   [
+    "bij de gemeente",
+    "在市政府"
+   ]
+  ],
+  "order": "疑問詞(為什麼) → 動詞(是) → 主詞(Mark) → 地點(在市政府)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "'is' 和 'Mark' 之間可能連音。"
+ },
+ "hij wil een geboorte aangeven.": {
+  "breakdown": [
+   [
+    "Hij wil",
+    "他想"
+   ],
+   [
+    "een geboorte",
+    "一個出生"
+   ],
+   [
+    "aangeven",
+    "申報"
+   ]
+  ],
+  "order": "主詞(他) → 動詞(想) → 受詞(一個出生) → 動詞(申報)",
+  "grammar": "情態動詞用現在式，原形動詞放句尾。",
+  "listen": "'wil' 和 'een' 之間可能連音。"
+ },
+ "hij gaat binnenkort trouwen.": {
+  "breakdown": [
+   [
+    "Hij gaat",
+    "他去"
+   ],
+   [
+    "binnenkort",
+    "即將"
+   ],
+   [
+    "trouwen",
+    "結婚"
+   ]
+  ],
+  "order": "主詞(他) → 動詞(去) → 副詞(即將) → 動詞(結婚)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "'gaat' 和 'binnenkort' 之間可能連音。"
+ },
+ "hij is zijn legitimatiebewijs kwijt.": {
+  "breakdown": [
+   [
+    "Hij is",
+    "他是"
+   ],
+   [
+    "zijn legitimatiebewijs",
+    "他的身份證件"
+   ],
+   [
+    "kwijt",
+    "弄丟了"
+   ]
+  ],
+  "order": "主詞(他) → 動詞(是) → 受詞(他的身份證件) → 補語(弄丟了)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "'is' 和 'zijn' 之間可能連音。"
+ },
+ "lees eerst de vraag. kijk daarna naar de video.": {
+  "breakdown": [
+   [
+    "Lees",
+    "閱讀"
+   ],
+   [
+    "eerst",
+    "先"
+   ],
+   [
+    "de vraag",
+    "問題"
+   ],
+   [
+    "Kijk",
+    "觀看"
+   ],
+   [
+    "daarna",
+    "然後"
+   ],
+   [
+    "naar de video",
+    "影片"
+   ]
+  ],
+  "order": "先動詞Lees→再副詞eerst→名詞de vraag→接著動詞Kijk→副詞daarna→介詞naar→名詞de video。規則：兩個句子用連接詞連接，第二句的動詞在第二位。",
+  "grammar": "使用了兩個命令句，動詞在句首。",
+  "listen": "注意Kijk和daarna之間的連音。"
+ },
+ "ik heb een zoon gekregen.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "heb",
+    "有"
+   ],
+   [
+    "een zoon",
+    "一個兒子"
+   ],
+   [
+    "gekregen",
+    "生了"
+   ]
+  ],
+  "order": "主詞Ik→助動詞heb→名詞een zoon→過去分詞gekregen。規則：完成式中助動詞在第二位，過去分詞在句尾。",
+  "grammar": "使用完成式，助動詞和過去分詞結構。",
+  "listen": "注意gekregen的發音，可能聽不清。"
+ },
+ "gisteren.": {
+  "breakdown": [
+   [
+    "Gisteren",
+    "昨天"
+   ]
+  ],
+  "order": "副詞Gisteren。規則：單一詞語句子，直接使用副詞。",
+  "grammar": "這是一個簡單的副詞句。",
+  "listen": "注意Gisteren的發音，可能聽不清。"
+ },
+ "wanneer kan mark terugkomen bij de gemeente?": {
+  "breakdown": [
+   [
+    "Wanneer",
+    "什麼時候"
+   ],
+   [
+    "kan",
+    "可以"
+   ],
+   [
+    "Mark",
+    "Mark"
+   ],
+   [
+    "terugkomen",
+    "回來"
+   ],
+   [
+    "bij de gemeente",
+    "市政府"
+   ]
+  ],
+  "order": "疑問詞Wanneer→動詞kan→主詞Mark→動詞terugkomen→介詞bij→名詞de gemeente。規則：疑問句中動詞在第二位。",
+  "grammar": "使用了疑問句，動詞在主詞後面。",
+  "listen": "注意kan和terugkomen之間的連音。"
+ },
+ "vanmiddag.": {
+  "breakdown": [
+   [
+    "Vanmiddag",
+    "今天下午"
+   ]
+  ],
+  "order": "副詞Vanmiddag。規則：單一詞語句子，直接使用副詞。",
+  "grammar": "這是一個簡單的副詞句。",
+  "listen": "注意Vanmiddag的發音，可能聽不清。"
+ },
+ "morgenochtend.": {
+  "breakdown": [
+   [
+    "Morgenochtend",
+    "明天早上"
+   ]
+  ],
+  "order": "副詞Morgenochtend。規則：單一詞語句子，直接使用副詞。",
+  "grammar": "這是一個簡單的副詞句。",
+  "listen": "注意Morgenochtend的發音，可能聽不清。"
+ },
+ "over drie dagen.": {
+  "breakdown": [
+   [
+    "Over drie dagen",
+    "三天後"
+   ]
+  ],
+  "order": "介詞Over→數字drie→名詞dagen。規則：時間表達用介詞開頭。",
+  "grammar": "這是一個時間表達句。",
+  "listen": "注意Over的發音，可能聽不清。"
+ },
+ "mark wil de volgende keer niet zo lang wachten.": {
+  "breakdown": [
+   [
+    "Mark",
+    "Mark"
+   ],
+   [
+    "wil",
+    "想"
+   ],
+   [
+    "de volgende keer",
+    "下次"
+   ],
+   [
+    "niet zo lang",
+    "不那麼久"
+   ],
+   [
+    "wachten",
+    "等"
+   ]
+  ],
+  "order": "主詞Mark→動詞wil→名詞de volgende keer→副詞niet zo lang→動詞wachten。規則：主詞在句首，動詞在第二位。",
+  "grammar": "使用了情態動詞wil，後面接原形動詞。",
+  "listen": "注意niet和zo之間的連音。"
+ },
+ "wat kan hij dan het beste doen?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "kan",
+    "可以"
+   ],
+   [
+    "hij",
+    "他"
+   ],
+   [
+    "dan",
+    "那麼"
+   ],
+   [
+    "het beste doen",
+    "最好做"
+   ]
+  ],
+  "order": "疑問詞Wat→動詞kan→主詞hij→副詞dan→形容詞het beste→動詞doen。規則：疑問句中動詞在主詞後面。",
+  "grammar": "使用了疑問句，動詞在主詞後面。",
+  "listen": "注意kan和hij之間的連音。"
+ },
+ "een afspraak maken aan de balie.": {
+  "breakdown": [
+   [
+    "Een afspraak maken",
+    "預約"
+   ],
+   [
+    "aan de balie",
+    "在櫃檯"
+   ]
+  ],
+  "order": "名詞Een afspraak→動詞maken→介詞aan→名詞de balie。規則：動詞在名詞後面，介詞引導地點。",
+  "grammar": "這是一個動詞短語，包含名詞和介詞。",
+  "listen": "注意aan和de之間的連音。"
+ },
+ "een afspraak maken via internet.": {
+  "breakdown": [
+   [
+    "Een afspraak maken",
+    "預約"
+   ],
+   [
+    "via internet",
+    "在網路上"
+   ]
+  ],
+  "order": "名詞Een afspraak→動詞maken→介詞via→名詞internet。規則：動詞在名詞後面，介詞引導地點。",
+  "grammar": "這是一個動詞短語，包含名詞和介詞。",
+  "listen": "注意via和internet之間的連音。"
+ },
+ "voor twaalf uur naar de gemeente gaan.": {
+  "breakdown": [
+   [
+    "Voor twaalf uur",
+    "十二點前"
+   ],
+   [
+    "naar de gemeente gaan",
+    "去市政府"
+   ]
+  ],
+  "order": "介詞Voor→數字twaalf→名詞uur→動詞gaan→介詞naar→名詞de gemeente。規則：時間表達用介詞開頭，動詞在句尾。",
+  "grammar": "這是一個動詞短語，包含時間和地點。",
+  "listen": "注意Voor和twaalf之間的連音。"
+ }
+}

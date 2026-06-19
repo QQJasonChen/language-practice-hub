@@ -1,0 +1,506 @@
+{
+  "video_id": "J4yroaYw1SQ",
+  "video_info": {
+    "title": "Luisteren examen A2 (nieuw systeem) 3 vragen (c)",
+    "channel": "Inburgeren examen A2",
+    "duration": 431
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Yassir wil werken via uitzendbureau Kracht.",
+        "translation": "亞西爾想透過Kracht臨時工作中介工作。",
+        "start": 0.0,
+        "end": 3.96
+      },
+      {
+        "text": "Hij heeft zich al ingeschreven.",
+        "translation": "他已經註冊了。",
+        "start": 5.34,
+        "end": 6.88
+      },
+      {
+        "text": "Hij bekijkt een filmpje op internet van het uitzendbureau.",
+        "translation": "他正在網路上觀看該臨時工作中介的影片。",
+        "start": 8.08,
+        "end": 11.48
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "請先閱讀問題，然後觀看影片。",
+        "start": 13.1,
+        "end": 16.82
+      },
+      {
+        "text": "Welkom bij Uitzendbureau Kracht.",
+        "translation": "歡迎來到Kracht臨時工作中介。",
+        "start": 30.0,
+        "end": 32.7
+      },
+      {
+        "text": "U heeft zich bij ons ingeschreven via internet. En u heeft binnenkort een kennismakingsgesprek.",
+        "translation": "您已透過網路在我們這裡註冊，並且很快會有一場面談。",
+        "start": 34.36,
+        "end": 40.3
+      },
+      {
+        "text": "U krijgt daarvoor een uitnodiging per e-mail met de datum en de tijd.",
+        "translation": "您將收到一封電子郵件邀請，內含日期和時間。",
+        "start": 41.46,
+        "end": 46.06
+      },
+      {
+        "text": "Mensen kunnen bij ons werken in de schoonmaak.",
+        "translation": "有人可以在我們這裡從事清潔工作。",
+        "start": 49.26,
+        "end": 53.26
+      },
+      {
+        "text": "De beveiliging en de productie.",
+        "translation": "保全和生產工作。",
+        "start": 54.32,
+        "end": 57.16
+      },
+      {
+        "text": "Voor de schoonmaak en productie moet u Nederlands spreken op A2 niveau.",
+        "translation": "對於清潔和生產工作，您需要有A2程度的荷蘭語能力。",
+        "start": 58.16,
+        "end": 63.5
+      },
+      {
+        "text": "Voor de beveiliging op B1 niveau.",
+        "translation": "保全工作則需要B1程度。",
+        "start": 64.78,
+        "end": 67.42
+      },
+      {
+        "text": "Ook is het fijn als u ervaring heeft met het werk, maar dat hoeft niet.",
+        "translation": "如果您有相關經驗當然更好，但不一定必要。",
+        "start": 69.3,
+        "end": 73.42
+      },
+      {
+        "text": "U kunt bij ons ook een avondopleiding volgen tot leidinggevende.",
+        "translation": "您也可以在我們這裡參加晚間課程，晉升為主管。",
+        "start": 75.08,
+        "end": 79.3
+      },
+      {
+        "text": "Deze opleiding duurt vier maanden.",
+        "translation": "這個課程持續四個月。",
+        "start": 80.8,
+        "end": 83.2
+      },
+      {
+        "text": "U leert bijvoorbeeld een werkplanning maken of werkroosters bijhouden.",
+        "translation": "例如，您會學習如何製作工作計畫或管理工作排班表。",
+        "start": 83.2,
+        "end": 89.2
+      },
+      {
+        "text": "Tijdens uw opleiding loopt u ook stage. U oefent dan wat u heeft geleerd.",
+        "translation": "在課程期間，您還會實習，練習所學的內容。",
+        "start": 92.06,
+        "end": 97.3
+      },
+      {
+        "text": "Deze stage duurt twee maanden.",
+        "translation": "這個實習期為兩個月。",
+        "start": 100.66,
+        "end": 102.78
+      },
+      {
+        "text": "Dus de opleiding duurt in totaal vier maanden.",
+        "translation": "所以整個課程總共是四個月。",
+        "start": 104.48,
+        "end": 108.8
+      },
+      {
+        "text": "Na de opleiding kunt u aan het werk als leidinggevende.",
+        "translation": "課程結束後，您可以成為主管開始工作。",
+        "start": 110.14,
+        "end": 113.66
+      },
+      {
+        "text": "Heeft u interesse in deze opleiding, geeft u dat dan aan bij uw kennismakingsgesprek.",
+        "translation": "如果您對這個課程有興趣，請在面談時告訴我們。",
+        "start": 115.58,
+        "end": 120.12
+      },
+      {
+        "text": "Tot ziens bij het gesprek!",
+        "translation": "面談時見！",
+        "start": 121.36,
+        "end": 122.48
+      },
+      {
+        "text": "Jassier wil werken via uitzendbureau Kracht.",
+        "translation": "贾西爾想透過Kracht臨時工作中介工作。",
+        "start": 144.52,
+        "end": 148.16
+      },
+      {
+        "text": "Hij heeft zich al ingeschreven.",
+        "translation": "他已經註冊了。",
+        "start": 149.46,
+        "end": 151.06
+      },
+      {
+        "text": "Hij bekijkt een filmpje op internet van het uitzendbureau.",
+        "translation": "他正在網路上觀看該臨時工作中介的影片。",
+        "start": 152.26,
+        "end": 155.66
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "請先閱讀問題，然後觀看影片。",
+        "start": 157.28,
+        "end": 161.0
+      },
+      {
+        "text": "Welkom bij Uitzendbureau Kracht.",
+        "translation": "歡迎來到Kracht臨時工作中介。",
+        "start": 174.16,
+        "end": 176.88
+      },
+      {
+        "text": "U heeft zich bij ons ingeschreven via internet. En u heeft binnenkort een kennismakingsgesprek.",
+        "translation": "您已透過網路在我們這裡註冊，並且很快會有一場面談。",
+        "start": 178.58,
+        "end": 184.5
+      },
+      {
+        "text": "U krijgt daarvoor een uitnodiging per e-mail met de datum en de tijd.",
+        "translation": "您將收到一封電子郵件邀請，內含日期和時間。",
+        "start": 185.66,
+        "end": 190.22
+      },
+      {
+        "text": "Mensen kunnen bij ons werken, in de schoonmaak, de beveiliging,",
+        "translation": "有人可以在我們這裡從事清潔、保全，",
+        "start": 194.3,
+        "end": 198.78
+      },
+      {
+        "text": "en in de productie.",
+        "translation": "以及生產工作。",
+        "start": 198.78,
+        "end": 201.48
+      },
+      {
+        "text": "Voor de schoonmaak en productie moet u Nederlands spreken op A2 niveau.",
+        "translation": "對於清潔和生產工作，您需要有A2程度的荷蘭語能力。",
+        "start": 202.76,
+        "end": 207.68
+      },
+      {
+        "text": "Voor de beveiliging op B1 niveau.",
+        "translation": "保全工作則需要B1程度。",
+        "start": 209.0,
+        "end": 211.6
+      },
+      {
+        "text": "Ook is het fijn als u ervaring heeft met het werk, maar dat hoeft niet.",
+        "translation": "如果您有相關經驗當然更好，但不一定必要。",
+        "start": 213.48,
+        "end": 217.6
+      },
+      {
+        "text": "U kunt bij ons ook een avondopleiding volgen tot leidinggevende.",
+        "translation": "您也可以在我們這裡參加晚間課程，晉升為主管。",
+        "start": 219.28,
+        "end": 223.5
+      },
+      {
+        "text": "Deze opleiding duurt vier maanden.",
+        "translation": "這個課程持續四個月。",
+        "start": 225.0,
+        "end": 227.4
+      },
+      {
+        "text": "U leert bijvoorbeeld een werkplanning maken of werkroosters bijhouden.",
+        "translation": "例如，您會學習如何製作工作計畫或管理工作排班表。",
+        "start": 228.78,
+        "end": 234.0
+      },
+      {
+        "text": "Tijdens uw opleiding loopt u ook stage. U oefent dan wat u heeft geleerd.",
+        "translation": "在課程期間，您還會實習，練習所學的內容。",
+        "start": 236.26,
+        "end": 241.52
+      },
+      {
+        "text": "Deze stage duurt twee maanden.",
+        "translation": "這個實習期為兩個月。",
+        "start": 244.86,
+        "end": 246.98
+      },
+      {
+        "text": "Dus de opleiding duurt in totaal vier maanden.",
+        "translation": "所以整個課程總共是四個月。",
+        "start": 248.72,
+        "end": 253.02
+      },
+      {
+        "text": "Na de opleiding kunt u aan het werk als leidinggevende.",
+        "translation": "課程結束後，您可以成為主管開始工作。",
+        "start": 254.8,
+        "end": 257.8
+      },
+      {
+        "text": "Heeft u interesse in deze opleiding, geeft u dat dan aan bij uw kennismakingsgesprek.",
+        "translation": "如果您對這個課程有興趣，請在面談時告訴我們。",
+        "start": 259.38,
+        "end": 263.78
+      },
+      {
+        "text": "Tot ziens bij het gesprek.",
+        "translation": "面談時見。",
+        "start": 265.58,
+        "end": 266.96
+      },
+      {
+        "text": "Jassier wil werken via uitzendbureau Kracht.",
+        "translation": "贾西爾想透過Kracht臨時工作中介工作。",
+        "start": 291.32,
+        "end": 294.98
+      },
+      {
+        "text": "Hij heeft zich al ingeschreven. Hij bekijkt een filmpje op internet van het uitzendbureau.",
+        "translation": "他已經註冊了。他正在網路上觀看該臨時工作中介的影片。",
+        "start": 296.36,
+        "end": 301.78
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "請先閱讀問題，然後觀看影片。",
+        "start": 304.1,
+        "end": 307.82
+      },
+      {
+        "text": "Welkom bij Uitzendbureau Kracht.",
+        "translation": "歡迎來到Kracht臨時工作中介。",
+        "start": 320.98,
+        "end": 323.7
+      },
+      {
+        "text": "U heeft zich bij ons ingeschreven via internet. En u heeft binnenkort een kennismakingsgesprek.",
+        "translation": "您已透過網路在我們這裡註冊，並且很快會有一場面談。",
+        "start": 325.32,
+        "end": 330.78
+      },
+      {
+        "text": "U krijgt daarvoor een uitnodiging per e-mail met de datum en de tijd.",
+        "translation": "您將收到一封電子郵件邀請，內含日期和時間。",
+        "start": 332.46,
+        "end": 337.04
+      },
+      {
+        "text": "Mensen kunnen bij ons werken in de schoonmaak.",
+        "translation": "有人可以在我們這裡從事清潔工作。",
+        "start": 341.1,
+        "end": 344.3
+      },
+      {
+        "text": "De beveiliging en de productie.",
+        "translation": "保全和生產工作。",
+        "start": 345.32,
+        "end": 348.18
+      },
+      {
+        "text": "Voor de schoonmaak en productie moet u Nederlands spreken op A2-niveau.",
+        "translation": "清潔和生產工作須具備A2等級的荷蘭語能力。",
+        "start": 348.78,
+        "end": 354.52
+      },
+      {
+        "text": "Voor de beveiliging op B1-niveau.",
+        "translation": "保全工作須具備B1等級的荷蘭語能力。",
+        "start": 355.78,
+        "end": 358.42
+      },
+      {
+        "text": "Ook is het fijn als u ervaring heeft met het werk, maar dat hoeft niet.",
+        "translation": "如果您有工作經驗會更好，但不是必須的。",
+        "start": 360.3,
+        "end": 364.46
+      },
+      {
+        "text": "U kunt bij ons ook een avondopleiding volgen tot leidinggevende.",
+        "translation": "您也可以在我們這裡參加晚間領導力課程。",
+        "start": 366.08,
+        "end": 370.3
+      },
+      {
+        "text": "Deze opleiding duurt vier maanden.",
+        "translation": "這個課程持續四個月。",
+        "start": 371.8,
+        "end": 374.22
+      },
+      {
+        "text": "U leert bijvoorbeeld een werkplanning maken of werkroosters bijhouden.",
+        "translation": "例如，您將學會製作工作計劃或維護工作排班表。",
+        "start": 374.22,
+        "end": 380.22
+      },
+      {
+        "text": "Tijdens uw opleiding loopt u ook stage. U oefent dan wat u heeft geleerd.",
+        "translation": "在課程期間您也將進行實習，練習所學的內容。",
+        "start": 383.06,
+        "end": 388.32
+      },
+      {
+        "text": "Deze stage duurt twee maanden.",
+        "translation": "這個實習持續兩個月。",
+        "start": 391.66,
+        "end": 393.78
+      },
+      {
+        "text": "Dus de opleiding duurt in totaal vier maanden.",
+        "translation": "所以整個課程總共持續四個月。",
+        "start": 395.48,
+        "end": 399.8
+      },
+      {
+        "text": "Na de opleiding kunt u aan het werk als leidinggevende.",
+        "translation": "課程結束後，您可以擔任領導職務工作。",
+        "start": 401.14,
+        "end": 404.64
+      },
+      {
+        "text": "Heeft u interesse in deze opleiding, geeft u dat dan aan bij uw kennismakingsgesprek.",
+        "translation": "若您對這個課程有興趣，請在您的面談時告知我們。",
+        "start": 406.58,
+        "end": 411.14
+      },
+      {
+        "text": "Tot ziens bij het gesprek!",
+        "translation": "面談時見！",
+        "start": 412.38,
+        "end": 413.52
+      },
+      {
+        "text": "Ondertitels ingediend door de Amara.org-gemeenschap.",
+        "translation": "字幕由Amara.org社群提供。",
+        "start": 430.38,
+        "end": 430.62
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat moet u doen voordat u naar de video kijkt?",
+        "question_native": "觀看影片前，您應該先做什麼？",
+        "options": [
+          "Lees eerst de vraag.",
+          "Meld u aan via internet.",
+          "Kijk de video direct."
+        ],
+        "answer": "Lees eerst de vraag."
+      },
+      {
+        "question": "Op welk Nederlands niveau moet u spreken voor de schoonmaak en productie?",
+        "question_native": "從事清潔和生產工作需要達到哪個荷蘭語程度？",
+        "options": [
+          "A1",
+          "A2",
+          "B1"
+        ],
+        "answer": "A2"
+      },
+      {
+        "question": "Hoe lang duurt de gehele opleiding inclusief stage?",
+        "question_native": "整個課程加上實習總共需要多久？",
+        "options": [
+          "2 maanden",
+          "4 maanden",
+          "6 maanden"
+        ],
+        "answer": "4 maanden"
+      },
+      {
+        "question": "Wat krijgt u per e-mail na inschrijving?",
+        "question_native": "註冊後您會收到什麼電子郵件？",
+        "options": [
+          "Een uitnodiging met datum en tijd voor een kennismakingsgesprek.",
+          "Een factuur.",
+          "Een sollicitatiebrief."
+        ],
+        "answer": "Een uitnodiging met datum en tijd voor een kennismakingsgesprek."
+      },
+      {
+        "question": "Kan iemand zonder werkervaring ook deelnemen aan de opleiding?",
+        "question_native": "沒有工作經驗的人也可以參加課程嗎？",
+        "options": [
+          "Nee, werkervaring is noodzakelijk.",
+          "Ja, werkervaring is fijn maar niet verplicht.",
+          "Alleen als ze Nederlands op B2 niveau spreken."
+        ],
+        "answer": "Ja, werkervaring is fijn maar niet verplicht."
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "uitzendbureau",
+        "meaning": "臨時工作中介"
+      },
+      {
+        "word": "kennismakingsgesprek",
+        "meaning": "面談，初次見面會談"
+      },
+      {
+        "word": "uitnodiging",
+        "meaning": "邀請"
+      },
+      {
+        "word": "schoonmaak",
+        "meaning": "清潔工作"
+      },
+      {
+        "word": "beveiliging",
+        "meaning": "保全工作"
+      },
+      {
+        "word": "productie",
+        "meaning": "生產，製造"
+      },
+      {
+        "word": "Nederlands",
+        "meaning": "荷蘭語"
+      },
+      {
+        "word": "opleiding",
+        "meaning": "培訓，課程"
+      },
+      {
+        "word": "stage",
+        "meaning": "實習"
+      },
+      {
+        "word": "leidinggevende",
+        "meaning": "主管，領導者"
+      },
+      {
+        "word": "werkplanning",
+        "meaning": "工作計劃"
+      },
+      {
+        "word": "werkroosters",
+        "meaning": "工作時間表，排班表"
+      },
+      {
+        "word": "inschrijven",
+        "meaning": "登記，報名"
+      },
+      {
+        "word": "niveau",
+        "meaning": "等級，級別"
+      },
+      {
+        "word": "ervaring",
+        "meaning": "經驗"
+      }
+    ]
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "video_id": "lk7UF1vn8a4",
+  "video_info": {
+    "title": "Listening exam A2 (new system) 5 questions",
+    "channel": "Inburgeren examen A2",
+    "duration": 466
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Nabil heeft een nieuwe baan. Zijn baas vertelt iets.",
+        "translation": "Nabil有一份新工作。他的老闆說了些事情。",
+        "start": 0.0,
+        "end": 5.58
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後再看影片。",
+        "start": 7.1,
+        "end": 11.02
+      },
+      {
+        "text": "Oké, Nabil.",
+        "translation": "好，Nabil。",
+        "start": 21.42,
+        "end": 22.48
+      },
+      {
+        "text": "Wat handige informatie voor als u materiaal wilt bestellen, zoals pennen.",
+        "translation": "當您想訂購物資時，這些是一些實用資訊，例如訂購筆。",
+        "start": 23.34,
+        "end": 27.82
+      },
+      {
+        "text": "De afdeling Inkoop doet de bestellingen.",
+        "translation": "採購部負責訂單。",
+        "start": 27.82,
+        "end": 30.82
+      },
+      {
+        "text": "Inkoop zit op de tweede verdieping, kamer 2.3.",
+        "translation": "採購部位於二樓，房間2.3。",
+        "start": 31.72,
+        "end": 34.82
+      },
+      {
+        "text": "Naast verkoop in 2.2. Je kijkt zo naar binnen vanuit de kantine.",
+        "translation": "就在銷售部2.2旁邊。你從餐廳可以直接看到裡面。",
+        "start": 35.92,
+        "end": 39.94
+      },
+      {
+        "text": "Als u iets wilt bestellen, vul je dit formulier in. Dat lever je dan in bij Inkoop.",
+        "translation": "如果您想訂購東西，請填寫這張表格，然後交給採購部。",
+        "start": 40.74,
+        "end": 46.02
+      },
+      {
+        "text": "Als de bestelling binnen is, hoor je dat van Inkoop.",
+        "translation": "當訂單到貨時，你會從採購部那裡得到通知。",
+        "start": 47.0,
+        "end": 49.98
+      },
+      {
+        "text": "Meestal bellen ze even, of ze sturen een mailtje.",
+        "translation": "他們通常會打電話，或寄電子郵件。",
+        "start": 50.68,
+        "end": 54.06
+      },
+      {
+        "text": "En als er een klein pakket is, leggen ze dat meteen in je postvak.",
+        "translation": "如果有小包裹，他們會直接放進你的信箱。",
+        "start": 54.06,
+        "end": 58.02
+      },
+      {
+        "text": "Waar zit de afdeling Inkoop?",
+        "translation": "採購部在哪裡？",
+        "start": 60.38,
+        "end": 62.9
+      },
+      {
+        "text": "In kamer 2.2.",
+        "translation": "在2.2房間。",
+        "start": 63.98,
+        "end": 66.54
+      },
+      {
+        "text": "In kamer 2.3. Naast de kantine.",
+        "translation": "在2.3房間，就在餐廳旁邊。",
+        "start": 67.96,
+        "end": 72.78
+      },
+      {
+        "text": "Nabil heeft een nieuwe baan. Zijn baas vertelt iets.",
+        "translation": "Nabil有一份新工作。他的老闆說了些事情。",
+        "start": 80.48,
+        "end": 85.64
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後再看影片。",
+        "start": 87.18,
+        "end": 90.82
+      },
+      {
+        "text": "Oké, Nabil.",
+        "translation": "好，Nabil。",
+        "start": 101.4,
+        "end": 102.6
+      },
+      {
+        "text": "Wat handige informatie voor als u materiaal wilt bestellen, zoals pennen.",
+        "translation": "當您想訂購物資時，這些是一些實用資訊，例如訂購筆。",
+        "start": 103.44,
+        "end": 107.46
+      },
+      {
+        "text": "De afdeling Inkoop doet de bestellingen.",
+        "translation": "採購部負責訂單。",
+        "start": 108.56,
+        "end": 110.94
+      },
+      {
+        "text": "Inkoop zit op de tweede verdieping, kamer 2.3.",
+        "translation": "採購部位於二樓，房間2.3。",
+        "start": 110.94,
+        "end": 115.24
+      },
+      {
+        "text": "Naast verkoop in 2.2. Je kijkt zo naar binnen vanuit de kantine.",
+        "translation": "就在銷售部2.2旁邊。你從餐廳可以直接看到裡面。",
+        "start": 116.04,
+        "end": 120.08
+      },
+      {
+        "text": "Als u iets wilt bestellen, vul je dit formulier in. Dat lever je dan in bij Inkoop.",
+        "translation": "如果您想訂購東西，請填寫這張表格，然後交給採購部。",
+        "start": 120.86,
+        "end": 126.14
+      },
+      {
+        "text": "Als de bestelling binnen is, hoor je dat van Inkoop.",
+        "translation": "當訂單到貨時，你會從採購部那裡得到通知。",
+        "start": 127.16,
+        "end": 130.1
+      },
+      {
+        "text": "Meestal bellen ze even, of ze sturen een mailtje.",
+        "translation": "他們通常會打電話，或寄電子郵件。",
+        "start": 130.82,
+        "end": 134.2
+      },
+      {
+        "text": "En als er een klein pakket is, leggen ze dat meteen in je postvak.",
+        "translation": "如果有小包裹，他們會直接放進你的信箱。",
+        "start": 135.12,
+        "end": 138.08
+      },
+      {
+        "text": "Nabil wil iets bestellen. Wat moet hij doen?",
+        "translation": "Nabil想訂購東西。他應該怎麼做？",
+        "start": 139.94,
+        "end": 144.42
+      },
+      {
+        "text": "Even langslopen bij de afdeling Inkoop.",
+        "translation": "親自去採購部看看。",
+        "start": 145.86,
+        "end": 149.1
+      },
+      {
+        "text": "De bestelling naar de afdeling Inkoop mailen.",
+        "translation": "將訂單寄電子郵件給採購部。",
+        "start": 150.1,
+        "end": 153.92
+      },
+      {
+        "text": "De afdeling Inkoop bellen met de bestelling.",
+        "translation": "打電話給採購部告知訂單。",
+        "start": 154.88,
+        "end": 158.26
+      },
+      {
+        "text": "Een formulier inleveren bij de afdeling Inkoop.",
+        "translation": "將表格交給採購部。",
+        "start": 159.56,
+        "end": 163.24
+      },
+      {
+        "text": "Julia doet een koksopleiding.",
+        "translation": "Julia正在學廚師課程。",
+        "start": 170.18,
+        "end": 173.58
+      },
+      {
+        "text": "Haar medekursisten Mira en Chris praten over de examens.",
+        "translation": "她的同學Mira和Chris正在談論考試。",
+        "start": 175.5,
+        "end": 180.64
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後再看影片。",
+        "start": 182.24,
+        "end": 186.5
+      },
+      {
+        "text": "Wat een drukke tijd met al die examens. Vijf in totaal.",
+        "translation": "考試好忙喔，總共有五科。",
+        "start": 199.36,
+        "end": 204.36
+      },
+      {
+        "text": "Ja, volgende week hebben we alleen al drie examens.",
+        "translation": "是啊，下週我們就有三科考試。",
+        "start": 205.06,
+        "end": 209.28
+      },
+      {
+        "text": "En de week daarna twee. Ik weet echt niet hoe ik dat moet leren.",
+        "translation": "隔週還有兩科。我真的不知道怎麼準備。",
+        "start": 209.96,
+        "end": 214.26
+      },
+      {
+        "text": "Zorg dat je eerst een goede planning maakt. Dat helpt voor mij altijd heel goed.",
+        "translation": "先做好的計畫表。這對我來說幫助很大。",
+        "start": 216.44,
+        "end": 220.98
+      },
+      {
+        "text": "Ja, dat is misschien wel handig.",
+        "translation": "是啊，這或許很有用。",
+        "start": 221.54,
+        "end": 223.82
+      },
+      {
+        "text": "En als ik je dan nog een tip mag geven, dan ga gewoon leren in de bus en in de trein.",
+        "translation": "如果可以給你一個建議，那就是在公車或火車上學習。",
+        "start": 224.34,
+        "end": 229.46
+      },
+      {
+        "text": "Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.",
+        "translation": "我意思是，那段時間你本來就是在等車，這樣可以做很多額外的功課。",
+        "start": 230.3,
+        "end": 234.02
+      },
+      {
+        "text": "Vooral als je zo vaak vertraging hebt. Dat is een goeie zeg, dat ga ik doen.",
+        "translation": "尤其是當你常常誤點的時候。這主意真不錯，我會試試看。",
+        "start": 234.84,
+        "end": 240.48
+      },
+      {
+        "text": "Hoeveel examens heeft Julia volgende week?",
+        "translation": "Julia下週有幾科考試？",
+        "start": 242.56,
+        "end": 245.94
+      },
+      {
+        "text": "Twee, drie, vijf.",
+        "translation": "兩科、三科、五科。",
+        "start": 247.06,
+        "end": 249.48
+      },
+      {
+        "text": "Julia doet een koksopleiding.",
+        "translation": "Julia正在學廚師課程。",
+        "start": 257.88,
+        "end": 261.26
+      },
+      {
+        "text": "Haar medekursisten Mira en Chris praten over de examens.",
+        "translation": "她的同學Mira和Chris正在談論考試。",
+        "start": 263.16,
+        "end": 268.3
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，然後再看影片。",
+        "start": 269.9,
+        "end": 274.16
+      },
+      {
+        "text": "Wat een drukke tijd met al die examens. Vijf in totaal.",
+        "translation": "考試好忙喔，總共有五科。",
+        "start": 286.94,
+        "end": 292.02
+      },
+      {
+        "text": "Ja, volgende week hebben we alleen al drie examens.",
+        "translation": "是啊，下週我們就有三科考試。",
+        "start": 292.7,
+        "end": 296.94
+      },
+      {
+        "text": "En de week daarna twee. Ik weet echt niet hoe ik dat moet leren.",
+        "translation": "隔週還有兩科。我真的不知道怎麼準備。",
+        "start": 297.64,
+        "end": 301.92
+      },
+      {
+        "text": "Zorg dat je eerst een goede planning maakt. Dat helpt voor mij altijd heel goed.",
+        "translation": "先做好的計畫表。這對我來說幫助很大。",
+        "start": 304.08,
+        "end": 308.64
+      },
+      {
+        "text": "Ja, dat is misschien wel handig.",
+        "translation": "是的，那可能很方便。",
+        "start": 309.18,
+        "end": 311.5
+      },
+      {
+        "text": "En als ik je dan nog een tip mag geven, dan ga gewoon leren in de bus en in de trein.",
+        "translation": "如果我可以給你一個建議，那就在公車和火車上學習。",
+        "start": 311.5,
+        "end": 317.08
+      },
+      {
+        "text": "Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.",
+        "translation": "我是說，那段時間你不就是在等車嗎？那你可以做很多額外的事情。",
+        "start": 317.94,
+        "end": 321.28
+      },
+      {
+        "text": "Vooral als je zo vaak vertraging hebt. Dat is een goeie, zeg. Dat ga ik doen.",
+        "translation": "尤其是當你經常延誤的時候。這個建議不錯，我會這麼做的。",
+        "start": 322.5,
+        "end": 328.12
+      },
+      {
+        "text": "Julia luistert naar het gesprek.",
+        "translation": "Julia 在聽這段對話。",
+        "start": 330.82,
+        "end": 333.1
+      },
+      {
+        "text": "Welke tip geeft Chris als eerste aan Mira?",
+        "translation": "Chris 第一個給 Mira 的建議是什麼？",
+        "start": 334.7,
+        "end": 338.98
+      },
+      {
+        "text": "Julia, ga extra veel leren.",
+        "translation": "Julia，多多學習。",
+        "start": 338.98,
+        "end": 342.5
+      },
+      {
+        "text": "Leer in de bus en in de trein. Maak een planning.",
+        "translation": "在公車和火車上學習。做一個計畫。",
+        "start": 343.64,
+        "end": 348.78
+      },
+      {
+        "text": "Julia doet een koksopleiding.",
+        "translation": "Julia 正在學廚師課程。",
+        "start": 359.2,
+        "end": 362.28
+      },
+      {
+        "text": "Haar mede-cursisten Mira en Chris praten over de examens.",
+        "translation": "她的同學 Mira 和 Chris 正在談論考試。",
+        "start": 363.28,
+        "end": 369.36
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，再看影片。",
+        "start": 370.96,
+        "end": 375.34
+      },
+      {
+        "text": "Tjee, wat een drukke tijd hè, met al die examens.",
+        "translation": "哇，好忙碌的時期啊，這麼多考試。",
+        "start": 386.38,
+        "end": 390.74
+      },
+      {
+        "text": "Vijf in totaal.",
+        "translation": "總共有五科。",
+        "start": 391.46,
+        "end": 392.94
+      },
+      {
+        "text": "Ja, volgende week hebben we alleen al drie examens.",
+        "translation": "是的，下週我們就有三場考試。",
+        "start": 393.82,
+        "end": 397.98
+      },
+      {
+        "text": "En de week daarna twee. Ik weet echt niet hoe ik dat allemaal moet leren.",
+        "translation": "再下一週有兩場。我真的不知道怎麼全部讀得完。",
+        "start": 398.64,
+        "end": 402.98
+      },
+      {
+        "text": "Nou, weet je, zorg dat je eerst een goede planning maakt.",
+        "translation": "嗯，你知道嗎，先做一個好的計畫。",
+        "start": 403.9,
+        "end": 407.34
+      },
+      {
+        "text": "Dat helpt voor mij altijd heel goed. Ja, dat is misschien wel handig, ja.",
+        "translation": "這對我來說總是很有效。是的，那或許很方便，對。",
+        "start": 408.2,
+        "end": 412.8
+      },
+      {
+        "text": "En als ik je dan nog een tip mag geven, dan ga gewoon leren in de bus en in de trein.",
+        "translation": "如果我可以再給你一個建議，那就在公車和火車上學習。",
+        "start": 413.36,
+        "end": 418.1
+      },
+      {
+        "text": "Ik bedoel, die tijd ben je toch aan het wachten. Dan kan je heel veel extra doen.",
+        "translation": "我的意思是，那段時間你不就是在等車嗎？那你可以做很多額外的事情。",
+        "start": 418.1,
+        "end": 422.3
+      },
+      {
+        "text": "Vooral als je zo vaak vertraging hebt. Dat is een goeie, zeg. Dat ga ik doen.",
+        "translation": "尤其是當你經常延誤的時候。這個建議不錯，我會這麼做的。",
+        "start": 423.56,
+        "end": 429.16
+      },
+      {
+        "text": "Julia luistert naar het gesprek.",
+        "translation": "Julia 在聽這段對話。",
+        "start": 431.14,
+        "end": 433.98
+      },
+      {
+        "text": "Wat zegt Chris over vertraging?",
+        "translation": "Chris 對延誤說了什麼？",
+        "start": 435.06,
+        "end": 438.0
+      },
+      {
+        "text": "Dan heb je extra tijd om te leren.",
+        "translation": "那你有額外的時間可以學習。",
+        "start": 438.84,
+        "end": 441.9
+      },
+      {
+        "text": "Dan heb je minder tijd om te leren.",
+        "translation": "那你學習的時間會更少。",
+        "start": 442.56,
+        "end": 445.66
+      },
+      {
+        "text": "Dat je vaker vertraging hebt met de bus.",
+        "translation": "你常常搭公車會延誤。",
+        "start": 445.66,
+        "end": 449.58
+      },
+      {
+        "text": "Dat je vaker vertraging hebt met de trein.",
+        "translation": "你常常搭火車會延誤。",
+        "start": 450.86,
+        "end": 454.02
+      }
+    ],
+    "questions": [
+      {
+        "question": "Waar zit de afdeling Inkoop?",
+        "question_native": "採購部在哪裡？",
+        "options": [
+          "Op de begane grond",
+          "Op de tweede verdieping",
+          "Op de derde verdieping"
+        ],
+        "answer": "Op de tweede verdieping"
+      },
+      {
+        "question": "Wat moet Nabil doen als hij iets wil bestellen?",
+        "question_native": "Nabil如果想訂購東西，他應該怎麼做？",
+        "options": [
+          "Even langslopen bij de afdeling Inkoop",
+          "Naar verkoop gaan",
+          "Zelf het materiaal kopen"
+        ],
+        "answer": "Even langslopen bij de afdeling Inkoop"
+      },
+      {
+        "question": "Hoe krijgt men meestal bericht als een bestelling binnen is?",
+        "question_native": "訂單到貨時，通常怎麼接收通知？",
+        "options": [
+          "Telefonisch of per mail",
+          "Via sms",
+          "Via post"
+        ],
+        "answer": "Telefonisch of per mail"
+      },
+      {
+        "question": "Hoeveel examens heeft Julia volgende week?",
+        "question_native": "Julia下週有幾科考試？",
+        "options": [
+          "Twee",
+          "Drie",
+          "Vijf"
+        ],
+        "answer": "Drie"
+      },
+      {
+        "question": "Wat adviseert Chris om tijdens reizen te doen?",
+        "question_native": "Chris建議在旅行時做什麼？",
+        "options": [
+          "Slaap",
+          "Leren in de bus en trein",
+          "Niets doen"
+        ],
+        "answer": "Leren in de bus en trein"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "afdeling",
+        "meaning": "部門"
+      },
+      {
+        "word": "bestelling",
+        "meaning": "訂單"
+      },
+      {
+        "word": "formulier",
+        "meaning": "表格"
+      },
+      {
+        "word": "postvak",
+        "meaning": "信箱"
+      },
+      {
+        "word": "materiaal",
+        "meaning": "物料"
+      },
+      {
+        "word": "inkoop",
+        "meaning": "採購"
+      },
+      {
+        "word": "examen",
+        "meaning": "考試"
+      },
+      {
+        "word": "koksopleiding",
+        "meaning": "廚師課程"
+      },
+      {
+        "word": "medekursisten",
+        "meaning": "同學"
+      },
+      {
+        "word": "planning",
+        "meaning": "計畫"
+      },
+      {
+        "word": "vertraging",
+        "meaning": "延誤"
+      },
+      {
+        "word": "vraag",
+        "meaning": "問題"
+      },
+      {
+        "word": "video",
+        "meaning": "影片"
+      },
+      {
+        "word": "tip",
+        "meaning": "提示"
+      },
+      {
+        "word": "bestellen",
+        "meaning": "訂購"
+      }
+    ]
+  }
+}

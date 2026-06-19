@@ -1,0 +1,467 @@
+{
+ "muziek.": {
+  "breakdown": [
+   [
+    "Muziek",
+    "音樂"
+   ]
+  ],
+  "order": "主詞→動詞，這句只有一個名詞。",
+  "grammar": "名詞句，無動詞。",
+  "listen": "注意音調，音樂的發音可能不清楚。"
+ },
+ "bekijk de video.": {
+  "breakdown": [
+   [
+    "Bekijk",
+    "請觀看"
+   ],
+   [
+    "de video",
+    "影片"
+   ]
+  ],
+  "order": "動詞→主詞，這是祈使句。",
+  "grammar": "祈使句，動詞在句首。",
+  "listen": "‘Bekijk’可能被快速讀出，注意聽。"
+ },
+ "lees de vraag.": {
+  "breakdown": [
+   [
+    "Lees",
+    "閱讀"
+   ],
+   [
+    "de vraag",
+    "問題"
+   ]
+  ],
+  "order": "動詞→主詞，這是祈使句。",
+  "grammar": "祈使句，動詞在句首。",
+  "listen": "‘Lees’的發音可能較快，注意聽。"
+ },
+ "klik op het goede antwoord.": {
+  "breakdown": [
+   [
+    "Klik",
+    "點選"
+   ],
+   [
+    "op het goede antwoord",
+    "正確答案"
+   ]
+  ],
+  "order": "動詞→主詞，這是祈使句。",
+  "grammar": "祈使句，動詞在句首。",
+  "listen": "‘Klik’可能連音，注意聽。"
+ },
+ "auw!": {
+  "breakdown": [
+   [
+    "Auw",
+    "哎喔"
+   ]
+  ],
+  "order": "這句只有一個感嘆詞。",
+  "grammar": "感嘆詞，無動詞。",
+  "listen": "注意‘Auw’的發音，可能不清楚。"
+ },
+ "mama!": {
+  "breakdown": [
+   [
+    "Mama",
+    "媽媽"
+   ]
+  ],
+  "order": "這句只有一個名詞。",
+  "grammar": "名詞句，無動詞。",
+  "listen": "‘Mama’的發音可能較快，注意聽。"
+ },
+ "ja, koen, mam heeft pijn in de keel.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "Koen",
+    "Koen"
+   ],
+   [
+    "mam heeft pijn in de keel",
+    "媽媽喉嚨痛"
+   ]
+  ],
+  "order": "主詞→動詞→受詞，主詞在前。",
+  "grammar": "現在式，‘heeft’是動詞。",
+  "listen": "‘heeft’可能被弱讀，注意聽。"
+ },
+ "opgezette klieren.": {
+  "breakdown": [
+   [
+    "Opgezette",
+    "腫大的"
+   ],
+   [
+    "klieren",
+    "淋巴結"
+   ]
+  ],
+  "order": "形容詞→名詞，形容詞修飾名詞。",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "‘Opgezette’的發音可能不清楚。"
+ },
+ "oh, en slikken doet ook pijn.": {
+  "breakdown": [
+   [
+    "Oh",
+    "哦"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "slikken doet ook pijn",
+    "吞嚥也疼"
+   ]
+  ],
+  "order": "副詞→連接詞→主詞→動詞，‘doet’是動詞。",
+  "grammar": "現在式，‘doet’是動詞。",
+  "listen": "‘slikken’可能被快速讀出，注意聽。"
+ },
+ "ja, koen, mam heeft keelpijn.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "Koen",
+    "Koen"
+   ],
+   [
+    "mam heeft keelpijn",
+    "媽媽喉嚨痛"
+   ]
+  ],
+  "order": "主詞→動詞→受詞，主詞在前。",
+  "grammar": "現在式，‘heeft’是動詞。",
+  "listen": "‘heeft’可能被弱讀，注意聽。"
+ },
+ "nou, eerst maar een sigaretje.": {
+  "breakdown": [
+   [
+    "Nou",
+    "嗯"
+   ],
+   [
+    "eerst maar",
+    "先"
+   ],
+   [
+    "een sigaretje",
+    "一根香菸"
+   ]
+  ],
+  "order": "副詞→副詞→名詞，‘eerst’和‘maar’修飾動詞。",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "‘sigaretje’的發音可能不清楚。"
+ },
+ "het is menthol, dus dat is goed voor mijn keel.": {
+  "breakdown": [
+   [
+    "Het is menthol",
+    "是薄荷的"
+   ],
+   [
+    "dus dat is goed voor mijn keel",
+    "對我的喉嚨有好處"
+   ]
+  ],
+  "order": "主詞→動詞→補語，‘is’是動詞。",
+  "grammar": "現在式，‘is’是動詞。",
+  "listen": "‘is’可能被弱讀，注意聽。"
+ },
+ "nee, niet doen.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不行"
+   ],
+   [
+    "niet doen",
+    "不要抽"
+   ]
+  ],
+  "order": "否定詞Nee → 動詞niet → 直接受詞doen。規則：否定詞放句首，動詞在第二位。",
+  "grammar": "簡單現在式，動詞不變化。",
+  "listen": "注意niet的發音，可能被弱讀。"
+ },
+ "nee, dat is natuurlijk niet zo slim om sigaretten te gaan roken met keelpijn.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "dat is natuurlijk niet zo slim",
+    "當然不聰明"
+   ],
+   [
+    "om sigaretten te gaan roken met keelpijn",
+    "喉嚨痛還去抽菸"
+   ]
+  ],
+  "order": "否定詞Nee → 主詞dat → 動詞is → 形容詞natuurlijk → 否定詞niet → 形容詞zo slim → 不定詞om roken → 介詞短語met keelpijn。規則：主詞後動詞在第二位，其他依序排列。",
+  "grammar": "現在式，使用形容詞修飾名詞。",
+  "listen": "注意om的連音，可能聽不清。"
+ },
+ "maar wat moet mama dan?": {
+  "breakdown": [
+   [
+    "Maar",
+    "那"
+   ],
+   [
+    "wat moet mama dan",
+    "媽媽要怎麼辦"
+   ]
+  ],
+  "order": "連接詞Maar → 疑問詞wat → 動詞moet → 主詞mama → 副詞dan。規則：疑問句動詞在第二位。",
+  "grammar": "使用疑問詞引導的疑問句。",
+  "listen": "注意wat的發音，可能被弱讀。"
+ },
+ "nou, toch maar proberen iets te drinken.": {
+  "breakdown": [
+   [
+    "Nou",
+    "嗯"
+   ],
+   [
+    "toch maar proberen",
+    "還是試著"
+   ],
+   [
+    "iets te drinken",
+    "喝點東西"
+   ]
+  ],
+  "order": "引導詞Nou → 副詞toch → 副詞maar → 動詞proberen → 直接受詞iets → 不定詞te drinken。規則：引導詞在句首，動詞在第二位。",
+  "grammar": "使用不定詞結構。",
+  "listen": "注意toch的發音，可能被弱讀。"
+ },
+ "misschien moet ik er zout in oplossen.": {
+  "breakdown": [
+   [
+    "Misschien",
+    "也許"
+   ],
+   [
+    "moet ik",
+    "我應該"
+   ],
+   [
+    "er zout in oplossen",
+    "在水裡溶解點鹽"
+   ]
+  ],
+  "order": "副詞Misschien → 動詞moet → 主詞ik → 副詞er → 直接受詞zout → 介詞短語in oplossen。規則：副詞在句首，動詞在第二位。",
+  "grammar": "使用不定詞結構。",
+  "listen": "注意moet的發音，可能被弱讀。"
+ },
+ "dat helpt.": {
+  "breakdown": [
+   [
+    "Dat",
+    "那"
+   ],
+   [
+    "helpt",
+    "會有幫助"
+   ]
+  ],
+  "order": "主詞Dat → 動詞helpt。規則：簡單句主詞在前，動詞在第二位。",
+  "grammar": "現在式，動詞不變化。",
+  "listen": "注意helpt的發音，可能被弱讀。"
+ },
+ "mmm, zuurtjes.": {
+  "breakdown": [
+   [
+    "Mmm",
+    "嗯"
+   ],
+   [
+    "zuurtjes",
+    "酸糖"
+   ]
+  ],
+  "order": "感嘆詞Mmm → 名詞zuurtjes。規則：感嘆詞在句首，名詞直接跟隨。",
+  "grammar": "名詞單數形式。",
+  "listen": "注意zuurtjes的發音，可能被弱讀。"
+ },
+ "dat is lekker en goed voor mijn keel.": {
+  "breakdown": [
+   [
+    "Dat",
+    "那"
+   ],
+   [
+    "is lekker",
+    "很好吃"
+   ],
+   [
+    "en goed voor mijn keel",
+    "對喉嚨也有好處"
+   ]
+  ],
+  "order": "主詞Dat → 動詞is → 形容詞lekker → 連接詞en → 形容詞goed → 介詞短語voor mijn keel。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，使用形容詞修飾名詞。",
+  "listen": "注意is的發音，可能被弱讀。"
+ },
+ "wil jij er ook een, koen?": {
+  "breakdown": [
+   [
+    "Wil jij",
+    "你要"
+   ],
+   [
+    "er ook een",
+    "也要一個"
+   ],
+   [
+    "Koen",
+    "Koen？"
+   ]
+  ],
+  "order": "動詞Wil → 主詞jij → 副詞er → 副詞ook → 直接受詞een → 主詞Koen。規則：疑問句動詞在句首，主詞跟隨。",
+  "grammar": "使用疑問句結構。",
+  "listen": "注意Wil的發音，可能被弱讀。"
+ },
+ "zo, dan gaan we je eerst even afdrogen.": {
+  "breakdown": [
+   [
+    "Zo",
+    "好"
+   ],
+   [
+    "dan gaan we",
+    "然後我們去"
+   ],
+   [
+    "je eerst even afdrogen",
+    "先幫你擦乾"
+   ]
+  ],
+  "order": "副詞Zo → 副詞dan → 動詞gaan → 主詞we → 直接受詞je → 副詞eerst → 副詞even → 動詞afdrogen。規則：副詞在句首，動詞在第二位。",
+  "grammar": "現在式，使用不定詞結構。",
+  "listen": "注意gaan的發音，可能被弱讀。"
+ },
+ "en daarna gaan we lekker op de bank televisie kijken, want mama heeft rust nodig.": {
+  "breakdown": [
+   [
+    "En",
+    "然後"
+   ],
+   [
+    "daarna gaan we",
+    "然後我們去"
+   ],
+   [
+    "lekker op de bank televisie kijken",
+    "舒服地坐在沙發上看電視"
+   ],
+   [
+    "want mama heeft rust nodig",
+    "因為媽媽需要休息"
+   ]
+  ],
+  "order": "連接詞En → 副詞daarna → 動詞gaan → 主詞we → 形容詞lekker → 介詞短語op de bank → 直接受詞televisie → 動詞kijken → 連接詞want → 主詞mama → 動詞heeft → 直接受詞rust → 形容詞nodig。規則：連接詞引導句子，動詞在第二位。",
+  "grammar": "現在式，使用不定詞結構。",
+  "listen": "注意gaan的發音，可能被弱讀。"
+ },
+ "nee, nou toch maar proberen iets te drinken.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "nou toch maar proberen",
+    "還是試著"
+   ],
+   [
+    "iets te drinken",
+    "喝點東西吧"
+   ]
+  ],
+  "order": "否定詞Nee → 引導詞nou → 副詞toch → 副詞maar → 動詞proberen → 直接受詞iets → 不定詞te drinken。規則：否定詞在句首，動詞在第二位。",
+  "grammar": "使用不定詞結構。",
+  "listen": "注意toch的發音，可能被弱讀。"
+ },
+ "kies een antwoord.": {
+  "breakdown": [
+   [
+    "Kies",
+    "選擇"
+   ],
+   [
+    "een",
+    "一個"
+   ],
+   [
+    "antwoord",
+    "答案"
+   ]
+  ],
+  "order": "動詞Kies(動詞#1) → 主詞(你)隱含 → 受詞(一個答案)",
+  "grammar": "命令句，動詞放句首。",
+  "listen": "Kies的發音可能會被弱讀。"
+ },
+ "wat vind je een goede tip bij keelpijn?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "vind je",
+    "你覺得"
+   ],
+   [
+    "een goede tip",
+    "一個好的建議"
+   ],
+   [
+    "bij keelpijn",
+    "對喉嚨痛"
+   ]
+  ],
+  "order": "疑問詞Wat → 動詞vind(動詞#2) → 主詞je → 受詞(一個好的建議) → 介系詞短語(對喉嚨痛)",
+  "grammar": "疑問句，動詞在主詞後面。",
+  "listen": "vind和je之間可能連音。"
+ },
+ "auw! auw! ja... wat nu?": {
+  "breakdown": [
+   [
+    "Auw!",
+    "哎呦！"
+   ],
+   [
+    "Auw!",
+    "哎呦！"
+   ],
+   [
+    "Ja",
+    "是"
+   ],
+   [
+    "Wat nu?",
+    "現在怎麼辦？"
+   ]
+  ],
+  "order": "感嘆詞Auw! → 感嘆詞Auw! → 副詞Ja → 疑問詞Wat → 副詞nu",
+  "grammar": "感嘆句，感嘆詞可重複。",
+  "listen": "Auw!可能會被快速說出，注意聽清楚。"
+ }
+}

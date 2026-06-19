@@ -1,0 +1,784 @@
+{
+  "video_id": "BQnidD3sb0g",
+  "video_info": {
+    "title": "Listening exam A2 Practice 3",
+    "channel": "Inburgeren examen A2",
+    "duration": 650
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Feest.",
+        "translation": "派對。",
+        "start": 0.0,
+        "end": 0.8
+      },
+      {
+        "text": "Met Naomi Willems. Hoi Naomi, met René.",
+        "translation": "和 Naomi Willems。嗨 Naomi，我是 René。",
+        "start": 6.86,
+        "end": 10.52
+      },
+      {
+        "text": "Hoi, hoe gaat het? Goed, bedankt voor de uitnodiging voor je feest.",
+        "translation": "嗨，怎麼樣？很好，感謝你邀請我參加派對。",
+        "start": 11.06,
+        "end": 16.58
+      },
+      {
+        "text": "Maar ik kan helaas niet komen.",
+        "translation": "但是我很遺憾不能來。",
+        "start": 17.16,
+        "end": 19.22
+      },
+      {
+        "text": "O, wat jammer. Je bent mijn beste vriend.",
+        "translation": "喔，太可惜了。你是我最好的朋友。",
+        "start": 20.08,
+        "end": 24.06
+      },
+      {
+        "text": "Ja, ik moet werken. Ja, daar is niets aan te doen.",
+        "translation": "是的，我必須工作。是的，沒辦法。",
+        "start": 24.64,
+        "end": 30.02
+      },
+      {
+        "text": "Zullen we dan een andere keer afspreken? Ja, dat is goed.",
+        "translation": "那我們改天再約？好啊，沒問題。",
+        "start": 31.06,
+        "end": 34.74
+      },
+      {
+        "text": "Veel plezier op het feest. En alvast gefeliciteerd.",
+        "translation": "祝你在派對玩得開心。先恭喜你。",
+        "start": 35.88,
+        "end": 39.02
+      },
+      {
+        "text": "Bedankt en tot ziens.",
+        "translation": "謝謝，回頭見。",
+        "start": 39.6,
+        "end": 41.48
+      },
+      {
+        "text": "Hoeveel kost het?",
+        "translation": "多少錢？",
+        "start": 46.32,
+        "end": 48.52
+      },
+      {
+        "text": "Goedemorgen meneer. Goedemorgen.",
+        "translation": "早安，先生。早安。",
+        "start": 52.48,
+        "end": 55.18
+      },
+      {
+        "text": "Dat is dan 43,15 euro. Heeft u nog een flessenbon?",
+        "translation": "那共 43.15 歐元。您有瓶蓋回收券嗎？",
+        "start": 62.24,
+        "end": 66.58
+      },
+      {
+        "text": "Nee. Alsjeblieft, 50 euro.",
+        "translation": "沒有。給您 50 歐元。",
+        "start": 67.08,
+        "end": 70.58
+      },
+      {
+        "text": "Heeft u er 15 cent bij? Even kijken.",
+        "translation": "您可以湊一下 15 分錢嗎？我看看。",
+        "start": 72.28,
+        "end": 76.3
+      },
+      {
+        "text": "Nee, dat heb ik niet. Oké, alsjeblieft.",
+        "translation": "沒有。好的，給您找錢。",
+        "start": 77.42,
+        "end": 80.94
+      },
+      {
+        "text": "Met 6,85 euro. Wilt u de bon mee?",
+        "translation": "共 6.85 歐元。要發票嗎？",
+        "start": 81.22,
+        "end": 85.18
+      },
+      {
+        "text": "Ja, graag. Fijne dag verder. U ook, dag.",
+        "translation": "好，謝謝您。祝您有美好的一天。您也是，再見。",
+        "start": 86.12,
+        "end": 90.9
+      },
+      {
+        "text": "Hoeveel kost het?",
+        "translation": "多少錢？",
+        "start": 94.58,
+        "end": 95.48
+      },
+      {
+        "text": "Dag mevrouw. Goedemorgen. Deze cd voor u?",
+        "translation": "小姐您好，早安。這張 CD 是給您的嗎？",
+        "start": 100.22,
+        "end": 104.18
+      },
+      {
+        "text": "Ja, hoeveel kost die? 17,95 euro alsjeblieft.",
+        "translation": "是的，多少錢？17.95 歐元，請。",
+        "start": 104.9,
+        "end": 109.36
+      },
+      {
+        "text": "Kan ik pinnen? Natuurlijk, gaat uw gang.",
+        "translation": "可以用卡付嗎？當然，請慢用。",
+        "start": 114.86,
+        "end": 117.78
+      },
+      {
+        "text": "Zal ik de cd in een tasje doen? Nee hoor, hij gaat zo wel mee.",
+        "translation": "要不要我幫你放進袋子？不用，他自己帶走就好了。",
+        "start": 121.98,
+        "end": 125.94
+      },
+      {
+        "text": "Hier is uw bon. Met de bon kunt u de cd binnen 2 weken ruilen.",
+        "translation": "這是您的發票。持發票兩週內可換貨。",
+        "start": 127.48,
+        "end": 131.62
+      },
+      {
+        "text": "Oké, dank u wel. Tot ziens.",
+        "translation": "好的，謝謝。再見。",
+        "start": 133.92,
+        "end": 136.92
+      },
+      {
+        "text": "Dag. Kijk eens.",
+        "translation": "你好。看看這個。",
+        "start": 138.02,
+        "end": 139.14
+      },
+      {
+        "text": "Hoi Josh, met Marcel. Hé Marcel, hoe gaat het?",
+        "translation": "嗨 Josh，我是 Marcel。嘿 Marcel，最近怎樣？",
+        "start": 147.56,
+        "end": 151.48
+      },
+      {
+        "text": "Ja goed, ga je mee naar de sportschool? Nee, ik kan niet.",
+        "translation": "很好，你要不要一起去健身房？不行，我不能去。",
+        "start": 152.54,
+        "end": 157.08
+      },
+      {
+        "text": "Ik heb mijn arm gebroken. Oh, wat is er gebeurd?",
+        "translation": "我手臂骨折了。喔，發生什麼事了？",
+        "start": 157.66,
+        "end": 161.54
+      },
+      {
+        "text": "Ik ben bij de voetbaltraining gevallen. Precies op mijn arm.",
+        "translation": "我在足球訓練時跌倒了。正好摔到手臂。",
+        "start": 162.08,
+        "end": 165.62
+      },
+      {
+        "text": "En nu is die gebroken. Wat vervelend.",
+        "translation": "現在手臂骨折了。真糟糕。",
+        "start": 165.62,
+        "end": 169.06
+      },
+      {
+        "text": "Heb je veel pijn? Nee hoor, dat valt wel mee.",
+        "translation": "你痛得厲害嗎？不，還好。",
+        "start": 170.32,
+        "end": 173.14
+      },
+      {
+        "text": "Nou, ja, sterkte ermee.",
+        "translation": "好吧，加油。",
+        "start": 173.7,
+        "end": 176.56
+      },
+      {
+        "text": "Hoi Suzanne, ga je mee wandelen?",
+        "translation": "嗨 Suzanne，你要不要一起去散步？",
+        "start": 187.06,
+        "end": 188.9
+      },
+      {
+        "text": "Nee, ik heb geen zin. Ik ben moe.",
+        "translation": "不，我不想去。我累了。",
+        "start": 191.14,
+        "end": 194.5
+      },
+      {
+        "text": "Maar bewegen is gezond hoor.",
+        "translation": "但是運動是健康的喔。",
+        "start": 194.5,
+        "end": 197.88
+      },
+      {
+        "text": "Je moet elke dag minimaal 30 minuten bewegen.",
+        "translation": "你每天至少要運動三十分鐘。",
+        "start": 198.4,
+        "end": 202.28
+      },
+      {
+        "text": "Dat zegt mijn huisarts. Dat doe ik ook.",
+        "translation": "這是我的家庭醫生說的。我也有這樣做。",
+        "start": 203.34,
+        "end": 205.74
+      },
+      {
+        "text": "Ik breng de kinderen naar school, lopend. Ik doe boodschappen op de fiets.",
+        "translation": "我帶孩子走路上學。我騎腳踏車去買東西。",
+        "start": 207.0,
+        "end": 212.9
+      },
+      {
+        "text": "Ik maak elke dag mijn huis schoon. Ik ga met de trap en niet met de lift.",
+        "translation": "我每天打掃房子。我走樓梯，不搭電梯。",
+        "start": 213.84,
+        "end": 219.76
+      },
+      {
+        "text": "Oké, oké, ik hoor het al. Maar samen wandelen is ook gezellig.",
+        "translation": "好吧，我知道了。不過一起散步也很愉快。",
+        "start": 220.74,
+        "end": 226.14
+      },
+      {
+        "text": "Ja, dat is waar. Heb je morgen tijd? Ja hoor, tot morgen.",
+        "translation": "是啊，沒錯。你明天有空嗎？有啊，明天見。",
+        "start": 227.28,
+        "end": 232.48
+      },
+      {
+        "text": "Goedemorgen mevrouw Winter. Goedemorgen dokter.",
+        "translation": "早安，Winter 女士。早安，醫生。",
+        "start": 241.54,
+        "end": 245.72
+      },
+      {
+        "text": "Wat kan ik voor u doen? Nou, ik heb een rode plek op mijn arm.",
+        "translation": "我能幫你什麼嗎？嗯，我手臂有一塊紅紅的地方。",
+        "start": 249.52,
+        "end": 254.46
+      },
+      {
+        "text": "Mag ik even kijken? Ja, dat is een vervelende plek.",
+        "translation": "我可以看看嗎？是的，那地方有點麻煩。",
+        "start": 255.52,
+        "end": 261.12
+      },
+      {
+        "text": "Heeft u ook jeuk? Ja, vooral 's nachts.",
+        "translation": "你會痕癢嗎？會，尤其是晚上。",
+        "start": 262.28,
+        "end": 265.76
+      },
+      {
+        "text": "Hoe lang heeft u deze plek al? Zeker drie weken.",
+        "translation": "這個地方有多久了？大約三個星期了。",
+        "start": 266.58,
+        "end": 270.84
+      },
+      {
+        "text": "Ja, dat is al lang. U krijgt van mij een zalf.",
+        "translation": "是啊，挺久的。我會給你藥膏。",
+        "start": 272.12,
+        "end": 275.82
+      },
+      {
+        "text": "U moet de plek drie keer per dag insmeren met deze zalf.",
+        "translation": "你必須每天塗三次這個藥膏。",
+        "start": 275.82,
+        "end": 280.98
+      },
+      {
+        "text": "En hoe lang moet ik de zalf gebruiken? Nou, in ieder geval deze week.",
+        "translation": "那要塗多久？嗯，至少本週都要。",
+        "start": 282.08,
+        "end": 286.9
+      },
+      {
+        "text": "En als het dan nog niet over is, moet u even terugkomen.",
+        "translation": "如果之後還沒好，你得回來看醫生。",
+        "start": 287.96,
+        "end": 291.4
+      },
+      {
+        "text": "Goed. Alsjeblieft, hier is het recept.",
+        "translation": "好。請收下，這是處方籤。",
+        "start": 292.66,
+        "end": 297.74
+      },
+      {
+        "text": "Ja, bedankt. Dag dokter. Dag mevrouw Winter. Sterkte ermee.",
+        "translation": "是，謝謝。再見醫生。再見冬女士。祝你順利。",
+        "start": 298.6,
+        "end": 302.92
+      },
+      {
+        "text": "Mijn tas is gestolen.",
+        "translation": "我的包被偷了。",
+        "start": 305.82,
+        "end": 308.74
+      },
+      {
+        "text": "Agent? Ja? Mag ik wat vragen?",
+        "translation": "警官？是？我可以問幾個問題嗎？",
+        "start": 312.1,
+        "end": 315.34
+      },
+      {
+        "text": "Natuurlijk. Wat kan ik voor u doen? Mijn tas is gestolen.",
+        "translation": "當然。我能為您做什麼？我的包被偷了。",
+        "start": 316.28,
+        "end": 319.86
+      },
+      {
+        "text": "Ai, dat is niet zo mooi. Wat moet ik nu doen?",
+        "translation": "哎，那可不太好。那我現在該怎麼辦？",
+        "start": 320.8,
+        "end": 323.96
+      },
+      {
+        "text": "U moet aangifte doen bij het politiebureau.",
+        "translation": "您必須到警察局報案。",
+        "start": 325.18,
+        "end": 328.54
+      },
+      {
+        "text": "Wat zat er in uw tas? Mijn portemonnee met 50 euro en mijn bankpasje.",
+        "translation": "您的包裡有什麼？我的錢包裡有50歐元和我的銀行卡。",
+        "start": 332.94,
+        "end": 337.88
+      },
+      {
+        "text": "Ja, uw pasje moet u meteen laten blokkeren bij uw bank.",
+        "translation": "是的，您的卡必須立即向銀行申請鎖卡。",
+        "start": 338.88,
+        "end": 342.02
+      },
+      {
+        "text": "Oké. Bedankt voor de informatie. Nou, graag gedaan meneer. Succes verder.",
+        "translation": "好的。謝謝您的資訊。不客氣，先生。祝您一切順利。",
+        "start": 342.72,
+        "end": 348.16
+      },
+      {
+        "text": "Mijn tas is gestolen.",
+        "translation": "我的包被偷了。",
+        "start": 354.44,
+        "end": 356.74
+      },
+      {
+        "text": "Met de klantenservice.",
+        "translation": "跟客戶服務部門聯絡。",
+        "start": 362.7,
+        "end": 364.36
+      },
+      {
+        "text": "Hallo, u spreekt met Nico Stevens. Mijn bankpas is gestolen.",
+        "translation": "您好，這裡是尼可·史蒂文斯。我銀行卡被偷了。",
+        "start": 364.92,
+        "end": 368.74
+      },
+      {
+        "text": "Oh, wat vervelend. Ik laat uw pas blokkeren.",
+        "translation": "喔，真不幸。我會幫您申請停用這張卡。",
+        "start": 369.18,
+        "end": 373.38
+      },
+      {
+        "text": "Maar dan kan ik hem niet meer gebruiken.",
+        "translation": "可是這樣我就不能用了。",
+        "start": 374.04,
+        "end": 376.06
+      },
+      {
+        "text": "Ja, dat klopt. U krijgt van ons een nieuwe pas.",
+        "translation": "是的，沒錯。我們會給您一張新卡。",
+        "start": 376.76,
+        "end": 380.12
+      },
+      {
+        "text": "En hoe lang duurt dat? Drie werkdagen. Oké.",
+        "translation": "那要多久？三個工作天。好的。",
+        "start": 380.56,
+        "end": 384.72
+      },
+      {
+        "text": "Wat is uw rekeningnummer? Ben je ziek?",
+        "translation": "您的帳號是什麼？你生病了嗎？",
+        "start": 384.72,
+        "end": 390.42
+      },
+      {
+        "text": "Hé Mirka, hoe gaat het? Ik voel me niet lekker.",
+        "translation": "嗨米爾卡，近來如何？我覺得不太舒服。",
+        "start": 396.5,
+        "end": 401.04
+      },
+      {
+        "text": "Ben je ziek?",
+        "translation": "你生病了嗎？",
+        "start": 402.22,
+        "end": 403.08
+      },
+      {
+        "text": "Ja. Ik heb hoofdpijn en last van mijn keel.",
+        "translation": "是的。我頭痛，喉嚨也不舒服。",
+        "start": 404.32,
+        "end": 408.48
+      },
+      {
+        "text": "Heb je ook koorts? Nee hoor, dat niet.",
+        "translation": "你有發燒嗎？沒有，沒有發燒。",
+        "start": 409.96,
+        "end": 412.68
+      },
+      {
+        "text": "Zal ik een paracetamol voor je pakken?",
+        "translation": "要不要我幫你拿退燒藥？",
+        "start": 413.52,
+        "end": 416.38
+      },
+      {
+        "text": "Ja, graag. Misschien gaat het dan beter.",
+        "translation": "好，謝謝。或許會好一點。",
+        "start": 416.6,
+        "end": 419.56
+      },
+      {
+        "text": "In ieder geval, beterschap. Ja, dank je wel.",
+        "translation": "不管怎樣，祝你早日康復。謝謝你。",
+        "start": 423.46,
+        "end": 427.0
+      },
+      {
+        "text": "Dag meneer. Goedemorgen. Zegt u het maar.",
+        "translation": "先生您好，早安。請講。",
+        "start": 436.18,
+        "end": 439.94
+      },
+      {
+        "text": "Ik kom mijn oordruppels halen. Wat is uw naam?",
+        "translation": "我來拿我的耳滴藥。請問您的名字是？",
+        "start": 439.94,
+        "end": 443.78
+      },
+      {
+        "text": "Bakir. Kunt u dat even spellen? B-A-K-I-R.",
+        "translation": "巴基爾。能幫我拼寫一下嗎？B-A-K-I-R。",
+        "start": 444.52,
+        "end": 449.94
+      },
+      {
+        "text": "Een ogenblikje.",
+        "translation": "請稍等。",
+        "start": 454.72,
+        "end": 456.24
+      },
+      {
+        "text": "Alstublieft. Dit zijn uw oordruppels. U moet ze twee keer per dag gebruiken.",
+        "translation": "請收下。這是您的耳滴藥。您必須一天用兩次。",
+        "start": 460.02,
+        "end": 465.7
+      },
+      {
+        "text": "'s Morgens als u opstaat en 's avonds als u naar bed gaat.",
+        "translation": "早上起床時和晚上睡覺前。",
+        "start": 465.7,
+        "end": 470.18
+      },
+      {
+        "text": "Bedankt. Heeft u nog vragen? Nee, alles is duidelijk.",
+        "translation": "謝謝。您還有問題嗎？沒有，一切都很清楚。",
+        "start": 471.04,
+        "end": 474.82
+      },
+      {
+        "text": "Beterschap. Dank u wel. Tot ziens.",
+        "translation": "祝您早日康復。謝謝您。再見。",
+        "start": 475.78,
+        "end": 477.94
+      },
+      {
+        "text": "Hallo. Kan ik u helpen?",
+        "translation": "您好，我可以幫忙嗎？",
+        "start": 488.7,
+        "end": 491.32
+      },
+      {
+        "text": "Ja. Heeft u voor mij een hoestdrankje? Is het voor uzelf?",
+        "translation": "有的。您有咳嗽藥水嗎？是您自己用嗎？",
+        "start": 492.24,
+        "end": 497.2
+      },
+      {
+        "text": "Nee, het is voor mijn dochter. Hoe oud is ze?",
+        "translation": "不是，是給我女兒的。她幾歲？",
+        "start": 497.76,
+        "end": 501.08
+      },
+      {
+        "text": "Sinds zeven jaar. Ze heeft griep. En heeft ze ook koorts?",
+        "translation": "七歲。她感冒了。她有發燒嗎？",
+        "start": 501.92,
+        "end": 507.14
+      },
+      {
+        "text": "Ja, vanochtend 38,5. Ah, vervelend.",
+        "translation": "有，今天早上燒到38.5度。啊，真麻煩。",
+        "start": 508.0,
+        "end": 512.78
+      },
+      {
+        "text": "Hier is een drankje.",
+        "translation": "這是藥水。",
+        "start": 516.02,
+        "end": 516.78
+      },
+      {
+        "text": "12,75 alsjeblieft. Alsjeblieft.",
+        "translation": "12.75歐元，請。給您。",
+        "start": 522.02,
+        "end": 526.7
+      },
+      {
+        "text": "En het beste met uw dochter. Bedankt.",
+        "translation": "祝您女兒早日康復。謝謝。",
+        "start": 528.38,
+        "end": 531.32
+      },
+      {
+        "text": "Hé, Bianca. Waar ga je naartoe?",
+        "translation": "嗨，比安卡。你要去哪裡？",
+        "start": 540.82,
+        "end": 543.46
+      },
+      {
+        "text": "Ik ga naar de bibliotheek. Ga je mee? Daar ben ik nog nooit geweest.",
+        "translation": "我要去圖書館。你要一起去嗎？我以前從沒去過那裡。",
+        "start": 544.18,
+        "end": 549.84
+      },
+      {
+        "text": "Nee? Ik hou van lezen.",
+        "translation": "真的嗎？我喜歡閱讀。",
+        "start": 549.84,
+        "end": 552.9
+      },
+      {
+        "text": "Ik heb een abonnement. En je dochter? Ja, die heeft ook een abonnement.",
+        "translation": "我有會員證。你女兒呢？是的，她也有會員證。",
+        "start": 553.8,
+        "end": 558.8
+      },
+      {
+        "text": "Dat is gratis. Oh, dat is makkelijk. Ga ook mee. Dan kun je meteen lid worden.",
+        "translation": "那是免費的。喔，那很方便。你也一起去吧，這樣你就可以當場辦證。",
+        "start": 559.72,
+        "end": 565.68
+      },
+      {
+        "text": "Ja, goed idee. Moet ik nog wat meenemen? Een legitimatiebewijs.",
+        "translation": "是，主意不錯。我要帶什麼嗎？帶身分證明。",
+        "start": 566.3,
+        "end": 571.62
+      },
+      {
+        "text": "Oh, dat heb ik bij me. Laten we gaan.",
+        "translation": "喔，我帶著。走吧。",
+        "start": 572.28,
+        "end": 574.9
+      },
+      {
+        "text": "Bibliotheek.",
+        "translation": "圖書館。",
+        "start": 583.04,
+        "end": 584.56
+      },
+      {
+        "text": "Dag mevrouw. Wat kan ik voor je doen? Dag. Ik wil lid worden.",
+        "translation": "女士您好，我能為您做什麼？您好。我想辦會員。",
+        "start": 586.6,
+        "end": 592.24
+      },
+      {
+        "text": "Dat kan. We hebben twee abonnementen.",
+        "translation": "可以。我們有兩種訂閱方案。",
+        "start": 593.36,
+        "end": 596.76
+      },
+      {
+        "text": "Een basisabonnement en een plusabonnement.",
+        "translation": "一個基本訂閱和一個進階訂閱。",
+        "start": 598.4,
+        "end": 601.66
+      },
+      {
+        "text": "Oh, en wat is het verschil? Een basisabonnement kost 30 euro.",
+        "translation": "喔，那有什麼差別？基本訂閱費用是30歐元。",
+        "start": 602.92,
+        "end": 607.74
+      },
+      {
+        "text": "Dan kunt u met uw pasje zes boeken of dvd's lenen.",
+        "translation": "然後您可以用您的會員卡借六本書或DVD。",
+        "start": 607.74,
+        "end": 611.86
+      },
+      {
+        "text": "Met een plusabonnement kunt u tien boeken of dvd's lenen.",
+        "translation": "有了進階訂閱，您可以借十本書或DVD。",
+        "start": 612.82,
+        "end": 616.26
+      },
+      {
+        "text": "En dat kost 40 euro.",
+        "translation": "費用是40歐元。",
+        "start": 616.66,
+        "end": 618.14
+      },
+      {
+        "text": "Oh, dan wil ik een basisabonnement.",
+        "translation": "喔，那我想要一個基本訂閱。",
+        "start": 620.48,
+        "end": 622.8
+      },
+      {
+        "text": "Prima. Heeft u een legitimatiebewijs bij u?",
+        "translation": "很好。您有帶身分證明文件嗎？",
+        "start": 624.26,
+        "end": 627.14
+      },
+      {
+        "text": "Ja, alstublieft. Dan heb ik nog een andere vraag.",
+        "translation": "有，請您收下。那我還有另外一個問題。",
+        "start": 629.6,
+        "end": 634.82
+      },
+      {
+        "text": "Kan mijn zoon ook lid worden? Natuurlijk. Hoe oud is hij?",
+        "translation": "我兒子也可以成為會員嗎？當然可以。他幾歲了？",
+        "start": 634.82,
+        "end": 640.72
+      },
+      {
+        "text": "Hij is elf jaar. Dan is het abonnement voor hem gratis.",
+        "translation": "他十一歲。那麼對他來說訂閱是免費的。",
+        "start": 641.24,
+        "end": 645.5
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wie kan er helaas niet naar het feest komen?",
+        "question_native": "誰很遺憾不能來派對？",
+        "options": [
+          "Naomi",
+          "René",
+          "Suzanne"
+        ],
+        "answer": "Naomi"
+      },
+      {
+        "question": "Wat moet je doen als de plek op de arm niet overgaat?",
+        "question_native": "如果手臂上的紅點沒好，應該怎麼做？",
+        "options": [
+          "Terugkomen bij de dokter",
+          "Meer zalf gebruiken",
+          "Meer rust nemen"
+        ],
+        "answer": "Terugkomen bij de dokter"
+      },
+      {
+        "question": "Hoe is Marcel geblesseerd geraakt?",
+        "question_native": "Marcel 是怎麼受傷的？",
+        "options": [
+          "Hij viel tijdens voetbaltraining",
+          "Hij viel van de trap",
+          "Hij werkte te hard"
+        ],
+        "answer": "Hij viel tijdens voetbaltraining"
+      },
+      {
+        "question": "Hoe betaalde de klant uiteindelijk bij de flesjeskassa?",
+        "question_native": "客人在瓶蓋回收櫃檯最後怎麼付錢？",
+        "options": [
+          "Met 50 euro contant",
+          "Met een kaart",
+          "Met een flessenbon"
+        ],
+        "answer": "Met 50 euro contant"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "feest",
+        "meaning": "派對"
+      },
+      {
+        "word": "uitnodiging",
+        "meaning": "邀請"
+      },
+      {
+        "word": "helaas",
+        "meaning": "很遺憾"
+      },
+      {
+        "word": "afspreken",
+        "meaning": "約定、見面"
+      },
+      {
+        "word": "flessenbon",
+        "meaning": "瓶蓋回收券"
+      },
+      {
+        "word": "pinnen",
+        "meaning": "用卡付款"
+      },
+      {
+        "word": "insmeren",
+        "meaning": "塗抹 (藥膏)"
+      },
+      {
+        "word": "huisarts",
+        "meaning": "家庭醫生"
+      },
+      {
+        "word": "jeuk",
+        "meaning": "癢"
+      },
+      {
+        "word": "vervelend",
+        "meaning": "麻煩的、不舒服的"
+      },
+      {
+        "word": "gebroken",
+        "meaning": "骨折的"
+      },
+      {
+        "word": "bewegen",
+        "meaning": "運動"
+      },
+      {
+        "word": "lopend",
+        "meaning": "走路"
+      },
+      {
+        "word": "fietsen",
+        "meaning": "騎腳踏車"
+      },
+      {
+        "word": "medicijn/zalf",
+        "meaning": "藥膏"
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+ "video_id": "4Bp2X6lj1Tw",
+ "title": "Sample question from the Listening exam 2025",
+ "channel": "Inburgeren examen A2",
+ "duration": 75,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "客戶服務電話選項",
+   "title_nl": "Sample question from the Listening exam 2025",
+   "kind": "對話",
+   "context_zh": "Zra 在打電話給 Boekenwinkel.nl 的客戶服務，詢問訂書的選項。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Zra heeft op internet een boek besteld.",
+     "zh": "Zra 在網路上下訂了一本書。"
+    },
+    {
+     "t": "0:04",
+     "nl": "Ze belt naar de klantenservice.",
+     "zh": "她打電話給客服中心。"
+    },
+    {
+     "t": "0:07",
+     "nl": "Lees eerst de vraag, luister daarna naar de tekst.",
+     "zh": "請先閱讀問題，然後聽取內容。"
+    },
+    {
+     "t": "0:25",
+     "nl": "Goedendag en welkom bij de klantenservice van Boekenwinkel.nl.",
+     "zh": "您好，歡迎來到 Boekenwinkel.nl 的客服中心。"
+    },
+    {
+     "t": "0:31",
+     "nl": "Om u zo goed mogelijk te kunnen helpen, vragen we u een keuze te maken uit één van de volgende opties.",
+     "zh": "為了盡可能幫助您，我們請您從以下選項中做出選擇。"
+    },
+    {
+     "t": "0:38",
+     "nl": "Wilt u een boek bestellen? Kies 1.",
+     "zh": "您想訂購一本書嗎？請按 1。"
+    },
+    {
+     "t": "0:42",
+     "nl": "Wilt u een bestelling veranderen? Kies 2.",
+     "zh": "您想修改訂單嗎？請按 2。"
+    },
+    {
+     "t": "0:47",
+     "nl": "Wilt u een bestelling annuleren? Kies 3.",
+     "zh": "您想取消訂單嗎？請按 3。"
+    },
+    {
+     "t": "0:51",
+     "nl": "Heeft u een andere vraag en wilt u één van onze medewerkers spreken? Kies 4.",
+     "zh": "您有其他問題想與我們的員工通話嗎？請按 4。"
+    },
+    {
+     "t": "0:57",
+     "nl": "Wij streven naar een zo goed mogelijke service. Daarom kan het zijn dat uw gesprek wordt opgenomen.",
+     "zh": "我們致力提供最佳的服務，因此您的通話可能會被錄音。"
+    },
+    {
+     "t": "1:05",
+     "nl": "Sra wil liever een ander boek bestellen.",
+     "zh": "Sra 想訂購別的書。"
+    },
+    {
+     "t": "1:09",
+     "nl": "Welk nummer moet ze dan kiezen? 1, 2, 3, of 4?",
+     "zh": "那她應該按哪個號碼？1、2、3 還是 4？"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "boek",
+     "zh": "書"
+    },
+    {
+     "nl": "bestellen",
+     "zh": "訂購"
+    },
+    {
+     "nl": "bestelling",
+     "zh": "訂單"
+    },
+    {
+     "nl": "veranderen",
+     "zh": "更改"
+    },
+    {
+     "nl": "annuleren",
+     "zh": "取消"
+    },
+    {
+     "nl": "vraag",
+     "zh": "問題"
+    },
+    {
+     "nl": "medewerker",
+     "zh": "員工"
+    },
+    {
+     "nl": "keuze",
+     "zh": "選擇"
+    },
+    {
+     "nl": "klantenservice",
+     "zh": "客戶服務"
+    },
+    {
+     "nl": "opnemen",
+     "zh": "錄音"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Wilt u ...?",
+     "zh": "您想要 ... 嗎？",
+     "note": "用於詢問對方的需求"
+    },
+    {
+     "nl": "Kies [nummer].",
+     "zh": "選擇 [號碼]。",
+     "note": "用於指示選擇"
+    },
+    {
+     "nl": "Heeft u een andere vraag?",
+     "zh": "您有其他問題嗎？",
+     "note": "用於詢問是否有其他問題"
+    },
+    {
+     "nl": "Wij streven naar ...",
+     "zh": "我們追求 ...",
+     "note": "表達服務目標"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

@@ -1,0 +1,890 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Luisteren examen A2 (nieuw systeem) 4 vragen</title><style>
+:root { --blue:#1e3a8a; --blue2:#3b82f6; --amber:#f59e0b; --ink:#1f2937;
+  --green:#16a34a; --red:#dc2626; --cyan:#0891b2; }
+* { box-sizing: border-box; }
+body { margin:0; padding:0 0 96px; font:15px/1.65 -apple-system,"PingFang TC","Hiragino Sans",sans-serif;
+  color:var(--ink); background:#f1f5f9; }
+.wrap { max-width:760px; margin:0 auto; padding:0 14px; }
+header { background:var(--blue); color:#fff; padding:14px 14px 0; position:sticky; top:0; z-index:30;
+  box-shadow:0 1px 8px rgba(0,0,0,.12); }
+header .wrap { padding:0 14px; }
+header h1 { margin:0 0 4px; font-size:17px; line-height:1.32; }
+header .meta { font-size:11.5px; color:#bfdbfe; }
+.tabs { display:flex; gap:2px; margin-top:10px; overflow-x:auto; }
+.tabs button { background:transparent; color:#cbd5e1; border:none; padding:9px 12px;
+  font-size:13px; font-weight:700; cursor:pointer; border-bottom:3px solid transparent;
+  white-space:nowrap; }
+.tabs button.on { color:#fff; border-bottom-color:var(--amber); }
+.tabs button .bg { background:var(--red); color:#fff; border-radius:9px; padding:1px 6px;
+  font-size:10px; margin-left:4px; font-weight:800; }
+.status { background:#0f172a; color:#cbd5e1; padding:7px 14px; font-size:12px;
+  display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+.status .item { display:inline-flex; gap:5px; align-items:center; }
+.status .item b { color:#fff; font-weight:800; font-size:13px; }
+.status .item.score b { color:var(--amber); }
+.status .reset { margin-left:auto; background:#334155; color:#94a3b8; border:none;
+  border-radius:6px; padding:4px 10px; font-size:11px; cursor:pointer; }
+.howto { background:#fff; border-left:4px solid var(--blue); border-radius:8px;
+  padding:11px 14px; margin:14px 0; font-size:13px; color:#374151; }
+.howto b { color:var(--blue); }
+/* scenario */
+.scene { background:#fff; border-radius:12px; margin:16px 0; overflow:hidden;
+  box-shadow:0 1px 3px rgba(0,0,0,.07); }
+.scene-bar { background:var(--blue); color:#fff; padding:11px 15px; display:flex;
+  align-items:baseline; gap:9px; }
+.scene-bar .sn { font-size:12px; font-weight:800; background:#fbbf24; color:var(--blue);
+  padding:2px 9px; border-radius:11px; white-space:nowrap; }
+.scene-bar .st { font-size:16px; font-weight:800; flex:1; }
+.scene-bar .sk { font-size:11px; color:#bfdbfe; }
+.scene-ctx { background:#eff6ff; padding:8px 15px; font-size:12.5px; color:#1e40af; }
+.scene-ctx .nl { color:#94a3b8; }
+.sec { padding:12px 15px; }
+.sec h3 { font-size:12.5px; font-weight:800; color:#b45309; margin:4px 0 7px;
+  letter-spacing:.4px; }
+.vocab { width:100%; border-collapse:collapse; font-size:13px; }
+.vocab td { padding:5px 8px; border:1px solid #f0e6d2; }
+.vocab td.nl { font-weight:700; width:46%; }
+.vocab td.zh { color:#6b7280; }
+.vocab tr:nth-child(even) td { background:#fffdf7; }
+.pat { font-size:13px; margin:5px 0; padding-bottom:5px; border-bottom:1px dotted #e5e7eb; }
+.pat .pnl { font-weight:700; color:#0f766e; }
+.pat .pnote { color:#9ca3af; font-size:11.5px; display:block; }
+.dlg-h { font-size:13.5px; font-weight:800; color:var(--blue); margin:14px 15px 4px; }
+.dlg-h span { font-size:11px; color:#9ca3af; font-weight:500; }
+.line { display:flex; gap:9px; padding:7px 15px; border-bottom:1px solid #f3f4f6;
+  cursor:pointer; transition:background .15s, border-color .15s; position:relative;
+  border-left:3px solid transparent; scroll-margin-top:80px; scroll-margin-bottom:140px; }
+.line:hover { background:#f8fafc; }
+.line.playing { background:#fff7e0; border-left-color:#f59e0b;
+  box-shadow:0 0 0 2px rgba(245,158,11,0.45), 0 6px 18px rgba(245,158,11,0.18);
+  transform:scale(1.012); transition:background .15s, box-shadow .15s, transform .15s; }
+.line.playing::before { content:"▶"; position:absolute; left:-3px; top:50%;
+  transform:translateY(-50%); color:#f59e0b; font-size:11px;
+  width:16px; text-align:center; pointer-events:none; }
+.line.playing .lnl { color:#78350f; font-weight:800; }
+.ts { flex:0 0 50px; font:700 12px ui-monospace,Menlo,monospace; color:#fff;
+  background:var(--blue2); border:none; border-radius:6px; padding:2px 0; height:fit-content;
+  cursor:pointer; }
+.ts:active { transform:scale(.94); }
+.line .lb { flex:1; min-width:0; }
+.line .lnl { font-weight:500; }
+/* tappable vocab word inside a line */
+.lnl .w { border-bottom:1.5px dotted #94a3b8; cursor:pointer; }
+.lnl .w:active { background:#fef9c3; }
+.line.playing .lnl .w { border-bottom-color:#b45309; }
+#wpop-ov { position:fixed; inset:0; z-index:59; display:none; }
+#wpop-ov.show { display:block; }
+#wpop { position:fixed; z-index:60; display:none; background:#0f172a; color:#e2e8f0;
+  border:1px solid #334155; border-radius:13px; padding:13px 15px; max-width:280px;
+  box-shadow:0 12px 44px rgba(0,0,0,.45); }
+#wpop.show { display:block; }
+#wpop .wp-nl { font-weight:800; font-size:16px; }
+#wpop .wp-zh { color:#fcd34d; font-size:13.5px; margin-top:5px; line-height:1.4; }
+#wpop .wp-btns { display:flex; gap:7px; margin-top:11px; }
+#wpop .wp-play { background:var(--amber); color:#0f172a; border:none; border-radius:8px;
+  padding:8px 12px; font-weight:800; font-size:13px; cursor:pointer; }
+#wpop .wp-slow { background:#334155; color:#e2e8f0; border:none; border-radius:8px;
+  padding:8px 12px; font-weight:700; font-size:13px; cursor:pointer; }
+.line .lzh { color:#9ca3af; font-size:12.5px; }
+/* per-line actions: loop one sentence / mark as hard */
+.lacts { display:flex; flex-direction:column; gap:4px; flex:none; margin-left:6px; }
+.lact { background:#eef2f7; border:1px solid #e2e8f0; border-radius:7px; width:30px; height:25px;
+  font-size:13px; line-height:1; cursor:pointer; padding:0; color:#64748b; }
+.lact:active { transform:scale(.9); }
+.lact.loop.on { background:#fde68a; border-color:#f59e0b; color:#92400e; }
+.line.hard .lact.star { background:#fee2e2; border-color:#f87171; color:#b91c1c; }
+.lact.ana.on { background:#dbeafe; border-color:#3b82f6; color:#1e40af; }
+.line.looping { box-shadow:inset 0 0 0 2px rgba(245,158,11,.5); }
+/* AI sentence explanation panel (tap 💡) */
+.lana { display:none; margin:9px 0 2px; padding:11px 13px; background:#0f172a; color:#e2e8f0;
+  border-radius:10px; border-left:3px solid var(--amber); font-size:12.5px; line-height:1.65; }
+.lana.show { display:block; }
+.lana .ana-bd { padding:1px 0; }
+.lana .ana-bd b { color:#fcd34d; font-weight:700; }
+.lana .ana-o { margin-top:9px; padding:8px 10px; background:rgba(245,158,11,.12);
+  border:1px solid rgba(245,158,11,.4); border-radius:8px; color:#fde68a; font-weight:600; }
+.lana .ana-g { margin-top:7px; color:#bae6fd; }
+.lana .ana-l { margin-top:4px; color:#fca5a5; }
+.line.hard { border-left-color:#f87171; }
+/* active-listening: hide ZH globally, reveal a line on tap */
+body.hide-zh .lzh { display:none; }
+body.hide-zh .line.reveal .lzh { display:block; }
+body.hide-zh .line:not(.reveal) .lb::after { content:"｜ 點一下對答案"; font-size:11px; color:#cbd5e1; }
+body.only-hard .line:not(.hard) { display:none; }
+/* player second row: study toggles */
+.player .row2 { display:flex; align-items:center; gap:8px; padding:6px 12px 0; flex-wrap:wrap; }
+.ptog { background:#1e293b; color:#cbd5e1; border:1px solid #334155; border-radius:8px;
+  padding:6px 11px; font-size:12px; font-weight:700; cursor:pointer; }
+.ptog.on { background:var(--amber); color:#0f172a; border-color:var(--amber); }
+.ptog .pn { opacity:.7; font-weight:600; }
+.phint { font-size:11px; color:#94a3b8; margin-left:auto; }
+.skiprow .skip { background:#334155; color:#e2e8f0; border:1px solid #475569; border-radius:8px;
+  padding:6px 11px; font-size:12px; font-weight:700; cursor:pointer; }
+.skiprow .skip:active { transform:scale(.92); }
+.ptog#mode-video, .ptog#mode-audio { margin-left:0; }
+#ytbox { margin:10px 0 4px; border-radius:12px; overflow:hidden; background:#000;
+  position:sticky; top:0; z-index:25; box-shadow:0 4px 18px rgba(0,0,0,.3); }
+#ytbox #ytplayer, #ytbox iframe { width:100%; aspect-ratio:16/9; height:auto; display:block; border:0; }
+/* question */
+.q { margin:12px 15px; border:1px solid #e5e7eb; border-radius:10px; overflow:hidden; }
+.q-h { background:#fef3c7; padding:9px 12px; display:flex; gap:8px; align-items:baseline;
+  border-bottom:1px solid #fde68a; }
+.q-h .qn { font-size:11px; font-weight:800; color:#fff; background:var(--amber);
+  padding:2px 9px; border-radius:10px; white-space:nowrap; }
+.q-h .qt { flex:1; font-size:14px; font-weight:800; color:#92400e; }
+.q-h .recon { font-size:9.5px; color:#b45309; border:1px solid #fcd34d; border-radius:8px;
+  padding:1px 6px; white-space:nowrap; }
+.q-h .qbadge { font-size:9.5px; padding:1px 7px; border-radius:9px; font-weight:800;
+  white-space:nowrap; }
+.q-h .qbadge.ok { background:var(--green); color:#fff; }
+.q-h .qbadge.ng { background:var(--red); color:#fff; }
+.q-h .qbadge.srs { background:var(--cyan); color:#fff; }
+.q-body { padding:10px 12px; }
+.q-zh { font-size:12.5px; color:#6b7280; margin-bottom:8px; }
+.opt { padding:7px 9px; margin:4px 0; border:1px solid #e5e7eb; border-radius:7px;
+  font-size:13.5px; cursor:pointer; transition:all .12s; }
+.opt:hover { background:#f8fafc; }
+.opt .ol { font-weight:800; color:#6b7280; margin-right:5px; }
+.opt .ozh { color:#9ca3af; font-size:12px; }
+.opt.picked { border-color:var(--blue2); background:#eff6ff; }
+.q.revealed .opt { cursor:default; }
+.q.revealed .opt:hover { background:transparent; }
+.q.revealed .opt.correct { border-color:var(--green); background:#dcfce7; }
+.q.revealed .opt.correct .ol { color:#15803d; }
+.q.revealed .opt.wrongpick { border-color:var(--red); background:#fef2f2; }
+.q.revealed .opt.wrongpick .ol { color:#b91c1c; }
+.reveal-btn { width:100%; padding:9px; margin-top:6px; border:none; border-radius:8px;
+  background:var(--blue); color:#fff; font-size:13.5px; font-weight:700; cursor:pointer; }
+.reveal-btn:disabled { background:#cbd5e1; cursor:not-allowed; }
+.reveal-btn.danger { background:var(--red); }
+.answer { display:none; margin-top:10px; }
+.q.revealed .answer { display:block; }
+.q.revealed .reveal-btn { display:none; }
+.src { background:#f0f9ff; border:1px solid #bae6fd; border-radius:8px; padding:8px 10px; }
+.src .sh { font-size:11px; font-weight:800; color:#0369a1; margin-bottom:5px; }
+.src .sl { display:flex; gap:8px; padding:3px 0; cursor:pointer; }
+.src .sl:hover { background:#e0f2fe; border-radius:5px; }
+.src .sl .slnl { font-weight:600; color:#0c4a6e; font-size:13px; }
+.src .sl .slzh { color:#64748b; font-size:11.5px; }
+.explain { font-size:13px; margin-top:9px; }
+.explain .lbl { font-weight:800; color:#1d4ed8; }
+.trap { font-size:12.5px; background:#fff7ed; border-left:3px solid #fb923c;
+  padding:7px 10px; margin-top:7px; border-radius:5px; color:#7c2d12; }
+.trap .lbl { font-weight:800; color:#c2410c; }
+.note { background:#fef9c3; border-left:3px solid #ca8a04; padding:9px 12px; margin:12px 15px;
+  border-radius:6px; font-size:12.5px; color:#713f12; }
+/* exam mode */
+.exam-intro, .exam-result { padding:24px 18px; background:#fff; border-radius:14px;
+  margin:18px 14px; box-shadow:0 1px 3px rgba(0,0,0,.07); }
+.exam-intro h2, .exam-result h2 { color:var(--blue); margin:0 0 12px; font-size:18px; }
+.exam-intro ul { padding-left:20px; color:#4b5563; font-size:13px; line-height:1.9; }
+.exam-intro .start { margin-top:14px; width:100%; padding:14px; border:none;
+  border-radius:10px; background:var(--blue); color:#fff; font-size:15px; font-weight:800;
+  cursor:pointer; }
+.exam-active .timer { background:var(--ink); color:#fff; padding:10px 14px;
+  text-align:center; font:700 22px ui-monospace,Menlo,monospace; }
+.exam-active .timer.warn { background:var(--red); }
+.exam-active .progress { background:#e5e7eb; height:4px; }
+.exam-active .progress > div { background:var(--amber); height:100%; transition:width .2s; }
+.result-score { font-size:42px; font-weight:900; text-align:center; color:var(--amber); }
+.result-score small { display:block; font-size:14px; color:#94a3b8; font-weight:500;
+  margin-top:4px; }
+.result-row { display:flex; gap:12px; align-items:center; margin:8px 0;
+  padding:8px 10px; background:#f8fafc; border-radius:7px; font-size:13px; }
+.result-row .qn { font-weight:800; color:var(--blue); min-width:40px; }
+.result-row .qt { flex:1; }
+.result-row .qok { color:var(--green); font-weight:800; }
+.result-row .qng { color:var(--red); font-weight:800; }
+/* mistakes / stats */
+.empty { text-align:center; padding:40px 20px; color:#9ca3af; font-size:14px; }
+.empty .em { font-size:32px; display:block; margin-bottom:8px; }
+.stat-card { background:#fff; padding:16px; border-radius:12px; margin:14px;
+  box-shadow:0 1px 3px rgba(0,0,0,.06); }
+.stat-card h3 { margin:0 0 10px; font-size:14px; color:var(--blue); }
+.chart { width:100%; height:140px; }
+.stat-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+.stat-grid .cell { text-align:center; padding:10px; background:#f8fafc; border-radius:8px; }
+.stat-grid .cell b { display:block; font-size:24px; color:var(--blue); font-weight:800; }
+.stat-grid .cell span { font-size:11px; color:#6b7280; }
+.srs-row { display:flex; gap:10px; align-items:center; padding:9px 12px; background:#fff;
+  border-radius:8px; margin:6px 14px; font-size:13px; cursor:pointer; }
+.srs-row:hover { background:#fef3c7; }
+.srs-row .due { font-size:11px; color:var(--cyan); font-weight:800; }
+.srs-row .due.overdue { color:var(--red); }
+.srs-row .qt { flex:1; }
+/* player */
+.player { position:fixed; bottom:0; left:0; right:0; background:#0f172a; color:#fff;
+  padding:9px 12px; box-shadow:0 -2px 12px rgba(0,0,0,.25); z-index:50; }
+.player .row { max-width:760px; margin:0 auto; display:flex; align-items:center; gap:10px; }
+.player button.pp { width:44px; height:44px; border-radius:50%; border:none;
+  background:var(--amber); color:#0f172a; font-size:19px; cursor:pointer; flex:0 0 auto; }
+.player .bar { flex:1; height:6px; background:#334155; border-radius:3px; cursor:pointer;
+  position:relative; }
+.player .bar .fill { position:absolute; left:0; top:0; bottom:0; background:var(--amber);
+  border-radius:3px; width:0; }
+.player .tnow { font:700 12px ui-monospace,Menlo,monospace; min-width:78px; text-align:right; }
+.player .spd { display:flex; gap:3px; }
+.player .spd button { background:#334155; color:#cbd5e1; border:none; border-radius:5px;
+  font-size:11px; padding:4px 6px; cursor:pointer; }
+.player .spd button.on { background:var(--amber); color:#0f172a; font-weight:700; }
+[hidden] { display:none !important; }
+</style></head><body data-vid="gIqFonNsQZ8" data-total="0"><header><div class="wrap">
+      <h1>Luisteren examen A2 (nieuw systeem) 4 vragen</h1>
+      <div class="meta">🎧 A2 Luisteren · Inburgering ·
+        1 場景 · 0 題</div>
+      <div style="margin-top:8px"><a href="index.html"
+        style="display:inline-block;padding:6px 12px;background:#0f766e;color:#fff;
+               border-radius:6px;font-size:13px;text-decoration:none;font-weight:600">
+        🔊 切換到「逐句跟讀／Echo」模式 →</a></div>
+    </div>
+    <div class="wrap"><div class="tabs">
+      <button class="on" data-mode="study">📖 學習</button>
+      <button data-mode="exam">⏱️ 考場模式</button>
+      <button data-mode="review" id="tab-review">🎯 錯題複習</button>
+      <button data-mode="stats">📊 我的紀錄</button>
+    </div></div>
+    <div class="status">
+      <span class="item score">已答 <b id="s-answered">0</b>/<b id="s-total">0</b></span>
+      <span class="item">對 <b id="s-correct">0</b></span>
+      <span class="item">正確率 <b id="s-pct">0%</b></span>
+      <button class="reset" id="reset-btn">清除進度</button>
+    </div></header><section data-mode-content="study"><div class="wrap"><div class="howto"><b>📖 學習模式</b>：點<b>藍色時間戳</b>或句子聽原音，字幕會跟著高亮。🙈 遮中文先用耳朵聽、🔁 循環單句、⏪ 倒退重聽、💡 看 AI 詳解。按 <b>📺 看影片</b> 可邊看 YouTube 邊練，字幕同步。</div><div id="ytbox" style="display:none"><div id="ytplayer"></div></div></div><div class="scene"><div class="scene-bar"><span class="sn">場景 1</span><span class="st">幫助準備國王日早餐</span><span class="sk">對話</span></div><div class="scene-ctx">在學校，家長們討論如何準備國王日的早餐活動。<br><span class="nl">Luisteren examen A2 (nieuw systeem) 4 vragen</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">cursus</td><td class="zh">課程</td></tr><tr><td class="nl">docent</td><td class="zh">老師</td></tr><tr><td class="nl">woordenboek</td><td class="zh">字典</td></tr><tr><td class="nl">schrijfblok</td><td class="zh">寫作本</td></tr><tr><td class="nl">park</td><td class="zh">公園</td></tr><tr><td class="nl">stadsboerderij</td><td class="zh">城市農場</td></tr><tr><td class="nl">natuurproject</td><td class="zh">自然專案</td></tr><tr><td class="nl">verhalen</td><td class="zh">故事</td></tr><tr><td class="nl">ontbijt</td><td class="zh">早餐</td></tr><tr><td class="nl">sportveld</td><td class="zh">運動場</td></tr><tr><td class="nl">ouders</td><td class="zh">家長</td></tr><tr><td class="nl">boodschappen</td><td class="zh">購物</td></tr><tr><td class="nl">wedstrijd</td><td class="zh">比賽</td></tr><tr><td class="nl">fiets</td><td class="zh">自行車</td></tr><tr><td class="nl">prijs</td><td class="zh">獎品</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Wat moeten Mila en Carla op 27 april doen?</span> — 米拉和卡拉在4月27日要做什麼？<span class="pnote">使用疑問句詢問行動</span></div><div class="pat"><span class="pnl">Het begint om half negen.</span> — 它在八點半開始。<span class="pnote">描述事件的開始時間</span></div><div class="pat"><span class="pnl">Daarbij helpen al andere ouders.</span> — 其他家長也會幫忙。<span class="pnote">描述其他人的參與</span></div><div class="pat"><span class="pnl">Moeten wij ook boodschappen doen voor het ontbijt?</span> — 我們也需要為早餐購物嗎？<span class="pnote">使用疑問句詢問需求</span></div><div class="pat"><span class="pnl">Dan gaan de kinderen hun fiets versieren.</span> — 然後孩子們會裝飾他們的自行車。<span class="pnote">描述後續行動</span></div></div><div class="dlg-h">📺 對話原文 <span>— 考試播放後作答</span></div><div class="line" data-t="0.0" data-end="4.0" data-ts="0,116.9"><button class="ts" data-t="0.0">0:00</button><div class="lb"><div class="lnl">Paula zit op een <span class="w" data-zh="課程">cursus</span> verhalenschrijven.</div><div class="lzh">Paula參加一個故事寫作課程。</div><div class="lana"><div class="ana-bd"><b>Paula</b> Paula</div><div class="ana-bd"><b>zit</b> 坐</div><div class="ana-bd"><b>op een cursus</b> 參加一個課程</div><div class="ana-bd"><b>verhalenschrijven</b> 故事寫作</div><div class="ana-o">🧩 語序 · 主詞(Paula) → 動詞(zit) → 介詞短語(op een cursus) → 名詞(verhalenschrijven)</div><div class="ana-g">📘 動詞在第二位，名詞短語作為補充說明。</div><div class="ana-l">👂 注意動詞的發音，可能會聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="4.0" data-end="7.6" data-ts="5,122.1"><button class="ts" data-t="4.0">0:04</button><div class="lb"><div class="lnl">Ze luistert naar haar <span class="w" data-zh="老師">docent</span>.</div><div class="lzh">她在聽她的老師。</div><div class="lana"><div class="ana-bd"><b>Ze</b> 她</div><div class="ana-bd"><b>luistert</b> 在聽</div><div class="ana-bd"><b>naar haar docent</b> 她的老師</div><div class="ana-o">🧩 語序 · 主詞(Ze) → 動詞(luistert) → 介詞短語(naar haar docent)</div><div class="ana-g">📘 動詞在第二位，介詞短語提供更多信息。</div><div class="ana-l">👂 注意luistert的發音，可能會被連音影響。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="7.6" data-end="10.0" data-ts="7.8,124.9,245.3,372.9,501.1"><button class="ts" data-t="7.6">0:07</button><div class="lb"><div class="lnl">Lees eerst de vraag.</div><div class="lzh">請先閱讀問題。</div><div class="lana"><div class="ana-bd"><b>Lees</b> 請閱讀</div><div class="ana-bd"><b>eerst</b> 先</div><div class="ana-bd"><b>de vraag</b> 問題</div><div class="ana-o">🧩 語序 · 動詞(Lees) → 副詞(eerst) → 名詞(de vraag)</div><div class="ana-g">📘 這是祈使句，動詞放在句首。</div><div class="ana-l">👂 注意de的發音，可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="10.0" data-end="25.0" data-ts="10.9,128,247.3,374.9,503.1"><button class="ts" data-t="10.0">0:10</button><div class="lb"><div class="lnl">Kijk daarna naar de video.</div><div class="lzh">然後觀看影片。</div><div class="lana"><div class="ana-bd"><b>Kijk</b> 觀看</div><div class="ana-bd"><b>daarna</b> 然後</div><div class="ana-bd"><b>naar de video</b> 影片</div><div class="ana-o">🧩 語序 · 動詞(Kijk) → 副詞(daarna) → 介詞短語(naar de video)</div><div class="ana-g">📘 這是祈使句，動詞放在句首。</div><div class="ana-l">👂 注意naar的發音，可能會被連音影響。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="25.0" data-end="41.7" data-ts="25"><button class="ts" data-t="25.0">0:25</button><div class="lb"><div class="lnl">Hallo allemaal.</div><div class="lzh">大家好。</div><div class="lana"><div class="ana-bd"><b>Hallo</b> 你好</div><div class="ana-bd"><b>allemaal</b> 大家</div><div class="ana-o">🧩 語序 · 感嘆詞(Hallo) → 副詞(allemaal)</div><div class="ana-g">📘 這是問候語，簡單直接。</div><div class="ana-l">👂 注意Hallo的發音，可能會聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="41.7" data-end="55.0" data-ts="26.1"><button class="ts" data-t="41.7">0:41</button><div class="lb"><div class="lnl">Goedemorgen.</div><div class="lzh">早安。</div><div class="lana"><div class="ana-bd"><b>Goedemorgen</b> 早安</div><div class="ana-o">🧩 語序 · 感嘆詞(Goedemorgen)</div><div class="ana-g">📘 這是問候語，簡單直接。</div><div class="ana-l">👂 注意Goedemorgen的連音，可能會聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="55.0" data-end="61.0" data-ts="55.8,172.8"><button class="ts" data-t="55.0">0:55</button><div class="lb"><div class="lnl">Aan het einde van de les spreken we af wie morgen wat meeneemt.</div><div class="lzh">課程結束時，我們會約定明天誰帶什麼。</div><div class="lana"><div class="ana-bd"><b>Aan het einde</b> 在課程結束時</div><div class="ana-bd"><b>van de les</b> 的課程</div><div class="ana-bd"><b>spreken we af</b> 我們會約定</div><div class="ana-bd"><b>wie morgen wat meeneemt</b> 明天誰帶什麼</div><div class="ana-o">🧩 語序 · 介詞短語(Aan het einde) → 名詞短語(van de les) → 動詞(spreken) → 主詞(we) → 補語(wie morgen wat meeneemt)</div><div class="ana-g">📘 動詞在第二位，後面的內容作為補充。</div><div class="ana-l">👂 注意wie的發音，可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="61.0" data-end="66.0" data-ts="61.6,178.7"><button class="ts" data-t="61.0">1:01</button><div class="lb"><div class="lnl">Ik bedoel een <span class="w" data-zh="字典">woordenboek</span> of zo.</div><div class="lzh">我的意思是字典之類的東西。</div><div class="lana"><div class="ana-bd"><b>Ik</b> 我</div><div class="ana-bd"><b>bedoel</b> 意思是</div><div class="ana-bd"><b>een woordenboek of zo</b> 字典之類的東西</div><div class="ana-o">🧩 語序 · 主詞(Ik) → 動詞(bedoel) → 名詞短語(een woordenboek of zo)</div><div class="ana-g">📘 動詞在第二位，名詞短語作為補充。</div><div class="ana-l">👂 注意een的發音，可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="66.0" data-end="71.0" data-ts="66.2,183"><button class="ts" data-t="66.0">1:06</button><div class="lb"><div class="lnl">Maar iedereen moet zijn eigen <span class="w" data-zh="寫作本">schrijfblok</span> meenemen.</div><div class="lzh">但每個人都要帶自己的筆記本。</div><div class="lana"><div class="ana-bd"><b>Maar</b> 但</div><div class="ana-bd"><b>iedereen</b> 每個人</div><div class="ana-bd"><b>moet</b> 必須</div><div class="ana-bd"><b>zijn eigen schrijfblok meenemen</b> 帶自己的筆記本</div><div class="ana-o">🧩 語序 · 連接詞(Maar) → 主詞(iedereen) → 助動詞(moet) → 補語(zijn eigen schrijfblok meenemen)</div><div class="ana-g">📘 情態動詞在第二位，原形動詞放句尾。</div><div class="ana-l">👂 注意moet的發音，可能會被連音影響。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="71.0" data-end="76.0" data-ts="71.1,188.2"><button class="ts" data-t="71.0">1:11</button><div class="lb"><div class="lnl">Let op. We spreken morgen om tien uur in het <span class="w" data-zh="公園">park</span> af.</div><div class="lzh">注意，我們明天十點在公園集合。</div><div class="lana"><div class="ana-bd"><b>Let op</b> 注意</div><div class="ana-bd"><b>We</b> 我們</div><div class="ana-bd"><b>spreken morgen om tien uur</b> 明天十點集合</div><div class="ana-bd"><b>in het park af</b> 在公園</div><div class="ana-o">🧩 語序 · 動詞(Let) → 主詞(We) → 動詞(spreken) → 副詞(morgen) → 時間短語(om tien uur) → 介詞短語(in het park)</div><div class="ana-g">📘 動詞在第二位，時間和地點作為補充。</div><div class="ana-l">👂 注意Let的發音，可能會聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="76.0" data-end="78.0" data-ts="77,194.2"><button class="ts" data-t="76.0">1:16</button><div class="lb"><div class="lnl">Dus niet op school.</div><div class="lzh">所以不是在學校。</div><div class="lana"><div class="ana-bd"><b>Dus</b> 所以</div><div class="ana-bd"><b>niet</b> 不是</div><div class="ana-bd"><b>op school</b> 在學校</div><div class="ana-o">🧩 語序 · 連接詞(Dus) → 副詞(niet) → 介詞短語(op school)</div><div class="ana-g">📘 這是簡單的否定句，副詞放在句中。</div><div class="ana-l">👂 注意niet的發音，可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="78.0" data-end="83.0" data-ts="78.6,195.8"><button class="ts" data-t="78.0">1:17</button><div class="lb"><div class="lnl">Via het <span class="w" data-zh="公園">park</span> lopen we dan naar de <span class="w" data-zh="城市農場">stadsboerderij</span>.</div><div class="lzh">我們會從公園走去城市農場。</div><div class="lana"><div class="ana-bd"><b>Via het park</b> 從公園</div><div class="ana-bd"><b>lopen we dan</b> 我們會走</div><div class="ana-bd"><b>naar de stadsboerderij</b> 去城市農場</div><div class="ana-o">🧩 語序 · 介詞短語(Via het park) → 動詞(lopen) → 主詞(we) → 副詞(dan) → 介詞短語(naar de stadsboerderij)</div><div class="ana-g">📘 動詞在第二位，介詞短語作為起點和目的地。</div><div class="ana-l">👂 注意via的發音，可能會被連音影響。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="83.0" data-end="88.0" data-ts="83.7,201.6"><button class="ts" data-t="83.0">1:23</button><div class="lb"><div class="lnl">Dit project is een goede oefening voor het examen.</div><div class="lzh">這個計畫是考試的好練習。</div><div class="lana"><div class="ana-bd"><b>Dit project</b> 這個計畫</div><div class="ana-bd"><b>is</b> 是</div><div class="ana-bd"><b>een goede oefening</b> 好練習</div><div class="ana-bd"><b>voor het examen</b> 為考試</div><div class="ana-o">🧩 語序 · 主詞(Dit project) → 動詞(is) → 補語(一個好練習) → 介詞短語(為考試)</div><div class="ana-g">📘 使用現在式，主詞與動詞一致。</div><div class="ana-l">👂 注意 'is' 和 'een' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="88.0" data-end="91.0" data-ts="88.5,205.6"><button class="ts" data-t="88.0">1:28</button><div class="lb"><div class="lnl">Maar daarover later meer.</div><div class="lzh">不過關於那個，後面會再說。</div><div class="lana"><div class="ana-bd"><b>Maar</b> 不過</div><div class="ana-bd"><b>daarover</b> 關於那個</div><div class="ana-bd"><b>later</b> 後面</div><div class="ana-bd"><b>meer</b> 再說</div><div class="ana-o">🧩 語序 · 連接詞(Maar) → 副詞(daarover) → 副詞(later) → 副詞(meer)</div><div class="ana-g">📘 使用現在式，'later' 和 'meer' 是副詞。</div><div class="ana-l">👂 注意 'daarover' 的連音，可能聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="91.0" data-end="141.0" data-ts="91.9"><button class="ts" data-t="91.0">1:31</button><div class="lb"><div class="lnl">Goed, dan ga ik nu over naar het lezen van jullie korte <span class="w" data-zh="故事">verhalen</span>.</div><div class="lzh">好，現在我來讀你們的短篇故事。</div><div class="lana"><div class="ana-bd"><b>Goed</b> 好</div><div class="ana-bd"><b>dan</b> 那麼</div><div class="ana-bd"><b>ga ik</b> 我來</div><div class="ana-bd"><b>nu</b> 現在</div><div class="ana-bd"><b>over naar</b> 轉到</div><div class="ana-bd"><b>het lezen van</b> 閱讀</div><div class="ana-bd"><b>jullie korte verhalen</b> 你們的短篇故事</div><div class="ana-o">🧩 語序 · 副詞(Good) → 副詞(那麼) → 動詞(ga) → 主詞(ik) → 副詞(nu) → 介詞短語(over naar) → 受詞(閱讀你們的故事)</div><div class="ana-g">📘 使用現在式，'ga' 是動詞。</div><div class="ana-l">👂 注意 'ga' 和 'ik' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="141.0" data-end="144.0" data-ts="141"><button class="ts" data-t="141.0">2:21</button><div class="lb"><div class="lnl">Hallo.</div><div class="lzh">你好。</div><div class="lana"><div class="ana-bd"><b>Hallo</b> 你好</div><div class="ana-o">🧩 語序 · 直接問候，簡單明瞭。</div><div class="ana-g">📘 這是一個簡單的問候句。</div><div class="ana-l">👂 注意 'Hallo' 的發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="144.0" data-end="149.0" data-ts="145"><button class="ts" data-t="144.0">2:24</button><div class="lb"><div class="lnl">Vandaag bespreek ik de laatste opdracht met jullie.</div><div class="lzh">今天我與你們討論最後一個作業。</div><div class="lana"><div class="ana-bd"><b>Vandaag</b> 今天</div><div class="ana-bd"><b>bespreek ik</b> 我討論</div><div class="ana-bd"><b>de laatste opdracht</b> 最後一個作業</div><div class="ana-bd"><b>met jullie</b> 與你們</div><div class="ana-o">🧩 語序 · 副詞(Vandaag) → 動詞(bespreek) → 主詞(ik) → 受詞(de laatste opdracht) → 介詞短語(met jullie)</div><div class="ana-g">📘 使用現在式，'bespreek' 是動詞。</div><div class="ana-l">👂 注意 'de' 和 'laatste' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="149.0" data-end="153.0" data-ts="149.6"><button class="ts" data-t="149.0">2:29</button><div class="lb"><div class="lnl">Jullie korte verhaal dat jullie als huiswerkopdracht hadden gemaakt.</div><div class="lzh">你們作為家庭作業所寫的短篇故事。</div><div class="lana"><div class="ana-bd"><b>Jullie korte verhaal</b> 你們的短篇故事</div><div class="ana-bd"><b>dat</b> 那個</div><div class="ana-bd"><b>jullie als huiswerkopdracht</b> 你們作為家庭作業</div><div class="ana-bd"><b>hadden gemaakt</b> 所寫</div><div class="ana-o">🧩 語序 · 主詞(Jullie korte verhaal) → 關係代名詞(dat) → 受詞(你們的家庭作業) → 動詞(hadden gemaakt)</div><div class="ana-g">📘 使用過去式，'hadden gemaakt' 是完成式。</div><div class="ana-l">👂 注意 'dat' 和 'jullie' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="153.0" data-end="156.0" data-ts="153"><button class="ts" data-t="153.0">2:33</button><div class="lb"><div class="lnl">We gaan straks samen jullie <span class="w" data-zh="故事">verhalen</span> lezen.</div><div class="lzh">我們待會將一起閱讀你們的故事。</div><div class="lana"><div class="ana-bd"><b>We gaan</b> 我們將</div><div class="ana-bd"><b>straks</b> 待會</div><div class="ana-bd"><b>samen</b> 一起</div><div class="ana-bd"><b>jullie verhalen lezen</b> 閱讀你們的故事</div><div class="ana-o">🧩 語序 · 主詞(We) → 動詞(gaan) → 副詞(straks) → 副詞(samen) → 受詞(jullie verhalen) → 動詞(lezen)</div><div class="ana-g">📘 使用未來式，'gaan' 是主要動詞。</div><div class="ana-l">👂 注意 'gaan' 和 'straks' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="156.0" data-end="162.0" data-ts="156.7"><button class="ts" data-t="156.0">2:36</button><div class="lb"><div class="lnl">Maar eerst bespreek ik het <span class="w" data-zh="自然專案">natuurproject</span> waar we morgen mee gaan starten.</div><div class="lzh">但我先說明明天要開始的自然計畫。</div><div class="lana"><div class="ana-bd"><b>Maar</b> 但</div><div class="ana-bd"><b>eerst</b> 首先</div><div class="ana-bd"><b>bespreek ik</b> 我先說明</div><div class="ana-bd"><b>het natuurproject</b> 自然計畫</div><div class="ana-bd"><b>waar we morgen mee gaan starten</b> 明天要開始的</div><div class="ana-o">🧩 語序 · 連接詞(Maar) → 副詞(eerst) → 動詞(bespreek) → 主詞(ik) → 受詞(het natuurproject) → 介詞短語(明天要開始的)</div><div class="ana-g">📘 使用現在式，'bespreek' 是動詞。</div><div class="ana-l">👂 注意 'waar' 和 'we' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="162.0" data-end="168.0" data-ts="162.4"><button class="ts" data-t="162.0">2:42</button><div class="lb"><div class="lnl">Voor dit project gaan jullie een aantal <span class="w" data-zh="故事">verhalen</span> schrijven over de natuur.</div><div class="lzh">這個計畫裡，你們會寫一些有關自然的故事。</div><div class="lana"><div class="ana-bd"><b>Voor dit project</b> 這個計畫裡</div><div class="ana-bd"><b>gaan jullie</b> 你們會</div><div class="ana-bd"><b>een aantal verhalen schrijven</b> 寫一些故事</div><div class="ana-bd"><b>over de natuur</b> 有關自然</div><div class="ana-o">🧩 語序 · 介詞短語(Voor dit project) → 動詞(gaan) → 主詞(jullie) → 受詞(一系列故事) → 介詞短語(over de natuur)</div><div class="ana-g">📘 使用未來式，'gaan' 是主要動詞。</div><div class="ana-l">👂 注意 'gaan' 和 'jullie' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="168.0" data-end="205.0" data-ts="168.5"><button class="ts" data-t="168.0">2:48</button><div class="lb"><div class="lnl">We gaan morgen dan ook echt de natuur in.</div><div class="lzh">明天我們真的要進入大自然了。</div><div class="lana"><div class="ana-bd"><b>We gaan</b> 我們將</div><div class="ana-bd"><b>morgen</b> 明天</div><div class="ana-bd"><b>dan ook echt</b> 真的</div><div class="ana-bd"><b>de natuur in</b> 進入大自然</div><div class="ana-o">🧩 語序 · 主詞(We) → 動詞(gaan) → 副詞(morgen) → 副詞(真的) → 介詞短語(de natuur in)</div><div class="ana-g">📘 使用未來式，'gaan' 是主要動詞。</div><div class="ana-l">👂 注意 'gaan' 和 'morgen' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="205.0" data-end="209.2" data-ts="88.5,205.6"><button class="ts" data-t="205.0">3:25</button><div class="lb"><div class="lnl">Maar daarover later meer.</div><div class="lzh">不過關於那個，後面會再說。</div><div class="lana"><div class="ana-bd"><b>Maar</b> 不過</div><div class="ana-bd"><b>daarover</b> 關於那個</div><div class="ana-bd"><b>later</b> 後面</div><div class="ana-bd"><b>meer</b> 再說</div><div class="ana-o">🧩 語序 · 連接詞(Maar) → 副詞(daarover) → 副詞(later) → 副詞(meer)</div><div class="ana-g">📘 使用現在式，'later' 和 'meer' 是副詞。</div><div class="ana-l">👂 注意 'daarover' 的連音，可能聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="209.2" data-end="210.0" data-ts="209.2"><button class="ts" data-t="209.2">3:29</button><div class="lb"><div class="lnl">Goed.</div><div class="lzh">好。</div><div class="lana"><div class="ana-bd"><b>Goed</b> 好</div><div class="ana-o">🧩 語序 · 簡單的肯定回應。</div><div class="ana-g">📘 這是一個簡單的肯定句。</div><div class="ana-l">👂 注意 'Goed' 的發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="210.0" data-end="218.0" data-ts="92.4,210.4"><button class="ts" data-t="210.0">3:30</button><div class="lb"><div class="lnl">Dan ga ik nu over naar het lezen van jullie korte <span class="w" data-zh="故事">verhalen</span>.</div><div class="lzh">那麼我現在來讀你們的短篇故事。</div><div class="lana"><div class="ana-bd"><b>Dan</b> 那麼</div><div class="ana-bd"><b>ga ik</b> 我來</div><div class="ana-bd"><b>nu</b> 現在</div><div class="ana-bd"><b>over naar</b> 轉到</div><div class="ana-bd"><b>het lezen van</b> 閱讀</div><div class="ana-bd"><b>jullie korte verhalen</b> 你們的短篇故事</div><div class="ana-o">🧩 語序 · 副詞(Dan) → 動詞(ga) → 主詞(ik) → 副詞(nu) → 介詞短語(over naar) → 受詞(閱讀你們的故事)</div><div class="ana-g">📘 使用現在式，'ga' 是動詞。</div><div class="ana-l">👂 注意 'ga' 和 'ik' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="218.0" data-end="221.8" data-ts="218.5"><button class="ts" data-t="218.0">3:38</button><div class="lb"><div class="lnl">Waar spreken de cursisten morgen af?</div><div class="lzh">學員們明天在哪裡集合？</div><div class="lana"><div class="ana-bd"><b>Waar</b> 在哪裡</div><div class="ana-bd"><b>spreken</b> 集合</div><div class="ana-bd"><b>de cursisten</b> 學員們</div><div class="ana-bd"><b>morgen</b> 明天</div><div class="ana-bd"><b>af</b> 會面</div><div class="ana-o">🧩 語序 · 疑問句：Waar(地點) → spreken(動詞#2) → de cursisten(主詞) → morgen(時間) → af(動詞補語)</div><div class="ana-g">📘 疑問句結構，動詞在第二位。</div><div class="ana-l">👂 注意 'de cursisten' 的連音，可能聽成 'de cursisten'。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="221.8" data-end="223.0" data-ts="75.1,192.2,221.6"><button class="ts" data-t="221.8">3:41</button><div class="lb"><div class="lnl">In het <span class="w" data-zh="公園">park</span>.</div><div class="lzh">在公園。</div><div class="lana"><div class="ana-bd"><b>In</b> 在</div><div class="ana-bd"><b>het park</b> 公園</div><div class="ana-o">🧩 語序 · 主詞+地點：In(介系詞) → het park(名詞)</div><div class="ana-g">📘 簡單句，無特殊文法結構。</div><div class="ana-l">👂 'het' 可能被弱讀，聽起來像 't park'。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="223.0" data-end="226.0" data-ts="77.8,194.9,223.6,268,395.7,470.4,523.9"><button class="ts" data-t="223.0">3:43</button><div class="lb"><div class="lnl">Op school.</div><div class="lzh">在學校。</div><div class="lana"><div class="ana-bd"><b>Op</b> 在</div><div class="ana-bd"><b>school</b> 學校</div><div class="ana-o">🧩 語序 · 主詞+地點：Op(介系詞) → school(名詞)</div><div class="ana-g">📘 簡單句，無特殊文法結構。</div><div class="ana-l">👂 'Op' 可能被弱讀，注意聽清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="226.0" data-end="231.0" data-ts="224.5"><button class="ts" data-t="226.0">3:45</button><div class="lb"><div class="lnl">Bij de boerderij.</div><div class="lzh">在農場。</div><div class="lana"><div class="ana-bd"><b>Bij</b> 在</div><div class="ana-bd"><b>de boerderij</b> 農場</div><div class="ana-o">🧩 語序 · 主詞+地點：Bij(介系詞) → de boerderij(名詞)</div><div class="ana-g">📘 簡單句，無特殊文法結構。</div><div class="ana-l">👂 'de' 可能被弱讀，聽起來像 'boerderij'。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="231.0" data-end="238.0" data-ts="231.5,359.3,486.3"><button class="ts" data-t="231.0">3:51</button><div class="lb"><div class="lnl">De kinderen van Mila en Carla zitten op de basisschool.</div><div class="lzh">Mila和Carla的孩子們念小學。</div><div class="lana"><div class="ana-bd"><b>De kinderen</b> 孩子們</div><div class="ana-bd"><b>van</b> 的</div><div class="ana-bd"><b>Mila en Carla</b> Mila和Carla</div><div class="ana-bd"><b>zitten</b> 念</div><div class="ana-bd"><b>op de basisschool</b> 在小學</div><div class="ana-o">🧩 語序 · 主詞+動詞+地點：De kinderen(主詞) → zitten(動詞#2) → op de basisschool(地點)</div><div class="ana-g">📘 現在式，主詞與動詞一致。</div><div class="ana-l">👂 'van' 可能被弱讀，注意聽清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="238.0" data-end="245.0" data-ts="238.1,366.1,493.8"><button class="ts" data-t="238.0">3:58</button><div class="lb"><div class="lnl">Mila en Carla praten met de leraar van hun kinderen.</div><div class="lzh">Mila和Carla和孩子們的老師交談。</div><div class="lana"><div class="ana-bd"><b>Mila en Carla</b> Mila和Carla</div><div class="ana-bd"><b>praten</b> 交談</div><div class="ana-bd"><b>met</b> 和</div><div class="ana-bd"><b>de leraar</b> 老師</div><div class="ana-bd"><b>van hun kinderen</b> 他們的孩子</div><div class="ana-o">🧩 語序 · 主詞+動詞+受詞：Mila en Carla(主詞) → praten(動詞#2) → met de leraar(受詞)</div><div class="ana-g">📘 現在式，主詞與動詞一致。</div><div class="ana-l">👂 'van' 可能被弱讀，注意聽清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="245.0" data-end="251.0" data-ts="245.3,372.9,501.1"><button class="ts" data-t="245.0">4:05</button><div class="lb"><div class="lnl">Lees eerst de vraag. Kijk daarna naar de video.</div><div class="lzh">先閱讀問題，再觀看影片。</div><div class="lana"><div class="ana-bd"><b>Lees</b> 閱讀</div><div class="ana-bd"><b>eerst</b> 先</div><div class="ana-bd"><b>de vraag</b> 問題</div><div class="ana-bd"><b>Kijk</b> 觀看</div><div class="ana-bd"><b>daarna</b> 然後</div><div class="ana-bd"><b>naar de video</b> 影片</div><div class="ana-o">🧩 語序 · 命令句：Lees(動詞) → eerst(副詞) → de vraag(受詞) → Kijk(動詞) → daarna(副詞) → naar de video(受詞)</div><div class="ana-g">📘 命令句，動詞在句首。</div><div class="ana-l">👂 'de' 可能被弱讀，聽起來像 'vraag'。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="251.0" data-end="251.9" data-ts="251"><button class="ts" data-t="251.0">4:11</button><div class="lb"><div class="lnl">Hallo.</div><div class="lzh">你好。</div><div class="lana"><div class="ana-bd"><b>Hallo</b> 你好</div><div class="ana-o">🧩 語序 · 直接問候，簡單明瞭。</div><div class="ana-g">📘 這是一個簡單的問候句。</div><div class="ana-l">👂 注意 'Hallo' 的發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="251.9" data-end="252.7" data-ts="251.9"><button class="ts" data-t="251.9">4:11</button><div class="lb"><div class="lnl">Hallo.</div><div class="lzh">你好。</div><div class="lana"><div class="ana-bd"><b>Hallo</b> 你好</div><div class="ana-o">🧩 語序 · 直接問候，簡單明瞭。</div><div class="ana-g">📘 這是一個簡單的問候句。</div><div class="ana-l">👂 注意 'Hallo' 的發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="252.7" data-end="253.7" data-ts="252.7"><button class="ts" data-t="252.7">4:12</button><div class="lb"><div class="lnl">Welkom.</div><div class="lzh">歡迎。</div><div class="lana"><div class="ana-bd"><b>Welkom</b> 歡迎</div><div class="ana-o">🧩 語序 · 簡單句：Welkom(主詞)</div><div class="ana-g">📘 簡單句，無特殊文法結構。</div><div class="ana-l">👂 注意 'Wel' 的發音，可能聽不清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="253.7" data-end="254.6" data-ts="253.7"><button class="ts" data-t="253.7">4:13</button><div class="lb"><div class="lnl">Hallo.</div><div class="lzh">你好。</div><div class="lana"><div class="ana-bd"><b>Hallo</b> 你好</div><div class="ana-o">🧩 語序 · 直接問候，簡單明瞭。</div><div class="ana-g">📘 這是一個簡單的問候句。</div><div class="ana-l">👂 注意 'Hallo' 的發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="254.6" data-end="255.0" data-ts="254.6"><button class="ts" data-t="254.6">4:14</button><div class="lb"><div class="lnl">Ja.</div><div class="lzh">是的。</div><div class="lana"><div class="ana-bd"><b>Ja</b> 是的</div><div class="ana-o">🧩 語序 · 簡單句：Ja(主詞)</div><div class="ana-g">📘 簡單句，無特殊文法結構。</div><div class="ana-l">👂 注意 'Ja' 的發音，可能聽不清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="255.0" data-end="262.0" data-ts="255.9,511.7"><button class="ts" data-t="255.0">4:15</button><div class="lb"><div class="lnl">Jullie gaan helpen bij het Koningsdagontbijt op vrijdag 27 april.</div><div class="lzh">你們會在4月27日星期五幫忙國王日早餐活動。</div><div class="lana"><div class="ana-bd"><b>Jullie</b> 你們</div><div class="ana-bd"><b>gaan</b> 會</div><div class="ana-bd"><b>helpen</b> 幫忙</div><div class="ana-bd"><b>bij</b> 在</div><div class="ana-bd"><b>het Koningsdagontbijt</b> 國王日早餐活動</div><div class="ana-bd"><b>op vrijdag 27 april</b> 在4月27日星期五</div><div class="ana-o">🧩 語序 · 主詞+動詞+受詞：Jullie(主詞) → gaan(動詞#2) → helpen(動詞補語) → bij(介系詞) → het Koningsdagontbijt(受詞) → op vrijdag 27 april(時間)</div><div class="ana-g">📘 未來式，動詞在第二位。</div><div class="ana-l">👂 'het' 可能被弱讀，聽起來像 'Koningsdagontbijt'。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="262.0" data-end="273.0" data-ts="263,518.8"><button class="ts" data-t="262.0">4:22</button><div class="lb"><div class="lnl">Het begint om half negen. Dan ontbijten we dus met de hele klas op school.</div><div class="lzh">活動從八點半開始，屆時全班會在學校一起吃早餐。</div><div class="lana"><div class="ana-bd"><b>Het begint</b> 活動開始</div><div class="ana-bd"><b>om half negen</b> 在八點半</div><div class="ana-bd"><b>Dan</b> 屆時</div><div class="ana-bd"><b>ontbijten we</b> 我們吃早餐</div><div class="ana-bd"><b>dus</b> 所以</div><div class="ana-bd"><b>met de hele klas</b> 和全班</div><div class="ana-bd"><b>op school</b> 在學校</div><div class="ana-o">🧩 語序 · 主詞+動詞+時間：Het(主詞) → begint(動詞#2) → om half negen(時間) → Dan(副詞) → ontbijten we(動詞) → dus(連接詞) → met de hele klas(受詞) → op school(地點)</div><div class="ana-g">📘 現在式，主詞與動詞一致。</div><div class="ana-l">👂 'om' 可能被弱讀，注意聽清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="273.0" data-end="278.0" data-ts="273,528.8"><button class="ts" data-t="273.0">4:33</button><div class="lb"><div class="lnl">Daarna, om half tien, gaan we naar buiten, naar het <span class="w" data-zh="運動場">sportveld</span>.</div><div class="lzh">然後，九點半，我們會出去到運動場。</div><div class="lana"><div class="ana-bd"><b>Daarna</b> 然後</div><div class="ana-bd"><b>om half tien</b> 在九點半</div><div class="ana-bd"><b>gaan we</b> 我們會去</div><div class="ana-bd"><b>naar buiten</b> 到外面</div><div class="ana-bd"><b>naar het sportveld</b> 到運動場</div><div class="ana-o">🧩 語序 · 副詞+時間+動詞+受詞：Daarna(副詞) → om half tien(時間) → gaan we(動詞) → naar buiten(受詞) → naar het sportveld(受詞)</div><div class="ana-g">📘 未來式，動詞在第二位。</div><div class="ana-l">👂 'om' 可能被弱讀，注意聽清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="278.0" data-end="281.6" data-ts="278.8,405.9,534.6"><button class="ts" data-t="278.0">4:38</button><div class="lb"><div class="lnl">Daarbij helpen al andere <span class="w" data-zh="家長">ouders</span>.</div><div class="lzh">其他家長也會幫忙。</div><div class="lana"><div class="ana-bd"><b>Daarbij</b> 在這方面</div><div class="ana-bd"><b>helpen</b> 幫忙</div><div class="ana-bd"><b>al andere ouders</b> 其他家長</div><div class="ana-o">🧩 語序 · 其他家長(al andere ouders) → 會幫忙(helpen) → 在這方面(Daarbij)</div><div class="ana-g">📘 使用現在式，主詞在動詞前面。</div><div class="ana-l">👂 注意連音，'al andere' 聽起來像 'alander'。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="281.6" data-end="282.0" data-ts="281.6"><button class="ts" data-t="281.6">4:41</button><div class="lb"><div class="lnl">Oké.</div><div class="lzh">好。</div><div class="lana"><div class="ana-bd"><b>Oké</b> 好</div><div class="ana-o">🧩 語序 · 好(Oké)</div><div class="ana-g">📘 簡單的肯定回答。</div><div class="ana-l">👂 這句很簡單，注意發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="282.0" data-end="285.5" data-ts="282.9,409.4,537.5"><button class="ts" data-t="282.0">4:42</button><div class="lb"><div class="lnl">Dus de kinderen komen om half negen.</div><div class="lzh">孩子們八點半來。</div><div class="lana"><div class="ana-bd"><b>Dus</b> 所以</div><div class="ana-bd"><b>de kinderen</b> 孩子們</div><div class="ana-bd"><b>komen om half negen</b> 八點半來</div><div class="ana-o">🧩 語序 · 所以(Dus) → 孩子們(de kinderen) → 來(komen) → 八點半(om half negen)</div><div class="ana-g">📘 使用現在式，'komen' 是動詞。</div><div class="ana-l">👂 'om half negen' 可能聽不清，注意連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="285.5" data-end="289.0" data-ts="285.5,414.1,542.3"><button class="ts" data-t="285.5">4:45</button><div class="lb"><div class="lnl">Hoe laat moeten we alles klaarzetten?</div><div class="lzh">我們幾點要準備好一切？</div><div class="lana"><div class="ana-bd"><b>Hoe laat</b> 幾點</div><div class="ana-bd"><b>moeten we</b> 我們要</div><div class="ana-bd"><b>alles klaarzetten</b> 準備好一切</div><div class="ana-o">🧩 語序 · 幾點(Hoe laat) → 我們要(moeten we) → 準備好一切(alles klaarzetten)</div><div class="ana-g">📘 使用疑問句，動詞在主詞前。</div><div class="ana-l">👂 'moeten' 和 'we' 之間的連音可能會被忽略。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="289.0" data-end="292.4" data-ts="289.3,416.8,545.3"><button class="ts" data-t="289.0">4:49</button><div class="lb"><div class="lnl">Nou, dat duurt wel een half uur, denk ik.</div><div class="lzh">嗯，我想會花半小時。</div><div class="lana"><div class="ana-bd"><b>Nou</b> 嗯</div><div class="ana-bd"><b>dat duurt wel een half uur</b> 這會花半小時</div><div class="ana-bd"><b>denk ik</b> 我想</div><div class="ana-o">🧩 語序 · 嗯(Nou) → 這會花半小時(dat duurt wel een half uur) → 我想(denk ik)</div><div class="ana-g">📘 使用現在式，'duurt' 是動詞。</div><div class="ana-l">👂 'dat duurt' 可能聽起來像 'datduurt'，注意連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="292.4" data-end="295.0" data-ts="292.7,420.4,548.3"><button class="ts" data-t="292.4">4:52</button><div class="lb"><div class="lnl">Ja, dan zijn wij er om acht uur.</div><div class="lzh">好，那我們八點到。</div><div class="lana"><div class="ana-bd"><b>Ja</b> 好</div><div class="ana-bd"><b>dan zijn wij er</b> 那我們到</div><div class="ana-o">🧩 語序 · 好(Ja) → 那我們到(then zijn wij er)</div><div class="ana-g">📘 使用現在式，'zijn' 是動詞。</div><div class="ana-l">👂 注意 'dan' 的弱讀，可能聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="295.0" data-end="302.0" data-ts="295.7"><button class="ts" data-t="295.0">4:55</button><div class="lb"><div class="lnl">Goed. Oh, trouwens. Moeten wij ook <span class="w" data-zh="購物">boodschappen</span> doen voor het <span class="w" data-zh="早餐">ontbijt</span>?</div><div class="lzh">好。哦，對了，我們也要買早餐材料嗎？</div><div class="lana"><div class="ana-bd"><b>Goed</b> 好</div><div class="ana-bd"><b>Oh, trouwens</b> 哦，對了</div><div class="ana-bd"><b>Moeten wij ook boodschappen doen voor het ontbijt</b> 我們也要買早餐材料嗎</div><div class="ana-o">🧩 語序 · 好(Good) → 哦，對了(Oh, trouwens) → 我們也要(Moeten wij ook) → 買早餐材料(boodschappen doen voor het ontbijt)</div><div class="ana-g">📘 使用疑問句，動詞在主詞前。</div><div class="ana-l">👂 'boodschappen doen' 可能聽不清，注意連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="302.0" data-end="303.9" data-ts="302,429.8,557.9"><button class="ts" data-t="302.0">5:02</button><div class="lb"><div class="lnl">Even kijken.</div><div class="lzh">看看。</div><div class="lana"><div class="ana-bd"><b>Even kijken</b> 看看</div><div class="ana-o">🧩 語序 · 看看(Even kijken)</div><div class="ana-g">📘 簡單的表達，沒有複雜結構。</div><div class="ana-l">👂 這句很簡單，注意發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="303.9" data-end="304.6" data-ts="303.9"><button class="ts" data-t="303.9">5:03</button><div class="lb"><div class="lnl">Nee.</div><div class="lzh">不要。</div><div class="lana"><div class="ana-bd"><b>Nee</b> 不要</div><div class="ana-o">🧩 語序 · 不要(Nee)</div><div class="ana-g">📘 簡單的否定回答。</div><div class="ana-l">👂 這句很簡單，注意發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="304.6" data-end="306.0" data-ts="304.3,432,560.3"><button class="ts" data-t="304.6">5:04</button><div class="lb"><div class="lnl">Nee hoor.</div><div class="lzh">不需要。</div><div class="lana"><div class="ana-bd"><b>Nee hoor</b> 不需要</div><div class="ana-o">🧩 語序 · 不需要(Nee hoor)</div><div class="ana-g">📘 簡單的否定回答。</div><div class="ana-l">👂 注意 'hoor' 的發音，可能被忽略。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="306.0" data-end="308.2" data-ts="306.1,433.6,561"><button class="ts" data-t="306.0">5:06</button><div class="lb"><div class="lnl">Dat doet de moeder van Giovanni.</div><div class="lzh">那是Giovanni媽媽的事。</div><div class="lana"><div class="ana-bd"><b>Dat</b> 那</div><div class="ana-bd"><b>doet de moeder van Giovanni</b> 是Giovanni媽媽的事</div><div class="ana-o">🧩 語序 · 那(Dat) → 是Giovanni媽媽的事(doet de moeder van Giovanni)</div><div class="ana-g">📘 使用現在式，'doet' 是動詞。</div><div class="ana-l">👂 注意 'doet de' 的連音，可能聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="308.2" data-end="310.0" data-ts="308,435.6,563.4"><button class="ts" data-t="308.2">5:08</button><div class="lb"><div class="lnl">Die heeft een grote auto.</div><div class="lzh">她有一台大車。</div><div class="lana"><div class="ana-bd"><b>Die</b> 她</div><div class="ana-bd"><b>heeft een grote auto</b> 有一台大車</div><div class="ana-o">🧩 語序 · 她(Di) → 有一台大車(heeft een grote auto)</div><div class="ana-g">📘 使用現在式，'heeft' 是動詞。</div><div class="ana-l">👂 注意 'heeft een' 的連音，可能聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="310.0" data-end="310.6" data-ts="310"><button class="ts" data-t="310.0">5:10</button><div class="lb"><div class="lnl">Mooi.</div><div class="lzh">很好。</div><div class="lana"><div class="ana-bd"><b>Mooi.</b> 很好。</div><div class="ana-o">🧩 語序 · 這句是單獨的形容詞，沒有主詞或動詞。</div><div class="ana-g">📘 這是簡單的形容詞，表示情感或評價。</div><div class="ana-l">👂 注意發音，可能聽成 'mooi' 的音調變化。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="310.6" data-end="317.0" data-ts="311.1,438.8,566.9"><button class="ts" data-t="310.6">5:10</button><div class="lb"><div class="lnl">En na het <span class="w" data-zh="早餐">ontbijt</span>, wat gaan de kinderen dan doen?</div><div class="lzh">早餐後，孩子們要做什麼？</div><div class="lana"><div class="ana-bd"><b>En</b> 和</div><div class="ana-bd"><b>na het ontbijt</b> 早餐後</div><div class="ana-bd"><b>wat gaan de kinderen dan doen?</b> 孩子們要做什麼？</div><div class="ana-o">🧩 語序 · En(連接詞) → na het ontbijt(時間短語) → wat(疑問詞) → gaan(動詞#2) → de kinderen(主詞) → dan(副詞) → doen(原形動詞)。</div><div class="ana-g">📘 這是疑問句，動詞在主詞前面。</div><div class="ana-l">👂 注意 'wat' 和 'gaan' 的連音，可能聽不清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="317.0" data-end="320.0" data-ts="317.4,445.4,573.3"><button class="ts" data-t="317.0">5:17</button><div class="lb"><div class="lnl">Eerst gaan we dansen op een heel leuk lied.</div><div class="lzh">我們先要跳一首很有趣的舞。</div><div class="lana"><div class="ana-bd"><b>Eerst</b> 首先</div><div class="ana-bd"><b>gaan we</b> 我們要</div><div class="ana-bd"><b>dansen op een heel leuk lied.</b> 跳一首很有趣的舞。</div><div class="ana-o">🧩 語序 · Eerst(副詞) → gaan(動詞#2) → we(主詞) → dansen(原形動詞) → op(介詞) → een heel leuk lied(名詞短語)。</div><div class="ana-g">📘 使用未來式，動詞 'gaan' 表示將要做的事情。</div><div class="ana-l">👂 注意 'gaan' 和 'we' 的連音，可能漏聽。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="320.0" data-end="325.0" data-ts="320.7,449.3,577.6"><button class="ts" data-t="320.0">5:20</button><div class="lb"><div class="lnl">En daarna doen we allerlei spellen.</div><div class="lzh">然後玩各種遊戲。</div><div class="lana"><div class="ana-bd"><b>En</b> 然後</div><div class="ana-bd"><b>daarna</b> 之後</div><div class="ana-bd"><b>doen we</b> 我們要做</div><div class="ana-bd"><b>allerlei spellen.</b> 各種遊戲。</div><div class="ana-o">🧩 語序 · En(連接詞) → daarna(副詞) → doen(動詞#2) → we(主詞) → allerlei spellen(名詞短語)。</div><div class="ana-g">📘 這句是未來式，動詞 'doen' 表示將要進行的動作。</div><div class="ana-l">👂 注意 'doen' 的發音，可能聽成 'doen we' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="325.0" data-end="331.0" data-ts="326,581.4"><button class="ts" data-t="325.0">5:25</button><div class="lb"><div class="lnl">En aan het eind van de dag is er een <span class="w" data-zh="比賽">wedstrijd</span>. Dan gaan de kinderen hun <span class="w" data-zh="自行車">fiets</span> versieren.</div><div class="lzh">最後一天會有比賽，孩子們會裝飾自己的腳踏車。</div><div class="lana"><div class="ana-bd"><b>En</b> 然後</div><div class="ana-bd"><b>aan het eind van de dag</b> 在一天的結尾</div><div class="ana-bd"><b>is er</b> 會有</div><div class="ana-bd"><b>een wedstrijd.</b> 一場比賽。</div><div class="ana-bd"><b>Dan gaan de kinderen hun fiets versieren.</b> 然後孩子們會裝飾自己的腳踏車。</div><div class="ana-o">🧩 語序 · En(連接詞) → aan het eind van de dag(時間短語) → is(動詞#2) → er(主詞) → een wedstrijd(名詞短語) → Dan(副詞) → gaan(動詞#2) → de kinderen(主詞) → hun fiets(名詞短語) → versieren(原形動詞)。</div><div class="ana-g">📘 這句包含未來式，動詞 'gaan' 表示將要進行的動作。</div><div class="ana-l">👂 注意 'is er' 的連音，可能聽不清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="331.0" data-end="334.8" data-ts="331.8,459.5,587.6"><button class="ts" data-t="331.0">5:31</button><div class="lb"><div class="lnl">En de mooiste <span class="w" data-zh="自行車">fiets</span> wint een <span class="w" data-zh="獎品">prijs</span>.</div><div class="lzh">最漂亮的腳踏車會贏得獎品。</div><div class="lana"><div class="ana-bd"><b>En</b> 然後</div><div class="ana-bd"><b>de mooiste fiets</b> 最漂亮的腳踏車</div><div class="ana-bd"><b>wint een prijs.</b> 會贏得獎品。</div><div class="ana-o">🧩 語序 · En(連接詞) → de mooiste fiets(主詞) → wint(動詞#2) → een prijs(名詞短語)。</div><div class="ana-g">📘 這是簡單的現在式，表示事實或常態。</div><div class="ana-l">👂 注意 'wint' 的發音，可能聽成 'wint een prijs' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="334.8" data-end="338.0" data-ts="334.2,462.3,590"><button class="ts" data-t="334.8">5:34</button><div class="lb"><div class="lnl">Het wordt vast een leuke dag.</div><div class="lzh">一定會很有趣的一天。</div><div class="lana"><div class="ana-bd"><b>Het wordt</b> 這會變得</div><div class="ana-bd"><b>vast</b> 一定</div><div class="ana-bd"><b>een leuke dag.</b> 很有趣的一天。</div><div class="ana-o">🧩 語序 · Het(主詞) → wordt(動詞#2) → vast(副詞) → een leuke dag(名詞短語)。</div><div class="ana-g">📘 這是未來式，'wordt' 表示將來的狀態。</div><div class="ana-l">👂 注意 'het wordt' 的連音，可能聽不清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="338.0" data-end="344.0" data-ts="338.2"><button class="ts" data-t="338.0">5:38</button><div class="lb"><div class="lnl">Wat moeten Mila en Carla op 27 april doen?</div><div class="lzh">米拉和卡拉在4月27日要做什麼？</div><div class="lana"><div class="ana-bd"><b>Wat</b> 什麼</div><div class="ana-bd"><b>moeten Mila en Carla</b> 米拉和卡拉要做</div><div class="ana-bd"><b>op 27 april doen?</b> 在4月27日做什麼？</div><div class="ana-o">🧩 語序 · Wat(疑問詞) → moeten(動詞#2) → Mila en Carla(主詞) → op 27 april(時間短語) → doen(原形動詞)。</div><div class="ana-g">📘 這是疑問句，動詞在主詞前面。</div><div class="ana-l">👂 注意 'Wat' 和 'moeten' 的連音，可能漏聽。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="344.0" data-end="346.8" data-ts="344.8"><button class="ts" data-t="344.0">5:44</button><div class="lb"><div class="lnl">Helpen met <span class="w" data-zh="購物">boodschappen</span> doen.</div><div class="lzh">幫忙買菜。</div><div class="lana"><div class="ana-bd"><b>Helpen met</b> 幫忙</div><div class="ana-bd"><b>boodschappen doen.</b> 買菜。</div><div class="ana-o">🧩 語序 · Helpen(動詞#1) → met(介詞) → boodschappen doen(名詞短語)。</div><div class="ana-g">📘 這是動詞短語，'helpen' 是主要動詞。</div><div class="ana-l">👂 注意 'helpen' 和 'met' 的連音，可能聽不清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="346.8" data-end="349.0" data-ts="347.6"><button class="ts" data-t="346.8">5:46</button><div class="lb"><div class="lnl">Helpen bij het <span class="w" data-zh="早餐">ontbijt</span>.</div><div class="lzh">幫忙準備早餐。</div><div class="lana"><div class="ana-bd"><b>Helpen bij</b> 幫忙</div><div class="ana-bd"><b>het ontbijt.</b> 準備早餐。</div><div class="ana-o">🧩 語序 · Helpen(動詞#1) → bij(介詞) → het ontbijt(名詞短語)。</div><div class="ana-g">📘 這是動詞短語，'helpen' 是主要動詞。</div><div class="ana-l">👂 注意 'helpen' 和 'bij' 的連音，可能聽不清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="349.0" data-end="378.0" data-ts="349.8"><button class="ts" data-t="349.0">5:49</button><div class="lb"><div class="lnl">Helpen bij de sportdag.</div><div class="lzh">幫忙運動會。</div><div class="lana"><div class="ana-bd"><b>Helpen bij</b> 幫忙</div><div class="ana-bd"><b>de sportdag.</b> 運動會。</div><div class="ana-o">🧩 語序 · Helpen(動詞#1) → bij(介詞) → de sportdag(名詞短語)。</div><div class="ana-g">📘 這是動詞短語，'helpen' 是主要動詞。</div><div class="ana-l">👂 注意 'helpen' 和 'bij' 的連音，可能聽不清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="378.0" data-end="379.3" data-ts="378"><button class="ts" data-t="378.0">6:18</button><div class="lb"><div class="lnl">Hallo.</div><div class="lzh">你好。</div><div class="lana"><div class="ana-bd"><b>Hallo</b> 你好</div><div class="ana-o">🧩 語序 · 直接問候，簡單明瞭。</div><div class="ana-g">📘 這是一個簡單的問候句。</div><div class="ana-l">👂 注意 'Hallo' 的發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="379.3" data-end="380.7" data-ts="379.3"><button class="ts" data-t="379.3">6:19</button><div class="lb"><div class="lnl">Welkom.</div><div class="lzh">歡迎。</div><div class="lana"><div class="ana-bd"><b>Welkom</b> 歡迎</div><div class="ana-o">🧩 語序 · 簡單句：Welkom(主詞)</div><div class="ana-g">📘 簡單句，無特殊文法結構。</div><div class="ana-l">👂 注意 'Wel' 的發音，可能聽不清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="380.7" data-end="382.0" data-ts="380.7"><button class="ts" data-t="380.7">6:20</button><div class="lb"><div class="lnl">Hallo.</div><div class="lzh">你好。</div><div class="lana"><div class="ana-bd"><b>Hallo</b> 你好</div><div class="ana-o">🧩 語序 · 直接問候，簡單明瞭。</div><div class="ana-g">📘 這是一個簡單的問候句。</div><div class="ana-l">👂 注意 'Hallo' 的發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="382.0" data-end="387.0" data-ts="382.7"><button class="ts" data-t="382.0">6:22</button><div class="lb"><div class="lnl">Ja, jullie gaan helpen bij het Koningsdagontbijt.</div><div class="lzh">是的，你們會幫忙國王節早餐會。</div><div class="lana"><div class="ana-bd"><b>Ja</b> 是的</div><div class="ana-bd"><b>jullie gaan helpen</b> 你們會幫忙</div><div class="ana-bd"><b>bij het Koningsdagontbijt.</b> 國王節早餐會。</div><div class="ana-o">🧩 語序 · Ja(肯定詞) → jullie(主詞) → gaan(動詞#2) → helpen(原形動詞) → bij(介詞) → het Koningsdagontbijt(名詞短語)。</div><div class="ana-g">📘 這是未來式，動詞 'gaan' 表示將要進行的動作。</div><div class="ana-l">👂 注意 'jullie' 和 'gaan' 的連音，可能聽不清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="387.0" data-end="389.2" data-ts="259.9,387.2,515.7"><button class="ts" data-t="387.0">6:27</button><div class="lb"><div class="lnl">Op vrijdag 27 april.</div><div class="lzh">4月27日星期五。</div><div class="lana"><div class="ana-bd"><b>Op vrijdag</b> 在星期五</div><div class="ana-bd"><b>27 april</b> 4月27日</div><div class="ana-o">🧩 語序 · 星期/日期 → 在 → 這一天。規則：時間詞放在句首。</div><div class="ana-g">📘 無特別文法重點。</div><div class="ana-l">👂 注意 'Op' 和 'vrijdag' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="389.2" data-end="392.0" data-ts="263,389.4,518.8"><button class="ts" data-t="389.2">6:29</button><div class="lb"><div class="lnl">Het begint om half negen.</div><div class="lzh">從八點半開始。</div><div class="lana"><div class="ana-bd"><b>Het begint</b> 它開始</div><div class="ana-bd"><b>om half negen</b> 在八點半</div><div class="ana-o">🧩 語序 · 它 → 開始 → 在 → 八點半。規則：主詞在動詞前，時間詞在句尾。</div><div class="ana-g">📘 現在時：'begint' 是現在時的動詞。</div><div class="ana-l">👂 'om' 和 'half' 之間的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="392.0" data-end="398.0" data-ts="265,393,520.8"><button class="ts" data-t="392.0">6:32</button><div class="lb"><div class="lnl">Dan ontbijten we dus met de hele klas op school.</div><div class="lzh">然後我們會和全班同學一起在學校吃早餐。</div><div class="lana"><div class="ana-bd"><b>Dan</b> 然後</div><div class="ana-bd"><b>ontbijten we</b> 我們吃早餐</div><div class="ana-bd"><b>dus met de hele klas op school</b> 所以和全班同學在學校</div><div class="ana-o">🧩 語序 · 然後 → 我們 → 吃早餐 → 所以 → 和全班同學 → 在學校。規則：'we' 是主詞，動詞在第二位。</div><div class="ana-g">📘 未來式：'we' + 'ontbijten'。</div><div class="ana-l">👂 'met de hele' 可能會連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="398.0" data-end="404.0" data-ts="273,398.5,528.8"><button class="ts" data-t="398.0">6:38</button><div class="lb"><div class="lnl">Daarna, om half tien, gaan we naar buiten.</div><div class="lzh">接著，九點半，我們會出外。</div><div class="lana"><div class="ana-bd"><b>Daarna</b> 接著</div><div class="ana-bd"><b>om half tien</b> 在九點半</div><div class="ana-bd"><b>gaan we naar buiten</b> 我們會出外</div><div class="ana-o">🧩 語序 · 接著 → 在 → 九點半 → 我們 → 會出外。規則：時間詞在句中，動詞在第二位。</div><div class="ana-g">📘 未來式：'gaan' 是主要動詞。</div><div class="ana-l">👂 'om' 和 'half' 之間的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="404.0" data-end="405.9" data-ts="276.4,404.6,532.2"><button class="ts" data-t="404.0">6:44</button><div class="lb"><div class="lnl">Naar het <span class="w" data-zh="運動場">sportveld</span>.</div><div class="lzh">去運動場。</div><div class="lana"><div class="ana-bd"><b>Naar het sportveld</b> 去運動場</div><div class="ana-o">🧩 語序 · 去 → 運動場。規則：這是一個簡單的句子，動詞在前。</div><div class="ana-g">📘 無特別文法重點。</div><div class="ana-l">👂 注意 'Naar' 和 'het' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="405.9" data-end="409.0" data-ts="278.8,405.9,534.6"><button class="ts" data-t="405.9">6:45</button><div class="lb"><div class="lnl">Daarbij helpen al andere <span class="w" data-zh="家長">ouders</span>.</div><div class="lzh">其他家長也會幫忙。</div><div class="lana"><div class="ana-bd"><b>Daarbij</b> 在這方面</div><div class="ana-bd"><b>helpen</b> 幫忙</div><div class="ana-bd"><b>al andere ouders</b> 其他家長</div><div class="ana-o">🧩 語序 · 其他家長(al andere ouders) → 會幫忙(helpen) → 在這方面(Daarbij)</div><div class="ana-g">📘 使用現在式，主詞在動詞前面。</div><div class="ana-l">👂 注意連音，'al andere' 聽起來像 'alander'。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="409.0" data-end="414.0" data-ts="409,537.2"><button class="ts" data-t="409.0">6:49</button><div class="lb"><div class="lnl">Oké. Dus de kinderen komen om half negen.</div><div class="lzh">好的，所以孩子們九點半來。</div><div class="lana"><div class="ana-bd"><b>Oké</b> 好的</div><div class="ana-bd"><b>Dus de kinderen komen</b> 所以孩子們來</div><div class="ana-bd"><b>om half negen</b> 在九點半</div><div class="ana-o">🧩 語序 · 好的 → 所以 → 孩子們 → 來 → 在 → 九點半。規則：'Dus' 引導句子，動詞在第二位。</div><div class="ana-g">📘 現在時：'komen' 是現在時的動詞。</div><div class="ana-l">👂 'om' 和 'half' 之間的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="414.0" data-end="416.8" data-ts="285.5,414.1,542.3"><button class="ts" data-t="414.0">6:54</button><div class="lb"><div class="lnl">Hoe laat moeten we alles klaarzetten?</div><div class="lzh">我們幾點要把一切準備好？</div><div class="lana"><div class="ana-bd"><b>Hoe laat</b> 幾點</div><div class="ana-bd"><b>moeten we</b> 我們要</div><div class="ana-bd"><b>alles klaarzetten</b> 準備好一切</div><div class="ana-o">🧩 語序 · 幾點(Hoe laat) → 我們要(moeten we) → 準備好一切(alles klaarzetten)</div><div class="ana-g">📘 使用疑問句，動詞在主詞前。</div><div class="ana-l">👂 'moeten' 和 'we' 之間的連音可能會被忽略。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="416.8" data-end="420.0" data-ts="289.3,416.8,545.3"><button class="ts" data-t="416.8">6:56</button><div class="lb"><div class="lnl">Nou, dat duurt wel een half uur, denk ik.</div><div class="lzh">我想大概要半小時。</div><div class="lana"><div class="ana-bd"><b>Nou</b> 嗯</div><div class="ana-bd"><b>dat duurt wel een half uur</b> 這會花半小時</div><div class="ana-bd"><b>denk ik</b> 我想</div><div class="ana-o">🧩 語序 · 嗯(Nou) → 這會花半小時(dat duurt wel een half uur) → 我想(denk ik)</div><div class="ana-g">📘 使用現在式，'duurt' 是動詞。</div><div class="ana-l">👂 'dat duurt' 可能聽起來像 'datduurt'，注意連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="420.0" data-end="424.0" data-ts="420.4,548.3"><button class="ts" data-t="420.0">7:00</button><div class="lb"><div class="lnl">Ja. Dan zijn wij er om acht uur. Goed.</div><div class="lzh">是的，那我們八點會到。好。</div><div class="lana"><div class="ana-bd"><b>Ja</b> 是的</div><div class="ana-bd"><b>Dan zijn wij er</b> 那我們會到</div><div class="ana-bd"><b>om acht uur</b> 在八點</div><div class="ana-o">🧩 語序 · 是的 → 那 → 我們 → 會到 → 在 → 八點。規則：'Dan' 引導句子，動詞在第二位。</div><div class="ana-g">📘 現在時：'zijn' 是現在時的動詞。</div><div class="ana-l">👂 'om' 和 'acht' 之間的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="424.0" data-end="429.6" data-ts="424.8"><button class="ts" data-t="424.0">7:04</button><div class="lb"><div class="lnl">O, trouwens.</div><div class="lzh">喔，對了。</div><div class="lana"><div class="ana-bd"><b>O, trouwens</b> 喔，對了</div><div class="ana-o">🧩 語序 · 喔 → 對了。規則：這是一個簡單的句子。</div><div class="ana-g">📘 無特別文法重點。</div><div class="ana-l">👂 注意 'O' 的發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="429.6" data-end="453.0" data-ts="297.1,425.5,553.5"><button class="ts" data-t="429.6">7:09</button><div class="lb"><div class="lnl">Moeten wij ook <span class="w" data-zh="購物">boodschappen</span> doen voor het <span class="w" data-zh="早餐">ontbijt</span>?</div><div class="lzh">我們也要幫忙買早餐的食材嗎？</div><div class="lana"><div class="ana-bd"><b>Moeten wij ook</b> 我們也要</div><div class="ana-bd"><b>boodschappen doen</b> 幫忙買東西</div><div class="ana-bd"><b>voor het ontbijt</b> 為早餐</div><div class="ana-o">🧩 語序 · 我們 → 也要 → 幫忙買東西 → 為 → 早餐。規則：'Moeten' 是情態動詞，動詞在句尾。</div><div class="ana-g">📘 情態動詞：'moeten' + 原形動詞。</div><div class="ana-l">👂 'voor' 和 'het' 之間的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="453.0" data-end="456.0" data-ts="326,453.2,581.4"><button class="ts" data-t="453.0">7:33</button><div class="lb"><div class="lnl">En aan het eind van de dag is er een <span class="w" data-zh="比賽">wedstrijd</span>.</div><div class="lzh">一天結束時會有比賽。</div><div class="lana"><div class="ana-bd"><b>En aan het eind van de dag</b> 而在一天結束時</div><div class="ana-bd"><b>is er een wedstrijd</b> 會有比賽</div><div class="ana-o">🧩 語序 · 而 → 在 → 一天 → 結束時 → 會有 → 比賽。規則：'is' 是動詞，放在第二位。</div><div class="ana-g">📘 現在時：'is' 是現在時的動詞。</div><div class="ana-l">👂 注意 'aan' 和 'het' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="456.0" data-end="459.2" data-ts="328.8,456.9,584.5"><button class="ts" data-t="456.0">7:36</button><div class="lb"><div class="lnl">Dan gaan de kinderen hun <span class="w" data-zh="自行車">fiets</span> versieren.</div><div class="lzh">孩子們會裝飾他們的腳踏車。</div><div class="lana"><div class="ana-bd"><b>Dan gaan de kinderen</b> 那孩子們會</div><div class="ana-bd"><b>hun fiets versieren</b> 裝飾他們的腳踏車</div><div class="ana-o">🧩 語序 · 那 → 孩子們 → 會 → 裝飾 → 他們的 → 腳踏車。規則：'Dan' 引導句子，動詞在第二位。</div><div class="ana-g">📘 未來式：'gaan' 是主要動詞。</div><div class="ana-l">👂 'hun' 和 'fiets' 之間的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="459.2" data-end="462.0" data-ts="331.8,459.5,587.6"><button class="ts" data-t="459.2">7:39</button><div class="lb"><div class="lnl">En de mooiste <span class="w" data-zh="自行車">fiets</span> wint een <span class="w" data-zh="獎品">prijs</span>.</div><div class="lzh">最漂亮的腳踏車會得獎。</div><div class="lana"><div class="ana-bd"><b>En</b> 然後</div><div class="ana-bd"><b>de mooiste fiets</b> 最漂亮的腳踏車</div><div class="ana-bd"><b>wint een prijs.</b> 會贏得獎品。</div><div class="ana-o">🧩 語序 · En(連接詞) → de mooiste fiets(主詞) → wint(動詞#2) → een prijs(名詞短語)。</div><div class="ana-g">📘 這是簡單的現在式，表示事實或常態。</div><div class="ana-l">👂 注意 'wint' 的發音，可能聽成 'wint een prijs' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="462.0" data-end="464.0" data-ts="334.2,462.3,590"><button class="ts" data-t="462.0">7:42</button><div class="lb"><div class="lnl">Het wordt vast een leuke dag.</div><div class="lzh">這一定會是愉快的一天。</div><div class="lana"><div class="ana-bd"><b>Het wordt</b> 這會變得</div><div class="ana-bd"><b>vast</b> 一定</div><div class="ana-bd"><b>een leuke dag.</b> 很有趣的一天。</div><div class="ana-o">🧩 語序 · Het(主詞) → wordt(動詞#2) → vast(副詞) → een leuke dag(名詞短語)。</div><div class="ana-g">📘 這是未來式，'wordt' 表示將來的狀態。</div><div class="ana-l">👂 注意 'het wordt' 的連音，可能聽不清楚。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="464.0" data-end="473.0" data-ts="464.6"><button class="ts" data-t="464.0">7:44</button><div class="lb"><div class="lnl">Hoe laat moeten Mila en Carla op 27 april op school zijn?</div><div class="lzh">米拉和卡拉4月27日要幾點到學校？</div><div class="lana"><div class="ana-bd"><b>Hoe laat</b> 幾點</div><div class="ana-bd"><b>moeten Mila en Carla</b> 米拉和卡拉要</div><div class="ana-bd"><b>op 27 april op school zijn</b> 在4月27日到學校</div><div class="ana-o">🧩 語序 · 幾點 → 要 → 米拉和卡拉 → 在 → 4月27日 → 到 → 學校。規則：'Hoe laat' 在句首，動詞在第二位。</div><div class="ana-g">📘 情態動詞：'moeten' + 原形動詞。</div><div class="ana-l">👂 注意 'op' 和 '27' 的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="473.0" data-end="474.8" data-ts="294.3,422.1,473.3,550.2"><button class="ts" data-t="473.0">7:53</button><div class="lb"><div class="lnl">Om acht uur.</div><div class="lzh">八點。</div><div class="lana"><div class="ana-bd"><b>Om</b> 在</div><div class="ana-bd"><b>acht</b> 八</div><div class="ana-bd"><b>uur</b> 點</div><div class="ana-o">🧩 語序 · 時間(Om) → 數字(acht) → 名詞(uur)</div><div class="ana-g">📘 時間表達，使用介系詞Om。</div><div class="ana-l">👂 Om的/oːm/可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="474.8" data-end="477.0" data-ts="263.9,284.5,390.7,411.3,475,519.7,539.5"><button class="ts" data-t="474.8">7:54</button><div class="lb"><div class="lnl">Om half negen.</div><div class="lzh">八點半。</div><div class="lana"><div class="ana-bd"><b>Om</b> 在</div><div class="ana-bd"><b>half</b> 半</div><div class="ana-bd"><b>negen</b> 九</div><div class="ana-o">🧩 語序 · 時間(Om) → 數字(half) → 數字(negen)</div><div class="ana-g">📘 時間表達，half表示半小時。</div><div class="ana-l">👂 half的/hɑlf/可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="477.0" data-end="534.0" data-ts="273.6,399.5,477.7,529.4"><button class="ts" data-t="477.0">7:57</button><div class="lb"><div class="lnl">Om half tien.</div><div class="lzh">九點半。</div><div class="lana"><div class="ana-bd"><b>Om</b> 在</div><div class="ana-bd"><b>half</b> 半</div><div class="ana-bd"><b>tien</b> 十</div><div class="ana-o">🧩 語序 · 時間(Om) → 數字(half) → 數字(tien)</div><div class="ana-g">📘 時間表達，half表示半小時。</div><div class="ana-l">👂 half的/hɑlf/可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="534.0" data-end="548.0" data-ts="278.8,405.9,534.6"><button class="ts" data-t="534.0">8:54</button><div class="lb"><div class="lnl">Daarbij helpen al andere <span class="w" data-zh="家長">ouders</span>.</div><div class="lzh">其他家長也會幫忙。</div><div class="lana"><div class="ana-bd"><b>Daarbij</b> 在這方面</div><div class="ana-bd"><b>helpen</b> 幫忙</div><div class="ana-bd"><b>al andere ouders</b> 其他家長</div><div class="ana-o">🧩 語序 · 其他家長(al andere ouders) → 會幫忙(helpen) → 在這方面(Daarbij)</div><div class="ana-g">📘 使用現在式，主詞在動詞前面。</div><div class="ana-l">👂 注意連音，'al andere' 聽起來像 'alander'。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="548.0" data-end="551.5" data-ts="292.7,420.4,548.3"><button class="ts" data-t="548.0">9:08</button><div class="lb"><div class="lnl">Ja, dan zijn wij er om acht uur.</div><div class="lzh">是的，那我們八點會到。</div><div class="lana"><div class="ana-bd"><b>Ja</b> 好</div><div class="ana-bd"><b>dan zijn wij er</b> 那我們到</div><div class="ana-o">🧩 語序 · 好(Ja) → 那我們到(then zijn wij er)</div><div class="ana-g">📘 使用現在式，'zijn' 是動詞。</div><div class="ana-l">👂 注意 'dan' 的弱讀，可能聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="551.5" data-end="552.0" data-ts="551.5"><button class="ts" data-t="551.5">9:11</button><div class="lb"><div class="lnl">Goed.</div><div class="lzh">好。</div><div class="lana"><div class="ana-bd"><b>Goed</b> 好</div><div class="ana-o">🧩 語序 · 簡單的肯定回應。</div><div class="ana-g">📘 這是一個簡單的肯定句。</div><div class="ana-l">👂 注意 'Goed' 的發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="552.0" data-end="553.0" data-ts="296.1,552.7"><button class="ts" data-t="552.0">9:12</button><div class="lb"><div class="lnl">Oh, trouwens.</div><div class="lzh">喔，對了。</div><div class="lana"><div class="ana-bd"><b>Oh</b> 喔</div><div class="ana-bd"><b>trouwens</b> 對了</div><div class="ana-o">🧩 語序 · 感嘆詞(Oh) → 副詞(trouwens)</div><div class="ana-g">📘 trouwens用來引入新話題。</div><div class="ana-l">👂 trouwens的/trɑu̯wɛns/可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="553.0" data-end="557.0" data-ts="297.1,425.5,553.5"><button class="ts" data-t="553.0">9:13</button><div class="lb"><div class="lnl">Moeten wij ook <span class="w" data-zh="購物">boodschappen</span> doen voor het <span class="w" data-zh="早餐">ontbijt</span>?</div><div class="lzh">我們也要幫忙買早餐的食材嗎？</div><div class="lana"><div class="ana-bd"><b>Moeten wij ook</b> 我們也要</div><div class="ana-bd"><b>boodschappen doen</b> 幫忙買東西</div><div class="ana-bd"><b>voor het ontbijt</b> 為早餐</div><div class="ana-o">🧩 語序 · 我們 → 也要 → 幫忙買東西 → 為 → 早餐。規則：'Moeten' 是情態動詞，動詞在句尾。</div><div class="ana-g">📘 情態動詞：'moeten' + 原形動詞。</div><div class="ana-l">👂 'voor' 和 'het' 之間的連音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="557.0" data-end="559.0" data-ts="302,429.8,557.9"><button class="ts" data-t="557.0">9:17</button><div class="lb"><div class="lnl">Even kijken.</div><div class="lzh">看看。</div><div class="lana"><div class="ana-bd"><b>Even kijken</b> 看看</div><div class="ana-o">🧩 語序 · 看看(Even kijken)</div><div class="ana-g">📘 簡單的表達，沒有複雜結構。</div><div class="ana-l">👂 這句很簡單，注意發音。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="559.0" data-end="565.7" data-ts="303.7,431.4,560"><button class="ts" data-t="559.0">9:19</button><div class="lb"><div class="lnl">Nee, nee hoor.</div><div class="lzh">不要，不用。</div><div class="lana"><div class="ana-bd"><b>Nee</b> 不要</div><div class="ana-bd"><b>nee</b> 不</div><div class="ana-bd"><b>hoor</b> 用</div><div class="ana-o">🧩 語序 · 否定詞(Nee) → 否定詞(nee) → 語氣詞(hoor)</div><div class="ana-g">📘 重複否定以強調。</div><div class="ana-l">👂 hoor的/hoːr/可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="565.7" data-end="581.0" data-ts="306.1,433.6,561"><button class="ts" data-t="565.7">9:25</button><div class="lb"><div class="lnl">Dat doet de moeder van Giovanni.</div><div class="lzh">那是喬凡尼的媽媽做的。</div><div class="lana"><div class="ana-bd"><b>Dat</b> 那</div><div class="ana-bd"><b>doet de moeder van Giovanni</b> 是Giovanni媽媽的事</div><div class="ana-o">🧩 語序 · 那(Dat) → 是Giovanni媽媽的事(doet de moeder van Giovanni)</div><div class="ana-g">📘 使用現在式，'doet' 是動詞。</div><div class="ana-l">👂 注意 'doet de' 的連音，可能聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="581.0" data-end="593.0" data-ts="308,435.6,563.4"><button class="ts" data-t="581.0">9:41</button><div class="lb"><div class="lnl">Die heeft een grote auto.</div><div class="lzh">她有一台大車。</div><div class="lana"><div class="ana-bd"><b>Die</b> 她</div><div class="ana-bd"><b>heeft een grote auto</b> 有一台大車</div><div class="ana-o">🧩 語序 · 她(Di) → 有一台大車(heeft een grote auto)</div><div class="ana-g">📘 使用現在式，'heeft' 是動詞。</div><div class="ana-l">👂 注意 'heeft een' 的連音，可能聽不清。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="593.0" data-end="597.0" data-ts="593.5"><button class="ts" data-t="593.0">9:53</button><div class="lb"><div class="lnl">Waarmee eindigt de Koningsdag?</div><div class="lzh">國王節怎麼結束？</div><div class="lana"><div class="ana-bd"><b>Waarmee</b> 用什麼</div><div class="ana-bd"><b>eindigt</b> 結束</div><div class="ana-bd"><b>de</b> 這個</div><div class="ana-bd"><b>Koningsdag</b> 國王節</div><div class="ana-o">🧩 語序 · 疑問詞(Waarmee) → 動詞(eindigt) → 冠詞(de) → 名詞(Koningsdag)</div><div class="ana-g">📘 eindigt是動詞，表示結束。</div><div class="ana-l">👂 Waarmee的/ˈʋaːrmeː/可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="597.0" data-end="599.5" data-ts="597.7"><button class="ts" data-t="597.0">9:57</button><div class="lb"><div class="lnl">Met een dans.</div><div class="lzh">跳舞結束。</div><div class="lana"><div class="ana-bd"><b>Met</b> 用</div><div class="ana-bd"><b>een</b> 一個</div><div class="ana-bd"><b>dans</b> 舞蹈</div><div class="ana-o">🧩 語序 · 介系詞(Met) → 冠詞(een) → 名詞(dans)</div><div class="ana-g">📘 Met用來引入方式。</div><div class="ana-l">👂 Met的/mɛt/可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="599.5" data-end="602.0" data-ts="599.6"><button class="ts" data-t="599.5">9:59</button><div class="lb"><div class="lnl">Met een lied.</div><div class="lzh">唱歌結束。</div><div class="lana"><div class="ana-bd"><b>Met</b> 用</div><div class="ana-bd"><b>een</b> 一個</div><div class="ana-bd"><b>lied</b> 歌曲</div><div class="ana-o">🧩 語序 · 介系詞(Met) → 冠詞(een) → 名詞(lied)</div><div class="ana-g">📘 Met用來引入方式。</div><div class="ana-l">👂 Met的/mɛt/可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="602.0" data-end="604.9" data-ts="602.4"><button class="ts" data-t="602.0">10:02</button><div class="lb"><div class="lnl">Met een <span class="w" data-zh="比賽">wedstrijd</span>.</div><div class="lzh">比賽結束。</div><div class="lana"><div class="ana-bd"><b>Met</b> 用</div><div class="ana-bd"><b>een</b> 一個</div><div class="ana-bd"><b>wedstrijd</b> 比賽</div><div class="ana-o">🧩 語序 · 介系詞(Met) → 冠詞(een) → 名詞(wedstrijd)</div><div class="ana-g">📘 Met用來引入方式。</div><div class="ana-l">👂 Met的/mɛt/可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="line" data-t="604.9" data-end="607.0" data-ts="604.6"><button class="ts" data-t="604.9">10:04</button><div class="lb"><div class="lnl">Met een spel.</div><div class="lzh">玩遊戲結束。</div><div class="lana"><div class="ana-bd"><b>Met</b> 用</div><div class="ana-bd"><b>een</b> 一個</div><div class="ana-bd"><b>spel</b> 遊戲</div><div class="ana-o">🧩 語序 · 介系詞(Met) → 冠詞(een) → 名詞(spel)</div><div class="ana-g">📘 Met用來引入方式。</div><div class="ana-l">👂 Met的/mɛt/可能會被弱讀。</div></div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button><button class="lact ana" title="AI 詳解這句：文法／單字／聽力重點">💡</button></div></div><div class="note">本場景的考題影片未收錄，僅附對話與單字供額外練習。</div></div></section><section data-mode-content="exam" hidden>
+      <div class="exam-intro" id="exam-intro">
+        <h2>⏱️ 考場模式</h2>
+        <ul>
+          <li>共 <b>0 題</b>、每題 <b>25 秒</b>、不能回頭</li>
+          <li>不顯示答案／出處／反推——做完才公布</li>
+          <li>結果會存進「我的紀錄」變成歷史曲線</li>
+          <li>題目錯了會自動進「錯題複習」SRS 排程</li>
+        </ul>
+        <button class="start" id="start-exam">開始考試</button>
+      </div>
+      <div class="exam-active" id="exam-active" hidden></div>
+      <div class="exam-result" id="exam-result" hidden></div>
+    </section><section data-mode-content="review" hidden><div id="review-list"></div></section><section data-mode-content="stats" hidden><div id="stats-body"></div></section><div class="player"><div class="row">
+      <button class="pp" id="pp">▶</button>
+      <div class="bar" id="bar"><div class="fill" id="fill"></div></div>
+      <div class="tnow" id="tnow">0:00 / 0:00</div>
+      <div class="spd">
+        <button data-s="0.6">0.6×</button>
+        <button data-s="0.75">0.75×</button>
+        <button data-s="0.85">0.85×</button>
+        <button data-s="1" class="on">1×</button>
+        <button data-s="1.15">1.15×</button>
+      </div>
+    </div>
+    <div class="row2 skiprow">
+      <button class="skip" data-skip="-10" title="倒退 10 秒">⏪ 10s</button>
+      <button class="skip" data-skip="-5" title="倒退 5 秒">⏪ 5s</button>
+      <button class="skip" data-skip="5" title="快進 5 秒">5s ⏩</button>
+      <button class="skip" data-skip="10" title="快進 10 秒">10s ⏩</button>
+      <button class="ptog" id="mode-video" title="看 YouTube 影片（字幕同步）">📺 看影片</button><button class="ptog on" id="mode-audio" title="只聽音檔">🎧 音檔</button>
+    </div>
+    <div class="row2">
+      <button class="ptog" id="tog-zh" title="先遮住中文用耳朵聽，再點句子對答案">🙈 遮中文</button>
+      <button class="ptog" id="tog-hard" title="只顯示你標記★的難句，集中複習">★ 只看難句 <span class="pn" id="hard-n"></span></button>
+      <span class="phint" id="study-hint">🔁 循環單句 · ⏪ 重聽</span>
+    </div></div>
+    <audio id="aud" src="audio.mp3" preload="metadata"></audio>
+    <div id="wpop-ov" onclick="closeWordPop()"></div>
+    <div id="wpop">
+      <div class="wp-nl" id="wp-nl"></div>
+      <div class="wp-zh" id="wp-zh"></div>
+      <div class="wp-btns">
+        <button class="wp-play" onclick="playWordLine(0)">🔊 聽原句</button>
+        <button class="wp-slow" onclick="playWordLine(0.6)">🐢 慢速</button>
+      </div>
+    </div><script>
+const VID = document.body.dataset.vid;
+const KEY = 'examapp:' + VID;
+const TOTAL_Q = +document.body.dataset.total;
+const EXAM_SEC = 25;  // seconds per question in exam mode
+
+const today = () => new Date().toISOString().slice(0,10);
+const addDays = (d, n) => {
+  const dt = new Date(d + 'T00:00:00Z'); dt.setUTCDate(dt.getUTCDate() + n);
+  return dt.toISOString().slice(0,10);
+};
+const cmp = (a, b) => a < b ? -1 : a > b ? 1 : 0;
+
+// ── State ──
+function load() {
+  try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+  catch (e) { return {}; }
+}
+function save(st) { localStorage.setItem(KEY, JSON.stringify(st)); }
+function S() {
+  const s = load();
+  s.q = s.q || {};           // q[id] = {last_pick, last_correct, attempts: [{date, pick, correct}], srs: {due, interval, reps}}
+  s.attempts = s.attempts || []; // mock attempts [{id, started, mode, completed_at, answers, score, total}]
+  return s;
+}
+
+// ── SRS (Anki-lite) ──
+function scheduleSRS(qstate, correct) {
+  qstate.srs = qstate.srs || {due: today(), interval: 0, reps: 0};
+  if (!correct) {
+    qstate.srs.interval = 1; qstate.srs.reps = 0;
+    qstate.srs.due = addDays(today(), 1);
+  } else {
+    qstate.srs.reps += 1;
+    const intervals = [1, 3, 7, 14, 30];
+    qstate.srs.interval = intervals[Math.min(qstate.srs.reps, intervals.length - 1)];
+    qstate.srs.due = addDays(today(), qstate.srs.interval);
+    if (qstate.srs.reps >= 4) qstate.srs.graduated = true;
+  }
+}
+
+// ── Record answer ──
+function recordAnswer(qid, pick, correct) {
+  const st = S();
+  const q = st.q[qid] = st.q[qid] || {attempts: []};
+  q.last_pick = pick; q.last_correct = correct;
+  q.attempts.push({date: today(), pick, correct});
+  scheduleSRS(q, correct);
+  save(st);
+  updateStatus();
+  updateBadges();
+}
+
+// ── Status bar ──
+function updateStatus() {
+  const st = S();
+  let answered = 0, correct = 0;
+  Object.values(st.q).forEach(q => {
+    if (q.attempts && q.attempts.length) {
+      answered++;
+      if (q.last_correct) correct++;
+    }
+  });
+  document.getElementById('s-answered').textContent = answered;
+  document.getElementById('s-total').textContent = TOTAL_Q;
+  document.getElementById('s-correct').textContent = correct;
+  const pct = answered ? Math.round(correct / answered * 100) : 0;
+  document.getElementById('s-pct').textContent = pct + '%';
+  // Review queue: due today/overdue + all currently-wrong (most recent attempt)
+  const due = Object.entries(st.q).filter(([k,q]) =>
+    (q.srs && !q.srs.graduated && q.srs.due <= today()) ||
+    q.last_correct === false).length;
+  const tab = document.getElementById('tab-review');
+  const badge = tab.querySelector('.bg');
+  if (due > 0) {
+    if (!badge) { const b = document.createElement('span'); b.className = 'bg';
+      b.textContent = due; tab.appendChild(b); }
+    else badge.textContent = due;
+  } else if (badge) badge.remove();
+}
+
+// ── Per-question result badges ──
+function updateBadges() {
+  const st = S();
+  document.querySelectorAll('.q').forEach(q => {
+    const id = q.dataset.qid;
+    const qs = st.q[id]; if (!qs) return;
+    let bdg = q.querySelector('.qbadge');
+    if (!bdg) {
+      bdg = document.createElement('span'); bdg.className = 'qbadge';
+      q.querySelector('.q-h').insertBefore(bdg, q.querySelector('.qt').nextSibling);
+    }
+    if (qs.srs && !qs.srs.graduated && qs.srs.due <= today()) {
+      bdg.className = 'qbadge srs'; bdg.textContent = '待複習';
+    } else if (qs.last_correct) { bdg.className = 'qbadge ok'; bdg.textContent = '✓ 已答對'; }
+    else if (qs.last_correct === false) { bdg.className = 'qbadge ng'; bdg.textContent = '✗ 上次錯'; }
+  });
+}
+
+// ── Audio (same as v1) ──
+const A = document.getElementById('aud');
+const pp = document.getElementById('pp'), fill = document.getElementById('fill');
+const tnow = document.getElementById('tnow'), bar = document.getElementById('bar');
+const fmt = s => (isNaN(s)?'0:00':Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0'));
+
+// ── Media shim: audio.mp3 by default, switchable to the embedded YouTube video.
+// Timestamps come from the audio transcription = same source, so they align. ──
+const YT_ID = /^[A-Za-z0-9_-]{11}$/.test(VID) ? VID : '';
+let ytP = null, ytReady = false, useYT = false;
+function mTime(){ if(useYT&&ytReady){ try{return ytP.getCurrentTime()||0}catch(e){} } return A.currentTime||0; }
+function mDur(){ if(useYT&&ytReady){ try{return ytP.getDuration()||0}catch(e){} } return A.duration||0; }
+function mSeek(t){ t=Math.max(0,t); if(useYT&&ytReady){ try{ytP.seekTo(t,true);return}catch(e){} } A.currentTime=t; }
+function mPlay(){ if(useYT&&ytReady){ try{ytP.playVideo();return}catch(e){} } A.play().catch(()=>{}); }
+function mPause(){ if(useYT&&ytReady){ try{ytP.pauseVideo();return}catch(e){} } A.pause(); }
+function mRate(v){ if(useYT&&ytReady){ try{ytP.setPlaybackRate(v)}catch(e){} } A.playbackRate=v; }
+function mPaused(){ if(useYT&&ytReady){ try{return ytP.getPlayerState()!==1}catch(e){return true} } return A.paused; }
+
+let _loop = null;
+function cancelLoop(){
+  if(_loop){ _loop.line.classList.remove('looping'); _loop=null; }
+  document.querySelectorAll('.lact.loop.on').forEach(b=>b.classList.remove('on'));
+}
+function snapToCurrent(t){ const cur=lineAt(t); if(cur){ _userScrolledAt=0; cur.scrollIntoView({behavior:'smooth',block:'center'}); } }
+function play(sec){ cancelLoop(); if(sec>=0){ mSeek(sec); } mPlay(); snapToCurrent(sec>=0?sec:mTime()); }
+function skip(d){ mSeek(mTime()+d); }   // ⏪/⏩ re-listen
+function bindTS() {
+  document.querySelectorAll('[data-t]:not(.bound)').forEach(el => {
+    el.classList.add('bound');
+    el.addEventListener('click', e => {
+      e.stopPropagation();
+      if (el.classList.contains('line')) el.classList.add('reveal'); // tap to reveal ZH in active mode
+      play(parseFloat(el.dataset.t));
+    });
+  });
+}
+// ── Per-line loop (🔁) + hard-line mark (★) + active-listening toggles ──
+function bindLineActs() {
+  document.querySelectorAll('.lact.loop:not(.albound)').forEach(btn => {
+    btn.classList.add('albound');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const line = btn.closest('.line');
+      if (_loop && _loop.line === line) { cancelLoop(); mPause(); return; }
+      cancelLoop();
+      _loop = { line, start: parseFloat(line.dataset.t), end: parseFloat(line.dataset.end) };
+      btn.classList.add('on'); line.classList.add('looping', 'reveal');
+      mSeek(_loop.start); mPlay();
+    });
+  });
+  document.querySelectorAll('.lact.star:not(.albound)').forEach(btn => {
+    btn.classList.add('albound');
+    btn.addEventListener('click', e => { e.stopPropagation(); toggleHard(btn.closest('.line')); });
+  });
+  document.querySelectorAll('.lact.ana:not(.albound)').forEach(btn => {
+    btn.classList.add('albound');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      btn.classList.toggle('on');
+      const pan = btn.closest('.line').querySelector('.lana');
+      if (pan) pan.classList.toggle('show');
+    });
+  });
+}
+// ── Tap a word → meaning + the sentence's REAL audio (word ↔ meaning ↔ sound) ──
+let _wpLine = null, _wpStop = null;
+function bindWords() {
+  document.querySelectorAll('.lnl .w:not(.wbound)').forEach(w => {
+    w.classList.add('wbound');
+    w.addEventListener('click', e => { e.stopPropagation(); showWordPop(w); });
+  });
+}
+function showWordPop(w) {
+  _wpLine = w.closest('.line');
+  document.getElementById('wp-nl').textContent = w.textContent;
+  document.getElementById('wp-zh').textContent = w.dataset.zh || '';
+  const pop = document.getElementById('wpop'), ov = document.getElementById('wpop-ov');
+  pop.classList.add('show'); ov.classList.add('show');
+  const r = w.getBoundingClientRect();
+  const pw = pop.offsetWidth, ph = pop.offsetHeight;
+  let top = r.bottom + 8; if (top + ph > innerHeight - 8) top = r.top - ph - 8;
+  let left = Math.min(Math.max(8, r.left), innerWidth - pw - 8);
+  pop.style.top = Math.max(8, top) + 'px'; pop.style.left = left + 'px';
+}
+function closeWordPop() {
+  document.getElementById('wpop').classList.remove('show');
+  document.getElementById('wpop-ov').classList.remove('show');
+}
+function playWordLine(slow) {
+  if (!_wpLine) return;
+  const st = parseFloat(_wpLine.dataset.t), en = parseFloat(_wpLine.dataset.end);
+  cancelLoop();
+  if (_wpStop) { clearTimeout(_wpStop); _wpStop = null; }
+  const rate = slow ? slow : (A.playbackRate || 1);
+  mRate(rate);
+  mSeek(st); mPlay();
+  _wpLine.classList.add('reveal');
+  const ms = (en - st) / rate * 1000 + 180;
+  _wpStop = setTimeout(() => {
+    mPause();
+    if (slow) mRate(parseFloat(localStorage.getItem('lph_playback_speed') || '1'));
+  }, Math.max(900, ms));
+}
+const HARD_KEY = 'lph_hard_lines:' + VID;
+let hardSet = new Set();
+try { hardSet = new Set(JSON.parse(localStorage.getItem(HARD_KEY) || '[]')); } catch(e) {}
+function _setStar(line, on){ const b = line.querySelector('.lact.star'); if(b) b.textContent = on ? '★' : '☆'; }
+function _hardCount(){ const el = document.getElementById('hard-n'); if(el) el.textContent = hardSet.size ? '('+hardSet.size+')' : ''; }
+function toggleHard(line){
+  const k = line.dataset.t;
+  if(hardSet.has(k)){ hardSet.delete(k); line.classList.remove('hard'); _setStar(line,false); }
+  else { hardSet.add(k); line.classList.add('hard'); _setStar(line,true); }
+  localStorage.setItem(HARD_KEY, JSON.stringify([...hardSet])); _hardCount();
+}
+function initStudyTools(){
+  document.querySelectorAll('.line[data-t]').forEach(line => {
+    if(hardSet.has(line.dataset.t)){ line.classList.add('hard'); _setStar(line,true); }
+  });
+  _hardCount();
+  const togZh = document.getElementById('tog-zh');
+  const togHard = document.getElementById('tog-hard');
+  if(togZh){
+    if(localStorage.getItem('lph_hide_zh')==='1'){ document.body.classList.add('hide-zh'); togZh.classList.add('on'); }
+    togZh.onclick = () => {
+      const on = document.body.classList.toggle('hide-zh');
+      togZh.classList.toggle('on', on);
+      localStorage.setItem('lph_hide_zh', on ? '1' : '0');
+    };
+  }
+  if(togHard){
+    togHard.onclick = () => {
+      const on = document.body.classList.toggle('only-hard');
+      togHard.classList.toggle('on', on);
+    };
+  }
+}
+pp.onclick = ()=> mPaused() ? mPlay() : mPause();
+
+// ⏪/⏩ re-listen buttons + YouTube video toggle
+document.querySelectorAll('[data-skip]').forEach(b => b.onclick = ()=> skip(parseFloat(b.dataset.skip)));
+function loadYT(cb){
+  if(window.YT && window.YT.Player) return cb();
+  const prev = window.onYouTubeIframeAPIReady;
+  window.onYouTubeIframeAPIReady = ()=>{ if(prev) prev(); cb(); };
+  if(!document.getElementById('ytapi')){ const s=document.createElement('script'); s.id='ytapi'; s.src='https://www.youtube.com/iframe_api'; document.head.appendChild(s); }
+}
+function updModeBtns(){ const v=document.getElementById('mode-video'),a=document.getElementById('mode-audio');
+  if(v)v.classList.toggle('on',useYT); if(a)a.classList.toggle('on',!useYT); }
+function enableVideo(){
+  const box=document.getElementById('ytbox'); if(!box||!YT_ID) return;
+  box.style.display='block'; A.pause();
+  if(ytReady){ useYT=true; updModeBtns(); return; }
+  loadYT(()=>{ ytP=new YT.Player('ytplayer',{videoId:YT_ID,
+    playerVars:{playsinline:1,rel:0,modestbranding:1},
+    events:{onReady:()=>{ytReady=true; useYT=true; updModeBtns();}}}); });
+}
+function disableVideo(){ const box=document.getElementById('ytbox'); if(box) box.style.display='none';
+  if(ytP){ try{ytP.pauseVideo()}catch(e){} } useYT=false; updModeBtns(); }
+(function(){ const v=document.getElementById('mode-video'),a=document.getElementById('mode-audio');
+  if(v) v.onclick=enableVideo; if(a) a.onclick=disableVideo; })();
+
+// ── Karaoke follow-along: keep the current line centred during playback ──
+// Detect a GENUINE user scroll via wheel/touch only. (The old code watched the
+// 'scroll' event — but our own smooth scrollIntoView fires 'scroll' events too,
+// so it mistook auto-scroll for a user scroll and then suppressed following for
+// 4s, every line. Result: the page stopped following the audio.)
+let _userScrolledAt = 0;
+const _markUserScroll = () => { _userScrolledAt = Date.now(); };
+window.addEventListener('wheel', _markUserScroll, { passive: true });
+window.addEventListener('touchmove', _markUserScroll, { passive: true });
+
+function lineAt(t) {
+  // Each line lists ALL its occurrence times (the mock audio replays every
+  // scenario ~3×). Pick the line whose most-recent occurrence ≤ t is latest,
+  // so the highlight follows whichever replay is currently playing.
+  let cur = null, best = -1;
+  document.querySelectorAll('.line[data-ts]').forEach(l => {
+    const arr = l.dataset.ts.split(',');
+    for (let k = 0; k < arr.length; k++) {
+      const v = parseFloat(arr[k]);
+      if (v <= t && v > best) { best = v; cur = l; }
+    }
+  });
+  return cur;
+}
+let _lastCur = null;
+// Unified sync tick — polls whichever media is active (audio OR YouTube), 150ms.
+function tick(){
+  const t = mTime(), d = mDur();
+  if (_loop && t >= _loop.end - 0.04) { mSeek(_loop.start); }
+  fill.style.width = (t/d*100||0)+'%';
+  tnow.textContent = fmt(t)+' / '+fmt(d);
+  pp.textContent = mPaused() ? '▶' : '⏸';
+  const cur = lineAt(t);
+  document.querySelectorAll('.line.playing').forEach(l=>{ if(l!==cur) l.classList.remove('playing'); });
+  if(cur && !cur.classList.contains('playing')) cur.classList.add('playing');
+  if (cur && cur !== _lastCur && !mPaused() && Date.now() - _userScrolledAt > 2500) {
+    const rect = cur.getBoundingClientRect(), vh = window.innerHeight;
+    if (rect.top < vh * 0.22 || rect.bottom > vh * 0.74) {
+      cur.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+  _lastCur = cur;
+}
+setInterval(tick, 150);
+bar.onclick = e=>{ const r=bar.getBoundingClientRect();
+  mSeek((e.clientX-r.left)/r.width*mDur()); };
+function applySpeed(v) {
+  mRate(v);
+  try { localStorage.setItem('lph_playback_speed', String(v)); } catch(e) {}
+  document.querySelectorAll('.spd button').forEach(b =>
+    b.classList.toggle('on', parseFloat(b.dataset.s) === v));
+}
+document.querySelectorAll('.spd button').forEach(b=>{
+  b.onclick=()=> applySpeed(parseFloat(b.dataset.s));
+});
+// Restore last chosen speed (shared with echo page via same key)
+(function() {
+  const v = parseFloat(localStorage.getItem('lph_playback_speed') || '1');
+  if (v && v !== 1.0) applySpeed(v);
+})();
+
+// ── Question interactions (study mode) ──
+function bindQuestions(root) {
+  (root || document).querySelectorAll('.q').forEach(q => {
+    const ans = parseInt(q.dataset.ans);
+    const qid = q.dataset.qid;
+    q.querySelectorAll('.opt').forEach((o,i)=>{
+      o.onclick=()=>{
+        if (q.classList.contains('revealed')) return;
+        q.querySelectorAll('.opt').forEach(x=>x.classList.remove('picked'));
+        o.classList.add('picked'); q.dataset.pick=i;
+      };
+    });
+    const rb=q.querySelector('.reveal-btn');
+    if (rb) rb.onclick=()=>{
+      const pick = q.dataset.pick === undefined ? -1 : parseInt(q.dataset.pick);
+      if (pick < 0) { alert('請先選一個答案'); return; }
+      q.classList.add('revealed');
+      q.querySelectorAll('.opt').forEach((o,i)=>{
+        if(i===ans) o.classList.add('correct');
+        else if(i===pick) o.classList.add('wrongpick');
+      });
+      recordAnswer(qid, pick, pick === ans);
+    };
+  });
+}
+
+// ── Tab switching ──
+document.querySelectorAll('.tabs button').forEach(b => {
+  b.onclick = () => {
+    document.querySelectorAll('.tabs button').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    const m = b.dataset.mode;
+    document.querySelectorAll('[data-mode-content]').forEach(s =>
+      s.hidden = s.dataset.modeContent !== m);
+    if (m === 'review') renderReview();
+    if (m === 'stats') renderStats();
+    if (m === 'exam') resetExam();
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  };
+});
+
+// ── Review mode (SRS) ──
+function renderReview() {
+  const st = S();
+  const root = document.getElementById('review-list'); root.innerHTML = '';
+  const due = Object.entries(st.q)
+    .filter(([k,q]) =>
+      (q.srs && !q.srs.graduated && q.srs.due <= today()) ||
+      q.last_correct === false)
+    .sort((a,b) => {
+      // overdue first, then due today, then upcoming-wrong
+      const ad = a[1].srs ? a[1].srs.due : '9999';
+      const bd = b[1].srs ? b[1].srs.due : '9999';
+      return cmp(ad, bd);
+    });
+  if (!due.length) {
+    root.innerHTML = '<div class="empty"><span class="em">✨</span>沒有待複習的題目！'
+      + '<br><span style="font-size:12px">答錯的題目會自動進這裡，'
+      + 'SRS 會在 1/3/7/14/30 天安排複習</span></div>';
+    return;
+  }
+  due.forEach(([qid, qs]) => {
+    const src = document.querySelector(`.q[data-qid="${qid}"]`);
+    if (!src) return;
+    const clone = src.cloneNode(true);
+    clone.classList.remove('revealed');
+    clone.querySelectorAll('.opt').forEach(o =>
+      o.classList.remove('picked','correct','wrongpick'));
+    delete clone.dataset.pick;
+    const dueDate = qs.srs ? qs.srs.due : today();
+    const overdue = dueDate < today();
+    const dueToday = dueDate === today();
+    const head = document.createElement('div');
+    const color = overdue ? '#dc2626' : dueToday ? '#0891b2' : '#94a3b8';
+    head.style.cssText = `font-size:11px;color:${color};font-weight:800;margin:14px 15px 4px;letter-spacing:.4px`;
+    head.textContent = overdue ?
+      `⚠️ 過期 ${Math.floor((Date.now() - new Date(dueDate).getTime())/86400000)} 天` :
+      dueToday ? `📅 今天到期` : `🔁 上次答錯（${dueDate} 該複習）`;
+    root.appendChild(head);
+    root.appendChild(clone);
+  });
+  bindQuestions(root);
+  bindTS();
+  updateBadges();
+}
+
+// ── Stats mode (history + per-question) ──
+function renderStats() {
+  const st = S();
+  const root = document.getElementById('stats-body'); root.innerHTML = '';
+  // top stats
+  let answered = 0, correct = 0, totalAttempts = 0;
+  Object.values(st.q).forEach(q => {
+    if (q.attempts) {
+      answered++; totalAttempts += q.attempts.length;
+      if (q.last_correct) correct++;
+    }
+  });
+  const pct = answered ? Math.round(correct/answered*100) : 0;
+  root.innerHTML += `<div class="stat-card"><h3>📊 整體</h3>
+    <div class="stat-grid">
+      <div class="cell"><b>${answered}/${TOTAL_Q}</b><span>已答題數</span></div>
+      <div class="cell"><b>${pct}%</b><span>當前正確率</span></div>
+      <div class="cell"><b>${totalAttempts}</b><span>累計嘗試</span></div>
+    </div></div>`;
+  // history chart
+  const mocks = (st.attempts || []).slice(-10);
+  if (mocks.length) {
+    const W = 320, H = 100, P = 14;
+    const xs = mocks.map((_,i) => P + i*((W-2*P)/Math.max(1,mocks.length-1)));
+    const ys = mocks.map(m => H-P - (m.score/m.total)*(H-2*P));
+    const pts = xs.map((x,i)=>`${x.toFixed(1)},${ys[i].toFixed(1)}`).join(' ');
+    const dots = xs.map((x,i) =>
+      `<circle cx="${x.toFixed(1)}" cy="${ys[i].toFixed(1)}" r="4" fill="#1e3a8a"/>`
+      + `<text x="${x.toFixed(1)}" y="${(ys[i]-8).toFixed(1)}" font-size="9" `
+      + `text-anchor="middle" fill="#1e3a8a">${mocks[i].score}/${mocks[i].total}</text>`
+    ).join('');
+    root.innerHTML += `<div class="stat-card"><h3>📈 模考歷史（最近 ${mocks.length} 次）</h3>
+      <svg class="chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet">
+        <line x1="${P}" y1="${H-P}" x2="${W-P}" y2="${H-P}" stroke="#cbd5e1"/>
+        <polyline points="${pts}" fill="none" stroke="#f59e0b" stroke-width="2"/>
+        ${dots}
+      </svg></div>`;
+  } else {
+    root.innerHTML += `<div class="stat-card"><h3>📈 模考歷史</h3>
+      <div style="color:#9ca3af;font-size:12.5px">完成一次「考場模式」後，這裡會出現分數曲線</div></div>`;
+  }
+  // per-q
+  const rows = Array.from(document.querySelectorAll('.q')).map(q => {
+    const qid = q.dataset.qid;
+    const qs = st.q[qid];
+    const att = qs && qs.attempts ? qs.attempts.length : 0;
+    const ok = qs && qs.attempts ? qs.attempts.filter(a=>a.correct).length : 0;
+    const pct = att ? Math.round(ok/att*100) : -1;
+    return {qid, title: q.querySelector('.qt').textContent, att, ok, pct,
+            last: qs && qs.last_correct};
+  });
+  const tried = rows.filter(r => r.att > 0);
+  if (tried.length) {
+    root.innerHTML += '<div class="stat-card"><h3>📝 逐題表現</h3>' +
+      tried.map(r => `<div class="result-row">
+        <span class="qn">Q${r.qid}</span>
+        <span class="qt">${r.title.length>30?r.title.slice(0,30)+'…':r.title}</span>
+        <span class="${r.last?'qok':'qng'}">${r.att}次 · ${r.pct}%</span>
+      </div>`).join('') + '</div>';
+  }
+}
+
+// ── Exam mode ──
+let examState = null;
+function resetExam() {
+  document.getElementById('exam-intro').hidden = false;
+  document.getElementById('exam-active').hidden = true;
+  document.getElementById('exam-result').hidden = true;
+}
+document.getElementById('start-exam').onclick = () => {
+  const qs = Array.from(document.querySelectorAll('[data-mode-content="study"] .q')).map(q => ({
+    qid: q.dataset.qid, ans: parseInt(q.dataset.ans),
+    html: q.outerHTML, title: q.querySelector('.qt').textContent,
+  }));
+  examState = {qs, idx: 0, answers: {}, started: new Date().toISOString()};
+  document.getElementById('exam-intro').hidden = true;
+  document.getElementById('exam-active').hidden = false;
+  showExamQ();
+};
+function showExamQ() {
+  const root = document.getElementById('exam-active');
+  if (examState.idx >= examState.qs.length) return endExam();
+  const q = examState.qs[examState.idx];
+  root.innerHTML = `
+    <div class="timer" id="ex-timer">${EXAM_SEC}</div>
+    <div class="progress"><div style="width:${(examState.idx/examState.qs.length*100)}%"></div></div>
+    <div style="padding:14px 14px 0;color:#6b7280;font-size:12px">${examState.idx+1} / ${examState.qs.length}</div>
+    <div class="ex-qwrap" style="padding:0">${q.html}</div>`;
+  const card = root.querySelector('.q');
+  card.classList.remove('revealed');
+  card.querySelector('.reveal-btn').textContent = '下一題 →';
+  card.querySelector('.reveal-btn').classList.add('danger');
+  card.querySelector('.reveal-btn').onclick = () => advanceExam();
+  card.querySelectorAll('.answer').forEach(a => a.remove());
+  card.querySelectorAll('.qbadge').forEach(b => b.remove());
+  card.querySelectorAll('.opt').forEach((o,i)=>{
+    o.onclick = () => {
+      card.querySelectorAll('.opt').forEach(x=>x.classList.remove('picked'));
+      o.classList.add('picked'); card.dataset.pick = i;
+    };
+  });
+  // timer
+  let left = EXAM_SEC;
+  const t = root.querySelector('#ex-timer');
+  const iv = setInterval(() => {
+    left--; t.textContent = left;
+    if (left <= 5) t.classList.add('warn');
+    if (left <= 0) { clearInterval(iv); advanceExam(); }
+  }, 1000);
+  examState.iv = iv;
+}
+function advanceExam() {
+  clearInterval(examState.iv);
+  const card = document.querySelector('#exam-active .q');
+  const pick = card.dataset.pick === undefined ? -1 : parseInt(card.dataset.pick);
+  const q = examState.qs[examState.idx];
+  examState.answers[q.qid] = {pick, correct: pick === q.ans};
+  examState.idx++;
+  showExamQ();
+}
+function endExam() {
+  document.getElementById('exam-active').hidden = true;
+  document.getElementById('exam-result').hidden = false;
+  const score = Object.values(examState.answers).filter(a => a.correct).length;
+  const total = examState.qs.length;
+  // save attempt
+  const st = S();
+  st.attempts.push({id: 'a' + Date.now(), started: examState.started,
+    completed_at: new Date().toISOString(), mode: 'exam',
+    answers: examState.answers, score, total});
+  // also update per-q (counts as a regular attempt)
+  Object.entries(examState.answers).forEach(([qid, a]) => {
+    const qs = st.q[qid] = st.q[qid] || {attempts: []};
+    qs.last_pick = a.pick; qs.last_correct = a.correct;
+    qs.attempts.push({date: today(), pick: a.pick, correct: a.correct, mode: 'exam'});
+    scheduleSRS(qs, a.correct);
+  });
+  save(st);
+  // render result
+  const pct = Math.round(score/total*100);
+  const root = document.getElementById('exam-result');
+  const rows = examState.qs.map(q => {
+    const a = examState.answers[q.qid] || {pick: -1, correct: false};
+    const lbl = a.pick < 0 ? '未答' : 'ABCDEFG'[a.pick];
+    return `<div class="result-row"><span class="qn">Q${q.qid}</span>
+      <span class="qt">${q.title}</span>
+      <span class="${a.correct?'qok':'qng'}">${a.correct?'✓':'✗'} ${lbl}</span></div>`;
+  }).join('');
+  root.innerHTML = `
+    <h2>🎯 考場結果</h2>
+    <div class="result-score">${score} / ${total}<small>${pct}% · ${pct>=70?'通過':pct>=50?'再加油':'多練幾次'}</small></div>
+    <div style="margin:16px 0">${rows}</div>
+    <button class="start" onclick="resetExam()">再考一次</button>`;
+  updateStatus(); updateBadges();
+}
+
+// ── Reset ──
+document.getElementById('reset-btn').onclick = () => {
+  if (!confirm('清除所有進度（答題紀錄、錯題池、模考歷史）？')) return;
+  localStorage.removeItem(KEY);
+  location.reload();
+};
+
+// ── Init ──
+bindQuestions();
+bindTS();
+bindLineActs();
+bindWords();
+initStudyTools();
+updateStatus();
+updateBadges();
+// restore last_pick/last_correct visual state for already-answered Qs
+(function(){
+  const st = S();
+  Object.entries(st.q).forEach(([qid, qs]) => {
+    if (qs.last_pick === undefined) return;
+    const q = document.querySelector(`.q[data-qid="${qid}"]`);
+    if (!q) return;
+    const ans = parseInt(q.dataset.ans);
+    q.classList.add('revealed');
+    q.querySelectorAll('.opt').forEach((o,i)=>{
+      if(i===ans) o.classList.add('correct');
+      else if(i===qs.last_pick) o.classList.add('wrongpick');
+    });
+  });
+})();
+</script></body></html>

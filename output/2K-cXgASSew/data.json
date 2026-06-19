@@ -1,0 +1,410 @@
+{
+  "video_id": "2K-cXgASSew",
+  "video_info": {
+    "title": "Listening exam A2 (new system) 3 questions",
+    "channel": "Inburgeren examen A2",
+    "duration": 300
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Sophia heeft een nieuwe baan.",
+        "translation": "Sophia 有一份新工作。",
+        "start": 0.0,
+        "end": 2.62
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "請先閱讀問題，然後觀看影片。",
+        "start": 4.28,
+        "end": 8.94
+      },
+      {
+        "text": "Je eerste dag.",
+        "translation": "你的第一天。",
+        "start": 19.6,
+        "end": 21.32
+      },
+      {
+        "text": "Een belangrijke regel is dat de telefoon altijd voorgaat. Dus ook al ben je...",
+        "translation": "一項重要規則是電話永遠優先。所以即使你...",
+        "start": 22.24,
+        "end": 27.64
+      },
+      {
+        "text": "Nog zo druk, maakt niet uit. Je neemt hem altijd op.",
+        "translation": "再忙也沒關係，你總是接電話。",
+        "start": 27.64,
+        "end": 31.18
+      },
+      {
+        "text": "Als iemand de directeur wil spreken, dan verbind je niet meteen door. Je kijkt dan eerst in zijn agenda.",
+        "translation": "如果有人要找主管，你不會馬上轉接，而是先查看主管的行事曆。",
+        "start": 31.72,
+        "end": 34.52
+      },
+      {
+        "text": "Ook vraag je waar het over gaat. Als hij tijd heeft, dan toets je een 1.",
+        "translation": "你還會詢問事情的內容。如果他有時間，你就按1。",
+        "start": 34.52,
+        "end": 38.54
+      },
+      {
+        "text": "Als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden. Je toetst dan de 4. Als Evelien pauze heeft, dan moet je ook voor haar de telefoon opnemen en zo.",
+        "translation": "如果有人打電話給採購部門，你可以直接轉接，按4。如果Evelien休息，你也要幫她接電話。",
+        "start": 39.42,
+        "end": 44.0
+      },
+      {
+        "text": "Dan schrijf je de naam op van de beller en zeg je dat Evelien terugbelt. Vergeet ook niet het telefoonnummer.",
+        "translation": "你會記下來電者的名字，告訴他Evelien會回電，別忘了電話號碼。",
+        "start": 44.74,
+        "end": 48.28
+      },
+      {
+        "text": "Iemand belt voor de directeur. Wat moet Sophia als eerst doen?",
+        "translation": "有人打電話找主管，Sophia應該先做什麼？",
+        "start": 48.28,
+        "end": 56.58
+      },
+      {
+        "text": "Een 1 toetsen, een 4 toetsen, in zijn agenda kijken, naar Evelien doorverbinden.",
+        "translation": "按1，按4，查看行事曆，轉接給Evelien。",
+        "start": 56.58,
+        "end": 58.98
+      },
+      {
+        "text": "Sophia heeft een nieuwe baan.",
+        "translation": "Sophia 有一份新工作。",
+        "start": 59.8,
+        "end": 63.22
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "請先閱讀問題，然後觀看影片。",
+        "start": 63.22,
+        "end": 66.12
+      },
+      {
+        "text": "Nou, je eerste dag.",
+        "translation": "嗯，你的第一天。",
+        "start": 68.56,
+        "end": 73.94
+      },
+      {
+        "text": "Een belangrijke regel is dat de telefoon altijd voorgaat. Dus ook al ben...",
+        "translation": "一項重要規則是電話永遠優先。所以即使你...",
+        "start": 73.94,
+        "end": 76.58
+      },
+      {
+        "text": "Ben je nog zo druk, maakt niet uit. Je neemt hem altijd op.",
+        "translation": "再忙也沒關係，你總是接電話。",
+        "start": 77.56,
+        "end": 86.64
+      },
+      {
+        "text": "Als iemand de directeur wil spreken,",
+        "translation": "如果有人要找主管，",
+        "start": 99.18,
+        "end": 102.92
+      },
+      {
+        "text": "Dan verbind je niet meteen door. Je kijkt dan eerst in zijn agenda.",
+        "translation": "你不會馬上轉接，而是先查看主管的行事曆。",
+        "start": 104.34,
+        "end": 108.9
+      },
+      {
+        "text": "Ook vraag je waar het over gaat. Als hij dan tijd heeft, dan toets je een 1.",
+        "translation": "你還會詢問事情的內容。如果他有時間，你就按1。",
+        "start": 119.36,
+        "end": 121.38
+      },
+      {
+        "text": "Als er iemand belt voor de afdeling inkoop,",
+        "translation": "如果有人打電話給採購部門，",
+        "start": 122.34,
+        "end": 127.5
+      },
+      {
+        "text": "Die kun je dan meteen doorverbinden. Je toetst dan de 4. Als Evelien pauze heeft, dan moet je ook voor haar",
+        "translation": "你可以直接轉接，按4。如果Evelien休息，你也要幫她接電話。",
+        "start": 127.5,
+        "end": 131.2
+      },
+      {
+        "text": "De telefoon opnemen en zo.",
+        "translation": "接電話等等。",
+        "start": 132.2,
+        "end": 133.88
+      },
+      {
+        "text": "Dan schrijf je de naam op van de beller en zeg je dat",
+        "translation": "你會記下來電者的名字，並說",
+        "start": 134.18,
+        "end": 138.58
+      },
+      {
+        "text": "Evelien terugbelt. Vergeet ook niet het telefoonnummer.",
+        "translation": "Evelien會回電，別忘了電話號碼。",
+        "start": 139.5,
+        "end": 144.06
+      },
+      {
+        "text": "Iemand belt voor de afdeling inkoop.",
+        "translation": "有人打電話給採購部門。",
+        "start": 144.92,
+        "end": 147.32
+      },
+      {
+        "text": "Wat moet Sophia doen? Een 1 toetsen, een 4 toetsen, in de agenda kijken, vragen waar het over gaat.",
+        "translation": "Sophia應該怎麼做？按1，按4，查看行事曆，詢問事情內容。",
+        "start": 147.58,
+        "end": 156.28
+      },
+      {
+        "text": "Sophia heeft een nieuwe baan. Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "Sophia 有一份新工作。請先閱讀問題，然後觀看影片。",
+        "start": 156.28,
+        "end": 158.98
+      },
+      {
+        "text": "Nou, je eerste dag.",
+        "translation": "嗯，你的第一天。",
+        "start": 159.68,
+        "end": 162.8
+      },
+      {
+        "text": "Een belangrijke regel is dat de telefoon altijd voorgaat. Dus ook al ben",
+        "translation": "一項重要規則是電話永遠優先。所以即使你...",
+        "start": 162.8,
+        "end": 166.16
+      },
+      {
+        "text": "Ben je nog zo druk, maakt niet uit. Je neemt hem altijd op.",
+        "translation": "再忙也沒關係，你總是接電話。",
+        "start": 168.68,
+        "end": 171.74
+      },
+      {
+        "text": "Als iemand de directeur wil spreken,",
+        "translation": "如果有人要找主管，",
+        "start": 173.48,
+        "end": 185.36
+      },
+      {
+        "text": "Dan verbind je niet meteen door. Je kijkt dan eerst in zijn agenda.",
+        "translation": "你不會馬上轉接，而是先查看主管的行事曆。",
+        "start": 197.04,
+        "end": 205.84
+      },
+      {
+        "text": "Ook vraag je waar het over gaat. Als hij dan tijd heeft, dan toets je een 1.",
+        "translation": "你還會詢問事情的內容。如果他有時間，你就按1。",
+        "start": 216.3,
+        "end": 218.3
+      },
+      {
+        "text": "Als er iemand belt voor de afdeling inkoop,",
+        "translation": "如果有人打電話給採購部門，",
+        "start": 219.24,
+        "end": 224.42
+      },
+      {
+        "text": "Die kun je dan meteen doorverbinden. Je toetst dan de 4. Als Evelien pauze heeft, dan moet je ook voor",
+        "translation": "你可以直接轉接，按4。如果Evelien休息，你也要幫她接電話。",
+        "start": 224.42,
+        "end": 228.14
+      },
+      {
+        "text": "Haar de telefoon opnemen en zo.",
+        "translation": "幫她接電話等等。",
+        "start": 229.1,
+        "end": 230.78
+      },
+      {
+        "text": "Dan schrijf je de naam op van de beller en zeg je dat Evelien",
+        "translation": "你會記下來電者的名字，跟他說Evelien",
+        "start": 231.08,
+        "end": 235.52
+      },
+      {
+        "text": "Terugbelt. Vergeet ook niet het telefoonnummer.",
+        "translation": "會回電，別忘了電話號碼。",
+        "start": 236.4,
+        "end": 240.96
+      },
+      {
+        "text": "Evelien heeft pauze en Sophia neemt haar telefoon op.",
+        "translation": "Evelien正在休息，Sophia幫她接電話。",
+        "start": 241.84,
+        "end": 244.24
+      },
+      {
+        "text": "Wat moet ze doen? De naam en het nummer opschrijven, doorgeven wanneer Evelien terug is, doorverbinden met de directeur.",
+        "translation": "她應該做什麼？記下名字和電話號碼，告知Evelien回來時間，轉接給主管。",
+        "start": 244.5,
+        "end": 253.36
+      },
+      {
+        "text": "Vragen waar het over gaat.",
+        "translation": "詢問事情的內容。",
+        "start": 253.36,
+        "end": 255.9
+      },
+      {
+        "text": "DanschrijfjedenaamopvandebellerendanzegjedatEvelien",
+        "translation": "",
+        "start": 256.68,
+        "end": 260.18
+      },
+      {
+        "text": "terugbeltVergeetookniethettelefoonnummer",
+        "translation": "",
+        "start": 260.18,
+        "end": 263.08
+      },
+      {
+        "text": "EvelienheeftpauzeenSophianeemthaartelefoonop",
+        "translation": "",
+        "start": 265.34,
+        "end": 270.54
+      },
+      {
+        "text": "WatmoetzedoenDenaamenhetnummeropschrijvenDoorgevenwanneerEvelien",
+        "translation": "",
+        "start": 272.08,
+        "end": 281.44
+      },
+      {
+        "text": "terugisDoorverbindenmetdedirecteur",
+        "translation": "",
+        "start": 281.44,
+        "end": 286.16
+      },
+      {
+        "text": "Vragenwaarhetovergaat",
+        "translation": "",
+        "start": 287.18,
+        "end": 289.42
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat moet Sophia doen als iemand de directeur wil spreken?",
+        "question_native": "當有人要找主管時，Sophia應該怎麼做？",
+        "options": [
+          "Direct doorverbinden",
+          "Eerst in zijn agenda kijken en vragen waar het over gaat",
+          "De telefoon niet opnemen"
+        ],
+        "answer": "Eerst in zijn agenda kijken en vragen waar het over gaat"
+      },
+      {
+        "question": "Welke toets moet Sophia indrukken als iemand belt voor de afdeling inkoop?",
+        "question_native": "如果有人打給採購部，Sophia應該按哪個號碼？",
+        "options": [
+          "1",
+          "3",
+          "4"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Wat moet Sophia doen als Evelien pauze heeft en er een belletje komt?",
+        "question_native": "當Evelien休息時，有電話打來，Sophia應該怎麼做？",
+        "options": [
+          "Niet opnemen",
+          "Zelf opnemen en naam opschrijven",
+          "Direct doorverbinden met Evelien"
+        ],
+        "answer": "Zelf opnemen en naam opschrijven"
+      },
+      {
+        "question": "Wat is een belangrijke regel die Sophia moet volgen met de telefoon?",
+        "question_native": "Sophia必須遵守哪一個電話的重要規則？",
+        "options": [
+          "Telefoon altijd opnemen, ongeacht drukte",
+          "Telefoon alleen opnemen als de directeur er is",
+          "Telefoon altijd doorverbinden zonder vragen"
+        ],
+        "answer": "Telefoon altijd opnemen, ongeacht drukte"
+      },
+      {
+        "question": "Wat moet Sophia doen na het opnemen van de telefoon voor Evelien?",
+        "question_native": "幫Evelien接電話後，Sophia需要做什麼？",
+        "options": [
+          "Direct doorverbinden met directeur",
+          "Naam en telefoonnummer noteren en terugbellen beloven",
+          "Telefoon gewoon neerleggen"
+        ],
+        "answer": "Naam en telefoonnummer noteren en terugbellen beloven"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "directeur",
+        "meaning": "主管，經理"
+      },
+      {
+        "word": "afdeling",
+        "meaning": "部門"
+      },
+      {
+        "word": "doorverbinden",
+        "meaning": "轉接電話"
+      },
+      {
+        "word": "pauze",
+        "meaning": "休息，暫停"
+      },
+      {
+        "word": "toetsen",
+        "meaning": "按鍵"
+      },
+      {
+        "word": "agenda",
+        "meaning": "行事曆"
+      },
+      {
+        "word": "beller",
+        "meaning": "來電者"
+      },
+      {
+        "word": "telefoonnummer",
+        "meaning": "電話號碼"
+      },
+      {
+        "word": "naam",
+        "meaning": "名字"
+      },
+      {
+        "word": "belangrijk",
+        "meaning": "重要"
+      },
+      {
+        "word": "regel",
+        "meaning": "規則"
+      },
+      {
+        "word": "opnemen",
+        "meaning": "接聽電話"
+      },
+      {
+        "word": "nieuwe baan",
+        "meaning": "新工作"
+      },
+      {
+        "word": "druk",
+        "meaning": "忙碌"
+      },
+      {
+        "word": "vraag",
+        "meaning": "問題"
+      }
+    ]
+  }
+}

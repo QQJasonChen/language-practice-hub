@@ -1,0 +1,211 @@
+{
+ "video_id": "VhFT2yDaMjg",
+ "title": "Luisteren examen A2 (nieuw systeem) 3 vragen (d)",
+ "channel": "Inburgeren examen A2",
+ "duration": 259,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "在市政府辦出生登記",
+   "title_nl": "Luisteren examen A2 (nieuw systeem) 3 vragen (d)",
+   "kind": "對話",
+   "context_zh": "Eren 和他的朋友 Mark 在市政府辦理出生登記",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Eren is met zijn vriend Mark bij de gemeente.",
+     "zh": "Eren和他的朋友Mark在市政府。"
+    },
+    {
+     "t": "0:05",
+     "nl": "Lees eerst de vraag, kijk daarna naar de video.",
+     "zh": "請先閱讀問題，然後再觀看影片。"
+    },
+    {
+     "t": "0:19",
+     "nl": "Kan ik u helpen? Ik heb een zoon gekregen, gisteren.",
+     "zh": "我可以幫您嗎？我昨天生了一個兒子。"
+    },
+    {
+     "t": "0:24",
+     "nl": "Gefeliciteerd. U wilt dus aangifte doen van de geboorte.",
+     "zh": "恭喜您。您是要申報出生登記。"
+    },
+    {
+     "t": "0:28",
+     "nl": "Mag ik uw legitimatiebewijs? Nee, vergeten.",
+     "zh": "我可以看您的身份證件嗎？不，忘記帶了。"
+    },
+    {
+     "t": "0:33",
+     "nl": "Ach, kan gebeuren. U kunt tot twee dagen na de geboorte aangifte doen.",
+     "zh": "沒關係，這種事會發生。您可以在出生後兩天內辦理申報。"
+    },
+    {
+     "t": "0:39",
+     "nl": "Dus het mag morgen ook nog, want vanmiddag zijn we gesloten.",
+     "zh": "所以明天也可以，因為今天下午我們休息。"
+    },
+    {
+     "t": "0:44",
+     "nl": "Bent u getrouwd? Ja. Dan moet u ook het trouwboekje meenemen.",
+     "zh": "您結婚了嗎？是的。那您也必須帶結婚證書來。"
+    },
+    {
+     "t": "0:49",
+     "nl": "Morgen zijn we tot twaalf uur open. U kunt op internet een afspraak maken.",
+     "zh": "明天我們開放到十二點。您可以在網路上預約。"
+    },
+    {
+     "t": "0:54",
+     "nl": "Dan hoeft u niet zo lang te wachten. Kan dat niet meteen hier aan de balie?",
+     "zh": "這樣您就不必等那麼久。這裡櫃檯不能立刻辦理嗎？"
+    },
+    {
+     "t": "0:59",
+     "nl": "Helaas, alleen online. Oké, bedankt.",
+     "zh": "很抱歉，只能線上預約。好的，謝謝您。"
+    },
+    {
+     "t": "1:05",
+     "nl": "Waarom is Mark bij de gemeente? Hij wil een geboorte aangeven.",
+     "zh": "Mark為什麼來市政府？他想申報出生登記。"
+    },
+    {
+     "t": "1:12",
+     "nl": "Hij gaat binnenkort trouwen.",
+     "zh": "他即將結婚。"
+    },
+    {
+     "t": "1:15",
+     "nl": "Hij is zijn legitimatiebewijs kwijt.",
+     "zh": "他弄丟了身份證件。"
+    },
+    {
+     "t": "1:32",
+     "nl": "Lees eerst de vraag. Kijk daarna naar de video.",
+     "zh": "請先閱讀問題，然後再觀看影片。"
+    },
+    {
+     "t": "1:47",
+     "nl": "Kan ik u helpen? Ik heb een zoon gekregen.",
+     "zh": "我可以幫您嗎？我生了一個兒子。"
+    },
+    {
+     "t": "1:51",
+     "nl": "Gisteren. Gefeliciteerd. U wilt dus aangifte doen van de geboorte.",
+     "zh": "昨天。恭喜您。您是要申報出生登記。"
+    },
+    {
+     "t": "2:33",
+     "nl": "Wanneer kan Mark terugkomen bij de gemeente? Vanmiddag.",
+     "zh": "Mark什麼時候可以回市政府？今天下午。"
+    },
+    {
+     "t": "2:40",
+     "nl": "Morgenochtend. Over drie dagen.",
+     "zh": "明天早上。三天後。"
+    },
+    {
+     "t": "3:57",
+     "nl": "Mark wil de volgende keer niet zo lang wachten.",
+     "zh": "Mark下次不想等那麼久。"
+    },
+    {
+     "t": "4:02",
+     "nl": "Wat kan hij dan het beste doen? Een afspraak maken aan de balie.",
+     "zh": "那他最好怎麼做？在櫃檯預約。"
+    },
+    {
+     "t": "4:09",
+     "nl": "Een afspraak maken via internet.",
+     "zh": "在網路上預約。"
+    },
+    {
+     "t": "4:13",
+     "nl": "Voor twaalf uur naar de gemeente gaan.",
+     "zh": "十二點前去市政府。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "gemeente",
+     "zh": "市政府"
+    },
+    {
+     "nl": "aangifte",
+     "zh": "登記"
+    },
+    {
+     "nl": "geboorte",
+     "zh": "出生"
+    },
+    {
+     "nl": "legitimatiebewijs",
+     "zh": "身份證明"
+    },
+    {
+     "nl": "getrouwd",
+     "zh": "已婚"
+    },
+    {
+     "nl": "trouwboekje",
+     "zh": "結婚證書"
+    },
+    {
+     "nl": "afspraak",
+     "zh": "約會"
+    },
+    {
+     "nl": "wachten",
+     "zh": "等待"
+    },
+    {
+     "nl": "sluiten",
+     "zh": "關閉"
+    },
+    {
+     "nl": "internet",
+     "zh": "網路"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Kan ik u helpen?",
+     "zh": "我可以幫您嗎？",
+     "note": "詢問是否需要幫助"
+    },
+    {
+     "nl": "U wilt dus aangifte doen van de geboorte.",
+     "zh": "您想要辦理出生登記。",
+     "note": "表達意圖"
+    },
+    {
+     "nl": "Mag ik uw legitimatiebewijs?",
+     "zh": "我可以看您的身份證明嗎？",
+     "note": "詢問要求"
+    },
+    {
+     "nl": "Wanneer kan Mark terugkomen bij de gemeente?",
+     "zh": "Mark 什麼時候可以回市政府？",
+     "note": "詢問時間"
+    },
+    {
+     "nl": "U kunt op internet een afspraak maken.",
+     "zh": "您可以在網路上預約。",
+     "note": "提供建議"
+    },
+    {
+     "nl": "Helaas, alleen online.",
+     "zh": "很抱歉，只有線上。",
+     "note": "表達限制"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

@@ -1,0 +1,788 @@
+{
+  "video_id": "oAcYTBuHhT8",
+  "video_info": {
+    "title": "Luisteren examen A2 Oefenen 1",
+    "channel": "Inburgeren examen A2",
+    "duration": 635
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Een nieuw mobieltje. Eén.",
+        "translation": "一支新手機。一支。",
+        "start": 0.0,
+        "end": 3.32
+      },
+      {
+        "text": "Kijk, ik heb een nieuwe mobiel. Wat een mooi toestel! Heb je een abonnement?",
+        "translation": "看，我有一支新手機。多漂亮的裝置！你有合約嗎？",
+        "start": 7.78,
+        "end": 13.7
+      },
+      {
+        "text": "Ja, ik betaal €35,- per maand.",
+        "translation": "是的，我每個月付35歐元。",
+        "start": 14.42,
+        "end": 18.24
+      },
+      {
+        "text": "En je telefoon? Die was gratis.",
+        "translation": "你的電話呢？那是免費的。",
+        "start": 18.78,
+        "end": 20.92
+      },
+      {
+        "text": "Ik vind het wel duur. €35,- per maand.",
+        "translation": "我覺得很貴。每個月35歐元。",
+        "start": 21.62,
+        "end": 25.6
+      },
+      {
+        "text": "O ja? Hoe duur is jouw abonnement?",
+        "translation": "喔是嗎？你的合約多少錢？",
+        "start": 25.6,
+        "end": 29.16
+      },
+      {
+        "text": "Ik heb geen abonnement. Ik bel met een prepaidkaart.",
+        "translation": "我沒有合約。我用預付卡打電話。",
+        "start": 30.54,
+        "end": 34.1
+      },
+      {
+        "text": "Ik betaal ongeveer €15,- per maand.",
+        "translation": "我每個月大約付15歐元。",
+        "start": 35.68,
+        "end": 39.52
+      },
+      {
+        "text": "Moest je je telefoon zelf betalen? Ja, dat wel.",
+        "translation": "你自己買手機嗎？是的，那倒是。",
+        "start": 40.16,
+        "end": 44.4
+      },
+      {
+        "text": "Een nieuw mobieltje. Twee.",
+        "translation": "一支新手機。兩支。",
+        "start": 47.26,
+        "end": 51.22
+      },
+      {
+        "text": "Wonen jouw ouders ook in Nederland? Nee, helaas niet.",
+        "translation": "你的父母也住在荷蘭嗎？不，很遺憾沒有。",
+        "start": 52.46,
+        "end": 57.66
+      },
+      {
+        "text": "Waar wonen ze dan? In Egypte. En wanneer heb je ze voor het laatst gezien?",
+        "translation": "他們住在哪裡？在埃及。你上次什麼時候見過他們？",
+        "start": 58.32,
+        "end": 64.16
+      },
+      {
+        "text": "In de zomer. Maar ik spreek ze wel vaak door de telefoon.",
+        "translation": "夏天。但我經常打電話和他們說話。",
+        "start": 65.06,
+        "end": 68.26
+      },
+      {
+        "text": "O ja. Hoe vaak bel je ze?",
+        "translation": "喔，是嗎？你多久打一次電話？",
+        "start": 69.16,
+        "end": 71.6
+      },
+      {
+        "text": "Eén keer in de week. Elke vrijdag. Dat kost een hoop geld.",
+        "translation": "一週一次。每個星期五。那花了很多錢。",
+        "start": 72.98,
+        "end": 77.8
+      },
+      {
+        "text": "Ja, vroeger wel. Maar nu niet meer.",
+        "translation": "以前是這樣。現在不會了。",
+        "start": 77.8,
+        "end": 81.78
+      },
+      {
+        "text": "Ik bel via de computer. Dat is bijna gratis.",
+        "translation": "我用電腦打電話。幾乎免費。",
+        "start": 82.58,
+        "end": 85.74
+      },
+      {
+        "text": "O, dat is mooi.",
+        "translation": "喔，那很好。",
+        "start": 86.8,
+        "end": 88.26
+      },
+      {
+        "text": "Basisschool De Branding. Met Betty.",
+        "translation": "德布蘭丁小學。貝蒂接的電話。",
+        "start": 100.38,
+        "end": 102.88
+      },
+      {
+        "text": "Goedemorgen. Je spreekt met Anneke de Jager.",
+        "translation": "早安。你正在和安妮克‧德賈格講話。",
+        "start": 104.12,
+        "end": 107.2
+      },
+      {
+        "text": "De moeder van Nicolien. Hallo.",
+        "translation": "妮可連的媽媽。你好。",
+        "start": 107.2,
+        "end": 110.32
+      },
+      {
+        "text": "Nicolien is ziek. Zij kan vandaag niet naar school komen.",
+        "translation": "妮可連生病了。她今天不能去學校。",
+        "start": 111.36,
+        "end": 114.54
+      },
+      {
+        "text": "In welke groep zit ze? In groep 7. Bij meester Martin.",
+        "translation": "她讀幾年級？七年級，在馬丁老師班上。",
+        "start": 115.56,
+        "end": 120.62
+      },
+      {
+        "text": "Oké. Ik zal de boodschap doorgeven.",
+        "translation": "好的。我會轉達這個訊息。",
+        "start": 121.58,
+        "end": 124.92
+      },
+      {
+        "text": "Een beterschap voor Nicolien. Bedankt. Dag.",
+        "translation": "祝妮可連早日康復。謝謝。再見。",
+        "start": 125.72,
+        "end": 129.98
+      },
+      {
+        "text": "Hi, Abdel. Hey, Micha. Alles goed?",
+        "translation": "嗨，阿卜杜。嘿，米哈。怎麼樣？",
+        "start": 141.68,
+        "end": 145.12
+      },
+      {
+        "text": "Ja hoor. Ik kan vanmiddag niet naar de Nederlandse les.",
+        "translation": "還好。我今天下午不能去荷蘭語課。",
+        "start": 145.7,
+        "end": 149.06
+      },
+      {
+        "text": "Waarom niet? Ik heb een afspraak bij de tandarts. Ik heb kiespijn.",
+        "translation": "為什麼？我約了牙醫。我牙齒痛。",
+        "start": 149.82,
+        "end": 154.22
+      },
+      {
+        "text": "Wil jij het doorgeven aan Brenda? Natuurlijk. Sterkte bij de tandarts.",
+        "translation": "你能幫我告訴布倫達嗎？當然。祝你看牙醫順利。",
+        "start": 155.66,
+        "end": 161.64
+      },
+      {
+        "text": "Dank je wel.",
+        "translation": "謝謝你。",
+        "start": 162.6,
+        "end": 163.5
+      },
+      {
+        "text": "Even bellen. Twee.",
+        "translation": "打個電話。第二通。",
+        "start": 166.6,
+        "end": 170.64
+      },
+      {
+        "text": "Tandartspraktijk De Jong. Met Rachida.",
+        "translation": "德容牙科診所。拉希達接的電話。",
+        "start": 176.12,
+        "end": 178.0
+      },
+      {
+        "text": "Hallo. U spreekt met meneer Boulal. Ik wil een afspraak maken.",
+        "translation": "你好。你正在和布拉爾先生講話。我想預約。",
+        "start": 179.16,
+        "end": 183.58
+      },
+      {
+        "text": "Voor controle? Ja. Even kijken.",
+        "translation": "要做檢查嗎？是的。我看看時間。",
+        "start": 184.72,
+        "end": 190.62
+      },
+      {
+        "text": "Kunt u vrijdag 19 augustus om twee uur?",
+        "translation": "你星期五8月19日下午兩點有空嗎？",
+        "start": 190.62,
+        "end": 194.76
+      },
+      {
+        "text": "Kan het ook iets later? Ik werk op vrijdag.",
+        "translation": "能晚一點嗎？我星期五要上班。",
+        "start": 195.62,
+        "end": 198.34
+      },
+      {
+        "text": "Om half vijf heb ik ook nog een plaatsje vrij.",
+        "translation": "下午四點半我也有空。",
+        "start": 199.88,
+        "end": 203.1
+      },
+      {
+        "text": "Dat is prima. Wat is uw naam? Ahmed Boulal.",
+        "translation": "那很好。您的名字是？艾哈邁德‧布拉爾。",
+        "start": 203.66,
+        "end": 207.16
+      },
+      {
+        "text": "En uw geboortedatum? 5 maart 1965.",
+        "translation": "您的生日是？1965年3月5日。",
+        "start": 208.86,
+        "end": 213.26
+      },
+      {
+        "text": "Oké. Dan zien wij u vrijdag de 19e om half vijf.",
+        "translation": "好的，那我們星期五19號下午四點半見。",
+        "start": 214.08,
+        "end": 218.06
+      },
+      {
+        "text": "Bedankt. Tot ziens.",
+        "translation": "謝謝。再見。",
+        "start": 219.26,
+        "end": 221.28
+      },
+      {
+        "text": "Telefoon 1.",
+        "translation": "電話一。",
+        "start": 225.14,
+        "end": 226.06
+      },
+      {
+        "text": "Mevrouw Azizi.",
+        "translation": "阿齊茲女士。",
+        "start": 233.66,
+        "end": 234.88
+      },
+      {
+        "text": "Dag mevrouw. U spreekt met Fatima. Kan ik Emma even spreken?",
+        "translation": "女士您好，你正在和法蒂瑪講話。我可以跟艾瑪說話嗎？",
+        "start": 235.88,
+        "end": 240.16
+      },
+      {
+        "text": "Ja hoor. Ik zal haar even roepen. Emma. Telefoon.",
+        "translation": "可以，我去叫她。艾瑪，電話。",
+        "start": 240.84,
+        "end": 244.6
+      },
+      {
+        "text": "Hallo. Goedemorgen. Met Oran.",
+        "translation": "你好。早安。我是奧蘭。",
+        "start": 252.34,
+        "end": 255.7
+      },
+      {
+        "text": "Ik ben op zoek naar Mohamed. Ik zal even voor je kijken.",
+        "translation": "我在找穆罕默德。我幫你看一下。",
+        "start": 256.94,
+        "end": 261.98
+      },
+      {
+        "text": "Ja hoor. Hij is er. Hij komt eraan. Oké. Bedankt.",
+        "translation": "可以，他在。他來了。好的，謝謝。",
+        "start": 265.0,
+        "end": 270.4
+      },
+      {
+        "text": "Telefoon 2. Telefoon 3.",
+        "translation": "電話二。電話三。",
+        "start": 272.76,
+        "end": 278.72
+      },
+      {
+        "text": "Hallo. Met Hans Janssen. Oh. Pardon. Je spreekt met Franka de Wit.",
+        "translation": "你好。我是漢斯‧揚森。喔，抱歉。你在和弗蘭卡‧德維特講話。",
+        "start": 282.22,
+        "end": 286.9
+      },
+      {
+        "text": "Ik heb een verkeerd nummer gebeld. Oh, dat geeft niet hoor. Fijne dag verder.",
+        "translation": "我打錯電話號碼了。哦，沒關係喔。祝你有美好的一天。",
+        "start": 287.3,
+        "end": 292.92
+      },
+      {
+        "text": "Ja, u ook. Telefoon 4.",
+        "translation": "你也一樣。電話4。",
+        "start": 293.24,
+        "end": 299.2
+      },
+      {
+        "text": "Hallo, met meneer de Vries. Hallo, u spreekt met Maarten. Is Noeran thuis?",
+        "translation": "你好，我是德弗里斯先生。你好，你正在和馬爾滕通話。Noeran在家嗎？",
+        "start": 304.82,
+        "end": 310.78
+      },
+      {
+        "text": "Noeran, ik denk dat u een verkeerd nummer gebeld heeft.",
+        "translation": "Noeran，我想你打錯電話號碼了。",
+        "start": 312.74,
+        "end": 317.18
+      },
+      {
+        "text": "Is dit nummer 73629821? Nee.",
+        "translation": "這個號碼是73629821嗎？不是。",
+        "start": 318.8,
+        "end": 325.74
+      },
+      {
+        "text": "U heeft 73629822 gebeld.",
+        "translation": "你打的是73629822。",
+        "start": 325.96,
+        "end": 332.84
+      },
+      {
+        "text": "Oh, sorry. Dag meneer.",
+        "translation": "哦，抱歉。再見，先生。",
+        "start": 332.84,
+        "end": 336.44
+      },
+      {
+        "text": "Dag.",
+        "translation": "再見。",
+        "start": 338.42,
+        "end": 339.18
+      },
+      {
+        "text": "Hoi, mag ik wat vragen?",
+        "translation": "嗨，我可以問你一些問題嗎？",
+        "start": 344.46,
+        "end": 348.74
+      },
+      {
+        "text": "Natuurlijk. Weet je hoe laat het is? Oh, sorry. Ik heb geen horloge om.",
+        "translation": "當然。你知道現在幾點嗎？哦，抱歉，我沒戴手錶。",
+        "start": 349.5,
+        "end": 354.94
+      },
+      {
+        "text": "Oh, dat geeft niet. Telefoon 4.",
+        "translation": "哦，沒關係。電話4。",
+        "start": 355.42,
+        "end": 357.86
+      },
+      {
+        "text": "Pardon meneer, mag ik u iets vragen? Ja hoor.",
+        "translation": "抱歉先生，我可以問你一件事嗎？當然可以。",
+        "start": 361.56,
+        "end": 364.98
+      },
+      {
+        "text": "Kunt u me zeggen hoe laat het is? Het is kwart voor vier.",
+        "translation": "你能告訴我現在幾點嗎？現在是三點四十五分。",
+        "start": 365.96,
+        "end": 369.6
+      },
+      {
+        "text": "Dank u wel. Graag gedaan.",
+        "translation": "謝謝你。不客氣。",
+        "start": 370.48,
+        "end": 372.8
+      },
+      {
+        "text": "Hoi, mag ik wat vragen? Natuurlijk.",
+        "translation": "嗨，我可以問你一些問題嗎？當然可以。",
+        "start": 379.44,
+        "end": 382.66
+      },
+      {
+        "text": "Weet je hoe laat het is? Oh, sorry. Ik heb geen horloge om.",
+        "translation": "你知道現在幾點嗎？哦，抱歉，我沒戴手錶。",
+        "start": 383.48,
+        "end": 387.54
+      },
+      {
+        "text": "Oh, dat geeft niet.",
+        "translation": "哦，沒關係。",
+        "start": 388.1,
+        "end": 389.64
+      },
+      {
+        "text": "Pardon meneer, mag ik u iets vragen? Ja hoor.",
+        "translation": "抱歉先生，我可以問你一件事嗎？當然可以。",
+        "start": 394.12,
+        "end": 397.48
+      },
+      {
+        "text": "Kunt u me zeggen hoe laat het is? Het is kwart voor vier.",
+        "translation": "你能告訴我現在幾點嗎？現在是三點四十五分。",
+        "start": 398.56,
+        "end": 402.2
+      },
+      {
+        "text": "Dank u wel. Graag gedaan.",
+        "translation": "謝謝你。不客氣。",
+        "start": 403.1,
+        "end": 405.36
+      },
+      {
+        "text": "Ik sta vroeg op. Om zeven uur begin ik met mijn werk.",
+        "translation": "我很早起床。七點開始上班。",
+        "start": 418.18,
+        "end": 423.68
+      },
+      {
+        "text": "Ik werk als schoonmaker in een kantoor. Om negen uur ben ik klaar.",
+        "translation": "我在辦公室當清潔工。九點結束工作。",
+        "start": 425.36,
+        "end": 430.58
+      },
+      {
+        "text": "Dan ga ik naar huis. Om half tien drink ik samen met mijn man een kopje koffie.",
+        "translation": "然後我回家。九點半和丈夫一起喝杯咖啡。",
+        "start": 431.62,
+        "end": 437.18
+      },
+      {
+        "text": "Om half elf heb ik autorijles, tot half twaalf.",
+        "translation": "十點半有駕駛課，直到十一點半。",
+        "start": 438.72,
+        "end": 442.28
+      },
+      {
+        "text": "Daarna ga ik een broodje eten. Vanmiddag ga ik de was doen.",
+        "translation": "之後我去吃三明治。下午我要洗衣服。",
+        "start": 443.42,
+        "end": 448.18
+      },
+      {
+        "text": "Om vier uur kan ik mijn medicijnen ophalen bij de apotheek.",
+        "translation": "四點可以去藥局拿藥。",
+        "start": 449.54,
+        "end": 452.84
+      },
+      {
+        "text": "En om vijf uur ga ik even tv kijken.",
+        "translation": "五點我要看會兒電視。",
+        "start": 453.8,
+        "end": 456.16
+      },
+      {
+        "text": "Met Sophia. Hoi, je spreekt met Eelco.",
+        "translation": "這是給Sophia的。嗨，你正在跟Eelco說話。",
+        "start": 465.28,
+        "end": 469.48
+      },
+      {
+        "text": "Hallo Eelco. Ik kom wat later op mijn werk.",
+        "translation": "你好，Eelco。我今天上班會晚一點。",
+        "start": 470.22,
+        "end": 473.52
+      },
+      {
+        "text": "Oh, ja. Ik heb me verslapen.",
+        "translation": "哦，是的，我睡過頭了。",
+        "start": 474.72,
+        "end": 478.3
+      },
+      {
+        "text": "Dat is vervelend. Ja, het spijt me.",
+        "translation": "那真麻煩。是的，抱歉。",
+        "start": 478.76,
+        "end": 483.52
+      },
+      {
+        "text": "Ik heb de wekker niet gehoord. Hoe laat ben je hier?",
+        "translation": "我沒聽到鬧鐘。你幾點到？",
+        "start": 484.4,
+        "end": 488.06
+      },
+      {
+        "text": "Ik ga opschieten. Dan ben ik om half tien op het werk.",
+        "translation": "我要趕快了。那我九點半會到公司。",
+        "start": 488.84,
+        "end": 493.5
+      },
+      {
+        "text": "Oké, nogmaals sorry. Te laat.",
+        "translation": "好，再次抱歉，遲到了。",
+        "start": 494.22,
+        "end": 498.7
+      },
+      {
+        "text": "Twee. Hoi Alex.",
+        "translation": "二。嗨，亞歷克斯。",
+        "start": 499.68,
+        "end": 503.46
+      },
+      {
+        "text": "Hé Milou, ben je er al lang? Nou, dat valt wel mee.",
+        "translation": "嘿，Milou，你來很久了嗎？不，還好。",
+        "start": 503.74,
+        "end": 509.04
+      },
+      {
+        "text": "Ik was hier om tien over zeven. Is Johan er nog niet?",
+        "translation": "我七點十分到這裡。Johan還沒來嗎？",
+        "start": 509.52,
+        "end": 512.98
+      },
+      {
+        "text": "Nee. Hoe laat begint de film? Om half acht.",
+        "translation": "沒有。電影幾點開始？七點半。",
+        "start": 513.26,
+        "end": 517.16
+      },
+      {
+        "text": "Ik hoop dat hij op tijd komt. Ja, hij is wel vaker te laat.",
+        "translation": "我希望他能準時來。是的，他常常遲到。",
+        "start": 517.72,
+        "end": 521.86
+      },
+      {
+        "text": "Hoe laat is het? Bijna half acht. Zullen we naar binnen gaan?",
+        "translation": "幾點了？快七點半了。我們要進去嗎？",
+        "start": 522.58,
+        "end": 527.48
+      },
+      {
+        "text": "Oh, daar is Johan. Waarom ben je nou zo laat?",
+        "translation": "哦，Johan來了。你怎麼這麼晚？",
+        "start": 528.44,
+        "end": 531.64
+      },
+      {
+        "text": "De brug was open.",
+        "translation": "橋剛好開著。",
+        "start": 531.9,
+        "end": 533.24
+      },
+      {
+        "text": "Wanneer ben je jarig? Eén.",
+        "translation": "你幾月幾號生日？一號。",
+        "start": 536.56,
+        "end": 539.28
+      },
+      {
+        "text": "Hoe oud ben jij? Ik word dit jaar veertig.",
+        "translation": "你幾歲？我今年四十歲。",
+        "start": 543.32,
+        "end": 546.38
+      },
+      {
+        "text": "Wat toevallig. Ik ook. Wanneer ben jij jarig?",
+        "translation": "真巧，我也是。你幾號生日？",
+        "start": 547.14,
+        "end": 550.72
+      },
+      {
+        "text": "In mei. Twintig mei. Dan ben ik twee maanden ouder.",
+        "translation": "五月。五月二十號。那我比你大兩個月。",
+        "start": 550.72,
+        "end": 555.54
+      },
+      {
+        "text": "Mijn verjaardag is in maart. Vier jij je verjaardag altijd?",
+        "translation": "我生日在三月。你都會慶祝生日嗎？",
+        "start": 556.68,
+        "end": 560.88
+      },
+      {
+        "text": "Nee. Meestal niet. En jij?",
+        "translation": "不，大多不會。你呢？",
+        "start": 561.24,
+        "end": 565.02
+      },
+      {
+        "text": "Ik ook niet. Maar dit jaar wel. Veertig is een speciale leeftijd.",
+        "translation": "我也不會。不過今年會，因為四十歲是個特別的年紀。",
+        "start": 566.0,
+        "end": 571.96
+      },
+      {
+        "text": "Wat ga je doen? Ik geef een tuinfeest in juli.",
+        "translation": "你打算做什麼？我七月要辦一個庭園派對。",
+        "start": 573.42,
+        "end": 578.42
+      },
+      {
+        "text": "Leuk. Dan is het vast mooi weer. Ik hoop het.",
+        "translation": "很棒。那時候天氣應該很好。我希望如此。",
+        "start": 578.42,
+        "end": 583.78
+      },
+      {
+        "text": "Wanneer ben je jarig? Twee.",
+        "translation": "你什麼時候過生日？兩號。",
+        "start": 586.02,
+        "end": 589.42
+      },
+      {
+        "text": "Wanneer ga je op vakantie? Volgende week. Ik vertrek vijftien juni.",
+        "translation": "你什麼時候去度假？下週。我六月十五日出發。",
+        "start": 594.4,
+        "end": 599.22
+      },
+      {
+        "text": "Oh. Hoe lang ga je? Twee weken. En jullie?",
+        "translation": "喔。你要去多久？兩週。你們呢？",
+        "start": 600.12,
+        "end": 604.78
+      },
+      {
+        "text": "Wij gaan twintig juli weg. Ja. Dan hebben de kinderen pas vakantie.",
+        "translation": "我們七月二十日出發。是的，這樣孩子們才開始放假。",
+        "start": 605.94,
+        "end": 610.78
+      },
+      {
+        "text": "Waar gaan jullie naartoe? Naar Turkije. We gaan een maand naar mijn moeder.",
+        "translation": "你們要去哪裡？去土耳其。我們要去看我媽媽一個月。",
+        "start": 611.82,
+        "end": 616.26
+      },
+      {
+        "text": "Wat heerlijk. Fijn om je moeder weer te zien.",
+        "translation": "真好。很高興能再見到你媽媽。",
+        "start": 617.14,
+        "end": 620.96
+      },
+      {
+        "text": "Jazeker. We hebben haar anderhalf jaar niet gezien.",
+        "translation": "當然。我們有一年半沒見過她了。",
+        "start": 621.84,
+        "end": 625.12
+      },
+      {
+        "text": "Dat is een lange tijd. En mijn moeder wordt één augustus zeventig.",
+        "translation": "那真的很長一段時間。我媽媽八月一日就七十歲了。",
+        "start": 626.26,
+        "end": 630.28
+      },
+      {
+        "text": "Dus dan zijn we er ook bij. Ondertitels door de Amara.org gemeenschap.",
+        "translation": "所以我們也會在那裡。字幕由 Amara.org 社群提供。",
+        "start": 630.72,
+        "end": 635.34
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat betaalde de persoon met een abonnement per maand?",
+        "question_native": "此人每月在合約上支付多少費用？",
+        "options": [
+          "€15,-",
+          "€35,-",
+          "Gratis"
+        ],
+        "answer": "€35,-"
+      },
+      {
+        "question": "Waar wonen de ouders van de spreker?",
+        "question_native": "說話者的父母住在哪裡？",
+        "options": [
+          "Nederland",
+          "Egypte",
+          "België"
+        ],
+        "answer": "Egypte"
+      },
+      {
+        "question": "Waarom kon Micha niet naar de Nederlandse les gaan?",
+        "question_native": "米哈為什麼不能去荷蘭語課？",
+        "options": [
+          "Ze was ziek",
+          "Hij had kiespijn",
+          "Hij had geen tijd"
+        ],
+        "answer": "Hij had kiespijn"
+      },
+      {
+        "question": "Wanneer is de afspraak bij de tandarts gepland?",
+        "question_native": "牙醫的預約時間是什麼時候？",
+        "options": [
+          "19 augustus om 14:00",
+          "19 augustus om 16:30",
+          "20 augustus om 10:00"
+        ],
+        "answer": "19 augustus om 16:30"
+      },
+      {
+        "question": "Met wie spreekt de persoon aan het eind van de tekst?",
+        "question_native": "文末這人和誰講話？",
+        "options": [
+          "Hans Janssen",
+          "Franka de Wit",
+          "Mohamed"
+        ],
+        "answer": "Franka de Wit"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "mobieltje",
+        "meaning": "手機"
+      },
+      {
+        "word": "abonnement",
+        "meaning": "合約"
+      },
+      {
+        "word": "prepaidkaart",
+        "meaning": "預付卡"
+      },
+      {
+        "word": "afspraak",
+        "meaning": "約會、預約"
+      },
+      {
+        "word": "kiespijn",
+        "meaning": "牙痛"
+      },
+      {
+        "word": "boodschap",
+        "meaning": "訊息"
+      },
+      {
+        "word": "beterschap",
+        "meaning": "祝福康復"
+      },
+      {
+        "word": "tandartspraktijk",
+        "meaning": "牙科診所"
+      },
+      {
+        "word": "geboortedatum",
+        "meaning": "出生日期"
+      },
+      {
+        "word": "groep",
+        "meaning": "（班級）組"
+      },
+      {
+        "word": "controleren",
+        "meaning": "檢查"
+      },
+      {
+        "word": "telefoon",
+        "meaning": "電話"
+      },
+      {
+        "word": "werken",
+        "meaning": "工作"
+      },
+      {
+        "word": "kosten",
+        "meaning": "費用"
+      },
+      {
+        "word": "spreken",
+        "meaning": "講話"
+      }
+    ]
+  }
+}

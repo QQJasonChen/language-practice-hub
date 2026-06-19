@@ -1,0 +1,1020 @@
+{
+ "nabil heeft een nieuwe baan.": {
+  "breakdown": [
+   [
+    "Nabil",
+    "Nabil"
+   ],
+   [
+    "heeft",
+    "有"
+   ],
+   [
+    "een nieuwe baan",
+    "一份新工作"
+   ]
+  ],
+  "order": "主詞(Nabil) → 動詞(heeft) → 受詞(一份新工作)",
+  "grammar": "現在式，heeft 是 hebben 的變化。",
+  "listen": "注意 'heeft' 的發音，可能聽不清楚。"
+ },
+ "zijn baas vertelt iets.": {
+  "breakdown": [
+   [
+    "Zijn baas",
+    "他的老闆"
+   ],
+   [
+    "vertelt",
+    "說了"
+   ],
+   [
+    "iets",
+    "一些事情"
+   ]
+  ],
+  "order": "主詞(他的老闆) → 動詞(說了) → 受詞(一些事情)",
+  "grammar": "現在式，vertelt 是 vertellen 的變化。",
+  "listen": "'iets' 可能被弱讀，聽起來像 'iet'。"
+ },
+ "lees eerst de vraag, kijk daarna naar de video.": {
+  "breakdown": [
+   [
+    "Lees eerst de vraag",
+    "先讀問題"
+   ],
+   [
+    "kijk daarna",
+    "然後看"
+   ],
+   [
+    "naar de video",
+    "影片"
+   ]
+  ],
+  "order": "動詞(Lees) → 副詞(先) → 受詞(問題) → 動詞( kijk) → 副詞(然後) → 受詞(影片)",
+  "grammar": "命令式，動詞放句首。",
+  "listen": "'eerst' 和 'dan' 可能連音，聽起來不清楚。"
+ },
+ "oké, nabil.": {
+  "breakdown": [
+   [
+    "Oké",
+    "好"
+   ],
+   [
+    "Nabil",
+    "Nabil"
+   ]
+  ],
+  "order": "感嘆詞(好) → 主詞(Nabil)",
+  "grammar": "簡單句，無特殊文法。",
+  "listen": "'Oké' 的發音可能被忽略。"
+ },
+ "wat handige informatie voor als u materiaal wilt bestellen, zoals pennen.": {
+  "breakdown": [
+   [
+    "Wat handige informatie",
+    "一些實用資訊"
+   ],
+   [
+    "voor als u materiaal wilt bestellen",
+    "當您想訂購物資時"
+   ],
+   [
+    "zoals pennen",
+    "例如訂購筆"
+   ]
+  ],
+  "order": "主詞(一些實用資訊) → 介詞(當) → 受詞(您想訂購物資) → 例子(例如訂購筆)",
+  "grammar": "'voor als' 是固定搭配，表示條件。",
+  "listen": "'handige' 可能被弱讀，聽起來像 'handig'。"
+ },
+ "de afdeling inkoop doet de bestellingen.": {
+  "breakdown": [
+   [
+    "De afdeling Inkoop",
+    "採購部"
+   ],
+   [
+    "doet",
+    "負責"
+   ],
+   [
+    "de bestellingen",
+    "訂單"
+   ]
+  ],
+  "order": "主詞(採購部) → 動詞(負責) → 受詞(訂單)",
+  "grammar": "現在式，doet 是 doen 的變化。",
+  "listen": "'de' 可能被快速發音，聽不清楚。"
+ },
+ "inkoop zit op de tweede verdieping, kamer 2.3.": {
+  "breakdown": [
+   [
+    "Inkoop",
+    "採購部"
+   ],
+   [
+    "zit",
+    "位於"
+   ],
+   [
+    "op de tweede verdieping",
+    "在二樓"
+   ],
+   [
+    "kamer 2.3",
+    "房間2.3"
+   ]
+  ],
+  "order": "主詞(採購部) → 動詞(位於) → 地點(在二樓) → 具體位置(房間2.3)",
+  "grammar": "現在式，zit 是 zitten 的變化。",
+  "listen": "'tweede' 可能被弱讀，聽起來像 'tweede'。"
+ },
+ "naast verkoop in 2.2.": {
+  "breakdown": [
+   [
+    "Naast verkoop",
+    "就在銷售部"
+   ],
+   [
+    "in 2.2",
+    "2.2旁邊"
+   ]
+  ],
+  "order": "介詞(就在) → 受詞(銷售部) → 地點(2.2旁邊)",
+  "grammar": "簡單句，無特殊文法。",
+  "listen": "'naast' 可能被快速發音，聽不清楚。"
+ },
+ "je kijkt zo naar binnen vanuit de kantine.": {
+  "breakdown": [
+   [
+    "Je kijkt",
+    "你看"
+   ],
+   [
+    "zo naar binnen",
+    "直接看到裡面"
+   ],
+   [
+    "vanuit de kantine",
+    "從餐廳"
+   ]
+  ],
+  "order": "主詞(你) → 動詞(看) → 副詞(直接) → 受詞(裡面) → 來源(從餐廳)",
+  "grammar": "現在式，kijkt 是 kijken 的變化。",
+  "listen": "'zo' 可能被弱讀，聽起來像 'zo'。"
+ },
+ "als u iets wilt bestellen, vul je dit formulier in. dat lever je dan in bij inkoop.": {
+  "breakdown": [
+   [
+    "Als u iets wilt bestellen",
+    "如果您想訂購東西"
+   ],
+   [
+    "vul je dit formulier in",
+    "請填寫這張表格"
+   ],
+   [
+    "Dat lever je dan in bij Inkoop",
+    "然後交給採購部"
+   ]
+  ],
+  "order": "從句(如果您想訂購東西) → 動詞(填寫) → 受詞(這張表格) → 主詞(您) → 動詞(交給) → 受詞(採購部)",
+  "grammar": "從句，動詞放句尾。",
+  "listen": "'iets' 可能被弱讀，聽起來像 'iet'。"
+ },
+ "als de bestelling binnen is, hoor je dat van inkoop.": {
+  "breakdown": [
+   [
+    "Als de bestelling binnen is",
+    "當訂單到貨時"
+   ],
+   [
+    "hoor je dat",
+    "你會得到通知"
+   ],
+   [
+    "van Inkoop",
+    "從採購部"
+   ]
+  ],
+  "order": "從句(當訂單到貨時) → 動詞(你會得到) → 受詞(通知) → 來源(從採購部)",
+  "grammar": "從句，動詞放句尾。",
+  "listen": "'is' 可能被快速發音，聽不清楚。"
+ },
+ "meestal bellen ze even, of ze sturen een mailtje.": {
+  "breakdown": [
+   [
+    "Meestal",
+    "通常"
+   ],
+   [
+    "bellen ze even",
+    "會打電話"
+   ],
+   [
+    "of ze sturen een mailtje",
+    "或寄電子郵件"
+   ]
+  ],
+  "order": "副詞(通常) → 動詞(會打電話) → 連接詞(或) → 動詞(寄) → 受詞(電子郵件)",
+  "grammar": "現在式，bellen 是動詞原形。",
+  "listen": "'even' 可能被弱讀，聽起來像 'ev'。"
+ },
+ "en als er een klein pakket is, leggen ze dat meteen in je postvak.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "als er een klein pakket is",
+    "如果有小包裹"
+   ],
+   [
+    "leggen ze dat meteen in je postvak",
+    "他們會直接放進你的信箱"
+   ]
+  ],
+  "order": "如果(als) → 有(er) → 小包裹(een klein pakket) → 他們(ze) → 會放(leggen) → 進( in) → 你的(je) → 信箱(postvak)",
+  "grammar": "使用現在時，'leggen'是規則動詞。",
+  "listen": "注意'ze'和'dat'的連音，可能聽不清。"
+ },
+ "waar zit de afdeling inkoop?": {
+  "breakdown": [
+   [
+    "Waar",
+    "哪裡"
+   ],
+   [
+    "zit",
+    "在"
+   ],
+   [
+    "de afdeling Inkoop",
+    "採購部"
+   ]
+  ],
+  "order": "哪裡(Waar) → 在(zit) → 採購部(de afdeling Inkoop)",
+  "grammar": "使用現在時，'zit'是動詞。",
+  "listen": "注意'Waar'的發音，可能聽不清。"
+ },
+ "in kamer 2.2.": {
+  "breakdown": [
+   [
+    "In kamer 2.2",
+    "在2.2房間"
+   ]
+  ],
+  "order": "在(In) → 2.2房間(kamer 2.2)",
+  "grammar": "簡單句，無特殊文法結構。",
+  "listen": "'In'和'kamer'之間的連音要注意。"
+ },
+ "in kamer 2.3. naast de kantine.": {
+  "breakdown": [
+   [
+    "In kamer 2.3",
+    "在2.3房間"
+   ],
+   [
+    "Naast de kantine",
+    "就在餐廳旁邊"
+   ]
+  ],
+  "order": "在(In) → 2.3房間(kamer 2.3) → 就在(Naast) → 餐廳旁邊(de kantine)",
+  "grammar": "簡單句，無特殊文法結構。",
+  "listen": "注意'Naast'和'de'的連音。"
+ },
+ "nabil wil iets bestellen.": {
+  "breakdown": [
+   [
+    "Nabil",
+    "Nabil"
+   ],
+   [
+    "wil iets bestellen",
+    "想訂購東西"
+   ]
+  ],
+  "order": "Nabil(主詞) → 想(wil) → 訂購(iets bestellen)",
+  "grammar": "使用現在時，'wil'是情態動詞。",
+  "listen": "'iets'的發音可能不清楚。"
+ },
+ "wat moet hij doen?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "moet hij doen",
+    "他應該怎麼做"
+   ]
+  ],
+  "order": "什麼(Wat) → 他(hi) → 應該(moet) → 做(doen)",
+  "grammar": "使用現在時，'moet'是情態動詞。",
+  "listen": "注意'Wat'的發音，可能聽不清。"
+ },
+ "even langslopen bij de afdeling inkoop.": {
+  "breakdown": [
+   [
+    "Even langslopen",
+    "親自去看看"
+   ],
+   [
+    "bij de afdeling Inkoop",
+    "在採購部"
+   ]
+  ],
+  "order": "親自去(Even langslopen) → 看看(bij) → 採購部(de afdeling Inkoop)",
+  "grammar": "使用現在時，'langslopen'是可分動詞。",
+  "listen": "'Even'的發音可能不清楚。"
+ },
+ "de bestelling naar de afdeling inkoop mailen.": {
+  "breakdown": [
+   [
+    "De bestelling",
+    "訂單"
+   ],
+   [
+    "naar de afdeling Inkoop mailen",
+    "寄電子郵件給採購部"
+   ]
+  ],
+  "order": "訂單(De bestelling) → 寄(mailen) → 採購部(naar de afdeling Inkoop)",
+  "grammar": "使用現在時，'mailen'是規則動詞。",
+  "listen": "注意'naar'的連音，可能聽不清。"
+ },
+ "de afdeling inkoop bellen met de bestelling.": {
+  "breakdown": [
+   [
+    "De afdeling Inkoop",
+    "採購部"
+   ],
+   [
+    "bellen met de bestelling",
+    "打電話告知訂單"
+   ]
+  ],
+  "order": "採購部(De afdeling Inkoop) → 打電話(bellen) → 告知(мет) → 訂單(de bestelling)",
+  "grammar": "使用現在時，'bellen'是規則動詞。",
+  "listen": "'met'的發音可能不清楚。"
+ },
+ "een formulier inleveren bij de afdeling inkoop.": {
+  "breakdown": [
+   [
+    "Een formulier",
+    "一份表格"
+   ],
+   [
+    "inleveren bij de afdeling Inkoop",
+    "交給採購部"
+   ]
+  ],
+  "order": "一份表格(Een formulier) → 交給(inleveren) → 採購部(bij de afdeling Inkoop)",
+  "grammar": "使用現在時，'inleveren'是規則動詞。",
+  "listen": "注意'een'的發音，可能聽不清。"
+ },
+ "julia doet een koksopleiding.": {
+  "breakdown": [
+   [
+    "Julia",
+    "Julia"
+   ],
+   [
+    "doet een koksopleiding",
+    "正在學廚師課程"
+   ]
+  ],
+  "order": "Julia(主詞) → 正在(doet) → 學(koksopleiding) → 廚師課程(een)",
+  "grammar": "使用現在時，'doet'是規則動詞。",
+  "listen": "注意'doet'的發音，可能聽不清。"
+ },
+ "haar medekursisten mira en chris praten over de examens.": {
+  "breakdown": [
+   [
+    "Haar medekursisten",
+    "她的同學"
+   ],
+   [
+    "Mira en Chris",
+    "Mira和Chris"
+   ],
+   [
+    "praten over de examens",
+    "正在談論考試"
+   ]
+  ],
+  "order": "她的同學(Haar medekursisten) → Mira和Chris(Mira en Chris) → 正在談論(praten) → 考試(over de examens)",
+  "grammar": "使用現在時，'praten'是規則動詞。",
+  "listen": "注意'Mira en Chris'的連音，可能聽不清。"
+ },
+ "wat een drukke tijd met al die examens. vijf in totaal.": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "een drukke tijd",
+    "忙碌的時期"
+   ],
+   [
+    "met al die examens",
+    "有這麼多考試"
+   ],
+   [
+    "Vijf in totaal",
+    "總共有五科"
+   ]
+  ],
+  "order": "主詞Wat → 動詞是een drukke tijd → 其他部分met al die examens → 數字Vijf在句尾。",
+  "grammar": "使用了現在時，表達當前的狀態。",
+  "listen": "注意‘een’和‘drukke’之間的連音。"
+ },
+ "ja, volgende week hebben we alleen al drie examens.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "volgende week",
+    "下週"
+   ],
+   [
+    "hebben we",
+    "我們有"
+   ],
+   [
+    "alleen al drie examens",
+    "光是三科考試"
+   ]
+  ],
+  "order": "主詞we → 動詞hebben → 時間volgende week → 其他部分alleen al drie examens。",
+  "grammar": "使用現在時，表示未來的計劃。",
+  "listen": "‘alleen al’可能會被快速說出，注意聽清。"
+ },
+ "en de week daarna twee.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "de week daarna",
+    "隔週"
+   ],
+   [
+    "twee",
+    "兩科"
+   ]
+  ],
+  "order": "連接詞En → 時間de week daarna → 數字twee在句尾。",
+  "grammar": "使用現在時，簡單描述未來的情況。",
+  "listen": "‘de week’和‘daarna’之間的連音。"
+ },
+ "ik weet echt niet hoe ik dat moet leren.": {
+  "breakdown": [
+   [
+    "Ik weet",
+    "我知道"
+   ],
+   [
+    "echt niet",
+    "真的不"
+   ],
+   [
+    "hoe ik dat moet leren",
+    "我該怎麼學習"
+   ]
+  ],
+  "order": "主詞Ik → 動詞weet → 否定echt niet → 其他部分hoe ik dat moet leren。",
+  "grammar": "使用現在時，表達不確定的情況。",
+  "listen": "‘hoe’和‘ik’之間的連音。"
+ },
+ "zorg dat je eerst een goede planning maakt.": {
+  "breakdown": [
+   [
+    "Zorg dat",
+    "確保"
+   ],
+   [
+    "je eerst",
+    "你先"
+   ],
+   [
+    "een goede planning maakt",
+    "做一個好的計畫"
+   ]
+  ],
+  "order": "動詞Zorg → 連接詞dat → 主詞je → 其他部分een goede planning maakt。",
+  "grammar": "使用現在時，給予建議。",
+  "listen": "‘een’和‘goede’之間的連音。"
+ },
+ "dat helpt voor mij altijd heel goed.": {
+  "breakdown": [
+   [
+    "Dat helpt",
+    "這有幫助"
+   ],
+   [
+    "voor mij",
+    "對我來說"
+   ],
+   [
+    "altijd heel goed",
+    "總是很好"
+   ]
+  ],
+  "order": "主詞Dat → 動詞helpt → 其他部分voor mij → 副詞altijd heel goed。",
+  "grammar": "使用現在時，表達持續的情況。",
+  "listen": "‘helpt’的發音可能較輕，注意聽清。"
+ },
+ "ja, dat is misschien wel handig.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "dat is",
+    "這是"
+   ],
+   [
+    "misschien wel handig",
+    "或許很有用"
+   ]
+  ],
+  "order": "主詞dat → 動詞is → 其他部分misschien wel handig。",
+  "grammar": "使用現在時，表達可能性。",
+  "listen": "‘dat’和‘is’之間的連音。"
+ },
+ "en als ik je dan nog een tip mag geven, dan ga gewoon leren in de bus en in de trein.": {
+  "breakdown": [
+   [
+    "En als",
+    "如果"
+   ],
+   [
+    "ik je dan nog een tip mag geven",
+    "我可以給你一個建議"
+   ],
+   [
+    "dan ga gewoon leren in de bus en in de trein",
+    "那麼就可以在公車和火車上學習"
+   ]
+  ],
+  "order": "連接詞En → 條件als → 主詞ik → 動詞mag geven → 其他部分dan ga gewoon leren in de bus en in de trein。",
+  "grammar": "使用現在時，給予建議。",
+  "listen": "‘dan’和‘ga’之間的連音。"
+ },
+ "ik bedoel, die tijd ben je toch aan het wachten. dan kan je heel veel extra doen.": {
+  "breakdown": [
+   [
+    "Ik bedoel",
+    "我意思是"
+   ],
+   [
+    "die tijd",
+    "那段時間"
+   ],
+   [
+    "ben je toch aan het wachten",
+    "你本來就是在等"
+   ]
+  ],
+  "order": "主詞Ik → 動詞bedoel → 其他部分die tijd → 其他部分ben je toch aan het wachten。",
+  "grammar": "使用現在時，表達解釋。",
+  "listen": "‘die’和‘tijd’之間的連音。"
+ },
+ "vooral als je zo vaak vertraging hebt.": {
+  "breakdown": [
+   [
+    "Vooral als",
+    "尤其是當"
+   ],
+   [
+    "je zo vaak",
+    "你這麼常"
+   ],
+   [
+    "vertraging hebt",
+    "誤點"
+   ]
+  ],
+  "order": "副詞Vooral → 條件als → 主詞je → 動詞hebt → 其他部分vertraging。",
+  "grammar": "使用現在時，描述情況。",
+  "listen": "‘zo’和‘vaak’之間的連音。"
+ },
+ "dat is een goeie zeg, dat ga ik doen.": {
+  "breakdown": [
+   [
+    "Dat is",
+    "這是"
+   ],
+   [
+    "een goeie zeg",
+    "一個好主意"
+   ],
+   [
+    "dat ga ik doen",
+    "我會這樣做"
+   ]
+  ],
+  "order": "主詞Dat → 動詞is → 其他部分een goeie zeg → 其他部分dat ga ik doen。",
+  "grammar": "使用現在時，表達決定。",
+  "listen": "‘een’和‘goeie’之間的連音。"
+ },
+ "hoeveel examens heeft julia volgende week?": {
+  "breakdown": [
+   [
+    "Hoeveel examens",
+    "幾科考試"
+   ],
+   [
+    "heeft Julia",
+    "Julia有"
+   ],
+   [
+    "volgende week",
+    "下週"
+   ]
+  ],
+  "order": "疑問詞Hoeveel → 動詞heeft → 主詞Julia → 其他部分volgende week。",
+  "grammar": "使用現在時，詢問數量。",
+  "listen": "‘Hoeveel’的發音可能較快，注意聽清。"
+ },
+ "twee, drie, vijf.": {
+  "breakdown": [
+   [
+    "Twee",
+    "兩"
+   ],
+   [
+    "drie",
+    "三"
+   ],
+   [
+    "vijf",
+    "五"
+   ]
+  ],
+  "order": "數字直接列舉，無需動詞或主詞。",
+  "grammar": "簡單名詞列舉，無時態變化。",
+  "listen": "注意數字之間的連音。"
+ },
+ "vooral als je zo vaak vertraging hebt. dat is een goeie, zeg. dat ga ik doen.": {
+  "breakdown": [
+   [
+    "Vooral",
+    "尤其"
+   ],
+   [
+    "als je",
+    "當你"
+   ],
+   [
+    "zo vaak",
+    "這麼常"
+   ],
+   [
+    "vertraging hebt",
+    "有延誤"
+   ]
+  ],
+  "order": "Vooral(副詞) → als(連接詞) → je(主詞) → hebt(動詞) → vertraging(名詞)。",
+  "grammar": "現在式，表達習慣或事實。",
+  "listen": "注意'je'的弱讀，可能聽不清。"
+ },
+ "julia luistert naar het gesprek.": {
+  "breakdown": [
+   [
+    "Julia",
+    "Julia"
+   ],
+   [
+    "luistert naar",
+    "在聽"
+   ],
+   [
+    "het gesprek",
+    "這段對話"
+   ]
+  ],
+  "order": "主詞Julia → 動詞luistert → 介詞na(naar) → 受詞het gesprek。",
+  "grammar": "現在式，描述當前行為。",
+  "listen": "注意'luistert'的發音，可能被忽略。"
+ },
+ "welke tip geeft chris als eerste aan mira?": {
+  "breakdown": [
+   [
+    "Welke tip",
+    "哪個建議"
+   ],
+   [
+    "geeft",
+    "給"
+   ],
+   [
+    "Chris",
+    "Chris"
+   ],
+   [
+    "als eerste",
+    "第一個"
+   ],
+   [
+    "aan Mira",
+    "給Mira"
+   ]
+  ],
+  "order": "疑問詞Welke → 主詞tip → 動詞geeft → 主詞Chris → 副詞als eerste → 受詞aan Mira。",
+  "grammar": "疑問句，動詞在第二位。",
+  "listen": "注意'aan'的連音，可能聽不清。"
+ },
+ "julia, ga extra veel leren.": {
+  "breakdown": [
+   [
+    "Julia",
+    "Julia"
+   ],
+   [
+    "ga",
+    "去"
+   ],
+   [
+    "extra veel",
+    "多多"
+   ],
+   [
+    "leren",
+    "學習"
+   ]
+  ],
+  "order": "主詞Julia → 動詞ga → 副詞extra veel → 動詞leren。",
+  "grammar": "祈使句，動詞放句首。",
+  "listen": "注意'ga'的發音，可能被忽略。"
+ },
+ "leer in de bus en in de trein.": {
+  "breakdown": [
+   [
+    "Leer",
+    "學習"
+   ],
+   [
+    "in de bus",
+    "在公車上"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "in de trein",
+    "在火車上"
+   ]
+  ],
+  "order": "動詞Leer → 介詞in de bus → 連接詞en → 介詞in de trein。",
+  "grammar": "祈使句，動詞放句首。",
+  "listen": "注意'in'的連音，可能聽不清。"
+ },
+ "maak een planning.": {
+  "breakdown": [
+   [
+    "Maak",
+    "做"
+   ],
+   [
+    "een planning",
+    "一個計畫"
+   ]
+  ],
+  "order": "動詞Maak → 受詞een planning。",
+  "grammar": "祈使句，動詞放句首。",
+  "listen": "注意'een'的弱讀，可能聽不清。"
+ },
+ "haar mede-cursisten mira en chris praten over de examens.": {
+  "breakdown": [
+   [
+    "Haar",
+    "她的"
+   ],
+   [
+    "mede-cursisten",
+    "同學"
+   ],
+   [
+    "Mira en Chris",
+    "Mira和Chris"
+   ],
+   [
+    "praten over",
+    "談論"
+   ],
+   [
+    "de examens",
+    "考試"
+   ]
+  ],
+  "order": "主詞Haar mede-cursisten → 動詞praten → 介詞over → 受詞de examens。",
+  "grammar": "現在式，描述當前行為。",
+  "listen": "注意'mede-cursisten'的發音，可能聽不清。"
+ },
+ "tjee, wat een drukke tijd hè, met al die examens.": {
+  "breakdown": [
+   [
+    "Tjee",
+    "哇"
+   ],
+   [
+    "wat een drukke tijd",
+    "多忙碌的時期"
+   ],
+   [
+    "hè",
+    "啊"
+   ],
+   [
+    "met al die examens",
+    "有這麼多考試"
+   ]
+  ],
+  "order": "感嘆詞Tjee → 形容詞wat een drukke tijd → 助詞hè → 介詞met → 受詞al die examens。",
+  "grammar": "感嘆句，無特定時態。",
+  "listen": "注意'hè'的弱讀，可能聽不清。"
+ },
+ "vijf in totaal.": {
+  "breakdown": [
+   [
+    "Vijf",
+    "五"
+   ],
+   [
+    "in totaal",
+    "總共"
+   ]
+  ],
+  "order": "數字Vijf → 副詞in totaal。",
+  "grammar": "簡單名詞陳述，無時態變化。",
+  "listen": "注意'in'的連音，可能聽不清。"
+ },
+ "ik weet echt niet hoe ik dat allemaal moet leren.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "weet echt niet",
+    "真的不知道"
+   ],
+   [
+    "hoe ik dat allemaal moet leren",
+    "怎麼全部讀得完"
+   ]
+  ],
+  "order": "主詞Ik → 動詞weet → 副詞echt niet → 受詞hoe ik dat allemaal moet leren。",
+  "grammar": "現在式，表達不確定性。",
+  "listen": "注意'hoe'的發音，可能聽不清。"
+ },
+ "nou, weet je, zorg dat je eerst een goede planning maakt.": {
+  "breakdown": [
+   [
+    "Nou",
+    "嗯"
+   ],
+   [
+    "weet je",
+    "你知道嗎"
+   ],
+   [
+    "zorg dat je",
+    "確保你"
+   ],
+   [
+    "eerst",
+    "先"
+   ],
+   [
+    "een goede planning maakt",
+    "做一個好的計畫"
+   ]
+  ],
+  "order": "感嘆詞Nou → 動詞weet → 主詞je → 動詞zorg → 受詞dat je → 副詞eerst → 受詞een goede planning maakt。",
+  "grammar": "現在式，建議或指示。",
+  "listen": "注意'zorg'的發音，可能聽不清。"
+ },
+ "ja, dat is misschien wel handig, ja.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "dat is misschien wel handig",
+    "那或許很方便"
+   ],
+   [
+    "ja",
+    "對"
+   ]
+  ],
+  "order": "主詞(那) → 動詞(是) → 補語(方便) → 句尾(對)。",
+  "grammar": "使用了現在時，表示當前的狀態。",
+  "listen": "注意 'dat is' 的連音，可能聽成 'dat's'。"
+ },
+ "wat zegt chris over vertraging?": {
+  "breakdown": [
+   [
+    "Wat zegt Chris",
+    "Chris 說了什麼"
+   ],
+   [
+    "over vertraging",
+    "對延誤"
+   ]
+  ],
+  "order": "疑問詞(什麼) → 動詞(說) → 主詞(Chris) → 補語(對延誤)。",
+  "grammar": "使用現在時，詢問當前的情況。",
+  "listen": "注意 'Wat zegt' 的連音，可能聽成 'Wat's'。"
+ },
+ "dan heb je extra tijd om te leren.": {
+  "breakdown": [
+   [
+    "Dan",
+    "那"
+   ],
+   [
+    "heb je",
+    "你有"
+   ],
+   [
+    "extra tijd",
+    "額外的時間"
+   ],
+   [
+    "om te leren",
+    "可以學習"
+   ]
+  ],
+  "order": "副詞(那) → 動詞(有) → 主詞(你) → 補語(額外的時間) → 不定詞(可以學習)。",
+  "grammar": "使用現在時，描述未來的可能性。",
+  "listen": "注意 'heb je' 的連音，可能聽成 'heb'。"
+ },
+ "dan heb je minder tijd om te leren.": {
+  "breakdown": [
+   [
+    "Dan",
+    "那"
+   ],
+   [
+    "heb je",
+    "你有"
+   ],
+   [
+    "minder tijd",
+    "更少的時間"
+   ],
+   [
+    "om te leren",
+    "可以學習"
+   ]
+  ],
+  "order": "副詞(那) → 動詞(有) → 主詞(你) → 補語(更少的時間) → 不定詞(可以學習)。",
+  "grammar": "使用現在時，描述未來的情況。",
+  "listen": "注意 'heb je' 的連音，可能聽成 'heb'。"
+ },
+ "dat je vaker vertraging hebt met de bus.": {
+  "breakdown": [
+   [
+    "Dat je",
+    "你"
+   ],
+   [
+    "vaker vertraging hebt",
+    "常常搭公車會延誤"
+   ]
+  ],
+  "order": "主詞(你) → 動詞(有) → 補語(常常延誤)。",
+  "grammar": "使用現在時，描述習慣或常態。",
+  "listen": "注意 'vaker' 的弱讀，可能聽不清楚。"
+ },
+ "dat je vaker vertraging hebt met de trein.": {
+  "breakdown": [
+   [
+    "Dat je",
+    "你"
+   ],
+   [
+    "vaker vertraging hebt",
+    "常常搭火車會延誤"
+   ]
+  ],
+  "order": "主詞(你) → 動詞(有) → 補語(常常延誤)。",
+  "grammar": "使用現在時，描述習慣或常態。",
+  "listen": "注意 'vaker' 的弱讀，可能聽不清楚。"
+ }
+}

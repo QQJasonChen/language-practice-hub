@@ -1,0 +1,463 @@
+{
+ "met koos galjoen.": {
+  "breakdown": [
+   [
+    "Met",
+    "我是"
+   ],
+   [
+    "Koos Galjoen",
+    "Koos Galjoen"
+   ]
+  ],
+  "order": "主詞(我) → 是(动词) → 名字(Koos Galjoen)",
+  "grammar": "簡單現在式，主詞+動詞+補語。",
+  "listen": "注意 'Met' 的發音，可能聽不清。"
+ },
+ "hoi, met arnaud.": {
+  "breakdown": [
+   [
+    "Hoi",
+    "嗨"
+   ],
+   [
+    "met",
+    "我是"
+   ],
+   [
+    "Arnaud",
+    "Arnaud"
+   ]
+  ],
+  "order": "打招呼(嗨) → 是(动词) → 名字(Arnaud)",
+  "grammar": "簡單現在式，主詞+動詞+補語。",
+  "listen": "'met' 可能被弱讀，聽起來像 'm'。"
+ },
+ "ik wou je wat vragen.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "wou",
+    "想"
+   ],
+   [
+    "je",
+    "問你"
+   ],
+   [
+    "wat vragen",
+    "一個問題"
+   ]
+  ],
+  "order": "主詞(我) → 想(动词) → 你(受詞) → 問題(補語)",
+  "grammar": "過去式的 'wou' 表示想要。",
+  "listen": "注意 'je' 的發音，可能聽不清。"
+ },
+ "weet jij misschien een loodgieter?": {
+  "breakdown": [
+   [
+    "Weet",
+    "知道"
+   ],
+   [
+    "jij",
+    "你"
+   ],
+   [
+    "misschien",
+    "也許"
+   ],
+   [
+    "een loodgieter",
+    "一個管水電工"
+   ]
+  ],
+  "order": "動詞(知道) → 主詞(你) → 副詞(也許) → 受詞(管水電工)",
+  "grammar": "簡單現在式，主詞+動詞+受詞。",
+  "listen": "'misschien' 可能被快速說出，聽不清。"
+ },
+ "mijn moeder, haar hele vloer staat onder water.": {
+  "breakdown": [
+   [
+    "Mijn moeder",
+    "我媽媽"
+   ],
+   [
+    "haar hele vloer",
+    "她的整個地板"
+   ],
+   [
+    "staat onder water",
+    "都淹水了"
+   ]
+  ],
+  "order": "主詞(我媽媽) → 補語(她的整個地板) → 動詞(淹水)",
+  "grammar": "簡單現在式，主詞+動詞+補語。",
+  "listen": "'staat' 的發音可能不明顯。"
+ },
+ "hoe komt dat?": {
+  "breakdown": [
+   [
+    "Hoe",
+    "怎麼"
+   ],
+   [
+    "komt dat",
+    "會這樣"
+   ]
+  ],
+  "order": "疑問詞(怎麼) → 動詞(來) → 補語(這樣)",
+  "grammar": "疑問句，動詞放在前面。",
+  "listen": "'Hoe' 可能被快速說出，聽不清。"
+ },
+ "de wc is kapot.": {
+  "breakdown": [
+   [
+    "De wc",
+    "馬桶"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "kapot",
+    "壞了"
+   ]
+  ],
+  "order": "主詞(馬桶) → 動詞(是) → 形容詞(壞了)",
+  "grammar": "簡單現在式，主詞+動詞+形容詞。",
+  "listen": "'is' 可能被弱讀，聽起來像 's'。"
+ },
+ "wat vreselijk.": {
+  "breakdown": [
+   [
+    "Wat",
+    "真"
+   ],
+   [
+    "vreselijk",
+    "可怕"
+   ]
+  ],
+  "order": "感嘆詞(真) → 形容詞(可怕)",
+  "grammar": "簡單現在式，主詞省略。",
+  "listen": "'Wat' 可能被快速說出，聽不清。"
+ },
+ "nee, ik ken geen loodgieter.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "ken",
+    "認識"
+   ],
+   [
+    "geen loodgieter",
+    "水電工"
+   ]
+  ],
+  "order": "否定詞(不) → 主詞(我) → 動詞(認識) → 受詞(水電工)",
+  "grammar": "簡單現在式，主詞+動詞+受詞，否定形式。",
+  "listen": "'geen' 可能被快速說出，聽不清。"
+ },
+ "maar je kunt het beste in de gouden gids kijken. daar staan ze allemaal in.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "je kunt",
+    "你可以"
+   ],
+   [
+    "het beste",
+    "最好"
+   ],
+   [
+    "in de Gouden Gids kijken",
+    "看看《黃頁》"
+   ]
+  ],
+  "order": "連接詞(但) → 主詞(你) → 動詞(可以) → 補語(最好) → 受詞(《黃頁》)",
+  "grammar": "情態動詞，主詞+情態動詞+原形動詞。",
+  "listen": "'je kunt' 可能連音，聽不清。"
+ },
+ "oh ja, daar had ik niet aan gedacht.": {
+  "breakdown": [
+   [
+    "Oh ja",
+    "哦對"
+   ],
+   [
+    "daar",
+    "這個"
+   ],
+   [
+    "had ik niet aan gedacht",
+    "我沒想到"
+   ]
+  ],
+  "order": "感嘆詞(哦對) → 副詞(這個) → 主詞(我) → 動詞(沒想到)",
+  "grammar": "過去式，主詞+動詞+補語。",
+  "listen": "'Oh ja' 可能被快速說出，聽不清。"
+ },
+ "wat een goed idee.": {
+  "breakdown": [
+   [
+    "Wat",
+    "真是"
+   ],
+   [
+    "een goed idee",
+    "個好主意"
+   ]
+  ],
+  "order": "感嘆詞(真是) → 形容詞(好) → 名詞(主意)",
+  "grammar": "簡單現在式，主詞省略。",
+  "listen": "'Wat' 可能被快速說出，聽不清。"
+ },
+ "ik ga gauw kijken.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "ga",
+    "去"
+   ],
+   [
+    "gauw",
+    "馬上"
+   ],
+   [
+    "kijken",
+    "看看"
+   ]
+  ],
+  "order": "主詞(I) → 動詞(ga) → 副詞(gauw) → 原形動詞(kijken)。規則：動詞在第二位，原形動詞在句尾。",
+  "grammar": "現在式，動詞ga是主要動詞。",
+  "listen": "ga和gauw連音，可能聽成gaugau。"
+ },
+ "bedankt.": {
+  "breakdown": [
+   [
+    "Bedankt",
+    "謝謝"
+   ]
+  ],
+  "order": "動詞(Bedankt)在句首，無主詞。",
+  "grammar": "這是簡單的感謝語。",
+  "listen": "Bedankt的t音可能被弱讀。"
+ },
+ "oh, ik heb een vraag voor jou.": {
+  "breakdown": [
+   [
+    "Oh",
+    "哦"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "heb",
+    "有"
+   ],
+   [
+    "een vraag",
+    "一個問題"
+   ],
+   [
+    "voor jou",
+    "想問你"
+   ]
+  ],
+  "order": "感嘆詞(Oh) → 主詞(ik) → 助動詞(heb) → 受詞(een vraag) → 介詞短語(voor jou)。",
+  "grammar": "現在式，heb是助動詞。",
+  "listen": "heb的h音可能被漏聽。"
+ },
+ "denk je dat ze gauw komen?": {
+  "breakdown": [
+   [
+    "Denk je",
+    "你覺得"
+   ],
+   [
+    "dat",
+    "他們"
+   ],
+   [
+    "ze",
+    "他們"
+   ],
+   [
+    "gauw komen",
+    "會很快來"
+   ]
+  ],
+  "order": "動詞(Denk) → 主詞(je) → 連接詞(dat) → 主詞(ze) → 副詞(gauw) → 原形動詞(komen)。",
+  "grammar": "疑問句，動詞在句首。",
+  "listen": "Denk和je連音，可能聽成Denkje。"
+ },
+ "nou, ik ben bang van niet.": {
+  "breakdown": [
+   [
+    "Nou",
+    "嗯"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "ben bang",
+    "怕"
+   ],
+   [
+    "van niet",
+    "不會"
+   ]
+  ],
+  "order": "感嘆詞(Nou) → 主詞(ik) → 動詞(ben) → 形容詞(bang) → 介詞短語(van niet)。",
+  "grammar": "現在式，ben是主要動詞。",
+  "listen": "ben的b音可能被弱讀。"
+ },
+ "meestal laten ze hier lang wachten.": {
+  "breakdown": [
+   [
+    "Meestal",
+    "通常"
+   ],
+   [
+    "laten ze",
+    "讓他們"
+   ],
+   [
+    "hier",
+    "這裡"
+   ],
+   [
+    "lang wachten",
+    "等很久"
+   ]
+  ],
+  "order": "副詞(Meestal) → 動詞(laten) → 主詞(ze) → 地點副詞(hier) → 副詞(lang) → 原形動詞(wachten)。",
+  "grammar": "現在式，laten是主要動詞。",
+  "listen": "laten的t音可能被弱讀。"
+ },
+ "nou, dat hoop ik niet, want het stinkt vreselijk hier.": {
+  "breakdown": [
+   [
+    "Nou",
+    "嗯"
+   ],
+   [
+    "dat",
+    "這樣"
+   ],
+   [
+    "hoop ik niet",
+    "我不希望"
+   ],
+   [
+    "want",
+    "因為"
+   ],
+   [
+    "het stinkt vreselijk hier",
+    "這裡真的很臭"
+   ]
+  ],
+  "order": "感嘆詞(Nou) → 連接詞(dat) → 主詞(ik) → 動詞(hoop) → 副詞(niet) → 連接詞(want) → 主詞(het) → 動詞(stinkt) → 副詞(vreselijk) → 地點副詞(hier)。",
+  "grammar": "現在式，stinkt是主要動詞。",
+  "listen": "stinkt的t音可能被弱讀。"
+ },
+ "nou, sterk daarmee.": {
+  "breakdown": [
+   [
+    "Nou",
+    "嗯"
+   ],
+   [
+    "sterk",
+    "加油"
+   ],
+   [
+    "daarmee",
+    "吧"
+   ]
+  ],
+  "order": "感嘆詞(Nou) → 動詞(sterk) → 介詞短語(daarmee)。",
+  "grammar": "這是鼓勵的表達。",
+  "listen": "sterk的k音可能被弱讀。"
+ },
+ "de groet aan je moeder.": {
+  "breakdown": [
+   [
+    "De groet",
+    "問好"
+   ],
+   [
+    "aan je moeder",
+    "向你媽媽"
+   ]
+  ],
+  "order": "名詞短語(De groet) → 介詞短語(aan je moeder)。",
+  "grammar": "這是祝福的表達。",
+  "listen": "groet的g音可能被漏聽。"
+ },
+ "bedankt, dag.": {
+  "breakdown": [
+   [
+    "Bedankt",
+    "謝謝"
+   ],
+   [
+    "dag",
+    "再見"
+   ]
+  ],
+  "order": "動詞(Bedankt) → 名詞(dag)。",
+  "grammar": "簡單的告別語。",
+  "listen": "dag的d音可能被弱讀。"
+ },
+ "oh, denk je dat ze gauw komen?": {
+  "breakdown": [
+   [
+    "Oh",
+    "哦"
+   ],
+   [
+    "denk je",
+    "你覺得"
+   ],
+   [
+    "dat",
+    "他們"
+   ],
+   [
+    "ze",
+    "他們"
+   ],
+   [
+    "gauw komen",
+    "會很快來"
+   ]
+  ],
+  "order": "感嘆詞(Oh) → 動詞(dank) → 主詞(je) → 連接詞(dat) → 主詞(ze) → 副詞(gauw) → 原形動詞(komen)。",
+  "grammar": "疑問句，動詞在句首。",
+  "listen": "denk和je連音，可能聽成Denkje。"
+ }
+}

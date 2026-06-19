@@ -1,0 +1,369 @@
+{
+ "zra heeft op internet een boek besteld.": {
+  "breakdown": [
+   [
+    "Zra",
+    "Zra"
+   ],
+   [
+    "heeft",
+    "已經"
+   ],
+   [
+    "op internet",
+    "在網路上"
+   ],
+   [
+    "een boek",
+    "一本書"
+   ],
+   [
+    "besteld",
+    "訂購"
+   ]
+  ],
+  "order": "主詞(Zra) → 助動詞(heeft) → 地點(op internet) → 直接受詞(een boek) → 過去分詞(besteld)",
+  "grammar": "使用完成式，助動詞在前，過去分詞在句尾。",
+  "listen": "注意 'heeft' 和 'besteld' 的連音。"
+ },
+ "ze belt naar de klantenservice.": {
+  "breakdown": [
+   [
+    "Ze",
+    "她"
+   ],
+   [
+    "belt",
+    "打電話"
+   ],
+   [
+    "naar de klantenservice",
+    "給客服中心"
+   ]
+  ],
+  "order": "主詞(Ze) → 動詞(belt) → 受詞(naar de klantenservice)",
+  "grammar": "簡單現在式，主詞後直接接動詞。",
+  "listen": "'belt' 可能會被弱讀，注意聽清楚。"
+ },
+ "lees eerst de vraag, luister daarna naar de tekst.": {
+  "breakdown": [
+   [
+    "Lees",
+    "請閱讀"
+   ],
+   [
+    "eerst de vraag",
+    "問題"
+   ],
+   [
+    "luister daarna",
+    "然後聽取"
+   ],
+   [
+    "naar de tekst",
+    "內容"
+   ]
+  ],
+  "order": "動詞(Lees) → 副詞(eerst) → 受詞(de vraag) → 動詞(luister) → 副詞(daarna) → 受詞(naar de tekst)",
+  "grammar": "命令式，動詞放句首，後面接受詞。",
+  "listen": "'eerst' 和 'de' 可能連音，注意聽。"
+ },
+ "goedendag en welkom bij de klantenservice van boekenwinkel.nl.": {
+  "breakdown": [
+   [
+    "Goedendag",
+    "您好"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "welkom bij",
+    "歡迎來到"
+   ],
+   [
+    "de klantenservice",
+    "客服中心"
+   ],
+   [
+    "van Boekenwinkel.nl",
+    "Boekenwinkel.nl"
+   ]
+  ],
+  "order": "問候語(Goodendag) → 連接詞(en) → 受詞(welkom bij de klantenservice) → 所屬(van Boekenwinkel.nl)",
+  "grammar": "這句是問候語，結構簡單，無特殊時態。",
+  "listen": "'en' 可能被弱讀，注意聽清楚。"
+ },
+ "om u zo goed mogelijk te kunnen helpen, vragen we u een keuze te maken uit één van de volgende opties.": {
+  "breakdown": [
+   [
+    "Om u zo goed mogelijk te kunnen helpen",
+    "為了盡可能幫助您"
+   ],
+   [
+    "vragen we u",
+    "我們請您"
+   ],
+   [
+    "een keuze te maken",
+    "做出選擇"
+   ],
+   [
+    "uit één van de volgende opties",
+    "從以下選項中"
+   ]
+  ],
+  "order": "目的(Om u zo goed mogelijk te kunnen helpen) → 主詞(vragen we) → 受詞(u) → 直接受詞(een keuze te maken) → 地點(uitt één van de volgende opties)",
+  "grammar": "使用不定式結構，'te' 連接不定詞。",
+  "listen": "'zo goed mogelijk' 可能連音，注意聽。"
+ },
+ "wilt u een boek bestellen?": {
+  "breakdown": [
+   [
+    "Wilt u",
+    "您想"
+   ],
+   [
+    "een boek",
+    "一本書"
+   ],
+   [
+    "bestellen",
+    "訂購"
+   ]
+  ],
+  "order": "動詞(Wilt) → 主詞(u) → 受詞(een boek) → 動詞(bestellen)",
+  "grammar": "情態動詞(wilt)在前，後接原形動詞。",
+  "listen": "'u' 可能被弱讀，注意聽。"
+ },
+ "kies 1.": {
+  "breakdown": [
+   [
+    "Kies",
+    "請按"
+   ],
+   [
+    "1",
+    "1"
+   ]
+  ],
+  "order": "動詞(Kies) → 受詞(1)",
+  "grammar": "命令式，動詞放句首，後面接受詞。",
+  "listen": "'Kies' 可能被快速說出，注意聽。"
+ },
+ "wilt u een bestelling veranderen?": {
+  "breakdown": [
+   [
+    "Wilt u",
+    "您想"
+   ],
+   [
+    "een bestelling",
+    "一個訂單"
+   ],
+   [
+    "veranderen",
+    "修改"
+   ]
+  ],
+  "order": "動詞(Wilt) → 主詞(u) → 受詞(een bestelling) → 動詞(veranderen)",
+  "grammar": "情態動詞(wilt)在前，後接原形動詞。",
+  "listen": "'u' 可能被弱讀，注意聽。"
+ },
+ "kies 2.": {
+  "breakdown": [
+   [
+    "Kies",
+    "請按"
+   ],
+   [
+    "2",
+    "2"
+   ]
+  ],
+  "order": "動詞(Kies) → 受詞(2)",
+  "grammar": "命令式，動詞放句首，後面接受詞。",
+  "listen": "'Kies' 可能被快速說出，注意聽。"
+ },
+ "wilt u een bestelling annuleren?": {
+  "breakdown": [
+   [
+    "Wilt u",
+    "您想"
+   ],
+   [
+    "een bestelling",
+    "一個訂單"
+   ],
+   [
+    "annuleren",
+    "取消"
+   ]
+  ],
+  "order": "動詞(Wilt) → 主詞(u) → 受詞(een bestelling) → 動詞(annuleren)",
+  "grammar": "情態動詞(wilt)在前，後接原形動詞。",
+  "listen": "'u' 可能被弱讀，注意聽。"
+ },
+ "kies 3.": {
+  "breakdown": [
+   [
+    "Kies",
+    "請按"
+   ],
+   [
+    "3",
+    "3"
+   ]
+  ],
+  "order": "動詞(Kies) → 受詞(3)",
+  "grammar": "命令式，動詞放句首，後面接受詞。",
+  "listen": "'Kies' 可能被快速說出，注意聽。"
+ },
+ "heeft u een andere vraag en wilt u één van onze medewerkers spreken?": {
+  "breakdown": [
+   [
+    "Heeft u",
+    "您有"
+   ],
+   [
+    "een andere vraag",
+    "其他問題"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "wilt u",
+    "您想"
+   ],
+   [
+    "één van onze medewerkers",
+    "與我們的員工"
+   ],
+   [
+    "spreken",
+    "通話"
+   ]
+  ],
+  "order": "動詞(Heeft) → 主詞(u) → 受詞(een andere vraag) → 連接詞(en) → 動詞(wilt) → 主詞(u) → 受詞(één van onze medewerkers) → 動詞(spreken)",
+  "grammar": "使用完成式，助動詞在前，過去分詞在句尾。",
+  "listen": "'Heeft' 和 'u' 之間可能有連音，注意聽。"
+ },
+ "kies 4.": {
+  "breakdown": [
+   [
+    "Kies",
+    "請按"
+   ],
+   [
+    "4",
+    "4"
+   ]
+  ],
+  "order": "動詞Kies(動詞#1) → 直接受詞4(受詞)",
+  "grammar": "簡單現在式，動詞直接命令。",
+  "listen": "Kies的發音可能會被快速說成Kies'。"
+ },
+ "wij streven naar een zo goed mogelijke service. daarom kan het zijn dat uw gesprek wordt opgenomen.": {
+  "breakdown": [
+   [
+    "Wij",
+    "我們"
+   ],
+   [
+    "streven naar",
+    "致力於"
+   ],
+   [
+    "een zo goed mogelijke service",
+    "最佳的服務"
+   ],
+   [
+    "Daarom",
+    "因此"
+   ],
+   [
+    "kan het zijn dat",
+    "可能會"
+   ],
+   [
+    "uw gesprek",
+    "您的通話"
+   ],
+   [
+    "wordt opgenomen",
+    "被錄音"
+   ]
+  ],
+  "order": "主詞Wij → 動詞streven(動詞#2) → 受詞een zo goed mogelijke service → 副詞Daarom → 助動詞kan(動詞#1) → 主詞het → 動詞wordt(動詞#2) → 受詞uw gesprek → 過去分詞opgenomen",
+  "grammar": "現在進行式，包含被動語態。",
+  "listen": "kan和het連音，容易漏聽。"
+ },
+ "sra wil liever een ander boek bestellen.": {
+  "breakdown": [
+   [
+    "Sra",
+    "Sra"
+   ],
+   [
+    "wil",
+    "想"
+   ],
+   [
+    "liever",
+    "更"
+   ],
+   [
+    "een ander boek",
+    "一本別的書"
+   ],
+   [
+    "bestellen",
+    "訂購"
+   ]
+  ],
+  "order": "主詞Sra → 動詞wil(動詞#2) → 副詞liever → 受詞een ander boek → 原形動詞bestellen(動詞#1)",
+  "grammar": "情態動詞wil後接原形動詞。",
+  "listen": "liever的發音可能會被弱讀。"
+ },
+ "welk nummer moet ze dan kiezen?": {
+  "breakdown": [
+   [
+    "Welk nummer",
+    "哪個號碼"
+   ],
+   [
+    "moet",
+    "應該"
+   ],
+   [
+    "ze",
+    "她"
+   ],
+   [
+    "dan",
+    "那"
+   ],
+   [
+    "kiezen",
+    "選擇"
+   ]
+  ],
+  "order": "疑問詞Welk → 受詞nummer → 助動詞moet(動詞#1) → 主詞ze → 副詞dan → 原形動詞kiezen(動詞#2)",
+  "grammar": "疑問句，動詞放句首。",
+  "listen": "moet和ze連音，可能聽不清。"
+ },
+ "1, 2, 3, of 4?": {
+  "breakdown": [
+   [
+    "1, 2, 3, of 4",
+    "1、2、3 還是 4"
+   ]
+  ],
+  "order": "直接受詞1, 2, 3, of 4(受詞)",
+  "grammar": "簡單現在式，列舉選項。",
+  "listen": "of的發音可能會被快速說成'of'。"
+ }
+}

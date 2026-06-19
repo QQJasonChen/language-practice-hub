@@ -76,11 +76,12 @@ def call(batch):
     return items
 
 def main():
-    only = set(sys.argv[1:]) or set(MOCKS)
-    for vid in MOCKS:
-        if vid not in only:
-            continue
-        ex = json.loads((ROOT / 'output' / vid / 'exam.json').read_text(encoding='utf-8'))
+    vids = sys.argv[1:] or MOCKS   # accept arbitrary video ids; default to the 3 mocks
+    for vid in vids:
+        ej = ROOT / 'output' / vid / 'exam.json'
+        if not ej.is_file():
+            print(f'{vid}: no exam.json, skip'); continue
+        ex = json.loads(ej.read_text(encoding='utf-8'))
         # collect unique sentences
         seen, sents = set(), []
         for sc in ex['scenarios']:

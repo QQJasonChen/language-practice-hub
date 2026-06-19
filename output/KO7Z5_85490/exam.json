@@ -1,0 +1,481 @@
+{
+ "video_id": "KO7Z5_85490",
+ "title": "Listening exam 2021 part 1",
+ "channel": "Inburgeren examen A2",
+ "duration": 804,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "修車的工作安排",
+   "title_nl": "Listening exam 2021 part 1",
+   "kind": "對話",
+   "context_zh": "Amiel在車庫工作，與他的上司討論修車的安排。",
+   "start": "0:05",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:05",
+     "nl": "Amiel werkt in een garage als monteur.",
+     "zh": "Amiel 在車庫裡當修理工。"
+    },
+    {
+     "t": "0:10",
+     "nl": "Hij heeft een gesprek met zijn chef.",
+     "zh": "他和他的主管有一場談話。"
+    },
+    {
+     "t": "0:17",
+     "nl": "Lees eerst de vraag. Kijk daarna naar de video.",
+     "zh": "先讀問題，然後觀看影片。"
+    },
+    {
+     "t": "0:33",
+     "nl": "Goedemorgen Amiel. Goedemorgen.",
+     "zh": "早安，Amiel。早安。"
+    },
+    {
+     "t": "0:38",
+     "nl": "We hebben veel te doen vandaag. Er zijn drie auto's die gerepareerd moeten worden.",
+     "zh": "我們今天有很多事情要做。有三輛車需要維修。"
+    },
+    {
+     "t": "0:45",
+     "nl": "De zwarte auto met een kapotte accu is als eerste gebracht.",
+     "zh": "先送來的是一輛有壞電池的黑色車。"
+    },
+    {
+     "t": "0:49",
+     "nl": "Moet ik daarmee beginnen? Nee. Ik wil dat je begint met de witte auto.",
+     "zh": "我要先開始處理那輛車嗎？不。我希望你從白色車開始。"
+    },
+    {
+     "t": "0:56",
+     "nl": "De koplamp links vooraan doet het niet meer.",
+     "zh": "左前方的頭燈不亮了。"
+    },
+    {
+     "t": "1:00",
+     "nl": "De eigenaar van de witte auto heeft een enorme haast en komt de auto over twee uur alweer ophalen.",
+     "zh": "白色車的車主非常急，兩小時後會再來取車。"
+    },
+    {
+     "t": "1:07",
+     "nl": "Als laatste mag je de blauwe auto doen. Die wordt morgen pas opgehaald.",
+     "zh": "最後你再處理藍色車。那輛車明天才會被取走。"
+    },
+    {
+     "t": "1:12",
+     "nl": "De deuren zijn het probleem. Die gaan niet meer open.",
+     "zh": "門是問題所在。門已經打不開了。"
+    },
+    {
+     "t": "1:17",
+     "nl": "Ik denk dat we de sleutel moeten controleren. Maar goed, dat zien we dan wel.",
+     "zh": "我覺得我們應該檢查鑰匙。但好吧，屆時再看。"
+    },
+    {
+     "t": "1:23",
+     "nl": "Oké? Oké.",
+     "zh": "好嗎？好。"
+    },
+    {
+     "t": "1:28",
+     "nl": "Met welke auto moet Amiel vandaag beginnen?",
+     "zh": "Amiel 今天要從哪輛車開始？"
+    },
+    {
+     "t": "1:34",
+     "nl": "De zwarte auto.",
+     "zh": "黑色車。"
+    },
+    {
+     "t": "1:43",
+     "nl": "De blauwe auto.",
+     "zh": "藍色車。"
+    },
+    {
+     "t": "1:55",
+     "nl": "De witte auto.",
+     "zh": "白色車。"
+    },
+    {
+     "t": "2:27",
+     "nl": "Hey Amiel. Goedemorgen. Fijn dat je er bent. Goedemorgen.",
+     "zh": "嘿，Amiel。早安。很高興你來了。早安。"
+    },
+    {
+     "t": "2:39",
+     "nl": "De zwarte auto met een kapotte accu vooraan is als eerste gebracht.",
+     "zh": "先送來的是一輛前方電池壞掉的黑色車。"
+    },
+    {
+     "t": "3:26",
+     "nl": "Waarom staat de blauwe auto in de garage?",
+     "zh": "藍色車為什麼停在車庫？"
+    },
+    {
+     "t": "3:31",
+     "nl": "De accu is kapot?",
+     "zh": "是電池壞了嗎？"
+    },
+    {
+     "t": "3:36",
+     "nl": "De deuren gaan niet open?",
+     "zh": "是門打不開嗎？"
+    },
+    {
+     "t": "3:52",
+     "nl": "Één lamp geeft geen licht.",
+     "zh": "有一盞燈不亮。"
+    },
+    {
+     "t": "3:58",
+     "nl": "Sophia heeft een nieuwe baan.",
+     "zh": "Sophia 找到一份新工作。"
+    },
+    {
+     "t": "4:18",
+     "nl": "Waarom staat de blauwe auto in de garage? Nou, je eerste dag.",
+     "zh": "藍色車為什麼停在車庫？嗯，因為你是第一天上班。"
+    },
+    {
+     "t": "4:22",
+     "nl": "Een belangrijke regel is dat de telefoon altijd voorgaat.",
+     "zh": "一條重要規則是，電話必須始終優先。"
+    },
+    {
+     "t": "4:28",
+     "nl": "Dus ook al ben je nog zo druk, maakt niet uit. Je neemt hem altijd op.",
+     "zh": "所以即使你再忙也沒關係，你都要接電話。"
+    },
+    {
+     "t": "4:32",
+     "nl": "Als iemand de directeur wil spreken, dan verbind je niet meteen door.",
+     "zh": "如果有人要找主管，你不會直接轉接。"
+    },
+    {
+     "t": "4:37",
+     "nl": "Je kijkt dan eerst in zijn agenda. Ook vraag je waar het over gaat.",
+     "zh": "你會先查看他的行事曆，也會問是關於什麼事。"
+    },
+    {
+     "t": "4:40",
+     "nl": "Als hij dan tijd heeft, dan toets je een één.",
+     "zh": "如果他有時間，你再按一鍵。"
+    },
+    {
+     "t": "4:45",
+     "nl": "Als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden.",
+     "zh": "如果是給採購部打來的電話，可以直接轉接。"
+    },
+    {
+     "t": "4:51",
+     "nl": "Je toetst dan de vier. Als Evelien pauze heeft,",
+     "zh": "你按四鍵。如果 Evelien 在休息，"
+    },
+    {
+     "t": "4:55",
+     "nl": "dan moet je ook voor haar de telefoon opnemen en zo.",
+     "zh": "那你也必須幫她接電話等。"
+    },
+    {
+     "t": "5:00",
+     "nl": "Dan schrijf je de naam op van de beller en dan zeg je dat Evelien terugbelt.",
+     "zh": "然後你寫下來電話者的名字，告訴對方 Evelien 會回電。"
+    },
+    {
+     "t": "5:05",
+     "nl": "Vergeet ook niet het telefoonnummer.",
+     "zh": "不要忘記電話號碼。"
+    },
+    {
+     "t": "5:10",
+     "nl": "Iemand belt voor de directeur.",
+     "zh": "有人打來找主管。"
+    },
+    {
+     "t": "5:17",
+     "nl": "Wat moet Sophia als eerste doen?",
+     "zh": "Sophia 應該先做什麼？"
+    },
+    {
+     "t": "5:21",
+     "nl": "Een één toetsen.",
+     "zh": "按一鍵。"
+    },
+    {
+     "t": "5:25",
+     "nl": "In zijn agenda kijken.",
+     "zh": "查看他的行事曆。"
+    },
+    {
+     "t": "5:30",
+     "nl": "Naar Evelien doorverbinden.",
+     "zh": "轉接到Evelien。"
+    },
+    {
+     "t": "5:42",
+     "nl": "Een vier toetsen. Sophia heeft een nieuwe baan.",
+     "zh": "按四鍵。Sophia有一份新工作。"
+    },
+    {
+     "t": "6:06",
+     "nl": "Nou, je eerste dag.",
+     "zh": "嗯，你的第一天。"
+    },
+    {
+     "t": "6:56",
+     "nl": "Iemand belt voor de afdeling Inkoop.",
+     "zh": "有人打給採購部。"
+    },
+    {
+     "t": "7:02",
+     "nl": "Wat moet Sophia doen? Een één toetsen.",
+     "zh": "Sophia要做什麼？按一鍵。"
+    },
+    {
+     "t": "7:11",
+     "nl": "Een vier toetsen. In de agenda kijken.",
+     "zh": "按四鍵。看行事曆。"
+    },
+    {
+     "t": "7:20",
+     "nl": "Vragen waar het over gaat.",
+     "zh": "問是關於什麼事情。"
+    },
+    {
+     "t": "8:46",
+     "nl": "Evelien heeft pauze en Sofia neemt haar telefoon op.",
+     "zh": "Evelien正在休息，Sofia接她的電話。"
+    },
+    {
+     "t": "8:53",
+     "nl": "Wat moet ze doen?",
+     "zh": "她該怎麼做？"
+    },
+    {
+     "t": "8:58",
+     "nl": "Doorgeven wanneer Evelien terug is.",
+     "zh": "告知Evelien何時回來。"
+    },
+    {
+     "t": "9:05",
+     "nl": "De naam en het nummer opschrijven.",
+     "zh": "寫下名字和號碼。"
+    },
+    {
+     "t": "9:16",
+     "nl": "Doorverbinden met de directeur.",
+     "zh": "轉接給主管。"
+    },
+    {
+     "t": "9:19",
+     "nl": "Anne en Fatima zijn vriendinnen.",
+     "zh": "Anne和Fatima是朋友。"
+    },
+    {
+     "t": "9:40",
+     "nl": "Fatima belt Anne op.",
+     "zh": "Fatima打電話給Anne。"
+    },
+    {
+     "t": "9:45",
+     "nl": "Lees eerst de vraag. Luister daarna naar de tekst. 1 00:10:08,756 --> 00:10:18,396 met Anne Hallo met Fatima Hoi hoe gaat het met je? Met mij gaat het goed. Nou ja, eigenlijk niet helemaal.",
+     "zh": "先讀問題，然後聽文字。1 00:10:08,756 --> 00:10:18,396 與Anne對話，Fatima說：嗨，你好嗎？我很好。嗯，其實不完全好。"
+    },
+    {
+     "t": "10:20",
+     "nl": "Ik heb vaak buikpijn. Daarom heb ik een afspraak met de dokter gemaakt.",
+     "zh": "我常常肚子痛。所以我跟醫生約了看診。"
+    },
+    {
+     "t": "10:25",
+     "nl": "Maar nu heb ik een probleem.",
+     "zh": "但現在我有問題了。"
+    },
+    {
+     "t": "10:28",
+     "nl": "Mijn afspraak is morgen om kwart voor drie. Maar om drie uur",
+     "zh": "我的約診是明天下午兩點四十五分。但三點"
+    },
+    {
+     "t": "10:32",
+     "nl": "moet ik mijn zoon van school ophalen.",
+     "zh": "我得去學校接我兒子。"
+    },
+    {
+     "t": "10:35",
+     "nl": "Ik dacht ik bel jou. Ben jij morgen misschien thuis?",
+     "zh": "我想我打給你。你明天會在家嗎？"
+    },
+    {
+     "t": "10:40",
+     "nl": "Even kijken. Ja ja hoor. En ik wil je zoon morgen wel ophalen.",
+     "zh": "讓我看看。是的，我會。而且我願意明天幫你接兒子。"
+    },
+    {
+     "t": "10:45",
+     "nl": "Dan gaat hij met mij mee naar huis en dan heb jij tijd om naar de dokter te gaan.",
+     "zh": "他會跟我一起回家，這樣你就有時間去看醫生。"
+    },
+    {
+     "t": "10:51",
+     "nl": "Dan ga ik gezellig met je zoon thee drinken. Oh dat vind ik heel fijn.",
+     "zh": "我會跟你兒子一起喝茶。喔，我很感激。"
+    },
+    {
+     "t": "10:59",
+     "nl": "Waarom belt Fatima naar Anne?",
+     "zh": "為什麼Fatima打電話給Anne？"
+    },
+    {
+     "t": "11:05",
+     "nl": "Ze wil Anne om hulp vragen.",
+     "zh": "她想請安妮幫忙。"
+    },
+    {
+     "t": "11:12",
+     "nl": "Ze wil vertellen dat ze buikpijn heeft.",
+     "zh": "她想說她肚子痛。"
+    },
+    {
+     "t": "11:19",
+     "nl": "Ze wil weten hoe het met Anne is.",
+     "zh": "她想知道安妮的近況。"
+    },
+    {
+     "t": "11:43",
+     "nl": "Lees eerst de vraag. Luister daarna naar de tekst.",
+     "zh": "先讀問題，再聽文章。"
+    },
+    {
+     "t": "12:06",
+     "nl": "Met Anne Hallo met Fatima, hoi hoe gaat het met je? Met mij gaat het goed. Nou ja...",
+     "zh": "和安妮通話。法蒂瑪說：嗨，你好嗎？我很好。嗯..."
+    },
+    {
+     "t": "12:14",
+     "nl": "Eigenlijk niet helemaal.",
+     "zh": "其實不太好。"
+    },
+    {
+     "t": "12:37",
+     "nl": "Even kijken. Ja ja hoor. En ik wil je zoon morgen wel ophalen. Dan gaat hij met mij mee",
+     "zh": "等一下，好的。我明天可以幫你接你兒子，他可以跟我一起"
+    },
+    {
+     "t": "12:44",
+     "nl": "naar huis. En dan heb jij tijd om naar de dokter te gaan.",
+     "zh": "回家。這樣你就有時間去看醫生了。"
+    },
+    {
+     "t": "12:49",
+     "nl": "Dan ga ik gezellig met je zoon thee drinken. Oh, dat vind ik heel fijn.",
+     "zh": "我會和你兒子一起喝茶。喔，我很喜歡這樣。"
+    },
+    {
+     "t": "12:57",
+     "nl": "Wat wil Anne voor Fatima doen?",
+     "zh": "安妮想為法蒂瑪做什麼？"
+    },
+    {
+     "t": "13:21",
+     "nl": "De zoon van Fatima van school halen?",
+     "zh": "去學校接法蒂瑪的兒子嗎？"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "werken",
+     "zh": "工作"
+    },
+    {
+     "nl": "garage",
+     "zh": "車庫"
+    },
+    {
+     "nl": "monteur",
+     "zh": "技師"
+    },
+    {
+     "nl": "auto",
+     "zh": "汽車"
+    },
+    {
+     "nl": "repareren",
+     "zh": "修理"
+    },
+    {
+     "nl": "kapot",
+     "zh": "壞掉"
+    },
+    {
+     "nl": "eigenaar",
+     "zh": "擁有者"
+    },
+    {
+     "nl": "haast",
+     "zh": "急"
+    },
+    {
+     "nl": "deuren",
+     "zh": "門"
+    },
+    {
+     "nl": "telefoon",
+     "zh": "電話"
+    },
+    {
+     "nl": "afspraak",
+     "zh": "約會"
+    },
+    {
+     "nl": "school",
+     "zh": "學校"
+    },
+    {
+     "nl": "hulp",
+     "zh": "幫助"
+    },
+    {
+     "nl": "thee",
+     "zh": "茶"
+    },
+    {
+     "nl": "vriendinnen",
+     "zh": "女朋友"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik wil dat je begint met...",
+     "zh": "我希望你從...開始。",
+     "note": "表達要求或指示的句型"
+    },
+    {
+     "nl": "Waarom staat de ... in de garage?",
+     "zh": "為什麼...在車庫裡？",
+     "note": "詢問原因的句型"
+    },
+    {
+     "nl": "Wat moet je doen?",
+     "zh": "你應該做什麼？",
+     "note": "詢問行動的句型"
+    },
+    {
+     "nl": "Ik heb een afspraak met...",
+     "zh": "我有一個與...的約會。",
+     "note": "表達約會的句型"
+    },
+    {
+     "nl": "Kan jij ... ophalen?",
+     "zh": "你可以接...嗎？",
+     "note": "詢問是否能做某事的句型"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

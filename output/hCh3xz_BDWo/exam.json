@@ -1,0 +1,620 @@
+{
+ "video_id": "hCh3xz_BDWo",
+ "title": "Listening exam 2021 part 3",
+ "channel": "Inburgeren examen A2",
+ "duration": 1003,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "荷蘭語課程報名資訊",
+   "title_nl": "Listening exam 2021 part 3",
+   "kind": "廣播/留言",
+   "context_zh": "Julio 在市政府聽到有關荷蘭語課程的公告。",
+   "start": "0:04",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:04",
+     "nl": "Julio volgde een cursus Nederlands.",
+     "zh": "Julio 參加了一個荷蘭語課程。"
+    },
+    {
+     "t": "0:10",
+     "nl": "Hij hoort een omroepbericht.",
+     "zh": "他聽到了一條廣播訊息。"
+    },
+    {
+     "t": "0:14",
+     "nl": "Lees eerst de vraag, luister daarna naar de tekst.",
+     "zh": "先閱讀問題，然後聆聽文本。"
+    },
+    {
+     "t": "0:33",
+     "nl": "Informatie over nieuwe cursussen. Volgende week starten de nieuwe cursussen.",
+     "zh": "關於新課程的資訊。新課程將於下週開始。"
+    },
+    {
+     "t": "0:40",
+     "nl": "De cursus Nederlands 3 zit bijna vol. Er zijn nog twee plaatsen.",
+     "zh": "荷蘭語3課程快要滿額了。還剩兩個名額。"
+    },
+    {
+     "t": "0:48",
+     "nl": "Komt u om 1 uur naar lokaal 15 als u deze cursus wilt volgen.",
+     "zh": "如果您想參加這個課程，請於一點到15教室。"
+    },
+    {
+     "t": "0:54",
+     "nl": "Voor Nederlands 2 maken we een nieuwe groep. Daar zijn nog voldoende plaatsen.",
+     "zh": "我們為荷蘭語2組成一個新班。那裡還有足夠的名額。"
+    },
+    {
+     "t": "1:00",
+     "nl": "U kunt zich hiervoor inschrijven om half 2 in lokaal 5.",
+     "zh": "您可以在一點半於5教室報名。"
+    },
+    {
+     "t": "1:05",
+     "nl": "Einde bericht.",
+     "zh": "訊息結束。"
+    },
+    {
+     "t": "1:10",
+     "nl": "Julio wil de cursus Nederlands 3 volgen.",
+     "zh": "Julio 想參加荷蘭語3課程。"
+    },
+    {
+     "t": "1:16",
+     "nl": "Hoeveel plaatsen zijn er nog? Eén.",
+     "zh": "還剩多少名額？一個。"
+    },
+    {
+     "t": "1:23",
+     "nl": "Twee. Drie.",
+     "zh": "兩個。三個。"
+    },
+    {
+     "t": "1:29",
+     "nl": "Geen. De cursus is vol.",
+     "zh": "沒有了，課程已滿。"
+    },
+    {
+     "t": "1:42",
+     "nl": "Julio volgt een cursus Nederlands.",
+     "zh": "Julio 正在上荷蘭語課。"
+    },
+    {
+     "t": "2:17",
+     "nl": "De cursus Nederlands 3 zit bijna vol.",
+     "zh": "荷蘭語3課程快要滿額了。"
+    },
+    {
+     "t": "2:22",
+     "nl": "Er zijn nog twee plaatsen.",
+     "zh": "還剩兩個名額。"
+    },
+    {
+     "t": "2:54",
+     "nl": "Waar kan hij zich aanmelden?",
+     "zh": "他可以在哪裡報名？"
+    },
+    {
+     "t": "2:58",
+     "nl": "In lokaal 1.",
+     "zh": "在1教室。"
+    },
+    {
+     "t": "3:03",
+     "nl": "In lokaal 2. In lokaal 5.",
+     "zh": "在2教室。在5教室。"
+    },
+    {
+     "t": "3:12",
+     "nl": "In lokaal 15.",
+     "zh": "在15教室。"
+    },
+    {
+     "t": "3:27",
+     "nl": "In lokaal 6. Mevrouw Hakimi heeft een gesprek met haar huisarts.",
+     "zh": "在6教室。Hakimi女士正在與她的家庭醫生談話。"
+    },
+    {
+     "t": "3:35",
+     "nl": "Lees eerst de vraag. Kijk daarna naar de video.",
+     "zh": "先閱讀問題，然後觀看影片。"
+    },
+    {
+     "t": "3:53",
+     "nl": "Goedemiddag, dokter Van Lennep. Goedemiddag, mevrouw Hakimi. Gaat u zitten.",
+     "zh": "Van Lennep醫生，午安。Hakimi女士，午安。請坐。"
+    },
+    {
+     "t": "3:59",
+     "nl": "Hoe gaat het met uw dochter? Goed. Met haar keel gaat het veel beter.",
+     "zh": "您的女兒怎麼樣？很好。她的喉嚨好多了。"
+    },
+    {
+     "t": "4:05",
+     "nl": "Ze hoest niet meer zoveel. Dat is fijn om te horen. Maar u komt vast voor iets anders.",
+     "zh": "她不再那麼常咳嗽了。聽到這個很高興。不過您應該是來看其他的。"
+    },
+    {
+     "t": "4:10",
+     "nl": "Dat klopt. Ik kom voor mezelf.",
+     "zh": "沒錯。我是為自己來的。"
+    },
+    {
+     "t": "4:14",
+     "nl": "Ik heb veel last van mijn knie en daar word ik zo moe van.",
+     "zh": "我的膝蓋很痛，這讓我很疲倦。"
+    },
+    {
+     "t": "4:17",
+     "nl": "En vooral wanneer u staat of wanneer u zit.",
+     "zh": "尤其是當您站著或坐著時。"
+    },
+    {
+     "t": "4:21",
+     "nl": "Wanneer ik sta. Ik werk in een winkel, ziet u.",
+     "zh": "當我站著時。我在一家商店工作，您瞧。"
+    },
+    {
+     "t": "4:26",
+     "nl": "En daar moet ik veel staan. En daar is het ook erg warm.",
+     "zh": "我必須長時間站立。而且那裡也很熱。"
+    },
+    {
+     "t": "4:30",
+     "nl": "Ik heb daar wel wat voor. Misschien moet u eens een zalf proberen.",
+     "zh": "我有些藥膏。或許您可以試試塗藥膏。"
+    },
+    {
+     "t": "4:35",
+     "nl": "Als u die erop smeert, dan kan de huid wat rood worden.",
+     "zh": "如果您塗抹後，皮膚可能會變紅。"
+    },
+    {
+     "t": "4:39",
+     "nl": "Maar dat hoort zo. Ik maak gelijk een recept voor u.",
+     "zh": "但那是正常的。我馬上為您開藥方。"
+    },
+    {
+     "t": "4:44",
+     "nl": "En gaat de pijn ook weg van die zalf? Ik verwacht van wel, ja.",
+     "zh": "用藥膏疼痛會消失嗎？我預期會，對。"
+    },
+    {
+     "t": "4:49",
+     "nl": "Het recept gaat via de computer naar de apotheek. En daar maken ze de zalf voor u.",
+     "zh": "藥方會透過電腦傳送到藥局。藥局會為您配製藥膏。"
+    },
+    {
+     "t": "4:55",
+     "nl": "U kunt hem direct ophalen als u dat wilt. En hoe vaak moet ik die zalf op mijn knie smeren?",
+     "zh": "您如果願意，可以直接去藥局拿。那我要多久塗一次藥膏？"
+    },
+    {
+     "t": "5:01",
+     "nl": "Meerdere keren per dag. Maar dat zullen ze bij de apotheek allemaal uitleggen.",
+     "zh": "一天好幾次。但藥局會詳細說明。"
+    },
+    {
+     "t": "5:06",
+     "nl": "Oké, dank u wel. Prima.",
+     "zh": "好的，非常感謝。很好。"
+    },
+    {
+     "t": "5:12",
+     "nl": "Waarom is mevrouw Hakimi bij de huisarts?",
+     "zh": "為什麼Hakimi女士會去看家庭醫生？"
+    },
+    {
+     "t": "5:18",
+     "nl": "Haar huid wordt rood.",
+     "zh": "她的皮膚會發紅。"
+    },
+    {
+     "t": "5:23",
+     "nl": "Haar knie doet pijn als ze lang staat.",
+     "zh": "她的膝蓋站久會痛。"
+    },
+    {
+     "t": "5:29",
+     "nl": "Ze moet heel veel hoesten.",
+     "zh": "她必須不停咳嗽。"
+    },
+    {
+     "t": "5:43",
+     "nl": "Mevrouw Hakimi heeft een gesprek met haar huisarts.",
+     "zh": "哈基米女士和她的家庭醫生有個談話。"
+    },
+    {
+     "t": "6:13",
+     "nl": "Zo. Hoe gaat het met uw dochter? Goed. Met haar keel gaat het veel beter.",
+     "zh": "那麼，您的女兒怎麼樣？很好。她的喉嚨好多了。"
+    },
+    {
+     "t": "6:33",
+     "nl": "En vooral wanneer u staat of wanneer u zit? Wanneer ik lang sta.",
+     "zh": "是您站立時特別痛，還是坐著的時候？我站久了會痛。"
+    },
+    {
+     "t": "6:38",
+     "nl": "Ik werk in een winkel, ziet u? En daar moet ik veel staan.",
+     "zh": "我在一家商店工作，您看？我必須經常站著。"
+    },
+    {
+     "t": "6:43",
+     "nl": "En daar is het ook erg warm. Ik heb daar wel wat voor.",
+     "zh": "那裡也非常熱。我為此有一些措施。"
+    },
+    {
+     "t": "6:47",
+     "nl": "Misschien moet u eens een zalf proberen.",
+     "zh": "或許您可以試試軟膏。"
+    },
+    {
+     "t": "7:27",
+     "nl": "Hoe vaak moet mevrouw Hakimi de zalf smeren?",
+     "zh": "哈基米女士應該多久塗抹一次軟膏？"
+    },
+    {
+     "t": "7:32",
+     "nl": "Dat hoort ze van de apotheek. De hele dag door.",
+     "zh": "藥局會告訴她。一天多次。"
+    },
+    {
+     "t": "7:40",
+     "nl": "Een keer per dag.",
+     "zh": "一天一次。"
+    },
+    {
+     "t": "7:54",
+     "nl": "Fabio is met zijn vriendin Sabine bij de bank.",
+     "zh": "法比歐和他的女友薩賓在銀行。"
+    },
+    {
+     "t": "8:17",
+     "nl": "Goedemiddag. Hallo, ik heb een probleem. Ik heb geen pinpas meer.",
+     "zh": "下午好。您好，我有個問題。我沒有提款卡了。"
+    },
+    {
+     "t": "8:23",
+     "nl": "Wat is er met uw pinpas gebeurd? Is hij gestolen of niet meer geldig?",
+     "zh": "您的提款卡發生了什麼事？被偷了還是過期了？"
+    },
+    {
+     "t": "8:27",
+     "nl": "Nee, ik ben hem kwijt. O, wanneer is dat gebeurd?",
+     "zh": "沒有，我把它弄丟了。哦，是什麼時候發生的？"
+    },
+    {
+     "t": "8:31",
+     "nl": "Gisteren ging ik boodschappen doen. Maar toen was hij weg.",
+     "zh": "昨天我去買東西，但當時卡已經不見了。"
+    },
+    {
+     "t": "8:36",
+     "nl": "Ik denk dus de dag voordat ik hem kwijt had. Dat was voor gisteren.",
+     "zh": "所以我想是在我丟卡的前一天，那就是前天。"
+    },
+    {
+     "t": "8:40",
+     "nl": "Maar ik kon pas vandaag hierheen komen. Oké, heeft u uw pinpas al geblokkeerd?",
+     "zh": "但我今天才來這裡。好的，您有沒有把提款卡停用？"
+    },
+    {
+     "t": "8:46",
+     "nl": "Dan krijgt u per post een nieuwe. Ja, heb ik gedaan. Goed, dan is alles geregeld.",
+     "zh": "您會透過郵寄收到一張新的卡。是的，我已經停用了。很好，一切就緒。"
+    },
+    {
+     "t": "8:53",
+     "nl": "U kunt weer geld opnemen als u uw nieuwe pas heeft.",
+     "zh": "您拿到新卡後就能再次提款。"
+    },
+    {
+     "t": "9:00",
+     "nl": "Waarom moest Sabine een nieuwe pinpas aanvragen?",
+     "zh": "為什麼薩賓要申請新的提款卡？"
+    },
+    {
+     "t": "9:05",
+     "nl": "Haar oude pas is niet meer geldig.",
+     "zh": "她的舊卡已經失效了。"
+    },
+    {
+     "t": "9:12",
+     "nl": "Haar oude pas is gestolen.",
+     "zh": "她的舊卡被偷了。"
+    },
+    {
+     "t": "9:18",
+     "nl": "Ze is haar oude pas kwijt.",
+     "zh": "她弄丟了舊卡。"
+    },
+    {
+     "t": "9:55",
+     "nl": "Goedemiddag. Hallo, ik heb een probleem. Ik heb geen pinpas meegenomen… 1 00:10:00,576 --> 00:10:05,056 Wat is er met uw pinpas gebeurd? Is hij gestolen of niet meer geldig?",
+     "zh": "下午好。您好，我有個問題。我沒有帶提款卡…… 1 00:10:00,576 --> 00:10:05,056 您的提款卡怎麼了？被偷了還是過期了？"
+    },
+    {
+     "t": "10:09",
+     "nl": "Gisteren ging ik boodschappen doen, maar toen was hij weg.",
+     "zh": "昨天我去買東西，但當時卡已經不見了。"
+    },
+    {
+     "t": "10:13",
+     "nl": "Ik denk dus de dag voor gisteren.",
+     "zh": "我想應該是前天。"
+    },
+    {
+     "t": "10:18",
+     "nl": "Maar ik kon pas vandaag hierheen komen.",
+     "zh": "但我今天才來這裡。"
+    },
+    {
+     "t": "10:21",
+     "nl": "Oké, heeft u uw pinpas al geblokkeerd? Dan krijgt u per post een nieuwe.",
+     "zh": "好的，您有沒有把提款卡停用？您會收到郵寄的新卡。"
+    },
+    {
+     "t": "10:26",
+     "nl": "Ja, heb ik gedaan. Goed, dan is alles geregeld.",
+     "zh": "是的，我停用了。很好，一切妥當。"
+    },
+    {
+     "t": "10:38",
+     "nl": "Sinds wanneer heeft Sabine geen pinpas meer?",
+     "zh": "薩賓從什麼時候開始沒有提款卡？"
+    },
+    {
+     "t": "10:44",
+     "nl": "Sinds de dag voor gisteren.",
+     "zh": "從前天開始。"
+    },
+    {
+     "t": "10:50",
+     "nl": "Sinds gisteren.",
+     "zh": "從昨天開始。"
+    },
+    {
+     "t": "10:57",
+     "nl": "Sinds vandaag.",
+     "zh": "從今天開始。"
+    },
+    {
+     "t": "11:16",
+     "nl": "Lees eerst de vraag, kijk daarna naar de video.",
+     "zh": "先讀問題，然後觀看影片。"
+    },
+    {
+     "t": "12:04",
+     "nl": "Ja, heb ik gedaan.",
+     "zh": "有，我已經辦了。"
+    },
+    {
+     "t": "12:06",
+     "nl": "Goed, dan is alles geregeld. U kunt weer geld opnemen als u uw nieuwe pas heeft.",
+     "zh": "好，那一切就安排好了。您拿到新卡後就可以再提款了。"
+    },
+    {
+     "t": "12:16",
+     "nl": "Wat moet Sabine nu doen?",
+     "zh": "薩賓現在該怎麼做？"
+    },
+    {
+     "t": "12:21",
+     "nl": "Een nieuwe pas aanvragen.",
+     "zh": "申請新卡。"
+    },
+    {
+     "t": "12:24",
+     "nl": "Geld opnemen.",
+     "zh": "提款。"
+    },
+    {
+     "t": "12:30",
+     "nl": "Haar pas blokkeren.",
+     "zh": "封鎖她的卡。"
+    },
+    {
+     "t": "12:34",
+     "nl": "Niets, alles is geregeld.",
+     "zh": "不必做任何事，一切都已辦妥。"
+    },
+    {
+     "t": "12:49",
+     "nl": "Olek luistert naar het journaal op de radio.",
+     "zh": "奧勒克在收聽收音機上的新聞。"
+    },
+    {
+     "t": "12:55",
+     "nl": "Lees eerst de vraag. Luister daarna naar de tekst.",
+     "zh": "先讀問題，再聽內容。"
+    },
+    {
+     "t": "13:16",
+     "nl": "Goedemiddag. Dit is het journaal van 1 uur.",
+     "zh": "午安。這是下午1點的新聞。"
+    },
+    {
+     "t": "13:20",
+     "nl": "De basiszorgverzekering wordt duurder in Nederland.",
+     "zh": "荷蘭的基本醫療保險變貴了。"
+    },
+    {
+     "t": "13:23",
+     "nl": "Inwoners gaan ongeveer 150 euro per persoon meer betalen per jaar.",
+     "zh": "居民每人每年大約要多支付150歐元。"
+    },
+    {
+     "t": "13:30",
+     "nl": "Dat is berekend met gegevens van de vier grootste zorgverzekeraars.",
+     "zh": "這是根據四大保險公司資料計算出來的。"
+    },
+    {
+     "t": "13:35",
+     "nl": "CZ, Zilveren Kruis, Mensis en VGZ.",
+     "zh": "CZ、Zilveren Kruis、Mensis和VGZ。"
+    },
+    {
+     "t": "13:40",
+     "nl": "CZ verhoogt de prijzen het meest, met 11 procent.",
+     "zh": "CZ的漲幅最大，達11%。"
+    },
+    {
+     "t": "13:44",
+     "nl": "En Mensis het minst, met 6 procent.",
+     "zh": "Mensis的漲幅最小，只有6%。"
+    },
+    {
+     "t": "13:48",
+     "nl": "Sommige aanvullende verzekeringen stijgen zelfs wel met 50 procent.",
+     "zh": "一些附加保險甚至漲了50%。"
+    },
+    {
+     "t": "13:54",
+     "nl": "Bij de vier grote zorgverzekeraars wordt deze verzekering 200 euro duurder per jaar.",
+     "zh": "在這四大保險公司中，這項保險每年貴了200歐元。"
+    },
+    {
+     "t": "14:00",
+     "nl": "Dat is meer dan vorig jaar.",
+     "zh": "這比去年還多。"
+    },
+    {
+     "t": "14:03",
+     "nl": "Toen betaalden we gemiddeld 75 euro meer.",
+     "zh": "去年我們平均多付了75歐元。"
+    },
+    {
+     "t": "14:09",
+     "nl": "Welke verzekeraar verhoogt de prijzen het meest?",
+     "zh": "哪家保險公司調漲最多？"
+    },
+    {
+     "t": "15:32",
+     "nl": "CZ verhoogt de prijzen het meest met 11 procent.",
+     "zh": "CZ的漲幅最大，達11%。"
+    },
+    {
+     "t": "15:38",
+     "nl": "En Mensis het minst met 6 procent.",
+     "zh": "Mensis的漲幅最小，只有6%。"
+    },
+    {
+     "t": "16:02",
+     "nl": "OLEC heeft een basisverzekering bij Mensis.",
+     "zh": "OLEC在Mensis有基本保險。"
+    },
+    {
+     "t": "16:08",
+     "nl": "Hoeveel meer moet hij daarvoor gaan betalen?",
+     "zh": "他要多付多少錢？"
+    },
+    {
+     "t": "16:43",
+     "nl": "Ondertitels ingediend door de Amara.org gemeenschap",
+     "zh": "字幕由Amara.org社群提供"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "cursus",
+     "zh": "課程"
+    },
+    {
+     "nl": "plaatsen",
+     "zh": "名額"
+    },
+    {
+     "nl": "inschrijven",
+     "zh": "報名"
+    },
+    {
+     "nl": "lokaal",
+     "zh": "教室"
+    },
+    {
+     "nl": "bericht",
+     "zh": "公告"
+    },
+    {
+     "nl": "huisarts",
+     "zh": "家庭醫生"
+    },
+    {
+     "nl": "zalf",
+     "zh": "藥膏"
+    },
+    {
+     "nl": "pijn",
+     "zh": "疼痛"
+    },
+    {
+     "nl": "pinpas",
+     "zh": "提款卡"
+    },
+    {
+     "nl": "bank",
+     "zh": "銀行"
+    },
+    {
+     "nl": "verzekering",
+     "zh": "保險"
+    },
+    {
+     "nl": "duurder",
+     "zh": "更貴"
+    },
+    {
+     "nl": "inwoners",
+     "zh": "居民"
+    },
+    {
+     "nl": "gezondheidszorg",
+     "zh": "健康保險"
+    },
+    {
+     "nl": "afspraak",
+     "zh": "約診"
+    },
+    {
+     "nl": "problemen",
+     "zh": "問題"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Hoeveel plaatsen zijn er nog?",
+     "zh": "還有多少名額？",
+     "note": "詢問數量的句型"
+    },
+    {
+     "nl": "U kunt zich hiervoor inschrijven.",
+     "zh": "您可以報名參加。",
+     "note": "表達報名的句型"
+    },
+    {
+     "nl": "Ik heb veel last van mijn knie.",
+     "zh": "我膝蓋很痛。",
+     "note": "描述身體不適的句型"
+    },
+    {
+     "nl": "Wat is er met uw pinpas gebeurd?",
+     "zh": "您的提款卡發生了什麼事？",
+     "note": "詢問問題的句型"
+    },
+    {
+     "nl": "De basiszorgverzekering wordt duurder.",
+     "zh": "基本健康保險變貴了。",
+     "note": "描述變化的句型"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

@@ -1,0 +1,486 @@
+{
+ "video_id": "J-VCgNpy9p8",
+ "title": "Listening and reading A2 (to the market)",
+ "channel": "Inburgeren examen A2",
+ "duration": 602,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "市場購物",
+   "title_nl": "Listening and reading A2 (to the market)",
+   "kind": "對話",
+   "context_zh": "Leo 在市場上購買水果和蔬菜。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Naar de markt. Dit is Leo, hij is 62 jaar.",
+     "zh": "去市場。這是Leo，他62歲。"
+    },
+    {
+     "t": "0:06",
+     "nl": "Vandaag is het markt en Leo gaat er iedere week naartoe. Het is er altijd gezellig met al die mensen.",
+     "zh": "今天是市場日，Leo每週都會去。那裡總是很熱鬧，有這麼多人。"
+    },
+    {
+     "t": "0:13",
+     "nl": "Maar Leo gaat er ook naartoe vanwege de prijzen. Het kan vele euro's schelen.",
+     "zh": "但是Leo去那裡也是因為價格。可以省很多歐元。"
+    },
+    {
+     "t": "0:18",
+     "nl": "Leo gaat altijd naar dezelfde kraam voor zijn fruit en groente. Dagvers en goedkoop.",
+     "zh": "Leo總是去同一個攤位買他的水果和蔬菜。新鮮又便宜。"
+    },
+    {
+     "t": "0:24",
+     "nl": "Op zijn boodschappenlijst staan",
+     "zh": "他的購物清單上有"
+    },
+    {
+     "t": "0:26",
+     "nl": "tomaten, uien, komkommer en sla.",
+     "zh": "番茄、洋蔥、小黃瓜和生菜。"
+    },
+    {
+     "t": "0:31",
+     "nl": "Anders nog iets? vraagt de groenteman. Nee, Leo heeft alles.",
+     "zh": "還要別的嗎？蔬菜商問。沒有，Leo什麼都有了。"
+    },
+    {
+     "t": "0:36",
+     "nl": "Daarna gaat hij naar de kaasboer voor een stuk lekkere oude kaas.",
+     "zh": "然後他去起司攤買一塊好吃的熟成起司。"
+    },
+    {
+     "t": "0:40",
+     "nl": "Wat kost dat? vraagt Leo. Het kost 5 euro.",
+     "zh": "這個多少錢？Leo問。5歐元。"
+    },
+    {
+     "t": "0:45",
+     "nl": "Op de markt is ook veel kleding te koop. Maar dat vindt Leo niet zo interessant.",
+     "zh": "市場上也賣很多衣服。但Leo覺得那不怎麼有趣。"
+    },
+    {
+     "t": "0:50",
+     "nl": "Leo eindigt altijd bij de visboer. Hij vindt vis heerlijk.",
+     "zh": "Leo總是在魚攤結束他的採購。他很喜歡魚。"
+    },
+    {
+     "t": "0:53",
+     "nl": "Voor 2 euro een heerlijke verse haring met uitjes.",
+     "zh": "2歐元買一份美味又新鮮的鯡魚配洋蔥。"
+    },
+    {
+     "t": "0:58",
+     "nl": "En die verdwijnt meteen in zijn mond.",
+     "zh": "那馬上就進了他的嘴裡。"
+    },
+    {
+     "t": "1:08",
+     "nl": "Luister en klik op het goede antwoord. De aardappel.",
+     "zh": "聽，然後點選正確答案。馬鈴薯。"
+    },
+    {
+     "t": "1:18",
+     "nl": "De appel.",
+     "zh": "蘋果。"
+    },
+    {
+     "t": "1:25",
+     "nl": "De banaan.",
+     "zh": "香蕉。"
+    },
+    {
+     "t": "1:30",
+     "nl": "De bloemkool.",
+     "zh": "花椰菜。"
+    },
+    {
+     "t": "1:35",
+     "nl": "De euro.",
+     "zh": "歐元。"
+    },
+    {
+     "t": "1:41",
+     "nl": "De haring.",
+     "zh": "鯡魚。"
+    },
+    {
+     "t": "1:48",
+     "nl": "De kaas.",
+     "zh": "起司。"
+    },
+    {
+     "t": "1:56",
+     "nl": "De komkommer. De mandarijn.",
+     "zh": "小黃瓜。柑橘。"
+    },
+    {
+     "t": "2:06",
+     "nl": "De wortel.",
+     "zh": "胡蘿蔔。"
+    },
+    {
+     "t": "2:13",
+     "nl": "De prei.",
+     "zh": "韭蔥。"
+    },
+    {
+     "t": "2:19",
+     "nl": "De sla.",
+     "zh": "生菜。"
+    },
+    {
+     "t": "2:28",
+     "nl": "De tomaat.",
+     "zh": "番茄。"
+    },
+    {
+     "t": "2:33",
+     "nl": "De ui.",
+     "zh": "洋蔥。"
+    },
+    {
+     "t": "3:28",
+     "nl": "De mandarijn. De prei.",
+     "zh": "柑橘。韭蔥。"
+    },
+    {
+     "t": "4:03",
+     "nl": "De ui. Klik op het oor en luister.",
+     "zh": "洋蔥。點選耳朵並聆聽。"
+    },
+    {
+     "t": "4:08",
+     "nl": "Goedemorgen meneer, kan ik u helpen? Goedemorgen, jazeker kunt u mij helpen.",
+     "zh": "早安先生，我可以幫您嗎？早安，當然您可以幫我。"
+    },
+    {
+     "t": "4:13",
+     "nl": "Even kijken, waar heb ik mijn boodschappenlijstje? Ah, hier is het.",
+     "zh": "讓我看看，我的購物清單在哪裡？啊，在這裡。"
+    },
+    {
+     "t": "4:31",
+     "nl": "Doet u maar twee kilo tomaten.",
+     "zh": "給我兩公斤的番茄。"
+    },
+    {
+     "t": "4:37",
+     "nl": "Twee kilo tomaten, goed meneer. Anders nog iets?",
+     "zh": "兩公斤番茄，好的先生。還要別的嗎？"
+    },
+    {
+     "t": "4:43",
+     "nl": "Doet u maar twee kilo tomaten. Twee kilo tomaten, goed meneer.",
+     "zh": "給我兩公斤的番茄。兩公斤番茄，好的先生。"
+    },
+    {
+     "t": "4:47",
+     "nl": "Anders nog iets? En een pond uien.",
+     "zh": "還要別的嗎？還有一斤洋蔥。"
+    },
+    {
+     "t": "4:53",
+     "nl": "Of ja, ik weet niet, ik heb zes uien nodig. Zes uien meneer.",
+     "zh": "噢，我不確定，我需要六顆洋蔥。六顆洋蔥，先生。"
+    },
+    {
+     "t": "4:58",
+     "nl": "Ik weeg ze voor u, zo, dat is 750 gram. Ja, dat is wel goed.",
+     "zh": "我幫您秤，這樣是750克。好的，可以。"
+    },
+    {
+     "t": "5:05",
+     "nl": "En een pond uien. Of ja, ik weet niet, ik heb zes uien nodig.",
+     "zh": "還有一斤洋蔥。噢，我不確定，我需要六顆洋蔥。"
+    },
+    {
+     "t": "5:11",
+     "nl": "Zes uien meneer. Ik weeg ze voor u, zo, dat is 750 gram.",
+     "zh": "六顆洋蔥，先生。我幫您秤，這樣是750克。"
+    },
+    {
+     "t": "5:15",
+     "nl": "Ja, dat is wel goed. Anders nog iets?",
+     "zh": "好的，可以。還要別的嗎？"
+    },
+    {
+     "t": "5:20",
+     "nl": "Ja, wat verschillende groenten voor in de soep. Welke groenten moet ik dan nemen?",
+     "zh": "是的，做湯要用一些不同的蔬菜。我應該拿哪些蔬菜呢？"
+    },
+    {
+     "t": "5:24",
+     "nl": "Zo, dus u gaat groentensoep maken? Nee, geen groentensoep, maar tomatensoep.",
+     "zh": "喔，那您是要做蔬菜湯嗎？不，不是蔬菜湯，是番茄湯。"
+    },
+    {
+     "t": "5:30",
+     "nl": "Maar ik wil wel groenten erin. Welke groenten zal ik dan nemen?",
+     "zh": "但我希望裡面有蔬菜。那我該拿哪些蔬菜呢？"
+    },
+    {
+     "t": "5:35",
+     "nl": "Anders nog iets? Ja, wat verschillende groenten voor in de soep.",
+     "zh": "還要別的嗎？是的，要一些不同的蔬菜放在湯裡。"
+    },
+    {
+     "t": "5:40",
+     "nl": "Welke groenten moet ik dan nemen? Zo, dus u gaat groentensoep maken?",
+     "zh": "我該選哪些蔬菜呢？喔，所以您要做蔬菜湯？"
+    },
+    {
+     "t": "5:44",
+     "nl": "Nee, geen groentensoep, maar tomatensoep. Maar ik wil wel groenten erin.",
+     "zh": "不，不是蔬菜湯，是番茄湯。但我想要放蔬菜進去。"
+    },
+    {
+     "t": "5:48",
+     "nl": "Welke groenten zal ik dan nemen? Tja, bloemkool.",
+     "zh": "那我要選哪些蔬菜呢？嗯，花椰菜。"
+    },
+    {
+     "t": "5:56",
+     "nl": "Tja, bloemkool. Prei.",
+     "zh": "嗯，花椰菜。韭蔥。"
+    },
+    {
+     "t": "6:03",
+     "nl": "Prei. Wortelen, dat zijn lekkere groenten voor in de soep.",
+     "zh": "韭蔥。胡蘿蔔，那是湯裡很美味的蔬菜。"
+    },
+    {
+     "t": "6:11",
+     "nl": "Wortelen, dat zijn lekkere groenten voor in de soep.",
+     "zh": "胡蘿蔔，那是湯裡很美味的蔬菜。"
+    },
+    {
+     "t": "6:15",
+     "nl": "Nou, doet u dat dan maar allemaal. Dat klinkt goed. En hoeveel krijgt u van me?",
+     "zh": "好，那您就全部都做吧。聽起來不錯。那我該付您多少？"
+    },
+    {
+     "t": "6:20",
+     "nl": "Eens even kijken. U heeft tomaten, uien, bloemkool.",
+     "zh": "讓我看一下。您有番茄、洋蔥、花椰菜。"
+    },
+    {
+     "t": "6:35",
+     "nl": "O, wacht, ik vergeet wat. Knoflook. Hebt u knoflook? Natuurlijk heb ik knoflook.",
+     "zh": "喔，等等，我忘了什麼。大蒜。您有大蒜嗎？當然我有大蒜。"
+    },
+    {
+     "t": "6:40",
+     "nl": "Is deze groot genoeg? Ja, prima hoor. Nu heb ik echt alles.",
+     "zh": "這個夠大嗎？是的，很好。現在我真的全都有了。"
+    },
+    {
+     "t": "6:57",
+     "nl": "Goed, dan wordt het bij elkaar... 11,60 euro.",
+     "zh": "好，那總共是11.60歐元。"
+    },
+    {
+     "t": "7:02",
+     "nl": "Nou, dat is zeker niet duur. Kijk u eens. 12 euro.",
+     "zh": "那真的不貴。您看看。12歐元。"
+    },
+    {
+     "t": "7:06",
+     "nl": "Dank u wel. En 40 cent terug voor u. En eet smakelijk vanavond.",
+     "zh": "謝謝您。這是找您40分錢。祝您今晚用餐愉快。"
+    },
+    {
+     "t": "7:11",
+     "nl": "Ja, dank u wel hoor. Tot ziens. Tot ziens.",
+     "zh": "是的，非常感謝您。再見。再見。"
+    },
+    {
+     "t": "7:31",
+     "nl": "Kan ik u helpen?",
+     "zh": "我能幫您嗎？"
+    },
+    {
+     "t": "7:39",
+     "nl": "Kan ik u helpen? Sinterklaas,",
+     "zh": "我能幫您嗎？辛特克拉斯，"
+    },
+    {
+     "t": "7:43",
+     "nl": "Waar heb ik mijn boodschappenlijstje?",
+     "zh": "我把購物清單放在哪裡了？"
+    },
+    {
+     "t": "7:54",
+     "nl": "Doet u maar 2 kilo tomaten.",
+     "zh": "請給我兩公斤番茄。"
+    },
+    {
+     "t": "8:07",
+     "nl": "Anders nog iets?",
+     "zh": "還需要別的嗎？"
+    },
+    {
+     "t": "8:16",
+     "nl": "Hebt u knoflook?",
+     "zh": "您有大蒜嗎？"
+    },
+    {
+     "t": "8:24",
+     "nl": "Nu heb ik echt alles.",
+     "zh": "現在我真的全都有了。"
+    },
+    {
+     "t": "8:33",
+     "nl": "Eet smakelijk!",
+     "zh": "祝您用餐愉快！"
+    },
+    {
+     "t": "8:41",
+     "nl": "Eet smakelijk! Ja, dank u wel hoor.",
+     "zh": "祝您用餐愉快！非常感謝您。"
+    },
+    {
+     "t": "8:51",
+     "nl": "Ja, dank u wel hoor. Luister en klik op het goede antwoord.",
+     "zh": "是的，非常感謝您。請聽並點擊正確答案。"
+    },
+    {
+     "t": "9:00",
+     "nl": "Welke groenten moet ik dan nemen? Zo, dus u gaat groentesoep maken?",
+     "zh": "我該選哪些蔬菜呢？喔，所以您要做蔬菜湯？"
+    },
+    {
+     "t": "9:05",
+     "nl": "Nee, geen groentesoep, maar tomatensoep. Maar ik wil wel groenten erin.",
+     "zh": "不，不是蔬菜湯，是番茄湯。但我想要放蔬菜進去。"
+    },
+    {
+     "t": "9:09",
+     "nl": "Welke groenten zal ik dan nemen?",
+     "zh": "那我要選哪些蔬菜呢？"
+    },
+    {
+     "t": "9:17",
+     "nl": "Tja, bloemkool, prei, wortelen, dat zijn lekkere groenten voor in de soep.",
+     "zh": "嗯，花椰菜、韭蔥、胡蘿蔔，那是湯裡很美味的蔬菜。"
+    },
+    {
+     "t": "9:32",
+     "nl": "O, wacht, ik vergeet wat. Knoflook, hebt u knoflook? Natuurlijk heb ik knoflook.",
+     "zh": "喔，等等，我忘了什麼。大蒜，您有大蒜嗎？當然我有大蒜。"
+    },
+    {
+     "t": "9:47",
+     "nl": "Goed, dan wordt het bij elkaar 11,60 euro.",
+     "zh": "好，那總共是11.60歐元。"
+    },
+    {
+     "t": "9:51",
+     "nl": "Nou, dat is zeker niet duur. Kijk dan eens, 12 euro.",
+     "zh": "那真的不貴。您看看。12歐元。"
+    },
+    {
+     "t": "9:56",
+     "nl": "Dank u wel en 40 cent terug voor u. En eet smakelijk vanavond.",
+     "zh": "謝謝您，這是找您40分錢。祝您今晚用餐愉快。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "markt",
+     "zh": "市場"
+    },
+    {
+     "nl": "tomaten",
+     "zh": "番茄"
+    },
+    {
+     "nl": "uien",
+     "zh": "洋蔥"
+    },
+    {
+     "nl": "komkommer",
+     "zh": "黃瓜"
+    },
+    {
+     "nl": "sla",
+     "zh": "生菜"
+    },
+    {
+     "nl": "kaas",
+     "zh": "起司"
+    },
+    {
+     "nl": "vis",
+     "zh": "魚"
+    },
+    {
+     "nl": "haring",
+     "zh": "鯡魚"
+    },
+    {
+     "nl": "bloemkool",
+     "zh": "花椰菜"
+    },
+    {
+     "nl": "knoflook",
+     "zh": "大蒜"
+    },
+    {
+     "nl": "groenten",
+     "zh": "蔬菜"
+    },
+    {
+     "nl": "soep",
+     "zh": "湯"
+    },
+    {
+     "nl": "euro",
+     "zh": "歐元"
+    },
+    {
+     "nl": "boodschappenlijstje",
+     "zh": "購物清單"
+    },
+    {
+     "nl": "gezellig",
+     "zh": "愉快的"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Wat kost dat?",
+     "zh": "這個多少錢？",
+     "note": "詢問價格的句型"
+    },
+    {
+     "nl": "Anders nog iets?",
+     "zh": "還需要其他的嗎？",
+     "note": "詢問是否需要其他物品"
+    },
+    {
+     "nl": "Ik heb ... nodig.",
+     "zh": "我需要...",
+     "note": "表達需求的句型"
+    },
+    {
+     "nl": "Dat klinkt goed.",
+     "zh": "聽起來不錯。",
+     "note": "表示同意或滿意的句型"
+    },
+    {
+     "nl": "Nu heb ik echt alles.",
+     "zh": "現在我真的有所有東西了。",
+     "note": "確認已經購買所有物品"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

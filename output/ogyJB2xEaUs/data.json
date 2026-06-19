@@ -1,0 +1,376 @@
+{
+  "video_id": "ogyJB2xEaUs",
+  "video_info": {
+    "title": "Luisteren examen A2 (nieuw systeem) 3 vragen (b)",
+    "channel": "Inburgeren examen A2",
+    "duration": 299
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Roman heeft een bericht op zijn voicemail van Erik.",
+        "translation": "Roman 有一則來自 Erik 的語音郵件。",
+        "start": 0.0,
+        "end": 4.64
+      },
+      {
+        "text": "Lees eerst de vraag.",
+        "translation": "請先閱讀問題。",
+        "start": 6.56,
+        "end": 8.52
+      },
+      {
+        "text": "Luister daarna naar de tekst.",
+        "translation": "接著聆聽文本。",
+        "start": 10.34,
+        "end": 12.62
+      },
+      {
+        "text": "Luister dan naar de tekst.",
+        "translation": "接著聆聽文本。",
+        "start": 31.34,
+        "end": 35.44
+      },
+      {
+        "text": "Tekst.",
+        "translation": "文本。",
+        "start": 35.44,
+        "end": 42.54
+      },
+      {
+        "text": "Luister dan naar de tekst.",
+        "translation": "接著聆聽文本。",
+        "start": 45.52,
+        "end": 45.66
+      },
+      {
+        "text": "Roman is onderweg naar het gemeentehuis.",
+        "translation": "Roman 正在前往市政府的路上。",
+        "start": 73.62,
+        "end": 77.22
+      },
+      {
+        "text": "Wat moet hij doen bij de Groene Brug? Hij moet linksaf.",
+        "translation": "他在綠色橋那裡應該做什麼？他應該左轉。",
+        "start": 78.98,
+        "end": 84.22
+      },
+      {
+        "text": "Hij moet rechtsaf. Hij moet rechtdoor.",
+        "translation": "他應該右轉。他應該直走。",
+        "start": 84.96,
+        "end": 89.1
+      },
+      {
+        "text": "Hij moet parkeren.",
+        "translation": "他應該停車。",
+        "start": 89.92,
+        "end": 91.32
+      },
+      {
+        "text": "Is het alvast vocational? Als puppy kun je eigenlijk alvast voorgaan.",
+        "translation": "這已經是職業性的嗎？作為小狗，你其實可以先行。",
+        "start": 107.16,
+        "end": 108.56
+      },
+      {
+        "text": "Je kunt eigenlijk alvast voorgaan. Wij moeten toe gaan naar de Groene Brug.",
+        "translation": "你其實可以先行。我們必須前往綠色橋。",
+        "start": 108.56,
+        "end": 120.84
+      },
+      {
+        "text": "Freely chicken eat. Hey, Roman.",
+        "translation": "自由的雞吃。嘿，Roman。",
+        "start": 120.86,
+        "end": 124.66
+      },
+      {
+        "text": "Ik had een bericht gestuurd waar het gemeentehuis precies was.",
+        "translation": "我曾經寄了訊息說明市政府的確切位置。",
+        "start": 125.46,
+        "end": 129.46
+      },
+      {
+        "text": "Nou, je bent er niet, dus... Ja, ik spreek het wel even in.",
+        "translation": "嗯，你還沒到，所以…我會幫你留言。",
+        "start": 129.7,
+        "end": 133.04
+      },
+      {
+        "text": "Oké, vanaf jouw huis. Eerst moet je linksaf.",
+        "translation": "好，從你家出發。首先你應該左轉。",
+        "start": 133.76,
+        "end": 136.96
+      },
+      {
+        "text": "En dan bij de Groene Brug ga je naar rechts. Dan een stukje rechtdoor.",
+        "translation": "然後在綠色橋那裡右轉。接著直走一小段。",
+        "start": 137.8,
+        "end": 142.4
+      },
+      {
+        "text": "En bij de supermarkt ga je rechtsaf. Je weet wel, hè?",
+        "translation": "在超市那裡右轉。你知道的，對吧？",
+        "start": 142.86,
+        "end": 146.22
+      },
+      {
+        "text": "Dan zie je aan de rechterkant een groot gebouw. Dat is het nog niet.",
+        "translation": "然後你會在右手邊看到一棟大樓。那還不是目標。",
+        "start": 146.82,
+        "end": 150.46
+      },
+      {
+        "text": "En daarachter staat een blauw gebouw. Dat is hem wel.",
+        "translation": "在那棟樓後面有一棟藍色建築。那就是了。",
+        "start": 151.08,
+        "end": 154.38
+      },
+      {
+        "text": "En daar is links een parkeerplaats voor bezoekers.",
+        "translation": "左邊有一個訪客停車場。",
+        "start": 155.0,
+        "end": 158.8
+      },
+      {
+        "text": "Maar je kunt ook rechts de parkeergarage inrijden.",
+        "translation": "但你也可以右轉進入停車場。",
+        "start": 159.4,
+        "end": 163.06
+      },
+      {
+        "text": "Of aan de overkant van de weg parkeren.",
+        "translation": "或者停在路的對面。",
+        "start": 164.02,
+        "end": 165.8
+      },
+      {
+        "text": "Maar die parkeerplaats voor bezoekers, die is wel het handigste, denk ik.",
+        "translation": "但我覺得訪客停車場是最方便的。",
+        "start": 166.4,
+        "end": 170.12
+      },
+      {
+        "text": "Roman is onderweg naar het gemeentehuis.",
+        "translation": "Roman 正在前往市政府的路上。",
+        "start": 172.84,
+        "end": 176.56
+      },
+      {
+        "text": "Wat moet hij doen bij de supermarkt?",
+        "translation": "他在超市那裡應該做什麼？",
+        "start": 177.56,
+        "end": 180.86
+      },
+      {
+        "text": "Hij moet linksaf. Hij moet rechtsaf.",
+        "translation": "他應該左轉。他應該右轉。",
+        "start": 182.26,
+        "end": 185.56
+      },
+      {
+        "text": "Hij moet rechtdoor. Hij moet parkeren.",
+        "translation": "他應該直走。他應該停車。",
+        "start": 187.02,
+        "end": 190.88
+      },
+      {
+        "text": "Roman heeft een bericht op zijn voicemail van Erik.",
+        "translation": "Roman 有一則來自 Erik 的語音郵件。",
+        "start": 198.54,
+        "end": 202.66
+      },
+      {
+        "text": "Lees eerst de vraag.",
+        "translation": "請先閱讀問題。",
+        "start": 204.6,
+        "end": 206.0
+      },
+      {
+        "text": "Luister daarna naar de tekst.",
+        "translation": "接著聆聽文本。",
+        "start": 208.14,
+        "end": 210.68
+      },
+      {
+        "text": "Hey, Roman. Ja, ik had een bericht gestuurd waar het gemeentehuis precies was.",
+        "translation": "嘿，Roman。我寄了一則訊息，說明市政府的確切位置。",
+        "start": 222.1,
+        "end": 227.92
+      },
+      {
+        "text": "Nou, je bent er niet, dus... Ja, ik spreek het wel even in.",
+        "translation": "嗯，你還沒到，所以…我會幫你留言。",
+        "start": 228.12,
+        "end": 231.4
+      },
+      {
+        "text": "Oké, vanaf jouw huis eerst moet je linksaf.",
+        "translation": "好，從你家開始，先左轉。",
+        "start": 232.14,
+        "end": 235.38
+      },
+      {
+        "text": "En dan bij de Groene Brug ga je naar rechts.",
+        "translation": "然後在綠色橋那裡右轉。",
+        "start": 235.38,
+        "end": 238.98
+      },
+      {
+        "text": "Dan een stukje rechtdoor. En bij de supermarkt ga je rechtsaf.",
+        "translation": "接著直走一小段，在超市那裡右轉。",
+        "start": 239.74,
+        "end": 243.56
+      },
+      {
+        "text": "Je weet wel, hè? Dan zie je aan de rechterkant een groot gebouw.",
+        "translation": "你知道的，對吧？然後你會在右手邊看到一棟大樓。",
+        "start": 244.14,
+        "end": 247.76
+      },
+      {
+        "text": "Dat is het nog niet. En daarachter staat een blauw gebouw.",
+        "translation": "那還不是目標。後面有一棟藍色建築。",
+        "start": 248.08,
+        "end": 251.38
+      },
+      {
+        "text": "Dat is hem wel. En daar is links een parkeerplaats voor bezoekers.",
+        "translation": "那就是了。訪客停車場在左邊。",
+        "start": 252.1,
+        "end": 257.24
+      },
+      {
+        "text": "Maar je kunt ook rechts de parkeergarage inrijden.",
+        "translation": "但你也可以右轉進入停車場。",
+        "start": 257.84,
+        "end": 261.48
+      },
+      {
+        "text": "Of aan de overkant van de weg parkeren.",
+        "translation": "或者停在路的對面。",
+        "start": 262.42,
+        "end": 264.2
+      },
+      {
+        "text": "Maar die parkeerplaats voor bezoekers, die is wel het handigste, denk ik.",
+        "translation": "但我覺得訪客停車場是最方便的。",
+        "start": 264.2,
+        "end": 268.98
+      },
+      {
+        "text": "Ondertitels ingediend door de Amara.org gemeenschap.",
+        "translation": "字幕由 Amara.org 社群提供。",
+        "start": 298.36,
+        "end": 298.66
+      }
+    ],
+    "questions": [
+      {
+        "question": "Waar moet Roman beginnen met rijden vanaf zijn huis?",
+        "question_native": "Roman 應該從家裡開始怎麼開車？",
+        "options": [
+          "Rechtsaf",
+          "Linksaf",
+          "Rechtdoor"
+        ],
+        "answer": "Linksaf"
+      },
+      {
+        "question": "Welke richting moet Roman nemen bij de Groene Brug?",
+        "question_native": "Roman 到綠色橋時應該走哪個方向？",
+        "options": [
+          "Linksaf",
+          "Rechtsaf",
+          "Rechtdoor"
+        ],
+        "answer": "Rechtsaf"
+      },
+      {
+        "question": "Wat staat achter het grote gebouw aan de rechterkant?",
+        "question_native": "右手邊大樓後面是什麼建築？",
+        "options": [
+          "Een rood gebouw",
+          "Een blauw gebouw",
+          "Een geel gebouw"
+        ],
+        "answer": "Een blauw gebouw"
+      },
+      {
+        "question": "Wat is volgens de uitleg de handigste parkeerplaats?",
+        "question_native": "根據說明，哪個停車場最方便？",
+        "options": [
+          "De parkeergarage",
+          "De parkeerplaats voor bezoekers",
+          "Parkeren aan de overkant van de weg"
+        ],
+        "answer": "De parkeerplaats voor bezoekers"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "Gemeentehuis",
+        "meaning": "市政府"
+      },
+      {
+        "word": "Bericht",
+        "meaning": "訊息"
+      },
+      {
+        "word": "Voicemail",
+        "meaning": "語音郵件"
+      },
+      {
+        "word": "Linksaf",
+        "meaning": "左轉"
+      },
+      {
+        "word": "Rechtsaf",
+        "meaning": "右轉"
+      },
+      {
+        "word": "Rechtdoor",
+        "meaning": "直走"
+      },
+      {
+        "word": "Parkeren",
+        "meaning": "停車"
+      },
+      {
+        "word": "Groene Brug",
+        "meaning": "綠色橋"
+      },
+      {
+        "word": "Supermarkt",
+        "meaning": "超市"
+      },
+      {
+        "word": "Parkeergarage",
+        "meaning": "停車場（裝有頂蓋）"
+      },
+      {
+        "word": "Parkeerplaats voor bezoekers",
+        "meaning": "訪客停車場"
+      },
+      {
+        "word": "Inrijden",
+        "meaning": "駛入"
+      },
+      {
+        "word": "Tekst",
+        "meaning": "文本"
+      },
+      {
+        "word": "Vraag",
+        "meaning": "問題"
+      },
+      {
+        "word": "Ondertitels",
+        "meaning": "字幕"
+      }
+    ]
+  }
+}

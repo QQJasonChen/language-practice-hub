@@ -1,0 +1,236 @@
+{
+ "video_id": "jkm2z_f5oMk",
+ "title": "Luisteren examen A2 Oefenen 6",
+ "channel": "Inburgeren examen A2",
+ "duration": 670,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "在超市的朋友對話",
+   "title_nl": "Luisteren examen A2 Oefenen 6",
+   "kind": "對話",
+   "context_zh": "Lab 和 Tjana 在超市見面，討論他們喜歡的食物。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Het gesprek deel 1.",
+     "zh": "對話第一部分。"
+    },
+    {
+     "t": "0:03",
+     "nl": "Lab en Tjana zijn vrienden.",
+     "zh": "Lab和Tjana是朋友。"
+    },
+    {
+     "t": "0:07",
+     "nl": "Ze zien elkaar in de supermarkt. Luister goed.",
+     "zh": "他們在超市見面。仔細聽。"
+    },
+    {
+     "t": "0:12",
+     "nl": "Wat voor eten vindt Tjana lekker?",
+     "zh": "Tjana喜歡吃什麼？"
+    },
+    {
+     "t": "0:18",
+     "nl": "Hé, hallo! Hoe gaat het met jou? Heel goed. En met jou?",
+     "zh": "嗨，你好！你最近怎麼樣？很好，你呢？"
+    },
+    {
+     "t": "0:24",
+     "nl": "Ook goed. Ook lekker aan het boodschappen doen?",
+     "zh": "我也很好。你也在愉快地購物嗎？"
+    },
+    {
+     "t": "0:27",
+     "nl": "Ja. Jij hebt al heel wat lekkere dingen in je kar.",
+     "zh": "是的。你的購物車裡已經有很多美味的東西了。"
+    },
+    {
+     "t": "0:32",
+     "nl": "Ja. Ik houd van lekker eten. Hé, zullen we iets afspreken?",
+     "zh": "是的。我喜歡美味的食物。嘿，我們約個時間好嗎？"
+    },
+    {
+     "t": "0:38",
+     "nl": "Ja. Kom je vanavond bij me eten?",
+     "zh": "好啊。你今晚來我家吃飯嗎？"
+    },
+    {
+     "t": "0:42",
+     "nl": "Leuk. Goed idee. Kunnen we eens rustig met elkaar praten?",
+     "zh": "很好。好主意。我們可以好好地聊聊。"
+    },
+    {
+     "t": "1:19",
+     "nl": "Oké. Hé, hallo! Hoe gaat het met jou? Heel goed. En met jou?",
+     "zh": "好的。嗨，你好！你最近怎麼樣？很好，你呢？"
+    },
+    {
+     "t": "4:57",
+     "nl": "Ja. Wat vind je lekker? Waar hou je van?",
+     "zh": "是的。你喜歡吃什麼？你喜歡什麼？"
+    },
+    {
+     "t": "5:03",
+     "nl": "Vind je Chinees eten lekker? Of hou je meer van Hollands eten?",
+     "zh": "你喜歡中餐嗎？還是更喜歡荷蘭菜？"
+    },
+    {
+     "t": "5:09",
+     "nl": "Ik vind alles lekker.",
+     "zh": "我什麼都喜歡。"
+    },
+    {
+     "t": "5:12",
+     "nl": "Maar ik hou het meest van buitenlands eten.",
+     "zh": "但我最喜歡外國菜。"
+    },
+    {
+     "t": "5:16",
+     "nl": "Aardappelen, groenten en vlees vind ik wel lekker.",
+     "zh": "我覺得馬鈴薯、蔬菜和肉都不錯。"
+    },
+    {
+     "t": "5:21",
+     "nl": "Maar dat heb ik al zo vaak gegeten.",
+     "zh": "但我已經吃太多次了。"
+    },
+    {
+     "t": "5:25",
+     "nl": "Dan maak ik Chinees voor je. Echt Chinees.",
+     "zh": "那我為你做中餐吧。真正的中餐。"
+    },
+    {
+     "t": "5:30",
+     "nl": "Rijst met kip, tomaat en broccoli. Heerlijk!",
+     "zh": "米飯配雞肉、番茄和西蘭花。美味！"
+    },
+    {
+     "t": "7:05",
+     "nl": "Vind je Chinees eten lekker?",
+     "zh": "你喜歡中餐嗎？"
+    },
+    {
+     "t": "7:10",
+     "nl": "Of hou je meer van Hollandse eten?",
+     "zh": "還是你比較喜歡荷蘭菜？"
+    },
+    {
+     "t": "7:14",
+     "nl": "Ik vind alles lekker. Maar ik hou het meest van buitenlands eten.",
+     "zh": "我什麼都喜歡，但我最喜歡外國菜。"
+    },
+    {
+     "t": "9:06",
+     "nl": "Zoek de juiste woorden bij de plaatjes. Trek een lijn.",
+     "zh": "請將正確的詞語配對到圖片上。畫一條線連接。"
+    },
+    {
+     "t": "10:04",
+     "nl": "TV Gelderland 2021",
+     "zh": "電視Gelderland 2021"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "eten",
+     "zh": "食物"
+    },
+    {
+     "nl": "lekker",
+     "zh": "好吃"
+    },
+    {
+     "nl": "afspreken",
+     "zh": "約定"
+    },
+    {
+     "nl": "boodschappen doen",
+     "zh": "購物"
+    },
+    {
+     "nl": "vrienden",
+     "zh": "朋友"
+    },
+    {
+     "nl": "rijst",
+     "zh": "米飯"
+    },
+    {
+     "nl": "kip",
+     "zh": "雞肉"
+    },
+    {
+     "nl": "tomaat",
+     "zh": "番茄"
+    },
+    {
+     "nl": "broccoli",
+     "zh": "花椰菜"
+    },
+    {
+     "nl": "buitenlands",
+     "zh": "外國的"
+    },
+    {
+     "nl": "Hollands",
+     "zh": "荷蘭的"
+    },
+    {
+     "nl": "groenten",
+     "zh": "蔬菜"
+    },
+    {
+     "nl": "aardappelen",
+     "zh": "馬鈴薯"
+    },
+    {
+     "nl": "ik houd van",
+     "zh": "我喜歡"
+    },
+    {
+     "nl": "vind je",
+     "zh": "你覺得"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Hoe gaat het met jou?",
+     "zh": "你過得怎麼樣？",
+     "note": "問候語"
+    },
+    {
+     "nl": "Ik houd van lekker eten.",
+     "zh": "我喜歡好吃的食物。",
+     "note": "表達喜好"
+    },
+    {
+     "nl": "Kunnen we eens rustig met elkaar praten?",
+     "zh": "我們可以好好聊聊嗎？",
+     "note": "提議對話"
+    },
+    {
+     "nl": "Vind je ... lekker?",
+     "zh": "你覺得...好吃嗎？",
+     "note": "詢問喜好"
+    },
+    {
+     "nl": "Ik vind alles lekker.",
+     "zh": "我覺得所有食物都好吃。",
+     "note": "表達廣泛的喜好"
+    },
+    {
+     "nl": "Dan maak ik ... voor je.",
+     "zh": "那我為你做...。",
+     "note": "提議做某事"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

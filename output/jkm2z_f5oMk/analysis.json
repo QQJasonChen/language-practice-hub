@@ -1,0 +1,740 @@
+{
+ "het gesprek deel 1.": {
+  "breakdown": [
+   [
+    "Het gesprek",
+    "對話"
+   ],
+   [
+    "deel 1",
+    "第一部分"
+   ]
+  ],
+  "order": "主詞Het → 動詞gesprek → 補語deel 1。規則：主詞在前，動詞在第二位。",
+  "grammar": "簡單現在式。",
+  "listen": "注意Het和gesprek的連音。"
+ },
+ "lab en tjana zijn vrienden.": {
+  "breakdown": [
+   [
+    "Lab en Tjana",
+    "Lab和Tjana"
+   ],
+   [
+    "zijn",
+    "是"
+   ],
+   [
+    "vrienden",
+    "朋友"
+   ]
+  ],
+  "order": "主詞Lab en Tjana → 動詞zijn → 補語vrienden。規則：主詞在前，動詞在第二位。",
+  "grammar": "簡單現在式。",
+  "listen": "注意Lab en Tjana的連音。"
+ },
+ "ze zien elkaar in de supermarkt.": {
+  "breakdown": [
+   [
+    "Ze",
+    "他們"
+   ],
+   [
+    "zien",
+    "見面"
+   ],
+   [
+    "elkaar",
+    "彼此"
+   ],
+   [
+    "in de supermarkt",
+    "在超市"
+   ]
+  ],
+  "order": "主詞Ze → 動詞zien → 補語elkaar in de supermarkt。規則：主詞在前，動詞在第二位。",
+  "grammar": "簡單現在式。",
+  "listen": "注意elkaar的弱讀。"
+ },
+ "luister goed.": {
+  "breakdown": [
+   [
+    "Luister",
+    "仔細聽"
+   ],
+   [
+    "goed",
+    "好"
+   ]
+  ],
+  "order": "動詞Luister → 補語goed。規則：祈使句動詞放句首。",
+  "grammar": "祈使句。",
+  "listen": "注意Luister的強調。"
+ },
+ "wat voor eten vindt tjana lekker?": {
+  "breakdown": [
+   [
+    "Wat voor eten",
+    "什麼樣的食物"
+   ],
+   [
+    "vindt",
+    "喜歡"
+   ],
+   [
+    "Tjana",
+    "Tjana"
+   ],
+   [
+    "lekker",
+    "好吃"
+   ]
+  ],
+  "order": "疑問詞Wat voor eten → 動詞vindt → 主詞Tjana → 補語lekker。規則：疑問詞在前，動詞在第二位。",
+  "grammar": "簡單現在式。",
+  "listen": "注意vindt的連音。"
+ },
+ "hé, hallo! hoe gaat het met jou? heel goed. en met jou?": {
+  "breakdown": [
+   [
+    "Hé, hallo!",
+    "嗨，你好！"
+   ],
+   [
+    "Hoe gaat het",
+    "你最近怎麼樣"
+   ],
+   [
+    "met jou?",
+    "跟你？"
+   ],
+   [
+    "Heel goed.",
+    "很好"
+   ],
+   [
+    "En met jou?",
+    "你呢？"
+   ]
+  ],
+  "order": "插入語Hé, hallo! → 疑問詞Hoe → 動詞gaat → 補語het met jou? → 回答Heel goed。規則：疑問句動詞在第二位。",
+  "grammar": "簡單現在式。",
+  "listen": "注意met的弱讀。"
+ },
+ "ook goed.": {
+  "breakdown": [
+   [
+    "Ook",
+    "我也"
+   ],
+   [
+    "goed",
+    "很好"
+   ]
+  ],
+  "order": "副詞Ook → 補語goed。規則：副詞在前，補語在後。",
+  "grammar": "簡單現在式。",
+  "listen": "注意Ook的弱讀。"
+ },
+ "ook lekker aan het boodschappen doen?": {
+  "breakdown": [
+   [
+    "Ook",
+    "你也"
+   ],
+   [
+    "lekker",
+    "愉快地"
+   ],
+   [
+    "aan het boodschappen doen?",
+    "在購物嗎"
+   ]
+  ],
+  "order": "副詞Ook → 補語lekker → 動詞aan het boodschappen doen?。規則：副詞在前，補語在後。",
+  "grammar": "現在進行式。",
+  "listen": "注意aan的弱讀。"
+ },
+ "ja.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ]
+  ],
+  "order": "回答Ja。規則：簡單回答。",
+  "grammar": "簡單現在式。",
+  "listen": "注意Ja的強調。"
+ },
+ "jij hebt al heel wat lekkere dingen in je kar.": {
+  "breakdown": [
+   [
+    "Jij",
+    "你"
+   ],
+   [
+    "hebt",
+    "有"
+   ],
+   [
+    "al",
+    "已經"
+   ],
+   [
+    "heel wat",
+    "很多"
+   ],
+   [
+    "lekkere dingen",
+    "美味的東西"
+   ],
+   [
+    "in je kar",
+    "在你的購物車裡"
+   ]
+  ],
+  "order": "主詞Jij → 動詞hebt → 副詞al → 補語heel wat lekkere dingen in je kar。規則：主詞在前，動詞在第二位。",
+  "grammar": "簡單現在式。",
+  "listen": "注意hebt的連音。"
+ },
+ "ik houd van lekker eten.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "houd van",
+    "喜歡"
+   ],
+   [
+    "lekker eten",
+    "美味的食物"
+   ]
+  ],
+  "order": "主詞Ik → 動詞houd van → 補語lekker eten。規則：主詞在前，動詞在第二位。",
+  "grammar": "簡單現在式。",
+  "listen": "注意houd van的連音。"
+ },
+ "hé, zullen we iets afspreken?": {
+  "breakdown": [
+   [
+    "Hé",
+    "嘿"
+   ],
+   [
+    "zullen we",
+    "我們要"
+   ],
+   [
+    "iets afspreken?",
+    "約個時間？"
+   ]
+  ],
+  "order": "插入語Hé → 動詞zullen → 主詞we → 補語iets afspreken?。規則：疑問句動詞在第二位。",
+  "grammar": "未來式。",
+  "listen": "注意iets的弱讀。"
+ },
+ "kom je vanavond bij me eten?": {
+  "breakdown": [
+   [
+    "Kom",
+    "來"
+   ],
+   [
+    "je",
+    "你"
+   ],
+   [
+    "vanavond",
+    "今晚"
+   ],
+   [
+    "bij me",
+    "來我家"
+   ],
+   [
+    "eten",
+    "吃飯"
+   ]
+  ],
+  "order": "Kom(動詞) → je(主詞) → vanavond(時間) → bij me(地點) → eten(動詞原形)",
+  "grammar": "使用疑問句，動詞放在句首。",
+  "listen": "注意 'Kom' 和 'je' 之間的連音。"
+ },
+ "leuk.": {
+  "breakdown": [
+   [
+    "Leuk",
+    "很好"
+   ]
+  ],
+  "order": "Leuk(形容詞)",
+  "grammar": "簡單的感嘆句。",
+  "listen": "注意 'Leuk' 的發音，可能聽不清。"
+ },
+ "goed idee.": {
+  "breakdown": [
+   [
+    "Goed",
+    "好"
+   ],
+   [
+    "idee",
+    "主意"
+   ]
+  ],
+  "order": "Goed(形容詞) → idee(名詞)",
+  "grammar": "簡單的名詞短語。",
+  "listen": "注意 'Goed' 和 'idee' 的連音。"
+ },
+ "kunnen we eens rustig met elkaar praten?": {
+  "breakdown": [
+   [
+    "Kunnen",
+    "可以"
+   ],
+   [
+    "we",
+    "我們"
+   ],
+   [
+    "eens",
+    "一次"
+   ],
+   [
+    "rustig",
+    "好好地"
+   ],
+   [
+    "met elkaar",
+    "彼此"
+   ],
+   [
+    "praten",
+    "聊天"
+   ]
+  ],
+  "order": "Kunnen(動詞) → we(主詞) → eens(副詞) → rustig(形容詞) → met elkaar(介詞短語) → praten(動詞原形)",
+  "grammar": "使用可分動詞 'kunnen'，表示能力。",
+  "listen": "注意 'Kunnen' 和 'we' 之間的連音。"
+ },
+ "oké. hé, hallo! hoe gaat het met jou? heel goed. en met jou?": {
+  "breakdown": [
+   [
+    "Oké",
+    "好的"
+   ],
+   [
+    "Hé",
+    "嗨"
+   ],
+   [
+    "hallo",
+    "你好"
+   ],
+   [
+    "Hoe gaat het",
+    "你最近怎麼樣"
+   ],
+   [
+    "met jou",
+    "對你"
+   ],
+   [
+    "Heel goed",
+    "很好"
+   ],
+   [
+    "En met jou",
+    "你呢"
+   ]
+  ],
+  "order": "Oké(感嘆詞) → Hé(感嘆詞) → hallo(問候) → Hoe gaat het(問句) → met jou(介詞短語) → Heel goed(回答) → En(連接詞) → met jou(介詞短語)",
+  "grammar": "包含問候和回答的對話。",
+  "listen": "注意 'Hoe gaat het' 的連音。"
+ },
+ "wat vind je lekker?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "vind je",
+    "你覺得"
+   ],
+   [
+    "lekker",
+    "好吃"
+   ]
+  ],
+  "order": "Wat(疑問詞) → vind(動詞) → je(主詞) → lekker(形容詞)",
+  "grammar": "使用疑問句，動詞在主詞前。",
+  "listen": "注意 'Wat' 和 'vind' 之間的連音。"
+ },
+ "waar hou je van?": {
+  "breakdown": [
+   [
+    "Waar",
+    "哪裡"
+   ],
+   [
+    "hou je van",
+    "你喜歡"
+   ]
+  ],
+  "order": "Waar(疑問詞) → hou(動詞) → je(主詞) → van(介詞)",
+  "grammar": "使用疑問句，動詞在主詞前。",
+  "listen": "注意 'Waar' 和 'hou' 之間的連音。"
+ },
+ "vind je chinees eten lekker?": {
+  "breakdown": [
+   [
+    "Vind je",
+    "你覺得"
+   ],
+   [
+    "Chinees eten",
+    "中餐"
+   ],
+   [
+    "lekker",
+    "好吃"
+   ]
+  ],
+  "order": "Vind(動詞) → je(主詞) → Chinees eten(名詞) → lekker(形容詞)",
+  "grammar": "使用疑問句，動詞在主詞前。",
+  "listen": "注意 'Vind' 和 'je' 之間的連音。"
+ },
+ "of hou je meer van hollands eten?": {
+  "breakdown": [
+   [
+    "Of",
+    "還是"
+   ],
+   [
+    "hou je meer van",
+    "你更喜歡"
+   ],
+   [
+    "Hollands eten",
+    "荷蘭菜"
+   ]
+  ],
+  "order": "Of(連接詞) → hou(動詞) → je(主詞) → meer(副詞) → van(介詞) → Hollands eten(名詞)",
+  "grammar": "使用疑問句，動詞在主詞前。",
+  "listen": "注意 'Of' 和 'hou' 之間的連音。"
+ },
+ "ik vind alles lekker.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "vind",
+    "覺得"
+   ],
+   [
+    "alles",
+    "所有的"
+   ],
+   [
+    "lekker",
+    "好吃"
+   ]
+  ],
+  "order": "Ik(主詞) → vind(動詞) → alles(名詞) → lekker(形容詞)",
+  "grammar": "簡單的陳述句。",
+  "listen": "注意 'Ik' 和 'vind' 之間的連音。"
+ },
+ "maar ik hou het meest van buitenlands eten.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "hou het meest van",
+    "最喜歡"
+   ],
+   [
+    "buitenlands eten",
+    "外國菜"
+   ]
+  ],
+  "order": "Maar(連接詞) → ik(主詞) → hou(動詞) → het meest(副詞) → van(介詞) → buitenlands eten(名詞)",
+  "grammar": "使用連接詞引入對比。",
+  "listen": "注意 'Maar' 和 'ik' 之間的連音。"
+ },
+ "aardappelen, groenten en vlees vind ik wel lekker.": {
+  "breakdown": [
+   [
+    "Aardappelen",
+    "馬鈴薯"
+   ],
+   [
+    "groenten",
+    "蔬菜"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "vlees",
+    "肉"
+   ],
+   [
+    "vind ik wel lekker",
+    "我覺得好吃"
+   ]
+  ],
+  "order": "Aardappelen(主詞) → groenten(名詞) → en(連接詞) → vlees(名詞) → vind(動詞) → ik(主詞) → wel(副詞) → lekker(形容詞)",
+  "grammar": "使用 'vind' 表達喜好。",
+  "listen": "注意 'vind' 和 'ik' 之間的連音。"
+ },
+ "maar dat heb ik al zo vaak gegeten.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "dat",
+    "這個"
+   ],
+   [
+    "heb ik",
+    "我已經"
+   ],
+   [
+    "al zo vaak",
+    "這麼多次"
+   ],
+   [
+    "gegeten",
+    "吃了"
+   ]
+  ],
+  "order": "Maar(轉折) → dat(指示詞) → heb(助動詞#2) → ik(主詞) → al zo vaak(副詞) → gegeten(過去分詞)",
+  "grammar": "使用完成式，助動詞在第二位，過去分詞在句尾。",
+  "listen": "注意'al'和'zo'的連音，可能聽不清。"
+ },
+ "dan maak ik chinees voor je.": {
+  "breakdown": [
+   [
+    "Dan",
+    "那麼"
+   ],
+   [
+    "maak ik",
+    "我做"
+   ],
+   [
+    "Chinees",
+    "中餐"
+   ],
+   [
+    "voor je",
+    "給你"
+   ]
+  ],
+  "order": "Dan(時間) → maak(動詞#2) → ik(主詞) → Chinees(賓語) → voor je(介詞短語)",
+  "grammar": "V2 倒裝，動詞在第二位，主詞在動詞後。",
+  "listen": "注意'voor je'的連音，可能聽不清。"
+ },
+ "echt chinees.": {
+  "breakdown": [
+   [
+    "Echt",
+    "真正的"
+   ],
+   [
+    "Chinees",
+    "中餐"
+   ]
+  ],
+  "order": "Echt(形容詞) → Chinees(名詞)",
+  "grammar": "形容詞在名詞前，簡單句型。",
+  "listen": "注意'Echt'的發音，可能聽不清。"
+ },
+ "rijst met kip, tomaat en broccoli.": {
+  "breakdown": [
+   [
+    "Rijst",
+    "米飯"
+   ],
+   [
+    "met",
+    "配"
+   ],
+   [
+    "kip",
+    "雞肉"
+   ],
+   [
+    "tomaat",
+    "番茄"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "broccoli",
+    "西蘭花"
+   ]
+  ],
+  "order": "Rijst(主語) → met(介詞) → kip(名詞) → tomaat(名詞) → en(連接詞) → broccoli(名詞)",
+  "grammar": "名詞串列，使用'和'連接。",
+  "listen": "注意'kip'和'tomaat'的連音，可能漏聽。"
+ },
+ "heerlijk!": {
+  "breakdown": [
+   [
+    "Heerlijk",
+    "美味"
+   ]
+  ],
+  "order": "Heerlijk(形容詞)",
+  "grammar": "簡單句型，形容詞作為感嘆詞。",
+  "listen": "注意'Heerlijk'的強調，可能聽不清。"
+ },
+ "of hou je meer van hollandse eten?": {
+  "breakdown": [
+   [
+    "Of",
+    "還是"
+   ],
+   [
+    "hou je",
+    "你喜歡"
+   ],
+   [
+    "meer van",
+    "比較喜歡"
+   ],
+   [
+    "Hollandse eten",
+    "荷蘭菜"
+   ]
+  ],
+  "order": "Of(選擇) → hou(動詞#2) → je(主詞) → meer van(副詞) → Hollandse eten(名詞)",
+  "grammar": "V2 倒裝，動詞在第二位，主詞在動詞後。",
+  "listen": "注意'meer van'的連音，可能聽不清。"
+ },
+ "ik vind alles lekker. maar ik hou het meest van buitenlands eten.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "vind",
+    "覺得"
+   ],
+   [
+    "alles",
+    "所有東西"
+   ],
+   [
+    "lekker",
+    "好吃"
+   ],
+   [
+    "Maar",
+    "但是"
+   ],
+   [
+    "ik hou het meest van",
+    "我最喜歡"
+   ],
+   [
+    "buitenlands eten",
+    "外國菜"
+   ]
+  ],
+  "order": "Ik(主詞) → vind(動詞#2) → alles(賓語) → lekker(形容詞) → Maar(轉折) → ik(主詞) → hou(動詞#2) → het meest van(副詞) → buitenlands eten(名詞)",
+  "grammar": "使用兩個V2句型，第二個句子有'最'的表達。",
+  "listen": "注意'het meest van'的連音，可能漏聽。"
+ },
+ "zoek de juiste woorden bij de plaatjes.": {
+  "breakdown": [
+   [
+    "Zoek",
+    "請找"
+   ],
+   [
+    "de",
+    "這些"
+   ],
+   [
+    "juiste",
+    "正確的"
+   ],
+   [
+    "woorden",
+    "詞語"
+   ],
+   [
+    "bij",
+    "配對"
+   ],
+   [
+    "de plaatjes",
+    "圖片"
+   ]
+  ],
+  "order": "Zoek(動詞) → de(定冠詞) → juiste(形容詞) → woorden(名詞) → bij(介詞) → de plaatjes(名詞)",
+  "grammar": "祈使句，動詞放句首。",
+  "listen": "注意'zoek de'的連音，可能聽不清。"
+ },
+ "trek een lijn.": {
+  "breakdown": [
+   [
+    "Trek",
+    "畫"
+   ],
+   [
+    "een",
+    "一條"
+   ],
+   [
+    "lijn",
+    "線"
+   ],
+   [
+    "verbinden",
+    "連接"
+   ]
+  ],
+  "order": "Trek(動詞) → een(不定冠詞) → lijn(名詞)",
+  "grammar": "祈使句，動詞放句首。",
+  "listen": "注意'Trek een'的連音，可能漏聽。"
+ },
+ "tv gelderland 2021": {
+  "breakdown": [
+   [
+    "TV",
+    "電視"
+   ],
+   [
+    "Gelderland",
+    "Gelderland"
+   ],
+   [
+    "2021",
+    "2021"
+   ]
+  ],
+  "order": "TV(主語) → Gelderland(名詞) → 2021(年份)",
+  "grammar": "簡單句型，名詞和年份直接排列。",
+  "listen": "注意'TV Gelderland'的連音，可能聽不清。"
+ }
+}

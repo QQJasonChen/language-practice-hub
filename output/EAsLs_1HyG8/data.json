@@ -1,0 +1,580 @@
+{
+  "video_id": "EAsLs_1HyG8",
+  "video_info": {
+    "title": "Luisteren examen A2 (nieuw systeem) 5 vragen",
+    "channel": "Inburgeren examen A2",
+    "duration": 424
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Nika volgt een cursus Nederlands.",
+        "translation": "Nika 正在上荷蘭語課程。",
+        "start": 0.0,
+        "end": 2.86
+      },
+      {
+        "text": "Een medecursist heeft een bericht ingesproken op haar voicemail.",
+        "translation": "一位同學在她的語音信箱留下了一則訊息。",
+        "start": 3.68,
+        "end": 7.24
+      },
+      {
+        "text": "Nika luistert naar het bericht. Lees eerst de vraag.",
+        "translation": "Nika 正在聽那個訊息。請先閱讀問題。",
+        "start": 8.68,
+        "end": 12.66
+      },
+      {
+        "text": "Luister daarna naar de tekst.",
+        "translation": "接著聽聽文本內容。",
+        "start": 13.64,
+        "end": 15.3
+      },
+      {
+        "text": "De vraag is uitgelegd. Ha Nika! Met Markus. Ik, eh, ik bel even voor onze groepsopdracht.",
+        "translation": "問題已經說明。嗨 Nika！我是 Markus。我，嗯，我打電話來關於我們的小組作業。",
+        "start": 25.32,
+        "end": 30.06
+      },
+      {
+        "text": "Die moeten we dus volgende week, eh, maandag inleveren.",
+        "translation": "我們必須在下週一交作業。",
+        "start": 30.54,
+        "end": 33.78
+      },
+      {
+        "text": "Ik heb vraag 1 dinsdag al gemaakt en jij zou dan de derde vraag nog thuis doen.",
+        "translation": "我星期二已經做了第一題，而你會在家做第三題。",
+        "start": 34.34,
+        "end": 38.82
+      },
+      {
+        "text": "Oh, en de vierde, toch? Dan vraag 2, die zouden we samen doen.",
+        "translation": "喔，還有第四題，對吧？那第二題我們要一起做。",
+        "start": 39.32,
+        "end": 44.18
+      },
+      {
+        "text": "Zullen we vrijdag of zaterdag afspreken? Ja, het liefst zaterdag.",
+        "translation": "我們星期五或星期六見面嗎？是的，最好是星期六。",
+        "start": 44.18,
+        "end": 48.3
+      },
+      {
+        "text": "De school is dan dicht, maar het kan ook wel bij mij thuis.",
+        "translation": "學校那時候關門，不過也可以在我家見面。",
+        "start": 48.7,
+        "end": 51.88
+      },
+      {
+        "text": "Dan kunnen we daarna nog even naar de stad. Oké? Ik, eh, ja, ik hoor het wel.",
+        "translation": "然後我們還可以一起去市區。好嗎？我，嗯，我等你回覆。",
+        "start": 52.26,
+        "end": 57.08
+      },
+      {
+        "text": "Bel je even terug? Welke vraag moeten Nika en Markus samen maken?",
+        "translation": "你會打電話回來嗎？Nika 和 Markus 要一起做哪一題？",
+        "start": 57.66,
+        "end": 62.12
+      },
+      {
+        "text": "Vraag 1. Vraag 2. Vraag 3.",
+        "translation": "第一題。第二題。第三題。",
+        "start": 63.02,
+        "end": 66.18
+      },
+      {
+        "text": "Vraag 4.",
+        "translation": "第四題。",
+        "start": 67.5,
+        "end": 68.34
+      },
+      {
+        "text": "Nika volgt een cursus Nederlands.",
+        "translation": "Nika 正在上荷蘭語課程。",
+        "start": 74.84,
+        "end": 77.96
+      },
+      {
+        "text": "Een medecursist heeft een bericht ingesproken op haar voicemail.",
+        "translation": "一位同學在她的語音信箱留下了一則訊息。",
+        "start": 78.8,
+        "end": 82.36
+      },
+      {
+        "text": "Nika luistert naar het bericht. Lees eerst de vraag.",
+        "translation": "Nika 正在聽那個訊息。請先閱讀問題。",
+        "start": 83.72,
+        "end": 87.78
+      },
+      {
+        "text": "Luister daarna naar de tekst.",
+        "translation": "接著聽聽文本內容。",
+        "start": 88.76,
+        "end": 90.28
+      },
+      {
+        "text": "Ha Nika! Met Markus. Ik, eh, ik bel even over onze groepsopdracht.",
+        "translation": "嗨 Nika！我是 Markus。我，嗯，我打電話來關於我們的小組作業。",
+        "start": 100.12,
+        "end": 105.16
+      },
+      {
+        "text": "Die moeten we dus volgende week maandag inleveren.",
+        "translation": "我們必須在下週一交作業。",
+        "start": 105.68,
+        "end": 108.92
+      },
+      {
+        "text": "Ik heb vraag 1 dinsdag al gemaakt. En jij zou dan de derde vraag nog thuis doen.",
+        "translation": "我星期二已經做了第一題。你會在家做第三題。",
+        "start": 109.46,
+        "end": 113.92
+      },
+      {
+        "text": "Oh, en de vierde, toch? Dan vraag 2, die zouden we samen doen.",
+        "translation": "喔，還有第四題，對吧？那第二題我們會一起做。",
+        "start": 114.46,
+        "end": 119.32
+      },
+      {
+        "text": "Zullen we vrijdag of zaterdag afspreken? Ja, het liefst zaterdag.",
+        "translation": "我們星期五或星期六見面嗎？是的，最好是星期六。",
+        "start": 119.98,
+        "end": 123.42
+      },
+      {
+        "text": "De school is dan dicht, maar het kan ook wel bij mij thuis.",
+        "translation": "學校那時候關門，不過也可以在我家見面。",
+        "start": 123.74,
+        "end": 127.0
+      },
+      {
+        "text": "Dan kunnen we daarna nog even naar de stad. Oké, ik, eh, ja, ik hoor het wel.",
+        "translation": "然後我們還可以一起去市區。好嗎？我，嗯，我等你回覆。",
+        "start": 127.32,
+        "end": 132.2
+      },
+      {
+        "text": "Bel je even terug. Op welke dag wil Markus afspreken?",
+        "translation": "你會打電話回來嗎？Markus 想哪一天見面？",
+        "start": 132.78,
+        "end": 136.62
+      },
+      {
+        "text": "Op maandag. Op dinsdag. Op vrijdag.",
+        "translation": "星期一。星期二。星期五。",
+        "start": 137.36,
+        "end": 141.1
+      },
+      {
+        "text": "Op zaterdag.",
+        "translation": "星期六。",
+        "start": 141.74,
+        "end": 142.76
+      },
+      {
+        "text": "Zaira kijkt naar het journaal op televisie.",
+        "translation": "Zaira 在看電視新聞。",
+        "start": 150.66,
+        "end": 154.44
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "請先閱讀問題。接著觀看影片。",
+        "start": 156.02,
+        "end": 159.7
+      },
+      {
+        "text": "Gisteren was het de drukste dag van het jaar op Schiphol Airport.",
+        "translation": "昨天是史基浦機場一年中最繁忙的一天。",
+        "start": 171.16,
+        "end": 175.0
+      },
+      {
+        "text": "Er waren 1300 vluchten.",
+        "translation": "有1300班航班。",
+        "start": 176.1,
+        "end": 177.72
+      },
+      {
+        "text": "Er waren ruim 170.000 passagiers op Schiphol tegenover 180.000 op de drukste dag vorige zomer.",
+        "translation": "昨天史基浦機場有超過17萬名旅客，去年暑假最繁忙的一天則有18萬人。",
+        "start": 178.58,
+        "end": 185.96
+      },
+      {
+        "text": "Schiphol heeft extra personeel ingezet.",
+        "translation": "史基浦機場動用了額外的人力。",
+        "start": 186.9,
+        "end": 189.42
+      },
+      {
+        "text": "Daarom waren de rijen voor het inchecken niet langer dan normaal.",
+        "translation": "因此，報到隊伍沒有比平常更長。",
+        "start": 190.74,
+        "end": 193.42
+      },
+      {
+        "text": "Ook de rij bij de paspoortcontrole was niet langer.",
+        "translation": "護照檢查隊伍也沒有更長。",
+        "start": 194.62,
+        "end": 197.3
+      },
+      {
+        "text": "Alleen op de parkeerplaats was het lastig om een plek te vinden.",
+        "translation": "只有停車場比較難找車位。",
+        "start": 198.52,
+        "end": 201.82
+      },
+      {
+        "text": "Alle reizigers kregen gisteren wel gratis ijs.",
+        "translation": "所有旅客昨天都免費得到冰淇淋。",
+        "start": 203.32,
+        "end": 205.9
+      },
+      {
+        "text": "Ijsfabrikant Ola bestond 20 jaar en trakteerde.",
+        "translation": "冰淇淋製造商 Ola 歡慶成立20週年並提供招待。",
+        "start": 206.84,
+        "end": 209.78
+      },
+      {
+        "text": "Een hele fijne traktatie op zo'n warme dag.",
+        "translation": "在這麼熱的一天，真是個很棒的招待。",
+        "start": 210.84,
+        "end": 213.66
+      },
+      {
+        "text": "Wat was er bijzonder aan deze dag op Schiphol?",
+        "translation": "這天在史基浦有什麼特別的地方？",
+        "start": 214.96,
+        "end": 219.34
+      },
+      {
+        "text": "Het was de drukste dag van deze zomer.",
+        "translation": "這是今夏最繁忙的一天。",
+        "start": 220.16,
+        "end": 223.04
+      },
+      {
+        "text": "Het was de drukste dag van het hele jaar.",
+        "translation": "這是全年最繁忙的一天。",
+        "start": 224.12,
+        "end": 227.36
+      },
+      {
+        "text": "Het was de drukste dag van de afgelopen twee jaar.",
+        "translation": "這是過去兩年來最繁忙的一天。",
+        "start": 228.32,
+        "end": 232.18
+      },
+      {
+        "text": "Het was de drukste dag ooit.",
+        "translation": "這是有史以來最繁忙的一天。",
+        "start": 233.04,
+        "end": 235.0
+      },
+      {
+        "text": "Zaira kijkt naar het journaal op televisie.",
+        "translation": "Zaira 在看電視新聞。",
+        "start": 242.38,
+        "end": 246.24
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "請先閱讀問題。接著觀看影片。",
+        "start": 247.7,
+        "end": 251.54
+      },
+      {
+        "text": "Gisteren was het de drukste dag van het jaar.",
+        "translation": "昨天是全年最繁忙的一天。",
+        "start": 262.56,
+        "end": 264.98
+      },
+      {
+        "text": "Het was de drukste dag van het jaar.",
+        "translation": "這是全年最繁忙的一天。",
+        "start": 288.64,
+        "end": 294.6
+      },
+      {
+        "text": "Alle reizigers kregen gisteren wel gratis ijs.",
+        "translation": "所有旅客昨天都免費得到冰淇淋。",
+        "start": 294.6,
+        "end": 297.56
+      },
+      {
+        "text": "Ijsfabrikant Ola bestond twintig jaar en trakteerde.",
+        "translation": "冰淇淋製造商Ola成立二十週年並請大家吃冰淇淋。",
+        "start": 298.46,
+        "end": 302.06
+      },
+      {
+        "text": "Een hele fijne traktatie op zo'n warme dag.",
+        "translation": "在如此炎熱的天氣裡，一個非常棒的招待。",
+        "start": 302.5,
+        "end": 305.32
+      },
+      {
+        "text": "Waar hadden reizigers het meeste last van de drukte?",
+        "translation": "旅客們最受擁擠之苦的是在哪裡？",
+        "start": 307.24,
+        "end": 311.42
+      },
+      {
+        "text": "Bij de paspoortcontrole. Op de parkeerplaats.",
+        "translation": "護照檢查處。在停車場。",
+        "start": 312.18,
+        "end": 316.42
+      },
+      {
+        "text": "In de rij voor het inchecken.",
+        "translation": "在辦理登機手續的隊伍中。",
+        "start": 317.3,
+        "end": 319.3
+      },
+      {
+        "text": "Zaira kijkt naar het journaal op televisie.",
+        "translation": "Zaira正在看電視新聞。",
+        "start": 330.16,
+        "end": 334.04
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "先讀問題，再看影片。",
+        "start": 335.56,
+        "end": 339.38
+      },
+      {
+        "text": "Video lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "影片先讀問題，再看影片。",
+        "start": 339.38,
+        "end": 350.18
+      },
+      {
+        "text": "Gisteren was het de drukste dag van het jaar op Schiphol Airport.",
+        "translation": "昨天是史基浦機場一年中最忙碌的一天。",
+        "start": 350.58,
+        "end": 354.5
+      },
+      {
+        "text": "Er waren dertienhonderd vluchten.",
+        "translation": "有一千三百班航班。",
+        "start": 355.6,
+        "end": 357.22
+      },
+      {
+        "text": "Er waren ruim 170.000 passagiers op Schiphol, tegenover 180.000 op de drukste dag vorige zomer.",
+        "translation": "史基浦機場有超過17萬名旅客，去年夏天最忙碌的那天有18萬人。",
+        "start": 358.06,
+        "end": 365.46
+      },
+      {
+        "text": "Schiphol heeft extra personeel ingezet.",
+        "translation": "史基浦動用了額外人力。",
+        "start": 366.9,
+        "end": 368.88
+      },
+      {
+        "text": "Daarom waren de rijen voor het inchecken niet langer dan normaal.",
+        "translation": "因此辦理登機的隊伍沒有比平常更長。",
+        "start": 369.78,
+        "end": 372.92
+      },
+      {
+        "text": "Ook de rij bij de paspoortcontrole was niet langer.",
+        "translation": "護照檢查的隊伍也沒有比較長。",
+        "start": 374.14,
+        "end": 376.88
+      },
+      {
+        "text": "Alleen op de parkeerplaats was het lastig om een plek te vinden.",
+        "translation": "只有在停車場比較難找到停車位。",
+        "start": 378.0,
+        "end": 380.84
+      },
+      {
+        "text": "Alle reizigers kregen gisteren wel gratis ijs.",
+        "translation": "昨天所有旅客都免費獲得冰淇淋。",
+        "start": 382.84,
+        "end": 385.42
+      },
+      {
+        "text": "Ijsfabrikant Ola bestond twintig jaar en trakteerde.",
+        "translation": "冰淇淋製造商Ola成立二十週年並請大家吃冰淇淋。",
+        "start": 386.32,
+        "end": 389.26
+      },
+      {
+        "text": "Een hele fijne traktatie op zo'n warme dag.",
+        "translation": "在如此炎熱的天氣裡，一個非常棒的招待。",
+        "start": 390.32,
+        "end": 393.18
+      },
+      {
+        "text": "Waarom kregen de reizigers op Schiphol gratis ijs?",
+        "translation": "為什麼史基浦的旅客會獲得免費冰淇淋？",
+        "start": 394.66,
+        "end": 399.04
+      },
+      {
+        "text": "Omdat Ola twintig jaar bestond.",
+        "translation": "因為Ola成立二十週年。",
+        "start": 399.88,
+        "end": 402.76
+      },
+      {
+        "text": "Omdat ze zo lang moesten wachten. Omdat het zo'n warme dag was.",
+        "translation": "因為他們等了很久。因為那天非常熱。",
+        "start": 403.76,
+        "end": 409.16
+      },
+      {
+        "text": "Ondertitels ingediend door de Amara.org gemeenschap",
+        "translation": "字幕由Amara.org社群提供",
+        "start": 423.18,
+        "end": 423.54
+      }
+    ],
+    "questions": [
+      {
+        "question": "Welke vraag moeten Nika en Markus samen maken?",
+        "question_native": "Nika 和 Markus 要一起做哪一題？",
+        "options": [
+          "Vraag 1",
+          "Vraag 2",
+          "Vraag 3"
+        ],
+        "answer": "Vraag 2"
+      },
+      {
+        "question": "Op welke dag wil Markus afspreken?",
+        "question_native": "Markus 想哪一天見面？",
+        "options": [
+          "Op maandag",
+          "Op vrijdag",
+          "Op zaterdag"
+        ],
+        "answer": "Op zaterdag"
+      },
+      {
+        "question": "Wat was bijzonder aan de drukste dag op Schiphol?",
+        "question_native": "史基浦機場最繁忙的一天有什麼特別？",
+        "options": [
+          "Er waren extra vluchten",
+          "Er werden extra medewerkers ingezet",
+          "De rijen waren extra lang"
+        ],
+        "answer": "Er werden extra medewerkers ingezet"
+      },
+      {
+        "question": "Welke traktatie kregen alle reizigers op de drukste dag?",
+        "question_native": "在最繁忙的一天，所有旅客得到什麼招待？",
+        "options": [
+          "Gratis koffie",
+          "Gratis ijs",
+          "Gratis lunch"
+        ],
+        "answer": "Gratis ijs"
+      },
+      {
+        "question": "Wat was de reden dat de rijen niet langer waren dan normaal?",
+        "question_native": "為何排隊不比平常更長？",
+        "options": [
+          "Omdat minder mensen reisden",
+          "Omdat extra personeel werd ingezet",
+          "Omdat vluchten werden geannuleerd"
+        ],
+        "answer": "Omdat extra personeel werd ingezet"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "cursus",
+        "meaning": "課程"
+      },
+      {
+        "word": "medecursist",
+        "meaning": "同學"
+      },
+      {
+        "word": "voicemail",
+        "meaning": "語音信箱"
+      },
+      {
+        "word": "groepsopdracht",
+        "meaning": "小組作業"
+      },
+      {
+        "word": "inleveren",
+        "meaning": "繳交"
+      },
+      {
+        "word": "vraag",
+        "meaning": "問題"
+      },
+      {
+        "word": "afspreken",
+        "meaning": "約定、見面"
+      },
+      {
+        "word": "school",
+        "meaning": "學校"
+      },
+      {
+        "word": "stad",
+        "meaning": "市區、城市"
+      },
+      {
+        "word": "journaal",
+        "meaning": "新聞"
+      },
+      {
+        "word": "drukste dag",
+        "meaning": "最繁忙的一天"
+      },
+      {
+        "word": "vlucht",
+        "meaning": "航班"
+      },
+      {
+        "word": "passagier",
+        "meaning": "旅客"
+      },
+      {
+        "word": "personeel",
+        "meaning": "人員、員工"
+      },
+      {
+        "word": "rij",
+        "meaning": "排隊"
+      },
+      {
+        "word": "paspoortcontrole",
+        "meaning": "護照檢查"
+      },
+      {
+        "word": "parkeerplaats",
+        "meaning": "停車場"
+      },
+      {
+        "word": "ijs",
+        "meaning": "冰淇淋"
+      },
+      {
+        "word": "trakteren",
+        "meaning": "請客、招待"
+      },
+      {
+        "word": "warm",
+        "meaning": "熱"
+      }
+    ]
+  }
+}

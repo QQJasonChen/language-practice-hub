@@ -1,0 +1,1810 @@
+{
+ "wanneer je kind drie jaar is.": {
+  "breakdown": [
+   [
+    "Wanneer",
+    "當"
+   ],
+   [
+    "je kind",
+    "你的孩子"
+   ],
+   [
+    "drie jaar",
+    "三歲"
+   ],
+   [
+    "is",
+    "時"
+   ]
+  ],
+  "order": "時間詞(當) → 主詞(你的孩子) → 動詞(是) → 補語(三歲)",
+  "grammar": "這句是簡單現在式，表達時間的從句。",
+  "listen": "注意 'je' 可能聽起來像 'j'。"
+ },
+ "wordt het tijd om na te gaan denken over een belangrijke keuze.": {
+  "breakdown": [
+   [
+    "Wordt",
+    "變成"
+   ],
+   [
+    "het tijd",
+    "是時候"
+   ],
+   [
+    "om na te gaan denken",
+    "開始思考"
+   ],
+   [
+    "over een belangrijke keuze",
+    "一個重要決定"
+   ]
+  ],
+  "order": "動詞(變成) → 主詞(它) → 補語(時候) → 不定詞(開始思考)",
+  "grammar": "使用被動語態，'Wordt' 是動詞的變化。",
+  "listen": "'het' 可能被快速讀成 't'。"
+ },
+ "kiest u een school waar de oudere kinderen al naartoe gaan?": {
+  "breakdown": [
+   [
+    "Kiest u",
+    "您會選擇"
+   ],
+   [
+    "een school",
+    "一所學校"
+   ],
+   [
+    "waar de oudere kinderen",
+    "大孩子"
+   ],
+   [
+    "al naartoe gaan",
+    "已經去上"
+   ]
+  ],
+  "order": "動詞(選擇) → 主詞(您) → 受詞(一所學校) → 補語(大孩子已經去上)",
+  "grammar": "這是疑問句，動詞在句首。",
+  "listen": "'waar' 和 'de' 可能連音。"
+ },
+ "of een school dicht bij huis?": {
+  "breakdown": [
+   [
+    "Of",
+    "還是"
+   ],
+   [
+    "een school",
+    "一所學校"
+   ],
+   [
+    "dicht bij huis",
+    "離家近"
+   ]
+  ],
+  "order": "連接詞(還是) → 受詞(一所學校) → 補語(離家近)",
+  "grammar": "這是選擇疑問句，簡單結構。",
+  "listen": "'dicht' 可能聽起來像 'd'。"
+ },
+ "kiest u een school met veel huiswerk, taal en rekenen?": {
+  "breakdown": [
+   [
+    "Kiest u",
+    "您會選擇"
+   ],
+   [
+    "een school",
+    "一所學校"
+   ],
+   [
+    "met veel huiswerk",
+    "作業多"
+   ],
+   [
+    "taal en rekenen",
+    "語言和數學"
+   ]
+  ],
+  "order": "動詞(選擇) → 主詞(您) → 受詞(一所學校) → 補語(作業多、語言和數學)",
+  "grammar": "這是疑問句，動詞在句首。",
+  "listen": "'met' 可能被快速讀成 'm'。"
+ },
+ "of een school die naast taal en rekenen muziek, sport en spel ook belangrijk vindt?": {
+  "breakdown": [
+   [
+    "Of",
+    "還是"
+   ],
+   [
+    "een school",
+    "一所學校"
+   ],
+   [
+    "die naast taal en rekenen",
+    "除了語言和數學"
+   ],
+   [
+    "muziek, sport en spel ook belangrijk vindt",
+    "也重視音樂、運動和遊戲"
+   ]
+  ],
+  "order": "連接詞(還是) → 受詞(一所學校) → 修飾語(除了語言和數學) → 補語(也重視音樂、運動和遊戲)",
+  "grammar": "這是選擇疑問句，結構類似前句。",
+  "listen": "'die' 可能聽起來像 'd'。"
+ },
+ "kiest u een school van uw eigen geloof?": {
+  "breakdown": [
+   [
+    "Kiest u",
+    "您會選擇"
+   ],
+   [
+    "een school",
+    "一所學校"
+   ],
+   [
+    "van uw eigen geloof",
+    "符合您自己信仰"
+   ]
+  ],
+  "order": "動詞(選擇) → 主詞(您) → 受詞(一所學校) → 補語(符合您自己信仰)",
+  "grammar": "這是疑問句，動詞在句首。",
+  "listen": "'van' 可能聽起來像 'v'。"
+ },
+ "hindoestaans, islamitisch, christelijk?": {
+  "breakdown": [
+   [
+    "Hindoestaans",
+    "印度裔"
+   ],
+   [
+    "islamitisch",
+    "伊斯蘭教"
+   ],
+   [
+    "christelijk",
+    "基督教"
+   ]
+  ],
+  "order": "名詞(印度裔) → 名詞(伊斯蘭教) → 名詞(基督教)",
+  "grammar": "這是列舉，無需動詞。",
+  "listen": "注意 'islamitisch' 可能被快速讀成 'islam'。"
+ },
+ "of één school die openstaat voor alle geloofsrichtingen?": {
+  "breakdown": [
+   [
+    "Of",
+    "還是"
+   ],
+   [
+    "één school",
+    "一所學校"
+   ],
+   [
+    "die openstaat voor alle geloofsrichtingen",
+    "對所有宗教信仰都開放"
+   ]
+  ],
+  "order": "連接詞(還是) → 受詞(一所學校) → 修飾語(對所有宗教信仰都開放)",
+  "grammar": "這是選擇疑問句，結構類似前句。",
+  "listen": "'die' 可能聽起來像 'd'。"
+ },
+ "een openbare school.": {
+  "breakdown": [
+   [
+    "Een openbare school",
+    "一所公立學校"
+   ]
+  ],
+  "order": "受詞(一所公立學校)",
+  "grammar": "這是簡單句，沒有動詞。",
+  "listen": "'openbare' 可能聽起來像 'openb'。"
+ },
+ "deze aflevering van thuis op school gaat over welke school ik kies voor mijn kind.": {
+  "breakdown": [
+   [
+    "Deze aflevering",
+    "本集"
+   ],
+   [
+    "van Thuis op School",
+    "在家與學校"
+   ],
+   [
+    "gaat over",
+    "將探討"
+   ],
+   [
+    "welke school ik kies voor mijn kind",
+    "我為孩子挑選哪所學校"
+   ]
+  ],
+  "order": "主詞(本集) → 動詞(將探討) → 補語(我為孩子挑選哪所學校)",
+  "grammar": "這是簡單現在式，表達主題。",
+  "listen": "'van' 可能聽起來像 'v'。"
+ },
+ "wanneer je kind drie jaar is, wordt het tijd om na te gaan denken over een belangrijke keuze.": {
+  "breakdown": [
+   [
+    "Wanneer je kind drie jaar is",
+    "當你的孩子三歲時"
+   ],
+   [
+    "wordt het tijd om na te gaan denken over een belangrijke keuze",
+    "就是開始思考一個重要決定的時候了"
+   ]
+  ],
+  "order": "時間詞(當) → 主詞(你的孩子) → 動詞(是) → 補語(三歲) → 動詞(變成) → 主詞(它) → 補語(時候) → 不定詞(開始思考)",
+  "grammar": "結合了兩個句子，第一部分是從句。",
+  "listen": "注意 'je' 和 'het' 可能被快速讀成 'j' 和 't'。"
+ },
+ "wanneer moet ik een school uitkiezen?": {
+  "breakdown": [
+   [
+    "Wanneer",
+    "什麼時候"
+   ],
+   [
+    "moet",
+    "應該"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "een school",
+    "一所學校"
+   ],
+   [
+    "uitkiezen",
+    "挑選"
+   ]
+  ],
+  "order": "Wanneer(時間) → moet(動詞#2) → ik(主詞) → een school(受詞) → uitkiezen(動詞#1)",
+  "grammar": "使用情態動詞 moet，後接原形動詞 uitkiezen。",
+  "listen": "注意 'moet' 和 'ik' 之間的連音。"
+ },
+ "kinderen mogen als ze vier zijn naar school.": {
+  "breakdown": [
+   [
+    "Kinderen",
+    "孩子們"
+   ],
+   [
+    "mogen",
+    "可以"
+   ],
+   [
+    "als ze vier zijn",
+    "當他們四歲時"
+   ],
+   [
+    "naar school",
+    "上學"
+   ]
+  ],
+  "order": "Kinderen(主詞) → mogen(動詞#2) → als ze vier zijn(時間狀語) → naar school(受詞)",
+  "grammar": "使用情態動詞 mogen，後接原形動詞。",
+  "listen": "'ze' 在快速語速中可能會被弱讀。"
+ },
+ "en dan zou ik zo beginnen om op driejarige leeftijd van je kind alles te gaan kijken op een school.": {
+  "breakdown": [
+   [
+    "En dan",
+    "然後"
+   ],
+   [
+    "zou ik",
+    "我會"
+   ],
+   [
+    "zo beginnen",
+    "這樣開始"
+   ],
+   [
+    "om op driejarige leeftijd",
+    "在三歲時"
+   ],
+   [
+    "van je kind alles te gaan kijken op een school",
+    "看各個學校的情況"
+   ]
+  ],
+  "order": "En dan(連接詞) → zou(助動詞#2) → ik(主詞) → zo(副詞) → beginnen(動詞#1) → om(不定詞引導) → op driejarige leeftijd(時間狀語) → van je kind(受詞) → alles te gaan kijken(不定詞) → op een school(地點)",
+  "grammar": "使用條件句，'zou' 是未來的假設。",
+  "listen": "'zou ik' 可能會連音，聽起來像 'zoudik'。"
+ },
+ "zodat je wat kan vragen en op verschillende scholen dingen te weten kan komen.": {
+  "breakdown": [
+   [
+    "Zodat",
+    "這樣"
+   ],
+   [
+    "je kan vragen",
+    "你可以提出問題"
+   ],
+   [
+    "en",
+    "並"
+   ],
+   [
+    "op verschillende scholen",
+    "在不同的學校"
+   ],
+   [
+    "dingen te weten kan komen",
+    "了解情況"
+   ]
+  ],
+  "order": "Zodat(連接詞) → je(主詞) → kan(動詞#2) → vragen(受詞) → en(連接詞) → op verschillende scholen(地點) → dingen(受詞) → te weten kan komen(不定詞)",
+  "grammar": "使用不定詞結構，'te weten' 是不定詞。",
+  "listen": "'je kan' 可能會連音，聽起來像 'jekan'。"
+ },
+ "juf harriet, wanneer moet ik een school uitkiezen?": {
+  "breakdown": [
+   [
+    "Juf Harriet",
+    "Harriet老師"
+   ],
+   [
+    "wanneer",
+    "什麼時候"
+   ],
+   [
+    "moet ik",
+    "我需要"
+   ],
+   [
+    "een school",
+    "一所學校"
+   ],
+   [
+    "uitkiezen",
+    "挑選"
+   ]
+  ],
+  "order": "Juf Harriet(主詞) → wanneer(時間) → moet(動詞#2) → ik(主詞) → een school(受詞) → uitkiezen(動詞#1)",
+  "grammar": "使用情態動詞 moet，後接原形動詞。",
+  "listen": "注意 'moet' 和 'ik' 之間的連音。"
+ },
+ "een school kiezen voor je kind is een belangrijke beslissing.": {
+  "breakdown": [
+   [
+    "Een school kiezen",
+    "挑選一所學校"
+   ],
+   [
+    "voor je kind",
+    "為你的孩子"
+   ],
+   [
+    "is",
+    "是一"
+   ],
+   [
+    "een belangrijke beslissing",
+    "一項重要的決定"
+   ]
+  ],
+  "order": "Een school kiezen(主詞) → voor je kind(受詞) → is(動詞#2) → een belangrijke beslissing(主詞補語)",
+  "grammar": "使用現在時，'is' 是主要動詞。",
+  "listen": "'een' 在快速語速中可能會被弱讀。"
+ },
+ "de school moet passen bij je kinderen, bij uw wensen en ideeën over het onderwijs.": {
+  "breakdown": [
+   [
+    "De school",
+    "學校"
+   ],
+   [
+    "moet passen",
+    "應該符合"
+   ],
+   [
+    "bij je kinderen",
+    "你孩子的需求"
+   ],
+   [
+    "bij uw wensen",
+    "你的願望"
+   ],
+   [
+    "en ideeën over het onderwijs",
+    "及對教育的想法"
+   ]
+  ],
+  "order": "De school(主詞) → moet(動詞#2) → passen(動詞#1) → bij je kinderen(受詞) → bij uw wensen(受詞) → en(連接詞) → ideeën(受詞) → over het onderwijs(補充說明)",
+  "grammar": "使用現在時，'moet' 是情態動詞。",
+  "listen": "'bij' 和 'je' 之間可能會連音。"
+ },
+ "denk thuis al na wat u wilt weten.": {
+  "breakdown": [
+   [
+    "Denk",
+    "思考"
+   ],
+   [
+    "thuis",
+    "在家裡"
+   ],
+   [
+    "al na",
+    "先"
+   ],
+   [
+    "wat u wilt weten",
+    "你想知道什麼"
+   ]
+  ],
+  "order": "Denk(動詞#1) → thuis(地點) → al na(副詞) → wat u wilt weten(受詞)",
+  "grammar": "使用命令式，動詞在句首。",
+  "listen": "'u' 在快速語速中可能會被弱讀。"
+ },
+ "zet eventuele vragen alvast op papier.": {
+  "breakdown": [
+   [
+    "Zet",
+    "把"
+   ],
+   [
+    "eventuele vragen",
+    "可能的問題"
+   ],
+   [
+    "alvast",
+    "提前"
+   ],
+   [
+    "op papier",
+    "寫下來"
+   ]
+  ],
+  "order": "Zet(動詞#1) → eventuele vragen(受詞) → alvast(副詞) → op papier(地點)",
+  "grammar": "使用命令式，動詞在句首。",
+  "listen": "'eventuele' 在快速語速中可能會被弱讀。"
+ },
+ "praat ook eens met andere ouders en vraag hen wat zij van de school vinden.": {
+  "breakdown": [
+   [
+    "Praat",
+    "聊聊"
+   ],
+   [
+    "ook eens",
+    "也"
+   ],
+   [
+    "met andere ouders",
+    "和其他家長"
+   ],
+   [
+    "en vraag hen",
+    "並問他們"
+   ],
+   [
+    "wat zij van de school vinden",
+    "對學校的看法"
+   ]
+  ],
+  "order": "Praat(動詞#1) → ook eens(副詞) → met andere ouders(受詞) → en(連接詞) → vraag(動詞#2) → hen(受詞) → wat zij van de school vinden(受詞補語)",
+  "grammar": "使用命令式，動詞在句首。",
+  "listen": "'met' 和 'andere' 之間可能會連音。"
+ },
+ "hoe verzamel ik informatie over een school?": {
+  "breakdown": [
+   [
+    "Hoe",
+    "如何"
+   ],
+   [
+    "verzamel ik",
+    "我收集"
+   ],
+   [
+    "informatie",
+    "資訊"
+   ],
+   [
+    "over een school",
+    "關於一所學校"
+   ]
+  ],
+  "order": "Hoe(疑問詞) → verzamel(動詞#1) → ik(主詞) → informatie(受詞) → over een school(補充說明)",
+  "grammar": "使用疑問句，動詞在句首。",
+  "listen": "'verzamel' 在快速語速中可能會被弱讀。"
+ },
+ "als uw kind drie is, krijgt u van de gemeente een gids.": {
+  "breakdown": [
+   [
+    "Als uw kind drie is",
+    "當你的孩子三歲時"
+   ],
+   [
+    "krijgt u",
+    "你會得到"
+   ],
+   [
+    "van de gemeente",
+    "來自市政府"
+   ],
+   [
+    "een gids",
+    "一本指南"
+   ]
+  ],
+  "order": "Als uw kind drie is(時間狀語) → krijgt(動詞#2) → u(主詞) → van de gemeente(地點) → een gids(受詞)",
+  "grammar": "使用條件句，動詞在句中第二位。",
+  "listen": "'krijgt u' 可能會連音，聽起來像 'krijgtuh'。"
+ },
+ "daarin staan alle scholen van de gemeente.": {
+  "breakdown": [
+   [
+    "Daarin",
+    "裡面"
+   ],
+   [
+    "staan",
+    "有"
+   ],
+   [
+    "alle scholen",
+    "所有學校"
+   ],
+   [
+    "van de gemeente",
+    "市內的"
+   ]
+  ],
+  "order": "Daarin(裡面) → staan(有) → alle scholen(所有學校) → van de gemeente(市內的)。規則：主詞在動詞後面。",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "‘staan’和‘alle’連音，容易漏聽。"
+ },
+ "en u kunt er een uitzoeken waar u een bezoekje aan brengt.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "u kunt",
+    "您可以"
+   ],
+   [
+    "er een uitzoeken",
+    "從中選擇一個"
+   ],
+   [
+    "waar u een bezoekje aan brengt",
+    "您要拜訪的"
+   ]
+  ],
+  "order": "En(而且) → u(您) → kunt(可以) → er(從中) → een(一個) → uitzoeken(選擇) → waar(哪個) → u(您) → een bezoekje aan brengt(要拜訪的)。規則：動詞在第二位。",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "‘er’和‘een’連音，容易漏聽。"
+ },
+ "bij ons is het belangrijk dat wij een openbare school hebben.": {
+  "breakdown": [
+   [
+    "Bij ons",
+    "我們這裡"
+   ],
+   [
+    "is het belangrijk",
+    "很重要"
+   ],
+   [
+    "dat wij",
+    "我們"
+   ],
+   [
+    "een openbare school hebben",
+    "有一所公立學校"
+   ]
+  ],
+  "order": "Bij ons(我們這裡) → is(是) → het(這) → belangrijk(重要) → dat(那) → wij(我們) → een openbare school(一所公立學校) → hebben(有)。規則：主詞在動詞後面。",
+  "grammar": "現在式，‘is’為動詞。",
+  "listen": "‘het’可能被弱讀，容易漏聽。"
+ },
+ "een openbare school, dat wil zeggen dat je de deuren openzet voor alle mensen met verschillende achtergronden.": {
+  "breakdown": [
+   [
+    "Een openbare school",
+    "公立學校"
+   ],
+   [
+    "dat wil zeggen",
+    "意思是"
+   ],
+   [
+    "dat je",
+    "對你"
+   ],
+   [
+    "de deuren openzet",
+    "開放大門"
+   ],
+   [
+    "voor alle mensen met verschillende achtergronden",
+    "對所有不同背景的人"
+   ]
+  ],
+  "order": "Een openbare school(公立學校) → dat(那) → wil zeggen(意思是) → dat(那) → je(你) → de deuren(大門) → openzet(開放) → voor(對) → alle mensen(所有人) → met verschillende achtergronden(不同背景)。規則：主詞在動詞後面。",
+  "grammar": "現在式，‘wil zeggen’為固定搭配。",
+  "listen": "‘dat’和‘je’連音，容易漏聽。"
+ },
+ "kinderen maken en leren heel veel op school.": {
+  "breakdown": [
+   [
+    "Kinderen",
+    "孩子們"
+   ],
+   [
+    "maken en leren",
+    "學習並獲得"
+   ],
+   [
+    "heel veel",
+    "很多"
+   ],
+   [
+    "op school",
+    "在學校"
+   ]
+  ],
+  "order": "Kinderen(孩子們) → maken(學習) → en(並) → leren(獲得) → heel veel(很多) → op school(在學校)。規則：主詞在動詞前面。",
+  "grammar": "現在式，‘maken’和‘leren’為並列動詞。",
+  "listen": "‘en’可能被弱讀，容易漏聽。"
+ },
+ "hoe houd je je als ouder op de hoogte?": {
+  "breakdown": [
+   [
+    "Hoe",
+    "如何"
+   ],
+   [
+    "houd je je",
+    "保持你"
+   ],
+   [
+    "als ouder",
+    "作為家長"
+   ],
+   [
+    "op de hoogte",
+    "了解"
+   ]
+  ],
+  "order": "Hoe(如何) → houd(保持) → je(你) → je(你) → als ouder(作為家長) → op de hoogte(了解)。規則：疑問句時動詞在句首。",
+  "grammar": "現在式，‘houd’為動詞。",
+  "listen": "‘je’可能被弱讀，容易漏聽。"
+ },
+ "aan het begin van het jaar is er een informatieavond in de klas van de kinderen.": {
+  "breakdown": [
+   [
+    "Aan het begin van het jaar",
+    "學年開始時"
+   ],
+   [
+    "is er",
+    "會有"
+   ],
+   [
+    "een informatieavond",
+    "一個說明會"
+   ],
+   [
+    "in de klas van de kinderen",
+    "在孩子班級"
+   ]
+  ],
+  "order": "Aan het begin van het jaar(學年開始時) → is(會有) → er(有) → een informatieavond(一個說明會) → in de klas van de kinderen(在孩子班級)。規則：主詞在動詞後面。",
+  "grammar": "現在式，‘is’為動詞。",
+  "listen": "‘er’可能被弱讀，容易漏聽。"
+ },
+ "en daar legt de leraar of juf uit wat ze dat jaar allemaal gaan doen.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "daar",
+    "那裡"
+   ],
+   [
+    "legt de leraar of juf uit",
+    "老師或女教師解釋"
+   ],
+   [
+    "wat ze dat jaar allemaal gaan doen",
+    "他們這一年要做的所有事情"
+   ]
+  ],
+  "order": "En(而且) → daar(那裡) → legt(解釋) → de leraar of juf(老師或女教師) → uit(解釋) → wat(什麼) → ze(他們) → dat jaar(那一年) → allemaal(所有) → gaan doen(要做)。規則：主詞在動詞後面。",
+  "grammar": "現在式，‘legt’為動詞。",
+  "listen": "‘de leraar of juf’可能被連音，容易漏聽。"
+ },
+ "aan de hand van de boeken. die liggen allemaal klaar. die kunnen we inzien.": {
+  "breakdown": [
+   [
+    "Aan de hand van de boeken",
+    "根據教科書"
+   ],
+   [
+    "Die liggen allemaal klaar",
+    "書本都備好"
+   ],
+   [
+    "Die kunnen we inzien",
+    "可以查看"
+   ]
+  ],
+  "order": "Aan de hand van de boeken(根據教科書) → Die(那些) → liggen(備好) → allemaal(都) → klaar(準備好) → Die(那些) → kunnen(可以) → we(我們) → inzien(查看)。規則：主詞在動詞後面。",
+  "grammar": "現在式，‘liggen’和‘kunnen’為動詞。",
+  "listen": "‘Die’可能被弱讀，容易漏聽。"
+ },
+ "en er is ook een nieuwsbrief. die krijgen we vier keer in het jaar mee.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "er is ook",
+    "還有"
+   ],
+   [
+    "een nieuwsbrief",
+    "一份電子報"
+   ],
+   [
+    "Die krijgen we vier keer in het jaar mee",
+    "每年發四次"
+   ]
+  ],
+  "order": "En(而且) → er(有) → is(是) → ook(也) → een nieuwsbrief(一份電子報) → Die(那個) → krijgen(得到) → we(我們) → vier keer in het jaar(每年) → mee(一起)。規則：主詞在動詞後面。",
+  "grammar": "現在式，‘is’為動詞。",
+  "listen": "‘er’可能被弱讀，容易漏聽。"
+ },
+ "daar staat heel veel in over wat de kinderen dat jaar die maanden gedaan hebben.": {
+  "breakdown": [
+   [
+    "Daar staat heel veel in",
+    "裡面有很多"
+   ],
+   [
+    "over wat de kinderen dat jaar die maanden gedaan hebben",
+    "關於孩子們那幾個月做了什麼"
+   ]
+  ],
+  "order": "Daar(裡面) → staat(有) → heel veel(很多) → in(裡面) → over(關於) → wat(什麼) → de kinderen(孩子們) → dat jaar(那一年) → die maanden(那幾個月) → gedaan hebben(做了)。規則：主詞在動詞後面。",
+  "grammar": "現在式，‘staat’為動詞。",
+  "listen": "‘in’和‘over’連音，容易漏聽。"
+ },
+ "ik ga nog even zitten.": {
+  "breakdown": [
+   [
+    "Ik ga",
+    "我去"
+   ],
+   [
+    "nog even zitten",
+    "再坐一會兒"
+   ]
+  ],
+  "order": "Ik(我) → ga(去) → nog even(再) → zitten(坐)。規則：動詞在第二位。",
+  "grammar": "現在式，‘ga’為動詞。",
+  "listen": "‘nog’和‘even’連音，容易漏聽。"
+ },
+ "ik heb hier nog wat informatie van de school.": {
+  "breakdown": [
+   [
+    "Ik",
+    "我"
+   ],
+   [
+    "heb",
+    "有"
+   ],
+   [
+    "hier",
+    "這裡"
+   ],
+   [
+    "nog",
+    "還有"
+   ],
+   [
+    "wat informatie van de school",
+    "學校的資料"
+   ]
+  ],
+  "order": "主詞(Ik) → 動詞(heb) → 地點(hier) → 剩餘(nog wat informatie van de school)",
+  "grammar": "現在式，動詞有主詞變化。",
+  "listen": "注意連音，'wat informatie' 可能聽成 'wat informatie'。"
+ },
+ "de schoolgids.": {
+  "breakdown": [
+   [
+    "De schoolgids",
+    "學校指南"
+   ]
+  ],
+  "order": "主詞(De schoolgids) → (無動詞)",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "注意發音，'schoolgids' 可能聽不清。"
+ },
+ "over de schooltijden. de vakanties. over alles wat je eigenlijk zou moeten weten van de school.": {
+  "breakdown": [
+   [
+    "Over de schooltijden",
+    "關於上課時間"
+   ],
+   [
+    "De vakanties",
+    "假期"
+   ],
+   [
+    "Over alles wat je eigenlijk zou moeten weten van de school",
+    "關於你應該知道的學校相關資訊"
+   ]
+  ],
+  "order": "(無主詞) → 介系詞(Over) → 內容(各項資訊)",
+  "grammar": "使用介系詞引導，無動詞。",
+  "listen": "'wat je eigenlijk' 可能連音，聽不清。"
+ },
+ "lees het eens rustig door.": {
+  "breakdown": [
+   [
+    "Lees",
+    "請閱讀"
+   ],
+   [
+    "het eens rustig door",
+    "慢慢閱讀"
+   ]
+  ],
+  "order": "動詞(Lees) → 受詞(het) → 副詞(eens rustig) → 副詞(door)",
+  "grammar": "命令式，動詞在句首。",
+  "listen": "'eens' 可能被弱讀，聽不清。"
+ },
+ "het is belangrijk dat ouders zich met school bemoeien.": {
+  "breakdown": [
+   [
+    "Het is belangrijk",
+    "這是重要的"
+   ],
+   [
+    "dat ouders zich met school bemoeien",
+    "家長參與學校"
+   ]
+  ],
+  "order": "主詞(Het) → 動詞(is) → 形容詞(belangrijk) → 從句(dat...)",
+  "grammar": "現在式，從句動詞放句尾。",
+  "listen": "'dat ouders' 可能連音，聽不清。"
+ },
+ "en dat bemoei je vooral in de goede zin van het woord.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "dat bemoei je vooral in de goede zin van het woord",
+    "這種參與主要是好的意義上的關心"
+   ]
+  ],
+  "order": "連接詞(En) → 從句(dat...) → 主詞(je) → 動詞(bemoei) → 剩餘(vooral in de goede zin van het woord)",
+  "grammar": "從句動詞放句尾，主詞在動詞前。",
+  "listen": "'vooral in de goede' 可能連音，聽不清。"
+ },
+ "dat ze meehelpen om te zorgen dat het zo goed mogelijk gaat met hun kind op school.": {
+  "breakdown": [
+   [
+    "Dat ze meehelpen",
+    "家長幫忙"
+   ],
+   [
+    "om te zorgen dat het zo goed mogelijk gaat met hun kind op school",
+    "確保孩子在學校獲得最好的支持"
+   ]
+  ],
+  "order": "主詞(Dat ze) → 動詞(meehelpen) → 剩餘(om te zorgen...)",
+  "grammar": "不定詞短語(om te...)，動詞在主詞後。",
+  "listen": "'om te zorgen' 可能連音，聽不清。"
+ },
+ "over de schooltijden, de vakanties, over alles wat je eigenlijk zou moeten weten van de school.": {
+  "breakdown": [
+   [
+    "Over de schooltijden",
+    "關於上課時間"
+   ],
+   [
+    "de vakanties",
+    "假期"
+   ],
+   [
+    "over alles wat je eigenlijk zou moeten weten van de school",
+    "關於你應該知道的所有學校相關資訊"
+   ]
+  ],
+  "order": "(無主詞) → 介系詞(Over) → 內容(各項資訊)",
+  "grammar": "使用介系詞引導，無動詞。",
+  "listen": "'wat je eigenlijk' 可能連音，聽不清。"
+ },
+ "de kinderen blijven hier over op school.": {
+  "breakdown": [
+   [
+    "De kinderen",
+    "孩子們"
+   ],
+   [
+    "blijven hier",
+    "在這裡留下來"
+   ],
+   [
+    "over op school",
+    "在學校"
+   ]
+  ],
+  "order": "主詞(De kinderen) → 動詞(blijven) → 地點(hier) → 剩餘(over op school)",
+  "grammar": "現在式，動詞有主詞變化。",
+  "listen": "'blijven hier' 可能連音，聽不清。"
+ },
+ "smidats, wat doe je in hun broodtrommel?": {
+  "breakdown": [
+   [
+    "Smidats",
+    "Smidats"
+   ],
+   [
+    "wat doe je",
+    "你在做什麼"
+   ],
+   [
+    "in hun broodtrommel",
+    "在他們的便當盒裡"
+   ]
+  ],
+  "order": "主詞(Smidats) → 動詞(doe) → 剩餘(wat je in hun broodtrommel)",
+  "grammar": "疑問句，動詞在主詞後。",
+  "listen": "'wat doe je' 可能連音，聽不清。"
+ },
+ "nou, altijd twee bruine boterhammetjes.": {
+  "breakdown": [
+   [
+    "Nou",
+    "那麼"
+   ],
+   [
+    "altijd",
+    "總是"
+   ],
+   [
+    "twee bruine boterhammetjes",
+    "兩片全麥土司"
+   ]
+  ],
+  "order": "副詞(Nou) → 副詞(altijd) → 數量(twee) → 名詞(boterhammetjes)",
+  "grammar": "現在式，無動詞。",
+  "listen": "'twee bruine' 可能連音，聽不清。"
+ },
+ "eentje met hartig en eentje met zoet.": {
+  "breakdown": [
+   [
+    "Eentje",
+    "一片"
+   ],
+   [
+    "met hartig",
+    "有鹹口味"
+   ],
+   [
+    "en eentje met zoet",
+    "和一片有甜口味"
+   ]
+  ],
+  "order": "主詞(Eentje) → 介系詞(met) → 內容(hartig) → 連接詞(en) → 主詞(eentje) → 介系詞(met) → 內容(zoet)",
+  "grammar": "名詞短語，使用介系詞。",
+  "listen": "'met hartig' 可能連音，聽不清。"
+ },
+ "een beetje fruit.": {
+  "breakdown": [
+   [
+    "Een beetje",
+    "一些"
+   ],
+   [
+    "fruit",
+    "水果"
+   ]
+  ],
+  "order": "主詞→形容詞→名詞。這句是簡單的名詞短語。",
+  "grammar": "名詞短語，無特別時態或動詞。",
+  "listen": "注意 'een' 和 'beetje' 的連音。"
+ },
+ "een mandarijn, een appel of een zakje druifjes.": {
+  "breakdown": [
+   [
+    "Een mandarijn",
+    "一顆小柑橘"
+   ],
+   [
+    "een appel",
+    "一顆蘋果"
+   ],
+   [
+    "of een zakje druifjes",
+    "或一包葡萄"
+   ]
+  ],
+  "order": "主詞→名詞1→連接詞→名詞2→連接詞→名詞3。列舉多個名詞。",
+  "grammar": "名詞短語，無動詞。",
+  "listen": "'of' 可能聽起來像 'of een'。"
+ },
+ "verder krijgen ze een klein koekje mee.": {
+  "breakdown": [
+   [
+    "Verder",
+    "此外"
+   ],
+   [
+    "krijgen ze",
+    "他們會得到"
+   ],
+   [
+    "een klein koekje mee",
+    "一小塊餅乾"
+   ]
+  ],
+  "order": "副詞→動詞→主詞→名詞短語。動詞在主詞之前。",
+  "grammar": "現在時，'krijgen' 是主要動詞。",
+  "listen": "'ze' 可能被弱讀，聽起來像 'z'。"
+ },
+ "niet zo'n hele grote, want dan is de koek op.": {
+  "breakdown": [
+   [
+    "Niet zo'n hele grote",
+    "不要太大塊"
+   ],
+   [
+    "want dan is de koek op",
+    "因為那樣餅乾就吃完了"
+   ]
+  ],
+  "order": "副詞→形容詞→名詞→連接詞→副詞→動詞→名詞。",
+  "grammar": "現在時，'is' 是主要動詞。",
+  "listen": "'niet' 和 'zo'n' 可能連音。"
+ },
+ "maar het brood komt weer mee naar huis.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "het brood",
+    "麵包"
+   ],
+   [
+    "komt weer mee naar huis",
+    "會帶回家"
+   ]
+  ],
+  "order": "連接詞→主詞→名詞→動詞→副詞→介詞短語。",
+  "grammar": "現在時，'komt' 是主要動詞。",
+  "listen": "'weer' 可能被弱讀。"
+ },
+ "een bekertje yoghurt drinken en een bekertje roosvizé.": {
+  "breakdown": [
+   [
+    "Een bekertje yoghurt drinken",
+    "喝一杯優格"
+   ],
+   [
+    "en een bekertje roosvizé",
+    "和一杯玫瑰味汽水"
+   ]
+  ],
+  "order": "主詞→名詞短語→動詞→連接詞→名詞短語。",
+  "grammar": "現在時，'drinken' 是主要動詞。",
+  "listen": "注意 'en' 的連音。"
+ },
+ "en ze zitten dan in de klas.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "ze zitten",
+    "他們會坐"
+   ],
+   [
+    "dan in de klas",
+    "在教室裡"
+   ]
+  ],
+  "order": "連接詞→主詞→動詞→副詞→介詞短語。",
+  "grammar": "現在時，'zitten' 是主要動詞。",
+  "listen": "'ze' 可能被弱讀。"
+ },
+ "en er zit dan altijd een overblijfjuf en nog een ouder bij.": {
+  "breakdown": [
+   [
+    "En er zit",
+    "而且有"
+   ],
+   [
+    "dan altijd een overblijfjuf",
+    "總有一位午餐監督老師"
+   ],
+   [
+    "en nog een ouder bij",
+    "和另一位家長在旁邊"
+   ]
+  ],
+  "order": "連接詞→主詞→動詞→副詞→形容詞→名詞短語→連接詞→名詞短語。",
+  "grammar": "現在時，'zit' 是主要動詞。",
+  "listen": "'er' 可能被弱讀。"
+ },
+ "dus ze worden heel goed begeleid.": {
+  "breakdown": [
+   [
+    "Dus",
+    "所以"
+   ],
+   [
+    "ze worden",
+    "他們得到"
+   ],
+   [
+    "heel goed begeleid",
+    "很好的照顧"
+   ]
+  ],
+  "order": "連接詞→主詞→動詞→副詞→形容詞短語。",
+  "grammar": "被動語態，'worden' 是助動詞。",
+  "listen": "'ze' 可能被弱讀。"
+ },
+ "er wordt opgelet dat ze alles opeten.": {
+  "breakdown": [
+   [
+    "Er wordt opgelet",
+    "有人會注意"
+   ],
+   [
+    "dat ze alles opeten",
+    "他們會把食物吃完"
+   ]
+  ],
+  "order": "主詞→動詞→副詞→連接詞→主詞→動詞→名詞。",
+  "grammar": "被動語態，'wordt' 是助動詞。",
+  "listen": "'dat' 可能被弱讀。"
+ },
+ "en altijd is het trommeltje leeg, dus dat gaat goed.": {
+  "breakdown": [
+   [
+    "En altijd",
+    "而且總是"
+   ],
+   [
+    "is het trommeltje leeg",
+    "便當盒是空的"
+   ],
+   [
+    "dus dat gaat goed",
+    "所以狀況很好"
+   ]
+  ],
+  "order": "連接詞→副詞→動詞→主詞→形容詞→名詞→連接詞→主詞→動詞→形容詞。",
+  "grammar": "現在時，'is' 和 'gaat' 是主要動詞。",
+  "listen": "'het' 可能被弱讀。"
+ },
+ "een bekertje roosvizé drinken en een bekertje roosvizé.": {
+  "breakdown": [
+   [
+    "Een bekertje roosvizé drinken",
+    "喝一杯玫瑰味汽水"
+   ],
+   [
+    "en een bekertje roosvizé",
+    "和一杯玫瑰味汽水"
+   ]
+  ],
+  "order": "主詞→名詞短語→動詞→連接詞→名詞短語。",
+  "grammar": "現在時，'drinken' 是主要動詞。",
+  "listen": "注意 'en' 的連音。"
+ },
+ "onderdeel van.": {
+  "breakdown": [
+   [
+    "Onderdeel",
+    "部分"
+   ],
+   [
+    "van",
+    "的"
+   ]
+  ],
+  "order": "Onderdeel(部分) → van(的) → 句子結構簡單，主詞+補語。",
+  "grammar": "名詞短語，表示某個部分。",
+  "listen": "注意 Onderdeel 的發音，可能聽不清。"
+ },
+ "en dan blijven ze zitten dan in de klas.": {
+  "breakdown": [
+   [
+    "En dan",
+    "然後"
+   ],
+   [
+    "blijven",
+    "保持"
+   ],
+   [
+    "ze",
+    "他們"
+   ],
+   [
+    "zitten",
+    "坐"
+   ],
+   [
+    "dan",
+    "在"
+   ],
+   [
+    "in de klas",
+    "教室裡"
+   ]
+  ],
+  "order": "En dan(然後) → blijven(保持) → ze(他們) → zitten(坐) → in de klas(在教室裡)",
+  "grammar": "使用現在時，描述持續的狀態。",
+  "listen": "注意 'ze' 和 'zitten' 的連音，可能聽不清。"
+ },
+ "in de voorschool gaan uw kind spelen, knutselen, bouwen, puzzelen en rennen.": {
+  "breakdown": [
+   [
+    "In de voorschool",
+    "在學齡前班"
+   ],
+   [
+    "gaat",
+    "會"
+   ],
+   [
+    "uw kind",
+    "您的孩子"
+   ],
+   [
+    "spelen",
+    "玩耍"
+   ],
+   [
+    "knutselen",
+    "做手工藝"
+   ],
+   [
+    "bouwen",
+    "搭建"
+   ],
+   [
+    "puzzelen",
+    "拼圖"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "rennen",
+    "奔跑"
+   ]
+  ],
+  "order": "In de voorschool(在學齡前班) → gaat(會) → uw kind(您的孩子) → spelen(玩耍) → knutselen(做手工藝) → bouwen(搭建) → puzzelen(拼圖) → rennen(奔跑)",
+  "grammar": "使用現在時，列舉多個動作。",
+  "listen": "注意 'gaat' 的發音，可能聽不清。"
+ },
+ "maar ook zingen, praten, kijken en luisteren.": {
+  "breakdown": [
+   [
+    "Maar ook",
+    "還"
+   ],
+   [
+    "zingen",
+    "唱歌"
+   ],
+   [
+    "praten",
+    "說話"
+   ],
+   [
+    "kijken",
+    "觀察"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "luisteren",
+    "聆聽"
+   ]
+  ],
+  "order": "Maar ook(還) → zingen(唱歌) → praten(說話) → kijken(觀察) → luisteren(聆聽)",
+  "grammar": "使用現在時，列舉動作。",
+  "listen": "注意 'Maar ook' 的連音，可能聽不清。"
+ },
+ "het kind leert met andere kinderen spelen en praat veel nederlands.": {
+  "breakdown": [
+   [
+    "Het kind",
+    "孩子"
+   ],
+   [
+    "leert",
+    "學習"
+   ],
+   [
+    "met andere kinderen",
+    "和其他孩子"
+   ],
+   [
+    "spelen",
+    "玩耍"
+   ],
+   [
+    "en",
+    "並"
+   ],
+   [
+    "praat",
+    "講"
+   ],
+   [
+    "veel",
+    "很多"
+   ],
+   [
+    "Nederlands",
+    "荷蘭語"
+   ]
+  ],
+  "order": "Het kind(孩子) → leert(學習) → met andere kinderen(和其他孩子) → spelen(玩耍) → en(並) → praat(講) → veel(很多) → Nederlands(荷蘭語)",
+  "grammar": "使用現在時，描述學習過程。",
+  "listen": "注意 'met' 和 'andere' 的連音，可能聽不清。"
+ },
+ "als uw kind nu al heel veel leert, gaat het straks op de basisschool alleen maar beter.": {
+  "breakdown": [
+   [
+    "Als",
+    "如果"
+   ],
+   [
+    "uw kind",
+    "您的孩子"
+   ],
+   [
+    "nu al",
+    "現在已經"
+   ],
+   [
+    "heel veel",
+    "很多"
+   ],
+   [
+    "leert",
+    "學到"
+   ],
+   [
+    "gaat",
+    "會"
+   ],
+   [
+    "het straks",
+    "他以後"
+   ],
+   [
+    "op de basisschool",
+    "在小學"
+   ],
+   [
+    "alleen maar beter",
+    "只會更好"
+   ]
+  ],
+  "order": "Als(如果) → uw kind(您的孩子) → nu al(現在已經) → heel veel(很多) → leert(學到) → gaat(會) → het straks(他以後) → op de basisschool(在小學) → alleen maar beter(只會更好)",
+  "grammar": "使用條件句，描述未來情況。",
+  "listen": "注意 'nu al' 的連音，可能聽不清。"
+ },
+ "wat vindt moesap het allerleukste op de voorschool?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "vindt",
+    "覺得"
+   ],
+   [
+    "Moesap",
+    "Moesap"
+   ],
+   [
+    "het allerleukste",
+    "最有趣的"
+   ],
+   [
+    "op de voorschool",
+    "在學齡前班"
+   ]
+  ],
+  "order": "Wat(什麼) → vindt(覺得) → Moesap(主詞) → het allerleukste(最有趣的) → op de voorschool(在學齡前班)",
+  "grammar": "使用現在時，詢問意見。",
+  "listen": "注意 'Wat' 的發音，可能聽不清。"
+ },
+ "moesap vindt op de voorschool het allerleukste het speeluur.": {
+  "breakdown": [
+   [
+    "Moesap",
+    "Moesap"
+   ],
+   [
+    "vindt",
+    "覺得"
+   ],
+   [
+    "op de voorschool",
+    "在學齡前班"
+   ],
+   [
+    "het allerleukste",
+    "最有趣的"
+   ],
+   [
+    "het speeluur",
+    "是玩樂時間"
+   ]
+  ],
+  "order": "Moesap(主詞) → vindt(覺得) → op de voorschool(在學齡前班) → het allerleukste(最有趣的) → het speeluur(是玩樂時間)",
+  "grammar": "使用現在時，描述喜好。",
+  "listen": "注意 'het' 的發音，可能聽不清。"
+ },
+ "wat is een speeluur?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "een speeluur",
+    "玩樂時間"
+   ]
+  ],
+  "order": "Wat(什麼) → is(是) → een speeluur(玩樂時間)",
+  "grammar": "使用現在時，詢問定義。",
+  "listen": "注意 'een' 的發音，可能聽不清。"
+ },
+ "speeluur is de tijd dat we met de kinderen, zowel als de ouders, contact met elkaar hebben.": {
+  "breakdown": [
+   [
+    "Speeluur",
+    "玩樂時間"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "de tijd",
+    "時間"
+   ],
+   [
+    "dat",
+    "那個"
+   ],
+   [
+    "we",
+    "我們"
+   ],
+   [
+    "met de kinderen",
+    "和孩子們"
+   ],
+   [
+    "zowel als",
+    "還有"
+   ],
+   [
+    "de ouders",
+    "家長"
+   ],
+   [
+    "contact met elkaar hebben",
+    "互動"
+   ]
+  ],
+  "order": "Speeluur(玩樂時間) → is(是) → de tijd(時間) → dat(那個) → we(我們) → met de kinderen(和孩子們) → zowel als(還有) → de ouders(家長) → contact met elkaar hebben(互動)",
+  "grammar": "使用現在時，描述活動。",
+  "listen": "注意 'dat' 的連音，可能聽不清。"
+ },
+ "met knutselen, spelen en nieuwe woordjes leren.": {
+  "breakdown": [
+   [
+    "Met",
+    "與"
+   ],
+   [
+    "knutselen",
+    "做手工藝"
+   ],
+   [
+    "spelen",
+    "玩"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "nieuwe woordjes",
+    "新詞彙"
+   ],
+   [
+    "leren",
+    "學習"
+   ]
+  ],
+  "order": "Met(與) → knutselen(做手工藝) → spelen(玩) → en(和) → nieuwe woordjes(新詞彙) → leren(學習)",
+  "grammar": "使用現在時，列舉活動。",
+  "listen": "注意 'Met' 的發音，可能聽不清。"
+ },
+ "en zowel contact hebben met de ouders van andere kinderen.": {
+  "breakdown": [
+   [
+    "En",
+    "也"
+   ],
+   [
+    "zowel",
+    "同樣"
+   ],
+   [
+    "contact hebben",
+    "有交流"
+   ],
+   [
+    "met de ouders",
+    "與家長"
+   ],
+   [
+    "van andere kinderen",
+    "其他孩子的"
+   ]
+  ],
+  "order": "En(也) → zowel(同樣) → contact hebben(有交流) → met de ouders(與家長) → van andere kinderen(其他孩子的)",
+  "grammar": "使用現在時，描述互動。",
+  "listen": "注意 'zowel' 的發音，可能聽不清。"
+ },
+ "want we merken ook tijdens dat speeluur dat nieuwe woordjes, sommige ouders er niet van weten om wat voor woorden het gaat, om wat voor onderwerpen het gaat.": {
+  "breakdown": [
+   [
+    "Want",
+    "因為"
+   ],
+   [
+    "we merken ook",
+    "我們也發現"
+   ],
+   [
+    "tijdens dat speeluur",
+    "在玩樂時間裡"
+   ],
+   [
+    "dat nieuwe woordjes",
+    "那些新詞彙"
+   ],
+   [
+    "sommige ouders er niet van weten",
+    "有些家長不知道"
+   ],
+   [
+    "om wat voor woorden het gaat",
+    "是什麼詞"
+   ],
+   [
+    "om wat voor onderwerpen het gaat",
+    "是什麼主題"
+   ]
+  ],
+  "order": "因為(主詞) → 我們(動詞#2) → 也發現(時間) → (名詞子句)",
+  "grammar": "使用了現在時，表示持續的狀態。",
+  "listen": "注意連音，像是 'sommige ouders er' 可能聽不清。"
+ },
+ "dat wij elkaar ook samen kunnen aanspreken daarover.": {
+  "breakdown": [
+   [
+    "Dat",
+    "談論"
+   ],
+   [
+    "wij elkaar ook samen kunnen aanspreken",
+    "我們也可以彼此交流"
+   ],
+   [
+    "daarover",
+    "關於這個"
+   ]
+  ],
+  "order": "談論(主詞) → 我們(動詞#2) → 也可以(受詞) → 彼此交流(關於)",
+  "grammar": "使用了情態動詞，表示能力或可能性。",
+  "listen": "注意 'dat wij' 的連音，可能聽成 'dat wij'。"
+ },
+ "van wat we thuis hebben geoefend, wat we geleerd hebben en wat we nog meer kunnen doen voor elkaar.": {
+  "breakdown": [
+   [
+    "Van wat we thuis hebben geoefend",
+    "從我們在家練習的"
+   ],
+   [
+    "wat we geleerd hebben",
+    "學到的東西"
+   ],
+   [
+    "en wat we nog meer kunnen doen",
+    "還有我們能做的"
+   ]
+  ],
+  "order": "從(名詞子句) → 我們(動詞#2) → 在家練習的(受詞) → 學到的(受詞)",
+  "grammar": "使用了完成式，表示過去的動作影響現在。",
+  "listen": "注意 'wat we' 的連音，可能聽不清。"
+ },
+ "mijn zoon zit op de voorschool, daar gaat hij vier dagdelen per week heen.": {
+  "breakdown": [
+   [
+    "Mijn zoon",
+    "我兒子"
+   ],
+   [
+    "zit op de voorschool",
+    "在學齡前班"
+   ],
+   [
+    "daar gaat hij vier dagdelen per week heen",
+    "每週去四個半天"
+   ]
+  ],
+  "order": "我兒子(主詞) → 在學齡前班(動詞#2) → 每週去(受詞) → 四個半天(時間)",
+  "grammar": "使用了現在時，描述常態。",
+  "listen": "注意 'zit op' 的連音，可能聽不清。"
+ },
+ "en hij vindt het ontzettend leuk. ze hebben daar ook hele leuke onderwerpen waar ze het over hebben.": {
+  "breakdown": [
+   [
+    "En hij vindt het ontzettend leuk",
+    "他覺得非常開心"
+   ],
+   [
+    "Ze hebben daar ook hele leuke onderwerpen",
+    "那裡也有很棒的主題"
+   ],
+   [
+    "waar ze het over hebben",
+    "他們談論的"
+   ]
+  ],
+  "order": "他(主詞) → 覺得(動詞#2) → 非常開心(受詞) → 那裡有(名詞子句)",
+  "grammar": "使用了現在時，描述感受。",
+  "listen": "注意 'het ontzettend leuk' 的連音，可能聽不清。"
+ },
+ "bijvoorbeeld over feestjes en verjaardagen.": {
+  "breakdown": [
+   [
+    "Bijvoorbeeld",
+    "例如"
+   ],
+   [
+    "over feestjes en verjaardagen",
+    "有關派對和生日"
+   ]
+  ],
+  "order": "例如(主詞) → 有關(受詞) → 派對和生日(名詞)",
+  "grammar": "使用了介系詞 'over'，表示主題。",
+  "listen": "注意 'over feestjes' 的連音，可能聽不清。"
+ },
+ "dat is het thema waar ze het over hebben gehad.": {
+  "breakdown": [
+   [
+    "Dat is het thema",
+    "那是主題"
+   ],
+   [
+    "waar ze het over hebben gehad",
+    "他們討論過的"
+   ]
+  ],
+  "order": "那是(主詞) → 主題(動詞#2) → 他們討論過的(名詞子句)",
+  "grammar": "使用了現在時，描述狀態。",
+  "listen": "注意 'het thema' 的連音，可能聽不清。"
+ },
+ "en om daar een beetje mee bezig te zijn thuis, dacht ik van: ik ga naar de bieb, ga ik wat boekjes voor hem ophalen.": {
+  "breakdown": [
+   [
+    "En om daar een beetje mee bezig te zijn thuis",
+    "為了在家裡稍微接觸這些主題"
+   ],
+   [
+    "dacht ik van: ik ga naar de bieb",
+    "我想說，我去圖書館"
+   ],
+   [
+    "ga ik wat boekjes voor hem ophalen",
+    "借幾本書給他"
+   ]
+  ],
+  "order": "為了(主詞) → 在家裡(動詞#2) → 稍微接觸(受詞) → 我想說(名詞子句)",
+  "grammar": "使用了不定式，表示目的。",
+  "listen": "注意 'een beetje mee' 的連音，可能聽不清。"
+ },
+ "zodat we daar thuis ook nog mee bezig kunnen zijn, en dat hij een leuk feest kan vieren.": {
+  "breakdown": [
+   [
+    "Zodat we daar thuis ook nog mee bezig kunnen zijn",
+    "讓我們在家也能繼續進行活動"
+   ],
+   [
+    "en dat hij een leuk feest kan vieren",
+    "讓他能開心地過節"
+   ]
+  ],
+  "order": "讓我們(主詞) → 在家(動詞#2) → 也能繼續(受詞) → 進行活動(名詞子句)",
+  "grammar": "使用了情態動詞，表示能力或可能性。",
+  "listen": "注意 'dat hij' 的連音，可能聽不清。"
+ },
+ "en ook weet wat daarbij hoort.": {
+  "breakdown": [
+   [
+    "En ook weet",
+    "也讓他知道"
+   ],
+   [
+    "wat daarbij hoort",
+    "這些相關的事物"
+   ]
+  ],
+  "order": "也讓(主詞) → 他(動詞#2) → 知道(受詞) → 這些事物(名詞)",
+  "grammar": "使用了現在時，描述狀態。",
+  "listen": "注意 'wat daarbij' 的連音，可能聽不清。"
+ },
+ "ondertitels ingediend door de amara.org gemeenschap.": {
+  "breakdown": [
+   [
+    "Ondertitels ingediend door de Amara.org gemeenschap",
+    "字幕由 Amara.org 社群提供"
+   ]
+  ],
+  "order": "字幕(主詞) → 由(動詞#2) → Amara.org 社群提供(受詞)",
+  "grammar": "這是被動語態，強調行動的接受者。",
+  "listen": "注意 'ingediend door' 的連音，可能聽不清。"
+ },
+ "ondertitels ingediend door de amara.org gemeenschap": {
+  "breakdown": [
+   [
+    "Ondertitels ingediend door de Amara.org gemeenschap",
+    "字幕由 Amara.org 社群提供"
+   ]
+  ],
+  "order": "字幕(主詞) → 由(動詞#2) → Amara.org 社群提供(受詞)",
+  "grammar": "這是被動語態，強調行動的接受者。",
+  "listen": "注意 'ingediend door' 的連音，可能聽不清。"
+ }
+}

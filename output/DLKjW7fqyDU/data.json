@@ -1,0 +1,716 @@
+{
+  "video_id": "DLKjW7fqyDU",
+  "video_info": {
+    "title": "Listening exam A2 (new system) 5 questions (b)",
+    "channel": "Inburgeren examen A2",
+    "duration": 560
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Melvin doet een cursus Engels.",
+        "translation": "Melvin 參加了一門英語課程。",
+        "start": 0.0,
+        "end": 3.04
+      },
+      {
+        "text": "Zijn medecursist Enrico praat met de docent.",
+        "translation": "他的課友 Enrico 正在與老師說話。",
+        "start": 4.6,
+        "end": 9.0
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後觀看影片。",
+        "start": 10.84,
+        "end": 15.18
+      },
+      {
+        "text": "Hier, Enrico, je schrijfopdracht. Oké, dank je wel.",
+        "translation": "這是你的寫作作業，Enrico。好的，謝謝你。",
+        "start": 16.88,
+        "end": 21.38
+      },
+      {
+        "text": "Ja, je hebt bijna geen fouten gemaakt met de volgorde van de woorden.",
+        "translation": "是的，你幾乎沒有在詞語順序上犯錯。",
+        "start": 22.18,
+        "end": 26.52
+      },
+      {
+        "text": "Heel goed. Soms maak je nog een foutje met de werkwoorden.",
+        "translation": "非常好。有時候你還會在動詞上犯一些小錯。",
+        "start": 26.92,
+        "end": 31.04
+      },
+      {
+        "text": "Maar die hoef je ook nog niet allemaal te kennen.",
+        "translation": "但是你目前還不需要全部都認識。",
+        "start": 31.72,
+        "end": 33.64
+      },
+      {
+        "text": "Alleen, ja, niet alle woorden zijn goed geschreven.",
+        "translation": "只是，有些單詞寫得不太正確。",
+        "start": 35.62,
+        "end": 39.72
+      },
+      {
+        "text": "Kijk, er zitten nog best veel spelfouten in.",
+        "translation": "看，裡面還有不少拼寫錯誤。",
+        "start": 40.6,
+        "end": 43.38
+      },
+      {
+        "text": "Ja, ik zie het.",
+        "translation": "是的，我看到了。",
+        "start": 44.76,
+        "end": 46.92
+      },
+      {
+        "text": "Ik kon ook niet alle woorden vinden in mijn woordenboek. Oké.",
+        "translation": "我也找不到詞典裡的所有詞語。好的。",
+        "start": 48.74,
+        "end": 54.8
+      },
+      {
+        "text": "Misschien kan iemand je brief nog eens doorlezen als hij af is.",
+        "translation": "或許有人可以在你完成後幫你再讀一次信。",
+        "start": 54.9,
+        "end": 60.8
+      },
+      {
+        "text": "Heb je dat aan iemand gevraagd? Nee. Oké.",
+        "translation": "你有問過別人嗎？沒有。好的。",
+        "start": 61.44,
+        "end": 66.24
+      },
+      {
+        "text": "Nou, je kunt de volgende keer je brief aan een medecursist geven.",
+        "translation": "那麼你下次可以把信交給同學看看。",
+        "start": 66.82,
+        "end": 73.18
+      },
+      {
+        "text": "Aan Melvin bijvoorbeeld, of iemand anders. Die kan er dan nog fouten uithalen.",
+        "translation": "比如交給 Melvin 或其他人，他們可以幫你找錯誤。",
+        "start": 74.78,
+        "end": 80.36
+      },
+      {
+        "text": "Oké. Ja, en voor Melvin is dat ook een goede extra oefening.",
+        "translation": "好的。是的，對 Melvin 來說也是個很好的額外練習。",
+        "start": 81.54,
+        "end": 87.24
+      },
+      {
+        "text": "Ja, dat is een goed idee. Goed, oké.",
+        "translation": "是的，那是個好主意。好，好的。",
+        "start": 87.96,
+        "end": 91.8
+      },
+      {
+        "text": "Dan zie ik jullie de volgende les weer. Oké, tot donderdag.",
+        "translation": "那麼下堂課再見。好的，星期四見。",
+        "start": 92.22,
+        "end": 96.4
+      },
+      {
+        "text": "Tot donderdag. Tot ziens.",
+        "translation": "星期四見。再見。",
+        "start": 96.98,
+        "end": 98.24
+      },
+      {
+        "text": "Waarmee heeft Enrico de meeste fouten gemaakt in zijn brief?",
+        "translation": "Enrico 在他的信裡最多錯的是什麼？",
+        "start": 100.9,
+        "end": 106.32
+      },
+      {
+        "text": "Met de werkwoorden.",
+        "translation": "動詞方面。",
+        "start": 107.12,
+        "end": 111.16
+      },
+      {
+        "text": "Met de spelling.",
+        "translation": "拼寫方面。",
+        "start": 111.86,
+        "end": 115.28
+      },
+      {
+        "text": "Met de volgorde van de woorden.",
+        "translation": "詞語順序方面。",
+        "start": 119.94,
+        "end": 122.96
+      },
+      {
+        "text": "Melvin doet een cursus Engels.",
+        "translation": "Melvin 參加了一門英語課程。",
+        "start": 124.52,
+        "end": 128.92
+      },
+      {
+        "text": "Zijn medecursist Enrico praat met de docent.",
+        "translation": "他的課友 Enrico 正在與老師說話。",
+        "start": 130.72,
+        "end": 135.1
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後觀看影片。",
+        "start": 136.78,
+        "end": 141.54
+      },
+      {
+        "text": "Hier, Enrico, je schrijfopdracht. Oké, dank je wel.",
+        "translation": "這是你的寫作作業，Enrico。好的，謝謝你。",
+        "start": 142.22,
+        "end": 146.44
+      },
+      {
+        "text": "Ja, je hebt bijna geen fouten gemaakt met de volgorde van de woorden.",
+        "translation": "是的，你幾乎沒有在詞語順序上犯錯。",
+        "start": 146.92,
+        "end": 150.98
+      },
+      {
+        "text": "Heel goed. Soms maak je nog een foutje met de werkwoorden.",
+        "translation": "非常好。有時候你還會在動詞上犯一些小錯。",
+        "start": 151.6,
+        "end": 153.56
+      },
+      {
+        "text": "Maar die hoef je ook nog niet allemaal te kennen.",
+        "translation": "但是你目前還不需要全部都認識。",
+        "start": 155.46,
+        "end": 159.62
+      },
+      {
+        "text": "Alleen, ja, niet alle woorden zijn goed geschreven.",
+        "translation": "只是，有些單詞寫得不太正確。",
+        "start": 160.52,
+        "end": 163.3
+      },
+      {
+        "text": "Kijk, er zitten nog best veel spelfouten in.",
+        "translation": "看，裡面還有不少拼寫錯誤。",
+        "start": 164.76,
+        "end": 166.76
+      },
+      {
+        "text": "Ja, ik zie het.",
+        "translation": "是的，我看到了。",
+        "start": 167.56,
+        "end": 174.74
+      },
+      {
+        "text": "Oh, ik kon ook niet alle woorden vinden in mijn woordenboek. Oké.",
+        "translation": "喔，我也找不到詞典裡的所有詞語。好的。",
+        "start": 175.24,
+        "end": 180.72
+      },
+      {
+        "text": "Misschien kan iemand je brief nog eens doorlezen als hij af is.",
+        "translation": "或許有人可以在你完成後幫你再讀一次信。",
+        "start": 181.34,
+        "end": 184.96
+      },
+      {
+        "text": "Heb je dat aan iemand gevraagd? Nee.",
+        "translation": "你有問過別人嗎？沒有。",
+        "start": 185.76,
+        "end": 187.32
+      },
+      {
+        "text": "Oké, nou",
+        "translation": "好的，那麼",
+        "start": 187.66,
+        "end": 193.08
+      },
+      {
+        "text": "Je kunt de volgende keer je brief aan een medecursist geven.",
+        "translation": "你下次可以把信交給同學看看。",
+        "start": 194.12,
+        "end": 197.48
+      },
+      {
+        "text": "Aan Melvin bijvoorbeeld, of iemand anders.",
+        "translation": "比如交給 Melvin 或其他人。",
+        "start": 198.54,
+        "end": 202.52
+      },
+      {
+        "text": "Die kan er dan nog fouten uithalen. Oké.",
+        "translation": "他們可以幫你找錯誤。好的。",
+        "start": 203.06,
+        "end": 207.18
+      },
+      {
+        "text": "Ja, en voor Melvin is dat ook een goede extra oefening.",
+        "translation": "是的，對 Melvin 來說也是個很好的額外練習。",
+        "start": 207.88,
+        "end": 212.04
+      },
+      {
+        "text": "Ja, dat is een goed idee. Goed, oké.",
+        "translation": "是的，那是個好主意。好，好的。",
+        "start": 212.04,
+        "end": 216.28
+      },
+      {
+        "text": "Dan zie ik jullie de volgende les weer. Oké, tot donderdag.",
+        "translation": "那麼下堂課再見。好的，星期四見。",
+        "start": 216.92,
+        "end": 218.16
+      },
+      {
+        "text": "Tot donderdag. Tot ziens.",
+        "translation": "星期四見。再見。",
+        "start": 220.36,
+        "end": 226.98
+      },
+      {
+        "text": "Welk advies over brievenschrijven geeft de docent aan Enrico?",
+        "translation": "老師給 Enrico 關於寫信的哪個建議？",
+        "start": 228.04,
+        "end": 232.12
+      },
+      {
+        "text": "Laat je brief controleren door iemand anders.",
+        "translation": "讓其他人幫你檢查信件。",
+        "start": 233.18,
+        "end": 236.32
+      },
+      {
+        "text": "Gebruik een woordenboek tijdens het schrijven.",
+        "translation": "寫信時使用詞典。",
+        "start": 237.44,
+        "end": 241.76
+      },
+      {
+        "text": "Lees je brief nog een keer door als je klaar bent.",
+        "translation": "寫完後再讀一次信。",
+        "start": 248.36,
+        "end": 253.86
+      },
+      {
+        "text": "Sonja luistert naar een voicemailbericht van haar vriendin Zineb.",
+        "translation": "Sonja 正在聽她朋友 Zineb 的語音信箱訊息。",
+        "start": 255.1,
+        "end": 258.62
+      },
+      {
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "先讀問題，再聽文本。",
+        "start": 269.94,
+        "end": 275.66
+      },
+      {
+        "text": "Hoi. Met Zineb. Ik bel even over vanavond.",
+        "translation": "嗨，我是Zineb。我打電話是關於今晚的事情。",
+        "start": 277.34,
+        "end": 282.52
+      },
+      {
+        "text": "We hadden afgesproken om naar die pizzeria te gaan, maar hij is gesloten.",
+        "translation": "我們原本約好要去那家披薩店，但他關門了。",
+        "start": 283.36,
+        "end": 289.32
+      },
+      {
+        "text": "Er is een bedrijfsfeest.",
+        "translation": "有一個公司派對。",
+        "start": 290.38,
+        "end": 291.9
+      },
+      {
+        "text": "Morgenavond is het restaurant wel open. Kun jij dan toevallig ook?",
+        "translation": "餐廳明晚會開門。你剛好那時候也可以嗎？",
+        "start": 294.14,
+        "end": 299.54
+      },
+      {
+        "text": "Om zeven uur?",
+        "translation": "七點鐘？",
+        "start": 300.6,
+        "end": 301.78
+      },
+      {
+        "text": "Ik zal wel reserveren. Oh ja.",
+        "translation": "我會去訂位。喔對。",
+        "start": 303.36,
+        "end": 306.78
+      },
+      {
+        "text": "Ik ga morgenavond ook nog met mijn broer Moerad naar de film.",
+        "translation": "我明晚還會和我兄弟Moerad一起去看電影。",
+        "start": 307.46,
+        "end": 312.22
+      },
+      {
+        "text": "Vind je het leuk om na het eten met ons mee te gaan naar de film?",
+        "translation": "你願意晚餐後和我們一起去看電影嗎？",
+        "start": 313.52,
+        "end": 316.36
+      },
+      {
+        "text": "Ik zal je thuis komen ophalen.",
+        "translation": "我會來你家接你。",
+        "start": 318.16,
+        "end": 321.58
+      },
+      {
+        "text": "Dan zien we mijn broer later bij de bioscoop.",
+        "translation": "然後我們稍後在電影院見我的兄弟。",
+        "start": 322.78,
+        "end": 325.54
+      },
+      {
+        "text": "Dus wil je mij even terugbellen? Dank je.",
+        "translation": "所以你能回電話給我嗎？謝謝你。",
+        "start": 327.3,
+        "end": 332.18
+      },
+      {
+        "text": "Dag. Waar wil Zineb eten?",
+        "translation": "嗨。Zineb想在哪裡吃飯？",
+        "start": 333.26,
+        "end": 336.78
+      },
+      {
+        "text": "In een restaurant. Bij Sonja thuis. In de bioscoop.",
+        "translation": "在餐廳。Sonja家裡。在電影院。",
+        "start": 338.14,
+        "end": 343.04
+      },
+      {
+        "text": "Sonja luistert naar een voicemailbericht van haar vriendin Zineb.",
+        "translation": "Sonja正在聽她朋友Zineb的語音信箱留言。",
+        "start": 349.04,
+        "end": 353.98
+      },
+      {
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "先閱讀問題，然後聽聽這段文字。",
+        "start": 355.22,
+        "end": 358.72
+      },
+      {
+        "text": "Welkom bij Voicemail van Teleworkz.",
+        "translation": "歡迎來到Teleworkz的語音信箱。",
+        "start": 369.56,
+        "end": 372.86
+      },
+      {
+        "text": "U heeft één nieuw bericht. Hoi, met Zineb.",
+        "translation": "您有一則新訊息。嗨，我是Zineb。",
+        "start": 373.6,
+        "end": 379.02
+      },
+      {
+        "text": "Ik bel even over vanavond.",
+        "translation": "我想打電話是關於今晚的事情。",
+        "start": 380.52,
+        "end": 382.68
+      },
+      {
+        "text": "We hadden afgesproken om naar die pizzeria te gaan.",
+        "translation": "我們原本約好要去那家披薩店。",
+        "start": 383.5,
+        "end": 386.82
+      },
+      {
+        "text": "Maar hij is gesloten. Er is een bedrijfsfeest.",
+        "translation": "但它關門了，有個公司派對。",
+        "start": 387.62,
+        "end": 391.98
+      },
+      {
+        "text": "Morgenavond is het restaurant wel open. Kun jij dan toevallig ook?",
+        "translation": "餐廳明晚會開門。你剛好那時候也可以嗎？",
+        "start": 393.76,
+        "end": 399.66
+      },
+      {
+        "text": "Om zeven uur? Ik zal wel reserveren. Oh ja.",
+        "translation": "七點鐘？我會去訂位。喔對。",
+        "start": 401.04,
+        "end": 406.94
+      },
+      {
+        "text": "Ik ga morgenavond ook nog met mijn broer Moerad naar de film.",
+        "translation": "我明晚還會和我兄弟Moerad一起去看電影。",
+        "start": 407.6,
+        "end": 412.36
+      },
+      {
+        "text": "Vind je het leuk om na het eten met ons mee te gaan naar de film?",
+        "translation": "你願意晚餐後和我們一起去看電影嗎？",
+        "start": 413.66,
+        "end": 416.5
+      },
+      {
+        "text": "Ik zal je thuis komen ophalen.",
+        "translation": "我會來你家接你。",
+        "start": 418.28,
+        "end": 421.72
+      },
+      {
+        "text": "Dan zien we mijn broer later bij de bioscoop.",
+        "translation": "然後我們稍後在電影院見我的兄弟。",
+        "start": 422.78,
+        "end": 424.74
+      },
+      {
+        "text": "Dus, wil je mij even terugbellen?",
+        "translation": "所以，你能回電話給我嗎？",
+        "start": 424.74,
+        "end": 430.02
+      },
+      {
+        "text": "Dank je. Dag. Hoe laat wil Zineb afspreken?",
+        "translation": "謝謝你。再見。Zineb想約幾點？",
+        "start": 432.1,
+        "end": 437.52
+      },
+      {
+        "text": "Vanavond om zes uur. Vanavond om zeven uur.",
+        "translation": "今晚六點。今晚七點。",
+        "start": 438.72,
+        "end": 443.06
+      },
+      {
+        "text": "Morgenavond om zes uur. Morgenavond om zeven uur.",
+        "translation": "明晚六點。明晚七點。",
+        "start": 444.1,
+        "end": 448.94
+      },
+      {
+        "text": "Sonja luistert naar een voicemailbericht van haar vriendin Zineb.",
+        "translation": "Sonja正在聽她朋友Zineb的語音信箱留言。",
+        "start": 459.36,
+        "end": 465.24
+      },
+      {
+        "text": "Lees eerst de vraag. Luister daarna naar de tekst.",
+        "translation": "先閱讀問題，然後聽聽這段文字。",
+        "start": 466.16,
+        "end": 469.68
+      },
+      {
+        "text": "Welkom bij Voicemail van Teleworks.",
+        "translation": "歡迎來到Teleworks的語音信箱。",
+        "start": 480.38,
+        "end": 483.62
+      },
+      {
+        "text": "U heeft een voicemail. U heeft één nieuw bericht. Hoi, met Zineb.",
+        "translation": "您有一則語音信箱。您有一則新訊息。嗨，我是Zineb。",
+        "start": 484.34,
+        "end": 489.96
+      },
+      {
+        "text": "Ik bel even over vanavond.",
+        "translation": "我想打電話是關於今晚的事情。",
+        "start": 491.5,
+        "end": 493.62
+      },
+      {
+        "text": "We hadden afgesproken om naar die pizzeria te gaan.",
+        "translation": "我們原本約好要去那家披薩店。",
+        "start": 494.44,
+        "end": 497.78
+      },
+      {
+        "text": "Maar hij is gesloten. Er is een bedrijfsfeest.",
+        "translation": "但它關門了，有個公司派對。",
+        "start": 498.56,
+        "end": 502.94
+      },
+      {
+        "text": "Morgenavond is het restaurant wel open. Kun jij dan toevallig ook?",
+        "translation": "餐廳明晚會開門。你剛好那時候也可以嗎？",
+        "start": 505.26,
+        "end": 510.58
+      },
+      {
+        "text": "Om zeven uur?",
+        "translation": "七點鐘？",
+        "start": 511.66,
+        "end": 512.84
+      },
+      {
+        "text": "Ik zal wel reserveren. Oh ja.",
+        "translation": "我會去訂位。喔對。",
+        "start": 513.96,
+        "end": 517.86
+      },
+      {
+        "text": "Ik ga morgenavond ook nog met mijn broer Moerad naar de film.",
+        "translation": "我明晚還會和我兄弟Moerad一起去看電影。",
+        "start": 518.54,
+        "end": 523.3
+      },
+      {
+        "text": "Vind je het leuk om na het eten met ons mee te gaan naar de film?",
+        "translation": "你願意晚餐後和我們一起去看電影嗎？",
+        "start": 524.6,
+        "end": 527.44
+      },
+      {
+        "text": "Ik zal je thuis komen ophalen.",
+        "translation": "我會來你家接你。",
+        "start": 529.24,
+        "end": 532.66
+      },
+      {
+        "text": "Dan zien we mijn broer later bij de bioscoop.",
+        "translation": "然後我們稍後在電影院見我的兄弟。",
+        "start": 533.8,
+        "end": 536.42
+      },
+      {
+        "text": "Dus, wil je mij even terugbellen? Dank je.",
+        "translation": "所以，你能回電話給我嗎？謝謝你。",
+        "start": 538.86,
+        "end": 543.3
+      },
+      {
+        "text": "Dag. Wie is Moerad?",
+        "translation": "再見。Moerad是誰？",
+        "start": 544.32,
+        "end": 547.64
+      },
+      {
+        "text": "Een broer van Zineb. Een vriend van Zineb.",
+        "translation": "Zineb的兄弟。Zineb的朋友。",
+        "start": 548.6,
+        "end": 552.44
+      },
+      {
+        "text": "Een collega van Zineb.",
+        "translation": "Zineb的同事。",
+        "start": 553.26,
+        "end": 554.94
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat is de belangrijkste fout die Enrico maakt in zijn brief?",
+        "question_native": "Enrico 在信中最常犯的錯誤是什麼？",
+        "options": [
+          "De werkwoorden",
+          "De spelling",
+          "De woordvolgorde"
+        ],
+        "answer": "De werkwoorden"
+      },
+      {
+        "question": "Wat raadt de docent Enrico aan te doen met zijn brief?",
+        "question_native": "老師建議 Enrico 對他的信做什麼？",
+        "options": [
+          "De brief laten controleren door iemand anders",
+          "De brief niet nakijken",
+          "De brief alleen schrijven zonder woordenboek"
+        ],
+        "answer": "De brief laten controleren door iemand anders"
+      },
+      {
+        "question": "Wat kan Enrico doen om zijn fouten te verminderen voor de volgende keer?",
+        "question_native": "Enrico 下一次可以怎麼做來減少錯誤？",
+        "options": [
+          "De brief aan een medecursist geven",
+          "De brief niet lezen",
+          "Geen feedback vragen"
+        ],
+        "answer": "De brief aan een medecursist geven"
+      },
+      {
+        "question": "Wat doet Sonja in de tekst?",
+        "question_native": "Sonja 在文本中做什麼？",
+        "options": [
+          "Ze luistert naar een voicemailbericht",
+          "Ze schrijft een brief",
+          "Ze volgt een cursus"
+        ],
+        "answer": "Ze luistert naar een voicemailbericht"
+      },
+      {
+        "question": "Wat wordt er gezegd over het gebruik van een woordenboek?",
+        "question_native": "關於使用詞典，有什麼說法？",
+        "options": [
+          "Het is handig tijdens het schrijven",
+          "Het is niet nodig",
+          "Het mag alleen na het schrijven"
+        ],
+        "answer": "Het is handig tijdens het schrijven"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "Cursus",
+        "meaning": "課程"
+      },
+      {
+        "word": "Medecursist",
+        "meaning": "同學"
+      },
+      {
+        "word": "Docent",
+        "meaning": "老師"
+      },
+      {
+        "word": "Schrijfopdracht",
+        "meaning": "寫作作業"
+      },
+      {
+        "word": "Volgorde",
+        "meaning": "順序"
+      },
+      {
+        "word": "Werkwoorden",
+        "meaning": "動詞"
+      },
+      {
+        "word": "Spelfouten",
+        "meaning": "拼寫錯誤"
+      },
+      {
+        "word": "Woordenboek",
+        "meaning": "詞典"
+      },
+      {
+        "word": "Brief",
+        "meaning": "信"
+      },
+      {
+        "word": "Oefening",
+        "meaning": "練習"
+      },
+      {
+        "word": "Controleren",
+        "meaning": "檢查"
+      },
+      {
+        "word": "Voicemailbericht",
+        "meaning": "語音信箱訊息"
+      },
+      {
+        "word": "Vraag",
+        "meaning": "問題"
+      },
+      {
+        "word": "Tekst",
+        "meaning": "文本"
+      },
+      {
+        "word": "Nieuw bericht",
+        "meaning": "新訊息"
+      }
+    ]
+  }
+}

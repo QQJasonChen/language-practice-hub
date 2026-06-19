@@ -1,0 +1,1046 @@
+{
+  "video_id": "tYbjAE3F4H0",
+  "video_info": {
+    "title": "Listening exam A2 Practice 5",
+    "channel": "Inburgeren examen A2",
+    "duration": 882
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Waar werk je?",
+        "translation": "你在哪裡工作？",
+        "start": 0.0,
+        "end": 4.5
+      },
+      {
+        "text": "Hé Tristan, lang niet gezien. Ja, hoe is het met je?",
+        "translation": "嘿 Tristan，好久不見。嗯，你最近怎麼樣？",
+        "start": 6.26,
+        "end": 10.54
+      },
+      {
+        "text": "Goed, en met jou? Prima. En waar woon je nu?",
+        "translation": "我很好，你呢？很好。你現在住在哪裡？",
+        "start": 11.06,
+        "end": 16.38
+      },
+      {
+        "text": "In Amsterdam. Ik werk daar ook. Wat voor werk doe je?",
+        "translation": "在阿姆斯特丹。我也在那裡工作。你做什麼工作？",
+        "start": 17.0,
+        "end": 22.1
+      },
+      {
+        "text": "Ik ben kapper. Ik werk in een kapsalon.",
+        "translation": "我是理髮師。我在一家髮廊工作。",
+        "start": 22.86,
+        "end": 26.34
+      },
+      {
+        "text": "Oh, wat leuk. Werk je fulltime?",
+        "translation": "喔，真好。你全職工作嗎？",
+        "start": 26.34,
+        "end": 29.4
+      },
+      {
+        "text": "Nee, ik werk vier dagen per week. Op maandag ben ik vrij.",
+        "translation": "不，我一週工作四天。週一我休息。",
+        "start": 30.42,
+        "end": 34.84
+      },
+      {
+        "text": "Waar werk je?",
+        "translation": "你在哪裡工作？",
+        "start": 37.2,
+        "end": 37.92
+      },
+      {
+        "text": "Tibberfabriek De Boer, met mevrouw El Hamdi.",
+        "translation": "De Boer電池廠，和El Hamdi女士一起工作。",
+        "start": 45.86,
+        "end": 48.9
+      },
+      {
+        "text": "Goedemorgen mevrouw, u spreekt met Said Bakau.",
+        "translation": "早安女士，您正在和Said Bakau通話。",
+        "start": 49.62,
+        "end": 53.06
+      },
+      {
+        "text": "Kan ik Jan Helmond spreken? Ja, ik zal je even doorverbinden.",
+        "translation": "我可以和Jan Helmond通話嗎？可以，我幫你轉接。",
+        "start": 53.62,
+        "end": 57.82
+      },
+      {
+        "text": "Met Jan Helmond.",
+        "translation": "我就是Jan Helmond。",
+        "start": 63.98,
+        "end": 65.38
+      },
+      {
+        "text": "Hallo Jan, met Said. Ik ben ziek. Ik kan vannacht niet werken.",
+        "translation": "哈囉Jan，我是Said。我生病了，今晚不能工作。",
+        "start": 66.96,
+        "end": 70.92
+      },
+      {
+        "text": "Hm, wat vervelend. Het is heel druk.",
+        "translation": "嗯，真糟糕。現在很忙。",
+        "start": 71.6,
+        "end": 74.98
+      },
+      {
+        "text": "Wat zijn je klachten? Hoofdpijn en koorts.",
+        "translation": "你有哪些症狀？頭痛和發燒。",
+        "start": 76.46,
+        "end": 79.7
+      },
+      {
+        "text": "Wanneer kan je weer komen werken? Ik denk dat ik woensdag weer beter ben.",
+        "translation": "你什麼時候可以回來工作？我想我星期三會好一點。",
+        "start": 81.82,
+        "end": 86.66
+      },
+      {
+        "text": "Oké, dan zien we je over twee dagen.",
+        "translation": "好的，那兩天後見。",
+        "start": 87.08,
+        "end": 90.54
+      },
+      {
+        "text": "Beterschap, Said. Ja, bedankt.",
+        "translation": "祝你早日康復，Said。謝謝你。",
+        "start": 91.72,
+        "end": 94.3
+      },
+      {
+        "text": "Wil jij nog koffie? Hoe laat is het?",
+        "translation": "還要喝咖啡嗎？現在幾點了？",
+        "start": 105.3,
+        "end": 109.54
+      },
+      {
+        "text": "Nou, bijna drie uur. Nee, dank je. Ik moet zo weg.",
+        "translation": "快三點了。不用了，謝謝。我快要走了。",
+        "start": 110.7,
+        "end": 115.42
+      },
+      {
+        "text": "Ik moet om vier uur op mijn werk zijn. Oh, wat voor werk doe je?",
+        "translation": "我必須四點到工作崗位。喔，你做什麼工作？",
+        "start": 116.04,
+        "end": 120.86
+      },
+      {
+        "text": "Ik maak schoon op een school. En wat doe jij?",
+        "translation": "我在學校清潔。你呢？",
+        "start": 121.64,
+        "end": 124.52
+      },
+      {
+        "text": "Ik ben vorige maand gestopt met mijn werk in de fabriek.",
+        "translation": "我上個月辭掉了工廠的工作。",
+        "start": 125.48,
+        "end": 129.9
+      },
+      {
+        "text": "En ik zoek nu ander werk. Oh, wat voor werk zoek je?",
+        "translation": "我現在在找別的工作。喔，你在找什麼工作？",
+        "start": 130.26,
+        "end": 133.9
+      },
+      {
+        "text": "Ja, dat weet ik niet precies. Ben je al bij het werkplein geweest?",
+        "translation": "我不太確定。你去過就業中心嗎？",
+        "start": 134.58,
+        "end": 140.1
+      },
+      {
+        "text": "Daar hangen wel wat vacatures.",
+        "translation": "那裡有一些職缺。",
+        "start": 140.1,
+        "end": 141.86
+      },
+      {
+        "text": "Nee, nog niet. Ik ga me daar morgen inschrijven.",
+        "translation": "還沒，我明天要去那裡登記。",
+        "start": 142.56,
+        "end": 147.48
+      },
+      {
+        "text": "Oké. Nou, succes. En tot de volgende keer.",
+        "translation": "好的，祝你好運，下次見。",
+        "start": 148.12,
+        "end": 152.66
+      },
+      {
+        "text": "Ja, dank je. En werk ze.",
+        "translation": "謝謝你，也祝你工作順利。",
+        "start": 153.24,
+        "end": 155.42
+      },
+      {
+        "text": "Op zoek naar werk.",
+        "translation": "找工作。",
+        "start": 159.64,
+        "end": 164.3
+      },
+      {
+        "text": "Goed, dan heb ik nog een paar vragen.",
+        "translation": "好的，我還有幾個問題。",
+        "start": 168.22,
+        "end": 171.36
+      },
+      {
+        "text": "Waar ben je geboren? In Londen, in Engeland.",
+        "translation": "你在哪裡出生？在英格蘭倫敦。",
+        "start": 172.54,
+        "end": 175.96
+      },
+      {
+        "text": "Zo, je spreekt goed Nederlands. Dank je wel. Ik woon hier ook al zeven jaar.",
+        "translation": "哇，你荷蘭語說得很好。謝謝，我已經在這裡住七年了。",
+        "start": 177.1,
+        "end": 182.0
+      },
+      {
+        "text": "Is je nationaliteit nog Engels? Nee, ik heb een Nederlands paspoort.",
+        "translation": "你還是英國國籍嗎？不，我有荷蘭護照。",
+        "start": 183.4,
+        "end": 188.08
+      },
+      {
+        "text": "En wat is je telefoonnummer? Van mijn mobiel?",
+        "translation": "你的電話號碼是？手機的嗎？",
+        "start": 189.42,
+        "end": 193.68
+      },
+      {
+        "text": "Ja, je andere nummer staat hier al.",
+        "translation": "是的，另個號碼這裡已經有了。",
+        "start": 194.34,
+        "end": 196.74
+      },
+      {
+        "text": "Dat is 06 176 53429. Prima.",
+        "translation": "是06 176 53429，沒問題。",
+        "start": 197.52,
+        "end": 202.22
+      },
+      {
+        "text": "En je emailadres is ljholman@planet.nl",
+        "translation": "你的電子郵件是ljholman@planet.nl",
+        "start": 202.22,
+        "end": 209.14
+      },
+      {
+        "text": "Ja, dat klopt.",
+        "translation": "是的，沒錯。",
+        "start": 209.64,
+        "end": 215.5
+      },
+      {
+        "text": "Oké, dan heb ik je persoonlijke gegevens.",
+        "translation": "好，那我有你的個人資料了。",
+        "start": 216.56,
+        "end": 217.44
+      },
+      {
+        "text": "Dan nu je werkervaring.",
+        "translation": "現在講你的工作經驗。",
+        "start": 220.58,
+        "end": 223.8
+      },
+      {
+        "text": "Ik doe vrijwilligerswerk.",
+        "translation": "我做志工工作。",
+        "start": 224.2,
+        "end": 226.3
+      },
+      {
+        "text": "Ik doe vrijwilligerswerk. 1.",
+        "translation": "",
+        "start": 229.44,
+        "end": 233.34
+      },
+      {
+        "text": "2.",
+        "translation": "",
+        "start": 233.34,
+        "end": 233.82
+      },
+      {
+        "text": "5. 7. 9.",
+        "translation": "",
+        "start": 239.34,
+        "end": 243.38
+      },
+      {
+        "text": "10. 11.",
+        "translation": "",
+        "start": 244.02,
+        "end": 246.02
+      },
+      {
+        "text": "Ik help bij de koffieochtend. Vind je het leuk werk?",
+        "translation": "我幫忙咖啡早會。你喜歡這工作嗎？",
+        "start": 259.64,
+        "end": 263.24
+      },
+      {
+        "text": "Jazeker. Ik heb veel contact met de bewoners. Dat is erg leuk.",
+        "translation": "當然，我和住戶有很多聯絡，非常有趣。",
+        "start": 263.26,
+        "end": 267.44
+      },
+      {
+        "text": "Ik doe vrijwilligerswerk.",
+        "translation": "我做志工工作。",
+        "start": 268.16,
+        "end": 273.14
+      },
+      {
+        "text": "Ik doe vrijwilligerswerk.",
+        "translation": "",
+        "start": 281.7,
+        "end": 283.98
+      },
+      {
+        "text": "Hoi Richard. Hoi Mustafa. Wacht je op je dochter?",
+        "translation": "嗨，Richard。嗨，Mustafa。你在等你女兒嗎？",
+        "start": 290.16,
+        "end": 294.76
+      },
+      {
+        "text": "Nee, die is al naar huis. Ik heb om kwart voor vier een afspraak met de juf.",
+        "translation": "不，她已經回家了。我四點差十分有和老師的約會。",
+        "start": 295.82,
+        "end": 300.4
+      },
+      {
+        "text": "Gaat het niet goed op school? Jawel hoor, het gaat prima.",
+        "translation": "學校情況不好嗎？不是啦，一切都很好。",
+        "start": 301.58,
+        "end": 304.66
+      },
+      {
+        "text": "Ik ga praten met de juf over de computerles. O?",
+        "translation": "我要和老師談談電腦課。哦？",
+        "start": 305.66,
+        "end": 309.34
+      },
+      {
+        "text": "De juf heeft hulp nodig in de klas met de computers. En jij wil wel helpen?",
+        "translation": "老師需要班上電腦方面的幫助。你願意幫忙嗎？",
+        "start": 309.78,
+        "end": 315.1
+      },
+      {
+        "text": "Ja, lijkt mij erg leuk. Wanneer is de computerles?",
+        "translation": "是的，我覺得很有趣。電腦課是什麼時候？",
+        "start": 316.18,
+        "end": 320.1
+      },
+      {
+        "text": "Elke donderdag van half drie tot half vier.",
+        "translation": "每週四從兩點半到三點半。",
+        "start": 320.9,
+        "end": 323.94
+      },
+      {
+        "text": "Help jij ook op school? Ja, ik ben leesvader.",
+        "translation": "你也在學校幫忙嗎？是的，我是閱讀志工爸爸。",
+        "start": 324.62,
+        "end": 329.1
+      },
+      {
+        "text": "Wat is dat?",
+        "translation": "那是什麼？",
+        "start": 330.42,
+        "end": 331.36
+      },
+      {
+        "text": "Ik lees elke woensdag van half negen tot negen uur met een groepje kinderen.",
+        "translation": "我每週三從八點半讀書到九點，和一小組小朋友一起。",
+        "start": 331.78,
+        "end": 336.48
+      },
+      {
+        "text": "Waar woon je nu?",
+        "translation": "你現在住哪裡？",
+        "start": 340.54,
+        "end": 344.66
+      },
+      {
+        "text": "Hé Lucas, hoe is het? Prima.",
+        "translation": "嗨，Lucas，最近怎麼樣？很好。",
+        "start": 347.62,
+        "end": 351.58
+      },
+      {
+        "text": "Waar woon je nu? In de Houtmansstraat. In een flat?",
+        "translation": "你現在住哪裡？在Houtmans街。在公寓裡？",
+        "start": 352.68,
+        "end": 356.76
+      },
+      {
+        "text": "Nee, we hebben een eengezinswoning.",
+        "translation": "不，我們有一棟透天厝。",
+        "start": 357.22,
+        "end": 359.98
+      },
+      {
+        "text": "Fijn. Is het een groot huis?",
+        "translation": "很好。是大房子嗎？",
+        "start": 360.26,
+        "end": 363.54
+      },
+      {
+        "text": "Nou, dat gaat wel. Het huis heeft drie kamers.",
+        "translation": "嗯，還好。房子有三個房間。",
+        "start": 363.54,
+        "end": 367.74
+      },
+      {
+        "text": "En jouw huis? Ik woon in een flat. Op welke verdieping?",
+        "translation": "你家呢？我住公寓。幾樓？",
+        "start": 369.12,
+        "end": 373.26
+      },
+      {
+        "text": "De zevende. Dat is hoog. Ja, maar er is gelukkig wel een lift.",
+        "translation": "第七樓。蠻高的。是啊，但幸好有電梯。",
+        "start": 373.66,
+        "end": 378.88
+      },
+      {
+        "text": "Waar woon je nu?",
+        "translation": "你現在住哪裡？",
+        "start": 381.78,
+        "end": 384.56
+      },
+      {
+        "text": "Dit is Natasja. Ze is getrouwd en ze heeft drie kinderen.",
+        "translation": "這是Natasja。她結婚了，育有三個孩子。",
+        "start": 395.4,
+        "end": 400.52
+      },
+      {
+        "text": "Ze wonen in de Nicolaastraat. Hun huis staat in een rustige wijk.",
+        "translation": "他們住在Nicolaastraat。他們的房子在一個安靜的社區。",
+        "start": 401.72,
+        "end": 407.38
+      },
+      {
+        "text": "De kinderen kunnen lekker buitenspelen.",
+        "translation": "孩子們可以很自在地在外面玩。",
+        "start": 408.78,
+        "end": 410.9
+      },
+      {
+        "text": "Natasja woont met haar gezin in een eengezinswoning.",
+        "translation": "Natasja和她的家人住在一棟透天厝裡。",
+        "start": 412.34,
+        "end": 415.78
+      },
+      {
+        "text": "Het is een nieuw huis. Het is pas gebouwd.",
+        "translation": "這是一棟新房子，剛蓋好的。",
+        "start": 417.34,
+        "end": 420.82
+      },
+      {
+        "text": "Het huis is groot. Het heeft een mooie woonkamer.",
+        "translation": "房子很大，有漂亮的客廳。",
+        "start": 421.84,
+        "end": 426.2
+      },
+      {
+        "text": "Drie slaapkamers, een grote badkamer en een tuin.",
+        "translation": "三間臥室，一間大浴室和一個花園。",
+        "start": 427.26,
+        "end": 431.12
+      },
+      {
+        "text": "Het huis heeft ook een zolder. Natasja is erg blij met het huis.",
+        "translation": "房子還有一個閣樓。Natasja對這房子非常滿意。",
+        "start": 432.42,
+        "end": 437.42
+      },
+      {
+        "text": "Een nieuw huis.",
+        "translation": "一棟新屋。",
+        "start": 452.78,
+        "end": 454.3
+      },
+      {
+        "text": "Hallo, buurvrouw. Dag, mevrouw Kok. Hoe gaat het?",
+        "translation": "哈囉，鄰居。您好，Kok女士。近來如何？",
+        "start": 458.42,
+        "end": 462.32
+      },
+      {
+        "text": "Prima. En met u? En met uw man?",
+        "translation": "很好。您呢？您先生呢？",
+        "start": 462.86,
+        "end": 465.82
+      },
+      {
+        "text": "Ook goed. We gaan verhuizen. O? Waar gaan jullie naartoe?",
+        "translation": "也很好。我們要搬家了。哦？你們要搬去哪裡？",
+        "start": 466.84,
+        "end": 472.14
+      },
+      {
+        "text": "We gaan in de Boomstraat wonen. Maar daar staan flats.",
+        "translation": "我們要搬到Boom街。但那裡有公寓樓。",
+        "start": 472.6,
+        "end": 476.8
+      },
+      {
+        "text": "Ja, dat klopt. We gaan in een flat wonen.",
+        "translation": "是的，沒錯。我們會住公寓。",
+        "start": 476.8,
+        "end": 480.3
+      },
+      {
+        "text": "Deze eengezinswoning is te groot. Dat snap ik. Zeker nu uw kinderen hier niet meer wonen.",
+        "translation": "這透天厝太大了。我了解。特別是您孩子不再住這裡了。",
+        "start": 481.58,
+        "end": 487.4
+      },
+      {
+        "text": "Moet u veel opknappen in de flat? Nee hoor, dat valt mee. We gaan alleen de muren schilderen.",
+        "translation": "公寓需要很多整修嗎？不會，還好。我們只會粉刷牆壁。",
+        "start": 488.44,
+        "end": 493.92
+      },
+      {
+        "text": "Gelukkig. Ik ga ons huis wel missen.",
+        "translation": "還好。我會想念我們的家。",
+        "start": 495.18,
+        "end": 499.06
+      },
+      {
+        "text": "En ik ga u missen. Jammer dat jullie weggaan.",
+        "translation": "我也會想念您。很可惜你們要搬走了。",
+        "start": 500.28,
+        "end": 504.18
+      },
+      {
+        "text": "Wanneer gaan jullie verhuizen? Volgende week zaterdag.",
+        "translation": "你們什麼時候搬家？下週六。",
+        "start": 505.1,
+        "end": 509.18
+      },
+      {
+        "text": "In het huis.",
+        "translation": "在家裡。",
+        "start": 512.54,
+        "end": 515.68
+      },
+      {
+        "text": "Je keuken is helemaal veranderd.",
+        "translation": "你的廚房完全變了樣。",
+        "start": 519.04,
+        "end": 522.52
+      },
+      {
+        "text": "Ja, ik heb nieuwe kastjes. Nou, wat een mooie kleur.",
+        "translation": "是的，我換了新櫥櫃。哇，顏色真好看。",
+        "start": 523.06,
+        "end": 527.82
+      },
+      {
+        "text": "En ik heb een nieuwe koelkast. De oude was kapot.",
+        "translation": "我還買了新的冰箱。舊的壞了。",
+        "start": 528.38,
+        "end": 531.96
+      },
+      {
+        "text": "Het is heel mooi geworden. Ja, en nu de woonkamer nog.",
+        "translation": "變得很漂亮。是啊，客廳也要改造。",
+        "start": 531.96,
+        "end": 537.92
+      },
+      {
+        "text": "Wat ga je daar veranderen? Ik wil een nieuwe bank kopen.",
+        "translation": "你要改變什麼？我想買沙發。",
+        "start": 539.04,
+        "end": 542.9
+      },
+      {
+        "text": "In het huis. Wat voor bank zoek je?",
+        "translation": "在家裡。你想要什麼樣的沙發？",
+        "start": 546.92,
+        "end": 552.8
+      },
+      {
+        "text": "Ik wil een leren bank. Een tweezitsbank of een driezitsbank?",
+        "translation": "我想要真皮沙發。雙人沙發還是三人沙發？",
+        "start": 553.34,
+        "end": 559.04
+      },
+      {
+        "text": "Een tweezitsbank. En welke kleur?",
+        "translation": "雙人沙發。什麼顏色？",
+        "start": 559.62,
+        "end": 564.36
+      },
+      {
+        "text": "Ah, misschien een bruine bank. De muren in de woonkamer zijn crème en oranje.",
+        "translation": "啊，也許買棕色沙發。客廳牆壁是奶油色和橘色。",
+        "start": 566.46,
+        "end": 571.44
+      },
+      {
+        "text": "Ja, dat vind ik mooi. En ik wil ook nog een paar kussens.",
+        "translation": "我也覺得很漂亮。我還想要幾個靠墊。",
+        "start": 572.2,
+        "end": 577.34
+      },
+      {
+        "text": "Dat is gezellig. Hé, zullen we gaan kijken?",
+        "translation": "那會很溫馨。嘿，我們去看看吧？",
+        "start": 577.76,
+        "end": 581.58
+      },
+      {
+        "text": "Welke school?",
+        "translation": "哪一所學校？",
+        "start": 585.2,
+        "end": 587.42
+      },
+      {
+        "text": "Hé, hallo Lotte. Hoe gaat het? Goed, en met jou?",
+        "translation": "嘿，哈囉Lotte。你好嗎？我很好，你呢？",
+        "start": 591.06,
+        "end": 595.4
+      },
+      {
+        "text": "Prima. En hoe is het met Wouter? Ja, goed hoor. Hij zit nu in groep 8.",
+        "translation": "很好。Wouter怎麼樣？是的，他很好。他現在在八年級。",
+        "start": 596.14,
+        "end": 599.74
+      },
+      {
+        "text": "Oh, dan gaat hij volgend jaar naar de middelbare school.",
+        "translation": "喔，那他明年就要上中學了。",
+        "start": 601.82,
+        "end": 605.42
+      },
+      {
+        "text": "Ja, en hij wil graag naar de HAVO.",
+        "translation": "是的，他想去HAVO。",
+        "start": 606.16,
+        "end": 609.54
+      },
+      {
+        "text": "Gaat dat lukken? Ja, ik denk het wel. Hij haalt goede cijfers.",
+        "translation": "會成功嗎？是的，我想會的。他考得很好。",
+        "start": 610.78,
+        "end": 615.54
+      },
+      {
+        "text": "Ah, dat is fijn. We hebben straks een gesprek met zijn leerkracht.",
+        "translation": "啊，那很好。我們待會兒有和他的老師談話。",
+        "start": 616.22,
+        "end": 619.98
+      },
+      {
+        "text": "Dan horen we het advies van de school. Succes!",
+        "translation": "那我們就能聽到學校的建議了。加油！",
+        "start": 620.9,
+        "end": 623.62
+      },
+      {
+        "text": "Goedenavond. Kom binnen en ga zitten.",
+        "translation": "晚上好。請進，坐下。",
+        "start": 635.02,
+        "end": 639.02
+      },
+      {
+        "text": "Bedankt. Dank u wel. Hoe gaat het met Wouter op school?",
+        "translation": "謝謝。謝謝您。Wouter在學校表現如何？",
+        "start": 639.98,
+        "end": 644.6
+      },
+      {
+        "text": "Het gaat goed. Daar ben ik blij om.",
+        "translation": "他很好。我為此感到高興。",
+        "start": 646.3,
+        "end": 650.24
+      },
+      {
+        "text": "Hij doet goed z'n best en hij heeft de toets goed gemaakt.",
+        "translation": "他很用功，而且考試考得很好。",
+        "start": 652.18,
+        "end": 655.64
+      },
+      {
+        "text": "Dat is fijn. Hij gaat ook met plezier naar school.",
+        "translation": "那真好。他也很開心去學校。",
+        "start": 656.38,
+        "end": 660.3
+      },
+      {
+        "text": "Ja, dat zie ik. Hij vindt het leuk om te leren.",
+        "translation": "是的，我看到。他喜歡學習。",
+        "start": 661.24,
+        "end": 664.58
+      },
+      {
+        "text": "Ons advies voor de middelbare school is HAVO.",
+        "translation": "我們對中學的建議是HAVO。",
+        "start": 667.04,
+        "end": 669.94
+      },
+      {
+        "text": "Mooi. Dat wil hij ook graag.",
+        "translation": "很好。他也很想去。",
+        "start": 670.54,
+        "end": 673.34
+      },
+      {
+        "text": "U krijgt van mij deze brief. Hierin staat ons advies.",
+        "translation": "我給您這封信。裡面有我們的建議。",
+        "start": 674.98,
+        "end": 678.78
+      },
+      {
+        "text": "Wat moeten we nu doen? U kunt Wouter nu aanmelden bij een middelbare school.",
+        "translation": "我們現在該做什麼？您現在可以幫Wouter報名中學。",
+        "start": 679.6,
+        "end": 684.74
+      },
+      {
+        "text": "En dan moet u deze brief meenemen.",
+        "translation": "並且您必須帶這封信。",
+        "start": 686.04,
+        "end": 688.16
+      },
+      {
+        "text": "Oké. Dat gaan we doen. Bedankt.",
+        "translation": "好的，我們會這麼做。謝謝。",
+        "start": 689.96,
+        "end": 694.18
+      },
+      {
+        "text": "Fijne avond. Ja, u ook. Tot ziens. Tot ziens.",
+        "translation": "晚安。您也是。再見。再見。",
+        "start": 695.02,
+        "end": 699.08
+      },
+      {
+        "text": "Wat heb je geleerd?",
+        "translation": "你學了什麼？",
+        "start": 702.56,
+        "end": 705.42
+      },
+      {
+        "text": "Hé, hallo. Noa. Waar ga je naartoe?",
+        "translation": "嘿，哈囉。Noa。你要去哪裡？",
+        "start": 708.68,
+        "end": 712.08
+      },
+      {
+        "text": "Ik ga naar school. Ik leer Nederlands.",
+        "translation": "我要去學校。我在學荷蘭語。",
+        "start": 712.08,
+        "end": 715.82
+      },
+      {
+        "text": "Wanneer ga je naar school? Op dinsdag en op donderdag.",
+        "translation": "你什麼時候去學校？星期二和星期四。",
+        "start": 716.88,
+        "end": 721.3
+      },
+      {
+        "text": "Hoe laat begint de les? Om 9 uur en hij duurt tot 12 uur.",
+        "translation": "幾點開始上課？9點開始，持續到12點。",
+        "start": 721.94,
+        "end": 727.26
+      },
+      {
+        "text": "Ga je ook mee? Nee, ik heb geen tijd.",
+        "translation": "你也一起去嗎？不，我沒時間。",
+        "start": 728.56,
+        "end": 731.7
+      },
+      {
+        "text": "Oh, jammer. Tot ziens.",
+        "translation": "喔，可惜。再見。",
+        "start": 732.74,
+        "end": 734.38
+      },
+      {
+        "text": "Wat heb je geleerd? Milan vertelt.",
+        "translation": "你學了什麼？Milan來說。",
+        "start": 737.58,
+        "end": 743.52
+      },
+      {
+        "text": "Hallo, ik ben Milan. Ik ben 37 jaar.",
+        "translation": "你好，我是Milan。我37歲。",
+        "start": 745.9,
+        "end": 750.26
+      },
+      {
+        "text": "Ik kom uit Albanië. In Albanië ben ik naar de basisschool geweest.",
+        "translation": "我來自阿爾巴尼亞。我在阿爾巴尼亞讀過小學。",
+        "start": 751.56,
+        "end": 757.14
+      },
+      {
+        "text": "Daarna ben ik gaan werken. Ik kan goed koken.",
+        "translation": "之後我開始工作。我擅長做菜。",
+        "start": 758.14,
+        "end": 761.56
+      },
+      {
+        "text": "Dat heb ik van mijn moeder geleerd.",
+        "translation": "那是我從我母親那裡學的。",
+        "start": 762.26,
+        "end": 763.54
+      },
+      {
+        "text": "Van mijn vader leerde ik autorijden.",
+        "translation": "我從我父親那裡學會開車。",
+        "start": 765.22,
+        "end": 768.32
+      },
+      {
+        "text": "Ik ben nu drie jaar in Nederland. Ik heb op school Nederlands geleerd.",
+        "translation": "我來荷蘭已經三年了。我在學校學荷蘭語。",
+        "start": 769.32,
+        "end": 775.16
+      },
+      {
+        "text": "Nu doe ik een computercursus. Wat een weer.",
+        "translation": "現在我在上電腦課程。真是天氣啊。",
+        "start": 776.96,
+        "end": 782.02
+      },
+      {
+        "text": "Hé, goedemorgen. Hé, René. Je kan hier zitten.",
+        "translation": "嘿，早安。嘿，René。你可以坐這裡。",
+        "start": 786.32,
+        "end": 790.48
+      },
+      {
+        "text": "Wat een weer, hè? Ja, ben je erg nat?",
+        "translation": "天氣真糟，是吧？是的，你淋濕了嗎？",
+        "start": 794.38,
+        "end": 798.98
+      },
+      {
+        "text": "Nee hoor, dat valt wel mee. Ik had gelukkig een paraplu.",
+        "translation": "不，還好。我幸運有帶傘。",
+        "start": 799.78,
+        "end": 803.82
+      },
+      {
+        "text": "Blijft het de hele dag regenen? Ik geloof het wel.",
+        "translation": "會下整天雨嗎？我想會的。",
+        "start": 804.98,
+        "end": 809.16
+      },
+      {
+        "text": "En morgen? Dan wordt het beter. Wat is het weerbericht?",
+        "translation": "那明天呢？明天會好一點。天氣預報是什麼？",
+        "start": 810.22,
+        "end": 815.34
+      },
+      {
+        "text": "De zon gaat schijnen en het wordt 23 graden.",
+        "translation": "太陽會出來，氣溫23度。",
+        "start": 815.88,
+        "end": 819.24
+      },
+      {
+        "text": "Meneer de Vries? Komt u maar.",
+        "translation": "De Vries先生？請進。",
+        "start": 820.66,
+        "end": 822.94
+      },
+      {
+        "text": "Wat een weer.",
+        "translation": "真是天氣。",
+        "start": 827.64,
+        "end": 831.94
+      },
+      {
+        "text": "Met Saïda. Hé, Saïda. Met Nienke.",
+        "translation": "是Saïda。嘿，Saïda。是Nienke。",
+        "start": 836.88,
+        "end": 840.6
+      },
+      {
+        "text": "Nienke, wat leuk dat je belt. Wat een heerlijk weer, hè?",
+        "translation": "Nienke，很高興你打電話來。天氣真好，是吧？",
+        "start": 841.34,
+        "end": 845.56
+      },
+      {
+        "text": "Ja, fantastisch. Ga je vanmiddag mee naar het park?",
+        "translation": "是的，太棒了。你今天下午要一起去公園嗎？",
+        "start": 846.0,
+        "end": 850.44
+      },
+      {
+        "text": "Leuk. Misschien kunnen we picknicken? Een goed idee.",
+        "translation": "好啊。也許我們可以野餐？好主意。",
+        "start": 851.22,
+        "end": 855.64
+      },
+      {
+        "text": "Hoe laat spreken we af? Half 2 in het park.",
+        "translation": "我們幾點見面？下午一點半在公園。",
+        "start": 856.94,
+        "end": 861.2
+      },
+      {
+        "text": "Prima. Zal ik broodjes meenemen?",
+        "translation": "很好。我帶麵包過去，好嗎？",
+        "start": 862.04,
+        "end": 865.08
+      },
+      {
+        "text": "Dat is goed. Dan neem ik koffie en frisdrank mee, oké?",
+        "translation": "那很好。那我會帶咖啡和汽水，好嗎？",
+        "start": 865.44,
+        "end": 870.84
+      },
+      {
+        "text": "Ja, tot straks.",
+        "translation": "好的，待會見。",
+        "start": 871.3,
+        "end": 873.14
+      },
+      {
+        "text": "Neem wel een trui mee. Het wordt later vanmiddag wel fris.",
+        "translation": "記得帶一件毛衣。今天下午稍晚會變冷。",
+        "start": 873.9,
+        "end": 877.32
+      }
+    ],
+    "questions": [
+      {
+        "question": "Waar werkt de spreker die kapper is?",
+        "question_native": "講話者當理髮師在哪裡工作？",
+        "options": [
+          "In een kapsalon",
+          "In een school",
+          "In een fabriek"
+        ],
+        "answer": "In een kapsalon"
+      },
+      {
+        "question": "Wat doet Said Bakau als hij belt naar mevrouw?",
+        "question_native": "Said Bakau打電話給女士時在做什麼？",
+        "options": [
+          "Hij spreekt met Jan Helmond",
+          "Hij is ziek",
+          "Hij werkt fulltime"
+        ],
+        "answer": "Hij spreekt met Jan Helmond"
+      },
+      {
+        "question": "Wat is het probleem van de persoon die ziek is?",
+        "question_native": "生病的人有什麼症狀？",
+        "options": [
+          "Hoofdpijn en koorts",
+          "Hoesten en niezen",
+          "Buikpijn en misselijkheid"
+        ],
+        "answer": "Hoofdpijn en koorts"
+      },
+      {
+        "question": "Wat doet de persoon die schoonmaakt?",
+        "question_native": "打掃的人做什麼工作？",
+        "options": [
+          "Schoonmaken op een school",
+          "Werken in een fabriek",
+          "Kapster zijn"
+        ],
+        "answer": "Schoonmaken op een school"
+      },
+      {
+        "question": "Wat is de nationaliteit van de persoon die in Londen is geboren?",
+        "question_native": "出生於倫敦的人國籍是什麼？",
+        "options": [
+          "Engels",
+          "Nederlands",
+          "Duits"
+        ],
+        "answer": "Nederlands"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "werk",
+        "meaning": "工作"
+      },
+      {
+        "word": "kapper",
+        "meaning": "理髮師"
+      },
+      {
+        "word": "kapsalon",
+        "meaning": "髮廊"
+      },
+      {
+        "word": "ziek",
+        "meaning": "生病"
+      },
+      {
+        "word": "druk",
+        "meaning": "忙碌"
+      },
+      {
+        "word": "klachten",
+        "meaning": "症狀"
+      },
+      {
+        "word": "vrij",
+        "meaning": "休息"
+      },
+      {
+        "word": "schoonmaken",
+        "meaning": "打掃"
+      },
+      {
+        "word": "fabriek",
+        "meaning": "工廠"
+      },
+      {
+        "word": "vacatures",
+        "meaning": "職缺"
+      },
+      {
+        "word": "inschrijven",
+        "meaning": "登記"
+      },
+      {
+        "word": "vrijwilligerswerk",
+        "meaning": "志工工作"
+      },
+      {
+        "word": "persoonlijke gegevens",
+        "meaning": "個人資料"
+      },
+      {
+        "word": "telefoonnummer",
+        "meaning": "電話號碼"
+      },
+      {
+        "word": "emailadres",
+        "meaning": "電子郵件地址"
+      }
+    ]
+  }
+}

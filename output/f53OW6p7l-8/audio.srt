@@ -1,0 +1,566 @@
+1
+00:00:06,080 --> 00:00:06,900
+Huisarts
+
+2
+00:00:09,100 --> 00:00:16,000
+BenjeziekGanaarjehuisartsEenhuisartsiseendokterbijjouindebuurt
+
+3
+00:00:18,380 --> 00:00:21,120
+Dehuisartshelptjoualsjeziekbent
+
+4
+00:00:22,920 --> 00:00:25,520
+Beljehuisartsomeenafspraaktemaken
+
+5
+00:00:30,200 --> 00:00:32,460
+DoktersassistentAlsjedehuisartsbelt
+
+6
+00:00:33,640 --> 00:00:36,360
+spreekjeeerstmetdedoktersassistent
+
+7
+00:00:38,100 --> 00:00:42,320
+Dedoktersassistentsteltvragenoverjeprobleem
+
+8
+00:00:43,440 --> 00:00:45,520
+Zijmaaktdaneenafspraakmetjou
+
+9
+00:00:49,940 --> 00:00:51,340
+Huisartsenpost
+
+10
+00:00:54,300 --> 00:01:02,480
+Bijdehuisartsenpostwerkendoktersvoordeavondennachtenweekendenenopfeestdagen
+
+11
+00:01:03,880 --> 00:01:08,820
+Vraag aan je huisarts het telefoonnummer van de huisartsenpost.
+
+12
+00:01:13,180 --> 00:01:15,920
+Verwijsbriefvoorziekenhuis
+
+13
+00:01:20,060 --> 00:01:27,020
+Somsgeeftdehuisartsjoueenbriefmeevooreenspecialedokterinhetziekenhuis
+
+14
+00:01:27,020 --> 00:01:30,240
+Datheeteenverwijsbrief
+
+15
+00:01:32,920 --> 00:01:42,440
+DespecialedokternoemenwijspecialistZonderverwijsbriefkanjenietnaardespecialist
+
+16
+00:01:46,560 --> 00:01:48,800
+Alarmbel112
+
+17
+00:01:50,140 --> 00:02:04,720
+Bel112alsergrootgevaarisBijvoorbeelderisbrandOfiemandheefteenzwaarongelukOfmensenvechtenendreigenmetwapens
+
+18
+00:02:05,720 --> 00:02:08,820
+Isergeenlevensgevaar
+
+19
+00:02:09,760 --> 00:02:18,400
+beldandepolitieopnummer09008844
+
+20
+00:02:28,580 --> 00:02:29,980
+Medicijnen
+
+21
+00:02:32,300 --> 00:02:39,440
+DehuisartsgeeftjemedicijnenSomsgeeftdehuisartsgeenmedicijnen
+
+22
+00:02:40,440 --> 00:02:46,480
+Voorgriepenverkoudheidzijnergeengoedemedicijnen
+
+23
+00:02:48,280 --> 00:02:51,000
+Paracetamolkanhelpen
+
+24
+00:02:55,820 --> 00:03:04,340
+ApotheekHebjeeenreceptvandehuisartsOphetreceptstaandemedicijnendiejenodighebt
+
+25
+00:03:06,340 --> 00:03:18,940
+MethetreceptgajenaardeapotheekDeapotheekgeeftjoudemedicijnenDrogist
+
+26
+00:03:20,680 --> 00:03:31,080
+JekuntookmedicijnenbijdedrogistkopenMaarmeteenreceptvandehuisartsmoetjealtijdnaardeapotheek
+
+27
+00:03:36,080 --> 00:03:41,520
+TandartsDetandartszorgtvoorjetandenenkiezen
+
+28
+00:03:43,920 --> 00:03:56,420
+TandenenkiezensamenhetengebitEengezondgebitisbelangrijkPoetdaaromelkedagjetanden
+
+29
+00:04:00,920 --> 00:04:07,820
+ZorgverzekeringInNederlandheeftiedereeneenzorgverzekering
+
+30
+00:04:10,640 --> 00:04:18,140
+JebetaaltiederemaandeenbedragvoordezorgverzekeringDatbedragheetpremie
+
+31
+00:04:31,200 --> 00:04:46,020
+GezichtHethaarHetoorHetoogDemondDeneus
+
+32
+00:04:53,120 --> 00:05:05,340
+LichaamvoorkantHethoofdDenekDeborstDebuik
+
+33
+00:05:08,780 --> 00:05:16,000
+DeheupHetbeenDeknie
+
+34
+00:05:18,640 --> 00:05:21,440
+Devoet
+
+35
+00:05:28,880 --> 00:05:43,360
+LichaamachterkantDerugDebillenHetachterhoofdDeschouder
+
+36
+00:05:45,460 --> 00:05:47,300
+Dearm
+
+37
+00:05:49,540 --> 00:05:57,060
+DeelleboogDepolsDehand
+
+38
+00:06:03,700 --> 00:06:05,100
+Ademen
+
+39
+00:06:07,580 --> 00:06:17,080
+DeluchtpijpDeneusDekeelDelongen
+
+40
+00:06:26,440 --> 00:06:40,380
+EtenDeleverDealvleeskleerDemaagDedikkedarm
+
+41
+00:06:43,080 --> 00:06:44,120
+Dedunnedarm
+
+42
+00:06:53,700 --> 00:06:56,260
+Hartenbloedvaten
+
+43
+00:07:00,160 --> 00:07:03,400
+HethartDebloedvaten
+
+44
+00:07:16,460 --> 00:07:35,480
+BewegenVeelbewegenisgezondBewegengeeftenergieHetisgoedomelkedageenhalfuurtebewegenzoalslopen
+
+45
+00:07:38,320 --> 00:07:41,520
+voetballenenfietsen
+
+46
+00:07:45,760 --> 00:07:56,080
+WaterdrinkenWaterisgoedvoorjelichaamJehebtmisschiennietzoveeldorst
+
+47
+00:07:59,200 --> 00:08:06,980
+TochishetgoedomwatertedrinkenDrinkelkedagzesglazenwater
+
+48
+00:08:09,920 --> 00:08:20,900
+VetisongezondVeelvetetenisongezondBijvoorbeeldpatatisheelvet
+
+49
+00:08:22,720 --> 00:08:26,360
+Patatmetmayonaiseisnogveelvetter
+
+50
+00:08:26,360 --> 00:08:30,140
+Vetteninvis
+
+51
+00:08:31,100 --> 00:08:35,440
+olijfolieennotenzijnwelgezond
+
+52
+00:08:39,560 --> 00:08:40,620
+Suiker
+
+53
+00:08:42,200 --> 00:08:47,420
+PasopmetsuikerSuikerisongezond
+
+54
+00:08:50,200 --> 00:09:02,860
+SuikerisheelslechtvoorjegebitVansuikerwordjedikIndrinkenzitvaakveelsuiker
+
+55
+00:09:05,600 --> 00:09:09,320
+Drinkdaaromlieverwaterzondersuiker
+
+56
+00:09:18,500 --> 00:09:39,680
+GezondetenGezondetenisbelangrijkEetveelgroentenzoalsaardappelenknoflookspersiebonencourgette
+
+57
+00:09:41,180 --> 00:09:42,580
+radijs
+
+58
+00:09:45,660 --> 00:09:55,780
+paprikapreitomatenwortelsgroenepeper
+1
+00:09:59,976 --> 00:10:02,236
+groene kool
+
+2
+00:10:04,196 --> 00:10:05,596
+uien
+
+3
+00:10:07,156 --> 00:10:08,556
+broccoli
+
+4
+00:10:10,936 --> 00:10:12,336
+aubergine
+
+5
+00:10:14,516 --> 00:10:15,916
+pompoen
+
+6
+00:10:17,296 --> 00:10:18,696
+komkommer
+
+7
+00:10:19,816 --> 00:10:21,216
+puntpaprika
+
+8
+00:10:22,756 --> 00:10:25,076
+Chinese kool
+
+9
+00:10:26,976 --> 00:10:28,436
+rode uien
+
+10
+00:10:31,536 --> 00:10:31,976
+gember
+
+11
+00:10:34,976 --> 00:10:38,216
+Eet elke dag fruit, zoals
+
+12
+00:10:39,976 --> 00:10:40,696
+citroen
+
+13
+00:10:42,976 --> 00:10:43,376
+druiven
+
+14
+00:10:45,976 --> 00:10:46,476
+aardbeien
+
+15
+00:10:49,056 --> 00:10:50,456
+pinda's
+
+16
+00:10:52,076 --> 00:10:53,476
+appel
+
+17
+00:10:54,816 --> 00:10:56,216
+pruim
+
+18
+00:10:58,296 --> 00:10:59,696
+noten
+
+19
+00:11:01,236 --> 00:11:02,636
+peer
+
+20
+00:11:04,216 --> 00:11:05,616
+mandarijn
+
+21
+00:11:07,496 --> 00:11:08,216
+banaan
+
+22
+00:11:12,476 --> 00:11:13,216
+kiwi
+
+23
+00:11:15,456 --> 00:11:16,216
+meloen
+
+24
+00:11:19,296 --> 00:11:20,696
+kersen
+
+25
+00:11:21,016 --> 00:11:22,416
+bosbessen
+
+26
+00:11:23,176 --> 00:11:24,576
+appel
+
+27
+00:11:27,236 --> 00:11:28,476
+frambozen
+
+28
+00:11:31,396 --> 00:11:32,636
+abrikoos
+
+29
+00:11:34,296 --> 00:11:35,536
+pitten
+
+30
+00:11:37,676 --> 00:11:38,216
+sinaasappel
+
+31
+00:11:42,656 --> 00:11:43,896
+vijg
+
+32
+00:11:44,976 --> 00:11:47,496
+Eet minder vlees.
+
+33
+00:11:49,196 --> 00:11:53,836
+Eet voedsel van granen, die niet helemaal fijn gemaakt zijn.
+
+34
+00:11:53,836 --> 00:11:56,716
+Dat heet volkoren.
+
+35
+00:11:59,856 --> 00:12:05,716
+De schijf van vijf laat zien wat je lichaam nodig heeft.
+
+36
+00:12:07,996 --> 00:12:09,536
+Groente en fruit
+
+37
+00:12:11,316 --> 00:12:14,976
+Smeer- en bereidingsvetten
+
+38
+00:12:16,616 --> 00:12:21,076
+Vispulvruchtenvlees
+
+39
+00:12:22,296 --> 00:12:25,356
+eizuivelennoten
+
+40
+00:12:27,416 --> 00:12:31,976
+Brood, graanproducten en aardappel
+
+41
+00:12:35,796 --> 00:12:37,196
+Dranken
+
+42
+00:12:49,256 --> 00:12:50,656
+Stress
+
+43
+00:12:51,596 --> 00:12:54,596
+Stress betekent spanning.
+
+44
+00:12:55,776 --> 00:12:58,936
+Van veel spanning krijg je problemen.
+
+45
+00:13:00,916 --> 00:13:04,856
+Bijvoorbeeld slecht slapen of hoofdpijn.
+
+46
+00:13:11,036 --> 00:13:12,716
+Omgaan met stress
+
+47
+00:13:14,536 --> 00:13:19,116
+Het is goed om iets te doen als je stress hebt.
+
+48
+00:13:20,716 --> 00:13:22,716
+Bijvoorbeeldsporten
+
+49
+00:13:23,816 --> 00:13:27,396
+optijdnaarbedgaanenoptijduitbedkomen
+
+50
+00:13:28,596 --> 00:13:29,716
+Naar de markt gaan.
+
+51
+00:13:31,936 --> 00:13:35,036
+Muziekmakenkledingmaken
+
+52
+00:13:36,676 --> 00:13:38,716
+kokenfiets
+
+53
+00:13:40,676 --> 00:13:44,596
+Door het park wandelen.
+
+54
+00:13:46,016 --> 00:13:49,036
+Mijn hoofd zit vol.
+
+55
+00:13:50,536 --> 00:13:52,236
+Heb je heel veel stress?
+
+56
+00:13:54,156 --> 00:13:56,316
+Kan je niet stoppen met denken?
+
+57
+00:13:58,576 --> 00:14:00,276
+Lig je s'nachts veel wakker?
+
+58
+00:14:03,676 --> 00:14:05,276
+Praat met anderen.
+
+59
+00:14:06,276 --> 00:14:12,496
+InNederlandishetnormaalomtepratenoverproblemen
+
+60
+00:14:14,196 --> 00:14:18,576
+Praat met familie, vrienden of met de huisarts.
+
+61
+00:14:21,956 --> 00:14:26,596
+Roken, alcohol en drugs
+
+62
+00:14:28,296 --> 00:14:29,696
+Alcohol
+
+63
+00:14:31,196 --> 00:14:36,576
+wietdrugsensigarettenzijn
+
+64
+00:14:38,016 --> 00:14:38,916
+Doe voorzichtig.
+
+65
+00:14:40,936 --> 00:14:42,736
+Ook kost het veel geld.
+
+66
+00:14:43,736 --> 00:14:49,696
+Je hebt dan geen geld om te eten of voor je familie te zorgen.
+
+67
+00:15:02,576 --> 00:15:06,036
+Ben je zwanger? Leef gezond.
+
+68
+00:15:08,516 --> 00:15:10,656
+Beweeg maar neem ook rust.
+
+69
+00:15:11,656 --> 00:15:16,256
+Ga naar een verloskundige bij jou in de buurt.
+
+70
+00:15:17,316 --> 00:15:20,496
+De verloskundige kijkt of alles goed gaat.
+
+71
+00:15:28,296 --> 00:15:35,536
+Hetconsultatiebureauisvooroudersmetkinderenjongerdanvijfjaar
+
+72
+00:15:36,536 --> 00:15:41,476
+Bij het consultatiebureau kan je dingen vragen over je kind.
+
+73
+00:15:42,676 --> 00:15:47,716
+Bijvoorbeeld over eten, drinken, slapen en lopen.
+
+74
+00:15:49,036 --> 00:15:51,616
+Ze kijken of je kindje goed groeit.
+
+75
+00:15:57,156 --> 00:16:01,756
+Meisjes en jongens gaan in Nederland samen naar school.
+
+76
+00:16:02,756 --> 00:16:05,896
+Ze zitten samen in de klas.
+
+77
+00:16:07,216 --> 00:16:10,256
+Ze praten, spelen en sporten met elkaar.
+
+78
+00:16:12,156 --> 00:16:18,256
+InNederlandishetgewoondatjongensenmeisjesvrienden
+
+79
+00:16:18,256 --> 00:16:19,436
+zijn
+
+80
+00:16:21,896 --> 00:16:22,816
+Relaties
+
+81
+00:16:23,716 --> 00:16:27,436
+Trouwen kan als je 18 jaar bent.
+
+82
+00:16:29,356 --> 00:16:32,496
+In Nederland trouwen mannen ook met mannen.
+
+83
+00:16:33,816 --> 00:16:35,236
+En vrouwen met vrouwen.
+
+84
+00:16:36,196 --> 00:16:38,236
+Je mag je partner zelf kiezen.

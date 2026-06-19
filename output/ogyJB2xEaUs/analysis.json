@@ -1,0 +1,785 @@
+{
+ "roman heeft een bericht op zijn voicemail van erik.": {
+  "breakdown": [
+   [
+    "Roman",
+    "Roman"
+   ],
+   [
+    "heeft",
+    "有"
+   ],
+   [
+    "een bericht",
+    "一則消息"
+   ],
+   [
+    "op zijn voicemail",
+    "在他的語音郵件"
+   ],
+   [
+    "van Erik",
+    "來自Erik"
+   ]
+  ],
+  "order": "主詞Roman → 動詞heeft → 受詞een bericht → 地點op zijn voicemail → 來源van Erik。",
+  "grammar": "使用現在式，heeft是he hebben的變化。",
+  "listen": "注意heeft和een的連音。"
+ },
+ "lees eerst de vraag.": {
+  "breakdown": [
+   [
+    "Lees",
+    "請閱讀"
+   ],
+   [
+    "eerst",
+    "首先"
+   ],
+   [
+    "de vraag",
+    "問題"
+   ]
+  ],
+  "order": "動詞Lees → 副詞eerst → 受詞de vraag。",
+  "grammar": "使用命令式，動詞在句首。",
+  "listen": "注意de的弱讀，可能聽不清。"
+ },
+ "luister daarna naar de tekst.": {
+  "breakdown": [
+   [
+    "Luister",
+    "接著聆聽"
+   ],
+   [
+    "daarna",
+    "然後"
+   ],
+   [
+    "naar de tekst",
+    "文本"
+   ]
+  ],
+  "order": "動詞Luister → 副詞daarna → 受詞naar de tekst。",
+  "grammar": "使用命令式，動詞在句首。",
+  "listen": "注意naar的連音，可能聽不清。"
+ },
+ "luister dan naar de tekst.": {
+  "breakdown": [
+   [
+    "Luister",
+    "接著聆聽"
+   ],
+   [
+    "dan",
+    "然後"
+   ],
+   [
+    "naar de tekst",
+    "文本"
+   ]
+  ],
+  "order": "動詞Luister → 副詞dan → 受詞naar de tekst。",
+  "grammar": "使用命令式，動詞在句首。",
+  "listen": "注意dan的弱讀，可能聽不清。"
+ },
+ "tekst.": {
+  "breakdown": [
+   [
+    "Tekst",
+    "文本"
+   ]
+  ],
+  "order": "單詞Tekst。",
+  "grammar": "無特別文法重點。",
+  "listen": "注意發音，Tekst的k音可能不明顯。"
+ },
+ "roman is onderweg naar het gemeentehuis.": {
+  "breakdown": [
+   [
+    "Roman",
+    "Roman"
+   ],
+   [
+    "is",
+    "正在"
+   ],
+   [
+    "onderweg",
+    "路上"
+   ],
+   [
+    "naar het gemeentehuis",
+    "前往市政府"
+   ]
+  ],
+  "order": "主詞Roman → 動詞is → 副詞onderweg → 方向naar het gemeentehuis。",
+  "grammar": "使用現在式，is是zijn的變化。",
+  "listen": "注意is和onderweg的連音。"
+ },
+ "wat moet hij doen bij de groene brug?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "moet",
+    "應該"
+   ],
+   [
+    "hij",
+    "他"
+   ],
+   [
+    "doen",
+    "做"
+   ],
+   [
+    "bij de Groene Brug",
+    "在綠色橋那裡"
+   ]
+  ],
+  "order": "疑問詞Wat → 動詞moet → 主詞hij → 動詞doen → 地點bij de Groene Brug。",
+  "grammar": "使用現在式，moet是modal動詞。",
+  "listen": "注意bij的弱讀，可能聽不清。"
+ },
+ "hij moet linksaf.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "moet",
+    "應該"
+   ],
+   [
+    "linksaf",
+    "左轉"
+   ]
+  ],
+  "order": "主詞Hij → 動詞moet → 受詞linksaf。",
+  "grammar": "使用現在式，moet是modal動詞。",
+  "listen": "注意moet的連音，可能聽不清。"
+ },
+ "hij moet rechtsaf.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "moet",
+    "應該"
+   ],
+   [
+    "rechtsaf",
+    "右轉"
+   ]
+  ],
+  "order": "主詞Hij → 動詞moet → 受詞rechtsaf。",
+  "grammar": "使用現在式，moet是modal動詞。",
+  "listen": "注意moet的連音，可能聽不清。"
+ },
+ "hij moet rechtdoor.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "moet",
+    "應該"
+   ],
+   [
+    "rechtdoor",
+    "直走"
+   ]
+  ],
+  "order": "主詞Hij → 動詞moet → 受詞rechtdoor。",
+  "grammar": "使用現在式，moet是modal動詞。",
+  "listen": "注意moet的連音，可能聽不清。"
+ },
+ "hij moet parkeren.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "moet",
+    "應該"
+   ],
+   [
+    "parkeren",
+    "停車"
+   ]
+  ],
+  "order": "主詞Hij → 動詞moet → 受詞parkeren。",
+  "grammar": "使用現在式，moet是modal動詞。",
+  "listen": "注意moet的連音，可能聽不清。"
+ },
+ "is het alvast vocational?": {
+  "breakdown": [
+   [
+    "Is",
+    "這是"
+   ],
+   [
+    "het",
+    "它"
+   ],
+   [
+    "alvast",
+    "已經"
+   ],
+   [
+    "vocational",
+    "職業性的"
+   ]
+  ],
+  "order": "動詞Is → 主詞het → 副詞alvast → 形容詞vocational。",
+  "grammar": "使用現在式，Is是zijn的變化。",
+  "listen": "注意alvast的弱讀，可能聽不清。"
+ },
+ "als puppy kun je eigenlijk alvast voorgaan.": {
+  "breakdown": [
+   [
+    "Als puppy",
+    "作為小狗"
+   ],
+   [
+    "kun je",
+    "你可以"
+   ],
+   [
+    "eigenlijk",
+    "其實"
+   ],
+   [
+    "alvast voorgaan",
+    "先行"
+   ]
+  ],
+  "order": "Als puppy(狀況) → kun(動詞#2) → je(主詞) → eigenlijk(副詞) → alvast voorgaan(動詞原形)",
+  "grammar": "使用 V2 倒裝，狀況放句首，動詞在第二位。",
+  "listen": "注意 'kun je' 連音，可能聽成 'kunje'。"
+ },
+ "je kunt eigenlijk alvast voorgaan.": {
+  "breakdown": [
+   [
+    "Je kunt",
+    "你可以"
+   ],
+   [
+    "eigenlijk",
+    "其實"
+   ],
+   [
+    "alvast voorgaan",
+    "先行"
+   ]
+  ],
+  "order": "Je(主詞) → kunt(動詞#2) → eigenlijk(副詞) → alvast voorgaan(動詞原形)",
+  "grammar": "V2 倒裝，主詞在句首，動詞在第二位。",
+  "listen": "'kunt' 可能聽成 'kun'，注意發音。"
+ },
+ "wij moeten toe gaan naar de groene brug.": {
+  "breakdown": [
+   [
+    "Wij moeten",
+    "我們必須"
+   ],
+   [
+    "toe gaan naar",
+    "前往"
+   ],
+   [
+    "de Groene Brug",
+    "綠色橋"
+   ]
+  ],
+  "order": "Wij(主詞) → moeten(動詞#2) → toe gaan naar(動詞原形) → de Groene Brug(地點)",
+  "grammar": "使用 modal 動詞，'moeten' 在第二位，原形動詞放句尾。",
+  "listen": "'moeten' 可能被快速發音，注意聽清楚。"
+ },
+ "freely chicken eat.": {
+  "breakdown": [
+   [
+    "Freely",
+    "自由的"
+   ],
+   [
+    "chicken",
+    "雞"
+   ],
+   [
+    "eat",
+    "吃"
+   ]
+  ],
+  "order": "Freely(副詞) → chicken(主詞) → eat(動詞)",
+  "grammar": "這句是簡單的主謂動詞結構，無特殊時態。",
+  "listen": "注意 'Freely' 的發音，可能聽不清楚。"
+ },
+ "hey, roman.": {
+  "breakdown": [
+   [
+    "Hey",
+    "嘿"
+   ],
+   [
+    "Roman",
+    "Roman"
+   ]
+  ],
+  "order": "Hey(打招呼) → Roman(名字)",
+  "grammar": "這是一個簡單的打招呼句子，無特殊文法。",
+  "listen": "'Hey' 可能被快速說出，注意聽清。"
+ },
+ "ik had een bericht gestuurd waar het gemeentehuis precies was.": {
+  "breakdown": [
+   [
+    "Ik had",
+    "我曾經"
+   ],
+   [
+    "een bericht gestuurd",
+    "寄了訊息"
+   ],
+   [
+    "waar het gemeentehuis precies was",
+    "說明市政府的確切位置"
+   ]
+  ],
+  "order": "Ik(主詞) → had(助動詞#2) → een bericht gestuurd(過去分詞) → waar het gemeentehuis precies was(從句)",
+  "grammar": "使用完成式，助動詞在第二位，過去分詞放句尾。",
+  "listen": "'een bericht' 可能聽成 'een berichtje'，注意。"
+ },
+ "nou, je bent er niet, dus... ja, ik spreek het wel even in.": {
+  "breakdown": [
+   [
+    "Nou",
+    "嗯"
+   ],
+   [
+    "je bent er niet",
+    "你還沒到"
+   ],
+   [
+    "dus...",
+    "所以..."
+   ],
+   [
+    "Ja, ik spreek het wel even in",
+    "我會幫你留言"
+   ]
+  ],
+  "order": "Nou(引導詞) → je(主詞) → bent(動詞#2) → er niet(副詞) → dus(連接詞) → Ja(確認) → ik(主詞) → spreek(動詞#2) → het wel even in(動詞原形)",
+  "grammar": "這句包含多個子句，注意主詞和動詞的搭配。",
+  "listen": "'je bent' 可能聽成 'je bent er'，注意連音。"
+ },
+ "oké, vanaf jouw huis.": {
+  "breakdown": [
+   [
+    "Oké",
+    "好"
+   ],
+   [
+    "vanaf jouw huis",
+    "從你家出發"
+   ]
+  ],
+  "order": "Oké(確認) → vanaf(介系詞) → jouw huis(地點)",
+  "grammar": "簡單的句子結構，無特殊文法。",
+  "listen": "'Oké' 可能被快速說出，注意聽清。"
+ },
+ "eerst moet je linksaf.": {
+  "breakdown": [
+   [
+    "Eerst",
+    "首先"
+   ],
+   [
+    "moet je",
+    "你應該"
+   ],
+   [
+    "linksaf",
+    "左轉"
+   ]
+  ],
+  "order": "Eerst(副詞) → moet(動詞#2) → je(主詞) → linksaf(動詞原形)",
+  "grammar": "使用 V2 倒裝，副詞在句首，動詞在第二位。",
+  "listen": "'moet je' 可能聽成 'moetje'，注意連音。"
+ },
+ "en dan bij de groene brug ga je naar rechts.": {
+  "breakdown": [
+   [
+    "En dan",
+    "然後"
+   ],
+   [
+    "bij de Groene Brug",
+    "在綠色橋那裡"
+   ],
+   [
+    "ga je",
+    "你右轉"
+   ],
+   [
+    "naar rechts",
+    "右轉"
+   ]
+  ],
+  "order": "En dan(連接詞) → bij(介系詞) → de Groene Brug(地點) → ga(動詞#2) → je(主詞) → naar rechts(方向)",
+  "grammar": "這句使用了連接詞，動詞在第二位。",
+  "listen": "'ga je' 可能聽成 'gaje'，注意連音。"
+ },
+ "dan een stukje rechtdoor.": {
+  "breakdown": [
+   [
+    "Dan",
+    "接著"
+   ],
+   [
+    "een stukje",
+    "一小段"
+   ],
+   [
+    "rechtdoor",
+    "直走"
+   ]
+  ],
+  "order": "Dan(副詞) → een stukje(量詞) → rechtdoor(動詞原形)",
+  "grammar": "簡單的句子結構，無特殊文法。",
+  "listen": "'een stukje' 可能聽成 'een stuk'，注意。"
+ },
+ "en bij de supermarkt ga je rechtsaf.": {
+  "breakdown": [
+   [
+    "En bij de supermarkt",
+    "在超市那裡"
+   ],
+   [
+    "ga je",
+    "你右轉"
+   ],
+   [
+    "rechtsaf",
+    "右轉"
+   ]
+  ],
+  "order": "En(連接詞) → bij(介系詞) → de supermarkt(地點) → ga(動詞#2) → je(主詞) → rechtsaf(動詞原形)",
+  "grammar": "使用 V2 倒裝，連接詞引導新句，動詞在第二位。",
+  "listen": "'ga je' 可能聽成 'gaje'，注意連音。"
+ },
+ "je weet wel, hè?": {
+  "breakdown": [
+   [
+    "Je",
+    "你"
+   ],
+   [
+    "weet wel",
+    "知道的"
+   ],
+   [
+    "hè?",
+    "對吧？"
+   ]
+  ],
+  "order": "主詞Je → 動詞weet → 補語wel → 問句結尾hè?",
+  "grammar": "使用了現在式，表達確認或共識。",
+  "listen": "注意hè的發音，可能會被弱讀。"
+ },
+ "dan zie je aan de rechterkant een groot gebouw.": {
+  "breakdown": [
+   [
+    "Dan",
+    "然後"
+   ],
+   [
+    "zie je",
+    "你會看到"
+   ],
+   [
+    "aan de rechterkant",
+    "在右手邊"
+   ],
+   [
+    "een groot gebouw",
+    "一棟大樓"
+   ]
+  ],
+  "order": "副詞Dan → 動詞zie → 主詞je → 地點aan de rechterkant → 物件een groot gebouw",
+  "grammar": "使用現在式，描述未來的情況。",
+  "listen": "注意zie和je的連音，可能聽不清。"
+ },
+ "dat is het nog niet.": {
+  "breakdown": [
+   [
+    "Dat",
+    "那"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "het nog niet",
+    "還不是目標"
+   ]
+  ],
+  "order": "主詞Dat → 動詞is → 補語het nog niet",
+  "grammar": "現在式，強調目前狀態。",
+  "listen": "注意het的發音，可能會被弱讀。"
+ },
+ "en daarachter staat een blauw gebouw.": {
+  "breakdown": [
+   [
+    "En",
+    "在"
+   ],
+   [
+    "daarachter",
+    "那棟樓後面"
+   ],
+   [
+    "staat",
+    "有"
+   ],
+   [
+    "een blauw gebouw",
+    "一棟藍色建築"
+   ]
+  ],
+  "order": "連接詞En → 地點daarachter → 動詞staat → 物件een blauw gebouw",
+  "grammar": "現在式，描述位置。",
+  "listen": "注意daarachter的連音，可能聽不清。"
+ },
+ "dat is hem wel.": {
+  "breakdown": [
+   [
+    "Dat",
+    "那"
+   ],
+   [
+    "is",
+    "就是"
+   ],
+   [
+    "hem",
+    "了"
+   ]
+  ],
+  "order": "主詞Dat → 動詞is → 補語hem",
+  "grammar": "現在式，強調確認。",
+  "listen": "注意hem的發音，可能會被弱讀。"
+ },
+ "en daar is links een parkeerplaats voor bezoekers.": {
+  "breakdown": [
+   [
+    "En",
+    "左邊"
+   ],
+   [
+    "daar",
+    "那裡"
+   ],
+   [
+    "is",
+    "有"
+   ],
+   [
+    "links",
+    "一個"
+   ],
+   [
+    "een parkeerplaats",
+    "停車場"
+   ],
+   [
+    "voor bezoekers",
+    "給訪客"
+   ]
+  ],
+  "order": "連接詞En → 地點daar → 動詞is → 方向links → 物件een parkeerplaats → 補語voor bezoekers",
+  "grammar": "現在式，描述位置。",
+  "listen": "注意daar的發音，可能會被弱讀。"
+ },
+ "maar je kunt ook rechts de parkeergarage inrijden.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "je kunt",
+    "你可以"
+   ],
+   [
+    "ook",
+    "也"
+   ],
+   [
+    "rechts",
+    "右轉"
+   ],
+   [
+    "de parkeergarage inrijden",
+    "進入停車場"
+   ]
+  ],
+  "order": "連接詞Maar → 主詞je → 動詞kunt → 副詞ook → 方向rechts → 物件de parkeergarage inrijden",
+  "grammar": "現在式，表達選擇。",
+  "listen": "注意kunt和ook的連音，可能聽不清。"
+ },
+ "of aan de overkant van de weg parkeren.": {
+  "breakdown": [
+   [
+    "Of",
+    "或者"
+   ],
+   [
+    "aan de overkant",
+    "在對面"
+   ],
+   [
+    "van de weg",
+    "路的"
+   ],
+   [
+    "parkeren",
+    "停車"
+   ]
+  ],
+  "order": "連接詞Of → 地點aan de overkant → 補語van de weg → 動詞parkeren",
+  "grammar": "現在式，表達選擇。",
+  "listen": "注意aan的發音，可能會被弱讀。"
+ },
+ "maar die parkeerplaats voor bezoekers, die is wel het handigste, denk ik.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "die parkeerplaats",
+    "那個停車場"
+   ],
+   [
+    "voor bezoekers",
+    "給訪客"
+   ],
+   [
+    "die is",
+    "是"
+   ],
+   [
+    "wel het handigste",
+    "最方便的"
+   ],
+   [
+    "denk ik",
+    "我覺得"
+   ]
+  ],
+  "order": "連接詞Maar → 主詞die parkeerplaats → 補語voor bezoekers → 動詞die is → 副詞wel → 補語het handigste → 補語denk ik",
+  "grammar": "現在式，表達個人看法。",
+  "listen": "注意die的發音，可能會被弱讀。"
+ },
+ "wat moet hij doen bij de supermarkt?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "moet hij doen",
+    "他應該做"
+   ],
+   [
+    "bij de supermarkt",
+    "在超市那裡"
+   ]
+  ],
+  "order": "疑問詞Wat → 動詞moet → 主詞hij → 動詞doen → 地點bij de supermarkt",
+  "grammar": "使用現在式，詢問行動。",
+  "listen": "注意moet的發音，可能會被弱讀。"
+ },
+ "ja, ik had een bericht gestuurd waar het gemeentehuis precies was.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "ik had",
+    "我寄了"
+   ],
+   [
+    "een bericht gestuurd",
+    "一則訊息"
+   ],
+   [
+    "waar het gemeentehuis precies was",
+    "說明市政府的確切位置"
+   ]
+  ],
+  "order": "肯定詞Ja → 主詞ik → 動詞had → 物件een bericht gestuurd → 補語waar het gemeentehuis precies was",
+  "grammar": "過去式，描述已發生的動作。",
+  "listen": "注意had的發音，可能會被弱讀。"
+ },
+ "oké, vanaf jouw huis eerst moet je linksaf.": {
+  "breakdown": [
+   [
+    "Oké",
+    "好"
+   ],
+   [
+    "vanaf jouw huis",
+    "從你家"
+   ],
+   [
+    "eerst",
+    "先"
+   ],
+   [
+    "moet je linksaf",
+    "左轉"
+   ]
+  ],
+  "order": "肯定詞Oké → 地點vanaf jouw huis → 副詞eerst → 動詞moet → 主詞je → 方向linksaf",
+  "grammar": "現在式，給予指示。",
+  "listen": "注意moet的發音，可能會被弱讀。"
+ },
+ "dan een stukje rechtdoor. en bij de supermarkt ga je rechtsaf.": {
+  "breakdown": [
+   [
+    "Dan",
+    "接著"
+   ],
+   [
+    "een stukje",
+    "一小段"
+   ],
+   [
+    "rechtdoor",
+    "直走"
+   ],
+   [
+    "En bij de supermarkt",
+    "在超市那裡"
+   ],
+   [
+    "ga je rechtsaf",
+    "你右轉"
+   ]
+  ],
+  "order": "接著(Dan) → 直走(een stukje rechtdoor) → 在超市那裡(En bij de supermarkt) → 右轉(ga je rechtsaf)。規則：描述動作時，先說動作再說地點。",
+  "grammar": "使用現在式，描述方向和動作。",
+  "listen": "注意 'ga je' 的連音，可能聽成 'gaje'。"
+ }
+}

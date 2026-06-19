@@ -1,0 +1,564 @@
+{
+  "video_id": "jkm2z_f5oMk",
+  "video_info": {
+    "title": "Luisteren examen A2 Oefenen 6",
+    "channel": "Inburgeren examen A2",
+    "duration": 670
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Het gesprek deel 1.",
+        "translation": "對話第一部分。",
+        "start": 0.0,
+        "end": 3.16
+      },
+      {
+        "text": "Lab en Tjana zijn vrienden.",
+        "translation": "Lab和Tjana是朋友。",
+        "start": 3.22,
+        "end": 5.82
+      },
+      {
+        "text": "Ze zien elkaar in de supermarkt. Luister goed.",
+        "translation": "他們在超市見面。仔細聽。",
+        "start": 7.06,
+        "end": 11.1
+      },
+      {
+        "text": "Wat voor eten vindt Tjana lekker?",
+        "translation": "Tjana喜歡吃什麼？",
+        "start": 12.22,
+        "end": 14.7
+      },
+      {
+        "text": "Hé, hallo! Hoe gaat het met jou? Heel goed. En met jou?",
+        "translation": "嗨，你好！你最近怎麼樣？很好，你呢？",
+        "start": 18.32,
+        "end": 23.74
+      },
+      {
+        "text": "Ook goed. Ook lekker aan het boodschappen doen?",
+        "translation": "我也很好。你也在愉快地購物嗎？",
+        "start": 24.2,
+        "end": 27.4
+      },
+      {
+        "text": "Ja. Jij hebt al heel wat lekkere dingen in je kar.",
+        "translation": "是的。你的購物車裡已經有很多美味的東西了。",
+        "start": 27.4,
+        "end": 31.7
+      },
+      {
+        "text": "Ja. Ik houd van lekker eten. Hé, zullen we iets afspreken?",
+        "translation": "是的。我喜歡美味的食物。嘿，我們約個時間好嗎？",
+        "start": 32.28,
+        "end": 37.4
+      },
+      {
+        "text": "Ja. Kom je vanavond bij me eten?",
+        "translation": "好啊。你今晚來我家吃飯嗎？",
+        "start": 38.62,
+        "end": 41.94
+      },
+      {
+        "text": "Leuk. Goed idee. Kunnen we eens rustig met elkaar praten?",
+        "translation": "很好。好主意。我們可以好好地聊聊。",
+        "start": 42.42,
+        "end": 47.72
+      },
+      {
+        "text": "Oké. Hé, hallo! Hoe gaat het met jou? Heel goed. En met jou?",
+        "translation": "好的。嗨，你好！你最近怎麼樣？很好，你呢？",
+        "start": 79.4,
+        "end": 85.06
+      },
+      {
+        "text": "Ook goed. Ook lekker aan het boodschappen doen?",
+        "translation": "我也很好。你也在愉快地購物嗎？",
+        "start": 85.06,
+        "end": 88.76
+      },
+      {
+        "text": "Ja. Jij hebt al heel wat lekkere dingen in je kar.",
+        "translation": "是的。你的購物車裡已經有很多美味的東西了。",
+        "start": 88.98,
+        "end": 93.04
+      },
+      {
+        "text": "Ja. Ik houd van lekker eten. Hé, zullen we iets afspreken?",
+        "translation": "是的。我喜歡美味的食物。嘿，我們約個時間好嗎？",
+        "start": 93.54,
+        "end": 99.24
+      },
+      {
+        "text": "Ja. Kom je vanavond bij me eten?",
+        "translation": "好啊。你今晚來我家吃飯嗎？",
+        "start": 99.86,
+        "end": 103.06
+      },
+      {
+        "text": "Leuk. Goed idee. Kunnen we eens rustig met elkaar praten?",
+        "translation": "很好。好主意。我們可以好好地聊聊。",
+        "start": 103.74,
+        "end": 109.04
+      },
+      {
+        "text": "Hé, hallo! Hoe gaat het met jou? Heel goed. En met jou?",
+        "translation": "嗨，你好！你最近怎麼樣？很好，你呢？",
+        "start": 131.96,
+        "end": 137.58
+      },
+      {
+        "text": "Ook goed. Ook lekker aan het boodschappen doen?",
+        "translation": "我也很好。你也在愉快地購物嗎？",
+        "start": 138.06,
+        "end": 141.26
+      },
+      {
+        "text": "Ja. Jij hebt al heel wat lekkere dingen in je kar.",
+        "translation": "是的。你的購物車裡已經有很多美味的東西了。",
+        "start": 141.64,
+        "end": 145.04
+      },
+      {
+        "text": "Ja. Ik houd van lekker eten. Hé, zullen we iets afspreken?",
+        "translation": "是的。我喜歡美味的食物。嘿，我們約個時間好嗎？",
+        "start": 146.04,
+        "end": 151.8
+      },
+      {
+        "text": "Ja. Kom je vanavond bij me eten?",
+        "translation": "好啊。你今晚來我家吃飯嗎？",
+        "start": 152.58,
+        "end": 156.08
+      },
+      {
+        "text": "Leuk. Goed idee. Kunnen we eens rustig met elkaar praten?",
+        "translation": "很好。好主意。我們可以好好地聊聊。",
+        "start": 156.76,
+        "end": 161.56
+      },
+      {
+        "text": "Hé, hallo! Hoe gaat het met jou? Heel goed. En met jou?",
+        "translation": "嗨，你好！你最近怎麼樣？很好，你呢？",
+        "start": 185.1,
+        "end": 190.66
+      },
+      {
+        "text": "Ook goed. Ook lekker aan het boodschappen doen?",
+        "translation": "我也很好。你也在愉快地購物嗎？",
+        "start": 191.16,
+        "end": 194.38
+      },
+      {
+        "text": "Ja. Jij hebt al heel wat lekkere dingen in je kar.",
+        "translation": "是的。你的購物車裡已經有很多美味的東西了。",
+        "start": 194.76,
+        "end": 198.68
+      },
+      {
+        "text": "Ja. Ik houd van lekker eten. Hé, zullen we iets afspreken?",
+        "translation": "是的。我喜歡美味的食物。嘿，我們約個時間好嗎？",
+        "start": 199.14,
+        "end": 204.92
+      },
+      {
+        "text": "Ja. Kom je vanavond bij me eten?",
+        "translation": "好啊。你今晚來我家吃飯嗎？",
+        "start": 205.6,
+        "end": 208.62
+      },
+      {
+        "text": "Leuk. Goed idee. Kunnen we eens rustig met elkaar praten?",
+        "translation": "很好。好主意。我們可以好好地聊聊。",
+        "start": 209.86,
+        "end": 214.68
+      },
+      {
+        "text": "Hé, hallo! Hoe gaat het met jou? Heel goed. En met jou?",
+        "translation": "嗨，你好！你最近怎麼樣？很好，你呢？",
+        "start": 240.4,
+        "end": 245.96
+      },
+      {
+        "text": "Ook goed. Ook lekker aan het boodschappen doen?",
+        "translation": "我也很好。你也在愉快地購物嗎？",
+        "start": 246.44,
+        "end": 249.68
+      },
+      {
+        "text": "Ja. Jij hebt al heel wat lekkere dingen in je kar.",
+        "translation": "是的。你的購物車裡已經有很多美味的東西了。",
+        "start": 250.06,
+        "end": 253.98
+      },
+      {
+        "text": "Ja. Ik houd van lekker eten. Hé, zullen we iets afspreken?",
+        "translation": "是的。我喜歡美味的食物。嘿，我們約個時間好嗎？",
+        "start": 254.48,
+        "end": 259.62
+      },
+      {
+        "text": "Ja. Kom je vanavond bij me eten?",
+        "translation": "好啊。你今晚來我家吃飯嗎？",
+        "start": 259.82,
+        "end": 264.22
+      },
+      {
+        "text": "Leuk. Goed idee. Kunnen we eens rustig met elkaar praten?",
+        "translation": "很好。好主意。我們可以好好地聊聊。",
+        "start": 265.16,
+        "end": 269.94
+      },
+      {
+        "text": "Ja. Wat vind je lekker? Waar hou je van?",
+        "translation": "是的。你喜歡吃什麼？你喜歡什麼？",
+        "start": 297.04,
+        "end": 301.68
+      },
+      {
+        "text": "Vind je Chinees eten lekker? Of hou je meer van Hollands eten?",
+        "translation": "你喜歡中餐嗎？還是更喜歡荷蘭菜？",
+        "start": 303.04,
+        "end": 308.86
+      },
+      {
+        "text": "Ik vind alles lekker.",
+        "translation": "我什麼都喜歡。",
+        "start": 309.5,
+        "end": 311.54
+      },
+      {
+        "text": "Maar ik hou het meest van buitenlands eten.",
+        "translation": "但我最喜歡外國菜。",
+        "start": 312.46,
+        "end": 315.62
+      },
+      {
+        "text": "Aardappelen, groenten en vlees vind ik wel lekker.",
+        "translation": "我覺得馬鈴薯、蔬菜和肉都不錯。",
+        "start": 316.96,
+        "end": 321.0
+      },
+      {
+        "text": "Maar dat heb ik al zo vaak gegeten.",
+        "translation": "但我已經吃太多次了。",
+        "start": 321.84,
+        "end": 324.52
+      },
+      {
+        "text": "Dan maak ik Chinees voor je. Echt Chinees.",
+        "translation": "那我為你做中餐吧。真正的中餐。",
+        "start": 325.16,
+        "end": 329.34
+      },
+      {
+        "text": "Rijst met kip, tomaat en broccoli. Heerlijk!",
+        "translation": "米飯配雞肉、番茄和西蘭花。美味！",
+        "start": 330.3,
+        "end": 334.34
+      },
+      {
+        "text": "Ja. Wat vind je lekker? Waar hou je van?",
+        "translation": "是的。你喜歡吃什麼？你喜歡什麼？",
+        "start": 357.6,
+        "end": 362.34
+      },
+      {
+        "text": "Vind je Chinees eten lekker? Of hou je meer van Hollands eten?",
+        "translation": "你喜歡中餐嗎？還是更喜歡荷蘭菜？",
+        "start": 363.7,
+        "end": 369.52
+      },
+      {
+        "text": "Ik vind alles lekker.",
+        "translation": "我什麼都喜歡。",
+        "start": 369.52,
+        "end": 372.2
+      },
+      {
+        "text": "Maar ik hou het meest van buitenlands eten.",
+        "translation": "但我最喜歡外國菜。",
+        "start": 373.16,
+        "end": 376.28
+      },
+      {
+        "text": "Aardappelen, groenten en vlees vind ik wel lekker.",
+        "translation": "我覺得馬鈴薯、蔬菜和肉都不錯。",
+        "start": 377.84,
+        "end": 381.64
+      },
+      {
+        "text": "Maar dat heb ik al zo vaak gegeten.",
+        "translation": "但我已經吃太多次了。",
+        "start": 382.5,
+        "end": 384.52
+      },
+      {
+        "text": "Dan maak ik Chinees voor je. Echt Chinees.",
+        "translation": "那我為你做中餐吧。真正的中餐。",
+        "start": 385.78,
+        "end": 390.02
+      },
+      {
+        "text": "Rijst met kip, tomaat en broccoli. Heerlijk!",
+        "translation": "米飯配雞肉、番茄和西蘭花。美味！",
+        "start": 390.98,
+        "end": 395.04
+      },
+      {
+        "text": "Ja. Wat vind je lekker? Waar hou je van?",
+        "translation": "是的。你喜歡什麼？你喜歡什麼口味？",
+        "start": 421.4,
+        "end": 425.96
+      },
+      {
+        "text": "Vind je Chinees eten lekker?",
+        "translation": "你喜歡中餐嗎？",
+        "start": 425.96,
+        "end": 429.58
+      },
+      {
+        "text": "Of hou je meer van Hollandse eten?",
+        "translation": "還是你比較喜歡荷蘭菜？",
+        "start": 430.56,
+        "end": 433.34
+      },
+      {
+        "text": "Ik vind alles lekker. Maar ik hou het meest van buitenlands eten.",
+        "translation": "我什麼都喜歡，但我最喜歡外國菜。",
+        "start": 434.54,
+        "end": 439.98
+      },
+      {
+        "text": "Aardappelen, groenten en vlees vind ik wel lekker.",
+        "translation": "我喜歡馬鈴薯、蔬菜和肉。",
+        "start": 441.44,
+        "end": 445.28
+      },
+      {
+        "text": "Maar dat heb ik al zo vaak gegeten.",
+        "translation": "但那些我已經吃過很多次了。",
+        "start": 446.14,
+        "end": 448.78
+      },
+      {
+        "text": "Dan maak ik Chinees voor je. Echt Chinees.",
+        "translation": "那我來做中餐給你吃，真正的中餐。",
+        "start": 449.44,
+        "end": 453.64
+      },
+      {
+        "text": "Rijst met kip, tomaat en broccoli. Heerlijk!",
+        "translation": "飯配雞肉、番茄和花椰菜。美味！",
+        "start": 453.64,
+        "end": 458.92
+      },
+      {
+        "text": "Ja. Wat vind je lekker? Waar hou je van?",
+        "translation": "是的。你喜歡什麼？你喜歡什麼口味？",
+        "start": 482.28,
+        "end": 486.92
+      },
+      {
+        "text": "Vind je Chinees eten lekker?",
+        "translation": "你喜歡中餐嗎？",
+        "start": 487.92,
+        "end": 490.52
+      },
+      {
+        "text": "Of hou je meer van Hollandse eten?",
+        "translation": "還是你比較喜歡荷蘭菜？",
+        "start": 491.54,
+        "end": 494.3
+      },
+      {
+        "text": "Ik vind alles lekker. Maar ik hou het meest van buitenlands eten.",
+        "translation": "我什麼都喜歡，但我最喜歡外國菜。",
+        "start": 495.48,
+        "end": 500.9
+      },
+      {
+        "text": "Aardappelen, groenten en vlees vind ik wel lekker.",
+        "translation": "我喜歡馬鈴薯、蔬菜和肉。",
+        "start": 502.38,
+        "end": 506.2
+      },
+      {
+        "text": "Maar dat heb ik al zo vaak gegeten.",
+        "translation": "但那些我已經吃過很多次了。",
+        "start": 507.08,
+        "end": 509.7
+      },
+      {
+        "text": "Dan maak ik Chinees voor je. Echt Chinees.",
+        "translation": "那我來做中餐給你吃，真正的中餐。",
+        "start": 510.4,
+        "end": 514.56
+      },
+      {
+        "text": "Rijst met kip, tomaat en broccoli. Heerlijk!",
+        "translation": "飯配雞肉、番茄和花椰菜。美味！",
+        "start": 514.56,
+        "end": 519.86
+      },
+      {
+        "text": "Zoek de juiste woorden bij de plaatjes. Trek een lijn.",
+        "translation": "請將正確的詞語配對到圖片上。畫一條線連接。",
+        "start": 546.88,
+        "end": 551.68
+      },
+      {
+        "text": "TV Gelderland 2021",
+        "translation": "電視Gelderland 2021",
+        "start": 604.34,
+        "end": 604.54
+      },
+      {
+        "text": "TV Gelderland 2021",
+        "translation": "電視Gelderland 2021",
+        "start": 634.34,
+        "end": 634.54
+      },
+      {
+        "text": "TV Gelderland 2021",
+        "translation": "電視Gelderland 2021",
+        "start": 664.34,
+        "end": 664.54
+      },
+      {
+        "text": "TV Gelderland 2021",
+        "translation": "電視Gelderland 2021",
+        "start": 670.2,
+        "end": 670.4
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wie zijn de twee hoofdpersonen in het gesprek?",
+        "question_native": "對話中的兩個主要人物是誰？",
+        "options": [
+          "Lab en Tjana",
+          "Jan en Piet",
+          "Mark en Anna"
+        ],
+        "answer": "Lab en Tjana"
+      },
+      {
+        "question": "Waar ontmoeten Lab en Tjana elkaar?",
+        "question_native": "Lab和Tjana在哪裡見面？",
+        "options": [
+          "In de supermarkt",
+          "Op school",
+          "In een restaurant"
+        ],
+        "answer": "In de supermarkt"
+      },
+      {
+        "question": "Wat stelt Lab voor om samen te doen?",
+        "question_native": "Lab提議一起做什麼？",
+        "options": [
+          "Om samen te eten",
+          "Om samen te sporten",
+          "Om samen te reizen"
+        ],
+        "answer": "Om samen te eten"
+      },
+      {
+        "question": "Wat zegt Tjana over haar eetvoorkeur?",
+        "question_native": "Tjana怎麼說她的飲食偏好？",
+        "options": [
+          "Ze vindt alles lekker",
+          "Ze eet alleen Hollands eten",
+          "Ze eet alleen Chinees eten"
+        ],
+        "answer": "Ze vindt alles lekker"
+      },
+      {
+        "question": "Wat zal Lab voor Tjana maken?",
+        "question_native": "Lab會為Tjana做什麼菜？",
+        "options": [
+          "Chinees eten",
+          "Italiaans eten",
+          "Mexicaans eten"
+        ],
+        "answer": "Chinees eten"
+      },
+      {
+        "question": "Wat zit er in het Chinese gerecht dat Lab wil maken?",
+        "question_native": "Lab想做的中餐裡有哪些食材？",
+        "options": [
+          "Rijst, kip, tomaat en broccoli",
+          "Pasta, tomaat en kaas",
+          "Vlees, aardappelen en wortelen"
+        ],
+        "answer": "Rijst, kip, tomaat en broccoli"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "supermarkt",
+        "meaning": "超市"
+      },
+      {
+        "word": "vrienden",
+        "meaning": "朋友"
+      },
+      {
+        "word": "boodschappen doen",
+        "meaning": "購物"
+      },
+      {
+        "word": "lekker",
+        "meaning": "美味的"
+      },
+      {
+        "word": "kar",
+        "meaning": "購物車"
+      },
+      {
+        "word": "afspreken",
+        "meaning": "約定，約會"
+      },
+      {
+        "word": "vanavond",
+        "meaning": "今晚"
+      },
+      {
+        "word": "rustig",
+        "meaning": "安靜地，輕鬆地"
+      },
+      {
+        "word": "eten",
+        "meaning": "食物，吃"
+      },
+      {
+        "word": "Chinees eten",
+        "meaning": "中餐"
+      },
+      {
+        "word": "Hollands eten",
+        "meaning": "荷蘭菜"
+      },
+      {
+        "word": "buitenlands eten",
+        "meaning": "外國菜"
+      },
+      {
+        "word": "aardappelen",
+        "meaning": "馬鈴薯"
+      },
+      {
+        "word": "groenten",
+        "meaning": "蔬菜"
+      },
+      {
+        "word": "vlees",
+        "meaning": "肉"
+      }
+    ]
+  }
+}

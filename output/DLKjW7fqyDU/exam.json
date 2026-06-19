@@ -1,0 +1,436 @@
+{
+ "video_id": "DLKjW7fqyDU",
+ "title": "Listening exam A2 (new system) 5 questions (b)",
+ "channel": "Inburgeren examen A2",
+ "duration": 554,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "英語課堂的寫作指導",
+   "title_nl": "Listening exam A2 (new system) 5 questions (b)",
+   "kind": "對話",
+   "context_zh": "在英語課堂上，Enrico 與老師討論他的寫作作業",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Melvin doet een cursus Engels.",
+     "zh": "Melvin 參加了一門英語課程。"
+    },
+    {
+     "t": "0:04",
+     "nl": "Zijn medecursist Enrico praat met de docent.",
+     "zh": "他的課友 Enrico 正在與老師說話。"
+    },
+    {
+     "t": "0:10",
+     "nl": "Lees eerst de vraag. Kijk daarna naar de video.",
+     "zh": "先讀問題，然後觀看影片。"
+    },
+    {
+     "t": "0:16",
+     "nl": "Hier, Enrico, je schrijfopdracht. Oké, dank je wel.",
+     "zh": "這是你的寫作作業，Enrico。好的，謝謝你。"
+    },
+    {
+     "t": "0:22",
+     "nl": "Ja, je hebt bijna geen fouten gemaakt met de volgorde van de woorden.",
+     "zh": "是的，你幾乎沒有在詞語順序上犯錯。"
+    },
+    {
+     "t": "0:26",
+     "nl": "Heel goed. Soms maak je nog een foutje met de werkwoorden.",
+     "zh": "非常好。有時候你還會在動詞上犯一些小錯。"
+    },
+    {
+     "t": "0:31",
+     "nl": "Maar die hoef je ook nog niet allemaal te kennen.",
+     "zh": "但是你目前還不需要全部都認識。"
+    },
+    {
+     "t": "0:35",
+     "nl": "Alleen, ja, niet alle woorden zijn goed geschreven.",
+     "zh": "只是，有些單詞寫得不太正確。"
+    },
+    {
+     "t": "0:40",
+     "nl": "Kijk, er zitten nog best veel spelfouten in.",
+     "zh": "看，裡面還有不少拼寫錯誤。"
+    },
+    {
+     "t": "0:44",
+     "nl": "Ja, ik zie het.",
+     "zh": "是的，我看到了。"
+    },
+    {
+     "t": "0:48",
+     "nl": "Ik kon ook niet alle woorden vinden in mijn woordenboek. Oké.",
+     "zh": "我也找不到詞典裡的所有詞語。好的。"
+    },
+    {
+     "t": "0:54",
+     "nl": "Misschien kan iemand je brief nog eens doorlezen als hij af is.",
+     "zh": "或許有人可以在你完成後幫你再讀一次信。"
+    },
+    {
+     "t": "1:01",
+     "nl": "Heb je dat aan iemand gevraagd? Nee. Oké.",
+     "zh": "你有問過別人嗎？沒有。好的。"
+    },
+    {
+     "t": "1:06",
+     "nl": "Nou, je kunt de volgende keer je brief aan een medecursist geven.",
+     "zh": "那麼你下次可以把信交給同學看看。"
+    },
+    {
+     "t": "1:14",
+     "nl": "Aan Melvin bijvoorbeeld, of iemand anders. Die kan er dan nog fouten uithalen.",
+     "zh": "比如交給 Melvin 或其他人，他們可以幫你找錯誤。"
+    },
+    {
+     "t": "1:21",
+     "nl": "Oké. Ja, en voor Melvin is dat ook een goede extra oefening.",
+     "zh": "好的。是的，對 Melvin 來說也是個很好的額外練習。"
+    },
+    {
+     "t": "1:27",
+     "nl": "Ja, dat is een goed idee. Goed, oké.",
+     "zh": "是的，那是個好主意。好，好的。"
+    },
+    {
+     "t": "1:32",
+     "nl": "Dan zie ik jullie de volgende les weer. Oké, tot donderdag.",
+     "zh": "那麼下堂課再見。好的，星期四見。"
+    },
+    {
+     "t": "1:36",
+     "nl": "Tot donderdag. Tot ziens.",
+     "zh": "星期四見。再見。"
+    },
+    {
+     "t": "1:40",
+     "nl": "Waarmee heeft Enrico de meeste fouten gemaakt in zijn brief?",
+     "zh": "Enrico 在他的信裡最多錯的是什麼？"
+    },
+    {
+     "t": "1:47",
+     "nl": "Met de werkwoorden.",
+     "zh": "動詞方面。"
+    },
+    {
+     "t": "1:51",
+     "nl": "Met de spelling.",
+     "zh": "拼寫方面。"
+    },
+    {
+     "t": "1:59",
+     "nl": "Met de volgorde van de woorden.",
+     "zh": "詞語順序方面。"
+    },
+    {
+     "t": "2:55",
+     "nl": "Oh, ik kon ook niet alle woorden vinden in mijn woordenboek. Oké.",
+     "zh": "喔，我也找不到詞典裡的所有詞語。好的。"
+    },
+    {
+     "t": "3:05",
+     "nl": "Heb je dat aan iemand gevraagd? Nee.",
+     "zh": "你有問過別人嗎？沒有。"
+    },
+    {
+     "t": "3:07",
+     "nl": "Oké, nou",
+     "zh": "好的，那麼"
+    },
+    {
+     "t": "3:14",
+     "nl": "Je kunt de volgende keer je brief aan een medecursist geven.",
+     "zh": "你下次可以把信交給同學看看。"
+    },
+    {
+     "t": "3:18",
+     "nl": "Aan Melvin bijvoorbeeld, of iemand anders.",
+     "zh": "比如交給 Melvin 或其他人。"
+    },
+    {
+     "t": "3:23",
+     "nl": "Die kan er dan nog fouten uithalen. Oké.",
+     "zh": "他們可以幫你找錯誤。好的。"
+    },
+    {
+     "t": "3:27",
+     "nl": "Ja, en voor Melvin is dat ook een goede extra oefening.",
+     "zh": "是的，對 Melvin 來說也是個很好的額外練習。"
+    },
+    {
+     "t": "3:48",
+     "nl": "Welk advies over brievenschrijven geeft de docent aan Enrico?",
+     "zh": "老師給 Enrico 關於寫信的哪個建議？"
+    },
+    {
+     "t": "3:53",
+     "nl": "Laat je brief controleren door iemand anders.",
+     "zh": "讓其他人幫你檢查信件。"
+    },
+    {
+     "t": "3:57",
+     "nl": "Gebruik een woordenboek tijdens het schrijven.",
+     "zh": "寫信時使用詞典。"
+    },
+    {
+     "t": "4:08",
+     "nl": "Lees je brief nog een keer door als je klaar bent.",
+     "zh": "寫完後再讀一次信。"
+    },
+    {
+     "t": "4:15",
+     "nl": "Sonja luistert naar een voicemailbericht van haar vriendin Zineb.",
+     "zh": "Sonja 正在聽她朋友 Zineb 的語音信箱訊息。"
+    },
+    {
+     "t": "4:29",
+     "nl": "Lees eerst de vraag. Luister daarna naar de tekst.",
+     "zh": "先讀問題，再聽文本。"
+    },
+    {
+     "t": "4:37",
+     "nl": "Hoi. Met Zineb. Ik bel even over vanavond.",
+     "zh": "嗨，我是Zineb。我打電話是關於今晚的事情。"
+    },
+    {
+     "t": "4:43",
+     "nl": "We hadden afgesproken om naar die pizzeria te gaan, maar hij is gesloten.",
+     "zh": "我們原本約好要去那家披薩店，但他關門了。"
+    },
+    {
+     "t": "4:50",
+     "nl": "Er is een bedrijfsfeest.",
+     "zh": "有一個公司派對。"
+    },
+    {
+     "t": "4:54",
+     "nl": "Morgenavond is het restaurant wel open. Kun jij dan toevallig ook?",
+     "zh": "餐廳明晚會開門。你剛好那時候也可以嗎？"
+    },
+    {
+     "t": "5:00",
+     "nl": "Om zeven uur?",
+     "zh": "七點鐘？"
+    },
+    {
+     "t": "5:03",
+     "nl": "Ik zal wel reserveren. Oh ja.",
+     "zh": "我會去訂位。喔對。"
+    },
+    {
+     "t": "5:07",
+     "nl": "Ik ga morgenavond ook nog met mijn broer Moerad naar de film.",
+     "zh": "我明晚還會和我兄弟Moerad一起去看電影。"
+    },
+    {
+     "t": "5:13",
+     "nl": "Vind je het leuk om na het eten met ons mee te gaan naar de film?",
+     "zh": "你願意晚餐後和我們一起去看電影嗎？"
+    },
+    {
+     "t": "5:18",
+     "nl": "Ik zal je thuis komen ophalen.",
+     "zh": "我會來你家接你。"
+    },
+    {
+     "t": "5:22",
+     "nl": "Dan zien we mijn broer later bij de bioscoop.",
+     "zh": "然後我們稍後在電影院見我的兄弟。"
+    },
+    {
+     "t": "5:27",
+     "nl": "Dus wil je mij even terugbellen? Dank je.",
+     "zh": "所以你能回電話給我嗎？謝謝你。"
+    },
+    {
+     "t": "5:33",
+     "nl": "Dag. Waar wil Zineb eten?",
+     "zh": "嗨。Zineb想在哪裡吃飯？"
+    },
+    {
+     "t": "5:38",
+     "nl": "In een restaurant. Bij Sonja thuis. In de bioscoop.",
+     "zh": "在餐廳。Sonja家裡。在電影院。"
+    },
+    {
+     "t": "6:09",
+     "nl": "Welkom bij Voicemail van Teleworkz.",
+     "zh": "歡迎來到Teleworkz的語音信箱。"
+    },
+    {
+     "t": "6:13",
+     "nl": "U heeft één nieuw bericht. Hoi, met Zineb.",
+     "zh": "您有一則新訊息。嗨，我是Zineb。"
+    },
+    {
+     "t": "6:20",
+     "nl": "Ik bel even over vanavond.",
+     "zh": "我想打電話是關於今晚的事情。"
+    },
+    {
+     "t": "6:23",
+     "nl": "We hadden afgesproken om naar die pizzeria te gaan.",
+     "zh": "我們原本約好要去那家披薩店。"
+    },
+    {
+     "t": "6:27",
+     "nl": "Maar hij is gesloten. Er is een bedrijfsfeest.",
+     "zh": "但它關門了，有個公司派對。"
+    },
+    {
+     "t": "6:41",
+     "nl": "Om zeven uur? Ik zal wel reserveren. Oh ja.",
+     "zh": "七點鐘？我會去訂位。喔對。"
+    },
+    {
+     "t": "7:04",
+     "nl": "Dus, wil je mij even terugbellen?",
+     "zh": "所以，你能回電話給我嗎？"
+    },
+    {
+     "t": "7:12",
+     "nl": "Dank je. Dag. Hoe laat wil Zineb afspreken?",
+     "zh": "謝謝你。再見。Zineb想約幾點？"
+    },
+    {
+     "t": "7:18",
+     "nl": "Vanavond om zes uur. Vanavond om zeven uur.",
+     "zh": "今晚六點。今晚七點。"
+    },
+    {
+     "t": "7:24",
+     "nl": "Morgenavond om zes uur. Morgenavond om zeven uur.",
+     "zh": "明晚六點。明晚七點。"
+    },
+    {
+     "t": "8:00",
+     "nl": "Welkom bij Voicemail van Teleworks.",
+     "zh": "歡迎來到Teleworks的語音信箱。"
+    },
+    {
+     "t": "8:04",
+     "nl": "U heeft een voicemail. U heeft één nieuw bericht. Hoi, met Zineb.",
+     "zh": "您有一則語音信箱。您有一則新訊息。嗨，我是Zineb。"
+    },
+    {
+     "t": "8:58",
+     "nl": "Dus, wil je mij even terugbellen? Dank je.",
+     "zh": "所以，你能回電話給我嗎？謝謝你。"
+    },
+    {
+     "t": "9:04",
+     "nl": "Dag. Wie is Moerad?",
+     "zh": "再見。Moerad是誰？"
+    },
+    {
+     "t": "9:08",
+     "nl": "Een broer van Zineb. Een vriend van Zineb.",
+     "zh": "Zineb的兄弟。Zineb的朋友。"
+    },
+    {
+     "t": "9:13",
+     "nl": "Een collega van Zineb.",
+     "zh": "Zineb的同事。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "cursus",
+     "zh": "課程"
+    },
+    {
+     "nl": "medecursist",
+     "zh": "同學"
+    },
+    {
+     "nl": "docent",
+     "zh": "老師"
+    },
+    {
+     "nl": "schrijfopdracht",
+     "zh": "寫作任務"
+    },
+    {
+     "nl": "fouten",
+     "zh": "錯誤"
+    },
+    {
+     "nl": "volgorde",
+     "zh": "順序"
+    },
+    {
+     "nl": "werkwoorden",
+     "zh": "動詞"
+    },
+    {
+     "nl": "spelling",
+     "zh": "拼寫"
+    },
+    {
+     "nl": "woordenboek",
+     "zh": "字典"
+    },
+    {
+     "nl": "brief",
+     "zh": "信件"
+    },
+    {
+     "nl": "controleren",
+     "zh": "檢查"
+    },
+    {
+     "nl": "reserveren",
+     "zh": "預訂"
+    },
+    {
+     "nl": "bioscoop",
+     "zh": "電影院"
+    },
+    {
+     "nl": "terugbellen",
+     "zh": "回電"
+    },
+    {
+     "nl": "afspreken",
+     "zh": "約定"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Heb je dat aan iemand gevraagd?",
+     "zh": "你有問過某人嗎？",
+     "note": "使用過去完成式的疑問句"
+    },
+    {
+     "nl": "Je kunt de volgende keer je brief aan een medecursist geven.",
+     "zh": "你可以下次把信給同學。",
+     "note": "使用未來式的建議句型"
+    },
+    {
+     "nl": "Ik zal wel reserveren.",
+     "zh": "我會預訂。",
+     "note": "使用未來式表達計畫"
+    },
+    {
+     "nl": "Dus wil je mij even terugbellen?",
+     "zh": "所以你能回電給我嗎？",
+     "note": "使用請求的句型"
+    },
+    {
+     "nl": "Waarmee heeft Enrico de meeste fouten gemaakt?",
+     "zh": "Enrico在哪方面犯了最多錯誤？",
+     "note": "使用疑問句詢問原因"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

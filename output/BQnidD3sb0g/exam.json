@@ -1,0 +1,661 @@
+{
+ "video_id": "BQnidD3sb0g",
+ "title": "Listening exam A2 Practice 3",
+ "channel": "Inburgeren examen A2",
+ "duration": 645,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "在圖書館辦理會員",
+   "title_nl": "Listening exam A2 Practice 3",
+   "kind": "對話",
+   "context_zh": "兩位朋友在圖書館辦理會員，討論訂閱的選擇。",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Feest.",
+     "zh": "派對。"
+    },
+    {
+     "t": "0:06",
+     "nl": "Met Naomi Willems. Hoi Naomi, met René.",
+     "zh": "和 Naomi Willems。嗨 Naomi，我是 René。"
+    },
+    {
+     "t": "0:11",
+     "nl": "Hoi, hoe gaat het? Goed, bedankt voor de uitnodiging voor je feest.",
+     "zh": "嗨，怎麼樣？很好，感謝你邀請我參加派對。"
+    },
+    {
+     "t": "0:17",
+     "nl": "Maar ik kan helaas niet komen.",
+     "zh": "但是我很遺憾不能來。"
+    },
+    {
+     "t": "0:20",
+     "nl": "O, wat jammer. Je bent mijn beste vriend.",
+     "zh": "喔，太可惜了。你是我最好的朋友。"
+    },
+    {
+     "t": "0:24",
+     "nl": "Ja, ik moet werken. Ja, daar is niets aan te doen.",
+     "zh": "是的，我必須工作。是的，沒辦法。"
+    },
+    {
+     "t": "0:31",
+     "nl": "Zullen we dan een andere keer afspreken? Ja, dat is goed.",
+     "zh": "那我們改天再約？好啊，沒問題。"
+    },
+    {
+     "t": "0:35",
+     "nl": "Veel plezier op het feest. En alvast gefeliciteerd.",
+     "zh": "祝你在派對玩得開心。先恭喜你。"
+    },
+    {
+     "t": "0:39",
+     "nl": "Bedankt en tot ziens.",
+     "zh": "謝謝，回頭見。"
+    },
+    {
+     "t": "0:46",
+     "nl": "Hoeveel kost het?",
+     "zh": "多少錢？"
+    },
+    {
+     "t": "0:52",
+     "nl": "Goedemorgen meneer. Goedemorgen.",
+     "zh": "早安，先生。早安。"
+    },
+    {
+     "t": "1:02",
+     "nl": "Dat is dan 43,15 euro. Heeft u nog een flessenbon?",
+     "zh": "那共 43.15 歐元。您有瓶蓋回收券嗎？"
+    },
+    {
+     "t": "1:07",
+     "nl": "Nee. Alsjeblieft, 50 euro.",
+     "zh": "沒有。給您 50 歐元。"
+    },
+    {
+     "t": "1:12",
+     "nl": "Heeft u er 15 cent bij? Even kijken.",
+     "zh": "您可以湊一下 15 分錢嗎？我看看。"
+    },
+    {
+     "t": "1:17",
+     "nl": "Nee, dat heb ik niet. Oké, alsjeblieft.",
+     "zh": "沒有。好的，給您找錢。"
+    },
+    {
+     "t": "1:21",
+     "nl": "Met 6,85 euro. Wilt u de bon mee?",
+     "zh": "共 6.85 歐元。要發票嗎？"
+    },
+    {
+     "t": "1:26",
+     "nl": "Ja, graag. Fijne dag verder. U ook, dag.",
+     "zh": "好，謝謝您。祝您有美好的一天。您也是，再見。"
+    },
+    {
+     "t": "1:40",
+     "nl": "Dag mevrouw. Goedemorgen. Deze cd voor u?",
+     "zh": "小姐您好，早安。這張 CD 是給您的嗎？"
+    },
+    {
+     "t": "1:44",
+     "nl": "Ja, hoeveel kost die? 17,95 euro alsjeblieft.",
+     "zh": "是的，多少錢？17.95 歐元，請。"
+    },
+    {
+     "t": "1:54",
+     "nl": "Kan ik pinnen? Natuurlijk, gaat uw gang.",
+     "zh": "可以用卡付嗎？當然，請慢用。"
+    },
+    {
+     "t": "2:01",
+     "nl": "Zal ik de cd in een tasje doen? Nee hoor, hij gaat zo wel mee.",
+     "zh": "要不要我幫你放進袋子？不用，他自己帶走就好了。"
+    },
+    {
+     "t": "2:07",
+     "nl": "Hier is uw bon. Met de bon kunt u de cd binnen 2 weken ruilen.",
+     "zh": "這是您的發票。持發票兩週內可換貨。"
+    },
+    {
+     "t": "2:13",
+     "nl": "Oké, dank u wel. Tot ziens.",
+     "zh": "好的，謝謝。再見。"
+    },
+    {
+     "t": "2:18",
+     "nl": "Dag. Kijk eens.",
+     "zh": "你好。看看這個。"
+    },
+    {
+     "t": "2:27",
+     "nl": "Hoi Josh, met Marcel. Hé Marcel, hoe gaat het?",
+     "zh": "嗨 Josh，我是 Marcel。嘿 Marcel，最近怎樣？"
+    },
+    {
+     "t": "2:32",
+     "nl": "Ja goed, ga je mee naar de sportschool? Nee, ik kan niet.",
+     "zh": "很好，你要不要一起去健身房？不行，我不能去。"
+    },
+    {
+     "t": "2:37",
+     "nl": "Ik heb mijn arm gebroken. Oh, wat is er gebeurd?",
+     "zh": "我手臂骨折了。喔，發生什麼事了？"
+    },
+    {
+     "t": "2:42",
+     "nl": "Ik ben bij de voetbaltraining gevallen. Precies op mijn arm.",
+     "zh": "我在足球訓練時跌倒了。正好摔到手臂。"
+    },
+    {
+     "t": "2:45",
+     "nl": "En nu is die gebroken. Wat vervelend.",
+     "zh": "現在手臂骨折了。真糟糕。"
+    },
+    {
+     "t": "2:50",
+     "nl": "Heb je veel pijn? Nee hoor, dat valt wel mee.",
+     "zh": "你痛得厲害嗎？不，還好。"
+    },
+    {
+     "t": "2:53",
+     "nl": "Nou, ja, sterkte ermee.",
+     "zh": "好吧，加油。"
+    },
+    {
+     "t": "3:07",
+     "nl": "Hoi Suzanne, ga je mee wandelen?",
+     "zh": "嗨 Suzanne，你要不要一起去散步？"
+    },
+    {
+     "t": "3:11",
+     "nl": "Nee, ik heb geen zin. Ik ben moe.",
+     "zh": "不，我不想去。我累了。"
+    },
+    {
+     "t": "3:14",
+     "nl": "Maar bewegen is gezond hoor.",
+     "zh": "但是運動是健康的喔。"
+    },
+    {
+     "t": "3:18",
+     "nl": "Je moet elke dag minimaal 30 minuten bewegen.",
+     "zh": "你每天至少要運動三十分鐘。"
+    },
+    {
+     "t": "3:23",
+     "nl": "Dat zegt mijn huisarts. Dat doe ik ook.",
+     "zh": "這是我的家庭醫生說的。我也有這樣做。"
+    },
+    {
+     "t": "3:27",
+     "nl": "Ik breng de kinderen naar school, lopend. Ik doe boodschappen op de fiets.",
+     "zh": "我帶孩子走路上學。我騎腳踏車去買東西。"
+    },
+    {
+     "t": "3:33",
+     "nl": "Ik maak elke dag mijn huis schoon. Ik ga met de trap en niet met de lift.",
+     "zh": "我每天打掃房子。我走樓梯，不搭電梯。"
+    },
+    {
+     "t": "3:40",
+     "nl": "Oké, oké, ik hoor het al. Maar samen wandelen is ook gezellig.",
+     "zh": "好吧，我知道了。不過一起散步也很愉快。"
+    },
+    {
+     "t": "3:47",
+     "nl": "Ja, dat is waar. Heb je morgen tijd? Ja hoor, tot morgen.",
+     "zh": "是啊，沒錯。你明天有空嗎？有啊，明天見。"
+    },
+    {
+     "t": "4:01",
+     "nl": "Goedemorgen mevrouw Winter. Goedemorgen dokter.",
+     "zh": "早安，Winter 女士。早安，醫生。"
+    },
+    {
+     "t": "4:09",
+     "nl": "Wat kan ik voor u doen? Nou, ik heb een rode plek op mijn arm.",
+     "zh": "我能幫你什麼嗎？嗯，我手臂有一塊紅紅的地方。"
+    },
+    {
+     "t": "4:15",
+     "nl": "Mag ik even kijken? Ja, dat is een vervelende plek.",
+     "zh": "我可以看看嗎？是的，那地方有點麻煩。"
+    },
+    {
+     "t": "4:22",
+     "nl": "Heeft u ook jeuk? Ja, vooral 's nachts.",
+     "zh": "你會痕癢嗎？會，尤其是晚上。"
+    },
+    {
+     "t": "4:26",
+     "nl": "Hoe lang heeft u deze plek al? Zeker drie weken.",
+     "zh": "這個地方有多久了？大約三個星期了。"
+    },
+    {
+     "t": "4:32",
+     "nl": "Ja, dat is al lang. U krijgt van mij een zalf.",
+     "zh": "是啊，挺久的。我會給你藥膏。"
+    },
+    {
+     "t": "4:35",
+     "nl": "U moet de plek drie keer per dag insmeren met deze zalf.",
+     "zh": "你必須每天塗三次這個藥膏。"
+    },
+    {
+     "t": "4:42",
+     "nl": "En hoe lang moet ik de zalf gebruiken? Nou, in ieder geval deze week.",
+     "zh": "那要塗多久？嗯，至少本週都要。"
+    },
+    {
+     "t": "4:47",
+     "nl": "En als het dan nog niet over is, moet u even terugkomen.",
+     "zh": "如果之後還沒好，你得回來看醫生。"
+    },
+    {
+     "t": "4:52",
+     "nl": "Goed. Alsjeblieft, hier is het recept.",
+     "zh": "好。請收下，這是處方籤。"
+    },
+    {
+     "t": "4:58",
+     "nl": "Ja, bedankt. Dag dokter. Dag mevrouw Winter. Sterkte ermee.",
+     "zh": "是，謝謝。再見醫生。再見冬女士。祝你順利。"
+    },
+    {
+     "t": "5:05",
+     "nl": "Mijn tas is gestolen.",
+     "zh": "我的包被偷了。"
+    },
+    {
+     "t": "5:12",
+     "nl": "Agent? Ja? Mag ik wat vragen?",
+     "zh": "警官？是？我可以問幾個問題嗎？"
+    },
+    {
+     "t": "5:16",
+     "nl": "Natuurlijk. Wat kan ik voor u doen? Mijn tas is gestolen.",
+     "zh": "當然。我能為您做什麼？我的包被偷了。"
+    },
+    {
+     "t": "5:20",
+     "nl": "Ai, dat is niet zo mooi. Wat moet ik nu doen?",
+     "zh": "哎，那可不太好。那我現在該怎麼辦？"
+    },
+    {
+     "t": "5:25",
+     "nl": "U moet aangifte doen bij het politiebureau.",
+     "zh": "您必須到警察局報案。"
+    },
+    {
+     "t": "5:32",
+     "nl": "Wat zat er in uw tas? Mijn portemonnee met 50 euro en mijn bankpasje.",
+     "zh": "您的包裡有什麼？我的錢包裡有50歐元和我的銀行卡。"
+    },
+    {
+     "t": "5:38",
+     "nl": "Ja, uw pasje moet u meteen laten blokkeren bij uw bank.",
+     "zh": "是的，您的卡必須立即向銀行申請鎖卡。"
+    },
+    {
+     "t": "5:42",
+     "nl": "Oké. Bedankt voor de informatie. Nou, graag gedaan meneer. Succes verder.",
+     "zh": "好的。謝謝您的資訊。不客氣，先生。祝您一切順利。"
+    },
+    {
+     "t": "6:02",
+     "nl": "Met de klantenservice.",
+     "zh": "跟客戶服務部門聯絡。"
+    },
+    {
+     "t": "6:04",
+     "nl": "Hallo, u spreekt met Nico Stevens. Mijn bankpas is gestolen.",
+     "zh": "您好，這裡是尼可·史蒂文斯。我銀行卡被偷了。"
+    },
+    {
+     "t": "6:09",
+     "nl": "Oh, wat vervelend. Ik laat uw pas blokkeren.",
+     "zh": "喔，真不幸。我會幫您申請停用這張卡。"
+    },
+    {
+     "t": "6:14",
+     "nl": "Maar dan kan ik hem niet meer gebruiken.",
+     "zh": "可是這樣我就不能用了。"
+    },
+    {
+     "t": "6:16",
+     "nl": "Ja, dat klopt. U krijgt van ons een nieuwe pas.",
+     "zh": "是的，沒錯。我們會給您一張新卡。"
+    },
+    {
+     "t": "6:20",
+     "nl": "En hoe lang duurt dat? Drie werkdagen. Oké.",
+     "zh": "那要多久？三個工作天。好的。"
+    },
+    {
+     "t": "6:24",
+     "nl": "Wat is uw rekeningnummer? Ben je ziek?",
+     "zh": "您的帳號是什麼？你生病了嗎？"
+    },
+    {
+     "t": "6:36",
+     "nl": "Hé Mirka, hoe gaat het? Ik voel me niet lekker.",
+     "zh": "嗨米爾卡，近來如何？我覺得不太舒服。"
+    },
+    {
+     "t": "6:42",
+     "nl": "Ben je ziek?",
+     "zh": "你生病了嗎？"
+    },
+    {
+     "t": "6:44",
+     "nl": "Ja. Ik heb hoofdpijn en last van mijn keel.",
+     "zh": "是的。我頭痛，喉嚨也不舒服。"
+    },
+    {
+     "t": "6:49",
+     "nl": "Heb je ook koorts? Nee hoor, dat niet.",
+     "zh": "你有發燒嗎？沒有，沒有發燒。"
+    },
+    {
+     "t": "6:53",
+     "nl": "Zal ik een paracetamol voor je pakken?",
+     "zh": "要不要我幫你拿退燒藥？"
+    },
+    {
+     "t": "6:56",
+     "nl": "Ja, graag. Misschien gaat het dan beter.",
+     "zh": "好，謝謝。或許會好一點。"
+    },
+    {
+     "t": "7:03",
+     "nl": "In ieder geval, beterschap. Ja, dank je wel.",
+     "zh": "不管怎樣，祝你早日康復。謝謝你。"
+    },
+    {
+     "t": "7:16",
+     "nl": "Dag meneer. Goedemorgen. Zegt u het maar.",
+     "zh": "先生您好，早安。請講。"
+    },
+    {
+     "t": "7:19",
+     "nl": "Ik kom mijn oordruppels halen. Wat is uw naam?",
+     "zh": "我來拿我的耳滴藥。請問您的名字是？"
+    },
+    {
+     "t": "7:24",
+     "nl": "Bakir. Kunt u dat even spellen? B-A-K-I-R.",
+     "zh": "巴基爾。能幫我拼寫一下嗎？B-A-K-I-R。"
+    },
+    {
+     "t": "7:34",
+     "nl": "Een ogenblikje.",
+     "zh": "請稍等。"
+    },
+    {
+     "t": "7:40",
+     "nl": "Alstublieft. Dit zijn uw oordruppels. U moet ze twee keer per dag gebruiken.",
+     "zh": "請收下。這是您的耳滴藥。您必須一天用兩次。"
+    },
+    {
+     "t": "7:45",
+     "nl": "'s Morgens als u opstaat en 's avonds als u naar bed gaat.",
+     "zh": "早上起床時和晚上睡覺前。"
+    },
+    {
+     "t": "7:51",
+     "nl": "Bedankt. Heeft u nog vragen? Nee, alles is duidelijk.",
+     "zh": "謝謝。您還有問題嗎？沒有，一切都很清楚。"
+    },
+    {
+     "t": "7:55",
+     "nl": "Beterschap. Dank u wel. Tot ziens.",
+     "zh": "祝您早日康復。謝謝您。再見。"
+    },
+    {
+     "t": "8:08",
+     "nl": "Hallo. Kan ik u helpen?",
+     "zh": "您好，我可以幫忙嗎？"
+    },
+    {
+     "t": "8:12",
+     "nl": "Ja. Heeft u voor mij een hoestdrankje? Is het voor uzelf?",
+     "zh": "有的。您有咳嗽藥水嗎？是您自己用嗎？"
+    },
+    {
+     "t": "8:17",
+     "nl": "Nee, het is voor mijn dochter. Hoe oud is ze?",
+     "zh": "不是，是給我女兒的。她幾歲？"
+    },
+    {
+     "t": "8:21",
+     "nl": "Sinds zeven jaar. Ze heeft griep. En heeft ze ook koorts?",
+     "zh": "七歲。她感冒了。她有發燒嗎？"
+    },
+    {
+     "t": "8:28",
+     "nl": "Ja, vanochtend 38,5. Ah, vervelend.",
+     "zh": "有，今天早上燒到38.5度。啊，真麻煩。"
+    },
+    {
+     "t": "8:36",
+     "nl": "Hier is een drankje.",
+     "zh": "這是藥水。"
+    },
+    {
+     "t": "8:42",
+     "nl": "12,75 alsjeblieft. Alsjeblieft.",
+     "zh": "12.75歐元，請。給您。"
+    },
+    {
+     "t": "8:48",
+     "nl": "En het beste met uw dochter. Bedankt.",
+     "zh": "祝您女兒早日康復。謝謝。"
+    },
+    {
+     "t": "9:00",
+     "nl": "Hé, Bianca. Waar ga je naartoe?",
+     "zh": "嗨，比安卡。你要去哪裡？"
+    },
+    {
+     "t": "9:04",
+     "nl": "Ik ga naar de bibliotheek. Ga je mee? Daar ben ik nog nooit geweest.",
+     "zh": "我要去圖書館。你要一起去嗎？我以前從沒去過那裡。"
+    },
+    {
+     "t": "9:09",
+     "nl": "Nee? Ik hou van lezen.",
+     "zh": "真的嗎？我喜歡閱讀。"
+    },
+    {
+     "t": "9:13",
+     "nl": "Ik heb een abonnement. En je dochter? Ja, die heeft ook een abonnement.",
+     "zh": "我有會員證。你女兒呢？是的，她也有會員證。"
+    },
+    {
+     "t": "9:19",
+     "nl": "Dat is gratis. Oh, dat is makkelijk. Ga ook mee. Dan kun je meteen lid worden.",
+     "zh": "那是免費的。喔，那很方便。你也一起去吧，這樣你就可以當場辦證。"
+    },
+    {
+     "t": "9:26",
+     "nl": "Ja, goed idee. Moet ik nog wat meenemen? Een legitimatiebewijs.",
+     "zh": "是，主意不錯。我要帶什麼嗎？帶身分證明。"
+    },
+    {
+     "t": "9:32",
+     "nl": "Oh, dat heb ik bij me. Laten we gaan.",
+     "zh": "喔，我帶著。走吧。"
+    },
+    {
+     "t": "9:43",
+     "nl": "Bibliotheek.",
+     "zh": "圖書館。"
+    },
+    {
+     "t": "9:46",
+     "nl": "Dag mevrouw. Wat kan ik voor je doen? Dag. Ik wil lid worden.",
+     "zh": "女士您好，我能為您做什麼？您好。我想辦會員。"
+    },
+    {
+     "t": "9:53",
+     "nl": "Dat kan. We hebben twee abonnementen.",
+     "zh": "可以。我們有兩種訂閱方案。"
+    },
+    {
+     "t": "9:58",
+     "nl": "Een basisabonnement en een plusabonnement.",
+     "zh": "一個基本訂閱和一個進階訂閱。"
+    },
+    {
+     "t": "10:02",
+     "nl": "Oh, en wat is het verschil? Een basisabonnement kost 30 euro.",
+     "zh": "喔，那有什麼差別？基本訂閱費用是30歐元。"
+    },
+    {
+     "t": "10:07",
+     "nl": "Dan kunt u met uw pasje zes boeken of dvd's lenen.",
+     "zh": "然後您可以用您的會員卡借六本書或DVD。"
+    },
+    {
+     "t": "10:12",
+     "nl": "Met een plusabonnement kunt u tien boeken of dvd's lenen.",
+     "zh": "有了進階訂閱，您可以借十本書或DVD。"
+    },
+    {
+     "t": "10:16",
+     "nl": "En dat kost 40 euro.",
+     "zh": "費用是40歐元。"
+    },
+    {
+     "t": "10:20",
+     "nl": "Oh, dan wil ik een basisabonnement.",
+     "zh": "喔，那我想要一個基本訂閱。"
+    },
+    {
+     "t": "10:24",
+     "nl": "Prima. Heeft u een legitimatiebewijs bij u?",
+     "zh": "很好。您有帶身分證明文件嗎？"
+    },
+    {
+     "t": "10:29",
+     "nl": "Ja, alstublieft. Dan heb ik nog een andere vraag.",
+     "zh": "有，請您收下。那我還有另外一個問題。"
+    },
+    {
+     "t": "10:34",
+     "nl": "Kan mijn zoon ook lid worden? Natuurlijk. Hoe oud is hij?",
+     "zh": "我兒子也可以成為會員嗎？當然可以。他幾歲了？"
+    },
+    {
+     "t": "10:41",
+     "nl": "Hij is elf jaar. Dan is het abonnement voor hem gratis.",
+     "zh": "他十一歲。那麼對他來說訂閱是免費的。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "bibliotheek",
+     "zh": "圖書館"
+    },
+    {
+     "nl": "lid worden",
+     "zh": "成為會員"
+    },
+    {
+     "nl": "abonnement",
+     "zh": "訂閱"
+    },
+    {
+     "nl": "legitimatiebewijs",
+     "zh": "身份證明"
+    },
+    {
+     "nl": "boeken",
+     "zh": "書籍"
+    },
+    {
+     "nl": "dvd's",
+     "zh": "DVD"
+    },
+    {
+     "nl": "basisabonnement",
+     "zh": "基本訂閱"
+    },
+    {
+     "nl": "plusabonnement",
+     "zh": "進階訂閱"
+    },
+    {
+     "nl": "kosten",
+     "zh": "費用"
+    },
+    {
+     "nl": "verschil",
+     "zh": "差異"
+    },
+    {
+     "nl": "gratis",
+     "zh": "免費"
+    },
+    {
+     "nl": "lenen",
+     "zh": "借"
+    },
+    {
+     "nl": "vraag",
+     "zh": "問題"
+    },
+    {
+     "nl": "dochter",
+     "zh": "女兒"
+    },
+    {
+     "nl": "zoon",
+     "zh": "兒子"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Wat kan ik voor u doen?",
+     "zh": "我能為您做什麼？",
+     "note": "詢問對方需求的句型"
+    },
+    {
+     "nl": "Ik wil lid worden.",
+     "zh": "我想成為會員。",
+     "note": "表達想要加入的句型"
+    },
+    {
+     "nl": "Wat is het verschil?",
+     "zh": "有什麼不同？",
+     "note": "詢問差異的句型"
+    },
+    {
+     "nl": "Heeft u een legitimatiebewijs bij u?",
+     "zh": "您有身份證明嗎？",
+     "note": "詢問是否攜帶證件的句型"
+    },
+    {
+     "nl": "Dat kost 30 euro.",
+     "zh": "那個費用是30歐元。",
+     "note": "表達價格的句型"
+    },
+    {
+     "nl": "Dan is het abonnement voor hem gratis.",
+     "zh": "那麼他的訂閱是免費的。",
+     "note": "表達免費的情況"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

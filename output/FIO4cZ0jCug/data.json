@@ -1,0 +1,636 @@
+{
+  "video_id": "FIO4cZ0jCug",
+  "video_info": {
+    "title": "Listening exam 2021",
+    "channel": "Inburgeren examen A2",
+    "duration": 603
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Muziek.",
+        "translation": "音樂。",
+        "start": 7.7,
+        "end": 9.1
+      },
+      {
+        "text": "Telefoon rinkelt.",
+        "translation": "電話響了。",
+        "start": 20.98,
+        "end": 22.48
+      },
+      {
+        "text": "Telefoon rinkelt. Met Koos Galjoen. Hoi, met Arnaud. Ik wou je wat vragen.",
+        "translation": "電話響了。Koos Galjoen在電話那頭。嗨，我是Arnaud。我想問你一些事。",
+        "start": 26.24,
+        "end": 31.44
+      },
+      {
+        "text": "Weet jij misschien een loodgieter? Mijn moeder staat onder water.",
+        "translation": "你知道有沒有水電工？我媽媽家淹水了。",
+        "start": 32.28,
+        "end": 35.7
+      },
+      {
+        "text": "Hoe komt dat? De wc is kapot. Wat vreselijk. Nee, ik ken geen loodgieter.",
+        "translation": "怎麼會這樣？馬桶壞了。真糟糕。不好意思，我不認識水電工。",
+        "start": 36.28,
+        "end": 41.26
+      },
+      {
+        "text": "Maar je kunt het beste in de Gouden Gids kijken. O ja, daar had ik niet aan gedacht. Wat een goed idee.",
+        "translation": "不過你最好看看黃頁。哦，對，我沒想到。好主意。",
+        "start": 41.76,
+        "end": 47.56
+      },
+      {
+        "text": "Ik ga gauw kijken. Bedankt. O, denk je dat ze gauw komen?",
+        "translation": "我馬上去看。謝謝。你覺得他們會很快來嗎？",
+        "start": 48.1,
+        "end": 52.08
+      },
+      {
+        "text": "Nou, ik ben bang van niet. Meestal laten ze hier lang wachten.",
+        "translation": "恐怕不會。通常他們會讓人等很久。",
+        "start": 52.54,
+        "end": 55.64
+      },
+      {
+        "text": "Nou, dat hoop ik niet, want het stinkt vreselijk hier.",
+        "translation": "希望不是這樣，這裡臭得很。",
+        "start": 55.64,
+        "end": 58.9
+      },
+      {
+        "text": "Nou, sterkte daarmee. De groet aan je moeder. Bedankt. Dag.",
+        "translation": "那你加油吧。替我向你媽媽問好。謝謝。再見。",
+        "start": 59.32,
+        "end": 62.52
+      },
+      {
+        "text": "Telefoon rinkelt. Telefoon rinkelt.",
+        "translation": "電話響了。電話響了。",
+        "start": 80.46,
+        "end": 84.94
+      },
+      {
+        "text": "Niet te rechten. Wat wordt er aan de hand? Dat hoop ik niet, want het stinkt vreselijk hier.",
+        "translation": "別掛斷。發生什麼事？希望不是這樣，這裡臭得很。",
+        "start": 113.92,
+        "end": 117.66
+      },
+      {
+        "text": "Nou, sterkte daarmee. De groet aan je moeder. Bedankt. Dag.",
+        "translation": "那你加油吧。替我向你媽媽問好。謝謝。再見。",
+        "start": 118.06,
+        "end": 121.52
+      },
+      {
+        "text": "Geluid van de telefoon.",
+        "translation": "電話聲。",
+        "start": 136.44,
+        "end": 139.72
+      },
+      {
+        "text": "Telefoon.",
+        "translation": "電話。",
+        "start": 139.72,
+        "end": 143.1
+      },
+      {
+        "text": "Met Koos Galjoen. Hoi, met Arnaud. Ik wou je wat vragen.",
+        "translation": "Koos Galjoen在電話那頭。嗨，我是Arnaud。我想問你一些事。",
+        "start": 143.94,
+        "end": 147.7
+      },
+      {
+        "text": "Weet jij misschien een loodgieter? Mijn moeder, haar hele vloer staat onder water.",
+        "translation": "你知道有沒有水電工？我媽媽整個地板淹水了。",
+        "start": 147.7,
+        "end": 152.0
+      },
+      {
+        "text": "Hoe komt dat? De wc is kapot. Wat vreselijk. Nee, ik ken geen loodgieter.",
+        "translation": "怎麼會這樣？馬桶壞了。真糟糕。不好意思，我不認識水電工。",
+        "start": 152.68,
+        "end": 157.46
+      },
+      {
+        "text": "Maar je kunt het beste in de Gouden Gids kijken. Daar staan ze allemaal in.",
+        "translation": "但你最好查黃頁。裡面都有水電工的資料。",
+        "start": 157.98,
+        "end": 161.04
+      },
+      {
+        "text": "O, ja, daar had ik niet aan gedacht. Wat een goed idee. Ik ga gauw kijken. Bedankt.",
+        "translation": "哦，對，我沒想到。好主意。我馬上去看。謝謝。",
+        "start": 161.28,
+        "end": 166.12
+      },
+      {
+        "text": "O, denk je dat ze gauw komen? Nou, ik ben bang van niet. Meestal laten ze hier lang wachten.",
+        "translation": "你覺得他們會很快來嗎？恐怕不會。通常他們會讓人等很久。",
+        "start": 167.0,
+        "end": 171.9
+      },
+      {
+        "text": "Nou, dat hoop ik niet, want het stinkt vreselijk hier. Nou, sterkte daarmee. De groet aan je moeder.",
+        "translation": "希望不是這樣，這裡臭得很。那你加油吧。替我向你媽媽問好。",
+        "start": 172.42,
+        "end": 177.74
+      },
+      {
+        "text": "Bedankt. Dag.",
+        "translation": "謝謝。再見。",
+        "start": 177.92,
+        "end": 178.78
+      },
+      {
+        "text": "Geluid van telefoon.",
+        "translation": "電話聲。",
+        "start": 204.42,
+        "end": 204.94
+      },
+      {
+        "text": "Met man op de telefoon.",
+        "translation": "電話裡有男人聲音。",
+        "start": 252.82,
+        "end": 254.46
+      },
+      {
+        "text": "Met Koosjon. Met Arnoud. Ik wou je wat vragen over een loodgieter van mij.",
+        "translation": "Koosjon在電話這邊。Arnoud在這裡。我想問你關於一個水電工的事。",
+        "start": 261.0,
+        "end": 264.92
+      },
+      {
+        "text": "Weet jij misschien een loodgieter? Mijn moeder, haar hele vloer staat onder water.",
+        "translation": "你知道有沒有水電工？我媽媽整個地板淹水了。",
+        "start": 264.92,
+        "end": 269.28
+      },
+      {
+        "text": "Hoe komt dat? De wc is kapot. Wat vreselijk. Nee, ik ken geen loodgieter.",
+        "translation": "怎麼會這樣？馬桶壞了。真糟糕。不好意思，我不認識水電工。",
+        "start": 269.96,
+        "end": 274.76
+      },
+      {
+        "text": "Maar je kunt het beste in de Gouden Gids kijken. Daar staan ze allemaal in.",
+        "translation": "但你最好查黃頁。裡面都有他們的名單。",
+        "start": 275.28,
+        "end": 278.34
+      },
+      {
+        "text": "O, ja, daar had ik niet aan gedacht. Wat een goed idee. Ik ga gauw kijken. Bedankt.",
+        "translation": "哦，對，我沒想到。好主意。我馬上去看。謝謝。",
+        "start": 278.56,
+        "end": 283.4
+      },
+      {
+        "text": "O, denk je dat ze gauw komen? Nou, ik ben bang van niet. Meestal laten ze hier lang wachten.",
+        "translation": "你覺得他們會很快來嗎？恐怕不會。通常他們會讓人等很久。",
+        "start": 284.28,
+        "end": 289.18
+      },
+      {
+        "text": "Nou, dat hoop ik niet, want het stinkt vreselijk hier. Nou, sterkte daarmee. De groet aan je moeder.",
+        "translation": "希望不是這樣，這裡臭得很。那你加油吧。替我向你媽媽問好。",
+        "start": 289.7,
+        "end": 295.02
+      },
+      {
+        "text": "Bedankt. Dag.",
+        "translation": "謝謝。再見。",
+        "start": 295.18,
+        "end": 296.06
+      },
+      {
+        "text": "Kan ik u helpen?",
+        "translation": "我可以幫您嗎？",
+        "start": 311.26,
+        "end": 312.58
+      },
+      {
+        "text": "Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.",
+        "translation": "我想要一公斤特價1.25歐元的蘋果。",
+        "start": 313.9,
+        "end": 319.08
+      },
+      {
+        "text": "Het spijt me, maar de appels die u vraagt zijn uitverkocht.",
+        "translation": "很抱歉，您要的蘋果已經賣完了。",
+        "start": 319.96,
+        "end": 323.28
+      },
+      {
+        "text": "Jammer. Welke appels raadt u me dan aan?",
+        "translation": "真可惜。那您推薦我買哪種蘋果？",
+        "start": 324.22,
+        "end": 326.82
+      },
+      {
+        "text": "Als ik u was, zou ik deze nemen. Ze smaken heerlijk zoet.",
+        "translation": "如果我是您，我會買這種。味道非常甜美。",
+        "start": 328.32,
+        "end": 332.46
+      },
+      {
+        "text": "Normaal kosten ze 1,75 euro per kilo.",
+        "translation": "正常價格是一公斤1.75歐元。",
+        "start": 333.34,
+        "end": 336.3
+      },
+      {
+        "text": "Maar betaalt u maar 1,25 euro.",
+        "translation": "但您只需付1.25歐元。",
+        "start": 337.16,
+        "end": 339.7
+      },
+      {
+        "text": "Goed. Geeft u mij daar maar één kilo van?",
+        "translation": "好，那給我一公斤。",
+        "start": 340.74,
+        "end": 344.36
+      },
+      {
+        "text": "Alsjeblieft. Anders nog iets? Nee, bedankt.",
+        "translation": "給您。還需要別的嗎？不，謝謝。",
+        "start": 345.4,
+        "end": 349.26
+      },
+      {
+        "text": "Kan ik u helpen?",
+        "translation": "我可以幫您嗎？",
+        "start": 360.24,
+        "end": 361.52
+      },
+      {
+        "text": "Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.",
+        "translation": "我想要一公斤特價1.25歐元的蘋果。",
+        "start": 363.16,
+        "end": 368.06
+      },
+      {
+        "text": "Het spijt me, maar de appels die u vraagt zijn uitverkocht.",
+        "translation": "很抱歉，您要的蘋果已經賣完了。",
+        "start": 369.16,
+        "end": 372.24
+      },
+      {
+        "text": "Jammer. Welke appels raadt u me dan aan?",
+        "translation": "真可惜。那您推薦我買哪種蘋果？",
+        "start": 372.84,
+        "end": 375.8
+      },
+      {
+        "text": "Als ik u was, zou ik deze nemen. Ze smaken heerlijk zoet.",
+        "translation": "如果我是您，我會買這種。味道非常甜美。",
+        "start": 377.3,
+        "end": 381.44
+      },
+      {
+        "text": "Normaal kosten ze 1,75 euro per kilo.",
+        "translation": "正常價格是一公斤1.75歐元。",
+        "start": 382.32,
+        "end": 385.28
+      },
+      {
+        "text": "Maar betaalt u maar 1,25 euro.",
+        "translation": "但您只需付1.25歐元。",
+        "start": 386.14,
+        "end": 388.68
+      },
+      {
+        "text": "Goed. Geeft u mij daar maar één kilo van?",
+        "translation": "好，那給我一公斤。",
+        "start": 389.98,
+        "end": 393.32
+      },
+      {
+        "text": "Alsjeblieft. Anders nog iets? Nee, bedankt.",
+        "translation": "請。還需要什麼嗎？不，謝謝。",
+        "start": 394.28,
+        "end": 397.72
+      },
+      {
+        "text": "Alsjeblieft. Welke appels raadt u me dan aan?",
+        "translation": "請問。您建議我買哪種蘋果？",
+        "start": 407.4,
+        "end": 410.84
+      },
+      {
+        "text": "Alsjeblieft. Welke appels raadt u me dan aan?",
+        "translation": "請問。您建議我買哪種蘋果？",
+        "start": 410.84,
+        "end": 415.26
+      },
+      {
+        "text": "Alsjeblieft. Welke appels raadt u me dan aan? Kan ik u helpen?",
+        "translation": "請問。您建議我買哪種蘋果？我可以幫您嗎？",
+        "start": 415.26,
+        "end": 420.94
+      },
+      {
+        "text": "Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.",
+        "translation": "我想買一公斤特價蘋果，每公斤1.25歐元。",
+        "start": 422.24,
+        "end": 427.48
+      },
+      {
+        "text": "Het spijt me, maar de appels die u vraagt zijn uitverkocht.",
+        "translation": "很抱歉，您要的蘋果已經賣完了。",
+        "start": 428.36,
+        "end": 431.66
+      },
+      {
+        "text": "Jammer. Welke appels raadt u me dan aan?",
+        "translation": "真可惜。您建議我買哪種蘋果？",
+        "start": 432.58,
+        "end": 435.2
+      },
+      {
+        "text": "Als ik u was, zou ik deze nemen. Ze smaken heerlijk zoet.",
+        "translation": "如果我是您，我會買這種。味道非常香甜。",
+        "start": 436.46,
+        "end": 440.84
+      },
+      {
+        "text": "Normaal kosten ze 1,75 euro per kilo.",
+        "translation": "正常價格是每公斤1.75歐元。",
+        "start": 441.72,
+        "end": 444.68
+      },
+      {
+        "text": "Maar betaalt u maar 1,25 euro.",
+        "translation": "但您只需要付1.25歐元。",
+        "start": 445.54,
+        "end": 448.08
+      },
+      {
+        "text": "Goed. Geeft u mij daar maar één kilo van?",
+        "translation": "好的。請給我一公斤。",
+        "start": 449.12,
+        "end": 452.74
+      },
+      {
+        "text": "Alsjeblieft. Anders nog iets? Nee, bedankt.",
+        "translation": "請。還需要什麼嗎？不，謝謝。",
+        "start": 453.74,
+        "end": 457.66
+      },
+      {
+        "text": "Kan ik u helpen?",
+        "translation": "我可以幫您嗎？",
+        "start": 468.98,
+        "end": 470.3
+      },
+      {
+        "text": "Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.",
+        "translation": "我想買一公斤特價蘋果，每公斤1.25歐元。",
+        "start": 471.68,
+        "end": 476.82
+      },
+      {
+        "text": "Het spijt me, maar de appels die u vraagt zijn uitverkocht.",
+        "translation": "很抱歉，您要的蘋果已經賣完了。",
+        "start": 477.94,
+        "end": 481.02
+      },
+      {
+        "text": "Jammer. Welke appels raadt u me dan aan?",
+        "translation": "真可惜。您建議我買哪種蘋果？",
+        "start": 481.02,
+        "end": 484.56
+      },
+      {
+        "text": "Als ik u was, zou ik deze nemen. Ze smaken heerlijk zoet.",
+        "translation": "如果我是您，我會買這種。味道非常香甜。",
+        "start": 486.02,
+        "end": 490.22
+      },
+      {
+        "text": "Normaal kosten ze 1,75 euro per kilo.",
+        "translation": "正常價格是每公斤1.75歐元。",
+        "start": 491.08,
+        "end": 494.04
+      },
+      {
+        "text": "Maar betaalt u maar 1,25 euro.",
+        "translation": "但您只需要付1.25歐元。",
+        "start": 494.92,
+        "end": 497.46
+      },
+      {
+        "text": "Goed. Geeft u mij daar maar één kilo van?",
+        "translation": "好的。請給我一公斤。",
+        "start": 499.0,
+        "end": 502.1
+      },
+      {
+        "text": "Alsjeblieft. Anders nog iets? Nee, bedankt.",
+        "translation": "請。還需要什麼嗎？不，謝謝。",
+        "start": 503.04,
+        "end": 506.5
+      },
+      {
+        "text": "Goed. Geeft u mij daar maar één kilo van? Alsjeblieft. Maar betaalt u mij daar maar één kilo van?",
+        "translation": "好的。請給我一公斤。請，但您只需付我這一公斤的錢。",
+        "start": 519.44,
+        "end": 521.82
+      },
+      {
+        "text": "Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.",
+        "translation": "我想買一公斤特價蘋果，每公斤1.25歐元。",
+        "start": 521.82,
+        "end": 526.54
+      },
+      {
+        "text": "Het spijt me, maar de appels die u vraagt zijn uitverkocht.",
+        "translation": "很抱歉，您要的蘋果已經賣完了。",
+        "start": 527.64,
+        "end": 530.72
+      },
+      {
+        "text": "Jammer. Welke appels raadt u me dan aan?",
+        "translation": "真可惜。您建議我買哪種蘋果？",
+        "start": 531.18,
+        "end": 534.28
+      },
+      {
+        "text": "Als ik u was, zou ik deze nemen. Ze smaken heerlijk zoet.",
+        "translation": "如果我是您，我會買這種。味道非常香甜。",
+        "start": 535.42,
+        "end": 539.88
+      },
+      {
+        "text": "Normaal kosten ze 1,75 euro per kilo.",
+        "translation": "正常價格是每公斤1.75歐元。",
+        "start": 540.44,
+        "end": 543.76
+      },
+      {
+        "text": "Maar betaalt u maar 1,25 euro.",
+        "translation": "但您只需要付1.25歐元。",
+        "start": 544.68,
+        "end": 547.16
+      },
+      {
+        "text": "Goed. Geeft u mij daar maar één kilo van?",
+        "translation": "好的。請給我一公斤。",
+        "start": 548.26,
+        "end": 551.8
+      },
+      {
+        "text": "Alsjeblieft. Anders nog iets? Nee, bedankt.",
+        "translation": "請。還需要什麼嗎？不，謝謝。",
+        "start": 552.8,
+        "end": 556.2
+      },
+      {
+        "text": "Goed. Geeft u mij daar maar 1,25 euro per kilo uit de aanbieding.",
+        "translation": "好的。請給我每公斤1.25歐元特價的蘋果。",
+        "start": 576.6,
+        "end": 580.2
+      },
+      {
+        "text": "Daar maar 1,25 euro per kilo uit de aanbieding. Alsjeblieft. Maar betaalt u mij daar maar 1,25 euro per kilo uit de aanbieding.",
+        "translation": "那是一公斤1.25歐元的特價蘋果。請。您只需付我一公斤1.25歐元的錢。",
+        "start": 580.2,
+        "end": 587.54
+      },
+      {
+        "text": "Goed. Geeft u mij daar maar 1,25 euro per kilo uit de aanbieding.",
+        "translation": "好的。請給我每公斤1.25歐元特價的蘋果。",
+        "start": 587.7,
+        "end": 599.46
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wie staat onder water in het gesprek?",
+        "question_native": "在對話中，誰家淹水了？",
+        "options": [
+          "Arnaud",
+          "De moeder van Arnaud",
+          "Koos Galjoen"
+        ],
+        "answer": "De moeder van Arnaud"
+      },
+      {
+        "question": "Waarom kan de loodgieter niet snel komen?",
+        "question_native": "為什麼水電工不能很快來？",
+        "options": [
+          "Ze zijn druk",
+          "Ze laten mensen vaak lang wachten",
+          "Ze zijn op vakantie"
+        ],
+        "answer": "Ze laten mensen vaak lang wachten"
+      },
+      {
+        "question": "Wat is de prijs van de appels in de aanbieding?",
+        "question_native": "促銷中蘋果的價格是多少？",
+        "options": [
+          "1,75 euro per kilo",
+          "1,25 euro per kilo",
+          "2 euro per kilo"
+        ],
+        "answer": "1,25 euro per kilo"
+      },
+      {
+        "question": "Wat raadt de verkoper aan als de gewenste appels uitverkocht zijn?",
+        "question_native": "當想買的蘋果賣完時，店員推薦買什麼？",
+        "options": [
+          "Een andere soort appels",
+          "Wachten tot er nieuwe komen",
+          "Andere fruitsoorten"
+        ],
+        "answer": "Een andere soort appels"
+      },
+      {
+        "question": "Waar moet je volgens het gesprek een loodgieter zoeken?",
+        "question_native": "根據對話，應該要去哪裡找水電工？",
+        "options": [
+          "In de Gouden Gids",
+          "In de krant",
+          "Op het internet"
+        ],
+        "answer": "In de Gouden Gids"
+      },
+      {
+        "question": "Wat is er kapot in het huis van Arnaud's moeder?",
+        "question_native": "Arnaud媽媽家裡什麼東西壞了？",
+        "options": [
+          "De keuken",
+          "De wc",
+          "De deur"
+        ],
+        "answer": "De wc"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "Loodgieter",
+        "meaning": "水電工"
+      },
+      {
+        "word": "Wc",
+        "meaning": "馬桶"
+      },
+      {
+        "word": "Vloer",
+        "meaning": "地板"
+      },
+      {
+        "word": "Onder water staan",
+        "meaning": "淹水"
+      },
+      {
+        "word": "Gouden Gids",
+        "meaning": "黃頁"
+      },
+      {
+        "word": "Aanbieding",
+        "meaning": "特價"
+      },
+      {
+        "word": "Uitverkocht",
+        "meaning": "賣完"
+      },
+      {
+        "word": "Sterkte",
+        "meaning": "加油、保重"
+      },
+      {
+        "word": "Stinken",
+        "meaning": "臭"
+      },
+      {
+        "word": "Kilo",
+        "meaning": "公斤"
+      },
+      {
+        "word": "Appels",
+        "meaning": "蘋果"
+      },
+      {
+        "word": "Telefoon rinkelt",
+        "meaning": "電話響了"
+      },
+      {
+        "word": "Meestal",
+        "meaning": "通常"
+      },
+      {
+        "word": "Bedankt",
+        "meaning": "謝謝"
+      },
+      {
+        "word": "Groet",
+        "meaning": "問候"
+      }
+    ]
+  }
+}

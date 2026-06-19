@@ -1,0 +1,584 @@
+{
+ "de boodschappen: karel helpt soms zijn oude oma die moeilijk loopt.": {
+  "breakdown": [
+   [
+    "De boodschappen",
+    "買菜"
+   ],
+   [
+    "Karel",
+    "卡雷爾"
+   ],
+   [
+    "helpt soms",
+    "有時會幫助"
+   ],
+   [
+    "zijn oude oma",
+    "他行動不便的老奶奶"
+   ],
+   [
+    "die moeilijk loopt",
+    "行動不便的"
+   ]
+  ],
+  "order": "主詞(Karel) → 動詞(helpt) → 副詞(soms) → 受詞(zijn oude oma) → 形容詞(die moeilijk loopt)",
+  "grammar": "使用現在式，形容詞修飾名詞。",
+  "listen": "注意'soms'的連音，可能聽成'som'。"
+ },
+ "hij doet dan boodschappen voor haar.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "doet dan",
+    "會"
+   ],
+   [
+    "boodschappen voor haar",
+    "替她買菜"
+   ]
+  ],
+  "order": "主詞(Hij) → 動詞(doet) → 副詞(then) → 受詞(boodschappen voor haar)",
+  "grammar": "現在式，動詞doet是主要動詞。",
+  "listen": "注意'dan'的弱讀，可能聽不清。"
+ },
+ "zijn oma vertelt wat hij vandaag mee moet nemen.": {
+  "breakdown": [
+   [
+    "Zijn oma",
+    "他的奶奶"
+   ],
+   [
+    "vertelt",
+    "告訴"
+   ],
+   [
+    "wat hij vandaag mee moet nemen",
+    "今天需要帶什麼"
+   ]
+  ],
+  "order": "主詞(Zijn oma) → 動詞(vertelt) → 受詞(wat hij vandaag mee moet nemen)",
+  "grammar": "現在式，從句中包含的動詞(meet)在句尾。",
+  "listen": "注意'wat'的連音，可能聽成'wat hij'。"
+ },
+ "luister naar zijn oma.": {
+  "breakdown": [
+   [
+    "Luister",
+    "聽"
+   ],
+   [
+    "naar zijn oma",
+    "他的奶奶"
+   ]
+  ],
+  "order": "動詞(Luister) → 介系詞(naar) → 受詞(zijn oma)",
+  "grammar": "祈使句，動詞放在句首。",
+  "listen": "注意'naar'的連音，可能聽成'nar'。"
+ },
+ "wat moet hij vandaag kopen?": {
+  "breakdown": [
+   [
+    "Wat",
+    "什麼"
+   ],
+   [
+    "moet hij",
+    "他需要"
+   ],
+   [
+    "vandaag kopen",
+    "今天買"
+   ]
+  ],
+  "order": "疑問詞(Wat) → 動詞(moet) → 主詞(hij) → 時間(vandaag) → 原形動詞(kopen)",
+  "grammar": "疑問句，動詞在第二位。",
+  "listen": "注意'vandaag'的弱讀，可能聽不清。"
+ },
+ "a. koffie en thee b. wasmiddel c. groente nou karel, vandaag heb ik niet zoveel nodig hoor.": {
+  "breakdown": [
+   [
+    "A. Koffie en thee",
+    "A. 咖啡和茶"
+   ],
+   [
+    "B. Wasmiddel",
+    "B. 洗衣粉"
+   ],
+   [
+    "C. Groente",
+    "C. 蔬菜"
+   ],
+   [
+    "Nou Karel",
+    "好了，卡雷爾"
+   ],
+   [
+    "vandaag heb ik niet zoveel nodig hoor",
+    "今天我不需要太多東西喔"
+   ]
+  ],
+  "order": "選項(A/B/C) → 句子開頭(Nou Karel) → 時間(vandaag) → 動詞(heb) → 否定(niet) → 受詞(zoveel nodig)",
+  "grammar": "現在式，使用否定詞(niet)。",
+  "listen": "注意'Nou'的連音，可能聽成'No'。"
+ },
+ "zou je alleen wat groente voor vanavond mee willen nemen?": {
+  "breakdown": [
+   [
+    "Zou je",
+    "你能"
+   ],
+   [
+    "alleen wat groente",
+    "只幫我買些蔬菜"
+   ],
+   [
+    "voor vanavond",
+    "今晚"
+   ],
+   [
+    "mee willen nemen",
+    "帶回來嗎"
+   ]
+  ],
+  "order": "情態動詞(Zou) → 主詞(je) → 副詞(alleen) → 受詞(wat groente) → 時間(voor vanavond) → 原形動詞(nemen)",
+  "grammar": "使用情態動詞(Zou)，原形動詞在句尾。",
+  "listen": "注意'alleen'的連音，可能聽成'alle'。"
+ },
+ "kijk maar wat er in de aanbieding is.": {
+  "breakdown": [
+   [
+    "Kijk maar",
+    "看看"
+   ],
+   [
+    "wat er in de aanbieding is",
+    "有哪些特價品"
+   ]
+  ],
+  "order": "動詞(Kijk) → 副詞(maar) → 受詞(wat er in de aanbieding is)",
+  "grammar": "祈使句，動詞放在句首。",
+  "listen": "注意'wat'的連音，可能聽成'wat er'。"
+ },
+ "over koffie en thee hoef ik me niet druk te maken, want ik heb van allebei nog minstens genoeg voor de hele maand in huis.": {
+  "breakdown": [
+   [
+    "Over koffie en thee",
+    "咖啡和茶"
+   ],
+   [
+    "hoef ik me niet druk te maken",
+    "我不用擔心"
+   ],
+   [
+    "want ik heb van allebei nog minstens genoeg voor de hele maand in huis",
+    "因為家裡至少還有足夠一整個月的量"
+   ]
+  ],
+  "order": "介系詞(Over) → 主詞(ik) → 否定(hoef niet) → 動詞(druk te maken) → 原因(want) → 主詞(ik) → 動詞(heb) → 受詞(van allebei) → 形容詞(minstens genoeg)",
+  "grammar": "現在式，使用否定詞(hoef niet)。",
+  "listen": "注意'koffie en thee'的連音，可能聽成'koffie thee'。"
+ },
+ "wasmiddel is veel te zwaar voor jou om te sjouwen.": {
+  "breakdown": [
+   [
+    "Wasmiddel",
+    "洗衣粉"
+   ],
+   [
+    "is veel te zwaar voor jou",
+    "對你來說太重了"
+   ],
+   [
+    "om te sjouwen",
+    "搬不起來"
+   ]
+  ],
+  "order": "主詞(Wasmiddel) → 動詞(is) → 形容詞(veel te zwaar) → 介系詞(voor jou) → 不定詞(om te sjouwen)",
+  "grammar": "現在式，使用不定詞(om te sjouwen)。",
+  "listen": "注意'veel te zwaar'的連音，可能聽成'veel zwaar'。"
+ },
+ "dat koop ik dit weekend wel samen met je vader.": {
+  "breakdown": [
+   [
+    "Dat",
+    "這個"
+   ],
+   [
+    "koop ik",
+    "我會買"
+   ],
+   [
+    "dit weekend",
+    "這個週末"
+   ],
+   [
+    "wel samen met je vader",
+    "會和你爸爸一起"
+   ]
+  ],
+  "order": "主詞(Dat) → 動詞(koop) → 主詞(ik) → 時間(dit weekend) → 副詞(wel) → 受詞(samen met je vader)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "注意'dit weekend'的連音，可能聽成'dit week'。"
+ },
+ "dan gaan we met de auto.": {
+  "breakdown": [
+   [
+    "Dan",
+    "那"
+   ],
+   [
+    "gaan we",
+    "我們去"
+   ],
+   [
+    "met de auto",
+    "開車"
+   ]
+  ],
+  "order": "副詞(Dan) → 動詞(gaan) → 主詞(we) → 介系詞(met de auto)",
+  "grammar": "現在式，動詞在第二位。",
+  "listen": "注意'Dan'的連音，可能聽成'Da'。"
+ },
+ "geef nu antwoord.": {
+  "breakdown": [
+   [
+    "Geef",
+    "請給"
+   ],
+   [
+    "nu",
+    "現在"
+   ],
+   [
+    "antwoord",
+    "回答"
+   ]
+  ],
+  "order": "Geef(動詞#1) → nu(副詞) → antwoord(名詞)",
+  "grammar": "命令句，動詞放句首。",
+  "listen": "注意 'Geef' 的發音，可能被快速說成 'Geef'."
+ },
+ "5. oppassen: karel wordt door de boeren gevraagd om een avondje op de kinderen te passen.": {
+  "breakdown": [
+   [
+    "Karel",
+    "卡雷爾"
+   ],
+   [
+    "wordt",
+    "被"
+   ],
+   [
+    "door de boeren",
+    "農夫們"
+   ],
+   [
+    "gevraagd",
+    "請求"
+   ],
+   [
+    "om een avondje op de kinderen te passen",
+    "晚上幫忙看孩子"
+   ]
+  ],
+  "order": "Karel(主詞) → wordt(動詞#2) → door de boeren(介詞片語) → gevraagd(過去分詞) → om(不定詞引導詞) → een avondje(名詞) → op de kinderen(介詞片語) → te passen(不定詞)",
+  "grammar": "被動語態，助動詞在第二位，過去分詞在句尾。",
+  "listen": "注意 'door de boeren' 的連音，可能聽不清。"
+ },
+ "vindt ze dat goed? a. ja, want ze heeft dit weekend toch niets te doen.": {
+  "breakdown": [
+   [
+    "Vindt ze",
+    "她覺得"
+   ],
+   [
+    "dat",
+    "這"
+   ],
+   [
+    "goed",
+    "可以"
+   ]
+  ],
+  "order": "Vindt(動詞#2) → ze(主詞) → dat(連接詞) → goed(形容詞)",
+  "grammar": "疑問句，動詞在第二位。",
+  "listen": "注意 'Vindt' 的發音，可能被快速說成 'Vindt'."
+ },
+ "b. ja, maar alleen als ze niet te laat thuiskomen.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "maar",
+    "但"
+   ],
+   [
+    "alleen als",
+    "只有在"
+   ],
+   [
+    "ze niet te laat thuiskomen",
+    "他們不太晚回家"
+   ]
+  ],
+  "order": "Ja(肯定) → maar(轉折) → alleen als(條件) → ze(主詞) → niet(否定) → te laat(副詞) → thuiskomen(動詞)",
+  "grammar": "條件句，'als' 引導的從句動詞放句尾。",
+  "listen": "注意 'te laat' 的連音，可能聽不清。"
+ },
+ "c. ja, want er draait een mooie film.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "want",
+    "因為"
+   ],
+   [
+    "er draait",
+    "有"
+   ],
+   [
+    "een mooie film",
+    "一部好看的電影"
+   ]
+  ],
+  "order": "Ja(肯定) → want(原因) → er(主詞) → draait(動詞#2) → een mooie film(名詞)",
+  "grammar": "因果關係，'want' 引導的句子動詞在第二位。",
+  "listen": "注意 'er draait' 的連音，可能聽不清。"
+ },
+ "zeg carla, zou jij aanstaande zaterdag een avondje op de kinderen willen passen?": {
+  "breakdown": [
+   [
+    "Zeg",
+    "說"
+   ],
+   [
+    "Carla",
+    "卡拉"
+   ],
+   [
+    "zou jij",
+    "你願意"
+   ],
+   [
+    "aanstaande zaterdag",
+    "下星期六"
+   ],
+   [
+    "een avondje op de kinderen willen passen",
+    "晚上幫忙看孩子"
+   ]
+  ],
+  "order": "Zeg(動詞#1) → Carla(主詞) → zou(情態動詞#2) → jij(主詞) → aanstaande zaterdag(時間) → een avondje(名詞) → op de kinderen(介詞片語) → willen(情態動詞) → passen(不定詞)",
+  "grammar": "疑問句，情態動詞在第二位，原形動詞在句尾。",
+  "listen": "注意 'zou jij' 的連音，可能聽不清。"
+ },
+ "we willen eens lekker naar de bioscoop, naar die nieuwe film met tom cruise.": {
+  "breakdown": [
+   [
+    "We",
+    "我們"
+   ],
+   [
+    "willen",
+    "想"
+   ],
+   [
+    "eens lekker",
+    "好好地"
+   ],
+   [
+    "naar de bioscoop",
+    "去電影院"
+   ],
+   [
+    "naar die nieuwe film met Tom Cruise",
+    "看湯姆克魯斯主演的新電影"
+   ]
+  ],
+  "order": "We(主詞) → willen(動詞#2) → eens lekker(副詞) → naar de bioscoop(介詞片語) → naar(介詞) → die nieuwe film(名詞) → met Tom Cruise(介詞片語)",
+  "grammar": "動詞在第二位，'eens' 用來強調。",
+  "listen": "注意 'eens lekker' 的連音，可能聽不清。"
+ },
+ "eh, nou dat komt niet zo goed uit, want mijn beste vriendin geeft een feest omdat ze jarig is.": {
+  "breakdown": [
+   [
+    "Eh",
+    "嗯"
+   ],
+   [
+    "nou",
+    "那麼"
+   ],
+   [
+    "dat komt niet zo goed uit",
+    "這不太方便"
+   ],
+   [
+    "want",
+    "因為"
+   ],
+   [
+    "mijn beste vriendin",
+    "我最好的朋友"
+   ],
+   [
+    "geeft een feest",
+    "舉辦派對"
+   ],
+   [
+    "omdat ze jarig is",
+    "因為她生日"
+   ]
+  ],
+  "order": "Eh(感嘆) → nou(副詞) → dat(主詞) → komt(動詞#2) → niet zo goed uit(副詞片語) → want(原因) → mijn beste vriendin(主詞) → geeft(動詞#2) → een feest(名詞) → omdat(連接詞) → ze(主詞) → jarig is(形容詞)",
+  "grammar": "因果關係，'omdat' 引導的從句動詞放句尾。",
+  "listen": "注意 'niet zo goed uit' 的連音，可能聽不清。"
+ },
+ "maar als we het nou zo afspreken.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "als",
+    "如果"
+   ],
+   [
+    "we",
+    "我們"
+   ],
+   [
+    "het nou zo afspreken",
+    "這麼約定"
+   ]
+  ],
+  "order": "Maar(轉折) → als(條件) → we(主詞) → het(代名詞) → nou(副詞) → zo(副詞) → afspreken(動詞)",
+  "grammar": "條件句，'als' 引導的從句動詞放句尾。",
+  "listen": "注意 'het nou' 的連音，可能聽不清。"
+ },
+ "als u nou naar de vroege voorstelling gaat, dan bent u redelijk op tijd weer terug.": {
+  "breakdown": [
+   [
+    "Als u",
+    "如果你"
+   ],
+   [
+    "nou",
+    "那麼"
+   ],
+   [
+    "naar de vroege voorstelling gaat",
+    "去看早場"
+   ],
+   [
+    "dan",
+    "那麼"
+   ],
+   [
+    "bent u",
+    "你應該"
+   ],
+   [
+    "redelijk op tijd weer terug",
+    "相當準時回來"
+   ]
+  ],
+  "order": "Als(條件) → u(主詞) → nou(副詞) → naar de vroege voorstelling(介詞片語) → gaat(動詞#2) → dan(轉折) → bent(動詞#2) → u(主詞) → redelijk op tijd(副詞片語) → weer terug(副詞)",
+  "grammar": "條件句，'Als' 引導的從句動詞放句尾。",
+  "listen": "注意 'redelijk op tijd' 的連音，可能聽不清。"
+ },
+ "en dan kan ik naar mijn feest.": {
+  "breakdown": [
+   [
+    "En",
+    "然後"
+   ],
+   [
+    "dan",
+    "那麼"
+   ],
+   [
+    "kan ik",
+    "我可以"
+   ],
+   [
+    "naar mijn feest",
+    "去參加我的派對"
+   ]
+  ],
+  "order": "En(連接詞) → dan(副詞) → kan(動詞#2) → ik(主詞) → naar mijn feest(介詞片語)",
+  "grammar": "動詞在第二位，'kan' 是情態動詞。",
+  "listen": "注意 'kan ik' 的連音，可能聽不清。"
+ },
+ "ja, als we het zo doen, dan kan ik wel.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "als we het zo doen",
+    "如果這樣安排"
+   ],
+   [
+    "dan kan ik wel",
+    "我可以"
+   ]
+  ],
+  "order": "Ja(肯定) → als(條件) → we(主詞) → het(代名詞) → zo(副詞) → doen(動詞) → dan(轉折) → kan(動詞#2) → ik(主詞) → wel(副詞)",
+  "grammar": "條件句，'als' 引導的從句動詞放句尾。",
+  "listen": "注意 'als we' 的連音，可能聽不清。"
+ },
+ "anders moet u toch echt iemand anders vragen.": {
+  "breakdown": [
+   [
+    "Anders",
+    "不然"
+   ],
+   [
+    "moet",
+    "得"
+   ],
+   [
+    "u",
+    "你"
+   ],
+   [
+    "toch echt",
+    "真的"
+   ],
+   [
+    "iemand anders",
+    "別人"
+   ],
+   [
+    "vragen",
+    "找"
+   ]
+  ],
+  "order": "Anders(副詞) → moet(動詞#1) → u(主詞) → toch echt(副詞) → iemand anders(受詞) → vragen(原形動詞)",
+  "grammar": "使用現在式，動詞需在主詞後面。",
+  "listen": "注意 'u' 和 'toch' 之間的連音。"
+ },
+ "einde": {
+  "breakdown": [
+   [
+    "Einde",
+    "結束"
+   ]
+  ],
+  "order": "Einde(名詞) → (無其他成分)",
+  "grammar": "單一名詞，無需變化。",
+  "listen": "此句簡短，注意 'Einde' 的清晰發音。"
+ }
+}

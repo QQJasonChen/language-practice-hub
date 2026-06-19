@@ -1,0 +1,1940 @@
+{
+ "naar de markt.": {
+  "breakdown": [
+   [
+    "Naar",
+    "去"
+   ],
+   [
+    "de",
+    "這個"
+   ],
+   [
+    "markt",
+    "市場"
+   ]
+  ],
+  "order": "去(naar) → 這個(de) → 市場(markt)",
+  "grammar": "簡單句，主詞省略，直接表達動作。",
+  "listen": "注意連音，'naar de' 聽起來像 'narde'。"
+ },
+ "dit is leo, hij is 62 jaar.": {
+  "breakdown": [
+   [
+    "Dit",
+    "這"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "Leo",
+    "Leo"
+   ],
+   [
+    "hij",
+    "他"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "62 jaar",
+    "62歲"
+   ]
+  ],
+  "order": "這(Dit) → 是(is) → Leo(主詞) → 他(hij) → 是(is) → 62歲(62 jaar)",
+  "grammar": "簡單句，主詞+動詞+補語結構。",
+  "listen": "'Dit is' 連音，可能聽成 'Ditis'。"
+ },
+ "vandaag is het markt en leo gaat er iedere week naartoe.": {
+  "breakdown": [
+   [
+    "Vandaag",
+    "今天"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "het",
+    "這個"
+   ],
+   [
+    "markt",
+    "市場"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "Leo",
+    "Leo"
+   ],
+   [
+    "gaat",
+    "去"
+   ],
+   [
+    "er",
+    "那裡"
+   ],
+   [
+    "iedere week",
+    "每週"
+   ],
+   [
+    "naartoe",
+    "去那裡"
+   ]
+  ],
+  "order": "今天(Vandaag) → 是(is) → 這個(het) → 市場(markt) → 和(en) → Leo(主詞) → 去(gaat) → 那裡(er) → 每週(iedere week) → 去那裡(naartoe)",
+  "grammar": "現在式，描述當前情況。",
+  "listen": "'gaat er' 聽起來像 'gaater'。"
+ },
+ "het is er altijd gezellig met al die mensen.": {
+  "breakdown": [
+   [
+    "Het",
+    "那個"
+   ],
+   [
+    "is",
+    "是"
+   ],
+   [
+    "er",
+    "那裡"
+   ],
+   [
+    "altijd",
+    "總是"
+   ],
+   [
+    "gezellig",
+    "熱鬧"
+   ],
+   [
+    "met",
+    "和"
+   ],
+   [
+    "al die mensen",
+    "這麼多人"
+   ]
+  ],
+  "order": "那個(Het) → 是(is) → 那裡(er) → 總是(altijd) → 熱鬧(gezellig) → 和(met) → 這麼多人(al die mensen)",
+  "grammar": "現在式，描述持續的狀態。",
+  "listen": "'altijd' 可能被弱讀。"
+ },
+ "maar leo gaat er ook naartoe vanwege de prijzen.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但是"
+   ],
+   [
+    "Leo",
+    "Leo"
+   ],
+   [
+    "gaat",
+    "去"
+   ],
+   [
+    "er",
+    "那裡"
+   ],
+   [
+    "ook",
+    "也"
+   ],
+   [
+    "naartoe",
+    "去那裡"
+   ],
+   [
+    "vanwege",
+    "因為"
+   ],
+   [
+    "de prijzen",
+    "價格"
+   ]
+  ],
+  "order": "但是(Maar) → Leo(主詞) → 去(gaat) → 那裡(er) → 也(ook) → 去那裡(naartoe) → 因為(vanwege) → 價格(de prijzen)",
+  "grammar": "現在式，表達原因。",
+  "listen": "'gaat er ook' 聽起來像 'gaaterook'。"
+ },
+ "het kan vele euro's schelen.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "kan",
+    "可以"
+   ],
+   [
+    "vele",
+    "很多"
+   ],
+   [
+    "euro's",
+    "歐元"
+   ],
+   [
+    "schelen",
+    "省"
+   ]
+  ],
+  "order": "這個(Het) → 可以(kan) → 很多(vele) → 歐元(euro's) → 省(schelen)",
+  "grammar": "現在式，表達可能性。",
+  "listen": "'kan vele' 聽起來像 'kanvele'。"
+ },
+ "leo gaat altijd naar dezelfde kraam voor zijn fruit en groente.": {
+  "breakdown": [
+   [
+    "Leo",
+    "Leo"
+   ],
+   [
+    "gaat",
+    "去"
+   ],
+   [
+    "altijd",
+    "總是"
+   ],
+   [
+    "naar",
+    "到"
+   ],
+   [
+    "dezelfde",
+    "同一個"
+   ],
+   [
+    "kraam",
+    "攤位"
+   ],
+   [
+    "voor",
+    "為了"
+   ],
+   [
+    "zijn",
+    "他的"
+   ],
+   [
+    "fruit",
+    "水果"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "groente",
+    "蔬菜"
+   ]
+  ],
+  "order": "Leo(主詞) → 去(gaat) → 總是(altijd) → 到(naar) → 同一個(dezelfde) → 攤位(kraam) → 為了(vor) → 他的(zijn) → 水果(fruit) → 和(en) → 蔬菜(groente)",
+  "grammar": "現在式，描述習慣行為。",
+  "listen": "'altijd naar' 聽起來像 'altijdnar'。"
+ },
+ "dagvers en goedkoop.": {
+  "breakdown": [
+   [
+    "Dagvers",
+    "新鮮"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "goedkoop",
+    "便宜"
+   ]
+  ],
+  "order": "新鮮(Dagvers) → 和(en) → 便宜(goedkoop)",
+  "grammar": "形容詞並列，描述特徵。",
+  "listen": "'Dagvers en' 聽起來像 'Dagversen'。"
+ },
+ "op zijn boodschappenlijst staan tomaten, uien, komkommer en sla.": {
+  "breakdown": [
+   [
+    "Op",
+    "在"
+   ],
+   [
+    "zijn",
+    "他的"
+   ],
+   [
+    "boodschappenlijst",
+    "購物清單"
+   ],
+   [
+    "staan",
+    "有"
+   ],
+   [
+    "tomaten",
+    "番茄"
+   ],
+   [
+    "uien",
+    "洋蔥"
+   ],
+   [
+    "komkommer",
+    "小黃瓜"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "sla",
+    "生菜"
+   ]
+  ],
+  "order": "在(Op) → 他的(zijn) → 購物清單(boodschappenlijst) → 有(staan) → 番茄(tomaten) → 洋蔥(uien) → 小黃瓜(komkommer) → 和(en) → 生菜(sla)",
+  "grammar": "現在式，描述清單內容。",
+  "listen": "'staan tomaten' 聽起來像 'staantomaten'。"
+ },
+ "anders nog iets?": {
+  "breakdown": [
+   [
+    "Anders",
+    "還要"
+   ],
+   [
+    "nog",
+    "別的"
+   ],
+   [
+    "iets",
+    "東西"
+   ]
+  ],
+  "order": "還要(Anders) → 別的(nog) → 東西(iets)",
+  "grammar": "簡單句，詢問額外需求。",
+  "listen": "'Anders nog' 聽起來像 'Andersnog'。"
+ },
+ "vraagt de groenteman.": {
+  "breakdown": [
+   [
+    "vraagt",
+    "問"
+   ],
+   [
+    "de",
+    "這個"
+   ],
+   [
+    "groenteman",
+    "蔬菜商"
+   ]
+  ],
+  "order": "問(vraagt) → 這個(de) → 蔬菜商(groenteman)",
+  "grammar": "現在式，描述動作。",
+  "listen": "'vraagt de' 聽起來像 'vraagtde'。"
+ },
+ "nee, leo heeft alles.": {
+  "breakdown": [
+   [
+    "Nee",
+    "沒有"
+   ],
+   [
+    "Leo",
+    "Leo"
+   ],
+   [
+    "heeft",
+    "有"
+   ],
+   [
+    "alles",
+    "一切"
+   ]
+  ],
+  "order": "沒有(Nee) → Leo(主詞) → 有(heeft) → 一切(alles)",
+  "grammar": "現在式，表達擁有。",
+  "listen": "'heeft alles' 聽起來像 'heeftalles'。"
+ },
+ "daarna gaat hij naar de kaasboer voor een stuk lekkere oude kaas.": {
+  "breakdown": [
+   [
+    "Daarna",
+    "然後"
+   ],
+   [
+    "gaat hij",
+    "他去"
+   ],
+   [
+    "naar de kaasboer",
+    "起司攤"
+   ],
+   [
+    "voor een stuk lekkere oude kaas",
+    "買一塊好吃的熟成起司"
+   ]
+  ],
+  "order": "去(gaat) → 他(hij) → 起司攤(naar de kaasboer) → 買(voor) → 一塊好吃的熟成起司（stuk lekkere oude kaas）",
+  "grammar": "使用現在時態，動詞在第二位。",
+  "listen": "注意‘gaat’和‘hij’之間的連音。"
+ },
+ "wat kost dat?": {
+  "breakdown": [
+   [
+    "Wat",
+    "這個"
+   ],
+   [
+    "kost",
+    "多少錢"
+   ],
+   [
+    "dat",
+    "？"
+   ]
+  ],
+  "order": "多少錢(kost) → 這個(Wat) → ？(dat)",
+  "grammar": "疑問句，動詞放在句首。",
+  "listen": "‘Wat’和‘kost’之間的連音。"
+ },
+ "vraagt leo.": {
+  "breakdown": [
+   [
+    "vraagt",
+    "問"
+   ],
+   [
+    "Leo",
+    "Leo"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "問(vraagt) → Leo → 。",
+  "grammar": "現在時態，動詞在主詞前。",
+  "listen": "‘vraagt’的尾音可能被弱讀。"
+ },
+ "het kost 5 euro.": {
+  "breakdown": [
+   [
+    "Het",
+    "這個"
+   ],
+   [
+    "kost",
+    "花費"
+   ],
+   [
+    "5 euro",
+    "5歐元"
+   ],
+   [
+    ".",
+    "。"
+   ]
+  ],
+  "order": "花費(kost) → 這個(Het) → 5歐元(5 euro) → 。",
+  "grammar": "現在時態，動詞在主詞前。",
+  "listen": "‘Het’可能被弱讀。"
+ },
+ "op de markt is ook veel kleding te koop.": {
+  "breakdown": [
+   [
+    "Op de markt",
+    "在市場上"
+   ],
+   [
+    "is",
+    "有"
+   ],
+   [
+    "ook veel kleding",
+    "也很多衣服"
+   ],
+   [
+    "te koop",
+    "可買"
+   ]
+  ],
+  "order": "在市場上(Op de markt) → 有(is) → 也很多衣服(ook veel kleding) → 可買(te koop)",
+  "grammar": "現在時態，動詞在第二位。",
+  "listen": "‘Op de markt’的連音可能不明顯。"
+ },
+ "maar dat vindt leo niet zo interessant.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "dat",
+    "那"
+   ],
+   [
+    "vindt Leo",
+    "Leo覺得"
+   ],
+   [
+    "niet zo interessant",
+    "不怎麼有趣"
+   ]
+  ],
+  "order": "但(Maar) → 那(dat) → Leo覺得(vindt Leo) → 不怎麼有趣(niet zo interessant)",
+  "grammar": "現在時態，動詞在主詞後。",
+  "listen": "‘dat’和‘vindt’之間的連音。"
+ },
+ "leo eindigt altijd bij de visboer.": {
+  "breakdown": [
+   [
+    "Leo",
+    "Leo"
+   ],
+   [
+    "eindigt",
+    "總是結束"
+   ],
+   [
+    "altijd",
+    "總是"
+   ],
+   [
+    "bij de visboer",
+    "在魚攤"
+   ]
+  ],
+  "order": "Leo → 總是(eindigt) → 在魚攤(bij de visboer) → 。",
+  "grammar": "現在時態，動詞在第二位。",
+  "listen": "‘altijd’可能被弱讀。"
+ },
+ "hij vindt vis heerlijk.": {
+  "breakdown": [
+   [
+    "Hij",
+    "他"
+   ],
+   [
+    "vindt",
+    "覺得"
+   ],
+   [
+    "vis",
+    "魚"
+   ],
+   [
+    "heerlijk",
+    "很好吃"
+   ]
+  ],
+  "order": "他(Hij) → 覺得(vindt) → 魚(vis) → 很好吃(heerlijk)",
+  "grammar": "現在時態，動詞在第二位。",
+  "listen": "‘Hij’和‘vindt’之間的連音。"
+ },
+ "voor 2 euro een heerlijke verse haring met uitjes.": {
+  "breakdown": [
+   [
+    "Voor 2 euro",
+    "2歐元"
+   ],
+   [
+    "een heerlijke verse haring",
+    "一份美味又新鮮的鯡魚"
+   ],
+   [
+    "met uitjes",
+    "配洋蔥"
+   ]
+  ],
+  "order": "2歐元(Voor 2 euro) → 一份美味又新鮮的鯡魚(een heerlijke verse haring) → 配洋蔥(met uitjes)",
+  "grammar": "名詞短語，‘met’引導附加信息。",
+  "listen": "‘Voor’和‘2 euro’之間的連音。"
+ },
+ "en die verdwijnt meteen in zijn mond.": {
+  "breakdown": [
+   [
+    "En",
+    "而且"
+   ],
+   [
+    "die",
+    "那"
+   ],
+   [
+    "verdwijnt",
+    "馬上進去"
+   ],
+   [
+    "meteen",
+    "馬上"
+   ],
+   [
+    "in zijn mond",
+    "進了他的嘴裡"
+   ]
+  ],
+  "order": "而且(En) → 那(die) → 馬上進去(verdwijnt) → 馬上(meteen) → 進了他的嘴裡(in zijn mond)",
+  "grammar": "現在時態，動詞在第二位。",
+  "listen": "‘die’可能被弱讀。"
+ },
+ "luister en klik op het goede antwoord.": {
+  "breakdown": [
+   [
+    "Luister",
+    "聽"
+   ],
+   [
+    "en",
+    "然後"
+   ],
+   [
+    "klik op",
+    "點選"
+   ],
+   [
+    "het goede antwoord",
+    "正確答案"
+   ]
+  ],
+  "order": "聽(Luister) → 然後(en) → 點選(klick op) → 正確答案(het goede antwoord)",
+  "grammar": "命令式，動詞在句首。",
+  "listen": "‘en’可能被弱讀。"
+ },
+ "de aardappel.": {
+  "breakdown": [
+   [
+    "De",
+    "馬鈴薯"
+   ],
+   [
+    "aardappel",
+    "。"
+   ]
+  ],
+  "order": "馬鈴薯(De aardappel) → 。",
+  "grammar": "名詞短語，‘De’是定冠詞。",
+  "listen": "‘De’可能被弱讀。"
+ },
+ "de appel.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的蘋果。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意De的發音，可能會被弱讀。"
+ },
+ "de banaan.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "banaan",
+    "香蕉"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的香蕉。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意banaan的重音，可能會漏聽。"
+ },
+ "de bloemkool.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "bloemkool",
+    "花椰菜"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的花椰菜。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意bloemkool的發音，可能會被弱讀。"
+ },
+ "de euro.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "euro",
+    "歐元"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的歐元。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意euro的發音，可能會漏聽。"
+ },
+ "de haring.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "haring",
+    "鯡魚"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的鯡魚。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意haring的發音，可能會被弱讀。"
+ },
+ "de kaas.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "kaas",
+    "起司"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的起司。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意kaas的發音，可能會漏聽。"
+ },
+ "de komkommer.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "komkommer",
+    "小黃瓜"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的小黃瓜。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意komkommer的發音，可能會被弱讀。"
+ },
+ "de mandarijn.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "mandarijn",
+    "柑橘"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的柑橘。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意mandarijn的重音，可能會漏聽。"
+ },
+ "de wortel.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "wortel",
+    "胡蘿蔔"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的胡蘿蔔。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意wortel的發音，可能會被弱讀。"
+ },
+ "de prei.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "prei",
+    "韭蔥"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的韭蔥。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意prei的發音，可能會漏聽。"
+ },
+ "de sla.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "sla",
+    "生菜"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的生菜。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意sla的發音，可能會被弱讀。"
+ },
+ "de tomaat.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "tomaat",
+    "番茄"
+   ]
+  ],
+  "order": "名詞前加定冠詞De，表示特定的番茄。",
+  "grammar": "名詞前加定冠詞，表示特定事物。",
+  "listen": "注意tomaat的發音，可能會漏聽。"
+ },
+ "de ui.": {
+  "breakdown": [
+   [
+    "De",
+    "這個"
+   ],
+   [
+    "ui",
+    "洋蔥"
+   ]
+  ],
+  "order": "主詞De → 名詞ui。規則：名詞直接跟在主詞後面。",
+  "grammar": "名詞單數形式。",
+  "listen": "注意ui的發音，可能聽成其他音。"
+ },
+ "klik op het oor en luister.": {
+  "breakdown": [
+   [
+    "Klik",
+    "點選"
+   ],
+   [
+    "op",
+    "在"
+   ],
+   [
+    "het oor",
+    "耳朵"
+   ],
+   [
+    "en",
+    "並"
+   ],
+   [
+    "luister",
+    "聆聽"
+   ]
+  ],
+  "order": "動詞Klik → 介詞op → 受詞het oor → 連接詞en → 動詞luister。規則：動詞在句首。",
+  "grammar": "命令式用法。",
+  "listen": "注意連音，可能聽不清楚op。"
+ },
+ "goedemorgen meneer, kan ik u helpen?": {
+  "breakdown": [
+   [
+    "Goedemorgen",
+    "早安"
+   ],
+   [
+    "meneer",
+    "先生"
+   ],
+   [
+    "kan ik",
+    "我可以"
+   ],
+   [
+    "u helpen",
+    "幫您"
+   ]
+  ],
+  "order": "問候語Goedemorgen → 主詞ik → 助動詞kan → 受詞u → 動詞helpen。規則：助動詞在主詞後面。",
+  "grammar": "疑問句結構。",
+  "listen": "注意kan的發音，可能聽成其他音。"
+ },
+ "goedemorgen, jazeker kunt u mij helpen.": {
+  "breakdown": [
+   [
+    "Goedemorgen",
+    "早安"
+   ],
+   [
+    "jazeker",
+    "當然"
+   ],
+   [
+    "kunt u",
+    "您可以"
+   ],
+   [
+    "mij helpen",
+    "幫我"
+   ]
+  ],
+  "order": "問候語Goedemorgen → 副詞jazeker → 助動詞kunt → 主詞u → 動詞helpen。規則：助動詞在主詞後面。",
+  "grammar": "疑問句的肯定回答。",
+  "listen": "注意jazeker的連音，可能聽不清楚。"
+ },
+ "even kijken, waar heb ik mijn boodschappenlijstje?": {
+  "breakdown": [
+   [
+    "Even kijken",
+    "讓我看看"
+   ],
+   [
+    "waar",
+    "哪裡"
+   ],
+   [
+    "heb ik",
+    "我有"
+   ],
+   [
+    "mijn boodschappenlijstje",
+    "我的購物清單"
+   ]
+  ],
+  "order": "副詞Even → 動詞kijken → 疑問詞waar → 主詞ik → 助動詞heb → 受詞mijn boodschappenlijstje。規則：副詞在句首。",
+  "grammar": "現在時態。",
+  "listen": "注意Even的發音，可能聽成其他音。"
+ },
+ "ah, hier is het.": {
+  "breakdown": [
+   [
+    "Ah",
+    "啊"
+   ],
+   [
+    "hier",
+    "在這裡"
+   ],
+   [
+    "is het",
+    "是它"
+   ]
+  ],
+  "order": "感嘆詞Ah → 副詞hier → 動詞is → 受詞het。規則：感嘆詞在句首。",
+  "grammar": "現在時態。",
+  "listen": "注意is的發音，可能聽不清楚。"
+ },
+ "doet u maar twee kilo tomaten.": {
+  "breakdown": [
+   [
+    "Doet u maar",
+    "給我"
+   ],
+   [
+    "twee kilo",
+    "兩公斤"
+   ],
+   [
+    "tomaten",
+    "番茄"
+   ]
+  ],
+  "order": "動詞Doet → 主詞u → 副詞maar → 受詞twee kilo tomaten。規則：動詞在句首。",
+  "grammar": "命令式用法。",
+  "listen": "注意maar的弱讀，可能聽不清楚。"
+ },
+ "twee kilo tomaten, goed meneer.": {
+  "breakdown": [
+   [
+    "Twee kilo",
+    "兩公斤"
+   ],
+   [
+    "tomaten",
+    "番茄"
+   ],
+   [
+    "goed",
+    "好的"
+   ],
+   [
+    "meneer",
+    "先生"
+   ]
+  ],
+  "order": "受詞Twee kilo tomaten → 形容詞goed → 主詞meneer。規則：受詞在句首。",
+  "grammar": "現在時態。",
+  "listen": "注意twee kilo的連音，可能聽不清楚。"
+ },
+ "en een pond uien.": {
+  "breakdown": [
+   [
+    "En",
+    "還有"
+   ],
+   [
+    "een pond",
+    "一斤"
+   ],
+   [
+    "uien",
+    "洋蔥"
+   ]
+  ],
+  "order": "連接詞En → 受詞een pond → 受詞uien。規則：連接詞在句首。",
+  "grammar": "名詞單數和複數形式。",
+  "listen": "注意en的弱讀，可能聽不清楚。"
+ },
+ "of ja, ik weet niet, ik heb zes uien nodig.": {
+  "breakdown": [
+   [
+    "Of ja",
+    "噢"
+   ],
+   [
+    "ik weet niet",
+    "我不確定"
+   ],
+   [
+    "ik heb nodig",
+    "我需要"
+   ],
+   [
+    "zes uien",
+    "六顆洋蔥"
+   ]
+  ],
+  "order": "連接詞Of → 感嘆詞ja → 主詞ik → 動詞weet → 副詞niet → 主詞ik → 動詞heb → 受詞zes uien。規則：連接詞在句首。",
+  "grammar": "現在時態。",
+  "listen": "注意ik的發音，可能聽不清楚。"
+ },
+ "zes uien meneer.": {
+  "breakdown": [
+   [
+    "Zes uien",
+    "六顆洋蔥"
+   ],
+   [
+    "meneer",
+    "先生"
+   ]
+  ],
+  "order": "受詞Zes uien → 主詞meneer。規則：受詞在句首。",
+  "grammar": "名詞單數和複數形式。",
+  "listen": "注意zes的發音，可能聽不清楚。"
+ },
+ "ik weeg ze voor u, zo, dat is 750 gram.": {
+  "breakdown": [
+   [
+    "Ik weeg",
+    "我幫您秤"
+   ],
+   [
+    "ze",
+    "它們"
+   ],
+   [
+    "voor u",
+    "為您"
+   ],
+   [
+    "zo",
+    "這樣"
+   ],
+   [
+    "dat is",
+    "這是"
+   ],
+   [
+    "750 gram",
+    "750克"
+   ]
+  ],
+  "order": "主詞Ik → 動詞weeg → 受詞ze → 介詞voor → 受詞u → 副詞zo → 連接詞dat → 動詞is → 受詞750 gram。規則：主詞在句首。",
+  "grammar": "現在時態。",
+  "listen": "注意ze的發音，可能聽不清楚。"
+ },
+ "ja, dat is wel goed.": {
+  "breakdown": [
+   [
+    "Ja",
+    "好的"
+   ],
+   [
+    "dat is wel goed",
+    "可以"
+   ]
+  ],
+  "order": "主詞Ja → 動詞is → 受詞dat wel goed。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，簡單句。",
+  "listen": "注意連音，'dat is' 聽起來像 'dat's'."
+ },
+ "ja, wat verschillende groenten voor in de soep.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "wat verschillende groenten",
+    "一些不同的蔬菜"
+   ],
+   [
+    "voor in de soep",
+    "做湯用"
+   ]
+  ],
+  "order": "主詞Ja → 動詞(省略) → 受詞wat verschillende groenten → 地點voor in de soep。規則：主詞在前，動詞可省略。",
+  "grammar": "現在式，簡單句。",
+  "listen": "注意'wat verschillende'的連音，可能聽成'watverschillende'."
+ },
+ "welke groenten moet ik dan nemen?": {
+  "breakdown": [
+   [
+    "Welke groenten",
+    "哪些蔬菜"
+   ],
+   [
+    "moet ik",
+    "我應該"
+   ],
+   [
+    "dan nemen",
+    "拿呢"
+   ]
+  ],
+  "order": "主詞Welke groenten → 動詞moet → 主詞ik → 副詞dan → 動詞nemen。規則：疑問句主詞在前，動詞在第二位。",
+  "grammar": "現在式，疑問句。",
+  "listen": "注意'Welke groenten'的連音，可能聽成'Welkegroenten'."
+ },
+ "zo, dus u gaat groentensoep maken?": {
+  "breakdown": [
+   [
+    "Zo",
+    "喔"
+   ],
+   [
+    "dus u gaat",
+    "所以您要"
+   ],
+   [
+    "groentensoep maken",
+    "做蔬菜湯"
+   ]
+  ],
+  "order": "副詞Zo → 連接詞dus → 主詞u → 動詞gaat → 受詞groentensoep → 動詞maken。規則：副詞在前，主詞和動詞依序排列。",
+  "grammar": "現在式，簡單句。",
+  "listen": "注意'groentensoep maken'的連音，可能聽成'groentensoepmaken'."
+ },
+ "nee, geen groentensoep, maar tomatensoep.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "geen groentensoep",
+    "不是蔬菜湯"
+   ],
+   [
+    "maar tomatensoep",
+    "是番茄湯"
+   ]
+  ],
+  "order": "主詞Nee → 受詞geen groentensoep → 連接詞maar → 受詞tomatensoep。規則：主詞在前，受詞依序排列。",
+  "grammar": "現在式，簡單句。",
+  "listen": "注意'geen'的弱讀，可能聽不清楚."
+ },
+ "maar ik wil wel groenten erin.": {
+  "breakdown": [
+   [
+    "Maar",
+    "但"
+   ],
+   [
+    "ik wil wel",
+    "我希望"
+   ],
+   [
+    "groenten erin",
+    "裡面有蔬菜"
+   ]
+  ],
+  "order": "連接詞Maar → 主詞ik → 動詞wil → 副詞wel → 受詞groenten → 地點erin。規則：連接詞在前，主詞和動詞依序排列。",
+  "grammar": "現在式，簡單句。",
+  "listen": "注意'ik wil'的連音，可能聽成'ikwil'."
+ },
+ "welke groenten zal ik dan nemen?": {
+  "breakdown": [
+   [
+    "Welke groenten",
+    "哪些蔬菜"
+   ],
+   [
+    "zal ik",
+    "我該"
+   ],
+   [
+    "dan nemen",
+    "拿呢"
+   ]
+  ],
+  "order": "主詞Welke groenten → 動詞zal → 主詞ik → 副詞dan → 動詞nemen。規則：疑問句主詞在前，動詞在第二位。",
+  "grammar": "現在式，疑問句。",
+  "listen": "注意'Welke groenten'的連音，可能聽成'Welkegroenten'."
+ },
+ "tja, bloemkool.": {
+  "breakdown": [
+   [
+    "Tja",
+    "嗯"
+   ],
+   [
+    "bloemkool",
+    "花椰菜"
+   ]
+  ],
+  "order": "副詞Tja → 受詞bloemkool。規則：副詞在前，受詞在後。",
+  "grammar": "現在式，簡單句。",
+  "listen": "注意'Tja'的弱讀，可能聽不清楚."
+ },
+ "prei.": {
+  "breakdown": [
+   [
+    "Prei",
+    "韭蔥"
+   ]
+  ],
+  "order": "受詞Prei。規則：這句很簡單，只有一個受詞。",
+  "grammar": "現在式，簡單句。",
+  "listen": "注意'Prei'的發音，可能聽成'Prei'."
+ },
+ "wortelen, dat zijn lekkere groenten voor in de soep.": {
+  "breakdown": [
+   [
+    "Wortelen",
+    "胡蘿蔔"
+   ],
+   [
+    "dat zijn",
+    "那是"
+   ],
+   [
+    "lekkere groenten",
+    "美味的蔬菜"
+   ],
+   [
+    "voor in de soep",
+    "湯裡"
+   ]
+  ],
+  "order": "主詞Wortelen → 連接詞dat → 動詞zijn → 受詞lekkere groenten → 地點voor in de soep。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，簡單句。",
+  "listen": "注意'Wortelen dat zijn'的連音，可能聽成'Wortelendatzijn'."
+ },
+ "nou, doet u dat dan maar allemaal.": {
+  "breakdown": [
+   [
+    "Nou",
+    "好"
+   ],
+   [
+    "doet u dat dan maar allemaal",
+    "那您就全部都做吧"
+   ]
+  ],
+  "order": "副詞Nou → 動詞doet → 主詞u → 受詞dat → 副詞dan → 連接詞maar → 受詞allemaal。規則：副詞在前，動詞在第二位。",
+  "grammar": "現在式，祈使句。",
+  "listen": "注意'dat dan maar'的連音，可能聽成'datdanmaar'."
+ },
+ "dat klinkt goed.": {
+  "breakdown": [
+   [
+    "Dat",
+    "聽起來"
+   ],
+   [
+    "klinkt goed",
+    "不錯"
+   ]
+  ],
+  "order": "主詞Dat → 動詞klinkt → 受詞goed。規則：主詞在前，動詞在第二位。",
+  "grammar": "現在式，簡單句。",
+  "listen": "注意'klinkt goed'的連音，可能聽成'klinktgoed'."
+ },
+ "en hoeveel krijgt u van me?": {
+  "breakdown": [
+   [
+    "En",
+    "那"
+   ],
+   [
+    "hoeveel",
+    "多少"
+   ],
+   [
+    "krijgt u",
+    "您該付"
+   ],
+   [
+    "van me",
+    "我"
+   ]
+  ],
+  "order": "疑問句：hoeveel(多少) → krijgt(付) → u(您) → van me(我)",
+  "grammar": "使用疑問句形式，動詞放在句首。",
+  "listen": "注意 'krijgt' 和 'u' 之間的連音。"
+ },
+ "eens even kijken.": {
+  "breakdown": [
+   [
+    "Eens",
+    "讓我"
+   ],
+   [
+    "even",
+    "一下"
+   ],
+   [
+    "kijken",
+    "看"
+   ]
+  ],
+  "order": "主詞(我) → 動詞(看) → 副詞(一下)",
+  "grammar": "使用現在式，表達短暫的動作。",
+  "listen": "'Eens' 和 'even' 連音時可能聽不清。"
+ },
+ "u heeft tomaten, uien, bloemkool.": {
+  "breakdown": [
+   [
+    "U",
+    "您"
+   ],
+   [
+    "heeft",
+    "有"
+   ],
+   [
+    "tomaten",
+    "番茄"
+   ],
+   [
+    "uien",
+    "洋蔥"
+   ],
+   [
+    "bloemkool",
+    "花椰菜"
+   ]
+  ],
+  "order": "主詞(您) → 動詞(有) → 物品(番茄、洋蔥、花椰菜)",
+  "grammar": "使用現在式，列舉多個名詞。",
+  "listen": "注意 'heeft' 的發音，可能被弱讀。"
+ },
+ "o, wacht, ik vergeet wat.": {
+  "breakdown": [
+   [
+    "O",
+    "喔"
+   ],
+   [
+    "wacht",
+    "等等"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "vergeet",
+    "忘了"
+   ],
+   [
+    "wat",
+    "什麼"
+   ]
+  ],
+  "order": "感嘆詞(喔) → 動詞(忘) → 主詞(我) → 受詞(什麼)",
+  "grammar": "使用現在式，表達突然的想法。",
+  "listen": "'vergeet' 可能被弱讀，聽不清。"
+ },
+ "knoflook.": {
+  "breakdown": [
+   [
+    "Knoflook",
+    "大蒜"
+   ]
+  ],
+  "order": "主詞(大蒜)",
+  "grammar": "單一名詞，簡單直接。",
+  "listen": "注意 'Knoflook' 的發音。"
+ },
+ "hebt u knoflook?": {
+  "breakdown": [
+   [
+    "Hebt u",
+    "您有"
+   ],
+   [
+    "knoflook",
+    "大蒜"
+   ]
+  ],
+  "order": "疑問句：Hebt(有) → u(您) → knoflook(大蒜)",
+  "grammar": "使用疑問句形式，動詞放在句首。",
+  "listen": "'Hebt' 和 'u' 之間的連音可能不明顯。"
+ },
+ "natuurlijk heb ik knoflook.": {
+  "breakdown": [
+   [
+    "Natuurlijk",
+    "當然"
+   ],
+   [
+    "heb ik",
+    "我有"
+   ],
+   [
+    "knoflook",
+    "大蒜"
+   ]
+  ],
+  "order": "副詞(當然) → 動詞(有) → 主詞(我) → 受詞(大蒜)",
+  "grammar": "使用現在式，強調肯定。",
+  "listen": "注意 'Natuurlijk' 的連音，可能聽不清。"
+ },
+ "is deze groot genoeg?": {
+  "breakdown": [
+   [
+    "Is deze",
+    "這個"
+   ],
+   [
+    "groot genoeg",
+    "夠大嗎"
+   ]
+  ],
+  "order": "疑問句：Is(是) → deze(這個) → groot genoeg(夠大)",
+  "grammar": "使用疑問句形式，動詞放在句首。",
+  "listen": "'Is' 和 'deze' 之間的連音可能不明顯。"
+ },
+ "ja, prima hoor.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "prima",
+    "很好"
+   ],
+   [
+    "hoor",
+    "喔"
+   ]
+  ],
+  "order": "肯定詞(是的) → 形容詞(很好) → 語氣詞(喔)",
+  "grammar": "使用現在式，表達肯定的回應。",
+  "listen": "注意 'prima' 的發音，可能被弱讀。"
+ },
+ "nu heb ik echt alles.": {
+  "breakdown": [
+   [
+    "Nu",
+    "現在"
+   ],
+   [
+    "heb ik",
+    "我有"
+   ],
+   [
+    "echt",
+    "真的"
+   ],
+   [
+    "alles",
+    "全都"
+   ]
+  ],
+  "order": "副詞(現在) → 動詞(有) → 副詞(真的) → 受詞(全都)",
+  "grammar": "使用現在式，強調完整性。",
+  "listen": "'echt' 可能被弱讀，聽不清。"
+ },
+ "goed, dan wordt het bij elkaar... 11,60 euro.": {
+  "breakdown": [
+   [
+    "Goed",
+    "好"
+   ],
+   [
+    "dan",
+    "那"
+   ],
+   [
+    "wordt het",
+    "總共是"
+   ],
+   [
+    "bij elkaar",
+    "一起"
+   ],
+   [
+    "... 11,60 euro",
+    "11.60歐元"
+   ]
+  ],
+  "order": "副詞(好) → 副詞(那) → 動詞(是) → 受詞(總共) → 金額(11.60歐元)",
+  "grammar": "使用未來式，表示即將發生的事。",
+  "listen": "'wordt' 和 'het' 之間的連音可能不明顯。"
+ },
+ "nou, dat is zeker niet duur.": {
+  "breakdown": [
+   [
+    "Nou",
+    "那"
+   ],
+   [
+    "dat",
+    "這"
+   ],
+   [
+    "is zeker",
+    "真的"
+   ],
+   [
+    "niet duur",
+    "不貴"
+   ]
+  ],
+  "order": "感嘆詞(那) → 連接詞(這) → 動詞(是) → 副詞(真的) → 形容詞(不貴)",
+  "grammar": "使用現在式，表達評價。",
+  "listen": "注意 'is' 和 'zeker' 之間的連音。"
+ },
+ "kijk u eens.": {
+  "breakdown": [
+   [
+    "Kijk",
+    "看看"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "eens",
+    "一下"
+   ]
+  ],
+  "order": "動詞Kijk(動詞#1) → 主詞u(主詞) → 副詞eens(副詞)",
+  "grammar": "命令句，動詞放句首。",
+  "listen": "Kijk的發音可能會被弱讀。"
+ },
+ "12 euro.": {
+  "breakdown": [
+   [
+    "12",
+    "12"
+   ],
+   [
+    "euro",
+    "歐元"
+   ]
+  ],
+  "order": "數字12(主詞) → 名詞euro(主詞補語)",
+  "grammar": "簡單名詞短語，無動詞。",
+  "listen": "數字12可能聽不清楚。"
+ },
+ "dank u wel.": {
+  "breakdown": [
+   [
+    "Dank",
+    "謝謝"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "wel",
+    "好"
+   ]
+  ],
+  "order": "動詞Dank(動詞#1) → 主詞u(主詞) → 副詞wel(副詞)",
+  "grammar": "簡單句，動詞在前。",
+  "listen": "Dank的發音可能會被弱讀。"
+ },
+ "en 40 cent terug voor u.": {
+  "breakdown": [
+   [
+    "En",
+    "這是"
+   ],
+   [
+    "40",
+    "40"
+   ],
+   [
+    "cent",
+    "分錢"
+   ],
+   [
+    "terug",
+    "找回"
+   ],
+   [
+    "voor",
+    "給您"
+   ],
+   [
+    "u",
+    "您"
+   ]
+  ],
+  "order": "連接詞En(連接詞) → 數字40(主詞) → 名詞cent(主詞補語) → 動詞terug(動詞#1) → 介系詞voor(介系詞) → 主詞u(主詞)",
+  "grammar": "包含連接詞，動詞在主詞前。",
+  "listen": "terug的發音可能會被弱讀。"
+ },
+ "en eet smakelijk vanavond.": {
+  "breakdown": [
+   [
+    "En",
+    "祝"
+   ],
+   [
+    "eet",
+    "用餐"
+   ],
+   [
+    "smakelijk",
+    "愉快"
+   ],
+   [
+    "vanavond",
+    "今晚"
+   ]
+  ],
+  "order": "連接詞En(連接詞) → 動詞eet(動詞#1) → 形容詞smakelijk(形容詞) → 副詞vanavond(副詞)",
+  "grammar": "包含連接詞，動詞在主詞前。",
+  "listen": "smakelijk的發音可能會被弱讀。"
+ },
+ "ja, dank u wel hoor.": {
+  "breakdown": [
+   [
+    "Ja",
+    "是的"
+   ],
+   [
+    "dank",
+    "謝謝"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "wel",
+    "好"
+   ],
+   [
+    "hoor",
+    "喔"
+   ]
+  ],
+  "order": "副詞Ja(副詞) → 動詞dank(動詞#1) → 主詞u(主詞) → 副詞wel(副詞) → 副詞hoor(副詞)",
+  "grammar": "簡單句，副詞在前。",
+  "listen": "dank的發音可能會被弱讀。"
+ },
+ "tot ziens.": {
+  "breakdown": [
+   [
+    "Tot",
+    "再"
+   ],
+   [
+    "ziens",
+    "見"
+   ]
+  ],
+  "order": "副詞Tot(副詞) → 名詞ziens(名詞)",
+  "grammar": "簡單句，無動詞。",
+  "listen": "Tot的發音可能會被弱讀。"
+ },
+ "kan ik u helpen?": {
+  "breakdown": [
+   [
+    "Kan",
+    "能"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "helpen",
+    "幫助"
+   ]
+  ],
+  "order": "動詞Kan(動詞#1) → 主詞ik(主詞) → 受詞u(受詞) → 動詞helpen(動詞#2)",
+  "grammar": "疑問句，動詞在主詞前。",
+  "listen": "Kan的發音可能會被弱讀。"
+ },
+ "sinterklaas, waar heb ik mijn boodschappenlijstje?": {
+  "breakdown": [
+   [
+    "Sinterklaas",
+    "辛特克拉斯"
+   ],
+   [
+    "Waar",
+    "哪裡"
+   ],
+   [
+    "heb",
+    "有"
+   ],
+   [
+    "ik",
+    "我"
+   ],
+   [
+    "mijn",
+    "我的"
+   ],
+   [
+    "boodschappenlijstje",
+    "購物清單"
+   ]
+  ],
+  "order": "主詞Sinterklaas(主詞) → 副詞Waar(副詞) → 動詞heb(動詞#2) → 主詞ik(主詞) → 受詞mijn(受詞) → 名詞boodschappenlijstje(受詞補語)",
+  "grammar": "疑問句，動詞在主詞後。",
+  "listen": "boodschappen的發音可能會被弱讀。"
+ },
+ "doet u maar 2 kilo tomaten.": {
+  "breakdown": [
+   [
+    "Doet",
+    "請給"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "maar",
+    "只"
+   ],
+   [
+    "2",
+    "2"
+   ],
+   [
+    "kilo",
+    "公斤"
+   ],
+   [
+    "tomaten",
+    "番茄"
+   ]
+  ],
+  "order": "動詞Doet(動詞#1) → 主詞u(主詞) → 副詞maar(副詞) → 數字2(主詞補語) → 名詞kilo(主詞補語) → 名詞tomaten(受詞)",
+  "grammar": "祈使句，動詞在句首。",
+  "listen": "Doet的發音可能會被弱讀。"
+ },
+ "eet smakelijk!": {
+  "breakdown": [
+   [
+    "Eet",
+    "祝"
+   ],
+   [
+    "smakelijk",
+    "愉快"
+   ]
+  ],
+  "order": "動詞Eet(動詞#1) → 形容詞smakelijk(形容詞)",
+  "grammar": "簡單句，動詞在前。",
+  "listen": "Eet的發音可能會被弱讀。"
+ },
+ "zo, dus u gaat groentesoep maken?": {
+  "breakdown": [
+   [
+    "Zo",
+    "喔"
+   ],
+   [
+    "dus",
+    "所以"
+   ],
+   [
+    "u",
+    "您"
+   ],
+   [
+    "gaat",
+    "要"
+   ],
+   [
+    "groentesoep",
+    "蔬菜湯"
+   ],
+   [
+    "maken",
+    "做"
+   ]
+  ],
+  "order": "副詞Zo(副詞) → 連接詞dus(連接詞) → 主詞u(主詞) → 動詞gaat(動詞#1) → 名詞groentesoep(受詞) → 動詞maken(動詞#2)",
+  "grammar": "簡單句，動詞在主詞後。",
+  "listen": "gaat的發音可能會被弱讀。"
+ },
+ "nee, geen groentesoep, maar tomatensoep.": {
+  "breakdown": [
+   [
+    "Nee",
+    "不"
+   ],
+   [
+    "geen groentesoep",
+    "不是蔬菜湯"
+   ],
+   [
+    "maar",
+    "而是"
+   ],
+   [
+    "tomatensoep",
+    "番茄湯"
+   ]
+  ],
+  "order": "主詞(隱含的你) → 動詞#2(是) → 受詞(番茄湯) → 受詞(不是蔬菜湯)",
+  "grammar": "使用了否定詞geen來否定名詞groentesoep。",
+  "listen": "注意geen和groentesoep連音，可能聽不清。"
+ },
+ "tja, bloemkool, prei, wortelen, dat zijn lekkere groenten voor in de soep.": {
+  "breakdown": [
+   [
+    "Tja",
+    "嗯"
+   ],
+   [
+    "bloemkool, prei, wortelen",
+    "花椰菜、韭蔥、胡蘿蔔"
+   ],
+   [
+    "dat zijn",
+    "那是"
+   ],
+   [
+    "lekkere groenten voor in de soep",
+    "湯裡很美味的蔬菜"
+   ]
+  ],
+  "order": "主詞(花椰菜等) → 動詞#2(是) → 形容詞(美味的) → 受詞(湯裡的蔬菜)",
+  "grammar": "使用了dat引導的從句，動詞放在句尾。",
+  "listen": "注意dat和zijn的連音，可能聽不清。"
+ },
+ "knoflook, hebt u knoflook?": {
+  "breakdown": [
+   [
+    "Knoflook",
+    "大蒜"
+   ],
+   [
+    "hebt u",
+    "您有"
+   ],
+   [
+    "knoflook",
+    "大蒜"
+   ]
+  ],
+  "order": "主詞(您) → 動詞#2(有) → 受詞(大蒜)",
+  "grammar": "使用了疑問句形式，動詞放在主詞前。",
+  "listen": "注意hebt和u的連音，可能聽不清。"
+ },
+ "goed, dan wordt het bij elkaar 11,60 euro.": {
+  "breakdown": [
+   [
+    "Goed",
+    "好"
+   ],
+   [
+    "dan wordt het",
+    "那總共是"
+   ],
+   [
+    "bij elkaar",
+    "一起"
+   ],
+   [
+    "11,60 euro",
+    "11.60歐元"
+   ]
+  ],
+  "order": "副詞(好) → 動詞#2(是) → 受詞(11.60歐元) → 受詞(一起)",
+  "grammar": "使用了將來式，動詞變化為wordt。",
+  "listen": "注意dan和wordt的連音，可能聽不清。"
+ },
+ "nou, dat is zeker niet duur. kijk dan eens, 12 euro.": {
+  "breakdown": [
+   [
+    "Nou",
+    "那"
+   ],
+   [
+    "dat is zeker niet duur",
+    "這真的不貴"
+   ],
+   [
+    "Kijk dan eens",
+    "您看看"
+   ],
+   [
+    "12 euro",
+    "12歐元"
+   ]
+  ],
+  "order": "副詞(那) → 主詞(這) → 動詞#2(是) → 形容詞(不貴) → 動詞(看看) → 受詞(12歐元)",
+  "grammar": "使用了肯定句和否定句的結合。",
+  "listen": "注意dat和is的連音，可能聽不清。"
+ },
+ "dank u wel en 40 cent terug voor u.": {
+  "breakdown": [
+   [
+    "Dank u wel",
+    "謝謝您"
+   ],
+   [
+    "en",
+    "和"
+   ],
+   [
+    "40 cent terug",
+    "40分錢找回"
+   ],
+   [
+    "voor u",
+    "給您"
+   ]
+  ],
+  "order": "主詞(我) → 動詞(謝謝) → 受詞(您) → 受詞(40分錢) → 受詞(給您)",
+  "grammar": "使用了回報的表達方式，強調找回的金額。",
+  "listen": "注意Dank和u的連音，可能聽不清。"
+ }
+}

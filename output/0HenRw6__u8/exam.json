@@ -1,0 +1,520 @@
+{
+ "video_id": "0HenRw6__u8",
+ "title": "Luisteren examen A2 Oefenen 13",
+ "channel": "Inburgeren examen A2",
+ "duration": 601,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "在醫生那裡的諮詢",
+   "title_nl": "Luisteren examen A2 Oefenen 13",
+   "kind": "廣播/留言",
+   "context_zh": "一位女士在醫生的資訊電話中詢問開診時間。",
+   "start": "0:04",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:04",
+     "nl": "1. OP HET WERK",
+     "zh": "1. 在工作上"
+    },
+    {
+     "t": "0:08",
+     "nl": "Een vrouw praat met een man. Ze vertelt iets over een collega.",
+     "zh": "一位女士與一位男士交談。她正在說一位同事的事情。"
+    },
+    {
+     "t": "0:14",
+     "nl": "Staat de collega op plaatje A of plaatje B?",
+     "zh": "那位同事是在圖片A還是圖片B？"
+    },
+    {
+     "t": "0:24",
+     "nl": "Kies nu het goede antwoord.",
+     "zh": "請選擇正確答案。"
+    },
+    {
+     "t": "0:51",
+     "nl": "2. EEN GESPREK",
+     "zh": "2. 一個對話"
+    },
+    {
+     "t": "0:53",
+     "nl": "U hoort een gesprek tussen een man en een vrouw.",
+     "zh": "您會聽到一段男女之間的對話。"
+    },
+    {
+     "t": "0:58",
+     "nl": "Waar praten deze mensen? A. Op school",
+     "zh": "這些人在什麼地方談話？A. 在學校"
+    },
+    {
+     "t": "1:02",
+     "nl": "B. Op straat C. Thuis",
+     "zh": "B. 在街上 C. 在家裡"
+    },
+    {
+     "t": "1:22",
+     "nl": "3. EEN GESPREK",
+     "zh": "3. 一個對話"
+    },
+    {
+     "t": "1:55",
+     "nl": "4. DE HUISARTS",
+     "zh": "4. 家庭醫生"
+    },
+    {
+     "t": "1:58",
+     "nl": "U hoort informatietelefoon van de huisarts.",
+     "zh": "您正在聽家庭醫生的資訊電話。"
+    },
+    {
+     "t": "2:03",
+     "nl": "Hoe laat begint het vrije spreekuur op donderdag?",
+     "zh": "週四的免費門診幾點開始？"
+    },
+    {
+     "t": "2:07",
+     "nl": "A. Om acht uur B. Om half negen",
+     "zh": "A. 八點 B. 八點半"
+    },
+    {
+     "t": "2:12",
+     "nl": "C. Om negen uur",
+     "zh": "C. 九點"
+    },
+    {
+     "t": "2:17",
+     "nl": "Dit is de informatietelefoon van dokter Paul.",
+     "zh": "這是保羅醫生的資訊電話。"
+    },
+    {
+     "t": "2:21",
+     "nl": "Ik ben momenteel niet aanwezig.",
+     "zh": "我目前不在診所。"
+    },
+    {
+     "t": "2:25",
+     "nl": "U kunt op alle werkdagen van negen tot vijf uur bellen voor een afspraak.",
+     "zh": "您可以在所有工作日的九點到五點期間打電話預約。"
+    },
+    {
+     "t": "2:31",
+     "nl": "U kunt ook komen op het vrije spreekuur.",
+     "zh": "您也可以來參加免費門診。"
+    },
+    {
+     "t": "2:35",
+     "nl": "Op maandag van acht tot tien uur, op donderdag van half negen tot half elf.",
+     "zh": "週一從八點到十點，週四從八點半到十點半。"
+    },
+    {
+     "t": "2:58",
+     "nl": "4. KOFFIE DRINKEN",
+     "zh": "4. 喝咖啡"
+    },
+    {
+     "t": "3:02",
+     "nl": "U vraagt of Joke vanmiddag komt koffie drinken.",
+     "zh": "您問喬克今天下午是否會來喝咖啡。"
+    },
+    {
+     "t": "3:07",
+     "nl": "Waarom komt ze niet koffie drinken? A. Ze moet werken",
+     "zh": "她為什麼不來喝咖啡？A. 她必須工作"
+    },
+    {
+     "t": "3:12",
+     "nl": "B. Ze is een beetje moe",
+     "zh": "B. 她有點累"
+    },
+    {
+     "t": "3:15",
+     "nl": "C. Ze lust geen koffie",
+     "zh": "C. 她不喜歡咖啡"
+    },
+    {
+     "t": "3:20",
+     "nl": "Goh, wat jammer, maar vanmiddag wordt een beetje moeilijk.",
+     "zh": "哦，真可惜，但今天下午有點困難。"
+    },
+    {
+     "t": "3:24",
+     "nl": "Ik heb de hele week hard gewerkt en de kinderen waren ook zo druk.",
+     "zh": "我整個星期都很努力工作，孩子們也很吵鬧。"
+    },
+    {
+     "t": "3:29",
+     "nl": "En vanavond heb ik weer een afspraak. Ik moet vanmiddag echt even uitrusten hoor.",
+     "zh": "今晚我還有約會。我今天下午真的需要好好休息。"
+    },
+    {
+     "t": "3:36",
+     "nl": "Even lekker op de bank liggen of zo en even helemaal niks doen.",
+     "zh": "好好躺在沙發上什麼都不做。"
+    },
+    {
+     "t": "3:40",
+     "nl": "Zal ik anders volgende week een keer langskomen? Kies nu het goede antwoord.",
+     "zh": "要不下週我找時間來看你？請選擇正確答案。"
+    },
+    {
+     "t": "3:58",
+     "nl": "5. IN EEN RESTAURANT",
+     "zh": "5. 在餐廳"
+    },
+    {
+     "t": "4:01",
+     "nl": "Alida is in een restaurant. Neemt ze soep?",
+     "zh": "阿莉達在餐廳。她會點湯嗎？"
+    },
+    {
+     "t": "4:06",
+     "nl": "A. Ja B. Nee",
+     "zh": "A. 會 B. 不會"
+    },
+    {
+     "t": "4:12",
+     "nl": "Die runderbiefstuk, met wat voor saus is die?",
+     "zh": "那份牛排搭配什麼醬汁？"
+    },
+    {
+     "t": "4:16",
+     "nl": "A. Met pepersaus, mevrouw. Heel smakelijk hoor. B. Oké, geef me die dan maar.",
+     "zh": "A. 胡椒醬，女士。非常美味。 B. 好，那就給我那個。"
+    },
+    {
+     "t": "4:22",
+     "nl": "A. Wilt u ook een voorafje? We hebben heerlijke tomatensoep.",
+     "zh": "A. 您也要前菜嗎？我們有非常好喝的番茄湯。"
+    },
+    {
+     "t": "4:27",
+     "nl": "B. Nou nee, bedankt. Ik hou niet zo van tomaten.",
+     "zh": "B. 不，謝謝。我不太喜歡番茄。"
+    },
+    {
+     "t": "4:31",
+     "nl": "A. Zoals u wilt, mevrouw. Geef nu het goede antwoord.",
+     "zh": "A. 隨您便，女士。請選擇正確答案。"
+    },
+    {
+     "t": "4:44",
+     "nl": "6. NAAR DE ZWARTE MART",
+     "zh": "6. 去黑市"
+    },
+    {
+     "t": "4:48",
+     "nl": "Mevrouw Van Diemen belt haar zoon. Wanneer gaan ze samen naar de Zwarte Mart?",
+     "zh": "范迪門女士打電話給她的兒子。他們什麼時候一起去黑市？"
+    },
+    {
+     "t": "4:55",
+     "nl": "A. Vrijdagmiddag B. Zaterdagmorgen",
+     "zh": "A. 星期五下午 B. 星期六早上"
+    },
+    {
+     "t": "5:02",
+     "nl": "A. Met John van Diemen B. Hallo jongen, met je moeder. Hoe gaat het?",
+     "zh": "A. 我是約翰·范迪門。 B. 哈囉兒子，是你媽媽。你怎麼樣？"
+    },
+    {
+     "t": "5:07",
+     "nl": "A. Hoi, mam. Ja, met mij gaat het prima hoor.",
+     "zh": "A. 嗨，媽媽。我很好，謝謝。"
+    },
+    {
+     "t": "5:12",
+     "nl": "B. Mooi. Wat ik vragen wou.",
+     "zh": "B. 很好。我想問你件事。"
+    },
+    {
+     "t": "5:14",
+     "nl": "Heb je zin om zaterdagmorgen mee te gaan naar de Zwarte Markt in Beverwijk? A.",
+     "zh": "你週六早上想不想一起去比弗韋克的黑市？ A。"
+    },
+    {
+     "t": "5:20",
+     "nl": "Nou dat lijkt me leuk, maar 's morgens neem ik niet. Ik kan wel om drie uur 's middags.",
+     "zh": "這聽起來不錯，但我早上沒空。我下午三點可以。"
+    },
+    {
+     "t": "5:27",
+     "nl": "B. Hmm, dat wordt een beetje laat. Zullen we anders vrijdag gaan, vroeg in de middag?",
+     "zh": "B. 嗯，那有點晚。要不我們改星期五下午早點去？"
+    },
+    {
+     "t": "5:34",
+     "nl": "A. Ehm.",
+     "zh": "A. 嗯。"
+    },
+    {
+     "t": "5:36",
+     "nl": "Ja, dat is goed. Oké, dan kom ik je vrijdag wel even ophalen.",
+     "zh": "好，那就這樣。星期五我會來接你。"
+    },
+    {
+     "t": "5:42",
+     "nl": "B. Geef nu het goede antwoord.",
+     "zh": "B. 請現在選擇正確答案。"
+    },
+    {
+     "t": "5:55",
+     "nl": "7. De radio.",
+     "zh": "7. 收音機。"
+    },
+    {
+     "t": "5:58",
+     "nl": "U hoort een stukje van een radioprogramma.",
+     "zh": "您聽到了一段收音機節目的片段。"
+    },
+    {
+     "t": "6:02",
+     "nl": "In welk programma kunt u dit horen? A. Het nieuws.",
+     "zh": "您在哪個節目可以聽到這個？ A. 新聞。"
+    },
+    {
+     "t": "6:07",
+     "nl": "B. Een sportprogramma. C. Het weerbericht.",
+     "zh": "B. 體育節目。 C. 天氣預報。"
+    },
+    {
+     "t": "6:14",
+     "nl": "Bij een busongeluk in Oostenrijk zijn vandaag vier doden gevallen en twaalf mensen gewond geraakt.",
+     "zh": "今天在奧地利發生了一起公車事故，造成四人死亡，十二人受傷。"
+    },
+    {
+     "t": "6:21",
+     "nl": "De bus slipte op een door sneeuw glad geworden stuk van de weg en viel in een ravijn.",
+     "zh": "公車在因雪而變得滑溜的路段打滑，掉進了一個山谷。"
+    },
+    {
+     "t": "6:27",
+     "nl": "De vier Nederlandse passagiers hebben alleen lichte verwondingen.",
+     "zh": "這四位荷蘭乘客只有輕微的傷。"
+    },
+    {
+     "t": "6:32",
+     "nl": "Ze zijn vanmiddag uit het ziekenhuis gekomen en kunnen waarschijnlijk vanavond al naar huis.",
+     "zh": "他們今天下午已經出院，可能今晚就能回家。"
+    },
+    {
+     "t": "6:52",
+     "nl": "8. In het park.",
+     "zh": "8. 在公園裡。"
+    },
+    {
+     "t": "6:55",
+     "nl": "U hoort een kind praten. Tegen wie praat dit kind?",
+     "zh": "您聽到一個小孩說話。這個小孩是在跟誰說話？"
+    },
+    {
+     "t": "7:00",
+     "nl": "A. Tegen een ander kind. B. Tegen zijn vader.",
+     "zh": "A. 跟另一個小孩。 B. 跟他的爸爸。"
+    },
+    {
+     "t": "7:06",
+     "nl": "C. Tegen een politieagent.",
+     "zh": "C. 跟一位警察先生。"
+    },
+    {
+     "t": "7:48",
+     "nl": "9. U hoort een gesprek tussen een man en een vrouw.",
+     "zh": "9. 您聽到一段男女之間的對話。"
+    },
+    {
+     "t": "7:55",
+     "nl": "Waar praten deze mensen? A. Thuis.",
+     "zh": "這些人在哪裡說話？ A. 在家裡。"
+    },
+    {
+     "t": "8:00",
+     "nl": "B. In de supermarkt. C. Op straat.",
+     "zh": "B. 在超市。 C. 在街上。"
+    },
+    {
+     "t": "8:07",
+     "nl": "Hey mevrouw, haal die kar nou eens weg, ik wil er langs, anders kom ik nooit bij de kassa.",
+     "zh": "嘿女士，請把那台推車移開，我要過去，不然我永遠到不了收銀台。"
+    },
+    {
+     "t": "8:14",
+     "nl": "Oké, oké, waarom zo'n haast?",
+     "zh": "好啦，好啦，為什麼這麼急？"
+    },
+    {
+     "t": "8:17",
+     "nl": "Ja, sorry hoor, maar ik ben al zo laat, ik moet over tien minuten thuis zijn.",
+     "zh": "不好意思啦，我已經很晚了，我十分鐘後必須到家。"
+    },
+    {
+     "t": "8:22",
+     "nl": "En het was ook al zo druk in de straat.",
+     "zh": "街上也已經很擁擠了。"
+    },
+    {
+     "t": "8:25",
+     "nl": "Ik moest wel een kwartier zoeken naar een parkeerplaats.",
+     "zh": "我花了大約十五分鐘找停車位。"
+    },
+    {
+     "t": "8:30",
+     "nl": "Geef nu het goede antwoord.",
+     "zh": "請現在選擇正確答案。"
+    },
+    {
+     "t": "8:42",
+     "nl": "10. Niet met de auto.",
+     "zh": "10. 不開車。"
+    },
+    {
+     "t": "8:46",
+     "nl": "Klaas komt bij zijn vriendin op bezoek. Waarom is hij niet met de auto?",
+     "zh": "Klaas 去拜訪他的女朋友。為什麼他沒有開車？"
+    },
+    {
+     "t": "8:52",
+     "nl": "A. Hij heeft geen auto meer.",
+     "zh": "A. 他沒有車了。"
+    },
+    {
+     "t": "8:56",
+     "nl": "B. Hij heeft geen rijbewijs.",
+     "zh": "B. 他沒有駕照。"
+    },
+    {
+     "t": "9:00",
+     "nl": "C. Hij slikt medicijnen waar je slaperig van wordt.",
+     "zh": "C. 他正在服用會讓人困倦的藥物。"
+    },
+    {
+     "t": "9:06",
+     "nl": "Hey Klaas, waarom ben je niet met de auto? Heb je hem soms verkocht?",
+     "zh": "嘿 Klaas，為什麼你沒開車來？你是賣掉車了嗎？"
+    },
+    {
+     "t": "9:12",
+     "nl": "Nee hoor, ik heb hem nog steeds.",
+     "zh": "沒有啦，我的車還在。"
+    },
+    {
+     "t": "9:15",
+     "nl": "Maar ja, ik heb van de dokter pillen gekregen en nou voel ik me een beetje suf, dus voor deze keer heb ik maar de tram genomen.",
+     "zh": "但是我有從醫生那裡拿到藥，現在覺得有點昏昏欲睡，所以這次我改搭電車了。"
+    },
+    {
+     "t": "9:41",
+     "nl": "Klaas komt bij zijn vriendin op bezoek. Waarom is hij niet met de auto? Heb je hem soms verkocht?",
+     "zh": "Klaas 去拜訪他的女朋友。為什麼他沒有開車？你是賣掉車了嗎？"
+    },
+    {
+     "t": "9:46",
+     "nl": "A.",
+     "zh": "A."
+    },
+    {
+     "t": "9:58",
+     "nl": "Hij heeft geen auto meer.",
+     "zh": "他沒有車了。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "huisarts",
+     "zh": "家庭醫生"
+    },
+    {
+     "nl": "informatietelefoon",
+     "zh": "資訊電話"
+    },
+    {
+     "nl": "vrije spreekuur",
+     "zh": "自由看診時間"
+    },
+    {
+     "nl": "afspraak",
+     "zh": "約診"
+    },
+    {
+     "nl": "werkdagen",
+     "zh": "工作日"
+    },
+    {
+     "nl": "bellen",
+     "zh": "打電話"
+    },
+    {
+     "nl": "komen",
+     "zh": "來"
+    },
+    {
+     "nl": "maandag",
+     "zh": "星期一"
+    },
+    {
+     "nl": "donderdag",
+     "zh": "星期四"
+    },
+    {
+     "nl": "uur",
+     "zh": "小時"
+    },
+    {
+     "nl": "half",
+     "zh": "半"
+    },
+    {
+     "nl": "tijd",
+     "zh": "時間"
+    },
+    {
+     "nl": "moet",
+     "zh": "必須"
+    },
+    {
+     "nl": "even",
+     "zh": "稍微"
+    },
+    {
+     "nl": "druk",
+     "zh": "忙碌"
+    },
+    {
+     "nl": "uitrusten",
+     "zh": "休息"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Hoe laat begint het vrije spreekuur op donderdag?",
+     "zh": "星期四的自由看診時間幾點開始？",
+     "note": "用於詢問時間的句型"
+    },
+    {
+     "nl": "U kunt op alle werkdagen bellen voor een afspraak.",
+     "zh": "您可以在所有工作日打電話約診。",
+     "note": "表達可以做某事的句型"
+    },
+    {
+     "nl": "Ik ben momenteel niet aanwezig.",
+     "zh": "我目前不在。",
+     "note": "表達當前狀態的句型"
+    },
+    {
+     "nl": "U kunt ook komen op het vrije spreekuur.",
+     "zh": "您也可以來自由看診。",
+     "note": "表達選擇的句型"
+    },
+    {
+     "nl": "Op maandag van acht tot tien uur.",
+     "zh": "星期一從八點到十點。",
+     "note": "表達時間範圍的句型"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}

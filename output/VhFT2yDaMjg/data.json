@@ -1,0 +1,380 @@
+{
+  "video_id": "VhFT2yDaMjg",
+  "video_info": {
+    "title": "Luisteren examen A2 (nieuw systeem) 3 vragen (d)",
+    "channel": "Inburgeren examen A2",
+    "duration": 273
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Eren is met zijn vriend Mark bij de gemeente.",
+        "translation": "Eren和他的朋友Mark在市政府。",
+        "start": 0.0,
+        "end": 3.38
+      },
+      {
+        "text": "Lees eerst de vraag, kijk daarna naar de video.",
+        "translation": "請先閱讀問題，然後再觀看影片。",
+        "start": 5.18,
+        "end": 8.78
+      },
+      {
+        "text": "Kan ik u helpen? Ik heb een zoon gekregen, gisteren.",
+        "translation": "我可以幫您嗎？我昨天生了一個兒子。",
+        "start": 19.52,
+        "end": 24.48
+      },
+      {
+        "text": "Gefeliciteerd. U wilt dus aangifte doen van de geboorte.",
+        "translation": "恭喜您。您是要申報出生登記。",
+        "start": 24.84,
+        "end": 28.32
+      },
+      {
+        "text": "Mag ik uw legitimatiebewijs? Nee, vergeten.",
+        "translation": "我可以看您的身份證件嗎？不，忘記帶了。",
+        "start": 28.32,
+        "end": 33.32
+      },
+      {
+        "text": "Ach, kan gebeuren. U kunt tot twee dagen na de geboorte aangifte doen.",
+        "translation": "沒關係，這種事會發生。您可以在出生後兩天內辦理申報。",
+        "start": 33.56,
+        "end": 39.32
+      },
+      {
+        "text": "Dus het mag morgen ook nog, want vanmiddag zijn we gesloten.",
+        "translation": "所以明天也可以，因為今天下午我們休息。",
+        "start": 39.88,
+        "end": 43.52
+      },
+      {
+        "text": "Bent u getrouwd? Ja. Dan moet u ook het trouwboekje meenemen.",
+        "translation": "您結婚了嗎？是的。那您也必須帶結婚證書來。",
+        "start": 44.74,
+        "end": 48.3
+      },
+      {
+        "text": "Morgen zijn we tot twaalf uur open. U kunt op internet een afspraak maken.",
+        "translation": "明天我們開放到十二點。您可以在網路上預約。",
+        "start": 49.32,
+        "end": 53.66
+      },
+      {
+        "text": "Dan hoeft u niet zo lang te wachten. Kan dat niet meteen hier aan de balie?",
+        "translation": "這樣您就不必等那麼久。這裡櫃檯不能立刻辦理嗎？",
+        "start": 54.44,
+        "end": 58.86
+      },
+      {
+        "text": "Helaas, alleen online. Oké, bedankt.",
+        "translation": "很抱歉，只能線上預約。好的，謝謝您。",
+        "start": 59.94,
+        "end": 64.82
+      },
+      {
+        "text": "Waarom is Mark bij de gemeente? Hij wil een geboorte aangeven.",
+        "translation": "Mark為什麼來市政府？他想申報出生登記。",
+        "start": 65.82,
+        "end": 71.26
+      },
+      {
+        "text": "Hij gaat binnenkort trouwen.",
+        "translation": "他即將結婚。",
+        "start": 72.46,
+        "end": 74.38
+      },
+      {
+        "text": "Hij is zijn legitimatiebewijs kwijt.",
+        "translation": "他弄丟了身份證件。",
+        "start": 75.64,
+        "end": 78.68
+      },
+      {
+        "text": "Eren is met zijn vriend Mark bij de gemeente.",
+        "translation": "Eren和他的朋友Mark在市政府。",
+        "start": 87.54,
+        "end": 91.18
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "請先閱讀問題，然後再觀看影片。",
+        "start": 92.96,
+        "end": 96.56
+      },
+      {
+        "text": "Kan ik u helpen? Ik heb een zoon gekregen.",
+        "translation": "我可以幫您嗎？我生了一個兒子。",
+        "start": 107.16,
+        "end": 110.62
+      },
+      {
+        "text": "Gisteren. Gefeliciteerd. U wilt dus aangifte doen van de geboorte.",
+        "translation": "昨天。恭喜您。您是要申報出生登記。",
+        "start": 111.6,
+        "end": 116.08
+      },
+      {
+        "text": "Mag ik uw legitimatiebewijs? Nee, vergeten.",
+        "translation": "我可以看您的身份證件嗎？不，忘記帶了。",
+        "start": 117.16,
+        "end": 121.06
+      },
+      {
+        "text": "Ach, kan gebeuren. U kunt tot twee dagen na de geboorte aangifte doen.",
+        "translation": "沒關係，這種事會發生。您可以在出生後兩天內辦理申報。",
+        "start": 121.26,
+        "end": 127.08
+      },
+      {
+        "text": "Dus het mag morgen ook nog, want vanmiddag zijn we gesloten.",
+        "translation": "所以明天也可以，因為今天下午我們休息。",
+        "start": 127.6,
+        "end": 131.28
+      },
+      {
+        "text": "Bent u getrouwd? Ja. Dan moet u ook het trouwboekje meenemen.",
+        "translation": "您結婚了嗎？是的。那您也必須帶結婚證書來。",
+        "start": 132.48,
+        "end": 136.06
+      },
+      {
+        "text": "Morgen zijn we tot twaalf uur open. U kunt op internet een afspraak maken.",
+        "translation": "明天我們開放到十二點。您可以在網路上預約。",
+        "start": 137.06,
+        "end": 141.38
+      },
+      {
+        "text": "Dan hoeft u niet zo lang te wachten. Kan dat niet meteen hier aan de balie?",
+        "translation": "這樣您就不必等那麼久。這裡櫃檯不能立刻辦理嗎？",
+        "start": 141.38,
+        "end": 146.56
+      },
+      {
+        "text": "Helaas, alleen online. Oké, bedankt.",
+        "translation": "很抱歉，只能線上預約。好的，謝謝您。",
+        "start": 147.68,
+        "end": 152.58
+      },
+      {
+        "text": "Wanneer kan Mark terugkomen bij de gemeente? Vanmiddag.",
+        "translation": "Mark什麼時候可以回市政府？今天下午。",
+        "start": 153.52,
+        "end": 158.38
+      },
+      {
+        "text": "Morgenochtend. Over drie dagen.",
+        "translation": "明天早上。三天後。",
+        "start": 160.06,
+        "end": 163.22
+      },
+      {
+        "text": "Eren is met zijn vriend Mark bij de gemeente.",
+        "translation": "Eren和他的朋友Mark在市政府。",
+        "start": 172.12,
+        "end": 175.74
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "請先閱讀問題，然後再觀看影片。",
+        "start": 177.52,
+        "end": 181.12
+      },
+      {
+        "text": "Kan ik u helpen? Ik heb een zoon gekregen.",
+        "translation": "我可以幫您嗎？我生了一個兒子。",
+        "start": 191.74,
+        "end": 195.2
+      },
+      {
+        "text": "Gisteren. Gefeliciteerd. U wilt dus aangifte doen van de geboorte.",
+        "translation": "昨天。恭喜您。您是要申報出生登記。",
+        "start": 196.16,
+        "end": 200.64
+      },
+      {
+        "text": "Mag ik uw legitimatiebewijs? Nee, vergeten.",
+        "translation": "我可以看您的身份證件嗎？不，忘記帶了。",
+        "start": 201.72,
+        "end": 205.64
+      },
+      {
+        "text": "Ach, kan gebeuren. U kunt tot twee dagen na de geboorte aangifte doen.",
+        "translation": "沒關係，這種事會發生。您可以在出生後兩天內辦理申報。",
+        "start": 205.78,
+        "end": 211.64
+      },
+      {
+        "text": "Dus het mag morgen ook nog, want vanmiddag zijn we gesloten.",
+        "translation": "所以明天也可以，因為今天下午我們休息。",
+        "start": 212.16,
+        "end": 215.84
+      },
+      {
+        "text": "Bent u getrouwd? Ja. Dan moet u ook het trouwboekje meenemen.",
+        "translation": "您結婚了嗎？是的。那您也必須帶結婚證書來。",
+        "start": 217.04,
+        "end": 220.62
+      },
+      {
+        "text": "Morgen zijn we tot twaalf uur open. U kunt op internet een afspraak maken.",
+        "translation": "明天我們開放到十二點。您可以在網路上預約。",
+        "start": 221.62,
+        "end": 225.94
+      },
+      {
+        "text": "Dan hoeft u niet zo lang te wachten. Kan dat niet meteen hier aan de balie?",
+        "translation": "這樣您就不必等那麼久。這裡櫃檯不能立刻辦理嗎？",
+        "start": 225.94,
+        "end": 231.08
+      },
+      {
+        "text": "Helaas, alleen online. Oké, bedankt.",
+        "translation": "很抱歉，只能線上預約。好的，謝謝您。",
+        "start": 232.2,
+        "end": 236.78
+      },
+      {
+        "text": "Mark wil de volgende keer niet zo lang wachten.",
+        "translation": "Mark下次不想等那麼久。",
+        "start": 237.92,
+        "end": 241.1
+      },
+      {
+        "text": "Wat kan hij dan het beste doen? Een afspraak maken aan de balie.",
+        "translation": "那他最好怎麼做？在櫃檯預約。",
+        "start": 242.74,
+        "end": 248.68
+      },
+      {
+        "text": "Een afspraak maken via internet.",
+        "translation": "在網路上預約。",
+        "start": 249.92,
+        "end": 252.6
+      },
+      {
+        "text": "Voor twaalf uur naar de gemeente gaan.",
+        "translation": "十二點前去市政府。",
+        "start": 253.6,
+        "end": 259.48
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat moet Mark meenemen als hij getrouwd is?",
+        "question_native": "如果Mark已經結婚，他需要帶什麼東西？",
+        "options": [
+          "Een trouwboekje",
+          "Een legitimatiebewijs",
+          "Een geboorteakte"
+        ],
+        "answer": "Een trouwboekje"
+      },
+      {
+        "question": "Hoe lang na de geboorte kan de aangifte gedaan worden?",
+        "question_native": "出生後多久內可以辦理申報？",
+        "options": [
+          "Tot twee dagen na de geboorte",
+          "Tot één week na de geboorte",
+          "Tot een maand na de geboorte"
+        ],
+        "answer": "Tot twee dagen na de geboorte"
+      },
+      {
+        "question": "Waarom kan Mark niet direct aan de balie een afspraak maken?",
+        "question_native": "為什麼Mark不能直接在櫃檯預約？",
+        "options": [
+          "Het kan alleen online",
+          "De balie is gesloten",
+          "Hij heeft zijn legitimatiebewijs niet"
+        ],
+        "answer": "Het kan alleen online"
+      },
+      {
+        "question": "Wanneer is de gemeente gesloten in de middag?",
+        "question_native": "市政府下午幾點之後關閉？",
+        "options": [
+          "Vanaf twaalf uur",
+          "Vanaf drie uur",
+          "Vanaf vijf uur"
+        ],
+        "answer": "Vanaf twaalf uur"
+      },
+      {
+        "question": "Wat is het beste advies voor Mark om niet lang te wachten?",
+        "question_native": "為了不要等太久，給Mark最好的建議是什麼？",
+        "options": [
+          "Een afspraak maken via internet",
+          "Aangifte doen zonder afspraak",
+          "Vroeg in de ochtend naar de gemeente gaan"
+        ],
+        "answer": "Een afspraak maken via internet"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "Gemeente",
+        "meaning": "市政府"
+      },
+      {
+        "word": "Aangifte doen",
+        "meaning": "申報，報告"
+      },
+      {
+        "word": "Legitimatiebewijs",
+        "meaning": "身份證件"
+      },
+      {
+        "word": "Geboorte",
+        "meaning": "出生"
+      },
+      {
+        "word": "Trouwboekje",
+        "meaning": "結婚證書"
+      },
+      {
+        "word": "Afspraak maken",
+        "meaning": "預約"
+      },
+      {
+        "word": "Balie",
+        "meaning": "櫃檯"
+      },
+      {
+        "word": "Vergeten",
+        "meaning": "忘記"
+      },
+      {
+        "word": "Open zijn",
+        "meaning": "開放"
+      },
+      {
+        "word": "Gesloten zijn",
+        "meaning": "關閉"
+      },
+      {
+        "word": "Zoon gekregen",
+        "meaning": "生兒子"
+      },
+      {
+        "word": "Terugkomen",
+        "meaning": "回來"
+      },
+      {
+        "word": "Kwijt zijn",
+        "meaning": "弄丟"
+      },
+      {
+        "word": "Dankjewel",
+        "meaning": "謝謝"
+      },
+      {
+        "word": "Vriend",
+        "meaning": "朋友"
+      }
+    ]
+  }
+}

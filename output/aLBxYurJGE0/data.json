@@ -1,0 +1,644 @@
+{
+  "video_id": "aLBxYurJGE0",
+  "video_info": {
+    "title": "Luisteren examen A2 (nieuw systeem) 7 vragen",
+    "channel": "Inburgeren examen A2",
+    "duration": 636
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Steven komt Yari tegen op straat. Ze praten met elkaar.",
+        "translation": "Steven 在街上遇見 Yari。他們彼此交談。",
+        "start": 0.0,
+        "end": 5.86
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後觀看影片。",
+        "start": 7.96,
+        "end": 11.78
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video. Lees eerst de vraag.",
+        "translation": "先讀問題，然後觀看影片。先讀問題。",
+        "start": 39.06,
+        "end": 53.84
+      },
+      {
+        "text": "Kijk daarna naar de video.",
+        "translation": "然後觀看影片。",
+        "start": 58.96,
+        "end": 60.1
+      },
+      {
+        "text": "Hoelang is Danielle zwanger?",
+        "translation": "Danielle 懷孕多久了？",
+        "start": 71.78,
+        "end": 73.52
+      },
+      {
+        "text": "Twee maanden, drie maanden, vier maanden.",
+        "translation": "兩個月、三個月、四個月。",
+        "start": 74.84,
+        "end": 78.6
+      },
+      {
+        "text": "Steven komt Yari tegen op straat. Ze praten met elkaar.",
+        "translation": "Steven 在街上遇見 Yari。他們彼此交談。",
+        "start": 85.88,
+        "end": 91.06
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後觀看影片。",
+        "start": 93.14,
+        "end": 96.88
+      },
+      {
+        "text": "Lees eerst de vraag.",
+        "translation": "先讀問題。",
+        "start": 112.78,
+        "end": 114.76
+      },
+      {
+        "text": "Kijk daarna naar de video.",
+        "translation": "然後觀看影片。",
+        "start": 119.42,
+        "end": 131.74
+      },
+      {
+        "text": "Lees eerst de vraag.",
+        "translation": "先讀問題。",
+        "start": 138.86,
+        "end": 145.78
+      },
+      {
+        "text": "Kijk daarna naar de video.",
+        "translation": "然後觀看影片。",
+        "start": 151.58,
+        "end": 154.96
+      },
+      {
+        "text": "Wanneer komt Yari eten bij Steven en Danielle?",
+        "translation": "Yari 什麼時候去 Steven 和 Danielle 家吃飯？",
+        "start": 156.62,
+        "end": 160.7
+      },
+      {
+        "text": "Woensdag. Zaterdag. Zondag.",
+        "translation": "星期三。星期六。星期日。",
+        "start": 161.52,
+        "end": 164.82
+      },
+      {
+        "text": "Steven komt Yari tegen op straat. Ze praten met elkaar.",
+        "translation": "Steven 在街上遇見 Yari。他們彼此交談。",
+        "start": 169.66,
+        "end": 175.26
+      },
+      {
+        "text": "Lees eerst de vraag. Kijk daarna naar de video.",
+        "translation": "先讀問題，然後觀看影片。",
+        "start": 177.3,
+        "end": 181.06
+      },
+      {
+        "text": "Steven en Yari praten met elkaar. Hey Yari! Hey Steven! Hoe gaat het? Heel goed.",
+        "translation": "Steven 和 Yari 互相交談。嗨 Yari！嗨 Steven！最近如何？很好。",
+        "start": 193.2,
+        "end": 197.36
+      },
+      {
+        "text": "Vertel, iets te vieren? Danielle is zwanger. We krijgen een kindje!",
+        "translation": "告訴我，有什麼要慶祝的嗎？Danielle 懷孕了。我們要有小孩了！",
+        "start": 197.8,
+        "end": 202.06
+      },
+      {
+        "text": "Wat leuk! Gefeliciteerd joh! Hoe lang is Danielle al zwanger? Drie maanden.",
+        "translation": "真棒！恭喜你！Danielle 已經懷孕多久了？三個月。",
+        "start": 202.42,
+        "end": 207.44
+      },
+      {
+        "text": "Leuk! Jullie eerste kindje. Dat moeten we vieren.",
+        "translation": "太好了！你們的第一個小孩。我們得慶祝一下。",
+        "start": 208.16,
+        "end": 210.8
+      },
+      {
+        "text": "Ja, daarom wilde ik je uitnodigen om komende zaterdag bij ons te komen eten.",
+        "translation": "是啊，所以我想邀請你這個星期六來我們家吃飯。",
+        "start": 210.8,
+        "end": 216.34
+      },
+      {
+        "text": "Een paar vriendinnen van Danielle komen ook. En ik nodig Paul ook uit.",
+        "translation": "Danielle 的幾位女性朋友也會來，我也邀請了 Paul。",
+        "start": 217.02,
+        "end": 220.84
+      },
+      {
+        "text": "Ja, leuk en hartstikke gezellig.",
+        "translation": "是啊，很棒，非常熱鬧。",
+        "start": 221.22,
+        "end": 223.12
+      },
+      {
+        "text": "Zeg, kan jij helpen klussen de aankomende tijd? Er moeten een aantal muren geschilderd worden.",
+        "translation": "說，你能在接下來一段時間幫忙修繕嗎？有幾面牆需要粉刷。",
+        "start": 224.58,
+        "end": 230.42
+      },
+      {
+        "text": "En er moet ook een nieuwe vloer komen. Tuurlijk. Geen probleem.",
+        "translation": "還有地板也需要換新。當然，沒問題。",
+        "start": 230.84,
+        "end": 234.28
+      },
+      {
+        "text": "Top! Dan zie ik je zaterdag. Tot dan!",
+        "translation": "太好了！那星期六見。到時見！",
+        "start": 235.04,
+        "end": 237.3
+      },
+      {
+        "text": "Wat vraagt Steven aan Yari? Of hij een kinderbedje wil maken.",
+        "translation": "Steven 問 Yari 什麼？他是否想要做一張嬰兒床。",
+        "start": 240.8,
+        "end": 246.02
+      },
+      {
+        "text": "Of hij wil komen klussen. Of hij wil helpen bij het koken.",
+        "translation": "他是否想來幫忙修繕。他是否想幫忙做飯。",
+        "start": 247.18,
+        "end": 251.52
+      },
+      {
+        "text": "Hassan kijkt naar filmpjes op internet.",
+        "translation": "Hassan 在網路上看影片。",
+        "start": 257.84,
+        "end": 260.32
+      },
+      {
+        "text": "Hij ziet een filmpje van een bedrijf. Lees eerst de vraag.",
+        "translation": "他看到一家公司拍的影片。先讀問題。",
+        "start": 261.78,
+        "end": 266.72
+      },
+      {
+        "text": "Kijk daarna naar de video.",
+        "translation": "然後觀看影片。",
+        "start": 268.06,
+        "end": 269.42
+      },
+      {
+        "text": "Kijk daarna naar de video.",
+        "translation": "然後觀看影片。",
+        "start": 278.52,
+        "end": 280.12
+      },
+      {
+        "text": "Kijk daarna naar de video. Zoek jij werk?",
+        "translation": "然後觀看影片。你在找工作嗎？",
+        "start": 284.5,
+        "end": 287.74
+      },
+      {
+        "text": "Wil je met leuke collega's werken? Vind je lekkere en gezonde snacks ook belangrijk?",
+        "translation": "你想和友善的同事一起工作嗎？你是否也重視美味又健康的零食？",
+        "start": 288.86,
+        "end": 294.18
+      },
+      {
+        "text": "Dan pas jij precies bij ons bedrijf. Wij verkopen allerlei soorten noten.",
+        "translation": "那你非常適合我們公司。我們販售各種堅果。",
+        "start": 294.8,
+        "end": 299.52
+      },
+      {
+        "text": "Die noten komen uit veel verschillende landen over de hele wereld.",
+        "translation": "這些堅果來自世界各地不同國家。",
+        "start": 300.42,
+        "end": 304.48
+      },
+      {
+        "text": "Zuid-Amerika. Azië. Afrika.",
+        "translation": "南美洲。亞洲。非洲。",
+        "start": 305.9,
+        "end": 308.98
+      },
+      {
+        "text": "Het zijn echte wereldnotjes. In Nederland verwerken en verpakken we de noten in de fabriek.",
+        "translation": "這些是真正的世界堅果。我們在荷蘭工廠處理和包裝這些堅果。",
+        "start": 309.5,
+        "end": 314.86
+      },
+      {
+        "text": "Daarna gaan ze naar verschillende supermarkten. We zoeken twee mensen voor in het magazijn.",
+        "translation": "然後它們會送到不同的超市。我們正在尋找兩個倉庫人員。",
+        "start": 316.26,
+        "end": 321.82
+      },
+      {
+        "text": "Drie chauffeurs. En vijf mensen die in de fabriek willen werken.",
+        "translation": "三個司機和五個想在工廠工作的人。",
+        "start": 323.56,
+        "end": 328.26
+      },
+      {
+        "text": "Wil jij bij ons komen werken? Bel dan naar kantoor.",
+        "translation": "你想來我們公司工作嗎？請打電話到辦公室。",
+        "start": 328.26,
+        "end": 332.34
+      },
+      {
+        "text": "Bel 018-365-4481.",
+        "translation": "電話號碼是018-365-4481。",
+        "start": 333.36,
+        "end": 337.9
+      },
+      {
+        "text": "Waarom noemt de man Zuid-Amerika, Azië en Afrika?",
+        "translation": "為什麼男子提到南美洲、亞洲和非洲？",
+        "start": 345.56,
+        "end": 350.38
+      },
+      {
+        "text": "Daar staan de fabrieken van het bedrijf.",
+        "translation": "那裡是公司的工廠所在地。",
+        "start": 351.06,
+        "end": 357.04
+      },
+      {
+        "text": "Daar worden de snacks van het bedrijf verkocht.",
+        "translation": "那裡是公司零食的販售地點。",
+        "start": 357.04,
+        "end": 360.56
+      },
+      {
+        "text": "Daar groeien de noten die het bedrijf gebruikt.",
+        "translation": "那裡是公司使用的堅果生長地。",
+        "start": 366.44,
+        "end": 368.92
+      },
+      {
+        "text": "Hassan kijkt naar filmpjes op internet.",
+        "translation": "Hassan 在網路上看影片。",
+        "start": 370.42,
+        "end": 375.5
+      },
+      {
+        "text": "Hij ziet een filmpje van een bedrijf. Lees eerst de vraag.",
+        "translation": "他看到一家公司拍的影片。先讀問題。",
+        "start": 376.62,
+        "end": 378.0
+      },
+      {
+        "text": "Kijk daarna naar de video.",
+        "translation": "然後觀看影片。",
+        "start": 395.16,
+        "end": 399.04
+      },
+      {
+        "text": "Zoek jij werk? Wil je met leuke collega's werken?",
+        "translation": "你在找工作嗎？你想和友善的同事一起工作嗎？",
+        "start": 399.96,
+        "end": 405.62
+      },
+      {
+        "text": "Wij verkopen allerlei soorten noten.",
+        "translation": "我們販售各種不同的堅果。",
+        "start": 406.3,
+        "end": 408.12
+      },
+      {
+        "text": "Die noten komen uit veel verschillende landen over de hele wereld.",
+        "translation": "這些堅果來自全球許多不同國家。",
+        "start": 409.26,
+        "end": 413.02
+      },
+      {
+        "text": "Zuid-Amerika, Azië, Afrika.",
+        "translation": "南美洲、亞洲、非洲。",
+        "start": 413.98,
+        "end": 417.48
+      },
+      {
+        "text": "Het zijn echte wereldnotjes. In Nederland verwerken en verpakken we de notjes in de fabriek.",
+        "translation": "這些是真正的世界堅果。我們在荷蘭的工廠加工並包裝這些堅果。",
+        "start": 418.1,
+        "end": 423.48
+      },
+      {
+        "text": "Daarna gaan ze naar verschillende supermarkten. We zoeken twee mensen voor in het magazijn.",
+        "translation": "之後它們會被送到不同的超市。我們正在尋找兩位倉庫人員。",
+        "start": 424.82,
+        "end": 430.36
+      },
+      {
+        "text": "Drie chauffeurs. En vijf mensen die in de fabriek willen werken.",
+        "translation": "三位司機。以及五位想在工廠工作的員工。",
+        "start": 432.12,
+        "end": 436.86
+      },
+      {
+        "text": "Wil jij bij ons komen werken? Bel dan naar kantoor.",
+        "translation": "你想來我們這裡工作嗎？那就打電話到辦公室。",
+        "start": 437.82,
+        "end": 440.88
+      },
+      {
+        "text": "Bel 018-365-4481.",
+        "translation": "電話：018-365-4481。",
+        "start": 440.88,
+        "end": 446.88
+      },
+      {
+        "text": "Aan wie verkoopt het bedrijf de notjes?",
+        "translation": "這家公司把堅果賣給誰？",
+        "start": 453.26,
+        "end": 455.66
+      },
+      {
+        "text": "Aan supermarkten, aan scholen, aan restaurants.",
+        "translation": "賣給超市、學校和餐廳。",
+        "start": 456.5,
+        "end": 460.44
+      },
+      {
+        "text": "Julio volgt een cursus Nederlands.",
+        "translation": "胡里奧正在上荷蘭語課程。",
+        "start": 466.56,
+        "end": 470.64
+      },
+      {
+        "text": "Hij hoort een omroepbericht. Lees eerst de vraag.",
+        "translation": "他聽到一則廣播通知。請先閱讀問題。",
+        "start": 472.46,
+        "end": 477.74
+      },
+      {
+        "text": "Luister daarna naar de tekst.",
+        "translation": "然後聽取內容。",
+        "start": 478.94,
+        "end": 480.7
+      },
+      {
+        "text": "Informatie over nieuwe cursussen. Volgende week starten de nieuwe cursussen.",
+        "translation": "關於新課程的資訊。新課程將於下週開始。",
+        "start": 493.76,
+        "end": 499.52
+      },
+      {
+        "text": "De cursus Nederlands 3 zit bijna vol. Er zijn nog twee plaatsen.",
+        "translation": "荷蘭語3課程幾乎滿額，只剩兩個名額。",
+        "start": 500.62,
+        "end": 506.56
+      },
+      {
+        "text": "Komt u om 1 uur naar lokaal 15 als u deze cursus wilt volgen.",
+        "translation": "如果您想上這門課，請於下午1點到15教室。",
+        "start": 508.04,
+        "end": 512.22
+      },
+      {
+        "text": "Voor Nederlands 2 maken we een nieuwe groep. Daar zijn nog voldoende plaatsen.",
+        "translation": "我們正在為荷蘭語2組成新班，還有足夠名額。",
+        "start": 514.22,
+        "end": 519.44
+      },
+      {
+        "text": "U kunt zich hiervoor inschrijven om half 2 in lokaal 5.",
+        "translation": "您可以於下午1點半在5教室報名。",
+        "start": 519.44,
+        "end": 524.44
+      },
+      {
+        "text": "Einde bericht.",
+        "translation": "通知結束。",
+        "start": 525.78,
+        "end": 526.38
+      },
+      {
+        "text": "Julio wil de cursus Nederlands 3 volgen.",
+        "translation": "胡里奧想參加荷蘭語3課程。",
+        "start": 528.64,
+        "end": 532.52
+      },
+      {
+        "text": "Hoeveel plaatsen zijn er nog?",
+        "translation": "還有多少名額？",
+        "start": 534.04,
+        "end": 535.98
+      },
+      {
+        "text": "1, 2, 3, geen.",
+        "translation": "1、2、3，沒有了。",
+        "start": 537.04,
+        "end": 540.66
+      },
+      {
+        "text": "De cursus is vol.",
+        "translation": "課程已滿。",
+        "start": 541.24,
+        "end": 542.8
+      },
+      {
+        "text": "Julio volgt een cursus Nederlands.",
+        "translation": "胡里奧正在上荷蘭語課程。",
+        "start": 549.44,
+        "end": 553.22
+      },
+      {
+        "text": "Hij hoort een omroepbericht. Lees eerst de vraag.",
+        "translation": "他聽到一則廣播通知。請先閱讀問題。",
+        "start": 555.02,
+        "end": 560.34
+      },
+      {
+        "text": "Luister daarna naar de tekst.",
+        "translation": "然後聽取內容。",
+        "start": 561.58,
+        "end": 563.34
+      },
+      {
+        "text": "Volgende week starten de nieuwe cursussen.",
+        "translation": "新課程將於下週開始。",
+        "start": 579.44,
+        "end": 582.1
+      },
+      {
+        "text": "De cursus Nederlands 3 zit bijna vol. Er zijn nog twee plaatsen.",
+        "translation": "荷蘭語3課程幾乎滿額，只剩兩個名額。",
+        "start": 583.18,
+        "end": 588.96
+      },
+      {
+        "text": "Komt u om 1 uur naar lokaal 15 als u deze cursus wilt volgen.",
+        "translation": "如果您想上這門課，請於下午1點到15教室。",
+        "start": 590.6,
+        "end": 594.8
+      },
+      {
+        "text": "Voor Nederlands 2 maken we een nieuwe groep. Daar zijn nog voldoende plaatsen.",
+        "translation": "我們正在為荷蘭語2組成新班，還有足夠名額。",
+        "start": 596.78,
+        "end": 602.06
+      },
+      {
+        "text": "U kunt zich hiervoor inschrijven om half 2 in lokaal 5.",
+        "translation": "您可以於下午1點半在5教室報名。",
+        "start": 602.86,
+        "end": 607.34
+      },
+      {
+        "text": "Einde bericht.",
+        "translation": "通知結束。",
+        "start": 607.34,
+        "end": 608.96
+      },
+      {
+        "text": "Julio wil de cursus Nederlands 3 volgen.",
+        "translation": "胡里奧想參加荷蘭語3課程。",
+        "start": 611.2,
+        "end": 614.94
+      },
+      {
+        "text": "Waar kan hij zich aanmelden?",
+        "translation": "他可以在哪裡報名？",
+        "start": 616.5,
+        "end": 617.98
+      },
+      {
+        "text": "In lokaal 1, in lokaal 2.",
+        "translation": "在1教室，在2教室。",
+        "start": 618.9,
+        "end": 623.14
+      },
+      {
+        "text": "In lokaal 5, in lokaal 15.",
+        "translation": "在5教室，在15教室。",
+        "start": 624.16,
+        "end": 628.2
+      }
+    ],
+    "questions": [
+      {
+        "question": "Waarom wil Steven Yari uitnodigen?",
+        "question_native": "為什麼 Steven 想邀請 Yari？",
+        "options": [
+          "Omdat ze een feestje hebben.",
+          "Omdat Danielle zwanger is.",
+          "Omdat hij hulp nodig heeft met koken."
+        ],
+        "answer": "Omdat Danielle zwanger is."
+      },
+      {
+        "question": "Hoe lang is Danielle zwanger?",
+        "question_native": "Danielle 懷孕多久了？",
+        "options": [
+          "Twee maanden",
+          "Drie maanden",
+          "Vier maanden"
+        ],
+        "answer": "Drie maanden"
+      },
+      {
+        "question": "Wat voor werk zoekt het bedrijf?",
+        "question_native": "公司在找什麼樣的工作？",
+        "options": [
+          "Mensen voor het magazijn, chauffeurs, en fabriekpersoneel",
+          "Slechts koks",
+          "Alleen administratief personeel"
+        ],
+        "answer": "Mensen voor het magazijn, chauffeurs, en fabriekpersoneel"
+      },
+      {
+        "question": "Waar komen de noten vandaan volgens de video?",
+        "question_native": "根據影片，堅果來自哪裡？",
+        "options": [
+          "Zuid-Amerika, Azië en Afrika",
+          "Europa en Noord-Amerika",
+          "Alleen Azië"
+        ],
+        "answer": "Zuid-Amerika, Azië en Afrika"
+      },
+      {
+        "question": "Wat moet er in het huis gedaan worden?",
+        "question_native": "家裡需要做什麼？",
+        "options": [
+          "Muren schilderen en een nieuwe vloer leggen",
+          "De tuin onderhouden",
+          "Nieuwe meubels kopen"
+        ],
+        "answer": "Muren schilderen en een nieuwe vloer leggen"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "zwanger",
+        "meaning": "懷孕的"
+      },
+      {
+        "word": "uitnodigen",
+        "meaning": "邀請"
+      },
+      {
+        "word": "klussen",
+        "meaning": "修繕工作"
+      },
+      {
+        "word": "magazijn",
+        "meaning": "倉庫"
+      },
+      {
+        "word": "fabriek",
+        "meaning": "工廠"
+      },
+      {
+        "word": "snacks",
+        "meaning": "零食"
+      },
+      {
+        "word": "noten",
+        "meaning": "堅果"
+      },
+      {
+        "word": "verwerken",
+        "meaning": "加工"
+      },
+      {
+        "word": "verpakken",
+        "meaning": "包裝"
+      },
+      {
+        "word": "supermarkt",
+        "meaning": "超市"
+      },
+      {
+        "word": "chauffeur",
+        "meaning": "司機"
+      },
+      {
+        "word": "muur",
+        "meaning": "牆壁"
+      },
+      {
+        "word": "vloer",
+        "meaning": "地板"
+      },
+      {
+        "word": "collega",
+        "meaning": "同事"
+      },
+      {
+        "word": "vraag",
+        "meaning": "問題"
+      }
+    ]
+  }
+}

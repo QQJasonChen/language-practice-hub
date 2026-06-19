@@ -1,0 +1,1158 @@
+{
+  "video_id": "_--osX9sKB8",
+  "video_info": {
+    "title": "100 Dutch Sentences to Practice for the Listening Exam",
+    "channel": "Inburgeren examen A2",
+    "duration": 1188
+  },
+  "lang": "nl",
+  "native": "zh-TW",
+  "ai_data": {
+    "segments": [
+      {
+        "text": "Dit meisje eet. Zij vindt het eten lekker.",
+        "translation": "這個女孩在吃飯。她覺得食物很好吃。",
+        "start": 1.48,
+        "end": 5.48
+      },
+      {
+        "text": "Dit meisje eet niet. Ze vindt het eten niet lekker.",
+        "translation": "這個女孩不吃。她覺得食物不好吃。",
+        "start": 8.36,
+        "end": 12.5
+      },
+      {
+        "text": "Dit meisje eet niet. Zij vindt het eten niet lekker.",
+        "translation": "這個女孩不吃。她覺得食物不好吃。",
+        "start": 14.42,
+        "end": 18.76
+      },
+      {
+        "text": "Dit jongetje eet ook niet. Hij vindt het eten niet lekker.",
+        "translation": "這個男孩也不吃。他覺得食物不好吃。",
+        "start": 22.48,
+        "end": 27.28
+      },
+      {
+        "text": "Dit jongetje eet ook niet.",
+        "translation": "這個男孩也不吃。",
+        "start": 28.52,
+        "end": 31.34
+      },
+      {
+        "text": "Hij vindt het eten niet lekker.",
+        "translation": "他覺得食物不好吃。",
+        "start": 32.42,
+        "end": 34.58
+      },
+      {
+        "text": "Dit jongetje eet wel. Hij vindt het eten wel lekker.",
+        "translation": "這個男孩吃。他覺得食物很好吃。",
+        "start": 36.64,
+        "end": 42.24
+      },
+      {
+        "text": "Dit jongetje eet wel. Hij vindt het eten wel lekker.",
+        "translation": "這個男孩吃。他覺得食物很好吃。",
+        "start": 44.24,
+        "end": 49.76
+      },
+      {
+        "text": "Het jongetje zegt: \"Mama, ik ben klaar.\"",
+        "translation": "男孩說：「媽媽，我吃完了。」",
+        "start": 51.98,
+        "end": 56.1
+      },
+      {
+        "text": "Het jongetje zegt: \"Mama, ik ben klaar.\"",
+        "translation": "男孩說：「媽媽，我吃完了。」",
+        "start": 58.5,
+        "end": 62.6
+      },
+      {
+        "text": "De moeder van het jongetje zegt: \"Nee hoor, ik zie nog champignons.\"",
+        "translation": "男孩的媽媽說：「不，你還有蘑菇沒吃喔。」",
+        "start": 65.44,
+        "end": 70.26
+      },
+      {
+        "text": "De moeder van het jongetje zegt: \"Nee hoor, ik zie nog champignons.\"",
+        "translation": "男孩的媽媽說：「不，你還有蘑菇沒吃喔。」",
+        "start": 71.84,
+        "end": 78.22
+      },
+      {
+        "text": "Het jongetje zegt: \"Ik vind champignons vies.\"",
+        "translation": "男孩說：「我覺得蘑菇很噁心。」",
+        "start": 80.22,
+        "end": 84.42
+      },
+      {
+        "text": "Het jongetje zegt: \"Ik vind champignons vies.\"",
+        "translation": "男孩說：「我覺得蘑菇很噁心。」",
+        "start": 86.48,
+        "end": 90.62
+      },
+      {
+        "text": "Champignons zijn lekker. Eten.",
+        "translation": "蘑菇很好吃。吃吧。",
+        "start": 92.82,
+        "end": 95.96
+      },
+      {
+        "text": "Champignons zijn lekker. Eten.",
+        "translation": "蘑菇很好吃。吃吧。",
+        "start": 98.6,
+        "end": 101.44
+      },
+      {
+        "text": "Nee. Nee.",
+        "translation": "不要。不要。",
+        "start": 103.88,
+        "end": 109.5
+      },
+      {
+        "text": "Eten of je gaat naar bed.",
+        "translation": "吃飯，不然你要去睡覺。",
+        "start": 112.16,
+        "end": 114.24
+      },
+      {
+        "text": "Eten of je gaat naar bed.",
+        "translation": "吃飯，不然你要去睡覺。",
+        "start": 116.56,
+        "end": 119.2
+      },
+      {
+        "text": "Bah, ik vind champignons vies.",
+        "translation": "噁，我覺得蘑菇很噁心。",
+        "start": 122.24,
+        "end": 125.54
+      },
+      {
+        "text": "Bah, ik vind champignons vies.",
+        "translation": "噁，我覺得蘑菇很噁心。",
+        "start": 126.62,
+        "end": 130.74
+      },
+      {
+        "text": "Naar bed. Naar bed.",
+        "translation": "去睡覺。去睡覺。",
+        "start": 133.74,
+        "end": 138.5
+      },
+      {
+        "text": "Dit is een bord. Dit is een bord.",
+        "translation": "這是一個盤子。這是一個盤子。",
+        "start": 141.76,
+        "end": 147.42
+      },
+      {
+        "text": "Dit is een lepel. Dit is een lepel.",
+        "translation": "這是一把湯匙。這是一把湯匙。",
+        "start": 149.88,
+        "end": 155.36
+      },
+      {
+        "text": "Dit is een mes.",
+        "translation": "這是一把刀子。",
+        "start": 156.32,
+        "end": 159.22
+      },
+      {
+        "text": "Dit is een mes.",
+        "translation": "這是一把刀子。",
+        "start": 161.32,
+        "end": 162.5
+      },
+      {
+        "text": "Dit is een vork. Dit is een vork.",
+        "translation": "這是一把叉子。這是一把叉子。",
+        "start": 165.34,
+        "end": 170.56
+      },
+      {
+        "text": "De ober zet het bord op tafel.",
+        "translation": "服務生把盤子放在桌上。",
+        "start": 173.08,
+        "end": 176.28
+      },
+      {
+        "text": "De ober zet het bord op tafel.",
+        "translation": "服務生把盤子放在桌上。",
+        "start": 177.32,
+        "end": 181.12
+      },
+      {
+        "text": "De ober legt de lepel op tafel.",
+        "translation": "服務生把湯匙放在桌上。",
+        "start": 183.72,
+        "end": 186.8
+      },
+      {
+        "text": "De ober legt de lepel op tafel.",
+        "translation": "服務生把湯匙放在桌上。",
+        "start": 188.42,
+        "end": 191.84
+      },
+      {
+        "text": "De ober legt het mes op tafel.",
+        "translation": "服務生把刀子放在桌上。",
+        "start": 193.84,
+        "end": 196.62
+      },
+      {
+        "text": "De ober legt het mes op tafel.",
+        "translation": "服務生把刀子放在桌上。",
+        "start": 198.32,
+        "end": 201.18
+      },
+      {
+        "text": "De ober legt de vork op tafel.",
+        "translation": "服務生把叉子放在桌上。",
+        "start": 202.66,
+        "end": 206.88
+      },
+      {
+        "text": "De ober legt de vork op tafel.",
+        "translation": "服務生把叉子放在桌上。",
+        "start": 207.8,
+        "end": 210.76
+      },
+      {
+        "text": "Een vrouw roept: \"Ober.\" Een vrouw roept: \"Ober.\"",
+        "translation": "一位女士喊道：「服務生。」一位女士喊道：「服務生。」",
+        "start": 212.24,
+        "end": 218.04
+      },
+      {
+        "text": "De vrouw zegt: \"Ober, mag ik een koffie?\"",
+        "translation": "女士說：「服務生，我可以要一杯咖啡嗎？」",
+        "start": 220.44,
+        "end": 224.0
+      },
+      {
+        "text": "Ze bestelt koffie.",
+        "translation": "她點了一杯咖啡。",
+        "start": 224.62,
+        "end": 225.6
+      },
+      {
+        "text": "De ober brengt de koffie.",
+        "translation": "服務生送來咖啡。",
+        "start": 234.76,
+        "end": 238.06
+      },
+      {
+        "text": "De ober brengt de koffie.",
+        "translation": "服務生送來咖啡。",
+        "start": 241.4,
+        "end": 243.76
+      },
+      {
+        "text": "Hij zet de koffie op de tafel van de vrouw.",
+        "translation": "他把咖啡放在女士的桌上。",
+        "start": 248.32,
+        "end": 251.32
+      },
+      {
+        "text": "Hij zet de koffie op de tafel van de vrouw.",
+        "translation": "他把咖啡放在女士的桌上。",
+        "start": 254.8,
+        "end": 260.02
+      },
+      {
+        "text": "Een man roept: \"Ober.\"",
+        "translation": "一位男士喊道：「服務生。」",
+        "start": 264.7,
+        "end": 267.12
+      },
+      {
+        "text": "Een man roept: \"Ober.\"",
+        "translation": "一位男士喊道：「服務生。」",
+        "start": 269.84,
+        "end": 272.26
+      },
+      {
+        "text": "De man zegt: \"Ober, mag ik een koffie?\" Hij bestelt koffie.",
+        "translation": "男士說：「服務生，我可以要一杯咖啡嗎？」他點了一杯咖啡。",
+        "start": 274.46,
+        "end": 279.7
+      },
+      {
+        "text": "De man zegt: \"Ober, mag ik een koffie?\"",
+        "translation": "男士說：「服務生，我可以要一杯咖啡嗎？」",
+        "start": 280.7,
+        "end": 284.46
+      },
+      {
+        "text": "Hij bestelt koffie.",
+        "translation": "他點了一杯咖啡。",
+        "start": 285.5,
+        "end": 291.1
+      },
+      {
+        "text": "De ober brengt de koffie.",
+        "translation": "服務生送來咖啡。",
+        "start": 293.58,
+        "end": 295.82
+      },
+      {
+        "text": "De ober brengt de koffie.",
+        "translation": "服務生送來咖啡。",
+        "start": 298.6,
+        "end": 301.58
+      },
+      {
+        "text": "Hij zet de koffie op de tafel van de man.",
+        "translation": "他把咖啡放在男士的桌上。",
+        "start": 303.16,
+        "end": 307.26
+      },
+      {
+        "text": "De man roept ober.",
+        "translation": "那個男人叫服務員。",
+        "start": 308.26,
+        "end": 311.52
+      },
+      {
+        "text": "De man roept ober.",
+        "translation": "那個男人叫服務員。",
+        "start": 313.26,
+        "end": 315.56
+      },
+      {
+        "text": "De man zegt: 'Ober, mag ik brood?' Hij bestelt brood.",
+        "translation": "那個男人說：「服務員，我可以要麵包嗎？」他點了麵包。",
+        "start": 318.12,
+        "end": 322.96
+      },
+      {
+        "text": "De man zegt: 'Ober, mag ik brood?' Hij bestelt brood.",
+        "translation": "那個男人說：「服務員，我可以要麵包嗎？」他點了麵包。",
+        "start": 323.66,
+        "end": 328.22
+      },
+      {
+        "text": "De ober brengt brood.",
+        "translation": "服務員端來了麵包。",
+        "start": 329.98,
+        "end": 333.02
+      },
+      {
+        "text": "De ober brengt brood.",
+        "translation": "服務員端來了麵包。",
+        "start": 334.68,
+        "end": 337.54
+      },
+      {
+        "text": "Hij zet het brood op de tafel van de man.",
+        "translation": "他把麵包放在那個男人的桌子上。",
+        "start": 339.88,
+        "end": 342.84
+      },
+      {
+        "text": "Hij zet het brood op de tafel van de man.",
+        "translation": "他把麵包放在那個男人的桌子上。",
+        "start": 344.4,
+        "end": 348.4
+      },
+      {
+        "text": "Een andere man roept ober.",
+        "translation": "另一個男人叫服務員。",
+        "start": 350.34,
+        "end": 352.6
+      },
+      {
+        "text": "Een andere man roept ober.",
+        "translation": "另一個男人叫服務員。",
+        "start": 354.28,
+        "end": 357.18
+      },
+      {
+        "text": "De man zegt: 'Ik wil graag een biefstuk met patat.'",
+        "translation": "那個男人說：「我想要一份牛排配薯條。」",
+        "start": 359.12,
+        "end": 363.3
+      },
+      {
+        "text": "De man bestelt een biefstuk met patat.",
+        "translation": "那個男人點了一份牛排配薯條。",
+        "start": 364.06,
+        "end": 366.18
+      },
+      {
+        "text": "De man zegt: 'Ik wil graag een biefstuk met patat.'",
+        "translation": "那個男人說：「我想要一份牛排配薯條。」",
+        "start": 367.96,
+        "end": 372.38
+      },
+      {
+        "text": "De man bestelt een biefstuk met patat.",
+        "translation": "那個男人點了一份牛排配薯條。",
+        "start": 373.24,
+        "end": 376.14
+      },
+      {
+        "text": "De ober brengt de biefstuk met patat.",
+        "translation": "服務員端來了牛排配薯條。",
+        "start": 378.98,
+        "end": 382.18
+      },
+      {
+        "text": "De ober brengt de biefstuk met patat.",
+        "translation": "服務員端來了牛排配薯條。",
+        "start": 383.76,
+        "end": 388.36
+      },
+      {
+        "text": "Hij zet de biefstuk op de tafel van de man.",
+        "translation": "他把牛排放在那個男人的桌子上。",
+        "start": 391.32,
+        "end": 394.36
+      },
+      {
+        "text": "Hij zet de biefstuk op de tafel van de man.",
+        "translation": "他把牛排放在那個男人的桌子上。",
+        "start": 396.48,
+        "end": 400.96
+      },
+      {
+        "text": "Een andere man roept ober.",
+        "translation": "另一個男人叫服務員。",
+        "start": 404.38,
+        "end": 407.7
+      },
+      {
+        "text": "Een andere man roept ober.",
+        "translation": "另一個男人叫服務員。",
+        "start": 410.48,
+        "end": 413.78
+      },
+      {
+        "text": "De man zegt: 'Ober, mag ik een glas water?'",
+        "translation": "那個男人說：「服務員，我可以要一杯水嗎？」",
+        "start": 418.84,
+        "end": 422.26
+      },
+      {
+        "text": "De man bestelt een glas water.",
+        "translation": "那個男人點了一杯水。",
+        "start": 423.12,
+        "end": 424.7
+      },
+      {
+        "text": "De man zegt: 'Ober, mag ik een glas water?'",
+        "translation": "那個男人說：「服務員，我可以要一杯水嗎？」",
+        "start": 427.88,
+        "end": 432.06
+      },
+      {
+        "text": "De man bestelt een glas water.",
+        "translation": "那個男人點了一杯水。",
+        "start": 432.72,
+        "end": 435.24
+      },
+      {
+        "text": "De ober brengt het glas water.",
+        "translation": "服務員端來了那杯水。",
+        "start": 437.26,
+        "end": 441.12
+      },
+      {
+        "text": "De ober brengt het glas water.",
+        "translation": "服務員端來了那杯水。",
+        "start": 443.12,
+        "end": 445.9
+      },
+      {
+        "text": "Hij zet het glas op de tafel van de man.",
+        "translation": "他把杯子放在那個男人的桌子上。",
+        "start": 448.22,
+        "end": 450.88
+      },
+      {
+        "text": "Hij zet het glas op de tafel van de man.",
+        "translation": "他把杯子放在那個男人的桌子上。",
+        "start": 452.12,
+        "end": 455.82
+      },
+      {
+        "text": "Dit is een potlood. Het potlood ligt op tafel.",
+        "translation": "這是一支鉛筆。鉛筆放在桌上。",
+        "start": 457.62,
+        "end": 461.62
+      },
+      {
+        "text": "Dit is een potlood. Het potlood ligt op tafel.",
+        "translation": "這是一支鉛筆。鉛筆放在桌上。",
+        "start": 462.62,
+        "end": 467.5
+      },
+      {
+        "text": "Dit is een glas. Het glas staat op tafel.",
+        "translation": "這是一個玻璃杯。玻璃杯放在桌上。",
+        "start": 469.6,
+        "end": 474.16
+      },
+      {
+        "text": "Dit is een glas. Het glas staat op tafel.",
+        "translation": "這是一個玻璃杯。玻璃杯放在桌上。",
+        "start": 477.1,
+        "end": 482.9
+      },
+      {
+        "text": "Het glas staat naast het potlood.",
+        "translation": "玻璃杯放在鉛筆旁邊。",
+        "start": 485.9,
+        "end": 488.78
+      },
+      {
+        "text": "Het glas staat naast het potlood.",
+        "translation": "玻璃杯放在鉛筆旁邊。",
+        "start": 490.58,
+        "end": 497.66
+      },
+      {
+        "text": "Het potlood ligt naast het glas.",
+        "translation": "鉛筆放在玻璃杯旁邊。",
+        "start": 499.96,
+        "end": 502.52
+      },
+      {
+        "text": "Het potlood ligt naast het glas.",
+        "translation": "鉛筆放在玻璃杯旁邊。",
+        "start": 504.44,
+        "end": 507.28
+      },
+      {
+        "text": "Het pak melk staat naast het glas melk.",
+        "translation": "牛奶盒放在牛奶杯旁邊。",
+        "start": 509.94,
+        "end": 514.3
+      },
+      {
+        "text": "Het pak melk staat naast het glas melk.",
+        "translation": "牛奶盒放在牛奶杯旁邊。",
+        "start": 515.42,
+        "end": 520.66
+      },
+      {
+        "text": "Het kopje staat naast het potlood.",
+        "translation": "杯子放在鉛筆旁邊。",
+        "start": 523.64,
+        "end": 526.3
+      },
+      {
+        "text": "Het kopje staat naast het potlood.",
+        "translation": "杯子放在鉛筆旁邊。",
+        "start": 529.04,
+        "end": 532.66
+      },
+      {
+        "text": "Het potlood ligt naast het kopje.",
+        "translation": "鉛筆放在杯子旁邊。",
+        "start": 535.52,
+        "end": 538.3
+      },
+      {
+        "text": "Het potlood ligt naast het kopje.",
+        "translation": "鉛筆放在杯子旁邊。",
+        "start": 540.76,
+        "end": 545.08
+      },
+      {
+        "text": "Het potlood ligt naast het bord.",
+        "translation": "鉛筆放在盤子旁邊。",
+        "start": 548.22,
+        "end": 551.3
+      },
+      {
+        "text": "Het potlood ligt naast het bord.",
+        "translation": "鉛筆放在盤子旁邊。",
+        "start": 552.94,
+        "end": 555.62
+      },
+      {
+        "text": "De lepel ligt op het bord.",
+        "translation": "湯匙放在盤子上。",
+        "start": 558.82,
+        "end": 561.28
+      },
+      {
+        "text": "De lepel ligt op het bord.",
+        "translation": "湯匙放在盤子上。",
+        "start": 563.18,
+        "end": 565.78
+      },
+      {
+        "text": "De doos staat op tafel.",
+        "translation": "盒子放在桌上。",
+        "start": 567.12,
+        "end": 571.46
+      },
+      {
+        "text": "De doos staat op tafel.",
+        "translation": "盒子放在桌上。",
+        "start": 573.4,
+        "end": 575.76
+      },
+      {
+        "text": "De doos staat onder de tafel.",
+        "translation": "盒子放在桌子下面。",
+        "start": 577.66,
+        "end": 580.5
+      },
+      {
+        "text": "De doos staat onder de tafel.",
+        "translation": "盒子放在桌子下面。",
+        "start": 582.3,
+        "end": 585.02
+      },
+      {
+        "text": "Het potlood ligt onder de tafel.",
+        "translation": "鉛筆放在桌子下面。",
+        "start": 587.7,
+        "end": 590.58
+      },
+      {
+        "text": "Het potlood ligt onder de tafel.",
+        "translation": "鉛筆放在桌子下面。",
+        "start": 591.66,
+        "end": 595.92
+      },
+      {
+        "text": "De vrouw zit naast de man.",
+        "translation": "那位女士坐在那位男士旁邊。",
+        "start": 597.92,
+        "end": 599.92
+      },
+      {
+        "text": "De man zit naast de vrouw.",
+        "translation": "那位男士坐在那位女士旁邊。",
+        "start": 607.9,
+        "end": 610.78
+      },
+      {
+        "text": "De man zit naast de vrouw.",
+        "translation": "那位男士坐在那位女士旁邊。",
+        "start": 613.74,
+        "end": 617.7
+      },
+      {
+        "text": "Het meisje legt een potlood naast een ander potlood.",
+        "translation": "那個女孩把鉛筆放在另一支鉛筆旁邊。",
+        "start": 619.8,
+        "end": 623.78
+      },
+      {
+        "text": "6",
+        "translation": "",
+        "start": 632.34,
+        "end": 633.62
+      },
+      {
+        "text": "Het meisje zet een soepkom naast een andere soepkom.",
+        "translation": "女孩把湯碗放在另一個湯碗旁邊。",
+        "start": 635.74,
+        "end": 645.92
+      },
+      {
+        "text": "De ober legt een menukaart op de tafel van de man.",
+        "translation": "服務生把菜單放在男士的桌上。",
+        "start": 648.64,
+        "end": 652.88
+      },
+      {
+        "text": "De ober legt een vork naast de lepel en het mes.",
+        "translation": "服務生把叉子放在湯匙和刀子旁邊。",
+        "start": 663.02,
+        "end": 666.64
+      },
+      {
+        "text": "De ober legt de vork naast het bord.",
+        "translation": "服務生把叉子放在盤子旁邊。",
+        "start": 677.04,
+        "end": 681.0
+      },
+      {
+        "text": "10",
+        "translation": "",
+        "start": 689.56,
+        "end": 690.56
+      },
+      {
+        "text": "De ober zet een glas water naast de vork.",
+        "translation": "服務生把一杯水放在叉子旁邊。",
+        "start": 691.66,
+        "end": 701.1
+      },
+      {
+        "text": "De moeder zet een bord met vlees op tafel.",
+        "translation": "媽媽把一盤肉放在桌上。",
+        "start": 703.28,
+        "end": 706.9
+      },
+      {
+        "text": "Ze roept: \"Komen, het eten is klaar.\"",
+        "translation": "她喊道：「來吃飯了，飯好了。」",
+        "start": 717.82,
+        "end": 729.98
+      },
+      {
+        "text": "De hond komt de kamer binnen.",
+        "translation": "狗走進房間。",
+        "start": 731.02,
+        "end": 736.96
+      },
+      {
+        "text": "De hond ziet het vlees, de hond vindt het vlees lekker.",
+        "translation": "狗看見肉，狗覺得肉很好吃。",
+        "start": 739.7,
+        "end": 743.92
+      },
+      {
+        "text": "De jongen komt de kamer binnen, hij ziet de hond met het vlees.",
+        "translation": "男孩走進房間，他看到狗拿著肉。",
+        "start": 754.18,
+        "end": 769.8
+      },
+      {
+        "text": "De jongen rent naar zijn moeder.",
+        "translation": "男孩跑向他的媽媽。",
+        "start": 770.36,
+        "end": 776.66
+      },
+      {
+        "text": "Hij zegt: \"Mama, de hond eet het vlees.\"",
+        "translation": "他說：「媽媽，狗正在吃肉。」",
+        "start": 778.64,
+        "end": 782.54
+      },
+      {
+        "text": "Zijn moeder roept: \"Wat? De hond eet het vlees?\"",
+        "translation": "他的媽媽喊道：「什麼？狗在吃肉？」「",
+        "start": 791.54,
+        "end": 795.6
+      },
+      {
+        "text": "Kom, mama!",
+        "translation": "來，媽媽！",
+        "start": 802.68,
+        "end": 814.78
+      },
+      {
+        "text": "Het vlees is weg.",
+        "translation": "肉沒了。",
+        "start": 818.28,
+        "end": 820.3
+      },
+      {
+        "text": "Een kat rent de kamer in.",
+        "translation": "一隻貓跑進房間。",
+        "start": 822.7,
+        "end": 825.42
+      },
+      {
+        "text": "2",
+        "translation": "",
+        "start": 831.94,
+        "end": 832.98
+      },
+      {
+        "text": "De kat springt op de tafel.",
+        "translation": "貓跳到桌子上。",
+        "start": 833.58,
+        "end": 840.02
+      },
+      {
+        "text": "3",
+        "translation": "",
+        "start": 842.06,
+        "end": 843.1
+      },
+      {
+        "text": "Dit zijn vissen, ze zwemmen in een vissenkom.",
+        "translation": "這些是魚，它們游在魚缸裡。",
+        "start": 848.56,
+        "end": 854.12
+      },
+      {
+        "text": "De kat pakt een vis.",
+        "translation": "貓抓了一條魚。",
+        "start": 856.28,
+        "end": 866.88
+      },
+      {
+        "text": "De kat eet de vis op.",
+        "translation": "貓把魚吃掉了。",
+        "start": 870.9,
+        "end": 873.98
+      },
+      {
+        "text": "De kat kijkt naar de vogel, de kat vindt de vogel lekker.",
+        "translation": "貓看著鳥，貓覺得鳥很好吃。",
+        "start": 876.68,
+        "end": 881.86
+      },
+      {
+        "text": "De hond wil het vlees, de hond vindt het vlees lekker.",
+        "translation": "狗想要肉，狗覺得肉很好吃。",
+        "start": 892.12,
+        "end": 896.4
+      },
+      {
+        "text": "De kat eet een vis, de kat vindt de vis lekker.",
+        "translation": "貓吃一條魚，貓覺得魚很好吃。",
+        "start": 905.38,
+        "end": 909.34
+      },
+      {
+        "text": "De man rookt, de man vindt roken lekker.",
+        "translation": "男人在抽菸，男人覺得抽菸很舒服。",
+        "start": 917.54,
+        "end": 921.74
+      },
+      {
+        "text": "De vrouw vindt sigaretten vies, ik ook.",
+        "translation": "女人覺得香菸很噁心，我也是。",
+        "start": 927.74,
+        "end": 932.6
+      },
+      {
+        "text": "De vrouw vindt sigaretten vies, ik ook.",
+        "translation": "女人覺得香菸很噁心，我也是。",
+        "start": 934.42,
+        "end": 938.6
+      },
+      {
+        "text": "De man zegt: \"Ik heb honger, ik wil wat eten.\"",
+        "translation": "男人說：「我餓了，我想吃點東西。」",
+        "start": 942.36,
+        "end": 945.94
+      },
+      {
+        "text": "De man zegt: \"Ik heb honger, ik wil wat eten.\"",
+        "translation": "男人說：「我餓了，我想吃點東西。」",
+        "start": 947.14,
+        "end": 952.16
+      },
+      {
+        "text": "De vrouw zegt: \"Ik ook, ik heb ook honger, ik wil een tosti.\"",
+        "translation": "女人說：「我也是，我也餓了，我想要一個烤吐司。」",
+        "start": 954.94,
+        "end": 958.68
+      },
+      {
+        "text": "De vrouw zegt: \"Ik ook, ik heb ook honger, ik wil een tosti.\"",
+        "translation": "女人說：「我也是，我也餓了，我想要一個烤吐司。」",
+        "start": 960.76,
+        "end": 964.1
+      },
+      {
+        "text": "Ik heb ook honger, ik wil een tosti.",
+        "translation": "我也餓了，我想要一個烤吐司。",
+        "start": 965.06,
+        "end": 967.86
+      },
+      {
+        "text": "De man zegt: \"Kom, we gaan naar het cafetaria.\"",
+        "translation": "男人說：「來，我們去自助餐廳。」",
+        "start": 970.9,
+        "end": 974.74
+      },
+      {
+        "text": "De man zegt: \"Kom, we gaan naar het cafetaria.\"",
+        "translation": "男人說：「來，我們去自助餐廳。」",
+        "start": 976.06,
+        "end": 979.34
+      },
+      {
+        "text": "We lopen naar het cafetaria, we lopen naar het cafetaria.",
+        "translation": "我們走向自助餐廳，我們走向自助餐廳。",
+        "start": 980.06,
+        "end": 985.3
+      },
+      {
+        "text": "Ze gaan zitten, ze gaan zitten.",
+        "translation": "他們坐下，他們坐下。",
+        "start": 985.78,
+        "end": 992.78
+      },
+      {
+        "text": "De man zegt: \"Kan ik u helpen?\"",
+        "translation": "男人說：「我可以幫您嗎？」",
+        "start": 994.28,
+        "end": 999.68
+      },
+      {
+        "text": "De man zegt: \"Ja, mijn vrouw wil een tosti, en ik ook.\"",
+        "translation": "男人說：「是的，我妻子想要一份烤吐司，我也想要。」",
+        "start": 1009.26,
+        "end": 1012.76
+      },
+      {
+        "text": "De man zegt: \"Ik wil graag twee tosti's.\"",
+        "translation": "男人說：「我想要兩份烤吐司。」",
+        "start": 1015.96,
+        "end": 1020.06
+      },
+      {
+        "text": "De man zegt: \"Ik wil graag twee tosti's.\"",
+        "translation": "男人說：「我想要兩份烤吐司。」",
+        "start": 1029.48,
+        "end": 1032.68
+      },
+      {
+        "text": "23. De man zegt, ik wil graag twee tosti's.",
+        "translation": "",
+        "start": 1034.74,
+        "end": 1038.2
+      },
+      {
+        "text": "24. De serveerster schrijft twee tosti's.",
+        "translation": "24. 女服務生寫下兩份熱壓吐司。",
+        "start": 1040.64,
+        "end": 1044.74
+      },
+      {
+        "text": "25. De serveerster vraagt: wat wilt u drinken?",
+        "translation": "25. 女服務生問：您想喝什麼？",
+        "start": 1051.32,
+        "end": 1056.56
+      },
+      {
+        "text": "26. De man zegt: ik wil graag twee koffie.",
+        "translation": "26. 男子說：我想要兩杯咖啡。",
+        "start": 1067.58,
+        "end": 1072.22
+      },
+      {
+        "text": "27. De serveerster brengt het eten. Ze zet het eten op tafel.",
+        "translation": "27. 女服務生端來食物。她將食物放在桌上。",
+        "start": 1073.58,
+        "end": 1078.06
+      },
+      {
+        "text": "28. Ze zegt: Eetsmakelijk.",
+        "translation": "28. 她說：請慢用。",
+        "start": 1078.42,
+        "end": 1083.78
+      },
+      {
+        "text": "28. De serveerster brengt het eten. Ze zet het op tafel. Ze zegt: Eetsmakelijk.",
+        "translation": "28. 女服務生端來食物。她將食物放在桌上。她說：請慢用。",
+        "start": 1084.96,
+        "end": 1089.74
+      },
+      {
+        "text": "29. De man en de vrouw eten. Ze hebben honger.",
+        "translation": "29. 男子和女子在吃飯。他們肚子很餓。",
+        "start": 1091.88,
+        "end": 1096.52
+      },
+      {
+        "text": "30. De man en de vrouw eten. Ze hebben honger.",
+        "translation": "30. 男子和女子在吃飯。他們肚子很餓。",
+        "start": 1097.6,
+        "end": 1102.18
+      },
+      {
+        "text": "31. De man roept: mag ik nog een kopje koffie?",
+        "translation": "31. 男子喊道：我可以再要一杯咖啡嗎？",
+        "start": 1105.46,
+        "end": 1108.74
+      },
+      {
+        "text": "32. De man roept: mag ik nog een kopje koffie?",
+        "translation": "32. 男子喊道：我可以再要一杯咖啡嗎？",
+        "start": 1111.22,
+        "end": 1115.46
+      },
+      {
+        "text": "33. De serveerster geeft de man nog een tweede kopje koffie.",
+        "translation": "33. 女服務生給男子第二杯咖啡。",
+        "start": 1117.68,
+        "end": 1122.5
+      },
+      {
+        "text": "34. De serveerster geeft de man nog een tweede kopje koffie.",
+        "translation": "34. 女服務生給男子第二杯咖啡。",
+        "start": 1125.98,
+        "end": 1130.76
+      },
+      {
+        "text": "En ze geeft de vrouw ook nog een tweede kopje koffie.",
+        "translation": "她也給女子第二杯咖啡。",
+        "start": 1138.74,
+        "end": 1144.46
+      },
+      {
+        "text": "35. De serveerster brengt de rekening.",
+        "translation": "35. 女服務生拿來帳單。",
+        "start": 1148.36,
+        "end": 1151.28
+      },
+      {
+        "text": "35. De serveerster brengt de rekening.",
+        "translation": "35. 女服務生拿來帳單。",
+        "start": 1154.02,
+        "end": 1156.96
+      },
+      {
+        "text": "36. De man pakt de rekening.",
+        "translation": "36. 男子拿帳單。",
+        "start": 1159.22,
+        "end": 1162.42
+      },
+      {
+        "text": "36. De man pakt de rekening.",
+        "translation": "36. 男子拿帳單。",
+        "start": 1164.42,
+        "end": 1166.64
+      },
+      {
+        "text": "39. De man betaalt.",
+        "translation": "39. 男子付款。",
+        "start": 1168.74,
+        "end": 1171.64
+      },
+      {
+        "text": "39. De man betaalt.",
+        "translation": "39. 男子付款。",
+        "start": 1173.64,
+        "end": 1179.54
+      },
+      {
+        "text": "40. Ze lopen naar buiten.",
+        "translation": "40. 他們走到外面去。",
+        "start": 1182.04,
+        "end": 1184.2
+      }
+    ],
+    "questions": [
+      {
+        "question": "Wat vindt het meisje van het eten?",
+        "question_native": "這個女孩覺得食物怎麼樣？",
+        "options": [
+          "Lekker",
+          "Niet lekker",
+          "Weet niet"
+        ],
+        "answer": "Lekker"
+      },
+      {
+        "question": "Eet het jongetje champignons?",
+        "question_native": "男孩吃蘑菇嗎？",
+        "options": [
+          "Ja",
+          "Nee",
+          "Niet duidelijk"
+        ],
+        "answer": "Nee"
+      },
+      {
+        "question": "Wat zegt de moeder tegen het jongetje over het eten?",
+        "question_native": "媽媽對男孩關於食物說了什麼？",
+        "options": [
+          "Je bent klaar met eten",
+          "Er zijn nog champignons op je bord",
+          "Het eten is al koud"
+        ],
+        "answer": "Er zijn nog champignons op je bord"
+      },
+      {
+        "question": "Wat moet je doen voordat je naar bed gaat?",
+        "question_native": "睡覺前你應該做什麼？",
+        "options": [
+          "Eten",
+          "Spelen",
+          "Lezen"
+        ],
+        "answer": "Eten"
+      },
+      {
+        "question": "Wat legt de ober op tafel?",
+        "question_native": "服務生放了什麼在桌子上？",
+        "options": [
+          "Bestek",
+          "Borden",
+          "Napjes"
+        ],
+        "answer": "Bestek"
+      },
+      {
+        "question": "Hoe vraagt de vrouw om koffie?",
+        "question_native": "女士怎麼點咖啡？",
+        "options": [
+          "Ober, mag ik een koffie?",
+          "Kan ik thee hebben?",
+          "Breng mij water, alsjeblieft"
+        ],
+        "answer": "Ober, mag ik een koffie?"
+      }
+    ],
+    "vocabulary": [
+      {
+        "word": "eten",
+        "meaning": "吃飯，食物"
+      },
+      {
+        "word": "lekker",
+        "meaning": "好吃的，美味的"
+      },
+      {
+        "word": "niet",
+        "meaning": "不，沒有"
+      },
+      {
+        "word": "jongetje",
+        "meaning": "小男孩"
+      },
+      {
+        "word": "meisje",
+        "meaning": "女孩"
+      },
+      {
+        "word": "moeder",
+        "meaning": "媽媽"
+      },
+      {
+        "word": "champignons",
+        "meaning": "蘑菇"
+      },
+      {
+        "word": "obers",
+        "meaning": "服務生"
+      },
+      {
+        "word": "bord",
+        "meaning": "盤子"
+      },
+      {
+        "word": "lepel",
+        "meaning": "湯匙"
+      },
+      {
+        "word": "mes",
+        "meaning": "刀子"
+      },
+      {
+        "word": "vork",
+        "meaning": "叉子"
+      },
+      {
+        "word": "koffie",
+        "meaning": "咖啡"
+      },
+      {
+        "word": "slaap",
+        "meaning": "睡覺"
+      },
+      {
+        "word": "klaar",
+        "meaning": "完成，準備好"
+      }
+    ]
+  }
+}

@@ -1,0 +1,835 @@
+1
+00:00:00,000 --> 00:00:02,440
+Een nieuwe winkel. Eén.
+
+2
+00:00:06,920 --> 00:00:08,360
+Kijk, een nieuwe winkel.
+
+3
+00:00:09,420 --> 00:00:11,920
+Ja, die is vorige week geopend.
+
+4
+00:00:12,720 --> 00:00:14,360
+Zullen we even binnenkijken?
+
+5
+00:00:15,460 --> 00:00:16,900
+Ja, dat is goed.
+
+6
+00:00:23,220 --> 00:00:23,960
+Hebben ze ook schoenen?
+
+7
+00:00:25,140 --> 00:00:27,080
+Ik heb nieuwe laarzen nodig.
+
+8
+00:00:28,260 --> 00:00:31,000
+Even kijken, hier hangt een bord.
+
+9
+00:00:31,840 --> 00:00:32,500
+Schoenen.
+
+10
+00:00:33,420 --> 00:00:35,240
+Ja, op de derde etage.
+
+11
+00:00:36,640 --> 00:00:38,360
+Kom, dan gaan we naar boven.
+
+12
+00:00:39,240 --> 00:00:40,380
+Waar is de roltrap?
+
+13
+00:00:41,360 --> 00:00:41,760
+Daar.
+
+14
+00:00:51,880 --> 00:00:53,740
+Hier staan de laarzen.
+
+15
+00:00:54,320 --> 00:00:55,640
+Hoe vind je deze?
+
+16
+00:00:57,360 --> 00:00:59,940
+Mooi, maar de hakken zijn te hoog.
+
+17
+00:01:00,800 --> 00:01:01,860
+Daar kan ik niet op lopen.
+
+18
+00:01:03,340 --> 00:01:04,680
+Oh, en deze?
+
+19
+00:01:06,060 --> 00:01:07,180
+Ja, leuk.
+
+20
+00:01:08,060 --> 00:01:08,880
+Welke maat is dat?
+
+21
+00:01:10,720 --> 00:01:11,700
+Eh, 38.
+
+22
+00:01:12,460 --> 00:01:13,860
+Oh, die zijn te klein.
+
+23
+00:01:14,460 --> 00:01:15,740
+Ik heb maat 39.
+
+24
+00:01:17,260 --> 00:01:19,240
+Even vragen aan de verkoper.
+
+25
+00:01:20,340 --> 00:01:24,120
+Meneer, heeft u deze laarzen ook in maat 39?
+
+26
+00:01:25,420 --> 00:01:27,200
+Ik ga even voor u kijken.
+
+27
+00:01:32,640 --> 00:01:33,320
+Alsjeblieft.
+
+28
+00:01:34,220 --> 00:01:34,680
+Dank u wel.
+
+29
+00:01:35,760 --> 00:01:36,980
+Mag ik ze even passen?
+
+30
+00:01:38,860 --> 00:01:39,540
+Natuurlijk.
+
+31
+00:01:45,660 --> 00:01:46,720
+Hoe zitten ze?
+
+32
+00:01:48,320 --> 00:01:48,880
+Prima.
+
+33
+00:01:52,080 --> 00:01:52,960
+En ze lopen lekker.
+
+34
+00:01:54,160 --> 00:01:55,020
+Hoe duur zijn ze?
+
+35
+00:01:57,740 --> 00:01:58,860
+49,95 euro.
+
+36
+00:02:00,380 --> 00:02:02,080
+Oké, ik neem ze.
+
+37
+00:02:10,080 --> 00:02:12,820
+Hallo meneer, mag ik wat vragen?
+
+38
+00:02:13,380 --> 00:02:15,340
+Ja, natuurlijk mevrouw. Wat kan ik voor u doen?
+
+39
+00:02:15,340 --> 00:02:17,400
+Waar staat de koffie?
+
+40
+00:02:17,920 --> 00:02:18,920
+Even kijken.
+
+41
+00:02:20,060 --> 00:02:22,140
+De koffie staat naast het brood.
+
+42
+00:02:23,360 --> 00:02:25,240
+Ja, waar precies?
+
+43
+00:02:25,560 --> 00:02:28,000
+U gaat recht bij de groenten.
+
+44
+00:02:28,460 --> 00:02:29,420
+U ziet eerst het brood.
+
+45
+00:02:29,980 --> 00:02:31,500
+En naast het brood staat de koffie.
+
+46
+00:02:31,860 --> 00:02:32,960
+Ah, bedankt meneer.
+
+47
+00:02:33,640 --> 00:02:34,900
+Graag gedaan. Dag mevrouw.
+
+48
+00:02:35,340 --> 00:02:35,620
+Dag.
+
+49
+00:02:40,320 --> 00:02:43,140
+Jasmine wil een bos bloemen kopen.
+
+50
+00:02:43,680 --> 00:02:44,740
+Haar moeder is jarig.
+
+51
+00:02:45,500 --> 00:02:47,740
+Ze gaat naar de markt.
+
+52
+00:02:48,400 --> 00:02:49,640
+Daar zijn de bloemen.
+
+53
+00:02:50,700 --> 00:02:51,920
+De bloemen zijn niet duur.
+
+54
+00:02:53,060 --> 00:02:54,780
+Twee bossen voor drie euro.
+
+55
+00:02:56,120 --> 00:02:58,280
+Ze koopt een mooie bos voor haar moeder.
+
+56
+00:02:59,260 --> 00:03:01,080
+En ze koopt een bos voor haarzelf.
+
+57
+00:03:02,960 --> 00:03:04,200
+Jasmine is blij met de bloemen.
+
+58
+00:03:05,140 --> 00:03:06,220
+In de kledingzaak.
+
+59
+00:03:07,280 --> 00:03:07,900
+EEN
+
+60
+00:03:11,860 --> 00:03:12,520
+Goedemorgen.
+
+61
+00:03:12,960 --> 00:03:13,180
+Hallo.
+
+62
+00:03:13,180 --> 00:03:14,560
+Kan ik u helpen?
+
+63
+00:03:14,900 --> 00:03:16,400
+Ja, ik zoek een jasje.
+
+64
+00:03:17,040 --> 00:03:17,840
+Mijn zus gaat trouwen.
+
+65
+00:03:18,060 --> 00:03:19,020
+Oh, wat leuk.
+
+66
+00:03:19,660 --> 00:03:20,500
+Wanneer is het feest?
+
+67
+00:03:20,900 --> 00:03:21,620
+12 juli.
+
+68
+00:03:22,600 --> 00:03:24,600
+Dus u zoekt een jasje.
+
+69
+00:03:25,300 --> 00:03:26,300
+Welke kleur?
+
+70
+00:03:26,840 --> 00:03:29,540
+Ik vind blauw een mooie kleur.
+
+71
+00:03:29,820 --> 00:03:30,220
+Prima.
+
+72
+00:03:31,160 --> 00:03:32,400
+Laten we eens kijken.
+
+73
+00:03:33,400 --> 00:03:34,480
+Welke maat heeft u?
+
+74
+00:03:35,300 --> 00:03:36,660
+Meestal heb ik large.
+
+75
+00:03:38,320 --> 00:03:40,560
+Wat vindt u van dit jasje?
+
+76
+00:03:41,120 --> 00:03:42,240
+De stof is katoen.
+
+77
+00:03:42,240 --> 00:03:44,440
+En dat is niet zo warm in de zomer.
+
+78
+00:03:45,860 --> 00:03:47,620
+Ja, die is mooi.
+
+79
+00:03:48,520 --> 00:03:49,420
+Mag ik het even passen?
+
+80
+00:03:55,940 --> 00:03:56,940
+Het zit goed.
+
+81
+00:03:58,320 --> 00:03:59,380
+Hoeveel kost het jasje?
+
+82
+00:03:59,840 --> 00:04:00,760
+70 euro.
+
+83
+00:04:01,800 --> 00:04:02,320
+Ik neem het.
+
+84
+00:04:05,900 --> 00:04:07,080
+In de kledingzaak.
+
+85
+00:04:08,180 --> 00:04:08,560
+Twee
+
+86
+00:04:11,300 --> 00:04:12,540
+Dag, mevrouw.
+
+87
+00:04:13,920 --> 00:04:14,460
+Goedemorgen.
+
+88
+00:04:15,360 --> 00:04:16,680
+Wat kan ik voor u doen?
+
+89
+00:04:17,760 --> 00:04:20,020
+Ik wil deze tas graag ruilen.
+
+90
+00:04:20,840 --> 00:04:22,200
+Ik vind hem echt niet mooi.
+
+91
+00:04:23,140 --> 00:04:23,920
+Heeft u de bon voor mij?
+
+92
+00:04:26,240 --> 00:04:26,920
+Alsjeblieft.
+
+93
+00:04:28,060 --> 00:04:29,920
+Kan ik ook mijn geld terugkrijgen?
+
+94
+00:04:30,660 --> 00:04:32,740
+Nee, dat kan niet.
+
+95
+00:04:33,300 --> 00:04:35,680
+U mag wel een andere tas uitzoeken.
+
+96
+00:04:36,880 --> 00:04:38,500
+Oké, dan doe ik dat.
+
+97
+00:04:38,500 --> 00:04:40,680
+Dank u wel.
+
+98
+00:04:43,960 --> 00:04:45,460
+Wat heb je nodig?
+
+99
+00:04:50,820 --> 00:04:51,980
+Met Hans.
+
+100
+00:04:53,000 --> 00:04:55,440
+Hoi Hans, ik spreek met Mariama.
+
+101
+00:04:56,180 --> 00:04:57,580
+Hoi, alles goed?
+
+102
+00:04:58,320 --> 00:04:59,680
+Nou, niet zo.
+
+103
+00:05:00,260 --> 00:05:02,460
+Ik ben ziek en ik kan niet naar buiten.
+
+104
+00:05:03,700 --> 00:05:04,640
+Oh, wat vervelend.
+
+105
+00:05:04,640 --> 00:05:08,520
+Ja, wil jij misschien een paar boodschappen voor me doen?
+
+106
+00:05:09,540 --> 00:05:11,700
+Natuurlijk, geen probleem.
+
+107
+00:05:12,540 --> 00:05:13,620
+Wat wil je hebben?
+
+108
+00:05:14,440 --> 00:05:15,120
+Even kijken.
+
+109
+00:05:16,120 --> 00:05:17,460
+Een pakje thee.
+
+110
+00:05:18,840 --> 00:05:19,380
+Citroenthee?
+
+111
+00:05:20,480 --> 00:05:21,560
+Dat is goed voor u.
+
+112
+00:05:22,400 --> 00:05:23,380
+Ja, lekker.
+
+113
+00:05:24,320 --> 00:05:26,180
+En ook nog een half brood.
+
+114
+00:05:26,760 --> 00:05:27,420
+Het liefst wit.
+
+115
+00:05:29,320 --> 00:05:31,720
+Wacht even, ik schrijf het even op.
+
+116
+00:05:32,500 --> 00:05:33,280
+En wat nog meer?
+
+117
+00:05:33,280 --> 00:05:36,860
+En jam, dat was het.
+
+118
+00:05:37,600 --> 00:05:41,480
+Of nee, ook nog vijf sinaasappels.
+
+119
+00:05:42,700 --> 00:05:45,160
+Prima, ik kom het straks brengen, oké?
+
+120
+00:05:45,700 --> 00:05:48,460
+Oh, fijn. En alvast bedankt Hans.
+
+121
+00:05:49,540 --> 00:05:49,980
+Tot straks.
+
+122
+00:05:50,940 --> 00:05:52,320
+Ja, tot straks.
+
+123
+00:05:56,780 --> 00:05:58,400
+Ik ga met de bus.
+
+124
+00:05:59,820 --> 00:05:59,980
+Twee
+
+125
+00:06:07,720 --> 00:06:08,360
+Goedemorgen.
+
+126
+00:06:09,240 --> 00:06:10,440
+Goedemorgen mevrouw.
+
+127
+00:06:11,620 --> 00:06:12,940
+Dit is toch bus negen?
+
+128
+00:06:13,860 --> 00:06:14,440
+Jazeker.
+
+129
+00:06:15,580 --> 00:06:16,920
+Gaat u naar de Kruisstraat?
+
+130
+00:06:17,880 --> 00:06:20,440
+Ja, dat is de vijfde halte.
+
+131
+00:06:21,780 --> 00:06:23,200
+En hoe laat vertrekt u?
+
+132
+00:06:24,460 --> 00:06:25,360
+Over vijf minuten.
+
+133
+00:06:26,080 --> 00:06:29,480
+Oh, wilt u me waarschuwen als we er zijn?
+
+134
+00:06:30,100 --> 00:06:31,420
+Ja, dat zal ik doen.
+
+135
+00:06:32,120 --> 00:06:34,400
+Vergeet u straks niet uit te checken.
+
+136
+00:06:35,540 --> 00:06:37,360
+Nee hoor, dank u wel.
+
+137
+00:06:50,220 --> 00:06:52,900
+Ga je vanavond nog naar computerles?
+
+138
+00:06:53,880 --> 00:06:55,740
+Ja, zal ik je ophalen?
+
+139
+00:06:57,200 --> 00:06:58,220
+Dat is goed.
+
+140
+00:06:58,220 --> 00:07:00,520
+Met de auto of met de fiets?
+
+141
+00:07:01,540 --> 00:07:02,860
+Ik ga liever met de fiets.
+
+142
+00:07:03,880 --> 00:07:05,220
+Maar het gaat vanavond regenen.
+
+143
+00:07:06,360 --> 00:07:09,880
+Oh, zullen we dan maar met de auto gaan?
+
+144
+00:07:10,480 --> 00:07:10,780
+Prima.
+
+145
+00:07:11,360 --> 00:07:12,340
+Hoe laat kom je me halen?
+
+146
+00:07:12,920 --> 00:07:15,260
+Ik moet eerst nog even tanken.
+
+147
+00:07:16,220 --> 00:07:17,940
+Dan ben ik om half acht bij je.
+
+148
+00:07:18,780 --> 00:07:20,380
+Oké, tot vanavond.
+
+149
+00:07:31,040 --> 00:07:31,880
+Radiobericht
+
+150
+00:07:35,700 --> 00:07:38,340
+Hier volgt de verkeersinformatie.
+
+151
+00:07:39,200 --> 00:07:41,600
+Het is op dit moment niet druk op de weg.
+
+152
+00:07:42,660 --> 00:07:44,540
+Er staan maar drie files in Nederland.
+
+153
+00:07:45,760 --> 00:07:51,020
+Op de A1 tussen Weesp en Bussum staat drie kilometer file.
+
+154
+00:07:52,020 --> 00:07:57,720
+Op de A4 tussen Hoofddorp en Schiphol staat vier kilometer door een ongeluk.
+
+155
+00:07:58,780 --> 00:08:02,440
+En op de A20 voor Rotterdam vijf kilometer file.
+
+156
+00:08:03,840 --> 00:08:05,820
+Daar staat een vrachtwagen met pech.
+
+157
+00:08:08,820 --> 00:08:12,280
+Op reis 1
+
+158
+00:08:18,520 --> 00:08:21,840
+Het is al drie uur. Bijna weekend.
+
+159
+00:08:22,220 --> 00:08:25,120
+Ja, lekker. Ga je nog iets leuks doen?
+
+160
+00:08:25,580 --> 00:08:29,060
+Ja, ik ga drie dagen naar Brussel.
+
+161
+00:08:29,380 --> 00:08:31,580
+Wat leuk. Slaap je in een hotel?
+
+162
+00:08:32,720 --> 00:08:34,620
+Nee, ik logeer bij mijn oom.
+
+163
+00:08:34,620 --> 00:08:37,040
+Hij woont daar.
+
+164
+00:08:38,060 --> 00:08:38,860
+Hoe ga je naar Brussel?
+
+165
+00:08:39,640 --> 00:08:40,620
+Oh, met de trein.
+
+166
+00:08:41,500 --> 00:08:44,500
+Mijn man brengt me naar het station in Amsterdam.
+
+167
+00:08:45,320 --> 00:08:48,720
+Daar ga ik met de sneltrein naar Brussel.
+
+168
+00:08:49,680 --> 00:08:51,620
+Ik hoef niet over te stappen.
+
+169
+00:08:52,400 --> 00:08:53,660
+Hoe lang duurt de reis?
+
+170
+00:08:54,000 --> 00:08:57,020
+Maar twee uur. Dus dat gaat best snel.
+
+171
+00:08:58,080 --> 00:09:00,780
+En mijn oom staat op het perron in Brussel.
+
+172
+00:09:00,780 --> 00:09:04,460
+Nou, goed geregeld. Veel plezier.
+
+173
+00:09:05,800 --> 00:09:06,560
+Bedankt.
+
+174
+00:09:12,600 --> 00:09:14,780
+Op reis 2
+
+175
+00:09:18,680 --> 00:09:20,960
+Ik ga morgen op vakantie.
+
+176
+00:09:22,240 --> 00:09:24,400
+Oh, wat heerlijk. Waar ga je naartoe?
+
+177
+00:09:25,260 --> 00:09:27,440
+Naar Spanje. Samen met een vriend.
+
+178
+00:09:28,940 --> 00:09:29,800
+Gaan jullie met de auto?
+
+179
+00:09:29,800 --> 00:09:33,220
+Nee. We gaan met het vliegtuig.
+
+180
+00:09:33,900 --> 00:09:34,800
+We gaan tien dagen.
+
+181
+00:09:36,720 --> 00:09:38,420
+Waar gaan jullie precies heen in Spanje?
+
+182
+00:09:39,060 --> 00:09:39,640
+Naar Madrid.
+
+183
+00:09:41,260 --> 00:09:42,740
+Ben jij daar wel eens geweest?
+
+184
+00:09:43,420 --> 00:09:44,880
+Ja, twee jaar geleden.
+
+185
+00:09:45,640 --> 00:09:47,560
+Ik vind het een prachtige stad.
+
+186
+00:09:48,500 --> 00:09:50,420
+Hoe lang is het vliegen naar Madrid?
+
+187
+00:09:52,420 --> 00:09:54,380
+Volgens mij tweeëneenhalf uur.
+
+188
+00:09:54,900 --> 00:09:55,900
+Dus jullie zijn er zo.
+
+189
+00:09:57,700 --> 00:09:58,800
+Hoeveel kost je ticket?
+
+190
+00:10:00,300 --> 00:10:01,860
+Tweehonderdtachtig euro voor een retour.
+
+191
+00:10:03,460 --> 00:10:04,620
+Oeh, dat is best duur.
+
+192
+00:10:05,100 --> 00:10:08,600
+Ja, gelukkig hebben we een goedkoop hotel.
+
+193
+00:10:09,640 --> 00:10:11,640
+Nou, goede reis. En veel plezier.
+
+194
+00:10:12,680 --> 00:10:13,100
+Dank je.
+
+195
+00:10:18,240 --> 00:10:19,280
+Op straat
+
+196
+00:10:22,280 --> 00:10:23,980
+Mevrouw, mag ik u iets vragen?
+
+197
+00:10:24,480 --> 00:10:25,220
+Ja hoor.
+
+198
+00:10:26,060 --> 00:10:27,200
+Bent u bekend in deze buurt?
+
+199
+00:10:27,200 --> 00:10:31,900
+Nee, helaas niet. Ik ben hier ook voor het eerst.
+
+200
+00:10:34,720 --> 00:10:38,580
+Meneer, weet u waar de Brinkstraat is?
+
+201
+00:10:39,040 --> 00:10:41,280
+Sorry, ik ben hier niet bekend.
+
+202
+00:10:45,960 --> 00:10:48,780
+Dag mevrouw. Ik zoek de Brinkstraat.
+
+203
+00:10:50,560 --> 00:10:53,940
+Even kijken. Dan moet u hier rechtdoor.
+
+204
+00:10:53,940 --> 00:10:58,940
+Bij het kruispunt linksaf en dan bij de kerk rechts.
+
+205
+00:11:00,280 --> 00:11:00,940
+Daar is de Brinkstraat.
+
+206
+00:11:02,180 --> 00:11:03,420
+Is het ver lopen?
+
+207
+00:11:03,760 --> 00:11:05,420
+Ik denk tien minuten.
+
+208
+00:11:06,080 --> 00:11:08,980
+O, oké. Dat valt wel mee. Hartelijk bedankt.
+
+209
+00:11:09,520 --> 00:11:09,940
+Graag gedaan.

@@ -1,0 +1,651 @@
+{
+ "video_id": "oAcYTBuHhT8",
+ "title": "Luisteren examen A2 Oefenen 1",
+ "channel": "Inburgeren examen A2",
+ "duration": 635,
+ "exam_type": "A2 Luisteren · Inburgering",
+ "n_questions": 0,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "新手機的對話",
+   "title_nl": "Luisteren examen A2 Oefenen 1",
+   "kind": "對話",
+   "context_zh": "兩個朋友討論手機和通話費用",
+   "start": "0:00",
+   "no_questions": true,
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Een nieuw mobieltje. Eén.",
+     "zh": "一支新手機。一支。"
+    },
+    {
+     "t": "0:07",
+     "nl": "Kijk, ik heb een nieuwe mobiel. Wat een mooi toestel! Heb je een abonnement?",
+     "zh": "看，我有一支新手機。多漂亮的裝置！你有合約嗎？"
+    },
+    {
+     "t": "0:14",
+     "nl": "Ja, ik betaal €35,- per maand.",
+     "zh": "是的，我每個月付35歐元。"
+    },
+    {
+     "t": "0:18",
+     "nl": "En je telefoon? Die was gratis.",
+     "zh": "你的電話呢？那是免費的。"
+    },
+    {
+     "t": "0:21",
+     "nl": "Ik vind het wel duur. €35,- per maand.",
+     "zh": "我覺得很貴。每個月35歐元。"
+    },
+    {
+     "t": "0:25",
+     "nl": "O ja? Hoe duur is jouw abonnement?",
+     "zh": "喔是嗎？你的合約多少錢？"
+    },
+    {
+     "t": "0:30",
+     "nl": "Ik heb geen abonnement. Ik bel met een prepaidkaart.",
+     "zh": "我沒有合約。我用預付卡打電話。"
+    },
+    {
+     "t": "0:35",
+     "nl": "Ik betaal ongeveer €15,- per maand.",
+     "zh": "我每個月大約付15歐元。"
+    },
+    {
+     "t": "0:40",
+     "nl": "Moest je je telefoon zelf betalen? Ja, dat wel.",
+     "zh": "你自己買手機嗎？是的，那倒是。"
+    },
+    {
+     "t": "0:47",
+     "nl": "Een nieuw mobieltje. Twee.",
+     "zh": "一支新手機。兩支。"
+    },
+    {
+     "t": "0:52",
+     "nl": "Wonen jouw ouders ook in Nederland? Nee, helaas niet.",
+     "zh": "你的父母也住在荷蘭嗎？不，很遺憾沒有。"
+    },
+    {
+     "t": "0:58",
+     "nl": "Waar wonen ze dan? In Egypte. En wanneer heb je ze voor het laatst gezien?",
+     "zh": "他們住在哪裡？在埃及。你上次什麼時候見過他們？"
+    },
+    {
+     "t": "1:05",
+     "nl": "In de zomer. Maar ik spreek ze wel vaak door de telefoon.",
+     "zh": "夏天。但我經常打電話和他們說話。"
+    },
+    {
+     "t": "1:09",
+     "nl": "O ja. Hoe vaak bel je ze?",
+     "zh": "喔，是嗎？你多久打一次電話？"
+    },
+    {
+     "t": "1:12",
+     "nl": "Eén keer in de week. Elke vrijdag. Dat kost een hoop geld.",
+     "zh": "一週一次。每個星期五。那花了很多錢。"
+    },
+    {
+     "t": "1:17",
+     "nl": "Ja, vroeger wel. Maar nu niet meer.",
+     "zh": "以前是這樣。現在不會了。"
+    },
+    {
+     "t": "1:22",
+     "nl": "Ik bel via de computer. Dat is bijna gratis.",
+     "zh": "我用電腦打電話。幾乎免費。"
+    },
+    {
+     "t": "1:26",
+     "nl": "O, dat is mooi.",
+     "zh": "喔，那很好。"
+    },
+    {
+     "t": "1:40",
+     "nl": "Basisschool De Branding. Met Betty.",
+     "zh": "德布蘭丁小學。貝蒂接的電話。"
+    },
+    {
+     "t": "1:44",
+     "nl": "Goedemorgen. Je spreekt met Anneke de Jager.",
+     "zh": "早安。你正在和安妮克‧德賈格講話。"
+    },
+    {
+     "t": "1:47",
+     "nl": "De moeder van Nicolien. Hallo.",
+     "zh": "妮可連的媽媽。你好。"
+    },
+    {
+     "t": "1:51",
+     "nl": "Nicolien is ziek. Zij kan vandaag niet naar school komen.",
+     "zh": "妮可連生病了。她今天不能去學校。"
+    },
+    {
+     "t": "1:55",
+     "nl": "In welke groep zit ze? In groep 7. Bij meester Martin.",
+     "zh": "她讀幾年級？七年級，在馬丁老師班上。"
+    },
+    {
+     "t": "2:01",
+     "nl": "Oké. Ik zal de boodschap doorgeven.",
+     "zh": "好的。我會轉達這個訊息。"
+    },
+    {
+     "t": "2:05",
+     "nl": "Een beterschap voor Nicolien. Bedankt. Dag.",
+     "zh": "祝妮可連早日康復。謝謝。再見。"
+    },
+    {
+     "t": "2:21",
+     "nl": "Hi, Abdel. Hey, Micha. Alles goed?",
+     "zh": "嗨，阿卜杜。嘿，米哈。怎麼樣？"
+    },
+    {
+     "t": "2:25",
+     "nl": "Ja hoor. Ik kan vanmiddag niet naar de Nederlandse les.",
+     "zh": "還好。我今天下午不能去荷蘭語課。"
+    },
+    {
+     "t": "2:29",
+     "nl": "Waarom niet? Ik heb een afspraak bij de tandarts. Ik heb kiespijn.",
+     "zh": "為什麼？我約了牙醫。我牙齒痛。"
+    },
+    {
+     "t": "2:35",
+     "nl": "Wil jij het doorgeven aan Brenda? Natuurlijk. Sterkte bij de tandarts.",
+     "zh": "你能幫我告訴布倫達嗎？當然。祝你看牙醫順利。"
+    },
+    {
+     "t": "2:42",
+     "nl": "Dank je wel.",
+     "zh": "謝謝你。"
+    },
+    {
+     "t": "2:46",
+     "nl": "Even bellen. Twee.",
+     "zh": "打個電話。第二通。"
+    },
+    {
+     "t": "2:56",
+     "nl": "Tandartspraktijk De Jong. Met Rachida.",
+     "zh": "德容牙科診所。拉希達接的電話。"
+    },
+    {
+     "t": "2:59",
+     "nl": "Hallo. U spreekt met meneer Boulal. Ik wil een afspraak maken.",
+     "zh": "你好。你正在和布拉爾先生講話。我想預約。"
+    },
+    {
+     "t": "3:04",
+     "nl": "Voor controle? Ja. Even kijken.",
+     "zh": "要做檢查嗎？是的。我看看時間。"
+    },
+    {
+     "t": "3:10",
+     "nl": "Kunt u vrijdag 19 augustus om twee uur?",
+     "zh": "你星期五8月19日下午兩點有空嗎？"
+    },
+    {
+     "t": "3:15",
+     "nl": "Kan het ook iets later? Ik werk op vrijdag.",
+     "zh": "能晚一點嗎？我星期五要上班。"
+    },
+    {
+     "t": "3:19",
+     "nl": "Om half vijf heb ik ook nog een plaatsje vrij.",
+     "zh": "下午四點半我也有空。"
+    },
+    {
+     "t": "3:23",
+     "nl": "Dat is prima. Wat is uw naam? Ahmed Boulal.",
+     "zh": "那很好。您的名字是？艾哈邁德‧布拉爾。"
+    },
+    {
+     "t": "3:28",
+     "nl": "En uw geboortedatum? 5 maart 1965.",
+     "zh": "您的生日是？1965年3月5日。"
+    },
+    {
+     "t": "3:34",
+     "nl": "Oké. Dan zien wij u vrijdag de 19e om half vijf.",
+     "zh": "好的，那我們星期五19號下午四點半見。"
+    },
+    {
+     "t": "3:39",
+     "nl": "Bedankt. Tot ziens.",
+     "zh": "謝謝。再見。"
+    },
+    {
+     "t": "3:45",
+     "nl": "Telefoon 1.",
+     "zh": "電話一。"
+    },
+    {
+     "t": "3:53",
+     "nl": "Mevrouw Azizi.",
+     "zh": "阿齊茲女士。"
+    },
+    {
+     "t": "3:55",
+     "nl": "Dag mevrouw. U spreekt met Fatima. Kan ik Emma even spreken?",
+     "zh": "女士您好，你正在和法蒂瑪講話。我可以跟艾瑪說話嗎？"
+    },
+    {
+     "t": "4:00",
+     "nl": "Ja hoor. Ik zal haar even roepen. Emma. Telefoon.",
+     "zh": "可以，我去叫她。艾瑪，電話。"
+    },
+    {
+     "t": "4:12",
+     "nl": "Hallo. Goedemorgen. Met Oran.",
+     "zh": "你好。早安。我是奧蘭。"
+    },
+    {
+     "t": "4:16",
+     "nl": "Ik ben op zoek naar Mohamed. Ik zal even voor je kijken.",
+     "zh": "我在找穆罕默德。我幫你看一下。"
+    },
+    {
+     "t": "4:25",
+     "nl": "Ja hoor. Hij is er. Hij komt eraan. Oké. Bedankt.",
+     "zh": "可以，他在。他來了。好的，謝謝。"
+    },
+    {
+     "t": "4:32",
+     "nl": "Telefoon 2. Telefoon 3.",
+     "zh": "電話二。電話三。"
+    },
+    {
+     "t": "4:42",
+     "nl": "Hallo. Met Hans Janssen. Oh. Pardon. Je spreekt met Franka de Wit.",
+     "zh": "你好。我是漢斯‧揚森。喔，抱歉。你在和弗蘭卡‧德維特講話。"
+    },
+    {
+     "t": "4:47",
+     "nl": "Ik heb een verkeerd nummer gebeld. Oh, dat geeft niet hoor. Fijne dag verder.",
+     "zh": "我打錯電話號碼了。哦，沒關係喔。祝你有美好的一天。"
+    },
+    {
+     "t": "4:53",
+     "nl": "Ja, u ook. Telefoon 4.",
+     "zh": "你也一樣。電話4。"
+    },
+    {
+     "t": "5:04",
+     "nl": "Hallo, met meneer de Vries. Hallo, u spreekt met Maarten. Is Noeran thuis?",
+     "zh": "你好，我是德弗里斯先生。你好，你正在和馬爾滕通話。Noeran在家嗎？"
+    },
+    {
+     "t": "5:12",
+     "nl": "Noeran, ik denk dat u een verkeerd nummer gebeld heeft.",
+     "zh": "Noeran，我想你打錯電話號碼了。"
+    },
+    {
+     "t": "5:18",
+     "nl": "Is dit nummer 73629821? Nee.",
+     "zh": "這個號碼是73629821嗎？不是。"
+    },
+    {
+     "t": "5:25",
+     "nl": "U heeft 73629822 gebeld.",
+     "zh": "你打的是73629822。"
+    },
+    {
+     "t": "5:32",
+     "nl": "Oh, sorry. Dag meneer.",
+     "zh": "哦，抱歉。再見，先生。"
+    },
+    {
+     "t": "5:38",
+     "nl": "Dag.",
+     "zh": "再見。"
+    },
+    {
+     "t": "5:44",
+     "nl": "Hoi, mag ik wat vragen?",
+     "zh": "嗨，我可以問你一些問題嗎？"
+    },
+    {
+     "t": "5:49",
+     "nl": "Natuurlijk. Weet je hoe laat het is? Oh, sorry. Ik heb geen horloge om.",
+     "zh": "當然。你知道現在幾點嗎？哦，抱歉，我沒戴手錶。"
+    },
+    {
+     "t": "5:55",
+     "nl": "Oh, dat geeft niet. Telefoon 4.",
+     "zh": "哦，沒關係。電話4。"
+    },
+    {
+     "t": "6:01",
+     "nl": "Pardon meneer, mag ik u iets vragen? Ja hoor.",
+     "zh": "抱歉先生，我可以問你一件事嗎？當然可以。"
+    },
+    {
+     "t": "6:05",
+     "nl": "Kunt u me zeggen hoe laat het is? Het is kwart voor vier.",
+     "zh": "你能告訴我現在幾點嗎？現在是三點四十五分。"
+    },
+    {
+     "t": "6:10",
+     "nl": "Dank u wel. Graag gedaan.",
+     "zh": "謝謝你。不客氣。"
+    },
+    {
+     "t": "6:19",
+     "nl": "Hoi, mag ik wat vragen? Natuurlijk.",
+     "zh": "嗨，我可以問你一些問題嗎？當然可以。"
+    },
+    {
+     "t": "6:23",
+     "nl": "Weet je hoe laat het is? Oh, sorry. Ik heb geen horloge om.",
+     "zh": "你知道現在幾點嗎？哦，抱歉，我沒戴手錶。"
+    },
+    {
+     "t": "6:28",
+     "nl": "Oh, dat geeft niet.",
+     "zh": "哦，沒關係。"
+    },
+    {
+     "t": "6:58",
+     "nl": "Ik sta vroeg op. Om zeven uur begin ik met mijn werk.",
+     "zh": "我很早起床。七點開始上班。"
+    },
+    {
+     "t": "7:05",
+     "nl": "Ik werk als schoonmaker in een kantoor. Om negen uur ben ik klaar.",
+     "zh": "我在辦公室當清潔工。九點結束工作。"
+    },
+    {
+     "t": "7:11",
+     "nl": "Dan ga ik naar huis. Om half tien drink ik samen met mijn man een kopje koffie.",
+     "zh": "然後我回家。九點半和丈夫一起喝杯咖啡。"
+    },
+    {
+     "t": "7:18",
+     "nl": "Om half elf heb ik autorijles, tot half twaalf.",
+     "zh": "十點半有駕駛課，直到十一點半。"
+    },
+    {
+     "t": "7:23",
+     "nl": "Daarna ga ik een broodje eten. Vanmiddag ga ik de was doen.",
+     "zh": "之後我去吃三明治。下午我要洗衣服。"
+    },
+    {
+     "t": "7:29",
+     "nl": "Om vier uur kan ik mijn medicijnen ophalen bij de apotheek.",
+     "zh": "四點可以去藥局拿藥。"
+    },
+    {
+     "t": "7:33",
+     "nl": "En om vijf uur ga ik even tv kijken.",
+     "zh": "五點我要看會兒電視。"
+    },
+    {
+     "t": "7:45",
+     "nl": "Met Sophia. Hoi, je spreekt met Eelco.",
+     "zh": "這是給Sophia的。嗨，你正在跟Eelco說話。"
+    },
+    {
+     "t": "7:50",
+     "nl": "Hallo Eelco. Ik kom wat later op mijn werk.",
+     "zh": "你好，Eelco。我今天上班會晚一點。"
+    },
+    {
+     "t": "7:54",
+     "nl": "Oh, ja. Ik heb me verslapen.",
+     "zh": "哦，是的，我睡過頭了。"
+    },
+    {
+     "t": "7:58",
+     "nl": "Dat is vervelend. Ja, het spijt me.",
+     "zh": "那真麻煩。是的，抱歉。"
+    },
+    {
+     "t": "8:04",
+     "nl": "Ik heb de wekker niet gehoord. Hoe laat ben je hier?",
+     "zh": "我沒聽到鬧鐘。你幾點到？"
+    },
+    {
+     "t": "8:08",
+     "nl": "Ik ga opschieten. Dan ben ik om half tien op het werk.",
+     "zh": "我要趕快了。那我九點半會到公司。"
+    },
+    {
+     "t": "8:14",
+     "nl": "Oké, nogmaals sorry. Te laat.",
+     "zh": "好，再次抱歉，遲到了。"
+    },
+    {
+     "t": "8:19",
+     "nl": "Twee. Hoi Alex.",
+     "zh": "二。嗨，亞歷克斯。"
+    },
+    {
+     "t": "8:23",
+     "nl": "Hé Milou, ben je er al lang? Nou, dat valt wel mee.",
+     "zh": "嘿，Milou，你來很久了嗎？不，還好。"
+    },
+    {
+     "t": "8:29",
+     "nl": "Ik was hier om tien over zeven. Is Johan er nog niet?",
+     "zh": "我七點十分到這裡。Johan還沒來嗎？"
+    },
+    {
+     "t": "8:33",
+     "nl": "Nee. Hoe laat begint de film? Om half acht.",
+     "zh": "沒有。電影幾點開始？七點半。"
+    },
+    {
+     "t": "8:37",
+     "nl": "Ik hoop dat hij op tijd komt. Ja, hij is wel vaker te laat.",
+     "zh": "我希望他能準時來。是的，他常常遲到。"
+    },
+    {
+     "t": "8:42",
+     "nl": "Hoe laat is het? Bijna half acht. Zullen we naar binnen gaan?",
+     "zh": "幾點了？快七點半了。我們要進去嗎？"
+    },
+    {
+     "t": "8:48",
+     "nl": "Oh, daar is Johan. Waarom ben je nou zo laat?",
+     "zh": "哦，Johan來了。你怎麼這麼晚？"
+    },
+    {
+     "t": "8:51",
+     "nl": "De brug was open.",
+     "zh": "橋剛好開著。"
+    },
+    {
+     "t": "8:56",
+     "nl": "Wanneer ben je jarig? Eén.",
+     "zh": "你幾月幾號生日？一號。"
+    },
+    {
+     "t": "9:03",
+     "nl": "Hoe oud ben jij? Ik word dit jaar veertig.",
+     "zh": "你幾歲？我今年四十歲。"
+    },
+    {
+     "t": "9:07",
+     "nl": "Wat toevallig. Ik ook. Wanneer ben jij jarig?",
+     "zh": "真巧，我也是。你幾號生日？"
+    },
+    {
+     "t": "9:10",
+     "nl": "In mei. Twintig mei. Dan ben ik twee maanden ouder.",
+     "zh": "五月。五月二十號。那我比你大兩個月。"
+    },
+    {
+     "t": "9:16",
+     "nl": "Mijn verjaardag is in maart. Vier jij je verjaardag altijd?",
+     "zh": "我生日在三月。你都會慶祝生日嗎？"
+    },
+    {
+     "t": "9:21",
+     "nl": "Nee. Meestal niet. En jij?",
+     "zh": "不，大多不會。你呢？"
+    },
+    {
+     "t": "9:26",
+     "nl": "Ik ook niet. Maar dit jaar wel. Veertig is een speciale leeftijd.",
+     "zh": "我也不會。不過今年會，因為四十歲是個特別的年紀。"
+    },
+    {
+     "t": "9:33",
+     "nl": "Wat ga je doen? Ik geef een tuinfeest in juli.",
+     "zh": "你打算做什麼？我七月要辦一個庭園派對。"
+    },
+    {
+     "t": "9:38",
+     "nl": "Leuk. Dan is het vast mooi weer. Ik hoop het.",
+     "zh": "很棒。那時候天氣應該很好。我希望如此。"
+    },
+    {
+     "t": "9:46",
+     "nl": "Wanneer ben je jarig? Twee.",
+     "zh": "你什麼時候過生日？兩號。"
+    },
+    {
+     "t": "9:54",
+     "nl": "Wanneer ga je op vakantie? Volgende week. Ik vertrek vijftien juni.",
+     "zh": "你什麼時候去度假？下週。我六月十五日出發。"
+    },
+    {
+     "t": "10:00",
+     "nl": "Oh. Hoe lang ga je? Twee weken. En jullie?",
+     "zh": "喔。你要去多久？兩週。你們呢？"
+    },
+    {
+     "t": "10:05",
+     "nl": "Wij gaan twintig juli weg. Ja. Dan hebben de kinderen pas vakantie.",
+     "zh": "我們七月二十日出發。是的，這樣孩子們才開始放假。"
+    },
+    {
+     "t": "10:11",
+     "nl": "Waar gaan jullie naartoe? Naar Turkije. We gaan een maand naar mijn moeder.",
+     "zh": "你們要去哪裡？去土耳其。我們要去看我媽媽一個月。"
+    },
+    {
+     "t": "10:17",
+     "nl": "Wat heerlijk. Fijn om je moeder weer te zien.",
+     "zh": "真好。很高興能再見到你媽媽。"
+    },
+    {
+     "t": "10:21",
+     "nl": "Jazeker. We hebben haar anderhalf jaar niet gezien.",
+     "zh": "當然。我們有一年半沒見過她了。"
+    },
+    {
+     "t": "10:26",
+     "nl": "Dat is een lange tijd. En mijn moeder wordt één augustus zeventig.",
+     "zh": "那真的很長一段時間。我媽媽八月一日就七十歲了。"
+    },
+    {
+     "t": "10:30",
+     "nl": "Dus dan zijn we er ook bij. Ondertitels door de Amara.org gemeenschap.",
+     "zh": "所以我們也會在那裡。字幕由 Amara.org 社群提供。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "mobieltje",
+     "zh": "手機"
+    },
+    {
+     "nl": "abonnement",
+     "zh": "訂閱"
+    },
+    {
+     "nl": "prepaidkaart",
+     "zh": "預付卡"
+    },
+    {
+     "nl": "groep",
+     "zh": "班級"
+    },
+    {
+     "nl": "afspraak",
+     "zh": "約會"
+    },
+    {
+     "nl": "tandarts",
+     "zh": "牙醫"
+    },
+    {
+     "nl": "ziek",
+     "zh": "生病"
+    },
+    {
+     "nl": "beterschap",
+     "zh": "早日康復"
+    },
+    {
+     "nl": "telefoon",
+     "zh": "電話"
+    },
+    {
+     "nl": "horloge",
+     "zh": "手錶"
+    },
+    {
+     "nl": "werk",
+     "zh": "工作"
+    },
+    {
+     "nl": "koffie",
+     "zh": "咖啡"
+    },
+    {
+     "nl": "autorijles",
+     "zh": "駕駛課"
+    },
+    {
+     "nl": "apotheek",
+     "zh": "藥局"
+    },
+    {
+     "nl": "verjaardag",
+     "zh": "生日"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik heb een abonnement.",
+     "zh": "我有一個訂閱。",
+     "note": "表達擁有某物的句型"
+    },
+    {
+     "nl": "Hoe duur is jouw abonnement?",
+     "zh": "你的訂閱費用多少？",
+     "note": "詢問價格的句型"
+    },
+    {
+     "nl": "Ik bel met een prepaidkaart.",
+     "zh": "我用預付卡打電話。",
+     "note": "描述使用方式的句型"
+    },
+    {
+     "nl": "Zij kan vandaag niet naar school komen.",
+     "zh": "她今天不能去學校。",
+     "note": "描述能力或狀態的句型"
+    },
+    {
+     "nl": "Ik heb een afspraak bij de tandarts.",
+     "zh": "我有一個牙醫的約會。",
+     "note": "表達約會的句型"
+    },
+    {
+     "nl": "Wanneer ben je jarig?",
+     "zh": "你什麼時候過生日？",
+     "note": "詢問日期的句型"
+    }
+   ],
+   "questions": []
+  }
+ ]
+}
