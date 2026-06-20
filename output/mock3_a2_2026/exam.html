@@ -125,6 +125,9 @@ body.only-hard .line:not(.hard) { display:none; }
 #ytbox { margin:10px 0 4px; border-radius:12px; overflow:hidden; background:#000;
   position:sticky; top:0; z-index:25; box-shadow:0 4px 18px rgba(0,0,0,.3); }
 #ytbox #ytplayer, #ytbox iframe { width:100%; aspect-ratio:16/9; height:auto; display:block; border:0; }
+#yterr { padding:14px 16px; background:#1e293b; color:#e2e8f0; font-size:13px; line-height:1.6; }
+#yterr a { color:#fbbf24; font-weight:800; }
+#yterr .yt-hint { font-size:11px; color:#94a3b8; margin-top:6px; }
 /* question */
 .q { margin:12px 15px; border:1px solid #e5e7eb; border-radius:10px; overflow:hidden; }
 .q-h { background:#fef3c7; padding:9px 12px; display:flex; gap:8px; align-items:baseline;
@@ -841,13 +844,29 @@ function loadYT(cb){
 }
 function updModeBtns(){ const v=document.getElementById('mode-video'),a=document.getElementById('mode-audio');
   if(v)v.classList.toggle('on',useYT); if(a)a.classList.toggle('on',!useYT); }
+function ytFallback(code){
+  // Embedding fails inside the iOS app (capacitor:// origin is rejected by YouTube).
+  // Don't show a broken player — revert to audio and offer to open in YouTube.
+  useYT=false; ytReady=false; updModeBtns();
+  const pl=document.getElementById('ytplayer'); if(pl) pl.style.display='none';
+  const err=document.getElementById('yterr'); if(err){
+    err.style.display='block';
+    const c=err.querySelector('.yt-code'); if(c) c.textContent = code?('（'+code+'）'):'';
+  }
+}
 function enableVideo(){
   const box=document.getElementById('ytbox'); if(!box||!YT_ID) return;
   box.style.display='block'; A.pause();
+  const err=document.getElementById('yterr'); if(err) err.style.display='none';
+  const pl=document.getElementById('ytplayer'); if(pl) pl.style.display='block';
   if(ytReady){ useYT=true; updModeBtns(); return; }
-  loadYT(()=>{ ytP=new YT.Player('ytplayer',{videoId:YT_ID,
-    playerVars:{playsinline:1,rel:0,modestbranding:1},
-    events:{onReady:()=>{ytReady=true; useYT=true; updModeBtns();}}}); });
+  loadYT(()=>{ try{ ytP=new YT.Player('ytplayer',{videoId:YT_ID,
+    playerVars:{playsinline:1,rel:0,modestbranding:1,enablejsapi:1,origin:location.origin},
+    events:{onReady:()=>{ytReady=true; useYT=true; updModeBtns();},
+            onError:(e)=>ytFallback(e&&e.data)}});
+  }catch(e){ ytFallback(); } });
+  // safety net: if the player never becomes ready (silent embed block), fall back
+  setTimeout(()=>{ if(!ytReady) ytFallback(); }, 5000);
 }
 function disableVideo(){ const box=document.getElementById('ytbox'); if(box) box.style.display='none';
   if(ytP){ try{ytP.pauseVideo()}catch(e){} } useYT=false; updModeBtns(); }
