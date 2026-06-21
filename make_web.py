@@ -1030,6 +1030,10 @@ def build(exam: dict) -> str:
                     data_segs.append((ct, float(s.get('start') or 0), float(s.get('end') or 0)))
         except Exception:
             data_segs = []
+    is_yt = bool(re.match(r'^[A-Za-z0-9_-]{11}$', exam['video_id']))
+    yt_link = (f'<a href="https://www.youtube.com/watch?v={exam["video_id"]}" target="_blank" rel="noopener" '
+               f'style="display:inline-block;margin-left:8px;padding:6px 12px;background:#cc0000;color:#fff;'
+               f'border-radius:6px;font-size:13px;text-decoration:none;font-weight:700">▶ 在 YouTube 看影片</a>') if is_yt else ''
     parts.append(f"""<header><div class="wrap">
       <h1>{esc(exam.get('title',''))}</h1>
       <div class="meta">🎧 {esc(exam.get('exam_type',''))} ·
@@ -1037,7 +1041,7 @@ def build(exam: dict) -> str:
       <div style="margin-top:8px"><a href="index.html"
         style="display:inline-block;padding:6px 12px;background:#0f766e;color:#fff;
                border-radius:6px;font-size:13px;text-decoration:none;font-weight:600">
-        🔊 切換到「逐句跟讀／Echo」模式 →</a></div>
+        🔊 切換到「逐句跟讀／Echo」模式 →</a>{yt_link}</div>
     </div>
     <div class="wrap"><div class="tabs">
       <button class="on" data-mode="study">📖 學習</button>
@@ -1053,8 +1057,6 @@ def build(exam: dict) -> str:
     </div></header>""")
 
     # study mode (main content) ───────────────────────────
-    import re as _re
-    is_yt = bool(_re.match(r'^[A-Za-z0-9_-]{11}$', exam['video_id']))
     parts.append('<section data-mode-content="study"><div class="wrap">')
     parts.append('<div class="howto"><b>📖 學習模式</b>：點<b>藍色時間戳</b>或句子聽原音，'
                  '字幕會跟著高亮。🙈 遮中文先用耳朵聽、🔁 循環單句、⏪ 倒退重聽、💡 看 AI 詳解。'
