@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>⚡ 題目速讀 — A2 Listening Hub</title>
+<title>⚡ 題目拆解 — A2 Listening Hub</title>
 <style>
   *{box-sizing:border-box}
   :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
@@ -12,54 +12,51 @@
   html,body{margin:0;background:var(--bg);color:var(--text);
     font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans",sans-serif}
   .wrap{max-width:680px;margin:0 auto;padding:16px 14px 80px}
-  header{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:8px}
   header a{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
   h1{margin:0;font-size:18px;flex:1}
   .bar{display:flex;gap:8px;align-items:center;margin-bottom:12px;font-size:12px;color:var(--text2)}
-  .bar .score{margin-left:auto;font-weight:800;color:var(--ring)}
+  .bar .mastered{margin-left:auto;font-weight:800;color:var(--ring)}
   .timer{height:4px;background:var(--card2);border-radius:99px;overflow:hidden;margin-bottom:14px}
-  .timer i{display:block;height:100%;background:var(--accent);width:100%;transition:width 1s linear}
+  .timer i{display:block;height:100%;background:var(--accent);width:100%}
   .timer.warn i{background:var(--bad)}
 
   .ctx{font-size:12px;color:var(--text2);background:var(--card);border-radius:8px;padding:8px 12px;margin-bottom:10px}
-  .vraag{background:#10243f;border:1px solid rgba(96,165,250,.35);border-radius:12px;padding:13px 15px;margin-bottom:14px}
+  .vraag{background:#10243f;border:1px solid rgba(96,165,250,.35);border-radius:12px;padding:13px 15px;margin-bottom:12px}
   .vraag .lbl{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);font-weight:800}
-  .vraag .q-nl{font-size:17px;font-weight:700;margin-top:5px;line-height:1.4}
+  .vraag .q-nl{font-size:17px;font-weight:700;margin-top:5px;line-height:1.45}
   .vraag .q-zh{font-size:13px;color:var(--ring);margin-top:7px;display:none}
   .revealed .vraag .q-zh{display:block}
-
-  .opts{display:flex;flex-direction:column;gap:9px}
-  .opt{display:flex;gap:11px;align-items:flex-start;text-align:left;width:100%;
-    background:var(--card);border:1px solid var(--line);border-radius:11px;padding:12px 13px;
-    cursor:pointer;color:var(--text);font:inherit;transition:border-color .15s,background .15s}
-  .opt:hover{border-color:var(--text2)}
-  .opt .ltr{flex:0 0 24px;height:24px;border-radius:6px;background:var(--card2);color:var(--text2);
-    font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center}
-  .opt .o-nl{flex:1;font-size:14.5px;font-weight:600}
-  .opt .o-zh{font-size:12px;color:var(--text2);margin-top:3px;display:none}
-  .revealed .opt .o-zh{display:block}
-  /* answer states (after reveal) */
-  .revealed .opt{cursor:default}
-  .opt.correct{border-color:var(--ok);background:rgba(74,222,128,0.1)}
-  .opt.correct .ltr{background:var(--ok);color:#000}
-  .opt.wrongpick{border-color:var(--bad);background:rgba(248,113,113,0.1)}
-  .opt.wrongpick .ltr{background:var(--bad);color:#fff}
-  /* word breakdown (💡) under each option, shown on reveal */
-  .obreak{display:none;font-size:11.5px;color:var(--dim);margin-top:6px;line-height:1.7}
-  .revealed .obreak{display:block}
-  .obreak b{color:#fcd34d;font-weight:700}
-
-  .asking{display:none;margin:14px 0 4px;padding:10px 13px;background:rgba(94,234,212,0.08);
-    border-left:3px solid var(--ring);border-radius:8px;font-size:12.5px;color:var(--text)}
-  .revealed .asking{display:block}
-  .asking b{color:var(--ring)}
   .qbreak{display:none;font-size:11.5px;color:var(--text2);margin-top:8px;line-height:1.7}
   .revealed .qbreak{display:block}
   .qbreak b{color:#fcd34d;font-weight:700}
 
-  .next{display:none;width:100%;margin-top:16px;padding:14px;background:var(--ring);color:#000;
+  .asking{display:none;margin:0 0 12px;padding:10px 13px;background:rgba(94,234,212,0.08);
+    border-left:3px solid var(--ring);border-radius:8px;font-size:12.5px;color:var(--text)}
+  .revealed .asking{display:block}
+  .asking b{color:var(--ring)}
+
+  .lbl-opts{font-size:11px;color:var(--dim);margin:2px 0 8px;letter-spacing:.05em}
+  .opts{display:flex;flex-direction:column;gap:9px}
+  .opt{display:flex;gap:11px;align-items:flex-start;
+    background:var(--card);border:1px solid var(--line);border-radius:11px;padding:12px 13px}
+  .opt .ltr{flex:0 0 24px;height:24px;border-radius:6px;background:var(--card2);color:var(--text2);
+    font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center}
+  .opt .o-nl{font-size:14.5px;font-weight:600}
+  .opt .o-zh{font-size:12px;color:var(--ring);margin-top:3px;display:none}
+  .revealed .opt .o-zh{display:block}
+  .obreak{display:none;font-size:11.5px;color:var(--dim);margin-top:6px;line-height:1.7}
+  .revealed .obreak{display:block}
+  .obreak b{color:#fcd34d;font-weight:700}
+
+  .reveal-btn{width:100%;margin-top:16px;padding:14px;background:var(--blue);color:#000;
     border:0;border-radius:10px;font-size:15px;font-weight:800;cursor:pointer}
-  .revealed .next{display:block}
+  .grade{display:none;gap:8px;margin-top:16px}
+  .revealed .grade{display:flex}
+  .revealed .reveal-btn{display:none}
+  .grade button{flex:1;padding:14px 6px;border:0;border-radius:10px;font-size:14px;font-weight:800;cursor:pointer}
+  .grade .no{background:var(--bad);color:#fff}
+  .grade .yes{background:var(--ok);color:#000}
   .hint{font-size:11px;color:var(--dim);text-align:center;margin-top:10px}
   .empty{text-align:center;padding:50px 20px;color:var(--text2)}
   .empty .e{font-size:46px;margin-bottom:10px}
@@ -67,11 +64,11 @@
 </head>
 <body>
 <div class="wrap">
-  <header><a href="index.html">← 返回</a><h1>⚡ 題目速讀</h1></header>
+  <header><a href="index.html">← 返回</a><h1>⚡ 題目拆解</h1></header>
   <div class="bar">
     <span id="prog">—</span>
-    <span>· 先讀懂題目＋選項，再選</span>
-    <span class="score" id="score"></span>
+    <span>· 練習「秒讀懂」題目＋選項</span>
+    <span class="mastered" id="mastered"></span>
   </div>
   <div class="timer" id="timer"><i id="timerfill"></i></div>
   <div id="box"></div>
@@ -81,7 +78,7 @@
 const MOCKS=['mock3_a2_2026','_iC1Pooi2UA','AMVy2zPNLso'];
 const LTR=['A','B','C','D','E'];
 const STATE_KEY='lph_qdrill_state';
-let deck=[], qi=0, ana={}, score={n:0,ok:0}, locked=false, timerId=null;
+let deck=[], qi=0, ana={}, timerId=null;
 
 function loadState(){try{return JSON.parse(localStorage.getItem(STATE_KEY)||'{}')}catch(e){return{}}}
 function saveState(s){localStorage.setItem(STATE_KEY,JSON.stringify(s))}
@@ -105,18 +102,20 @@ async function load(){
       q:{q_nl:it.q_nl, q_zh:it.q_zh, options:it.options, answer:it.answer, n:'g'+idx},
       a:{qb:it.qb, asking:it.asking, ob:it.ob}}));
   }catch(e){}
-  // weak-first: questions answered wrong before come first, then unseen, then shuffle within
+  // 「不熟」優先、それから未習、各内シャッフル
   const st=loadState();
   deck=deck.map(d=>({...d,key:`${d.vid}|${d.q.n}|${(d.q.q_nl||'').slice(0,18)}`}));
-  const wrong=shuffle(deck.filter(d=>st[d.key]==='x'));
+  const weak=shuffle(deck.filter(d=>st[d.key]==='x'));
   const rest=shuffle(deck.filter(d=>st[d.key]!=='x'));
-  deck=[...wrong,...rest];
+  deck=[...weak,...rest];
   qi=0; render();
 }
 
+function masteredCount(){ const st=loadState(); return deck.filter(d=>st[d.key]==='o').length; }
+
 function startTimer(){
   const t=document.getElementById('timer'), f=document.getElementById('timerfill');
-  let left=25; f.style.transition='none'; f.style.width='100%'; t.classList.remove('warn');
+  f.style.transition='none'; f.style.width='100%'; t.classList.remove('warn');
   void f.offsetWidth; f.style.transition='width 25s linear'; f.style.width='0%';
   if(timerId) clearTimeout(timerId);
   timerId=setTimeout(()=>{ t.classList.add('warn'); }, 18000);
@@ -125,61 +124,58 @@ function startTimer(){
 function render(){
   const box=document.getElementById('box');
   if(qi>=deck.length){
-    const pct=score.n?Math.round(score.ok/score.n*100):0;
     box.innerHTML=`<div class="empty"><div class="e">🎉</div>
-      <div style="font-size:18px;font-weight:800;color:var(--ok)">做完了！${score.ok}/${score.n}（${pct}%）</div>
-      <div style="margin-top:8px;color:var(--text2)">答錯的會在下次優先出現</div>
-      <button class="next" style="display:block;max-width:200px;margin:18px auto 0" onclick="location.reload()">再來一輪</button></div>`;
+      <div style="font-size:18px;font-weight:800;color:var(--ok)">這一輪做完了</div>
+      <div style="margin-top:8px;color:var(--text2)">已掌握 ${masteredCount()} / ${deck.length}　·　「不熟」的會優先再出</div>
+      <button class="reveal-btn" style="display:block;max-width:200px;margin:18px auto 0" onclick="location.reload()">再來一輪</button></div>`;
     document.getElementById('timer').style.display='none';
     return;
   }
   document.getElementById('timer').style.display='block';
-  locked=false;
   const d=deck[qi], q=d.q, a=d.a;
   document.getElementById('prog').textContent=`${qi+1} / ${deck.length}`;
-  document.getElementById('score').textContent=score.n?`${score.ok}/${score.n}`:'';
+  document.getElementById('mastered').textContent=`已掌握 ${masteredCount()}`;
   const qbreak=(a.qb||[]).map(c=>`<b>${esc(c[0])}</b> ${esc(c[1])}`).join('　');
   const opts=(q.options||[]).map((o,i)=>{
     const ob=((a.ob||[])[i]||[]).map(c=>`<b>${esc(c[0])}</b> ${esc(c[1])}`).join('　');
-    return `<button class="opt" data-i="${i}" onclick="pick(${i})">
+    return `<div class="opt">
       <span class="ltr">${LTR[i]}</span>
       <span style="flex:1">
         <span class="o-nl">${esc(o.nl)}</span>
         <span class="o-zh">${esc(o.zh)}</span>
         ${ob?`<span class="obreak">💡 ${ob}</span>`:''}
-      </span></button>`;
+      </span></div>`;
   }).join('');
   box.innerHTML=`
     ${(d.ctx||d.gen)?`<div class="ctx">${d.gen?'✏️ 練習題　':'📋 '}${esc(d.ctx)}</div>`:''}
     <div class="vraag">
-      <div class="lbl">Vraag</div>
+      <div class="lbl">Vraag（問題）</div>
       <div class="q-nl">${esc(q.q_nl)}</div>
       <div class="q-zh">${esc(q.q_zh)}</div>
       ${qbreak?`<div class="qbreak">💡 ${qbreak}</div>`:''}
     </div>
-    ${a.asking?`<div class="asking"><b>👂 要聽：</b>${esc(a.asking)}</div>`:''}
-    <div class="opts" id="opts">${opts}</div>
-    <button class="next" onclick="nextQ()">下一題 →</button>
-    <div class="hint">看到題目先想：在問什麼？每個選項是什麼意思？</div>`;
+    ${a.asking?`<div class="asking"><b>👂 在問：</b>${esc(a.asking)}</div>`:''}
+    <div class="lbl-opts">選項（先自己拆解看看）</div>
+    <div class="opts">${opts}</div>
+    <button class="reveal-btn" onclick="reveal()">翻牌看拆解（中文＋單字）</button>
+    <div class="grade">
+      <button class="no" onclick="grade(false)">✗ 還不熟</button>
+      <button class="yes" onclick="grade(true)">✓ 看懂了</button>
+    </div>
+    <div class="hint">先讀荷文、自己拆解每個詞 → 翻牌對照</div>`;
   startTimer();
 }
 
-function pick(i){
-  if(locked) return; locked=true;
+function reveal(){
   if(timerId) clearTimeout(timerId);
   document.getElementById('timer').classList.remove('warn');
-  const d=deck[qi], ans=d.q.answer, root=document.getElementById('box');
-  root.classList.add('revealed');
-  root.querySelectorAll('.opt').forEach((o,k)=>{
-    if(k===ans) o.classList.add('correct');
-    else if(k===i) o.classList.add('wrongpick');
-  });
-  const correct=(i===ans);
-  score.n++; if(correct) score.ok++;
-  document.getElementById('score').textContent=`${score.ok}/${score.n}`;
-  const st=loadState(); st[d.key]=correct?'o':'x'; saveState(st);
+  document.getElementById('box').classList.add('revealed');
 }
-function nextQ(){ qi++; render(); }
+function grade(ok){
+  const d=deck[qi], st=loadState();
+  st[d.key]=ok?'o':'x'; saveState(st);
+  qi++; render();
+}
 
 load();
 </script>
