@@ -1,0 +1,8110 @@
+[
+ {
+  "vid": "EAsLs_1HyG8",
+  "ctx": "Nika 和 Markus 討論他們的團體作業，並提到荷蘭史基浦機場的繁忙情況。",
+  "q_nl": "Welke vraag moeten Nika en Markus samen maken?",
+  "q_zh": "Nika 和 Markus 需要一起做哪一題？",
+  "options": [
+   {
+    "nl": "Vraag 1",
+    "zh": "問題 1"
+   },
+   {
+    "nl": "Vraag 2",
+    "zh": "問題 2"
+   },
+   {
+    "nl": "Vraag 3",
+    "zh": "問題 3"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Ha Nika! Met Markus.",
+    "嗨 Nika！我是 Markus。"
+   ],
+   [
+    "Ik, eh, ik bel even voor onze groepsopdracht.",
+    "我，嗯，我打電話是關於我們的團隊作業。"
+   ],
+   [
+    "Dan vraag 2, die zouden we samen doen.",
+    "那問題 2，我們要一起做。"
+   ]
+  ],
+  "asking": "要聽 Nika 和 Markus 要做什麼題目？",
+  "ob": [
+   [
+    [
+     "Vraag 1",
+     "問題 1"
+    ],
+    [
+     "Vraag 2",
+     "問題 2"
+    ],
+    [
+     "Vraag 3",
+     "問題 3"
+    ]
+   ],
+   [
+    [
+     "Vraag 1",
+     "問題 1"
+    ],
+    [
+     "Vraag 2",
+     "問題 2"
+    ],
+    [
+     "Vraag 3",
+     "問題 3"
+    ]
+   ],
+   [
+    [
+     "Vraag 1",
+     "問題 1"
+    ],
+    [
+     "Vraag 2",
+     "問題 2"
+    ],
+    [
+     "Vraag 3",
+     "問題 3"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "EAsLs_1HyG8",
+  "ctx": "Nika 和 Markus 討論他們的團體作業，並提到荷蘭史基浦機場的繁忙情況。",
+  "q_nl": "Op welke dag wil Markus afspreken?",
+  "q_zh": "Markus 想在哪一天見面？",
+  "options": [
+   {
+    "nl": "Op vrijdag.",
+    "zh": "在星期五。"
+   },
+   {
+    "nl": "Op zaterdag.",
+    "zh": "在星期六。"
+   },
+   {
+    "nl": "Op maandag.",
+    "zh": "在星期一。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Zullen we vrijdag of zaterdag afspreken?",
+    "我們要在星期五還是星期六見面？"
+   ],
+   [
+    "Ja, het liefst zaterdag.",
+    "是的，最好是星期六。"
+   ]
+  ],
+  "asking": "要聽 Markus 想約在什麼時候？",
+  "ob": [
+   [
+    [
+     "Op vrijdag.",
+     "在星期五。"
+    ],
+    [
+     "Op zaterdag.",
+     "在星期六。"
+    ],
+    [
+     "Op maandag.",
+     "在星期一。"
+    ]
+   ],
+   [
+    [
+     "Op vrijdag.",
+     "在星期五。"
+    ],
+    [
+     "Op zaterdag.",
+     "在星期六。"
+    ],
+    [
+     "Op maandag.",
+     "在星期一。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "EAsLs_1HyG8",
+  "ctx": "Nika 和 Markus 討論他們的團體作業，並提到荷蘭史基浦機場的繁忙情況。",
+  "q_nl": "Wat was er bijzonder aan deze dag op Schiphol?",
+  "q_zh": "這一天在史基浦機場有什麼特別之處？",
+  "options": [
+   {
+    "nl": "Het was de drukste dag van het hele jaar.",
+    "zh": "這是全年最繁忙的一天。"
+   },
+   {
+    "nl": "Het was de drukste dag van deze zomer.",
+    "zh": "這是今年夏天最繁忙的一天。"
+   },
+   {
+    "nl": "Het was de drukste dag van de afgelopen twee jaar.",
+    "zh": "這是過去兩年中最繁忙的一天。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Gisteren was het de drukste dag van het jaar op Schiphol Airport.",
+    "昨天是史基浦機場全年最繁忙的一天。"
+   ],
+   [
+    "Er waren 1300 vluchten.",
+    "有1300個航班。"
+   ]
+  ],
+  "asking": "要聽這一天的特別之處。",
+  "ob": [
+   [
+    [
+     "Het was de drukste dag van het hele jaar.",
+     "這是全年最繁忙的一天。"
+    ],
+    [
+     "Het was de drukste dag van deze zomer.",
+     "這是今年夏天最繁忙的一天。"
+    ],
+    [
+     "Het was de drukste dag van de afgelopen twee jaar.",
+     "這是過去兩年中最繁忙的一天。"
+    ]
+   ],
+   [
+    [
+     "Het was de drukste dag van het hele jaar.",
+     "這是全年最繁忙的一天。"
+    ],
+    [
+     "Het was de drukste dag van deze zomer.",
+     "這是今年夏天最繁忙的一天。"
+    ],
+    [
+     "Het was de drukste dag van de afgelopen twee jaar.",
+     "這是過去兩年中最繁忙的一天。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "EAsLs_1HyG8",
+  "ctx": "Nika 和 Markus 討論他們的團體作業，並提到荷蘭史基浦機場的繁忙情況。",
+  "q_nl": "Waarom kregen de reizigers op Schiphol gratis ijs?",
+  "q_zh": "為什麼史基浦的旅客獲得免費冰淇淋？",
+  "options": [
+   {
+    "nl": "Omdat Ola twintig jaar bestond.",
+    "zh": "因為 Ola 20 週年。"
+   },
+   {
+    "nl": "Omdat ze zo lang moesten wachten.",
+    "zh": "因為他們等了很久。"
+   },
+   {
+    "nl": "Omdat het zo'n warme dag was.",
+    "zh": "因為那天很熱。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Alle reizigers kregen gisteren wel gratis ijs.",
+    "昨天所有旅客都獲得了免費冰淇淋。"
+   ],
+   [
+    "Ijsfabrikant Ola bestond 20 jaar en trakteerde.",
+    "冰淇淋製造商 Ola 20 週年並提供了免費冰淇淋。"
+   ]
+  ],
+  "asking": "要聽為什麼旅客獲得免費冰淇淋。",
+  "ob": [
+   [
+    [
+     "Omdat Ola twintig jaar bestond.",
+     "因為 Ola 20 週年。"
+    ],
+    [
+     "Omdat ze zo lang moesten wachten.",
+     "因為他們等了很久。"
+    ],
+    [
+     "Omdat het zo'n warme dag was.",
+     "因為那天很熱。"
+    ]
+   ],
+   [
+    [
+     "Omdat Ola twintig jaar bestond.",
+     "因為 Ola 20 週年。"
+    ],
+    [
+     "Omdat ze zo lang moesten wachten.",
+     "因為他們等了很久。"
+    ],
+    [
+     "Omdat het zo'n warme dag was.",
+     "因為那天很熱。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "2K-cXgASSew",
+  "ctx": "Sophia 在新工作中學習如何接電話和轉接來電",
+  "q_nl": "Wat moet Sophia als eerst doen als iemand de directeur wil spreken?",
+  "q_zh": "如果有人想要和主任通話，Sophia首先應該做什麼？",
+  "options": [
+   {
+    "nl": "In zijn agenda kijken",
+    "zh": "查看他的日程"
+   },
+   {
+    "nl": "Een 1 toetsen",
+    "zh": "按1"
+   },
+   {
+    "nl": "Een 4 toetsen",
+    "zh": "按4"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Iemand belt voor de directeur.",
+    "有人打電話給主任。"
+   ],
+   [
+    "Wat moet Sophia als eerst doen?",
+    "Sophia首先應該做什麼？"
+   ]
+  ],
+  "asking": "要聽Sophia的第一步",
+  "ob": [
+   [
+    [
+     "In zijn agenda kijken",
+     "查看他的日程"
+    ],
+    [
+     "Een 1 toetsen",
+     "按1"
+    ],
+    [
+     "Een 4 toetsen",
+     "按4"
+    ]
+   ],
+   [
+    [
+     "Een 1 toetsen",
+     "按1"
+    ],
+    [
+     "In zijn agenda kijken",
+     "查看他的日程"
+    ],
+    [
+     "Een 4 toetsen",
+     "按4"
+    ]
+   ],
+   [
+    [
+     "Een 4 toetsen",
+     "按4"
+    ],
+    [
+     "In zijn agenda kijken",
+     "查看他的日程"
+    ],
+    [
+     "Een 1 toetsen",
+     "按1"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "2K-cXgASSew",
+  "ctx": "Sophia 在新工作中學習如何接電話和轉接來電",
+  "q_nl": "Wat moet Sophia doen als Evelien pauze heeft?",
+  "q_zh": "如果Evelien在休息，Sophia應該怎麼做？",
+  "options": [
+   {
+    "nl": "De naam en het nummer opschrijven",
+    "zh": "寫下名字和號碼"
+   },
+   {
+    "nl": "Doorverbinden met de directeur",
+    "zh": "轉接給主任"
+   },
+   {
+    "nl": "Vragen waar het over gaat",
+    "zh": "詢問是關於什麼的"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Als Evelien pauze heeft, dan moet je ook voor haar de telefoon opnemen.",
+    "如果Evelien在休息，Sophia應該為她接電話。"
+   ],
+   [
+    "Dan schrijf je de naam op van de beller en zeg je dat Evelien terugbelt.",
+    "然後你寫下來的名字並告訴他Evelien會回電。"
+   ]
+  ],
+  "asking": "要聽Sophia的任務",
+  "ob": [
+   [
+    [
+     "De naam en het nummer opschrijven",
+     "寫下名字和號碼"
+    ],
+    [
+     "Doorverbinden met de directeur",
+     "轉接給主任"
+    ],
+    [
+     "Vragen waar het over gaat",
+     "詢問是關於什麼的"
+    ]
+   ],
+   [
+    [
+     "Doorverbinden met de directeur",
+     "轉接給主任"
+    ],
+    [
+     "De naam en het nummer opschrijven",
+     "寫下名字和號碼"
+    ],
+    [
+     "Vragen waar het over gaat",
+     "詢問是關於什麼的"
+    ]
+   ],
+   [
+    [
+     "Vragen waar het over gaat",
+     "詢問是關於什麼的"
+    ],
+    [
+     "De naam en het nummer opschrijven",
+     "寫下名字和號碼"
+    ],
+    [
+     "Doorverbinden met de directeur",
+     "轉接給主任"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "2K-cXgASSew",
+  "ctx": "Sophia 在新工作中學習如何接電話和轉接來電",
+  "q_nl": "Wat is een belangrijke regel voor Sophia op haar nieuwe baan?",
+  "q_zh": "Sophia在新工作中的一個重要規則是什麼？",
+  "options": [
+   {
+    "nl": "De telefoon altijd voorgaat",
+    "zh": "電話總是優先"
+   },
+   {
+    "nl": "Evelien moet altijd terugbellen",
+    "zh": "Evelien總是要回電"
+   },
+   {
+    "nl": "De directeur is altijd beschikbaar",
+    "zh": "主任總是可以聯繫"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Een belangrijke regel is dat de telefoon altijd voorgaat.",
+    "一個重要的規則是電話總是優先。"
+   ]
+  ],
+  "asking": "要聽重要規則",
+  "ob": [
+   [
+    [
+     "De telefoon altijd voorgaat",
+     "電話總是優先"
+    ],
+    [
+     "Evelien moet altijd terugbellen",
+     "Evelien總是要回電"
+    ],
+    [
+     "De directeur is altijd beschikbaar",
+     "主任總是可以聯繫"
+    ]
+   ],
+   [
+    [
+     "Evelien moet altijd terugbellen",
+     "Evelien總是要回電"
+    ],
+    [
+     "De telefoon altijd voorgaat",
+     "電話總是優先"
+    ],
+    [
+     "De directeur is altijd beschikbaar",
+     "主任總是可以聯繫"
+    ]
+   ],
+   [
+    [
+     "De directeur is altijd beschikbaar",
+     "主任總是可以聯繫"
+    ],
+    [
+     "De telefoon altijd voorgaat",
+     "電話總是優先"
+    ],
+    [
+     "Evelien moet altijd terugbellen",
+     "Evelien總是要回電"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "2K-cXgASSew",
+  "ctx": "Sophia 在新工作中學習如何接電話和轉接來電",
+  "q_nl": "Wat moet Sophia doen als iemand belt voor de afdeling inkoop?",
+  "q_zh": "如果有人打電話給採購部，Sophia應該怎麼做？",
+  "options": [
+   {
+    "nl": "Een 4 toetsen",
+    "zh": "按4"
+   },
+   {
+    "nl": "In zijn agenda kijken",
+    "zh": "查看他的日程"
+   },
+   {
+    "nl": "Vragen waar het over gaat",
+    "zh": "詢問是關於什麼的"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Als er iemand belt voor de afdeling inkoop, die kun je dan meteen doorverbinden.",
+    "如果有人打電話給採購部，你可以立即轉接。"
+   ],
+   [
+    "Je toetst dan de 4.",
+    "你按4。"
+   ]
+  ],
+  "asking": "要聽Sophia的行動",
+  "ob": [
+   [
+    [
+     "Een 4 toetsen",
+     "按4"
+    ],
+    [
+     "In zijn agenda kijken",
+     "查看他的日程"
+    ],
+    [
+     "Vragen waar het over gaat",
+     "詢問是關於什麼的"
+    ]
+   ],
+   [
+    [
+     "In zijn agenda kijken",
+     "查看他的日程"
+    ],
+    [
+     "Een 4 toetsen",
+     "按4"
+    ],
+    [
+     "Vragen waar het over gaat",
+     "詢問是關於什麼的"
+    ]
+   ],
+   [
+    [
+     "Vragen waar het over gaat",
+     "詢問是關於什麼的"
+    ],
+    [
+     "Een 4 toetsen",
+     "按4"
+    ],
+    [
+     "In zijn agenda kijken",
+     "查看他的日程"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "iEm-I_gVb9s",
+  "ctx": "Mario 在收聽廣播，了解荷蘭的交通狀況。",
+  "q_nl": "Hoelang is de file op de snelweg A2 tussen Amsterdam en Utrecht?",
+  "q_zh": "阿姆斯特丹和乌得勒支之间的A2高速公路上有多长的堵车？",
+  "options": [
+   {
+    "nl": "Vijf kilometer",
+    "zh": "五公里"
+   },
+   {
+    "nl": "Vier kilometer",
+    "zh": "四公里"
+   },
+   {
+    "nl": "Zes kilometer",
+    "zh": "六公里"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Hoelang is de file op de snelweg A2 tussen Amsterdam en Utrecht?",
+    "阿姆斯特丹和乌得勒支之间的A2高速公路上有多长的堵车？"
+   ]
+  ],
+  "asking": "要聽什麼（堵车的长度）",
+  "ob": [
+   [
+    [
+     "Vijf kilometer",
+     "五公里"
+    ],
+    [
+     "Vier kilometer",
+     "四公里"
+    ],
+    [
+     "Zes kilometer",
+     "六公里"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "iEm-I_gVb9s",
+  "ctx": "Mario 在收聽廣播，了解荷蘭的交通狀況。",
+  "q_nl": "Waarom staat er een file op de snelweg A4 bij Rotterdam?",
+  "q_zh": "在鹿特丹的A4高速公路上为什么会有堵车？",
+  "options": [
+   {
+    "nl": "Er staat een kapotte vrachtwagen.",
+    "zh": "有一辆坏掉的卡车。"
+   },
+   {
+    "nl": "Er is een ongeluk gebeurd met drie auto's.",
+    "zh": "发生了三辆车的事故。"
+   },
+   {
+    "nl": "Er wordt aan de weg gewerkt.",
+    "zh": "正在修路。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Waarom staat er een file op de snelweg A4 bij Rotterdam?",
+    "在鹿特丹的A4高速公路上为什么会有堵车？"
+   ]
+  ],
+  "asking": "要聽什麼（堵车的原因）",
+  "ob": [
+   [
+    [
+     "Er staat een kapotte vrachtwagen.",
+     "有一辆坏掉的卡车。"
+    ],
+    [
+     "Er is een ongeluk gebeurd met drie auto's.",
+     "发生了三辆车的事故。"
+    ],
+    [
+     "Er wordt aan de weg gewerkt.",
+     "正在修路。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "iEm-I_gVb9s",
+  "ctx": "Mario 在收聽廣播，了解荷蘭的交通狀況。",
+  "q_nl": "Wat kan Mario het beste doen om van Arnhem naar Utrecht te reizen?",
+  "q_zh": "马里奥从阿纳姆到乌得勒支最好怎么做？",
+  "options": [
+   {
+    "nl": "Met de NS-bus reizen.",
+    "zh": "乘坐NS巴士旅行。"
+   },
+   {
+    "nl": "Via Apeldoorn reizen.",
+    "zh": "经由阿佩尔多伦旅行。"
+   },
+   {
+    "nl": "Met een taxi reizen.",
+    "zh": "乘坐出租车旅行。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wat kan Mario het beste doen om van Arnhem naar Utrecht te reizen?",
+    "马里奥从阿纳姆到乌得勒支最好怎么做？"
+   ]
+  ],
+  "asking": "要聽什麼（旅行的方式）",
+  "ob": [
+   [
+    [
+     "Met de NS-bus reizen.",
+     "乘坐NS巴士旅行。"
+    ],
+    [
+     "Via Apeldoorn reizen.",
+     "经由阿佩尔多伦旅行。"
+    ],
+    [
+     "Met een taxi reizen.",
+     "乘坐出租车旅行。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "iEm-I_gVb9s",
+  "ctx": "Mario 在收聽廣播，了解荷蘭的交通狀況。",
+  "q_nl": "Hoeveel kilometer file is er bij Apeldoorn?",
+  "q_zh": "阿佩尔多伦有多少公里的堵车？",
+  "options": [
+   {
+    "nl": "Tien kilometer",
+    "zh": "十公里"
+   },
+   {
+    "nl": "Vijf kilometer",
+    "zh": "五公里"
+   },
+   {
+    "nl": "Vier kilometer",
+    "zh": "四公里"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Hoeveel kilometer file is er bij Apeldoorn?",
+    "阿佩尔多伦有多少公里的堵车？"
+   ]
+  ],
+  "asking": "要聽什麼（堵车的长度）",
+  "ob": [
+   [
+    [
+     "Tien kilometer",
+     "十公里"
+    ],
+    [
+     "Vijf kilometer",
+     "五公里"
+    ],
+    [
+     "Vier kilometer",
+     "四公里"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "lk7UF1vn8a4",
+  "ctx": "Nabil 在公司學習如何訂購辦公材料",
+  "q_nl": "Waar zit de afdeling Inkoop?",
+  "q_zh": "採購部在哪裡？",
+  "options": [
+   {
+    "nl": "In kamer 2.3.",
+    "zh": "在 2.3 房間。"
+   },
+   {
+    "nl": "In kamer 2.2.",
+    "zh": "在 2.2 房間。"
+   },
+   {
+    "nl": "Naast de kantine.",
+    "zh": "在餐廳旁邊。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Waar zit de afdeling Inkoop?",
+    "採購部在哪裡？"
+   ]
+  ],
+  "asking": "要聽什麼（≤30字）",
+  "ob": [
+   [
+    [
+     "Inkoop zit op de tweede verdieping, kamer 2.3.",
+     "採購部在二樓，2.3 房間。"
+    ]
+   ],
+   [
+    [
+     "Inkoop zit op de tweede verdieping, kamer 2.2.",
+     "採購部在二樓，2.2 房間。"
+    ]
+   ],
+   [
+    [
+     "Inkoop zit naast verkoop in 2.2.",
+     "採購部在 2.2 的銷售部旁邊。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "lk7UF1vn8a4",
+  "ctx": "Nabil 在公司學習如何訂購辦公材料",
+  "q_nl": "Wat moet Nabil doen om iets te bestellen?",
+  "q_zh": "Nabil 要怎麼做才能訂購東西？",
+  "options": [
+   {
+    "nl": "Even langslopen bij de afdeling Inkoop.",
+    "zh": "去採購部走一趟。"
+   },
+   {
+    "nl": "De afdeling Inkoop bellen met de bestelling.",
+    "zh": "打電話給採購部訂購。"
+   },
+   {
+    "nl": "Een formulier inleveren bij de afdeling Inkoop.",
+    "zh": "在採購部提交一份表格。"
+   }
+  ],
+  "answer": 2,
+  "qb": [
+   [
+    "Wat moet Nabil doen om iets te bestellen?",
+    "Nabil 要怎麼做才能訂購東西？"
+   ]
+  ],
+  "asking": "要聽什麼（≤30字）",
+  "ob": [
+   [
+    [
+     "Als u iets wilt bestellen, vul je dit formulier in.",
+     "如果您想訂購東西，請填寫這份表格。"
+    ]
+   ],
+   [
+    [
+     "Als u iets wilt bestellen, bel je de afdeling Inkoop.",
+     "如果您想訂購東西，您需要打電話給採購部。"
+    ]
+   ],
+   [
+    [
+     "Als u iets wilt bestellen, ga je even langs de afdeling Inkoop.",
+     "如果您想訂購東西，您可以去採購部走一趟。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "lk7UF1vn8a4",
+  "ctx": "Nabil 在公司學習如何訂購辦公材料",
+  "q_nl": "Hoeveel examens heeft Julia volgende week?",
+  "q_zh": "Julia 下星期有多少場考試？",
+  "options": [
+   {
+    "nl": "Twee.",
+    "zh": "兩場。"
+   },
+   {
+    "nl": "Drie.",
+    "zh": "三場。"
+   },
+   {
+    "nl": "Vijf.",
+    "zh": "五場。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Hoeveel examens heeft Julia volgende week?",
+    "Julia 下星期有多少場考試？"
+   ]
+  ],
+  "asking": "要聽什麼（≤30字）",
+  "ob": [
+   [
+    [
+     "Volgende week hebben we alleen al drie examens.",
+     "下星期我們就有三場考試。"
+    ]
+   ],
+   [
+    [
+     "Volgende week hebben we twee examens.",
+     "下星期我們有兩場考試。"
+    ]
+   ],
+   [
+    [
+     "We hebben in totaal vijf examens.",
+     "我們總共有五場考試。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "lk7UF1vn8a4",
+  "ctx": "Nabil 在公司學習如何訂購辦公材料",
+  "q_nl": "Welke tip geeft Chris als eerste aan Mira?",
+  "q_zh": "Chris 給 Mira 的第一個建議是什麼？",
+  "options": [
+   {
+    "nl": "Maak een planning.",
+    "zh": "制定一個計畫。"
+   },
+   {
+    "nl": "Ga extra veel leren.",
+    "zh": "多學習。"
+   },
+   {
+    "nl": "Leer in de bus en in de trein.",
+    "zh": "在公車和火車上學習。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Welke tip geeft Chris als eerste aan Mira?",
+    "Chris 給 Mira 的第一個建議是什麼？"
+   ]
+  ],
+  "asking": "要聽什麼（≤30字）",
+  "ob": [
+   [
+    [
+     "Zorg dat je eerst een goede planning maakt.",
+     "確保你先制定一個好的計畫。"
+    ]
+   ],
+   [
+    [
+     "Ga extra veel leren in de bus.",
+     "在公車上多學習。"
+    ]
+   ],
+   [
+    [
+     "Leer in de trein.",
+     "在火車上學習。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "ogyJB2xEaUs",
+  "ctx": "Roman 在前往市政府的路上，接收朋友的導航指示。",
+  "q_nl": "Wat moet Roman doen bij de Groene Brug?",
+  "q_zh": "Roman在Groene Brug要做什麼？",
+  "options": [
+   {
+    "nl": "Hij moet linksaf.",
+    "zh": "他要左轉。"
+   },
+   {
+    "nl": "Hij moet rechtdoor.",
+    "zh": "他要直行。"
+   },
+   {
+    "nl": "Hij moet parkeren.",
+    "zh": "他要停車。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Roman is onderweg naar het gemeentehuis.",
+    "Roman正在前往市政廳。"
+   ],
+   [
+    "Bij de Groene Brug ga je naar rechts.",
+    "在Groene Brug你要右轉。"
+   ]
+  ],
+  "asking": "要聽Roman在Groene Brug的指示。",
+  "ob": [
+   [
+    [
+     "Hij moet linksaf.",
+     "他要左轉。"
+    ],
+    [
+     "Hij moet rechtdoor.",
+     "他要直行。"
+    ],
+    [
+     "Hij moet parkeren.",
+     "他要停車。"
+    ]
+   ],
+   [
+    [
+     "Hij moet rechtdoor.",
+     "他要直行。"
+    ],
+    [
+     "Hij moet linksaf.",
+     "他要左轉。"
+    ],
+    [
+     "Hij moet parkeren.",
+     "他要停車。"
+    ]
+   ],
+   [
+    [
+     "Hij moet parkeren.",
+     "他要停車。"
+    ],
+    [
+     "Hij moet rechtdoor.",
+     "他要直行。"
+    ],
+    [
+     "Hij moet linksaf.",
+     "他要左轉。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "ogyJB2xEaUs",
+  "ctx": "Roman 在前往市政府的路上，接收朋友的導航指示。",
+  "q_nl": "Wat moet Roman doen bij de supermarkt?",
+  "q_zh": "Roman在超市要做什麼？",
+  "options": [
+   {
+    "nl": "Hij moet rechtsaf.",
+    "zh": "他要右轉。"
+   },
+   {
+    "nl": "Hij moet linksaf.",
+    "zh": "他要左轉。"
+   },
+   {
+    "nl": "Hij moet rechtdoor.",
+    "zh": "他要直行。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "En bij de supermarkt ga je rechtsaf.",
+    "在超市你要右轉。"
+   ]
+  ],
+  "asking": "要聽Roman在超市的指示。",
+  "ob": [
+   [
+    [
+     "Hij moet rechtsaf.",
+     "他要右轉。"
+    ],
+    [
+     "Hij moet linksaf.",
+     "他要左轉。"
+    ],
+    [
+     "Hij moet rechtdoor.",
+     "他要直行。"
+    ]
+   ],
+   [
+    [
+     "Hij moet linksaf.",
+     "他要左轉。"
+    ],
+    [
+     "Hij moet rechtdoor.",
+     "他要直行。"
+    ],
+    [
+     "Hij moet rechtsaf.",
+     "他要右轉。"
+    ]
+   ],
+   [
+    [
+     "Hij moet rechtdoor.",
+     "他要直行。"
+    ],
+    [
+     "Hij moet rechtsaf.",
+     "他要右轉。"
+    ],
+    [
+     "Hij moet linksaf.",
+     "他要左轉。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "ogyJB2xEaUs",
+  "ctx": "Roman 在前往市政府的路上，接收朋友的導航指示。",
+  "q_nl": "Waar is de parkeerplaats voor bezoekers?",
+  "q_zh": "訪客的停車場在哪裡？",
+  "options": [
+   {
+    "nl": "Links van het blauwe gebouw.",
+    "zh": "藍色建築的左邊。"
+   },
+   {
+    "nl": "Rechts van de supermarkt.",
+    "zh": "超市的右邊。"
+   },
+   {
+    "nl": "Achter het gemeentehuis.",
+    "zh": "市政廳的後面。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Daar is links een parkeerplaats voor bezoekers.",
+    "那裡左邊有一個訪客停車場。"
+   ]
+  ],
+  "asking": "要聽停車場的位置。",
+  "ob": [
+   [
+    [
+     "Links van het blauwe gebouw.",
+     "藍色建築的左邊。"
+    ],
+    [
+     "Rechts van de supermarkt.",
+     "超市的右邊。"
+    ],
+    [
+     "Achter het gemeentehuis.",
+     "市政廳的後面。"
+    ]
+   ],
+   [
+    [
+     "Rechts van de supermarkt.",
+     "超市的右邊。"
+    ],
+    [
+     "Achter het gemeentehuis.",
+     "市政廳的後面。"
+    ],
+    [
+     "Links van het blauwe gebouw.",
+     "藍色建築的左邊。"
+    ]
+   ],
+   [
+    [
+     "Achter het gemeentehuis.",
+     "市政廳的後面。"
+    ],
+    [
+     "Links van het blauwe gebouw.",
+     "藍色建築的左邊。"
+    ],
+    [
+     "Rechts van de supermarkt.",
+     "超市的右邊。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "ogyJB2xEaUs",
+  "ctx": "Roman 在前往市政府的路上，接收朋友的導航指示。",
+  "q_nl": "Wie heeft Roman een bericht gestuurd?",
+  "q_zh": "誰給Roman發了消息？",
+  "options": [
+   {
+    "nl": "Erik.",
+    "zh": "Erik。"
+   },
+   {
+    "nl": "De supermarkt.",
+    "zh": "超市。"
+   },
+   {
+    "nl": "De gemeente.",
+    "zh": "市政府。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Roman heeft een bericht op zijn voicemail van Erik.",
+    "Roman在他的語音信箱中收到Erik的消息。"
+   ]
+  ],
+  "asking": "要聽誰發了消息給Roman。",
+  "ob": [
+   [
+    [
+     "Erik.",
+     "Erik。"
+    ],
+    [
+     "De supermarkt.",
+     "超市。"
+    ],
+    [
+     "De gemeente.",
+     "市政府。"
+    ]
+   ],
+   [
+    [
+     "De supermarkt.",
+     "超市。"
+    ],
+    [
+     "De gemeente.",
+     "市政府。"
+    ],
+    [
+     "Erik.",
+     "Erik。"
+    ]
+   ],
+   [
+    [
+     "De gemeente.",
+     "市政府。"
+    ],
+    [
+     "Erik.",
+     "Erik。"
+    ],
+    [
+     "De supermarkt.",
+     "超市。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "J4yroaYw1SQ",
+  "ctx": "Yassir 在網上註冊，準備參加人力資源公司的面試",
+  "q_nl": "Wat moet Yassir doen voor zijn kennismakingsgesprek?",
+  "q_zh": "Yassir 在他的面試之前需要做什麼？",
+  "options": [
+   {
+    "nl": "Hij moet zich inschrijven.",
+    "zh": "他需要註冊。"
+   },
+   {
+    "nl": "Hij moet een video bekijken.",
+    "zh": "他需要觀看一個視頻。"
+   },
+   {
+    "nl": "Hij moet een werkplanning maken.",
+    "zh": "他需要制定工作計劃。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Yassir wil werken via uitzendbureau Kracht.",
+    "Yassir 想通過 Kracht 人力資源公司工作。"
+   ],
+   [
+    "Hij bekijkt een filmpje op internet van het uitzendbureau.",
+    "他在網上觀看人力資源公司的視頻。"
+   ]
+  ],
+  "asking": "Yassir 需要做什麼？",
+  "ob": [
+   [
+    [
+     "Hij moet zich inschrijven.",
+     "他需要註冊。"
+    ]
+   ],
+   [
+    [
+     "Hij moet een video bekijken.",
+     "他需要觀看一個視頻。"
+    ]
+   ],
+   [
+    [
+     "Hij moet een werkplanning maken.",
+     "他需要制定工作計劃。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "J4yroaYw1SQ",
+  "ctx": "Yassir 在網上註冊，準備參加人力資源公司的面試",
+  "q_nl": "Wat voor werk kan Yassir doen?",
+  "q_zh": "Yassir 可以做什麼工作？",
+  "options": [
+   {
+    "nl": "Schoonmaak, beveiliging en productie.",
+    "zh": "清潔、安全和生產。"
+   },
+   {
+    "nl": "Onderwijs en administratie.",
+    "zh": "教育和行政。"
+   },
+   {
+    "nl": "Gezondheidszorg en techniek.",
+    "zh": "醫療和技術。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Mensen kunnen bij ons werken in de schoonmaak.",
+    "人們可以在我們這裡從事清潔工作。"
+   ],
+   [
+    "De beveiliging en de productie.",
+    "安全和生產。"
+   ]
+  ],
+  "asking": "Yassir 可以做什麼工作？",
+  "ob": [
+   [
+    [
+     "Schoonmaak, beveiliging en productie.",
+     "清潔、安全和生產。"
+    ]
+   ],
+   [
+    [
+     "Onderwijs en administratie.",
+     "教育和行政。"
+    ]
+   ],
+   [
+    [
+     "Gezondheidszorg en techniek.",
+     "醫療和技術。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "J4yroaYw1SQ",
+  "ctx": "Yassir 在網上註冊，準備參加人力資源公司的面試",
+  "q_nl": "Hoe lang duurt de opleiding tot leidinggevende?",
+  "q_zh": "成為管理者的培訓需要多長時間？",
+  "options": [
+   {
+    "nl": "Twee maanden.",
+    "zh": "兩個月。"
+   },
+   {
+    "nl": "Vier maanden.",
+    "zh": "四個月。"
+   },
+   {
+    "nl": "Zes maanden.",
+    "zh": "六個月。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "U kunt bij ons ook een avondopleiding volgen tot leidinggevende.",
+    "您也可以在我們這裡參加晚間管理培訓。"
+   ],
+   [
+    "Deze opleiding duurt vier maanden.",
+    "這個培訓需要四個月。"
+   ]
+  ],
+  "asking": "培訓需要多長時間？",
+  "ob": [
+   [
+    [
+     "Twee maanden.",
+     "兩個月。"
+    ]
+   ],
+   [
+    [
+     "Vier maanden.",
+     "四個月。"
+    ]
+   ],
+   [
+    [
+     "Zes maanden.",
+     "六個月。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "J4yroaYw1SQ",
+  "ctx": "Yassir 在網上註冊，準備參加人力資源公司的面試",
+  "q_nl": "Wat moet je spreken voor de schoonmaak en productie?",
+  "q_zh": "從事清潔和生產工作需要說什麼？",
+  "options": [
+   {
+    "nl": "Nederlands op A2 niveau.",
+    "zh": "A2 水平的荷蘭語。"
+   },
+   {
+    "nl": "Nederlands op B1 niveau.",
+    "zh": "B1 水平的荷蘭語。"
+   },
+   {
+    "nl": "Engels op A2 niveau.",
+    "zh": "A2 水平的英語。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Voor de schoonmaak en productie moet u Nederlands spreken op A2 niveau.",
+    "從事清潔和生產工作需要說 A2 水平的荷蘭語。"
+   ]
+  ],
+  "asking": "從事清潔和生產工作需要說什麼？",
+  "ob": [
+   [
+    [
+     "Nederlands op A2 niveau.",
+     "A2 水平的荷蘭語。"
+    ]
+   ],
+   [
+    [
+     "Nederlands op B1 niveau.",
+     "B1 水平的荷蘭語。"
+    ]
+   ],
+   [
+    [
+     "Engels op A2 niveau.",
+     "A2 水平的英語。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "VhFT2yDaMjg",
+  "ctx": "Eren 和他的朋友 Mark 在市政府辦理出生登記",
+  "q_nl": "Waarom is Mark bij de gemeente?",
+  "q_zh": "馬克為什麼在市政府？",
+  "options": [
+   {
+    "nl": "Hij wil een geboorte aangeven.",
+    "zh": "他想要報告出生。"
+   },
+   {
+    "nl": "Hij gaat binnenkort trouwen.",
+    "zh": "他即將結婚。"
+   },
+   {
+    "nl": "Hij is zijn legitimatiebewijs kwijt.",
+    "zh": "他丟了他的身份證。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Waarom is Mark bij de gemeente?",
+    "馬克為什麼在市政府？"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "Hij wil een geboorte aangeven.",
+     "他想要報告出生。"
+    ],
+    [
+     "Hij gaat binnenkort trouwen.",
+     "他即將結婚。"
+    ],
+    [
+     "Hij is zijn legitimatiebewijs kwijt.",
+     "他丟了他的身份證。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "VhFT2yDaMjg",
+  "ctx": "Eren 和他的朋友 Mark 在市政府辦理出生登記",
+  "q_nl": "Wanneer kan Mark terugkomen bij de gemeente?",
+  "q_zh": "馬克什麼時候可以回到市政府？",
+  "options": [
+   {
+    "nl": "Vanmiddag.",
+    "zh": "今天下午。"
+   },
+   {
+    "nl": "Morgenochtend.",
+    "zh": "明天早上。"
+   },
+   {
+    "nl": "Over drie dagen.",
+    "zh": "三天後。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Wanneer kan Mark terugkomen bij de gemeente?",
+    "馬克什麼時候可以回到市政府？"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "Vanmiddag.",
+     "今天下午。"
+    ],
+    [
+     "Morgenochtend.",
+     "明天早上。"
+    ],
+    [
+     "Over drie dagen.",
+     "三天後。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "VhFT2yDaMjg",
+  "ctx": "Eren 和他的朋友 Mark 在市政府辦理出生登記",
+  "q_nl": "Wat kan Mark het beste doen om niet zo lang te wachten?",
+  "q_zh": "馬克為了不等那麼久，最好做什麼？",
+  "options": [
+   {
+    "nl": "Een afspraak maken aan de balie.",
+    "zh": "在櫃檯預約。"
+   },
+   {
+    "nl": "Een afspraak maken via internet.",
+    "zh": "在網上預約。"
+   },
+   {
+    "nl": "Voor twaalf uur naar de gemeente gaan.",
+    "zh": "在十二點之前去市政府。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Wat kan Mark het beste doen om niet zo lang te wachten?",
+    "馬克為了不等那麼久，最好做什麼？"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "Een afspraak maken aan de balie.",
+     "在櫃檯預約。"
+    ],
+    [
+     "Een afspraak maken via internet.",
+     "在網上預約。"
+    ],
+    [
+     "Voor twaalf uur naar de gemeente gaan.",
+     "在十二點之前去市政府。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "VhFT2yDaMjg",
+  "ctx": "Eren 和他的朋友 Mark 在市政府辦理出生登記",
+  "q_nl": "Hoe laat sluit de gemeente vanmiddag?",
+  "q_zh": "市政府今天下午幾點關閉？",
+  "options": [
+   {
+    "nl": "Om twaalf uur.",
+    "zh": "在十二點。"
+   },
+   {
+    "nl": "Om vier uur.",
+    "zh": "在四點。"
+   },
+   {
+    "nl": "Om zes uur.",
+    "zh": "在六點。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Hoe laat sluit de gemeente vanmiddag?",
+    "市政府今天下午幾點關閉？"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "Om twaalf uur.",
+     "在十二點。"
+    ],
+    [
+     "Om vier uur.",
+     "在四點。"
+    ],
+    [
+     "Om zes uur.",
+     "在六點。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "gIqFonNsQZ8",
+  "ctx": "在學校，家長們討論如何準備國王日的早餐活動。",
+  "q_nl": "Waar spreken de cursisten morgen af?",
+  "q_zh": "學員們明天在哪裡集合？",
+  "options": [
+   {
+    "nl": "In het park.",
+    "zh": "在公園。"
+   },
+   {
+    "nl": "Op school.",
+    "zh": "在學校。"
+   },
+   {
+    "nl": "Bij de boerderij.",
+    "zh": "在農場。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Waar spreken de cursisten morgen af?",
+    "學員們明天在哪裡集合？"
+   ],
+   [
+    "Dus niet op school.",
+    "所以不在學校。"
+   ],
+   [
+    "We spreken morgen om tien uur in het park af.",
+    "我們明天十點在公園集合。"
+   ]
+  ],
+  "asking": "要聽學員明天的集合地點",
+  "ob": [
+   [
+    [
+     "In het park.",
+     "在公園。"
+    ],
+    [
+     "Op school.",
+     "在學校。"
+    ],
+    [
+     "Bij de boerderij.",
+     "在農場。"
+    ]
+   ],
+   [
+    [
+     "In het park.",
+     "在公園。"
+    ],
+    [
+     "Op school.",
+     "在學校。"
+    ],
+    [
+     "Bij de boerderij.",
+     "在農場。"
+    ]
+   ],
+   [
+    [
+     "In het park.",
+     "在公園。"
+    ],
+    [
+     "Op school.",
+     "在學校。"
+    ],
+    [
+     "Bij de boerderij.",
+     "在農場。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "DLKjW7fqyDU",
+  "ctx": "在英語課堂上，Enrico 與老師討論他的寫作作業",
+  "q_nl": "Waar wil Zineb eten?",
+  "q_zh": "Zineb 想在哪裡吃飯？",
+  "options": [
+   {
+    "nl": "In een restaurant.",
+    "zh": "在餐廳。"
+   },
+   {
+    "nl": "Bij Sonja thuis.",
+    "zh": "在 Sonja 家。"
+   },
+   {
+    "nl": "In de bioscoop.",
+    "zh": "在電影院。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Hoi. Met Zineb. Ik bel even over vanavond.",
+    "嗨，我是 Zineb。我打電話是關於今晚的。"
+   ],
+   [
+    "We hadden afgesproken om naar die pizzeria te gaan, maar hij is gesloten.",
+    "我們約好去那家披薩店，但它關門了。"
+   ],
+   [
+    "Er is een bedrijfsfeest. Morgenavond is het restaurant wel open.",
+    "有一個公司派對。明晚餐廳會開。"
+   ]
+  ],
+  "asking": "要聽 Zineb 想去哪裡吃飯",
+  "ob": [
+   [
+    [
+     "In een restaurant.",
+     "在餐廳。"
+    ],
+    [
+     "Bij Sonja thuis.",
+     "在 Sonja 家。"
+    ],
+    [
+     "In de bioscoop.",
+     "在電影院。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "DLKjW7fqyDU",
+  "ctx": "在英語課堂上，Enrico 與老師討論他的寫作作業",
+  "q_nl": "Hoe laat wil Zineb afspreken?",
+  "q_zh": "Zineb 想幾點見面？",
+  "options": [
+   {
+    "nl": "Vanavond om zes uur.",
+    "zh": "今晚六點。"
+   },
+   {
+    "nl": "Vanavond om zeven uur.",
+    "zh": "今晚七點。"
+   },
+   {
+    "nl": "Morgenavond om zes uur.",
+    "zh": "明晚六點。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Kun jij dan toevallig ook? Om zeven uur?",
+    "你能來嗎？七點？"
+   ],
+   [
+    "Ik zal wel reserveren.",
+    "我會預訂。"
+   ],
+   [
+    "Dus wil je mij even terugbellen?",
+    "所以你能回個電話給我嗎？"
+   ]
+  ],
+  "asking": "要聽 Zineb 想幾點見面",
+  "ob": [
+   [
+    [
+     "Vanavond om zes uur.",
+     "今晚六點。"
+    ],
+    [
+     "Vanavond om zeven uur.",
+     "今晚七點。"
+    ],
+    [
+     "Morgenavond om zes uur.",
+     "明晚六點。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "DLKjW7fqyDU",
+  "ctx": "在英語課堂上，Enrico 與老師討論他的寫作作業",
+  "q_nl": "Wie is Moerad?",
+  "q_zh": "Moerad 是誰？",
+  "options": [
+   {
+    "nl": "Een broer van Zineb.",
+    "zh": "Zineb 的兄弟。"
+   },
+   {
+    "nl": "Een vriend van Zineb.",
+    "zh": "Zineb 的朋友。"
+   },
+   {
+    "nl": "Een collega van Zineb.",
+    "zh": "Zineb 的同事。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Ik ga morgenavond ook nog met mijn broer Moerad naar de film.",
+    "我明晚還要和我的兄弟 Moerad 去看電影。"
+   ],
+   [
+    "Vind je het leuk om na het eten met ons mee te gaan naar de film?",
+    "你想在吃完飯後和我們一起去看電影嗎？"
+   ],
+   [
+    "Ik zal je thuis komen ophalen.",
+    "我會來你家接你。"
+   ]
+  ],
+  "asking": "要聽 Moerad 是誰",
+  "ob": [
+   [
+    [
+     "Een broer van Zineb.",
+     "Zineb 的兄弟。"
+    ],
+    [
+     "Een vriend van Zineb.",
+     "Zineb 的朋友。"
+    ],
+    [
+     "Een collega van Zineb.",
+     "Zineb 的同事。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "DLKjW7fqyDU",
+  "ctx": "在英語課堂上，Enrico 與老師討論他的寫作作業",
+  "q_nl": "Welk advies over brievenschrijven geeft de docent aan Enrico?",
+  "q_zh": "老師給 Enrico 的寫信建議是什麼？",
+  "options": [
+   {
+    "nl": "Laat je brief controleren door iemand anders.",
+    "zh": "讓別人檢查你的信。"
+   },
+   {
+    "nl": "Gebruik een woordenboek tijdens het schrijven.",
+    "zh": "寫作時使用詞典。"
+   },
+   {
+    "nl": "Lees je brief nog een keer door als je klaar bent.",
+    "zh": "完成後再讀一次你的信。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Misschien kan iemand je brief nog eens doorlezen als hij af is.",
+    "也許可以讓別人再讀一次你的信。"
+   ],
+   [
+    "Heb je dat aan iemand gevraagd?",
+    "你有問過別人嗎？"
+   ],
+   [
+    "Je kunt de volgende keer je brief aan een medecursist geven.",
+    "下次你可以把信給同學。"
+   ]
+  ],
+  "asking": "要聽 老師的建議",
+  "ob": [
+   [
+    [
+     "Laat je brief controleren door iemand anders.",
+     "讓別人檢查你的信。"
+    ],
+    [
+     "Gebruik een woordenboek tijdens het schrijven.",
+     "寫作時使用詞典。"
+    ],
+    [
+     "Lees je brief nog een keer door als je klaar bent.",
+     "完成後再讀一次你的信。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "oS9ZMdbDffE",
+  "ctx": "Amina 在社區中心，聽到鄰居們討論醫院的水管問題。",
+  "q_nl": "Waarom is de straat van Amina afgesloten?",
+  "q_zh": "阿米娜的街道為什麼被封閉？",
+  "options": [
+   {
+    "nl": "Omdat er een waterleiding kapot is gegaan.",
+    "zh": "因為水管壞了。"
+   },
+   {
+    "nl": "Omdat er een feestje is.",
+    "zh": "因為有派對。"
+   },
+   {
+    "nl": "Omdat er een ongeluk is gebeurd.",
+    "zh": "因為發生了事故。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Waarom is de straat van Amina afgesloten?",
+    "阿米娜的街道為什麼被封閉？"
+   ],
+   [
+    "In het ziekenhuis in Amsterdam-Zuid is een waterleiding kapot gegaan.",
+    "阿姆斯特丹南部的醫院裡有一條水管壞了。"
+   ]
+  ],
+  "asking": "要聽阿米娜的街道封閉的原因",
+  "ob": [
+   [
+    [
+     "Omdat er een waterleiding kapot is gegaan.",
+     "因為水管壞了。"
+    ],
+    [
+     "Omdat er een feestje is.",
+     "因為有派對。"
+    ],
+    [
+     "Omdat er een ongeluk is gebeurd.",
+     "因為發生了事故。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "oS9ZMdbDffE",
+  "ctx": "Amina 在社區中心，聽到鄰居們討論醫院的水管問題。",
+  "q_nl": "Wanneer gaat de straat van Amina weer open?",
+  "q_zh": "阿米娜的街道什麼時候會再開放？",
+  "options": [
+   {
+    "nl": "Vrijdag.",
+    "zh": "星期五。"
+   },
+   {
+    "nl": "Dinsdag.",
+    "zh": "星期二。"
+   },
+   {
+    "nl": "Zaterdag.",
+    "zh": "星期六。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wanneer gaat de straat van Amina weer open?",
+    "阿米娜的街道什麼時候會再開放？"
+   ],
+   [
+    "Vanaf vrijdag is het hele ziekenhuis weer open.",
+    "從星期五開始，整個醫院將重新開放。"
+   ]
+  ],
+  "asking": "要聽阿米娜的街道再開放的時間",
+  "ob": [
+   [
+    [
+     "Vrijdag.",
+     "星期五。"
+    ],
+    [
+     "Dinsdag.",
+     "星期二。"
+    ],
+    [
+     "Zaterdag.",
+     "星期六。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "oS9ZMdbDffE",
+  "ctx": "Amina 在社區中心，聽到鄰居們討論醫院的水管問題。",
+  "q_nl": "Welke patiënten zijn naar een andere plaats gebracht?",
+  "q_zh": "哪些病人被轉移到其他地方？",
+  "options": [
+   {
+    "nl": "Alle patiënten van de eerste verdieping.",
+    "zh": "所有一樓的病人。"
+   },
+   {
+    "nl": "Alle patiënten van de begane grond.",
+    "zh": "所有一樓的病人。"
+   },
+   {
+    "nl": "Alle patiënten van het ziekenhuis.",
+    "zh": "所有醫院的病人。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Welke patiënten zijn naar een andere plaats gebracht?",
+    "哪些病人被轉移到其他地方？"
+   ],
+   [
+    "Alle patiënten op de eerste verdieping zijn wel naar een andere plek gebracht.",
+    "所有一樓的病人都被轉移到了其他地方。"
+   ]
+  ],
+  "asking": "要聽被轉移的病人",
+  "ob": [
+   [
+    [
+     "Alle patiënten van de eerste verdieping.",
+     "所有一樓的病人。"
+    ],
+    [
+     "Alle patiënten van de begane grond.",
+     "所有一樓的病人。"
+    ],
+    [
+     "Alle patiënten van het ziekenhuis.",
+     "所有醫院的病人。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "oS9ZMdbDffE",
+  "ctx": "Amina 在社區中心，聽到鄰居們討論醫院的水管問題。",
+  "q_nl": "Waar moet Hamza de rekening naartoe sturen?",
+  "q_zh": "哈姆扎要把帳單寄到哪裡？",
+  "options": [
+   {
+    "nl": "Naar het postadres.",
+    "zh": "寄到郵寄地址。"
+   },
+   {
+    "nl": "Naar de Snackbar.",
+    "zh": "寄到小吃店。"
+   },
+   {
+    "nl": "Naar het huisadres.",
+    "zh": "寄到家裡地址。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Waar moet Hamza de rekening naartoe sturen?",
+    "哈姆扎要把帳單寄到哪裡？"
+   ],
+   [
+    "Maar de rekening wel naar mijn postadres sturen graag.",
+    "但請把帳單寄到我的郵寄地址。"
+   ]
+  ],
+  "asking": "要聽哈姆扎的帳單寄送地址",
+  "ob": [
+   [
+    [
+     "Naar het postadres.",
+     "寄到郵寄地址。"
+    ],
+    [
+     "Naar de Snackbar.",
+     "寄到小吃店。"
+    ],
+    [
+     "Naar het huisadres.",
+     "寄到家裡地址。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "aLBxYurJGE0",
+  "ctx": "Steven 和 Yari 在街上碰面，聊到 Danielle 懷孕的事。",
+  "q_nl": "Hoe lang is Danielle al zwanger?",
+  "q_zh": "Danielle懷孕多久了？",
+  "options": [
+   {
+    "nl": "Twee maanden",
+    "zh": "兩個月"
+   },
+   {
+    "nl": "Drie maanden",
+    "zh": "三個月"
+   },
+   {
+    "nl": "Vier maanden",
+    "zh": "四個月"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Danielle is zwanger.",
+    "Danielle懷孕了。"
+   ],
+   [
+    "Hoe lang is Danielle al zwanger?",
+    "Danielle懷孕多久了？"
+   ]
+  ],
+  "asking": "要聽Danielle懷孕多久了",
+  "ob": [
+   [
+    [
+     "Twee maanden",
+     "兩個月"
+    ],
+    [
+     "Drie maanden",
+     "三個月"
+    ],
+    [
+     "Vier maanden",
+     "四個月"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "aLBxYurJGE0",
+  "ctx": "Steven 和 Yari 在街上碰面，聊到 Danielle 懷孕的事。",
+  "q_nl": "Wanneer komt Yari eten bij Steven en Danielle?",
+  "q_zh": "Yari什麼時候來Steven和Danielle家吃飯？",
+  "options": [
+   {
+    "nl": "Woensdag",
+    "zh": "星期三"
+   },
+   {
+    "nl": "Zaterdag",
+    "zh": "星期六"
+   },
+   {
+    "nl": "Zondag",
+    "zh": "星期天"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Ja, daarom wilde ik je uitnodigen om komende zaterdag bij ons te komen eten.",
+    "是的，因此我想邀請你這個星期六來我們家吃飯。"
+   ],
+   [
+    "Wanneer komt Yari eten bij Steven en Danielle?",
+    "Yari什麼時候來Steven和Danielle家吃飯？"
+   ]
+  ],
+  "asking": "要聽Yari來吃飯的時間",
+  "ob": [
+   [
+    [
+     "Woensdag",
+     "星期三"
+    ],
+    [
+     "Zaterdag",
+     "星期六"
+    ],
+    [
+     "Zondag",
+     "星期天"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "aLBxYurJGE0",
+  "ctx": "Steven 和 Yari 在街上碰面，聊到 Danielle 懷孕的事。",
+  "q_nl": "Wat vraagt Steven aan Yari?",
+  "q_zh": "Steven問Yari什麼？",
+  "options": [
+   {
+    "nl": "Of hij een kinderbedje wil maken.",
+    "zh": "他是否想做一個嬰兒床。"
+   },
+   {
+    "nl": "Of hij wil komen klussen.",
+    "zh": "他是否想來幫忙。"
+   },
+   {
+    "nl": "Of hij wil helpen bij het koken.",
+    "zh": "他是否想幫忙做飯。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Zeg, kan jij helpen klussen de aankomende tijd?",
+    "嘿，你能幫忙做一些工作嗎？"
+   ],
+   [
+    "Wat vraagt Steven aan Yari?",
+    "Steven問Yari什麼？"
+   ]
+  ],
+  "asking": "要聽Steven問Yari的問題",
+  "ob": [
+   [
+    [
+     "Of hij een kinderbedje wil maken.",
+     "他是否想做一個嬰兒床。"
+    ],
+    [
+     "Of hij wil komen klussen.",
+     "他是否想來幫忙。"
+    ],
+    [
+     "Of hij wil helpen bij het koken.",
+     "他是否想幫忙做飯。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "aLBxYurJGE0",
+  "ctx": "Steven 和 Yari 在街上碰面，聊到 Danielle 懷孕的事。",
+  "q_nl": "Hoeveel plaatsen zijn er nog in de cursus Nederlands 3?",
+  "q_zh": "荷蘭語3課程還有多少個名額？",
+  "options": [
+   {
+    "nl": "1",
+    "zh": "1"
+   },
+   {
+    "nl": "2",
+    "zh": "2"
+   },
+   {
+    "nl": "3",
+    "zh": "3"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "De cursus Nederlands 3 zit bijna vol. Er zijn nog twee plaatsen.",
+    "荷蘭語3課程快滿了，還有兩個名額。"
+   ],
+   [
+    "Hoeveel plaatsen zijn er nog in de cursus Nederlands 3?",
+    "荷蘭語3課程還有多少個名額？"
+   ]
+  ],
+  "asking": "要聽課程名額的數量",
+  "ob": [
+   [
+    [
+     "1",
+     "1"
+    ],
+    [
+     "2",
+     "2"
+    ],
+    [
+     "3",
+     "3"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "S1Jkiew7ovQ",
+  "ctx": "一位家長在學校詢問有關課程和環境的問題",
+  "q_nl": "Wat voor school biedt het Purmerland College aan?",
+  "q_zh": "Purmerland College 提供什麼樣的學校？",
+  "options": [
+   {
+    "nl": "VNBO, HAVO en VWO",
+    "zh": "VNBO、HAVO 和 VWO"
+   },
+   {
+    "nl": "MBO en HBO",
+    "zh": "MBO 和 HBO"
+   },
+   {
+    "nl": "Basisschool en middelbare school",
+    "zh": "小學和中學"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Tot zover mijn verhaal over onze school.",
+    "這是我對我們學校的故事。"
+   ],
+   [
+    "Bieden jullie ook HAVO aan?",
+    "你們也提供 HAVO 嗎？"
+   ],
+   [
+    "Jazeker. Uw kind kan op onze school naar het VNBO, naar het HAVO en naar het VWO.",
+    "當然可以。您的孩子可以在我們學校上 VNBO、HAVO 和 VWO。"
+   ]
+  ],
+  "asking": "要聽什麼學校類型？",
+  "ob": [
+   [
+    [
+     "VNBO, HAVO en VWO",
+     "VNBO、HAVO 和 VWO"
+    ],
+    [
+     "MBO en HBO",
+     "MBO 和 HBO"
+    ],
+    [
+     "Basisschool en middelbare school",
+     "小學和中學"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "S1Jkiew7ovQ",
+  "ctx": "一位家長在學校詢問有關課程和環境的問題",
+  "q_nl": "Hoeveel leerlingen zitten er op de school?",
+  "q_zh": "學校有多少學生？",
+  "options": [
+   {
+    "nl": "Ongeveer duizend leerlingen",
+    "zh": "大約一千名學生"
+   },
+   {
+    "nl": "Twee duizend leerlingen",
+    "zh": "兩千名學生"
+   },
+   {
+    "nl": "Vijfhonderd leerlingen",
+    "zh": "五百名學生"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "O ja? Hoeveel leerlingen zitten er op deze school?",
+    "哦？這所學校有多少學生？"
+   ],
+   [
+    "Op onze school zitten ongeveer duizend leerlingen.",
+    "在我們學校大約有一千名學生。"
+   ]
+  ],
+  "asking": "要聽什麼學生人數？",
+  "ob": [
+   [
+    [
+     "Ongeveer duizend leerlingen",
+     "大約一千名學生"
+    ],
+    [
+     "Twee duizend leerlingen",
+     "兩千名學生"
+    ],
+    [
+     "Vijfhonderd leerlingen",
+     "五百名學生"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "S1Jkiew7ovQ",
+  "ctx": "一位家長在學校詢問有關課程和環境的問題",
+  "q_nl": "Wat is belangrijk volgens de spreker bij het kiezen van een school?",
+  "q_zh": "根據講者，選擇學校時什麼是重要的？",
+  "options": [
+   {
+    "nl": "Wat uw kind van de school vindt",
+    "zh": "您的孩子對學校的看法"
+   },
+   {
+    "nl": "De grootte van de school",
+    "zh": "學校的大小"
+   },
+   {
+    "nl": "De prijs van de school",
+    "zh": "學校的價格"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "En waar moeten we op letten?",
+    "那我們應該注意什麼？"
+   ],
+   [
+    "Het is natuurlijk ook belangrijk wat uw kind van de school vindt.",
+    "當然，您的孩子對學校的看法也很重要。"
+   ]
+  ],
+  "asking": "要聽什麼選校的重要性？",
+  "ob": [
+   [
+    [
+     "Wat uw kind van de school vindt",
+     "您的孩子對學校的看法"
+    ],
+    [
+     "De grootte van de school",
+     "學校的大小"
+    ],
+    [
+     "De prijs van de school",
+     "學校的價格"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "S1Jkiew7ovQ",
+  "ctx": "一位家長在學校詢問有關課程和環境的問題",
+  "q_nl": "Wat gaat de spreker doen na het gesprek?",
+  "q_zh": "講者在談話後要做什麼？",
+  "options": [
+   {
+    "nl": "Een rondleiding doen",
+    "zh": "進行一次參觀"
+   },
+   {
+    "nl": "Lesgeven aan de leerlingen",
+    "zh": "給學生上課"
+   },
+   {
+    "nl": "Een video bekijken",
+    "zh": "觀看一段視頻"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Mag ik nog even rondkijken in de school?",
+    "我可以再看看學校嗎？"
+   ],
+   [
+    "Ja, natuurlijk. Ik ga zometeen een rondleiding doen, dus loopt u maar mee.",
+    "是的，當然可以。我馬上要進行一次參觀，所以請跟我來。"
+   ]
+  ],
+  "asking": "要聽什麼後續行動？",
+  "ob": [
+   [
+    [
+     "Een rondleiding doen",
+     "進行一次參觀"
+    ],
+    [
+     "Lesgeven aan de leerlingen",
+     "給學生上課"
+    ],
+    [
+     "Een video bekijken",
+     "觀看一段視頻"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "6IPSJbEwluw",
+  "ctx": "一位老師在學校介紹會上向家長講解學校的資訊和聯繫方式。",
+  "q_nl": "Wat vertelt de spreker over de schoolgids?",
+  "q_zh": "演講者對學校指南說了什麼？",
+  "options": [
+   {
+    "nl": "De schoolgids staat op de website van de school.",
+    "zh": "學校指南在學校網站上。"
+   },
+   {
+    "nl": "De schoolgids is een boek dat je moet kopen.",
+    "zh": "學校指南是一本你必須購買的書。"
+   },
+   {
+    "nl": "De schoolgids bevat geen belangrijke informatie.",
+    "zh": "學校指南不包含重要信息。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Dit was mijn presentatie.",
+    "這是我的演講。"
+   ],
+   [
+    "Ik heb u vanavond een heleboel verteld over onze school, dus over de roosters.",
+    "我今晚告訴您很多關於我們學校的事情，包括課表。"
+   ],
+   [
+    "Alle belangrijke informatie staat ook in onze schoolgids.",
+    "所有重要信息也在我們的學校指南中。"
+   ]
+  ],
+  "asking": "學校指南在哪裡？",
+  "ob": [
+   [
+    [
+     "De schoolgids staat op de website van de school.",
+     "學校指南在學校網站上。"
+    ]
+   ],
+   [
+    [
+     "De schoolgids is een boek dat je moet kopen.",
+     "學校指南是一本你必須購買的書。"
+    ]
+   ],
+   [
+    [
+     "De schoolgids bevat geen belangrijke informatie.",
+     "學校指南不包含重要信息。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "6IPSJbEwluw",
+  "ctx": "一位老師在學校介紹會上向家長講解學校的資訊和聯繫方式。",
+  "q_nl": "Hoe vaak hebben ouders een gesprek met de mentor?",
+  "q_zh": "家長多久與導師進行一次談話？",
+  "options": [
+   {
+    "nl": "Één keer per jaar.",
+    "zh": "每年一次。"
+   },
+   {
+    "nl": "Twee keer per jaar.",
+    "zh": "每年兩次。"
+   },
+   {
+    "nl": "Elke maand.",
+    "zh": "每個月。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wij vinden het contact met de ouders heel belangrijk.",
+    "我們認為與家長的聯繫非常重要。"
+   ],
+   [
+    "Dus in ieder geval één keer per jaar hebben de ouders een gesprek met de mentor.",
+    "因此，家長至少每年與導師進行一次談話。"
+   ]
+  ],
+  "asking": "家長與導師的會議頻率是多少？",
+  "ob": [
+   [
+    [
+     "Één keer per jaar.",
+     "每年一次。"
+    ]
+   ],
+   [
+    [
+     "Twee keer per jaar.",
+     "每年兩次。"
+    ]
+   ],
+   [
+    [
+     "Elke maand.",
+     "每個月。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "6IPSJbEwluw",
+  "ctx": "一位老師在學校介紹會上向家長講解學校的資訊和聯繫方式。",
+  "q_nl": "Waarom belt de school de ouders?",
+  "q_zh": "學校為什麼打電話給家長？",
+  "options": [
+   {
+    "nl": "Als het kind er niet is, om te vragen waarom.",
+    "zh": "如果孩子不在，詢問原因。"
+   },
+   {
+    "nl": "Om te zeggen dat alles goed gaat.",
+    "zh": "告訴他們一切都很好。"
+   },
+   {
+    "nl": "Om de cijfers van het kind te bespreken.",
+    "zh": "討論孩子的成績。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Nou, wij bellen u op als uw kind er niet is, om te vragen waarom.",
+    "我們會打電話給您，如果您的孩子不在，詢問原因。"
+   ]
+  ],
+  "asking": "學校打電話的原因是什麼？",
+  "ob": [
+   [
+    [
+     "Als het kind er niet is, om te vragen waarom.",
+     "如果孩子不在，詢問原因。"
+    ]
+   ],
+   [
+    [
+     "Om te zeggen dat alles goed gaat.",
+     "告訴他們一切都很好。"
+    ]
+   ],
+   [
+    [
+     "Om de cijfers van het kind te bespreken.",
+     "討論孩子的成績。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "6IPSJbEwluw",
+  "ctx": "一位老師在學校介紹會上向家長講解學校的資訊和聯繫方式。",
+  "q_nl": "Wat vindt de school belangrijk?",
+  "q_zh": "學校認為什麼是重要的？",
+  "options": [
+   {
+    "nl": "Het contact met de ouders.",
+    "zh": "與家長的聯繫。"
+   },
+   {
+    "nl": "De cijfers van de leerlingen.",
+    "zh": "學生的成績。"
+   },
+   {
+    "nl": "De excursies van de school.",
+    "zh": "學校的校外教學。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wij vinden het contact met de ouders heel belangrijk.",
+    "我們認為與家長的聯繫非常重要。"
+   ]
+  ],
+  "asking": "學校認為什麼很重要？",
+  "ob": [
+   [
+    [
+     "Het contact met de ouders.",
+     "與家長的聯繫。"
+    ]
+   ],
+   [
+    [
+     "De cijfers van de leerlingen.",
+     "學生的成績。"
+    ]
+   ],
+   [
+    [
+     "De excursies van de school.",
+     "學校的校外教學。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "4Bp2X6lj1Tw",
+  "ctx": "Zra 在打電話給 Boekenwinkel.nl 的客戶服務，詢問訂書的選項。",
+  "q_nl": "Welk nummer moet ze kiezen als ze een ander boek wil bestellen?",
+  "q_zh": "如果她想訂另一個書，她應該選擇哪個號碼？",
+  "options": [
+   {
+    "nl": "1",
+    "zh": "1"
+   },
+   {
+    "nl": "2",
+    "zh": "2"
+   },
+   {
+    "nl": "3",
+    "zh": "3"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Sra wil liever een ander boek bestellen.",
+    "Sra 更想訂另一個書。"
+   ],
+   [
+    "Welk nummer moet ze dan kiezen?",
+    "她應該選擇哪個號碼？"
+   ]
+  ],
+  "asking": "如果她想訂另一個書，她應該選擇哪個號碼？",
+  "ob": [
+   [
+    [
+     "1",
+     "1"
+    ],
+    [
+     "2",
+     "2"
+    ],
+    [
+     "3",
+     "3"
+    ]
+   ],
+   [
+    [
+     "1",
+     "1"
+    ],
+    [
+     "2",
+     "2"
+    ],
+    [
+     "3",
+     "3"
+    ]
+   ],
+   [
+    [
+     "1",
+     "1"
+    ],
+    [
+     "2",
+     "2"
+    ],
+    [
+     "3",
+     "3"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "oAcYTBuHhT8",
+  "ctx": "兩個朋友討論手機和通話費用",
+  "q_nl": "Wanneer heeft de persoon een afspraak bij de tandarts?",
+  "q_zh": "這個人什麼時候有牙醫的約會？",
+  "options": [
+   {
+    "nl": "Vrijdag om twee uur",
+    "zh": "星期五兩點"
+   },
+   {
+    "nl": "Vrijdag om half vijf",
+    "zh": "星期五四點半"
+   },
+   {
+    "nl": "Zaterdag om drie uur",
+    "zh": "星期六三點"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Wanneer heeft de persoon een afspraak bij de tandarts?",
+    "這個人什麼時候有牙醫的約會？"
+   ],
+   [
+    "Vrijdag om half vijf",
+    "星期五四點半"
+   ]
+  ],
+  "asking": "要聽什麼時間",
+  "ob": [
+   [
+    [
+     "Vrijdag om twee uur",
+     "星期五兩點"
+    ],
+    [
+     "Vrijdag om half vijf",
+     "星期五四點半"
+    ],
+    [
+     "Zaterdag om drie uur",
+     "星期六三點"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "lb0q-sk82TA",
+  "ctx": "兩位朋友在咖啡廳聊天，討論各自的行程和飲食習慣。",
+  "q_nl": "Wat gaat Tessa deze week doen op maandag?",
+  "q_zh": "Tessa 這週一要做什麼？",
+  "options": [
+   {
+    "nl": "Ze gaat naar de koffieochtend in het buurthuis.",
+    "zh": "她要去社區中心的咖啡早晨。"
+   },
+   {
+    "nl": "Ze gaat naar Amsterdam.",
+    "zh": "她要去阿姆斯特丹。"
+   },
+   {
+    "nl": "Ze gaat werken.",
+    "zh": "她要工作。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Elke maandag.",
+    "每週一。"
+   ],
+   [
+    "Maandag ga ik naar de koffieochtend in het buurthuis.",
+    "週一我去社區中心的咖啡早晨。"
+   ]
+  ],
+  "asking": "要聽Tessa週一的計劃",
+  "ob": [
+   [
+    [
+     "Ze gaat naar de koffieochtend in het buurthuis.",
+     "她要去社區中心的咖啡早晨。"
+    ]
+   ],
+   [
+    [
+     "Ze gaat naar Amsterdam.",
+     "她要去阿姆斯特丹。"
+    ]
+   ],
+   [
+    [
+     "Ze gaat werken.",
+     "她要工作。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "lb0q-sk82TA",
+  "ctx": "兩位朋友在咖啡廳聊天，討論各自的行程和飲食習慣。",
+  "q_nl": "Wat voor maaltijd gaat Tessa vanavond eten?",
+  "q_zh": "Tessa今晚要吃什麼餐？",
+  "options": [
+   {
+    "nl": "Boerenkool met worst.",
+    "zh": "甘藍菜配香腸。"
+   },
+   {
+    "nl": "Kip met rijst en broccoli.",
+    "zh": "雞肉配米飯和西蘭花。"
+   },
+   {
+    "nl": "Pizza.",
+    "zh": "比薩。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Hé, Maja. Wat ga je vanavond eten?",
+    "嘿，瑪雅。你今晚要吃什麼？"
+   ],
+   [
+    "Boerenkool met worst. Lekker.",
+    "甘藍菜配香腸。好吃。"
+   ]
+  ],
+  "asking": "要聽Tessa今晚的晚餐",
+  "ob": [
+   [
+    [
+     "Boerenkool met worst.",
+     "甘藍菜配香腸。"
+    ]
+   ],
+   [
+    [
+     "Kip met rijst en broccoli.",
+     "雞肉配米飯和西蘭花。"
+    ]
+   ],
+   [
+    [
+     "Pizza.",
+     "比薩。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "lb0q-sk82TA",
+  "ctx": "兩位朋友在咖啡廳聊天，討論各自的行程和飲食習慣。",
+  "q_nl": "Wat heeft Tessa deze week op dinsdag gedaan?",
+  "q_zh": "Tessa這週二做了什麼？",
+  "options": [
+   {
+    "nl": "Ze helpt op de school van haar dochter bij de sportdag.",
+    "zh": "她在女兒的學校幫忙運動會。"
+   },
+   {
+    "nl": "Ze gaat naar de dokter.",
+    "zh": "她要去看醫生。"
+   },
+   {
+    "nl": "Ze gaat naar een café.",
+    "zh": "她要去咖啡館。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Dinsdag help ik op de school van mijn dochter bij de sportdag.",
+    "週二我在女兒的學校幫忙運動會。"
+   ]
+  ],
+  "asking": "要聽Tessa週二的活動",
+  "ob": [
+   [
+    [
+     "Ze helpt op de school van haar dochter bij de sportdag.",
+     "她在女兒的學校幫忙運動會。"
+    ]
+   ],
+   [
+    [
+     "Ze gaat naar de dokter.",
+     "她要去看醫生。"
+    ]
+   ],
+   [
+    [
+     "Ze gaat naar een café.",
+     "她要去咖啡館。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "lb0q-sk82TA",
+  "ctx": "兩位朋友在咖啡廳聊天，討論各自的行程和飲食習慣。",
+  "q_nl": "Hoeveel koffie drinkt Tessa per dag?",
+  "q_zh": "Tessa每天喝多少咖啡？",
+  "options": [
+   {
+    "nl": "Ongeveer acht kopjes.",
+    "zh": "大約八杯。"
+   },
+   {
+    "nl": "Vijf kopjes.",
+    "zh": "五杯。"
+   },
+   {
+    "nl": "Twaalf kopjes.",
+    "zh": "十二杯。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Ja, maar ik drink te veel koffie. Hoeveel koffie drink je dan per dag?",
+    "是的，但我喝太多咖啡。你每天喝多少咖啡？"
+   ],
+   [
+    "Ongeveer acht kopjes.",
+    "大約八杯。"
+   ]
+  ],
+  "asking": "要聽Tessa每天喝的咖啡量",
+  "ob": [
+   [
+    [
+     "Ongeveer acht kopjes.",
+     "大約八杯。"
+    ]
+   ],
+   [
+    [
+     "Vijf kopjes.",
+     "五杯。"
+    ]
+   ],
+   [
+    [
+     "Twaalf kopjes.",
+     "十二杯。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "BQnidD3sb0g",
+  "ctx": "兩位朋友在圖書館辦理會員，討論訂閱的選擇。",
+  "q_nl": "Wat kan Naomi niet doen?",
+  "q_zh": "Naomi 不能做什麼？",
+  "options": [
+   {
+    "nl": "Naar het feest gaan",
+    "zh": "去派對"
+   },
+   {
+    "nl": "Werken",
+    "zh": "工作"
+   },
+   {
+    "nl": "Wandelen",
+    "zh": "散步"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Feest. Met Naomi Willems.",
+    "派對。與娜奧米·威廉姆斯。"
+   ],
+   [
+    "Hoi Naomi, met René.",
+    "嗨，娜奧米，我是雷內。"
+   ],
+   [
+    "Ja, ik moet werken.",
+    "是的，我必須工作。"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "Naar het feest gaan",
+     "去派對"
+    ],
+    [
+     "Werken",
+     "工作"
+    ],
+    [
+     "Wandelen",
+     "散步"
+    ]
+   ],
+   [
+    [
+     "Naar het feest gaan",
+     "去派對"
+    ],
+    [
+     "Werken",
+     "工作"
+    ],
+    [
+     "Wandelen",
+     "散步"
+    ]
+   ],
+   [
+    [
+     "Naar het feest gaan",
+     "去派對"
+    ],
+    [
+     "Werken",
+     "工作"
+    ],
+    [
+     "Wandelen",
+     "散步"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "BQnidD3sb0g",
+  "ctx": "兩位朋友在圖書館辦理會員，討論訂閱的選擇。",
+  "q_nl": "Hoeveel kost de cd?",
+  "q_zh": "這張 CD 多少錢？",
+  "options": [
+   {
+    "nl": "17,95 euro",
+    "zh": "17.95 歐元"
+   },
+   {
+    "nl": "43,15 euro",
+    "zh": "43.15 歐元"
+   },
+   {
+    "nl": "50 euro",
+    "zh": "50 歐元"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Deze cd voor u?",
+    "這張 CD 給您？"
+   ],
+   [
+    "Ja, hoeveel kost die?",
+    "是的，這多少錢？"
+   ],
+   [
+    "17,95 euro alsjeblieft.",
+    "17.95 歐元，謝謝。"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "17,95 euro",
+     "17.95 歐元"
+    ],
+    [
+     "43,15 euro",
+     "43.15 歐元"
+    ],
+    [
+     "50 euro",
+     "50 歐元"
+    ]
+   ],
+   [
+    [
+     "17,95 euro",
+     "17.95 歐元"
+    ],
+    [
+     "43,15 euro",
+     "43.15 歐元"
+    ],
+    [
+     "50 euro",
+     "50 歐元"
+    ]
+   ],
+   [
+    [
+     "17,95 euro",
+     "17.95 歐元"
+    ],
+    [
+     "43,15 euro",
+     "43.15 歐元"
+    ],
+    [
+     "50 euro",
+     "50 歐元"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "BQnidD3sb0g",
+  "ctx": "兩位朋友在圖書館辦理會員，討論訂閱的選擇。",
+  "q_nl": "Wat moet de vrouw doen met de zalf?",
+  "q_zh": "這位女士需要怎麼使用藥膏？",
+  "options": [
+   {
+    "nl": "Drie keer per dag insmeren",
+    "zh": "每天塗三次"
+   },
+   {
+    "nl": "Een keer per week gebruiken",
+    "zh": "每週使用一次"
+   },
+   {
+    "nl": "Elke dag een keer insmeren",
+    "zh": "每天塗一次"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "U krijgt van mij een zalf.",
+    "我會給你一種藥膏。"
+   ],
+   [
+    "U moet de plek drie keer per dag insmeren met deze zalf.",
+    "您必須每天三次用這種藥膏塗抹這個地方。"
+   ],
+   [
+    "En hoe lang moet ik de zalf gebruiken?",
+    "我需要用這種藥膏多久？"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "Drie keer per dag insmeren",
+     "每天塗三次"
+    ],
+    [
+     "Een keer per week gebruiken",
+     "每週使用一次"
+    ],
+    [
+     "Elke dag een keer insmeren",
+     "每天塗一次"
+    ]
+   ],
+   [
+    [
+     "Drie keer per dag insmeren",
+     "每天塗三次"
+    ],
+    [
+     "Een keer per week gebruiken",
+     "每週使用一次"
+    ],
+    [
+     "Elke dag een keer insmeren",
+     "每天塗一次"
+    ]
+   ],
+   [
+    [
+     "Drie keer per dag insmeren",
+     "每天塗三次"
+    ],
+    [
+     "Een keer per week gebruiken",
+     "每週使用一次"
+    ],
+    [
+     "Elke dag een keer insmeren",
+     "每天塗一次"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "BQnidD3sb0g",
+  "ctx": "兩位朋友在圖書館辦理會員，討論訂閱的選擇。",
+  "q_nl": "Wat heeft de vrouw in haar tas?",
+  "q_zh": "這位女士的包裡有什麼？",
+  "options": [
+   {
+    "nl": "Een portemonnee met 50 euro",
+    "zh": "一個帶有 50 歐元的錢包"
+   },
+   {
+    "nl": "Een laptop",
+    "zh": "一台筆記本電腦"
+   },
+   {
+    "nl": "Een boek",
+    "zh": "一本書"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wat zat er in uw tas?",
+    "您的包裡有什麼？"
+   ],
+   [
+    "Mijn portemonnee met 50 euro en mijn bankpasje.",
+    "我的錢包裡有 50 歐元和我的銀行卡。"
+   ],
+   [
+    "Ja, uw pasje moet u meteen laten blokkeren bij uw bank.",
+    "是的，您的卡必須立即在銀行掛失。"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "Een portemonnee met 50 euro",
+     "一個帶有 50 歐元的錢包"
+    ],
+    [
+     "Een laptop",
+     "一台筆記本電腦"
+    ],
+    [
+     "Een boek",
+     "一本書"
+    ]
+   ],
+   [
+    [
+     "Een portemonnee met 50 euro",
+     "一個帶有 50 歐元的錢包"
+    ],
+    [
+     "Een laptop",
+     "一台筆記本電腦"
+    ],
+    [
+     "Een boek",
+     "一本書"
+    ]
+   ],
+   [
+    [
+     "Een portemonnee met 50 euro",
+     "一個帶有 50 歐元的錢包"
+    ],
+    [
+     "Een laptop",
+     "一台筆記本電腦"
+    ],
+    [
+     "Een boek",
+     "一本書"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "3EyfPWAy57w",
+  "ctx": "一群朋友在新開的商店裡購物，尋找鞋子和衣服。",
+  "q_nl": "Wat heeft Jasmine gekocht voor haar moeder?",
+  "q_zh": "Jasmine 為她的母親買了什麼？",
+  "options": [
+   {
+    "nl": "Een bos bloemen",
+    "zh": "一束花"
+   },
+   {
+    "nl": "Een jasje",
+    "zh": "一件外套"
+   },
+   {
+    "nl": "Een tas",
+    "zh": "一個包包"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Jasmine wil een bos bloemen kopen.",
+    "Jasmine 想買一束花。"
+   ],
+   [
+    "Haar moeder is jarig.",
+    "她的母親生日。"
+   ],
+   [
+    "Ze koopt een mooie bos voor haar moeder.",
+    "她為母親買了一束漂亮的花。"
+   ]
+  ],
+  "asking": "要聽 Jasmine 買了什麼",
+  "ob": [
+   [
+    [
+     "Een bos bloemen",
+     "一束花"
+    ],
+    [
+     "Een jasje",
+     "一件外套"
+    ],
+    [
+     "Een tas",
+     "一個包包"
+    ]
+   ],
+   [
+    [
+     "Een bos bloemen",
+     "一束花"
+    ],
+    [
+     "Een jasje",
+     "一件外套"
+    ],
+    [
+     "Een tas",
+     "一個包包"
+    ]
+   ],
+   [
+    [
+     "Een bos bloemen",
+     "一束花"
+    ],
+    [
+     "Een jasje",
+     "一件外套"
+    ],
+    [
+     "Een tas",
+     "一個包包"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "3EyfPWAy57w",
+  "ctx": "一群朋友在新開的商店裡購物，尋找鞋子和衣服。",
+  "q_nl": "Hoeveel kost het jasje dat de vrouw wil kopen?",
+  "q_zh": "這位女士想買的外套多少錢？",
+  "options": [
+   {
+    "nl": "70 euro",
+    "zh": "70 歐元"
+   },
+   {
+    "nl": "49,95 euro",
+    "zh": "49.95 歐元"
+   },
+   {
+    "nl": "39 euro",
+    "zh": "39 歐元"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Hoeveel kost het jasje?",
+    "這件外套多少錢？"
+   ],
+   [
+    "70 euro.",
+    "70 歐元。"
+   ]
+  ],
+  "asking": "要聽 外套的價格",
+  "ob": [
+   [
+    [
+     "70 euro",
+     "70 歐元"
+    ],
+    [
+     "49,95 euro",
+     "49.95 歐元"
+    ],
+    [
+     "39 euro",
+     "39 歐元"
+    ]
+   ],
+   [
+    [
+     "70 euro",
+     "70 歐元"
+    ],
+    [
+     "49,95 euro",
+     "49.95 歐元"
+    ],
+    [
+     "39 euro",
+     "39 歐元"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "3EyfPWAy57w",
+  "ctx": "一群朋友在新開的商店裡購物，尋找鞋子和衣服。",
+  "q_nl": "Wat moet Hans voor Mariama kopen?",
+  "q_zh": "Hans 需要為 Mariama 買什麼？",
+  "options": [
+   {
+    "nl": "Vijf sinaasappels",
+    "zh": "五個橙子"
+   },
+   {
+    "nl": "Een pakje koffie",
+    "zh": "一包咖啡"
+   },
+   {
+    "nl": "Een pakje koekjes",
+    "zh": "一包餅乾"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Ik ben ziek en ik kan niet naar buiten.",
+    "我生病了，不能出門。"
+   ],
+   [
+    "Wil jij misschien een paar boodschappen voor me doen?",
+    "你能幫我買一些東西嗎？"
+   ],
+   [
+    "Een pakje thee en vijf sinaasappels.",
+    "一包茶和五個橙子。"
+   ]
+  ],
+  "asking": "要聽 Hans 要買什麼",
+  "ob": [
+   [
+    [
+     "Vijf sinaasappels",
+     "五個橙子"
+    ],
+    [
+     "Een pakje koffie",
+     "一包咖啡"
+    ],
+    [
+     "Een pakje koekjes",
+     "一包餅乾"
+    ]
+   ],
+   [
+    [
+     "Vijf sinaasappels",
+     "五個橙子"
+    ],
+    [
+     "Een pakje koffie",
+     "一包咖啡"
+    ],
+    [
+     "Een pakje koekjes",
+     "一包餅乾"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "3EyfPWAy57w",
+  "ctx": "一群朋友在新開的商店裡購物，尋找鞋子和衣服。",
+  "q_nl": "Wanneer is het feest van de zus?",
+  "q_zh": "姐姐的慶祝活動是什麼時候？",
+  "options": [
+   {
+    "nl": "12 juli",
+    "zh": "7月12日"
+   },
+   {
+    "nl": "3 juli",
+    "zh": "7月3日"
+   },
+   {
+    "nl": "1 augustus",
+    "zh": "8月1日"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wanneer is het feest?",
+    "慶祝活動是什麼時候？"
+   ],
+   [
+    "12 juli.",
+    "7月12日。"
+   ]
+  ],
+  "asking": "要聽 姐姐的慶祝活動日期",
+  "ob": [
+   [
+    [
+     "12 juli",
+     "7月12日"
+    ],
+    [
+     "3 juli",
+     "7月3日"
+    ],
+    [
+     "1 augustus",
+     "8月1日"
+    ]
+   ],
+   [
+    [
+     "12 juli",
+     "7月12日"
+    ],
+    [
+     "3 juli",
+     "7月3日"
+    ],
+    [
+     "1 augustus",
+     "8月1日"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "tYbjAE3F4H0",
+  "ctx": "在荷蘭，兩位朋友討論工作和生活狀況。",
+  "q_nl": "Wat voor werk doet Said?",
+  "q_zh": "Said 做什麼工作？",
+  "options": [
+   {
+    "nl": "Hij is kapper.",
+    "zh": "他是理髮師。"
+   },
+   {
+    "nl": "Hij maakt schoon op een school.",
+    "zh": "他在學校打掃。"
+   },
+   {
+    "nl": "Hij werkt in een fabriek.",
+    "zh": "他在工廠工作。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Ik ben ziek.",
+    "我生病了。"
+   ],
+   [
+    "Ik kan vannacht niet werken.",
+    "我今晚不能工作。"
+   ],
+   [
+    "Het is heel druk.",
+    "這裡很忙。"
+   ]
+  ],
+  "asking": "要聽Said的工作",
+  "ob": [
+   [
+    [
+     "Hij is kapper.",
+     "他是理髮師。"
+    ],
+    [
+     "Hij maakt schoon op een school.",
+     "他在學校打掃。"
+    ],
+    [
+     "Hij werkt in een fabriek.",
+     "他在工廠工作。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "tYbjAE3F4H0",
+  "ctx": "在荷蘭，兩位朋友討論工作和生活狀況。",
+  "q_nl": "Wanneer is de computerles?",
+  "q_zh": "電腦課是什麼時候？",
+  "options": [
+   {
+    "nl": "Elke donderdag van half drie tot half vier.",
+    "zh": "每週四從兩點半到三點半。"
+   },
+   {
+    "nl": "Elke woensdag van drie tot vier.",
+    "zh": "每週三從三點到四點。"
+   },
+   {
+    "nl": "Elke vrijdag van twee tot drie.",
+    "zh": "每週五從兩點到三點。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wanneer is de computerles?",
+    "電腦課是什麼時候？"
+   ],
+   [
+    "Elke donderdag van half drie tot half vier.",
+    "每週四從兩點半到三點半。"
+   ],
+   [
+    "Help jij ook op school?",
+    "你也在學校幫忙嗎？"
+   ]
+  ],
+  "asking": "要聽電腦課的時間",
+  "ob": [
+   [
+    [
+     "Elke donderdag van half drie tot half vier.",
+     "每週四從兩點半到三點半。"
+    ],
+    [
+     "Elke woensdag van drie tot vier.",
+     "每週三從三點到四點。"
+    ],
+    [
+     "Elke vrijdag van twee tot drie.",
+     "每週五從兩點到三點。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "tYbjAE3F4H0",
+  "ctx": "在荷蘭，兩位朋友討論工作和生活狀況。",
+  "q_nl": "Hoeveel kinderen heeft Natasja?",
+  "q_zh": "Natasja 有幾個孩子？",
+  "options": [
+   {
+    "nl": "Drie kinderen.",
+    "zh": "三個孩子。"
+   },
+   {
+    "nl": "Twee kinderen.",
+    "zh": "兩個孩子。"
+   },
+   {
+    "nl": "Vier kinderen.",
+    "zh": "四個孩子。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Dit is Natasja.",
+    "這是 Natasja。"
+   ],
+   [
+    "Ze is getrouwd en ze heeft drie kinderen.",
+    "她已婚，並且有三個孩子。"
+   ],
+   [
+    "Ze wonen in de Nicolaastraat.",
+    "他們住在 Nicolaastraat。"
+   ]
+  ],
+  "asking": "要聽 Natasja 的孩子數量",
+  "ob": [
+   [
+    [
+     "Drie kinderen.",
+     "三個孩子。"
+    ],
+    [
+     "Twee kinderen.",
+     "兩個孩子。"
+    ],
+    [
+     "Vier kinderen.",
+     "四個孩子。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "tYbjAE3F4H0",
+  "ctx": "在荷蘭，兩位朋友討論工作和生活狀況。",
+  "q_nl": "Waar gaat de buurvrouw verhuizen?",
+  "q_zh": "鄰居要搬到哪裡？",
+  "options": [
+   {
+    "nl": "In de Boomstraat.",
+    "zh": "在 Boomstraat。"
+   },
+   {
+    "nl": "In de Houtmansstraat.",
+    "zh": "在 Houtmansstraat。"
+   },
+   {
+    "nl": "In de Nicolaastraat.",
+    "zh": "在 Nicolaastraat。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "We gaan verhuizen.",
+    "我們要搬家。"
+   ],
+   [
+    "Waar gaan jullie naartoe?",
+    "你們要搬到哪裡？"
+   ],
+   [
+    "We gaan in de Boomstraat wonen.",
+    "我們要住在 Boomstraat。"
+   ]
+  ],
+  "asking": "要聽鄰居搬家的地點",
+  "ob": [
+   [
+    [
+     "In de Boomstraat.",
+     "在 Boomstraat。"
+    ],
+    [
+     "In de Houtmansstraat.",
+     "在 Houtmansstraat。"
+    ],
+    [
+     "In de Nicolaastraat.",
+     "在 Nicolaastraat。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "jkm2z_f5oMk",
+  "ctx": "Lab 和 Tjana 在超市見面，討論他們喜歡的食物。",
+  "q_nl": "Wat voor eten vindt Tjana lekker?",
+  "q_zh": "Tjana 喜歡什麼食物？",
+  "options": [
+   {
+    "nl": "Buitenlands eten",
+    "zh": "外國食物"
+   },
+   {
+    "nl": "Hollands eten",
+    "zh": "荷蘭食物"
+   },
+   {
+    "nl": "Snacks",
+    "zh": "小吃"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wat voor eten vindt Tjana lekker?",
+    "Tjana 喜歡什麼食物？"
+   ],
+   [
+    "Ik houd van lekker eten.",
+    "我喜歡好吃的食物。"
+   ],
+   [
+    "Ik hou het meest van buitenlands eten.",
+    "我最喜歡外國食物。"
+   ]
+  ],
+  "asking": "要聽 Tjana 的食物喜好",
+  "ob": [
+   [
+    [
+     "Buitenlands eten",
+     "外國食物"
+    ],
+    [
+     "Hollands eten",
+     "荷蘭食物"
+    ],
+    [
+     "Snacks",
+     "小吃"
+    ]
+   ],
+   [
+    [
+     "Buitenlands eten",
+     "外國食物"
+    ],
+    [
+     "Hollands eten",
+     "荷蘭食物"
+    ],
+    [
+     "Snacks",
+     "小吃"
+    ]
+   ],
+   [
+    [
+     "Buitenlands eten",
+     "外國食物"
+    ],
+    [
+     "Hollands eten",
+     "荷蘭食物"
+    ],
+    [
+     "Snacks",
+     "小吃"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "jkm2z_f5oMk",
+  "ctx": "Lab 和 Tjana 在超市見面，討論他們喜歡的食物。",
+  "q_nl": "Wanneer komt Tjana bij Lab eten?",
+  "q_zh": "Tjana 什麼時候來 Lab 吃飯？",
+  "options": [
+   {
+    "nl": "Vanavond",
+    "zh": "今晚"
+   },
+   {
+    "nl": "Morgen",
+    "zh": "明天"
+   },
+   {
+    "nl": "Gisteren",
+    "zh": "昨天"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wanneer komt Tjana bij Lab eten?",
+    "Tjana 什麼時候來 Lab 吃飯？"
+   ],
+   [
+    "Kom je vanavond bij me eten?",
+    "今晚來我這裡吃飯嗎？"
+   ],
+   [
+    "Leuk. Goed idee.",
+    "好啊。好主意。"
+   ]
+  ],
+  "asking": "要聽 Tjana 來的時間",
+  "ob": [
+   [
+    [
+     "Vanavond",
+     "今晚"
+    ],
+    [
+     "Morgen",
+     "明天"
+    ],
+    [
+     "Gisteren",
+     "昨天"
+    ]
+   ],
+   [
+    [
+     "Vanavond",
+     "今晚"
+    ],
+    [
+     "Morgen",
+     "明天"
+    ],
+    [
+     "Gisteren",
+     "昨天"
+    ]
+   ],
+   [
+    [
+     "Vanavond",
+     "今晚"
+    ],
+    [
+     "Morgen",
+     "明天"
+    ],
+    [
+     "Gisteren",
+     "昨天"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "jkm2z_f5oMk",
+  "ctx": "Lab 和 Tjana 在超市見面，討論他們喜歡的食物。",
+  "q_nl": "Wat maakt Lab voor Tjana?",
+  "q_zh": "Lab 為 Tjana 做什麼？",
+  "options": [
+   {
+    "nl": "Chinees eten",
+    "zh": "中國食物"
+   },
+   {
+    "nl": "Hollands eten",
+    "zh": "荷蘭食物"
+   },
+   {
+    "nl": "Italiaans eten",
+    "zh": "義大利食物"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wat maakt Lab voor Tjana?",
+    "Lab 為 Tjana 做什麼？"
+   ],
+   [
+    "Dan maak ik Chinees voor je.",
+    "那我為你做中國菜。"
+   ],
+   [
+    "Echt Chinees. Rijst met kip, tomaat en broccoli.",
+    "真正的中國菜。米飯配雞肉、番茄和西蘭花。"
+   ]
+  ],
+  "asking": "要聽 Lab 的料理",
+  "ob": [
+   [
+    [
+     "Chinees eten",
+     "中國食物"
+    ],
+    [
+     "Hollands eten",
+     "荷蘭食物"
+    ],
+    [
+     "Italiaans eten",
+     "義大利食物"
+    ]
+   ],
+   [
+    [
+     "Chinees eten",
+     "中國食物"
+    ],
+    [
+     "Hollands eten",
+     "荷蘭食物"
+    ],
+    [
+     "Italiaans eten",
+     "義大利食物"
+    ]
+   ],
+   [
+    [
+     "Chinees eten",
+     "中國食物"
+    ],
+    [
+     "Hollands eten",
+     "荷蘭食物"
+    ],
+    [
+     "Italiaans eten",
+     "義大利食物"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "jkm2z_f5oMk",
+  "ctx": "Lab 和 Tjana 在超市見面，討論他們喜歡的食物。",
+  "q_nl": "Wat heeft Tjana al vaak gegeten?",
+  "q_zh": "Tjana 已經吃過什麼？",
+  "options": [
+   {
+    "nl": "Aardappelen, groenten en vlees",
+    "zh": "馬鈴薯、蔬菜和肉"
+   },
+   {
+    "nl": "Rijst, kip en tomaat",
+    "zh": "米飯、雞肉和番茄"
+   },
+   {
+    "nl": "Pizza en pasta",
+    "zh": "披薩和義大利麵"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wat heeft Tjana al vaak gegeten?",
+    "Tjana 已經吃過什麼？"
+   ],
+   [
+    "Aardappelen, groenten en vlees vind ik wel lekker.",
+    "我覺得馬鈴薯、蔬菜和肉很好吃。"
+   ],
+   [
+    "Maar dat heb ik al zo vaak gegeten.",
+    "但我已經吃過這些很多次了。"
+   ]
+  ],
+  "asking": "要聽 Tjana 的飲食經歷",
+  "ob": [
+   [
+    [
+     "Aardappelen, groenten en vlees",
+     "馬鈴薯、蔬菜和肉"
+    ],
+    [
+     "Rijst, kip en tomaat",
+     "米飯、雞肉和番茄"
+    ],
+    [
+     "Pizza en pasta",
+     "披薩和義大利麵"
+    ]
+   ],
+   [
+    [
+     "Aardappelen, groenten en vlees",
+     "馬鈴薯、蔬菜和肉"
+    ],
+    [
+     "Rijst, kip en tomaat",
+     "米飯、雞肉和番茄"
+    ],
+    [
+     "Pizza en pasta",
+     "披薩和義大利麵"
+    ]
+   ],
+   [
+    [
+     "Aardappelen, groenten en vlees",
+     "馬鈴薯、蔬菜和肉"
+    ],
+    [
+     "Rijst, kip en tomaat",
+     "米飯、雞肉和番茄"
+    ],
+    [
+     "Pizza en pasta",
+     "披薩和義大利麵"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "MXsNK9j4PNQ",
+  "ctx": "Noerai 和 Ronald 在荷蘭進行自我介紹，並討論各自的居住地。",
+  "q_nl": "Waar komt Noerai vandaan?",
+  "q_zh": "Noerai來自哪裡？",
+  "options": [
+   {
+    "nl": "Turkije",
+    "zh": "土耳其"
+   },
+   {
+    "nl": "Nederland",
+    "zh": "荷蘭"
+   },
+   {
+    "nl": "Istanbul",
+    "zh": "伊斯坦堡"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Ik kom uit Turkije.",
+    "我來自土耳其。"
+   ],
+   [
+    "O, Turkije.",
+    "哦，土耳其。"
+   ],
+   [
+    "Waar in Turkije?",
+    "在土耳其的哪裡？"
+   ]
+  ],
+  "asking": "要聽Noerai的國籍",
+  "ob": [
+   [
+    [
+     "Turkije",
+     "土耳其"
+    ]
+   ],
+   [
+    [
+     "Nederland",
+     "荷蘭"
+    ]
+   ],
+   [
+    [
+     "Istanbul",
+     "伊斯坦堡"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "MXsNK9j4PNQ",
+  "ctx": "Noerai 和 Ronald 在荷蘭進行自我介紹，並討論各自的居住地。",
+  "q_nl": "Wat is de achternaam van Ronald?",
+  "q_zh": "Ronald的姓是什麼？",
+  "options": [
+   {
+    "nl": "Van Meer",
+    "zh": "范梅爾"
+   },
+   {
+    "nl": "Toenk",
+    "zh": "托恩克"
+   },
+   {
+    "nl": "Verstraten",
+    "zh": "費斯特拉滕"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Ronald is mijn voornaam en Van Meer is mijn achternaam.",
+    "Ronald是我的名字，Van Meer是我的姓。"
+   ],
+   [
+    "Ja, dat klopt.",
+    "是的，這是對的。"
+   ],
+   [
+    "Wie ben jij?",
+    "你是誰？"
+   ]
+  ],
+  "asking": "要聽Ronald的姓氏",
+  "ob": [
+   [
+    [
+     "Van Meer",
+     "范梅爾"
+    ]
+   ],
+   [
+    [
+     "Toenk",
+     "托恩克"
+    ]
+   ],
+   [
+    [
+     "Verstraten",
+     "費斯特拉滕"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "MXsNK9j4PNQ",
+  "ctx": "Noerai 和 Ronald 在荷蘭進行自我介紹，並討論各自的居住地。",
+  "q_nl": "In welke straat woont Ronald in Utrecht?",
+  "q_zh": "Ronald在烏特勒支住在哪條街？",
+  "options": [
+   {
+    "nl": "Witte Vrouwenstraat",
+    "zh": "白婦女街"
+   },
+   {
+    "nl": "Kerkstraat",
+    "zh": "教堂街"
+   },
+   {
+    "nl": "Spoorstraat",
+    "zh": "車站街"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Ik woon in het centrum van de stad, in de Witte Vrouwenstraat.",
+    "我住在市中心，白婦女街。"
+   ],
+   [
+    "O, ja, die straat ken ik.",
+    "哦，我知道那條街。"
+   ],
+   [
+    "Waar woon jij?",
+    "你住在哪裡？"
+   ]
+  ],
+  "asking": "要聽Ronald的住址",
+  "ob": [
+   [
+    [
+     "Witte Vrouwenstraat",
+     "白婦女街"
+    ]
+   ],
+   [
+    [
+     "Kerkstraat",
+     "教堂街"
+    ]
+   ],
+   [
+    [
+     "Spoorstraat",
+     "車站街"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "MXsNK9j4PNQ",
+  "ctx": "Noerai 和 Ronald 在荷蘭進行自我介紹，並討論各自的居住地。",
+  "q_nl": "Hoeveel kinderen heeft Ahmed?",
+  "q_zh": "Ahmed有多少個孩子？",
+  "options": [
+   {
+    "nl": "Drie",
+    "zh": "三個"
+   },
+   {
+    "nl": "Twee",
+    "zh": "兩個"
+   },
+   {
+    "nl": "Vier",
+    "zh": "四個"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Hoeveel kinderen hebben jullie? Drie.",
+    "你們有多少個孩子？三個。"
+   ],
+   [
+    "En jij?",
+    "你呢？"
+   ],
+   [
+    "Woon jij alleen?",
+    "你住得單獨嗎？"
+   ]
+  ],
+  "asking": "要聽Ahmed的孩子數量",
+  "ob": [
+   [
+    [
+     "Drie",
+     "三個"
+    ]
+   ],
+   [
+    [
+     "Twee",
+     "兩個"
+    ]
+   ],
+   [
+    [
+     "Vier",
+     "四個"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "WqQRYFLxoDc",
+  "ctx": "一群人在討論如何處理燒傷的情況",
+  "q_nl": "Wat moet je doen met de brandblaar?",
+  "q_zh": "你要怎麼處理燒傷水泡？",
+  "options": [
+   {
+    "nl": "Met lauw water spoelen",
+    "zh": "用溫水沖洗"
+   },
+   {
+    "nl": "Met koud water spoelen",
+    "zh": "用冷水沖洗"
+   },
+   {
+    "nl": "Met zeep wassen",
+    "zh": "用肥皂清洗"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wat moeten we doen dan?",
+    "那我們該怎麼辦？"
+   ],
+   [
+    "Oh, water. Kom maar. Nee, niet koud. Ook een beetje warm erbij. Dat water moet lauw zijn.",
+    "哦，水。來吧。不，不要冷的。也要加一點溫的。這水要溫的。"
+   ]
+  ],
+  "asking": "要聽怎麼處理燒傷水泡",
+  "ob": [
+   [
+    [
+     "Met lauw water spoelen",
+     "用溫水沖洗"
+    ],
+    [
+     "Met koud water spoelen",
+     "用冷水沖洗"
+    ],
+    [
+     "Met zeep wassen",
+     "用肥皂清洗"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "WqQRYFLxoDc",
+  "ctx": "一群人在討論如何處理燒傷的情況",
+  "q_nl": "Hoe lang moet je de brandblaar onderhouden?",
+  "q_zh": "你需要維持燒傷水泡多久？",
+  "options": [
+   {
+    "nl": "Minstens 10 minuten",
+    "zh": "至少10分鐘"
+   },
+   {
+    "nl": "Minstens 15 minuten",
+    "zh": "至少15分鐘"
+   },
+   {
+    "nl": "Minstens 20 minuten",
+    "zh": "至少20分鐘"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Ja, maar je moet het tenminste 15 minuten onderhouden.",
+    "是的，但你至少要維持15分鐘。"
+   ]
+  ],
+  "asking": "要聽維持燒傷水泡的時間",
+  "ob": [
+   [
+    [
+     "Minstens 10 minuten",
+     "至少10分鐘"
+    ],
+    [
+     "Minstens 15 minuten",
+     "至少15分鐘"
+    ],
+    [
+     "Minstens 20 minuten",
+     "至少20分鐘"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "WqQRYFLxoDc",
+  "ctx": "一群人在討論如何處理燒傷的情況",
+  "q_nl": "Wat voor water moet je gebruiken?",
+  "q_zh": "你應該使用什麼樣的水？",
+  "options": [
+   {
+    "nl": "Koud water",
+    "zh": "冷水"
+   },
+   {
+    "nl": "Lauw water",
+    "zh": "溫水"
+   },
+   {
+    "nl": "Heet water",
+    "zh": "熱水"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Dat water moet lauw zijn.",
+    "這水要溫的。"
+   ]
+  ],
+  "asking": "要聽用什麼樣的水",
+  "ob": [
+   [
+    [
+     "Koud water",
+     "冷水"
+    ],
+    [
+     "Lauw water",
+     "溫水"
+    ],
+    [
+     "Heet water",
+     "熱水"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "WqQRYFLxoDc",
+  "ctx": "一群人在討論如何處理燒傷的情況",
+  "q_nl": "Wat moet je vermijden bij de brandblaar?",
+  "q_zh": "你需要避免什麼處理燒傷水泡？",
+  "options": [
+   {
+    "nl": "Een harde straal",
+    "zh": "強烈的水流"
+   },
+   {
+    "nl": "Een zachte straal",
+    "zh": "柔和的水流"
+   },
+   {
+    "nl": "Een naald",
+    "zh": "針"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Nee, niet zo'n harde straal. Een zachte straal, dat is goed.",
+    "不，不要強烈的水流。柔和的水流是好的。"
+   ]
+  ],
+  "asking": "要聽避免什麼處理燒傷水泡",
+  "ob": [
+   [
+    [
+     "Een harde straal",
+     "強烈的水流"
+    ],
+    [
+     "Een zachte straal",
+     "柔和的水流"
+    ],
+    [
+     "Een naald",
+     "針"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "jc7V08Xc9IQ",
+  "ctx": "家長在孩子三歲時考慮選擇合適的學校",
+  "q_nl": "Wat vindt Moesap het allerleukste op de voorschool?",
+  "q_zh": "Moesap 在預備學校最喜歡什麼？",
+  "options": [
+   {
+    "nl": "Het speeluur",
+    "zh": "遊戲時間"
+   },
+   {
+    "nl": "De huiswerkles",
+    "zh": "作業課"
+   },
+   {
+    "nl": "De muziekles",
+    "zh": "音樂課"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Moesap vindt op de voorschool het allerleukste het speeluur.",
+    "Moesap 在預備學校最喜歡的就是遊戲時間。"
+   ],
+   [
+    "Speeluur is de tijd dat we met de kinderen, zowel als de ouders, contact met elkaar hebben.",
+    "遊戲時間是我們與孩子和父母之間聯繫的時間。"
+   ]
+  ],
+  "asking": "要聽什麼Moesap最喜歡的活動",
+  "ob": [
+   [
+    [
+     "Het speeluur",
+     "遊戲時間"
+    ],
+    [
+     "De huiswerkles",
+     "作業課"
+    ],
+    [
+     "De muziekles",
+     "音樂課"
+    ]
+   ],
+   [
+    [
+     "Het speeluur",
+     "遊戲時間"
+    ],
+    [
+     "De huiswerkles",
+     "作業課"
+    ],
+    [
+     "De muziekles",
+     "音樂課"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "WDcdn8N_oRk",
+  "ctx": "一群朋友在家中討論咳嗽和感冒的療法",
+  "q_nl": "Wat heeft Jaap volgens de tekst?",
+  "q_zh": "根據文本，Jaap有什麼？",
+  "options": [
+   {
+    "nl": "Hoofdpijn",
+    "zh": "頭痛"
+   },
+   {
+    "nl": "Koorts",
+    "zh": "發燒"
+   },
+   {
+    "nl": "Droge hoest",
+    "zh": "乾咳"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Wat is er, Jaap?",
+    "Jaap怎麼了？"
+   ],
+   [
+    "Je hebt hoofdpijn. Je hebt spierpijn, je rilt, je hoest. En volgens mij heb jij koorts.",
+    "你有頭痛、肌肉疼痛、發冷、咳嗽。我想你發燒了。"
+   ]
+  ],
+  "asking": "Jaap heeft last van wat?",
+  "ob": [
+   [
+    [
+     "Hoofdpijn",
+     "頭痛"
+    ],
+    [
+     "Koorts",
+     "發燒"
+    ],
+    [
+     "Droge hoest",
+     "乾咳"
+    ]
+   ],
+   [
+    [
+     "Hoofdpijn",
+     "頭痛"
+    ],
+    [
+     "Je hebt hoofdpijn. Je hebt spierpijn, je rilt, je hoest. En volgens mij heb jij koorts.",
+     "你有頭痛、肌肉疼痛、發冷、咳嗽。我想你發燒了。"
+    ]
+   ],
+   [
+    [
+     "Droge hoest",
+     "乾咳"
+    ],
+    [
+     "Je hebt een droge hoest.",
+     "你有乾咳。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "WDcdn8N_oRk",
+  "ctx": "一群朋友在家中討論咳嗽和感冒的療法",
+  "q_nl": "Hoe lang heeft Jaap al griep?",
+  "q_zh": "Jaap已經感冒多久了？",
+  "options": [
+   {
+    "nl": "Twee weken",
+    "zh": "兩週"
+   },
+   {
+    "nl": "Een paar dagen",
+    "zh": "幾天"
+   },
+   {
+    "nl": "Een week",
+    "zh": "一週"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Heb je daar al lang last van?",
+    "你已經困擾這個很久了嗎？"
+   ],
+   [
+    "Al twee weken.",
+    "已經兩週了。"
+   ]
+  ],
+  "asking": "Jaap heeft griep al hoe lang?",
+  "ob": [
+   [
+    [
+     "Twee weken",
+     "兩週"
+    ],
+    [
+     "Een paar dagen",
+     "幾天"
+    ],
+    [
+     "Een week",
+     "一週"
+    ]
+   ],
+   [
+    [
+     "Al twee weken.",
+     "已經兩週了。"
+    ],
+    [
+     "Een paar dagen.",
+     "幾天。"
+    ],
+    [
+     "Een week.",
+     "一週。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "WDcdn8N_oRk",
+  "ctx": "一群朋友在家中討論咳嗽和感冒的療法",
+  "q_nl": "Wat moet Jaap volgens de tekst nemen?",
+  "q_zh": "根據文本，Jaap應該吃什麼？",
+  "options": [
+   {
+    "nl": "Melk",
+    "zh": "牛奶"
+   },
+   {
+    "nl": "Paracetamol",
+    "zh": "撲熱息痛"
+   },
+   {
+    "nl": "Honing",
+    "zh": "蜂蜜"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Wacht. Neem een paracetamol. Dan zal de koorts heel snel zakken.",
+    "等一下。吃一顆撲熱息痛，這樣發燒會很快退。"
+   ]
+  ],
+  "asking": "Jaap moet wat nemen?",
+  "ob": [
+   [
+    [
+     "Melk",
+     "牛奶"
+    ],
+    [
+     "Paracetamol",
+     "撲熱息痛"
+    ],
+    [
+     "Honing",
+     "蜂蜜"
+    ]
+   ],
+   [
+    [
+     "Neem een paracetamol.",
+     "吃一顆撲熱息痛。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "WDcdn8N_oRk",
+  "ctx": "一群朋友在家中討論咳嗽和感冒的療法",
+  "q_nl": "Wat is een goede tip voor Jaap?",
+  "q_zh": "對Jaap來說，什麼是個好建議？",
+  "options": [
+   {
+    "nl": "Ontspanningsoefeningen doen",
+    "zh": "做放鬆練習"
+   },
+   {
+    "nl": "Meer melk drinken",
+    "zh": "多喝牛奶"
+   },
+   {
+    "nl": "Koekjes eten",
+    "zh": "吃餅乾"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Je moet wat ontspanningsoefeningen doen. Die kan ik je wel leren.",
+    "你需要做一些放鬆練習。我可以教你。"
+   ]
+  ],
+  "asking": "Wat is een goede tip voor Jaap?",
+  "ob": [
+   [
+    [
+     "Ontspanningsoefeningen doen",
+     "做放鬆練習"
+    ],
+    [
+     "Meer melk drinken",
+     "多喝牛奶"
+    ],
+    [
+     "Koekjes eten",
+     "吃餅乾"
+    ]
+   ],
+   [
+    [
+     "Je moet wat ontspanningsoefeningen doen.",
+     "你需要做一些放鬆練習。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "cqXgUkucsvc",
+  "ctx": "Koen 在家裡關心媽媽的喉嚨痛，並討論如何緩解症狀。",
+  "q_nl": "Wat heeft mama volgens Koen?",
+  "q_zh": "根據 Koen，媽媽有什麼問題？",
+  "options": [
+   {
+    "nl": "Keelpijn",
+    "zh": "喉嚨痛"
+   },
+   {
+    "nl": "Hoofdpijn",
+    "zh": "頭痛"
+   },
+   {
+    "nl": "Buikpijn",
+    "zh": "肚子痛"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Mama! Ja, Koen, mam heeft pijn in de keel.",
+    "媽媽！是的，Koen，媽媽喉嚨痛。"
+   ],
+   [
+    "Auw! Opgezette klieren.",
+    "啊！淋巴腺腫大。"
+   ]
+  ],
+  "asking": "要聽媽媽的病症",
+  "ob": [
+   [
+    [
+     "Keelpijn",
+     "喉嚨痛"
+    ],
+    [
+     "Hoofdpijn",
+     "頭痛"
+    ],
+    [
+     "Buikpijn",
+     "肚子痛"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "BJ3WH-kSAxI",
+  "ctx": "在廣播中，介紹二手車商店的開幕和其他日常生活情境。",
+  "q_nl": "Wat opent Jones Tweedehands Auto Paradise?",
+  "q_zh": "Jones 二手汽車天堂開設了什麼？",
+  "options": [
+   {
+    "nl": "Een winkel voor tweedehands auto's",
+    "zh": "二手汽車的商店"
+   },
+   {
+    "nl": "Een restaurant",
+    "zh": "一家餐廳"
+   },
+   {
+    "nl": "Een school",
+    "zh": "一所學校"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Op de radio",
+    "在廣播中"
+   ],
+   [
+    "Dan is er voor u goed nieuws!",
+    "那麼對您來說有好消息！"
+   ],
+   [
+    "Maandag 24 juni opent Jones Tweedehands Auto Paradise zijn deuren.",
+    "6月24日星期一，Jones 二手汽車天堂開門。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "Een winkel voor tweedehands auto's",
+     "二手汽車的商店"
+    ],
+    [
+     "Een restaurant",
+     "一家餐廳"
+    ],
+    [
+     "Een school",
+     "一所學校"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "BJ3WH-kSAxI",
+  "ctx": "在廣播中，介紹二手車商店的開幕和其他日常生活情境。",
+  "q_nl": "Wanneer opent Jones Tweedehands Auto Paradise?",
+  "q_zh": "Jones 二手汽車天堂什麼時候開門？",
+  "options": [
+   {
+    "nl": "Maandag 24 juni",
+    "zh": "6月24日星期一"
+   },
+   {
+    "nl": "Dinsdag 25 juni",
+    "zh": "6月25日星期二"
+   },
+   {
+    "nl": "Zaterdag 22 juni",
+    "zh": "6月22日星期六"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Maandag 24 juni opent Jones Tweedehands Auto Paradise zijn deuren.",
+    "6月24日星期一，Jones 二手汽車天堂開門。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "Maandag 24 juni",
+     "6月24日星期一"
+    ],
+    [
+     "Dinsdag 25 juni",
+     "6月25日星期二"
+    ],
+    [
+     "Zaterdag 22 juni",
+     "6月22日星期六"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "BJ3WH-kSAxI",
+  "ctx": "在廣播中，介紹二手車商店的開幕和其他日常生活情境。",
+  "q_nl": "Waarom moet de klant extra betalen?",
+  "q_zh": "為什麼客戶需要額外付款？",
+  "options": [
+   {
+    "nl": "Omdat hij de auto te laat terugbrengt.",
+    "zh": "因為他遲還汽車。"
+   },
+   {
+    "nl": "Omdat hij de auto niet heeft getankt.",
+    "zh": "因為他沒有加油。"
+   },
+   {
+    "nl": "Omdat de auto beschadigd is.",
+    "zh": "因為汽車損壞了。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Hallo, ik kom de auto terugbrengen.",
+    "你好，我來還車。"
+   ],
+   [
+    "O, het spijt me mevrouw, maar dat gaat u 50 gulden extra kosten.",
+    "哦，對不起，女士，但這將使您額外支付50荷蘭盾。"
+   ],
+   [
+    "Ja, maar kijkt u eens even naar de benzinemeter.",
+    "是的，但請看看油表。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "Omdat hij de auto te laat terugbrengt.",
+     "因為他遲還汽車。"
+    ],
+    [
+     "Omdat hij de auto niet heeft getankt.",
+     "因為他沒有加油。"
+    ],
+    [
+     "Omdat de auto beschadigd is.",
+     "因為汽車損壞了。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "BJ3WH-kSAxI",
+  "ctx": "在廣播中，介紹二手車商店的開幕和其他日常生活情境。",
+  "q_nl": "Waarom is de man bij de kinderopvang?",
+  "q_zh": "這名男子為什麼在托兒所？",
+  "options": [
+   {
+    "nl": "Omdat hij zijn zoontje komt ophalen.",
+    "zh": "因為他來接他的兒子。"
+   },
+   {
+    "nl": "Omdat hij daar werkt.",
+    "zh": "因為他在那裡工作。"
+   },
+   {
+    "nl": "Omdat hij wil vertellen dat zijn zoontje ziek is.",
+    "zh": "因為他想告訴他兒子生病了。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Hallo, ik ben de vader van Martijn. Kan ik hem al meenemen?",
+    "你好，我是馬丁的父親。我可以帶他走嗎？"
+   ],
+   [
+    "Ja, maar die heeft een griepje.",
+    "是的，但她得了流感。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "Omdat hij zijn zoontje komt ophalen.",
+     "因為他來接他的兒子。"
+    ],
+    [
+     "Omdat hij daar werkt.",
+     "因為他在那裡工作。"
+    ],
+    [
+     "Omdat hij wil vertellen dat zijn zoontje ziek is.",
+     "因為他想告訴他兒子生病了。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "0HenRw6__u8",
+  "ctx": "一位女士在醫生的資訊電話中詢問開診時間。",
+  "q_nl": "Waar praten deze mensen?",
+  "q_zh": "這些人在哪裡交談？",
+  "options": [
+   {
+    "nl": "Op school",
+    "zh": "在學校"
+   },
+   {
+    "nl": "Op straat",
+    "zh": "在街上"
+   },
+   {
+    "nl": "Thuis",
+    "zh": "在家"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "U hoort een gesprek tussen een man en een vrouw.",
+    "你聽到一個男人和一個女人的對話。"
+   ],
+   [
+    "Waar praten deze mensen?",
+    "這些人在哪裡交談？"
+   ]
+  ],
+  "asking": "要聽這些人在哪裡交談",
+  "ob": [
+   [
+    [
+     "A. Op school",
+     "A. 在學校"
+    ],
+    [
+     "B. Op straat",
+     "B. 在街上"
+    ],
+    [
+     "C. Thuis",
+     "C. 在家"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "0HenRw6__u8",
+  "ctx": "一位女士在醫生的資訊電話中詢問開診時間。",
+  "q_nl": "Hoe laat begint het vrije spreekuur op donderdag?",
+  "q_zh": "星期四的自由門診幾點開始？",
+  "options": [
+   {
+    "nl": "Om acht uur",
+    "zh": "在八點"
+   },
+   {
+    "nl": "Om half negen",
+    "zh": "在八點半"
+   },
+   {
+    "nl": "Om negen uur",
+    "zh": "在九點"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "U hoort informatietelefoon van de huisarts.",
+    "你聽到家庭醫生的資訊電話。"
+   ],
+   [
+    "Hoe laat begint het vrije spreekuur op donderdag?",
+    "星期四的自由門診幾點開始？"
+   ]
+  ],
+  "asking": "要聽星期四的自由門診幾點開始",
+  "ob": [
+   [
+    [
+     "A. Om acht uur",
+     "A. 在八點"
+    ],
+    [
+     "B. Om half negen",
+     "B. 在八點半"
+    ],
+    [
+     "C. Om negen uur",
+     "C. 在九點"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "0HenRw6__u8",
+  "ctx": "一位女士在醫生的資訊電話中詢問開診時間。",
+  "q_nl": "Waarom komt ze niet koffie drinken?",
+  "q_zh": "她為什麼不來喝咖啡？",
+  "options": [
+   {
+    "nl": "Ze moet werken",
+    "zh": "她必須工作"
+   },
+   {
+    "nl": "Ze is een beetje moe",
+    "zh": "她有點累"
+   },
+   {
+    "nl": "Ze lust geen koffie",
+    "zh": "她不喜歡咖啡"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Goh, wat jammer, maar vanmiddag wordt een beetje moeilijk.",
+    "唉，真可惜，但今天下午有點困難。"
+   ],
+   [
+    "Waarom komt ze niet koffie drinken?",
+    "她為什麼不來喝咖啡？"
+   ]
+  ],
+  "asking": "要聽她為什麼不來喝咖啡",
+  "ob": [
+   [
+    [
+     "A. Ze moet werken",
+     "A. 她必須工作"
+    ],
+    [
+     "B. Ze is een beetje moe",
+     "B. 她有點累"
+    ],
+    [
+     "C. Ze lust geen koffie",
+     "C. 她不喜歡咖啡"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "0HenRw6__u8",
+  "ctx": "一位女士在醫生的資訊電話中詢問開診時間。",
+  "q_nl": "Wanneer gaan ze samen naar de Zwarte Mart?",
+  "q_zh": "他們什麼時候一起去黑市？",
+  "options": [
+   {
+    "nl": "Vrijdagmiddag",
+    "zh": "星期五下午"
+   },
+   {
+    "nl": "Zaterdagmorgen",
+    "zh": "星期六早上"
+   },
+   {
+    "nl": "Zaterdagmiddag",
+    "zh": "星期六下午"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wanneer gaan ze samen naar de Zwarte Mart?",
+    "他們什麼時候一起去黑市？"
+   ],
+   [
+    "Nou dat lijkt me leuk, maar 's morgens neem ik niet.",
+    "嗯，我覺得這很有趣，但我早上不行。"
+   ]
+  ],
+  "asking": "要聽他們什麼時候一起去黑市",
+  "ob": [
+   [
+    [
+     "A. Vrijdagmiddag",
+     "A. 星期五下午"
+    ],
+    [
+     "B. Zaterdagmorgen",
+     "B. 星期六早上"
+    ],
+    [
+     "C. Zaterdagmiddag",
+     "C. 星期六下午"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "5VRuRmDJURY",
+  "ctx": "Karel 在家幫助他的奶奶購買晚餐所需的食材。",
+  "q_nl": "Wat moet Karel vandaag kopen voor zijn oma?",
+  "q_zh": "卡雷尔今天要為他的奶奶買什麼？",
+  "options": [
+   {
+    "nl": "Koffie en thee",
+    "zh": "咖啡和茶"
+   },
+   {
+    "nl": "Wasmiddel",
+    "zh": "洗衣粉"
+   },
+   {
+    "nl": "Groente",
+    "zh": "蔬菜"
+   }
+  ],
+  "answer": 2,
+  "qb": [
+   [
+    "Nou Karel, vandaag heb ik niet zoveel nodig hoor.",
+    "好吧，卡雷尔，今天我不需要太多。"
+   ],
+   [
+    "Zou je alleen wat groente voor vanavond mee willen nemen?",
+    "你能只帶一些今晚的蔬菜嗎？"
+   ]
+  ],
+  "asking": "要聽Karel要買什麼",
+  "ob": [
+   [
+    [
+     "Koffie en thee",
+     "咖啡和茶"
+    ],
+    [
+     "Wasmiddel",
+     "洗衣粉"
+    ],
+    [
+     "Groente",
+     "蔬菜"
+    ]
+   ],
+   [
+    [
+     "Zou je alleen wat groente voor vanavond mee willen nemen?",
+     "你能只帶一些今晚的蔬菜嗎？"
+    ],
+    [
+     "Koffie en thee hoef ik me niet druk te maken, want ik heb van allebei nog minstens genoeg voor de hele maand in huis.",
+     "我不需要擔心咖啡和茶，因為我至少還有足夠的存貨。"
+    ],
+    [
+     "Wasmiddel is veel te zwaar voor jou om te sjouwen.",
+     "洗衣粉對你來說太重了。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "5VRuRmDJURY",
+  "ctx": "Karel 在家幫助他的奶奶購買晚餐所需的食材。",
+  "q_nl": "Waarom kan Carla op de kinderen passen?",
+  "q_zh": "卡拉為什麼可以照顧孩子？",
+  "options": [
+   {
+    "nl": "Want ze heeft dit weekend toch niets te doen.",
+    "zh": "因為她這個週末沒有事情做。"
+   },
+   {
+    "nl": "Maar alleen als ze niet te laat thuiskomen.",
+    "zh": "但只有在他們不太晚回家的情況下。"
+   },
+   {
+    "nl": "Want er draait een mooie film.",
+    "zh": "因為有一部好電影正在放映。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Ja, als we het zo doen, dan kan ik wel.",
+    "是的，如果我們這樣做，我可以。"
+   ],
+   [
+    "Anders moet u toch echt iemand anders vragen.",
+    "否則您真的必須問其他人。"
+   ]
+  ],
+  "asking": "要聽卡拉能否照顧孩子的原因",
+  "ob": [
+   [
+    [
+     "Want ze heeft dit weekend toch niets te doen.",
+     "因為她這個週末沒有事情做。"
+    ],
+    [
+     "Maar alleen als ze niet te laat thuiskomen.",
+     "但只有在他們不太晚回家的情況下。"
+    ],
+    [
+     "Want er draait een mooie film.",
+     "因為有一部好電影正在放映。"
+    ]
+   ],
+   [
+    [
+     "Zou jij aanstaande zaterdag een avondje op de kinderen willen passen?",
+     "你願意在下週六晚上照顧孩子嗎？"
+    ],
+    [
+     "Eh, nou dat komt niet zo goed uit, want mijn beste vriendin geeft een feest omdat ze jarig is.",
+     "嗯，這不太合適，因為我最好的朋友因為過生日而舉辦派對。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "5VRuRmDJURY",
+  "ctx": "Karel 在家幫助他的奶奶購買晚餐所需的食材。",
+  "q_nl": "Wanneer gaat Karel boodschappen doen?",
+  "q_zh": "卡雷爾什麼時候去買菜？",
+  "options": [
+   {
+    "nl": "Vandaag.",
+    "zh": "今天。"
+   },
+   {
+    "nl": "Dit weekend.",
+    "zh": "這個週末。"
+   },
+   {
+    "nl": "Aanstaande zaterdag.",
+    "zh": "下週六。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Hij doet dan boodschappen voor haar.",
+    "他為她買菜。"
+   ],
+   [
+    "Zou je alleen wat groente voor vanavond mee willen nemen?",
+    "你能只帶一些今晚的蔬菜嗎？"
+   ]
+  ],
+  "asking": "要聽卡雷爾什麼時候去買菜",
+  "ob": [
+   [
+    [
+     "Vandaag.",
+     "今天。"
+    ],
+    [
+     "Dit weekend.",
+     "這個週末。"
+    ],
+    [
+     "Aanstaande zaterdag.",
+     "下週六。"
+    ]
+   ],
+   [
+    [
+     "Hij doet dan boodschappen voor haar.",
+     "他為她買菜。"
+    ],
+    [
+     "Zou je alleen wat groente voor vanavond mee willen nemen?",
+     "你能只帶一些今晚的蔬菜嗎？"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "5VRuRmDJURY",
+  "ctx": "Karel 在家幫助他的奶奶購買晚餐所需的食材。",
+  "q_nl": "Wat is te zwaar voor Karel om te sjouwen?",
+  "q_zh": "對卡雷爾來說，什麼是太重的？",
+  "options": [
+   {
+    "nl": "Koffie en thee",
+    "zh": "咖啡和茶"
+   },
+   {
+    "nl": "Wasmiddel",
+    "zh": "洗衣粉"
+   },
+   {
+    "nl": "Groente",
+    "zh": "蔬菜"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Wasmiddel is veel te zwaar voor jou om te sjouwen.",
+    "洗衣粉對你來說太重了。"
+   ],
+   [
+    "Dat koop ik dit weekend wel samen met je vader.",
+    "我這個週末會和你爸爸一起買。"
+   ]
+  ],
+  "asking": "要聽什麼對卡雷爾來說太重",
+  "ob": [
+   [
+    [
+     "Koffie en thee",
+     "咖啡和茶"
+    ],
+    [
+     "Wasmiddel",
+     "洗衣粉"
+    ],
+    [
+     "Groente",
+     "蔬菜"
+    ]
+   ],
+   [
+    [
+     "Wasmiddel is veel te zwaar voor jou om te sjouwen.",
+     "洗衣粉對你來說太重了。"
+    ],
+    [
+     "Dat koop ik dit weekend wel samen met je vader.",
+     "我這個週末會和你爸爸一起買。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "c0fBLov2nKk",
+  "ctx": "Harry 向他的女友解釋為什麼他沒有錢還她。",
+  "q_nl": "Waarom moet Harry zijn vriendin tien gulden terugbetalen?",
+  "q_zh": "哈里為什麼要還女朋友十荷幣？",
+  "options": [
+   {
+    "nl": "Hij heeft het geld verloren.",
+    "zh": "他把錢弄丟了。"
+   },
+   {
+    "nl": "Hij heeft het geld opgegeten.",
+    "zh": "他把錢吃掉了。"
+   },
+   {
+    "nl": "Hij heeft het geld gegeven aan de vogels.",
+    "zh": "他把錢給了鳥。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Harry moet zijn vriendin tien gulden terugbetalen, maar hij heeft geen geld.",
+    "哈里需要還女朋友十荷幣，但他沒有錢。"
+   ],
+   [
+    "Een vogel heeft het geld opgegeten.",
+    "一隻鳥把錢吃掉了。"
+   ]
+  ],
+  "asking": "要聽哈里為什麼要還錢",
+  "ob": [
+   [
+    [
+     "Hij heeft het geld verloren.",
+     "他把錢弄丟了。"
+    ],
+    [
+     "Hij heeft het geld opgegeten.",
+     "他把錢吃掉了。"
+    ],
+    [
+     "Hij heeft het geld gegeven aan de vogels.",
+     "他把錢給了鳥。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "c0fBLov2nKk",
+  "ctx": "Harry 向他的女友解釋為什麼他沒有錢還她。",
+  "q_nl": "Waarom vindt de man de Audi 80 de beste auto?",
+  "q_zh": "為什麼這個男人認為Audi 80是最好的車？",
+  "options": [
+   {
+    "nl": "Deze auto is de snelste.",
+    "zh": "這輛車是最快的。"
+   },
+   {
+    "nl": "Deze auto is het goedkoopst.",
+    "zh": "這輛車是最便宜的。"
+   },
+   {
+    "nl": "Deze auto is heel veilig.",
+    "zh": "這輛車非常安全。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Ik bedoel die Audi 80, die snelle, weet je, die 200 kilometer per uur haalt.",
+    "我指的是那輛Audi 80，那輛快速的，知道嗎，能開到每小時200公里。"
+   ]
+  ],
+  "asking": "要聽男人為什麼喜歡Audi 80",
+  "ob": [
+   [
+    [
+     "Deze auto is de snelste.",
+     "這輛車是最快的。"
+    ],
+    [
+     "Deze auto is het goedkoopst.",
+     "這輛車是最便宜的。"
+    ],
+    [
+     "Deze auto is heel veilig.",
+     "這輛車非常安全。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "c0fBLov2nKk",
+  "ctx": "Harry 向他的女友解釋為什麼他沒有錢還她。",
+  "q_nl": "Waarom belt meneer De Wit de school?",
+  "q_zh": "德維特先生為什麼打電話給學校？",
+  "options": [
+   {
+    "nl": "Hij wil weten wanneer de vakantie begint.",
+    "zh": "他想知道假期何時開始。"
+   },
+   {
+    "nl": "Hij wil weten wanneer de vakantie afgelopen is.",
+    "zh": "他想知道假期何時結束。"
+   },
+   {
+    "nl": "Hij wil dat zijn zoontje een week langer vakantie krijgt.",
+    "zh": "他想讓他的兒子多放一周假。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Ik bel even over de vakantie.",
+    "我打電話是關於假期的。"
+   ],
+   [
+    "Kunt u me dat vertellen?",
+    "您能告訴我嗎？"
+   ]
+  ],
+  "asking": "要聽德維特先生打電話的原因",
+  "ob": [
+   [
+    [
+     "Hij wil weten wanneer de vakantie begint.",
+     "他想知道假期何時開始。"
+    ],
+    [
+     "Hij wil weten wanneer de vakantie afgelopen is.",
+     "他想知道假期何時結束。"
+    ],
+    [
+     "Hij wil dat zijn zoontje een week langer vakantie krijgt.",
+     "他想讓他的兒子多放一周假。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "c0fBLov2nKk",
+  "ctx": "Harry 向他的女友解釋為什麼他沒有錢還她。",
+  "q_nl": "Hoeveel mensen zijn er woensdag op bezoek geweest?",
+  "q_zh": "星期三有多少人來探望？",
+  "options": [
+   {
+    "nl": "2",
+    "zh": "2"
+   },
+   {
+    "nl": "3",
+    "zh": "3"
+   },
+   {
+    "nl": "4",
+    "zh": "4"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Dus je man is langs geweest en je twee dochters.",
+    "所以你的丈夫和你的兩個女兒來了。"
+   ],
+   [
+    "Ja, mijn kleinzoon had smiddags vrij, dus die kwam ook even.",
+    "是的，我的孫子下午有空，所以他也來了。"
+   ]
+  ],
+  "asking": "要聽星期三來訪的人數",
+  "ob": [
+   [
+    [
+     "2",
+     "2"
+    ],
+    [
+     "3",
+     "3"
+    ],
+    [
+     "4",
+     "4"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "Z0iOzLatpz4",
+  "ctx": "在工廠，兩位同事討論安妮為何要離開工作。",
+  "q_nl": "Waarom moet Anne stoppen met haar werk in de fabriek?",
+  "q_zh": "安妮為什麼要停止在工廠的工作？",
+  "options": [
+   {
+    "nl": "Anne gaat verhuizen.",
+    "zh": "安妮要搬家。"
+   },
+   {
+    "nl": "Anne werkt niet hard genoeg.",
+    "zh": "安妮工作不夠努力。"
+   },
+   {
+    "nl": "Anne komt te vaak te laat.",
+    "zh": "安妮經常遲到。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Anne stopt met werken hier.",
+    "安妮在這裡停止工作。"
+   ],
+   [
+    "Ze gaat verhuizen.",
+    "她要搬家。"
+   ]
+  ],
+  "asking": "要聽安妮停止工作的原因",
+  "ob": [
+   [
+    [
+     "安妮要搬家。",
+     "安妮要搬家。"
+    ],
+    [
+     "安妮工作不夠努力。",
+     "安妮工作不夠努力。"
+    ],
+    [
+     "安妮經常遲到。",
+     "安妮經常遲到。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "Z0iOzLatpz4",
+  "ctx": "在工廠，兩位同事討論安妮為何要離開工作。",
+  "q_nl": "Wat vinden de collega's van Alex niet netjes van Anne?",
+  "q_zh": "亞歷克斯的同事對安妮不滿的地方是什麼？",
+  "options": [
+   {
+    "nl": "Dat Anne vaak te laat komt.",
+    "zh": "安妮經常遲到。"
+   },
+   {
+    "nl": "Dat Anne langzaam werkt.",
+    "zh": "安妮工作得很慢。"
+   },
+   {
+    "nl": "Dat Anne onvriendelijk is.",
+    "zh": "安妮不友善。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Maar ze komt wel vaak te laat.",
+    "但是她經常遲到。"
+   ],
+   [
+    "En dat vind ik niet netjes.",
+    "我覺得這樣不太好。"
+   ]
+  ],
+  "asking": "要聽同事對安妮的看法",
+  "ob": [
+   [
+    [
+     "安妮經常遲到。",
+     "安妮經常遲到。"
+    ],
+    [
+     "安妮工作得很慢。",
+     "安妮工作得很慢。"
+    ],
+    [
+     "安妮不友善。",
+     "安妮不友善。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "Z0iOzLatpz4",
+  "ctx": "在工廠，兩位同事討論安妮為何要離開工作。",
+  "q_nl": "Wat voor weer wordt het in het noorden van Nederland de komende dagen?",
+  "q_zh": "接下來幾天北荷蘭的天氣會怎麼樣？",
+  "options": [
+   {
+    "nl": "Het gaat regenen en onweren.",
+    "zh": "會下雨和打雷。"
+   },
+   {
+    "nl": "Het wordt warmer.",
+    "zh": "會變暖。"
+   },
+   {
+    "nl": "Het gaat vriezen.",
+    "zh": "會結冰。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "In het hele land koud en regenachtig weer.",
+    "全國的天氣寒冷且多雨。"
+   ],
+   [
+    "Met vooral regen- en onweersbuien in het noorden van het land.",
+    "北部特別有雨和雷陣雨。"
+   ]
+  ],
+  "asking": "要聽北荷蘭的天氣預報",
+  "ob": [
+   [
+    [
+     "會下雨和打雷。",
+     "會下雨和打雷。"
+    ],
+    [
+     "會變暖。",
+     "會變暖。"
+    ],
+    [
+     "會結冰。",
+     "會結冰。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "Z0iOzLatpz4",
+  "ctx": "在工廠，兩位同事討論安妮為何要離開工作。",
+  "q_nl": "Wanneer gaat de straat van Amina weer open?",
+  "q_zh": "阿米娜的街道什麼時候會重新開放？",
+  "options": [
+   {
+    "nl": "Volgende week.",
+    "zh": "下星期。"
+   },
+   {
+    "nl": "Over een maand.",
+    "zh": "一個月後。"
+   },
+   {
+    "nl": "Over zes weken.",
+    "zh": "六週後。"
+   }
+  ],
+  "answer": 2,
+  "qb": [
+   [
+    "Die straat blijft dicht tot eind volgende maand.",
+    "那條街要關到下個月底。"
+   ],
+   [
+    "Dat is wel lang, zeg.",
+    "這可真長。"
+   ]
+  ],
+  "asking": "要聽街道開放的時間",
+  "ob": [
+   [
+    [
+     "下星期。",
+     "下星期。"
+    ],
+    [
+     "一個月後。",
+     "一個月後。"
+    ],
+    [
+     "六週後。",
+     "六週後。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "QZ37MHN3NyE",
+  "ctx": "學生在課堂上練習荷蘭文的聽力理解",
+  "q_nl": "Welke dag is het vandaag?",
+  "q_zh": "今天是星期幾？",
+  "options": [
+   {
+    "nl": "Maandag",
+    "zh": "星期一"
+   },
+   {
+    "nl": "Zaterdag",
+    "zh": "星期六"
+   },
+   {
+    "nl": "Juli",
+    "zh": "七月"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Welke dag is het vandaag?",
+    "今天是星期幾？"
+   ],
+   [
+    "Luister! Maandag Dinsdag Woensdag Donderdag Vrijdag Zaterdag Zondag",
+    "聽！星期一 星期二 星期三 星期四 星期五 星期六 星期天"
+   ]
+  ],
+  "asking": "要聽今天是星期幾",
+  "ob": [
+   [
+    [
+     "Maandag",
+     "星期一"
+    ],
+    [
+     "Zaterdag",
+     "星期六"
+    ],
+    [
+     "Juli",
+     "七月"
+    ]
+   ],
+   [
+    [
+     "Maandag Dinsdag Woensdag Donderdag Vrijdag Zaterdag Zondag",
+     "星期一 星期二 星期三 星期四 星期五 星期六 星期天"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "QZ37MHN3NyE",
+  "ctx": "學生在課堂上練習荷蘭文的聽力理解",
+  "q_nl": "Waar is de les?",
+  "q_zh": "課程在哪裡？",
+  "options": [
+   {
+    "nl": "In het centrum",
+    "zh": "在市中心"
+   },
+   {
+    "nl": "In de klas",
+    "zh": "在教室"
+   },
+   {
+    "nl": "In de bibliotheek",
+    "zh": "在圖書館"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Waar is de les?",
+    "課程在哪裡？"
+   ],
+   [
+    "Luister! In de Schoolstraat. Waar is de les? In het centrum. Waar is de les? In Oostende.",
+    "聽！在學校街。課程在哪裡？在市中心。課程在哪裡？在奧斯坦德。"
+   ]
+  ],
+  "asking": "要聽課程在哪裡",
+  "ob": [
+   [
+    [
+     "In het centrum",
+     "在市中心"
+    ],
+    [
+     "In de klas",
+     "在教室"
+    ],
+    [
+     "In de bibliotheek",
+     "在圖書館"
+    ]
+   ],
+   [
+    [
+     "In de Schoolstraat. Waar is de les? In het centrum. Waar is de les? In Oostende.",
+     "在學校街。課程在哪裡？在市中心。課程在哪裡？在奧斯坦德。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "QZ37MHN3NyE",
+  "ctx": "學生在課堂上練習荷蘭文的聽力理解",
+  "q_nl": "Wanneer is de les?",
+  "q_zh": "課程是什麼時候？",
+  "options": [
+   {
+    "nl": "Op maandag en woensdag",
+    "zh": "在星期一和星期三"
+   },
+   {
+    "nl": "Op dinsdag en vrijdag",
+    "zh": "在星期二和星期五"
+   },
+   {
+    "nl": "Op zaterdag en zondag",
+    "zh": "在星期六和星期天"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wanneer is de les?",
+    "課程是什麼時候？"
+   ],
+   [
+    "Luister! Op dinsdag en donderdag. Wanneer is de les? Op maandag en woensdag. Wanneer is de les? Op maandag, woensdag en vrijdag.",
+    "聽！在星期二和星期四。課程是什麼時候？在星期一和星期三。課程是什麼時候？在星期一、星期三和星期五。"
+   ]
+  ],
+  "asking": "要聽課程是什麼時候",
+  "ob": [
+   [
+    [
+     "Op maandag en woensdag",
+     "在星期一和星期三"
+    ],
+    [
+     "Op dinsdag en vrijdag",
+     "在星期二和星期五"
+    ],
+    [
+     "Op zaterdag en zondag",
+     "在星期六和星期天"
+    ]
+   ],
+   [
+    [
+     "Op dinsdag en donderdag. Wanneer is de les? Op maandag en woensdag. Wanneer is de les? Op maandag, woensdag en vrijdag.",
+     "在星期二和星期四。課程是什麼時候？在星期一和星期三。課程是什麼時候？在星期一、星期三和星期五。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "QZ37MHN3NyE",
+  "ctx": "學生在課堂上練習荷蘭文的聽力理解",
+  "q_nl": "Wat drinkt Natalia?",
+  "q_zh": "娜塔莉亞喝什麼？",
+  "options": [
+   {
+    "nl": "Water",
+    "zh": "水"
+   },
+   {
+    "nl": "Koffie",
+    "zh": "咖啡"
+   },
+   {
+    "nl": "Thee",
+    "zh": "茶"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wat drinkt Natalia?",
+    "娜塔莉亞喝什麼？"
+   ],
+   [
+    "Ze drinkt water. En ik koop blikjes eten voor de kat in de supermarkt.",
+    "她喝水。然後我在超市買罐頭食物給貓。"
+   ]
+  ],
+  "asking": "要聽娜塔莉亞喝什麼",
+  "ob": [
+   [
+    [
+     "Water",
+     "水"
+    ],
+    [
+     "Koffie",
+     "咖啡"
+    ],
+    [
+     "Thee",
+     "茶"
+    ]
+   ],
+   [
+    [
+     "Ze drinkt water. En ik koop blikjes eten voor de kat in de supermarkt.",
+     "她喝水。然後我在超市買罐頭食物給貓。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "f53OW6p7l-8",
+  "ctx": "在荷蘭，生病時如何尋求醫療幫助",
+  "q_nl": "Wat moet je doen als je ziek bent?",
+  "q_zh": "如果你生病了，你應該怎麼做？",
+  "options": [
+   {
+    "nl": "Ga naar je huisarts.",
+    "zh": "去看你的家庭醫生。"
+   },
+   {
+    "nl": "Bel 112.",
+    "zh": "打112。"
+   },
+   {
+    "nl": "Ga naar de drogist.",
+    "zh": "去藥妝店。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Ben je ziek?",
+    "你生病了嗎？"
+   ],
+   [
+    "Ga naar je huisarts.",
+    "去看你的家庭醫生。"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "Bel 112.",
+     "打112。"
+    ],
+    [
+     "Ga naar de drogist.",
+     "去藥妝店。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "f53OW6p7l-8",
+  "ctx": "在荷蘭，生病時如何尋求醫療幫助",
+  "q_nl": "Wanneer moet je de huisarts bellen?",
+  "q_zh": "你什麼時候應該打電話給家庭醫生？",
+  "options": [
+   {
+    "nl": "Als je een afspraak wilt maken.",
+    "zh": "如果你想約時間。"
+   },
+   {
+    "nl": "Als je medicijnen wilt kopen.",
+    "zh": "如果你想買藥。"
+   },
+   {
+    "nl": "Als je naar de apotheek wilt.",
+    "zh": "如果你想去藥局。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Bel je huisarts om een afspraak te maken.",
+    "打電話給你的家庭醫生約時間。"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "Als je medicijnen wilt kopen.",
+     "如果你想買藥。"
+    ],
+    [
+     "Als je naar de apotheek wilt.",
+     "如果你想去藥局。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "f53OW6p7l-8",
+  "ctx": "在荷蘭，生病時如何尋求醫療幫助",
+  "q_nl": "Wat is een verwijsbrief?",
+  "q_zh": "什麼是轉診信？",
+  "options": [
+   {
+    "nl": "Een brief voor een specialist in het ziekenhuis.",
+    "zh": "給醫院專科醫生的信。"
+   },
+   {
+    "nl": "Een brief voor de huisarts.",
+    "zh": "給家庭醫生的信。"
+   },
+   {
+    "nl": "Een brief voor de apotheek.",
+    "zh": "給藥局的信。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Soms geeft de huisarts jou een brief mee voor een speciale dokter in het ziekenhuis.",
+    "有時候家庭醫生會給你一封信，給醫院的專科醫生。"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "Een brief voor de huisarts.",
+     "給家庭醫生的信。"
+    ],
+    [
+     "Een brief voor de apotheek.",
+     "給藥局的信。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "f53OW6p7l-8",
+  "ctx": "在荷蘭，生病時如何尋求醫療幫助",
+  "q_nl": "Wat moet je doen als je veel stress hebt?",
+  "q_zh": "如果你有很多壓力，你應該怎麼做？",
+  "options": [
+   {
+    "nl": "Praat met anderen.",
+    "zh": "和別人談談。"
+   },
+   {
+    "nl": "Ga naar de markt.",
+    "zh": "去市場。"
+   },
+   {
+    "nl": "Bel de politie.",
+    "zh": "打電話給警察。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Praat met anderen.",
+    "和別人談談。"
+   ]
+  ],
+  "asking": "要聽什麼",
+  "ob": [
+   [
+    [
+     "Ga naar de markt.",
+     "去市場。"
+    ],
+    [
+     "Bel de politie.",
+     "打電話給警察。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "yQLIwMeSE5c",
+  "ctx": "阿爾諾德打電話給朋友詢問水管工的事，因為他母親的地板淹水了。",
+  "q_nl": "Wat is er met de vloer van de moeder van Arnaud?",
+  "q_zh": "阿尔诺的母親的地板怎麼了？",
+  "options": [
+   {
+    "nl": "De vloer staat onder water.",
+    "zh": "地板在水下。"
+   },
+   {
+    "nl": "De vloer is nieuw.",
+    "zh": "地板是新的。"
+   },
+   {
+    "nl": "De vloer is kapot.",
+    "zh": "地板壞了。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Met Koos Galjoen.",
+    "與科斯·加爾約恩通話。"
+   ],
+   [
+    "Ik wou je wat vragen.",
+    "我想問你一些問題。"
+   ],
+   [
+    "Mijn moeder, haar hele vloer staat onder water.",
+    "我母親的整個地板都在水下。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "De vloer staat onder water.",
+     "地板在水下。"
+    ]
+   ],
+   [
+    [
+     "De vloer is nieuw.",
+     "地板是新的。"
+    ]
+   ],
+   [
+    [
+     "De vloer is kapot.",
+     "地板壞了。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "yQLIwMeSE5c",
+  "ctx": "阿爾諾德打電話給朋友詢問水管工的事，因為他母親的地板淹水了。",
+  "q_nl": "Waarom staat de vloer onder water?",
+  "q_zh": "為什麼地板在水下？",
+  "options": [
+   {
+    "nl": "De wc is kapot.",
+    "zh": "馬桶壞了。"
+   },
+   {
+    "nl": "Er is een lekkage.",
+    "zh": "有漏水。"
+   },
+   {
+    "nl": "De kraan is open.",
+    "zh": "水龍頭開著。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Hoe komt dat?",
+    "這是怎麼回事？"
+   ],
+   [
+    "De wc is kapot.",
+    "馬桶壞了。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "De wc is kapot.",
+     "馬桶壞了。"
+    ]
+   ],
+   [
+    [
+     "Er is een lekkage.",
+     "有漏水。"
+    ]
+   ],
+   [
+    [
+     "De kraan is open.",
+     "水龍頭開著。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "yQLIwMeSE5c",
+  "ctx": "阿爾諾德打電話給朋友詢問水管工的事，因為他母親的地板淹水了。",
+  "q_nl": "Waar kan Arnaud een loodgieter vinden?",
+  "q_zh": "阿爾諾可以在哪裡找到水管工？",
+  "options": [
+   {
+    "nl": "In de Gouden Gids.",
+    "zh": "在黃頁裡。"
+   },
+   {
+    "nl": "Op internet.",
+    "zh": "在網上。"
+   },
+   {
+    "nl": "Bij de supermarkt.",
+    "zh": "在超市。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Maar je kunt het beste in de Gouden Gids kijken.",
+    "但你最好查看黃頁。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "In de Gouden Gids.",
+     "在黃頁裡。"
+    ]
+   ],
+   [
+    [
+     "Op internet.",
+     "在網上。"
+    ]
+   ],
+   [
+    [
+     "Bij de supermarkt.",
+     "在超市。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "yQLIwMeSE5c",
+  "ctx": "阿爾諾德打電話給朋友詢問水管工的事，因為他母親的地板淹水了。",
+  "q_nl": "Wat denkt Arnaud over de loodgieter?",
+  "q_zh": "阿爾諾對水管工有什麼看法？",
+  "options": [
+   {
+    "nl": "Ze komen meestal snel.",
+    "zh": "他們通常來得很快。"
+   },
+   {
+    "nl": "Ze laten vaak lang wachten.",
+    "zh": "他們常常讓人等很久。"
+   },
+   {
+    "nl": "Ze zijn altijd vriendelijk.",
+    "zh": "他們總是很友好。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Nou, ik ben bang van niet.",
+    "好吧，我擔心不是。"
+   ],
+   [
+    "Meestal laten ze hier lang wachten.",
+    "通常他們在這裡讓人等很久。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "Ze komen meestal snel.",
+     "他們通常來得很快。"
+    ]
+   ],
+   [
+    [
+     "Ze laten vaak lang wachten.",
+     "他們常常讓人等很久。"
+    ]
+   ],
+   [
+    [
+     "Ze zijn altijd vriendelijk.",
+     "他們總是很友好。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "KO7Z5_85490",
+  "ctx": "Amiel在車庫工作，與他的上司討論修車的安排。",
+  "q_nl": "Met welke auto moet Amiel vandaag beginnen?",
+  "q_zh": "Amiel 今天應該先修哪輛車？",
+  "options": [
+   {
+    "nl": "De zwarte auto.",
+    "zh": "黑色的車。"
+   },
+   {
+    "nl": "De blauwe auto.",
+    "zh": "藍色的車。"
+   },
+   {
+    "nl": "De witte auto.",
+    "zh": "白色的車。"
+   }
+  ],
+  "answer": 2,
+  "qb": [
+   [
+    "Amiel werkt in een garage als monteur.",
+    "Amiel 在車庫裡工作，擔任技師。"
+   ],
+   [
+    "We hebben veel te doen vandaag.",
+    "我們今天有很多事情要做。"
+   ],
+   [
+    "De eigenaar van de witte auto heeft een enorme haast en komt de auto over twee uur alweer ophalen.",
+    "白色車子的車主非常著急，兩個小時後就會來取車。"
+   ]
+  ],
+  "asking": "要聽 Amiel 要修哪輛車",
+  "ob": [
+   [
+    [
+     "De zwarte auto.",
+     "黑色的車。"
+    ],
+    [
+     "De blauwe auto.",
+     "藍色的車。"
+    ],
+    [
+     "De witte auto.",
+     "白色的車。"
+    ]
+   ],
+   [
+    [
+     "De zwarte auto met een kapotte accu is als eerste gebracht.",
+     "黑色的車因為電池壞了被最先送來。"
+    ],
+    [
+     "De eigenaar van de witte auto heeft een enorme haast en komt de auto over twee uur alweer ophalen.",
+     "白色車子的車主非常著急，兩個小時後就會來取車。"
+    ],
+    [
+     "De deuren zijn het probleem.",
+     "門是問題所在。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "KO7Z5_85490",
+  "ctx": "Amiel在車庫工作，與他的上司討論修車的安排。",
+  "q_nl": "Waarom staat de blauwe auto in de garage?",
+  "q_zh": "藍色的車為什麼在車庫裡？",
+  "options": [
+   {
+    "nl": "De accu is kapot?",
+    "zh": "電池壞了？"
+   },
+   {
+    "nl": "De deuren gaan niet open?",
+    "zh": "門打不開？"
+   },
+   {
+    "nl": "Één lamp geeft geen licht.",
+    "zh": "一個燈不亮。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Waarom staat de blauwe auto in de garage?",
+    "藍色的車為什麼在車庫裡？"
+   ],
+   [
+    "De deuren zijn het probleem.",
+    "門是問題所在。"
+   ],
+   [
+    "Ik denk dat we de sleutel moeten controleren.",
+    "我想我們需要檢查鑰匙。"
+   ]
+  ],
+  "asking": "要聽藍色的車的問題",
+  "ob": [
+   [
+    [
+     "De accu is kapot?",
+     "電池壞了？"
+    ],
+    [
+     "De deuren gaan niet open?",
+     "門打不開？"
+    ],
+    [
+     "Één lamp geeft geen licht.",
+     "一個燈不亮。"
+    ]
+   ],
+   [
+    [
+     "De deuren zijn het probleem.",
+     "門是問題所在。"
+    ],
+    [
+     "Die gaan niet meer open.",
+     "門再也打不開了。"
+    ],
+    [
+     "Ik denk dat we de sleutel moeten controleren.",
+     "我想我們需要檢查鑰匙。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "KO7Z5_85490",
+  "ctx": "Amiel在車庫工作，與他的上司討論修車的安排。",
+  "q_nl": "Wat moet Sophia als eerste doen als iemand belt voor de directeur?",
+  "q_zh": "如果有人打電話給主任，Sophia 首先應該做什麼？",
+  "options": [
+   {
+    "nl": "Een één toetsen.",
+    "zh": "按一。"
+   },
+   {
+    "nl": "In zijn agenda kijken.",
+    "zh": "查看他的日程。"
+   },
+   {
+    "nl": "Naar Evelien doorverbinden.",
+    "zh": "轉接給 Evelien。"
+   }
+  ],
+  "answer": 1,
+  "qb": [
+   [
+    "Iemand belt voor de directeur.",
+    "有人打電話給主任。"
+   ],
+   [
+    "Een belangrijke regel is dat de telefoon altijd voorgaat.",
+    "一個重要的規則是電話總是優先。"
+   ],
+   [
+    "Als iemand de directeur wil spreken, dan verbind je niet meteen door.",
+    "如果有人想和主任通話，你不會立即轉接。"
+   ]
+  ],
+  "asking": "要聽 Sophia 首先要做什麼",
+  "ob": [
+   [
+    [
+     "Een één toetsen.",
+     "按一。"
+    ],
+    [
+     "In zijn agenda kijken.",
+     "查看他的日程。"
+    ],
+    [
+     "Naar Evelien doorverbinden.",
+     "轉接給 Evelien。"
+    ]
+   ],
+   [
+    [
+     "Als iemand de directeur wil spreken, dan verbind je niet meteen door.",
+     "如果有人想和主任通話，你不會立即轉接。"
+    ],
+    [
+     "Je kijkt dan eerst in zijn agenda.",
+     "你首先查看他的日程。"
+    ],
+    [
+     "Ook vraag je waar het over gaat.",
+     "你還要問這是關於什麼的。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "KO7Z5_85490",
+  "ctx": "Amiel在車庫工作，與他的上司討論修車的安排。",
+  "q_nl": "Wat wil Anne voor Fatima doen?",
+  "q_zh": "Anne 想為 Fatima 做什麼？",
+  "options": [
+   {
+    "nl": "De zoon van Fatima van school halen?",
+    "zh": "接 Fatima 的兒子放學？"
+   },
+   {
+    "nl": "Met Fatima naar de dokter gaan.",
+    "zh": "陪 Fatima 去看醫生。"
+   },
+   {
+    "nl": "Fatima helpen met haar buikpijn.",
+    "zh": "幫助 Fatima 解決她的腹痛。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wat wil Anne voor Fatima doen?",
+    "Anne 想為 Fatima 做什麼？"
+   ],
+   [
+    "En ik wil je zoon morgen wel ophalen.",
+    "我明天想接你的兒子。"
+   ],
+   [
+    "Dan heb jij tijd om naar de dokter te gaan.",
+    "這樣你就有時間去看醫生。"
+   ]
+  ],
+  "asking": "要聽 Anne 想做什麼",
+  "ob": [
+   [
+    [
+     "De zoon van Fatima van school halen?",
+     "接 Fatima 的兒子放學？"
+    ],
+    [
+     "Met Fatima naar de dokter gaan.",
+     "陪 Fatima 去看醫生。"
+    ],
+    [
+     "Fatima helpen met haar buikpijn.",
+     "幫助 Fatima 解決她的腹痛。"
+    ]
+   ],
+   [
+    [
+     "En ik wil je zoon morgen wel ophalen.",
+     "我明天想接你的兒子。"
+    ],
+    [
+     "Dan ga ik gezellig met je zoon thee drinken.",
+     "然後我會和你的兒子一起喝茶。"
+    ],
+    [
+     "Oh dat vind ik heel fijn.",
+     "哦，我覺得這樣很好。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "l4MewuaqxTE",
+  "ctx": "Eren 和他的朋友 Mark 在市政府辦理出生登記的事宜。",
+  "q_nl": "Welke tip geeft Chris als eerste aan Mira?",
+  "q_zh": "Chris 首先給 Mira 的建議是什麼？",
+  "options": [
+   {
+    "nl": "Maak een planning.",
+    "zh": "制定計劃。"
+   },
+   {
+    "nl": "Ga extra veel leren.",
+    "zh": "多學習一些。"
+   },
+   {
+    "nl": "Leer in de bus en in de trein.",
+    "zh": "在公車和火車上學習。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Chris geeft een tip aan Mira.",
+    "Chris 給了 Mira 一個建議。"
+   ],
+   [
+    "Wat is de tip?",
+    "這個建議是什麼？"
+   ]
+  ],
+  "asking": "要聽 Chris 給 Mira 的建議。",
+  "ob": [
+   [
+    [
+     "Maak een planning.",
+     "制定計劃。"
+    ]
+   ],
+   [
+    [
+     "Ga extra veel leren.",
+     "多學習一些。"
+    ]
+   ],
+   [
+    [
+     "Leer in de bus en in de trein.",
+     "在公車和火車上學習。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "l4MewuaqxTE",
+  "ctx": "Eren 和他的朋友 Mark 在市政府辦理出生登記的事宜。",
+  "q_nl": "Wat zegt Chris over vertraging?",
+  "q_zh": "Chris 對延誤說了什麼？",
+  "options": [
+   {
+    "nl": "Dan heb je extra tijd om te leren.",
+    "zh": "那麼你就有額外的時間來學習。"
+   },
+   {
+    "nl": "Dat je vaker vertraging hebt met de bus.",
+    "zh": "你搭公車時經常會有延誤。"
+   },
+   {
+    "nl": "Dan heb je minder tijd om te leren.",
+    "zh": "那麼你就沒有那麼多時間來學習。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Chris zegt iets over vertraging.",
+    "Chris 說了一些關於延誤的事情。"
+   ],
+   [
+    "Wat zegt hij?",
+    "他說了什麼？"
+   ]
+  ],
+  "asking": "要聽 Chris 對延誤的看法。",
+  "ob": [
+   [
+    [
+     "Dan heb je extra tijd om te leren.",
+     "那麼你就有額外的時間來學習。"
+    ]
+   ],
+   [
+    [
+     "Dat je vaker vertraging hebt met de bus.",
+     "你搭公車時經常會有延誤。"
+    ]
+   ],
+   [
+    [
+     "Dan heb je minder tijd om te leren.",
+     "那麼你就沒有那麼多時間來學習。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "l4MewuaqxTE",
+  "ctx": "Eren 和他的朋友 Mark 在市政府辦理出生登記的事宜。",
+  "q_nl": "Wat was er bijzonder aan deze dag op Schiphol?",
+  "q_zh": "這一天在史基浦機場有什麼特別之處？",
+  "options": [
+   {
+    "nl": "Het was de drukste dag van het hele jaar.",
+    "zh": "這是全年最繁忙的一天。"
+   },
+   {
+    "nl": "Het was de drukste dag van deze zomer.",
+    "zh": "這是今年夏天最繁忙的一天。"
+   },
+   {
+    "nl": "Het was de drukste dag ooit.",
+    "zh": "這是有史以來最繁忙的一天。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Zaira kijkt naar het journaal op televisie.",
+    "Zaira 在電視上看新聞。"
+   ],
+   [
+    "Wat was er bijzonder aan deze dag?",
+    "這一天有什麼特別之處？"
+   ]
+  ],
+  "asking": "要聽這一天的特別之處。",
+  "ob": [
+   [
+    [
+     "Het was de drukste dag van het hele jaar.",
+     "這是全年最繁忙的一天。"
+    ]
+   ],
+   [
+    [
+     "Het was de drukste dag van deze zomer.",
+     "這是今年夏天最繁忙的一天。"
+    ]
+   ],
+   [
+    [
+     "Het was de drukste dag ooit.",
+     "這是有史以來最繁忙的一天。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "l4MewuaqxTE",
+  "ctx": "Eren 和他的朋友 Mark 在市政府辦理出生登記的事宜。",
+  "q_nl": "Waarom kregen de reizigers op Schiphol gratis ijs?",
+  "q_zh": "為什麼史基浦機場的旅客得到免費的冰淇淋？",
+  "options": [
+   {
+    "nl": "Omdat Ola 20 jaar bestond.",
+    "zh": "因為 Ola 20 週年。"
+   },
+   {
+    "nl": "Omdat ze zo lang moesten wachten.",
+    "zh": "因為他們必須等待很久。"
+   },
+   {
+    "nl": "Omdat het zo'n warme dag was.",
+    "zh": "因為那天很熱。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Alle reizigers kregen gisteren wel gratis ijs.",
+    "所有旅客昨天都得到了免費的冰淇淋。"
+   ],
+   [
+    "Waarom kregen ze het?",
+    "為什麼他們得到這些？"
+   ]
+  ],
+  "asking": "要聽為什麼旅客得到免費冰淇淋。",
+  "ob": [
+   [
+    [
+     "Omdat Ola 20 jaar bestond.",
+     "因為 Ola 20 週年。"
+    ]
+   ],
+   [
+    [
+     "Omdat ze zo lang moesten wachten.",
+     "因為他們必須等待很久。"
+    ]
+   ],
+   [
+    [
+     "Omdat het zo'n warme dag was.",
+     "因為那天很熱。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "hCh3xz_BDWo",
+  "ctx": "Julio 在市政府聽到有關荷蘭語課程的公告。",
+  "q_nl": "Hoeveel plaatsen zijn er nog in de cursus Nederlands 3?",
+  "q_zh": "荷蘭文3課程還剩多少個名額？",
+  "options": [
+   {
+    "nl": "Twee plaatsen.",
+    "zh": "兩個名額"
+   },
+   {
+    "nl": "Drie plaatsen.",
+    "zh": "三個名額"
+   },
+   {
+    "nl": "Geen plaatsen.",
+    "zh": "沒有名額"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Julio volgde een cursus Nederlands.",
+    "Julio 上了一門荷蘭語課程。"
+   ],
+   [
+    "De cursus Nederlands 3 zit bijna vol.",
+    "荷蘭文3課程快滿了。"
+   ],
+   [
+    "Er zijn nog twee plaatsen.",
+    "還有兩個名額。"
+   ]
+  ],
+  "asking": "要聽名額的數量",
+  "ob": [
+   [
+    [
+     "Twee plaatsen.",
+     "兩個名額"
+    ],
+    [
+     "Drie plaatsen.",
+     "三個名額"
+    ],
+    [
+     "Geen plaatsen.",
+     "沒有名額"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "hCh3xz_BDWo",
+  "ctx": "Julio 在市政府聽到有關荷蘭語課程的公告。",
+  "q_nl": "Waar kan Julio zich aanmelden voor de cursus Nederlands 3?",
+  "q_zh": "Julio 可以在哪裡報名參加荷蘭文3課程？",
+  "options": [
+   {
+    "nl": "In lokaal 15.",
+    "zh": "在15號教室"
+   },
+   {
+    "nl": "In lokaal 5.",
+    "zh": "在5號教室"
+   },
+   {
+    "nl": "In lokaal 1.",
+    "zh": "在1號教室"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Komt u om 1 uur naar lokaal 15 als u deze cursus wilt volgen.",
+    "如果您想參加這門課程，請在1點鐘來15號教室。"
+   ],
+   [
+    "De cursus Nederlands 3 zit bijna vol.",
+    "荷蘭文3課程快滿了。"
+   ],
+   [
+    "Er zijn nog twee plaatsen.",
+    "還有兩個名額。"
+   ]
+  ],
+  "asking": "要聽報名的地點",
+  "ob": [
+   [
+    [
+     "In lokaal 15.",
+     "在15號教室"
+    ],
+    [
+     "In lokaal 5.",
+     "在5號教室"
+    ],
+    [
+     "In lokaal 1.",
+     "在1號教室"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "hCh3xz_BDWo",
+  "ctx": "Julio 在市政府聽到有關荷蘭語課程的公告。",
+  "q_nl": "Waarom is mevrouw Hakimi bij de huisarts?",
+  "q_zh": "Hakimi 女士為什麼來看醫生？",
+  "options": [
+   {
+    "nl": "Haar knie doet pijn als ze lang staat.",
+    "zh": "她的膝蓋在長時間站立時會疼痛。"
+   },
+   {
+    "nl": "Haar huid wordt rood.",
+    "zh": "她的皮膚變紅了。"
+   },
+   {
+    "nl": "Ze moet heel veel hoesten.",
+    "zh": "她需要咳嗽很多。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Mevrouw Hakimi heeft veel last van haar knie.",
+    "Hakimi 女士的膝蓋很痛。"
+   ],
+   [
+    "Ik werk in een winkel, ziet u.",
+    "我在一家商店工作，您看。"
+   ],
+   [
+    "En vooral wanneer u staat of wanneer u zit.",
+    "尤其是當您站著或坐著的時候。"
+   ]
+  ],
+  "asking": "要聽Hakimi女士的問題",
+  "ob": [
+   [
+    [
+     "Haar knie doet pijn als ze lang staat.",
+     "她的膝蓋在長時間站立時會疼痛。"
+    ],
+    [
+     "Haar huid wordt rood.",
+     "她的皮膚變紅了。"
+    ],
+    [
+     "Ze moet heel veel hoesten.",
+     "她需要咳嗽很多。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "hCh3xz_BDWo",
+  "ctx": "Julio 在市政府聽到有關荷蘭語課程的公告。",
+  "q_nl": "Wat moet Sabine nu doen?",
+  "q_zh": "Sabine 現在該怎麼做？",
+  "options": [
+   {
+    "nl": "Een nieuwe pas aanvragen.",
+    "zh": "申請一張新的卡片。"
+   },
+   {
+    "nl": "Geld opnemen.",
+    "zh": "提取現金。"
+   },
+   {
+    "nl": "Niets, alles is geregeld.",
+    "zh": "不需要做任何事，一切都已安排好。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "U kunt weer geld opnemen als u uw nieuwe pas heeft.",
+    "當您擁有新的卡片時，您可以再次提取現金。"
+   ],
+   [
+    "Ja, heb ik gedaan.",
+    "是的，我已經這樣做了。"
+   ],
+   [
+    "Goed, dan is alles geregeld.",
+    "好的，那麼一切都已安排好。"
+   ]
+  ],
+  "asking": "要聽Sabine的行動",
+  "ob": [
+   [
+    [
+     "Een nieuwe pas aanvragen.",
+     "申請一張新的卡片。"
+    ],
+    [
+     "Geld opnemen.",
+     "提取現金。"
+    ],
+    [
+     "Niets, alles is geregeld.",
+     "不需要做任何事，一切都已安排好。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "FIO4cZ0jCug",
+  "ctx": "阿爾諾德在電話中詢問庫斯關於水管工的事情，因為他母親的地板淹水了。",
+  "q_nl": "Wat is er met de moeder van Arnaud aan de hand?",
+  "q_zh": "阿尔诺的母親發生了什麼事？",
+  "options": [
+   {
+    "nl": "Haar vloer staat onder water.",
+    "zh": "她的地板淹水了。"
+   },
+   {
+    "nl": "Ze heeft een nieuwe wc gekocht.",
+    "zh": "她買了一個新的馬桶。"
+   },
+   {
+    "nl": "Ze is ziek.",
+    "zh": "她生病了。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Mijn moeder staat onder water.",
+    "我母親的地板淹水了。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "Haar vloer staat onder water.",
+     "她的地板淹水了。"
+    ]
+   ],
+   [
+    [
+     "Ze heeft een nieuwe wc gekocht.",
+     "她買了一個新的馬桶。"
+    ]
+   ],
+   [
+    [
+     "Ze is ziek.",
+     "她生病了。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "FIO4cZ0jCug",
+  "ctx": "阿爾諾德在電話中詢問庫斯關於水管工的事情，因為他母親的地板淹水了。",
+  "q_nl": "Wat moet Arnaud doen om een loodgieter te vinden?",
+  "q_zh": "阿爾諾應該怎麼做才能找到水管工？",
+  "options": [
+   {
+    "nl": "In de Gouden Gids kijken.",
+    "zh": "查看黃頁。"
+   },
+   {
+    "nl": "Zijn moeder bellen.",
+    "zh": "打電話給他母親。"
+   },
+   {
+    "nl": "Een nieuwe wc kopen.",
+    "zh": "買一個新的馬桶。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Maar je kunt het beste in de Gouden Gids kijken.",
+    "但你最好查看黃頁。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "In de Gouden Gids kijken.",
+     "查看黃頁。"
+    ]
+   ],
+   [
+    [
+     "Zijn moeder bellen.",
+     "打電話給他母親。"
+    ]
+   ],
+   [
+    [
+     "Een nieuwe wc kopen.",
+     "買一個新的馬桶。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "FIO4cZ0jCug",
+  "ctx": "阿爾諾德在電話中詢問庫斯關於水管工的事情，因為他母親的地板淹水了。",
+  "q_nl": "Wat denkt Arnaud over de loodgieter?",
+  "q_zh": "阿爾諾對水管工有什麼看法？",
+  "options": [
+   {
+    "nl": "Ze komen meestal niet snel.",
+    "zh": "他們通常來得不快。"
+   },
+   {
+    "nl": "Ze zijn heel goedkoop.",
+    "zh": "他們非常便宜。"
+   },
+   {
+    "nl": "Ze zijn altijd beschikbaar.",
+    "zh": "他們總是有空。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Nou, ik ben bang van niet. Meestal laten ze hier lang wachten.",
+    "我擔心不會。他們通常在這裡等很久。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "Ze komen meestal niet snel.",
+     "他們通常來得不快。"
+    ]
+   ],
+   [
+    [
+     "Ze zijn heel goedkoop.",
+     "他們非常便宜。"
+    ]
+   ],
+   [
+    [
+     "Ze zijn altijd beschikbaar.",
+     "他們總是有空。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "FIO4cZ0jCug",
+  "ctx": "阿爾諾德在電話中詢問庫斯關於水管工的事情，因為他母親的地板淹水了。",
+  "q_nl": "Hoeveel kost de kilo appels die Arnaud wil kopen?",
+  "q_zh": "阿爾諾想買的蘋果一公斤多少錢？",
+  "options": [
+   {
+    "nl": "1,25 euro per kilo.",
+    "zh": "每公斤1.25歐元。"
+   },
+   {
+    "nl": "1,75 euro per kilo.",
+    "zh": "每公斤1.75歐元。"
+   },
+   {
+    "nl": "2,00 euro per kilo.",
+    "zh": "每公斤2.00歐元。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Ik wil graag een kilo appels van 1,25 euro per kilo uit de aanbieding.",
+    "我想買一公斤每公斤1.25歐元的蘋果。"
+   ]
+  ],
+  "asking": "要聽什麼？",
+  "ob": [
+   [
+    [
+     "1,25 euro per kilo.",
+     "每公斤1.25歐元。"
+    ]
+   ],
+   [
+    [
+     "1,75 euro per kilo.",
+     "每公斤1.75歐元。"
+    ]
+   ],
+   [
+    [
+     "2,00 euro per kilo.",
+     "每公斤2.00歐元。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "Sy926KPXwV0",
+  "ctx": "一名男子在餐廳點餐，並要求多次酒水。",
+  "q_nl": "Wat bestelt de man in het restaurant?",
+  "q_zh": "這個男人在餐廳點了什麼？",
+  "options": [
+   {
+    "nl": "Spaghetti en een fles witte wijn",
+    "zh": "意大利面和一瓶白葡萄酒"
+   },
+   {
+    "nl": "Pizza en een glas water",
+    "zh": "披薩和一杯水"
+   },
+   {
+    "nl": "Sushi en een fles rode wijn",
+    "zh": "壽司和一瓶紅葡萄酒"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "De man bestelt spaghetti en een fles witte wijn.",
+    "這個男人點了意大利面和一瓶白葡萄酒。"
+   ]
+  ],
+  "asking": "要聽男人點了什麼",
+  "ob": [
+   [
+    [
+     "Spaghetti en een fles witte wijn",
+     "意大利面和一瓶白葡萄酒"
+    ],
+    [
+     "Pizza en een glas water",
+     "披薩和一杯水"
+    ],
+    [
+     "Sushi en een fles rode wijn",
+     "壽司和一瓶紅葡萄酒"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "Sy926KPXwV0",
+  "ctx": "一名男子在餐廳點餐，並要求多次酒水。",
+  "q_nl": "Wat vraagt de man aan de ober?",
+  "q_zh": "這個男人向服務生問了什麼？",
+  "options": [
+   {
+    "nl": "Mag ik ook een lepel?",
+    "zh": "我可以要一個湯匙嗎？"
+   },
+   {
+    "nl": "Mag ik een extra bord?",
+    "zh": "我可以要一個額外的盤子嗎？"
+   },
+   {
+    "nl": "Mag ik een dessert?",
+    "zh": "我可以要一個甜點嗎？"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "De man vraagt: 'Ober, mag ik ook een lepel?'",
+    "這個男人問：‘服務生，我可以要一個湯匙嗎？’"
+   ]
+  ],
+  "asking": "要聽男人問了什麼",
+  "ob": [
+   [
+    [
+     "Mag ik ook een lepel?",
+     "我可以要一個湯匙嗎？"
+    ],
+    [
+     "Mag ik een extra bord?",
+     "我可以要一個額外的盤子嗎？"
+    ],
+    [
+     "Mag ik een dessert?",
+     "我可以要一個甜點嗎？"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "Sy926KPXwV0",
+  "ctx": "一名男子在餐廳點餐，並要求多次酒水。",
+  "q_nl": "Hoeveel sinaasappels wil oma kopen?",
+  "q_zh": "奶奶想買多少橙子？",
+  "options": [
+   {
+    "nl": "Tien sinaasappels",
+    "zh": "十個橙子"
+   },
+   {
+    "nl": "Vijf sinaasappels",
+    "zh": "五個橙子"
+   },
+   {
+    "nl": "Zeven sinaasappels",
+    "zh": "七個橙子"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Oma zegt: 'Goedemiddag, mag ik tien sinaasappels?'",
+    "奶奶說：‘下午好，我可以要十個橙子嗎？’"
+   ]
+  ],
+  "asking": "要聽奶奶想買多少橙子",
+  "ob": [
+   [
+    [
+     "Tien sinaasappels",
+     "十個橙子"
+    ],
+    [
+     "Vijf sinaasappels",
+     "五個橙子"
+    ],
+    [
+     "Zeven sinaasappels",
+     "七個橙子"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "Sy926KPXwV0",
+  "ctx": "一名男子在餐廳點餐，並要求多次酒水。",
+  "q_nl": "Wat zegt de dokter over het kindje?",
+  "q_zh": "醫生對這個孩子說了什麼？",
+  "options": [
+   {
+    "nl": "Uw kindje heeft waterpokken.",
+    "zh": "您的孩子得了水痘。"
+   },
+   {
+    "nl": "Uw kindje heeft koorts.",
+    "zh": "您的孩子發燒了。"
+   },
+   {
+    "nl": "Uw kindje heeft een verkoudheid.",
+    "zh": "您的孩子感冒了。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "De dokter zegt: 'Uw kindje heeft waterpokken.'",
+    "醫生說：‘您的孩子得了水痘。’"
+   ]
+  ],
+  "asking": "要聽醫生說了什麼",
+  "ob": [
+   [
+    [
+     "Uw kindje heeft waterpokken.",
+     "您的孩子得了水痘。"
+    ],
+    [
+     "Uw kindje heeft koorts.",
+     "您的孩子發燒了。"
+    ],
+    [
+     "Uw kindje heeft een verkoudheid.",
+     "您的孩子感冒了。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "_--osX9sKB8",
+  "ctx": "一對夫婦在餐廳點餐和用餐",
+  "q_nl": "Wat vindt het jongetje niet lekker?",
+  "q_zh": "這個男孩不喜歡什麼？",
+  "options": [
+   {
+    "nl": "Champignons",
+    "zh": "香菇"
+   },
+   {
+    "nl": "Vlees",
+    "zh": "肉"
+   },
+   {
+    "nl": "Vis",
+    "zh": "魚"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Dit jongetje eet niet.",
+    "這個男孩不吃。"
+   ],
+   [
+    "Hij vindt het eten niet lekker.",
+    "他覺得食物不好吃。"
+   ],
+   [
+    "Hij zegt: 'Bah, ik vind champignons vies.'",
+    "他說：'呸，我覺得香菇很難吃。'"
+   ]
+  ],
+  "asking": "要聽男孩不喜歡什麼",
+  "ob": [
+   [
+    [
+     "Champignons",
+     "香菇"
+    ],
+    [
+     "Vlees",
+     "肉"
+    ],
+    [
+     "Vis",
+     "魚"
+    ]
+   ],
+   [
+    [
+     "Champignons",
+     "香菇"
+    ],
+    [
+     "Vlees",
+     "肉"
+    ],
+    [
+     "Vis",
+     "魚"
+    ]
+   ],
+   [
+    [
+     "Champignons",
+     "香菇"
+    ],
+    [
+     "Vlees",
+     "肉"
+    ],
+    [
+     "Vis",
+     "魚"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "CYPKuPAZt9E",
+  "ctx": "在農場，學生學習與農業和自然相關的詞彙。",
+  "q_nl": "Wat is er op de boerderij?",
+  "q_zh": "農場上有什麼？",
+  "options": [
+   {
+    "nl": "De koe",
+    "zh": "牛"
+   },
+   {
+    "nl": "De computer",
+    "zh": "電腦"
+   },
+   {
+    "nl": "De tent",
+    "zh": "帳篷"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Het graan.",
+    "穀物。"
+   ],
+   [
+    "De boerderij.",
+    "農場。"
+   ],
+   [
+    "De koe.",
+    "牛。"
+   ]
+  ],
+  "asking": "要聽什麼在農場上？",
+  "ob": [
+   [
+    [
+     "De koe.",
+     "牛。"
+    ]
+   ],
+   [
+    [
+     "De computer.",
+     "電腦。"
+    ]
+   ],
+   [
+    [
+     "De tent.",
+     "帳篷。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "CYPKuPAZt9E",
+  "ctx": "在農場，學生學習與農業和自然相關的詞彙。",
+  "q_nl": "Wat doet de boer?",
+  "q_zh": "農夫在做什麼？",
+  "options": [
+   {
+    "nl": "Hij zorgt voor de dieren.",
+    "zh": "他照顧動物。"
+   },
+   {
+    "nl": "Hij speelt met de computer.",
+    "zh": "他在玩電腦。"
+   },
+   {
+    "nl": "Hij gaat naar het museum.",
+    "zh": "他去博物館。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "De boer.",
+    "農夫。"
+   ],
+   [
+    "Hij zorgt voor de dieren.",
+    "他照顧動物。"
+   ]
+  ],
+  "asking": "要聽農夫在做什麼？",
+  "ob": [
+   [
+    [
+     "Hij zorgt voor de dieren.",
+     "他照顧動物。"
+    ]
+   ],
+   [
+    [
+     "Hij speelt met de computer.",
+     "他在玩電腦。"
+    ]
+   ],
+   [
+    [
+     "Hij gaat naar het museum.",
+     "他去博物館。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "CYPKuPAZt9E",
+  "ctx": "在農場，學生學習與農業和自然相關的詞彙。",
+  "q_nl": "Wat is er in het weekend?",
+  "q_zh": "週末有什麼？",
+  "options": [
+   {
+    "nl": "De camping.",
+    "zh": "露營地。"
+   },
+   {
+    "nl": "De printer.",
+    "zh": "印表機。"
+   },
+   {
+    "nl": "De computerles.",
+    "zh": "電腦課。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Het weekend.",
+    "週末。"
+   ],
+   [
+    "De camping.",
+    "露營地。"
+   ]
+  ],
+  "asking": "要聽週末有什麼？",
+  "ob": [
+   [
+    [
+     "De camping.",
+     "露營地。"
+    ]
+   ],
+   [
+    [
+     "De printer.",
+     "印表機。"
+    ]
+   ],
+   [
+    [
+     "De computerles.",
+     "電腦課。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "CYPKuPAZt9E",
+  "ctx": "在農場，學生學習與農業和自然相關的詞彙。",
+  "q_nl": "Wat is er bij het meer?",
+  "q_zh": "湖邊有什麼？",
+  "options": [
+   {
+    "nl": "De boot.",
+    "zh": "船。"
+   },
+   {
+    "nl": "De laarzen.",
+    "zh": "靴子。"
+   },
+   {
+    "nl": "De kleren.",
+    "zh": "衣服。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Het meer.",
+    "湖。"
+   ],
+   [
+    "De boot.",
+    "船。"
+   ]
+  ],
+  "asking": "要聽湖邊有什麼？",
+  "ob": [
+   [
+    [
+     "De boot.",
+     "船。"
+    ]
+   ],
+   [
+    [
+     "De laarzen.",
+     "靴子。"
+    ]
+   ],
+   [
+    [
+     "De kleren.",
+     "衣服。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "J-VCgNpy9p8",
+  "ctx": "Leo 在市場上購買水果和蔬菜。",
+  "q_nl": "Wat koopt Leo op de markt?",
+  "q_zh": "Leo 在市場上買了什麼？",
+  "options": [
+   {
+    "nl": "Tomaten en uien",
+    "zh": "番茄和洋蔥"
+   },
+   {
+    "nl": "Kleding en schoenen",
+    "zh": "衣服和鞋子"
+   },
+   {
+    "nl": "Boeken en tijdschriften",
+    "zh": "書籍和雜誌"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Naar de markt.",
+    "去市場。"
+   ],
+   [
+    "Dit is Leo, hij is 62 jaar.",
+    "這是Leo，他62歲。"
+   ],
+   [
+    "Op zijn boodschappenlijst staan tomaten, uien, komkommer en sla.",
+    "他的購物清單上有番茄、洋蔥、黃瓜和生菜。"
+   ]
+  ],
+  "asking": "要聽 Leo 買了什麼？",
+  "ob": [
+   [
+    [
+     "Tomaten en uien",
+     "番茄和洋蔥"
+    ],
+    [
+     "Kleding en schoenen",
+     "衣服和鞋子"
+    ],
+    [
+     "Boeken en tijdschriften",
+     "書籍和雜誌"
+    ]
+   ],
+   [
+    [
+     "Tomaten, uien, komkommer en sla.",
+     "番茄、洋蔥、黃瓜和生菜。"
+    ],
+    [
+     "Kleding en schoenen zijn niet genoemd.",
+     "沒有提到衣服和鞋子。"
+    ],
+    [
+     "Boeken en tijdschriften komen niet voor.",
+     "書籍和雜誌沒有出現。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "J-VCgNpy9p8",
+  "ctx": "Leo 在市場上購買水果和蔬菜。",
+  "q_nl": "Waarom gaat Leo naar de markt?",
+  "q_zh": "Leo 為什麼去市場？",
+  "options": [
+   {
+    "nl": "Vanwege de prijzen.",
+    "zh": "因為價格。"
+   },
+   {
+    "nl": "Voor de kleding.",
+    "zh": "為了衣服。"
+   },
+   {
+    "nl": "Om boeken te kopen.",
+    "zh": "為了買書。"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Maar Leo gaat er ook naartoe vanwege de prijzen.",
+    "但是Leo也去那裡是因為價格。"
+   ],
+   [
+    "Het kan vele euro's schelen.",
+    "這可以省下很多歐元。"
+   ],
+   [
+    "Hij vindt het gezellig met al die mensen.",
+    "他覺得和這麼多人在一起很愉快。"
+   ]
+  ],
+  "asking": "要聽 Leo 去市場的原因。",
+  "ob": [
+   [
+    [
+     "Vanwege de prijzen.",
+     "因為價格。"
+    ],
+    [
+     "Voor de kleding.",
+     "為了衣服。"
+    ],
+    [
+     "Om boeken te kopen.",
+     "為了買書。"
+    ]
+   ],
+   [
+    [
+     "Hij gaat er ook naartoe vanwege de prijzen.",
+     "他也去那裡是因為價格。"
+    ],
+    [
+     "Kleding is niet de reden.",
+     "衣服不是原因。"
+    ],
+    [
+     "Boeken worden niet genoemd.",
+     "沒有提到書籍。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "J-VCgNpy9p8",
+  "ctx": "Leo 在市場上購買水果和蔬菜。",
+  "q_nl": "Hoeveel kost de oude kaas?",
+  "q_zh": "老奶酪多少錢？",
+  "options": [
+   {
+    "nl": "5 euro",
+    "zh": "5歐元"
+   },
+   {
+    "nl": "2 euro",
+    "zh": "2歐元"
+   },
+   {
+    "nl": "11,60 euro",
+    "zh": "11.60歐元"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Wat kost dat? vraagt Leo.",
+    "這個多少錢？Leo 問。"
+   ],
+   [
+    "Het kost 5 euro.",
+    "這個要5歐元。"
+   ],
+   [
+    "Leo vindt het lekker.",
+    "Leo覺得很好吃。"
+   ]
+  ],
+  "asking": "要聽老奶酪的價格。",
+  "ob": [
+   [
+    [
+     "5 euro",
+     "5歐元"
+    ],
+    [
+     "2 euro",
+     "2歐元"
+    ],
+    [
+     "11,60 euro",
+     "11.60歐元"
+    ]
+   ],
+   [
+    [
+     "Het kost 5 euro.",
+     "這個要5歐元。"
+    ],
+    [
+     "2 euro is voor de haring.",
+     "2歐元是鯡魚的價格。"
+    ],
+    [
+     "11,60 euro is voor de groenten.",
+     "11.60歐元是蔬菜的價格。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "J-VCgNpy9p8",
+  "ctx": "Leo 在市場上購買水果和蔬菜。",
+  "q_nl": "Wat maakt Leo voor soep?",
+  "q_zh": "Leo 做什麼湯？",
+  "options": [
+   {
+    "nl": "Tomatensoep",
+    "zh": "番茄湯"
+   },
+   {
+    "nl": "Groentensoep",
+    "zh": "蔬菜湯"
+   },
+   {
+    "nl": "Kippensoep",
+    "zh": "雞湯"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Nee, geen groentensoep, maar tomatensoep.",
+    "不，不是蔬菜湯，而是番茄湯。"
+   ],
+   [
+    "Maar ik wil wel groenten erin.",
+    "但我想要放一些蔬菜。"
+   ],
+   [
+    "Welke groenten zal ik dan nemen?",
+    "那我該選什麼蔬菜呢？"
+   ]
+  ],
+  "asking": "要聽 Leo 做的湯。",
+  "ob": [
+   [
+    [
+     "Tomatensoep",
+     "番茄湯"
+    ],
+    [
+     "Groentensoep",
+     "蔬菜湯"
+    ],
+    [
+     "Kippensoep",
+     "雞湯"
+    ]
+   ],
+   [
+    [
+     "Nee, geen groentensoep, maar tomatensoep.",
+     "不，不是蔬菜湯，而是番茄湯。"
+    ],
+    [
+     "Groentensoep wordt niet gemaakt.",
+     "不會做蔬菜湯。"
+    ],
+    [
+     "Kippensoep komt niet voor.",
+     "沒有提到雞湯。"
+    ]
+   ]
+  ]
+ },
+ {
+  "vid": "-tYNqvvOsU0",
+  "ctx": "小朋友Piep和媽媽一起去醫院看醫生",
+  "q_nl": "Waar moet Piep naartoe?",
+  "q_zh": "Piep 要去哪裡？",
+  "options": [
+   {
+    "nl": "Naar de dokter",
+    "zh": "去看醫生"
+   },
+   {
+    "nl": "Naar school",
+    "zh": "去上學"
+   },
+   {
+    "nl": "Naar de speeltuin",
+    "zh": "去遊樂場"
+   }
+  ],
+  "answer": 0,
+  "qb": [
+   [
+    "Piep moet naar de dokter in het ziekenhuis.",
+    "Piep 要去醫院看醫生。"
+   ]
+  ],
+  "asking": "要聽什麼地方",
+  "ob": [
+   [
+    [
+     "Naar de dokter",
+     "去看醫生"
+    ],
+    [
+     "Naar school",
+     "去上學"
+    ],
+    [
+     "Naar de speeltuin",
+     "去遊樂場"
+    ]
+   ]
+  ]
+ }
+]

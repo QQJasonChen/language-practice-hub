@@ -98,6 +98,13 @@ async function load(){
       }
     }
   }
+  // AI-generated practice questions (grounded in the real transcripts) — adds volume
+  try{
+    const bank=await(await fetch('output/qbank.json')).json();
+    bank.forEach((it,idx)=>deck.push({vid:it.vid, ctx:it.ctx, gen:true,
+      q:{q_nl:it.q_nl, q_zh:it.q_zh, options:it.options, answer:it.answer, n:'g'+idx},
+      a:{qb:it.qb, asking:it.asking, ob:it.ob}}));
+  }catch(e){}
   // weak-first: questions answered wrong before come first, then unseen, then shuffle within
   const st=loadState();
   deck=deck.map(d=>({...d,key:`${d.vid}|${d.q.n}|${(d.q.q_nl||'').slice(0,18)}`}));
@@ -143,7 +150,7 @@ function render(){
       </span></button>`;
   }).join('');
   box.innerHTML=`
-    ${d.ctx?`<div class="ctx">📋 ${esc(d.ctx)}</div>`:''}
+    ${(d.ctx||d.gen)?`<div class="ctx">${d.gen?'✏️ 練習題　':'📋 '}${esc(d.ctx)}</div>`:''}
     <div class="vraag">
       <div class="lbl">Vraag</div>
       <div class="q-nl">${esc(q.q_nl)}</div>
