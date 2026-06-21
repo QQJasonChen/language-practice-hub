@@ -1,0 +1,2588 @@
+{
+ "mock3_a2_2026|1|1": {
+  "qb": [
+   [
+    "de man",
+    "這個男人"
+   ],
+   [
+    "sportschool",
+    "健身房"
+   ]
+  ],
+  "asking": "這題在問什麼＝要聽什麼",
+  "ob": [
+   [
+    [
+     "Hoeveel het kost",
+     "多少錢"
+    ],
+    [
+     "om daar te sporten",
+     "在那裡運動"
+    ]
+   ],
+   [
+    [
+     "Welke sporten je er kunt doen",
+     "可以做哪些運動"
+    ]
+   ],
+   [
+    [
+     "Wat de openingstijden zijn",
+     "開放時間是什麼"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|1|2": {
+  "qb": [
+   [
+    "de vrouw",
+    "這位女性"
+   ],
+   [
+    "niet naar de sportschool gaan",
+    "不去健身房"
+   ]
+  ],
+  "asking": "這題在問什麼＝要聽什麼",
+  "ob": [
+   [
+    [
+     "Ze houdt niet van sporten",
+     "她不喜歡運動"
+    ]
+   ],
+   [
+    [
+     "Ze woont niet in de buurt",
+     "她不住附近"
+    ]
+   ],
+   [
+    [
+     "Ze vindt de sportschool te duur",
+     "她覺得健身房太貴"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|2|3": {
+  "qb": [
+   [
+    "het postbedrijf",
+    "郵局"
+   ],
+   [
+    "zoekt",
+    "尋找"
+   ]
+  ],
+  "asking": "這題在問什麼＝要聽什麼",
+  "ob": [
+   [
+    [
+     "Een jong iemand",
+     "一個年輕人"
+    ]
+   ],
+   [
+    [
+     "Een ouder iemand",
+     "一個年長的人"
+    ]
+   ],
+   [
+    [
+     "Iemand die vroeg op kan staan",
+     "一個能早起的人"
+    ]
+   ],
+   [
+    [
+     "Iemand met ervaring",
+     "一個有經驗的人"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|2|4": {
+  "qb": [
+   [
+    "Lars",
+    "拉斯"
+   ],
+   [
+    "postbode worden",
+    "想成為郵差"
+   ]
+  ],
+  "asking": "這題在問什麼＝要聽什麼",
+  "ob": [
+   [
+    [
+     "Om vijf uur",
+     "五點"
+    ]
+   ],
+   [
+    [
+     "Om zes uur",
+     "六點"
+    ]
+   ],
+   [
+    [
+     "Om twaalf uur",
+     "十二點"
+    ]
+   ],
+   [
+    [
+     "Om één uur",
+     "一點"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|2|5": {
+  "qb": [
+   [
+    "Lars",
+    "拉斯"
+   ],
+   [
+    "contact opnemen",
+    "聯繫"
+   ]
+  ],
+  "asking": "這題在問什麼＝要聽什麼",
+  "ob": [
+   [
+    [
+     "Met Esther",
+     "與艾絲特"
+    ]
+   ],
+   [
+    [
+     "Met Aron",
+     "與阿龍"
+    ]
+   ],
+   [
+    [
+     "Met Menno",
+     "與門諾"
+    ]
+   ],
+   [
+    [
+     "Met Johan",
+     "與約翰"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|3|6": {
+  "qb": [
+   [
+    "Mariska",
+    "瑪莉斯卡"
+   ],
+   [
+    "de opdracht inleveren",
+    "提交作業"
+   ]
+  ],
+  "asking": "這題在問什麼＝要聽什麼",
+  "ob": [
+   [
+    [
+     "Dit weekend",
+     "這個週末"
+    ]
+   ],
+   [
+    [
+     "Maandag",
+     "星期一"
+    ]
+   ],
+   [
+    [
+     "Woensdag",
+     "星期三"
+    ]
+   ],
+   [
+    [
+     "Vrijdag",
+     "星期五"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|3|7": {
+  "qb": [
+   [
+    "Mariska",
+    "瑪莉斯卡"
+   ],
+   [
+    "de opdracht inleveren",
+    "提交作業"
+   ]
+  ],
+  "asking": "這題在問什麼＝要聽什麼",
+  "ob": [
+   [
+    [
+     "Persoonlijk aan Olaf geven",
+     "親自交給奧拉夫"
+    ]
+   ],
+   [
+    [
+     "Per e-mail naar Olaf versturen",
+     "通過電子郵件發送給奧拉夫"
+    ]
+   ],
+   [
+    [
+     "Per post naar Olaf opsturen",
+     "通過郵寄發送給奧拉夫"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|4|8": {
+  "qb": [
+   [
+    "George en Chanti",
+    "喬治和香蒂"
+   ],
+   [
+    "naar de bijeenkomst",
+    "去會議"
+   ]
+  ],
+  "asking": "這題在問什麼＝要聽什麼",
+  "ob": [
+   [
+    [
+     "Met de trein",
+     "搭火車"
+    ]
+   ],
+   [
+    [
+     "Met de bus",
+     "搭公車"
+    ]
+   ],
+   [
+    [
+     "Met de auto",
+     "開車"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|4|9": {
+  "qb": [
+   [
+    "Hoe laat",
+    "幾點"
+   ],
+   [
+    "George",
+    "喬治"
+   ],
+   [
+    "morgen",
+    "明天"
+   ]
+  ],
+  "asking": "喬治明天早上幾點要到Chanti?",
+  "ob": [
+   [
+    [
+     "Om half zes",
+     "五點半"
+    ]
+   ],
+   [
+    [
+     "Om zes uur",
+     "六點"
+    ]
+   ],
+   [
+    [
+     "Om half acht",
+     "七點半"
+    ]
+   ],
+   [
+    [
+     "Om acht uur",
+     "八點"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|4|10": {
+  "qb": [
+   [
+    "Chanti",
+    "Chanti"
+   ],
+   [
+    "moet een berichtje sturen",
+    "需要發一條信息"
+   ],
+   [
+    "wat moet zij in het berichtje zetten",
+    "她在信息中要寫什麼"
+   ]
+  ],
+  "asking": "Chanti需要在信息中寫什麼?",
+  "ob": [
+   [
+    [
+     "Hoe laat zij wil vertrekken",
+     "她想幾點出發"
+    ]
+   ],
+   [
+    [
+     "Op welk adres Chanti woont",
+     "Chanti住在哪個地址"
+    ]
+   ],
+   [
+    [
+     "Wat de kosten van de bijeenkomst zijn",
+     "會議的費用是多少"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|5|11": {
+  "qb": [
+   [
+    "Waar zijn de pashokjes",
+    "試衣間在哪裡"
+   ],
+   [
+    "tegenover de kassa",
+    "在收銀台對面"
+   ],
+   [
+    "achterin de winkel",
+    "在商店裡面"
+   ]
+  ],
+  "asking": "試衣間在哪裡?",
+  "ob": [
+   [
+    [
+     "Tegenover de kassa",
+     "在收銀台對面"
+    ]
+   ],
+   [
+    [
+     "Achterin de winkel",
+     "在商店裡面"
+    ]
+   ],
+   [
+    [
+     "Naast de trap",
+     "在樓梯旁"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|5|12": {
+  "qb": [
+   [
+    "Welke maat",
+    "哪個尺寸"
+   ],
+   [
+    "goed voor Johnny",
+    "適合Johnny"
+   ]
+  ],
+  "asking": "哪個尺寸適合Johnny?",
+  "ob": [
+   [
+    [
+     "Maat 50",
+     "50號"
+    ]
+   ],
+   [
+    [
+     "Maat 52",
+     "52號"
+    ]
+   ],
+   [
+    [
+     "Maat 54",
+     "54號"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|6|13": {
+  "qb": [
+   [
+    "Wat vond de man van de les",
+    "那個男人對課程的看法"
+   ],
+   [
+    "vandaag",
+    "今天"
+   ]
+  ],
+  "asking": "那個男人今天對課程的看法如何?",
+  "ob": [
+   [
+    [
+     "Moeilijk",
+     "難"
+    ]
+   ],
+   [
+    [
+     "Saai",
+     "無聊"
+    ]
+   ],
+   [
+    [
+     "Leuk",
+     "有趣"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|6|14": {
+  "qb": [
+   [
+    "Wat moet Ellen meenemen",
+    "Ellen需要帶什麼"
+   ],
+   [
+    "naar school",
+    "去學校"
+   ]
+  ],
+  "asking": "Ellen需要帶什麼去學校?",
+  "ob": [
+   [
+    [
+     "Een tekst uit de krant",
+     "一篇報紙上的文章"
+    ]
+   ],
+   [
+    [
+     "Een recept voor brood",
+     "一個麵包的食譜"
+    ]
+   ],
+   [
+    [
+     "Iets om over te presenteren",
+     "一些用來展示的東西"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|7|15": {
+  "qb": [
+   [
+    "Waarom moest Sabine een nieuwe pinpas aanvragen",
+    "為什麼Sabine需要申請一張新的提款卡"
+   ],
+   [
+    "oude pas",
+    "舊卡"
+   ]
+  ],
+  "asking": "Sabine為什麼需要申請新的提款卡?",
+  "ob": [
+   [
+    [
+     "Haar oude pas is niet meer geldig",
+     "她的舊卡不再有效"
+    ]
+   ],
+   [
+    [
+     "Haar oude pas is gestolen",
+     "她的舊卡被偷了"
+    ]
+   ],
+   [
+    [
+     "Ze is haar oude pas kwijt",
+     "她把舊卡弄丟了"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|7|16": {
+  "qb": [
+   [
+    "Sinds wanneer heeft Sabine geen pinpas meer",
+    "Sabine從什麼時候沒有提款卡"
+   ],
+   [
+    "vandaag",
+    "今天"
+   ]
+  ],
+  "asking": "Sabine從什麼時候沒有提款卡?",
+  "ob": [
+   [
+    [
+     "Sinds de dag voor gisteren",
+     "前天"
+    ]
+   ],
+   [
+    [
+     "Sinds gisteren",
+     "昨天"
+    ]
+   ],
+   [
+    [
+     "Sinds vandaag",
+     "今天"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|7|17": {
+  "qb": [
+   [
+    "Wat moet Sabine nu doen?",
+    "Sabine 現在要做什麼？"
+   ]
+  ],
+  "asking": "Sabine 現在需要做什麼？",
+  "ob": [
+   [
+    [
+     "Een nieuwe pas aanvragen",
+     "申請一張新卡"
+    ]
+   ],
+   [
+    [
+     "Geld opnemen",
+     "提取現金"
+    ]
+   ],
+   [
+    [
+     "Haar pas blokkeren",
+     "封鎖她的卡"
+    ]
+   ],
+   [
+    [
+     "Niets, alles is geregeld",
+     "不需要，所有事情都已經處理好"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|8|18": {
+  "qb": [
+   [
+    "Wat doet Bram vandaag?",
+    "Bram 今天做什麼？"
+   ]
+  ],
+  "asking": "Bram 今天在做什麼？",
+  "ob": [
+   [
+    [
+     "Een boom weghalen",
+     "移除一棵樹"
+    ]
+   ],
+   [
+    [
+     "Gras maaien",
+     "割草"
+    ]
+   ],
+   [
+    [
+     "Bloemen neerzetten",
+     "擺放花朵"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|8|19": {
+  "qb": [
+   [
+    "Wat vindt Bram het leukste aan zijn stage?",
+    "Bram 認為他的實習中最有趣的是什麼？"
+   ]
+  ],
+  "asking": "Bram 實習中最喜歡什麼？",
+  "ob": [
+   [
+    [
+     "Werken in een team",
+     "在團隊中工作"
+    ]
+   ],
+   [
+    [
+     "Buiten werken",
+     "在戶外工作"
+    ]
+   ],
+   [
+    [
+     "Werken met planten",
+     "與植物工作"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|8|20": {
+  "qb": [
+   [
+    "Wat moet Bram nog leren, volgens zijn baas?",
+    "根據他的老闆，Bram 還需要學習什麼？"
+   ]
+  ],
+  "asking": "Bram 還需要學習什麼？",
+  "ob": [
+   [
+    [
+     "Met collega's samenwerken",
+     "與同事合作"
+    ]
+   ],
+   [
+    [
+     "Netjes werken",
+     "整潔地工作"
+    ]
+   ],
+   [
+    [
+     "Op tijd op het werk zijn",
+     "準時到工作"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|9|21": {
+  "qb": [
+   [
+    "Hoe laat komt Myrthe?",
+    "Myrthe 什麼時候來？"
+   ]
+  ],
+  "asking": "Myrthe 會在幾點到？",
+  "ob": [
+   [
+    [
+     "Om negen uur",
+     "九點"
+    ]
+   ],
+   [
+    [
+     "Om tien uur",
+     "十點"
+    ]
+   ],
+   [
+    [
+     "Om half twaalf",
+     "十一點半"
+    ]
+   ],
+   [
+    [
+     "Om zes uur",
+     "六點"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|9|22": {
+  "qb": [
+   [
+    "Wat moet Jamal voor Myrthe doen?",
+    "Jamal 需要為 Myrthe 做什麼？"
+   ]
+  ],
+  "asking": "Jamal 要為 Myrthe 做什麼？",
+  "ob": [
+   [
+    [
+     "Haar leren hoe ze de winkel afsluit",
+     "教她如何關閉商店"
+    ]
+   ],
+   [
+    [
+     "Haar laten zien waar alles staat",
+     "告訴她所有東西的位置"
+    ]
+   ],
+   [
+    [
+     "Haar uitleggen hoe de kassa werkt",
+     "解釋收銀機如何運作"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|10|23": {
+  "qb": [
+   [
+    "Waarom is de nieuwe bioscoop zo speciaal?",
+    "為什麼新的電影院這麼特別？"
+   ]
+  ],
+  "asking": "新的電影院有什麼特別之處？",
+  "ob": [
+   [
+    [
+     "Er is een kinderzaal",
+     "有一個兒童放映廳"
+    ]
+   ],
+   [
+    [
+     "Er zijn erg veel zalen",
+     "有很多放映廳"
+    ]
+   ],
+   [
+    [
+     "Er zijn veel 3D-zalen",
+     "有很多 3D 放映廳"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|10|24": {
+  "qb": [
+   [
+    "Hoeveel gewone zalen heeft Bioscoop Gloob?",
+    "Bioscoop Gloob 有多少個普通放映廳？"
+   ]
+  ],
+  "asking": "Bioscoop Gloob 有多少個普通放映廳？",
+  "ob": [
+   [
+    [
+     "Drie",
+     "三個"
+    ]
+   ],
+   [
+    [
+     "Zes",
+     "六個"
+    ]
+   ],
+   [
+    [
+     "Negen",
+     "九個"
+    ]
+   ]
+  ]
+ },
+ "mock3_a2_2026|10|25": {
+  "qb": [
+   [
+    "30 jaar",
+    "30歲"
+   ],
+   [
+    "donderdag 3 maart",
+    "3月3日星期四"
+   ],
+   [
+    "bioscoop Gloob",
+    "Gloob 電影院"
+   ]
+  ],
+  "asking": "Silvana 要去看電影，票價是多少？",
+  "ob": [
+   [
+    [
+     "€ 3",
+     "3歐元"
+    ]
+   ],
+   [
+    [
+     "€ 4",
+     "4歐元"
+    ]
+   ],
+   [
+    [
+     "€ 5",
+     "5歐元"
+    ]
+   ],
+   [
+    [
+     "€ 6",
+     "6歐元"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|1|1": {
+  "qb": [
+   [
+    "Daniëlle zwanger",
+    "Daniëlle 懷孕"
+   ],
+   [
+    "hoe lang",
+    "多久"
+   ]
+  ],
+  "asking": "Daniëlle 懷孕多久了？",
+  "ob": [
+   [
+    [
+     "Twee maanden",
+     "兩個月"
+    ]
+   ],
+   [
+    [
+     "Drie maanden",
+     "三個月"
+    ]
+   ],
+   [
+    [
+     "Vier maanden",
+     "四個月"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|1|2": {
+  "qb": [
+   [
+    "Yari eten",
+    "Yari 來吃飯"
+   ],
+   [
+    "Steven en Daniëlle",
+    "Steven 和 Daniëlle"
+   ],
+   [
+    "wanneer",
+    "什麼時候"
+   ]
+  ],
+  "asking": "Yari 什麼時候來 Steven 和 Daniëlle 吃飯？",
+  "ob": [
+   [
+    [
+     "Woensdag",
+     "星期三"
+    ]
+   ],
+   [
+    [
+     "Zaterdag",
+     "星期六"
+    ]
+   ],
+   [
+    [
+     "Zondag",
+     "星期天"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|1|3": {
+  "qb": [
+   [
+    "Steven vraagt",
+    "Steven 問"
+   ],
+   [
+    "Yari",
+    "Yari"
+   ],
+   [
+    "wat",
+    "什麼"
+   ]
+  ],
+  "asking": "Steven 問 Yari 什麼？",
+  "ob": [
+   [
+    [
+     "Of hij wil komen klussen",
+     "他是否想來幫忙"
+    ]
+   ],
+   [
+    [
+     "Of hij een kinderbedje wil maken",
+     "他是否想做一個嬰兒床"
+    ]
+   ],
+   [
+    [
+     "Of hij wil helpen bij het koken",
+     "他是否想幫忙做飯"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|2|4": {
+  "qb": [
+   [
+    "de man",
+    "那個男人"
+   ],
+   [
+    "Zuid-Amerika, Azië en Afrika",
+    "南美洲、亞洲和非洲"
+   ],
+   [
+    "waarom",
+    "為什麼"
+   ]
+  ],
+  "asking": "為什麼那個男人提到南美洲、亞洲和非洲？",
+  "ob": [
+   [
+    [
+     "Daar staan de fabrieken van het bedrijf",
+     "那裡有公司的工廠"
+    ]
+   ],
+   [
+    [
+     "Daar worden de snacks van het bedrijf verkocht",
+     "那裡銷售公司的零食"
+    ]
+   ],
+   [
+    [
+     "Daar groeien de notjes die het bedrijf gebruikt",
+     "那裡生長公司使用的堅果"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|3|5": {
+  "qb": [
+   [
+    "Julio wil Nederlands 3 volgen",
+    "Julio 想上荷蘭語 3"
+   ],
+   [
+    "hoeveel plaatsen",
+    "還有多少名額"
+   ]
+  ],
+  "asking": "Julio 想上荷蘭語 3，還有多少名額？",
+  "ob": [
+   [
+    [
+     "Eén",
+     "一個"
+    ]
+   ],
+   [
+    [
+     "Twee",
+     "兩個"
+    ]
+   ],
+   [
+    [
+     "Drie",
+     "三個"
+    ]
+   ],
+   [
+    [
+     "Geen",
+     "沒有"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|3|6": {
+  "qb": [
+   [
+    "waar kan hij zich aanmelden",
+    "他可以在哪裡報名"
+   ],
+   [
+    "lokaal",
+    "教室"
+   ]
+  ],
+  "asking": "他可以在哪個教室報名？",
+  "ob": [
+   [
+    [
+     "In lokaal 1",
+     "在教室 1"
+    ]
+   ],
+   [
+    [
+     "In lokaal 2",
+     "在教室 2"
+    ]
+   ],
+   [
+    [
+     "In lokaal 5",
+     "在教室 5"
+    ]
+   ],
+   [
+    [
+     "In lokaal 15",
+     "在教室 15"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|4|7": {
+  "qb": [
+   [
+    "de straat van Amina",
+    "Amina 的街道"
+   ],
+   [
+    "afgesloten",
+    "封閉"
+   ],
+   [
+    "waarom",
+    "為什麼"
+   ]
+  ],
+  "asking": "為什麼 Amina 的街道被封閉？",
+  "ob": [
+   [
+    [
+     "Om de verlichting te maken",
+     "為了修理燈光"
+    ]
+   ],
+   [
+    [
+     "Om de weg te repareren",
+     "為了修路"
+    ]
+   ],
+   [
+    [
+     "Om parkeerplaatsen te maken",
+     "為了建造停車位"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|4|8": {
+  "qb": [
+   [
+    "Wanneer",
+    "什麼時候"
+   ],
+   [
+    "straat van Amina",
+    "阿米娜的街道"
+   ],
+   [
+    "weer open",
+    "再次開放"
+   ]
+  ],
+  "asking": "阿米娜的街道什麼時候重新開放？",
+  "ob": [
+   [
+    [
+     "Volgende week",
+     "下週"
+    ]
+   ],
+   [
+    [
+     "Over een maand",
+     "一個月後"
+    ]
+   ],
+   [
+    [
+     "Over zes weken",
+     "六個星期後"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|5|9": {
+  "qb": [
+   [
+    "Welke patiënten",
+    "哪些病人"
+   ],
+   [
+    "andere plaats",
+    "其他地方"
+   ],
+   [
+    "gebracht",
+    "被帶走"
+   ]
+  ],
+  "asking": "哪些病人被轉移到其他地方？",
+  "ob": [
+   [
+    [
+     "Alleen de patiënten van de begane grond",
+     "只有一樓的病人"
+    ]
+   ],
+   [
+    [
+     "Alleen de patiënten van de eerste verdieping",
+     "只有二樓的病人"
+    ]
+   ],
+   [
+    [
+     "Alleen de patiënten van de tweede verdieping",
+     "只有三樓的病人"
+    ]
+   ],
+   [
+    [
+     "Alle patiënten van het ziekenhuis",
+     "所有病人"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|5|10": {
+  "qb": [
+   [
+    "Wanneer",
+    "什麼時候"
+   ],
+   [
+    "alle afdelingen",
+    "所有部門"
+   ],
+   [
+    "weer open",
+    "再次開放"
+   ]
+  ],
+  "asking": "所有醫院部門什麼時候重新開放？",
+  "ob": [
+   [
+    [
+     "Dinsdag",
+     "星期二"
+    ]
+   ],
+   [
+    [
+     "Donderdag",
+     "星期四"
+    ]
+   ],
+   [
+    [
+     "Vrijdag",
+     "星期五"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|5|11": {
+  "qb": [
+   [
+    "Savina",
+    "薇娜"
+   ],
+   [
+    "treinstation Zuid",
+    "南站"
+   ],
+   [
+    "beste naar het ziekenhuis",
+    "最佳前往醫院方式"
+   ]
+  ],
+  "asking": "薇娜從南站怎麼去醫院最好？",
+  "ob": [
+   [
+    [
+     "Met de tram",
+     "搭電車"
+    ]
+   ],
+   [
+    [
+     "Met de bus",
+     "搭公車"
+    ]
+   ],
+   [
+    [
+     "Lopend",
+     "走路"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|6|12": {
+  "qb": [
+   [
+    "Welke patat",
+    "哪種薯條"
+   ],
+   [
+    "bestelt meneer Gerritsen",
+    "格里特森先生點了"
+   ]
+  ],
+  "asking": "格里特森先生點了哪種薯條？",
+  "ob": [
+   [
+    [
+     "Patat die hij zelf nog moet snijden",
+     "他自己還要切的薯條"
+    ]
+   ],
+   [
+    [
+     "Dikke patat",
+     "粗薯條"
+    ]
+   ],
+   [
+    [
+     "Franse patat",
+     "法式薯條"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|6|13": {
+  "qb": [
+   [
+    "Welke cola",
+    "哪種可樂"
+   ],
+   [
+    "bestelt meneer Gerritsen",
+    "格里特森先生點了"
+   ]
+  ],
+  "asking": "格里特森先生點了哪種可樂？",
+  "ob": [
+   [
+    [
+     "Zes dozen grijze blikjes",
+     "六箱灰色罐子"
+    ]
+   ],
+   [
+    [
+     "Zes dozen zwarte blikjes",
+     "六箱黑色罐子"
+    ]
+   ],
+   [
+    [
+     "Tien dozen grijze blikjes",
+     "十箱灰色罐子"
+    ]
+   ],
+   [
+    [
+     "Tien dozen zwarte blikjes",
+     "十箱黑色罐子"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|6|14": {
+  "qb": [
+   [
+    "Waar moet Hamza",
+    "哈姆扎要把...寄到哪裡"
+   ],
+   [
+    "rekening naartoe sturen",
+    "發送帳單"
+   ]
+  ],
+  "asking": "哈姆扎要把帳單寄到哪裡？",
+  "ob": [
+   [
+    [
+     "Naar het huisadres",
+     "寄到住址"
+    ]
+   ],
+   [
+    [
+     "Naar de Snackbar",
+     "寄到小吃店"
+    ]
+   ],
+   [
+    [
+     "Naar het postadres",
+     "寄到郵寄地址"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|7|15": {
+  "qb": [
+   [
+    "Waarmee heeft Enrico",
+    "恩里科在哪方面"
+   ],
+   [
+    "de meeste fouten gemaakt",
+    "犯了最多錯誤"
+   ],
+   [
+    "in zijn brief",
+    "在他的信中"
+   ]
+  ],
+  "asking": "恩里科在信中哪方面犯了最多錯誤？",
+  "ob": [
+   [
+    [
+     "Met de volgorde van de woorden",
+     "在單詞順序上"
+    ]
+   ],
+   [
+    [
+     "Met de spelling",
+     "在拼寫上"
+    ]
+   ],
+   [
+    [
+     "Met de werkwoorden",
+     "在動詞上"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|7|16": {
+  "qb": [
+   [
+    "advies",
+    "建議"
+   ],
+   [
+    "brievenschrijven",
+    "寫信"
+   ],
+   [
+    "docent",
+    "老師"
+   ],
+   [
+    "Enrico",
+    "恩里科"
+   ]
+  ],
+  "asking": "老師給恩里科什麼寫信建議？",
+  "ob": [
+   [
+    [
+     "Laat je brief controleren door iemand anders",
+     "讓別人檢查你的信"
+    ],
+    [
+     "brief",
+     "信"
+    ]
+   ],
+   [
+    [
+     "Gebruik een woordenboek tijdens het schrijven",
+     "寫信時使用字典"
+    ],
+    [
+     "woordenboek",
+     "字典"
+    ]
+   ],
+   [
+    [
+     "Lees je brief nog een keer door als je klaar bent",
+     "完成後再讀一次你的信"
+    ],
+    [
+     "lees",
+     "讀"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|8|17": {
+  "qb": [
+   [
+    "Zineb",
+    "辛貝"
+   ],
+   [
+    "eten",
+    "吃"
+   ],
+   [
+    "waar",
+    "在哪裡"
+   ]
+  ],
+  "asking": "辛貝想在哪裡吃？",
+  "ob": [
+   [
+    [
+     "Bij Sonja thuis",
+     "在索尼婭家"
+    ],
+    [
+     "Sonja",
+     "索尼婭"
+    ]
+   ],
+   [
+    [
+     "In de bioscoop",
+     "在電影院"
+    ],
+    [
+     "bioscoop",
+     "電影院"
+    ]
+   ],
+   [
+    [
+     "In een restaurant",
+     "在餐廳"
+    ],
+    [
+     "restaurant",
+     "餐廳"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|8|18": {
+  "qb": [
+   [
+    "Zineb",
+    "辛貝"
+   ],
+   [
+    "afspreken",
+    "約會"
+   ],
+   [
+    "hoe laat",
+    "幾點"
+   ]
+  ],
+  "asking": "辛貝想幾點約會？",
+  "ob": [
+   [
+    [
+     "Vanavond om zes uur",
+     "今晚六點"
+    ],
+    [
+     "vanavond",
+     "今晚"
+    ]
+   ],
+   [
+    [
+     "Vanavond om zeven uur",
+     "今晚七點"
+    ],
+    [
+     "zeven uur",
+     "七點"
+    ]
+   ],
+   [
+    [
+     "Morgenavond om zes uur",
+     "明晚六點"
+    ],
+    [
+     "morgenavond",
+     "明晚"
+    ]
+   ],
+   [
+    [
+     "Morgenavond om zeven uur",
+     "明晚七點"
+    ],
+    [
+     "zeven uur",
+     "七點"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|8|19": {
+  "qb": [
+   [
+    "Moerad",
+    "穆拉德"
+   ],
+   [
+    "wie",
+    "誰"
+   ],
+   [
+    "Zineb",
+    "辛貝"
+   ]
+  ],
+  "asking": "穆拉德是誰？",
+  "ob": [
+   [
+    [
+     "Een broer van Zineb",
+     "辛貝的兄弟"
+    ],
+    [
+     "broer",
+     "兄弟"
+    ]
+   ],
+   [
+    [
+     "Een collega van Zineb",
+     "辛貝的同事"
+    ],
+    [
+     "collega",
+     "同事"
+    ]
+   ],
+   [
+    [
+     "Een vriend van Zineb",
+     "辛貝的朋友"
+    ],
+    [
+     "vriend",
+     "朋友"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|10|20": {
+  "qb": [
+   [
+    "Mila",
+    "米拉"
+   ],
+   [
+    "Carla",
+    "卡拉"
+   ],
+   [
+    "27 april",
+    "4月27日"
+   ],
+   [
+    "doen",
+    "做"
+   ]
+  ],
+  "asking": "米拉和卡拉在4月27日要做什麼？",
+  "ob": [
+   [
+    [
+     "Helpen met boodschappen doen",
+     "幫忙買東西"
+    ],
+    [
+     "boodschappen",
+     "購物"
+    ]
+   ],
+   [
+    [
+     "Helpen bij het ontbijt",
+     "幫忙準備早餐"
+    ],
+    [
+     "ontbijt",
+     "早餐"
+    ]
+   ],
+   [
+    [
+     "Helpen bij de sportdag",
+     "幫忙運動會"
+    ],
+    [
+     "sportdag",
+     "運動會"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|10|21": {
+  "qb": [
+   [
+    "Mila",
+    "米拉"
+   ],
+   [
+    "Carla",
+    "卡拉"
+   ],
+   [
+    "27 april",
+    "4月27日"
+   ],
+   [
+    "hoe laat",
+    "幾點"
+   ]
+  ],
+  "asking": "米拉和卡拉在4月27日幾點到學校？",
+  "ob": [
+   [
+    [
+     "Om acht uur",
+     "八點"
+    ],
+    [
+     "acht uur",
+     "八點"
+    ]
+   ],
+   [
+    [
+     "Om half negen",
+     "八點半"
+    ],
+    [
+     "half negen",
+     "八點半"
+    ]
+   ],
+   [
+    [
+     "Om half tien",
+     "九點半"
+    ],
+    [
+     "half tien",
+     "九點半"
+    ]
+   ]
+  ]
+ },
+ "_iC1Pooi2UA|10|22": {
+  "qb": [
+   [
+    "Koningsdag",
+    "國王日"
+   ],
+   [
+    "eindigt",
+    "結束"
+   ],
+   [
+    "waarmee",
+    "用什麼"
+   ]
+  ],
+  "asking": "國王日用什麼結束？",
+  "ob": [
+   [
+    [
+     "Met een dans",
+     "以舞蹈結束"
+    ],
+    [
+     "dans",
+     "舞蹈"
+    ]
+   ],
+   [
+    [
+     "Met een lied",
+     "以歌曲結束"
+    ],
+    [
+     "lied",
+     "歌曲"
+    ]
+   ],
+   [
+    [
+     "Met een wedstrijd",
+     "以比賽結束"
+    ],
+    [
+     "wedstrijd",
+     "比賽"
+    ]
+   ],
+   [
+    [
+     "Met een spel",
+     "以遊戲結束"
+    ],
+    [
+     "spel",
+     "遊戲"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|1|1": {
+  "qb": [
+   [
+    "Mark",
+    "馬克"
+   ],
+   [
+    "gemeente",
+    "市政府"
+   ],
+   [
+    "waarom",
+    "為什麼"
+   ]
+  ],
+  "asking": "馬克為什麼在市政府？",
+  "ob": [
+   [
+    [
+     "Hij wil een geboorte aangeven",
+     "他想登記出生"
+    ],
+    [
+     "geboorte",
+     "出生"
+    ]
+   ],
+   [
+    [
+     "Hij is zijn legitimatiebewijs kwijt",
+     "他丟了身份證"
+    ],
+    [
+     "legitimatiebewijs",
+     "身份證"
+    ]
+   ],
+   [
+    [
+     "Hij gaat binnenkort trouwen",
+     "他即將結婚"
+    ],
+    [
+     "trouwen",
+     "結婚"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|1|2": {
+  "qb": [
+   [
+    "Wanneer kan Mark terugkomen?",
+    "馬克什麼時候可以回來？"
+   ],
+   [
+    "bij de gemeente",
+    "在市政府"
+   ]
+  ],
+  "asking": "馬克什麼時候能回到市政府？",
+  "ob": [
+   [
+    [
+     "Vanmiddag",
+     "今天下午"
+    ]
+   ],
+   [
+    [
+     "Morgenochtend",
+     "明天早上"
+    ]
+   ],
+   [
+    [
+     "Over drie dagen",
+     "三天後"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|2|3": {
+  "qb": [
+   [
+    "Hoe krijgt Yassir de datum en tijd?",
+    "雅西爾怎麼得到日期和時間？"
+   ],
+   [
+    "van het gesprek",
+    "會議的"
+   ]
+  ],
+  "asking": "雅西爾如何獲得會議的日期和時間？",
+  "ob": [
+   [
+    [
+     "Via een e-mail",
+     "透過電子郵件"
+    ]
+   ],
+   [
+    [
+     "Via een brief",
+     "透過信件"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|2|4": {
+  "qb": [
+   [
+    "Wat heeft Yassir nodig?",
+    "雅西爾需要什麼？"
+   ],
+   [
+    "om in de schoonmaak te werken",
+    "來做清潔工作"
+   ]
+  ],
+  "asking": "雅西爾需要什麼才能從事清潔工作？",
+  "ob": [
+   [
+    [
+     "Ervaring met schoonmaakwerk",
+     "清潔工作的經驗"
+    ]
+   ],
+   [
+    [
+     "Nederlands spreken op A2 niveau",
+     "A2水平的荷蘭語"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|3|5": {
+  "qb": [
+   [
+    "Wat moet hij doen bij de groene brug?",
+    "他在綠色橋上要做什麼？"
+   ],
+   [
+    "linksaf",
+    "左轉"
+   ],
+   [
+    "rechtsaf",
+    "右轉"
+   ],
+   [
+    "rechtdoor",
+    "直走"
+   ],
+   [
+    "parkeren",
+    "停車"
+   ]
+  ],
+  "asking": "他在綠色橋上要怎麼走？",
+  "ob": [
+   [
+    [
+     "Hij moet linksaf",
+     "他要左轉"
+    ]
+   ],
+   [
+    [
+     "Hij moet rechtsaf",
+     "他要右轉"
+    ]
+   ],
+   [
+    [
+     "Hij moet rechtdoor",
+     "他要直走"
+    ]
+   ],
+   [
+    [
+     "Hij moet parkeren",
+     "他要停車"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|3|6": {
+  "qb": [
+   [
+    "Waar kan hij het beste parkeren?",
+    "他最好的停車地點在哪裡？"
+   ],
+   [
+    "In de parkeergarage",
+    "在停車場"
+   ],
+   [
+    "Op de parkeerplaats voor bezoekers",
+    "在訪客停車場"
+   ],
+   [
+    "Aan de overkant van de weg",
+    "在馬路對面"
+   ]
+  ],
+  "asking": "他最適合在哪裡停車？",
+  "ob": [
+   [
+    [
+     "In de parkeergarage",
+     "在停車場"
+    ]
+   ],
+   [
+    [
+     "Op de parkeerplaats voor bezoekers",
+     "在訪客停車場"
+    ]
+   ],
+   [
+    [
+     "Aan de overkant van de weg",
+     "在馬路對面"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|4|7": {
+  "qb": [
+   [
+    "Waar zit de afdeling Inkoop?",
+    "採購部門在哪裡？"
+   ],
+   [
+    "In kamer 2.2",
+    "在2.2號房間"
+   ],
+   [
+    "In kamer 2.3 naast de kantine",
+    "在餐廳旁的2.3號房間"
+   ]
+  ],
+  "asking": "採購部門在哪個房間？",
+  "ob": [
+   [
+    [
+     "In kamer 2.2",
+     "在2.2號房間"
+    ]
+   ],
+   [
+    [
+     "In kamer 2.3 naast de kantine",
+     "在餐廳旁的2.3號房間"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|4|8": {
+  "qb": [
+   [
+    "Hoe moet Nabil iets bestellen?",
+    "納比爾要怎麼訂購東西？"
+   ],
+   [
+    "bij de afdeling Inkoop",
+    "在採購部門"
+   ],
+   [
+    "de afdeling Inkoop bellen",
+    "打電話給採購部門"
+   ],
+   [
+    "de bestelling naar de afdeling Inkoop mailen",
+    "把訂單郵寄給採購部門"
+   ]
+  ],
+  "asking": "納比爾如何訂購東西？",
+  "ob": [
+   [
+    [
+     "Even langslopen bij de afdeling Inkoop",
+     "去採購部門走一趟"
+    ]
+   ],
+   [
+    [
+     "De afdeling Inkoop bellen met de bestelling",
+     "打電話給採購部門下訂單"
+    ]
+   ],
+   [
+    [
+     "De bestelling naar de afdeling Inkoop mailen",
+     "把訂單郵寄給採購部門"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|5|9": {
+  "qb": [
+   [
+    "Welke tip geeft Chris als eerste aan Mira?",
+    "克里斯給米拉的第一個建議是什麼？"
+   ],
+   [
+    "extra veel leren",
+    "多學習"
+   ],
+   [
+    "in de bus en in de trein",
+    "在公車和火車上"
+   ],
+   [
+    "een planning maken",
+    "制定計畫"
+   ]
+  ],
+  "asking": "克里斯對米拉的第一個建議是什麼？",
+  "ob": [
+   [
+    [
+     "Ga extra veel leren",
+     "多學習"
+    ]
+   ],
+   [
+    [
+     "Leer in de bus en in de trein",
+     "在公車和火車上學"
+    ]
+   ],
+   [
+    [
+     "Maak een planning",
+     "制定計畫"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|5|10": {
+  "qb": [
+   [
+    "vertraging",
+    "延遲"
+   ],
+   [
+    "Chris",
+    "克里斯"
+   ],
+   [
+    "zegt",
+    "說"
+   ]
+  ],
+  "asking": "克里斯對延遲說了什麼？",
+  "ob": [
+   [
+    [
+     "extra tijd",
+     "額外時間"
+    ],
+    [
+     "leren",
+     "學習"
+    ]
+   ],
+   [
+    [
+     "minder tijd",
+     "更少時間"
+    ],
+    [
+     "leren",
+     "學習"
+    ]
+   ],
+   [
+    [
+     "vaker vertraging",
+     "更常延遲"
+    ],
+    [
+     "bus",
+     "公車"
+    ]
+   ],
+   [
+    [
+     "vaker vertraging",
+     "更常延遲"
+    ],
+    [
+     "trein",
+     "火車"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|6|11": {
+  "qb": [
+   [
+    "Mario",
+    "馬里奧"
+   ],
+   [
+    "met de trein",
+    "搭火車"
+   ],
+   [
+    "van Arnhem naar Utrecht",
+    "從阿納姆到烏特勒支"
+   ]
+  ],
+  "asking": "馬里奧要怎麼從阿納姆到烏特勒支？",
+  "ob": [
+   [
+    [
+     "met een taxi",
+     "搭計程車"
+    ]
+   ],
+   [
+    [
+     "via Apeldoorn",
+     "經過阿佩爾多倫"
+    ]
+   ],
+   [
+    [
+     "met de NS-bus",
+     "搭NS巴士"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|7|12": {
+  "qb": [
+   [
+    "Iemand belt",
+    "有人打電話"
+   ],
+   [
+    "voor de directeur",
+    "給主任"
+   ],
+   [
+    "Sophia",
+    "索非亞"
+   ]
+  ],
+  "asking": "索非亞首先要做什麼？",
+  "ob": [
+   [
+    [
+     "Een 1 toetsen",
+     "按1"
+    ]
+   ],
+   [
+    [
+     "Een 4 toetsen",
+     "按4"
+    ]
+   ],
+   [
+    [
+     "In zijn agenda kijken",
+     "查看他的日程"
+    ]
+   ],
+   [
+    [
+     "Naar Evelien doorverbinden",
+     "轉接給艾維琳"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|7|13": {
+  "qb": [
+   [
+    "Iemand belt",
+    "有人打電話"
+   ],
+   [
+    "voor de afdeling Inkoop",
+    "給採購部"
+   ],
+   [
+    "Sophia",
+    "索非亞"
+   ]
+  ],
+  "asking": "索非亞要怎麼做？",
+  "ob": [
+   [
+    [
+     "Een 1 toetsen",
+     "按1"
+    ]
+   ],
+   [
+    [
+     "Een 4 toetsen",
+     "按4"
+    ]
+   ],
+   [
+    [
+     "In de agenda kijken",
+     "查看日程"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|7|14": {
+  "qb": [
+   [
+    "Evelien heeft pauze",
+    "艾維琳在休息"
+   ],
+   [
+    "Sophia neemt haar telefoon op",
+    "索非亞接電話"
+   ],
+   [
+    "wat moet je doen",
+    "你該怎麼做"
+   ]
+  ],
+  "asking": "如果艾維琳休息，索非亞接電話該怎麼辦？",
+  "ob": [
+   [
+    [
+     "De naam en het nummer opschrijven",
+     "寫下名字和號碼"
+    ]
+   ],
+   [
+    [
+     "Doorgeven wanneer Evelien terug is",
+     "告訴對方艾維琳何時回來"
+    ]
+   ],
+   [
+    [
+     "Doorverbinden met de directeur",
+     "轉接給主任"
+    ]
+   ],
+   [
+    [
+     "Vragen waar het over gaat",
+     "詢問內容是什麼"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|8|15": {
+  "qb": [
+   [
+    "Welke vraag",
+    "哪個問題"
+   ],
+   [
+    "Nika en Marcus",
+    "尼卡和馬庫斯"
+   ],
+   [
+    "samen maken",
+    "一起做"
+   ]
+  ],
+  "asking": "尼卡和馬庫斯要一起做哪個問題？",
+  "ob": [
+   [
+    [
+     "Vraag 1",
+     "問題1"
+    ]
+   ],
+   [
+    [
+     "Vraag 2",
+     "問題2"
+    ]
+   ],
+   [
+    [
+     "Vraag 3",
+     "問題3"
+    ]
+   ],
+   [
+    [
+     "Vraag 4",
+     "問題4"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|8|16": {
+  "qb": [
+   [
+    "Welke dag",
+    "哪一天"
+   ],
+   [
+    "Marcus",
+    "馬庫斯"
+   ],
+   [
+    "afspreken",
+    "約會"
+   ]
+  ],
+  "asking": "馬庫斯想約哪一天？",
+  "ob": [
+   [
+    [
+     "Op maandag",
+     "星期一"
+    ]
+   ],
+   [
+    [
+     "Op dinsdag",
+     "星期二"
+    ]
+   ],
+   [
+    [
+     "Op vrijdag",
+     "星期五"
+    ]
+   ],
+   [
+    [
+     "Op zaterdag",
+     "星期六"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|9|17": {
+  "qb": [
+   [
+    "Wat was bijzonder",
+    "這一天有什麼特別"
+   ],
+   [
+    "deze dag",
+    "這一天"
+   ],
+   [
+    "op Schiphol",
+    "在史基浦機場"
+   ]
+  ],
+  "asking": "這一天在史基浦機場有什麼特別之處？",
+  "ob": [
+   [
+    [
+     "de drukste dag",
+     "最繁忙的一天"
+    ],
+    [
+     "deze zomer",
+     "這個夏天"
+    ]
+   ],
+   [
+    [
+     "de drukste dag",
+     "最繁忙的一天"
+    ],
+    [
+     "het hele jaar",
+     "整個年度"
+    ]
+   ],
+   [
+    [
+     "de drukste dag",
+     "最繁忙的一天"
+    ],
+    [
+     "de afgelopen twee jaar",
+     "過去兩年"
+    ]
+   ],
+   [
+    [
+     "de drukste dag",
+     "最繁忙的一天"
+    ],
+    [
+     "ooit",
+     "有史以來"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|9|18": {
+  "qb": [
+   [
+    "Waar hadden reizigers het meest last van de drukte?",
+    "旅客在哪裡最受擁擠影響？"
+   ],
+   [
+    "de drukte",
+    "擁擠"
+   ]
+  ],
+  "asking": "這題在問旅客在哪裡感受到擁擠。",
+  "ob": [
+   [
+    [
+     "In de rij voor het inchecken",
+     "在登機手續的隊伍中"
+    ],
+    [
+     "de rij",
+     "隊伍"
+    ]
+   ],
+   [
+    [
+     "Bij de paspoortcontrole",
+     "在護照檢查處"
+    ],
+    [
+     "paspoortcontrole",
+     "護照檢查"
+    ]
+   ],
+   [
+    [
+     "Op de parkeerplaats",
+     "在停車場"
+    ],
+    [
+     "de parkeerplaats",
+     "停車場"
+    ]
+   ]
+  ]
+ },
+ "AMVy2zPNLso|9|19": {
+  "qb": [
+   [
+    "Waarom kregen reizigers op Schiphol gratis ijs?",
+    "為什麼旅客在史基浦機場獲得免費冰淇淋？"
+   ],
+   [
+    "gratis ijs",
+    "免費冰淇淋"
+   ]
+  ],
+  "asking": "這題在問為什麼旅客得到免費冰淇淋。",
+  "ob": [
+   [
+    [
+     "Omdat ze zo lang moesten wachten",
+     "因為他們必須等很久"
+    ],
+    [
+     "zo lang moesten wachten",
+     "等很久"
+    ]
+   ],
+   [
+    [
+     "Omdat Ola 20 jaar bestond",
+     "因為Ola成立20年"
+    ],
+    [
+     "Ola 20 jaar bestond",
+     "Ola成立20年"
+    ]
+   ],
+   [
+    [
+     "Omdat het zo’n warme dag was",
+     "因為那天非常熱"
+    ],
+    [
+     "warme dag",
+     "熱天"
+    ]
+   ]
+  ]
+ }
+}
