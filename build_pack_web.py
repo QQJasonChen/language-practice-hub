@@ -15,7 +15,8 @@ DIST = ROOT / 'dist'
 PACK = DIST / 'A2-luisteren-互動網頁版'
 
 def slug(s, maxlen=80):
-    s = re.sub(r'[\\/:*?"<>|]', '_', (s or '').strip())
+    s = (s or '').strip().replace('#', '').replace('?', '').replace('!', '')
+    s = re.sub(r'[\\/:*"<>|]', '_', s)
     s = re.sub(r'\s+', ' ', s)
     return s[:maxlen].rstrip(' .')
 
