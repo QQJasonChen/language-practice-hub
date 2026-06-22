@@ -1,0 +1,2954 @@
+{
+ "themes": [
+  {
+   "key": "gemeente",
+   "emoji": "🏛️",
+   "label": "市政府・登記手續",
+   "scenes": [
+    {
+     "vid": "AMVy2zPNLso",
+     "n": 1,
+     "title_zh": "到市政府辦出生登記",
+     "kind": "對話",
+     "link": "output/AMVy2zPNLso/exam.html#scene-1"
+    },
+    {
+     "vid": "BQnidD3sb0g",
+     "n": 1,
+     "title_zh": "在圖書館辦理會員",
+     "kind": "對話",
+     "link": "output/BQnidD3sb0g/exam.html"
+    },
+    {
+     "vid": "VhFT2yDaMjg",
+     "n": 1,
+     "title_zh": "在市政府辦出生登記",
+     "kind": "對話",
+     "link": "output/VhFT2yDaMjg/exam.html"
+    },
+    {
+     "vid": "_iC1Pooi2UA",
+     "n": 3,
+     "title_zh": "語言課程的廣播通知",
+     "kind": "廣播通知",
+     "link": "output/_iC1Pooi2UA/exam.html#scene-3"
+    },
+    {
+     "vid": "l4MewuaqxTE",
+     "n": 1,
+     "title_zh": "在市政府辦出生登記",
+     "kind": "對話",
+     "link": "output/l4MewuaqxTE/exam.html"
+    },
+    {
+     "vid": "ogyJB2xEaUs",
+     "n": 1,
+     "title_zh": "如何到達市政府",
+     "kind": "對話",
+     "link": "output/ogyJB2xEaUs/exam.html"
+    }
+   ],
+   "vocab": [
+    [
+     "legitimatiebewijs",
+     "身份證明",
+     3
+    ],
+    [
+     "gemeente",
+     "市政府",
+     2
+    ],
+    [
+     "aangifte",
+     "登記",
+     2
+    ],
+    [
+     "geboorte",
+     "出生",
+     2
+    ],
+    [
+     "trouwboekje",
+     "結婚證書",
+     2
+    ],
+    [
+     "afspraak",
+     "約會",
+     2
+    ],
+    [
+     "wachten",
+     "等待",
+     2
+    ],
+    [
+     "sluiten",
+     "關閉",
+     2
+    ],
+    [
+     "aangifte doen van de geboorte",
+     "辦理出生登記",
+     1
+    ],
+    [
+     "het legitimatiebewijs",
+     "身分證件",
+     1
+    ],
+    [
+     "het trouwboekje",
+     "結婚證書（小冊）",
+     1
+    ],
+    [
+     "een afspraak maken",
+     "預約",
+     1
+    ],
+    [
+     "aan de balie",
+     "在櫃台",
+     1
+    ],
+    [
+     "bibliotheek",
+     "圖書館",
+     1
+    ],
+    [
+     "lid worden",
+     "成為會員",
+     1
+    ],
+    [
+     "abonnement",
+     "訂閱",
+     1
+    ],
+    [
+     "boeken",
+     "書籍",
+     1
+    ],
+    [
+     "dvd's",
+     "DVD",
+     1
+    ],
+    [
+     "basisabonnement",
+     "基本訂閱",
+     1
+    ],
+    [
+     "plusabonnement",
+     "進階訂閱",
+     1
+    ],
+    [
+     "kosten",
+     "費用",
+     1
+    ],
+    [
+     "verschil",
+     "差異",
+     1
+    ],
+    [
+     "gratis",
+     "免費",
+     1
+    ],
+    [
+     "lenen",
+     "借",
+     1
+    ],
+    [
+     "vraag",
+     "問題",
+     1
+    ],
+    [
+     "dochter",
+     "女兒",
+     1
+    ],
+    [
+     "zoon",
+     "兒子",
+     1
+    ],
+    [
+     "getrouwd",
+     "已婚",
+     1
+    ],
+    [
+     "internet",
+     "網路",
+     1
+    ],
+    [
+     "het omroepbericht",
+     "廣播通知",
+     1
+    ],
+    [
+     "zit bijna vol",
+     "快額滿了",
+     1
+    ],
+    [
+     "de plaats",
+     "名額（此處）／位子",
+     1
+    ],
+    [
+     "zich inschrijven",
+     "報名、登記",
+     1
+    ],
+    [
+     "het lokaal",
+     "教室",
+     1
+    ],
+    [
+     "open",
+     "開放",
+     1
+    ],
+    [
+     "vriend",
+     "朋友",
+     1
+    ],
+    [
+     "help",
+     "幫助",
+     1
+    ],
+    [
+     "doen",
+     "做",
+     1
+    ],
+    [
+     "kan",
+     "可以",
+     1
+    ],
+    [
+     "moet",
+     "必須",
+     1
+    ]
+   ],
+   "questions": [
+    {
+     "q_nl": "Waarom is Mark bij de gemeente?",
+     "q_zh": "Mark 為什麼來市政府？"
+    },
+    {
+     "q_nl": "Wanneer kan Mark terugkomen bij de gemeente?",
+     "q_zh": "Mark 什麼時候可以再回來市政府辦？"
+    },
+    {
+     "q_nl": "Julio wil Nederlands 3 volgen. Hoeveel plaatsen zijn er nog?",
+     "q_zh": "Julio 想上 Nederlands 3，這門課還剩幾個名額？"
+    },
+    {
+     "q_nl": "Waar kan hij zich aanmelden?",
+     "q_zh": "他要去哪裡報名（上 Nederlands 3）？"
+    }
+   ]
+  },
+  {
+   "key": "gezondheid",
+   "emoji": "🏥",
+   "label": "醫療・健康",
+   "scenes": [
+    {
+     "vid": "-tYNqvvOsU0",
+     "n": 1,
+     "title_zh": "看醫生的過程",
+     "kind": "對話",
+     "link": "output/-tYNqvvOsU0/exam.html"
+    },
+    {
+     "vid": "0HenRw6__u8",
+     "n": 1,
+     "title_zh": "在醫生那裡的諮詢",
+     "kind": "廣播/留言",
+     "link": "output/0HenRw6__u8/exam.html"
+    },
+    {
+     "vid": "_iC1Pooi2UA",
+     "n": 1,
+     "title_zh": "在路上遇到老朋友",
+     "kind": "對話",
+     "link": "output/_iC1Pooi2UA/exam.html#scene-1"
+    },
+    {
+     "vid": "_iC1Pooi2UA",
+     "n": 5,
+     "title_zh": "醫院淹水的新聞",
+     "kind": "新聞",
+     "link": "output/_iC1Pooi2UA/exam.html#scene-5"
+    },
+    {
+     "vid": "c0fBLov2nKk",
+     "n": 1,
+     "title_zh": "借錢的理由",
+     "kind": "對話",
+     "link": "output/c0fBLov2nKk/exam.html"
+    },
+    {
+     "vid": "f53OW6p7l-8",
+     "n": 1,
+     "title_zh": "看醫生的流程",
+     "kind": "對話",
+     "link": "output/f53OW6p7l-8/exam.html"
+    },
+    {
+     "vid": "hCh3xz_BDWo",
+     "n": 1,
+     "title_zh": "荷蘭語課程報名資訊",
+     "kind": "廣播/留言",
+     "link": "output/hCh3xz_BDWo/exam.html"
+    },
+    {
+     "vid": "oAcYTBuHhT8",
+     "n": 1,
+     "title_zh": "新手機的對話",
+     "kind": "對話",
+     "link": "output/oAcYTBuHhT8/exam.html"
+    },
+    {
+     "vid": "oS9ZMdbDffE",
+     "n": 1,
+     "title_zh": "醫院水管故障",
+     "kind": "對話",
+     "link": "output/oS9ZMdbDffE/exam.html"
+    }
+   ],
+   "vocab": [
+    [
+     "afspraak",
+     "約診",
+     5
+    ],
+    [
+     "huisarts",
+     "家庭醫生",
+     3
+    ],
+    [
+     "ziekenhuis",
+     "醫院",
+     2
+    ],
+    [
+     "overstroomd",
+     "被淹沒的",
+     2
+    ],
+    [
+     "gezond",
+     "健康",
+     2
+    ],
+    [
+     "apotheek",
+     "藥局",
+     2
+    ],
+    [
+     "tandarts",
+     "牙醫",
+     2
+    ],
+    [
+     "dokter",
+     "醫生",
+     1
+    ],
+    [
+     "aanmeldzuilen",
+     "登記柱",
+     1
+    ],
+    [
+     "ziekenhuispas",
+     "醫院卡",
+     1
+    ],
+    [
+     "nummertje",
+     "號碼",
+     1
+    ],
+    [
+     "speelzaal",
+     "遊戲室",
+     1
+    ],
+    [
+     "weegschaal",
+     "秤",
+     1
+    ],
+    [
+     "ondergoed",
+     "內衣",
+     1
+    ],
+    [
+     "oor",
+     "耳朵",
+     1
+    ],
+    [
+     "onderzoek",
+     "檢查",
+     1
+    ],
+    [
+     "hand",
+     "手",
+     1
+    ],
+    [
+     "buik",
+     "肚子",
+     1
+    ],
+    [
+     "wachten",
+     "等待",
+     1
+    ],
+    [
+     "uitleggen",
+     "解釋",
+     1
+    ],
+    [
+     "kamer",
+     "房間",
+     1
+    ],
+    [
+     "informatietelefoon",
+     "資訊電話",
+     1
+    ],
+    [
+     "vrije spreekuur",
+     "自由看診時間",
+     1
+    ],
+    [
+     "werkdagen",
+     "工作日",
+     1
+    ],
+    [
+     "bellen",
+     "打電話",
+     1
+    ],
+    [
+     "komen",
+     "來",
+     1
+    ],
+    [
+     "maandag",
+     "星期一",
+     1
+    ],
+    [
+     "donderdag",
+     "星期四",
+     1
+    ],
+    [
+     "uur",
+     "小時",
+     1
+    ],
+    [
+     "half",
+     "半",
+     1
+    ],
+    [
+     "tijd",
+     "時間",
+     1
+    ],
+    [
+     "moet",
+     "必須",
+     1
+    ],
+    [
+     "even",
+     "稍微",
+     1
+    ],
+    [
+     "druk",
+     "忙碌",
+     1
+    ],
+    [
+     "uitrusten",
+     "休息",
+     1
+    ],
+    [
+     "zwanger",
+     "懷孕的",
+     1
+    ],
+    [
+     "uitnodigen",
+     "邀請",
+     1
+    ],
+    [
+     "klussen",
+     "做修繕／裝修的雜工",
+     1
+    ],
+    [
+     "een muur schilderen",
+     "粉刷牆壁",
+     1
+    ],
+    [
+     "hartstikke gezellig",
+     "非常溫馨愉快（口語）",
+     1
+    ]
+   ],
+   "questions": [
+    {
+     "q_nl": "Hoe lang is Daniëlle zwanger?",
+     "q_zh": "Daniëlle 懷孕幾個月了？"
+    },
+    {
+     "q_nl": "Wanneer komt Yari eten bij Steven en Daniëlle?",
+     "q_zh": "Yari 哪一天要去 Steven 和 Daniëlle 家吃飯？"
+    },
+    {
+     "q_nl": "Wat vraagt Steven aan Yari?",
+     "q_zh": "Steven 拜託 Yari 幫什麼忙？"
+    },
+    {
+     "q_nl": "Welke patiënten zijn naar een andere plaats gebracht?",
+     "q_zh": "哪些病人被移到別的地方？"
+    },
+    {
+     "q_nl": "Wanneer gaan alle afdelingen van het ziekenhuis weer open?",
+     "q_zh": "醫院所有科別什麼時候全部重新開放？"
+    },
+    {
+     "q_nl": "Savina is op treinstation Zuid. Hoe kan ze het beste naar het ziekenhuis gaan?",
+     "q_zh": "Savina 在南站，她最好怎麼去醫院？"
+    }
+   ]
+  },
+  {
+   "key": "werk",
+   "emoji": "💼",
+   "label": "工作・職場",
+   "scenes": [
+    {
+     "vid": "4Bp2X6lj1Tw",
+     "n": 1,
+     "title_zh": "客戶服務電話選項",
+     "kind": "對話",
+     "link": "output/4Bp2X6lj1Tw/exam.html"
+    },
+    {
+     "vid": "AMVy2zPNLso",
+     "n": 2,
+     "title_zh": "人力派遣公司的影片",
+     "kind": "廣告影片",
+     "link": "output/AMVy2zPNLso/exam.html#scene-2"
+    },
+    {
+     "vid": "AMVy2zPNLso",
+     "n": 4,
+     "title_zh": "新工作：怎麼訂用品",
+     "kind": "對話",
+     "link": "output/AMVy2zPNLso/exam.html#scene-4"
+    },
+    {
+     "vid": "AMVy2zPNLso",
+     "n": 7,
+     "title_zh": "新工作：接電話的規矩",
+     "kind": "對話",
+     "link": "output/AMVy2zPNLso/exam.html#scene-7"
+    },
+    {
+     "vid": "J4yroaYw1SQ",
+     "n": 1,
+     "title_zh": "透過人力資源公司找工作",
+     "kind": "對話",
+     "link": "output/J4yroaYw1SQ/exam.html"
+    },
+    {
+     "vid": "Z0iOzLatpz4",
+     "n": 1,
+     "title_zh": "同事談論安妮的工作",
+     "kind": "對話",
+     "link": "output/Z0iOzLatpz4/exam.html"
+    },
+    {
+     "vid": "_iC1Pooi2UA",
+     "n": 2,
+     "title_zh": "堅果公司的徵人廣告",
+     "kind": "廣告影片",
+     "link": "output/_iC1Pooi2UA/exam.html#scene-2"
+    },
+    {
+     "vid": "_iC1Pooi2UA",
+     "n": 7,
+     "title_zh": "老師講評作文",
+     "kind": "對話",
+     "link": "output/_iC1Pooi2UA/exam.html#scene-7"
+    },
+    {
+     "vid": "lk7UF1vn8a4",
+     "n": 1,
+     "title_zh": "訂購材料的流程",
+     "kind": "對話",
+     "link": "output/lk7UF1vn8a4/exam.html"
+    },
+    {
+     "vid": "mock3_a2_2026",
+     "n": 2,
+     "title_zh": "郵局徵人：找 Lars 來上班",
+     "kind": "對話",
+     "link": "output/mock3_a2_2026/exam.html#scene-2"
+    },
+    {
+     "vid": "mock3_a2_2026",
+     "n": 3,
+     "title_zh": "西文課作業可以晚交嗎？",
+     "kind": "對話",
+     "link": "output/mock3_a2_2026/exam.html#scene-3"
+    },
+    {
+     "vid": "mock3_a2_2026",
+     "n": 8,
+     "title_zh": "電視訪問實習生 Bram",
+     "kind": "電視訪問",
+     "link": "output/mock3_a2_2026/exam.html#scene-8"
+    },
+    {
+     "vid": "mock3_a2_2026",
+     "n": 9,
+     "title_zh": "Jamal 老闆遲到、交代新人安排",
+     "kind": "語音留言",
+     "link": "output/mock3_a2_2026/exam.html#scene-9"
+    }
+   ],
+   "vocab": [
+    [
+     "inschrijven",
+     "註冊",
+     2
+    ],
+    [
+     "boek",
+     "書",
+     1
+    ],
+    [
+     "bestellen",
+     "訂購",
+     1
+    ],
+    [
+     "bestelling",
+     "訂單",
+     1
+    ],
+    [
+     "veranderen",
+     "更改",
+     1
+    ],
+    [
+     "annuleren",
+     "取消",
+     1
+    ],
+    [
+     "vraag",
+     "問題",
+     1
+    ],
+    [
+     "medewerker",
+     "員工",
+     1
+    ],
+    [
+     "keuze",
+     "選擇",
+     1
+    ],
+    [
+     "klantenservice",
+     "客戶服務",
+     1
+    ],
+    [
+     "opnemen",
+     "錄音",
+     1
+    ],
+    [
+     "het uitzendbureau",
+     "人力派遣公司",
+     1
+    ],
+    [
+     "het kennismakingsgesprek",
+     "初次面談（認識彼此）",
+     1
+    ],
+    [
+     "de schoonmaak / de beveiliging / de productie",
+     "清潔／保全／生產",
+     1
+    ],
+    [
+     "de avondopleiding tot leidinggevende",
+     "晉升主管的夜間培訓",
+     1
+    ],
+    [
+     "stage lopen",
+     "實習",
+     1
+    ],
+    [
+     "materiaal bestellen",
+     "訂購用品／物料",
+     1
+    ],
+    [
+     "de afdeling Inkoop",
+     "採購部門",
+     1
+    ],
+    [
+     "het formulier invullen",
+     "填表格",
+     1
+    ],
+    [
+     "inleveren",
+     "繳交、送交",
+     1
+    ],
+    [
+     "het postvak",
+     "信件格、信箱格",
+     1
+    ],
+    [
+     "voorgaan",
+     "優先、最重要",
+     1
+    ],
+    [
+     "de telefoon opnemen",
+     "接電話",
+     1
+    ],
+    [
+     "doorverbinden",
+     "（電話）轉接",
+     1
+    ],
+    [
+     "in de agenda kijken",
+     "查行事曆",
+     1
+    ],
+    [
+     "de beller",
+     "來電者",
+     1
+    ],
+    [
+     "uitzendbureau",
+     "人力資源公司",
+     1
+    ],
+    [
+     "kennismakingsgesprek",
+     "面試",
+     1
+    ],
+    [
+     "uitnodiging",
+     "邀請",
+     1
+    ],
+    [
+     "schoonmaak",
+     "清潔",
+     1
+    ],
+    [
+     "beveiliging",
+     "保安",
+     1
+    ],
+    [
+     "productie",
+     "生產",
+     1
+    ],
+    [
+     "ervaring",
+     "經驗",
+     1
+    ],
+    [
+     "opleiding",
+     "培訓",
+     1
+    ],
+    [
+     "leidinggevende",
+     "管理者",
+     1
+    ],
+    [
+     "stage",
+     "實習",
+     1
+    ],
+    [
+     "werkplanning",
+     "工作計劃",
+     1
+    ],
+    [
+     "werkroosters",
+     "工作排班",
+     1
+    ],
+    [
+     "A2-niveau",
+     "A2級",
+     1
+    ],
+    [
+     "B1-niveau",
+     "B1級",
+     1
+    ]
+   ],
+   "questions": [
+    {
+     "q_nl": "Hoe krijgt Yassir de datum en tijd van het gesprek?",
+     "q_zh": "Yassir 會怎麼收到面談的日期與時間？"
+    },
+    {
+     "q_nl": "Wat heeft Yassir nodig om in de schoonmaak te werken?",
+     "q_zh": "Yassir 要做清潔工作需要具備什麼？"
+    },
+    {
+     "q_nl": "Waar zit de afdeling Inkoop?",
+     "q_zh": "採購部（Inkoop）在哪裡？"
+    },
+    {
+     "q_nl": "Hoe moet Nabil iets bestellen?",
+     "q_zh": "Nabil 要訂東西時該怎麼做？"
+    },
+    {
+     "q_nl": "Iemand belt voor de directeur. Wat moet Sophia als eerste doen?",
+     "q_zh": "有人打電話找總監，Sophia 要「先」做什麼？"
+    },
+    {
+     "q_nl": "Iemand belt voor de afdeling Inkoop. Wat moet Sophia doen?",
+     "q_zh": "有人打電話找採購部，Sophia 要做什麼？"
+    },
+    {
+     "q_nl": "Evelien heeft pauze en Sophia neemt haar telefoon op. Wat moet je doen?",
+     "q_zh": "Evelien 在午休，Sophia 替她接電話，這時要做什麼？"
+    },
+    {
+     "q_nl": "Waarom noemt de man Zuid-Amerika, Azië en Afrika?",
+     "q_zh": "影片裡的人為什麼提到南美洲、亞洲和非洲？"
+    },
+    {
+     "q_nl": "Waarmee heeft Enrico de meeste fouten gemaakt in zijn brief?",
+     "q_zh": "Enrico 在信裡哪方面錯最多？"
+    },
+    {
+     "q_nl": "Welk advies over brievenschrijven geeft de docent aan Enrico?",
+     "q_zh": "關於寫信，老師給 Enrico 什麼建議？"
+    },
+    {
+     "q_nl": "Wat voor iemand zoekt het postbedrijf?",
+     "q_zh": "郵局在找什麼樣的人？"
+    },
+    {
+     "q_nl": "Lars wil graag postbode worden. Hoe laat moet hij dan beginnen?",
+     "q_zh": "Lars 想當郵差，他幾點要開始上班？"
+    }
+   ]
+  },
+  {
+   "key": "vervoer",
+   "emoji": "🚆",
+   "label": "交通・出行",
+   "scenes": [
+    {
+     "vid": "AMVy2zPNLso",
+     "n": 6,
+     "title_zh": "廣播路況報導",
+     "kind": "廣播",
+     "link": "output/AMVy2zPNLso/exam.html#scene-6"
+    },
+    {
+     "vid": "AMVy2zPNLso",
+     "n": 9,
+     "title_zh": "機場新聞（史基浦最忙的一天）",
+     "kind": "新聞",
+     "link": "output/AMVy2zPNLso/exam.html#scene-9"
+    },
+    {
+     "vid": "EAsLs_1HyG8",
+     "n": 1,
+     "title_zh": "在荷蘭的繁忙機場",
+     "kind": "對話",
+     "link": "output/EAsLs_1HyG8/exam.html"
+    },
+    {
+     "vid": "_iC1Pooi2UA",
+     "n": 10,
+     "title_zh": "國王節活動安排",
+     "kind": "對話",
+     "link": "output/_iC1Pooi2UA/exam.html#scene-10"
+    },
+    {
+     "vid": "iEm-I_gVb9s",
+     "n": 1,
+     "title_zh": "荷蘭交通狀況報導",
+     "kind": "廣播/留言",
+     "link": "output/iEm-I_gVb9s/exam.html"
+    }
+   ],
+   "vocab": [
+    [
+     "doorrijden",
+     "繼續行駛",
+     2
+    ],
+    [
+     "inchecken",
+     "辦理報到",
+     2
+    ],
+    [
+     "de file",
+     "塞車、車陣",
+     1
+    ],
+    [
+     "de snelweg",
+     "高速公路",
+     1
+    ],
+    [
+     "het ongeluk",
+     "車禍、意外",
+     1
+    ],
+    [
+     "de vrachtwagen",
+     "貨車、卡車",
+     1
+    ],
+    [
+     "de drukste dag",
+     "最忙碌的一天",
+     1
+    ],
+    [
+     "de passagier / de reiziger",
+     "旅客",
+     1
+    ],
+    [
+     "de paspoortcontrole",
+     "護照查驗",
+     1
+    ],
+    [
+     "trakteren",
+     "請客、招待",
+     1
+    ],
+    [
+     "cursus",
+     "課程",
+     1
+    ],
+    [
+     "groepsopdracht",
+     "團體作業",
+     1
+    ],
+    [
+     "inleveren",
+     "提交",
+     1
+    ],
+    [
+     "vraag",
+     "問題",
+     1
+    ],
+    [
+     "afspreken",
+     "約定",
+     1
+    ],
+    [
+     "drukste",
+     "最繁忙的",
+     1
+    ],
+    [
+     "vluchten",
+     "航班",
+     1
+    ],
+    [
+     "passagiers",
+     "乘客",
+     1
+    ],
+    [
+     "personeel",
+     "人員",
+     1
+    ],
+    [
+     "rijen",
+     "隊伍",
+     1
+    ],
+    [
+     "paspoortcontrole",
+     "護照檢查",
+     1
+    ],
+    [
+     "parkeerplaats",
+     "停車場",
+     1
+    ],
+    [
+     "gratis",
+     "免費的",
+     1
+    ],
+    [
+     "traktatie",
+     "款待",
+     1
+    ],
+    [
+     "het Koningsdagontbijt",
+     "國王節早餐",
+     1
+    ],
+    [
+     "klaarzetten",
+     "把東西擺設、布置好",
+     1
+    ],
+    [
+     "boodschappen doen",
+     "採買（買菜）",
+     1
+    ],
+    [
+     "de wedstrijd",
+     "比賽",
+     1
+    ],
+    [
+     "de fiets versieren",
+     "裝飾腳踏車",
+     1
+    ],
+    [
+     "file",
+     "交通堵塞",
+     1
+    ],
+    [
+     "snelweg",
+     "高速公路",
+     1
+    ],
+    [
+     "ongeluk",
+     "事故",
+     1
+    ],
+    [
+     "vrachtwagen",
+     "貨車",
+     1
+    ],
+    [
+     "eieren",
+     "雞蛋",
+     1
+    ],
+    [
+     "stations",
+     "車站",
+     1
+    ],
+    [
+     "trein",
+     "火車",
+     1
+    ],
+    [
+     "reizen",
+     "旅行",
+     1
+    ],
+    [
+     "kapotte",
+     "壞掉的",
+     1
+    ],
+    [
+     "bericht",
+     "消息",
+     1
+    ],
+    [
+     "oorzaak",
+     "原因",
+     1
+    ]
+   ],
+   "questions": [
+    {
+     "q_nl": "Mario wil met de trein van Arnhem naar Utrecht. Wat kan hij het beste doen?",
+     "q_zh": "Mario 想搭火車從 Arnhem 到 Utrecht，他最好怎麼辦？"
+    },
+    {
+     "q_nl": "Wat was bijzonder aan deze dag op Schiphol?",
+     "q_zh": "史基浦這一天有什麼特別之處？"
+    },
+    {
+     "q_nl": "Waar hadden reizigers het meest last van de drukte?",
+     "q_zh": "旅客在哪裡最受人潮所苦？"
+    },
+    {
+     "q_nl": "Waarom kregen reizigers op Schiphol gratis ijs?",
+     "q_zh": "史基浦的旅客為什麼拿到免費冰淇淋？"
+    },
+    {
+     "q_nl": "Wat moeten Mila en Carla op 27 april doen?",
+     "q_zh": "Mila 和 Carla 在 4 月 27 日要做什麼？"
+    },
+    {
+     "q_nl": "Hoe laat moeten Mila en Carla op 27 april op school zijn?",
+     "q_zh": "Mila 和 Carla 4 月 27 日幾點要到學校？"
+    },
+    {
+     "q_nl": "Waarmee eindigt de Koningsdag?",
+     "q_zh": "國王節當天以什麼活動結束？"
+    }
+   ]
+  },
+  {
+   "key": "winkelen",
+   "emoji": "🛒",
+   "label": "購物・商店",
+   "scenes": [
+    {
+     "vid": "3EyfPWAy57w",
+     "n": 1,
+     "title_zh": "新開的商店",
+     "kind": "對話",
+     "link": "output/3EyfPWAy57w/exam.html"
+    },
+    {
+     "vid": "5VRuRmDJURY",
+     "n": 1,
+     "title_zh": "幫奶奶買菜",
+     "kind": "對話",
+     "link": "output/5VRuRmDJURY/exam.html"
+    },
+    {
+     "vid": "BJ3WH-kSAxI",
+     "n": 1,
+     "title_zh": "廣播消息",
+     "kind": "廣播/留言",
+     "link": "output/BJ3WH-kSAxI/exam.html"
+    },
+    {
+     "vid": "FIO4cZ0jCug",
+     "n": 1,
+     "title_zh": "尋找水管工",
+     "kind": "對話",
+     "link": "output/FIO4cZ0jCug/exam.html"
+    },
+    {
+     "vid": "J-VCgNpy9p8",
+     "n": 1,
+     "title_zh": "市場購物",
+     "kind": "對話",
+     "link": "output/J-VCgNpy9p8/exam.html"
+    },
+    {
+     "vid": "aLBxYurJGE0",
+     "n": 1,
+     "title_zh": "朋友的懷孕消息",
+     "kind": "對話",
+     "link": "output/aLBxYurJGE0/exam.html"
+    }
+   ],
+   "vocab": [
+    [
+     "auto",
+     "汽車",
+     3
+    ],
+    [
+     "boodschappen",
+     "購物",
+     2
+    ],
+    [
+     "thee",
+     "茶",
+     2
+    ],
+    [
+     "aanbieding",
+     "特價",
+     2
+    ],
+    [
+     "winkel",
+     "商店",
+     1
+    ],
+    [
+     "schoenen",
+     "鞋子",
+     1
+    ],
+    [
+     "laarzen",
+     "靴子",
+     1
+    ],
+    [
+     "maat",
+     "尺碼",
+     1
+    ],
+    [
+     "verkoper",
+     "店員",
+     1
+    ],
+    [
+     "passen",
+     "試穿",
+     1
+    ],
+    [
+     "kosten",
+     "價格",
+     1
+    ],
+    [
+     "bloemen",
+     "花",
+     1
+    ],
+    [
+     "jasje",
+     "外套",
+     1
+    ],
+    [
+     "ruilen",
+     "退換",
+     1
+    ],
+    [
+     "brood",
+     "麵包",
+     1
+    ],
+    [
+     "vliegtuig",
+     "飛機",
+     1
+    ],
+    [
+     "oma",
+     "奶奶",
+     1
+    ],
+    [
+     "groente",
+     "蔬菜",
+     1
+    ],
+    [
+     "koffie",
+     "咖啡",
+     1
+    ],
+    [
+     "wasmiddel",
+     "洗衣粉",
+     1
+    ],
+    [
+     "zaterdag",
+     "星期六",
+     1
+    ],
+    [
+     "film",
+     "電影",
+     1
+    ],
+    [
+     "feest",
+     "派對",
+     1
+    ],
+    [
+     "oppassen",
+     "照顧",
+     1
+    ],
+    [
+     "kinderen",
+     "孩子",
+     1
+    ],
+    [
+     "vader",
+     "父親",
+     1
+    ],
+    [
+     "terug",
+     "回來",
+     1
+    ],
+    [
+     "bericht",
+     "消息",
+     1
+    ],
+    [
+     "tweedehands",
+     "二手",
+     1
+    ],
+    [
+     "korting",
+     "折扣",
+     1
+    ],
+    [
+     "keuken",
+     "廚房",
+     1
+    ],
+    [
+     "handig",
+     "方便的",
+     1
+    ],
+    [
+     "vakantie",
+     "假期",
+     1
+    ],
+    [
+     "kamer",
+     "房間",
+     1
+    ],
+    [
+     "benzine",
+     "汽油",
+     1
+    ],
+    [
+     "ziek",
+     "生病的",
+     1
+    ],
+    [
+     "werk",
+     "工作",
+     1
+    ],
+    [
+     "pijn",
+     "疼痛",
+     1
+    ],
+    [
+     "operatie",
+     "手術",
+     1
+    ],
+    [
+     "boos",
+     "生氣的",
+     1
+    ]
+   ],
+   "questions": []
+  },
+  {
+   "key": "eten",
+   "emoji": "🍽️",
+   "label": "餐飲・餐廳",
+   "scenes": [
+    {
+     "vid": "Sy926KPXwV0",
+     "n": 1,
+     "title_zh": "在餐廳點餐",
+     "kind": "對話",
+     "link": "output/Sy926KPXwV0/exam.html"
+    },
+    {
+     "vid": "_--osX9sKB8",
+     "n": 1,
+     "title_zh": "點餐與用餐",
+     "kind": "對話",
+     "link": "output/_--osX9sKB8/exam.html"
+    },
+    {
+     "vid": "_iC1Pooi2UA",
+     "n": 6,
+     "title_zh": "電話語音點餐",
+     "kind": "語音留言",
+     "link": "output/_iC1Pooi2UA/exam.html#scene-6"
+    },
+    {
+     "vid": "cqXgUkucsvc",
+     "n": 1,
+     "title_zh": "媽媽喉嚨痛的時候",
+     "kind": "對話",
+     "link": "output/cqXgUkucsvc/exam.html"
+    },
+    {
+     "vid": "jkm2z_f5oMk",
+     "n": 1,
+     "title_zh": "在超市的朋友對話",
+     "kind": "對話",
+     "link": "output/jkm2z_f5oMk/exam.html"
+    },
+    {
+     "vid": "lb0q-sk82TA",
+     "n": 1,
+     "title_zh": "忙碌的一週",
+     "kind": "對話",
+     "link": "output/lb0q-sk82TA/exam.html"
+    }
+   ],
+   "vocab": [
+    [
+     "lekker",
+     "好吃",
+     3
+    ],
+    [
+     "eten",
+     "吃",
+     3
+    ],
+    [
+     "ober",
+     "服務生",
+     2
+    ],
+    [
+     "bestellen",
+     "點餐",
+     2
+    ],
+    [
+     "menukaart",
+     "菜單",
+     1
+    ],
+    [
+     "spaghetti",
+     "義大利麵",
+     1
+    ],
+    [
+     "wijn",
+     "葡萄酒",
+     1
+    ],
+    [
+     "lepel",
+     "湯匙",
+     1
+    ],
+    [
+     "honger",
+     "餓",
+     1
+    ],
+    [
+     "taxi",
+     "計程車",
+     1
+    ],
+    [
+     "markt",
+     "市場",
+     1
+    ],
+    [
+     "sinaasappels",
+     "橙子",
+     1
+    ],
+    [
+     "aardappels",
+     "馬鈴薯",
+     1
+    ],
+    [
+     "worteltjes",
+     "小胡蘿蔔",
+     1
+    ],
+    [
+     "geld",
+     "錢",
+     1
+    ],
+    [
+     "dokter",
+     "醫生",
+     1
+    ],
+    [
+     "medicijnen",
+     "藥物",
+     1
+    ],
+    [
+     "niet",
+     "不",
+     1
+    ],
+    [
+     "tafel",
+     "桌子",
+     1
+    ],
+    [
+     "koffie",
+     "咖啡",
+     1
+    ],
+    [
+     "brood",
+     "麵包",
+     1
+    ],
+    [
+     "biefstuk",
+     "牛排",
+     1
+    ],
+    [
+     "patat",
+     "薯條",
+     1
+    ],
+    [
+     "water",
+     "水",
+     1
+    ],
+    [
+     "hond",
+     "狗",
+     1
+    ],
+    [
+     "kat",
+     "貓",
+     1
+    ],
+    [
+     "vis",
+     "魚",
+     1
+    ],
+    [
+     "rekening",
+     "帳單",
+     1
+    ],
+    [
+     "de groothandel",
+     "批發商",
+     1
+    ],
+    [
+     "de bestelling",
+     "訂單",
+     1
+    ],
+    [
+     "de patat (Franse / dikke)",
+     "薯條（細的／粗的）",
+     1
+    ],
+    [
+     "de rekening",
+     "帳單",
+     1
+    ],
+    [
+     "het postadres / huisadres",
+     "通訊地址／住家地址",
+     1
+    ],
+    [
+     "keelpijn",
+     "喉嚨痛",
+     1
+    ],
+    [
+     "pijn",
+     "痛",
+     1
+    ],
+    [
+     "drinken",
+     "喝",
+     1
+    ],
+    [
+     "zout",
+     "鹽",
+     1
+    ],
+    [
+     "sigaretje",
+     "香煙",
+     1
+    ],
+    [
+     "menthol",
+     "薄荷",
+     1
+    ],
+    [
+     "opgezette klieren",
+     "腫大的淋巴結",
+     1
+    ]
+   ],
+   "questions": [
+    {
+     "q_nl": "Welke patat bestelt meneer Gerritsen?",
+     "q_zh": "Gerritsen 先生訂哪一種薯條？"
+    },
+    {
+     "q_nl": "Welke cola bestelt meneer Gerritsen?",
+     "q_zh": "Gerritsen 先生訂哪一種可樂？"
+    },
+    {
+     "q_nl": "Waar moet Hamza de rekening naartoe sturen?",
+     "q_zh": "Hamza 要把帳單寄到哪裡？"
+    }
+   ]
+  },
+  {
+   "key": "wonen",
+   "emoji": "🏠",
+   "label": "住房・居住",
+   "scenes": [
+    {
+     "vid": "MXsNK9j4PNQ",
+     "n": 1,
+     "title_zh": "自我介紹與居住地",
+     "kind": "對話",
+     "link": "output/MXsNK9j4PNQ/exam.html"
+    },
+    {
+     "vid": "_iC1Pooi2UA",
+     "n": 4,
+     "title_zh": "鄰居在聊封路",
+     "kind": "對話",
+     "link": "output/_iC1Pooi2UA/exam.html#scene-4"
+    },
+    {
+     "vid": "tYbjAE3F4H0",
+     "n": 1,
+     "title_zh": "找工作與日常對話",
+     "kind": "對話",
+     "link": "output/tYbjAE3F4H0/exam.html"
+    }
+   ],
+   "vocab": [
+    [
+     "voornaam",
+     "名字",
+     1
+    ],
+    [
+     "achternaam",
+     "姓氏",
+     1
+    ],
+    [
+     "komen",
+     "來自",
+     1
+    ],
+    [
+     "stad",
+     "城市",
+     1
+    ],
+    [
+     "wonen",
+     "居住",
+     1
+    ],
+    [
+     "huisnummer",
+     "門牌號碼",
+     1
+    ],
+    [
+     "fijn",
+     "好",
+     1
+    ],
+    [
+     "klein",
+     "小",
+     1
+    ],
+    [
+     "groot",
+     "大",
+     1
+    ],
+    [
+     "gezins",
+     "家庭",
+     1
+    ],
+    [
+     "tuin",
+     "花園",
+     1
+    ],
+    [
+     "kinderen",
+     "孩子",
+     1
+    ],
+    [
+     "alleen",
+     "獨自",
+     1
+    ],
+    [
+     "centraal",
+     "中心",
+     1
+    ],
+    [
+     "straat",
+     "街道",
+     1
+    ],
+    [
+     "afgesloten",
+     "被封閉的",
+     1
+    ],
+    [
+     "de weg repareren",
+     "修路",
+     1
+    ],
+    [
+     "gaten in de weg",
+     "路上的坑洞",
+     1
+    ],
+    [
+     "de verlichting",
+     "照明（路燈）",
+     1
+    ],
+    [
+     "tijdelijk",
+     "暫時的",
+     1
+    ],
+    [
+     "werken",
+     "工作",
+     1
+    ],
+    [
+     "vrij",
+     "休假",
+     1
+    ],
+    [
+     "kapsalon",
+     "理髮店",
+     1
+    ],
+    [
+     "vacatures",
+     "職缺",
+     1
+    ],
+    [
+     "inschrijven",
+     "註冊",
+     1
+    ],
+    [
+     "telefoonnummer",
+     "電話號碼",
+     1
+    ],
+    [
+     "emailadres",
+     "電子郵件地址",
+     1
+    ],
+    [
+     "vrijwilligerswerk",
+     "志願工作",
+     1
+    ],
+    [
+     "afspraak",
+     "約會",
+     1
+    ],
+    [
+     "computerles",
+     "電腦課",
+     1
+    ],
+    [
+     "eengezinswoning",
+     "獨立住宅",
+     1
+    ],
+    [
+     "flat",
+     "公寓",
+     1
+    ],
+    [
+     "verhuizen",
+     "搬家",
+     1
+    ],
+    [
+     "schilderen",
+     "粉刷",
+     1
+    ],
+    [
+     "bank",
+     "沙發",
+     1
+    ]
+   ],
+   "questions": [
+    {
+     "q_nl": "Waarom is de straat van Amina afgesloten?",
+     "q_zh": "Amina 家的街道為什麼被封起來？"
+    },
+    {
+     "q_nl": "Wanneer gaat de straat van Amina weer open?",
+     "q_zh": "Amina 家的街道什麼時候會重新開放？"
+    }
+   ]
+  },
+  {
+   "key": "afspraak",
+   "emoji": "📞",
+   "label": "預約・電話・留言",
+   "scenes": [
+    {
+     "vid": "2K-cXgASSew",
+     "n": 1,
+     "title_zh": "新工作的第一天",
+     "kind": "對話",
+     "link": "output/2K-cXgASSew/exam.html"
+    },
+    {
+     "vid": "AMVy2zPNLso",
+     "n": 3,
+     "title_zh": "電話語音報路",
+     "kind": "語音留言",
+     "link": "output/AMVy2zPNLso/exam.html#scene-3"
+    },
+    {
+     "vid": "AMVy2zPNLso",
+     "n": 8,
+     "title_zh": "同學的語音留言（分組作業）",
+     "kind": "語音留言",
+     "link": "output/AMVy2zPNLso/exam.html#scene-8"
+    },
+    {
+     "vid": "KO7Z5_85490",
+     "n": 1,
+     "title_zh": "修車的工作安排",
+     "kind": "對話",
+     "link": "output/KO7Z5_85490/exam.html"
+    },
+    {
+     "vid": "_iC1Pooi2UA",
+     "n": 8,
+     "title_zh": "朋友的語音留言（約吃飯看電影）",
+     "kind": "語音留言",
+     "link": "output/_iC1Pooi2UA/exam.html#scene-8"
+    },
+    {
+     "vid": "mock3_a2_2026",
+     "n": 4,
+     "title_zh": "George 留言：明天怎麼一起去活動",
+     "kind": "語音留言",
+     "link": "output/mock3_a2_2026/exam.html#scene-4"
+    },
+    {
+     "vid": "yQLIwMeSE5c",
+     "n": 1,
+     "title_zh": "尋找水管工",
+     "kind": "對話",
+     "link": "output/yQLIwMeSE5c/exam.html"
+    }
+   ],
+   "vocab": [
+    [
+     "telefoon",
+     "電話",
+     2
+    ],
+    [
+     "terugbellen",
+     "回電",
+     2
+    ],
+    [
+     "kapot",
+     "壞掉",
+     2
+    ],
+    [
+     "directeur",
+     "主任",
+     1
+    ],
+    [
+     "agenda",
+     "日程",
+     1
+    ],
+    [
+     "verbinden",
+     "轉接",
+     1
+    ],
+    [
+     "afdeling",
+     "部門",
+     1
+    ],
+    [
+     "pauze",
+     "休息",
+     1
+    ],
+    [
+     "beller",
+     "來電者",
+     1
+    ],
+    [
+     "nummer",
+     "號碼",
+     1
+    ],
+    [
+     "regel",
+     "規則",
+     1
+    ],
+    [
+     "linksaf / rechtsaf / rechtdoor",
+     "左轉／右轉／直走",
+     1
+    ],
+    [
+     "de brug",
+     "橋",
+     1
+    ],
+    [
+     "de parkeerplaats voor bezoekers",
+     "訪客停車場",
+     1
+    ],
+    [
+     "de parkeergarage",
+     "室內停車場",
+     1
+    ],
+    [
+     "aan de overkant van de weg",
+     "在馬路對面",
+     1
+    ],
+    [
+     "de groepsopdracht",
+     "小組作業",
+     1
+    ],
+    [
+     "inleveren",
+     "繳交",
+     1
+    ],
+    [
+     "samen doen",
+     "一起做",
+     1
+    ],
+    [
+     "afspreken",
+     "約（時間／碰面）",
+     1
+    ],
+    [
+     "het liefst",
+     "最好是、最希望",
+     1
+    ],
+    [
+     "werken",
+     "工作",
+     1
+    ],
+    [
+     "garage",
+     "車庫",
+     1
+    ],
+    [
+     "monteur",
+     "技師",
+     1
+    ],
+    [
+     "auto",
+     "汽車",
+     1
+    ],
+    [
+     "repareren",
+     "修理",
+     1
+    ],
+    [
+     "eigenaar",
+     "擁有者",
+     1
+    ],
+    [
+     "haast",
+     "急",
+     1
+    ],
+    [
+     "deuren",
+     "門",
+     1
+    ],
+    [
+     "afspraak",
+     "約會",
+     1
+    ],
+    [
+     "school",
+     "學校",
+     1
+    ],
+    [
+     "hulp",
+     "幫助",
+     1
+    ],
+    [
+     "thee",
+     "茶",
+     1
+    ],
+    [
+     "vriendinnen",
+     "女朋友",
+     1
+    ],
+    [
+     "het voicemailbericht",
+     "語音留言",
+     1
+    ],
+    [
+     "afgesproken",
+     "約好的（afspreken 的過去分詞）",
+     1
+    ],
+    [
+     "gesloten",
+     "關閉的、沒營業的",
+     1
+    ],
+    [
+     "reserveren",
+     "訂位",
+     1
+    ],
+    [
+     "de bijeenkomst",
+     "聚會、活動",
+     1
+    ],
+    [
+     "het openbaar vervoer",
+     "大眾運輸",
+     1
+    ]
+   ],
+   "questions": [
+    {
+     "q_nl": "Wat moet hij doen bij de groene brug?",
+     "q_zh": "到了綠色的橋，他要怎麼走？"
+    },
+    {
+     "q_nl": "Waar kan hij het beste parkeren?",
+     "q_zh": "他最好停在哪裡？"
+    },
+    {
+     "q_nl": "Welke vraag moeten Nika en Marcus samen maken?",
+     "q_zh": "哪一題是 Nika 和 Marcus 要一起做的？"
+    },
+    {
+     "q_nl": "Welke dag wil Marcus afspreken?",
+     "q_zh": "Marcus 想約哪一天碰面？"
+    },
+    {
+     "q_nl": "Waar wil Zineb eten?",
+     "q_zh": "Zineb 想在哪裡吃飯？"
+    },
+    {
+     "q_nl": "Hoe laat wil Zineb afspreken?",
+     "q_zh": "Zineb 想約幾點？"
+    },
+    {
+     "q_nl": "Wie is Moerad?",
+     "q_zh": "Moerad 是誰？"
+    },
+    {
+     "q_nl": "Hoe gaan George en Chanti naar de bijeenkomst?",
+     "q_zh": "George 和 Chanti 怎麼去這個活動？"
+    },
+    {
+     "q_nl": "Hoe laat wil George morgenochtend bij Chanti zijn?",
+     "q_zh": "George 明天早上幾點要到 Chanti 家？"
+    },
+    {
+     "q_nl": "Chanti moet een berichtje sturen. Wat moet zij in het berichtje zetten?",
+     "q_zh": "Chanti 要傳訊息。她要在訊息裡寫什麼？"
+    }
+   ]
+  },
+  {
+   "key": "school",
+   "emoji": "🎓",
+   "label": "學校・課程",
+   "scenes": [
+    {
+     "vid": "6IPSJbEwluw",
+     "n": 1,
+     "title_zh": "學校介紹與家長聯繫",
+     "kind": "對話",
+     "link": "output/6IPSJbEwluw/exam.html"
+    },
+    {
+     "vid": "AMVy2zPNLso",
+     "n": 5,
+     "title_zh": "同學聊怎麼準備考試",
+     "kind": "對話",
+     "link": "output/AMVy2zPNLso/exam.html#scene-5"
+    },
+    {
+     "vid": "CYPKuPAZt9E",
+     "n": 1,
+     "title_zh": "農場與自然",
+     "kind": "短句練習",
+     "link": "output/CYPKuPAZt9E/exam.html"
+    },
+    {
+     "vid": "DLKjW7fqyDU",
+     "n": 1,
+     "title_zh": "英語課堂的寫作指導",
+     "kind": "對話",
+     "link": "output/DLKjW7fqyDU/exam.html"
+    },
+    {
+     "vid": "QZ37MHN3NyE",
+     "n": 1,
+     "title_zh": "荷蘭文基礎聽力練習",
+     "kind": "短句練習",
+     "link": "output/QZ37MHN3NyE/exam.html"
+    },
+    {
+     "vid": "S1Jkiew7ovQ",
+     "n": 1,
+     "title_zh": "學校選擇與課程介紹",
+     "kind": "對話",
+     "link": "output/S1Jkiew7ovQ/exam.html"
+    },
+    {
+     "vid": "_iC1Pooi2UA",
+     "n": 9,
+     "title_zh": "寫作課老師交代事項",
+     "kind": "對話",
+     "link": "output/_iC1Pooi2UA/exam.html#scene-9"
+    },
+    {
+     "vid": "gIqFonNsQZ8",
+     "n": 1,
+     "title_zh": "幫助準備國王日早餐",
+     "kind": "對話",
+     "link": "output/gIqFonNsQZ8/exam.html"
+    },
+    {
+     "vid": "mock3_a2_2026",
+     "n": 6,
+     "title_zh": "Steve 留言：今天上課內容＋作業",
+     "kind": "語音留言",
+     "link": "output/mock3_a2_2026/exam.html#scene-6"
+    }
+   ],
+   "vocab": [
+    [
+     "ouders",
+     "家長",
+     2
+    ],
+    [
+     "kind",
+     "孩子",
+     2
+    ],
+    [
+     "cursus",
+     "課程",
+     2
+    ],
+    [
+     "docent",
+     "老師",
+     2
+    ],
+    [
+     "woordenboek",
+     "字典",
+     2
+    ],
+    [
+     "presentatie",
+     "簡報",
+     1
+    ],
+    [
+     "schoolgids",
+     "學校指南",
+     1
+    ],
+    [
+     "website",
+     "網站",
+     1
+    ],
+    [
+     "contact",
+     "聯繫",
+     1
+    ],
+    [
+     "mentor",
+     "導師",
+     1
+    ],
+    [
+     "informatie",
+     "資訊",
+     1
+    ],
+    [
+     "cijfers",
+     "成績",
+     1
+    ],
+    [
+     "huiswerk",
+     "作業",
+     1
+    ],
+    [
+     "excursies",
+     "校外教學",
+     1
+    ],
+    [
+     "rapporten",
+     "報告",
+     1
+    ],
+    [
+     "roosters",
+     "課表",
+     1
+    ],
+    [
+     "bericht",
+     "訊息",
+     1
+    ],
+    [
+     "bellen",
+     "打電話",
+     1
+    ],
+    [
+     "een drukke tijd",
+     "忙碌的時期",
+     1
+    ],
+    [
+     "een planning maken",
+     "做規劃／排計畫",
+     1
+    ],
+    [
+     "een tip geven",
+     "給建議、給訣竅",
+     1
+    ],
+    [
+     "de vertraging",
+     "誤點、延誤",
+     1
+    ],
+    [
+     "extra",
+     "額外的",
+     1
+    ],
+    [
+     "het graan",
+     "穀物",
+     1
+    ],
+    [
+     "de boerderij",
+     "農場",
+     1
+    ],
+    [
+     "de koe",
+     "牛",
+     1
+    ],
+    [
+     "het paard",
+     "馬",
+     1
+    ],
+    [
+     "het ijs",
+     "冰",
+     1
+    ],
+    [
+     "het gras",
+     "草",
+     1
+    ],
+    [
+     "de stal",
+     "穀倉",
+     1
+    ],
+    [
+     "de kip",
+     "雞",
+     1
+    ],
+    [
+     "de hond",
+     "狗",
+     1
+    ],
+    [
+     "het ei",
+     "蛋",
+     1
+    ],
+    [
+     "de boer",
+     "農夫",
+     1
+    ],
+    [
+     "het schaap",
+     "羊",
+     1
+    ],
+    [
+     "de tent",
+     "帳篷",
+     1
+    ],
+    [
+     "de wijn",
+     "酒",
+     1
+    ],
+    [
+     "de ster",
+     "星星",
+     1
+    ],
+    [
+     "medecursist",
+     "同學",
+     1
+    ],
+    [
+     "schrijfopdracht",
+     "寫作任務",
+     1
+    ]
+   ],
+   "questions": [
+    {
+     "q_nl": "Welke tip geeft Chris als eerste aan Mira?",
+     "q_zh": "Chris 給 Mira 的「第一個」建議是什麼？"
+    },
+    {
+     "q_nl": "Wat zegt Chris over vertraging?",
+     "q_zh": "關於誤點，Chris 怎麼說？"
+    },
+    {
+     "q_nl": "Wat vond de man van de les vandaag?",
+     "q_zh": "那個男的（Steve）覺得今天的課怎樣？"
+    },
+    {
+     "q_nl": "Wat moet Ellen meenemen naar school?",
+     "q_zh": "Ellen 要帶什麼來學校？"
+    }
+   ]
+  },
+  {
+   "key": "geld",
+   "emoji": "🏦",
+   "label": "銀行・金錢",
+   "scenes": [
+    {
+     "vid": "mock3_a2_2026",
+     "n": 7,
+     "title_zh": "Sabine 弄丟提款卡到銀行辦新卡",
+     "kind": "對話",
+     "link": "output/mock3_a2_2026/exam.html#scene-7"
+    }
+   ],
+   "vocab": [
+    [
+     "de pinpas",
+     "提款卡／金融卡",
+     1
+    ],
+    [
+     "gestolen",
+     "被偷的",
+     1
+    ],
+    [
+     "kwijt zijn",
+     "弄丟了",
+     1
+    ],
+    [
+     "de pas blokkeren",
+     "把卡片停用",
+     1
+    ],
+    [
+     "geld opnemen",
+     "領錢",
+     1
+    ]
+   ],
+   "questions": [
+    {
+     "q_nl": "Waarom moest Sabine een nieuwe pinpas aanvragen?",
+     "q_zh": "Sabine 為什麼要辦新提款卡？"
+    },
+    {
+     "q_nl": "Sinds wanneer heeft Sabine geen pinpas meer?",
+     "q_zh": "Sabine 從什麼時候開始沒有提款卡？"
+    },
+    {
+     "q_nl": "Wat moet Sabine nu doen?",
+     "q_zh": "Sabine 現在還要做什麼？"
+    }
+   ]
+  },
+  {
+   "key": "vrije_tijd",
+   "emoji": "🎉",
+   "label": "休閒・活動・節日",
+   "scenes": [
+    {
+     "vid": "jc7V08Xc9IQ",
+     "n": 1,
+     "title_zh": "選擇學校的考量",
+     "kind": "對話",
+     "link": "output/jc7V08Xc9IQ/exam.html"
+    },
+    {
+     "vid": "mock3_a2_2026",
+     "n": 1,
+     "title_zh": "街頭推銷健身房",
+     "kind": "對話",
+     "link": "output/mock3_a2_2026/exam.html#scene-1"
+    },
+    {
+     "vid": "mock3_a2_2026",
+     "n": 10,
+     "title_zh": "新聞：Barendrecht 新電影院開幕",
+     "kind": "電視新聞",
+     "link": "output/mock3_a2_2026/exam.html#scene-10"
+    }
+   ],
+   "vocab": [
+    [
+     "school",
+     "學校",
+     1
+    ],
+    [
+     "kind",
+     "孩子",
+     1
+    ],
+    [
+     "keuze",
+     "選擇",
+     1
+    ],
+    [
+     "informatie",
+     "資訊",
+     1
+    ],
+    [
+     "ouder",
+     "家長",
+     1
+    ],
+    [
+     "geloof",
+     "信仰",
+     1
+    ],
+    [
+     "openbare school",
+     "公立學校",
+     1
+    ],
+    [
+     "huiswerk",
+     "家庭作業",
+     1
+    ],
+    [
+     "vakanties",
+     "假期",
+     1
+    ],
+    [
+     "speeluur",
+     "遊戲時間",
+     1
+    ],
+    [
+     "knutselen",
+     "手工藝",
+     1
+    ],
+    [
+     "puzzelen",
+     "拼圖",
+     1
+    ],
+    [
+     "muziek",
+     "音樂",
+     1
+    ],
+    [
+     "sport",
+     "運動",
+     1
+    ],
+    [
+     "communicatie",
+     "溝通",
+     1
+    ],
+    [
+     "de folder",
+     "宣傳單",
+     1
+    ],
+    [
+     "de sportschool",
+     "健身房",
+     1
+    ],
+    [
+     "gratis",
+     "免費的",
+     1
+    ],
+    [
+     "in de buurt",
+     "在附近",
+     1
+    ],
+    [
+     "meegeven",
+     "請對方帶走（給某人帶）",
+     1
+    ],
+    [
+     "de bioscoop",
+     "電影院",
+     1
+    ],
+    [
+     "de zaal (zalen)",
+     "廳（複數 zalen）",
+     1
+    ],
+    [
+     "de kinderzaal",
+     "兒童專用廳",
+     1
+    ],
+    [
+     "3D-zaal",
+     "3D 廳",
+     1
+    ],
+    [
+     "de openingsactie",
+     "開幕優惠活動",
+     1
+    ],
+    [
+     "het kaartje",
+     "門票",
+     1
+    ],
+    [
+     "door de weeks",
+     "平日",
+     1
+    ],
+    [
+     "in het weekend",
+     "週末",
+     1
+    ]
+   ],
+   "questions": [
+    {
+     "q_nl": "Wat vertelt de man over de sportschool?",
+     "q_zh": "那個男的告訴她關於健身房什麼？"
+    },
+    {
+     "q_nl": "Waarom wil de vrouw niet naar de sportschool gaan?",
+     "q_zh": "為什麼女的不想去這間健身房？"
+    },
+    {
+     "q_nl": "Waarom is de nieuwe bioscoop zo speciaal?",
+     "q_zh": "新電影院為什麼這麼特別？"
+    },
+    {
+     "q_nl": "Hoeveel gewone zalen heeft Bioscoop Gloob?",
+     "q_zh": "Bioscoop Gloob 有幾個一般廳？"
+    },
+    {
+     "q_nl": "Silvana is 30 jaar. Ze wil op donderdag 3 maart naar bioscoop Gloob. Hoeveel moet ze betalen?",
+     "q_zh": "Silvana 30 歲。她想週四 3 月 3 日去 Gloob，要付多少？"
+    }
+   ]
+  },
+  {
+   "key": "overig",
+   "emoji": "📌",
+   "label": "其他生活情境",
+   "scenes": [
+    {
+     "vid": "WDcdn8N_oRk",
+     "n": 1,
+     "title_zh": "如何緩解咳嗽和感冒",
+     "kind": "對話",
+     "link": "output/WDcdn8N_oRk/exam.html"
+    },
+    {
+     "vid": "WqQRYFLxoDc",
+     "n": 1,
+     "title_zh": "如何處理燒傷",
+     "kind": "對話",
+     "link": "output/WqQRYFLxoDc/exam.html"
+    },
+    {
+     "vid": "mock3_a2_2026",
+     "n": 5,
+     "title_zh": "Johnny 在服飾店試褲子",
+     "kind": "對話",
+     "link": "output/mock3_a2_2026/exam.html#scene-5"
+    }
+   ],
+   "vocab": [
+    [
+     "koekje",
+     "餅乾",
+     1
+    ],
+    [
+     "hoesten",
+     "咳嗽",
+     1
+    ],
+    [
+     "honing",
+     "蜂蜜",
+     1
+    ],
+    [
+     "zuurtje",
+     "糖果",
+     1
+    ],
+    [
+     "stomen",
+     "蒸汽療法",
+     1
+    ],
+    [
+     "verkouden",
+     "感冒",
+     1
+    ],
+    [
+     "droge hoest",
+     "乾咳",
+     1
+    ],
+    [
+     "paracetamol",
+     "撲熱息痛",
+     1
+    ],
+    [
+     "hoofdpijn",
+     "頭痛",
+     1
+    ],
+    [
+     "spierpijn",
+     "肌肉疼痛",
+     1
+    ],
+    [
+     "koorts",
+     "發燒",
+     1
+    ],
+    [
+     "bed",
+     "床",
+     1
+    ],
+    [
+     "thee",
+     "茶",
+     1
+    ],
+    [
+     "ontspanningsoefeningen",
+     "放鬆練習",
+     1
+    ],
+    [
+     "tip",
+     "建議",
+     1
+    ],
+    [
+     "brandwond",
+     "燒傷",
+     1
+    ],
+    [
+     "naald",
+     "針",
+     1
+    ],
+    [
+     "brandblaar",
+     "水泡",
+     1
+    ],
+    [
+     "water",
+     "水",
+     1
+    ],
+    [
+     "lauw",
+     "溫水",
+     1
+    ],
+    [
+     "zacht",
+     "柔和的",
+     1
+    ],
+    [
+     "harde straal",
+     "強烈的水流",
+     1
+    ],
+    [
+     "onderhouden",
+     "維持",
+     1
+    ],
+    [
+     "rustig",
+     "冷靜",
+     1
+    ],
+    [
+     "15 minuten",
+     "15分鐘",
+     1
+    ],
+    [
+     "de pashokjes / paskamers",
+     "試衣間",
+     1
+    ],
+    [
+     "tegenover de kassa",
+     "在收銀台對面",
+     1
+    ],
+    [
+     "passen",
+     "試穿",
+     1
+    ],
+    [
+     "de maat",
+     "尺寸／號數",
+     1
+    ],
+    [
+     "te groot / te klein",
+     "太大／太小",
+     1
+    ]
+   ],
+   "questions": [
+    {
+     "q_nl": "Waar zijn de pashokjes?",
+     "q_zh": "試衣間在哪裡？"
+    },
+    {
+     "q_nl": "Welke maat is goed voor Johnny?",
+     "q_zh": "哪個尺寸適合 Johnny？"
+    }
+   ]
+  }
+ ]
+}

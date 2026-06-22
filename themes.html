@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>🗺️ 場景圖鑑 — A2 Listening Hub</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--bg:#0a0a0f;--card:#15151c;--card2:#1f1f29;--line:rgba(255,255,255,0.08);
+    --text:#e8e8f0;--text2:#9ca3af;--dim:#6b7280;--ok:#4ade80;--ring:#5eead4;--accent:#fb923c;--blue:#60a5fa}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font:14.5px/1.55 -apple-system,"PingFang TC","Hiragino Sans",sans-serif}
+  .wrap{max-width:720px;margin:0 auto;padding:16px 14px 80px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+  header a.back{color:var(--text2);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:0;font-size:18px;flex:1}
+  .intro{font-size:12.5px;color:var(--text2);margin-bottom:14px}
+
+  .theme{background:var(--card);border:1px solid var(--line);border-radius:13px;margin-bottom:10px;overflow:hidden}
+  .theme-head{display:flex;align-items:center;gap:11px;padding:14px 15px;cursor:pointer}
+  .theme-head .em{font-size:24px}
+  .theme-head .nm{flex:1;font-size:16px;font-weight:800}
+  .theme-head .ct{font-size:12px;color:var(--text2);font-weight:700}
+  .theme-head .chev{color:var(--dim);transition:transform .2s}
+  .theme.open .theme-head .chev{transform:rotate(180deg)}
+  .theme-body{display:none;padding:0 15px 15px;border-top:1px solid var(--line)}
+  .theme.open .theme-body{display:block}
+
+  .sec-lbl{font-size:12px;font-weight:800;color:var(--accent);margin:14px 0 7px;letter-spacing:.3px}
+  table.vc{width:100%;border-collapse:collapse;font-size:13px}
+  table.vc td{padding:4px 8px;border:1px solid rgba(255,255,255,0.06);vertical-align:top}
+  table.vc td.nl{font-weight:700;width:46%}
+  table.vc td.zh{color:var(--text2)}
+  table.vc tr:nth-child(even) td{background:rgba(255,255,255,0.02)}
+
+  .q{font-size:13px;padding:7px 0;border-bottom:1px dotted var(--line)}
+  .q .qnl{font-weight:600}
+  .q .qzh{color:var(--ring);font-size:12px;margin-top:2px}
+
+  .scenes{display:flex;flex-direction:column;gap:7px;margin-top:4px}
+  .scene-link{display:flex;align-items:center;gap:9px;padding:9px 11px;background:var(--card2);
+    border:1px solid var(--line);border-radius:9px;text-decoration:none;color:var(--text)}
+  .scene-link:active{border-color:var(--ring)}
+  .scene-link .sk{font-size:10px;color:var(--dim);flex:none}
+  .scene-link .st{flex:1;font-size:13px;font-weight:600}
+  .scene-link .go{color:var(--ring);font-weight:800}
+  .empty{text-align:center;padding:50px 20px;color:var(--text2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><a class="back" href="index.html">← 返回</a><h1>🗺️ 場景圖鑑</h1></header>
+  <div class="intro">用<b>場景（主題）</b>突破：每個主題的<b>常出單字 ＋ 常見問句 ＋ 相關場景</b>。先掌握一個主題的詞和問法，那類題目就會變簡單。</div>
+  <div id="list"></div>
+</div>
+<script>
+function esc(t){return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+async function load(){
+  let data; try{ data=await(await fetch('output/themes.json')).json(); }
+  catch(e){ document.getElementById('list').innerHTML='<div class="empty">載入失敗</div>'; return; }
+  const box=document.getElementById('list');
+  box.innerHTML=(data.themes||[]).map((t,ti)=>{
+    const vc=(t.vocab||[]).map(v=>`<tr><td class="nl">${esc(v[0])}</td><td class="zh">${esc(v[1])}</td></tr>`).join('');
+    const qs=(t.questions||[]).map(q=>`<div class="q"><div class="qnl">${esc(q.q_nl)}</div><div class="qzh">${esc(q.q_zh)}</div></div>`).join('');
+    const scs=(t.scenes||[]).map(s=>`<a class="scene-link" href="${esc(s.link)}">
+        <span class="sk">${esc(s.kind||'')}</span><span class="st">${esc(s.title_zh||s.vid)}</span><span class="go">聽 →</span></a>`).join('');
+    return `<div class="theme" data-i="${ti}">
+      <div class="theme-head" onclick="toggle(${ti})">
+        <span class="em">${t.emoji}</span><span class="nm">${esc(t.label)}</span>
+        <span class="ct">${(t.scenes||[]).length} 場景</span><span class="chev">▾</span>
+      </div>
+      <div class="theme-body">
+        <div class="sec-lbl">📚 常出單字（${(t.vocab||[]).length}）</div>
+        <table class="vc">${vc}</table>
+        ${qs?`<div class="sec-lbl">❓ 常見問句</div>${qs}`:''}
+        <div class="sec-lbl">🎧 相關場景（${(t.scenes||[]).length}）— 點進去精聽</div>
+        <div class="scenes">${scs}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+function toggle(i){ document.querySelector(`.theme[data-i="${i}"]`).classList.toggle('open'); }
+load();
+</script>
+</body>
+</html>
