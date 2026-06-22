@@ -1,0 +1,212 @@
+{
+ "video_id": "orig_05",
+ "title": "原創模擬 05：餐廳訂位（餐飲・餐廳）",
+ "channel": "原創 · 可商用 A2 模擬",
+ "duration": 24,
+ "exam_type": "A2 Luisteren 原創模擬",
+ "intro": "Lisa 打電話到餐廳訂週六的位子。",
+ "n_questions": 3,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "餐廳訂位",
+   "title_nl": "Een tafel reserveren",
+   "kind": "電話對話",
+   "context_zh": "Lisa 打電話到餐廳訂週六的位子。",
+   "start": "0:00",
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Restaurant De Tuin, goedenavond.",
+     "zh": "花園餐廳，晚安。"
+    },
+    {
+     "t": "0:02",
+     "nl": "Goedenavond. Ik wil graag een tafel reserveren voor zaterdag.",
+     "zh": "晚安。我想訂這週六的位子。"
+    },
+    {
+     "t": "0:06",
+     "nl": "Voor hoeveel personen?",
+     "zh": "幾位？"
+    },
+    {
+     "t": "0:08",
+     "nl": "Voor vier personen, om zeven uur.",
+     "zh": "四位，七點。"
+    },
+    {
+     "t": "0:11",
+     "nl": "Zeven uur is helaas vol. Acht uur kan wel.",
+     "zh": "七點很抱歉滿了。八點可以。"
+    },
+    {
+     "t": "0:14",
+     "nl": "Acht uur is ook prima.",
+     "zh": "八點也好。"
+    },
+    {
+     "t": "0:16",
+     "nl": "Op welke naam mag ik reserveren?",
+     "zh": "用什麼名字訂位？"
+    },
+    {
+     "t": "0:18",
+     "nl": "Op naam van Lisa Smit. En we zitten graag bij het raam.",
+     "zh": "用 Lisa Smit。我們想坐窗邊。"
+    },
+    {
+     "t": "0:22",
+     "nl": "Ik noteer het. Tot zaterdag!",
+     "zh": "我記下了。週六見！"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "een tafel reserveren",
+     "zh": "訂位"
+    },
+    {
+     "nl": "voor hoeveel personen",
+     "zh": "幾位"
+    },
+    {
+     "nl": "helaas",
+     "zh": "很遺憾"
+    },
+    {
+     "nl": "vol",
+     "zh": "客滿"
+    },
+    {
+     "nl": "bij het raam",
+     "zh": "窗邊"
+    },
+    {
+     "nl": "noteren",
+     "zh": "記下"
+    },
+    {
+     "nl": "op naam van",
+     "zh": "用…的名字"
+    },
+    {
+     "nl": "prima",
+     "zh": "很好"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik wil graag een tafel reserveren.",
+     "zh": "我想訂位。",
+     "note": "reserveren 原形放句尾。"
+    },
+    {
+     "nl": "Voor hoeveel personen?",
+     "zh": "幾位？",
+     "note": "訂位固定問法。"
+    },
+    {
+     "nl": "We zitten graag bij het raam.",
+     "zh": "我們想坐窗邊。",
+     "note": "graag 表偏好。"
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "t": "0:02",
+     "q_nl": "Voor wanneer wil Lisa reserveren?",
+     "q_zh": "Lisa 想訂哪天？",
+     "options": [
+      {
+       "nl": "Voor vrijdag.",
+       "zh": "週五。"
+      },
+      {
+       "nl": "Voor zaterdag.",
+       "zh": "週六。"
+      },
+      {
+       "nl": "Voor zondag.",
+       "zh": "週日。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:02",
+       "nl": "Goedenavond. Ik wil graag een tafel reserveren voor zaterdag.",
+       "zh": "晚安。我想訂這週六的位子。"
+      }
+     ],
+     "explain": "“voor zaterdag”。"
+    },
+    {
+     "n": 2,
+     "t": "0:11",
+     "q_nl": "Hoe laat krijgt Lisa een tafel?",
+     "q_zh": "Lisa 訂到幾點？",
+     "options": [
+      {
+       "nl": "Om zeven uur.",
+       "zh": "七點。"
+      },
+      {
+       "nl": "Om acht uur.",
+       "zh": "八點。"
+      },
+      {
+       "nl": "Om negen uur.",
+       "zh": "九點。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:11",
+       "nl": "Zeven uur is helaas vol. Acht uur kan wel.",
+       "zh": "七點很抱歉滿了。八點可以。"
+      },
+      {
+       "t": "0:14",
+       "nl": "Acht uur is ook prima.",
+       "zh": "八點也好。"
+      }
+     ],
+     "explain": "七點客滿 → 八點 → “ook prima”。",
+     "trap": "七點是原本想要但客滿。"
+    },
+    {
+     "n": 3,
+     "t": "0:18",
+     "q_nl": "Wat vraagt Lisa nog extra?",
+     "q_zh": "Lisa 還多要求什麼？",
+     "options": [
+      {
+       "nl": "Een tafel bij het raam.",
+       "zh": "窗邊的桌子。"
+      },
+      {
+       "nl": "Een kinderstoel.",
+       "zh": "兒童椅。"
+      },
+      {
+       "nl": "Het menu.",
+       "zh": "菜單。"
+      }
+     ],
+     "answer": 0,
+     "source": [
+      {
+       "t": "0:18",
+       "nl": "Op naam van Lisa Smit. En we zitten graag bij het raam.",
+       "zh": "用 Lisa Smit。我們想坐窗邊。"
+      }
+     ],
+     "explain": "“we zitten graag bij het raam”。"
+    }
+   ]
+  }
+ ]
+}

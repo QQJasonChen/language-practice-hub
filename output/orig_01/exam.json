@@ -1,0 +1,214 @@
+{
+ "video_id": "orig_01",
+ "title": "原創模擬 01：打電話跟家醫預約（醫療・預約）",
+ "channel": "原創 · 可商用 A2 模擬",
+ "duration": 31,
+ "exam_type": "A2 Luisteren 原創模擬",
+ "intro": "Anna 打電話到家醫診所預約，因為她頭痛又發燒。",
+ "n_questions": 3,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "打電話跟家醫預約",
+   "title_nl": "Een afspraak bij de huisarts",
+   "kind": "電話對話",
+   "context_zh": "Anna 打電話到家醫診所預約，因為她頭痛又發燒。",
+   "start": "0:00",
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Huisartsenpraktijk De Linden, goedemorgen. Waarmee kan ik u helpen?",
+     "zh": "林登家醫診所，早安。請問需要什麼協助？"
+    },
+    {
+     "t": "0:04",
+     "nl": "Goedemorgen. Ik wil graag een afspraak maken. Ik heb al een paar dagen hoofdpijn en koorts.",
+     "zh": "早安。我想預約。我已經頭痛發燒好幾天了。"
+    },
+    {
+     "t": "0:10",
+     "nl": "Dat is vervelend. Kunt u vandaag om half drie komen?",
+     "zh": "真不舒服。您今天兩點半能來嗎？"
+    },
+    {
+     "t": "0:13",
+     "nl": "Half drie is lastig, want dan werk ik nog. Kan het ook later?",
+     "zh": "兩點半不方便，因為那時我還在上班。能晚一點嗎？"
+    },
+    {
+     "t": "0:18",
+     "nl": "Om kwart over vier is er ook plek.",
+     "zh": "四點十五分也有空檔。"
+    },
+    {
+     "t": "0:20",
+     "nl": "Ja, dat is goed.",
+     "zh": "好，那可以。"
+    },
+    {
+     "t": "0:22",
+     "nl": "Mag ik uw naam en geboortedatum?",
+     "zh": "可以給我您的名字和出生日期嗎？"
+    },
+    {
+     "t": "0:24",
+     "nl": "Ik ben Anna de Vries, twaalf maart negentienhonderdnegentig.",
+     "zh": "我是 Anna de Vries，1990 年 3 月 12 日。"
+    },
+    {
+     "t": "0:28",
+     "nl": "Dank u wel. Tot vanmiddag, mevrouw De Vries.",
+     "zh": "謝謝。下午見，de Vries 女士。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "een afspraak maken",
+     "zh": "預約"
+    },
+    {
+     "nl": "de hoofdpijn",
+     "zh": "頭痛"
+    },
+    {
+     "nl": "de koorts",
+     "zh": "發燒"
+    },
+    {
+     "nl": "vervelend",
+     "zh": "難受、麻煩"
+    },
+    {
+     "nl": "lastig",
+     "zh": "不方便"
+    },
+    {
+     "nl": "de plek",
+     "zh": "空檔、位置"
+    },
+    {
+     "nl": "de geboortedatum",
+     "zh": "出生日期"
+    },
+    {
+     "nl": "de huisarts",
+     "zh": "家庭醫生"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik wil graag een afspraak maken.",
+     "zh": "我想預約。",
+     "note": "wil + graag 表禮貌的「想要」，主要動詞 maken 放句尾。"
+    },
+    {
+     "nl": "Kunt u vandaag om half drie komen?",
+     "zh": "您今天兩點半能來嗎？",
+     "note": "疑問句助動詞 Kunt 放最前，主要動詞 komen 丟到句尾。"
+    },
+    {
+     "nl": "Kan het ook later?",
+     "zh": "能晚一點嗎？",
+     "note": "het 當抽象主詞「這件事」。"
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "t": "0:04",
+     "q_nl": "Waarom belt Anna de huisartsenpraktijk?",
+     "q_zh": "Anna 為什麼打給家醫診所？",
+     "options": [
+      {
+       "nl": "Om een afspraak af te zeggen.",
+       "zh": "為了取消預約。"
+      },
+      {
+       "nl": "Om een afspraak te maken.",
+       "zh": "為了預約。"
+      },
+      {
+       "nl": "Om de uitslag te vragen.",
+       "zh": "為了問檢查結果。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:04",
+       "nl": "Goedemorgen. Ik wil graag een afspraak maken. Ik heb al een paar dagen hoofdpijn en koorts.",
+       "zh": "早安。我想預約。我已經頭痛發燒好幾天了。"
+      }
+     ],
+     "explain": "她直說 “Ik wil graag een afspraak maken”，並說頭痛發燒——是要約看診。",
+     "trap": "afzeggen(取消)、uitslag(結果) 都沒出現，別被沒聽到的字嚇到。"
+    },
+    {
+     "n": 2,
+     "t": "0:18",
+     "q_nl": "Hoe laat komt Anna naar de praktijk?",
+     "q_zh": "Anna 幾點到診所？",
+     "options": [
+      {
+       "nl": "Om half drie.",
+       "zh": "兩點半。"
+      },
+      {
+       "nl": "Om kwart over vier.",
+       "zh": "四點十五。"
+      },
+      {
+       "nl": "Om kwart voor drie.",
+       "zh": "兩點四十五。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:18",
+       "nl": "Om kwart over vier is er ook plek.",
+       "zh": "四點十五分也有空檔。"
+      },
+      {
+       "t": "0:20",
+       "nl": "Ja, dat is goed.",
+       "zh": "好，那可以。"
+      }
+     ],
+     "explain": "兩點半她要上班 → 改成 kwart over vier，她回 “dat is goed”。",
+     "trap": "half drie 是她拒絕的時間，不是答案。"
+    },
+    {
+     "n": 3,
+     "t": "0:13",
+     "q_nl": "Waarom kan Anna niet om half drie komen?",
+     "q_zh": "Anna 為什麼兩點半不能來？",
+     "options": [
+      {
+       "nl": "Ze moet dan werken.",
+       "zh": "那時她要上班。"
+      },
+      {
+       "nl": "Ze ligt dan in bed.",
+       "zh": "那時她臥床。"
+      },
+      {
+       "nl": "Ze heeft dan een andere afspraak.",
+       "zh": "那時她有別的約。"
+      }
+     ],
+     "answer": 0,
+     "source": [
+      {
+       "t": "0:13",
+       "nl": "Half drie is lastig, want dan werk ik nog. Kan het ook later?",
+       "zh": "兩點半不方便，因為那時我還在上班。能晚一點嗎？"
+      }
+     ],
+     "explain": "“want dan werk ik nog” = 因為那時我還在工作。",
+     "trap": "她生病沒錯，但「不能來」的原因是工作。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "video_id": "orig_06",
+ "title": "原創模擬 06：市政府辦遷入登記（市政府・登記）",
+ "channel": "原創 · 可商用 A2 模擬",
+ "duration": 25,
+ "exam_type": "A2 Luisteren 原創模擬",
+ "intro": "Ahmed 到市政府登記新地址（搬家）。",
+ "n_questions": 3,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "市政府辦遷入登記",
+   "title_nl": "Bij de gemeente: verhuizing doorgeven",
+   "kind": "櫃台對話",
+   "context_zh": "Ahmed 到市政府登記新地址（搬家）。",
+   "start": "0:00",
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Goedemorgen, waarvoor komt u?",
+     "zh": "早安，您來辦什麼？"
+    },
+    {
+     "t": "0:02",
+     "nl": "Ik ben verhuisd en wil mijn nieuwe adres doorgeven.",
+     "zh": "我搬家了，想登記新地址。"
+    },
+    {
+     "t": "0:05",
+     "nl": "Heeft u een afspraak gemaakt?",
+     "zh": "您有預約嗎？"
+    },
+    {
+     "t": "0:07",
+     "nl": "Nee, dat wist ik niet.",
+     "zh": "沒有，我不知道要預約。"
+    },
+    {
+     "t": "0:09",
+     "nl": "Geen probleem, het is rustig. Heeft u uw identiteitsbewijs bij u?",
+     "zh": "沒關係，現在不忙。您帶證件了嗎？"
+    },
+    {
+     "t": "0:14",
+     "nl": "Ja, mijn paspoort. En hier is mijn huurcontract.",
+     "zh": "帶了，我的護照。這是我的租約。"
+    },
+    {
+     "t": "0:17",
+     "nl": "Prima. Vanaf welke datum woont u er?",
+     "zh": "好。您從哪天開始住那裡？"
+    },
+    {
+     "t": "0:20",
+     "nl": "Vanaf één juni.",
+     "zh": "從 6 月 1 日。"
+    },
+    {
+     "t": "0:22",
+     "nl": "Ik verwerk het meteen. U krijgt een bevestiging per post.",
+     "zh": "我馬上處理。您會收到郵寄確認信。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "verhuizen",
+     "zh": "搬家"
+    },
+    {
+     "nl": "het adres doorgeven",
+     "zh": "登記地址"
+    },
+    {
+     "nl": "de afspraak",
+     "zh": "預約"
+    },
+    {
+     "nl": "het identiteitsbewijs",
+     "zh": "身分證件"
+    },
+    {
+     "nl": "het paspoort",
+     "zh": "護照"
+    },
+    {
+     "nl": "het huurcontract",
+     "zh": "租約"
+    },
+    {
+     "nl": "de bevestiging",
+     "zh": "確認"
+    },
+    {
+     "nl": "per post",
+     "zh": "郵寄"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik wil mijn nieuwe adres doorgeven.",
+     "zh": "我想登記新地址。",
+     "note": "可分動詞 doorgeven，原形整體放句尾。"
+    },
+    {
+     "nl": "Heeft u uw identiteitsbewijs bij u?",
+     "zh": "您帶證件了嗎？",
+     "note": "bij u = 隨身帶著。"
+    },
+    {
+     "nl": "Vanaf welke datum woont u er?",
+     "zh": "從哪天起住那？",
+     "note": "vanaf = 從…起；er 指那地方。"
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "t": "0:02",
+     "q_nl": "Waarvoor komt Ahmed naar de gemeente?",
+     "q_zh": "Ahmed 來市政府辦什麼？",
+     "options": [
+      {
+       "nl": "Om een paspoort aan te vragen.",
+       "zh": "申請護照。"
+      },
+      {
+       "nl": "Om zijn verhuizing door te geven.",
+       "zh": "登記搬家。"
+      },
+      {
+       "nl": "Om te trouwen.",
+       "zh": "結婚登記。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:02",
+       "nl": "Ik ben verhuisd en wil mijn nieuwe adres doorgeven.",
+       "zh": "我搬家了，想登記新地址。"
+      }
+     ],
+     "explain": "“verhuisd … nieuwe adres doorgeven”。",
+     "trap": "他出示護照不代表是來辦護照。"
+    },
+    {
+     "n": 2,
+     "t": "0:05",
+     "q_nl": "Wat is het probleem aan het begin?",
+     "q_zh": "一開始有什麼問題？",
+     "options": [
+      {
+       "nl": "Ahmed heeft geen afspraak.",
+       "zh": "沒預約。"
+      },
+      {
+       "nl": "Ahmed heeft geen paspoort.",
+       "zh": "沒護照。"
+      },
+      {
+       "nl": "De gemeente is gesloten.",
+       "zh": "關門了。"
+      }
+     ],
+     "answer": 0,
+     "source": [
+      {
+       "t": "0:05",
+       "nl": "Heeft u een afspraak gemaakt?",
+       "zh": "您有預約嗎？"
+      },
+      {
+       "t": "0:09",
+       "nl": "Geen probleem, het is rustig. Heeft u uw identiteitsbewijs bij u?",
+       "zh": "沒關係，現在不忙。您帶證件了嗎？"
+      }
+     ],
+     "explain": "問有沒有預約，他說沒有；但因 rustig 不成問題。",
+     "trap": "他有護照；也沒關門。"
+    },
+    {
+     "n": 3,
+     "t": "0:22",
+     "q_nl": "Hoe krijgt Ahmed de bevestiging?",
+     "q_zh": "Ahmed 怎麼收到確認？",
+     "options": [
+      {
+       "nl": "Per e-mail.",
+       "zh": "email。"
+      },
+      {
+       "nl": "Per post.",
+       "zh": "郵寄。"
+      },
+      {
+       "nl": "Per telefoon.",
+       "zh": "電話。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:22",
+       "nl": "Ik verwerk het meteen. U krijgt een bevestiging per post.",
+       "zh": "我馬上處理。您會收到郵寄確認信。"
+      }
+     ],
+     "explain": "“een bevestiging per post”。"
+    }
+   ]
+  }
+ ]
+}

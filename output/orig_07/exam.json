@@ -1,0 +1,213 @@
+{
+ "video_id": "orig_07",
+ "title": "原創模擬 07：報名語言課程（學校・課程）",
+ "channel": "原創 · 可商用 A2 模擬",
+ "duration": 27,
+ "exam_type": "A2 Luisteren 原創模擬",
+ "intro": "Fatima 打電話報名荷蘭文課程。",
+ "n_questions": 3,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "報名語言課程",
+   "title_nl": "Je inschrijven voor een cursus",
+   "kind": "電話對話",
+   "context_zh": "Fatima 打電話報名荷蘭文課程。",
+   "start": "0:00",
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Taalschool Centraal, goedemiddag.",
+     "zh": "中央語言學校，午安。"
+    },
+    {
+     "t": "0:02",
+     "nl": "Hallo, ik wil me inschrijven voor de cursus Nederlands.",
+     "zh": "您好，我想報名荷蘭文課。"
+    },
+    {
+     "t": "0:06",
+     "nl": "Welk niveau zoekt u, A1 of A2?",
+     "zh": "您要哪個級別，A1 還是 A2？"
+    },
+    {
+     "t": "0:09",
+     "nl": "A2. Ik heb A1 vorig jaar gehaald.",
+     "zh": "A2。我去年通過了 A1。"
+    },
+    {
+     "t": "0:12",
+     "nl": "Mooi. De lessen zijn op dinsdag- en donderdagavond.",
+     "zh": "很好。課在週二和週四晚上。"
+    },
+    {
+     "t": "0:16",
+     "nl": "Donderdag is moeilijk voor mij. Is er ook een andere groep?",
+     "zh": "週四對我有點難。有別的班嗎？"
+    },
+    {
+     "t": "0:19",
+     "nl": "Er is ook een groep op zaterdagochtend.",
+     "zh": "也有週六早上的班。"
+    },
+    {
+     "t": "0:22",
+     "nl": "Dat is perfect. Wat kost de cursus?",
+     "zh": "太好了。課程多少錢？"
+    },
+    {
+     "t": "0:25",
+     "nl": "Tweehonderd euro voor tien weken.",
+     "zh": "十週兩百歐元。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "zich inschrijven",
+     "zh": "報名"
+    },
+    {
+     "nl": "de cursus",
+     "zh": "課程"
+    },
+    {
+     "nl": "het niveau",
+     "zh": "級別"
+    },
+    {
+     "nl": "halen",
+     "zh": "通過(考試)"
+    },
+    {
+     "nl": "de les",
+     "zh": "課"
+    },
+    {
+     "nl": "de groep",
+     "zh": "班級"
+    },
+    {
+     "nl": "de ochtend",
+     "zh": "早上"
+    },
+    {
+     "nl": "kosten",
+     "zh": "花費"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik wil me inschrijven voor de cursus.",
+     "zh": "我想報名課程。",
+     "note": "zich inschrijven voor = 報名…。"
+    },
+    {
+     "nl": "Welk niveau zoekt u?",
+     "zh": "您找哪個級別？",
+     "note": "Welk + 中性名詞 niveau。"
+    },
+    {
+     "nl": "Wat kost de cursus?",
+     "zh": "課程多少錢？",
+     "note": "Wat kost …? 問價格。"
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "t": "0:09",
+     "q_nl": "Welk niveau wil Fatima volgen?",
+     "q_zh": "Fatima 想上哪個級別？",
+     "options": [
+      {
+       "nl": "A1.",
+       "zh": "A1。"
+      },
+      {
+       "nl": "A2.",
+       "zh": "A2。"
+      },
+      {
+       "nl": "B1.",
+       "zh": "B1。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:09",
+       "nl": "A2. Ik heb A1 vorig jaar gehaald.",
+       "zh": "A2。我去年通過了 A1。"
+      }
+     ],
+     "explain": "“A2. Ik heb A1 … gehaald”。",
+     "trap": "A1 是她已通過的。"
+    },
+    {
+     "n": 2,
+     "t": "0:16",
+     "q_nl": "Wanneer gaat Fatima naar de les?",
+     "q_zh": "Fatima 哪時上課？",
+     "options": [
+      {
+       "nl": "Dinsdagavond.",
+       "zh": "週二晚上。"
+      },
+      {
+       "nl": "Donderdagavond.",
+       "zh": "週四晚上。"
+      },
+      {
+       "nl": "Zaterdagochtend.",
+       "zh": "週六早上。"
+      }
+     ],
+     "answer": 2,
+     "source": [
+      {
+       "t": "0:16",
+       "nl": "Donderdag is moeilijk voor mij. Is er ook een andere groep?",
+       "zh": "週四對我有點難。有別的班嗎？"
+      },
+      {
+       "t": "0:19",
+       "nl": "Er is ook een groep op zaterdagochtend.",
+       "zh": "也有週六早上的班。"
+      }
+     ],
+     "explain": "週四對她難 → 改週六早上 “perfect”。",
+     "trap": "週二/週四是原本的班。"
+    },
+    {
+     "n": 3,
+     "t": "0:25",
+     "q_nl": "Wat kost de cursus?",
+     "q_zh": "課程多少錢？",
+     "options": [
+      {
+       "nl": "Honderd euro.",
+       "zh": "一百歐元。"
+      },
+      {
+       "nl": "Tweehonderd euro.",
+       "zh": "兩百歐元。"
+      },
+      {
+       "nl": "Driehonderd euro.",
+       "zh": "三百歐元。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:25",
+       "nl": "Tweehonderd euro voor tien weken.",
+       "zh": "十週兩百歐元。"
+      }
+     ],
+     "explain": "“Tweehonderd euro voor tien weken”。"
+    }
+   ]
+  }
+ ]
+}

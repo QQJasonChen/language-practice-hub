@@ -1,0 +1,208 @@
+{
+ "video_id": "orig_10",
+ "title": "原創模擬 10：報名健身房（休閒・活動）",
+ "channel": "原創 · 可商用 A2 模擬",
+ "duration": 30,
+ "exam_type": "A2 Luisteren 原創模擬",
+ "intro": "Eva 想加入健身房會員。",
+ "n_questions": 3,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "報名健身房",
+   "title_nl": "Je aanmelden bij de sportschool",
+   "kind": "櫃台對話",
+   "context_zh": "Eva 想加入健身房會員。",
+   "start": "0:00",
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Hoi, welkom bij FitPlus. Kan ik je helpen?",
+     "zh": "嗨，歡迎來到 FitPlus。需要幫忙嗎？"
+    },
+    {
+     "t": "0:03",
+     "nl": "Ja, ik wil graag lid worden. Wat kost een abonnement?",
+     "zh": "是的，我想加入會員。會員多少錢？"
+    },
+    {
+     "t": "0:07",
+     "nl": "Dertig euro per maand. Daarmee kun je elke dag sporten.",
+     "zh": "每月三十歐元，可以每天來運動。"
+    },
+    {
+     "t": "0:11",
+     "nl": "Zijn er ook lessen, zoals yoga?",
+     "zh": "也有課嗎，像瑜珈？"
+    },
+    {
+     "t": "0:14",
+     "nl": "Ja, yoga is op maandag en woensdag. Die zit bij het abonnement.",
+     "zh": "有，瑜珈在週一和週三，包含在會員裡。"
+    },
+    {
+     "t": "0:18",
+     "nl": "Mooi. Kan ik vandaag al beginnen?",
+     "zh": "太好了。我今天就能開始嗎？"
+    },
+    {
+     "t": "0:21",
+     "nl": "Zeker. Neem je een handdoek en sportschoenen mee?",
+     "zh": "當然。你有帶毛巾和運動鞋嗎？"
+    },
+    {
+     "t": "0:24",
+     "nl": "Schoenen heb ik bij me, een handdoek niet.",
+     "zh": "鞋子有帶，毛巾沒有。"
+    },
+    {
+     "t": "0:27",
+     "nl": "Geen zorgen, die kun je hier huren.",
+     "zh": "別擔心，這裡可以租。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "lid worden",
+     "zh": "入會"
+    },
+    {
+     "nl": "het abonnement",
+     "zh": "會員、月票"
+    },
+    {
+     "nl": "per maand",
+     "zh": "每月"
+    },
+    {
+     "nl": "sporten",
+     "zh": "運動"
+    },
+    {
+     "nl": "de les",
+     "zh": "課程"
+    },
+    {
+     "nl": "bij iets zitten",
+     "zh": "包含在內"
+    },
+    {
+     "nl": "de handdoek",
+     "zh": "毛巾"
+    },
+    {
+     "nl": "de sportschoenen",
+     "zh": "運動鞋"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik wil graag lid worden.",
+     "zh": "我想入會。",
+     "note": "lid worden = 成為會員。"
+    },
+    {
+     "nl": "Wat kost een abonnement?",
+     "zh": "會員多少錢？",
+     "note": "Wat kost …? 問價格。"
+    },
+    {
+     "nl": "Kan ik vandaag al beginnen?",
+     "zh": "我今天就能開始嗎？",
+     "note": "al = 就/已經，強調早。"
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "t": "0:07",
+     "q_nl": "Wat kost het abonnement?",
+     "q_zh": "會員多少錢？",
+     "options": [
+      {
+       "nl": "Dertien euro per maand.",
+       "zh": "每月十三歐元。"
+      },
+      {
+       "nl": "Dertig euro per maand.",
+       "zh": "每月三十歐元。"
+      },
+      {
+       "nl": "Veertig euro per maand.",
+       "zh": "每月四十歐元。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:07",
+       "nl": "Dertig euro per maand. Daarmee kun je elke dag sporten.",
+       "zh": "每月三十歐元，可以每天來運動。"
+      }
+     ],
+     "explain": "“Dertig euro per maand”。",
+     "trap": "dertien(13) 和 dertig(30) 發音很像，注意聽 -tien / -tig。"
+    },
+    {
+     "n": 2,
+     "t": "0:14",
+     "q_nl": "Wanneer is er yoga?",
+     "q_zh": "瑜珈在哪幾天？",
+     "options": [
+      {
+       "nl": "Maandag en woensdag.",
+       "zh": "週一和週三。"
+      },
+      {
+       "nl": "Dinsdag en donderdag.",
+       "zh": "週二和週四。"
+      },
+      {
+       "nl": "In het weekend.",
+       "zh": "週末。"
+      }
+     ],
+     "answer": 0,
+     "source": [
+      {
+       "t": "0:14",
+       "nl": "Ja, yoga is op maandag en woensdag. Die zit bij het abonnement.",
+       "zh": "有，瑜珈在週一和週三，包含在會員裡。"
+      }
+     ],
+     "explain": "“yoga is op maandag en woensdag”。"
+    },
+    {
+     "n": 3,
+     "t": "0:24",
+     "q_nl": "Wat heeft Eva niet bij zich?",
+     "q_zh": "Eva 沒帶什麼？",
+     "options": [
+      {
+       "nl": "Sportschoenen.",
+       "zh": "運動鞋。"
+      },
+      {
+       "nl": "Een handdoek.",
+       "zh": "毛巾。"
+      },
+      {
+       "nl": "Geld.",
+       "zh": "錢。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:24",
+       "nl": "Schoenen heb ik bij me, een handdoek niet.",
+       "zh": "鞋子有帶，毛巾沒有。"
+      }
+     ],
+     "explain": "“Schoenen heb ik bij me, een handdoek niet”。",
+     "trap": "鞋子有帶。"
+    }
+   ]
+  }
+ ]
+}

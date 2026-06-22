@@ -1,0 +1,204 @@
+{
+ "video_id": "orig_02",
+ "title": "原創模擬 02：跟公司請病假（工作・職場）",
+ "channel": "原創 · 可商用 A2 模擬",
+ "duration": 24,
+ "exam_type": "A2 Luisteren 原創模擬",
+ "intro": "Mark 打電話到公司請病假，因為他感冒喉嚨痛。",
+ "n_questions": 3,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "跟公司請病假",
+   "title_nl": "Je ziek melden op het werk",
+   "kind": "電話對話",
+   "context_zh": "Mark 打電話到公司請病假，因為他感冒喉嚨痛。",
+   "start": "0:00",
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Met de receptie van Bouwbedrijf Jansen.",
+     "zh": "顏森營造公司櫃台，您好。"
+    },
+    {
+     "t": "0:02",
+     "nl": "Hallo, met Mark Bakker. Ik bel om me ziek te melden. Ik ben verkouden en heb keelpijn.",
+     "zh": "您好，我是 Mark Bakker。我打來請病假。我感冒又喉嚨痛。"
+    },
+    {
+     "t": "0:08",
+     "nl": "Wat naar. Kun je vandaag echt niet komen?",
+     "zh": "真糟。你今天真的不能來嗎？"
+    },
+    {
+     "t": "0:11",
+     "nl": "Nee, ik blijf liever thuis. Morgen ga ik naar de dokter.",
+     "zh": "不行，我寧願待在家。明天我去看醫生。"
+    },
+    {
+     "t": "0:14",
+     "nl": "Goed. Zal ik het tegen je chef zeggen?",
+     "zh": "好。要我跟你主管說嗎？"
+    },
+    {
+     "t": "0:17",
+     "nl": "Ja, graag. En kan iemand mijn dienst van vanmiddag overnemen?",
+     "zh": "好，麻煩了。今天下午我的班有人能接嗎？"
+    },
+    {
+     "t": "0:22",
+     "nl": "Ik regel het. Beterschap, Mark.",
+     "zh": "我來安排。早日康復，Mark。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "zich ziek melden",
+     "zh": "請病假"
+    },
+    {
+     "nl": "verkouden",
+     "zh": "感冒的"
+    },
+    {
+     "nl": "de keelpijn",
+     "zh": "喉嚨痛"
+    },
+    {
+     "nl": "de dienst",
+     "zh": "班、值勤"
+    },
+    {
+     "nl": "overnemen",
+     "zh": "接手"
+    },
+    {
+     "nl": "de chef",
+     "zh": "主管"
+    },
+    {
+     "nl": "beterschap",
+     "zh": "早日康復"
+    },
+    {
+     "nl": "liever",
+     "zh": "寧願"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik bel om me ziek te melden.",
+     "zh": "我打來請病假。",
+     "note": "om … te + 原形 = 為了…；me 是反身代名詞。"
+    },
+    {
+     "nl": "Zal ik het tegen je chef zeggen?",
+     "zh": "要我跟你主管說嗎？",
+     "note": "Zal ik …? 用來提議幫忙。"
+    },
+    {
+     "nl": "Kan iemand mijn dienst overnemen?",
+     "zh": "有人能接我的班嗎？",
+     "note": "可分動詞 overnemen，原形整體放句尾。"
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "t": "0:02",
+     "q_nl": "Waarom belt Mark naar zijn werk?",
+     "q_zh": "Mark 為什麼打給公司？",
+     "options": [
+      {
+       "nl": "Hij komt later op het werk.",
+       "zh": "他會晚點到。"
+      },
+      {
+       "nl": "Hij is ziek en komt niet.",
+       "zh": "他生病不來。"
+      },
+      {
+       "nl": "Hij wil een dag vrij vragen.",
+       "zh": "他想請一天休假。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:02",
+       "nl": "Hallo, met Mark Bakker. Ik bel om me ziek te melden. Ik ben verkouden en heb keelpijn.",
+       "zh": "您好，我是 Mark Bakker。我打來請病假。我感冒又喉嚨痛。"
+      },
+      {
+       "t": "0:11",
+       "nl": "Nee, ik blijf liever thuis. Morgen ga ik naar de dokter.",
+       "zh": "不行，我寧願待在家。明天我去看醫生。"
+      }
+     ],
+     "explain": "“om me ziek te melden” + verkouden + keelpijn + 待在家。",
+     "trap": "vrij vragen 是休假，不是病假。"
+    },
+    {
+     "n": 2,
+     "t": "0:11",
+     "q_nl": "Wat gaat Mark morgen doen?",
+     "q_zh": "Mark 明天要做什麼？",
+     "options": [
+      {
+       "nl": "Naar de dokter gaan.",
+       "zh": "去看醫生。"
+      },
+      {
+       "nl": "Weer gaan werken.",
+       "zh": "回去上班。"
+      },
+      {
+       "nl": "Zijn chef bellen.",
+       "zh": "打給主管。"
+      }
+     ],
+     "answer": 0,
+     "source": [
+      {
+       "t": "0:11",
+       "nl": "Nee, ik blijf liever thuis. Morgen ga ik naar de dokter.",
+       "zh": "不行，我寧願待在家。明天我去看醫生。"
+      }
+     ],
+     "explain": "“Morgen ga ik naar de dokter”。",
+     "trap": "主管是櫃台幫忙轉達，不是 Mark 明天打。"
+    },
+    {
+     "n": 3,
+     "t": "0:17",
+     "q_nl": "Wat vraagt Mark aan de receptie?",
+     "q_zh": "Mark 拜託櫃台什麼？",
+     "options": [
+      {
+       "nl": "Of zij de dokter belt.",
+       "zh": "她是否打給醫生。"
+      },
+      {
+       "nl": "Of iemand zijn dienst overneemt.",
+       "zh": "是否有人接他的班。"
+      },
+      {
+       "nl": "Of hij eerder naar huis mag.",
+       "zh": "他能否提早回家。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:17",
+       "nl": "Ja, graag. En kan iemand mijn dienst van vanmiddag overnemen?",
+       "zh": "好，麻煩了。今天下午我的班有人能接嗎？"
+      }
+     ],
+     "explain": "“kan iemand mijn dienst van vanmiddag overnemen?”",
+     "trap": "沒提到要櫃台打給醫生。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,211 @@
+{
+ "video_id": "orig_08",
+ "title": "原創模擬 08：暖氣壞了打給房東（住房・居住）",
+ "channel": "原創 · 可商用 A2 模擬",
+ "duration": 24,
+ "exam_type": "A2 Luisteren 原創模擬",
+ "intro": "Nour 打電話給房東，因為暖氣壞了。",
+ "n_questions": 3,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "暖氣壞了打給房東",
+   "title_nl": "De verwarming is kapot",
+   "kind": "電話對話",
+   "context_zh": "Nour 打電話給房東，因為暖氣壞了。",
+   "start": "0:00",
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Met Pietersen Verhuur.",
+     "zh": "彼得森租屋，您好。"
+    },
+    {
+     "t": "0:01",
+     "nl": "Goedemiddag, met Nour uit de Bloemstraat twaalf. Mijn verwarming doet het niet.",
+     "zh": "午安，我是花街 12 號的 Nour。我的暖氣不能動。"
+    },
+    {
+     "t": "0:06",
+     "nl": "Sinds wanneer is dat?",
+     "zh": "從什麼時候開始的？"
+    },
+    {
+     "t": "0:08",
+     "nl": "Sinds gisteren. Het is nu echt koud in huis.",
+     "zh": "從昨天。家裡現在真的很冷。"
+    },
+    {
+     "t": "0:11",
+     "nl": "Ik stuur morgenochtend een monteur. Bent u dan thuis?",
+     "zh": "我明天早上派維修工。您那時在家嗎？"
+    },
+    {
+     "t": "0:14",
+     "nl": "Ja, tot twaalf uur ben ik thuis.",
+     "zh": "在，我十二點前都在家。"
+    },
+    {
+     "t": "0:17",
+     "nl": "Goed, hij komt rond tien uur.",
+     "zh": "好，他大約十點到。"
+    },
+    {
+     "t": "0:19",
+     "nl": "Dank u. Kunt u hem mijn telefoonnummer geven?",
+     "zh": "謝謝。可以把我電話給他嗎？"
+    },
+    {
+     "t": "0:22",
+     "nl": "Doe ik. Tot morgen.",
+     "zh": "沒問題。明天見。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "de verwarming",
+     "zh": "暖氣"
+    },
+    {
+     "nl": "kapot",
+     "zh": "壞掉"
+    },
+    {
+     "nl": "het doet het niet",
+     "zh": "壞了、不動了"
+    },
+    {
+     "nl": "sinds",
+     "zh": "自從"
+    },
+    {
+     "nl": "de monteur",
+     "zh": "維修工"
+    },
+    {
+     "nl": "thuis",
+     "zh": "在家"
+    },
+    {
+     "nl": "rond",
+     "zh": "大約(時間)"
+    },
+    {
+     "nl": "het telefoonnummer",
+     "zh": "電話號碼"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Mijn verwarming doet het niet.",
+     "zh": "我的暖氣壞了。",
+     "note": "“het doet het niet” = 機器不動了的固定說法。"
+    },
+    {
+     "nl": "Sinds wanneer is dat?",
+     "zh": "從什麼時候開始？",
+     "note": "sinds = 自從。"
+    },
+    {
+     "nl": "Bent u dan thuis?",
+     "zh": "您那時在家嗎？",
+     "note": "dan 指前面提到的時間。"
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "t": "0:01",
+     "q_nl": "Waarom belt Nour de verhuurder?",
+     "q_zh": "Nour 為什麼打給房東？",
+     "options": [
+      {
+       "nl": "De verwarming is kapot.",
+       "zh": "暖氣壞了。"
+      },
+      {
+       "nl": "De huur is te hoog.",
+       "zh": "房租太高。"
+      },
+      {
+       "nl": "De buren maken lawaai.",
+       "zh": "鄰居很吵。"
+      }
+     ],
+     "answer": 0,
+     "source": [
+      {
+       "t": "0:01",
+       "nl": "Goedemiddag, met Nour uit de Bloemstraat twaalf. Mijn verwarming doet het niet.",
+       "zh": "午安，我是花街 12 號的 Nour。我的暖氣不能動。"
+      }
+     ],
+     "explain": "“verwarming doet het niet”。"
+    },
+    {
+     "n": 2,
+     "t": "0:11",
+     "q_nl": "Wanneer komt de monteur?",
+     "q_zh": "維修工什麼時候來？",
+     "options": [
+      {
+       "nl": "Vandaag.",
+       "zh": "今天。"
+      },
+      {
+       "nl": "Morgenochtend.",
+       "zh": "明天早上。"
+      },
+      {
+       "nl": "Volgende week.",
+       "zh": "下週。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:11",
+       "nl": "Ik stuur morgenochtend een monteur. Bent u dan thuis?",
+       "zh": "我明天早上派維修工。您那時在家嗎？"
+      },
+      {
+       "t": "0:17",
+       "nl": "Goed, hij komt rond tien uur.",
+       "zh": "好，他大約十點到。"
+      }
+     ],
+     "explain": "“morgenochtend … rond tien uur”。"
+    },
+    {
+     "n": 3,
+     "t": "0:19",
+     "q_nl": "Wat vraagt Nour aan het eind?",
+     "q_zh": "Nour 最後拜託什麼？",
+     "options": [
+      {
+       "nl": "Een nieuwe verwarming.",
+       "zh": "一台新暖氣。"
+      },
+      {
+       "nl": "Haar telefoonnummer doorgeven.",
+       "zh": "把她電話轉給維修工。"
+      },
+      {
+       "nl": "Korting op de huur.",
+       "zh": "房租打折。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:19",
+       "nl": "Dank u. Kunt u hem mijn telefoonnummer geven?",
+       "zh": "謝謝。可以把我電話給他嗎？"
+      }
+     ],
+     "explain": "“Kunt u hem mijn telefoonnummer geven?”"
+    }
+   ]
+  }
+ ]
+}

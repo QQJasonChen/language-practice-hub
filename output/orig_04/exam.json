@@ -1,0 +1,213 @@
+{
+ "video_id": "orig_04",
+ "title": "原創模擬 04：在店裡換一件毛衣（購物・商店）",
+ "channel": "原創 · 可商用 A2 模擬",
+ "duration": 23,
+ "exam_type": "A2 Luisteren 原創模擬",
+ "intro": "Tom 想換一件毛衣，因為太小了。",
+ "n_questions": 3,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "在店裡換一件毛衣",
+   "title_nl": "Een trui ruilen in de winkel",
+   "kind": "店內對話",
+   "context_zh": "Tom 想換一件毛衣，因為太小了。",
+   "start": "0:00",
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Goedemiddag, kan ik u helpen?",
+     "zh": "午安，需要幫忙嗎？"
+    },
+    {
+     "t": "0:02",
+     "nl": "Ja, ik heb deze trui gekregen, maar hij is te klein. Kan ik hem ruilen?",
+     "zh": "我收到這件毛衣，但太小了。可以換嗎？"
+    },
+    {
+     "t": "0:07",
+     "nl": "Natuurlijk. Heeft u de bon bij u?",
+     "zh": "當然。您有帶收據嗎？"
+    },
+    {
+     "t": "0:09",
+     "nl": "Ja, hier. Ik wil graag een grotere maat.",
+     "zh": "有，在這。我想要大一號。"
+    },
+    {
+     "t": "0:13",
+     "nl": "Welke maat heeft u nodig?",
+     "zh": "您需要哪個尺碼？"
+    },
+    {
+     "t": "0:15",
+     "nl": "Medium, denk ik. De small is te strak.",
+     "zh": "我想是 M。S 太緊了。"
+    },
+    {
+     "t": "0:18",
+     "nl": "We hebben medium in het blauw en in het zwart.",
+     "zh": "我們 M 號有藍色和黑色。"
+    },
+    {
+     "t": "0:20",
+     "nl": "Doe maar de blauwe, die vind ik mooier.",
+     "zh": "那給我藍色的，我比較喜歡。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "de trui",
+     "zh": "毛衣"
+    },
+    {
+     "nl": "ruilen",
+     "zh": "換貨"
+    },
+    {
+     "nl": "de bon",
+     "zh": "收據"
+    },
+    {
+     "nl": "de maat",
+     "zh": "尺碼"
+    },
+    {
+     "nl": "groter",
+     "zh": "較大的"
+    },
+    {
+     "nl": "te strak",
+     "zh": "太緊"
+    },
+    {
+     "nl": "krijgen",
+     "zh": "收到、得到"
+    },
+    {
+     "nl": "doe maar",
+     "zh": "就要…(口語)"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Kan ik hem ruilen?",
+     "zh": "我可以換嗎？",
+     "note": "hem 指陽性名詞 de trui。"
+    },
+    {
+     "nl": "Welke maat heeft u nodig?",
+     "zh": "您需要哪個尺碼？",
+     "note": "nodig hebben = 需要。"
+    },
+    {
+     "nl": "Doe maar de blauwe.",
+     "zh": "給我藍色那件。",
+     "note": "購物/點餐常用 doe maar「就要…」。"
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "t": "0:02",
+     "q_nl": "Waarom wil Tom de trui ruilen?",
+     "q_zh": "Tom 為什麼要換毛衣？",
+     "options": [
+      {
+       "nl": "Hij is te klein.",
+       "zh": "太小。"
+      },
+      {
+       "nl": "Hij is kapot.",
+       "zh": "壞了。"
+      },
+      {
+       "nl": "De kleur is lelijk.",
+       "zh": "顏色醜。"
+      }
+     ],
+     "answer": 0,
+     "source": [
+      {
+       "t": "0:02",
+       "nl": "Ja, ik heb deze trui gekregen, maar hij is te klein. Kan ik hem ruilen?",
+       "zh": "我收到這件毛衣，但太小了。可以換嗎？"
+      }
+     ],
+     "explain": "“hij is te klein”。",
+     "trap": "顏色是他後面才挑，不是換貨原因。"
+    },
+    {
+     "n": 2,
+     "t": "0:07",
+     "q_nl": "Wat heeft Tom nodig om te ruilen?",
+     "q_zh": "Tom 換貨需要什麼？",
+     "options": [
+      {
+       "nl": "Zijn paspoort.",
+       "zh": "護照。"
+      },
+      {
+       "nl": "De bon.",
+       "zh": "收據。"
+      },
+      {
+       "nl": "Niets.",
+       "zh": "不用。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:07",
+       "nl": "Natuurlijk. Heeft u de bon bij u?",
+       "zh": "當然。您有帶收據嗎？"
+      },
+      {
+       "t": "0:09",
+       "nl": "Ja, hier. Ik wil graag een grotere maat.",
+       "zh": "有，在這。我想要大一號。"
+      }
+     ],
+     "explain": "店員問 “Heeft u de bon?”，他說有。"
+    },
+    {
+     "n": 3,
+     "t": "0:15",
+     "q_nl": "Welke trui kiest Tom?",
+     "q_zh": "Tom 選了哪件？",
+     "options": [
+      {
+       "nl": "De zwarte medium.",
+       "zh": "黑色 M。"
+      },
+      {
+       "nl": "De blauwe medium.",
+       "zh": "藍色 M。"
+      },
+      {
+       "nl": "De blauwe small.",
+       "zh": "藍色 S。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:15",
+       "nl": "Medium, denk ik. De small is te strak.",
+       "zh": "我想是 M。S 太緊了。"
+      },
+      {
+       "t": "0:20",
+       "nl": "Doe maar de blauwe, die vind ik mooier.",
+       "zh": "那給我藍色的，我比較喜歡。"
+      }
+     ],
+     "explain": "medium + “Doe maar de blauwe”。",
+     "trap": "small 太緊已被排除。"
+    }
+   ]
+  }
+ ]
+}

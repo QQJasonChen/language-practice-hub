@@ -1,0 +1,207 @@
+{
+ "video_id": "orig_09",
+ "title": "原創模擬 09：金融卡不見了打給銀行（銀行・金錢）",
+ "channel": "原創 · 可商用 A2 模擬",
+ "duration": 23,
+ "exam_type": "A2 Luisteren 原創模擬",
+ "intro": "Daan 打電話給銀行，因為金融卡不見了。",
+ "n_questions": 3,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "金融卡不見了打給銀行",
+   "title_nl": "Mijn pinpas is kwijt",
+   "kind": "電話對話",
+   "context_zh": "Daan 打電話給銀行，因為金融卡不見了。",
+   "start": "0:00",
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Goedemorgen, met de bank. Waarmee kan ik u helpen?",
+     "zh": "早安，銀行您好。需要什麼協助？"
+    },
+    {
+     "t": "0:03",
+     "nl": "Ik ben mijn pinpas kwijt. Kunt u hem blokkeren?",
+     "zh": "我的金融卡不見了。可以幫我停卡嗎？"
+    },
+    {
+     "t": "0:06",
+     "nl": "Ja, dat doe ik meteen. Mag ik uw rekeningnummer?",
+     "zh": "好，我馬上處理。可以給我帳號嗎？"
+    },
+    {
+     "t": "0:10",
+     "nl": "Ja, het staat op mijn telefoon, momentje.",
+     "zh": "好，在我手機上，稍等。"
+    },
+    {
+     "t": "0:13",
+     "nl": "De pas is nu geblokkeerd. Wilt u een nieuwe?",
+     "zh": "卡片已停用。您要新卡嗎？"
+    },
+    {
+     "t": "0:16",
+     "nl": "Graag. Hoelang duurt dat?",
+     "zh": "好的。要多久？"
+    },
+    {
+     "t": "0:18",
+     "nl": "Ongeveer vijf werkdagen. Hij komt per post.",
+     "zh": "大約五個工作天。會郵寄到。"
+    },
+    {
+     "t": "0:21",
+     "nl": "Prima, dank u wel.",
+     "zh": "好，謝謝您。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "de pinpas",
+     "zh": "金融卡"
+    },
+    {
+     "nl": "kwijt zijn",
+     "zh": "弄丟"
+    },
+    {
+     "nl": "blokkeren",
+     "zh": "停卡、凍結"
+    },
+    {
+     "nl": "het rekeningnummer",
+     "zh": "帳號"
+    },
+    {
+     "nl": "geblokkeerd",
+     "zh": "已停用"
+    },
+    {
+     "nl": "een nieuwe",
+     "zh": "一張新的"
+    },
+    {
+     "nl": "de werkdag",
+     "zh": "工作天"
+    },
+    {
+     "nl": "per post",
+     "zh": "郵寄"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Ik ben mijn pinpas kwijt.",
+     "zh": "我的卡不見了。",
+     "note": "kwijt zijn = 遺失，固定搭配。"
+    },
+    {
+     "nl": "Kunt u hem blokkeren?",
+     "zh": "能幫我停卡嗎？",
+     "note": "hem 指 de pinpas。"
+    },
+    {
+     "nl": "Hoelang duurt dat?",
+     "zh": "要多久？",
+     "note": "問所需時間。"
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "t": "0:03",
+     "q_nl": "Waarom belt Daan de bank?",
+     "q_zh": "Daan 為什麼打給銀行？",
+     "options": [
+      {
+       "nl": "Hij wil geld lenen.",
+       "zh": "想借錢。"
+      },
+      {
+       "nl": "Zijn pinpas is kwijt.",
+       "zh": "卡不見了。"
+      },
+      {
+       "nl": "Hij wil een rekening openen.",
+       "zh": "想開戶。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:03",
+       "nl": "Ik ben mijn pinpas kwijt. Kunt u hem blokkeren?",
+       "zh": "我的金融卡不見了。可以幫我停卡嗎？"
+      }
+     ],
+     "explain": "“mijn pinpas kwijt … blokkeren”。"
+    },
+    {
+     "n": 2,
+     "t": "0:06",
+     "q_nl": "Wat doet de medewerker eerst?",
+     "q_zh": "行員先做什麼？",
+     "options": [
+      {
+       "nl": "De pas blokkeren.",
+       "zh": "停卡。"
+      },
+      {
+       "nl": "Geld overmaken.",
+       "zh": "轉帳。"
+      },
+      {
+       "nl": "Een afspraak maken.",
+       "zh": "預約。"
+      }
+     ],
+     "answer": 0,
+     "source": [
+      {
+       "t": "0:06",
+       "nl": "Ja, dat doe ik meteen. Mag ik uw rekeningnummer?",
+       "zh": "好，我馬上處理。可以給我帳號嗎？"
+      },
+      {
+       "t": "0:13",
+       "nl": "De pas is nu geblokkeerd. Wilt u een nieuwe?",
+       "zh": "卡片已停用。您要新卡嗎？"
+      }
+     ],
+     "explain": "馬上 blokkeren → “nu geblokkeerd”。"
+    },
+    {
+     "n": 3,
+     "t": "0:18",
+     "q_nl": "Hoe krijgt Daan de nieuwe pas?",
+     "q_zh": "Daan 怎麼拿到新卡？",
+     "options": [
+      {
+       "nl": "Hij haalt hem op.",
+       "zh": "自己去拿。"
+      },
+      {
+       "nl": "Per post.",
+       "zh": "郵寄。"
+      },
+      {
+       "nl": "Via e-mail.",
+       "zh": "email。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:18",
+       "nl": "Ongeveer vijf werkdagen. Hij komt per post.",
+       "zh": "大約五個工作天。會郵寄到。"
+      }
+     ],
+     "explain": "“Hij komt per post”。",
+     "trap": "email 不能寄實體卡。"
+    }
+   ]
+  }
+ ]
+}

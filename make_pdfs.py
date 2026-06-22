@@ -164,32 +164,39 @@ def build_cover(exam: dict, nl_only: bool) -> str:
     mode = '純荷文 · 盲練版' if nl_only else '講義版 · 完整詳解'
     nq = exam['n_questions']
     nsc = len(exam['scenarios'])
+    is_orig = str(exam.get('video_id', '')).startswith('orig_')
+    dsec = exam.get('duration', 0) or 0
+    dlabel = f'{dsec} 秒' if dsec < 60 else f'{dsec // 60} 分鐘'
+    qr = '' if is_orig else f'<div class="qr">{qr_img(live, 92)}<div class="qr-label">線上練習</div></div>'
     return f"""
     <div class="cover">
       <div class="left">
         <h1>{esc(exam.get('title','(untitled)'))}</h1>
         <div class="meta">
           <span>📺 {esc(exam.get('channel',''))}</span>
-          <span>⏱ {(exam.get('duration',0) or 0)//60} 分鐘</span>
+          <span>⏱ {dlabel}</span>
           <span>🎧 {esc(exam.get('exam_type',''))}</span>
           <span>🗂 {nsc} 個場景</span>
           <span>❓ {nq} 題</span>
           <span>📖 {mode}</span>
         </div>
       </div>
-      <div class="qr">{qr_img(live, 92)}<div class="qr-label">線上練習</div></div>
+      {qr}
     </div>
     """
 
 def build_howto(exam: dict, nl_only: bool) -> str:
+    is_orig = str(exam.get('video_id', '')).startswith('orig_')
+    listen = '聽音檔的' if is_orig else '聽（線上）'
+    qr_tip = '' if is_orig else '左上 QR 可回線上版練習。'
     if nl_only:
-        body = ('<b>盲練版用法</b>：先不看任何中文。每個場景先讀單字、再聽（線上）對話原文，'
+        body = ('<b>盲練版用法</b>：先不看任何中文。每個場景先讀單字、再' + listen + '對話原文，'
                 '然後作答。全部做完後，翻到最後的「答案與詳解」對答案、看反推說明。')
     else:
         body = ('<b>這份講義怎麼用</b>：① 先讀場景的「考前預習」（單字＋句型）。'
                 '② 讀一次對話原文。③ 做考題——每題下方有 <b>📍 答案出處</b>（標出原文'
                 '哪幾句）、<b>💡 反推</b>（為什麼選這個）、<b>⚠️ 陷阱</b>（為什麼別的不對）。'
-                '左上 QR 可回線上版練習。')
+                + qr_tip)
     return (f'<div class="howto">{body}</div>'
             f'<div class="howto">{esc(exam.get("intro",""))}</div>')
 

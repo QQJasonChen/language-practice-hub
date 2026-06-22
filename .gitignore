@@ -6,3 +6,4 @@ www/
 .gstack/
 output/*/frames/
 output/*/sheets/
+dist/

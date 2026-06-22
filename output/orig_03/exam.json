@@ -1,0 +1,198 @@
+{
+ "video_id": "orig_03",
+ "title": "原創模擬 03：車站：火車誤點（交通・出行）",
+ "channel": "原創 · 可商用 A2 模擬",
+ "duration": 24,
+ "exam_type": "A2 Luisteren 原創模擬",
+ "intro": "Sara 在車站詢問處問往 Utrecht 的火車。",
+ "n_questions": 3,
+ "scenarios": [
+  {
+   "n": 1,
+   "title_zh": "車站：火車誤點",
+   "title_nl": "Op het station: de trein is vertraagd",
+   "kind": "櫃台對話",
+   "context_zh": "Sara 在車站詢問處問往 Utrecht 的火車。",
+   "start": "0:00",
+   "dialogue": [
+    {
+     "t": "0:00",
+     "nl": "Goedemiddag, kan ik u helpen?",
+     "zh": "午安，需要幫忙嗎？"
+    },
+    {
+     "t": "0:02",
+     "nl": "Ja, ik wil naar Utrecht. Welk spoor is dat?",
+     "zh": "是的，我要去 Utrecht。在第幾月台？"
+    },
+    {
+     "t": "0:05",
+     "nl": "Normaal spoor vijf, maar de trein van tien over twee heeft vertraging.",
+     "zh": "平常是 5 號月台，但兩點十分那班誤點了。"
+    },
+    {
+     "t": "0:10",
+     "nl": "O nee. Hoeveel later vertrekt hij?",
+     "zh": "不會吧。會晚多久發車？"
+    },
+    {
+     "t": "0:12",
+     "nl": "Ongeveer twintig minuten. U kunt ook de bus nemen, die gaat zo.",
+     "zh": "大約 20 分鐘。您也可以搭巴士，馬上就開。"
+    },
+    {
+     "t": "0:17",
+     "nl": "Met de bus duurt het langer, denk ik. Ik wacht wel op de trein.",
+     "zh": "我想搭巴士比較久。我還是等火車好了。"
+    },
+    {
+     "t": "0:21",
+     "nl": "Prima. Houd dan spoor vijf in de gaten.",
+     "zh": "好的。那請留意 5 號月台。"
+    }
+   ],
+   "vocab": [
+    {
+     "nl": "het spoor",
+     "zh": "月台、軌道"
+    },
+    {
+     "nl": "de vertraging",
+     "zh": "誤點"
+    },
+    {
+     "nl": "vertrekken",
+     "zh": "出發"
+    },
+    {
+     "nl": "ongeveer",
+     "zh": "大約"
+    },
+    {
+     "nl": "de bus nemen",
+     "zh": "搭巴士"
+    },
+    {
+     "nl": "duren",
+     "zh": "持續、花時間"
+    },
+    {
+     "nl": "in de gaten houden",
+     "zh": "留意"
+    },
+    {
+     "nl": "zo",
+     "zh": "馬上"
+    }
+   ],
+   "patterns": [
+    {
+     "nl": "Welk spoor is dat?",
+     "zh": "那是幾號月台？",
+     "note": "Welk 接中性名詞 spoor。"
+    },
+    {
+     "nl": "Hoeveel later vertrekt hij?",
+     "zh": "會晚多久發車？",
+     "note": "hij 指 de trein。"
+    },
+    {
+     "nl": "Ik wacht wel op de trein.",
+     "zh": "我還是等火車吧。",
+     "note": "wachten op = 等候；wel 緩和語氣。"
+    }
+   ],
+   "questions": [
+    {
+     "n": 1,
+     "t": "0:05",
+     "q_nl": "Wat is er met de trein van tien over twee?",
+     "q_zh": "兩點十分那班火車怎麼了？",
+     "options": [
+      {
+       "nl": "Hij is vertraagd.",
+       "zh": "誤點了。"
+      },
+      {
+       "nl": "Hij is al weg.",
+       "zh": "已經開走了。"
+      },
+      {
+       "nl": "Hij rijdt vandaag niet.",
+       "zh": "今天停駛。"
+      }
+     ],
+     "answer": 0,
+     "source": [
+      {
+       "t": "0:05",
+       "nl": "Normaal spoor vijf, maar de trein van tien over twee heeft vertraging.",
+       "zh": "平常是 5 號月台，但兩點十分那班誤點了。"
+      }
+     ],
+     "explain": "“heeft vertraging”。",
+     "trap": "不是停駛，只是晚點。"
+    },
+    {
+     "n": 2,
+     "t": "0:17",
+     "q_nl": "Hoe gaat Sara naar Utrecht?",
+     "q_zh": "Sara 怎麼去 Utrecht？",
+     "options": [
+      {
+       "nl": "Met de bus.",
+       "zh": "搭巴士。"
+      },
+      {
+       "nl": "Met de trein.",
+       "zh": "搭火車。"
+      },
+      {
+       "nl": "Met de taxi.",
+       "zh": "搭計程車。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:17",
+       "nl": "Met de bus duurt het langer, denk ik. Ik wacht wel op de trein.",
+       "zh": "我想搭巴士比較久。我還是等火車好了。"
+      }
+     ],
+     "explain": "“Ik wacht wel op de trein”。",
+     "trap": "櫃台建議巴士，但她選擇等火車。"
+    },
+    {
+     "n": 3,
+     "t": "0:12",
+     "q_nl": "Hoeveel later vertrekt de trein ongeveer?",
+     "q_zh": "火車大約晚多久？",
+     "options": [
+      {
+       "nl": "Tien minuten.",
+       "zh": "十分鐘。"
+      },
+      {
+       "nl": "Twintig minuten.",
+       "zh": "二十分鐘。"
+      },
+      {
+       "nl": "Veertig minuten.",
+       "zh": "四十分鐘。"
+      }
+     ],
+     "answer": 1,
+     "source": [
+      {
+       "t": "0:12",
+       "nl": "Ongeveer twintig minuten. U kunt ook de bus nemen, die gaat zo.",
+       "zh": "大約 20 分鐘。您也可以搭巴士，馬上就開。"
+      }
+     ],
+     "explain": "“Ongeveer twintig minuten”。"
+    }
+   ]
+  }
+ ]
+}
