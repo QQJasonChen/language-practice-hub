@@ -191,19 +191,34 @@ header .meta { font-size:11.5px; color:#bfdbfe; }
   padding:11px 14px; margin:14px 0; font-size:13px; color:#374151; }
 .howto b { color:var(--blue); }
 /* scenario */
-.scene { background:#fff; border-radius:12px; margin:16px 0; overflow:hidden;
-  box-shadow:0 1px 3px rgba(0,0,0,.07); }
-.scene-bar { background:var(--blue); color:#fff; padding:11px 15px; display:flex;
-  align-items:baseline; gap:9px; }
+/* scene jump nav — chips to leap between scenarios */
+.scenenav { display:flex; gap:6px; overflow-x:auto; padding:4px 0 12px; -webkit-overflow-scrolling:touch; }
+.scenenav::-webkit-scrollbar { display:none; }
+.scenenav .snav-lbl { flex:none; align-self:center; font-size:11.5px; font-weight:800; color:var(--amber); padding-right:2px; }
+.scenenav a { flex:none; display:inline-flex; align-items:center; gap:5px; max-width:140px;
+  background:#fff; border:1px solid #dbeafe; color:var(--blue); border-radius:99px; padding:6px 11px;
+  font-size:13px; font-weight:800; text-decoration:none; white-space:nowrap;
+  box-shadow:0 1px 2px rgba(0,0,0,.05); }
+.scenenav a small { font-weight:500; color:#64748b; overflow:hidden; text-overflow:ellipsis; max-width:96px; }
+.scenenav a:active { background:var(--blue); color:#fff; }
+
+.scene { background:#fff; border-radius:14px; margin:22px 0; overflow:hidden;
+  box-shadow:0 2px 12px rgba(30,58,138,.10); border:1px solid #e5e7eb;
+  scroll-margin-top:120px; }
+.scene-bar { background:var(--blue); color:#fff; padding:13px 15px; display:flex;
+  align-items:baseline; gap:9px; position:sticky; top:0; z-index:5; }
 .scene-bar .sn { font-size:12px; font-weight:800; background:#fbbf24; color:var(--blue);
   padding:2px 9px; border-radius:11px; white-space:nowrap; }
 .scene-bar .st { font-size:16px; font-weight:800; flex:1; }
 .scene-bar .sk { font-size:11px; color:#bfdbfe; }
-.scene-ctx { background:#eff6ff; padding:8px 15px; font-size:12.5px; color:#1e40af; }
+.scene-ctx { background:#eff6ff; padding:9px 15px; font-size:12.5px; color:#1e40af;
+  border-bottom:1px solid #dbeafe; }
 .scene-ctx .nl { color:#94a3b8; }
-.sec { padding:12px 15px; }
-.sec h3 { font-size:12.5px; font-weight:800; color:#b45309; margin:4px 0 7px;
-  letter-spacing:.4px; }
+/* 預習 block — tinted so it clearly reads as a distinct "preview" section */
+.sec { padding:13px 15px 15px; background:#fffaf0; border-bottom:2px solid #f0e6d2; }
+.sec h3 { font-size:13px; font-weight:800; color:#b45309; margin:2px 0 9px;
+  letter-spacing:.3px; display:flex; align-items:center; gap:7px; }
+.sec h3::before { content:''; width:4px; height:15px; background:var(--amber); border-radius:2px; flex:none; }
 .vocab { width:100%; border-collapse:collapse; font-size:13px; }
 .vocab td { padding:5px 8px; border:1px solid #f0e6d2; }
 .vocab td.nl { font-weight:700; width:46%; }
@@ -212,8 +227,9 @@ header .meta { font-size:11.5px; color:#bfdbfe; }
 .pat { font-size:13px; margin:5px 0; padding-bottom:5px; border-bottom:1px dotted #e5e7eb; }
 .pat .pnl { font-weight:700; color:#0f766e; }
 .pat .pnote { color:#9ca3af; font-size:11.5px; display:block; }
-.dlg-h { font-size:13.5px; font-weight:800; color:var(--blue); margin:14px 15px 4px; }
-.dlg-h span { font-size:11px; color:#9ca3af; font-weight:500; }
+.dlg-h { font-size:13.5px; font-weight:800; color:#fff; background:var(--blue2);
+  margin:0; padding:10px 15px; display:flex; align-items:baseline; gap:8px; }
+.dlg-h span { font-size:11px; color:#dbeafe; font-weight:500; }
 .line { display:flex; gap:9px; padding:7px 15px; border-bottom:1px solid #f3f4f6;
   cursor:pointer; transition:background .15s, border-color .15s; position:relative;
   border-left:3px solid transparent; scroll-margin-top:80px; scroll-margin-bottom:140px; }
@@ -1072,8 +1088,12 @@ def build(exam: dict) -> str:
             f'</div></div>')
     parts.append('</div>')
 
+    if len(exam['scenarios']) > 1:
+        chips = ''.join(f'<a href="#scene-{sc["n"]}">{sc["n"]}<small>{esc(sc["title_zh"])}</small></a>'
+                        for sc in exam['scenarios'])
+        parts.append(f'<div class="scenenav"><span class="snav-lbl">📍 場景</span>{chips}</div>')
     for sc in exam['scenarios']:
-        parts.append('<div class="scene">')
+        parts.append(f'<div class="scene" id="scene-{sc["n"]}">')
         parts.append(f'<div class="scene-bar"><span class="sn">場景 {sc["n"]}</span>'
                       f'<span class="st">{esc(sc["title_zh"])}</span>'
                       f'<span class="sk">{esc(sc["kind"])}</span></div>')
