@@ -7,3 +7,4 @@ www/
 output/*/frames/
 output/*/sheets/
 dist/
+node_modules/
