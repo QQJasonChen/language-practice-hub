@@ -77,6 +77,13 @@ details.tpl[open]>summary{border-bottom:1px solid var(--bd)}
 .thint .th-f i{color:var(--o);font-style:normal}
 .thint .th-t{font-size:12.5px;color:var(--mut);margin-top:3px}
 .timer.rush{color:var(--no);font-weight:800;font-size:15px}
+.filt{font-size:12px;color:var(--mut);font-weight:600;margin:8px 0 2px}
+.btn.c{background:#f3eefe;color:#7c3aed;border:1px solid #d8c9f7}
+.btn.c.on{background:#7c3aed;color:#fff;border-color:#7c3aed}
+.streak{text-align:center;font-size:13.5px;color:var(--mut);margin:8px 0 0}
+.streak .fire{color:var(--o);font-weight:800}
+.streak .dim{color:#b9bec8}
+.blank{display:inline-block;background:#fff4ec;border-bottom:2px solid var(--o);color:var(--o);font-weight:700;padding:0 3px;border-radius:3px;letter-spacing:1px}
 .btn.ok{background:#eaf7ee;color:var(--ok);border:1px solid #b7e4c4}
 .btn.no{background:#fdecea;color:var(--no);border:1px solid #f5c6bd}
 .empty{text-align:center;color:var(--mut);padding:30px 10px}
@@ -112,16 +119,19 @@ het liefst（最愛）· graag（喜歡）· meestal（通常）· bijna altijd�
 <button class="segb on" id="segAudio">🔊 聽力口說 167</button>
 <button class="segb" id="segPic">🖼️ 看圖題 52</button>
 </div>
-<div class="bar">
-<div class="chips" id="topics"></div>
-</div>
+<div class="filt">依主題：</div>
+<div class="bar"><div class="chips" id="topics"></div></div>
+<div class="filt">依題型（練反射特定題型）：</div>
+<div class="bar"><div class="chips" id="patterns"></div></div>
 <div class="bar">
 <button class="btn r" id="reflexBtn">⚡ 反射訓練</button>
-<button class="btn b" id="examBtn">🎲 隨機模擬考</button>
+<button class="btn c" id="clozeBtn">✏️ 句架填空</button>
+<button class="btn b" id="examBtn">🎲 模擬考</button>
 <button class="btn g" id="weakBtn">⭐ 只練不熟</button>
 <button class="btn g" id="allBtn">全部</button>
 <span class="meta" id="count"></span>
 </div>
+<div class="streak" id="streak"></div>
 <a href="spreken-templates.html" class="tpllink">📖 看完整反射模板系統（12 題型）→</a>
 
 <div id="stage"></div>
@@ -174,7 +184,8 @@ function classify(q,isPic){
  return 'desc';
 }
 function tplHTML(b){ const tp=TPL[classify(b.q,picMode)]; return '<div class="lbl" style="color:var(--o)">🧩 這題的句架（'+tp.n+'）</div><div class="th-f">'+tp.f+'</div><div class="th-t">'+tp.tip+'</div>'; }
-let pool=[], idx=0, mode='all', activeTopic=null, examMode=false, picMode=false, reflexMode=false;
+let pool=[], idx=0, mode='all', activeTopic=null, activePattern=null, examMode=false, picMode=false, reflexMode=false, clozeMode=false;
+const BS='spreken_best_streak'; let streak=0, best=+(localStorage.getItem(BS)||0);
 
 function saveWeak(){localStorage.setItem(LS, JSON.stringify([...weak]));}
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;}
@@ -184,8 +195,38 @@ function buildPool(){
   let p = SRC;
   if(mode==='weak') p = SRC.filter(b=>weak.has(key(b)));
   if(!picMode && activeTopic) p = p.filter(b=>b.t===activeTopic);
+  if(!picMode && activePattern) p = p.filter(b=>classify(b.q,false)===activePattern);
   if(mode==='exam'){ p = shuffle(SRC).slice(0, Math.min(10,SRC.length)); }
   pool = p; idx=0;
+}
+function renderPatterns(){
+  const c=document.getElementById('patterns');
+  if(picMode){ c.innerHTML=''; document.querySelectorAll('.filt')[1].style.display='none'; c.style.display='none'; return; }
+  document.querySelectorAll('.filt')[1].style.display='block'; c.style.display='flex';
+  const cnt={}; BANK.forEach(b=>{const p=classify(b.q,false); cnt[p]=(cnt[p]||0)+1;});
+  c.innerHTML='';
+  Object.keys(TPL).forEach(p=>{ if(!cnt[p]||p==='pic')return;
+    const el=document.createElement('span');
+    el.className='chip'+(activePattern===p?' on':'');
+    el.textContent=TPL[p].n+' '+cnt[p];
+    el.onclick=()=>{activePattern=activePattern===p?null:p; examMode=false; mode=mode==='exam'?'all':mode; buildPool(); renderPatterns(); render();};
+    c.appendChild(el);
+  });
+}
+function clozeText(a){
+  return a.split(' ').map(tok=>{
+    const lead=(tok.match(/^[^0-9a-zA-Zà-ÿ]*/)||[''])[0];
+    const trail=(tok.match(/[^0-9a-zA-Zà-ÿ]*$/)||[''])[0];
+    const core=tok.slice(lead.length, tok.length-(trail.length||0));
+    if(core.length>3 && !STOP.has(core.toLowerCase())){
+      return lead+'<span class="blank">'+core[0]+'＿'.repeat(core.length-1)+'</span>'+trail;
+    }
+    return tok;
+  }).join(' ');
+}
+function updateStreak(){
+  const el=document.getElementById('streak'); if(!el)return;
+  el.innerHTML = (streak>0?'<span class="fire">🔥 連擊 '+streak+'</span>':'<span class="dim">連擊 0</span>') + ' · 最佳 '+best;
 }
 function renderChips(){
   const c=document.getElementById('topics');
@@ -219,9 +260,10 @@ function render(){
     <div class="heard" id="heard"></div>
     <button class="btn p" id="revealBtn" style="margin-top:12px;width:100%">🎤 我答完了，看 model answer</button>
     <div class="ans" id="ans">
-      <div class="lbl">MODEL ANSWER</div>
-      <div class="a-nl">${b.a}</div>
+      <div class="lbl">${clozeMode?'✏️ 填空：照中文把荷蘭文關鍵字唸出來':'MODEL ANSWER'}</div>
+      <div class="a-nl" id="aNl">${clozeMode?clozeText(b.a):b.a}</div>
       <div class="a-zh">${b.az||''}</div>
+      ${clozeMode?'<button class="btn g" id="clozeReveal" style="width:100%;margin-top:6px">👁 顯示完整答案</button>':''}
       <button class="btn spk" id="aSpeak">🔊 聽正確發音</button>
       ${reflexMode?'':'<div class="thint">'+tplHTML(b)+'</div>'}
       <div class="score" id="score"></div>
@@ -235,10 +277,11 @@ function render(){
   startTimer();
   setupMic(b);
   lastSaid='';
+  updateStreak();
   document.getElementById('qSpeak').onclick=()=>speak(b.q);
-  document.getElementById('revealBtn').onclick=()=>{document.getElementById('ans').classList.add('show'); document.getElementById('revealBtn').style.display='none'; stopTimer(); stopRec(); document.getElementById('aSpeak').onclick=()=>speak(b.a); scoreAnswer(b.a);};
-  document.getElementById('okBtn').onclick=()=>{weak.delete(key(b));saveWeak();next();};
-  document.getElementById('noBtn').onclick=()=>{weak.add(key(b));saveWeak();next();};
+  document.getElementById('revealBtn').onclick=()=>{document.getElementById('ans').classList.add('show'); document.getElementById('revealBtn').style.display='none'; stopTimer(); stopRec(); document.getElementById('aSpeak').onclick=()=>speak(b.a); scoreAnswer(b.a); const cr=document.getElementById('clozeReveal'); if(cr)cr.onclick=()=>{document.getElementById('aNl').textContent=b.a; cr.style.display='none';};};
+  document.getElementById('okBtn').onclick=()=>{weak.delete(key(b));saveWeak();streak++;if(streak>best){best=streak;localStorage.setItem(BS,best);}updateStreak();next();};
+  document.getElementById('noBtn').onclick=()=>{weak.add(key(b));saveWeak();streak=0;updateStreak();next();};
 }
 let tId=null;
 function startTimer(){
@@ -320,14 +363,16 @@ function prev(){idx=Math.max(0,idx-1); render();}
 document.getElementById('nextBtn').onclick=next;
 document.getElementById('prevBtn').onclick=prev;
 function setReflexBtn(){const r=document.getElementById('reflexBtn');r.classList.toggle('on',reflexMode);r.textContent=reflexMode?'⚡ 反射訓練中':'⚡ 反射訓練';}
+function setClozeBtn(){const c=document.getElementById('clozeBtn');c.classList.toggle('on',clozeMode);c.textContent=clozeMode?'✏️ 填空中':'✏️ 句架填空';}
 document.getElementById('reflexBtn').onclick=()=>{reflexMode=!reflexMode;mode=reflexMode?'all':mode;examMode=false;setReflexBtn();buildPool();render();};
-document.getElementById('examBtn').onclick=()=>{reflexMode=false;setReflexBtn();mode='exam';examMode=true;activeTopic=null;buildPool();renderChips();render();};
+document.getElementById('clozeBtn').onclick=()=>{clozeMode=!clozeMode;setClozeBtn();render();};
+document.getElementById('examBtn').onclick=()=>{reflexMode=false;setReflexBtn();mode='exam';examMode=true;activeTopic=null;activePattern=null;buildPool();renderChips();renderPatterns();render();};
 document.getElementById('weakBtn').onclick=()=>{reflexMode=false;setReflexBtn();mode='weak';examMode=false;buildPool();render();};
-document.getElementById('allBtn').onclick=()=>{reflexMode=false;setReflexBtn();mode='all';examMode=false;buildPool();render();};
-function setSeg(){document.getElementById('segAudio').classList.toggle('on',!picMode);document.getElementById('segPic').classList.toggle('on',picMode);document.getElementById('topics').style.display=picMode?'none':'flex';}
-document.getElementById('segAudio').onclick=()=>{if(!picMode)return;picMode=false;mode='all';examMode=false;activeTopic=null;setSeg();buildPool();renderChips();render();};
-document.getElementById('segPic').onclick=()=>{if(picMode)return;picMode=true;mode='all';examMode=false;activeTopic=null;setSeg();buildPool();renderChips();render();};
+document.getElementById('allBtn').onclick=()=>{reflexMode=false;setReflexBtn();mode='all';examMode=false;activeTopic=null;activePattern=null;buildPool();renderChips();renderPatterns();render();};
+function setSeg(){document.getElementById('segAudio').classList.toggle('on',!picMode);document.getElementById('segPic').classList.toggle('on',picMode);document.getElementById('topics').style.display=picMode?'none':'flex';document.querySelectorAll('.filt')[0].style.display=picMode?'none':'block';}
+document.getElementById('segAudio').onclick=()=>{if(!picMode)return;picMode=false;mode='all';examMode=false;activeTopic=null;activePattern=null;setSeg();buildPool();renderChips();renderPatterns();render();};
+document.getElementById('segPic').onclick=()=>{if(picMode)return;picMode=true;mode='all';examMode=false;activeTopic=null;activePattern=null;setSeg();buildPool();renderChips();renderPatterns();render();};
 
-setSeg(); renderChips(); buildPool(); render();
+setSeg(); renderChips(); renderPatterns(); buildPool(); render();
 </script>
 </body></html>
