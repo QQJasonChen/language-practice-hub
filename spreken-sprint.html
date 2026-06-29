@@ -61,6 +61,13 @@ details.tpl[open]>summary{border-bottom:1px solid var(--bd)}
 .heard.show{display:block}
 .heard .hl{font-size:12px;color:var(--blue);font-weight:700}
 .heard .ht{font-size:15px;margin-top:2px;color:var(--ink)}
+.btn.spk{background:#eef4ff;color:var(--blue);border:1px solid #c7d8ff;margin-top:8px;width:100%}
+.score{margin-top:10px}
+.score .sl{font-size:13.5px;color:var(--ink);background:#f3faf5;border:1px solid #b7e4c4;border-radius:10px;padding:8px 11px}
+.score .sm{font-size:15px;margin-top:8px;line-height:1.9}
+.score .sn{font-size:11.5px;color:var(--mut);margin-top:4px}
+.score .wk{color:#16a34a;font-weight:700}
+.score .wm{color:#9aa1ad;text-decoration:line-through}
 .btn.ok{background:#eaf7ee;color:var(--ok);border:1px solid #b7e4c4}
 .btn.no{background:#fdecea;color:var(--no);border:1px solid #f5c6bd}
 .empty{text-align:center;color:var(--mut);padding:30px 10px}
@@ -160,6 +167,7 @@ function render(){
     ${picMode?'<img class="q-img" src="'+b.img+'" alt="看圖題" loading="lazy" onerror="this.style.display=\'none\'">':''}
     <div class="q-nl">${b.q}</div>
     <div class="q-zh">${b.qz||''}</div>
+    <button class="btn spk" id="qSpeak">🔊 聽題目（像真的聽力考）</button>
     <div class="timer" id="timer"></div>
     <div class="microw" id="microw"></div>
     <div class="heard" id="heard"></div>
@@ -168,6 +176,8 @@ function render(){
       <div class="lbl">MODEL ANSWER</div>
       <div class="a-nl">${b.a}</div>
       <div class="a-zh">${b.az||''}</div>
+      <button class="btn spk" id="aSpeak">🔊 聽正確發音</button>
+      <div class="score" id="score"></div>
       <div class="rate">
         <button class="btn ok" id="okBtn">✓ 我會了</button>
         <button class="btn no" id="noBtn">✗ 還不熟</button>
@@ -177,7 +187,9 @@ function render(){
   document.getElementById('prog').textContent = (idx+1)+' / '+pool.length + (examMode?'  · 模擬考模式':'');
   startTimer();
   setupMic(b);
-  document.getElementById('revealBtn').onclick=()=>{document.getElementById('ans').classList.add('show'); document.getElementById('revealBtn').style.display='none'; stopTimer(); stopRec();};
+  lastSaid='';
+  document.getElementById('qSpeak').onclick=()=>speak(b.q);
+  document.getElementById('revealBtn').onclick=()=>{document.getElementById('ans').classList.add('show'); document.getElementById('revealBtn').style.display='none'; stopTimer(); stopRec(); document.getElementById('aSpeak').onclick=()=>speak(b.a); scoreAnswer(b.a);};
   document.getElementById('okBtn').onclick=()=>{weak.delete(key(b));saveWeak();next();};
   document.getElementById('noBtn').onclick=()=>{weak.add(key(b));saveWeak();next();};
 }
@@ -206,8 +218,9 @@ function toggleRec(b){
   let fin='';
   rec.onresult=e=>{ let interim='';
     for(let i=e.resultIndex;i<e.results.length;i++){ const t=e.results[i][0].transcript; if(e.results[i].isFinal) fin+=t+' '; else interim+=t; }
+    lastSaid=(fin+interim).trim();
     heard.classList.add('show');
-    heard.innerHTML='<div class="hl">🗣 你說的：</div><div class="ht">'+(fin+interim||'…')+'</div>';
+    heard.innerHTML='<div class="hl">🗣 你說的：</div><div class="ht">'+(lastSaid||'…')+'</div>';
   };
   rec.onerror=e=>{ heard.classList.add('show'); heard.innerHTML='<div class="hl" style="color:#e0533d">辨識出錯（'+e.error+'）。確認已允許麥克風。</div>'; stopRec(); };
   rec.onend=()=>{ recOn=false; const bb=document.getElementById('recBtn'); if(bb){bb.textContent='🎙 再講一次';bb.classList.remove('on');} };
@@ -215,6 +228,39 @@ function toggleRec(b){
   catch(err){ heard.classList.add('show'); heard.innerHTML='<div class="hl" style="color:#e0533d">無法啟動麥克風</div>'; }
 }
 function stopRec(){ if(rec){ try{rec.stop();}catch(e){} } recOn=false; }
+
+/* ── TTS 朗讀（nl-NL，模擬聽力考＋示範發音）── */
+let nlVoice=null;
+function pickVoice(){ const vs=speechSynthesis.getVoices(); nlVoice=vs.find(v=>/nl[-_]NL/i.test(v.lang))||vs.find(v=>/^nl/i.test(v.lang))||null; }
+if('speechSynthesis' in window){ pickVoice(); speechSynthesis.onvoiceschanged=pickVoice; }
+function speak(text){
+  if(!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text); u.lang='nl-NL'; u.rate=.92; if(nlVoice)u.voice=nlVoice;
+  speechSynthesis.speak(u);
+}
+
+/* ── 關鍵字對照評分：你講的 vs 範例答案 ── */
+let lastSaid='';
+const STOP=new Set(['ik','u','de','het','een','en','is','in','op','met','van','dat','niet','te','ook','mijn','uw','dan','er','aan','om','heb','ben','word','wordt']);
+function norm(s){ return (s||'').toLowerCase().replace(/[.,!?;:'"()]/g,'').split(/\s+/).filter(Boolean); }
+function scoreAnswer(model){
+  const el=document.getElementById('score'); if(!el) return;
+  if(!lastSaid){ el.innerHTML=''; return; }
+  const saidSet=new Set(norm(lastSaid));
+  const mwords=norm(model);
+  const keys=mwords.filter(w=>w.length>2 && !STOP.has(w));
+  if(!keys.length){ el.innerHTML=''; return; }
+  let hit=0; const marks=mwords.map(w=>{
+    const isKey=w.length>2 && !STOP.has(w);
+    const ok=saidSet.has(w);
+    if(isKey&&ok)hit++;
+    return isKey ? '<span class="'+(ok?'wk':'wm')+'">'+w+'</span>' : w;
+  });
+  const pct=Math.round(hit/keys.length*100);
+  const tip = pct>=70?'很棒！關鍵字幾乎都講到了 🎉': pct>=40?'不錯，再補幾個關鍵字就完整':'多照範例練幾次，把關鍵字講進去';
+  el.innerHTML='<div class="sl">📊 對照範例：你講中 <b>'+hit+'/'+keys.length+'</b> 個關鍵字（'+pct+'%）· '+tip+'</div><div class="sm">'+marks.join(' ')+'</div><div class="sn">綠=你講到 · 灰=漏掉的關鍵字</div>';
+}
 function next(){idx++; if(idx>=pool.length){ if(examMode){document.getElementById('stage').innerHTML='<div class="card empty">🎉 模擬考 10 題完成！<br>再來一回 → 按上面「🎲 隨機模擬考」</div>';document.getElementById('prog').textContent='';stopTimer();return;} idx=0;} render();}
 function prev(){idx=Math.max(0,idx-1); render();}
 
