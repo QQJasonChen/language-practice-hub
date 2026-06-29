@@ -1,0 +1,418 @@
+[
+{
+"ex": 1,
+"img": "_tkoK4nhpVU/q06.jpg",
+"q": "Kijk naar het plaatje. Kirsten zit niet in haar auto. Wat doet zij en waarom zit zij volgens u niet in de auto?",
+"qz": "請看圖片。 Kirsten沒有坐在她的車裡。 她在做什麼？您認為為什麼她不在車裡？",
+"a": "Zij loopt op straat. Haar auto is kapot.",
+"az": "她在街上走路。她的車子壞了。"
+},
+{
+"ex": 1,
+"img": "_tkoK4nhpVU/q07.jpg",
+"q": "Kijk naar het plaatje. Henk gaat naar zijn werk. Hoe reist hij en hoelang moet hij volgens u reizen naar zijn werk?",
+"qz": "請看圖片。 Henk去上班。 他怎麼去的？您估計他去上班要多久？",
+"a": "Hij gaat met de fiets. Hij reist ongeveer veertien minuten.",
+"az": "他騎自行車去。 他大約騎了十四分鐘。"
+},
+{
+"ex": 1,
+"img": "_tkoK4nhpVU/q08.jpg",
+"q": "Kijk naar de plaatjes. Waar gaat u liever naartoe? Vertel ook waarom u dat het liefst doet.",
+"qz": "請看圖片。 您比較喜歡去哪裡？ 請說明為什麼您喜歡去那裡。",
+"a": "Ik ga liever naar een concert. Ik hou van muziek.",
+"az": "我比較喜歡去音樂會。我喜歡音樂。"
+},
+{
+"ex": 1,
+"img": "_tkoK4nhpVU/q09.jpg",
+"q": "Kijk naar de plaatjes. Waar gaat u liever uit eten? In een snackbar of in een restaurant? Hoe vaak gaat u daar naartoe?",
+"qz": "請看圖片。 您比較喜歡去哪裡吃飯？ 快餐店還是餐廳？ 您多久去一次？",
+"a": "Ik ga liever naar een snackbar. Ik ga elke week.",
+"az": "我比較喜歡去快餐店。我每週都去。"
+},
+{
+"ex": 1,
+"img": "_tkoK4nhpVU/q10.jpg",
+"q": "David werkt in een garage. Kijk naar de plaatjes. Welke dingen moet hij doen? Gebruik alle plaatjes.",
+"qz": "David在車庫工作。請看圖片。 他必須做哪些事情？請用所有圖片。",
+"a": "Hij moet de banden controleren. Hij moet de olie controleren. Hij moet ook de auto schoonmaken.",
+"az": "他必須檢查輪胎。 他必須檢查機油。 他也必須清理車子。"
+},
+{
+"ex": 1,
+"img": "_tkoK4nhpVU/q11.jpg",
+"q": "Carina werkt in een vliegtuig. Kijk naar de plaatjes. Wat moet zij doen? Gebruik alle plaatjes.",
+"qz": "Carina 在飛機上工作。看看這些圖片。 她應該做什麼？使用所有圖片。",
+"a": "Zij controleert de kaartjes. Zij geeft instructies. Zij brengt eten bij de passagiers.",
+"az": "她正在檢查票券。 她給予指示。她為乘客送餐。"
+},
+{
+"ex": 2,
+"img": "Oe2mXQSvrIc/q07.jpg",
+"q": "Kijk naar het plaatje. Diego houdt van uitgaan. Wat doet hij? En waar is hij volgens u?",
+"qz": "看這張圖片。迭戈喜歡出門玩。 他在做什麼？您認為他在哪裡？",
+"a": "Hij kijkt naar een film. Hij is in een bioscoop.",
+"az": "他在看電影。他在電影院裡。"
+},
+{
+"ex": 2,
+"img": "Oe2mXQSvrIc/q08.jpg",
+"q": "Kijk naar het plaatje. Hij is in een bioscoop. Laila gaat naar een concert. Waar is het concert volgens u? En hoe heeft zij haar kaartje gekocht?",
+"qz": "看這張圖片。他在電影院裡。 萊拉要去聽音樂會。 您認為音樂會在哪裡？她是怎麼買票的？",
+"a": "Het concert is in een theater. Zij heeft haar kaartje via internet gekocht.",
+"az": "音樂會在劇院舉行。 她是透過網路買票的。"
+},
+{
+"ex": 2,
+"img": "Oe2mXQSvrIc/q09.jpg",
+"q": "Kijk naar het plaatje. U gaat van uw huis naar het station. Met welk vervoermiddel gaat u het liefst? En hoe vaak gaat u naar het station?",
+"qz": "看這張圖片。 您從家裡走到車站。 您最喜歡搭乘哪種交通工具？ 您多久去一次車站？",
+"a": "Ik ga het liefst met de taxi. Ik ga elke week naar het station.",
+"az": "我最喜歡搭計程車。 我每週都去車站。"
+},
+{
+"ex": 2,
+"img": "Oe2mXQSvrIc/q10.jpg",
+"q": "Kijk naar het plaatje. U gaat naar Spanje. Hoe reist u het liefst? Vertel ook wat u gaat doen in Spanje.",
+"qz": "看這張圖片。 您要去西班牙。您最喜歡怎麼旅行？ 也請說說您在西班牙要做什麼。",
+"a": "Ik ga het liefst met de trein. Ik ga naar Spanje op vakantie.",
+"az": "我最喜歡搭火車去。 我要去西班牙度假。"
+},
+{
+"ex": 2,
+"img": "Oe2mXQSvrIc/q11.jpg",
+"q": "Waarvoor gebruikt hij zijn computer? Gebruik alle plaatjes.",
+"qz": "他用他的電腦做什麼？請使用所有圖片說明。",
+"a": "Hij doet boodschappen. Hij schrijft e-mails. Hij vergadert met collega's.",
+"az": "他去買菜。他寫電子郵件。 他和同事開會。"
+},
+{
+"ex": 2,
+"img": "Oe2mXQSvrIc/q12.jpg",
+"q": "Melissa volgt een cursus. Kijk naar de plaatjes. Welke dingen gebruikt zij bij haar cursus? Gebruik alle plaatjes.",
+"qz": "Melissa 正在上課程。請看圖片。 她在課程中使用哪些東西？請使用所有圖片說明。",
+"a": "Zij gebruikt haar laptop en een koptelefoon. Zij heeft boeken. Zij schrijft met een pen op papier.",
+"az": "她使用筆記型電腦和耳機。 她有書本。她用筆在紙上寫字。"
+},
+{
+"ex": 3,
+"img": "LpmHcxO1GIE/q07.jpg",
+"q": "Kijk naar het plaatje. Paula heeft een computer. Wat is het probleem? Wat kan zij het beste doen?",
+"qz": "請看圖片。 Paula 有一台電腦。問題是什麼？ 她最好的做法是什麼？",
+"a": "De koffie valt op het toetsenbord. Zij moet een nieuw toetsenbord kopen.",
+"az": "咖啡倒在鍵盤上了。 她應該買一個新的鍵盤。"
+},
+{
+"ex": 3,
+"img": "LpmHcxO1GIE/q08.jpg",
+"q": "Kijk naar het plaatje. Vincent krijgt veel e-mails. Wat gaat hij volgens u doen met deze e-mails? Wat doet u zelf met uw e-mails?",
+"qz": "請看圖片。 Vincent 收到很多電子郵件。 您認為他會怎麼處理這些郵件？ 您自己怎麼處理您的電子郵件？",
+"a": "Vincent leest zijn e-mails. Ik gooi mijn e-mails weg.",
+"az": "Vincent 會讀他的電子郵件。 我會把電子郵件刪掉。"
+},
+{
+"ex": 3,
+"img": "LpmHcxO1GIE/q09.jpg",
+"q": "Kijk naar de plaatjes. Wat doet u liever in de vakantie? Vertel ook wanneer u op vakantie gaat.",
+"qz": "請看圖片。 您在假期比較想做什麼？ 也請說您什麼時候去旅遊。",
+"a": "Kijk naar de plaatjes. Ik wil veel slapen in de vakantie. Ik ga het liefst in de zomer.",
+"az": "請看圖片。我想在假期多睡覺。 我最喜歡夏天去旅遊。"
+},
+{
+"ex": 3,
+"img": "LpmHcxO1GIE/q10.jpg",
+"q": "Kijk naar de plaatjes. Hoe gaat u het liefst op vakantie? Vertel ook hoe vaak u met het vliegtuig reist.",
+"qz": "請看圖片。 您最喜歡怎麼去旅遊？ 也請說您多久搭飛機旅行一次。",
+"a": "Ik ga liever met de trein. Ik reis nooit met het vliegtuig.",
+"az": "我比較喜歡搭火車去。 我從不搭飛機旅行。"
+},
+{
+"ex": 3,
+"img": "LpmHcxO1GIE/q11.jpg",
+"q": "Tamara gaat naar een restaurant. Kijk naar de plaatjes. Wat doet zij in het restaurant? En met wie is zij daar? Gebruik alle plaatjes.",
+"qz": "Tamara 去餐廳。請看圖片。 她在餐廳做什麼？她和誰在那裡？ 使用所有圖片。",
+"a": "Zij eet iets lekkers. Zij drinkt rode wijn. Zij is met haar broer. Vladimir loopt door de stad en hij ziet drie artiesten.",
+"az": "她吃一些美味的東西。她喝紅酒。 她和她的哥哥一起。 Vladimir 走在城市裡，他看到三位藝人。"
+},
+{
+"ex": 3,
+"img": "LpmHcxO1GIE/q12.jpg",
+"q": "Kijk naar de plaatjes. Wat ziet hij als hij door de stad loopt? Gebruik alle plaatjes.",
+"qz": "看圖片。 他走在城市裡時看到什麼？使用所有圖片。",
+"a": "Hij ziet iemand die muziek maakt. Hij ziet iemand die danst. En hij ziet iemand die schildert.",
+"az": "他看到有人在演奏音樂。 他看到有人在跳舞。 他還看到有人在畫畫。"
+},
+{
+"ex": 4,
+"img": "_JVTi1vheeg/q06.jpg",
+"q": "Waarom bent u wel eens te laat? Zeg ook wat u dan doet. Ik sta soms in de file. Dan bel ik mijn baas. Kijk naar het plaatje. Het is vandaag 5 december. Wat doen veel Nederlanders op deze dag? En wat doet u op 5 december?",
+"qz": "您為什麼偶爾會遲到？ 請說明您那時候做什麼。 我有時候塞車。這時候我會打電話給老闆。 看圖片。今天是12月5日。 很多荷蘭人在這天會做什麼？ 那您12月5日會做什麼？",
+"a": "Zij geven elkaar een cadeau. Ik doe niet mee met Sinterklaas.",
+"az": "他們互送禮物。我不參加聖尼古拉斯節。"
+},
+{
+"ex": 4,
+"img": "_JVTi1vheeg/q07.jpg",
+"q": "Kijk naar het plaatje. Het is vandaag 27 april. Koningsdag. Wat doen veel Nederlanders op deze dag? En wat doet u op Koningsdag?",
+"qz": "看圖片。 今天是4月27日，國王節。 很多荷蘭人在這天會做什麼？ 那您國王節會做什麼？",
+"a": "Veel Nederlanders dragen dan oranje kleding. Ik draag op die dag ook oranje kleding.",
+"az": "很多荷蘭人會穿橘色衣服。 我那天也會穿橘色衣服。"
+},
+{
+"ex": 4,
+"img": "_JVTi1vheeg/q08.jpg",
+"q": "Kijk naar de plaatjes. Waar woont u liever? In een stad of in een dorp? Vertel ook waarom.",
+"qz": "看圖片。您比較想住在哪裡？ 在城市還是鄉村？請說明原因。",
+"a": "Ik woon liever in de stad. In de stad zijn winkels en restaurants.",
+"az": "我比較想住在城市。 城市裡有商店和餐廳。"
+},
+{
+"ex": 4,
+"img": "_JVTi1vheeg/q09.jpg",
+"q": "Kijk naar de plaatjes. In welk huis woont u liever? Vertel ook waarom.",
+"qz": "看圖片。您比較想住在哪一棟房子？ 請說明原因。",
+"a": "Ik woon liever in een flat. Ik wil geen tuin.",
+"az": "我比較想住在公寓。 我不要有花園。"
+},
+{
+"ex": 4,
+"img": "_JVTi1vheeg/q10.jpg",
+"q": "Candy gaat graag op vakantie. Kijk naar de plaatjes. Vertel wat zij doet. Gebruik alle plaatjes.",
+"qz": "Candy 喜歡去度假。看圖片。 請說說她做什麼。請使用所有圖片。",
+"a": "Zij gaat naar een grote stad. Zij gaat shoppen. En zij gaat koffie drinken op een terras. Theo en Thea zijn op vakantie in Nederland.",
+"az": "她去大城市。她去購物。 而且她去露天咖啡座喝咖啡。 Theo和Thea在荷蘭度假。"
+},
+{
+"ex": 4,
+"img": "_JVTi1vheeg/q11.jpg",
+"q": "Kijk naar de plaatjes. Wat doen zij tijdens de vakantie? Gebruik alle plaatjes.",
+"qz": "看圖片。 他們度假時做些什麼？請使用所有圖片。",
+"a": "Zij fietsen. Zij wandelen. En zij zitten bij het water.",
+"az": "他們在騎腳踏車。他們在散步。 他們坐在水邊。"
+},
+{
+"ex": 5,
+"img": "cqzgh_uaT0w/q08.jpg",
+"q": "Kijk naar het plaatje. Marleen droomt over een nieuw huis. Over wat voor soort huis droomt zij volgens u? En is zo'n huis duur of goedkoop?",
+"qz": "請看圖片。 馬琳夢想有一棟新房子。 您覺得她夢想的是什麼樣的房子？ 那種房子是貴的還是便宜的？",
+"a": "Zij droomt over een villa. Een villa is duur.",
+"az": "她夢想的是一棟別墅。別墅很貴。"
+},
+{
+"ex": 5,
+"img": "cqzgh_uaT0w/q09.jpg",
+"q": "Kijk naar haar huis. Kijk naar het plaatje. Vanessa heeft een huis gevonden. Hoeveel kamers heeft haar huis? En hoeveel kamers heeft uw huis?",
+"qz": "看看她的房子。看看圖片。 凡妮莎找到了一棟房子。她的房子有幾個房間？ 您的房子有幾個房間？",
+"a": "Het huis van Vanessa heeft zes kamers. Mijn huis heeft vijf kamers.",
+"az": "凡妮莎的房子有六個房間。 我的房子有五個房間。"
+},
+{
+"ex": 5,
+"img": "cqzgh_uaT0w/q10.jpg",
+"q": "Kijk naar de plaatjes. Welk beroep past beter bij u? Vertel ook waarom.",
+"qz": "請看圖片。 哪種職業比較適合您？也請說明原因。",
+"a": "Leraar past beter bij mij. Ik vind het leuk op school. De een doet administratief werk. De ander werkt in de zorg.",
+"az": "老師比較適合我。我喜歡在學校工作。 一個做行政工作。另一個在照護工作。"
+},
+{
+"ex": 5,
+"img": "cqzgh_uaT0w/q12.jpg",
+"q": "Thomas heeft lunchtijd. Kijk naar de plaatjes. Vertel wat hij doet tijdens de lunch. Gebruik alle plaatjes.",
+"qz": "湯瑪斯正在午餐時間。請看圖片。 說說他午餐時做了什麼。請用到所有圖片。",
+"a": "Hij eet een broodje. Hij drinkt koffie. En hij kijkt naar zijn computer. Maria is met haar dochter in de winkel.",
+"az": "他吃了一個麵包。他喝咖啡。 他還看著他的電腦。 瑪麗亞和她的女兒在商店裡。"
+},
+{
+"ex": 5,
+"img": "cqzgh_uaT0w/q13.jpg",
+"q": "Kijk naar de plaatjes. Vertel wat Maria koopt. Gebruik alle plaatjes.",
+"qz": "看圖片。 說說瑪麗亞買了什麼，使用所有圖片。",
+"a": "Kijk naar de plaatjes. Zij koopt fruit. Zij koopt groenten. En zij koopt een pak koekjes.",
+"az": "看圖片。她買水果。她買蔬菜。 她還買了一包餅乾。"
+},
+{
+"ex": 6,
+"img": "uK6B2WPV5ac/q07.jpg",
+"q": "Kijk naar het plaatje. Wie houdt van sport? Welke sport doet zij hier en hoe vaak doet zij dat volgens u?",
+"qz": "請看圖片。 誰喜歡運動？ 她在做什麼運動？您覺得她多久做一次？",
+"a": "Zij zwemt. Zij zwemt volgens mij één keer per week.",
+"az": "她游泳。我覺得她大約一週游一次。"
+},
+{
+"ex": 6,
+"img": "uK6B2WPV5ac/q08.jpg",
+"q": "Kijk naar het plaatje. Dafne is een sportieve vrouw. Van welke sport houdt zij? Doet zij haar sport liever alleen of samen met anderen?",
+"qz": "請看圖片。 Dafne 是一位運動型的女人。她喜歡什麼運動？ 她喜歡單獨運動還是和別人一起？",
+"a": "Dafne loopt hard. Zij doet dat liever alleen.",
+"az": "Dafne 喜歡跑步。她較喜歡單獨跑步。"
+},
+{
+"ex": 6,
+"img": "uK6B2WPV5ac/q09.jpg",
+"q": "Kijk naar de plaatjes. Welk schilderij vindt u mooier? Waar kunt u schilderijen bekijken?",
+"qz": "請看圖片。 您覺得哪幅畫比較漂亮？ 您在哪裡可以看畫作？",
+"a": "Ik vind het schilderij met de bloemen mooi. Ik kan schilderijen in het museum bekijken.",
+"az": "我覺得有花的那幅畫很美。 我可以在博物館裡看畫作。"
+},
+{
+"ex": 6,
+"img": "uK6B2WPV5ac/q10.jpg",
+"q": "Kijk naar de plaatjes. Drop en appeltaart. Wat vindt u minder lekker? En wanneer eten Nederlanders volgens u appeltaart?",
+"qz": "請看圖片。 甘草糖和蘋果派。 您覺得哪個比較不喜歡？您覺得荷蘭人什麼時候會吃蘋果派？",
+"a": "Ik vind drop niet zo lekker. Nederlanders eten appeltaart bij een feestje.",
+"az": "我不太喜歡甘草糖。 荷蘭人在派對上會吃蘋果派。"
+},
+{
+"ex": 6,
+"img": "uK6B2WPV5ac/q11.jpg",
+"q": "Vertel wat een bouwvakker moet doen tijdens zijn werk. Gebruik alle plaatjes.",
+"qz": "說說建築工人在工作時必須做些什麼。 請使用所有的圖片說明。",
+"a": "Een bouwvakker draagt stenen. Hij maakt een muur. Hij maakt ook een dak.",
+"az": "建築工人會搬磚頭。 他在蓋牆。他也在做屋頂。"
+},
+{
+"ex": 6,
+"img": "uK6B2WPV5ac/q12.jpg",
+"q": "Priscilla maakt haar huis schoon. Kijk naar de plaatjes. Vertel wat zij doet. Gebruik alle plaatjes.",
+"qz": "Priscilla 在打掃她的房子。看看圖片。 說說她在做什麼。使用所有圖片。",
+"a": "Zij maakt de vloer schoon. Zij maakt de wc schoon. Zij maakt ook de ramen.",
+"az": "她在清理地板。她在清理廁所。 她也在擦窗戶。"
+},
+{
+"ex": 7,
+"img": "cPwEoHUGwnE/q07.jpg",
+"q": "Kijk naar het plaatje. Kees gaat op vakantie. Wat heeft hij bij zich? En waar gaat hij volgens u naartoe?",
+"qz": "請看圖片。Kees 要去度假。 他帶了什麼？您認為他要去哪裡？",
+"a": "Hij heeft veel rugzakken. Hij gaat naar Bali.",
+"az": "他帶了很多背包。 他要去巴厘島。"
+},
+{
+"ex": 7,
+"img": "cPwEoHUGwnE/q08.jpg",
+"q": "Kijk naar het plaatje. Wesley en Hannah zijn op reis. Wat doen zij? En waar zijn zij volgens u?",
+"qz": "請看圖片。 Wesley 和 Hannah 在旅行。他們在做什麼？ 您認為他們在哪裡？",
+"a": "Ze maken een foto. Ze zijn in Londen.",
+"az": "他們正在拍照。他們在倫敦。"
+},
+{
+"ex": 7,
+"img": "cPwEoHUGwnE/q09.jpg",
+"q": "Kijk naar de plaatjes. Hoe vaak doet u deze sport?",
+"qz": "請看圖片。 您多久從事一次這項運動？",
+"a": "Ik vind fietsen het leukst. Ik fiets elke dag.",
+"az": "我覺得騎自行車最有趣。 我每天騎自行車。"
+},
+{
+"ex": 7,
+"img": "cPwEoHUGwnE/q10.jpg",
+"q": "Kijk naar de plaatjes. Welke sport vindt u minder leuk? Is deze sport volgens u goed of slecht voor kinderen?",
+"qz": "請看圖片。 您覺得哪項運動比較不喜歡？ 您認為這項運動對小孩是好是壞？",
+"a": "Ik vind voetbal minder leuk. Voetbal is niet goed voor kinderen. Karel gaat een dagje naar Amsterdam.",
+"az": "我不太喜歡足球。 足球對小孩不好。 Karel 去阿姆斯特丹玩一天。"
+},
+{
+"ex": 7,
+"img": "cPwEoHUGwnE/q11.jpg",
+"q": "Kijk naar de plaatjes. Wat ziet hij in de stad? Gebruik alle plaatjes.",
+"qz": "請看圖片。 他在城市裡看到了什麼？請用所有圖片說明。",
+"a": "Hij ziet veel fietsen. Hij ziet boten en hij ziet veel oude huizen.",
+"az": "他看到了很多自行車。 他看到船，也看到許多老房子。"
+},
+{
+"ex": 7,
+"img": "cPwEoHUGwnE/q12.jpg",
+"q": "Dina gaat naar de Keukenhof. Kijk naar de plaatjes. Wat ziet zij daar? Gebruik alle plaatjes.",
+"qz": "Dina 去了庫肯霍夫。看這些圖片。 她看到了什麼？請使用所有圖片。",
+"a": "Zij ziet veel bloemen. Zij ziet een molen. En zij ziet een klomp.",
+"az": "她看到許多花。她看到一座風車。 而且她看到一隻木屐。"
+},
+{
+"ex": 8,
+"img": "b0zrI7QOGcc/q08.jpg",
+"q": "Kijk naar het plaatje. Karin is op de markt. Met wie is zij op de markt? Vertel ook wat zij volgens u gaat kopen.",
+"qz": "請看圖片。 Karin 在市場。她和誰一起在市場？ 請也說說您認為她會買什麼？",
+"a": "Zij is met haar dochter. Zij koopt fruit.",
+"az": "她和她女兒一起。她買水果。"
+},
+{
+"ex": 8,
+"img": "b0zrI7QOGcc/q09.jpg",
+"q": "Kijk naar de plaatjes. Gebruikt u liever een laptop of een grote computer? Vertel ook waarom.",
+"qz": "請看圖片們。 您比較喜歡用筆電還是大台電腦？ 請也說明原因。",
+"a": "Ik gebruik liever een grote computer. Dat is beter voor mijn ogen.",
+"az": "我比較喜歡用大台電腦。對我眼睛比較好。"
+},
+{
+"ex": 8,
+"img": "b0zrI7QOGcc/q10.jpg",
+"q": "Kijk naar het plaatje. Wat doet u op sociale media, zoals Facebook of Instagram? En wat vindt u van Facebook?",
+"qz": "請看圖片。 您在社群媒體，例如 Facebook 或 Instagram 上做什麼？ 您覺得 Facebook 如何？",
+"a": "Ik kijk veel op Facebook. Ik vind het leuk om vrienden te hebben.",
+"az": "我常常看 Facebook。 我覺得有朋友真好。"
+},
+{
+"ex": 8,
+"img": "b0zrI7QOGcc/q11.jpg",
+"q": "Eduardo is in de sportschool. Kijk naar de plaatjes. Wat doet hij in de sportschool? Gebruik alle plaatjes.",
+"qz": "Eduardo 在健身房。請看圖片。 他在健身房做什麼？ 請使用所有圖片回答。",
+"a": "Hij loopt. Hij fietst. Hij neemt een douche.",
+"az": "他走路。 他騎腳踏車。他洗澡。"
+},
+{
+"ex": 8,
+"img": "b0zrI7QOGcc/q12.jpg",
+"q": "Ingrid kijkt naar een sportwedstrijd. Kijk naar de plaatjes. Naar welke sport kijkt zij en waar kijkt zij naar de wedstrijd? Zeg ook wat zij doet bij de wedstrijd. Gebruik alle plaatjes.",
+"qz": "英格麗德在看一場運動比賽。看看這些圖片。 她在看哪種運動？她在比賽的哪裡觀看？ 也說說她在比賽時做了什麼。用到所有圖片。",
+"a": "Zij kijkt thuis naar een voetbalwedstrijd. Zij drinkt bier en zij draagt oranje kleding.",
+"az": "她在家裡看足球比賽。 她喝啤酒，穿著橘色衣服。"
+},
+{
+"ex": 9,
+"img": "FM7AOEA-Ddw/q06.jpg",
+"q": "Wat vindt u van mensen die elke dag sporten? En doet u zelf ook aan sport? Ja, ik sport ook graag. Ik zwem drie keer per week.",
+"qz": "您怎麼看待每天運動的人？您自己也運動嗎？ 是的，我也喜歡運動。我一週游泳三次。",
+"a": "Kijk naar het plaatje.",
+"az": "請看圖片。"
+},
+{
+"ex": 9,
+"img": "FM7AOEA-Ddw/q07.jpg",
+"q": "Dit is Mario. Wat is zijn beroep? Wat heeft hij in zijn rechterhand? Hij is slager en hij heeft een mes in zijn hand.",
+"qz": "這是馬里奧。他的職業是什麼？他右手拿著什麼？ 他是屠夫，右手拿著一把刀。",
+"a": "Kijk naar het plaatje.",
+"az": "請看圖片。"
+},
+{
+"ex": 9,
+"img": "FM7AOEA-Ddw/q09.jpg",
+"q": "Kijk naar de plaatjes. Hoe doet u de boodschappen? In de gewone supermarkt of online? Vertel ook in welke winkel of op welke website u de boodschappen doet. Ik doe de boodschappen online.",
+"qz": "請看圖片。 您怎麼買菜？是在普通超市還是網路上？也請說明您在哪家店或哪個網站買菜。 我網路買菜。",
+"a": "Ik doe de boodschappen bij Albert Heijn.",
+"az": "我在 Albert Heijn 超市買菜。"
+},
+{
+"ex": 9,
+"img": "FM7AOEA-Ddw/q10.jpg",
+"q": "Kijk naar de plaatjes.",
+"qz": "請看圖片。",
+"a": "Ik drink liever koffie. Ik drink elke dag koffie.",
+"az": "我比較喜歡喝咖啡。我每天喝咖啡。"
+},
+{
+"ex": 9,
+"img": "FM7AOEA-Ddw/q11.jpg",
+"q": "Adriaan is politieagent. Kijk naar de plaatjes. Vertel wat hij moet doen. Gebruik alle plaatjes. Hij controleert de snelheid van auto's. Hij geeft een boete.",
+"qz": "阿德里安是警察。請看圖片。 請說明他要做什麼。請用所有圖片說明。 他在檢查車輛速限。他發出罰單。",
+"a": "Hij werkt op kantoor.",
+"az": "他在辦公室工作。"
+},
+{
+"ex": 9,
+"img": "FM7AOEA-Ddw/q12.jpg",
+"q": "Tess staat in de file. Kijk naar de plaatjes. Vertel wat zij doet. Gebruik alle plaatjes. Zij drinkt thee. Zij kijkt in de spiegel.",
+"qz": "特斯塞擠在車陣中。請看圖片。 請說明她在做什麼。請用所有圖片說明。 她喝茶。她照鏡子。",
+"a": "Zij kijkt op haar telefoon. Zijkijktophaartelefoon",
+"az": "她看手機。"
+}
+]
