@@ -49,6 +49,14 @@ details.tpl[open]>summary{border-bottom:1px solid var(--bd)}
 .ans .a-zh{color:var(--mut);font-size:14px}
 .rate{display:flex;gap:10px;margin-top:14px}
 .rate .btn{flex:1}
+.microw{margin-top:10px}
+.btn.rec{width:100%;background:#eef4ff;color:var(--blue);border:1px solid #c7d8ff}
+.btn.rec.on{background:#fdecea;color:var(--no);border-color:#f5c6bd;animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
+.heard{display:none;margin-top:10px;background:#f6f8fc;border:1px solid var(--bd);border-radius:11px;padding:10px 12px}
+.heard.show{display:block}
+.heard .hl{font-size:12px;color:var(--blue);font-weight:700}
+.heard .ht{font-size:15px;margin-top:2px;color:var(--ink)}
 .btn.ok{background:#eaf7ee;color:var(--ok);border:1px solid #b7e4c4}
 .btn.no{background:#fdecea;color:var(--no);border:1px solid #f5c6bd}
 .empty{text-align:center;color:var(--mut);padding:30px 10px}
@@ -60,7 +68,7 @@ a.lnk{color:var(--o);font-weight:600;text-decoration:none}
 </style></head><body><div class="wrap">
 <a class="back" href="spreken-kaoguti.html">← 口說考古題講義</a>
 <h1>🏁 A2 口說衝刺包</h1>
-<p class="sub">167 題真考題 · 看題 → 開口答 → 翻 model answer。標記不熟、只練弱項、隨機模擬考。</p>
+<p class="sub">167 題真考題 · 看題 → 🎙開口講(荷蘭文辨識) → 翻 model answer。標記不熟、只練弱項、隨機模擬考。</p>
 
 <details class="tpl"><summary>🧩 萬用答題模板（先記這個，任何題都能答）<span style="color:var(--o)">▾</span></summary>
 <div class="tplbody">
@@ -141,6 +149,8 @@ function render(){
     <div class="q-nl">${b.q}</div>
     <div class="q-zh">${b.qz||''}</div>
     <div class="timer" id="timer"></div>
+    <div class="microw" id="microw"></div>
+    <div class="heard" id="heard"></div>
     <button class="btn p" id="revealBtn" style="margin-top:12px;width:100%">🎤 我答完了，看 model answer</button>
     <div class="ans" id="ans">
       <div class="lbl">MODEL ANSWER</div>
@@ -154,7 +164,8 @@ function render(){
   </div>`;
   document.getElementById('prog').textContent = (idx+1)+' / '+pool.length + (examMode?'  · 模擬考模式':'');
   startTimer();
-  document.getElementById('revealBtn').onclick=()=>{document.getElementById('ans').classList.add('show'); document.getElementById('revealBtn').style.display='none'; stopTimer();};
+  setupMic(b);
+  document.getElementById('revealBtn').onclick=()=>{document.getElementById('ans').classList.add('show'); document.getElementById('revealBtn').style.display='none'; stopTimer(); stopRec();};
   document.getElementById('okBtn').onclick=()=>{weak.delete(key(b));saveWeak();next();};
   document.getElementById('noBtn').onclick=()=>{weak.add(key(b));saveWeak();next();};
 }
@@ -165,6 +176,33 @@ function startTimer(){
   tId=setInterval(()=>{t--; if(t<=0){el.textContent='⏱ 時間到！說完了嗎？按下面看答案 ✅';stopTimer();return;} el.textContent='⏱ 先別看答案，開口講 15 秒… '+t;},1000);
 }
 function stopTimer(){if(tId){clearInterval(tId);tId=null;}}
+
+/* ── 開口錄音對照（Web Speech API, nl-NL）── */
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let rec=null, recOn=false;
+function setupMic(b){
+  const w=document.getElementById('microw'); const heard=document.getElementById('heard');
+  heard.textContent=''; heard.classList.remove('show');
+  if(!SR){ w.innerHTML='<span style="font-size:12.5px;color:#9aa1ad">（此瀏覽器不支援錄音對照，用 Chrome 桌面版可開口辨識）</span>'; return; }
+  w.innerHTML='<button class="btn rec" id="recBtn">🎙 開口講講看（荷蘭文辨識）</button>';
+  document.getElementById('recBtn').onclick=()=>toggleRec(b);
+}
+function toggleRec(b){
+  const btn=document.getElementById('recBtn'); const heard=document.getElementById('heard');
+  if(recOn){ stopRec(); return; }
+  rec=new SR(); rec.lang='nl-NL'; rec.interimResults=true; rec.continuous=true;
+  let fin='';
+  rec.onresult=e=>{ let interim='';
+    for(let i=e.resultIndex;i<e.results.length;i++){ const t=e.results[i][0].transcript; if(e.results[i].isFinal) fin+=t+' '; else interim+=t; }
+    heard.classList.add('show');
+    heard.innerHTML='<div class="hl">🗣 你說的：</div><div class="ht">'+(fin+interim||'…')+'</div>';
+  };
+  rec.onerror=e=>{ heard.classList.add('show'); heard.innerHTML='<div class="hl" style="color:#e0533d">辨識出錯（'+e.error+'）。確認已允許麥克風。</div>'; stopRec(); };
+  rec.onend=()=>{ recOn=false; const bb=document.getElementById('recBtn'); if(bb){bb.textContent='🎙 再講一次';bb.classList.remove('on');} };
+  try{ rec.start(); recOn=true; btn.textContent='⏹ 停止'; btn.classList.add('on'); stopTimer(); document.getElementById('timer').textContent='🎙 錄音中… 把整段答案講出來'; }
+  catch(err){ heard.classList.add('show'); heard.innerHTML='<div class="hl" style="color:#e0533d">無法啟動麥克風</div>'; }
+}
+function stopRec(){ if(rec){ try{rec.stop();}catch(e){} } recOn=false; }
 function next(){idx++; if(idx>=pool.length){ if(examMode){document.getElementById('stage').innerHTML='<div class="card empty">🎉 模擬考 10 題完成！<br>再來一回 → 按上面「🎲 隨機模擬考」</div>';document.getElementById('prog').textContent='';stopTimer();return;} idx=0;} render();}
 function prev(){idx=Math.max(0,idx-1); render();}
 
