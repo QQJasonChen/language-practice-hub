@@ -8,3 +8,6 @@ output/*/frames/
 output/*/sheets/
 dist/
 node_modules/
+
+# TTS 金鑰（本機、勿進版控）
+.tts_env
