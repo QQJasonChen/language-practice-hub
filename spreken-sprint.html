@@ -325,15 +325,31 @@ function toggleRec(b){
 }
 function stopRec(){ if(rec){ try{rec.stop();}catch(e){} } recOn=false; }
 
-/* ── TTS 朗讀（nl-NL，模擬聽力考＋示範發音）── */
+/* ── TTS 朗讀：優先播預生成的神經語音 mp3，沒有才退回瀏覽器內建語音 ── */
 let nlVoice=null;
-function pickVoice(){ const vs=speechSynthesis.getVoices(); nlVoice=vs.find(v=>/nl[-_]NL/i.test(v.lang))||vs.find(v=>/^nl/i.test(v.lang))||null; }
+function pickVoice(){
+  const vs=speechSynthesis.getVoices().filter(v=>/^nl/i.test(v.lang));
+  // 優先挑進階/增強/神經版，避開 compact 低品質
+  nlVoice = vs.find(v=>/enhanced|premium|neural/i.test(v.name))
+         || vs.find(v=>!/compact/i.test(v.name))
+         || vs[0] || null;
+}
 if('speechSynthesis' in window){ pickVoice(); speechSynthesis.onvoiceschanged=pickVoice; }
-function speak(text){
+function browserSpeak(text){
   if(!('speechSynthesis' in window)) return;
   speechSynthesis.cancel();
   const u=new SpeechSynthesisUtterance(text); u.lang='nl-NL'; u.rate=.92; if(nlVoice)u.voice=nlVoice;
   speechSynthesis.speak(u);
+}
+// FNV-1a over UTF-8 → 8 hex（與生成腳本 gen_spreken_tts.py 一致）
+function hashKey(s){const b=new TextEncoder().encode(s);let h=0x811c9dc5;for(let i=0;i<b.length;i++){h^=b[i];h=Math.imul(h,0x01000193);}return (h>>>0).toString(16).padStart(8,'0');}
+let curAudio=null;
+function speak(text){
+  if(curAudio){try{curAudio.pause();}catch(e){}curAudio=null;}
+  if('speechSynthesis' in window) speechSynthesis.cancel();
+  const a=new Audio('audio/spreken/'+hashKey(text)+'.mp3'); curAudio=a;
+  a.onerror=()=>{curAudio=null;browserSpeak(text);};
+  a.play().catch(()=>{curAudio=null;browserSpeak(text);});
 }
 
 /* ── 關鍵字對照評分：你講的 vs 範例答案 ── */
