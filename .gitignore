@@ -11,3 +11,6 @@ node_modules/
 
 # TTS 金鑰（本機、勿進版控）
 .tts_env
+
+# 完整版講義（本機保留，勿公開/勿進版控——公開的是試讀版）
+*.local.html
