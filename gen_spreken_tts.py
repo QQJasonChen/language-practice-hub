@@ -56,6 +56,18 @@ def _xml(s):
     return (s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
              .replace('"', '&quot;').replace("'", '&apos;'))
 
+# ---- OpenAI（最新神經語音 gpt-4o-mini-tts，可用 instructions 調語速/語氣）----
+_OAI = None
+def tts_openai(text, voice, model, instructions):
+    global _OAI
+    if _OAI is None:
+        from openai import OpenAI
+        _OAI = OpenAI()
+    with _OAI.audio.speech.with_streaming_response.create(
+        model=model, voice=voice, input=text,
+        instructions=instructions, response_format='mp3') as resp:
+        return resp.read()
+
 # ---- Google ----
 def tts_google(text, voice, key):
     url = f'https://texttospeech.googleapis.com/v1/text:synthesize?key={key}'
@@ -71,15 +83,26 @@ def tts_google(text, voice, key):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--provider', choices=['azure', 'google'], required=True)
-    ap.add_argument('--voice', required=True)
+    ap.add_argument('--provider', choices=['azure', 'google', 'openai'], required=True)
+    ap.add_argument('--voice', default='nova')  # openai 預設 nova（清楚女聲）
+    # 已查 client.models.list()：此端點最新 TTS = gpt-4o-mini-tts（非 chat 的 gpt-4o-mini）
+    ap.add_argument('--model', default='gpt-4o-mini-tts-2025-12-15')
+    ap.add_argument('--instructions',
+                    default='Speak in clear, natural Netherlands Dutch (nl-NL), '
+                            'calm and slightly slow for language learners. '
+                            'Neutral, friendly tone.')
     args = ap.parse_args()
 
     os.makedirs(OUT, exist_ok=True)
     texts = collect_texts()
     print(f'共 {len(texts)} 句、總 {sum(len(t) for t in texts)} 字元')
 
-    if args.provider == 'azure':
+    if args.provider == 'openai':
+        if not os.environ.get('OPENAI_API_KEY'):
+            sys.exit('缺 OPENAI_API_KEY 環境變數')
+        print(f'OpenAI TTS｜model={args.model} voice={args.voice}')
+        synth = lambda t: tts_openai(t, args.voice, args.model, args.instructions)
+    elif args.provider == 'azure':
         key = os.environ.get('AZURE_SPEECH_KEY'); region = os.environ.get('AZURE_SPEECH_REGION')
         if not key or not region:
             sys.exit('缺 AZURE_SPEECH_KEY / AZURE_SPEECH_REGION 環境變數')
