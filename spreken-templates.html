@@ -37,6 +37,19 @@ h1{font-size:23px;margin:6px 0 2px}
 .vocab h2{font-size:15px;margin:0 0 8px;color:var(--o)}
 .vocab .g{font-size:13.5px;margin:6px 0}
 .vocab b{color:var(--ink)}
+/* 點擊發音 */
+.ex .nl.say{cursor:pointer}
+.ex .nl.say::after{content:' 🔊';font-size:12px;opacity:.45}
+.ex .nl.say:hover{color:var(--o)}
+.vlabel{font-size:12.5px;font-weight:800;color:var(--o);margin:12px 0 3px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 2px}
+.chip{display:inline-flex;align-items:baseline;gap:5px;padding:6px 10px;border-radius:999px;
+  border:1px solid var(--bd);background:#fff;cursor:pointer;font-size:14px;font-weight:700;
+  color:var(--ink);font-family:inherit}
+.chip::before{content:'🔊';font-size:10.5px;opacity:.5;margin-right:1px}
+.chip:hover{border-color:var(--o);color:var(--o)}
+.chip:active{transform:scale(.96)}
+.chip span{font-size:11.5px;font-weight:500;color:var(--mut)}
 @media print{.back,.cta,.toc{display:none}body{background:#fff}.pat,.golden,.vocab{box-shadow:none;break-inside:avoid}}
 </style></head><body><div class="wrap">
 <a class="back" href="spreken-sprint.html">← 回口說衝刺包</a>
@@ -126,12 +139,76 @@ h1{font-size:23px;margin:6px 0 2px}
 <div class="row ex"><span class="k g">立刻能說</span><div class="nl">Ja, ik vind cadeautjes ook leuk. Ik krijg graag bloemen.</div><div class="zh">對，我也喜歡禮物。我喜歡收到花。</div></div>
 <div class="second">🔁 先 Ja/Nee 表態 → 重複關鍵字 + ook/niet → 補一個例子。</div></div>
 
-<div class="vocab"><h2>⚡ 反射加分小詞（塞進任何答案）</h2>
-<div class="g"><b>程度：</b>het liefst（最愛）· graag（喜歡）· meestal（通常）· vaak（常）· soms（有時）· bijna altijd（幾乎總是）· nooit（從不）</div>
-<div class="g"><b>連接：</b>want（因為）· en（和）· maar（但是）· ook（也）· dan（然後）· bijvoorbeeld（例如）</div>
-<div class="g"><b>表態：</b>Ik vind … (niet) leuk / mooi / lekker / gezond / handig / gezellig / duur / goedkoop</div>
-<div class="g"><b>萬用理由：</b>…, want dat is gezond / leuk / handig / lekker / goedkoop / belangrijk / rustig</div>
+<div class="vocab"><h2>⚡ 反射加分小詞（點一下聽發音，塞進任何答案）</h2>
+<div class="vlabel">頻率 · 程度</div>
+<div class="chips">
+  <button class="chip" onclick="say('het liefst')">het liefst<span>最愛</span></button>
+  <button class="chip" onclick="say('graag')">graag<span>喜歡</span></button>
+  <button class="chip" onclick="say('meestal')">meestal<span>通常</span></button>
+  <button class="chip" onclick="say('vaak')">vaak<span>常</span></button>
+  <button class="chip" onclick="say('soms')">soms<span>有時</span></button>
+  <button class="chip" onclick="say('bijna altijd')">bijna altijd<span>幾乎總是</span></button>
+  <button class="chip" onclick="say('nooit')">nooit<span>從不</span></button>
+</div>
+<div class="vlabel">連接詞（最好用，先學這些）</div>
+<div class="chips">
+  <button class="chip" onclick="say('want')">want<span>因為</span></button>
+  <button class="chip" onclick="say('zoals')">zoals<span>像是／例如</span></button>
+  <button class="chip" onclick="say('bijvoorbeeld')">bijvoorbeeld<span>例如（正式）</span></button>
+  <button class="chip" onclick="say('en')">en<span>和</span></button>
+  <button class="chip" onclick="say('maar')">maar<span>但是</span></button>
+  <button class="chip" onclick="say('ook')">ook<span>也</span></button>
+  <button class="chip" onclick="say('dan')">dan<span>然後</span></button>
+</div>
+<div class="vlabel">表態形容詞（Ik vind … leuk / niet leuk）</div>
+<div class="chips">
+  <button class="chip" onclick="say('leuk')">leuk<span>好玩</span></button>
+  <button class="chip" onclick="say('mooi')">mooi<span>漂亮</span></button>
+  <button class="chip" onclick="say('lekker')">lekker<span>好吃</span></button>
+  <button class="chip" onclick="say('gezond')">gezond<span>健康</span></button>
+  <button class="chip" onclick="say('handig')">handig<span>方便</span></button>
+  <button class="chip" onclick="say('gezellig')">gezellig<span>愉快熱鬧</span></button>
+  <button class="chip" onclick="say('duur')">duur<span>貴</span></button>
+  <button class="chip" onclick="say('goedkoop')">goedkoop<span>便宜</span></button>
+</div>
+<div class="vlabel">萬用理由（整句，答不出理由就套）</div>
+<div class="chips">
+  <button class="chip" onclick="say('want dat is gezond')">want dat is gezond<span>因為很健康</span></button>
+  <button class="chip" onclick="say('want dat is handig')">want dat is handig<span>因為很方便</span></button>
+  <button class="chip" onclick="say('want dat is goedkoop')">want dat is goedkoop<span>因為便宜</span></button>
+  <button class="chip" onclick="say('want dat is belangrijk')">want dat is belangrijk<span>因為很重要</span></button>
+  <button class="chip" onclick="say('want dat is rustig')">want dat is rustig<span>因為很安靜</span></button>
+</div>
 </div>
 
 <a class="cta" href="spreken-sprint.html">⚡ 去衝刺包用「反射訓練」練到變直覺 →</a>
-</div></body></html>
+</div>
+<script>
+// 點擊發音：優先播預生成的 nova 神經語音 mp3，沒有才退回瀏覽器語音。
+// 檔名 = FNV-1a(UTF-8) 8 hex，與 gen_templates_tts.py 一致。
+function hashKey(s){const b=new TextEncoder().encode(s);let h=0x811c9dc5;for(let i=0;i<b.length;i++){h^=b[i];h=Math.imul(h,0x01000193);}return (h>>>0).toString(16).padStart(8,'0');}
+let _a=null;
+function say(text){
+  if(!text)return;
+  if(_a){try{_a.pause();}catch(e){}}
+  if('speechSynthesis'in window)speechSynthesis.cancel();
+  const a=new Audio('audio/templates/'+hashKey(text)+'.mp3'); _a=a;
+  a.onerror=()=>browserSay(text);
+  a.play().catch(()=>browserSay(text));
+}
+let _nl=null;
+function browserSay(text){
+  if(!('speechSynthesis'in window))return;
+  speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text.replace(/\s*\/\s*/g,', ')); u.lang='nl-NL'; u.rate=.9;
+  if(_nl)u.voice=_nl; speechSynthesis.speak(u);
+}
+if('speechSynthesis'in window){const pick=()=>{const vs=speechSynthesis.getVoices().filter(v=>/^nl/i.test(v.lang));_nl=vs.find(v=>/enhanced|premium|neural/i.test(v.name))||vs.find(v=>!/compact/i.test(v.name))||vs[0]||null;};pick();speechSynthesis.onvoiceschanged=pick;}
+// 讓每句「立刻能說」範例可點播
+document.querySelectorAll('.ex .nl').forEach(el=>{
+  const t=el.textContent.trim(); if(!t)return;
+  el.dataset.say=t; el.classList.add('say');
+  el.addEventListener('click',()=>say(el.dataset.say));
+});
+</script>
+</body></html>
