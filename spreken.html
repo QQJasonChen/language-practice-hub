@@ -46,6 +46,17 @@
   .q-text{font-size:18px;font-weight:800;line-height:1.5}
   .q-zh{font-size:13.5px;color:var(--text2);margin-top:8px;line-height:1.6;display:none}
   .card.show-zh .q-zh{display:block}
+  /* 遮住問題（口說反射練習：先聽再看） */
+  .q-text{transition:filter .18s}
+  .card.mask-on .q-text{filter:blur(9px);user-select:none;pointer-events:none}
+  .card.mask-on .q-zh,.card.mask-on .zh-btn,.card.mask-on.show-zh .q-zh{display:none}
+  .card.mask-on.revealed .q-text{filter:none;user-select:auto;pointer-events:auto}
+  .card.mask-on.revealed .zh-btn{display:block}
+  .card.mask-on.revealed.show-zh .q-zh{display:block}
+  .mask-hint{display:none;font-size:12.5px;color:var(--text3);margin-top:10px;font-weight:700}
+  .card.mask-on:not(.revealed) .mask-hint{display:block}
+  .reveal-btn{display:none}
+  .card.mask-on:not(.revealed) .reveal-btn{display:block}
   .btn-row{display:flex;gap:8px;margin-top:16px}
   .b{flex:1;padding:13px;border-radius:13px;border:1px solid var(--border);background:var(--surface2);
     color:var(--text);font-size:14px;font-weight:700;cursor:pointer}
@@ -114,6 +125,13 @@
         <button data-v="0">關（只倒數）</button>
       </div>
     </div>
+    <div class="opt-row">
+      <span class="opt-label">遮住問題</span>
+      <div class="seg" id="mask-seg">
+        <button data-v="1">🙈 遮住（先聽再看）</button>
+        <button data-v="0">關（直接看題）</button>
+      </div>
+    </div>
     <button class="start-btn" id="start" disabled onclick="startSession()">載入中…</button>
     <div class="mini-stat" id="mini-stat"></div>
   </div>
@@ -124,6 +142,7 @@ const DATA_URL = 'output/spreken_items.json';
 const STORE_KEY = 'lph_spreken_v1';     // { "vid:idx": {reps, interval, due, lastGrade, tries} }
 const TIMER_KEY = 'lph_spreken_timer';
 const MIC_KEY = 'lph_spreken_mic';
+const MASK_KEY = 'lph_spreken_mask';
 const INTERVALS = [1, 3, 7, 14, 30];
 const SESSION_N = 8;
 const TIMERS = [15, 25, 35];
@@ -136,6 +155,8 @@ let DATA = null;
 let timerSec = parseInt(localStorage.getItem(TIMER_KEY)) || 25;
 if (!TIMERS.includes(timerSec)) timerSec = 25;
 let micOn = localStorage.getItem(MIC_KEY) !== '0';
+let maskQ = localStorage.getItem(MASK_KEY) !== '0';   // 預設遮住（口說反射練習）
+let qRevealed = false;
 let session = [], si = 0, grades = [];
 let micStream = null, mediaRec = null, recChunks = [], myRecUrl = null;
 let countdownT = null;
@@ -150,6 +171,10 @@ function renderSettings() {
   document.querySelectorAll('#mic-seg button').forEach(b => {
     b.classList.toggle('on', (b.dataset.v === '1') === micOn);
     b.onclick = () => { micOn = b.dataset.v === '1'; localStorage.setItem(MIC_KEY, micOn ? '1' : '0'); renderSettings(); };
+  });
+  document.querySelectorAll('#mask-seg button').forEach(b => {
+    b.classList.toggle('on', (b.dataset.v === '1') === maskQ);
+    b.onclick = () => { maskQ = b.dataset.v === '1'; localStorage.setItem(MASK_KEY, maskQ ? '1' : '0'); renderSettings(); };
   });
 }
 function setTimer(s) { timerSec = s; localStorage.setItem(TIMER_KEY, String(s)); renderSettings(); }
@@ -228,14 +253,17 @@ function renderQuestion() {
   const it = session[si];
   document.getElementById('prog').style.width = Math.round(si / session.length * 100) + '%';
   document.getElementById('counter').textContent = `${si + 1} / ${session.length}`;
+  qRevealed = false;
   document.getElementById('stage').innerHTML = `
-    <div class="card" id="card">
+    <div class="card ${maskQ ? 'mask-on' : ''}" id="card">
       <div class="src-tag">🗣️ ${esc(it.label)} · 第 ${it.idx + 1} 題</div>
       <div class="q-text">${esc(it.q_nl)}</div>
       <div class="q-zh">${esc(it.q_zh)}</div>
+      <div class="mask-hint">🙈 問題已遮住 — 先聽音檔、講完再揭曉</div>
       <div class="btn-row">
         <button class="b" onclick="playQ()">🔊 再聽問題</button>
-        <button class="b" onclick="document.getElementById('card').classList.toggle('show-zh')">中文</button>
+        <button class="b reveal-btn" onclick="revealQ()">👁 顯示問題</button>
+        <button class="b zh-btn" onclick="document.getElementById('card').classList.toggle('show-zh')">中文</button>
       </div>
       <div class="btn-row">
         <button class="b primary" onclick="startAnswer()">🎙️ 開始作答（${timerSec} 秒）</button>
@@ -244,6 +272,7 @@ function renderQuestion() {
   playQ();
 }
 function playQ() { const it = session[si]; playRange(it.vid, it.q_start, it.q_end); }
+function revealQ() { qRevealed = true; const c = document.getElementById('card'); if (c) c.classList.add('revealed'); }
 
 // ── Phase 2: countdown + record ──
 function startAnswer() {
@@ -254,7 +283,7 @@ function startAnswer() {
   document.getElementById('stage').innerHTML = `
     <div class="card">
       <div class="src-tag">🗣️ ${esc(it.label)} · 第 ${it.idx + 1} 題</div>
-      <div class="q-text" style="font-size:15px;color:var(--text2)">${esc(it.q_nl)}</div>
+      <div class="q-text" style="font-size:15px;color:var(--text2)">${(maskQ && !qRevealed) ? '🙈 （問題遮住中，憑聽力作答）' : esc(it.q_nl)}</div>
       <div class="ring-box">
         <div class="ring">
           <svg width="150" height="150">
