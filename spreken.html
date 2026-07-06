@@ -57,6 +57,11 @@
   .card.mask-on:not(.revealed) .mask-hint{display:block}
   .reveal-btn{display:none}
   .card.mask-on:not(.revealed) .reveal-btn{display:block}
+  /* in-session 控制列（返回 / 隱藏原文） */
+  .sess-bar{display:flex;gap:8px;margin-bottom:14px}
+  .sess-btn{padding:7px 12px;border-radius:10px;border:1px solid var(--border);background:var(--surface2);
+    color:var(--text2);font-size:12.5px;font-weight:700;cursor:pointer}
+  .sess-btn:active{transform:scale(0.96)}
   .btn-row{display:flex;gap:8px;margin-top:16px}
   .b{flex:1;padding:13px;border-radius:13px;border:1px solid var(--border);background:var(--surface2);
     color:var(--text);font-size:14px;font-weight:700;cursor:pointer}
@@ -275,15 +280,16 @@ function renderQuestion() {
   document.getElementById('prog').style.width = Math.round(si / session.length * 100) + '%';
   document.getElementById('counter').textContent = `${si + 1} / ${session.length}`;
   qRevealed = false;
+  phase = 'q';
   document.getElementById('stage').innerHTML = `
     <div class="card ${maskQ ? 'mask-on' : ''}" id="card">
+      ${sessBar(true)}
       <div class="src-tag">🗣️ ${esc(it.label)} · 第 ${it.idx + 1} 題</div>
       <div class="q-text">${esc(it.q_nl)}</div>
       <div class="q-zh">${esc(it.q_zh)}</div>
-      <div class="mask-hint">🙈 問題已遮住 — 先聽音檔、講完再揭曉</div>
+      <div class="mask-hint">🙈 問題已遮住 — 先聽音檔、講完用上面「👁 顯示原文」揭曉</div>
       <div class="btn-row">
         <button class="b" onclick="playQ()">🔊 再聽問題</button>
-        <button class="b reveal-btn" onclick="revealQ()">👁 顯示問題</button>
         <button class="b zh-btn" onclick="document.getElementById('card').classList.toggle('show-zh')">中文</button>
       </div>
       <div class="btn-row">
@@ -295,16 +301,44 @@ function renderQuestion() {
 function playQ() { const it = session[si]; playRange(it.vid, it.q_start, it.q_end); }
 function revealQ() { qRevealed = true; const c = document.getElementById('card'); if (c) c.classList.add('revealed'); }
 
+// ── in-session 控制列：返回 + 隱藏/顯示原文 ──
+let phase = 'q';   // 'q' 題目 / 'a' 作答 / 'm' 模範
+function sessBar(withMask) {
+  return `<div class="sess-bar">
+    <button class="sess-btn" onclick="goBack()">← 返回</button>
+    ${withMask ? `<button class="sess-btn" id="mask-toggle" onclick="toggleMask()">${maskQ ? '👁 顯示原文' : '🙈 隱藏原文'}</button>` : ''}
+  </div>`;
+}
+function goBack() {
+  if (countdownT) { clearInterval(countdownT); countdownT = null; }
+  if (mediaRec && mediaRec.state === 'recording') { try { mediaRec.onstop = null; mediaRec.stop(); } catch(e){} }
+  if (_audio) { try { _audio.pause(); } catch(e){} }
+  if (phase === 'a' || phase === 'm') { renderQuestion(); return; }  // 回到本題題目
+  if (si > 0) { si--; renderQuestion(); }                            // 回上一題
+  else { location.reload(); }                                        // 第一題再返回＝回選單
+}
+function toggleMask() {
+  const c = document.getElementById('card');
+  const hidden = c && c.classList.contains('mask-on') && !c.classList.contains('revealed');
+  if (hidden) { if (c) c.classList.add('revealed'); maskQ = false; }        // 目前遮住 → 顯示
+  else { if (c) { c.classList.add('mask-on'); c.classList.remove('revealed'); } maskQ = true; } // 顯示 → 遮住
+  localStorage.setItem(MASK_KEY, maskQ ? '1' : '0');
+  const t = document.getElementById('mask-toggle');
+  if (t) t.textContent = maskQ ? '👁 顯示原文' : '🙈 隱藏原文';
+}
+
 // ── Phase 2: countdown + record ──
 function startAnswer() {
   if (_stopT) { clearTimeout(_stopT); _stopT = null; }
   if (_audio) _audio.pause();
   const it = session[si];
   const R = 66, CIRC = 2 * Math.PI * R;
+  phase = 'a';
   document.getElementById('stage').innerHTML = `
-    <div class="card">
+    <div class="card ${maskQ && !qRevealed ? 'mask-on' : ''}" id="card">
+      ${sessBar(true)}
       <div class="src-tag">🗣️ ${esc(it.label)} · 第 ${it.idx + 1} 題</div>
-      <div class="q-text" style="font-size:15px;color:var(--text2)">${(maskQ && !qRevealed) ? '🙈 （問題遮住中，憑聽力作答）' : esc(it.q_nl)}</div>
+      <div class="q-text" style="font-size:15px;color:var(--text2)">${esc(it.q_nl)}</div>
       <div class="ring-box">
         <div class="ring">
           <svg width="150" height="150">
@@ -367,8 +401,10 @@ function finishAnswer() {
 // ── Phase 3: model answer + self grade ──
 function renderModel() {
   const it = session[si];
+  phase = 'm';
   document.getElementById('stage').innerHTML = `
     <div class="card show-zh">
+      ${sessBar(false)}
       <div class="src-tag">🗣️ ${esc(it.label)} · 第 ${it.idx + 1} 題</div>
       <div class="q-text" style="font-size:14px;color:var(--text3)">${esc(it.q_nl)}</div>
       <div class="model-box">
