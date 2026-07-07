@@ -43,6 +43,10 @@
     animation:pop .3s cubic-bezier(.22,1,.36,1)}
   @keyframes pop{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
   .src-tag{font-size:10.5px;font-weight:800;letter-spacing:1px;color:var(--orange);margin-bottom:12px}
+  .img-wrap{margin:0 0 14px;border-radius:12px;overflow:hidden;background:rgba(255,255,255,0.04);
+    border:1px solid rgba(255,255,255,0.08)}
+  .img-wrap.compact{margin-top:10px}
+  .q-img{display:block;width:100%;max-height:260px;object-fit:contain;background:#111827}
   .q-text{font-size:18px;font-weight:800;line-height:1.5}
   .q-zh{font-size:13.5px;color:var(--text2);margin-top:8px;line-height:1.6;display:none}
   .card.show-zh .q-zh{display:block}
@@ -101,6 +105,12 @@
   .ai-wrong{color:var(--red);text-decoration:line-through}
   .ai-right{color:var(--green);font-weight:700}
   .ai-note{display:block;color:var(--text3);font-size:11.5px;margin-top:2px}
+  .ai-pron{margin-top:10px;border-top:1px solid rgba(255,255,255,0.06);padding-top:10px}
+  .ai-pron-title{font-size:11px;font-weight:800;letter-spacing:1px;color:var(--accent);margin-bottom:7px}
+  .ai-pron-item{font-size:12.5px;line-height:1.55;padding:7px 9px;border-radius:9px;
+    background:rgba(94,234,212,0.06);margin-top:6px}
+  .ai-pron-item b{color:var(--text)}
+  .ai-pron-item span{color:var(--text2)}
   .ai-fb{margin-top:10px;font-size:13px;line-height:1.7;color:var(--text2);
     border-top:1px solid rgba(255,255,255,0.06);padding-top:10px}
   .grades{display:flex;gap:8px;margin-top:16px}
@@ -172,8 +182,13 @@ const SESSION_N = 8;
 const TIMERS = [15, 25, 35];
 
 const esc = t => String(t == null ? '' : t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const attr = t => esc(t).replace(/"/g,'&quot;').replace(/'/g,'&#39;');
 const todayStr = () => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
 const daysFromNow = n => { const d = new Date(); d.setDate(d.getDate()+n); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+function questionImage(it, compact=false) {
+  if (!it || !it.img) return '';
+  return `<div class="img-wrap ${compact ? 'compact' : ''}"><img class="q-img" src="${attr(it.img)}" alt="題目圖片" loading="lazy" onerror="this.parentElement.style.display='none'"></div>`;
+}
 
 let DATA = null;
 let timerSec = parseInt(localStorage.getItem(TIMER_KEY)) || 25;
@@ -285,6 +300,7 @@ function renderQuestion() {
     <div class="card ${maskQ ? 'mask-on' : ''}" id="card">
       ${sessBar(true)}
       <div class="src-tag">🗣️ ${esc(it.label)} · 第 ${it.idx + 1} 題</div>
+      ${questionImage(it)}
       <div class="q-text">${esc(it.q_nl)}</div>
       <div class="q-zh">${esc(it.q_zh)}</div>
       <div class="mask-hint">🙈 問題已遮住 — 先聽音檔、講完用上面「👁 顯示原文」揭曉</div>
@@ -339,6 +355,7 @@ function startAnswer() {
       ${sessBar(true)}
       <div class="src-tag">🗣️ ${esc(it.label)} · 第 ${it.idx + 1} 題</div>
       <div class="q-text" style="font-size:15px;color:var(--text2)">${esc(it.q_nl)}</div>
+      ${questionImage(it, true)}
       <div class="ring-box">
         <div class="ring">
           <svg width="150" height="150">
@@ -407,6 +424,7 @@ function renderModel() {
       ${sessBar(false)}
       <div class="src-tag">🗣️ ${esc(it.label)} · 第 ${it.idx + 1} 題</div>
       <div class="q-text" style="font-size:14px;color:var(--text3)">${esc(it.q_nl)}</div>
+      ${questionImage(it, true)}
       <div class="model-box">
         <div class="m-tag">✅ 模範答案</div>
         <div class="m-nl">${esc(it.a_nl)}</div>
@@ -452,10 +470,14 @@ async function gradeMine() {
     fd.append('audio', myRecBlob, 'answer.' + ext);
     fd.append('question', it.q_nl || '');
     fd.append('model', it.a_nl || '');
+    fd.append('expected', it.a_nl || '');
+    fd.append('answer_seconds', String(timerSec));
+    fd.append('rubric', 'spreken-pronunciation-v2');
+    fd.append('focus', 'pronunciation_fluency_word_stress_dutch_sounds');
     const res = await fetch(GRADE_API, { method: 'POST', body: fd });
     const data = await res.json().catch(() => ({}));
     if (!res.ok) throw new Error(data.error || ('HTTP ' + res.status));
-    renderFeedback(data);
+    renderFeedback(data, it);
   } catch (e) {
     if (box) box.innerHTML = '<div class="ai-card ai-err">批改失敗：' + esc(e.message) +
       '<br><span style="color:var(--text3)">（可能是後端還沒設定金鑰，或網路問題）</span></div>';
@@ -463,12 +485,83 @@ async function gradeMine() {
     if (btn) { btn.disabled = false; btn.textContent = '🤖 重新批改'; }
   }
 }
-function renderFeedback(d) {
+const DUTCH_SOUND_RULES = [
+  { sound: 'ui', re: /ui/i, tip: '嘴巴先圓再往前滑，不要念成英文 ui。' },
+  { sound: 'ij / ei', re: /(ij|ei)/i, tip: '像短促的「欸」滑音，結尾要收乾淨。' },
+  { sound: 'g / ch', re: /(g|ch)/i, tip: '喉音要有摩擦感，但不要變成 k。' },
+  { sound: 'sch', re: /sch/i, tip: '先 s，再接喉音 ch，三個音不要糊成一團。' },
+  { sound: 'oe / eu / uu', re: /(oe|eu|uu)/i, tip: '注意圓唇母音，嘴型比中文更固定。' },
+  { sound: '長母音', re: /(aa|ee|oo)/i, tip: '長母音要拉開，太短時 AI 容易聽成別的字。' },
+  { sound: '尾音 d/t', re: /[dt]$/i, tip: '字尾要輕但要在，不能完全吞掉。' },
+  { sound: 'v / w', re: /^[vw]/i, tip: 'v 有唇齒摩擦，w 嘴唇更圓，兩者要分開。' }
+];
+
+function normWords(text) {
+  return String(text || '').toLowerCase().normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ')
+    .trim().split(/\s+/).filter(Boolean);
+}
+
+function buildPronunciationGuess(transcript, model) {
+  const heard = new Set(normWords(transcript));
+  const target = normWords(model).filter(w => w.length > 2);
+  const uniqueTarget = [...new Set(target)];
+  const missing = uniqueTarget.filter(w => !heard.has(w)).slice(0, 6);
+  const rows = [];
+  if (!String(transcript || '').trim()) {
+    rows.push({ sound: '錄音辨識', words: [], tip: '這次幾乎沒有可用轉錄；先靠近麥克風，放慢 10%，每個字尾收清楚。' });
+  } else if (missing.length) {
+    rows.push({ sound: '少聽到的字', words: missing.slice(0, 5), tip: '如果你其實有講，通常是重音、母音長短或尾音太弱。' });
+  }
+  DUTCH_SOUND_RULES.forEach(rule => {
+    const words = uniqueTarget.filter(w => rule.re.test(w)).slice(0, 4);
+    if (!words.length) return;
+    const missed = words.filter(w => !heard.has(w));
+    if (missed.length || !transcript) rows.push({ sound: rule.sound, words: missed.length ? missed : words.slice(0, 2), tip: rule.tip });
+  });
+  return rows.slice(0, 5);
+}
+
+function normalizePronIssues(raw) {
+  if (!raw) return [];
+  const list = Array.isArray(raw) ? raw : [raw];
+  return list.map(x => {
+    if (typeof x === 'string') return { sound: '發音', words: [], tip: x };
+    return {
+      sound: x.sound || x.pattern || x.title || x.issue || '發音',
+      words: Array.isArray(x.words) ? x.words : (x.word ? [x.word] : []),
+      tip: x.tip_zh || x.tip || x.note_zh || x.note || x.feedback_zh || x.feedback || ''
+    };
+  }).filter(x => x.tip || x.words.length);
+}
+
+function renderPronunciationHints(rows, inferred) {
+  if (!rows.length) return '';
+  let html = '<div class="ai-pron"><div class="ai-pron-title">發音重點' + (inferred ? '（推測）' : '') + '</div>';
+  rows.forEach(r => {
+    html += '<div class="ai-pron-item"><b>' + esc(r.sound) + '</b>' +
+      (r.words && r.words.length ? ' <span>' + esc(r.words.join(' · ')) + '</span>' : '') +
+      (r.tip ? '<br><span>' + esc(r.tip) + '</span>' : '') + '</div>';
+  });
+  html += '</div>';
+  return html;
+}
+
+function renderFeedback(d, it) {
   const box = document.getElementById('ai-feedback');
   if (!box) return;
-  if (d.empty) { box.innerHTML = '<div class="ai-card ai-err">' + esc(d.feedback_zh || '沒聽到聲音，再錄一次。') + '</div>'; return; }
+  const apiPron = normalizePronIssues(d.pronunciation_issues || d.pronunciationIssues || d.pronunciation || d.sound_issues);
+  const localPron = buildPronunciationGuess(d.transcript || '', (it && it.a_nl) || d.corrected || '');
+  if (d.empty) {
+    box.innerHTML = '<div class="ai-card ai-err">' + esc(d.feedback_zh || '沒聽到聲音，再錄一次。') +
+      renderPronunciationHints(localPron, true) + '</div>';
+    return;
+  }
   const score = typeof d.score === 'number' ? d.score : null;
   const sColor = score == null ? 'var(--text2)' : score >= 70 ? 'var(--green)' : score >= 40 ? 'var(--orange)' : 'var(--red)';
+  const pronRows = [...apiPron, ...localPron].slice(0, 6);
+  const fluency = d.fluency_zh || d.fluency || d.fluencyFeedback || '';
+  const tips = d.tips_zh || d.tips || d.next_steps || [];
   let html = '<div class="ai-card">';
   html += '<div class="ai-tag">🤖 AI 口說批改</div>';
   if (score != null) html += '<div class="ai-score" style="color:' + sColor + '">' + score + '<span>/100</span></div>';
@@ -482,6 +575,9 @@ function renderFeedback(d) {
     });
     html += '</div>';
   }
+  html += renderPronunciationHints(pronRows, !apiPron.length);
+  if (fluency) html += '<div class="ai-fb">' + esc(fluency) + '</div>';
+  if (Array.isArray(tips) && tips.length) html += '<div class="ai-fb">' + tips.slice(0, 3).map(esc).join('<br>') + '</div>';
   if (d.feedback_zh) html += '<div class="ai-fb">' + esc(d.feedback_zh) + '</div>';
   html += '</div>';
   box.innerHTML = html;
