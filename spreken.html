@@ -475,6 +475,7 @@ async function gradeMine() {
     fd.append('answer_seconds', String(timerSec));
     fd.append('rubric', 'spreken-pronunciation-v2');
     fd.append('focus', 'pronunciation_fluency_word_stress_dutch_sounds');
+    fd.append('code', localStorage.getItem('lph_access_code') || '');
     const res = await fetch(GRADE_API, { method: 'POST', body: fd });
     const data = await res.json().catch(() => ({}));
     if (!res.ok) throw new Error(data.error || ('HTTP ' + res.status));
