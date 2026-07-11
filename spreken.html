@@ -507,7 +507,7 @@ function showPaywall(wrong) {
     '<button class="b ai-btn" style="width:100%;margin-top:10px" onclick="applyCode()">解鎖 AI 批改</button>' +
     '<div id="pw-err" style="color:var(--red);font-size:12px;margin-top:8px;min-height:15px;font-weight:700">' +
     (wrong ? '存取碼無效，請確認 email 裡的碼' : '') + '</div>' +
-    '<a href="unlock/all.html" target="_blank" rel="noopener" style="display:block;text-align:center;margin-top:6px;color:var(--accent);font-size:13px;text-decoration:none">還沒有碼？看方案 →</a>' +
+    '<a href="aanbod.html" target="_blank" rel="noopener" style="display:block;text-align:center;margin-top:6px;color:var(--accent);font-size:13px;text-decoration:none">還沒有碼？看方案 →</a>' +
     '</div>';
   const inp = document.getElementById('pw-code');
   if (inp) { inp.focus(); inp.addEventListener('keydown', function(e){ if(e.key==='Enter') applyCode(); }); }
