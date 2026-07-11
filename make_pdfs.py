@@ -160,14 +160,27 @@ CSS = """
 # ── Builders ──
 
 def build_cover(exam: dict, nl_only: bool) -> str:
-    live = f"{LIVE_BASE}/{exam['video_id']}/index.html"
+    vid = str(exam.get('video_id', ''))
     mode = '純荷文 · 盲練版' if nl_only else '講義版 · 完整詳解'
     nq = exam['n_questions']
     nsc = len(exam['scenarios'])
-    is_orig = str(exam.get('video_id', '')).startswith('orig_')
+    is_orig = vid.startswith('orig_')
+    is_yt = bool(re.match(r'^[A-Za-z0-9_-]{11}$', vid))
     dsec = exam.get('duration', 0) or 0
     dlabel = f'{dsec} 秒' if dsec < 60 else f'{dsec // 60} 分鐘'
-    qr = '' if is_orig else f'<div class="qr">{qr_img(live, 92)}<div class="qr-label">線上練習</div></div>'
+    # QR + link: YouTube videos → the source video (scan to listen);
+    # self-made mocks → the online practice app; original mocks → none.
+    yt_url = f'https://www.youtube.com/watch?v={vid}'
+    if is_yt:
+        qr = f'<div class="qr">{qr_img(yt_url, 92)}<div class="qr-label">▶ 掃碼聽 YouTube</div></div>'
+        yt_span = f'<span>▶ <a href="{yt_url}">在 YouTube 聽原音</a></span>'
+    elif not is_orig:
+        live = f"{LIVE_BASE}/{vid}/index.html"
+        qr = f'<div class="qr">{qr_img(live, 92)}<div class="qr-label">線上練習</div></div>'
+        yt_span = ''
+    else:
+        qr = ''
+        yt_span = ''
     return f"""
     <div class="cover">
       <div class="left">
@@ -179,6 +192,7 @@ def build_cover(exam: dict, nl_only: bool) -> str:
           <span>🗂 {nsc} 個場景</span>
           <span>❓ {nq} 題</span>
           <span>📖 {mode}</span>
+          {yt_span}
         </div>
       </div>
       {qr}
@@ -186,9 +200,15 @@ def build_cover(exam: dict, nl_only: bool) -> str:
     """
 
 def build_howto(exam: dict, nl_only: bool) -> str:
-    is_orig = str(exam.get('video_id', '')).startswith('orig_')
-    listen = '聽音檔的' if is_orig else '聽（線上）'
-    qr_tip = '' if is_orig else '左上 QR 可回線上版練習。'
+    vid = str(exam.get('video_id', ''))
+    is_orig = vid.startswith('orig_')
+    is_yt = bool(re.match(r'^[A-Za-z0-9_-]{11}$', vid))
+    if is_yt:
+        listen, qr_tip = '聽 YouTube 的', '右上 QR／連結可到 YouTube 聽原音。'
+    elif is_orig:
+        listen, qr_tip = '聽音檔的', ''
+    else:
+        listen, qr_tip = '聽（線上）', '右上 QR 可回線上版練習。'
     if nl_only:
         body = ('<b>盲練版用法</b>：先不看任何中文。每個場景先讀單字、再' + listen + '對話原文，'
                 '然後作答。全部做完後，翻到最後的「答案與詳解」對答案、看反推說明。')

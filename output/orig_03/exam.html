@@ -1,0 +1,961 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>原創模擬 03：車站：火車誤點（交通・出行）</title><style>
+:root { --blue:#1e3a8a; --blue2:#3b82f6; --amber:#f59e0b; --ink:#1f2937;
+  --green:#16a34a; --red:#dc2626; --cyan:#0891b2; }
+* { box-sizing: border-box; }
+body { margin:0; padding:0 0 96px; font:15px/1.65 -apple-system,"PingFang TC","Hiragino Sans",sans-serif;
+  color:var(--ink); background:#f1f5f9; }
+.wrap { max-width:760px; margin:0 auto; padding:0 14px; }
+header { background:var(--blue); color:#fff; padding:14px 14px 0; position:sticky; top:0; z-index:30;
+  box-shadow:0 1px 8px rgba(0,0,0,.12); }
+header .wrap { padding:0 14px; }
+header h1 { margin:0 0 4px; font-size:17px; line-height:1.32; }
+header .meta { font-size:11.5px; color:#bfdbfe; }
+.tabs { display:flex; gap:2px; margin-top:10px; overflow-x:auto; }
+.tabs button { background:transparent; color:#cbd5e1; border:none; padding:9px 12px;
+  font-size:13px; font-weight:700; cursor:pointer; border-bottom:3px solid transparent;
+  white-space:nowrap; }
+.tabs button.on { color:#fff; border-bottom-color:var(--amber); }
+.tabs button .bg { background:var(--red); color:#fff; border-radius:9px; padding:1px 6px;
+  font-size:10px; margin-left:4px; font-weight:800; }
+.status { background:#0f172a; color:#cbd5e1; padding:7px 14px; font-size:12px;
+  display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+.status .item { display:inline-flex; gap:5px; align-items:center; }
+.status .item b { color:#fff; font-weight:800; font-size:13px; }
+.status .item.score b { color:var(--amber); }
+.status .reset { margin-left:auto; background:#334155; color:#94a3b8; border:none;
+  border-radius:6px; padding:4px 10px; font-size:11px; cursor:pointer; }
+.howto { background:#fff; border-left:4px solid var(--blue); border-radius:8px;
+  padding:11px 14px; margin:14px 0; font-size:13px; color:#374151; }
+.howto b { color:var(--blue); }
+/* scenario */
+/* scene jump nav — chips to leap between scenarios */
+.scenenav { display:flex; gap:6px; overflow-x:auto; padding:4px 0 12px; -webkit-overflow-scrolling:touch; }
+.scenenav::-webkit-scrollbar { display:none; }
+.scenenav .snav-lbl { flex:none; align-self:center; font-size:11.5px; font-weight:800; color:var(--amber); padding-right:2px; }
+.scenenav a { flex:none; display:inline-flex; align-items:center; gap:5px; max-width:140px;
+  background:#fff; border:1px solid #dbeafe; color:var(--blue); border-radius:99px; padding:6px 11px;
+  font-size:13px; font-weight:800; text-decoration:none; white-space:nowrap;
+  box-shadow:0 1px 2px rgba(0,0,0,.05); }
+.scenenav a small { font-weight:500; color:#64748b; overflow:hidden; text-overflow:ellipsis; max-width:96px; }
+.scenenav a:active { background:var(--blue); color:#fff; }
+
+.scene { background:#fff; border-radius:14px; margin:22px 0; overflow:hidden;
+  box-shadow:0 2px 12px rgba(30,58,138,.10); border:1px solid #e5e7eb;
+  scroll-margin-top:120px; }
+.scene-bar { background:var(--blue); color:#fff; padding:13px 15px; display:flex;
+  align-items:baseline; gap:9px; position:sticky; top:0; z-index:5; }
+.scene-bar .sn { font-size:12px; font-weight:800; background:#fbbf24; color:var(--blue);
+  padding:2px 9px; border-radius:11px; white-space:nowrap; }
+.scene-bar .st { font-size:16px; font-weight:800; flex:1; }
+.scene-bar .sk { font-size:11px; color:#bfdbfe; }
+.scene-ctx { background:#eff6ff; padding:9px 15px; font-size:12.5px; color:#1e40af;
+  border-bottom:1px solid #dbeafe; }
+.scene-ctx .nl { color:#94a3b8; }
+/* 預習 block — tinted so it clearly reads as a distinct "preview" section */
+.sec { padding:13px 15px 15px; background:#fffaf0; border-bottom:2px solid #f0e6d2; }
+.sec h3 { font-size:13px; font-weight:800; color:#b45309; margin:2px 0 9px;
+  letter-spacing:.3px; display:flex; align-items:center; gap:7px; }
+.sec h3::before { content:''; width:4px; height:15px; background:var(--amber); border-radius:2px; flex:none; }
+.vocab { width:100%; border-collapse:collapse; font-size:13px; }
+.vocab td { padding:5px 8px; border:1px solid #f0e6d2; }
+.vocab td.nl { font-weight:700; width:46%; }
+.vocab td.zh { color:#6b7280; }
+.vocab tr:nth-child(even) td { background:#fffdf7; }
+.pat { font-size:13px; margin:5px 0; padding-bottom:5px; border-bottom:1px dotted #e5e7eb; }
+.pat .pnl { font-weight:700; color:#0f766e; }
+.pat .pnote { color:#9ca3af; font-size:11.5px; display:block; }
+.dlg-h { font-size:13.5px; font-weight:800; color:#fff; background:var(--blue2);
+  margin:0; padding:10px 15px; display:flex; align-items:baseline; gap:8px; }
+.dlg-h span { font-size:11px; color:#dbeafe; font-weight:500; }
+.line { display:flex; gap:9px; padding:7px 15px; border-bottom:1px solid #f3f4f6;
+  cursor:pointer; transition:background .15s, border-color .15s; position:relative;
+  border-left:3px solid transparent; scroll-margin-top:80px; scroll-margin-bottom:140px; }
+.line:hover { background:#f8fafc; }
+.line.playing { background:#fff7e0; border-left-color:#f59e0b;
+  box-shadow:0 0 0 2px rgba(245,158,11,0.45), 0 6px 18px rgba(245,158,11,0.18);
+  transform:scale(1.012); transition:background .15s, box-shadow .15s, transform .15s; }
+.line.playing::before { content:"▶"; position:absolute; left:-3px; top:50%;
+  transform:translateY(-50%); color:#f59e0b; font-size:11px;
+  width:16px; text-align:center; pointer-events:none; }
+.line.playing .lnl { color:#78350f; font-weight:800; }
+.ts { flex:0 0 50px; font:700 12px ui-monospace,Menlo,monospace; color:#fff;
+  background:var(--blue2); border:none; border-radius:6px; padding:2px 0; height:fit-content;
+  cursor:pointer; }
+.ts:active { transform:scale(.94); }
+.line .lb { flex:1; min-width:0; }
+.line .lnl { font-weight:500; }
+/* tappable vocab word inside a line */
+.lnl .w { border-bottom:1.5px dotted #94a3b8; cursor:pointer; }
+.lnl .w:active { background:#fef9c3; }
+.line.playing .lnl .w { border-bottom-color:#b45309; }
+#wpop-ov { position:fixed; inset:0; z-index:59; display:none; }
+#wpop-ov.show { display:block; }
+#wpop { position:fixed; z-index:60; display:none; background:#0f172a; color:#e2e8f0;
+  border:1px solid #334155; border-radius:13px; padding:13px 15px; max-width:280px;
+  box-shadow:0 12px 44px rgba(0,0,0,.45); }
+#wpop.show { display:block; }
+#wpop .wp-nl { font-weight:800; font-size:16px; }
+#wpop .wp-zh { color:#fcd34d; font-size:13.5px; margin-top:5px; line-height:1.4; }
+#wpop .wp-btns { display:flex; gap:7px; margin-top:11px; }
+#wpop .wp-play { background:var(--amber); color:#0f172a; border:none; border-radius:8px;
+  padding:8px 12px; font-weight:800; font-size:13px; cursor:pointer; }
+#wpop .wp-slow { background:#334155; color:#e2e8f0; border:none; border-radius:8px;
+  padding:8px 12px; font-weight:700; font-size:13px; cursor:pointer; }
+.line .lzh { color:#9ca3af; font-size:12.5px; }
+/* per-line actions: loop one sentence / mark as hard */
+.lacts { display:flex; flex-direction:column; gap:4px; flex:none; margin-left:6px; }
+.lact { background:#eef2f7; border:1px solid #e2e8f0; border-radius:7px; width:30px; height:25px;
+  font-size:13px; line-height:1; cursor:pointer; padding:0; color:#64748b; }
+.lact:active { transform:scale(.9); }
+.lact.loop.on { background:#fde68a; border-color:#f59e0b; color:#92400e; }
+.line.hard .lact.star { background:#fee2e2; border-color:#f87171; color:#b91c1c; }
+.lact.ana.on { background:#dbeafe; border-color:#3b82f6; color:#1e40af; }
+.line.looping { box-shadow:inset 0 0 0 2px rgba(245,158,11,.5); }
+/* AI sentence explanation panel (tap 💡) */
+.lana { display:none; margin:9px 0 2px; padding:11px 13px; background:#0f172a; color:#e2e8f0;
+  border-radius:10px; border-left:3px solid var(--amber); font-size:12.5px; line-height:1.65; }
+.lana.show { display:block; }
+.lana .ana-bd { padding:1px 0; }
+.lana .ana-bd b { color:#fcd34d; font-weight:700; }
+.lana .ana-o { margin-top:9px; padding:8px 10px; background:rgba(245,158,11,.12);
+  border:1px solid rgba(245,158,11,.4); border-radius:8px; color:#fde68a; font-weight:600; }
+.lana .ana-g { margin-top:7px; color:#bae6fd; }
+.lana .ana-l { margin-top:4px; color:#fca5a5; }
+.line.hard { border-left-color:#f87171; }
+/* active-listening: hide ZH globally, reveal a line on tap */
+body.hide-zh .lzh { display:none; }
+body.hide-zh .line.reveal .lzh { display:block; }
+body.hide-zh .line:not(.reveal) .lb::after { content:"｜ 點一下對答案"; font-size:11px; color:#cbd5e1; }
+body.only-hard .line:not(.hard) { display:none; }
+/* player second row: study toggles */
+.player .row2 { display:flex; align-items:center; gap:8px; padding:6px 12px 0; flex-wrap:wrap; }
+.ptog { background:#1e293b; color:#cbd5e1; border:1px solid #334155; border-radius:8px;
+  padding:6px 11px; font-size:12px; font-weight:700; cursor:pointer; }
+.ptog.on { background:var(--amber); color:#0f172a; border-color:var(--amber); }
+.ptog .pn { opacity:.7; font-weight:600; }
+.phint { font-size:11px; color:#94a3b8; margin-left:auto; }
+.skiprow .skip { background:#334155; color:#e2e8f0; border:1px solid #475569; border-radius:8px;
+  padding:6px 11px; font-size:12px; font-weight:700; cursor:pointer; }
+.skiprow .skip:active { transform:scale(.92); }
+.ptog#mode-video, .ptog#mode-audio { margin-left:0; }
+#ytbox { margin:10px 0 4px; border-radius:12px; overflow:hidden; background:#000;
+  position:sticky; top:0; z-index:25; box-shadow:0 4px 18px rgba(0,0,0,.3); }
+#ytbox #ytplayer, #ytbox iframe { width:100%; aspect-ratio:16/9; height:auto; display:block; border:0; }
+#yterr { padding:14px 16px; background:#1e293b; color:#e2e8f0; font-size:13px; line-height:1.6; }
+#yterr a { color:#fbbf24; font-weight:800; }
+#yterr .yt-hint { font-size:11px; color:#94a3b8; margin-top:6px; }
+/* question */
+.q { margin:12px 15px; border:1px solid #e5e7eb; border-radius:10px; overflow:hidden; }
+.q-h { background:#fef3c7; padding:9px 12px; display:flex; gap:8px; align-items:baseline;
+  border-bottom:1px solid #fde68a; }
+.q-h .qn { font-size:11px; font-weight:800; color:#fff; background:var(--amber);
+  padding:2px 9px; border-radius:10px; white-space:nowrap; }
+.q-h .qt { flex:1; font-size:14px; font-weight:800; color:#92400e; }
+.q-h .recon { font-size:9.5px; color:#b45309; border:1px solid #fcd34d; border-radius:8px;
+  padding:1px 6px; white-space:nowrap; }
+.q-h .qbadge { font-size:9.5px; padding:1px 7px; border-radius:9px; font-weight:800;
+  white-space:nowrap; }
+.q-h .qbadge.ok { background:var(--green); color:#fff; }
+.q-h .qbadge.ng { background:var(--red); color:#fff; }
+.q-h .qbadge.srs { background:var(--cyan); color:#fff; }
+.q-body { padding:10px 12px; }
+.q-zh { font-size:12.5px; color:#6b7280; margin-bottom:8px; }
+.opt { padding:7px 9px; margin:4px 0; border:1px solid #e5e7eb; border-radius:7px;
+  font-size:13.5px; cursor:pointer; transition:all .12s; }
+.opt:hover { background:#f8fafc; }
+.opt .ol { font-weight:800; color:#6b7280; margin-right:5px; }
+.opt .ozh { color:#9ca3af; font-size:12px; }
+.opt.picked { border-color:var(--blue2); background:#eff6ff; }
+.q.revealed .opt { cursor:default; }
+.q.revealed .opt:hover { background:transparent; }
+.q.revealed .opt.correct { border-color:var(--green); background:#dcfce7; }
+.q.revealed .opt.correct .ol { color:#15803d; }
+.q.revealed .opt.wrongpick { border-color:var(--red); background:#fef2f2; }
+.q.revealed .opt.wrongpick .ol { color:#b91c1c; }
+.reveal-btn { width:100%; padding:9px; margin-top:6px; border:none; border-radius:8px;
+  background:var(--blue); color:#fff; font-size:13.5px; font-weight:700; cursor:pointer; }
+.reveal-btn:disabled { background:#cbd5e1; cursor:not-allowed; }
+.reveal-btn.danger { background:var(--red); }
+.answer { display:none; margin-top:10px; }
+.q.revealed .answer { display:block; }
+.q.revealed .reveal-btn { display:none; }
+.src { background:#f0f9ff; border:1px solid #bae6fd; border-radius:8px; padding:8px 10px; }
+.src .sh { font-size:11px; font-weight:800; color:#0369a1; margin-bottom:5px; }
+.src .sl { display:flex; gap:8px; padding:3px 0; cursor:pointer; }
+.src .sl:hover { background:#e0f2fe; border-radius:5px; }
+.src .sl .slnl { font-weight:600; color:#0c4a6e; font-size:13px; }
+.src .sl .slzh { color:#64748b; font-size:11.5px; }
+.explain { font-size:13px; margin-top:9px; }
+.explain .lbl { font-weight:800; color:#1d4ed8; }
+.trap { font-size:12.5px; background:#fff7ed; border-left:3px solid #fb923c;
+  padding:7px 10px; margin-top:7px; border-radius:5px; color:#7c2d12; }
+.trap .lbl { font-weight:800; color:#c2410c; }
+.note { background:#fef9c3; border-left:3px solid #ca8a04; padding:9px 12px; margin:12px 15px;
+  border-radius:6px; font-size:12.5px; color:#713f12; }
+/* exam mode */
+.exam-intro, .exam-result { padding:24px 18px; background:#fff; border-radius:14px;
+  margin:18px 14px; box-shadow:0 1px 3px rgba(0,0,0,.07); }
+.exam-intro h2, .exam-result h2 { color:var(--blue); margin:0 0 12px; font-size:18px; }
+.exam-intro ul { padding-left:20px; color:#4b5563; font-size:13px; line-height:1.9; }
+.exam-intro .start { margin-top:14px; width:100%; padding:14px; border:none;
+  border-radius:10px; background:var(--blue); color:#fff; font-size:15px; font-weight:800;
+  cursor:pointer; }
+.exam-active .timer { background:var(--ink); color:#fff; padding:10px 14px;
+  text-align:center; font:700 22px ui-monospace,Menlo,monospace; }
+.exam-active .timer.warn { background:var(--red); }
+.exam-active .progress { background:#e5e7eb; height:4px; }
+.exam-active .progress > div { background:var(--amber); height:100%; transition:width .2s; }
+.result-score { font-size:42px; font-weight:900; text-align:center; color:var(--amber); }
+.result-score small { display:block; font-size:14px; color:#94a3b8; font-weight:500;
+  margin-top:4px; }
+.result-row { display:flex; gap:12px; align-items:center; margin:8px 0;
+  padding:8px 10px; background:#f8fafc; border-radius:7px; font-size:13px; }
+.result-row .qn { font-weight:800; color:var(--blue); min-width:40px; }
+.result-row .qt { flex:1; }
+.result-row .qok { color:var(--green); font-weight:800; }
+.result-row .qng { color:var(--red); font-weight:800; }
+/* mistakes / stats */
+.empty { text-align:center; padding:40px 20px; color:#9ca3af; font-size:14px; }
+.empty .em { font-size:32px; display:block; margin-bottom:8px; }
+.stat-card { background:#fff; padding:16px; border-radius:12px; margin:14px;
+  box-shadow:0 1px 3px rgba(0,0,0,.06); }
+.stat-card h3 { margin:0 0 10px; font-size:14px; color:var(--blue); }
+.chart { width:100%; height:140px; }
+.stat-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+.stat-grid .cell { text-align:center; padding:10px; background:#f8fafc; border-radius:8px; }
+.stat-grid .cell b { display:block; font-size:24px; color:var(--blue); font-weight:800; }
+.stat-grid .cell span { font-size:11px; color:#6b7280; }
+.srs-row { display:flex; gap:10px; align-items:center; padding:9px 12px; background:#fff;
+  border-radius:8px; margin:6px 14px; font-size:13px; cursor:pointer; }
+.srs-row:hover { background:#fef3c7; }
+.srs-row .due { font-size:11px; color:var(--cyan); font-weight:800; }
+.srs-row .due.overdue { color:var(--red); }
+.srs-row .qt { flex:1; }
+/* player */
+.player { position:fixed; bottom:0; left:0; right:0; background:#0f172a; color:#fff;
+  padding:9px 12px; box-shadow:0 -2px 12px rgba(0,0,0,.25); z-index:50; }
+.player .row { max-width:760px; margin:0 auto; display:flex; align-items:center; gap:10px; }
+.player button.pp { width:44px; height:44px; border-radius:50%; border:none;
+  background:var(--amber); color:#0f172a; font-size:19px; cursor:pointer; flex:0 0 auto; }
+.player .bar { flex:1; height:6px; background:#334155; border-radius:3px; cursor:pointer;
+  position:relative; }
+.player .bar .fill { position:absolute; left:0; top:0; bottom:0; background:var(--amber);
+  border-radius:3px; width:0; }
+.player .tnow { font:700 12px ui-monospace,Menlo,monospace; min-width:78px; text-align:right; }
+.player .spd { display:flex; gap:3px; }
+.player .spd button { background:#334155; color:#cbd5e1; border:none; border-radius:5px;
+  font-size:11px; padding:4px 6px; cursor:pointer; }
+.player .spd button.on { background:var(--amber); color:#0f172a; font-weight:700; }
+[hidden] { display:none !important; }
+</style></head><body data-vid="orig_03" data-total="3"><header><div class="wrap">
+      <h1>原創模擬 03：車站：火車誤點（交通・出行）</h1>
+      <div class="meta">🎧 A2 Luisteren 原創模擬 ·
+        1 場景 · 3 題</div>
+      <div style="margin-top:8px"><a href="index.html"
+        style="display:inline-block;padding:6px 12px;background:#0f766e;color:#fff;
+               border-radius:6px;font-size:13px;text-decoration:none;font-weight:600">
+        🔊 切換到「逐句跟讀／Echo」模式 →</a></div>
+    </div>
+    <div class="wrap"><div class="tabs">
+      <button class="on" data-mode="study">📖 學習</button>
+      <button data-mode="exam">⏱️ 考場模式</button>
+      <button data-mode="review" id="tab-review">🎯 錯題複習</button>
+      <button data-mode="stats">📊 我的紀錄</button>
+    </div></div>
+    <div class="status">
+      <span class="item score">已答 <b id="s-answered">0</b>/<b id="s-total">3</b></span>
+      <span class="item">對 <b id="s-correct">0</b></span>
+      <span class="item">正確率 <b id="s-pct">0%</b></span>
+      <button class="reset" id="reset-btn">清除進度</button>
+    </div></header><section data-mode-content="study"><div class="wrap"><div class="howto"><b>📖 學習模式</b>：點<b>藍色時間戳</b>或句子聽原音，字幕會跟著高亮。🙈 遮中文先用耳朵聽、🔁 循環單句、⏪ 倒退重聽、💡 看 AI 詳解。</div><div class="howto">Sara 在車站詢問處問往 Utrecht 的火車。</div></div><div class="scene" id="scene-1"><div class="scene-bar"><span class="sn">場景 1</span><span class="st">車站：火車誤點</span><span class="sk">櫃台對話</span></div><div class="scene-ctx">Sara 在車站詢問處問往 Utrecht 的火車。<br><span class="nl">Op het station: de trein is vertraagd</span></div><div class="sec"><h3>📚 重點單字</h3><table class="vocab"><tr><td class="nl">het spoor</td><td class="zh">月台、軌道</td></tr><tr><td class="nl">de vertraging</td><td class="zh">誤點</td></tr><tr><td class="nl">vertrekken</td><td class="zh">出發</td></tr><tr><td class="nl">ongeveer</td><td class="zh">大約</td></tr><tr><td class="nl">de bus nemen</td><td class="zh">搭巴士</td></tr><tr><td class="nl">duren</td><td class="zh">持續、花時間</td></tr><tr><td class="nl">in de gaten houden</td><td class="zh">留意</td></tr><tr><td class="nl">zo</td><td class="zh">馬上</td></tr></table><h3 style="margin-top:12px">🔑 必背句型</h3><div class="pat"><span class="pnl">Welk spoor is dat?</span> — 那是幾號月台？<span class="pnote">Welk 接中性名詞 spoor。</span></div><div class="pat"><span class="pnl">Hoeveel later vertrekt hij?</span> — 會晚多久發車？<span class="pnote">hij 指 de trein。</span></div><div class="pat"><span class="pnl">Ik wacht wel op de trein.</span> — 我還是等火車吧。<span class="pnote">wachten op = 等候；wel 緩和語氣。</span></div></div><div class="dlg-h">📺 櫃台對話原文 <span>— 考試中此段重播 3 次，這裡只列一次</span></div><div class="line" data-t="0.0" data-end="2.0" data-ts="0"><button class="ts" data-t="0.0">0:00</button><div class="lb"><div class="lnl">Goedemiddag, kan ik u helpen?</div><div class="lzh">午安，需要幫忙嗎？</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="line" data-t="2.0" data-end="3.7" data-ts="2"><button class="ts" data-t="2.0">0:02</button><div class="lb"><div class="lnl">Ja, ik wil naar Utrecht.</div><div class="lzh">是的，我要去 Utrecht。</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="line" data-t="3.7" data-end="5.0" data-ts="3.7"><button class="ts" data-t="3.7">0:03</button><div class="lb"><div class="lnl">Welk <span class="w" data-zh="月台、軌道">spoor</span> is dat?</div><div class="lzh">在第幾月台？</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="line" data-t="5.0" data-end="10.0" data-ts="5"><button class="ts" data-t="5.0">0:05</button><div class="lb"><div class="lnl">Normaal <span class="w" data-zh="月台、軌道">spoor</span> vijf, maar de trein van tien over twee heeft <span class="w" data-zh="誤點">vertraging</span>.</div><div class="lzh">平常是 5 號月台，但兩點十分那班誤點了。</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="line" data-t="10.0" data-end="10.4" data-ts="10"><button class="ts" data-t="10.0">0:10</button><div class="lb"><div class="lnl">O nee.</div><div class="lzh">不會吧。</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="line" data-t="10.4" data-end="12.0" data-ts="10.4"><button class="ts" data-t="10.4">0:10</button><div class="lb"><div class="lnl">Hoeveel later vertrekt hij?</div><div class="lzh">會晚多久發車？</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="line" data-t="12.0" data-end="14.0" data-ts="12"><button class="ts" data-t="12.0">0:12</button><div class="lb"><div class="lnl"><span class="w" data-zh="大約">Ongeveer</span> twintig minuten.</div><div class="lzh">大約 20 分鐘。</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="line" data-t="14.0" data-end="17.0" data-ts="14"><button class="ts" data-t="14.0">0:14</button><div class="lb"><div class="lnl">U kunt ook <span class="w" data-zh="搭巴士">de bus nemen</span>, die gaat <span class="w" data-zh="馬上">zo</span>.</div><div class="lzh">您也可以搭巴士，馬上就開。</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="line" data-t="17.0" data-end="19.4" data-ts="17"><button class="ts" data-t="17.0">0:17</button><div class="lb"><div class="lnl">Met de bus duurt het langer, denk ik.</div><div class="lzh">我想搭巴士比較久。</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="line" data-t="19.4" data-end="21.0" data-ts="19.4"><button class="ts" data-t="19.4">0:19</button><div class="lb"><div class="lnl">Ik wacht wel op de trein.</div><div class="lzh">我還是等火車好了。</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="line" data-t="21.0" data-end="21.8" data-ts="21"><button class="ts" data-t="21.0">0:21</button><div class="lb"><div class="lnl">Prima.</div><div class="lzh">好的。</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="line" data-t="21.8" data-end="26.0" data-ts="21.8"><button class="ts" data-t="21.8">0:21</button><div class="lb"><div class="lnl">Houd dan <span class="w" data-zh="月台、軌道">spoor</span> vijf in de gaten.</div><div class="lzh">那請留意 5 號月台。</div></div><div class="lacts"><button class="lact loop" title="循環這一句">🔁</button><button class="lact star" title="標記難句，之後集中複習">☆</button></div></div><div class="q" data-qid="1" data-ans="0">
+              <div class="q-h"><span class="qn">考題 1</span>
+                <span class="qt">Wat is er met de trein van tien over twee?</span></div>
+              <div class="q-body">
+                <div class="q-zh">兩點十分那班火車怎麼了？</div>
+                <div class="opt"><span class="ol">A.</span>Hij is vertraagd. <span class="ozh">誤點了。</span></div><div class="opt"><span class="ol">B.</span>Hij is al weg. <span class="ozh">已經開走了。</span></div><div class="opt"><span class="ol">C.</span>Hij rijdt vandaag niet. <span class="ozh">今天停駛。</span></div>
+                <button class="reveal-btn">對答案 ✓</button>
+                <div class="answer">
+                  <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="5"><button class="ts" data-t="5">0:05</button><div><div class="slnl">Normaal spoor vijf, maar de trein van tien over twee heeft vertraging.</div><div class="slzh">平常是 5 號月台，但兩點十分那班誤點了。</div></div></div></div>
+                  <div class="explain"><span class="lbl">💡 反推：</span>“heeft vertraging”。</div>
+                  <div class="trap"><span class="lbl">⚠️ 陷阱：</span>不是停駛，只是晚點。</div>
+                </div>
+              </div></div><div class="q" data-qid="2" data-ans="1">
+              <div class="q-h"><span class="qn">考題 2</span>
+                <span class="qt">Hoe gaat Sara naar Utrecht?</span></div>
+              <div class="q-body">
+                <div class="q-zh">Sara 怎麼去 Utrecht？</div>
+                <div class="opt"><span class="ol">A.</span>Met de bus. <span class="ozh">搭巴士。</span></div><div class="opt"><span class="ol">B.</span>Met de trein. <span class="ozh">搭火車。</span></div><div class="opt"><span class="ol">C.</span>Met de taxi. <span class="ozh">搭計程車。</span></div>
+                <button class="reveal-btn">對答案 ✓</button>
+                <div class="answer">
+                  <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="17"><button class="ts" data-t="17">0:17</button><div><div class="slnl">Met de bus duurt het langer, denk ik. Ik wacht wel op de trein.</div><div class="slzh">我想搭巴士比較久。我還是等火車好了。</div></div></div></div>
+                  <div class="explain"><span class="lbl">💡 反推：</span>“Ik wacht wel op de trein”。</div>
+                  <div class="trap"><span class="lbl">⚠️ 陷阱：</span>櫃台建議巴士，但她選擇等火車。</div>
+                </div>
+              </div></div><div class="q" data-qid="3" data-ans="1">
+              <div class="q-h"><span class="qn">考題 3</span>
+                <span class="qt">Hoeveel later vertrekt de trein ongeveer?</span></div>
+              <div class="q-body">
+                <div class="q-zh">火車大約晚多久？</div>
+                <div class="opt"><span class="ol">A.</span>Tien minuten. <span class="ozh">十分鐘。</span></div><div class="opt"><span class="ol">B.</span>Twintig minuten. <span class="ozh">二十分鐘。</span></div><div class="opt"><span class="ol">C.</span>Veertig minuten. <span class="ozh">四十分鐘。</span></div>
+                <button class="reveal-btn">對答案 ✓</button>
+                <div class="answer">
+                  <div class="src"><div class="sh">📍 答案出處（點時間聽原音）</div><div class="sl" data-t="12"><button class="ts" data-t="12">0:12</button><div><div class="slnl">Ongeveer twintig minuten. U kunt ook de bus nemen, die gaat zo.</div><div class="slzh">大約 20 分鐘。您也可以搭巴士，馬上就開。</div></div></div></div>
+                  <div class="explain"><span class="lbl">💡 反推：</span>“Ongeveer twintig minuten”。</div>
+                  
+                </div>
+              </div></div></div></section><section data-mode-content="exam" hidden>
+      <div class="exam-intro" id="exam-intro">
+        <h2>⏱️ 考場模式</h2>
+        <ul>
+          <li>共 <b>3 題</b>、每題 <b>25 秒</b>、不能回頭</li>
+          <li>不顯示答案／出處／反推——做完才公布</li>
+          <li>結果會存進「我的紀錄」變成歷史曲線</li>
+          <li>題目錯了會自動進「錯題複習」SRS 排程</li>
+        </ul>
+        <button class="start" id="start-exam">開始考試</button>
+      </div>
+      <div class="exam-active" id="exam-active" hidden></div>
+      <div class="exam-result" id="exam-result" hidden></div>
+    </section><section data-mode-content="review" hidden><div id="review-list"></div></section><section data-mode-content="stats" hidden><div id="stats-body"></div></section><div class="player"><div class="row">
+      <button class="pp" id="pp">▶</button>
+      <div class="bar" id="bar"><div class="fill" id="fill"></div></div>
+      <div class="tnow" id="tnow">0:00 / 0:00</div>
+      <div class="spd">
+        <button data-s="0.6">0.6×</button>
+        <button data-s="0.75">0.75×</button>
+        <button data-s="0.85">0.85×</button>
+        <button data-s="1" class="on">1×</button>
+        <button data-s="1.15">1.15×</button>
+      </div>
+    </div>
+    <div class="row2 skiprow">
+      <button class="skip" data-skip="-10" title="倒退 10 秒">⏪ 10s</button>
+      <button class="skip" data-skip="-5" title="倒退 5 秒">⏪ 5s</button>
+      <button class="skip" data-skip="5" title="快進 5 秒">5s ⏩</button>
+      <button class="skip" data-skip="10" title="快進 10 秒">10s ⏩</button>
+      
+    </div>
+    <div class="row2">
+      <button class="ptog" id="tog-zh" title="先遮住中文用耳朵聽，再點句子對答案">🙈 遮中文</button>
+      <button class="ptog" id="tog-hard" title="只顯示你標記★的難句，集中複習">★ 只看難句 <span class="pn" id="hard-n"></span></button>
+      <span class="phint" id="study-hint">🔁 循環單句 · ⏪ 重聽</span>
+    </div></div>
+    <audio id="aud" src="audio.mp3" preload="metadata"></audio>
+    <div id="wpop-ov" onclick="closeWordPop()"></div>
+    <div id="wpop">
+      <div class="wp-nl" id="wp-nl"></div>
+      <div class="wp-zh" id="wp-zh"></div>
+      <div class="wp-btns">
+        <button class="wp-play" onclick="playWordLine(0)">🔊 聽原句</button>
+        <button class="wp-slow" onclick="playWordLine(0.6)">🐢 慢速</button>
+      </div>
+    </div><script>
+const VID = document.body.dataset.vid;
+const KEY = 'examapp:' + VID;
+const TOTAL_Q = +document.body.dataset.total;
+const EXAM_SEC = 25;  // seconds per question in exam mode
+
+const today = () => new Date().toISOString().slice(0,10);
+const addDays = (d, n) => {
+  const dt = new Date(d + 'T00:00:00Z'); dt.setUTCDate(dt.getUTCDate() + n);
+  return dt.toISOString().slice(0,10);
+};
+const cmp = (a, b) => a < b ? -1 : a > b ? 1 : 0;
+
+// ── State ──
+function load() {
+  try { return JSON.parse(localStorage.getItem(KEY)) || {}; }
+  catch (e) { return {}; }
+}
+function save(st) { localStorage.setItem(KEY, JSON.stringify(st)); }
+function S() {
+  const s = load();
+  s.q = s.q || {};           // q[id] = {last_pick, last_correct, attempts: [{date, pick, correct}], srs: {due, interval, reps}}
+  s.attempts = s.attempts || []; // mock attempts [{id, started, mode, completed_at, answers, score, total}]
+  return s;
+}
+
+// ── SRS (Anki-lite) ──
+function scheduleSRS(qstate, correct) {
+  qstate.srs = qstate.srs || {due: today(), interval: 0, reps: 0};
+  if (!correct) {
+    qstate.srs.interval = 1; qstate.srs.reps = 0;
+    qstate.srs.due = addDays(today(), 1);
+  } else {
+    qstate.srs.reps += 1;
+    const intervals = [1, 3, 7, 14, 30];
+    qstate.srs.interval = intervals[Math.min(qstate.srs.reps, intervals.length - 1)];
+    qstate.srs.due = addDays(today(), qstate.srs.interval);
+    if (qstate.srs.reps >= 4) qstate.srs.graduated = true;
+  }
+}
+
+// ── Record answer ──
+function recordAnswer(qid, pick, correct) {
+  const st = S();
+  const q = st.q[qid] = st.q[qid] || {attempts: []};
+  q.last_pick = pick; q.last_correct = correct;
+  q.attempts.push({date: today(), pick, correct});
+  scheduleSRS(q, correct);
+  save(st);
+  updateStatus();
+  updateBadges();
+}
+
+// ── Status bar ──
+function updateStatus() {
+  const st = S();
+  let answered = 0, correct = 0;
+  Object.values(st.q).forEach(q => {
+    if (q.attempts && q.attempts.length) {
+      answered++;
+      if (q.last_correct) correct++;
+    }
+  });
+  document.getElementById('s-answered').textContent = answered;
+  document.getElementById('s-total').textContent = TOTAL_Q;
+  document.getElementById('s-correct').textContent = correct;
+  const pct = answered ? Math.round(correct / answered * 100) : 0;
+  document.getElementById('s-pct').textContent = pct + '%';
+  // Review queue: due today/overdue + all currently-wrong (most recent attempt)
+  const due = Object.entries(st.q).filter(([k,q]) =>
+    (q.srs && !q.srs.graduated && q.srs.due <= today()) ||
+    q.last_correct === false).length;
+  const tab = document.getElementById('tab-review');
+  const badge = tab.querySelector('.bg');
+  if (due > 0) {
+    if (!badge) { const b = document.createElement('span'); b.className = 'bg';
+      b.textContent = due; tab.appendChild(b); }
+    else badge.textContent = due;
+  } else if (badge) badge.remove();
+}
+
+// ── Per-question result badges ──
+function updateBadges() {
+  const st = S();
+  document.querySelectorAll('.q').forEach(q => {
+    const id = q.dataset.qid;
+    const qs = st.q[id]; if (!qs) return;
+    let bdg = q.querySelector('.qbadge');
+    if (!bdg) {
+      bdg = document.createElement('span'); bdg.className = 'qbadge';
+      q.querySelector('.q-h').insertBefore(bdg, q.querySelector('.qt').nextSibling);
+    }
+    if (qs.srs && !qs.srs.graduated && qs.srs.due <= today()) {
+      bdg.className = 'qbadge srs'; bdg.textContent = '待複習';
+    } else if (qs.last_correct) { bdg.className = 'qbadge ok'; bdg.textContent = '✓ 已答對'; }
+    else if (qs.last_correct === false) { bdg.className = 'qbadge ng'; bdg.textContent = '✗ 上次錯'; }
+  });
+}
+
+// ── Audio (same as v1) ──
+const A = document.getElementById('aud');
+const pp = document.getElementById('pp'), fill = document.getElementById('fill');
+const tnow = document.getElementById('tnow'), bar = document.getElementById('bar');
+const fmt = s => (isNaN(s)?'0:00':Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0'));
+
+// ── Media shim: audio.mp3 by default, switchable to the embedded YouTube video.
+// Timestamps come from the audio transcription = same source, so they align. ──
+const YT_ID = /^[A-Za-z0-9_-]{11}$/.test(VID) ? VID : '';
+let ytP = null, ytReady = false, useYT = false;
+function mTime(){ if(useYT&&ytReady){ try{return ytP.getCurrentTime()||0}catch(e){} } return A.currentTime||0; }
+function mDur(){ if(useYT&&ytReady){ try{return ytP.getDuration()||0}catch(e){} } return A.duration||0; }
+function mSeek(t){ t=Math.max(0,t); if(useYT&&ytReady){ try{ytP.seekTo(t,true);return}catch(e){} } A.currentTime=t; }
+function mPlay(){ if(useYT&&ytReady){ try{ytP.playVideo();return}catch(e){} } A.play().catch(()=>{}); }
+function mPause(){ if(useYT&&ytReady){ try{ytP.pauseVideo();return}catch(e){} } A.pause(); }
+function mRate(v){ if(useYT&&ytReady){ try{ytP.setPlaybackRate(v)}catch(e){} } A.playbackRate=v; }
+function mPaused(){ if(useYT&&ytReady){ try{return ytP.getPlayerState()!==1}catch(e){return true} } return A.paused; }
+
+let _loop = null;
+function cancelLoop(){
+  if(_loop){ _loop.line.classList.remove('looping'); _loop=null; }
+  document.querySelectorAll('.lact.loop.on').forEach(b=>b.classList.remove('on'));
+}
+function snapToCurrent(t){ const cur=lineAt(t); if(cur){ _userScrolledAt=0; cur.scrollIntoView({behavior:'smooth',block:'center'}); } }
+function play(sec){ cancelLoop(); if(sec>=0){ mSeek(sec); } mPlay(); snapToCurrent(sec>=0?sec:mTime()); }
+function skip(d){ mSeek(mTime()+d); }   // ⏪/⏩ re-listen
+function bindTS() {
+  document.querySelectorAll('[data-t]:not(.bound)').forEach(el => {
+    el.classList.add('bound');
+    el.addEventListener('click', e => {
+      e.stopPropagation();
+      if (el.classList.contains('line')) el.classList.add('reveal'); // tap to reveal ZH in active mode
+      play(parseFloat(el.dataset.t));
+    });
+  });
+}
+// ── Per-line loop (🔁) + hard-line mark (★) + active-listening toggles ──
+function bindLineActs() {
+  document.querySelectorAll('.lact.loop:not(.albound)').forEach(btn => {
+    btn.classList.add('albound');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const line = btn.closest('.line');
+      if (_loop && _loop.line === line) { cancelLoop(); mPause(); return; }
+      cancelLoop();
+      _loop = { line, start: parseFloat(line.dataset.t), end: parseFloat(line.dataset.end) };
+      btn.classList.add('on'); line.classList.add('looping', 'reveal');
+      mSeek(_loop.start); mPlay();
+    });
+  });
+  document.querySelectorAll('.lact.star:not(.albound)').forEach(btn => {
+    btn.classList.add('albound');
+    btn.addEventListener('click', e => { e.stopPropagation(); toggleHard(btn.closest('.line')); });
+  });
+  document.querySelectorAll('.lact.ana:not(.albound)').forEach(btn => {
+    btn.classList.add('albound');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      btn.classList.toggle('on');
+      const pan = btn.closest('.line').querySelector('.lana');
+      if (pan) pan.classList.toggle('show');
+    });
+  });
+}
+// ── Tap a word → meaning + the sentence's REAL audio (word ↔ meaning ↔ sound) ──
+let _wpLine = null, _wpStop = null;
+function bindWords() {
+  document.querySelectorAll('.lnl .w:not(.wbound)').forEach(w => {
+    w.classList.add('wbound');
+    w.addEventListener('click', e => { e.stopPropagation(); showWordPop(w); });
+  });
+}
+function showWordPop(w) {
+  _wpLine = w.closest('.line');
+  document.getElementById('wp-nl').textContent = w.textContent;
+  document.getElementById('wp-zh').textContent = w.dataset.zh || '';
+  const pop = document.getElementById('wpop'), ov = document.getElementById('wpop-ov');
+  pop.classList.add('show'); ov.classList.add('show');
+  const r = w.getBoundingClientRect();
+  const pw = pop.offsetWidth, ph = pop.offsetHeight;
+  let top = r.bottom + 8; if (top + ph > innerHeight - 8) top = r.top - ph - 8;
+  let left = Math.min(Math.max(8, r.left), innerWidth - pw - 8);
+  pop.style.top = Math.max(8, top) + 'px'; pop.style.left = left + 'px';
+}
+function closeWordPop() {
+  document.getElementById('wpop').classList.remove('show');
+  document.getElementById('wpop-ov').classList.remove('show');
+}
+function playWordLine(slow) {
+  if (!_wpLine) return;
+  const st = parseFloat(_wpLine.dataset.t), en = parseFloat(_wpLine.dataset.end);
+  cancelLoop();
+  if (_wpStop) { clearTimeout(_wpStop); _wpStop = null; }
+  const rate = slow ? slow : (A.playbackRate || 1);
+  mRate(rate);
+  mSeek(st); mPlay();
+  _wpLine.classList.add('reveal');
+  const ms = (en - st) / rate * 1000 + 180;
+  _wpStop = setTimeout(() => {
+    mPause();
+    if (slow) mRate(parseFloat(localStorage.getItem('lph_playback_speed') || '1'));
+  }, Math.max(900, ms));
+}
+const HARD_KEY = 'lph_hard_lines:' + VID;
+let hardSet = new Set();
+try { hardSet = new Set(JSON.parse(localStorage.getItem(HARD_KEY) || '[]')); } catch(e) {}
+function _setStar(line, on){ const b = line.querySelector('.lact.star'); if(b) b.textContent = on ? '★' : '☆'; }
+function _hardCount(){ const el = document.getElementById('hard-n'); if(el) el.textContent = hardSet.size ? '('+hardSet.size+')' : ''; }
+function toggleHard(line){
+  const k = line.dataset.t;
+  if(hardSet.has(k)){ hardSet.delete(k); line.classList.remove('hard'); _setStar(line,false); }
+  else { hardSet.add(k); line.classList.add('hard'); _setStar(line,true); }
+  localStorage.setItem(HARD_KEY, JSON.stringify([...hardSet])); _hardCount();
+}
+function initStudyTools(){
+  document.querySelectorAll('.line[data-t]').forEach(line => {
+    if(hardSet.has(line.dataset.t)){ line.classList.add('hard'); _setStar(line,true); }
+  });
+  _hardCount();
+  const togZh = document.getElementById('tog-zh');
+  const togHard = document.getElementById('tog-hard');
+  if(togZh){
+    if(localStorage.getItem('lph_hide_zh')==='1'){ document.body.classList.add('hide-zh'); togZh.classList.add('on'); }
+    togZh.onclick = () => {
+      const on = document.body.classList.toggle('hide-zh');
+      togZh.classList.toggle('on', on);
+      localStorage.setItem('lph_hide_zh', on ? '1' : '0');
+    };
+  }
+  if(togHard){
+    togHard.onclick = () => {
+      const on = document.body.classList.toggle('only-hard');
+      togHard.classList.toggle('on', on);
+    };
+  }
+}
+pp.onclick = ()=> mPaused() ? mPlay() : mPause();
+
+// ⏪/⏩ re-listen buttons + YouTube video toggle
+document.querySelectorAll('[data-skip]').forEach(b => b.onclick = ()=> skip(parseFloat(b.dataset.skip)));
+function loadYT(cb){
+  if(window.YT && window.YT.Player) return cb();
+  const prev = window.onYouTubeIframeAPIReady;
+  window.onYouTubeIframeAPIReady = ()=>{ if(prev) prev(); cb(); };
+  if(!document.getElementById('ytapi')){ const s=document.createElement('script'); s.id='ytapi'; s.src='https://www.youtube.com/iframe_api'; document.head.appendChild(s); }
+}
+function updModeBtns(){ const v=document.getElementById('mode-video'),a=document.getElementById('mode-audio');
+  if(v)v.classList.toggle('on',useYT); if(a)a.classList.toggle('on',!useYT); }
+function ytFallback(code){
+  // Embedding fails inside the iOS app (capacitor:// origin is rejected by YouTube).
+  // Don't show a broken player — revert to audio and offer to open in YouTube.
+  useYT=false; ytReady=false; updModeBtns();
+  const pl=document.getElementById('ytplayer'); if(pl) pl.style.display='none';
+  const err=document.getElementById('yterr'); if(err){
+    err.style.display='block';
+    const c=err.querySelector('.yt-code'); if(c) c.textContent = code?('（'+code+'）'):'';
+  }
+}
+function enableVideo(){
+  const box=document.getElementById('ytbox'); if(!box||!YT_ID) return;
+  box.style.display='block'; A.pause();
+  const err=document.getElementById('yterr'); if(err) err.style.display='none';
+  const pl=document.getElementById('ytplayer'); if(pl) pl.style.display='block';
+  if(ytReady){ useYT=true; updModeBtns(); return; }
+  loadYT(()=>{ try{ ytP=new YT.Player('ytplayer',{videoId:YT_ID,
+    playerVars:{playsinline:1,rel:0,modestbranding:1,enablejsapi:1,origin:location.origin},
+    events:{onReady:()=>{ytReady=true; useYT=true; updModeBtns();},
+            onError:(e)=>ytFallback(e&&e.data)}});
+  }catch(e){ ytFallback(); } });
+  // safety net: if the player never becomes ready (silent embed block), fall back
+  setTimeout(()=>{ if(!ytReady) ytFallback(); }, 5000);
+}
+function disableVideo(){ const box=document.getElementById('ytbox'); if(box) box.style.display='none';
+  if(ytP){ try{ytP.pauseVideo()}catch(e){} } useYT=false; updModeBtns(); }
+(function(){ const v=document.getElementById('mode-video'),a=document.getElementById('mode-audio');
+  if(v) v.onclick=enableVideo; if(a) a.onclick=disableVideo; })();
+
+// ── Karaoke follow-along: keep the current line centred during playback ──
+// Detect a GENUINE user scroll via wheel/touch only. (The old code watched the
+// 'scroll' event — but our own smooth scrollIntoView fires 'scroll' events too,
+// so it mistook auto-scroll for a user scroll and then suppressed following for
+// 4s, every line. Result: the page stopped following the audio.)
+let _userScrolledAt = 0;
+const _markUserScroll = () => { _userScrolledAt = Date.now(); };
+window.addEventListener('wheel', _markUserScroll, { passive: true });
+window.addEventListener('touchmove', _markUserScroll, { passive: true });
+
+function lineAt(t) {
+  // Each line lists ALL its occurrence times (the mock audio replays every
+  // scenario ~3×). Pick the line whose most-recent occurrence ≤ t is latest,
+  // so the highlight follows whichever replay is currently playing.
+  let cur = null, best = -1;
+  document.querySelectorAll('.line[data-ts]').forEach(l => {
+    const arr = l.dataset.ts.split(',');
+    for (let k = 0; k < arr.length; k++) {
+      const v = parseFloat(arr[k]);
+      if (v <= t && v > best) { best = v; cur = l; }
+    }
+  });
+  return cur;
+}
+let _lastCur = null;
+// Unified sync tick — polls whichever media is active (audio OR YouTube), 150ms.
+function tick(){
+  const t = mTime(), d = mDur();
+  if (_loop && t >= _loop.end - 0.04) { mSeek(_loop.start); }
+  fill.style.width = (t/d*100||0)+'%';
+  tnow.textContent = fmt(t)+' / '+fmt(d);
+  pp.textContent = mPaused() ? '▶' : '⏸';
+  const cur = lineAt(t);
+  document.querySelectorAll('.line.playing').forEach(l=>{ if(l!==cur) l.classList.remove('playing'); });
+  if(cur && !cur.classList.contains('playing')) cur.classList.add('playing');
+  if (cur && cur !== _lastCur && !mPaused() && Date.now() - _userScrolledAt > 2500) {
+    const rect = cur.getBoundingClientRect(), vh = window.innerHeight;
+    if (rect.top < vh * 0.22 || rect.bottom > vh * 0.74) {
+      cur.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+  _lastCur = cur;
+}
+setInterval(tick, 150);
+bar.onclick = e=>{ const r=bar.getBoundingClientRect();
+  mSeek((e.clientX-r.left)/r.width*mDur()); };
+function applySpeed(v) {
+  mRate(v);
+  try { localStorage.setItem('lph_playback_speed', String(v)); } catch(e) {}
+  document.querySelectorAll('.spd button').forEach(b =>
+    b.classList.toggle('on', parseFloat(b.dataset.s) === v));
+}
+document.querySelectorAll('.spd button').forEach(b=>{
+  b.onclick=()=> applySpeed(parseFloat(b.dataset.s));
+});
+// Restore last chosen speed (shared with echo page via same key)
+(function() {
+  const v = parseFloat(localStorage.getItem('lph_playback_speed') || '1');
+  if (v && v !== 1.0) applySpeed(v);
+})();
+
+// ── Question interactions (study mode) ──
+function bindQuestions(root) {
+  (root || document).querySelectorAll('.q').forEach(q => {
+    const ans = parseInt(q.dataset.ans);
+    const qid = q.dataset.qid;
+    q.querySelectorAll('.opt').forEach((o,i)=>{
+      o.onclick=()=>{
+        if (q.classList.contains('revealed')) return;
+        q.querySelectorAll('.opt').forEach(x=>x.classList.remove('picked'));
+        o.classList.add('picked'); q.dataset.pick=i;
+      };
+    });
+    const rb=q.querySelector('.reveal-btn');
+    if (rb) rb.onclick=()=>{
+      const pick = q.dataset.pick === undefined ? -1 : parseInt(q.dataset.pick);
+      if (pick < 0) { alert('請先選一個答案'); return; }
+      q.classList.add('revealed');
+      q.querySelectorAll('.opt').forEach((o,i)=>{
+        if(i===ans) o.classList.add('correct');
+        else if(i===pick) o.classList.add('wrongpick');
+      });
+      recordAnswer(qid, pick, pick === ans);
+    };
+  });
+}
+
+// ── Tab switching ──
+document.querySelectorAll('.tabs button').forEach(b => {
+  b.onclick = () => {
+    document.querySelectorAll('.tabs button').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    const m = b.dataset.mode;
+    document.querySelectorAll('[data-mode-content]').forEach(s =>
+      s.hidden = s.dataset.modeContent !== m);
+    if (m === 'review') renderReview();
+    if (m === 'stats') renderStats();
+    if (m === 'exam') resetExam();
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  };
+});
+
+// ── Review mode (SRS) ──
+function renderReview() {
+  const st = S();
+  const root = document.getElementById('review-list'); root.innerHTML = '';
+  const due = Object.entries(st.q)
+    .filter(([k,q]) =>
+      (q.srs && !q.srs.graduated && q.srs.due <= today()) ||
+      q.last_correct === false)
+    .sort((a,b) => {
+      // overdue first, then due today, then upcoming-wrong
+      const ad = a[1].srs ? a[1].srs.due : '9999';
+      const bd = b[1].srs ? b[1].srs.due : '9999';
+      return cmp(ad, bd);
+    });
+  if (!due.length) {
+    root.innerHTML = '<div class="empty"><span class="em">✨</span>沒有待複習的題目！'
+      + '<br><span style="font-size:12px">答錯的題目會自動進這裡，'
+      + 'SRS 會在 1/3/7/14/30 天安排複習</span></div>';
+    return;
+  }
+  due.forEach(([qid, qs]) => {
+    const src = document.querySelector(`.q[data-qid="${qid}"]`);
+    if (!src) return;
+    const clone = src.cloneNode(true);
+    clone.classList.remove('revealed');
+    clone.querySelectorAll('.opt').forEach(o =>
+      o.classList.remove('picked','correct','wrongpick'));
+    delete clone.dataset.pick;
+    const dueDate = qs.srs ? qs.srs.due : today();
+    const overdue = dueDate < today();
+    const dueToday = dueDate === today();
+    const head = document.createElement('div');
+    const color = overdue ? '#dc2626' : dueToday ? '#0891b2' : '#94a3b8';
+    head.style.cssText = `font-size:11px;color:${color};font-weight:800;margin:14px 15px 4px;letter-spacing:.4px`;
+    head.textContent = overdue ?
+      `⚠️ 過期 ${Math.floor((Date.now() - new Date(dueDate).getTime())/86400000)} 天` :
+      dueToday ? `📅 今天到期` : `🔁 上次答錯（${dueDate} 該複習）`;
+    root.appendChild(head);
+    root.appendChild(clone);
+  });
+  bindQuestions(root);
+  bindTS();
+  updateBadges();
+}
+
+// ── Stats mode (history + per-question) ──
+function renderStats() {
+  const st = S();
+  const root = document.getElementById('stats-body'); root.innerHTML = '';
+  // top stats
+  let answered = 0, correct = 0, totalAttempts = 0;
+  Object.values(st.q).forEach(q => {
+    if (q.attempts) {
+      answered++; totalAttempts += q.attempts.length;
+      if (q.last_correct) correct++;
+    }
+  });
+  const pct = answered ? Math.round(correct/answered*100) : 0;
+  root.innerHTML += `<div class="stat-card"><h3>📊 整體</h3>
+    <div class="stat-grid">
+      <div class="cell"><b>${answered}/${TOTAL_Q}</b><span>已答題數</span></div>
+      <div class="cell"><b>${pct}%</b><span>當前正確率</span></div>
+      <div class="cell"><b>${totalAttempts}</b><span>累計嘗試</span></div>
+    </div></div>`;
+  // history chart
+  const mocks = (st.attempts || []).slice(-10);
+  if (mocks.length) {
+    const W = 320, H = 100, P = 14;
+    const xs = mocks.map((_,i) => P + i*((W-2*P)/Math.max(1,mocks.length-1)));
+    const ys = mocks.map(m => H-P - (m.score/m.total)*(H-2*P));
+    const pts = xs.map((x,i)=>`${x.toFixed(1)},${ys[i].toFixed(1)}`).join(' ');
+    const dots = xs.map((x,i) =>
+      `<circle cx="${x.toFixed(1)}" cy="${ys[i].toFixed(1)}" r="4" fill="#1e3a8a"/>`
+      + `<text x="${x.toFixed(1)}" y="${(ys[i]-8).toFixed(1)}" font-size="9" `
+      + `text-anchor="middle" fill="#1e3a8a">${mocks[i].score}/${mocks[i].total}</text>`
+    ).join('');
+    root.innerHTML += `<div class="stat-card"><h3>📈 模考歷史（最近 ${mocks.length} 次）</h3>
+      <svg class="chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet">
+        <line x1="${P}" y1="${H-P}" x2="${W-P}" y2="${H-P}" stroke="#cbd5e1"/>
+        <polyline points="${pts}" fill="none" stroke="#f59e0b" stroke-width="2"/>
+        ${dots}
+      </svg></div>`;
+  } else {
+    root.innerHTML += `<div class="stat-card"><h3>📈 模考歷史</h3>
+      <div style="color:#9ca3af;font-size:12.5px">完成一次「考場模式」後，這裡會出現分數曲線</div></div>`;
+  }
+  // per-q
+  const rows = Array.from(document.querySelectorAll('.q')).map(q => {
+    const qid = q.dataset.qid;
+    const qs = st.q[qid];
+    const att = qs && qs.attempts ? qs.attempts.length : 0;
+    const ok = qs && qs.attempts ? qs.attempts.filter(a=>a.correct).length : 0;
+    const pct = att ? Math.round(ok/att*100) : -1;
+    return {qid, title: q.querySelector('.qt').textContent, att, ok, pct,
+            last: qs && qs.last_correct};
+  });
+  const tried = rows.filter(r => r.att > 0);
+  if (tried.length) {
+    root.innerHTML += '<div class="stat-card"><h3>📝 逐題表現</h3>' +
+      tried.map(r => `<div class="result-row">
+        <span class="qn">Q${r.qid}</span>
+        <span class="qt">${r.title.length>30?r.title.slice(0,30)+'…':r.title}</span>
+        <span class="${r.last?'qok':'qng'}">${r.att}次 · ${r.pct}%</span>
+      </div>`).join('') + '</div>';
+  }
+}
+
+// ── Exam mode ──
+let examState = null;
+function resetExam() {
+  document.getElementById('exam-intro').hidden = false;
+  document.getElementById('exam-active').hidden = true;
+  document.getElementById('exam-result').hidden = true;
+}
+document.getElementById('start-exam').onclick = () => {
+  const qs = Array.from(document.querySelectorAll('[data-mode-content="study"] .q')).map(q => ({
+    qid: q.dataset.qid, ans: parseInt(q.dataset.ans),
+    html: q.outerHTML, title: q.querySelector('.qt').textContent,
+  }));
+  examState = {qs, idx: 0, answers: {}, started: new Date().toISOString()};
+  document.getElementById('exam-intro').hidden = true;
+  document.getElementById('exam-active').hidden = false;
+  showExamQ();
+};
+function showExamQ() {
+  const root = document.getElementById('exam-active');
+  if (examState.idx >= examState.qs.length) return endExam();
+  const q = examState.qs[examState.idx];
+  root.innerHTML = `
+    <div class="timer" id="ex-timer">${EXAM_SEC}</div>
+    <div class="progress"><div style="width:${(examState.idx/examState.qs.length*100)}%"></div></div>
+    <div style="padding:14px 14px 0;color:#6b7280;font-size:12px">${examState.idx+1} / ${examState.qs.length}</div>
+    <div class="ex-qwrap" style="padding:0">${q.html}</div>`;
+  const card = root.querySelector('.q');
+  card.classList.remove('revealed');
+  card.querySelector('.reveal-btn').textContent = '下一題 →';
+  card.querySelector('.reveal-btn').classList.add('danger');
+  card.querySelector('.reveal-btn').onclick = () => advanceExam();
+  card.querySelectorAll('.answer').forEach(a => a.remove());
+  card.querySelectorAll('.qbadge').forEach(b => b.remove());
+  card.querySelectorAll('.opt').forEach((o,i)=>{
+    o.onclick = () => {
+      card.querySelectorAll('.opt').forEach(x=>x.classList.remove('picked'));
+      o.classList.add('picked'); card.dataset.pick = i;
+    };
+  });
+  // timer
+  let left = EXAM_SEC;
+  const t = root.querySelector('#ex-timer');
+  const iv = setInterval(() => {
+    left--; t.textContent = left;
+    if (left <= 5) t.classList.add('warn');
+    if (left <= 0) { clearInterval(iv); advanceExam(); }
+  }, 1000);
+  examState.iv = iv;
+}
+function advanceExam() {
+  clearInterval(examState.iv);
+  const card = document.querySelector('#exam-active .q');
+  const pick = card.dataset.pick === undefined ? -1 : parseInt(card.dataset.pick);
+  const q = examState.qs[examState.idx];
+  examState.answers[q.qid] = {pick, correct: pick === q.ans};
+  examState.idx++;
+  showExamQ();
+}
+function endExam() {
+  document.getElementById('exam-active').hidden = true;
+  document.getElementById('exam-result').hidden = false;
+  const score = Object.values(examState.answers).filter(a => a.correct).length;
+  const total = examState.qs.length;
+  // save attempt
+  const st = S();
+  st.attempts.push({id: 'a' + Date.now(), started: examState.started,
+    completed_at: new Date().toISOString(), mode: 'exam',
+    answers: examState.answers, score, total});
+  // also update per-q (counts as a regular attempt)
+  Object.entries(examState.answers).forEach(([qid, a]) => {
+    const qs = st.q[qid] = st.q[qid] || {attempts: []};
+    qs.last_pick = a.pick; qs.last_correct = a.correct;
+    qs.attempts.push({date: today(), pick: a.pick, correct: a.correct, mode: 'exam'});
+    scheduleSRS(qs, a.correct);
+  });
+  save(st);
+  // render result
+  const pct = Math.round(score/total*100);
+  const root = document.getElementById('exam-result');
+  const rows = examState.qs.map(q => {
+    const a = examState.answers[q.qid] || {pick: -1, correct: false};
+    const lbl = a.pick < 0 ? '未答' : 'ABCDEFG'[a.pick];
+    return `<div class="result-row"><span class="qn">Q${q.qid}</span>
+      <span class="qt">${q.title}</span>
+      <span class="${a.correct?'qok':'qng'}">${a.correct?'✓':'✗'} ${lbl}</span></div>`;
+  }).join('');
+  root.innerHTML = `
+    <h2>🎯 考場結果</h2>
+    <div class="result-score">${score} / ${total}<small>${pct}% · ${pct>=70?'通過':pct>=50?'再加油':'多練幾次'}</small></div>
+    <div style="margin:16px 0">${rows}</div>
+    <button class="start" onclick="resetExam()">再考一次</button>`;
+  updateStatus(); updateBadges();
+}
+
+// ── Reset ──
+document.getElementById('reset-btn').onclick = () => {
+  if (!confirm('清除所有進度（答題紀錄、錯題池、模考歷史）？')) return;
+  localStorage.removeItem(KEY);
+  location.reload();
+};
+
+// ── Init ──
+bindQuestions();
+bindTS();
+bindLineActs();
+bindWords();
+initStudyTools();
+updateStatus();
+updateBadges();
+// restore last_pick/last_correct visual state for already-answered Qs
+(function(){
+  const st = S();
+  Object.entries(st.q).forEach(([qid, qs]) => {
+    if (qs.last_pick === undefined) return;
+    const q = document.querySelector(`.q[data-qid="${qid}"]`);
+    if (!q) return;
+    const ans = parseInt(q.dataset.ans);
+    q.classList.add('revealed');
+    q.querySelectorAll('.opt').forEach((o,i)=>{
+      if(i===ans) o.classList.add('correct');
+      else if(i===qs.last_pick) o.classList.add('wrongpick');
+    });
+  });
+})();
+</script></body></html>

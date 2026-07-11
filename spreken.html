@@ -135,7 +135,6 @@
     border:1px solid var(--border);color:var(--text);font-size:14px;font-weight:700;text-decoration:none;
     text-align:center;cursor:pointer}
 </style>
-  <script src="gate.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -478,14 +477,47 @@ async function gradeMine() {
     fd.append('code', localStorage.getItem('lph_access_code') || '');
     const res = await fetch(GRADE_API, { method: 'POST', body: fd });
     const data = await res.json().catch(() => ({}));
+    if (res.status === 402 || data.needCode) {
+      const hadCode = !!localStorage.getItem('lph_access_code');
+      if (hadCode) localStorage.removeItem('lph_access_code');  // 清掉無效的碼
+      showPaywall(hadCode);
+      return;
+    }
     if (!res.ok) throw new Error(data.error || ('HTTP ' + res.status));
     renderFeedback(data, it);
   } catch (e) {
     if (box) box.innerHTML = '<div class="ai-card ai-err">批改失敗：' + esc(e.message) +
-      '<br><span style="color:var(--text3)">（可能是後端還沒設定金鑰，或網路問題）</span></div>';
+      '<br><span style="color:var(--text3)">（可能是網路問題，稍後再試）</span></div>';
   } finally {
     if (btn) { btn.disabled = false; btn.textContent = '🤖 重新批改'; }
   }
+}
+// AI 批改是付費功能：沒有效碼時顯示解鎖卡（練習工具本身免費）。
+function showPaywall(wrong) {
+  const box = document.getElementById('ai-feedback');
+  if (!box) return;
+  box.innerHTML =
+    '<div class="ai-card">' +
+    '<div class="ai-tag">🔒 AI 口說批改 · 付費功能</div>' +
+    '<div style="font-size:13px;color:var(--text2);line-height:1.7;margin-bottom:12px">' +
+    '練習工具全部免費；<b style="color:var(--text)">AI 逐句批改口說＋發音分析</b>是付費功能。<br>' +
+    '已購買請輸入存取碼（在你的 email 裡）。</div>' +
+    '<input id="pw-code" placeholder="ECHO-XXXXXX" autocomplete="off" autocapitalize="characters" ' +
+    'style="width:100%;padding:12px;border-radius:10px;border:1px solid var(--border);background:var(--surface2);color:var(--text);font-size:15px;text-align:center;text-transform:uppercase;letter-spacing:1px;outline:none">' +
+    '<button class="b ai-btn" style="width:100%;margin-top:10px" onclick="applyCode()">解鎖 AI 批改</button>' +
+    '<div id="pw-err" style="color:var(--red);font-size:12px;margin-top:8px;min-height:15px;font-weight:700">' +
+    (wrong ? '存取碼無效，請確認 email 裡的碼' : '') + '</div>' +
+    '<a href="unlock/all.html" target="_blank" rel="noopener" style="display:block;text-align:center;margin-top:6px;color:var(--accent);font-size:13px;text-decoration:none">還沒有碼？看方案 →</a>' +
+    '</div>';
+  const inp = document.getElementById('pw-code');
+  if (inp) { inp.focus(); inp.addEventListener('keydown', function(e){ if(e.key==='Enter') applyCode(); }); }
+}
+function applyCode() {
+  const inp = document.getElementById('pw-code');
+  const code = ((inp && inp.value) || '').trim().toUpperCase();
+  if (!code) return;
+  localStorage.setItem('lph_access_code', code);
+  gradeMine();  // 重試；碼錯後端仍回 402 → 再顯示解鎖卡
 }
 const DUTCH_SOUND_RULES = [
   { sound: 'ui', re: /ui/i, tip: '嘴巴先圓再往前滑，不要念成英文 ui。' },
