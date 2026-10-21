@@ -174,7 +174,7 @@ function chkCard(i){
   x.setRequestHeader('Authorization','Bearer '+k);
   x.setRequestHeader('Content-Type','application/json');
   x.onload=function(){try{r.innerHTML=JSON.parse(x.responseText).choices[0].message.content.replace(/\n/g,'<br>')}catch(e){r.innerHTML='❌'}};
-  x.send(JSON.stringify({model:'gpt-4.1-nano',messages:[{role:'user',content:`荷蘭文A2教練。考題：${c.question}，模板：${c.template}，學生回答：${inp}。繁體中文簡短：1.✅或❌ 2.有沒有回答所有問題點 3.文法對嗎 4.更好的寫法`}],max_tokens:300}));
+  x.send(JSON.stringify({model:'gpt-5-nano',messages:[{role:'user',content:`荷蘭文A2教練。考題：${c.question}，模板：${c.template}，學生回答：${inp}。繁體中文簡短：1.✅或❌ 2.有沒有回答所有問題點 3.文法對嗎 4.更好的寫法`}],max_tokens:300}));
 }
 
 // ── 考題 Tab ──
