@@ -797,7 +797,7 @@
 
 <script>
 // ── Configuration ──
-const OPENAI_MODEL = 'gpt-5-nano'; // Model for AI explanations (changed from deprecated gpt-4.1-nano)
+const OPENAI_MODEL = 'gpt-6-luna'; // Model for AI explanations (reasoning model: use max_completion_tokens + reasoning_effort)
 
 // ── Data (injected by generator) ──
 const segments = {{SEGMENTS_JSON}};
@@ -2395,7 +2395,8 @@ function doExplain(idx, apiKey) {
   xhr.send(JSON.stringify({
     model: OPENAI_MODEL,
     messages: [{ role: 'user', content: prompt }],
-    max_tokens: 800,
+    max_completion_tokens: 2000,
+    reasoning_effort: 'low',
   }));
 }
 

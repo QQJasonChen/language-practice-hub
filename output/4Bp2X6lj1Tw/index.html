@@ -797,7 +797,7 @@
 
 <script>
 // ── Configuration ──
-const OPENAI_MODEL = 'gpt-5-nano'; // Model for AI explanations (changed from deprecated gpt-4.1-nano)
+const OPENAI_MODEL = 'gpt-6-luna'; // Model for AI explanations (reasoning model: use max_completion_tokens + reasoning_effort)
 
 // ── Data (injected by generator) ──
 const segments = [{"text": "Zra heeft op internet een boek besteld.", "translation": "Zra 在網路上下訂了一本書。", "start": 0.0, "end": 2.88}, {"text": "Ze belt naar de klantenservice.", "translation": "她打電話給客服中心。", "start": 4.4, "end": 6.12}, {"text": "Lees eerst de vraag, luister daarna naar de tekst.", "translation": "請先閱讀問題，然後聽取內容。", "start": 7.5, "end": 11.46}, {"text": "Goedendag en welkom bij de klantenservice van Boekenwinkel.nl.", "translation": "您好，歡迎來到 Boekenwinkel.nl 的客服中心。", "start": 25.3, "end": 30.42}, {"text": "Om u zo goed mogelijk te kunnen helpen, vragen we u een keuze te maken uit één van de volgende opties.", "translation": "為了盡可能幫助您，我們請您從以下選項中做出選擇。", "start": 31.48, "end": 37.4}, {"text": "Wilt u een boek bestellen? Kies 1.", "translation": "您想訂購一本書嗎？請按 1。", "start": 38.4, "end": 41.6}, {"text": "Wilt u een bestelling veranderen? Kies 2.", "translation": "您想修改訂單嗎？請按 2。", "start": 42.88, "end": 45.9}, {"text": "Wilt u een bestelling annuleren? Kies 3.", "translation": "您想取消訂單嗎？請按 3。", "start": 47.24, "end": 50.32}, {"text": "Heeft u een andere vraag en wilt u één van onze medewerkers spreken? Kies 4.", "translation": "您有其他問題想與我們的員工通話嗎？請按 4。", "start": 51.4, "end": 56.38}, {"text": "Wij streven naar een zo goed mogelijke service. Daarom kan het zijn dat uw gesprek wordt opgenomen.", "translation": "我們致力提供最佳的服務，因此您的通話可能會被錄音。", "start": 57.46, "end": 63.08}, {"text": "Sra wil liever een ander boek bestellen.", "translation": "Sra 想訂購別的書。", "start": 65.36, "end": 68.16}, {"text": "Welk nummer moet ze dan kiezen? 1, 2, 3, of 4?", "translation": "那她應該按哪個號碼？1、2、3 還是 4？", "start": 69.64, "end": 75.48}];
@@ -2395,7 +2395,8 @@ function doExplain(idx, apiKey) {
   xhr.send(JSON.stringify({
     model: OPENAI_MODEL,
     messages: [{ role: 'user', content: prompt }],
-    max_tokens: 800,
+    max_completion_tokens: 2000,
+    reasoning_effort: 'low',
   }));
 }
 
