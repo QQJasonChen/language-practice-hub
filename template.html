@@ -796,6 +796,9 @@
 </div>
 
 <script>
+// ── Configuration ──
+const OPENAI_MODEL = 'gpt-6-luna'; // Model for AI explanations (reasoning model: use max_completion_tokens + reasoning_effort)
+
 // ── Data (injected by generator) ──
 const segments = {{SEGMENTS_JSON}};
 const questions = {{QUESTIONS_JSON}};
@@ -2390,9 +2393,10 @@ function doExplain(idx, apiKey) {
     document.getElementById('explain-content').innerHTML = `<div style="color:var(--accent)">❌ 網路錯誤（status: ${xhr.status}）</div>`;
   };
   xhr.send(JSON.stringify({
-    model: 'gpt-4.1-nano',
+    model: OPENAI_MODEL,
     messages: [{ role: 'user', content: prompt }],
-    max_tokens: 800,
+    max_completion_tokens: 2000,
+    reasoning_effort: 'low',
   }));
 }
 
